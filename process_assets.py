@@ -51,6 +51,7 @@ def parseStory(filePath):
         if obj.type in ['MonoBehaviour']:
             data = obj.read()
             tree = data.type_tree
+            #json.dump(tree, open('test.json', 'w', encoding='utf-8'), ensure_ascii=False)
             outPath = OUTPUT + generateName(filePath)
             os.makedirs(os.path.dirname(outPath), exist_ok=True)
             with open(outPath, 'w', encoding='utf-8-sig') as o:
@@ -108,9 +109,12 @@ def generateName(filepath):
         episode = ''
         questStoryEventData = {}
         try:
-            eventName = textlabel[('QUEST_GROUP_NAME_%s') % eventID] #?EVENT_NAME_
+            eventName = textlabel[('EVENT_NAME_%s') % eventID]
         except KeyError:
-            eventName = eventID
+            try:
+                eventName = textlabel[('QUEST_GROUP_NAME_%s') % eventID]
+            except KeyError:
+                eventName = eventID
         try:
             storyName = textlabel[('STORY_QUEST_NAME_%s') % fileName]
         except KeyError:
