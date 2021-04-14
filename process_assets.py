@@ -43,7 +43,18 @@ storyDataJson = {
 }
 textlabelJson = json.load(open(masterJSONPath + 'TextLabel.json', encoding='utf8'))
 charadataJson = json.load(open(masterJSONPath + 'CharaData.json', encoding='utf8'))
-dragondataJson = json.load(open(masterJSONPath + 'DragonData.json', encoding='utf8'))      
+dragondataJson = json.load(open(masterJSONPath + 'DragonData.json', encoding='utf8'))
+funcDataJson = {}
+
+def retrieveStoryJson(input):
+    env = UnityPy.load(input)
+    for obj in env.objects:
+        if obj.type in ['MonoBehaviour']:
+            data = obj.read()
+            tree = data.type_tree
+            dic = dict(zip(tree['functions'][0]['variables']['entriesKey'], tree['functions'][0]['variables']['entriesValue']))
+            #json.dump(dic, open('funcData.json', 'w', encoding='utf-8'), indent=4, ensure_ascii=False)
+            return dic
 
 def parseStory(filePath):
     env = UnityPy.load(filePath)
@@ -51,14 +62,20 @@ def parseStory(filePath):
         if obj.type in ['MonoBehaviour']:
             data = obj.read()
             tree = data.type_tree
-            #json.dump(tree, open('test.json', 'w', encoding='utf-8'), ensure_ascii=False)
             outPath = OUTPUT + generateName(filePath)
             os.makedirs(os.path.dirname(outPath), exist_ok=True)
-            with open(outPath, 'w', encoding='utf-8-sig') as o:
-                o.write(parseMono(tree))
-                o.close()
+            json.dump(tree, open(outPath, 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
+            #with open(outPath, 'w', encoding='utf-8-sig') as o:
+            #    o.write(parseMono(tree))
+            #    o.close()
                 
 def parseMono(tree):
+    # JSON:    {story_content: [{speaker_id:[], speaker_name, context}]}
+    for func in tree['functions']: # multiple functions  e.g.2082806
+        for command in func['commandList']:
+            commandType = command['command']
+            commandData = command['args']
+    '''
     res = ''
     olTitle = ''
     for func in tree['functions']:
@@ -82,9 +99,8 @@ def parseMono(tree):
             elif commandType == 'print':
                 res = res + commandData[0].replace('{player_name}', playerNameCHS) + ':\n'
                 res = res + '\t' + commandData[1].replace('\\n', '\n\t').replace('{player_name}', playerNameCHS) + '\n'
-            # else:
-            #     continue
     return res
+    '''
 
 def generateName(filepath):
     res = ''
@@ -94,7 +110,7 @@ def generateName(filepath):
             castleStoryName = textlabel[('STORY_CASTLE_NAME_%s') % fileName]
         except KeyError:
             castleStoryName = fileName
-        res = f'/castlestory/{fileName}.txt'
+        res = f'/castlestory/{fileName}.json'
         # JSON format    id: {story_name, path}
         try:
             storyDataJson['castlestory'][fileName]
@@ -123,7 +139,7 @@ def generateName(filepath):
             episode = textlabel[('STORY_QUEST_TITLE_%s') % fileName]
         except KeyError:
             episode = fileName[5:]
-        res = f'/queststory_event/{fileName}.txt'
+        res = f'/queststory_event/{fileName}.json'
         #JSON format    event_id: {event_name, content: [{story_id, episode, story_name, path}]}
         try:
             storyDataJson['queststory_event'][eventID]
@@ -154,7 +170,7 @@ def generateName(filepath):
             storyName = textlabel[('STORY_QUEST_NAME_%s') % fileName]
         except KeyError:
             storyName = fileName 
-        res = f'/queststory_main/{fileName}.txt'
+        res = f'/queststory_main/{fileName}.json'
         # chapter_id: {chapter_name, content: [{story_id, title, story_name, path}]}
         try:
             storyDataJson['queststory_main'][chapterID]
@@ -193,7 +209,7 @@ def generateName(filepath):
             storyName = textlabel[f'STORY_UNIT_NAME_{fileName}']
         except KeyError:
             storyName = fileName
-        res = f'/unitstory_chara/{fileName}.txt'
+        res = f'/unitstory_chara/{fileName}.json'
         # chara_id: {chara_name, content: [{story_id, episode, story_name, path}]}
         try:
             storyDataJson['unitstory_chara'][charaID]
@@ -212,7 +228,7 @@ def generateName(filepath):
         dragonID = fileName[:8]
         dragonBaseID = fileName[:6] # the unique one
         unitStoryDragonData = {}
-        # dragonVariationId = fileName[6:8] # sadly the dragon alt wont get a different VariationId
+        # dragonVariationId = fileName[6:8] # sadly the dragon alt wont get a different VariationId except some dragon npc
         for dd in dragondataJson:
             if dragondataJson[dd]['_BaseId'] == int(dragonBaseID):
                 try:
@@ -225,7 +241,7 @@ def generateName(filepath):
             storyName = textlabel[('STORY_UNIT_NAME_%s') % fileName]
         except KeyError:
             storyName = fileName
-        res = f'/unitstory_dragon/{fileName}.txt'
+        res = f'/unitstory_dragon/{fileName}.json'
         # dragon_id: {dragon_name, content: [{story_id, story_name, path}]}
         try:
             storyDataJson['unitstory_dragon'][dragonID]
@@ -242,6 +258,7 @@ def generateName(filepath):
 def main():
     for tid in textlabelJson:
         textlabel[textlabelJson[tid]['_Id']] = textlabelJson[tid]['_Text']
+    funcDataJson = retrieveStoryJson('assets/story/function')
     for root, dirs, files in os.walk(INPUT, topdown=False):
         if files and os.path.basename(root) in support_path_format:
             pbar = tqdm.tqdm(files)
