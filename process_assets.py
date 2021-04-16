@@ -18,6 +18,10 @@ import UnityPy
 ROOT = os.path.dirname(os.path.realpath(__file__))
 #--CONFIG--#
 playerNameCHS = '尤蒂尔'
+playerName = {
+    'zh_cn':'尤蒂尔'
+}
+lang = 'zh_cn'
 masterJSONPath = 'json/'
 storyDir = './stories'
 INPUT = os.path.join(ROOT, 'assets')
@@ -64,17 +68,57 @@ def parseStory(filePath):
             tree = data.type_tree
             outPath = OUTPUT + generateName(filePath)
             os.makedirs(os.path.dirname(outPath), exist_ok=True)
-            json.dump(tree, open(outPath, 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
+            json.dump(parseMono(tree), open(outPath, 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
             #with open(outPath, 'w', encoding='utf-8-sig') as o:
             #    o.write(parseMono(tree))
             #    o.close()
                 
 def parseMono(tree):
-    # JSON:    {story_content: [{speaker_id:[], speaker_name, context}]}
+    # JSON:    {story_id, story_icon, outline: {title, content}, story_content: [{speaker_id:[], speaker_name, context, voice_line, book_image}]}
+    res = {
+        'story_id':'',
+        'story_icon':'',
+        'outline':{
+            'title':'',
+            'content':''
+        },
+        'story_content':[]
+    }
     for func in tree['functions']: # multiple functions  e.g.2082806
         for command in func['commandList']:
             commandType = command['command']
             commandData = command['args']
+            if commandType in ['telop', 'add_book_text', 'print']:# printable text function
+                content = {
+                    'speaker_id':[],
+                    'speaker_name': '',
+                    'context':'',
+                    'voice_line':'',
+                    'book_image':''
+                }
+                if commandType == 'telop':# up to four lines(args) of telop
+                    content['speaker_name'] = commandType
+                    for line in commandData:
+                        content['context'] = f'{content["context"]}\\n{line}'
+                    content['context'] = content['context'].replace('{player_name}', playerName[lang])
+                    res['story_content'].append(content)
+                elif commandType == 'add_book_text':
+                    content['speaker_name'] = commandType
+                    content['context'] = commandData[0].replace('{player_name}', playerName[lang])
+                    if len(commandData) == 2:
+                        content['book_image'] = commandData[1]
+                    res['story_content'].append(content)
+                elif commandType == 'print':
+                    content['speaker_name'] = commandData[0].replace('{player_name}', playerName[lang])
+                    content['context'] = commandData[1].replace('{player_name}', playerName[lang])
+                    if len(commandData) == 3:
+                        content['voice_line'] = commandData[2]
+                    res['story_content'].append(content)
+            elif commandType == 'OL_TITLE':
+                res['outline']['title'] = commandData
+            elif commandType == 'outline':
+                res['outline']['content'] = commandData
+    return res
     '''
     res = ''
     olTitle = ''
@@ -266,7 +310,7 @@ def main():
                 pbar.set_description('processing %s...' % f)
                 src = os.path.realpath(os.path.join(root, f))
                 parseStory(src)
-    json.dump(storyDataJson, open('index.json', 'w', encoding='utf-8'), ensure_ascii=False)
+    json.dump(storyDataJson, open('index.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':
     main()
