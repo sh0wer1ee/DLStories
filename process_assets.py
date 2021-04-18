@@ -26,6 +26,7 @@ masterJSONPath = 'json/'
 storyDir = './stories'
 INPUT = os.path.join(ROOT, 'assets')
 OUTPUT = os.path.join(ROOT, 'stories')
+TEST = os.path.join(ROOT, 'json_research')
 support_path_format = [
     'story.castlestory',
     'story.queststory.event',
@@ -67,7 +68,9 @@ def parseStory(filePath):
             data = obj.read()
             tree = data.type_tree
             outPath = OUTPUT + generateName(filePath)
+            #outPath = TEST + generateName(filePath)
             os.makedirs(os.path.dirname(outPath), exist_ok=True)
+            #json.dump(tree, open(outPath, 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
             json.dump(parseMono(tree), open(outPath, 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
             #with open(outPath, 'w', encoding='utf-8-sig') as o:
             #    o.write(parseMono(tree))
@@ -85,6 +88,7 @@ def parseMono(tree):
         'story_content':[]
     }
     for func in tree['functions']: # multiple functions  e.g.2082806
+        speaker_id = []
         for command in func['commandList']:
             commandType = command['command']
             commandData = command['args']
@@ -96,7 +100,7 @@ def parseMono(tree):
                     'voice_line':'',
                     'book_image':''
                 }
-                if commandType == 'telop':# up to four lines(args) of telop
+                if commandType == 'telop':
                     content['speaker_name'] = commandType
                     for line in commandData:
                         content['context'] = f'{content["context"]}\\n{line}'
@@ -113,11 +117,23 @@ def parseMono(tree):
                     content['context'] = commandData[1].replace('{player_name}', playerName[lang])
                     if len(commandData) == 3:
                         content['voice_line'] = commandData[2]
+                    content['speaker_id'] = speaker_id
                     res['story_content'].append(content)
             elif commandType == 'OL_TITLE':
                 res['outline']['title'] = commandData
             elif commandType == 'outline':
                 res['outline']['content'] = commandData
+            else:
+                # some functions may contain speaker id(s), but too many functions exist
+                temp_speaker_id = []
+                for arg in commandData:
+                    if arg.startswith('c') or arg.startswith('d'):
+                        try:
+                            temp_speaker_id.append(funcDataJson[arg])
+                        except KeyError:
+                            pass
+                if len(temp_speaker_id) > 0:
+                    speaker_id = temp_speaker_id
     return res
     '''
     res = ''
@@ -300,6 +316,7 @@ def generateName(filepath):
     return res
 
 def main():
+    global funcDataJson
     for tid in textlabelJson:
         textlabel[textlabelJson[tid]['_Id']] = textlabelJson[tid]['_Text']
     funcDataJson = retrieveStoryJson('assets/story/function')

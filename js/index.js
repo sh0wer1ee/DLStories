@@ -27,7 +27,7 @@ function loadStory(story_path) {
                     /*Dialogue here*/
                     var inner = '';
                     inner += '<div id="dialogue">';
-                    inner += '<div id="speaker_icon"><img src="https://gitee.com/sh0wer1ee/dlicons/raw/master/icons/DummyIcon.png"/></div>'; //MISSING
+                    inner += `<div id="speaker_icon"><img src="../icons/${content.speaker_id[0]}.png"/></div>`; //MISSING
                     inner += `<div id="speaker_name">${content.speaker_name}</div>`;
                     inner += `<div id="speak_content">${content.context.replace(/\\n/g, '<br>')}</div>`;
                     inner += '</div>';
