@@ -1,51 +1,26 @@
-const params = new URLSearchParams(window.location.search);
-const story_type = params.get('type');
-const story_id = params.get('id');
-const story_path = params.get('path');
+/*
+https://stackoverflow.com/questions/7862233/twitter-bootstrap-tabs-go-to-specific-tab-on-page-reload-or-hyperlink
+*/
 
-document.title = `${story_type} ${story_id}`;
-var article = document.getElementById('story');
-
-if (!story_path) {
-    loadByTypeId(story_type, story_id);
-} else {
-    loadStory(story_path);
+// Javascript to enable link to tab
+var hash = location.hash.replace(/^#/, ''); // ^ means starting, meaning only match the first hash
+if (hash) {
+    $('.nav-tabs a[href="#' + hash + '"]').tab('show');
 }
+// Change hash for page-reload
+$('.nav-tabs a').on('shown.bs.tab', function(e) {
+    window.location.hash = e.target.hash;
+})
 
-function loadStory(story_path) {
-    fetch(story_path)
-        .then(function(response) {
-            if (!response.ok) {
-                throw Error(response.statusText);
-            }
-            return response;
-        })
-        .then(response => response.json())
-        .then(json => {
-            json.story_content.forEach(function(content) {
-                if ($.inArray(content.speaker_name, ['add_book_text', 'telop', 'SYS']) == -1) {
-                    /*Dialogue here*/
-                    var inner = '';
-                    inner += '<div id="dialogue">';
-                    inner += `<div id="speaker_icon"><img src="../icons/${content.speaker_id[0]}.png"/></div>`; //MISSING
-                    inner += `<div id="speaker_name">${content.speaker_name}</div>`;
-                    inner += `<div id="speak_content">${content.context.replace(/\\n/g, '<br>')}</div>`;
-                    inner += '</div>';
-                    article.innerHTML += inner;
-                } else {
-                    /*Narration here*/
-                    article.innerHTML += `<div id="narrator">${content.context.replace(/\\n/g, '<br>')}</div><br>`;
-                }
-            });
-        }).catch(function(error) {
-            console.log('failed while loading story script.');
-        });
-}
+var cs = document.getElementById("castlestory");
+var qs_e = document.getElementById("queststory_event");
+var qs_m = document.getElementById("queststory_main");
+var us_c = document.getElementById("unitstory_chara");
+var us_d = document.getElementById("unitstory_dragon");
 
-function loadByTypeId(type, id) {
-    let story_path = `../stories/${type}/${id}.json`;
-    loadStory(story_path);
-    /*
+loadIndexJson();
+
+function loadIndexJson() {
     fetch('./index.json')
         .then(function(response) {
             if (!response.ok) {
@@ -55,30 +30,74 @@ function loadByTypeId(type, id) {
         })
         .then(response => response.json())
         .then(json => {
-            console.log(json[type])
-            if (json.hasOwnProperty(type)) {
-                switch (type) {
-                    case 'castlestory':
-                        if (json[type].hasOwnProperty(id)) {
-                            loadStory(json[type][id].path);
-                            return;
-                        }
-                        break;
-                }
-            }
-            console.log('file not exists.');
+            loadCastleStory(json.castlestory);
+            loadQuestStoryEvent(json.queststory_event);
+            loadQuestStoryMain(json.queststory_main);
+            loadUnitStoryChara(json.unitstory_chara);
+            loadunitStoryDragon(json.unitstory_dragon);
         }).catch(function(error) {
             console.log('failed while loading index.json.');
         });
-    */
 }
 
-function getTypeByID(id) {
-    /*
-    castlestory: 1**** + ** (len: 7)       <-
-    queststory_event: 2**** + ** (len: 7)    |= same format so no
-    queststory_main: 1**** + ** (len: 7)   <-
-    unitstory_chara: 1******* + ** (len: 9)
-    unitstory_dragon: 2******* + ** (len: 9)
-    */
+function loadCastleStory(json) {
+    var inner = '';
+    for (var key in json) {
+        inner += `<a href="./stories/view.html?type=castlestory&id=${key}">${json[key].story_name}</a><br>`;
+    }
+    cs.innerHTML = inner;
+    console.log('castle stories loaded.');
+}
+
+function loadQuestStoryEvent(json) {
+    var inner = '';
+    for (var key in json) {
+        inner += `<span>${json[key].event_name}</span><br>`
+        json[key].content.forEach(story => {
+            inner += `<a href="./stories/view.html?type=queststory_event&id=${story.story_id}">${story.episode} ${story.story_name}</a><br>`;
+        });
+    }
+    qs_e.innerHTML = inner;
+    console.log('event stories loaded.');
+}
+
+function loadQuestStoryMain(json) {
+    var inner = '';
+    for (var key in json) {
+        inner += `<span>${json[key].chapter_name}</span><br>`
+        json[key].content.forEach(story => {
+            if (story.story_name) {
+                inner += `<a href="./stories/view.html?type=queststory_main&id=${story.story_id}">${story.title} ${story.story_name}</a><br>`;
+            } else {
+                inner += `<a href="./stories/view.html?type=queststory_main&id=${story.story_id}">${story.story_id}</a><br>`;
+            }
+
+        });
+    }
+    qs_m.innerHTML = inner;
+    console.log('main stories loaded.');
+}
+
+function loadUnitStoryChara(json) {
+    var inner = '';
+    for (var key in json) {
+        inner += `<span>${json[key].chara_name}</span><br>`
+        json[key].content.forEach(story => {
+            inner += `<a href="./stories/view.html?type=unitstory_chara&id=${story.story_id}">${story.episode} ${story.story_name}</a><br>`;
+        });
+    }
+    us_c.innerHTML = inner;
+    console.log('chara stories loaded.');
+}
+
+function loadunitStoryDragon(json) {
+    var inner = '';
+    for (var key in json) {
+        inner += `<span>${json[key].dragon_name}</span><br>`
+        json[key].content.forEach(story => {
+            inner += `<a href="./stories/view.html?type=unitstory_dragon&id=${story.story_id}">${story.story_name}</a><br>`;
+        });
+    }
+    us_d.innerHTML = inner;
+    console.log('dragon stories loaded.');
 }
