@@ -72,9 +72,6 @@ def parseStory(filePath):
             os.makedirs(os.path.dirname(outPath), exist_ok=True)
             #json.dump(tree, open(outPath, 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
             json.dump(parseMono(tree), open(outPath, 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
-            #with open(outPath, 'w', encoding='utf-8-sig') as o:
-            #    o.write(parseMono(tree))
-            #    o.close()
                 
 def parseMono(tree):
     # JSON:    {story_id, story_icon, outline: {title, content}, story_content: [{speaker_id:[], speaker_name, context, voice_line, book_image}]}
@@ -129,38 +126,17 @@ def parseMono(tree):
                 for arg in commandData:
                     if arg.startswith('c') or arg.startswith('d'):
                         try:
-                            temp_speaker_id.append(funcDataJson[arg])
+                            id_str = funcDataJson[arg]
+                            if id_str.endswith('b') or id_str.endswith('c'):
+                                id_str = id_str[:-1]
+                            if len(id_str) == 12 and id_str.count('_') == 2:
+                                id_str = '_'.join([id_str.split('_')[0], id_str.split('_')[1]])
+                            temp_speaker_id.append(id_str)
                         except KeyError:
                             pass
                 if len(temp_speaker_id) > 0:
                     speaker_id = temp_speaker_id
     return res
-    '''
-    res = ''
-    olTitle = ''
-    for func in tree['functions']:
-        for command in func['commandList']:
-            commandType = command['command']
-            commandData = command['args']
-            if commandType == 'OL_TITLE':
-                olTitle = commandData[0]
-                res = res + olTitle + ':\n'
-            elif commandType == 'outline':
-                if olTitle != '':
-                    res = res + '\t' + commandData[0].replace('\\n', '\n\t').replace('{player_name}', playerNameCHS) + '\n'
-            elif commandType == 'telop':
-                res = res + '\n'
-                for arg in commandData:
-                    if arg.strip() != '':
-                        res = res + '\t' + arg + '\n'
-                res = res + '\n'
-            elif commandType == 'add_book_text':
-                res = res + '\t' + commandData[0].replace('\\n', '\n\t').replace('{player_name}', playerNameCHS) + '\n\n'
-            elif commandType == 'print':
-                res = res + commandData[0].replace('{player_name}', playerNameCHS) + ':\n'
-                res = res + '\t' + commandData[1].replace('\\n', '\n\t').replace('{player_name}', playerNameCHS) + '\n'
-    return res
-    '''
 
 def generateName(filepath):
     res = ''
