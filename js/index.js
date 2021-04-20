@@ -18,7 +18,29 @@ var qs_m = document.getElementById("queststory_main");
 var us_c = document.getElementById("unitstory_chara");
 var us_d = document.getElementById("unitstory_dragon");
 
+lastCommit();
 loadIndexJson();
+
+function lastCommit() {
+    fetch('https://gitee.com/api/v5/repos/sh0wer1ee/dlstories/commits')
+        .then(function(response) {
+            if (!response.ok) {
+                throw Error(response.statusText);
+            }
+            return response;
+        })
+        .then(response => response.json())
+        .then(json => {
+            latestTime = json[0].commit.author.date;
+            var d = new Date(latestTime);
+            var datestring = (d.getFullYear() + '/' + ('0' + (d.getMonth() + 1)).slice(-2) + '/' +
+                ('0' + d.getDate()).slice(-2) + ' ' + ('0' + d.getHours()).slice(-2) + ':' + ('0' + d.getMinutes()).slice(-2));
+            document.getElementById("update-time").innerText = `最近更新：${datestring}`;
+        }).catch(function(error) {
+            console.log(error);
+            document.getElementById("update-time").innerText = `最近更新：N/A`;
+        });
+}
 
 function loadIndexJson() {
     fetch('./index.json')
@@ -54,7 +76,9 @@ function loadQuestStoryEvent(json) {
     for (var key in json) {
         inner += `<span>${json[key].event_name}</span><br>`
         json[key].content.forEach(story => {
-            inner += `<a href="./stories/view.html?type=queststory_event&id=${story.story_id}">${story.episode} ${story.story_name}</a><br>`;
+            if (story.story_id.charAt(5) != '5') {
+                inner += `<a href="./stories/view.html?type=queststory_event&id=${story.story_id}">${story.episode} ${story.story_name}</a><br>`;
+            }
         });
     }
     qs_e.innerHTML = inner;
