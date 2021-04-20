@@ -76,7 +76,7 @@ function loadQuestStoryEvent(json) {
     for (var key in json) {
         inner += `<span>${json[key].event_name}</span><br>`
         json[key].content.forEach(story => {
-            if (story.story_id.charAt(5) != '5') {
+            if (story.story_id.charAt(5) != '3' && story.story_id.charAt(5) != '5') {
                 inner += `<a href="./stories/view.html?type=queststory_event&id=${story.story_id}">${story.episode} ${story.story_name}</a><br>`;
             }
         });

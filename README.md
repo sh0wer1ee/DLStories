@@ -6,20 +6,17 @@ A site that lists Dragalia Lost stories (experimental). Raw assets are parsed an
 - [x] Adjust the old parser code
 - [x] Push these stories into html
 - [x] Make a good-looking UI
+- [x] favicon.ico?
 - [ ] Figure out the id mapping
 - [ ] More user-friendly
 - [ ] Collect missing story files
 - [ ] Generate portrait icons (emotion research)
 - [ ] Add voices (copyrights?)
-- [ ] favicon.ico?
 ## Current missing story files
 | NAME | ID1 | ID2 | ID3 | ID4 |
 |----------------------------|---|---|---|---|
-| 金银岛大冒险！| 20411 | 20421 |   |   |
-| Melodious Summer♪ | 20810 |   |   |   |
-| 克洛诺斯～轮回的命运指针～ | 20413 | 20422 | **20427** |   |
-| 猫鼠大战闹新春 | 20417 | 20426 |   |   |
-| 暗影下的少女 | 21303 |   |   |   |
+|   |   |   |   |   |
+Currently all the story scripts are found.
 ## Some Memos
 ### Command type (Common)(WIP)
 - Text related

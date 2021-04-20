@@ -67,16 +67,18 @@ def parseStory(filePath):
         if obj.type in ['MonoBehaviour']:
             data = obj.read()
             tree = data.type_tree
-            outPath = OUTPUT + generateName(filePath)
+            filename, storyname = generateName(filePath)
+            outPath = OUTPUT + filename
             #outPath = TEST + generateName(filePath)
             os.makedirs(os.path.dirname(outPath), exist_ok=True)
             #json.dump(tree, open(outPath, 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
-            json.dump(parseMono(tree), open(outPath, 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
+            json.dump(parseMono(tree, storyname), open(outPath, 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
                 
-def parseMono(tree):
-    # JSON:    {story_id, story_icon, outline: {title, content}, story_content: [{speaker_id:[], speaker_name, context, voice_line, book_image}]}
+def parseMono(tree, storyname):
+    # JSON:    {story_id, story_name, story_icon, outline: {title, content}, story_content: [{speaker_id:[], speaker_name, context, voice_line, book_image}]}
     res = {
         'story_id':'',
+        'story_name':f'{storyname}',
         'story_icon':'',
         'outline':{
             'title':'',
@@ -140,6 +142,7 @@ def parseMono(tree):
 
 def generateName(filepath):
     res = ''
+    res_name = ''
     fileName = os.path.basename(filepath)
     if 'story.castlestory' in filepath:
         try:
@@ -154,6 +157,7 @@ def generateName(filepath):
             storyDataJson['castlestory'][fileName] = {}
         storyDataJson['castlestory'][fileName]['story_name'] = castleStoryName
         storyDataJson['castlestory'][fileName]['path'] = f'{storyDir}{res}'
+        res_name = f'城堡剧情 {castleStoryName}'
     elif 'story.queststory.event' in filepath:
         eventID = fileName[:5]
         eventName = ''
@@ -174,7 +178,8 @@ def generateName(filepath):
         try:
             episode = textlabel[('STORY_QUEST_TITLE_%s') % fileName]
         except KeyError:
-            episode = fileName[5:]
+            #episode = fileName[5:]
+            episode = ''
         res = f'/queststory_event/{fileName}.json'
         #JSON format    event_id: {event_name, content: [{story_id, episode, story_name, path}]}
         try:
@@ -187,6 +192,7 @@ def generateName(filepath):
         questStoryEventData['episode'] = episode
         questStoryEventData['story_name'] = storyName
         questStoryEventData['path'] = f'{storyDir}{res}'
+        res_name = f'{eventName}{episode} {storyName}'
         storyDataJson['queststory_event'][eventID]['content'].append(questStoryEventData)
     elif 'story.queststory.main' in filepath:
         chapterID = fileName[:5]
@@ -218,6 +224,7 @@ def generateName(filepath):
         questStoryMainData['title'] = title
         questStoryMainData['story_name'] = storyName
         questStoryMainData['path'] = f'{storyDir}{res}'
+        res_name = f'{chapterName} {title} {storyName}'
         storyDataJson['queststory_main'][chapterID]['content'].append(questStoryMainData)
     elif 'story.unitstory.chara' in filepath:
         charaName = ''
@@ -254,9 +261,11 @@ def generateName(filepath):
             storyDataJson['unitstory_chara'][charaID]['chara_name'] = charaName
             storyDataJson['unitstory_chara'][charaID]['content'] = []
         unitStoryCharaData['story_id'] = fileName
-        unitStoryCharaData['episode'] = textlabel[f'STORY_QUEST_TITLE_EP{episode}']
+        episode_name = textlabel[f'STORY_QUEST_TITLE_EP{episode}']
+        unitStoryCharaData['episode'] = episode_name
         unitStoryCharaData['story_name'] = storyName
         unitStoryCharaData['path'] = f'{storyDir}{res}'
+        res_name = f'{charaName} {episode_name} {storyName}'
         storyDataJson['unitstory_chara'][charaID]['content'].append(unitStoryCharaData)
     elif 'story.unitstory.dragon' in filepath:
         dragonName = ''
@@ -288,8 +297,9 @@ def generateName(filepath):
         unitStoryDragonData['story_id'] = fileName
         unitStoryDragonData['story_name'] = storyName
         unitStoryDragonData['path'] = f'{storyDir}{res}'
+        res_name = f'{dragonName} {storyName}'
         storyDataJson['unitstory_dragon'][dragonID]['content'].append(unitStoryDragonData)
-    return res
+    return res, res_name
 
 def main():
     global funcDataJson

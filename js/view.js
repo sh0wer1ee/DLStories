@@ -3,7 +3,6 @@ const story_type = params.get('type');
 const story_id = params.get('id');
 const story_path = params.get('path');
 
-document.title = `${story_type} ${story_id}`;
 var article = document.getElementById('story');
 
 if (!story_path) {
@@ -22,6 +21,7 @@ function loadStory(story_path) {
         })
         .then(response => response.json())
         .then(json => {
+            document.title = `${json.story_name}`;
             article.innerHTML += `<div id="narrator"><a href="../index.html#${story_type}">返回首页</a></div>`;
             json.story_content.forEach(function(content) {
                 if ($.inArray(content.speaker_name, ['add_book_text', 'telop', 'SYS']) == -1) {
