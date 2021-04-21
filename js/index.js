@@ -65,8 +65,10 @@ function loadIndexJson() {
 function loadCastleStory(json) {
     var inner = '';
     for (var key in json) {
-        inner += '<div class="castlestory-items">';
-        inner += `<a href="./stories/view.html?type=castlestory&id=${key}">${json[key].story_name}</a>`;
+        inner += `<div class="castlestory-items">`;
+        inner += `<a href="./stories/view.html?type=castlestory&id=${key}">`;
+        inner += `<img src="./icons/castlestory/${key}.png" onerror="if (this.src != './icons/DummyIcon.png') this.src = './icons/DummyIcon.png';"/>`;
+        inner += `<span>${json[key].story_name}</span></a>`;
         inner += '</div>';
     }
     cs.innerHTML = inner;
@@ -83,7 +85,7 @@ function loadQuestStoryEvent(json) {
     var inner = '';
     for (var key in json) {
         inner += '<div class="story-group">';
-        inner += `<div id="story-group-icon"><img src="./icons/DummyIcon.png" onerror="if (this.src != './icons/DummyIcon.png') this.src = './icons/DummyIcon.png';"/></div>`;
+        inner += `<div id="story-group-quest-icon"><img src="./icons/DummyIcon.png" onerror="if (this.src != './icons/DummyIcon.png') this.src = './icons/DummyIcon.png';"/></div>`;
         inner += `<div id="story-group-name">${json[key].event_name}</div>`;
         inner += '<div id="story-group-items">';
         json[key].content.forEach(story => {
@@ -107,7 +109,7 @@ function loadQuestStoryMain(json) {
     var inner = '';
     for (var key in json) {
         inner += '<div class="story-group">';
-        inner += `<div id="story-group-icon"><img src="./icons/DummyIcon.png" onerror="if (this.src != './icons/DummyIcon.png') this.src = './icons/DummyIcon.png';"/></div>`;
+        inner += `<div id="story-group-quest-icon"><img src="./icons/queststory_main/${key}.png" onerror="if (this.src != './icons/DummyIcon.png') this.src = './icons/DummyIcon.png';"/></div>`;
         inner += `<div id="story-group-name">${json[key].chapter_name}</div>`;
         inner += '<div id="story-group-items">';
         json[key].content.forEach(story => {
@@ -133,7 +135,7 @@ function loadUnitStoryChara(json) {
     var inner = '';
     for (var key in json) {
         inner += '<div class="story-group">';
-        inner += `<div id="story-group-icon"><img src="https://gitee.com/sh0wer1ee/dlicons/raw/master/icons/chara/l/${key.substring(0,6)}_${key.substring(6)}_r05.png" onerror="if (this.src != '../icons/DummyIcon.png') this.src = '../icons/DummyIcon.png';"/></div>`;
+        inner += `<div id="story-group-unit-icon"><img src="https://gitee.com/sh0wer1ee/dlicons/raw/master/icons/chara/l/${key.substring(0,6)}_${key.substring(6)}_r05.png" onerror="if (this.src != '../icons/DummyIcon.png') this.src = '../icons/DummyIcon.png';"/></div>`;
         inner += `<div id="story-group-name">${json[key].chara_name}</div>`;
         inner += '<div id="story-group-items">';
         json[key].content.forEach(story => {
@@ -155,7 +157,7 @@ function loadunitStoryDragon(json) {
     var inner = '';
     for (var key in json) {
         inner += '<div class="story-group">';
-        inner += `<div id="story-group-icon"><img src="https://gitee.com/sh0wer1ee/dlicons/raw/master/icons/dragon/l/${key.substring(0,6)}_${key.substring(6)}.png" onerror="if (this.src != '../icons/DummyIcon.png') this.src = '../icons/DummyIcon.png';"/></div>`;
+        inner += `<div id="story-group-unit-icon"><img src="https://gitee.com/sh0wer1ee/dlicons/raw/master/icons/dragon/l/${key.substring(0,6)}_${key.substring(6)}.png" onerror="if (this.src != '../icons/DummyIcon.png') this.src = '../icons/DummyIcon.png';"/></div>`;
         inner += `<div id="story-group-name">${json[key].dragon_name}</div>`;
         inner += '<div id="story-group-items">';
         json[key].content.forEach(story => {
