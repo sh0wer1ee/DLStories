@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="./css/notosanssc.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-    <title>龙约剧情文本</title>
+    <title>失落的龙约 剧情档案馆</title>
 </head>
 
 <body>
@@ -35,15 +35,30 @@
                 </li>
             </ul>
             <div id="myTabContent" class="tab-content">
-                <div id="castlestory" role="tabpanel" aria-labelledby="castlestory" class="tab-pane fade px-4 py-5 show active text-center">
+                <div id="castlestory" role="tabpanel" aria-labelledby="castlestory" class="tab-pane fade px-4 py-5 show active">
+                    <input class="form-control" id="cs-search" type="text" placeholder="关键字搜索">
+                    <div id="castlestory-div">
+                    </div>
                 </div>
-                <div id="queststory_event" role="tabpanel" aria-labelledby="queststory_event" class="tab-pane fade px-4 py-5 text-center">
+                <div id="queststory_event" role="tabpanel" aria-labelledby="queststory_event" class="tab-pane fade py-5">
+                    <input class="form-control" id="qs_e-search" type="text" placeholder="关键字搜索">
+                    <div id="queststory_event-div">
+                    </div>
                 </div>
-                <div id="queststory_main" role="tabpanel" aria-labelledby="queststory_main" class="tab-pane fade px-4 py-5 text-center">
+                <div id="queststory_main" role="tabpanel" aria-labelledby="queststory_main" class="tab-pane fade py-5">
+                    <input class="form-control" id="qs_m-search" type="text" placeholder="关键字搜索">
+                    <div id="queststory_main-div">
+                    </div>
                 </div>
-                <div id="unitstory_chara" role="tabpanel" aria-labelledby="unitstory_chara" class="tab-pane fade px-4 py-5 text-center">
+                <div id="unitstory_chara" role="tabpanel" aria-labelledby="unitstory_chara" class="tab-pane fade py-5">
+                    <input class="form-control" id="us_c-search" type="text" placeholder="关键字搜索">
+                    <div id="unitstory_chara-div">
+                    </div>
                 </div>
-                <div id="unitstory_dragon" role="tabpanel" aria-labelledby="unitstory_dragon" class="tab-pane fade px-4 py-5 text-center">
+                <div id="unitstory_dragon" role="tabpanel" aria-labelledby="unitstory_dragon" class="tab-pane fade py-5">
+                    <input class="form-control" id="us_d-search" type="text" placeholder="关键字搜索">
+                    <div id="unitstory_dragon-div">
+                    </div>
                 </div>
             </div>
             <!-- End rounded tabs -->

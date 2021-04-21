@@ -28,7 +28,7 @@ function loadStory(story_path) {
                     /*Dialogue here*/
                     var inner = '';
                     inner += '<div id="dialogue">';
-                    inner += `<div id="speaker_icon"><img src="../icons/${content.speaker_id[0]}.png" onerror="if (this.src != '../icons/DummyIcon.png') this.src = '../icons/DummyIcon.png';"/></div>`; //MISSING
+                    inner += `<div id="speaker_icon"><img src="../icons/${content.speaker_id[0]}.png" onerror="if (this.src != '../icons/DummyIcon.png') this.src = '../icons/DummyIcon.png';"/></div>`;
                     inner += `<div id="speaker_name">${content.speaker_name}</div>`;
                     inner += `<div id="speak_content">${content.context.replace(/\\n/g, '<br>')}</div>`;
                     inner += '</div>';

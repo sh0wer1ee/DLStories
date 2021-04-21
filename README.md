@@ -6,19 +6,21 @@ A site that lists Dragalia Lost stories (experimental). Raw assets are parsed an
 - [x] Adjust the old parser code
 - [x] Push these stories into html
 - [x] Make a good-looking UI
-- [x] favicon.ico?
+- [x] favicon.ico
+- [x] Collect missing story files
+- [ ] make chapter/castlestory/event icons
 - [ ] Figure out the id mapping
-- [ ] More user-friendly
-- [ ] Collect missing story files
-- [ ] Generate portrait icons (emotion research)
+- [ ] More user-friendly (previous episode & next episode)
+- [ ] Generate portrait icons (emotion research but impossible now)
 - [ ] Add voices (copyrights?)
 ## Current missing story files
 | NAME | ID1 | ID2 | ID3 | ID4 |
 |----------------------------|---|---|---|---|
-|   |   |   |   |   |
+| x | x | x | x | x |
 Currently all the story scripts are found.
 ## Some Memos
 ### Command type (Common)(WIP)
+Please refer to `func/parsed_funtion.py`.
 - Text related
 >- `OL_TITLE("title")`: title of the outline.
 >- `outline("text")`: outline of the story.
