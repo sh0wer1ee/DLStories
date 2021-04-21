@@ -85,7 +85,7 @@ function loadQuestStoryEvent(json) {
     var inner = '';
     for (var key in json) {
         inner += '<div class="story-group">';
-        inner += `<div id="story-group-quest-icon"><img src="./icons/DummyIcon.png" onerror="if (this.src != './icons/DummyIcon.png') this.src = './icons/DummyIcon.png';"/></div>`;
+        inner += `<div id="story-group-questevent-icon"><img src="./icons/queststory_event/${key}.png" onerror="if (this.src != './icons/DummyIcon.png') this.src = './icons/DummyIcon.png';"/></div>`;
         inner += `<div id="story-group-name">${json[key].event_name}</div>`;
         inner += '<div id="story-group-items">';
         json[key].content.forEach(story => {
@@ -109,7 +109,7 @@ function loadQuestStoryMain(json) {
     var inner = '';
     for (var key in json) {
         inner += '<div class="story-group">';
-        inner += `<div id="story-group-quest-icon"><img src="./icons/queststory_main/${key}.png" onerror="if (this.src != './icons/DummyIcon.png') this.src = './icons/DummyIcon.png';"/></div>`;
+        inner += `<div id="story-group-questmain-icon"><img src="./icons/queststory_main/${key}.png" onerror="if (this.src != './icons/DummyIcon.png') this.src = './icons/DummyIcon.png';"/></div>`;
         inner += `<div id="story-group-name">${json[key].chapter_name}</div>`;
         inner += '<div id="story-group-items">';
         json[key].content.forEach(story => {

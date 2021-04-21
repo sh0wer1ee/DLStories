@@ -61,7 +61,10 @@ specialEventDic = {
     '21905': '塔耳塔洛斯叛乱战',
     '22805': '天魔封灭战 暗之章'
 }
-forbiddenEventList = ['21701', '21702']
+forbiddenEventList = [
+    '20811', '20812', '20813', '20814',
+    '21701', '21702'
+]
 textlabelJson = json.load(open(masterJSONPath + 'TextLabel.json', encoding='utf8'))
 charadataJson = json.load(open(masterJSONPath + 'CharaData.json', encoding='utf8'))
 dragondataJson = json.load(open(masterJSONPath + 'DragonData.json', encoding='utf8'))

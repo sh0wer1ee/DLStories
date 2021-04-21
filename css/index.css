@@ -72,7 +72,16 @@ body {
     margin-bottom: 15px;
 }
 
-#story-group-quest-icon {
+#story-group-questevent-icon {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px;
+}
+
+#story-group-questmain-icon {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
     text-align: center;
@@ -118,7 +127,14 @@ body {
     box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-#story-group-quest-icon img {
+#story-group-questevent-icon img {
+    max-height: 77px;
+    max-width: 182px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#story-group-questmain-icon img {
     max-height: 128px;
     max-width: 128px;
     border-radius: 5px;
