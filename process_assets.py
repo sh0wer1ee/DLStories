@@ -46,6 +46,22 @@ storyDataJson = {
     'unitstory_chara':{},# chara_id: {chara_name, content: [{story_id, episode, story_name, path}]}
     'unitstory_dragon':{}# dragon_id: {dragon_name, content: [{story_id, story_name, path}]}
 }
+specialEventDic = {
+    '21001': '真耶梦加得的试炼',
+    '21002': '真墨丘利的试炼',
+    '21003': '真布伦希尔德的试炼',
+    '21004': '真朱庇特的试炼',
+    '21005': '真佐迪亚克的试炼',
+    '21601': '宝龙之挑战',
+    '21900': '阿基德叛乱战',
+    '21901': '卢弗·托修卡特尔叛乱战',
+    '21902': '凯严叛乱战',
+    '21903': '谢希耶尔叛乱战',
+    '21904': '彩羽&乙羽叛乱战',
+    '21905': '塔耳塔洛斯叛乱战',
+    '22805': '天魔封灭战 暗之章'
+}
+forbiddenEventList = ['21701', '21702']
 textlabelJson = json.load(open(masterJSONPath + 'TextLabel.json', encoding='utf8'))
 charadataJson = json.load(open(masterJSONPath + 'CharaData.json', encoding='utf8'))
 dragondataJson = json.load(open(masterJSONPath + 'DragonData.json', encoding='utf8'))
@@ -68,6 +84,8 @@ def parseStory(filePath):
             data = obj.read()
             tree = data.type_tree
             filename, storyname = generateName(filePath)
+            if filename == 'INVALID' and storyname == 'INVALID':
+                continue
             outPath = OUTPUT + filename
             #outPath = TEST + generateName(filePath)
             os.makedirs(os.path.dirname(outPath), exist_ok=True)
@@ -164,13 +182,18 @@ def generateName(filepath):
         storyName = ''
         episode = ''
         questStoryEventData = {}
+        if eventID in forbiddenEventList:
+            return 'INVALID', 'INVALID'
         try:
             eventName = textlabel[('EVENT_NAME_%s') % eventID]
         except KeyError:
             try:
                 eventName = textlabel[('QUEST_GROUP_NAME_%s') % eventID]
             except KeyError:
-                eventName = eventID
+                if eventID in specialEventDic:
+                    eventName = specialEventDic[eventID]
+                else:
+                    return 'INVALID', 'INVALID'
         try:
             storyName = textlabel[('STORY_QUEST_NAME_%s') % fileName]
         except KeyError:
