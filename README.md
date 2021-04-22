@@ -23,22 +23,7 @@ Currently all the story scripts are found.
 ## Missing event icons
 | ID | NAME |
 |---|----------------------------|
-| 21000 | 真龙之试炼 |
-| 21001 | 真耶梦加得的试炼 |
-| 21002 | 真墨丘利的试炼 |
-| 21003 | 真布伦希尔德的试炼 |
-| 21004 | 真朱庇特的试炼 |
-| 21005 | 真佐迪亚克的试炼 |
-| 21601 | 宝龙之挑战 |
-| 21900 | 阿基德叛乱战 |
-| 21901 | 卢弗·托修卡特尔叛乱战 |
-| 21902 | 凯严叛乱战 |
-| 21903 | 谢希耶尔叛乱战 |
-| 21904 | 彩羽&乙羽叛乱战 |
-| 21905 | 塔耳塔洛斯叛乱战 |
-| 22805 | 天魔封灭战 暗之章 |
-| 31001 | 辞旧！迎新！大扫除！ |
-| 31002 | 圣城多彩一日！ |
+Currently all the icons are made.
 ## Some Memos
 ### Command type (Common)(WIP)
 Please refer to `func/parsed_funtion.py`.

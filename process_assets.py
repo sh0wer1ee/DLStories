@@ -65,6 +65,9 @@ forbiddenEventList = [
     '20811', '20812', '20813', '20814',
     '21701', '21702'
 ]
+forbiddenMainList = [
+    '10000'
+]
 textlabelJson = json.load(open(masterJSONPath + 'TextLabel.json', encoding='utf8'))
 charadataJson = json.load(open(masterJSONPath + 'CharaData.json', encoding='utf8'))
 dragondataJson = json.load(open(masterJSONPath + 'DragonData.json', encoding='utf8'))
@@ -226,6 +229,8 @@ def generateName(filepath):
         storyName = ''
         chapterName = ''
         questStoryMainData = {}
+        if chapterID in forbiddenMainList:
+            return 'INVALID', 'INVALID'
         try:
             chapterName = textlabel[('QUEST_GROUP_NAME_%s') % chapterID]
         except KeyError:
