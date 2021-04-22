@@ -1,23 +1,44 @@
-# DLStories (**WIP!**)
-A site that lists Dragalia Lost stories (experimental). Raw assets are parsed and processed to novel-like contents.
+# DLStories
+A site that lists Dragalia Lost stories (experimental & **simplified Chinese Localization only**). Raw assets are parsed and processed to novel-like contents.
+## Demo
+- [gitee page](https://sh0wer1ee.gitee.io/dlstories/)
 ## TODO list
 - [x] Finish the asset parser
 - [x] Export story data json
-- [x] Adjust the old parser code
 - [x] Push these stories into html
 - [x] Make a good-looking UI
 - [x] favicon.ico
 - [x] Collect missing story files
-- [ ] make chapter/castlestory/event icons
+- [x] Make chapter/castlestory/event icons
+- [ ] Adjust python scripts (like DLPortraits)
 - [ ] Figure out the id mapping
 - [ ] More user-friendly (previous episode & next episode)
 - [ ] Generate portrait icons (emotion research but impossible now)
 - [ ] Add voices (copyrights?)
 ## Current missing story files
-| NAME | ID1 | ID2 | ID3 | ID4 |
-|----------------------------|---|---|---|---|
-| x | x | x | x | x |
+| ID | NAME |
+|---|----------------------------|
+| x | x |
 Currently all the story scripts are found.
+## Missing event icons
+| ID | NAME |
+|---|----------------------------|
+| 21000 | 真龙之试炼 |
+| 21001 | 真耶梦加得的试炼 |
+| 21002 | 真墨丘利的试炼 |
+| 21003 | 真布伦希尔德的试炼 |
+| 21004 | 真朱庇特的试炼 |
+| 21005 | 真佐迪亚克的试炼 |
+| 21601 | 宝龙之挑战 |
+| 21900 | 阿基德叛乱战 |
+| 21901 | 卢弗·托修卡特尔叛乱战 |
+| 21902 | 凯严叛乱战 |
+| 21903 | 谢希耶尔叛乱战 |
+| 21904 | 彩羽&乙羽叛乱战 |
+| 21905 | 塔耳塔洛斯叛乱战 |
+| 22805 | 天魔封灭战 暗之章 |
+| 31001 | 辞旧！迎新！大扫除！ |
+| 31002 | 圣城多彩一日！ |
 ## Some Memos
 ### Command type (Common)(WIP)
 Please refer to `func/parsed_funtion.py`.
