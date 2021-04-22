@@ -23,6 +23,7 @@ Currently all the story scripts are found.
 ## Missing event icons
 | ID | NAME |
 |---|----------------------------|
+| x | x |
 Currently all the icons are made.
 ## Some Memos
 ### Command type (Common)(WIP)
