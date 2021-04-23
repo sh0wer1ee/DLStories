@@ -28,22 +28,48 @@ https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Box_Model/Mastering_margin_
 https://stackoverflow.com/questions/43170563/margin-top-doesnt-work-as-intended
 */
 
-
-/*
-article:first-of-type {
-    padding-top: 0.1px;
+#navigator {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 15px;
 }
 
-article:last-of-type {
-    padding-bottom: 0.1px;
+#prev {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    text-align: left;
+    padding: 5px;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 700;
 }
-*/
+
+#index {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 700;
+}
+
+#next {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    text-align: right;
+    padding: 5px;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 700;
+}
 
 #narrator {
     text-align: center;
     font-family: 'Noto Sans SC', sans-serif;
     font-weight: 700;
 }
+
+
+/** dialogue start **/
 
 #dialogue {
     display: grid;
@@ -61,6 +87,13 @@ article:last-of-type {
     grid-column: 1 / 2;
     text-align: center;
     padding: 5px;
+}
+
+#speaker_icon img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 3px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 #speaker_name {
@@ -83,9 +116,5 @@ article:last-of-type {
     font-weight: 700;
 }
 
-img {
-    max-height: 100%;
-    max-width: 100%;
-    border-radius: 3px;
-    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
-}
+
+/** dialogue end **/

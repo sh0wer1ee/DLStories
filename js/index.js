@@ -89,9 +89,7 @@ function loadQuestStoryEvent(json) {
         inner += `<div id="story-group-name">${json[key].event_name}</div>`;
         inner += '<div id="story-group-items">';
         json[key].content.forEach(story => {
-            if (story.story_id.charAt(5) != '3' && story.story_id.charAt(5) != '5') {
-                inner += `<a href="./stories/view.html?type=queststory_event&id=${story.story_id}">${story.episode} ${story.story_name}</a><br>`;
-            }
+            inner += `<a href="./stories/view.html?type=queststory_event&id=${story.story_id}">${story.episode} ${story.story_name}</a><br>`;
         });
         inner += '</div></div>';
     }
@@ -135,7 +133,7 @@ function loadUnitStoryChara(json) {
     var inner = '';
     for (var key in json) {
         inner += '<div class="story-group">';
-        inner += `<div id="story-group-unit-icon"><img src="https://gitee.com/sh0wer1ee/dlicons/raw/master/icons/chara/l/${key.substring(0,6)}_${key.substring(6)}_r05.png" onerror="if (this.src != '../icons/DummyIcon.png') this.src = '../icons/DummyIcon.png';"/></div>`;
+        inner += `<div id="story-group-unit-icon"><img src="https://gitee.com/sh0wer1ee/dlicons/raw/master/icons/chara/s/${key.substring(0,6)}_${key.substring(6)}_r05.png" onerror="if (this.src != '../icons/DummyIcon.png') this.src = '../icons/DummyIcon.png';"/></div>`;
         inner += `<div id="story-group-name">${json[key].chara_name}</div>`;
         inner += '<div id="story-group-items">';
         json[key].content.forEach(story => {
@@ -157,7 +155,7 @@ function loadunitStoryDragon(json) {
     var inner = '';
     for (var key in json) {
         inner += '<div class="story-group">';
-        inner += `<div id="story-group-unit-icon"><img src="https://gitee.com/sh0wer1ee/dlicons/raw/master/icons/dragon/l/${key.substring(0,6)}_${key.substring(6)}.png" onerror="if (this.src != '../icons/DummyIcon.png') this.src = '../icons/DummyIcon.png';"/></div>`;
+        inner += `<div id="story-group-unit-icon"><img src="https://gitee.com/sh0wer1ee/dlicons/raw/master/icons/dragon/s/${key.substring(0,6)}_${key.substring(6)}.png" onerror="if (this.src != '../icons/DummyIcon.png') this.src = '../icons/DummyIcon.png';"/></div>`;
         inner += `<div id="story-group-name">${json[key].dragon_name}</div>`;
         inner += '<div id="story-group-items">';
         json[key].content.forEach(story => {

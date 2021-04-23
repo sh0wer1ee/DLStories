@@ -188,6 +188,8 @@ def generateName(filepath):
         storyName = ''
         episode = ''
         questStoryEventData = {}
+        if fileName[5] == '3' or fileName[5] == '5':
+            return 'INVALID', 'INVALID'
         if eventID in forbiddenEventList:
             return 'INVALID', 'INVALID'
         try:
