@@ -8,6 +8,7 @@ var storyList = [];
 var mainstory_dir = '../audio/mainstory'
 var knightsstory_dir = '../audio/knightsstory'
 var eventstory_dir = '../audio/eventstory'
+var ingamestory_dir = '../audio/ingamestory'
 var svg_volume_up = `
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-volume-up" viewBox="0 0 16 16">
   <path d="M11.536 14.01A8.473 8.473 0 0 0 14.026 8a8.473 8.473 0 0 0-2.49-6.01l-.708.707A7.476 7.476 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303l.708.707z"/>
@@ -174,6 +175,8 @@ function playVoiceLine(voice_line) {
         path = `${knightsstory_dir}/${sp[3]}${sp[4]}${sp[5]}/${voice_line}.mp3`;
     } else if (sp[2] === 'EVENTSTORY') {
         path = `${eventstory_dir}/${sp[3]}${sp[4]}/${voice_line}.mp3`;
+    } else if (sp[2] === 'INGAMESTORY') {
+        path = `${ingamestory_dir}/${sp[3]}${sp[4]}/${voice_line}.mp3`;
     } else {
         console.log('wrong audio type!');
         return;
