@@ -11,7 +11,7 @@ A site that lists Dragalia Lost stories (experimental & **simplified Chinese Loc
 - [x] Collect missing story files
 - [x] Make chapter/castlestory/event icons
 - [x] More user-friendly (previous episode & next episode)
-- [x] Add voices
+- [x] Add voices (but some subsongs using same id ovewrite according to track id, what a pain...)
 - [ ] Adjust python scripts (like DLPortraits to deal with increment update)
 - [ ] Figure out the id mapping
 - [ ] Generate portrait icons (emotion research but impossible now)
