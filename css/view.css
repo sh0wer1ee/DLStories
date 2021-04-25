@@ -87,6 +87,7 @@ https://stackoverflow.com/questions/43170563/margin-top-doesnt-work-as-intended
     grid-column: 1 / 2;
     text-align: center;
     padding: 5px;
+    position: relative;
 }
 
 #speaker_icon img {
@@ -94,6 +95,12 @@ https://stackoverflow.com/questions/43170563/margin-top-doesnt-work-as-intended
     max-width: 100%;
     border-radius: 3px;
     box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#speaker_icon svg {
+    position: absolute;
+    bottom: 18px;
+    right: -10px;
 }
 
 #speaker_name {
