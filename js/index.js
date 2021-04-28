@@ -22,7 +22,7 @@ lastCommit();
 loadIndexJson();
 
 function lastCommit() {
-    fetch('https://gitee.com/api/v5/repos/sh0wer1ee/dlstories/commits')
+    fetch('https://api.github.com/repos/sh0wer1ee/DLStories/branches/master')
         .then(function(response) {
             if (!response.ok) {
                 throw Error(response.statusText);
@@ -31,7 +31,7 @@ function lastCommit() {
         })
         .then(response => response.json())
         .then(json => {
-            latestTime = json[0].commit.author.date;
+            latestTime = json.commit.commit.author.date;
             var d = new Date(latestTime);
             var datestring = (d.getFullYear() + '/' + ('0' + (d.getMonth() + 1)).slice(-2) + '/' +
                 ('0' + d.getDate()).slice(-2) + ' ' + ('0' + d.getHours()).slice(-2) + ':' + ('0' + d.getMinutes()).slice(-2));
@@ -133,7 +133,7 @@ function loadUnitStoryChara(json) {
     var inner = '';
     for (var key in json) {
         inner += '<div class="story-group">';
-        inner += `<div id="story-group-unit-icon"><img src="https://gitee.com/sh0wer1ee/dlicons/raw/master/icons/chara/s/${key.substring(0,6)}_${key.substring(6)}_r05.png" onerror="if (this.src != '../icons/DummyIcon.png') this.src = '../icons/DummyIcon.png';"/></div>`;
+        inner += `<div id="story-group-unit-icon"><img src="./icons/unitstory_chara/${key.substring(0,6)}_${key.substring(6)}_r05.png" onerror="if (this.src != '../icons/DummyIcon.png') this.src = '../icons/DummyIcon.png';"/></div>`;
         inner += `<div id="story-group-name">${json[key].chara_name}</div>`;
         inner += '<div id="story-group-items">';
         json[key].content.forEach(story => {
@@ -155,7 +155,7 @@ function loadunitStoryDragon(json) {
     var inner = '';
     for (var key in json) {
         inner += '<div class="story-group">';
-        inner += `<div id="story-group-unit-icon"><img src="https://gitee.com/sh0wer1ee/dlicons/raw/master/icons/dragon/s/${key.substring(0,6)}_${key.substring(6)}.png" onerror="if (this.src != '../icons/DummyIcon.png') this.src = '../icons/DummyIcon.png';"/></div>`;
+        inner += `<div id="story-group-unit-icon"><img src="./icons/unitstory_dragon/${key.substring(0,6)}_${key.substring(6)}.png" onerror="if (this.src != '../icons/DummyIcon.png') this.src = '../icons/DummyIcon.png';"/></div>`;
         inner += `<div id="story-group-name">${json[key].dragon_name}</div>`;
         inner += '<div id="story-group-items">';
         json[key].content.forEach(story => {

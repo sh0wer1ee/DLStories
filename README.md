@@ -2,6 +2,7 @@
 A site that lists Dragalia Lost stories (experimental & **simplified Chinese Localization only**). Raw assets are parsed and processed to novel-like contents.
 ## Demo
 - [gitee page](https://sh0wer1ee.gitee.io/dlstories/)
+- [github page](https://sh0wer1ee.github.io/DLStories/) **(audio available)**
 ## TODO list
 - [x] Finish the asset parser
 - [x] Export story data json
@@ -11,11 +12,11 @@ A site that lists Dragalia Lost stories (experimental & **simplified Chinese Loc
 - [x] Collect missing story files
 - [x] Make chapter/castlestory/event icons
 - [x] More user-friendly (previous episode & next episode)
-- [x] Add voices (but some subsongs using same id ovewrite according to track id, what a pain...)
+- [ ] Add event CG or event video
 - [ ] Adjust python scripts (like DLPortraits to deal with increment update)
 - [ ] Figure out the id mapping
-- [ ] Generate portrait icons (emotion research but impossible now)
-- [ ] Add event CG or event video
+- [ ] Add voices (impossible in gitee but you can test ghpage)
+- [ ] Generate portrait icons with proper emotion (impossible)
 ## Current missing story files
 | ID | NAME |
 |---|----------------------------|
