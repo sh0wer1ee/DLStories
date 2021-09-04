@@ -8,7 +8,7 @@ import UnityPy
 
 # story.awakeningstory/rarity*_1*****_**
 # story.castlestory/100****
-# story.ingame000* 
+# story.ingame000*
 # story.queststory.event/2******
 # story.queststory.main/100****
 # story.tutorial/t******
@@ -19,7 +19,7 @@ ROOT = os.path.dirname(os.path.realpath(__file__))
 #--CONFIG--#
 playerNameCHS = '尤蒂尔'
 playerName = {
-    'zh_cn':'尤蒂尔'
+    'zh_cn': '尤蒂尔'
 }
 lang = 'zh_cn'
 masterJSONPath = 'json/'
@@ -34,17 +34,28 @@ support_path_format = [
     'story.unitstory.chara',
     'story.unitstory.dragon'
 ]
+swapTable = {
+    'm': '10',
+    'p': '11',
+    'n': '12',
+    'e': '20',
+    'b': '21'
+}
 #--CONFIG--#
 os.makedirs(INPUT, exist_ok=True)
 os.makedirs(OUTPUT, exist_ok=True)
 
 textlabel = {}
 storyDataJson = {
-    'castlestory':{},# id: {story_name, path}
-    'queststory_event':{},# event_id: {event_name, content: [{story_id, episode, story_name, path}]}
-    'queststory_main':{},# chapter_id: {chapter_name, content: [{story_id, title, story_name, path}]}
-    'unitstory_chara':{},# chara_id: {chara_name, content: [{story_id, episode, story_name, path}]}
-    'unitstory_dragon':{}# dragon_id: {dragon_name, content: [{story_id, story_name, path}]}
+    'castlestory': {},  # id: {story_name, path}
+    # event_id: {event_name, content: [{story_id, episode, story_name, path}]}
+    'queststory_event': {},
+    # chapter_id: {chapter_name, content: [{story_id, title, story_name, path}]}
+    'queststory_main': {},
+    # chara_id: {chara_name, content: [{story_id, episode, story_name, path}]}
+    'unitstory_chara': {},
+    # dragon_id: {dragon_name, content: [{story_id, story_name, path}]}
+    'unitstory_dragon': {}
 }
 specialEventDic = {
     '21001': '真耶梦加得的试炼',
@@ -60,6 +71,9 @@ specialEventDic = {
     '21904': '彩羽&乙羽叛乱战',
     '21905': '塔耳塔洛斯叛乱战',
     '22801': '天魔封灭战 风之章',
+    '22802': '天魔封灭战 水之章',
+    '22803': '天魔封灭战 火之章',
+    '22804': '天魔封灭战 光之章',
     '22805': '天魔封灭战 暗之章'
 }
 forbiddenEventList = [
@@ -69,10 +83,14 @@ forbiddenEventList = [
 forbiddenMainList = [
     '10000'
 ]
-textlabelJson = json.load(open(masterJSONPath + 'TextLabel.json', encoding='utf8'))
-charadataJson = json.load(open(masterJSONPath + 'CharaData.json', encoding='utf8'))
-dragondataJson = json.load(open(masterJSONPath + 'DragonData.json', encoding='utf8'))
+textlabelJson = json.load(
+    open(masterJSONPath + 'TextLabel.json', encoding='utf8'))
+charadataJson = json.load(
+    open(masterJSONPath + 'CharaData.json', encoding='utf8'))
+dragondataJson = json.load(
+    open(masterJSONPath + 'DragonData.json', encoding='utf8'))
 funcDataJson = {}
+
 
 def retrieveStoryJson(input):
     env = UnityPy.load(input)
@@ -80,9 +98,11 @@ def retrieveStoryJson(input):
         if obj.type in ['MonoBehaviour']:
             data = obj.read()
             tree = data.type_tree
-            dic = dict(zip(tree['functions'][0]['variables']['entriesKey'], tree['functions'][0]['variables']['entriesValue']))
+            dic = dict(zip(tree['functions'][0]['variables']['entriesKey'],
+                       tree['functions'][0]['variables']['entriesValue']))
             #json.dump(dic, open('funcData.json', 'w', encoding='utf-8'), indent=4, ensure_ascii=False)
             return dic
+
 
 def parseStory(filePath):
     env = UnityPy.load(filePath)
@@ -97,48 +117,54 @@ def parseStory(filePath):
             #outPath = TEST + generateName(filePath)
             os.makedirs(os.path.dirname(outPath), exist_ok=True)
             #json.dump(tree, open(outPath, 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
-            json.dump(parseMono(tree, storyname), open(outPath, 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
-                
+            json.dump(parseMono(tree, storyname), open(outPath, 'w',
+                      encoding='utf-8'), ensure_ascii=False, indent=4)
+
+
 def parseMono(tree, storyname):
     # JSON:    {story_id, story_name, story_icon, outline: {title, content}, story_content: [{speaker_id:[], speaker_name, context, voice_line, book_image}]}
     res = {
-        'story_id':'',
-        'story_name':f'{storyname}',
-        'story_icon':'',
-        'outline':{
-            'title':'',
-            'content':''
+        'story_id': '',
+        'story_name': f'{storyname}',
+        'story_icon': '',
+        'outline': {
+            'title': '',
+            'content': ''
         },
-        'story_content':[]
+        'story_content': []
     }
-    for func in tree['functions']: # multiple functions  e.g.2082806
+    for func in tree['functions']:  # multiple functions  e.g.2082806
         speaker_id = []
         for command in func['commandList']:
             commandType = command['command']
             commandData = command['args']
-            if commandType in ['telop', 'add_book_text', 'print']:# printable text function
+            if commandType in ['telop', 'add_book_text', 'print']:  # printable text function
                 content = {
-                    'speaker_id':[],
+                    'speaker_id': [],
                     'speaker_name': '',
-                    'context':'',
-                    'voice_line':'',
-                    'book_image':''
+                    'context': '',
+                    'voice_line': '',
+                    'book_image': ''
                 }
                 if commandType == 'telop':
                     content['speaker_name'] = commandType
                     for line in commandData:
                         content['context'] = f'{content["context"]}\\n{line}'
-                    content['context'] = content['context'].replace('{player_name}', playerName[lang])
+                    content['context'] = content['context'].replace(
+                        '{player_name}', playerName[lang])
                     res['story_content'].append(content)
                 elif commandType == 'add_book_text':
                     content['speaker_name'] = commandType
-                    content['context'] = commandData[0].replace('{player_name}', playerName[lang])
+                    content['context'] = commandData[0].replace(
+                        '{player_name}', playerName[lang])
                     if len(commandData) == 2:
                         content['book_image'] = commandData[1]
                     res['story_content'].append(content)
                 elif commandType == 'print':
-                    content['speaker_name'] = commandData[0].replace('{player_name}', playerName[lang])
-                    content['context'] = commandData[1].replace('{player_name}', playerName[lang])
+                    content['speaker_name'] = commandData[0].replace(
+                        '{player_name}', playerName[lang])
+                    content['context'] = commandData[1].replace(
+                        '{player_name}', playerName[lang])
                     if len(commandData) == 3:
                         content['voice_line'] = commandData[2]
                     content['speaker_id'] = speaker_id
@@ -149,6 +175,7 @@ def parseMono(tree, storyname):
                 res['outline']['content'] = commandData
             else:
                 # some functions may contain speaker id(s), but too many functions exist
+                # 2.11.0 cause id mapping changed
                 temp_speaker_id = []
                 for arg in commandData:
                     if arg.startswith('c') or arg.startswith('d'):
@@ -157,13 +184,35 @@ def parseMono(tree, storyname):
                             if id_str.endswith('b') or id_str.endswith('c'):
                                 id_str = id_str[:-1]
                             if len(id_str) == 12 and id_str.count('_') == 2:
-                                id_str = '_'.join([id_str.split('_')[0], id_str.split('_')[1]])
+                                id_str = '_'.join(
+                                    [id_str.split('_')[0], id_str.split('_')[1]])
                             temp_speaker_id.append(id_str)
                         except KeyError:
                             pass
+                    # RE: (private string) StoryScriptRuntime.CommandStack::GetUnitVariable(string value)
+                    if arg.startswith('m') or arg.startswith('p') or arg.startswith('n') or arg.startswith('b') or arg.startswith('e'):
+                        if len(arg) < 4 or len(arg) > 7:
+                            continue
+                        pattern = re.compile("[0-9]+")
+                        if pattern.fullmatch(arg[1:]) is None:
+                            continue
+                        baseId = f'{swapTable[arg[0]]}0{arg[1:4]}'
+                        step = 2 if len(arg) == 7 else len(arg) - 4
+                        if step >= 1:
+                            id_str = arg[4:4+step]
+                            if len(arg) != 7:
+                                id_str = f'{baseId}_{int(id_str):02d}'
+                                temp_speaker_id.append(id_str)
+                            else:
+                                id_str = f'{baseId}_{int(id_str):02d}{arg[6:7]}'
+                                temp_speaker_id.append(id_str)
+                        else:
+                            id_str = f'{baseId}_01'
+                            temp_speaker_id.append(id_str)
                 if len(temp_speaker_id) > 0:
                     speaker_id = temp_speaker_id
     return res
+
 
 def generateName(filepath):
     res = ''
@@ -213,7 +262,7 @@ def generateName(filepath):
             #episode = fileName[5:]
             episode = ''
         res = f'/queststory_event/{fileName}.json'
-        #JSON format    event_id: {event_name, content: [{story_id, episode, story_name, path}]}
+        # JSON format    event_id: {event_name, content: [{story_id, episode, story_name, path}]}
         try:
             storyDataJson['queststory_event'][eventID]
         except KeyError:
@@ -225,7 +274,8 @@ def generateName(filepath):
         questStoryEventData['story_name'] = storyName
         questStoryEventData['path'] = f'{storyDir}{res}'
         res_name = f'{eventName}{episode} {storyName}'
-        storyDataJson['queststory_event'][eventID]['content'].append(questStoryEventData)
+        storyDataJson['queststory_event'][eventID]['content'].append(
+            questStoryEventData)
     elif 'story.queststory.main' in filepath:
         chapterID = fileName[:5]
         title = ''
@@ -245,7 +295,7 @@ def generateName(filepath):
         try:
             storyName = textlabel[('STORY_QUEST_NAME_%s') % fileName]
         except KeyError:
-            storyName = fileName 
+            storyName = fileName
         res = f'/queststory_main/{fileName}.json'
         # chapter_id: {chapter_name, content: [{story_id, title, story_name, path}]}
         try:
@@ -259,7 +309,8 @@ def generateName(filepath):
         questStoryMainData['story_name'] = storyName
         questStoryMainData['path'] = f'{storyDir}{res}'
         res_name = f'{chapterName} {title} {storyName}'
-        storyDataJson['queststory_main'][chapterID]['content'].append(questStoryMainData)
+        storyDataJson['queststory_main'][chapterID]['content'].append(
+            questStoryMainData)
     elif 'story.unitstory.chara' in filepath:
         charaName = ''
         storyName = ''
@@ -275,13 +326,13 @@ def generateName(filepath):
                     if charadataJson[cd]['_VariationId'] == 1:
                         charaName = textlabel[charadataJson[cd]['_Name']]
                         break
-                    else: # Zena(Another Zethia) is special here, she uses Zethia's baseID but VariationId is not 1
-                          # And she is technically an alter of Zethia but not with second name.
+                    else:  # Zena(Another Zethia) is special here, she uses Zethia's baseID but VariationId is not 1
+                        # And she is technically an alter of Zethia but not with second name.
                         charaName = textlabel[charadataJson[cd]['_SecondName']]
                         break
                 except KeyError:
                     charaName = textlabel[charadataJson[cd]['_Name']]
-                    break     
+                    break
         try:
             storyName = textlabel[f'STORY_UNIT_NAME_{fileName}']
         except KeyError:
@@ -300,12 +351,13 @@ def generateName(filepath):
         unitStoryCharaData['story_name'] = storyName
         unitStoryCharaData['path'] = f'{storyDir}{res}'
         res_name = f'{charaName} {episode_name} {storyName}'
-        storyDataJson['unitstory_chara'][charaID]['content'].append(unitStoryCharaData)
+        storyDataJson['unitstory_chara'][charaID]['content'].append(
+            unitStoryCharaData)
     elif 'story.unitstory.dragon' in filepath:
         dragonName = ''
         storyName = ''
         dragonID = fileName[:8]
-        dragonBaseID = fileName[:6] # the unique one
+        dragonBaseID = fileName[:6]  # the unique one
         unitStoryDragonData = {}
         # dragonVariationId = fileName[6:8] # sadly the dragon alt wont get a different VariationId except some dragon npc
         for dd in dragondataJson:
@@ -332,8 +384,10 @@ def generateName(filepath):
         unitStoryDragonData['story_name'] = storyName
         unitStoryDragonData['path'] = f'{storyDir}{res}'
         res_name = f'{dragonName} {storyName}'
-        storyDataJson['unitstory_dragon'][dragonID]['content'].append(unitStoryDragonData)
+        storyDataJson['unitstory_dragon'][dragonID]['content'].append(
+            unitStoryDragonData)
     return res, res_name
+
 
 def main():
     global funcDataJson
@@ -347,7 +401,9 @@ def main():
                 pbar.set_description('processing %s...' % f)
                 src = os.path.realpath(os.path.join(root, f))
                 parseStory(src)
-    json.dump(storyDataJson, open('index.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
+    json.dump(storyDataJson, open('index.json', 'w',
+              encoding='utf-8'), ensure_ascii=False, indent=4)
+
 
 if __name__ == '__main__':
     main()
