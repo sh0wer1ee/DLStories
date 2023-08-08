@@ -1,10 +1,10 @@
 # DLStories
 
-A site that lists Dragalia Lost stories (experimental & **simplified Chinese Localization only**). Raw assets are parsed and processed to novel-like contents.
+A site that lists Dragalia Lost stories (experimental & **All languages supported**). Raw assets are parsed and processed to novel-like contents.
 
 ## Demo
 
-- [gitee page](https://sh0wer1ee.gitee.io/dlstories/)
+- [gitee page](https://sh0wer1ee.gitee.io/dlstories/) **Currently down**
 - [github page](https://sh0wer1ee.github.io/DLStories/) **(audio available)**
 
 ## Tools
@@ -23,7 +23,7 @@ A site that lists Dragalia Lost stories (experimental & **simplified Chinese Loc
 - [x] More user-friendly (previous episode & next episode)
 - [x] Add voices (impossible in gitee but you can test ghpage)
 - [ ] Add event CG or event video
-- [ ] Adjust python scripts (like DLPortraits to deal with increment update)
+- [x] Adjust python scripts (like DLPortraits to deal with increment update)
 - [ ] Figure out the id mapping
 - [ ] Generate portrait icons with proper emotion (impossible)
 - [ ] Sorting by release date (need help)
