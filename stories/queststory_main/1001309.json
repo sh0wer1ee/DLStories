@@ -1,616 +1,1173 @@
 {
-    "story_id": "",
-    "story_name": "自幽暗归来者 第13章 5-6 决断",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "王子一行人掉入了一个巨大的地下空间。\\n那里出现了伺机而动的一大群龙，\\n法尔艾斯和贝维特则乘着龙离开。\\n回到圣城的王子一行人\\n决定向当下守备薄弱的王都进军。"
-        ]
+  "title": {
+    "en_us": "Return from Darkness  Ch. 13 / 5-6  Resolve",
+    "ja_jp": "闇より還りし者 13章 5-6 決断",
+    "zh_cn": "自幽暗归来者 第13章 5-6 决断",
+    "zh_tw": "闇黑歸來之人 第13章 5-6 決斷"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "大家都没事吧！？",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "唔……嗯……还好……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "呃……看来我们\\n是掉到地下了啊……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "一片漆黑，什么都看不见……\\n这里到底是……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_02"
-            ],
-            "speaker_name": "利弗",
-            "context": "这是……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "利弗，有什么发现吗！",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_02"
-            ],
-            "speaker_name": "利弗",
-            "context": "殿下，请当心。\\n我们好像被包围了。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "什么！",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01",
-                "100003_01",
-                "100001_09"
-            ],
-            "speaker_name": "全员",
-            "context": "！？",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "莫、莫非，\\n这些全都是龙吗！？",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "难怪怎么打都打不完……\\n到底有多少头龙啊……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "几十头，还是上百头。\\n不，可能远远不止……\\n已经数不过来了……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "很抱歉采取这种\\n略显粗暴的手段。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "法尔艾斯哥哥！\\n这么多拥有黑暗魔力的龙\\n到底是怎么……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "借助狄涅尔皇帝陛下之力的话\\n简直易如反掌。只要抓住各地的龙\\n并用黑暗魔力加以控制就好。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "我和皇帝陛下有着共同的目标——\\n让世上所有的龙都臣服于我们。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "要是放出了这么多龙，\\n阿尔贝里亚就……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我决不会让这种事发生！",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我会为了阿尔贝里亚\\n战斗到最后一刻！",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_02"
-            ],
-            "speaker_name": "利弗",
-            "context": "尤蒂尔殿下，\\n我与您的决意同在。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100038_01"
-            ],
-            "speaker_name": "贝维特",
-            "context": "为了守护而战吗。\\n都不知道它是否值得你去守护，\\n真会瞎操心啊。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "要来了！",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "什么！？飞上去了！",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_02"
-            ],
-            "speaker_name": "利弗",
-            "context": "房顶被……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "当心！别被瓦砾砸到了！",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "龙不断地……\\n向着天上、飞走了……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "法尔艾斯哥哥，\\n到底做了什么……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "贝维特，我们也出发吧。\\n得去向皇帝陛下\\n汇报实验成果呢。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "难不成，是去王都……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100038_01"
-            ],
-            "speaker_name": "贝维特",
-            "context": "再见了，尤蒂尔。\\n我很期待下次相遇时\\n你还能否保持自我。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "感谢你们对实验的协助。\\n那我就先失陪了。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_02"
-            ],
-            "speaker_name": "利弗",
-            "context": "他们跑掉了……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "法尔艾斯哥哥……\\n贝维特……哥哥。\\n你们究竟要去哪里……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "SYS",
-            "context": "几天后——",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [],
-            "speaker_name": "telop",
-            "context": "\\n狄涅尔帝国\\n皇帝之殿\\n \\n ",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_06"
-            ],
-            "speaker_name": "皇帝塞西娅",
-            "context": "有人入侵国境？没想到在王国之外\\n也有不安分的飞虫啊。真令人心烦。\\n然后呢？你打算怎么做？",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "我当然会率兵前去讨伐。\\n若任其肆意妄为，将动摇我国根基。\\n皇帝陛下，请批准。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_06"
-            ],
-            "speaker_name": "皇帝塞西娅",
-            "context": "你还是那么一板一眼呢，\\n明知道我对这个国家毫无兴趣。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "即便如此……只要你自称皇帝，\\n这就是有必要的。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_06"
-            ],
-            "speaker_name": "皇帝塞西娅",
-            "context": "哼……好吧。那么，巴尔库斯，\\n我命你率兵前往国境，\\n歼灭侵犯我国的愚昧之徒。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "遵命。\\n整军后将立刻出发。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_06"
-            ],
-            "speaker_name": "皇帝塞西娅",
-            "context": "这下，龙之血的继承人\\n就都离开王都了吗。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_06"
-            ],
-            "speaker_name": "皇帝塞西娅",
-            "context": "剩下的兵力只有王都守卫队……\\n呵……情况非常理想。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_06"
-            ],
-            "speaker_name": "皇帝塞西娅",
-            "context": "那么，你又会怎么利用\\n这个良机呢，哥哥？",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_06"
-            ],
-            "speaker_name": "皇帝塞西娅",
-            "context": "呵呵……我可得在王宫\\n盛情款待哥哥才行啊。\\n呵呵呵呵……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_06"
-            ],
-            "speaker_name": "SYS",
-            "context": "与此同时",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [],
-            "speaker_name": "telop",
-            "context": "\\n圣城\\n \\n \\n ",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100005_05"
-            ],
-            "speaker_name": "沙音",
-            "context": "尤蒂尔，\\n听说离开圣城的莱昂尼多\\n已经回到巴尔加海姆了。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "莱昂尼多哥哥他……\\n那就好。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100005_05"
-            ],
-            "speaker_name": "沙音",
-            "context": "虽然身体正逐渐康复，\\n但毕竟受了那么重的伤。\\n近期不会有什么行动了吧。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这样啊……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_02"
-            ],
-            "speaker_name": "利弗",
-            "context": "殿下，谢斯大人\\n看起来也会在罗布雷尔\\n驻扎一段时间。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "谢斯姐姐也……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_02"
-            ],
-            "speaker_name": "利弗",
-            "context": "还有，谢斯大人\\n刚才派人送来了传令。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "姐姐的传令？\\n会是什么情报呢……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_02"
-            ],
-            "speaker_name": "利弗",
-            "context": "巴尔库斯大人\\n似乎率兵离开了王都。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "巴尔库斯哥哥？\\n这是为什么呢……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_02"
-            ],
-            "speaker_name": "利弗",
-            "context": "虽然尚不了解详情，\\n但我认为这不失为一个良机。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_02"
-            ],
-            "speaker_name": "利弗",
-            "context": "莱昂尼多大人和艾缪尔大人失去兵力，\\n谢斯大人和巴尔库斯大人又率兵在外，\\n这意味着如今王都的守备十分薄弱。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "王都只剩下法尔艾斯哥哥\\n和哈尔的守卫队。\\n还有，莫尔托梅塞亚吗……",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好，我们出兵吧，\\n向王都进军。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_02"
-            ],
-            "speaker_name": "利弗",
-            "context": "尤蒂尔殿下，\\n这是个英明的决断。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_02"
-            ],
-            "speaker_name": "利弗",
-            "context": "我利弗也将追随殿下，\\n哪怕是天涯海角。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "嗯，利弗，谢谢你。\\n那就拜托你了。",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "塞西娅，等着我。\\n我一定会打倒莫尔托梅塞亚，\\n把你救出来！",
-            "voice_line": "VO_CHR_MAINSTORY_13_09_0062",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "The prince and his friends tumble into a giant\\nunderground space and find a mass of dragons\\nwrithing within. After Phares, Beren, and the\\ndragons take flight, the heroes return home and\\nlearn that the capital is nearly unguarded,\\nat which point they decide to march.",
+      "ja_jp": "<ruby><rb>王子</rb><rt>おうじ</rt></ruby>たちが<ruby><rb>落</rb><rt>お</rt></ruby>ちた<ruby><rb>先</rb><rt>さき</rt></ruby>は<ruby><rb>巨大</rb><rt>きょだい</rt></ruby>な<ruby><rb>地下空間</rb><rt>ちかくうかん</rt></ruby>だった。\\nそこに<ruby><rb>蠢</rb><rt>うごめ</rt></ruby>いていたドラゴンの<ruby><rb>大群</rb><rt>たいぐん</rt></ruby>に<ruby><rb>乗</rb><rt>の</rt></ruby>り、\\nファルエスとベベットはどこかへ<ruby><rb>飛</rb><rt>と</rt></ruby>び<ruby><rb>去</rb><rt>さ</rt></ruby>る。\\n<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>に<ruby><rb>戻</rb><rt>もど</rt></ruby>った<ruby><rb>王子</rb><rt>おうじ</rt></ruby>たちは、<ruby><rb>今</rb><rt>いま</rt></ruby>や<ruby><rb>守</rb><rt>まも</rt></ruby>りが\\n<ruby><rb>手薄</rb><rt>てうす</rt></ruby>となった、<ruby><rb>王都</rb><rt>おうと</rt></ruby>への<ruby><rb>進軍</rb><rt>しんぐん</rt></ruby>を<ruby><rb>決意</rb><rt>けつい</rt></ruby>する。",
+      "zh_cn": "王子一行人掉入了一个巨大的地下空间。\\n那里出现了伺机而动的一大群龙，\\n法尔艾斯和贝维特则乘着龙离开。\\n回到圣城的王子一行人\\n决定向当下守备薄弱的王都进军。",
+      "zh_tw": "王子等人落下之處是個巨大的地下空間，\\n並有大量龍族蠢動其中。法魯艾斯與貝維特\\n乘坐在空間中的大群龍族上，飛向了某處。\\n回到聖城的一行人，決定趁現在\\n朝守備軍力薄弱的王都進軍。"
+    }
+  },
+  "prev": "1001308",
+  "next": "1001310",
+  "content": [
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Is everybody okay?!",
+        "ja_jp": "みんな！　<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>……!?",
+        "zh_cn": "大家都没事吧！？",
+        "zh_tw": "大家！沒事吧……！？"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0001",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "S-somehow...",
+        "ja_jp": "く……。ああ……なんとか……。",
+        "zh_cn": "唔……嗯……还好……",
+        "zh_tw": "唔……\\n嗯……還算沒事……"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0002",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Ain't sure how far underground we are,\\nbut my butt sure as hell hurts from the fall.",
+        "ja_jp": "つ……どうやら<ruby><rb>地下</rb><rt>ちか</rt></ruby>に<ruby><rb>落</rb><rt>お</rt></ruby>ちちまった\\nみたいだな……。",
+        "zh_cn": "呃……看来我们\\n是掉到地下了啊……",
+        "zh_tw": "唔……我們似乎掉到地下了呢……"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0003",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "I can't see a thing in this darkness.\\nWhere ARE we?",
+        "ja_jp": "<ruby><rb>暗</rb><rt>くら</rt></ruby>くて、<ruby><rb>何</rb><rt>なに</rt></ruby>も<ruby><rb>見</rb><rt>み</rt></ruby>えませんが……。\\nここは<ruby><rb>一体</rb><rt>いったい</rt></ruby>……。",
+        "zh_cn": "一片漆黑，什么都看不见……\\n这里到底是……",
+        "zh_tw": "暗得什麼都看不見……\\n這裡究竟……"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0004",
+      "book": ""
+    },
+    {
+      "icon": "100018_02",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "By the Goddess...!",
+        "ja_jp": "――――！　これは……。",
+        "zh_cn": "这是……",
+        "zh_tw": "────！\\n這是……"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0005",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What is it, Leif?",
+        "ja_jp": "リーフ、<ruby><rb>何</rb><rt>なに</rt></ruby>かあったのか！",
+        "zh_cn": "利弗，有什么发现吗！",
+        "zh_tw": "李弗，發生什麼事了嗎！"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0006",
+      "book": ""
+    },
+    {
+      "icon": "100018_02",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Keep your blade at the ready, Highness.\\nWe appear to be surrounded.",
+        "ja_jp": "<ruby><rb>殿下</rb><rt>でんか</rt></ruby>、お<ruby><rb>気</rb><rt>き</rt></ruby>をつけください。\\nどうやら<ruby><rb>我々</rb><rt>われわれ</rt></ruby>は<ruby><rb>囲</rb><rt>かこ</rt></ruby>まれているようです。",
+        "zh_cn": "殿下，请当心。\\n我们好像被包围了。",
+        "zh_tw": "殿下，請您小心。\\n看來我們已經被包圍了。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0007",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What?!",
+        "ja_jp": "な…………！",
+        "zh_cn": "什么！",
+        "zh_tw": "什麼…………！"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0008",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "全員",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "?!",
+        "ja_jp": "――――!?",
+        "zh_cn": "！？",
+        "zh_tw": "────！？"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0009",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "A-are these ALL dragons?!",
+        "ja_jp": "も、もしかして、これ<ruby><rb>全部</rb><rt>ぜんぶ</rt></ruby>\\nドラゴンなのか……!?",
+        "zh_cn": "莫、莫非，\\n这些全都是龙吗！？",
+        "zh_tw": "該、該不會，\\n這些全都是龍族嗎……！？"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0010",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "No wonder more kept comin' every\\ntime we took one down. How in the\\nhell many ARE there?!",
+        "ja_jp": "<ruby><rb>倒</rb><rt>たお</rt></ruby>しても<ruby><rb>減</rb><rt>へ</rt></ruby>らないわけだ……。\\nいったい<ruby><rb>何</rb><rt>なん</rt></ruby><ruby><rb>匹</rb><rt>びき</rt></ruby>いやがるんだ……。",
+        "zh_cn": "难怪怎么打都打不完……\\n到底有多少头龙啊……",
+        "zh_tw": "難怪不管打倒多少都不會變少……\\n到底是有幾隻啊……"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0011",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Dozens. Hundreds. Perhaps more.\\nIt is a number beyond counting.",
+        "ja_jp": "<ruby><rb>数十</rb><rt>すうじゅう</rt></ruby>か、<ruby><rb>数百</rb><rt>すうひゃく</rt></ruby>か、いや――。\\nあるいは、それ<ruby><rb>以上</rb><rt>いじょう</rt></ruby>……。\\nとうてい<ruby><rb>数</rb><rt>かぞ</rt></ruby>え<ruby><rb>切</rb><rt>き</rt></ruby>れる<ruby><rb>数</rb><rt>かず</rt></ruby>ではない……。",
+        "zh_cn": "几十头，还是上百头。\\n不，可能远远不止……\\n已经数不过来了……",
+        "zh_tw": "幾十，或幾百，不對──\\n說不定更多……\\n這些量實在是無法數清……"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0012",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "I must apologize for the somewhat\\nrough treatment you have received.",
+        "ja_jp": "<ruby><rb>少</rb><rt>すこ</rt></ruby>しばかり、<ruby><rb>粗野</rb><rt>そや</rt></ruby>な<ruby><rb>扱</rb><rt>あつか</rt></ruby>いとなって\\nしまいましたことをお<ruby><rb>詫</rb><rt>わ</rt></ruby>びします。",
+        "zh_cn": "很抱歉采取这种\\n略显粗暴的手段。",
+        "zh_tw": "對待各位有些粗暴，\\n我先表示歉意。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0013",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Phares! How did you manage to gather\\ntogether this many void dragons?!",
+        "ja_jp": "ファルエス<ruby><rb>兄</rb><rt>にい</rt></ruby>さん……！\\nこれほどの<ruby><rb>数</rb><rt>かず</rt></ruby>の<ruby><rb>黒</rb><rt>くろ</rt></ruby>いマナのドラゴンを\\nいったいどうやって……。",
+        "zh_cn": "法尔艾斯哥哥！\\n这么多拥有黑暗魔力的龙\\n到底是怎么……",
+        "zh_tw": "法魯艾斯哥哥……！\\n這麼多黑色瑪納的龍族，\\n你到底是怎麼……"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0014",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "With the Empress's gracious assistance,\\nwe captured dragons from across the land,\\nthen used black mana to seize control.",
+        "ja_jp": "ディアネル<ruby><rb>皇帝陛下</rb><rt>こうていへいか</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>借</rb><rt>か</rt></ruby>りれば\\n<ruby><rb>容易</rb><rt>たやす</rt></ruby>いものです。<ruby><rb>各地</rb><rt>かくち</rt></ruby>のドラゴンを\\n<ruby><rb>捕</rb><rt>と</rt></ruby>らえ、<ruby><rb>黒</rb><rt>くろ</rt></ruby>きマナで<ruby><rb>支配</rb><rt>しはい</rt></ruby>するだけ。",
+        "zh_cn": "借助狄涅尔皇帝陛下之力的话\\n简直易如反掌。只要抓住各地的龙\\n并用黑暗魔力加以控制就好。",
+        "zh_tw": "如果借助狄亞內魯皇帝陛下的力量\\n就輕而易舉。只需要捕捉各地龍族，\\n並用黑色瑪納支配而已。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0015",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "Her goal and mine are one and the same:\\nThe enslavement of every last dragon\\nin the world entire.",
+        "ja_jp": "<ruby><rb>世</rb><rt>よ</rt></ruby>のドラゴンをあまねく<ruby><rb>使役</rb><rt>しえき</rt></ruby>する――。\\n<ruby><rb>皇帝陛下</rb><rt>こうていへいか</rt></ruby>と<ruby><rb>私</rb><rt>わたし</rt></ruby>は、\\n<ruby><rb>目的</rb><rt>もくてき</rt></ruby>を<ruby><rb>同</rb><rt>おな</rt></ruby>じにしています。",
+        "zh_cn": "我和皇帝陛下有着共同的目标——\\n让世上所有的龙都臣服于我们。",
+        "zh_tw": "奴役世上所有的龍族──\\n皇帝陛下和我，擁有相同目的。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0016",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "If this many dragons were loosed upon\\nthe world, there's no telling what would\\nbecome of Alberia.",
+        "ja_jp": "これだけの<ruby><rb>数</rb><rt>かず</rt></ruby>のドラゴンが\\n<ruby><rb>放</rb><rt>はな</rt></ruby>たれたら、アルベリアは……。",
+        "zh_cn": "要是放出了这么多龙，\\n阿尔贝里亚就……",
+        "zh_tw": "要是這麼多龍族被放了出去，\\n阿爾貝利亞會……"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0017",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I will never let that happen.",
+        "ja_jp": "――っ！　\\nそんなことは、<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby>にさせない……！",
+        "zh_cn": "我决不会让这种事发生！",
+        "zh_tw": "──！\\n我絕對不會讓那種事發生……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0018",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'll fight until my last for Alberia!",
+        "ja_jp": "おれは、アルべリアのために\\n<ruby><rb>最後</rb><rt>さいご</rt></ruby>まで<ruby><rb>戦</rb><rt>たたか</rt></ruby>う……！",
+        "zh_cn": "我会为了阿尔贝里亚\\n战斗到最后一刻！",
+        "zh_tw": "我會為了阿爾貝利亞，\\n戰鬥到最後……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0019",
+      "book": ""
+    },
+    {
+      "icon": "100018_02",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "And my sword will be ever at your side.",
+        "ja_jp": "ユーディル<ruby><rb>殿下</rb><rt>でんか</rt></ruby>――。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>も<ruby><rb>殿下</rb><rt>でんか</rt></ruby>の<ruby><rb>決意</rb><rt>けつい</rt></ruby>に<ruby><rb>加</rb><rt>くわ</rt></ruby>わります。",
+        "zh_cn": "尤蒂尔殿下，\\n我与您的决意同在。",
+        "zh_tw": "尤帝爾殿下──\\n我也與殿下的決心同在。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0020",
+      "book": ""
+    },
+    {
+      "icon": "100038_01",
+      "name": {
+        "en_us": "Beren",
+        "ja_jp": "ベベット",
+        "zh_cn": "贝维特",
+        "zh_tw": "貝維特"
+      },
+      "context": {
+        "en_us": "You go to great efforts to safeguard\\na thing not even worth protecting.",
+        "ja_jp": "<ruby><rb>守</rb><rt>まも</rt></ruby>るために<ruby><rb>戦</rb><rt>たたか</rt></ruby>う、か。<ruby><rb>守</rb><rt>まも</rt></ruby>るだけの\\n<ruby><rb>価値</rb><rt>かち</rt></ruby>があるのかも<ruby><rb>知</rb><rt>し</rt></ruby>らないのに、\\nご<ruby><rb>苦労</rb><rt>くろう</rt></ruby>なことだね。",
+        "zh_cn": "为了守护而战吗。\\n都不知道它是否值得你去守护，\\n真会瞎操心啊。",
+        "zh_tw": "為了守護而戰、嗎。\\n明明連有沒有守護的價值都不知道，\\n你還真辛苦呢。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0021",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "They're coming!",
+        "ja_jp": "<ruby><rb>来</rb><rt>く</rt></ruby>るぞ……！",
+        "zh_cn": "要来了！",
+        "zh_tw": "來了……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0022",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Wait, no. They're...leaving?",
+        "ja_jp": "な……!?　<ruby><rb>上</rb><rt>うえ</rt></ruby>に……！",
+        "zh_cn": "什么！？飞上去了！",
+        "zh_tw": "什麼……！？\\n往上飛了……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0023",
+      "book": ""
+    },
+    {
+      "icon": "100018_02",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Look out! The ceiling!",
+        "ja_jp": "――っ！　<ruby><rb>天井</rb><rt>てんじょう</rt></ruby>が……！",
+        "zh_cn": "房顶被……",
+        "zh_tw": "──！\\n天花板被……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0024",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "They're bringin' it down on top of us!",
+        "ja_jp": "<ruby><rb>気</rb><rt>き</rt></ruby>をつけろ！　<ruby><rb>上</rb><rt>うえ</rt></ruby>から<ruby><rb>瓦礫</rb><rt>がれき</rt></ruby>が<ruby><rb>来</rb><rt>く</rt></ruby>るぞ！",
+        "zh_cn": "当心！别被瓦砾砸到了！",
+        "zh_tw": "小心！上面的瓦礫要掉下來了！"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0025",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Holy snot, man... They're all flying away.",
+        "ja_jp": "ドラゴンが……。\\n<ruby><rb>空</rb><rt>そら</rt></ruby>に、どんどん<ruby><rb>飛</rb><rt>と</rt></ruby>んでいってる……。",
+        "zh_cn": "龙不断地……\\n向着天上、飞走了……",
+        "zh_tw": "龍族……\\n一個接一個地飛上天空了……"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0026",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What are you planning, Phares?",
+        "ja_jp": "ファルエス<ruby><rb>兄</rb><rt>にい</rt></ruby>さん、いったい<ruby><rb>何</rb><rt>なに</rt></ruby>を……。",
+        "zh_cn": "法尔艾斯哥哥，\\n到底做了什么……",
+        "zh_tw": "法魯艾斯哥哥，究竟……"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0027",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "Let us be off, Beren; we must report the\\nresults of this experiment to the Empress.",
+        "ja_jp": "ベベット、<ruby><rb>私</rb><rt>わたし</rt></ruby>たちも<ruby><rb>向</rb><rt>む</rt></ruby>かいましょう。\\n<ruby><rb>皇帝陛下</rb><rt>こうていへいか</rt></ruby>に<ruby><rb>実験</rb><rt>じっけん</rt></ruby>の<ruby><rb>報告</rb><rt>ほうこく</rt></ruby>をしに\\n<ruby><rb>行</rb><rt>い</rt></ruby>かなければなりません――。",
+        "zh_cn": "贝维特，我们也出发吧。\\n得去向皇帝陛下\\n汇报实验成果呢。",
+        "zh_tw": "貝維特，我們也過去吧。\\n必須向皇帝陛下報告實驗結果呢──"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0028",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You're going to the capital?!",
+        "ja_jp": "まさか、<ruby><rb>王都</rb><rt>おうと</rt></ruby>に……！",
+        "zh_cn": "难不成，是去王都……",
+        "zh_tw": "該不會，是王都……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0029",
+      "book": ""
+    },
+    {
+      "icon": "100038_01",
+      "name": {
+        "en_us": "Beren",
+        "ja_jp": "ベベット",
+        "zh_cn": "贝维特",
+        "zh_tw": "貝維特"
+      },
+      "context": {
+        "en_us": "Farewell, little Euden.\\nI look forward to seeing if you remain\\nyourself when next we meet.",
+        "ja_jp": "さようなら、ユーディル。\\n<ruby><rb>次</rb><rt>つぎ</rt></ruby>に<ruby><rb>会</rb><rt>あ</rt></ruby>うとき、<ruby><rb>君</rb><rt>きみ</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>に<ruby><rb>君</rb><rt>きみ</rt></ruby>がいるのか\\n<ruby><rb>楽</rb><rt>たの</rt></ruby>しみにしているよ。",
+        "zh_cn": "再见了，尤蒂尔。\\n我很期待下次相遇时\\n你还能否保持自我。",
+        "zh_tw": "再會了，尤帝爾。\\n下次見面時，你是否還擁有自我，\\n我很期待喔。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0030",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "My thanks for your cooperation. Ta ta!",
+        "ja_jp": "<ruby><rb>実験</rb><rt>じっけん</rt></ruby>へのご<ruby><rb>協力感謝</rb><rt>きょうりょくかんしゃ</rt></ruby>します。\\nそれでは――。",
+        "zh_cn": "感谢你们对实验的协助。\\n那我就先失陪了。",
+        "zh_tw": "感謝你協助實驗進行。\\n失陪了──"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0031",
+      "book": ""
+    },
+    {
+      "icon": "100018_02",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "...They're gone.",
+        "ja_jp": "……。\\n<ruby><rb>行</rb><rt>い</rt></ruby>ってしまわれた……。",
+        "zh_cn": "他们跑掉了……",
+        "zh_tw": "……\\n離開了……"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0032",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0033",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Why, my brothers...?",
+        "ja_jp": "ファルエス<ruby><rb>兄</rb><rt>にい</rt></ruby>さん――。\\nベベット――<ruby><rb>兄</rb><rt>にい</rt></ruby>さん。\\nあなたたちはいったいどこへ……。",
+        "zh_cn": "法尔艾斯哥哥……\\n贝维特……哥哥。\\n你们究竟要去哪里……",
+        "zh_tw": "法魯艾斯哥哥──\\n貝維特──哥哥。\\n你們到底要去哪裡……"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0034",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "A few days later...",
+        "ja_jp": "<ruby><rb>数日後</rb><rt>すうじつご</rt></ruby>――。",
+        "zh_cn": "几天后——",
+        "zh_tw": "幾天後──"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "",
+      "name": {
+        "en_us": "telop",
+        "ja_jp": "telop",
+        "zh_cn": "telop",
+        "zh_tw": "telop"
+      },
+      "context": {
+        "en_us": "\\nDyrenell Empire\\nThrone Room\\n \\n ",
+        "ja_jp": "<ruby><rb>ディアネル帝国</rb><rt>　　　　　　　　　　ていこく</rt></ruby>",
+        "zh_cn": "\\n狄涅尔帝国\\n皇帝之殿\\n \\n ",
+        "zh_tw": "\\n狄亞內魯帝國\\n帝殿\\n \\n "
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100009_06",
+      "name": {
+        "en_us": "Empress Zethia",
+        "ja_jp": "皇帝ゼシア",
+        "zh_cn": "皇帝塞西娅",
+        "zh_tw": "皇帝潔西雅"
+      },
+      "context": {
+        "en_us": "So invading insects squirm and wriggle\\nat our Empire's borders, hmm? How very\\nbothersome. ...Well? What will you do?",
+        "ja_jp": "<ruby><rb>国境</rb><rt>こっきょう</rt></ruby>に<ruby><rb>侵入者</rb><rt>しんにゅうしゃ</rt></ruby>？　<ruby><rb>国</rb><rt>くに</rt></ruby>の<ruby><rb>外</rb><rt>そと</rt></ruby>にも<ruby><rb>羽虫</rb><rt>はむし</rt></ruby>は\\nうごめくか。<ruby><rb>煩</rb><rt>わずら</rt></ruby>わしいことだな。\\nそれで？　どうするつもりだ？",
+        "zh_cn": "有人入侵国境？没想到在王国之外\\n也有不安分的飞虫啊。真令人心烦。\\n然后呢？你打算怎么做？",
+        "zh_tw": "國境有入侵者？國外也有小蟲蠢動嗎。\\n還真煩人啊。\\n然後呢？你打算怎麼做？"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0035",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "Dispatch them with your leave, Empress.\\nIf those who would violate our sovereignty\\nare left unchecked, it could shake the\\nvery foundations of the Empire.",
+        "ja_jp": "<ruby><rb>無論</rb><rt>むろん</rt></ruby>、<ruby><rb>討伐</rb><rt>とうばつ</rt></ruby>に<ruby><rb>向</rb><rt>む</rt></ruby>かう。<ruby><rb>国</rb><rt>くに</rt></ruby>を<ruby><rb>侵</rb><rt>おか</rt></ruby>すものを\\n<ruby><rb>放</rb><rt>ほう</rt></ruby>っておけば、<ruby><rb>国</rb><rt>くに</rt></ruby>の<ruby><rb>礎</rb><rt>いしずえ</rt></ruby>が<ruby><rb>揺</rb><rt>ゆ</rt></ruby>らぐ。\\n……<ruby><rb>許可</rb><rt>きょか</rt></ruby>をもらおう、<ruby><rb>皇帝陛下</rb><rt>こうていへいか</rt></ruby>。",
+        "zh_cn": "我当然会率兵前去讨伐。\\n若任其肆意妄为，将动摇我国根基。\\n皇帝陛下，请批准。",
+        "zh_tw": "當然是前往討伐。若放任侵入\\n我國之人，將會動搖國家基石。\\n……請允許，皇帝陛下。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0036",
+      "book": ""
+    },
+    {
+      "icon": "100009_06",
+      "name": {
+        "en_us": "Empress Zethia",
+        "ja_jp": "皇帝ゼシア",
+        "zh_cn": "皇帝塞西娅",
+        "zh_tw": "皇帝潔西雅"
+      },
+      "context": {
+        "en_us": "You are as forthright as ever, General.\\nYet I thought you knew I had no interest\\nin the fate of this nation.",
+        "ja_jp": "<ruby><rb>相変</rb><rt>あいか</rt></ruby>わらず<ruby><rb>律儀</rb><rt>りちぎ</rt></ruby>なことだ。<ruby><rb>我</rb><rt>われ</rt></ruby>がこの<ruby><rb>国</rb><rt>くに</rt></ruby>に\\nなど<ruby><rb>興味</rb><rt>きょうみ</rt></ruby>がないことは<ruby><rb>知</rb><rt>し</rt></ruby>っておろうに。",
+        "zh_cn": "你还是那么一板一眼呢，\\n明知道我对这个国家毫无兴趣。",
+        "zh_tw": "還是老樣子這麼嚴謹。\\n明明知道我對這個國家沒有興趣。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0037",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "Even so, there are things required of you,\\nhaving named yourself ruler of it.",
+        "ja_jp": "……だとしても、お<ruby><rb>前</rb><rt>まえ</rt></ruby>が<ruby><rb>皇帝</rb><rt>こうてい</rt></ruby>を<ruby><rb>名乗</rb><rt>なの</rt></ruby>る\\n<ruby><rb>以上</rb><rt>いじょう</rt></ruby>は<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>なことだ。",
+        "zh_cn": "即便如此……只要你自称皇帝，\\n这就是有必要的。",
+        "zh_tw": "……即使如此，\\n只要你自稱皇帝就有這個必要。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0038",
+      "book": ""
+    },
+    {
+      "icon": "100009_06",
+      "name": {
+        "en_us": "Empress Zethia",
+        "ja_jp": "皇帝ゼシア",
+        "zh_cn": "皇帝塞西娅",
+        "zh_tw": "皇帝潔西雅"
+      },
+      "context": {
+        "en_us": "Very well. Use the forces under your\\ncommand and rain death upon the fools\\nwho dare to invade this land.",
+        "ja_jp": "ふ……よかろう。では、ヴァルクスよ。\\n<ruby><rb>麾下</rb><rt>きか</rt></ruby>の<ruby><rb>戦力</rb><rt>せんりょく</rt></ruby>をもって、<ruby><rb>国</rb><rt>くに</rt></ruby>を<ruby><rb>侵</rb><rt>おか</rt></ruby>す<ruby><rb>愚</rb><rt>おろ</rt></ruby>か<ruby><rb>者</rb><rt>もの</rt></ruby>を\\n<ruby><rb>誅滅</rb><rt>ちゅうめつ</rt></ruby>してまいれ。",
+        "zh_cn": "哼……好吧。那么，巴尔库斯，\\n我命你率兵前往国境，\\n歼灭侵犯我国的愚昧之徒。",
+        "zh_tw": "呵……好吧。那麼，范爾克斯。\\n帶著你手下的戰力，\\n將入侵我國的愚蠢之徒殲滅吧。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0039",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "Understood. I will prepare to march\\nand depart with all haste.",
+        "ja_jp": "<ruby><rb>承知</rb><rt>しょうち</rt></ruby>した。\\n<ruby><rb>軍備</rb><rt>ぐんび</rt></ruby>を<ruby><rb>整</rb><rt>ととの</rt></ruby>え、<ruby><rb>早急</rb><rt>さっきゅう</rt></ruby>に<ruby><rb>出立</rb><rt>しゅったつ</rt></ruby>する。",
+        "zh_cn": "遵命。\\n整军后将立刻出发。",
+        "zh_tw": "遵命。\\n我將做好備戰準備，立刻出發。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0040",
+      "book": ""
+    },
+    {
+      "icon": "100009_06",
+      "name": {
+        "en_us": "Empress Zethia",
+        "ja_jp": "皇帝ゼシア",
+        "zh_cn": "皇帝塞西娅",
+        "zh_tw": "皇帝潔西雅"
+      },
+      "context": {
+        "en_us": "With this, all who carry the dragonblood\\nwill be absent from the capital.",
+        "ja_jp": "これで、<ruby><rb>王都</rb><rt>おうと</rt></ruby>より<ruby><rb>竜</rb><rt>りゅう</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>つ<ruby><rb>者</rb><rt>もの</rt></ruby>が\\nすべて<ruby><rb>去</rb><rt>さ</rt></ruby>ったか。",
+        "zh_cn": "这下，龙之血的继承人\\n就都离开王都了吗。",
+        "zh_tw": "這下，擁有龍之血的人就\\n全都離開王都了嗎。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0041",
+      "book": ""
+    },
+    {
+      "icon": "100009_06",
+      "name": {
+        "en_us": "Empress Zethia",
+        "ja_jp": "皇帝ゼシア",
+        "zh_cn": "皇帝塞西娅",
+        "zh_tw": "皇帝潔西雅"
+      },
+      "context": {
+        "en_us": "The only forces remaining are the\\nCapital Guard—a truly fortuitous\\nset of circumstances!",
+        "ja_jp": "<ruby><rb>軍勢</rb><rt>ぐんぜい</rt></ruby>も、<ruby><rb>残</rb><rt>のこ</rt></ruby>るは<ruby><rb>王都守備隊</rb><rt>おうとしゅびたい</rt></ruby><ruby><rb>程度</rb><rt>ていど</rt></ruby>……\\nふ……<ruby><rb>実</rb><rt>じつ</rt></ruby>に、<ruby><rb>都合</rb><rt>つごう</rt></ruby>のいい<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>だ。",
+        "zh_cn": "剩下的兵力只有王都守卫队……\\n呵……情况非常理想。",
+        "zh_tw": "兵力也僅剩王都守衛隊的程度……\\n呵……這真是個好時機。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0042",
+      "book": ""
+    },
+    {
+      "icon": "100009_06",
+      "name": {
+        "en_us": "Empress Zethia",
+        "ja_jp": "皇帝ゼシア",
+        "zh_cn": "皇帝塞西娅",
+        "zh_tw": "皇帝潔西雅"
+      },
+      "context": {
+        "en_us": "Yet what will you do with these favorable\\nconditions, my dear elder brother?",
+        "ja_jp": "さて、この<ruby><rb>好機</rb><rt>こうき</rt></ruby>。<ruby><rb>兄上</rb><rt>あにうえ</rt></ruby><ruby><rb>様</rb><rt>さま</rt></ruby>は、\\nどうするつもりかな……？",
+        "zh_cn": "那么，你又会怎么利用\\n这个良机呢，哥哥？",
+        "zh_tw": "好了，如此良機。\\n兄長大人會怎麼做呢……？"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0043",
+      "book": ""
+    },
+    {
+      "icon": "100009_06",
+      "name": {
+        "en_us": "Empress Zethia",
+        "ja_jp": "皇帝ゼシア",
+        "zh_cn": "皇帝塞西娅",
+        "zh_tw": "皇帝潔西雅"
+      },
+      "context": {
+        "en_us": "Heh. I shall have to keep you suitably\\nentertained in the palace. For courtesy's\\nsake, of course. Ha ha! Aaaah ha ha ha!",
+        "ja_jp": "ふふ……<ruby><rb>王宮</rb><rt>おうきゅう</rt></ruby>でもてなさねば\\nなるまいな。<ruby><rb>丁重</rb><rt>ていちょう</rt></ruby>に、な。\\nふふふふ……。",
+        "zh_cn": "呵呵……我可得在王宫\\n盛情款待哥哥才行啊。\\n呵呵呵呵……",
+        "zh_tw": "呵呵……得在王宮款待他才行呢。\\n鄭重地、呢。\\n呵呵呵呵……"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0044",
+      "book": ""
+    },
+    {
+      "icon": "100009_06",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Meanwhile...",
+        "ja_jp": "<ruby><rb>一方</rb><rt>いっぽう</rt></ruby>その<ruby><rb>頃</rb><rt>ころ</rt></ruby>――",
+        "zh_cn": "与此同时",
+        "zh_tw": "同時，另一方──"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "",
+      "name": {
+        "en_us": "telop",
+        "ja_jp": "telop",
+        "zh_cn": "telop",
+        "zh_tw": "telop"
+      },
+      "context": {
+        "en_us": "\\nThe Halidom\\n \\n \\n ",
+        "ja_jp": "<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>",
+        "zh_cn": "\\n圣城\\n \\n \\n ",
+        "zh_tw": "\\n聖城\\n \\n \\n "
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100005_05",
+      "name": {
+        "en_us": "Alex",
+        "ja_jp": "シャノン",
+        "zh_cn": "沙音",
+        "zh_tw": "夏儂"
+      },
+      "context": {
+        "en_us": "Your Highness, your brother Leonidas\\nhas departed the Halidom and returned\\nto Valkaheim.",
+        "ja_jp": "ユーディル、\\n<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>を<ruby><rb>出</rb><rt>で</rt></ruby>たレオニードが、\\nバルカヘイムに<ruby><rb>戻</rb><rt>もど</rt></ruby>ったようだ。",
+        "zh_cn": "尤蒂尔，\\n听说离开圣城的莱昂尼多\\n已经回到巴尔加海姆了。",
+        "zh_tw": "尤帝爾，\\n離開聖城的雷歐尼特，\\n似乎回到巴爾加海姆了。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0045",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "That's good to hear.",
+        "ja_jp": "レオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さんが……。\\nよかった――。",
+        "zh_cn": "莱昂尼多哥哥他……\\n那就好。",
+        "zh_tw": "雷歐尼特哥哥他……\\n太好了──"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0046",
+      "book": ""
+    },
+    {
+      "icon": "100005_05",
+      "name": {
+        "en_us": "Alex",
+        "ja_jp": "シャノン",
+        "zh_cn": "沙音",
+        "zh_tw": "夏儂"
+      },
+      "context": {
+        "en_us": "Though he is recovering from his injuries,\\nit will likely be some time before he is\\nable to venture forth again.",
+        "ja_jp": "<ruby><rb>回復</rb><rt>かいふく</rt></ruby>しているが、あの<ruby><rb>怪我</rb><rt>けが</rt></ruby>だ。\\n<ruby><rb>当分</rb><rt>とうぶん</rt></ruby>バルカヘイムから\\n<ruby><rb>動</rb><rt>うご</rt></ruby>くことはないだろう。",
+        "zh_cn": "虽然身体正逐渐康复，\\n但毕竟受了那么重的伤。\\n近期不会有什么行动了吧。",
+        "zh_tw": "雖然多少有恢復，但畢竟傷勢很重。\\n應該好一陣子不會離開巴爾加海姆吧。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0047",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I see.",
+        "ja_jp": "そうか……。",
+        "zh_cn": "这样啊……",
+        "zh_tw": "是嗎……"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0048",
+      "book": ""
+    },
+    {
+      "icon": "100018_02",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Additionally, Princess Chelle has stationed\\nherself in Rovetelle for the nonce.",
+        "ja_jp": "<ruby><rb>殿下</rb><rt>でんか</rt></ruby>、シェス<ruby><rb>様</rb><rt>さま</rt></ruby>もしばらくは\\nロブレールに<ruby><rb>駐屯</rb><rt>ちゅうとん</rt></ruby>されるご<ruby><rb>様子</rb><rt>ようす</rt></ruby>です。",
+        "zh_cn": "殿下，谢斯大人\\n看起来也会在罗布雷尔\\n驻扎一段时间。",
+        "zh_tw": "殿下，謝斯大人似乎也會暫時\\n駐屯在羅布雷路的樣子。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0049",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Chelle is gone as well?",
+        "ja_jp": "シェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さんも……。",
+        "zh_cn": "谢斯姐姐也……",
+        "zh_tw": "謝斯姊姊也……"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0050",
+      "book": ""
+    },
+    {
+      "icon": "100018_02",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "The princess also sent a messenger\\nto the Halidom a short while ago.",
+        "ja_jp": "それと、シェス<ruby><rb>様</rb><rt>さま</rt></ruby>ですが\\n<ruby><rb>先</rb><rt>さき</rt></ruby>ほど<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>に<ruby><rb>伝令</rb><rt>でんれい</rt></ruby>を<ruby><rb>寄越</rb><rt>よこ</rt></ruby>されました。",
+        "zh_cn": "还有，谢斯大人\\n刚才派人送来了传令。",
+        "zh_tw": "另外，謝斯大人\\n剛才發出了傳令到聖城。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0051",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What news did they bring?",
+        "ja_jp": "<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さんが<ruby><rb>伝令</rb><rt>でんれい</rt></ruby>……？\\nいったい<ruby><rb>何</rb><rt>なん</rt></ruby>の<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>を……？",
+        "zh_cn": "姐姐的传令？\\n会是什么情报呢……",
+        "zh_tw": "姊姊的傳令……？\\n到底有什麼情報……？"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0052",
+      "book": ""
+    },
+    {
+      "icon": "100018_02",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Prince Valyx has left the capital\\nand is on the march north.",
+        "ja_jp": "ヴァルクス<ruby><rb>様</rb><rt>さま</rt></ruby>が、<ruby><rb>王都</rb><rt>おうと</rt></ruby>を<ruby><rb>離</rb><rt>はな</rt></ruby>れ、\\n<ruby><rb>進軍</rb><rt>しんぐん</rt></ruby>されたようです――。",
+        "zh_cn": "巴尔库斯大人\\n似乎率兵离开了王都。",
+        "zh_tw": "據說范爾克斯大人已經離開王都，\\n帶兵出征了──"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0053",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Why would he be doing that...?",
+        "ja_jp": "ヴァルクス<ruby><rb>兄</rb><rt>にい</rt></ruby>さんが……？\\nどうしてだろう……。",
+        "zh_cn": "巴尔库斯哥哥？\\n这是为什么呢……",
+        "zh_tw": "范爾克斯哥哥他……？\\n是為什麼……"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0054",
+      "book": ""
+    },
+    {
+      "icon": "100018_02",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "If I may, Your Highness, we find ourselves\\npresented with a golden opportunity.",
+        "ja_jp": "<ruby><rb>詳</rb><rt>くわ</rt></ruby>しいことはまだわかりませんが、\\nしかし、これは<ruby><rb>好機</rb><rt>こうき</rt></ruby>かと――。",
+        "zh_cn": "虽然尚不了解详情，\\n但我认为这不失为一个良机。",
+        "zh_tw": "雖然不曉得詳情，\\n但是，我想這是個好機會──"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0055",
+      "book": ""
+    },
+    {
+      "icon": "100018_02",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "With Leonidas and Emile's armies lost\\nand Chelle and Valyx's absent, the capital\\nfinds itself woefully short of forces.",
+        "ja_jp": "レオニード<ruby><rb>様</rb><rt>さま</rt></ruby>とエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>の<ruby><rb>軍</rb><rt>ぐん</rt></ruby>が\\n<ruby><rb>失</rb><rt>うしな</rt></ruby>われ、シェス<ruby><rb>様</rb><rt>さま</rt></ruby>とヴァルクス<ruby><rb>様</rb><rt>さま</rt></ruby>の<ruby><rb>軍</rb><rt>ぐん</rt></ruby>\\nが<ruby><rb>不在</rb><rt>ふざい</rt></ruby>となれば、<ruby><rb>今</rb><rt>いま</rt></ruby>や<ruby><rb>王都</rb><rt>おうと</rt></ruby>は<ruby><rb>手薄</rb><rt>てうす</rt></ruby>です。",
+        "zh_cn": "莱昂尼多大人和艾缪尔大人失去兵力，\\n谢斯大人和巴尔库斯大人又率兵在外，\\n这意味着如今王都的守备十分薄弱。",
+        "zh_tw": "失去雷歐尼特大人與埃米爾大人的軍隊，\\n謝斯大人與范爾克斯大人的\\n軍隊也不在，此時的王都軍力薄弱。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0056",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "All that remain are Harle's Capital Guard\\nand Phares. And after them...Morsayati.",
+        "ja_jp": "<ruby><rb>残</rb><rt>のこ</rt></ruby>るは、ファルエス<ruby><rb>兄</rb><rt>にい</rt></ruby>さんと\\nハールの<ruby><rb>守備隊</rb><rt>しゅびたい</rt></ruby>。それから――、\\nモルトメサイアだけか……。",
+        "zh_cn": "王都只剩下法尔艾斯哥哥\\n和哈尔的守卫队。\\n还有，莫尔托梅塞亚吗……",
+        "zh_tw": "剩下的，只有法魯艾斯哥哥和\\n哈魯的守衛隊。以及──\\n摩特米塞亞而已嗎……"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0057",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Make ready to march for the capital.\\nWe leave at once.",
+        "ja_jp": "よし――<ruby><rb>出陣</rb><rt>しゅつじん</rt></ruby>だ。\\n<ruby><rb>王都</rb><rt>おうと</rt></ruby>へ<ruby><rb>進軍</rb><rt>しんぐん</rt></ruby>しよう。",
+        "zh_cn": "好，我们出兵吧，\\n向王都进军。",
+        "zh_tw": "好──準備出擊。\\n朝王都進軍吧。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0058",
+      "book": ""
+    },
+    {
+      "icon": "100018_02",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "A praiseworthy decision, Your Highness.",
+        "ja_jp": "ユーディル<ruby><rb>殿下</rb><rt>でんか</rt></ruby>、\\n<ruby><rb>立派</rb><rt>りっぱ</rt></ruby>なご<ruby><rb>決断</rb><rt>けつだん</rt></ruby>です――。",
+        "zh_cn": "尤蒂尔殿下，\\n这是个英明的决断。",
+        "zh_tw": "尤帝爾殿下，\\n這是相當了不起的決定──"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0059",
+      "book": ""
+    },
+    {
+      "icon": "100018_02",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "By your leave, I will be at your side—\\nfor I would follow you to the ends\\nof the very world itself.",
+        "ja_jp": "このリーフも<ruby><rb>殿下</rb><rt>でんか</rt></ruby>のお<ruby><rb>供</rb><rt>とも</rt></ruby>に――。<ruby><rb>地</rb><rt>ち</rt></ruby>の\\n<ruby><rb>果</rb><rt>は</rt></ruby>てまでも<ruby><rb>随行</rb><rt>ずいこう</rt></ruby>させていただきます。",
+        "zh_cn": "我利弗也将追随殿下，\\n哪怕是天涯海角。",
+        "zh_tw": "李弗我也會陪伴殿下左右──\\n即使要跟隨您到大地盡頭。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0060",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'll be counting on you, Leif.",
+        "ja_jp": "ああ、リーフ、ありがとう――。\\n<ruby><rb>頼</rb><rt>たよ</rt></ruby>りにしているよ。",
+        "zh_cn": "嗯，利弗，谢谢你。\\n那就拜托你了。",
+        "zh_tw": "嗯，李弗，謝謝你。\\n那就拜託你了。"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0061",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Hold on, Zethia. I'm going to defeat\\nMorsayati and save you. ...I swear it.",
+        "ja_jp": "ゼシア、<ruby><rb>待</rb><rt>ま</rt></ruby>っていてくれ――。\\nモルトメサイアを<ruby><rb>倒</rb><rt>たお</rt></ruby>して、\\n<ruby><rb>必</rb><rt>かなら</rt></ruby>ずきみを<ruby><rb>助</rb><rt>たす</rt></ruby>けてみせる――！",
+        "zh_cn": "塞西娅，等着我。\\n我一定会打倒莫尔托梅塞亚，\\n把你救出来！",
+        "zh_tw": "潔西雅，等著我吧──\\n我絕對會打倒摩特米塞亞，\\n然後把妳救出來的──！"
+      },
+      "voice": "VO_CHR_MAINSTORY_13_09_0062",
+      "book": ""
+    }
+  ]
 }

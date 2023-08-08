@@ -1,855 +1,1615 @@
 {
-    "story_id": "",
-    "story_name": "克洛诺斯之怒 操纵时空的人造龙",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "沙白果然就是克洛诺斯。\\n他为了除掉斑比而利用了王子。\\n王子为了救斑比而与克洛诺斯\\n进行对峙，此时军神\\n格里姆尼尔现身并出手相助。"
-        ]
+  "title": {
+    "en_us": "Rage of Chronos    The Time-Controlling Dragon",
+    "ja_jp": "レイジ・オブ・クロノス  時を弄びし人造竜",
+    "zh_cn": "克洛诺斯之怒  操纵时空的人造龙",
+    "zh_tw": "克羅諾斯之怒  操弄時空的人造龍"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "120007_01",
-                "120007_01",
-                "120007_01"
-            ],
-            "speaker_name": "魔兽",
-            "context": "咕嗷嗷嗷嗷嗷！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120016_01"
-            ],
-            "speaker_name": "村里的孩子",
-            "context": "呜、呜呜……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "别怕！你们不是知道\\n斑比是很厉害的吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120017_01"
-            ],
-            "speaker_name": "村里的孩子",
-            "context": "可、可是……\\n有好多魔兽啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "不管有多少，只要斑比\\n拿出真本事，都是小菜一碟！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "（不过那样一来……\\n会不会又吓到他们啊？）",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120016_01"
-            ],
-            "speaker_name": "村里的孩子",
-            "context": "斑比！前面！小心前面！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "诶？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120007_01"
-            ],
-            "speaker_name": "魔兽",
-            "context": "咕嗷嗷嗷嗷！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "唔！\\n真是的！\\n斑比可要生气了哦！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120007_01"
-            ],
-            "speaker_name": "魔兽",
-            "context": "！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "哈啊……哈啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120016_01"
-            ],
-            "speaker_name": "村里的孩子",
-            "context": "斑比，你没事吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "嗯，没事没事。\\n斑比可是超级厉害的\\n吸血鬼呢！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120017_01"
-            ],
-            "speaker_name": "村里的孩子",
-            "context": "嗯、嗯……也是呢。\\n那个……斑比……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120016_01",
-                "120017_01"
-            ],
-            "speaker_name": "村里的孩子",
-            "context": "对不起！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "诶！？怎、怎么了？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120016_01"
-            ],
-            "speaker_name": "村里的孩子",
-            "context": "那个时候斑比明明救了我们，\\n我们却觉得你很可怕……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120017_01"
-            ],
-            "speaker_name": "村里的孩子",
-            "context": "所以我们就觉得\\n应该向你道歉……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "你、你们……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "其、其实也不用道歉啦。\\n斑比对你们的想法\\n可是一清二楚呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120016_01"
-            ],
-            "speaker_name": "村里的孩子",
-            "context": "斑比……\\n对不起……谢谢你！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "斑比！你没事吧！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "啊！眷属，你怎么才来啊！\\n真是的，都已经解决了啦！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120139_01"
-            ],
-            "speaker_name": "沙白",
-            "context": "对不起，斑比大人。\\n他似乎对我带路不太满意，\\n所以花了一些时间。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "抱歉……并不是\\n对你不满意，只是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "（那个忠告让我心存疑虑……\\n总担心自己是不是被沙白……\\n被克洛诺斯骗了……）",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "啊！快看，他们在这边！\\n斑比和孩子们好像都没事！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "太好了。\\n尤蒂尔也没事啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "本来是循着打斗声找来的……\\n看来都已经完事了啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "对啊！\\n你们都严重迟到啦！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "尤其是你可是要成为斑比的\\n眷属的，有危险的时候你要在\\n斑比身边啊！知道了吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "抱、抱歉……我会注意的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "真拿你没办法！\\n万一斑比……\\n咦？怎么觉得……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "？\\n斑比？你怎么了？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "感觉……有点奇怪。\\n全身都没力气……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "斑比！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "唔、唔唔……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120139_01"
-            ],
-            "speaker_name": "沙白",
-            "context": "这可……不好……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "怎么回事？\\n斑比她究竟怎么了？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120139_01"
-            ],
-            "speaker_name": "沙白",
-            "context": "是力量透支了……\\n斑比大人作为吸血鬼的\\n力量正面临枯竭。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "吸血鬼的力量会枯竭？\\n会有这样的事？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120139_01"
-            ],
-            "speaker_name": "沙白",
-            "context": "其实……斑比大人\\n自从来到圣城以后，\\n就再也没有吸食过人血。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120139_01"
-            ],
-            "speaker_name": "沙白",
-            "context": "对吸血鬼来说，血才是力量之源。\\n如果不摄取血液，\\n自然会越来越衰弱。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120139_01"
-            ],
-            "speaker_name": "沙白",
-            "context": "然而她却为了消灭魔兽，\\n不断地使用力量……\\n这样下去性命堪忧啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "怎、怎么会这样！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "（都怪我……\\n如果我当时能信任沙白，\\n或许就能及时赶到她身边……）",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "（那样一来，\\n斑比也不至于\\n会如此精疲力竭……）",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "但、但是，她只要喝血\\n应该就没事了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120139_01"
-            ],
-            "speaker_name": "沙白",
-            "context": "嗯，是这样没错……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120139_01"
-            ],
-            "speaker_name": "沙白",
-            "context": "尤蒂尔大人，\\n能请您分一点血\\n给斑比大人吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120139_01"
-            ],
-            "speaker_name": "沙白",
-            "context": "现在斑比大人需要的\\n是拥有强大力量的血。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120139_01"
-            ],
-            "speaker_name": "沙白",
-            "context": "在这一点上，您的血无可挑剔。\\n对斑比大人而言，\\n一定会是无上的良药。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "可是，被吸血鬼吸了血的话，\\n不就要变成对她唯命是从的\\n那个什么眷属了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120139_01"
-            ],
-            "speaker_name": "沙白",
-            "context": "不，这一点不用担心。\\n只有被吸血鬼用尖牙咬破皮肤，\\n吸食血液的情况下才会成为眷属。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120139_01"
-            ],
-            "speaker_name": "沙白",
-            "context": "若是自己主动放血，\\n即便把血给吸血鬼\\n也不会成为眷属的凭证。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120139_01"
-            ],
-            "speaker_name": "沙白",
-            "context": "还请帮帮忙，\\n救救斑比大人吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我知道了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "斑比，能能到我说话吗？\\n来，快把血喝了吧——",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "嗯……\\n唔！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "啊……啊啊啊！\\n啊啊啊啊啊啊啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "什么！？斑比！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "快看，斑比好像很痛苦呢！\\n她怎么了！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "沙白！\\n斑比真的没事吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120139_01"
-            ],
-            "speaker_name": "沙白",
-            "context": "嗯，她没事的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120139_01"
-            ],
-            "speaker_name": "沙白",
-            "context": "猛药同时也是剧毒。\\n斑比大人作为吸血鬼尚且年幼，\\n恐怕承受不住你的血液。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120139_01"
-            ],
-            "speaker_name": "沙白",
-            "context": "这一切……\\n都在我的计划之中。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "难、难道……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "全员",
-            "context": "哇啊啊啊啊啊啊啊啊啊啊！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "唔……可恶，\\n到底发生了什么！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "沙白？",
-            "context": "尤蒂尔大人，\\n感谢您的合作。\\n这下我就能完成使命了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "沙白？\\n那、那副外表是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "沙白……不，你是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "沙白？",
-            "context": "没错……如你所料，\\n未来的王啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "你果然是克洛诺斯！\\n呃……你究竟有什么企图！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "克洛诺斯",
-            "context": "就算现在告诉你们\\n也是白费口舌。\\n我只需完成自己的使命。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "唔……啊……\\n身、身体……动不了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "克洛诺斯",
-            "context": "你就在我的束缚下\\n老实待一会儿吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "呜呜呜……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "克洛诺斯",
-            "context": "好了，吸血鬼公主，认命吧。\\n为了我的王，我要除掉\\n你这棵灾厄的幼苗。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "你是冲着斑比来的！？\\n呃……得救她才行！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "克洛诺斯",
-            "context": "再见了，吸血鬼公主。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "到此为止了。\\n操纵时空的人造龙。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "克洛诺斯",
-            "context": "来者何人！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "呵，既然被问到，\\n就只能自报家门了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110285_01"
-            ],
-            "speaker_name": "格里姆尼尔",
-            "context": "吾乃因果之调律者，\\n亦为席卷战场的飓风军神，\\n狂舞暴风，格里——姆尼尔！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "格里姆尼尔！？\\n原来那个声音是你吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110285_01"
-            ],
-            "speaker_name": "格里姆尼尔",
-            "context": "王子，我们终于见面了。\\n不过，相见的喜悦先放一边，\\n现在要先阻止嘲弄因果之龙。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0089",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110285_01"
-            ],
-            "speaker_name": "格里姆尼尔",
-            "context": "王子和他的盟友们啊，\\n起身反抗吧！一起讨伐\\n阴险的恶龙，拯救异类公主吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0090",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "谢谢你，格里姆尼尔。\\n克洛诺斯……\\n我不会再让你为所欲为！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0091",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "克洛诺斯",
-            "context": "愚蠢的容器啊。无论何人，\\n若是胆敢阻碍王之宏愿，\\n都只有被消灭的下场。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0092",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "克洛诺斯",
-            "context": "连同调律者一起\\n消失在因果的彼端吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_05_0093",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Malinda is revealed to be Chronos, who plots to\\nuse the prince to eliminate Vania. When the\\nprince and Chronos clash over Vania's fate,\\nthe war god Grimnir appears, offering his help\\nin defeating the time-wielding menace.",
+      "ja_jp": "ベスはやはりクロノスだった。\\nヴァンピィを<ruby><rb>排除</rb><rt>はいじょ</rt></ruby>するため<ruby><rb>王子</rb><rt>おうじ</rt></ruby>を<ruby><rb>利用</rb><rt>りよう</rt></ruby>\\nしたのだ。ヴァンピィを<ruby><rb>救</rb><rt>すく</rt></ruby>うべく\\nクロノスと<ruby><rb>対峙</rb><rt>たいじ</rt></ruby>する<ruby><rb>王子</rb><rt>おうじ</rt></ruby>の<ruby><rb>前</rb><rt>まえ</rt></ruby>に、\\n<ruby><rb>軍神</rb><rt>ぐんしん</rt></ruby>グリームニルが<ruby><rb>助</rb><rt>たす</rt></ruby>けに<ruby><rb>現</rb><rt>あらわ</rt></ruby>れる。",
+      "zh_cn": "沙白果然就是克洛诺斯。\\n他为了除掉斑比而利用了王子。\\n王子为了救斑比而与克洛诺斯\\n进行对峙，此时军神\\n格里姆尼尔现身并出手相助。",
+      "zh_tw": "貝斯果然就是克羅諾斯。一直以來\\n他都是為了將班比排除而利用著王子。\\n在欲拯救班比而與克羅諾斯對峙的\\n王子面前，軍神格里姆尼爾\\n以援軍之姿現身。"
+    }
+  },
+  "prev": "2043304",
+  "next": "2043306",
+  "content": [
+    {
+      "icon": "120007_01",
+      "name": {
+        "en_us": "Fiend",
+        "ja_jp": "魔獣",
+        "zh_cn": "魔兽",
+        "zh_tw": "魔獸"
+      },
+      "context": {
+        "en_us": "GroooAAAR!",
+        "ja_jp": "グオオオオッ！ ",
+        "zh_cn": "咕嗷嗷嗷嗷嗷！",
+        "zh_tw": "咕喔喔喔喔喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0001",
+      "book": ""
+    },
+    {
+      "icon": "120016_01",
+      "name": {
+        "en_us": "Village Child",
+        "ja_jp": "村の子供",
+        "zh_cn": "村里的孩子",
+        "zh_tw": "村裡的孩子"
+      },
+      "context": {
+        "en_us": "*hic* Waaaah!",
+        "ja_jp": "う、うう……",
+        "zh_cn": "呜、呜呜……",
+        "zh_tw": "嗚、嗚嗚……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0002",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "Don't worry, you guys!\\nYou know I'm super strong, right?",
+        "ja_jp": "だいじょーぶ！　ヴァンピィちゃん、\\n<ruby><rb>強</rb><rt>つよ</rt></ruby>いの<ruby><rb>知</rb><rt>し</rt></ruby>ってるでしょー？",
+        "zh_cn": "别怕！你们不是知道\\n斑比是很厉害的吗？",
+        "zh_tw": "沒事的～！\\n你們也知道班比很強吧～？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0003",
+      "book": ""
+    },
+    {
+      "icon": "120017_01",
+      "name": {
+        "en_us": "Village Child",
+        "ja_jp": "村の子供",
+        "zh_cn": "村里的孩子",
+        "zh_tw": "村裡的孩子"
+      },
+      "context": {
+        "en_us": "But there're so many of them!",
+        "ja_jp": "で、でも……いっぱいいるよ……？",
+        "zh_cn": "可、可是……\\n有好多魔兽啊……",
+        "zh_tw": "但、但是……\\n牠們有很多隻耶……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0004",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "It won't matter HOW many there are\\nonce I get serious!",
+        "ja_jp": "いくらいても、ヴァンピィちゃんが\\n<ruby><rb>本気</rb><rt>ほんき</rt></ruby>になれば、よゆーですしっ！",
+        "zh_cn": "不管有多少，只要斑比\\n拿出真本事，都是小菜一碟！",
+        "zh_tw": "就算有再多隻，\\n只要班比認真起來，都很輕鬆啦！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0005",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "(But...will that only frighten them again?)",
+        "ja_jp": "（……でも、また<ruby><rb>怖</rb><rt>こわ</rt></ruby>がられたり\\n　しちゃうのかな……？）",
+        "zh_cn": "（不过那样一来……\\n会不会又吓到他们啊？）",
+        "zh_tw": "（……但是，\\n他們會不會又害怕班比呢……？）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0006",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0007",
+      "book": ""
+    },
+    {
+      "icon": "120016_01",
+      "name": {
+        "en_us": "Village Child",
+        "ja_jp": "村の子供",
+        "zh_cn": "村里的孩子",
+        "zh_tw": "村裡的孩子"
+      },
+      "context": {
+        "en_us": "Vania! Look out!",
+        "ja_jp": "ヴァンピィちゃん、<ruby><rb>前</rb><rt>まえ</rt></ruby>！　<ruby><rb>前</rb><rt>まえ</rt></ruby>っ！",
+        "zh_cn": "斑比！前面！小心前面！",
+        "zh_tw": "班比，前面！前面！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0008",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "Huh?",
+        "ja_jp": "え？",
+        "zh_cn": "诶？",
+        "zh_tw": "咦？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0009",
+      "book": ""
+    },
+    {
+      "icon": "120007_01",
+      "name": {
+        "en_us": "Fiend",
+        "ja_jp": "魔獣",
+        "zh_cn": "魔兽",
+        "zh_tw": "魔獸"
+      },
+      "context": {
+        "en_us": "GRAOOOWR!",
+        "ja_jp": "グオオオオッ！ ",
+        "zh_cn": "咕嗷嗷嗷嗷！",
+        "zh_tw": "咕喔喔喔喔喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0010",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "Hngh! Ugh...RUDE! If you're trying\\nto make me mad, it's working!",
+        "ja_jp": "ううっ！\\n……もうっ！　ヴァンピィちゃん、\\n<ruby><rb>怒</rb><rt>おこ</rt></ruby>っちゃうんだから！",
+        "zh_cn": "唔！\\n真是的！\\n斑比可要生气了哦！",
+        "zh_tw": "唔唔！\\n……真是！\\n班比要生氣了喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0011",
+      "book": ""
+    },
+    {
+      "icon": "120007_01",
+      "name": {
+        "en_us": "Fiend",
+        "ja_jp": "魔獣",
+        "zh_cn": "魔兽",
+        "zh_tw": "魔獸"
+      },
+      "context": {
+        "en_us": "Grrrkh!",
+        "ja_jp": "――!!",
+        "zh_cn": "！",
+        "zh_tw": "──！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0012",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "*huff* *pant*",
+        "ja_jp": "はぁ……はぁ……",
+        "zh_cn": "哈啊……哈啊……",
+        "zh_tw": "呼……呼……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0013",
+      "book": ""
+    },
+    {
+      "icon": "120016_01",
+      "name": {
+        "en_us": "Village Child",
+        "ja_jp": "村の子供",
+        "zh_cn": "村里的孩子",
+        "zh_tw": "村裡的孩子"
+      },
+      "context": {
+        "en_us": "Are you okay, Vania?",
+        "ja_jp": "ヴァンピィちゃん、<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>？",
+        "zh_cn": "斑比，你没事吧？",
+        "zh_tw": "班比，還好嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0014",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "I'm... I'm fine! Peachy, even.\\nI'm a super strong vampire!",
+        "ja_jp": "うん、へーき、へーき。\\nヴァンピィちゃんはすっごく<ruby><rb>強</rb><rt>つよ</rt></ruby>い\\n<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>ですので！",
+        "zh_cn": "嗯，没事没事。\\n斑比可是超级厉害的\\n吸血鬼呢！",
+        "zh_tw": "嗯，輕輕鬆鬆。\\n因為班比是很強的吸血鬼！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0015",
+      "book": ""
+    },
+    {
+      "icon": "120017_01",
+      "name": {
+        "en_us": "Village Child",
+        "ja_jp": "村の子供",
+        "zh_cn": "村里的孩子",
+        "zh_tw": "村裡的孩子"
+      },
+      "context": {
+        "en_us": "Yeah. You really are.\\nUm...Vania?",
+        "ja_jp": "う、うん……そうだよね。\\nあの……ヴァンピィちゃん……？",
+        "zh_cn": "嗯、嗯……也是呢。\\n那个……斑比……",
+        "zh_tw": "嗯、嗯……說得也是。\\n那個……班比……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0016",
+      "book": ""
+    },
+    {
+      "icon": "120017_01",
+      "name": {
+        "en_us": "Village Child",
+        "ja_jp": "村の子供たち",
+        "zh_cn": "村里的孩子",
+        "zh_tw": "村裡的孩子"
+      },
+      "context": {
+        "en_us": "We're suuuper sorry!",
+        "ja_jp": "ごめんなさい！",
+        "zh_cn": "对不起！",
+        "zh_tw": "對不起！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0017",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "Huh?! Whatever for?",
+        "ja_jp": "えっ!?　な、なに……？",
+        "zh_cn": "诶！？怎、怎么了？",
+        "zh_tw": "咦！？怎、怎麼了……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0018",
+      "book": ""
+    },
+    {
+      "icon": "120016_01",
+      "name": {
+        "en_us": "Village Child",
+        "ja_jp": "村の子供",
+        "zh_cn": "村里的孩子",
+        "zh_tw": "村裡的孩子"
+      },
+      "context": {
+        "en_us": "You saved us that other time too,\\nbut we all got scared, and...",
+        "ja_jp": "ヴァンピィちゃんはあの<ruby><rb>時</rb><rt>とき</rt></ruby>も、\\nあたしたちを<ruby><rb>助</rb><rt>たす</rt></ruby>けてくれたのに、\\n<ruby><rb>怖</rb><rt>こわ</rt></ruby>がっちゃったから……。",
+        "zh_cn": "那个时候斑比明明救了我们，\\n我们却觉得你很可怕……",
+        "zh_tw": "班比那個時候明明就幫助了我們，\\n但我們卻很害怕……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0019",
+      "book": ""
+    },
+    {
+      "icon": "120017_01",
+      "name": {
+        "en_us": "Village Child",
+        "ja_jp": "村の子供",
+        "zh_cn": "村里的孩子",
+        "zh_tw": "村裡的孩子"
+      },
+      "context": {
+        "en_us": "And that must not have felt very nice.\\nSo we all wanted to say we're sorry.",
+        "ja_jp": "だから、ぼくたちヴァンピィちゃんに\\n<ruby><rb>謝</rb><rt>あやま</rt></ruby>んなきゃって……。",
+        "zh_cn": "所以我们就觉得\\n应该向你道歉……",
+        "zh_tw": "所以，我們一定要向班比道歉才行……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0020",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "Awww, guys...",
+        "ja_jp": "あ、アンタたち……",
+        "zh_cn": "你、你们……",
+        "zh_tw": "你、你們幾個……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0021",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "You don't have to apologize. I, uh...\\nI TOTALLY knew you didn't mean it,\\nso it didn't even bother me at all. Yup.",
+        "ja_jp": "べ、<ruby><rb>別</rb><rt>べつ</rt></ruby>にあやまることなんてないよ。\\nヴァンピィちゃんはアンタたちの<ruby><rb>気持</rb><rt>きも</rt></ruby>ち\\nなんて、お<ruby><rb>見通</rb><rt>みとお</rt></ruby>しでしたし？",
+        "zh_cn": "其、其实也不用道歉啦。\\n斑比对你们的想法\\n可是一清二楚呢。",
+        "zh_tw": "沒、沒什麼好道歉的啦。\\n反正你們的心情，\\n也早就都被班比看清了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0022",
+      "book": ""
+    },
+    {
+      "icon": "120016_01",
+      "name": {
+        "en_us": "Village Child",
+        "ja_jp": "村の子供",
+        "zh_cn": "村里的孩子",
+        "zh_tw": "村裡的孩子"
+      },
+      "context": {
+        "en_us": "You're the best, Vania.\\nAnd thank you!",
+        "ja_jp": "ヴァンピィちゃん……\\nごめんなさい……ありがとう！",
+        "zh_cn": "斑比……\\n对不起……谢谢你！",
+        "zh_tw": "班比……\\n對不起……謝謝！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0023",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Vania! Are you all right?!",
+        "ja_jp": "ヴァンピィ！　<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>か!?",
+        "zh_cn": "斑比！你没事吧！？",
+        "zh_tw": "班比！妳沒事嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0024",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "Jeez, you're slow. Show's over already!",
+        "ja_jp": "あーっ、<ruby><rb>遅</rb><rt>おそ</rt></ruby>いよ、けんぞくぅ！\\nもう、ぜーんぶ<ruby><rb>終</rb><rt>お</rt></ruby>わっちゃいました！",
+        "zh_cn": "啊！眷属，你怎么才来啊！\\n真是的，都已经解决了啦！",
+        "zh_tw": "啊～好慢唷，僕從！\\n已經全都結束了啦！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0025",
+      "book": ""
+    },
+    {
+      "icon": "120139_01",
+      "name": {
+        "en_us": "Malinda",
+        "ja_jp": "ベス",
+        "zh_cn": "沙白",
+        "zh_tw": "貝斯"
+      },
+      "context": {
+        "en_us": "Apologies, my liege. It seems I was an\\nunsatisfactory guide, so our arrival was\\ndelayed.",
+        "ja_jp": "<ruby><rb>申</rb><rt>もう</rt></ruby>し<ruby><rb>訳</rb><rt>わけ</rt></ruby>ありません、ヴァンピィ<ruby><rb>様</rb><rt>さま</rt></ruby>。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>案内</rb><rt>あんない</rt></ruby>がお<ruby><rb>気</rb><rt>き</rt></ruby>に<ruby><rb>召</rb><rt>め</rt></ruby>さなかった\\nようで<ruby><rb>時間</rb><rt>じかん</rt></ruby>がかかってしまいました。",
+        "zh_cn": "对不起，斑比大人。\\n他似乎对我带路不太满意，\\n所以花了一些时间。",
+        "zh_tw": "非常抱歉，班比大人。\\n他似乎不滿意我領路，\\n因此耗費了些時間。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0026",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You were a fine guide. I just...",
+        "ja_jp": "すまない……<ruby><rb>気</rb><rt>き</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>らないわけじゃ\\nなかったんだが……。",
+        "zh_cn": "抱歉……并不是\\n对你不满意，只是……",
+        "zh_tw": "抱歉……\\n雖然我沒有不滿意就是了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0027",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "(I couldn't stop thinking about that voice's\\nwarning, wondering if Malinda...if Chronos\\nwasn't leading me into a trap.)",
+        "ja_jp": "（あの<ruby><rb>忠告</rb><rt>ちゅうこく</rt></ruby>が<ruby><rb>気</rb><rt>き</rt></ruby>になってしまった……\\n　ベスに……クロノスに<ruby><rb>騙</rb><rt>だま</rt></ruby>されているん\\n　じゃないのかと……）",
+        "zh_cn": "（那个忠告让我心存疑虑……\\n总担心自己是不是被沙白……\\n被克洛诺斯骗了……）",
+        "zh_tw": "（那個忠告讓我很在意……\\n我是不是被貝斯……\\n被克羅諾斯給騙了呢……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0028",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Ooh, there they are! It looks like Vania\\nand the kids still have all their bits intact!",
+        "ja_jp": "あ！　ねえ、こっちにいたよ！\\nヴァンピィも<ruby><rb>子供</rb><rt>こども</rt></ruby>たちも<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>みたい！",
+        "zh_cn": "啊！快看，他们在这边！\\n斑比和孩子们好像都没事！",
+        "zh_tw": "啊！你們看，在這邊！\\n班比和孩子們看起來都沒事！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0029",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "That's a relief. Euden\\nseems fine as well.",
+        "ja_jp": "よかった。ユーディルも\\nご<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>でしたか。",
+        "zh_cn": "太好了。\\n尤蒂尔也没事啊。",
+        "zh_tw": "太好了。\\n尤帝爾也沒事嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0030",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "We heard fighting, so we came running,\\nbut...looks like we're late to the party.",
+        "ja_jp": "<ruby><rb>争</rb><rt>あらそ</rt></ruby>ってる<ruby><rb>音</rb><rt>おと</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>きつけたんだけど……\\nどうも<ruby><rb>全部</rb><rt>ぜんぶ</rt></ruby><ruby><rb>終</rb><rt>お</rt></ruby>わってるみたいだな。",
+        "zh_cn": "本来是循着打斗声找来的……\\n看来都已经完事了啊。",
+        "zh_tw": "雖然我有聽到打鬥的聲音……\\n但看來是都已經結束了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0031",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "SUPER late! Not a single one of you made\\nit here on time!",
+        "ja_jp": "そうだよ！　<ruby><rb>全員</rb><rt>ぜんいん</rt></ruby>、<ruby><rb>大遅刻</rb><rt>だいちこく</rt></ruby>なん\\nだからね！",
+        "zh_cn": "对啊！\\n你们都严重迟到啦！",
+        "zh_tw": "對啊！\\n因為你們所有人都大遲到嘛！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0032",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "I'm especially disappointed in you,\\nbloodkin. You need to get used to being\\nat my beck and call, stat! Is that clear?",
+        "ja_jp": "<ruby><rb>特</rb><rt>とく</rt></ruby>にけんぞくぅはヴァンピィちゃんの\\nけんぞくになるんだから、<ruby><rb>危</rb><rt>あぶ</rt></ruby>ない<ruby><rb>時</rb><rt>とき</rt></ruby>には\\nちゃんと<ruby><rb>傍</rb><rt>そば</rt></ruby>にいること！　わかった!?",
+        "zh_cn": "尤其是你可是要成为斑比的\\n眷属的，有危险的时候你要在\\n斑比身边啊！知道了吗！？",
+        "zh_tw": "特別是僕從，你是會成為班比的僕從，\\n所以有危險的時候要待在班比旁邊！\\n知道了嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0033",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Er, sorry. I'll...work on that?",
+        "ja_jp": "ご、ごめん……<ruby><rb>気</rb><rt>き</rt></ruby>をつけるよ。",
+        "zh_cn": "抱、抱歉……我会注意的。",
+        "zh_tw": "對、對不起……我會注意的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0034",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "GOOD! If anything happened to me,\\nyou'd be... Huh? I'm kinda...",
+        "ja_jp": "まったく、もう！\\nもし、ヴァンピィちゃんが……\\nあ、あれ……？　なんか……。",
+        "zh_cn": "真拿你没办法！\\n万一斑比……\\n咦？怎么觉得……",
+        "zh_tw": "真是受不了你！\\n要是班比……\\n咦、奇怪……？好像……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0035",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Vania? Everything all right?",
+        "ja_jp": "……？\\nヴァンピィ？　どうしたんだ？",
+        "zh_cn": "？\\n斑比？你怎么了？",
+        "zh_tw": "……？\\n班比？妳怎麼了？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0036",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "Something feels...funny.\\nLike my whole body's going...numb...",
+        "ja_jp": "なんか……<ruby><rb>変</rb><rt>へん</rt></ruby>、なの。からだに<ruby><rb>力</rb><rt>ちから</rt></ruby>が、\\n<ruby><rb>入</rb><rt>はい</rt></ruby>ら……ない……。",
+        "zh_cn": "感觉……有点奇怪。\\n全身都没力气……",
+        "zh_tw": "總覺得……好奇怪。\\n身體，使不出……力氣……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0037",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What?! Vania!",
+        "ja_jp": "――!?　ヴァンピィ！",
+        "zh_cn": "斑比！",
+        "zh_tw": "──！？班比！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0038",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "Nh... Ngh...",
+        "ja_jp": "う、ううう……。",
+        "zh_cn": "唔、唔唔……",
+        "zh_tw": "唔、唔唔唔……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0039",
+      "book": ""
+    },
+    {
+      "icon": "120139_01",
+      "name": {
+        "en_us": "Malinda",
+        "ja_jp": "ベス",
+        "zh_cn": "沙白",
+        "zh_tw": "貝斯"
+      },
+      "context": {
+        "en_us": "This is quite serious.",
+        "ja_jp": "これは……いけません……。",
+        "zh_cn": "这可……不好……",
+        "zh_tw": "這樣……可不行……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0040",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "You know what's happening to her?",
+        "ja_jp": "どういうこと？　ヴァンピィに\\n<ruby><rb>一体</rb><rt>いったい</rt></ruby>、<ruby><rb>何</rb><rt>なに</rt></ruby>が<ruby><rb>起</rb><rt>お</rt></ruby>きてるの？",
+        "zh_cn": "怎么回事？\\n斑比她究竟怎么了？",
+        "zh_tw": "怎麼回事？\\n班比到底怎麼了？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0041",
+      "book": ""
+    },
+    {
+      "icon": "120139_01",
+      "name": {
+        "en_us": "Malinda",
+        "ja_jp": "ベス",
+        "zh_cn": "沙白",
+        "zh_tw": "貝斯"
+      },
+      "context": {
+        "en_us": "She has overexerted herself. Her reserves\\nof vampiric power might have run dry.",
+        "ja_jp": "……<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>使</rb><rt>つか</rt></ruby>いすぎたのです。\\nヴァンピィ<ruby><rb>様</rb><rt>さま</rt></ruby>の<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>としての<ruby><rb>力</rb><rt>ちから</rt></ruby>が\\n<ruby><rb>枯渇</rb><rt>こかつ</rt></ruby>しています。",
+        "zh_cn": "是力量透支了……\\n斑比大人作为吸血鬼的\\n力量正面临枯竭。",
+        "zh_tw": "……使用過多力量了。\\n班比大人作為吸血鬼的力量\\n已經枯竭。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0042",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "What does that mean?",
+        "ja_jp": "<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>としての<ruby><rb>力</rb><rt>ちから</rt></ruby>が<ruby><rb>枯渇</rb><rt>こかつ</rt></ruby>だと？\\nそんなことがあるのか？",
+        "zh_cn": "吸血鬼的力量会枯竭？\\n会有这样的事？",
+        "zh_tw": "作為吸血鬼的力量已經枯竭？\\n會有這種事嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0043",
+      "book": ""
+    },
+    {
+      "icon": "120139_01",
+      "name": {
+        "en_us": "Malinda",
+        "ja_jp": "ベス",
+        "zh_cn": "沙白",
+        "zh_tw": "貝斯"
+      },
+      "context": {
+        "en_us": "Since coming to the Halidom, she has not\\nimbibed a single drop of human blood.",
+        "ja_jp": "……<ruby><rb>実</rb><rt>じつ</rt></ruby>は、ヴァンピィ<ruby><rb>様</rb><rt>さま</rt></ruby>は、\\n<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>に<ruby><rb>来</rb><rt>き</rt></ruby>てから、<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>を<ruby><rb>吸</rb><rt>す</rt></ruby>って\\nいないのです。",
+        "zh_cn": "其实……斑比大人\\n自从来到圣城以后，\\n就再也没有吸食过人血。",
+        "zh_tw": "……其實，\\n班比大人自從抵達聖城後，\\n便一直未吸食人血。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0044",
+      "book": ""
+    },
+    {
+      "icon": "120139_01",
+      "name": {
+        "en_us": "Malinda",
+        "ja_jp": "ベス",
+        "zh_cn": "沙白",
+        "zh_tw": "貝斯"
+      },
+      "context": {
+        "en_us": "Blood is the root of all vampires' strength.\\nWithout it, they inevitably wither.",
+        "ja_jp": "<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>にとっては、<ruby><rb>血</rb><rt>ち</rt></ruby>こそが<ruby><rb>力</rb><rt>ちから</rt></ruby>の<ruby><rb>源</rb><rt>みなもと</rt></ruby>。\\nそれを<ruby><rb>摂</rb><rt>と</rt></ruby>らねば、<ruby><rb>衰弱</rb><rt>すいじゃく</rt></ruby>していくのは\\n<ruby><rb>当然</rb><rt>とうぜん</rt></ruby>です。",
+        "zh_cn": "对吸血鬼来说，血才是力量之源。\\n如果不摄取血液，\\n自然会越来越衰弱。",
+        "zh_tw": "對吸血鬼而言，血正是力量之源。\\n若無攝取，則自然會衰弱。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0045",
+      "book": ""
+    },
+    {
+      "icon": "120139_01",
+      "name": {
+        "en_us": "Malinda",
+        "ja_jp": "ベス",
+        "zh_cn": "沙白",
+        "zh_tw": "貝斯"
+      },
+      "context": {
+        "en_us": "And yet she has now twice used her power\\nto eliminate these fiends. At this rate, her\\nlife is in danger.",
+        "ja_jp": "それなのに、<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>を<ruby><rb>倒</rb><rt>たお</rt></ruby>すために\\n<ruby><rb>立</rb><rt>た</rt></ruby>て<ruby><rb>続</rb><rt>つづ</rt></ruby>けに<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>使</rb><rt>つか</rt></ruby>ったから……。\\nこのままでは、<ruby><rb>命</rb><rt>いのち</rt></ruby>に<ruby><rb>関</rb><rt>かか</rt></ruby>わります。",
+        "zh_cn": "然而她却为了消灭魔兽，\\n不断地使用力量……\\n这样下去性命堪忧啊。",
+        "zh_tw": "儘管如此，她為了打倒魔獸，\\n仍不斷使用力量……\\n再這樣下去，將會攸關性命。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0046",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Dude, say it ain't so!",
+        "ja_jp": "そ、そんな……！",
+        "zh_cn": "怎、怎么会这样！",
+        "zh_tw": "怎、怎麼會……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0047",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "(This is my fault. If I'd trusted Malinda,\\nI could have made it here sooner.)",
+        "ja_jp": "（おれのせいだ……おれがベスを\\n　<ruby><rb>信用</rb><rt>しんよう</rt></ruby>していれば、もっと<ruby><rb>早</rb><rt>はや</rt></ruby>くここに\\n　<ruby><rb>駆</rb><rt>か</rt></ruby>けつけられたはず……）",
+        "zh_cn": "（都怪我……\\n如果我当时能信任沙白，\\n或许就能及时赶到她身边……）",
+        "zh_tw": "（都是我的錯……\\n如果我相信貝斯，\\n應該能更快就趕到……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0048",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "(If I'd been here to fight, she wouldn't\\nhave expended so much of her power...)",
+        "ja_jp": "（そうすれば、ヴァンピィが<ruby><rb>力</rb><rt>ちから</rt></ruby>を\\n　<ruby><rb>使</rb><rt>つか</rt></ruby>い<ruby><rb>果</rb><rt>は</rt></ruby>たすようなことには\\n　ならなかった……）",
+        "zh_cn": "（那样一来，\\n斑比也不至于\\n会如此精疲力竭……）",
+        "zh_tw": "（那樣的話，\\n班比就不會用盡力量了……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0049",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "But...that means she'll be okay if she gets\\nsome of the ol' red-and-sloshy, right?",
+        "ja_jp": "で、でも、<ruby><rb>血</rb><rt>ち</rt></ruby>を<ruby><rb>飲</rb><rt>の</rt></ruby>めば<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>って\\nことなんだよね？",
+        "zh_cn": "但、但是，她只要喝血\\n应该就没事了吧？",
+        "zh_tw": "但、但是，\\n只要讓她喝血就沒事了對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0050",
+      "book": ""
+    },
+    {
+      "icon": "120139_01",
+      "name": {
+        "en_us": "Malinda",
+        "ja_jp": "ベス",
+        "zh_cn": "沙白",
+        "zh_tw": "貝斯"
+      },
+      "context": {
+        "en_us": "Indeed.",
+        "ja_jp": "はい、そうなのですが……。",
+        "zh_cn": "嗯，是这样没错……",
+        "zh_tw": "是的，正是如此……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0051",
+      "book": ""
+    },
+    {
+      "icon": "120139_01",
+      "name": {
+        "en_us": "Malinda",
+        "ja_jp": "ベス",
+        "zh_cn": "沙白",
+        "zh_tw": "貝斯"
+      },
+      "context": {
+        "en_us": "...Euden. I humbly ask\\nthat you share your blood with my liege.",
+        "ja_jp": "ユーディル<ruby><rb>様</rb><rt>さま</rt></ruby>。\\nあなたの<ruby><rb>血</rb><rt>ち</rt></ruby>を、ヴァンピィ<ruby><rb>様</rb><rt>さま</rt></ruby>に\\nわけてあげてはいただけませんか。",
+        "zh_cn": "尤蒂尔大人，\\n能请您分一点血\\n给斑比大人吗？",
+        "zh_tw": "尤帝爾大人，\\n可以請您分一些血液給班比大人嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0052",
+      "book": ""
+    },
+    {
+      "icon": "120139_01",
+      "name": {
+        "en_us": "Malinda",
+        "ja_jp": "ベス",
+        "zh_cn": "沙白",
+        "zh_tw": "貝斯"
+      },
+      "context": {
+        "en_us": "She requires the most potent blood\\npossible to ensure her survival.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>のヴァンピィ<ruby><rb>様</rb><rt>さま</rt></ruby>に<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>なのは、\\n<ruby><rb>強</rb><rt>つよ</rt></ruby>い<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>つ<ruby><rb>血</rb><rt>ち</rt></ruby>です。",
+        "zh_cn": "现在斑比大人需要的\\n是拥有强大力量的血。",
+        "zh_tw": "現在班比大人所需要的\\n是擁有強大力量的血液。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0053",
+      "book": ""
+    },
+    {
+      "icon": "120139_01",
+      "name": {
+        "en_us": "Malinda",
+        "ja_jp": "ベス",
+        "zh_cn": "沙白",
+        "zh_tw": "貝斯"
+      },
+      "context": {
+        "en_us": "In that regard, yours is quite sufficient.\\nIt would serve as an unparalleled panacea\\nfor her affliction.",
+        "ja_jp": "その<ruby><rb>点</rb><rt>てん</rt></ruby>、あなたの<ruby><rb>血</rb><rt>ち</rt></ruby>は<ruby><rb>申</rb><rt>もう</rt></ruby>し<ruby><rb>分</rb><rt>ぶん</rt></ruby>ない。\\nヴァンピィ<ruby><rb>様</rb><rt>さま</rt></ruby>にとって、この<ruby><rb>上</rb><rt>うえ</rt></ruby>ない\\n<ruby><rb>薬</rb><rt>くすり</rt></ruby>となるでしょう。",
+        "zh_cn": "在这一点上，您的血无可挑剔。\\n对斑比大人而言，\\n一定会是无上的良药。",
+        "zh_tw": "就這點而言，\\n您的血液最為合適。\\n對班比大人來說，那會是無上的良藥。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0054",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "But if a vampire drinks your blood, don't\\nyou become a bloodkin or whatever and\\nhave to do everything they say?",
+        "ja_jp": "でも、<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>に<ruby><rb>血</rb><rt>ち</rt></ruby>を<ruby><rb>飲</rb><rt>の</rt></ruby>まれたら、\\nなんでも<ruby><rb>言</rb><rt>い</rt></ruby>うことを<ruby><rb>聞</rb><rt>き</rt></ruby>く<ruby><rb>眷属</rb><rt>けんぞく</rt></ruby>ってやつに\\nなっちゃうんじゃないの……？",
+        "zh_cn": "可是，被吸血鬼吸了血的话，\\n不就要变成对她唯命是从的\\n那个什么眷属了吗？",
+        "zh_tw": "但是，如果讓吸血鬼喝下自己的血液，\\n不是會變成\\n對吸血鬼言聽計從的僕從嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0055",
+      "book": ""
+    },
+    {
+      "icon": "120139_01",
+      "name": {
+        "en_us": "Malinda",
+        "ja_jp": "ベス",
+        "zh_cn": "沙白",
+        "zh_tw": "貝斯"
+      },
+      "context": {
+        "en_us": "You need not fear that. Only by sinking\\nher fangs into the subject and drinking\\nfrom them directly is a bloodkin created.",
+        "ja_jp": "いえ、その<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>はありません。\\n<ruby><rb>眷属</rb><rt>けんぞく</rt></ruby>となるのは、<ruby><rb>牙</rb><rt>きば</rt></ruby>をたてられ、<ruby><rb>血</rb><rt>ち</rt></ruby>を\\n<ruby><rb>吸</rb><rt>す</rt></ruby>われた<ruby><rb>時</rb><rt>とき</rt></ruby>です。",
+        "zh_cn": "不，这一点不用担心。\\n只有被吸血鬼用尖牙咬破皮肤，\\n吸食血液的情况下才会成为眷属。",
+        "zh_tw": "不，不必有此擔心。\\n要成為僕從，必須被吸血鬼\\n以利牙吮咬並吸食血液。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0056",
+      "book": ""
+    },
+    {
+      "icon": "120139_01",
+      "name": {
+        "en_us": "Malinda",
+        "ja_jp": "ベス",
+        "zh_cn": "沙白",
+        "zh_tw": "貝斯"
+      },
+      "context": {
+        "en_us": "If you spill your own blood and grant it to\\nher, it will not constitute a bloodkin's pact.",
+        "ja_jp": "<ruby><rb>自</rb><rt>みずか</rt></ruby>ら<ruby><rb>血</rb><rt>ち</rt></ruby>を<ruby><rb>流</rb><rt>なが</rt></ruby>し、<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>に<ruby><rb>与</rb><rt>あた</rt></ruby>えても\\n<ruby><rb>眷属</rb><rt>けんぞく</rt></ruby>となる<ruby><rb>証</rb><rt>あかし</rt></ruby>とはならないのです。",
+        "zh_cn": "若是自己主动放血，\\n即便把血给吸血鬼\\n也不会成为眷属的凭证。",
+        "zh_tw": "若是自行使血液流出，\\n再給予吸血鬼，\\n並不會成為僕從之證明。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0057",
+      "book": ""
+    },
+    {
+      "icon": "120139_01",
+      "name": {
+        "en_us": "Malinda",
+        "ja_jp": "ベス",
+        "zh_cn": "沙白",
+        "zh_tw": "貝斯"
+      },
+      "context": {
+        "en_us": "Please, sir. I beg you, save her life.",
+        "ja_jp": "どうか、お<ruby><rb>願</rb><rt>ねが</rt></ruby>いします。\\nヴァンピィ<ruby><rb>様</rb><rt>さま</rt></ruby>を<ruby><rb>助</rb><rt>たす</rt></ruby>けてあげて<ruby><rb>下</rb><rt>くだ</rt></ruby>さい。",
+        "zh_cn": "还请帮帮忙，\\n救救斑比大人吧。",
+        "zh_tw": "無論如何請您出手相助。\\n請救救班比大人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0058",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "...All right.",
+        "ja_jp": "……わかった。",
+        "zh_cn": "我知道了……",
+        "zh_tw": "……我明白了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0059",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Vania, can you hear me? Drink this.\\nIt will help restore your strength.",
+        "ja_jp": "ヴァンピィ、わかるかい？\\nさあ、この<ruby><rb>血</rb><rt>ち</rt></ruby>を<ruby><rb>飲</rb><rt>の</rt></ruby>んでくれ――。",
+        "zh_cn": "斑比，能能到我说话吗？\\n来，快把血喝了吧——",
+        "zh_tw": "班比，妳還清醒嗎？\\n來，喝下這血液──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0060",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "...Ngh. NRGH!",
+        "ja_jp": "……ん。\\n…………!?",
+        "zh_cn": "嗯……\\n唔！？",
+        "zh_tw": "……嗯。\\n…………！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0061",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "Aah... Aaaaah, AAAAAAAAAAAAGH!",
+        "ja_jp": "あ……！　あああっ！\\nああああああああああああっ！",
+        "zh_cn": "啊……啊啊啊！\\n啊啊啊啊啊啊啊啊啊啊啊啊！",
+        "zh_tw": "啊……！啊啊啊！\\n啊啊啊啊啊啊啊啊啊啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0062",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What's happening?! Vania!",
+        "ja_jp": "な!?　ヴァンピィ!?",
+        "zh_cn": "什么！？斑比！？",
+        "zh_tw": "什麼！？班比！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0063",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "She looks like she's in pain!\\nWhat's wrong?!",
+        "ja_jp": "ねえ、ヴァンピィ<ruby><rb>苦</rb><rt>くる</rt></ruby>しそうだよ！\\nどうしちゃったの!?",
+        "zh_cn": "快看，斑比好像很痛苦呢！\\n她怎么了！？",
+        "zh_tw": "喂，班比看起來好痛苦耶！\\n發生什麼事了嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0064",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Malinda! Are you sure she'll be all right?!",
+        "ja_jp": "ベス！　ヴァンピィは、\\n<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>なのか!?",
+        "zh_cn": "沙白！\\n斑比真的没事吗！？",
+        "zh_tw": "貝斯！\\n班比這樣真的沒事嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0065",
+      "book": ""
+    },
+    {
+      "icon": "120139_01",
+      "name": {
+        "en_us": "Malinda",
+        "ja_jp": "ベス",
+        "zh_cn": "沙白",
+        "zh_tw": "貝斯"
+      },
+      "context": {
+        "en_us": "All is well.",
+        "ja_jp": "ええ、<ruby><rb>問題</rb><rt>もんだい</rt></ruby>ありません。",
+        "zh_cn": "嗯，她没事的。",
+        "zh_tw": "嗯，沒有問題。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0066",
+      "book": ""
+    },
+    {
+      "icon": "120139_01",
+      "name": {
+        "en_us": "Malinda",
+        "ja_jp": "ベス",
+        "zh_cn": "沙白",
+        "zh_tw": "貝斯"
+      },
+      "context": {
+        "en_us": "For strong medicine is also potent poison.\\nA vampire so young as Vania will not be\\nable to withstand your blood.",
+        "ja_jp": "<ruby><rb>強</rb><rt>つよ</rt></ruby>い<ruby><rb>薬</rb><rt>くすり</rt></ruby>は、<ruby><rb>同時</rb><rt>どうじ</rt></ruby>に<ruby><rb>強</rb><rt>つよ</rt></ruby>い<ruby><rb>毒</rb><rt>どく</rt></ruby>でもある。\\n<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>としてはまだ<ruby><rb>幼</rb><rt>おさな</rt></ruby>いヴァンピィ<ruby><rb>様</rb><rt>さま</rt></ruby>は\\nあなたの<ruby><rb>血</rb><rt>ち</rt></ruby>には<ruby><rb>耐</rb><rt>た</rt></ruby>えられないでしょう。",
+        "zh_cn": "猛药同时也是剧毒。\\n斑比大人作为吸血鬼尚且年幼，\\n恐怕承受不住你的血液。",
+        "zh_tw": "強效的藥，同時亦是強力的劇毒。\\n以吸血鬼而言尚年幼的班比大人，\\n應該還無法承受您的血液吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0067",
+      "book": ""
+    },
+    {
+      "icon": "120139_01",
+      "name": {
+        "en_us": "Malinda",
+        "ja_jp": "ベス",
+        "zh_cn": "沙白",
+        "zh_tw": "貝斯"
+      },
+      "context": {
+        "en_us": "Everything is proceeding as planned.",
+        "ja_jp": "すべて……<ruby><rb>計画</rb><rt>けいかく</rt></ruby><ruby><rb>通</rb><rt>どお</rt></ruby>りです。",
+        "zh_cn": "这一切……\\n都在我的计划之中。",
+        "zh_tw": "一切……都如同我所計畫。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0068",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What?! No...!",
+        "ja_jp": "――!?　ま、まさか――！",
+        "zh_cn": "难、难道……",
+        "zh_tw": "──！？該、該不會──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0069",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "全員",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "Waaaaaugh?!",
+        "ja_jp": "うわあああああああああっ!?",
+        "zh_cn": "哇啊啊啊啊啊啊啊啊啊啊！？",
+        "zh_tw": "哇啊啊啊啊啊啊啊啊！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0070",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Grgh... The hell's goin' on?!",
+        "ja_jp": "ぐ……くそっ、\\n<ruby><rb>一体</rb><rt>いったい</rt></ruby>、<ruby><rb>何</rb><rt>なに</rt></ruby>が<ruby><rb>起</rb><rt>お</rt></ruby>きた!?",
+        "zh_cn": "唔……可恶，\\n到底发生了什么！？",
+        "zh_tw": "可……可惡，\\n到底發生什麼事！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0071",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "Malinda?",
+        "ja_jp": "ベス？",
+        "zh_cn": "沙白？",
+        "zh_tw": "貝斯？"
+      },
+      "context": {
+        "en_us": "I do thank you for your blithe cooperation,\\nEuden. With your aid, I\\ncan fulfill my purpose here.",
+        "ja_jp": "ユーディル<ruby><rb>様</rb><rt>さま</rt></ruby>、\\nご<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>ありがとうございます。\\nこれで、<ruby><rb>役目</rb><rt>やくめ</rt></ruby>が<ruby><rb>果</rb><rt>は</rt></ruby>たせそうです。",
+        "zh_cn": "尤蒂尔大人，\\n感谢您的合作。\\n这下我就能完成使命了。",
+        "zh_tw": "尤帝爾大人，\\n非常感謝您的協助。\\n如此，我便能完成使命。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0072",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Malinda? That form...",
+        "ja_jp": "ベス……？\\n……！　そ、その<ruby><rb>姿</rb><rt>すがた</rt></ruby>は……！",
+        "zh_cn": "沙白？\\n那、那副外表是……",
+        "zh_tw": "貝斯……？\\n……！那、那個姿態是……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0073",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Malinda, what...\\nNo, you're—!",
+        "ja_jp": "ベス……いや、お<ruby><rb>前</rb><rt>まえ</rt></ruby>は……！",
+        "zh_cn": "沙白……不，你是……",
+        "zh_tw": "貝斯……不對，你是……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0074",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "Malinda?",
+        "ja_jp": "ベス？",
+        "zh_cn": "沙白？",
+        "zh_tw": "貝斯？"
+      },
+      "context": {
+        "en_us": "Indeed. All is as you suspect, vessel.",
+        "ja_jp": "ええ……ご<ruby><rb>想像</rb><rt>そうぞう</rt></ruby><ruby><rb>通</rb><rt>どお</rt></ruby>りです、<ruby><rb>王</rb><rt>おう</rt></ruby>の<ruby><rb>器</rb><rt>うつわ</rt></ruby>よ。",
+        "zh_cn": "没错……如你所料，\\n未来的王啊。",
+        "zh_tw": "是的……如您所想像，王之容器。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0075",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You ARE Chronos! Dammit!\\nWhat are you plotting this time?!",
+        "ja_jp": "やはり、クロノスか……！\\nくっ……<ruby><rb>一体</rb><rt>いったい</rt></ruby>、<ruby><rb>何</rb><rt>なに</rt></ruby>を<ruby><rb>企</rb><rt>たくら</rt></ruby>んでいる！",
+        "zh_cn": "你果然是克洛诺斯！\\n呃……你究竟有什么企图！",
+        "zh_tw": "果然是克羅諾斯嗎……！\\n唔……究竟，你有什麼企圖！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0076",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "Chronos",
+        "ja_jp": "クロノス",
+        "zh_cn": "克洛诺斯",
+        "zh_tw": "克羅諾斯"
+      },
+      "context": {
+        "en_us": "I see little point in explaining. I shall\\nexecute my duties and nothing more.",
+        "ja_jp": "それを<ruby><rb>今</rb><rt>いま</rt></ruby>、あなた<ruby><rb>方</rb><rt>がた</rt></ruby>に<ruby><rb>話</rb><rt>はな</rt></ruby>したところで\\n<ruby><rb>詮無</rb><rt>せんな</rt></ruby>きこと。<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>使命</rb><rt>しめい</rt></ruby>を<ruby><rb>果</rb><rt>は</rt></ruby>たすのみ。",
+        "zh_cn": "就算现在告诉你们\\n也是白费口舌。\\n我只需完成自己的使命。",
+        "zh_tw": "此時告訴您也盡是徒勞，\\n我僅須將使命完成。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0077",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Nrgh... Aah! Can't...move!",
+        "ja_jp": "ぐ……あ……\\nか、<ruby><rb>体</rb><rt>からだ</rt></ruby>が……<ruby><rb>動</rb><rt>うご</rt></ruby>かない……！",
+        "zh_cn": "唔……啊……\\n身、身体……动不了……",
+        "zh_tw": "咕……啊……\\n身、身體……動不了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0078",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "Chronos",
+        "ja_jp": "クロノス",
+        "zh_cn": "克洛诺斯",
+        "zh_tw": "克羅諾斯"
+      },
+      "context": {
+        "en_us": "My bonds will see that you behave yourself\\nuntil my task is done.",
+        "ja_jp": "<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>戒</rb><rt>いまし</rt></ruby>めにて、しばし<ruby><rb>大人</rb><rt>おとな</rt></ruby>しくして\\nいただきましょう。",
+        "zh_cn": "你就在我的束缚下\\n老实待一会儿吧。",
+        "zh_tw": "在我的戒律之下，\\n請您先暫時安分點別亂動。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0079",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "Nngh...",
+        "ja_jp": "ううう……。",
+        "zh_cn": "呜呜呜……",
+        "zh_tw": "唔唔唔……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0080",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "Chronos",
+        "ja_jp": "クロノス",
+        "zh_cn": "克洛诺斯",
+        "zh_tw": "克羅諾斯"
+      },
+      "context": {
+        "en_us": "Now, make your peace, princess of the\\nnight. For my true liege cannot permit the\\nseeds of future threat to germinate.",
+        "ja_jp": "さあ、<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>の<ruby><rb>姫</rb><rt>ひめ</rt></ruby>よ。ご<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>を。\\n<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>王</rb><rt>おう</rt></ruby>のため、<ruby><rb>災禍</rb><rt>さいか</rt></ruby>の<ruby><rb>芽</rb><rt>め</rt></ruby>は\\n<ruby><rb>摘</rb><rt>つ</rt></ruby>み<ruby><rb>取</rb><rt>と</rt></ruby>らせていただく。",
+        "zh_cn": "好了，吸血鬼公主，认命吧。\\n为了我的王，我要除掉\\n你这棵灾厄的幼苗。",
+        "zh_tw": "那麼，吸血鬼公主啊，請覺悟。\\n為了吾王，\\n讓我在此將災禍之芽拔除吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0081",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "So it's Vania you're after?! Rngh... Must...\\nsave her!",
+        "ja_jp": "<ruby><rb>狙</rb><rt>ねら</rt></ruby>いは、ヴァンピィなのか!?\\nく……<ruby><rb>助</rb><rt>たす</rt></ruby>けないと……！",
+        "zh_cn": "你是冲着斑比来的！？\\n呃……得救她才行！",
+        "zh_tw": "你的目標是班比嗎！？\\n必……必須要救她……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0082",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "Chronos",
+        "ja_jp": "クロノス",
+        "zh_cn": "克洛诺斯",
+        "zh_tw": "克羅諾斯"
+      },
+      "context": {
+        "en_us": "Farewell, vampire princess.",
+        "ja_jp": "さらばです、<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>の<ruby><rb>姫</rb><rt>ひめ</rt></ruby>。",
+        "zh_cn": "再见了，吸血鬼公主。",
+        "zh_tw": "再會了，吸血鬼公主。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0083",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "That's far enough, man-wrought wyrm\\nwho would toy with time.",
+        "ja_jp": "そこまでだ。\\n<ruby><rb>時</rb><rt>とき</rt></ruby>を<ruby><rb>弄</rb><rt>もてあそ</rt></ruby>びし<ruby><rb>人造</rb><rt>じんぞう</rt></ruby>の<ruby><rb>竜</rb><rt>りゅう</rt></ruby>よ。",
+        "zh_cn": "到此为止了。\\n操纵时空的人造龙。",
+        "zh_tw": "到此為止了，\\n操弄時空之人造龍啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0084",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "Chronos",
+        "ja_jp": "クロノス",
+        "zh_cn": "克洛诺斯",
+        "zh_tw": "克羅諾斯"
+      },
+      "context": {
+        "en_us": "Who are you?!",
+        "ja_jp": "――!?　<ruby><rb>何者</rb><rt>なにもの</rt></ruby>!?",
+        "zh_cn": "来者何人！？",
+        "zh_tw": "──！？什麼人！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0085",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Heh. If an introduction is what you seek,\\nI shall gladly oblige.",
+        "ja_jp": "フッ、<ruby><rb>問</rb><rt>と</rt></ruby>われたからには\\n<ruby><rb>名乗</rb><rt>なの</rt></ruby>らねばなるまい。",
+        "zh_cn": "呵，既然被问到，\\n就只能自报家门了。",
+        "zh_tw": "哼，既然你都發問了，\\n那我就不得不報上名號了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0086",
+      "book": ""
+    },
+    {
+      "icon": "110285_01",
+      "name": {
+        "en_us": "Grimnir",
+        "ja_jp": "グリームニル",
+        "zh_cn": "格里姆尼尔",
+        "zh_tw": "格里姆尼爾"
+      },
+      "context": {
+        "en_us": "For I am a god of war and Tuner of\\nfate's melody. The gale that sweeps the\\nfield of battle. The mad cyclone, Grimnir!",
+        "ja_jp": "<ruby><rb>我</rb><rt>われ</rt></ruby>こそは<ruby><rb>因果</rb><rt>いんが</rt></ruby>の<ruby><rb>調律者</rb><rt>ちょうりつしゃ</rt></ruby>にして、<ruby><rb>軍神</rb><rt>ぐんしん</rt></ruby>。\\n<ruby><rb>戦場</rb><rt>せんじょう</rt></ruby>に<ruby><rb>吹</rb><rt>ふ</rt></ruby>き<ruby><rb>荒</rb><rt>あ</rt></ruby>れし<ruby><rb>颶風</rb><rt>ぐふう</rt></ruby>。\\n<ruby><rb>踊</rb><rt>おど</rt></ruby>り<ruby><rb>狂</rb><rt>くる</rt></ruby>う<ruby><rb>暴風</rb><rt>ぼうふう</rt></ruby>グリィィィムニル！",
+        "zh_cn": "吾乃因果之调律者，\\n亦为席卷战场的飓风军神，\\n狂舞暴风，格里——姆尼尔！",
+        "zh_tw": "我乃因果之調律者，亦是軍神。\\n更是肆虐於戰場之颶風。\\n我正是狂舞暴風格里──姆尼爾！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0087",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You're that voice from before!",
+        "ja_jp": "グリームニル!?\\nきみが、あの<ruby><rb>声</rb><rt>こえ</rt></ruby>の<ruby><rb>主</rb><rt>ぬし</rt></ruby>か！",
+        "zh_cn": "格里姆尼尔！？\\n原来那个声音是你吗！",
+        "zh_tw": "格里姆尼爾！？\\n那就是你的真面目嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0088",
+      "book": ""
+    },
+    {
+      "icon": "110285_01",
+      "name": {
+        "en_us": "Grimnir",
+        "ja_jp": "グリームニル",
+        "zh_cn": "格里姆尼尔",
+        "zh_tw": "格里姆尼爾"
+      },
+      "context": {
+        "en_us": "We meet at last, Prince. But I fear we've\\nnot the time to celebrate until this dragon\\nwho would spurn fate's designs is undone!",
+        "ja_jp": "ようやく<ruby><rb>会</rb><rt>あ</rt></ruby>えたな、<ruby><rb>王子</rb><rt>おうじ</rt></ruby>よ。\\nだが、<ruby><rb>邂逅</rb><rt>かいこう</rt></ruby>を<ruby><rb>喜</rb><rt>よろこ</rt></ruby>ぶのは<ruby><rb>後</rb><rt>あと</rt></ruby>だ。<ruby><rb>今</rb><rt>いま</rt></ruby>は、\\n<ruby><rb>因果</rb><rt>いんが</rt></ruby>を<ruby><rb>嘲弄</rb><rt>ちょうろう</rt></ruby>する<ruby><rb>竜</rb><rt>りゅう</rt></ruby>を<ruby><rb>止</rb><rt>と</rt></ruby>めねばなるまい。",
+        "zh_cn": "王子，我们终于见面了。\\n不过，相见的喜悦先放一边，\\n现在要先阻止嘲弄因果之龙。",
+        "zh_tw": "我們終於見面了，王子。\\n但是，晚點再來歡慶我們的邂逅吧。\\n現在必須要阻止這嘲弄因果之龍。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0089",
+      "book": ""
+    },
+    {
+      "icon": "110285_01",
+      "name": {
+        "en_us": "Grimnir",
+        "ja_jp": "グリームニル",
+        "zh_cn": "格里姆尼尔",
+        "zh_tw": "格里姆尼爾"
+      },
+      "context": {
+        "en_us": "Now, stand! Arise, O Prince and his allies!\\nLet us slay the wicked wyrm together, and\\ngrant succor to the uncanny princess!",
+        "ja_jp": "さあ<ruby><rb>立</rb><rt>た</rt></ruby>て、<ruby><rb>王子</rb><rt>おうじ</rt></ruby>とその<ruby><rb>盟友</rb><rt>めいゆう</rt></ruby>たちよ。\\n<ruby><rb>共</rb><rt>とも</rt></ruby>に<ruby><rb>悪辣</rb><rt>あくらつ</rt></ruby>なる<ruby><rb>竜</rb><rt>りゅう</rt></ruby>を<ruby><rb>討</rb><rt>う</rt></ruby>ち<ruby><rb>果</rb><rt>は</rt></ruby>たし、<ruby><rb>異端</rb><rt>いたん</rt></ruby>の\\n<ruby><rb>姫</rb><rt>ひめ</rt></ruby>を<ruby><rb>救</rb><rt>すく</rt></ruby>うのだ。",
+        "zh_cn": "王子和他的盟友们啊，\\n起身反抗吧！一起讨伐\\n阴险的恶龙，拯救异类公主吧。",
+        "zh_tw": "站起身吧，王子與其盟友們。\\n隨我一同將此險惡之龍消滅，\\n拯救異端之公主吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0090",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Thank you, Grimnir.\\nChronos, your scheming ends here!",
+        "ja_jp": "ありがとう、グリームニル。\\n……クロノス、これ<ruby><rb>以上</rb><rt>いじょう</rt></ruby>、お<ruby><rb>前</rb><rt>まえ</rt></ruby>の\\n<ruby><rb>好</rb><rt>す</rt></ruby>きにはさせないぞ！",
+        "zh_cn": "谢谢你，格里姆尼尔。\\n克洛诺斯……\\n我不会再让你为所欲为！",
+        "zh_tw": "謝謝你，格里姆尼爾。\\n……克羅諾斯，\\n再來就由不得你這樣胡作非為了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0091",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "Chronos",
+        "ja_jp": "クロノス",
+        "zh_cn": "克洛诺斯",
+        "zh_tw": "克羅諾斯"
+      },
+      "context": {
+        "en_us": "Foolish vessel. None will be permitted to\\nstand in the way of my true liege's grand\\ndesign.",
+        "ja_jp": "<ruby><rb>愚</rb><rt>おろ</rt></ruby>かなり<ruby><rb>器</rb><rt>うつわ</rt></ruby>よ。<ruby><rb>何者</rb><rt>なにもの</rt></ruby>であろうと、\\n<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>王</rb><rt>おう</rt></ruby>の<ruby><rb>大望</rb><rt>たいもう</rt></ruby>を<ruby><rb>阻</rb><rt>はば</rt></ruby>むものは、\\n<ruby><rb>排除</rb><rt>はいじょ</rt></ruby>するのみ。",
+        "zh_cn": "愚蠢的容器啊。无论何人，\\n若是胆敢阻碍王之宏愿，\\n都只有被消灭的下场。",
+        "zh_tw": "愚蠢的容器啊，無論是誰，\\n阻礙吾王之野心者皆只有排除一途。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0092",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "Chronos",
+        "ja_jp": "クロノス",
+        "zh_cn": "克洛诺斯",
+        "zh_tw": "克羅諾斯"
+      },
+      "context": {
+        "en_us": "I shall see you and this Tuner alike\\nbanished beyond the reaches of time!",
+        "ja_jp": "<ruby><rb>調律者共々</rb><rt>ちょうりつしゃともども</rt></ruby>、<ruby><rb>因果</rb><rt>いんが</rt></ruby>の<ruby><rb>彼方</rb><rt>かなた</rt></ruby>へと\\n<ruby><rb>消</rb><rt>き</rt></ruby>えていただきましょう――！",
+        "zh_cn": "连同调律者一起\\n消失在因果的彼端吧！",
+        "zh_tw": "請和調律者一起，\\n消失在因果的彼端吧──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_05_0093",
+      "book": ""
+    }
+  ]
 }

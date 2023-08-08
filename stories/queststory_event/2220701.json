@@ -1,602 +1,1139 @@
 {
-    "story_id": "",
-    "story_name": "迎击战～快乐星龙祭大作战～ 圣星使者任务！",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "莉莉想庆祝星龙祭，\\n但因为帝国军的袭击，圣城上下\\n已顾不上节日。于是莉莉为了\\n保护星龙祭，和维克托一起\\n身着圣星使者的服装奔赴战场。"
-        ]
+  "title": {
+    "en_us": "The Great Dragonyule Offensive    Operation 'Chuting Stars",
+    "ja_jp": "迎撃戦～オペレーション・ハッピー星竜祭～  ミッション・サンメテオール！",
+    "zh_cn": "迎击战～快乐星龙祭大作战～  圣星使者任务！",
+    "zh_tw": "迎擊戰～聖夜作戰‧歡樂星龍祭～  任務‧聖夜使者！"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "来吧！你这星龙树！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "莉莉，我们上！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "嗯！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "二人",
-            "context": "圣星使者\\n大作战！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03",
-                "110252_02"
-            ],
-            "speaker_name": "二人",
-            "context": "开始啦！\\n(开始！）",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03",
-                "110252_02"
-            ],
-            "speaker_name": "SYS",
-            "context": "事情要追溯到几周前……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_01"
-            ],
-            "speaker_name": "莉莉",
-            "context": "诶！？大家没法\\n一起庆祝星龙祭吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "冰晶族少女\\n莉莉",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "是啊，有报告说各地的帝国兵\\n还有魔兽活动频繁，\\n已经顾不上庆祝星龙祭……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_01"
-            ],
-            "speaker_name": "莉莉",
-            "context": "怎么这样……\\n说好了大家一起\\n来当圣星使者的……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "抱歉。不过要是被帝国和魔兽\\n盯上的话，大家就没法\\n尽情享受星龙祭了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "为大家带来和平——\\n这也是了不起的圣星使者\\n该做的事呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_01"
-            ],
-            "speaker_name": "莉莉",
-            "context": "了不起的圣星使者……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_01"
-            ],
-            "speaker_name": "维克托",
-            "context": "尤蒂尔，\\n我回来了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "啊，维克托，欢迎回来。\\n情况如何？",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_01"
-            ],
-            "speaker_name": "维克托",
-            "context": "跟情报说的一样，\\n帝国最近活动频繁。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_01"
-            ],
-            "speaker_name": "维克托",
-            "context": "虽然我在力所能及的范围内\\n阻止了帝国军的行动……\\n但一个人的力量还是有限。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "果然如此吗……\\n现在到处都人手不足，\\n我看看能不能想办法调整。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_01"
-            ],
-            "speaker_name": "维克托",
-            "context": "不，要是平均分配战力导致\\n所有战场都陷入不利就没有意义了，\\n还是不要打乱目前的编制比较好。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "但是，这样一来你就……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_01"
-            ],
-            "speaker_name": "维克托",
-            "context": "没事，我已经习惯了单枪匹马作战。\\n我打算一边牵制帝国军的行动，\\n一边慢慢削弱他们的战力。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_01"
-            ],
-            "speaker_name": "维克托",
-            "context": "等你们那边有余力了，\\n再派人增援就……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_01"
-            ],
-            "speaker_name": "莉莉",
-            "context": "那么，莉莉和你一起去！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_01"
-            ],
-            "speaker_name": "维克托",
-            "context": "哈？你这个小朋友\\n突然说什么呢……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这主意也许不错……\\n维克托，你能带上莉莉\\n一起去吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_01"
-            ],
-            "speaker_name": "维克托",
-            "context": "尤蒂尔！？\\n你是认真的吗？我要去的可是战场，\\n带孩子去那种地方……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_01"
-            ],
-            "speaker_name": "莉莉",
-            "context": "拜托你了！莉莉想保护好\\n大家的星龙祭！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "莉莉的战斗能力很出色。\\n我觉得她在这方面\\n一定能给你带来帮助。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_01"
-            ],
-            "speaker_name": "维克托",
-            "context": "（带这么个少女去战场？\\n这王子没疯吗？但是，\\n看样子也不像在胡闹……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "而且，和她一起的话，\\n你也不会做得过火。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_01"
-            ],
-            "speaker_name": "维克托",
-            "context": "（他看穿了我想复仇的心吗……\\n是觉得我在这少女面前，\\n应该不会虐杀帝国兵吧……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_01"
-            ],
-            "speaker_name": "维克托",
-            "context": "是负责监视我的吗……\\n那就没辙了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_01"
-            ],
-            "speaker_name": "莉莉",
-            "context": "真的吗！？谢谢！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_01"
-            ],
-            "speaker_name": "维克托",
-            "context": "毕竟不能放任帝国\\n为非作歹啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_01"
-            ],
-            "speaker_name": "莉莉",
-            "context": "那，莉莉还有一个请求！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "这、这是什么！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_02"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "这是圣星使者的衣服。\\n很适合你哦。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "不，不是这个问题……\\n为什么我要穿这个？",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_02"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "莉莉拜托你\\n和她一起分发礼物了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_02"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "当圣星使者的话\\n当然要穿这个了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "但是……我穿这种衣服……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "莉莉",
-            "context": "你要加油啊！维克托！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "打倒帝国兵，把礼物\\n和幸福的星龙祭带给大家！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_02"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "就是这么回事。\\n而且，帝国军已经知道\\n你的相貌了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_02"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "穿上这身衣服，\\n就不会轻易被人发现。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_02"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "毕竟谁能想到\\n铁腕佣兵团的前任首领\\n会打扮得这么梦幻。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "梦幻……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "维克托！作为圣星使者\\n一起加油嘛！好不好！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "好、好吧……总不能\\n放任帝国兵胡作非为。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_02"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "要的就是这股劲。\\n请千万小心。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "嗯！出发啦！\\n拿上礼物袋……嘿！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "嘿……唔！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "哈啊、哈啊……\\n完全背不动……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "给我。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "哇，轻而易举！\\n谢谢你，维克托！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "那就，重整旗鼓……\\n出发！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_02"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "路上小心……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_02"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "这两个人可是近年少见的\\n不协调组合，真的没问题吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "叮铃铃铃！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "太激动可是会摔跤的。\\n好好看着前面走路。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "好～呵呵，好开心！\\n要去哪里呢？\\n啊！刚才那个动的是什么！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "（既没力气，也没知识。\\n看上去只是一个\\n天真无邪的少女啊……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "（这个样子\\n能和帝国军战斗吗？）",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "好！要加油！\\n带来幸福的星龙祭！\\n出发！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "（真是不安……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_01_0063",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Lily wants to celebrate Dragonyule, but with\\nthe empire on the offensive, that doesn't look\\npossible...until an unlikely solution is found.\\nDressed in Saint Starfall outfits, Lily and Victor\\nset off for battle to save the holiday season!",
+      "ja_jp": "<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>のお<ruby><rb>祝</rb><rt>いわ</rt></ruby>いをしたいリリィ。\\nしかし<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>軍</rb><rt>ぐん</rt></ruby>の<ruby><rb>攻撃</rb><rt>こうげき</rt></ruby>を<ruby><rb>受</rb><rt>う</rt></ruby>け、それどころ\\nではない<ruby><rb>聖城内</rb><rt>せいじょうない</rt></ruby>。そこでリリィは<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>を\\n<ruby><rb>守</rb><rt>まも</rt></ruby>ろうと、ヴィクターと<ruby><rb>共</rb><rt>とも</rt></ruby>にサンメテオール\\nの<ruby><rb>衣装</rb><rt>いしょう</rt></ruby>に<ruby><rb>身</rb><rt>み</rt></ruby>を<ruby><rb>包</rb><rt>つつ</rt></ruby>み、<ruby><rb>戦地</rb><rt>せんち</rt></ruby>へ<ruby><rb>赴</rb><rt>おもむ</rt></ruby>くことにする。",
+      "zh_cn": "莉莉想庆祝星龙祭，\\n但因为帝国军的袭击，圣城上下\\n已顾不上节日。于是莉莉为了\\n保护星龙祭，和维克托一起\\n身着圣星使者的服装奔赴战场。",
+      "zh_tw": "莉莉滿心想慶祝星龍祭，\\n卻由於帝國軍的攻擊，導致聖城無暇慶祝。\\n莉莉為了守護星龍祭，便與維克多一同\\n換上聖夜使者的服裝，趕赴戰場。"
+    }
+  },
+  "prev": "",
+  "next": "2220702",
+  "content": [
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "We'll chop you down to size!",
+        "ja_jp": "――<ruby><rb>来</rb><rt>こ</rt></ruby>い！　この<ruby><rb>星竜樹</rb><rt>せいりゅうじゅ</rt></ruby>！",
+        "zh_cn": "来吧！你这星龙树！",
+        "zh_tw": "──來吧！你這星龍樹！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0001",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "With me, Lily!",
+        "ja_jp": "さあ<ruby><rb>行</rb><rt>い</rt></ruby>くぞ、リリィ！",
+        "zh_cn": "莉莉，我们上！",
+        "zh_tw": "我們上，莉莉！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0002",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Got it!",
+        "ja_jp": "うんっ！",
+        "zh_cn": "嗯！",
+        "zh_tw": "嗯！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0003",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Together",
+        "ja_jp": "ふたり",
+        "zh_cn": "二人",
+        "zh_tw": "兩人"
+      },
+      "context": {
+        "en_us": "Operation 'Chuting Stars...",
+        "ja_jp": "オペレーション・\\nマックスサンメテオール――！",
+        "zh_cn": "圣星使者\\n大作战！",
+        "zh_tw": "作戰‧極限聖夜使者──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0004",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Together",
+        "ja_jp": "ふたり",
+        "zh_cn": "二人",
+        "zh_tw": "兩人"
+      },
+      "context": {
+        "en_us": "Begin!",
+        "ja_jp": "<ruby><rb>開始</rb><rt>かいし</rt></ruby>なの！\\n（<ruby><rb>開始</rb><rt>かいし</rt></ruby>だ！）",
+        "zh_cn": "开始啦！\\n(开始！）",
+        "zh_tw": "開始呢！\\n（開始！）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0005",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "It all started several weeks earlier...",
+        "ja_jp": "<ruby><rb>事</rb><rt>こと</rt></ruby>の<ruby><rb>始</rb><rt>はじ</rt></ruby>まりは、<ruby><rb>数週間前</rb><rt>すうしゅうかんまえ</rt></ruby>……",
+        "zh_cn": "事情要追溯到几周前……",
+        "zh_tw": "事情的開端發生在幾週前……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110252_01",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "What do you mean we can't celebrate\\nDragonyule this year?!",
+        "ja_jp": "ええ～!?　<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>、みんなで\\nお<ruby><rb>祝</rb><rt>いわ</rt></ruby>いできないの……!?",
+        "zh_cn": "诶！？大家没法\\n一起庆祝星龙祭吗！？",
+        "zh_tw": "咦咦～！？\\n不能大家一起慶祝星龍祭了……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0006",
+      "book": ""
+    },
+    {
+      "icon": "110252_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Crystalian Girl\\nLily",
+        "ja_jp": "<ruby><rb>氷晶族</rb><rt>ひょうしょうぞく</rt></ruby>の<ruby><rb>少女</rb><rt>しょうじょ</rt></ruby>\\nリリィ",
+        "zh_cn": "冰晶族少女\\n莉莉",
+        "zh_tw": "冰晶族的少女\\n莉莉"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "It's a shame, but we've received word that\\nfiends and the imperial army are stirring\\nup even more trouble than usual right now.\\nThis is no time for merriment.",
+        "ja_jp": "ああ。<ruby><rb>各地</rb><rt>かくち</rt></ruby>で、<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>や<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>の<ruby><rb>動</rb><rt>うご</rt></ruby>きが\\n<ruby><rb>活発</rb><rt>かっぱつ</rt></ruby>になってるって<ruby><rb>報告</rb><rt>ほうこく</rt></ruby>が<ruby><rb>上</rb><rt>あ</rt></ruby>がって\\nきてるんだ。<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>どころじゃ……。",
+        "zh_cn": "是啊，有报告说各地的帝国兵\\n还有魔兽活动频繁，\\n已经顾不上庆祝星龙祭……",
+        "zh_tw": "嗯。各地都傳來回報，\\n說帝國兵和魔獸動作頻頻。\\n不是慶祝星龍祭的時候……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0007",
+      "book": ""
+    },
+    {
+      "icon": "110252_01",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "But I was going to dress up as\\nSaint Starfall and everything...",
+        "ja_jp": "そんなあ……みんなで\\nサンメテオールしようって<ruby><rb>言</rb><rt>い</rt></ruby>ってた\\nのに……。",
+        "zh_cn": "怎么这样……\\n说好了大家一起\\n来当圣星使者的……",
+        "zh_tw": "怎麼會……\\n大家說好要一起當聖夜使者的……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0008",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I know, Lily. I'm sorry. But if we don't\\nsecure the safety of the people first,\\nthere won't be anything TO celebrate.",
+        "ja_jp": "ごめんよ。だけど、<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>や<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>に\\n<ruby><rb>狙</rb><rt>ねら</rt></ruby>われていたら、みんなが<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>を\\n<ruby><rb>楽</rb><rt>たの</rt></ruby>しめないだろう？",
+        "zh_cn": "抱歉。不过要是被帝国和魔兽\\n盯上的话，大家就没法\\n尽情享受星龙祭了吧？",
+        "zh_tw": "對不起啊。可是，\\n如果被帝國跟魔獸盯上了，\\n大家也沒辦法享受星龍祭對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0009",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I think the best present we can give\\neveryone this year is the gift of peace.",
+        "ja_jp": "みんなに<ruby><rb>平和</rb><rt>へいわ</rt></ruby>を<ruby><rb>届</rb><rt>とど</rt></ruby>ける。これだって、\\n<ruby><rb>立派</rb><rt>りっぱ</rt></ruby>なサンメテオールさ。",
+        "zh_cn": "为大家带来和平——\\n这也是了不起的圣星使者\\n该做的事呢。",
+        "zh_tw": "能為大家帶來和平，\\n也是很了不起的聖夜使者喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0010",
+      "book": ""
+    },
+    {
+      "icon": "110252_01",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Still...",
+        "ja_jp": "<ruby><rb>立派</rb><rt>りっぱ</rt></ruby>なサンメテオール……。",
+        "zh_cn": "了不起的圣星使者……",
+        "zh_tw": "了不起的聖夜使者……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0011",
+      "book": ""
+    },
+    {
+      "icon": "110307_01",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "I've returned, Euden.",
+        "ja_jp": "ユーディル、\\n<ruby><rb>今</rb><rt>いま</rt></ruby>、<ruby><rb>戻</rb><rt>もど</rt></ruby>った。",
+        "zh_cn": "尤蒂尔，\\n我回来了。",
+        "zh_tw": "尤帝爾。\\n我回來了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0012",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Welcome back! How did everything look?",
+        "ja_jp": "ああ、ヴィクター。お<ruby><rb>帰</rb><rt>かえ</rt></ruby>り。\\nどうだった？",
+        "zh_cn": "啊，维克托，欢迎回来。\\n情况如何？",
+        "zh_tw": "啊啊，維克多。歡迎回來。\\n情況如何？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0013",
+      "book": ""
+    },
+    {
+      "icon": "110307_01",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "It's as we feared. The imperial army is\\nnoticeably more active at present.",
+        "ja_jp": "<ruby><rb>情報通</rb><rt>じょうほうどお</rt></ruby>り、<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>の<ruby><rb>動</rb><rt>うご</rt></ruby>きが<ruby><rb>活発</rb><rt>かっぱつ</rt></ruby>に\\nなってきている。",
+        "zh_cn": "跟情报说的一样，\\n帝国最近活动频繁。",
+        "zh_tw": "跟情報說的一樣，\\n帝國的動作變得相當頻繁。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0014",
+      "book": ""
+    },
+    {
+      "icon": "110307_01",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "I did what I could to obstruct them, but\\nthere was only so much I could do alone.",
+        "ja_jp": "<ruby><rb>俺</rb><rt>おれ</rt></ruby>が<ruby><rb>対処</rb><rt>たいしょ</rt></ruby>できる<ruby><rb>範囲</rb><rt>はんい</rt></ruby>で<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>軍</rb><rt>ぐん</rt></ruby>の<ruby><rb>行動</rb><rt>こうどう</rt></ruby>を\\n<ruby><rb>阻止</rb><rt>そし</rt></ruby>してきたが……やはりひとりでは\\n<ruby><rb>限度</rb><rt>げんど</rt></ruby>があるな。",
+        "zh_cn": "虽然我在力所能及的范围内\\n阻止了帝国军的行动……\\n但一个人的力量还是有限。",
+        "zh_tw": "雖然我已經在能力所及範圍內\\n盡力阻止帝國軍行動了……\\n但一個人的力量還是有限。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0015",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I feared as much. We're all a little short\\non numbers right now, but I'll see if I can\\nsend some more people your way.",
+        "ja_jp": "やっぱりそうか……どこも<ruby><rb>手</rb><rt>て</rt></ruby>が<ruby><rb>足</rb><rt>た</rt></ruby>りて\\nいない<ruby><rb>状態</rb><rt>じょうたい</rt></ruby>だけど、どうにかして<ruby><rb>調整</rb><rt>ちょうせい</rt></ruby>\\nできないか、<ruby><rb>考</rb><rt>かんが</rt></ruby>えてみるよ。",
+        "zh_cn": "果然如此吗……\\n现在到处都人手不足，\\n我看看能不能想办法调整。",
+        "zh_tw": "果然是這樣嗎……\\n現在到處都人手不足，\\n不過我會想想看怎麼調整的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0016",
+      "book": ""
+    },
+    {
+      "icon": "110307_01",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "No, that would be too risky. We don't\\nwant to give the empire an advantage\\nover us on any front.",
+        "ja_jp": "いや、<ruby><rb>戦力</rb><rt>せんりょく</rt></ruby>を<ruby><rb>均等</rb><rt>きんとう</rt></ruby>にした<ruby><rb>結果</rb><rt>けっか</rt></ruby>、どこの\\n<ruby><rb>戦場</rb><rt>せんじょう</rt></ruby>でも<ruby><rb>不利</rb><rt>ふり</rt></ruby>な<ruby><rb>戦</rb><rt>たたか</rt></ruby>いになるのでは<ruby><rb>意味</rb><rt>いみ</rt></ruby>が\\nない。<ruby><rb>今</rb><rt>いま</rt></ruby>の<ruby><rb>編成</rb><rt>へんせい</rt></ruby>は<ruby><rb>崩</rb><rt>くず</rt></ruby>さないほうがいい。",
+        "zh_cn": "不，要是平均分配战力导致\\n所有战场都陷入不利就没有意义了，\\n还是不要打乱目前的编制比较好。",
+        "zh_tw": "不，如果將戰力平均分配，反而導致\\n每個戰場都陷入劣勢的話就沒意義了。\\n還是別調動現在的編制比較好。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0017",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "But the burden on you would be too heavy\\nwere we to leave things as they are!",
+        "ja_jp": "でも、それだとヴィクターが……。",
+        "zh_cn": "但是，这样一来你就……",
+        "zh_tw": "可是，這樣維克多就……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0018",
+      "book": ""
+    },
+    {
+      "icon": "110307_01",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "I'll be fine. I'm used to fighting solo.\\nFor the present, I'll focus on obstructing\\nthem and slowly reducing their numbers.",
+        "ja_jp": "<ruby><rb>問題</rb><rt>もんだい</rt></ruby>ない。<ruby><rb>俺</rb><rt>おれ</rt></ruby>はひとりで<ruby><rb>戦</rb><rt>たたか</rt></ruby>うのは\\n<ruby><rb>慣</rb><rt>な</rt></ruby>れている。<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>軍</rb><rt>ぐん</rt></ruby>の<ruby><rb>行動</rb><rt>こうどう</rt></ruby>を<ruby><rb>遅</rb><rt>おく</rt></ruby>らせつつ\\n<ruby><rb>少</rb><rt>すこ</rt></ruby>しずつ<ruby><rb>戦力</rb><rt>せんりょく</rt></ruby>を<ruby><rb>削</rb><rt>そ</rt></ruby>いでいく。",
+        "zh_cn": "没事，我已经习惯了单枪匹马作战。\\n我打算一边牵制帝国军的行动，\\n一边慢慢削弱他们的战力。",
+        "zh_tw": "沒問題。我很習慣獨自戰鬥。\\n我會拖延帝國軍行動，\\n同時逐次削弱對方戰力的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0019",
+      "book": ""
+    },
+    {
+      "icon": "110307_01",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "You need only send reinforcements once\\nthey're available.",
+        "ja_jp": "そちらに<ruby><rb>余力</rb><rt>よりょく</rt></ruby>ができた<ruby><rb>時</rb><rt>とき</rt></ruby>、<ruby><rb>増援</rb><rt>ぞうえん</rt></ruby>を\\n<ruby><rb>送</rb><rt>おく</rt></ruby>ってもらえれば――。",
+        "zh_cn": "等你们那边有余力了，\\n再派人增援就……",
+        "zh_tw": "只要等你那邊有餘力，\\n再派人來支援──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0020",
+      "book": ""
+    },
+    {
+      "icon": "110252_01",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Let me go with you!",
+        "ja_jp": "じゃあ、リリィが<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>くの！",
+        "zh_cn": "那么，莉莉和你一起去！",
+        "zh_tw": "那麼，莉莉也一起去呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0021",
+      "book": ""
+    },
+    {
+      "icon": "110307_01",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "...What? You surely can't be serious.",
+        "ja_jp": "……は？　いきなり<ruby><rb>何</rb><rt>なに</rt></ruby>を<ruby><rb>言</rb><rt>い</rt></ruby>い<ruby><rb>出</rb><rt>だ</rt></ruby>すのだ、\\nこの<ruby><rb>子供</rb><rt>こども</rt></ruby>は……。",
+        "zh_cn": "哈？你这个小朋友\\n突然说什么呢……",
+        "zh_tw": "……啊？\\n這孩子突然在說什麼……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0022",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Actually, I think she could be of help,\\nVictor.",
+        "ja_jp": "……<ruby><rb>悪</rb><rt>わる</rt></ruby>くないかもしれない。\\nヴィクター、リリィを<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に<ruby><rb>連</rb><rt>つ</rt></ruby>れて\\n<ruby><rb>行</rb><rt>い</rt></ruby>ってくれないか？",
+        "zh_cn": "这主意也许不错……\\n维克托，你能带上莉莉\\n一起去吗？",
+        "zh_tw": "……或許是個好主意。\\n維克多，你可以帶莉莉一起去嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0023",
+      "book": ""
+    },
+    {
+      "icon": "110307_01",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "Preposterous! I cannot take a CHILD with\\nme to fight a war!",
+        "ja_jp": "ユーディル!?\\nわかっているのか？　<ruby><rb>今</rb><rt>いま</rt></ruby>から<ruby><rb>向</rb><rt>む</rt></ruby>かうのは\\n<ruby><rb>戦場</rb><rt>せんじょう</rt></ruby>だぞ？　そこへこんな……。",
+        "zh_cn": "尤蒂尔！？\\n你是认真的吗？我要去的可是战场，\\n带孩子去那种地方……",
+        "zh_tw": "尤帝爾！？\\n你真的明白嗎？我接下來要去的\\n可是戰場喔？帶這麼小的孩子……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0024",
+      "book": ""
+    },
+    {
+      "icon": "110252_01",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Please. Let me come. I wanna help\\nprotect Dragonyule for everyone!",
+        "ja_jp": "お<ruby><rb>願</rb><rt>ねが</rt></ruby>いなの！　リリィ、みんなの\\n<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>を<ruby><rb>守</rb><rt>まも</rt></ruby>りたいのっ！",
+        "zh_cn": "拜托你了！莉莉想保护好\\n大家的星龙祭！",
+        "zh_tw": "拜託你呢！\\n莉莉想要守護大家的星龍祭！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0025",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I think you'll be surprised what\\nshe's capable of. She'll pull her\\nweight, trust me.",
+        "ja_jp": "リリィは<ruby><rb>立派</rb><rt>りっぱ</rt></ruby>に<ruby><rb>戦</rb><rt>たたか</rt></ruby>える。<ruby><rb>戦</rb><rt>たたか</rt></ruby>いでは\\nきちんと<ruby><rb>役</rb><rt>やく</rt></ruby>に<ruby><rb>立</rb><rt>た</rt></ruby>ってくれると<ruby><rb>思</rb><rt>おも</rt></ruby>う。",
+        "zh_cn": "莉莉的战斗能力很出色。\\n我觉得她在这方面\\n一定能给你带来帮助。",
+        "zh_tw": "莉莉能夠獨當一面地戰鬥。\\n我想她可以在戰鬥時幫上你的忙。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0026",
+      "book": ""
+    },
+    {
+      "icon": "110307_01",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "(I can't believe what I'm hearing...\\nBut Euden doesn't seem\\nto be joking.)",
+        "ja_jp": "（こんな<ruby><rb>少女</rb><rt>しょうじょ</rt></ruby>と<ruby><rb>戦地</rb><rt>せんち</rt></ruby>へ？\\n　<ruby><rb>王子</rb><rt>おうじ</rt></ruby>は<ruby><rb>正気</rb><rt>しょうき</rt></ruby>か？　しかし、\\n　ふざけているようにも<ruby><rb>見</rb><rt>み</rt></ruby>えん……）",
+        "zh_cn": "（带这么个少女去战场？\\n这王子没疯吗？但是，\\n看样子也不像在胡闹……）",
+        "zh_tw": "（帶這樣的少女去戰場？\\n王子是認真的嗎？不過，\\n感覺也不像在開玩笑……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0027",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "She'll keep you in check too, I wager.",
+        "ja_jp": "それに、リリィと<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>なら、\\nきみがやりすぎることもないだろうし。",
+        "zh_cn": "而且，和她一起的话，\\n你也不会做得过火。",
+        "zh_tw": "而且，如果有莉莉在，\\n你應該也不會做得太過火才對。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0028",
+      "book": ""
+    },
+    {
+      "icon": "110307_01",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "(Ah. He's proposing this knowing I'm\\nless likely to take...drastic measures so\\nlong as she's watching me.)",
+        "ja_jp": "（<ruby><rb>俺</rb><rt>おれ</rt></ruby>の<ruby><rb>復讐心</rb><rt>ふくしゅうしん</rt></ruby>を<ruby><rb>見越</rb><rt>みこ</rt></ruby>してか……。\\n　この<ruby><rb>少女</rb><rt>しょうじょ</rt></ruby>の<ruby><rb>前</rb><rt>まえ</rt></ruby>でなら、<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>に<ruby><rb>残虐</rb><rt>ざんぎゃく</rt></ruby>な\\n　<ruby><rb>行為</rb><rt>こうい</rt></ruby>もしないだろう、と……）",
+        "zh_cn": "（他看穿了我想复仇的心吗……\\n是觉得我在这少女面前，\\n应该不会虐杀帝国兵吧……）",
+        "zh_tw": "（原來是看穿了我的復仇之心嗎……\\n他察覺如果有這名少女在場，我就不會\\n對帝國兵做出殘酷的行為……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0029",
+      "book": ""
+    },
+    {
+      "icon": "110307_01",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "So she's to keep an eye on me, then.\\nI suppose I can't refuse.",
+        "ja_jp": "お<ruby><rb>目付</rb><rt>めつ</rt></ruby>け<ruby><rb>役</rb><rt>やく</rt></ruby>ということか……。\\nならば<ruby><rb>仕方</rb><rt>しかた</rt></ruby>があるまい。",
+        "zh_cn": "是负责监视我的吗……\\n那就没辙了。",
+        "zh_tw": "要她負責監視的意思嗎……\\n那就沒辦法了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0030",
+      "book": ""
+    },
+    {
+      "icon": "110252_01",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "I can really come? WOOHOO!",
+        "ja_jp": "ほんと!?　ありがとう！",
+        "zh_cn": "真的吗！？谢谢！",
+        "zh_tw": "真的嗎！？謝謝你！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0031",
+      "book": ""
+    },
+    {
+      "icon": "110307_01",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "I will do what I must to make sure the\\nempire's deeds don't go unpunished.",
+        "ja_jp": "<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>の<ruby><rb>悪事</rb><rt>あくじ</rt></ruby>を<ruby><rb>見過</rb><rt>みす</rt></ruby>ごすわけには\\nいかんからな。",
+        "zh_cn": "毕竟不能放任帝国\\n为非作歹啊。",
+        "zh_tw": "畢竟不能對帝國的惡行坐視不管啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0032",
+      "book": ""
+    },
+    {
+      "icon": "110252_01",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Oh, but I have one more favor to ask!",
+        "ja_jp": "じゃあ、もうひとつお<ruby><rb>願</rb><rt>ねが</rt></ruby>いがあるの！",
+        "zh_cn": "那，莉莉还有一个请求！",
+        "zh_tw": "那麼，莉莉還有一件事想拜託呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0033",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "I'm going to need an explanation.\\n...Stat.",
+        "ja_jp": "な、なんだ、これは……!?",
+        "zh_cn": "这、这是什么！？",
+        "zh_tw": "這、這是什麼……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0034",
+      "book": ""
+    },
+    {
+      "icon": "100004_02",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "It's a Saint Starfall outfit.\\nI think it rather suits you.",
+        "ja_jp": "サンメテオールの<ruby><rb>衣装</rb><rt>いしょう</rt></ruby>です。\\nとてもよくお<ruby><rb>似合</rb><rt>にあ</rt></ruby>いですよ。",
+        "zh_cn": "这是圣星使者的衣服。\\n很适合你哦。",
+        "zh_tw": "是聖夜使者的服裝。\\n非常適合你喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0035",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "How well it suits me is hardly the issue.\\nWhy am I being asked to wear it?",
+        "ja_jp": "いや、そういうことではなく……。\\nなぜ<ruby><rb>俺</rb><rt>おれ</rt></ruby>がこの<ruby><rb>衣装</rb><rt>いしょう</rt></ruby>を？",
+        "zh_cn": "不，不是这个问题……\\n为什么我要穿这个？",
+        "zh_tw": "不，我不是那個意思……\\n為什麼我要穿上這身服裝？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0036",
+      "book": ""
+    },
+    {
+      "icon": "100004_02",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Did Lily not ask you to go and deliver\\ngifts with her?",
+        "ja_jp": "リリィさんから、<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に\\nプレゼントを<ruby><rb>配</rb><rt>くば</rt></ruby>って、と<ruby><rb>頼</rb><rt>たの</rt></ruby>まれた\\nのでは？",
+        "zh_cn": "莉莉拜托你\\n和她一起分发礼物了吧？",
+        "zh_tw": "莉莉不是拜託你\\n和她一起發送禮物嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0037",
+      "book": ""
+    },
+    {
+      "icon": "100004_02",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "That is Saint Starfall's role.\\nThus, you must dress for the part.",
+        "ja_jp": "サンメテオール<ruby><rb>役</rb><rt>やく</rt></ruby>をするのなら、\\nこの<ruby><rb>衣装</rb><rt>いしょう</rt></ruby>でしょう？",
+        "zh_cn": "当圣星使者的话\\n当然要穿这个了。",
+        "zh_tw": "既然要當聖夜使者，\\n就要換上這身服裝吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0038",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "Still...",
+        "ja_jp": "しかし……<ruby><rb>俺</rb><rt>おれ</rt></ruby>にはこんな<ruby><rb>衣装</rb><rt>いしょう</rt></ruby>……。",
+        "zh_cn": "但是……我穿这种衣服……",
+        "zh_tw": "可是……我穿這身服裝……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0039",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "C'mon, Victor. We've got this in the bag—\\nthe PRESENT bag, that is! Hee hee.",
+        "ja_jp": "がんばるの！　ヴィクター！",
+        "zh_cn": "你要加油啊！维克托！",
+        "zh_tw": "要加油呢！維克多！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0040",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "We're gonna beat up the baddies AND\\nspread holiday cheer everywhere we go!",
+        "ja_jp": "<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>をやっつけて、みんなに\\nプレゼントと<ruby><rb>幸</rb><rt>しあわ</rt></ruby>せな<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>を<ruby><rb>届</rb><rt>とど</rt></ruby>けるの！",
+        "zh_cn": "打倒帝国兵，把礼物\\n和幸福的星龙祭带给大家！",
+        "zh_tw": "要打倒帝國兵，把禮物和\\n幸福的星龍祭送給大家呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0041",
+      "book": ""
+    },
+    {
+      "icon": "100004_02",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "You see? And besides, your face is\\nwell known to the empire, is it not?",
+        "ja_jp": "そういうことですよ。それに、\\nヴィクターさんは<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>軍</rb><rt>ぐん</rt></ruby>に<ruby><rb>顔</rb><rt>かお</rt></ruby>が\\n<ruby><rb>知</rb><rt>し</rt></ruby>れてしまっているでしょう？",
+        "zh_cn": "就是这么回事。\\n而且，帝国军已经知道\\n你的相貌了吧？",
+        "zh_tw": "就是這麼回事。\\n更何況，帝國軍已經知道\\n維克多先生的長相了吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0042",
+      "book": ""
+    },
+    {
+      "icon": "100004_02",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Surely they're less likely to ascertain\\nyour identity if you are dressed like that.",
+        "ja_jp": "その<ruby><rb>格好</rb><rt>かっこう</rt></ruby>なら<ruby><rb>簡単</rb><rt>かんたん</rt></ruby>には<ruby><rb>気</rb><rt>き</rt></ruby>づかれません。",
+        "zh_cn": "穿上这身衣服，\\n就不会轻易被人发现。",
+        "zh_tw": "換上這身打扮就不會被輕易發現。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0043",
+      "book": ""
+    },
+    {
+      "icon": "100004_02",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "No one would expect the former leader\\nof a group of mercenaries to be dressed\\nin such a jolly manner.",
+        "ja_jp": "<ruby><rb>凄腕</rb><rt>すごうで</rt></ruby><ruby><rb>傭兵</rb><rt>ようへい</rt></ruby><ruby><rb>団</rb><rt>だん</rt></ruby>の<ruby><rb>元</rb><rt>もと</rt></ruby>リーダーが、そんな\\nファンシーな<ruby><rb>格好</rb><rt>かっこう</rt></ruby>をしているなんて、\\n<ruby><rb>誰</rb><rt>だれ</rt></ruby>も<ruby><rb>思</rb><rt>おも</rt></ruby>いませんから。",
+        "zh_cn": "毕竟谁能想到\\n铁腕佣兵团的前任首领\\n会打扮得这么梦幻。",
+        "zh_tw": "畢竟不會有人想像得到，\\n強大傭兵團的前團長，\\n竟然會打扮得如此夢幻。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0044",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "...Jolly, huh.",
+        "ja_jp": "ファンシー……。",
+        "zh_cn": "梦幻……",
+        "zh_tw": "夢幻……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0045",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Okey doke, Victor!\\nLet's be awesome Saint Starfalls together!",
+        "ja_jp": "ヴィクター！　サンメテオールとして\\n<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>にがんばろう！　ねっ!?",
+        "zh_cn": "维克托！作为圣星使者\\n一起加油嘛！好不好！？",
+        "zh_tw": "維克多！一起加油當聖夜使者吧！\\n好嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0046",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "Very well. Whatever it takes to stop the\\nempire having their way.",
+        "ja_jp": "……まあ、いいだろう。<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>の\\n<ruby><rb>好</rb><rt>す</rt></ruby>きにさせるわけにはいかんからな。",
+        "zh_cn": "好、好吧……总不能\\n放任帝国兵胡作非为。",
+        "zh_tw": "……嗯，好吧。\\n畢竟不能讓帝國兵為所欲為。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0047",
+      "book": ""
+    },
+    {
+      "icon": "100004_02",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "That's the spirit. Do be careful, you two.",
+        "ja_jp": "その<ruby><rb>意気</rb><rt>いき</rt></ruby>です。どうかお<ruby><rb>気</rb><rt>き</rt></ruby>をつけて。",
+        "zh_cn": "要的就是这股劲。\\n请千万小心。",
+        "zh_tw": "就是這股氣勢。還請多小心。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0048",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "You bet! Let me just hoist up all\\nthese presents. Heeeeave...",
+        "ja_jp": "うん！　いってくるの！\\nプレゼントの<ruby><rb>袋</rb><rt>ふくろ</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>って……フンッ！",
+        "zh_cn": "嗯！出发啦！\\n拿上礼物袋……嘿！",
+        "zh_tw": "嗯！要出發了呢！\\n帶著裝有禮物的袋子一起……哼！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0049",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Heave... Heeeave...",
+        "ja_jp": "フーンッ……フーーーーーーーンッ!!",
+        "zh_cn": "嘿……唔！",
+        "zh_tw": "哼～唔……\\n哼───────！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0050",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "*pant* Um, they're too heavy for me...",
+        "ja_jp": "はあ、はあ……\\nぜんぜん<ruby><rb>持</rb><rt>も</rt></ruby>ち<ruby><rb>上</rb><rt>あ</rt></ruby>がらないの……。",
+        "zh_cn": "哈啊、哈啊……\\n完全背不动……",
+        "zh_tw": "呼、呼……\\n完全抬不起來……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0051",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "Give them here. I'll handle it.",
+        "ja_jp": "<ruby><rb>貸</rb><rt>か</rt></ruby>してみなさい。",
+        "zh_cn": "给我。",
+        "zh_tw": "讓我試試。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0052",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Whoa! You made that look EASY!\\nYou're so cool, Victor.",
+        "ja_jp": "うわぁ、かるがる……！\\nありがとう、ヴィクター！",
+        "zh_cn": "哇，轻而易举！\\n谢谢你，维克托！",
+        "zh_tw": "唔哇，那麼輕鬆……！\\n謝謝你，維克多！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0053",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Okay, NOW we can go!\\nSee ya later, everyone!",
+        "ja_jp": "じゃあ、<ruby><rb>気</rb><rt>き</rt></ruby>を<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>直</rb><rt>なお</rt></ruby>して……\\nいってきまーすっ！",
+        "zh_cn": "那就，重整旗鼓……\\n出发！",
+        "zh_tw": "好，重新打起精神……\\n正式出發～！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0054",
+      "book": ""
+    },
+    {
+      "icon": "100004_02",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Good luck!",
+        "ja_jp": "いってらっしゃい……。",
+        "zh_cn": "路上小心……",
+        "zh_tw": "路上小心……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0055",
+      "book": ""
+    },
+    {
+      "icon": "100004_02",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "I've never seen a more unlikely duo...\\nI do hope they will be all right.",
+        "ja_jp": "<ruby><rb>近年</rb><rt>きんねん</rt></ruby>まれに<ruby><rb>見</rb><rt>み</rt></ruby>るチグハグコンビ\\nですが、<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>でしょうか……？",
+        "zh_cn": "这两个人可是近年少见的\\n不协调组合，真的没问题吗……",
+        "zh_tw": "真是近年少見的不協調搭檔，\\n沒問題嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0056",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Ring-a-LIIIING!",
+        "ja_jp": "りんりんり～ん！",
+        "zh_cn": "叮铃铃铃！",
+        "zh_tw": "鈴鈴鈴～！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0057",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "You're going to end up with a face full of\\ndirt if you don't watch where you're going.",
+        "ja_jp": "はしゃいでいると<ruby><rb>転</rb><rt>ころ</rt></ruby>ぶぞ。\\nきちんと<ruby><rb>前</rb><rt>まえ</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>て<ruby><rb>歩</rb><rt>ある</rt></ruby>きなさい。",
+        "zh_cn": "太激动可是会摔跤的。\\n好好看着前面走路。",
+        "zh_tw": "太興奮可是會摔倒的喔。\\n好好看著前面走路。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0058",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "I'll be careful! But this so much fuuun!\\nHow far are we going? Are we there yet?\\n...Oh! What just moved over there?",
+        "ja_jp": "は～い！　ふふっ、<ruby><rb>楽</rb><rt>たの</rt></ruby>しいな～！\\nどこまで<ruby><rb>行</rb><rt>い</rt></ruby>くのかなー？\\nあ！　<ruby><rb>今</rb><rt>いま</rt></ruby><ruby><rb>動</rb><rt>うご</rt></ruby>いたのなんだろう!?",
+        "zh_cn": "好～呵呵，好开心！\\n要去哪里呢？\\n啊！刚才那个动的是什么！？",
+        "zh_tw": "好～的！呵呵，好開心呢～！\\n要到哪裡去呢～？\\n啊！剛才在動的是什麼呀！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0059",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "(She looks like an ordinary child to me—\\none with neither the strength nor the\\nknow-how to fight.)",
+        "ja_jp": "（<ruby><rb>力</rb><rt>ちから</rt></ruby>があるわけでも、<ruby><rb>知識</rb><rt>ちしき</rt></ruby>があるわけ\\n　でもない。ただの<ruby><rb>無邪気</rb><rt>むじゃき</rt></ruby>な<ruby><rb>少女</rb><rt>しょうじょ</rt></ruby>と\\n　いった<ruby><rb>様子</rb><rt>ようす</rt></ruby>だ……）",
+        "zh_cn": "（既没力气，也没知识。\\n看上去只是一个\\n天真无邪的少女啊……）",
+        "zh_tw": "（她看起來既柔弱無力，又缺乏知識。\\n只是個天真無邪的少女……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0060",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "(Is she really going to help in defeating\\nthe empire?)",
+        "ja_jp": "（こんな<ruby><rb>風</rb><rt>ふう</rt></ruby>で<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>軍</rb><rt>ぐん</rt></ruby>と<ruby><rb>戦</rb><rt>たたか</rt></ruby>えるのか？）",
+        "zh_cn": "（这个样子\\n能和帝国军战斗吗？）",
+        "zh_tw": "（這個樣子能和帝國軍戰鬥嗎？）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0061",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "We're gonna make this a Dragonyule to\\nremember! Awww yeah!",
+        "ja_jp": "よーし！　<ruby><rb>幸</rb><rt>しあわ</rt></ruby>せな<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>を<ruby><rb>届</rb><rt>とど</rt></ruby>けに！\\nがんばれリリィたち！　ゴーッ！",
+        "zh_cn": "好！要加油！\\n带来幸福的星龙祭！\\n出发！",
+        "zh_tw": "好～！\\n為了傳遞幸福的星龍祭！\\n莉莉和維克多要加油！GO──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0062",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "(I have a bad feeling about this...)",
+        "ja_jp": "（<ruby><rb>不安</rb><rt>ふあん</rt></ruby>だ……）",
+        "zh_cn": "（真是不安……）",
+        "zh_tw": "（真不安啊……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_01_0063",
+      "book": ""
+    }
+  ]
 }

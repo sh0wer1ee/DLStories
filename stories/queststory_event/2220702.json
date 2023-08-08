@@ -1,654 +1,1241 @@
 {
-    "story_id": "",
-    "story_name": "迎击战～快乐星龙祭大作战～ 圣星使者的魔法",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "莉莉和维克托来到了湖畔的村落。\\n湖里有魔兽，似乎是帝国军\\n为了占领村落而放出的。\\n为拯救村落，莉莉用魔法让湖结冰。\\n她的活跃表现让村落顺利得救。"
-        ]
+  "title": {
+    "en_us": "The Great Dragonyule Offensive    A Frosty Rescue",
+    "ja_jp": "迎撃戦～オペレーション・ハッピー星竜祭～  サンメテオールの魔法",
+    "zh_cn": "迎击战～快乐星龙祭大作战～  圣星使者的魔法",
+    "zh_tw": "迎擊戰～聖夜作戰‧歡樂星龍祭～  聖夜使者的魔法"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "根据尤蒂尔给我的\\n地图来看……就是这附近了吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "哇啊啊！好大的湖！\\n啊！湖对面有村落！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "据说这片湖里能采到\\n富含水之魔力的矿石。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "而帝国军为了开采矿石，\\n似乎打算在湖对面的\\n那个村落建立要塞。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "但是……好奇怪啊。\\n没看到帝国兵的人影啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "那个村落正对面是湖，\\n其它方位被险山峻岭环绕。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "想要攻入那村落的话，\\n只能坐船过去，\\n但是那样太费事了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "这么说，那个村落是安全的？\\n尤蒂尔给的情报\\n搞错了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "不，并非如此。\\n帝国军不打算直接攻进去，\\n而是企图用别的方法攻下那村落。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "别的方法？那是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "噫……这是，什么声音？\\n从湖里传来的……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "啊，难道是！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "嗯，是魔兽。\\n帝国军放出的魔兽\\n潜伏在这片湖里。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "有这种魔兽在，\\n村落里的人们只能闭门不出，\\n最终弹尽粮绝……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "给大家造成这种困扰\\n简直不可原谅！\\n得做些什么才行！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "话是这么说，\\n可要怎么办……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "啊！莉莉想到了\\n一个好主意！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "维克托，你看好了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "喂，靠近湖会很危险……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "这、这是！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "冻结吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "湖面结冰了！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "呵呵！冻得结结实实的！\\n这下魔兽就出不来了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "而且还能在湖面上行走！\\n我们去湖对面救大家出来吧！\\n然后给他们发礼物！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "这就是莉莉的力量……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "维克托，快呀快呀！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "啊，好……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "到啦！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "咦？大家好像议论纷纷的？",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "毕竟眼前的湖突然就结冰了，\\n难免会吃惊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "莉莉，做了坏事吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "不，这是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120016_01"
-            ],
-            "speaker_name": "儿童",
-            "context": "我看到了！\\n那个姐姐一碰到水，\\n湖就结冰了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "男子",
-            "context": "自从那头魔兽被放进湖里，\\n别说打渔了，连外出都不行……\\n粮食都要见底了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120021_01"
-            ],
-            "speaker_name": "长老",
-            "context": "你们可是\\n这个村落的救世主啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120017_01"
-            ],
-            "speaker_name": "儿童",
-            "context": "那个，难道你们\\n是真正的圣星使者！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "呵呵，没错！\\n我们是作为圣星使者\\n来拯救大家的星龙祭的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "然后，还有礼物哦！\\n来，给你！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120017_01"
-            ],
-            "speaker_name": "儿童",
-            "context": "哇……谢谢！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "算是完成任务了、吧……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "SYS",
-            "context": "当天晚上\\n村落旅店里",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "♪",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "小孩子该睡觉了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "哇……维克托。\\n抱歉……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "莉莉太高兴了……\\n兴奋得睡不着。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "你今天可是大显身手啊。\\n要是没有你，\\n也救不了这个村落。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "诶嘿嘿，谢谢夸奖。\\n这下村落里的大家就能\\n过星龙祭了，太好了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "你异常执着于星龙祭呢。\\n这么喜欢这节日吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "唔，不光是节日的问题。\\n星龙祭对我们冰晶族来说\\n可是非常重要的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "冰晶族……我听说过。\\n族人都住在大雪冰封的乡里，\\n能够操控寒气。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "如果你是冰晶族的人，对外界\\n一无所知以及拥有让湖结冰的力量\\n这两点就都说得通了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "冰晶族之乡一到星龙祭，\\n就会举行“冰晶之仪式”。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "冰晶之仪式？",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "就是祈祷大家的星龙祭\\n都能幸福地度过！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "还要让天空降雪……\\n都是珍贵的回忆……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "莉莉虽然现在不在家乡……\\n但也是冰晶族的一员！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "所以，莉莉决不允许\\n帝国军夺走星龙祭！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "这样啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "（她虽然还小，却背负着\\n应当完成的使命吗。）",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "呼啊……聊了好多，\\n感觉有点困了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "晚安……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "啊，喂。别在这里睡啊！\\n去床上……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110252_02"
-            ],
-            "speaker_name": "莉莉",
-            "context": "呼……呼……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "真是的……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "（本以为自己被强行要求\\n照顾一个孩子……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "（但她想守护星龙祭的使命感\\n已经是一个成熟大人了。）",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "（她是抱着自己的决心\\n来面对这次任务的吧。）",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "维克托",
-            "context": "晚安，圣星使者……\\n祝你有个好梦。",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110307_03"
-            ],
-            "speaker_name": "SYS",
-            "context": "与此同时，湖的附近……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01"
-            ],
-            "speaker_name": "帝国兵",
-            "context": "队长！湖确实结冰了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "队长",
-            "context": "嗯，既然如此……",
-            "voice_line": "VO_CHR_EVENTSTORY_22207_02_0069",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Lily and Victor arrive at a lakeside village,\\nonly to find the lake filled with fiends by the\\nempire as part of an occupation scheme.\\nLily puts an end to this by freezing the lake\\nand saving the village.",
+      "ja_jp": "<ruby><rb>湖畔</rb><rt>こはん</rt></ruby>の<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>に<ruby><rb>到着</rb><rt>とうちゃく</rt></ruby>したリリィとヴィクター。\\n<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>には<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>が。<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>を<ruby><rb>占拠</rb><rt>せんきょ</rt></ruby>するために\\n<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>軍</rb><rt>ぐん</rt></ruby>が<ruby><rb>放</rb><rt>はな</rt></ruby>ったものらしい。<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>を<ruby><rb>救</rb><rt>すく</rt></ruby>うため\\nリリィは<ruby><rb>魔法</rb><rt>まほう</rt></ruby>で<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>を<ruby><rb>凍</rb><rt>こお</rt></ruby>らせる。リリィの\\n<ruby><rb>活躍</rb><rt>かつやく</rt></ruby>で<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>は<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>に<ruby><rb>救</rb><rt>すく</rt></ruby>われたのだった。",
+      "zh_cn": "莉莉和维克托来到了湖畔的村落。\\n湖里有魔兽，似乎是帝国军\\n为了占领村落而放出的。\\n为拯救村落，莉莉用魔法让湖结冰。\\n她的活跃表现让村落顺利得救。",
+      "zh_tw": "莉莉與維克多抵達湖畔村落時，\\n湖中早已被想要占領村落的帝國軍\\n放入了魔獸。為了拯救村落，\\n莉莉施展魔法令湖水凍結，\\n村落也因為她活躍的表現而成功獲救。"
+    }
+  },
+  "prev": "2220701",
+  "next": "2220703",
+  "content": [
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "According to the map\\nEuden gave us,\\nthis should be the spot.",
+        "ja_jp": "ユーディルから<ruby><rb>渡</rb><rt>わた</rt></ruby>された\\n<ruby><rb>地図</rb><rt>ちず</rt></ruby>によると……このあたりか。",
+        "zh_cn": "根据尤蒂尔给我的\\n地图来看……就是这附近了吧。",
+        "zh_tw": "根據尤帝爾給的地圖\\n來看……就是這附近吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0001",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Whoa, this lake is HUGE! And I\\ncan see a town on the other side!",
+        "ja_jp": "ふわああ～！　おっきな<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>！\\nあ！　<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>の<ruby><rb>向</rb><rt>む</rt></ruby>こうに<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>が<ruby><rb>見</rb><rt>み</rt></ruby>えるよ！",
+        "zh_cn": "哇啊啊！好大的湖！\\n啊！湖对面有村落！",
+        "zh_tw": "唔哇啊啊～！好大的湖！\\n啊！湖的對面有村落耶！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0002",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "Ore rich in water mana can be mined\\nin this area because of the lake.",
+        "ja_jp": "この<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>では<ruby><rb>水</rb><rt>みず</rt></ruby>のマナを<ruby><rb>豊富</rb><rt>ほうふ</rt></ruby>に<ruby><rb>含</rb><rt>ふく</rt></ruby>んだ\\n<ruby><rb>鉱石</rb><rt>こうせき</rt></ruby>が<ruby><rb>採</rb><rt>と</rt></ruby>れるらしい。",
+        "zh_cn": "据说这片湖里能采到\\n富含水之魔力的矿石。",
+        "zh_tw": "聽說從這座湖裡可以採到\\n富含水之瑪納的礦石。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0003",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "The imperial army is planning to build\\na fortress where that village stands in\\norder to harvest it.",
+        "ja_jp": "<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>軍</rb><rt>ぐん</rt></ruby>は<ruby><rb>鉱石</rb><rt>こうせき</rt></ruby>を<ruby><rb>採掘</rb><rt>さいくつ</rt></ruby>するために、\\n<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>の<ruby><rb>向</rb><rt>む</rt></ruby>こうにある、あの<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>に\\n<ruby><rb>砦</rb><rt>とりで</rt></ruby>の<ruby><rb>建設</rb><rt>けんせつ</rt></ruby>を<ruby><rb>目論</rb><rt>もくろ</rt></ruby>んでいるという。",
+        "zh_cn": "而帝国军为了开采矿石，\\n似乎打算在湖对面的\\n那个村落建立要塞。",
+        "zh_tw": "而帝國軍為了採掘礦石，\\n打算在湖對岸的那個村落建立據點。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0004",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Are you sure? I can't see any\\nsoldiers anywhere.",
+        "ja_jp": "……でも、おかしいの。\\n<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>の<ruby><rb>姿</rb><rt>すがた</rt></ruby>は<ruby><rb>見</rb><rt>み</rt></ruby>えないよ？",
+        "zh_cn": "但是……好奇怪啊。\\n没看到帝国兵的人影啊？",
+        "zh_tw": "……可是，好奇怪呢。\\n沒看見帝國兵喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0005",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "The only viable way to access the village\\nis across the lake, as it's surrounded by\\nsteep mountains on all other sides.",
+        "ja_jp": "あの<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>の<ruby><rb>正面</rb><rt>しょうめん</rt></ruby>は<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>。それ<ruby><rb>以外</rb><rt>いがい</rt></ruby>は\\n<ruby><rb>険</rb><rt>けわ</rt></ruby>しい<ruby><rb>山</rb><rt>やま</rt></ruby>に<ruby><rb>囲</rb><rt>かこ</rt></ruby>まれている。",
+        "zh_cn": "那个村落正对面是湖，\\n其它方位被险山峻岭环绕。",
+        "zh_tw": "那個村落除了正面是湖以外，\\n周圍都被險峻的山嶺環繞著。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0006",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "The imperial army would need to sail\\nover to attack it—an arduous task indeed.",
+        "ja_jp": "あの<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>に<ruby><rb>攻</rb><rt>せ</rt></ruby>め<ruby><rb>込</rb><rt>こ</rt></ruby>むには、<ruby><rb>舟</rb><rt>ふね</rt></ruby>で\\n<ruby><rb>渡</rb><rt>わた</rt></ruby>るしかないが、それでは<ruby><rb>手間</rb><rt>てま</rt></ruby>が\\nかかりすぎる。",
+        "zh_cn": "想要攻入那村落的话，\\n只能坐船过去，\\n但是那样太费事了。",
+        "zh_tw": "要想進攻那個村落，\\n只能搭船渡湖，\\n但那太費工夫了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0007",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "So this village is safe, then. Does that\\nmean what Euden told\\nus is wrong?",
+        "ja_jp": "じゃあ、あの<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>は<ruby><rb>安全</rb><rt>あんぜん</rt></ruby>ってこと？\\nユーディルからの<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>が\\nまちがってたの？",
+        "zh_cn": "这么说，那个村落是安全的？\\n尤蒂尔给的情报\\n搞错了吗？",
+        "zh_tw": "也就是說，那個村落很安全囉？\\n尤帝爾給的情報\\n搞錯了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0008",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "His information is accurate. The army\\nis just attempting to achieve their goal\\nwithout a direct assault.",
+        "ja_jp": "いや、そうではない。<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>軍</rb><rt>ぐん</rt></ruby>は\\n<ruby><rb>直接</rb><rt>ちょくせつ</rt></ruby><ruby><rb>攻</rb><rt>せ</rt></ruby>め<ruby><rb>入</rb><rt>い</rt></ruby>る<ruby><rb>以外</rb><rt>いがい</rt></ruby>のやり<ruby><rb>方</rb><rt>かた</rt></ruby>で、\\nあの<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>を<ruby><rb>落</rb><rt>お</rt></ruby>とそうとしている。",
+        "zh_cn": "不，并非如此。\\n帝国军不打算直接攻进去，\\n而是企图用别的方法攻下那村落。",
+        "zh_tw": "不，並非如此。\\n帝國軍打算以直接進攻之外的方法，\\n攻陷那個村落。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0009",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "How do you mean?",
+        "ja_jp": "<ruby><rb>別</rb><rt>べつ</rt></ruby>のやり<ruby><rb>方</rb><rt>かた</rt></ruby>？　それって……。",
+        "zh_cn": "别的方法？那是……",
+        "zh_tw": "別的方法？那是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0010",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Aah! What's that sound?\\nIt's coming from the lake!",
+        "ja_jp": "ひっ……この<ruby><rb>音</rb><rt>おと</rt></ruby>、なに……？\\n<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>からするの……。",
+        "zh_cn": "噫……这是，什么声音？\\n从湖里传来的……",
+        "zh_tw": "噫……這個聲音、是什麼……？\\n從湖中傳來的呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0011",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Oh no! Don't tell me...!",
+        "ja_jp": "あ、もしかして――！",
+        "zh_cn": "啊，难道是！",
+        "zh_tw": "啊，難道──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0012",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "Exactly. The army released fiends\\ninto the lake.",
+        "ja_jp": "ああ。<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>だ。<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>軍</rb><rt>ぐん</rt></ruby>の<ruby><rb>放</rb><rt>はな</rt></ruby>った<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>が\\nこの<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>に<ruby><rb>潜</rb><rt>ひそ</rt></ruby>んでいる。",
+        "zh_cn": "嗯，是魔兽。\\n帝国军放出的魔兽\\n潜伏在这片湖里。",
+        "zh_tw": "嗯，是魔獸。\\n帝國軍放出的魔獸就潛伏在這座湖裡。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0013",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "And with said danger looming, the\\nresidents are effectively under lockdown.\\nEventually, they'll run out of food.",
+        "ja_jp": "こんな<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>がいれば、<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>の<ruby><rb>人々</rb><rt>ひとびと</rt></ruby>は\\n<ruby><rb>家</rb><rt>いえ</rt></ruby>に<ruby><rb>引</rb><rt>ひ</rt></ruby>きこもることしかできない。\\nやがて、<ruby><rb>食糧</rb><rt>しょくりょう</rt></ruby>も<ruby><rb>尽</rb><rt>つ</rt></ruby>きる……。",
+        "zh_cn": "有这种魔兽在，\\n村落里的人们只能闭门不出，\\n最终弹尽粮绝……",
+        "zh_tw": "只要有這樣的魔獸存在，\\n村落的人們只能閉門不出。\\n最終，耗盡糧食……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0014",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "That's AWFUL!\\nWe've gotta do something for them!",
+        "ja_jp": "そんなふうにみんなを<ruby><rb>困</rb><rt>こま</rt></ruby>らせるなんて\\n<ruby><rb>許</rb><rt>ゆる</rt></ruby>せないの！　なんとかしないと！",
+        "zh_cn": "给大家造成这种困扰\\n简直不可原谅！\\n得做些什么才行！",
+        "zh_tw": "竟然像這樣讓大家傷腦筋，不能原諒！\\n得想想辦法才行！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0015",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "I agree. But first, we need a plan.",
+        "ja_jp": "とはいえ、どうするか……。",
+        "zh_cn": "话是这么说，\\n可要怎么办……",
+        "zh_tw": "話雖如此，但該怎麼做……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0016",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "...Oh! I think I've got one!",
+        "ja_jp": "……あっ！　リリィ、いいこと\\n<ruby><rb>思</rb><rt>おも</rt></ruby>いついたの！",
+        "zh_cn": "啊！莉莉想到了\\n一个好主意！",
+        "zh_tw": "……啊！莉莉想到好辦法了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0017",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Watch this!",
+        "ja_jp": "ヴィクター、<ruby><rb>見</rb><rt>み</rt></ruby>てて！",
+        "zh_cn": "维克托，你看好了！",
+        "zh_tw": "維克多，你看喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0018",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "Don't get too close to the lake.\\nIt's dangero—",
+        "ja_jp": "おい、<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>に<ruby><rb>近</rb><rt>ちか</rt></ruby>づくとあぶな――",
+        "zh_cn": "喂，靠近湖会很危险……",
+        "zh_tw": "喂，太靠近湖很危險──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0019",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "What are you doing?!",
+        "ja_jp": "……!?　こ、これは……！",
+        "zh_cn": "这、这是！",
+        "zh_tw": "……！？\\n這、這是……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0020",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "FREEZE!",
+        "ja_jp": "――<ruby><rb>凍</rb><rt>こお</rt></ruby>っちゃえ！",
+        "zh_cn": "冻结吧！",
+        "zh_tw": "──結凍吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0021",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "The lake is turning to ice!",
+        "ja_jp": "<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>が<ruby><rb>凍</rb><rt>こお</rt></ruby>っていく……!?",
+        "zh_cn": "湖面结冰了！？",
+        "zh_tw": "湖水逐漸凍結……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0022",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Hee hee! Now it's frozen solid.\\nNo fiend is getting out of that!",
+        "ja_jp": "ふふ！　カッチカチなの！\\nこれなら<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>は<ruby><rb>出</rb><rt>で</rt></ruby>てこれないの！",
+        "zh_cn": "呵呵！冻得结结实实的！\\n这下魔兽就出不来了！",
+        "zh_tw": "呵呵！冰得硬梆梆的呢！\\n這樣魔獸就出不來了呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0023",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "We can walk across it now, too.\\nSo let's go help everyone—\\nand give them their presents!",
+        "ja_jp": "それに<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>の<ruby><rb>上</rb><rt>うえ</rt></ruby>を<ruby><rb>歩</rb><rt>ある</rt></ruby>けるよ！\\n<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>を<ruby><rb>渡</rb><rt>わた</rt></ruby>って、みんなを<ruby><rb>助</rb><rt>たす</rt></ruby>け<ruby><rb>出</rb><rt>だ</rt></ruby>そう！\\nそれで、プレゼントをあげるの！",
+        "zh_cn": "而且还能在湖面上行走！\\n我们去湖对面救大家出来吧！\\n然后给他们发礼物！",
+        "zh_tw": "而且還能走在湖上喔！\\n走過湖面，去救大家吧！\\n然後，還要送他們禮物呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0024",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "Incredible...",
+        "ja_jp": "これがリリィの<ruby><rb>力</rb><rt>ちから</rt></ruby>……。",
+        "zh_cn": "这就是莉莉的力量……",
+        "zh_tw": "這就是莉莉的力量……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0025",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Hellooo? Victor?",
+        "ja_jp": "ヴィクター、はやくはやくー！",
+        "zh_cn": "维克托，快呀快呀！",
+        "zh_tw": "維克多，快點快點──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0026",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "Oh, er... Sorry.",
+        "ja_jp": "あ、ああ……。",
+        "zh_cn": "啊，好……",
+        "zh_tw": "啊、嗯……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0027",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Aaand we made it.",
+        "ja_jp": "<ruby><rb>着</rb><rt>つ</rt></ruby>いたのー！",
+        "zh_cn": "到啦！",
+        "zh_tw": "到了呢──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0028",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "But what's with all the commotion?",
+        "ja_jp": "って、あれ？　なんかザワザワしてる？",
+        "zh_cn": "咦？大家好像议论纷纷的？",
+        "zh_tw": "呃，咦？怎麼大家都在講悄悄話？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0029",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "The villagers just witnessed an\\nentire lake freeze before their eyes.\\nI would think their surprise only natural.",
+        "ja_jp": "<ruby><rb>目</rb><rt>め</rt></ruby>の<ruby><rb>前</rb><rt>まえ</rt></ruby>にあった<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>が<ruby><rb>急</rb><rt>きゅう</rt></ruby>に<ruby><rb>凍</rb><rt>こお</rt></ruby>ったんだ。\\n<ruby><rb>驚</rb><rt>おどろ</rt></ruby>くのも<ruby><rb>無理</rb><rt>むり</rt></ruby>はない。",
+        "zh_cn": "毕竟眼前的湖突然就结冰了，\\n难免会吃惊。",
+        "zh_tw": "畢竟眼前的湖突然結凍，\\n會驚訝也是理所當然。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0030",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Did I do something bad?",
+        "ja_jp": "リリィ、<ruby><rb>悪</rb><rt>わる</rt></ruby>いことしちゃったの……？",
+        "zh_cn": "莉莉，做了坏事吗……",
+        "zh_tw": "莉莉，做了壞事嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0031",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "No. On the contrary...",
+        "ja_jp": "いや、これは……。",
+        "zh_cn": "不，这是……",
+        "zh_tw": "不，這是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0032",
+      "book": ""
+    },
+    {
+      "icon": "120016_01",
+      "name": {
+        "en_us": "Child",
+        "ja_jp": "子ども",
+        "zh_cn": "儿童",
+        "zh_tw": "小孩"
+      },
+      "context": {
+        "en_us": "All she did was touch the water, and\\nBOOM: frozen! That was AWESOME!",
+        "ja_jp": "……わたし、<ruby><rb>見</rb><rt>み</rt></ruby>たよ！\\nあのおねえちゃんが<ruby><rb>水</rb><rt>みず</rt></ruby>にさわったら、\\n<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>が<ruby><rb>凍</rb><rt>こお</rt></ruby>っちゃったの！",
+        "zh_cn": "我看到了！\\n那个姐姐一碰到水，\\n湖就结冰了！",
+        "zh_tw": "……我看到了喔！\\n那位姐姐一碰到水，湖就結凍了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0033",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Man",
+        "ja_jp": "男性",
+        "zh_cn": "男子",
+        "zh_tw": "男性"
+      },
+      "context": {
+        "en_us": "With all those fiends, we couldn't even\\nleave our homes, let alone go fishing.\\nI thought we were going to starve.",
+        "ja_jp": "あの<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>が<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>に<ruby><rb>放</rb><rt>はな</rt></ruby>たれてから、\\n<ruby><rb>漁</rb><rt>りょう</rt></ruby>どころか、<ruby><rb>外</rb><rt>そと</rt></ruby>にも<ruby><rb>出</rb><rt>で</rt></ruby>られず……。\\n<ruby><rb>食糧</rb><rt>しょくりょう</rt></ruby>も<ruby><rb>底</rb><rt>そこ</rt></ruby>を<ruby><rb>尽</rb><rt>つ</rt></ruby>きそうでした。",
+        "zh_cn": "自从那头魔兽被放进湖里，\\n别说打渔了，连外出都不行……\\n粮食都要见底了。",
+        "zh_tw": "自從那魔獸被放入湖中，\\n何止捕魚，連外出都辦不到……\\n糧食差點就要見底了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0034",
+      "book": ""
+    },
+    {
+      "icon": "120021_01",
+      "name": {
+        "en_us": "Elder",
+        "ja_jp": "老人",
+        "zh_cn": "长老",
+        "zh_tw": "長老"
+      },
+      "context": {
+        "en_us": "You are the savior of this village,\\nyoung lady!",
+        "ja_jp": "あなた<ruby><rb>方</rb><rt>がた</rt></ruby>はこの<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>の<ruby><rb>救世主</rb><rt>きゅうせいしゅ</rt></ruby>じゃ！",
+        "zh_cn": "你们可是\\n这个村落的救世主啊！",
+        "zh_tw": "你們是這個村落的救世主啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0035",
+      "book": ""
+    },
+    {
+      "icon": "120017_01",
+      "name": {
+        "en_us": "Child",
+        "ja_jp": "子ども",
+        "zh_cn": "儿童",
+        "zh_tw": "小孩"
+      },
+      "context": {
+        "en_us": "Wait... Are you the real Saint Starfall?!",
+        "ja_jp": "ねえねえ、もしかして、\\n<ruby><rb>本物</rb><rt>ほんもの</rt></ruby>のサンメテオール!?",
+        "zh_cn": "那个，难道你们\\n是真正的圣星使者！？",
+        "zh_tw": "欸欸，\\n你們該不會是真正的聖夜使者吧！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0036",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Hee hee, yup! And now that\\nwe're here, Dragonyule is saved!",
+        "ja_jp": "ふふっ、そうだよ！　リリィたち、\\nサンメテオールとして、みんなの\\n<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>を<ruby><rb>救</rb><rt>すく</rt></ruby>いに<ruby><rb>来</rb><rt>き</rt></ruby>たの！",
+        "zh_cn": "呵呵，没错！\\n我们是作为圣星使者\\n来拯救大家的星龙祭的！",
+        "zh_tw": "呵呵，對啊！\\n莉莉和維克多身為聖夜使者，\\n來拯救大家的星龍祭了呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0037",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "We even brought presents for everyone!\\nHere you go!",
+        "ja_jp": "それでね、プレゼントもあるの！\\nはい、どうぞ！",
+        "zh_cn": "然后，还有礼物哦！\\n来，给你！",
+        "zh_tw": "然後啊，還有準備禮物呢！\\n來，給你！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0038",
+      "book": ""
+    },
+    {
+      "icon": "120017_01",
+      "name": {
+        "en_us": "Child",
+        "ja_jp": "子ども",
+        "zh_cn": "儿童",
+        "zh_tw": "小孩"
+      },
+      "context": {
+        "en_us": "WOOHOO! Thank you!",
+        "ja_jp": "うわあ……ありがとう！",
+        "zh_cn": "哇……谢谢！",
+        "zh_tw": "唔哇……謝謝妳！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0039",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "Mission complete, then.",
+        "ja_jp": "――<ruby><rb>任務完了</rb><rt>ミッションクリア</rt></ruby>、か。",
+        "zh_cn": "算是完成任务了、吧……",
+        "zh_tw": "──任務完成、嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0040",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "That night, at the village inn...",
+        "ja_jp": "その<ruby><rb>夜</rb><rt>よる</rt></ruby>\\n<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>の<ruby><rb>宿</rb><rt>やど</rt></ruby>にて",
+        "zh_cn": "当天晚上\\n村落旅店里",
+        "zh_tw": "當天夜晚\\n村落裡的下榻處"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "La la laaa!",
+        "ja_jp": "～～♪",
+        "zh_cn": "♪",
+        "zh_tw": "～～♪"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0041",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "It's past your bedtime, young lady.",
+        "ja_jp": "<ruby><rb>子供</rb><rt>こども</rt></ruby>は<ruby><rb>寝</rb><rt>ね</rt></ruby>る<ruby><rb>時間</rb><rt>じかん</rt></ruby>だぞ。",
+        "zh_cn": "小孩子该睡觉了。",
+        "zh_tw": "小孩子睡覺的時間到了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0042",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Oops! Sorry, Victor.",
+        "ja_jp": "わっ……ヴィクター。\\nごめんなさい……。",
+        "zh_cn": "哇……维克托。\\n抱歉……",
+        "zh_tw": "哇……維克多。\\n對不起……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0043",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "I'm just so excited and happy that\\nI can't get to sleep.",
+        "ja_jp": "……なんだかうれしくて、\\nドキドキして、うまく<ruby><rb>眠</rb><rt>ねむ</rt></ruby>れないの。",
+        "zh_cn": "莉莉太高兴了……\\n兴奋得睡不着。",
+        "zh_tw": "……莉莉覺得很高興，\\n心臟怦怦跳地睡不著。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0044",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "I have to say, you were mighty impressive\\ntoday. I couldn't have saved this village\\nwithout you.",
+        "ja_jp": "<ruby><rb>今日</rb><rt>きょう</rt></ruby>は<ruby><rb>大活躍</rb><rt>だいかつやく</rt></ruby>だったからな。\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>がいなかったら、この<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>は\\n<ruby><rb>救</rb><rt>すく</rt></ruby>えなかった。",
+        "zh_cn": "你今天可是大显身手啊。\\n要是没有你，\\n也救不了这个村落。",
+        "zh_tw": "畢竟妳今天很活躍啊。\\n要不是有妳在，\\n這個村落也無法獲救。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0045",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Aw! Thank you. I'm just glad they'll all\\nbe able to celebrate Dragonyule now.",
+        "ja_jp": "えへへ。ありがとう。\\nこれで、<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>のみんなは<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>を\\n<ruby><rb>迎</rb><rt>むか</rt></ruby>えられるの。よかったぁ……。",
+        "zh_cn": "诶嘿嘿，谢谢夸奖。\\n这下村落里的大家就能\\n过星龙祭了，太好了……",
+        "zh_tw": "耶嘿嘿，謝謝。\\n這樣村落的大家就能迎接星龍祭呢。\\n太好了～……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0046",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "You talk about Dragonyule more\\nthan anyone I've ever known.\\nYou must really like it.",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>は<ruby><rb>人一倍</rb><rt>ひといちばい</rt></ruby>、<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>にこだわるな。\\nそんなに<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>が<ruby><rb>好</rb><rt>す</rt></ruby>きなのか？",
+        "zh_cn": "你异常执着于星龙祭呢。\\n这么喜欢这节日吗？",
+        "zh_tw": "妳比別人都還要執著於星龍祭呢。\\n就那麼喜歡星龍祭嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0047",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "There's more to it than that.\\nIt's a super important time for my\\npeople, the crystalia.",
+        "ja_jp": "うーん、それだけじゃないの。\\n<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>は、リリィたち<ruby><rb>氷晶族</rb><rt>ひょうしょうぞく</rt></ruby>にとって\\nすっごく<ruby><rb>大事</rb><rt>だいじ</rt></ruby>なものなの。",
+        "zh_cn": "唔，不光是节日的问题。\\n星龙祭对我们冰晶族来说\\n可是非常重要的。",
+        "zh_tw": "唔～嗯，不只有那樣喔。\\n星龍祭對莉莉的冰晶族來說，\\n是非常重要的祭典呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0048",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "That name sounds familiar. If I'm not\\nmistaken, they're a tribe from a snowy\\nregion with the power to manipulate cold.",
+        "ja_jp": "<ruby><rb>氷晶族</rb><rt>ひょうしょうぞく</rt></ruby>……<ruby><rb>聞</rb><rt>き</rt></ruby>いたことがあるな。\\n<ruby><rb>雪</rb><rt>ゆき</rt></ruby>に<ruby><rb>閉</rb><rt>と</rt></ruby>ざされた<ruby><rb>里</rb><rt>さと</rt></ruby>に<ruby><rb>住</rb><rt>す</rt></ruby>み、<ruby><rb>冷気</rb><rt>れいき</rt></ruby>を\\n<ruby><rb>操</rb><rt>あやつ</rt></ruby>ることのできる<ruby><rb>一族</rb><rt>いちぞく</rt></ruby>だと。",
+        "zh_cn": "冰晶族……我听说过。\\n族人都住在大雪冰封的乡里，\\n能够操控寒气。",
+        "zh_tw": "冰晶族……我曾經聽過。\\n據說是住在被白雪冰封的村子裡，\\n並能操控寒氣的一族。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0049",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "That certainly explains how you were\\nable to freeze that lake...and why you\\nlack knowledge about the outside world.",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>が<ruby><rb>氷晶族</rb><rt>ひょうしょうぞく</rt></ruby>の<ruby><rb>一員</rb><rt>いちいん</rt></ruby>なら、<ruby><rb>外</rb><rt>そと</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>に\\n<ruby><rb>対</rb><rt>たい</rt></ruby>して<ruby><rb>無知</rb><rt>むち</rt></ruby>なことにも、<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>を<ruby><rb>凍</rb><rt>こお</rt></ruby>らせる\\nほどの<ruby><rb>力</rb><rt>ちから</rt></ruby>にも<ruby><rb>合点</rb><rt>がてん</rt></ruby>がいくか……。",
+        "zh_cn": "如果你是冰晶族的人，对外界\\n一无所知以及拥有让湖结冰的力量\\n这两点就都说得通了……",
+        "zh_tw": "如果妳真是冰晶族的一員，\\n那妳對外面的世界過於無知，\\n和擁有凍結湖水的力量就說得通了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0050",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "In my village, whenever Dragonyule comes\\naround, we hold the ice crystal ceremony.",
+        "ja_jp": "<ruby><rb>氷晶族</rb><rt>ひょうしょうぞく</rt></ruby>の<ruby><rb>里</rb><rt>さと</rt></ruby>ではね、<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>になると、\\n『<ruby><rb>氷晶</rb><rt>ひょうしょう</rt></ruby>の<ruby><rb>儀</rb><rt>ぎ</rt></ruby>』をするの。",
+        "zh_cn": "冰晶族之乡一到星龙祭，\\n就会举行“冰晶之仪式”。",
+        "zh_tw": "在冰晶族的村子裡啊，一到星龍祭，\\n就會舉辦「冰晶之儀」呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0051",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "Which is what, exactly?",
+        "ja_jp": "<ruby><rb>氷晶</rb><rt>ひょうしょう</rt></ruby>の<ruby><rb>儀</rb><rt>ぎ</rt></ruby>？",
+        "zh_cn": "冰晶之仪式？",
+        "zh_tw": "冰晶之儀？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0052",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "It's a special day when we pray\\nthat Dragonyule will be a happy\\ntime for everyone.",
+        "ja_jp": "みんなの<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>が<ruby><rb>幸</rb><rt>しあわ</rt></ruby>せであります\\nようにってお<ruby><rb>祈</rb><rt>いの</rt></ruby>りするの！",
+        "zh_cn": "就是祈祷大家的星龙祭\\n都能幸福地度过！",
+        "zh_tw": "祈禱大家的星龍祭都能充滿幸福呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0053",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "We make snow fall, too.\\nI've got so many memories of it!",
+        "ja_jp": "<ruby><rb>雪</rb><rt>ゆき</rt></ruby>を<ruby><rb>降</rb><rt>ふ</rt></ruby>らせたりして……。\\n<ruby><rb>大事</rb><rt>だいじ</rt></ruby>な<ruby><rb>思</rb><rt>おも</rt></ruby>い<ruby><rb>出</rb><rt>で</rt></ruby>……。",
+        "zh_cn": "还要让天空降雪……\\n都是珍贵的回忆……",
+        "zh_tw": "還會讓天空下雪……\\n是很重要的回憶……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0054",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "I might be away from my village right\\nnow, but that doesn't change who I am.",
+        "ja_jp": "リリィ、<ruby><rb>今</rb><rt>いま</rt></ruby>は<ruby><rb>里</rb><rt>さと</rt></ruby>を<ruby><rb>離</rb><rt>はな</rt></ruby>れてるけど……\\n<ruby><rb>氷晶族</rb><rt>ひょうしょうぞく</rt></ruby>の<ruby><rb>一員</rb><rt>いちいん</rt></ruby>だもん！",
+        "zh_cn": "莉莉虽然现在不在家乡……\\n但也是冰晶族的一员！",
+        "zh_tw": "雖然莉莉現在離開了村子……\\n但還是冰晶族的一員呀！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0055",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "That's why I can't forgive the empire for\\ntrying to ruin such a special holiday!",
+        "ja_jp": "だから、<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>を<ruby><rb>奪</rb><rt>うば</rt></ruby>おうとする\\n<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>軍</rb><rt>ぐん</rt></ruby>をゆるせないの！",
+        "zh_cn": "所以，莉莉决不允许\\n帝国军夺走星龙祭！",
+        "zh_tw": "所以絕對無法原諒想要\\n搶走星龍祭的帝國軍！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0056",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "I see now.",
+        "ja_jp": "そうか……。",
+        "zh_cn": "这样啊……",
+        "zh_tw": "這樣啊……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0057",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "(She might be young, but I see she's still\\nholding onto some pretty strong desires.)",
+        "ja_jp": "（<ruby><rb>幼</rb><rt>おさな</rt></ruby>いながらに、<ruby><rb>果</rb><rt>は</rt></ruby>たすべき<ruby><rb>使命</rb><rt>しめい</rt></ruby>を\\n　<ruby><rb>抱</rb><rt>かか</rt></ruby>えているというわけか）",
+        "zh_cn": "（她虽然还小，却背负着\\n应当完成的使命吗。）",
+        "zh_tw": "（雖然年幼，卻背負應盡的使命嗎。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0058",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "*yawn* All this talking's made me sleepy.",
+        "ja_jp": "ふああ……たくさんしゃべったら、\\nなんだか<ruby><rb>眠</rb><rt>ねむ</rt></ruby>くなってきちゃったの。",
+        "zh_cn": "呼啊……聊了好多，\\n感觉有点困了。",
+        "zh_tw": "呼啊啊……說了好多話，\\n莉莉覺得有點睏了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0059",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Nighty-night, Victor.",
+        "ja_jp": "おやすみなさい……。",
+        "zh_cn": "晚安……",
+        "zh_tw": "晚安……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0060",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "Don't fall asleep here!\\nYou need to be in bed!",
+        "ja_jp": "あ、こら。ここで<ruby><rb>寝</rb><rt>ね</rt></ruby>るな！\\nベッドに……！",
+        "zh_cn": "啊，喂。别在这里睡啊！\\n去床上……",
+        "zh_tw": "啊，喂。別睡在這裡！\\n到床上……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0061",
+      "book": ""
+    },
+    {
+      "icon": "110252_02",
+      "name": {
+        "en_us": "Lily",
+        "ja_jp": "リリィ",
+        "zh_cn": "莉莉",
+        "zh_tw": "莉莉"
+      },
+      "context": {
+        "en_us": "Zzz... Zzz...",
+        "ja_jp": "すー……すー……。",
+        "zh_cn": "呼……呼……",
+        "zh_tw": "呼……呼……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0062",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "Too late...",
+        "ja_jp": "まったく……。",
+        "zh_cn": "真是的……",
+        "zh_tw": "真是的……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0063",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "(Here I thought this whole excursion was\\nme being used as a glorified babysitter.)",
+        "ja_jp": "（<ruby><rb>子守</rb><rt>こもり</rt></ruby>を<ruby><rb>押</rb><rt>お</rt></ruby>し<ruby><rb>付</rb><rt>つ</rt></ruby>けられたとばかりに\\n　<ruby><rb>思</rb><rt>おも</rt></ruby>っていたが……）",
+        "zh_cn": "（本以为自己被强行要求\\n照顾一个孩子……）",
+        "zh_tw": "（原本只認為被強迫看顧小孩……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0064",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "(But there is nothing childish in Lily's\\nsense of duty to protect Dragonyule.)",
+        "ja_jp": "（<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>を<ruby><rb>守</rb><rt>まも</rt></ruby>ろうという\\n　<ruby><rb>使命感</rb><rt>しめいかん</rt></ruby>は<ruby><rb>一人前</rb><rt>いちにんまえ</rt></ruby>か）",
+        "zh_cn": "（但她想守护星龙祭的使命感\\n已经是一个成熟大人了。）",
+        "zh_tw": "（但她想守護星龍祭的使命感，\\n使她早已能獨當一面嗎。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0065",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "(I can't make light of her resolve.)",
+        "ja_jp": "（リリィなりに<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>って\\n　この<ruby><rb>任務</rb><rt>ミッション</rt></ruby>に<ruby><rb>挑</rb><rt>いど</rt></ruby>んでいたのだな）",
+        "zh_cn": "（她是抱着自己的决心\\n来面对这次任务的吧。）",
+        "zh_tw": "（莉莉是懷抱著覺悟\\n挑戰這次任務的吧。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0066",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "Victor",
+        "ja_jp": "ヴィクター",
+        "zh_cn": "维克托",
+        "zh_tw": "維克多"
+      },
+      "context": {
+        "en_us": "Sleep well, little Saint Starfall.",
+        "ja_jp": "……おやすみ、サンメテオール。\\nよい<ruby><rb>夢</rb><rt>ゆめ</rt></ruby>を。",
+        "zh_cn": "晚安，圣星使者……\\n祝你有个好梦。",
+        "zh_tw": "……晚安，聖夜使者。\\n祝妳有個好夢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0067",
+      "book": ""
+    },
+    {
+      "icon": "110307_03",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Meanwhile, near the lake...",
+        "ja_jp": "そのころ、<ruby><rb>湖周辺</rb><rt>みずうみしゅうへん</rt></ruby>では……",
+        "zh_cn": "与此同时，湖的附近……",
+        "zh_tw": "同時，湖周遭……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Imperial Soldier",
+        "ja_jp": "帝国兵",
+        "zh_cn": "帝国兵",
+        "zh_tw": "帝國兵"
+      },
+      "context": {
+        "en_us": "Commander! The lake really is frozen!",
+        "ja_jp": "<ruby><rb>隊長</rb><rt>たいちょう</rt></ruby>！　<ruby><rb>確</rb><rt>たし</rt></ruby>かに<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>が<ruby><rb>凍</rb><rt>こお</rt></ruby>っています！",
+        "zh_cn": "队长！湖确实结冰了！",
+        "zh_tw": "隊長！湖水確實結凍了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0068",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Commanding Officer",
+        "ja_jp": "隊長",
+        "zh_cn": "队长",
+        "zh_tw": "隊長"
+      },
+      "context": {
+        "en_us": "Excellent. Then our path is open.",
+        "ja_jp": "ふむ、これならば……！",
+        "zh_cn": "嗯，既然如此……",
+        "zh_tw": "唔嗯，既然如此……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22207_02_0069",
+      "book": ""
+    }
+  ]
 }

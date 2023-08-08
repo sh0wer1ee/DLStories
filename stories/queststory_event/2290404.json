@@ -1,977 +1,1836 @@
 {
-    "story_id": "",
-    "story_name": "龙血之主 圣城夺回计划",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "因圣城沦陷而灰心丧气的一行\\n重新制定了夺回圣城的计划。\\n计划起初看似一帆风顺，\\n却不想早已被阿尔贝琉斯识破，\\n王族一行纷纷溃败。"
-        ]
+  "title": {
+    "en_us": "The Blood That Binds    Reclaiming the Halidom",
+    "ja_jp": "ロード・オブ・ザ・ブラッド  聖城奪還作戦",
+    "zh_cn": "龙血之主  圣城夺回计划",
+    "zh_tw": "Lord of the Blood  聖城奪回作戰"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100001_09",
-                "100009_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_03"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "（气氛好沉重……好想跑路啊……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "唔……这里是……哪里？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "巴尔库斯哥哥！？太好了，\\n你终于醒了。你在撤退途中晕了过去，\\n我们都很担心你。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这里是圣城南边的树海都市罗布雷尔。\\n我们向这里的人\\n借来了民宅的一角。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "塞西娅、尤蒂尔，\\n还有你们……\\n现在是什么状况？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "状况……可谓非常糟糕。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "我们撤退了以后\\n便得到消息称圣城已经落入敌手。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_05"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "阿尔贝琉斯和被黑暗魔力\\n侵蚀的魔兽目前已经\\n占领了圣城并驻扎在那里。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "圣城是我们一切的起点……\\n如此轻易被夺去，\\n我军的士气遭受了严重的打击。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "彻底被摆了一道啊……\\n再加上圣城失守的挫败感，\\n难怪会有这战败的气氛。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我一定会夺回圣城……\\n今后的战斗中决不能没有圣城。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "而且圣城也不是普通的一座城，\\n那是大家内心的归宿。\\n必须要尽快夺回才行……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "哥哥……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_03"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "夺回圣城说得好听，\\n但你有什么具体计划吗？\\n不会只是脑袋一热随口说的吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这……现在虽然还没有具体方案，\\n但我们必须得拿出态度，\\n让大家知道我们还没有放弃……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_03"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "得了吧。我可不想陪你在没有\\n胜算的情况下去自杀。\\n赢不了的战斗又有什么意义！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "不，艾缪尔。\\n无论形势有多严峻，\\n我们都不能放弃战斗。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "失去精神支柱的民众很容易成为暴徒，\\n导致国家动乱。为了防止其发生，\\n我们必须要展现出抗争到底的态度。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "这是身为王族保护子民的责任……\\n更何况对手是我们的祖先，\\n同样有着龙之血的阿尔贝琉斯。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_03"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "唔……确实……\\n倒也没错……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "哎呀，我倒是觉得艾缪尔的\\n观点也非常正确呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "明知道会败还要上战场，\\n未免有失优雅风范。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_05"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "没错。优雅与否暂且不论，\\n无法胜利的战斗没有意义，\\n这一点艾缪尔说得很对。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "那哥哥和谢斯姐姐也认为\\n我们不应该再去挑战\\n那个阿尔贝琉斯吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_05"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "你别误会，我只是在说，\\n不能以失败为前提去战斗。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "也就是说，若是要战，\\n便要以胜利为前提……对吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_05"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "当然。此战不胜，我们便无路可走。\\n所以胜利是必须条件。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_05"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "还是说，\\n你们还想再败一场吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_05"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "哼，那就立刻开始作战会议吧。\\n让那故作从容的冒牌英雄\\n彻彻底底地败在我们脚下！",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "原来你在这里。\\n你这伤刚好就跑出来，\\n艾缪尔他很担心你。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "能让那个弟弟替我操这样的心，\\n我这个当哥哥的还真是不中用啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "你是对明天的作战\\n还有什么不安吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "我们来引诱敌军，\\n尤蒂尔则伺机打败阿尔贝琉斯……\\n确实是个不错的反击方案。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "至于具体行动，也已经根据\\n不同的地形和天气预备了各种方案……\\n没有什么好不安的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "那就是有什么不满了？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "你其实是想亲自去\\n打败阿尔贝琉斯对吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "“龙之血”、“英勇”和“人望”……\\n咱们那个弟弟已经皆数拥有。\\n我承认他是一名真正合格的王族。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "哦，你是说一国之主所需的\\n那“三种资质”啊。\\n我还记得儿时你曾经说过这些。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "当时的我为龙鳞病所折磨，\\n连房间都出不去。\\n所以特别羡慕你和其他的兄弟们。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "我曾诅咒那无法反抗的不公，也曾惧怕\\n那逐渐逼近的死亡。但仍为了那一丝希望，\\n在渴望的驱使下埋头于研究……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "正因为我与自己内心的渴望打了\\n很长时间的交道，所以我能明白……\\n你的内心压抑着一些东西。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "压抑……兄长你说得也许没错。\\n但即便如此，\\n现在也不是由我任性的时候。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "由尤蒂尔挑战阿尔贝琉斯一事\\n是你我以及其他所有人\\n都已经达成共识的选择。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "但你真正的想法是什么呢？\\n你一直都这样扼杀自己的意志，\\n被别人描绘的理想所束缚。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "你也是时候摆脱这理想的假面，\\n正视自己内心的渴望了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "我的确想要以一名武者的身份\\n与那一直以来自己视作理想与\\n目标的英雄一决胜负。只是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "兄长你又如何……\\n你不是也因为觉得当下的形势\\n是自己造成而难辞其咎吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "兄长你其实比我更想亲手\\n打败阿尔贝琉斯不是吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "你说得……也许没错。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "无论你说些什么，\\n事到如今我都没有反悔的想法。\\n这是身为王族应有的正确选择。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "巴尔库斯……\\n这样你真的甘心吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "SYS",
-            "context": "次日 圣城北方\\n莱昂尼多军临时据点·战斗指挥处",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120010_01"
-            ],
-            "speaker_name": "莱昂尼多军幕僚",
-            "context": "殿下，准备已经就绪。\\n请指示。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_05"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "嗯，我知道了……\\n圣城夺回计划现在开始！\\n起狼烟为号！",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120010_01"
-            ],
-            "speaker_name": "莱昂尼多军幕僚",
-            "context": "遵命！",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120127_01",
-                "120128_01",
-                "120010_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "圣城西方\\n谢斯军临时据点",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "狼烟起了啊。\\n女士优先，\\n我便先出手啦，哦呵呵呵！",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120162_01",
-                "120163_01",
-                "120010_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "圣城南方\\n巴尔库斯军临时据点",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "作战开始的信号来了。\\n这边准备也已万无一失……\\n全军听令！前进！",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120041_01",
-                "120008_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "圣城东方\\n艾缪尔军临时据点",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_03"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "第一波狼烟已经升起来了啊。\\n我们这边应该是下一波狼烟时\\n才行动……对吧，法尔艾斯哥哥？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "嗯，没错。\\n现在谢斯和巴尔库斯\\n应该正在向敌军进攻。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "待敌人出城迎战之时，\\n他们会逐渐后退，\\n将敌军主力引至圣城西面和南面。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_03"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "届时由我们和莱昂尼多哥哥\\n进攻兵力薄弱的北面和东面……\\n但计划真的能顺利实施吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "一切皆按计划发生\\n自然是不太可能，不过……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "噢，第二波狼烟已起。\\n看来目前计划进行得还是很顺利的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_03"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "好、好的。那……\\n全军听令！跟本大爷前进！",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "从四个方向同时进攻……\\n阿尔贝琉斯那样的人应该能猜到\\n这都是佯攻。只是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "正因如此，\\n他在分辨出这边的主力之前\\n应该不会贸然行动。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "接下来就该是\\n尤蒂尔的部队了……\\n有点让人担心啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "法尔艾斯",
-            "context": "艾缪尔指挥起来也没什么问题，\\n我就加入游击作战吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "看来已经开始佯攻了呢……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "嗯。进展顺利的话，\\n敌人此时应该已经\\n从圣城里出来了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100014_02"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "差不多是时候了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "这里是哥哥的……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "圣城内部\\n尤蒂尔的房间",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "伙伴们为了应对紧急情况而\\n挖的这些逃生用的地道……\\n没想到会被用来潜入啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "大家都进来吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "趁着圣城内部因佯攻而防守薄弱之时\\n击败城内指挥守军的阿尔贝琉斯……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "大家跟我来！",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120128_01",
-                "120127_01",
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "奇怪……\\n阿尔贝琉斯去哪儿了？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "城内没有阿尔贝琉斯的踪影……\\n而且连被黑暗魔力侵蚀的魔兽\\n和龙也没有出现……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "虽说有哥哥姐姐他们在城外佯攻，\\n但城内不可能没有任何防卫——",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "塞西娅，小心！",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "谢谢你，哥哥。\\n敌人竟然会偷袭我们……可这……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120128_01"
-            ],
-            "speaker_name": "阿尔贝里亚士兵",
-            "context": "被、被包围了！？\\n为什么会突然变成这样……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "对方埋伏已久……\\n是我们的计划被识破了！\\n那阿尔贝琉斯他——",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯复制体",
-            "context": "你以为我会在城内坐以待毙吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "你身为英雄还真是行事草率呢。\\n没想到竟然这么简单就被\\n我的佯攻引了出来。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯复制体",
-            "context": "抱歉啊，\\n守株待兔不是我的作风。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "既然如此，\\n那就多谢头脑简单的大英雄\\n把圣城拱手相让了哦。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯复制体",
-            "context": "呵，你这些拖延时间的手段毫无意义。\\n这种程度的佯攻，\\n我完全可以把你们各个击破再回圣城。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0089",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "你也太过度自信了吧……\\n不过，你看起来也不像是\\n只会逞口舌之快的人……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0090",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120008_01"
-            ],
-            "speaker_name": "巴尔库斯军士兵",
-            "context": "不、不好了！\\n谢斯大人和莱昂尼多大人战败，\\n各部队正在开始撤退！",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0091",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "你说什么！？他们两个怎么会……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0092",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120041_01"
-            ],
-            "speaker_name": "巴尔库斯军士兵",
-            "context": "艾缪尔大人率领的狄涅尔军\\n似乎也惨败在了敌人手下！\\n这样下去的话我们也……",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0093",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "就算被黑暗魔力侵蚀的魔兽和龙\\n再怎么厉害，也不可能在如此\\n短时间内如此改变战况。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0094",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "这……难道是！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0095",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "阿尔贝琉斯复制体",
-            "context": "你猜得没错。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0096",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "阿尔贝琉斯！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0097",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯复制体",
-            "context": "我想你们应该是想通过四面佯攻把兵力\\n引出圣城，然后趁机打败位于圣城之内\\n的我吧……可惜你们的计划落空了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0098",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯复制体",
-            "context": "想必你已经得到了其它三面\\n已被我攻破的消息。\\n现在就只剩下你了……你打算怎么办？",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0099",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "那还用说吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0100",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "我便在这里将你击败，\\n一雪前耻！接招吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22904_04_0101",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "The Halidom's fall deals a heavy blow to morale\\namong the siblings, but they regroup, formulate\\na plan, and begin the fight to reclaim it. The\\nstrategy succeeds until Alberius uses their own\\nplan against them, placing them in checkmate.",
+      "ja_jp": "<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>が<ruby><rb>陥落</rb><rt>かんらく</rt></ruby>してしまったことに<ruby><rb>意気消沈</rb><rt>いきしょうちん</rt></ruby>する\\n<ruby><rb>兄弟</rb><rt>きょうだい</rt></ruby>たち。<ruby><rb>再</rb><rt>ふたた</rt></ruby>び<ruby><rb>作戦</rb><rt>さくせん</rt></ruby>を<ruby><rb>練</rb><rt>ね</rt></ruby>り、<ruby><rb>聖城奪還</rb><rt>せいじょうだっかん</rt></ruby>に<ruby><rb>向</rb><rt>む</rt></ruby>け\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>いを<ruby><rb>挑</rb><rt>いど</rt></ruby>む。<ruby><rb>当初</rb><rt>とうしょ</rt></ruby>は<ruby><rb>順調</rb><rt>じゅんちょう</rt></ruby>に<ruby><rb>事</rb><rt>こと</rt></ruby>が<ruby><rb>運</rb><rt>はこ</rt></ruby>んでいる\\nかのように<ruby><rb>見</rb><rt>み</rt></ruby>えていたが、アルベリウスは\\n<ruby><rb>作戦</rb><rt>さくせん</rt></ruby>の<ruby><rb>裏</rb><rt>うら</rt></ruby>をかき、<ruby><rb>兄弟</rb><rt>きょうだい</rt></ruby>たちを<ruby><rb>追</rb><rt>お</rt></ruby>い<ruby><rb>詰</rb><rt>つ</rt></ruby>める。",
+      "zh_cn": "因圣城沦陷而灰心丧气的一行\\n重新制定了夺回圣城的计划。\\n计划起初看似一帆风顺，\\n却不想早已被阿尔贝琉斯识破，\\n王族一行纷纷溃败。",
+      "zh_tw": "因聖城淪陷而意志消沉的王家手足們，\\n再次擬定作戰，發起戰鬥挑戰奪回聖城。\\n最初作戰雖然看似順利，\\n但阿爾博流斯卻看穿他們的計畫，\\n並乘隙將眾手足逼入絕境。"
+    }
+  },
+  "prev": "2290403",
+  "next": "2290405",
+  "content": [
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "...",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0001",
+      "book": ""
+    },
+    {
+      "icon": "100017_03",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "(The mood in here is suffocating... I'd kill\\nto be anywhere else...)",
+        "ja_jp": "（<ruby><rb>空気</rb><rt>くうき</rt></ruby>が<ruby><rb>重</rb><rt>おも</rt></ruby>い……<ruby><rb>逃</rb><rt>に</rt></ruby>げ<ruby><rb>出</rb><rt>だ</rt></ruby>してぇ……）",
+        "zh_cn": "（气氛好沉重……好想跑路啊……）",
+        "zh_tw": "（氣氛好沉重……好想逃走啊……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0002",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "...nh? Where... Where are we?",
+        "ja_jp": "…………っ、ここは……どこだ？",
+        "zh_cn": "唔……这里是……哪里？",
+        "zh_tw": "…………唔、這裡是……哪裡？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0003",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "Valyx! Oh, thank goodness you're awake. I\\nwas worried when you lost consciousness\\nmid-retreat.",
+        "ja_jp": "ヴァルクスお<ruby><rb>兄様</rb><rt>にいさま</rt></ruby>!?　よかった、\\n<ruby><rb>目</rb><rt>め</rt></ruby>が<ruby><rb>覚</rb><rt>さ</rt></ruby>めたのですね。<ruby><rb>撤退</rb><rt>てったい</rt></ruby>の<ruby><rb>最中</rb><rt>さいちゅう</rt></ruby>に<ruby><rb>気</rb><rt>き</rt></ruby>を\\n<ruby><rb>失</rb><rt>うしな</rt></ruby>ってしまったので<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>してたんです。",
+        "zh_cn": "巴尔库斯哥哥！？太好了，\\n你终于醒了。你在撤退途中晕了过去，\\n我们都很担心你。",
+        "zh_tw": "范爾克斯哥哥大人！？太好了，\\n您醒過來了。您在撤退途中\\n失去意識，讓我相當擔心。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0004",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "This is the wooded city of Rovetelle, south\\nof the Halidom. They were kind enough to\\nlend us the use of a room.",
+        "ja_jp": "ここは<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>の<ruby><rb>南</rb><rt>みなみ</rt></ruby>にある<ruby><rb>樹海都市</rb><rt>じゅかいとし</rt></ruby>\\nロブレールだよ。<ruby><rb>無理</rb><rt>むり</rt></ruby>を<ruby><rb>言</rb><rt>い</rt></ruby>って\\n<ruby><rb>民家</rb><rt>みんか</rt></ruby>の<ruby><rb>一角</rb><rt>いっかく</rt></ruby>を<ruby><rb>貸</rb><rt>か</rt></ruby>してもらったんだ。",
+        "zh_cn": "这里是圣城南边的树海都市罗布雷尔。\\n我们向这里的人\\n借来了民宅的一角。",
+        "zh_tw": "這裡是位於聖城南方的\\n樹海都市羅布雷路喔。\\n我們拜託居民借給我們房子的一角。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0005",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "Zethia, Euden, any of\\nyou... What is the situation?",
+        "ja_jp": "ゼシア、ユーディル、\\nそれにお<ruby><rb>前</rb><rt>まえ</rt></ruby>たち……。\\n<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>は、どうなっている？",
+        "zh_cn": "塞西娅、尤蒂尔，\\n还有你们……\\n现在是什么状况？",
+        "zh_tw": "潔西雅、尤帝爾、\\n還有你們……\\n現在狀況、如何？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0006",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Worse than bad.",
+        "ja_jp": "<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>は<ruby><rb>最悪</rb><rt>さいあく</rt></ruby>……でしてよ。",
+        "zh_cn": "状况……可谓非常糟糕。",
+        "zh_tw": "現在狀況……非常糟糕喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0007",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "After we withdrew, we received word that\\nthe Halidom has fallen to the enemy.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>たちがあの<ruby><rb>場</rb><rt>ば</rt></ruby>から<ruby><rb>撤退</rb><rt>てったい</rt></ruby>した<ruby><rb>後</rb><rt>あと</rt></ruby>、\\n<ruby><rb>伝令</rb><rt>でんれい</rt></ruby>から<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>が<ruby><rb>敵</rb><rt>てき</rt></ruby>の<ruby><rb>手</rb><rt>て</rt></ruby>に<ruby><rb>落</rb><rt>お</rt></ruby>ちた\\nという<ruby><rb>報告</rb><rt>ほうこく</rt></ruby>が<ruby><rb>届</rb><rt>とど</rt></ruby>きました。",
+        "zh_cn": "我们撤退了以后\\n便得到消息称圣城已经落入敌手。",
+        "zh_tw": "我們從那裡撤退之後，\\n傳令便傳來聖城\\n已落入敵人手中的報告。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0008",
+      "book": ""
+    },
+    {
+      "icon": "100013_05",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Alberius and the black mana fiends have\\ntaken it for their own stronghold and\\nremain there now.",
+        "ja_jp": "アルベリウスと<ruby><rb>黒</rb><rt>くろ</rt></ruby>いマナの<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>たちは\\nそのまま<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>を<ruby><rb>占拠</rb><rt>せんきょ</rt></ruby>し、<ruby><rb>居座</rb><rt>いすわ</rt></ruby>っている。",
+        "zh_cn": "阿尔贝琉斯和被黑暗魔力\\n侵蚀的魔兽目前已经\\n占领了圣城并驻扎在那里。",
+        "zh_tw": "阿爾博流斯和被黑色瑪納侵蝕的魔獸們\\n就此占領聖城，駐紮在那裡。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0009",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "That was the cradle and crux of all our\\nefforts... Seeing it stolen away so easily\\nhas dealt a massive blow to morale.",
+        "ja_jp": "<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>はわたくしたちの<ruby><rb>活動</rb><rt>かつどう</rt></ruby>の<ruby><rb>起点</rb><rt>きてん</rt></ruby>……\\nそれがいとも<ruby><rb>容易</rb><rt>たやす</rt></ruby>く<ruby><rb>奪</rb><rt>うば</rt></ruby>われたとあって、\\n<ruby><rb>味方</rb><rt>みかた</rt></ruby>の<ruby><rb>士気</rb><rt>しき</rt></ruby>は<ruby><rb>著</rb><rt>いちじる</rt></ruby>しく<ruby><rb>低下</rb><rt>ていか</rt></ruby>していますわ。",
+        "zh_cn": "圣城是我们一切的起点……\\n如此轻易被夺去，\\n我军的士气遭受了严重的打击。",
+        "zh_tw": "聖城是我們行動的起點……\\n但卻被如此輕易地奪去，\\n我方士氣也因此受到明顯打擊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0010",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "It was a stark defeat... Small wonder the\\nprevailing mood is a mix of grief over the\\nHalidom and despair at our war prospects.",
+        "ja_jp": "<ruby><rb>見事</rb><rt>みごと</rt></ruby>にしてやられましたからね……\\n<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>を<ruby><rb>落</rb><rt>お</rt></ruby>とされた<ruby><rb>喪失感</rb><rt>そうしつかん</rt></ruby>も<ruby><rb>相</rb><rt>あい</rt></ruby>まって\\n<ruby><rb>敗戦</rb><rt>はいせん</rt></ruby>ムードが<ruby><rb>漂</rb><rt>ただよ</rt></ruby>うのも<ruby><rb>無理</rb><rt>むり</rt></ruby>ありません。",
+        "zh_cn": "彻底被摆了一道啊……\\n再加上圣城失守的挫败感，\\n难怪会有这战败的气氛。",
+        "zh_tw": "徹底被擺了一道呢……\\n再加上聖城被攻陷所帶來的挫敗感，\\n我方會瀰漫戰敗氛圍也是無可厚非。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0011",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "...I will reclaim the Halidom, whatever it\\ntakes. It's the cornerstone of any hopes of\\nvictory in this fight.",
+        "ja_jp": "…………<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>は<ruby><rb>必</rb><rt>かなら</rt></ruby>ずおれが<ruby><rb>奪還</rb><rt>だっかん</rt></ruby>する。\\nこれからの<ruby><rb>戦</rb><rt>たたか</rt></ruby>いに<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>は<ruby><rb>必要</rb><rt>ひつよう</rt></ruby><ruby><rb>不可欠</rb><rt>ふかけつ</rt></ruby>だ。",
+        "zh_cn": "我一定会夺回圣城……\\n今后的战斗中决不能没有圣城。",
+        "zh_tw": "…………我一定會奪回聖城。\\n今後的戰鬥聖城是不可或缺的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0012",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "That place is more than just a stronghold.\\nIt is the seat of hope and peace of mind for\\nall of us. We must have it back!",
+        "ja_jp": "それに<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>はただの<ruby><rb>城</rb><rt>しろ</rt></ruby>じゃない。\\nみんなの<ruby><rb>心</rb><rt>こころ</rt></ruby>の<ruby><rb>拠</rb><rt>よ</rt></ruby>り<ruby><rb>所</rb><rt>どころ</rt></ruby>でもあるんだ。\\n<ruby><rb>早</rb><rt>はや</rt></ruby>く<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>戻</rb><rt>もど</rt></ruby>さないと……！",
+        "zh_cn": "而且圣城也不是普通的一座城，\\n那是大家内心的归宿。\\n必须要尽快夺回才行……",
+        "zh_tw": "而且聖城並不是普通的一座城。\\n那裡也是大家的心靈依靠。\\n必須盡快奪回才行……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0013",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "Brother...",
+        "ja_jp": "<ruby><rb>兄</rb><rt>にい</rt></ruby>さま……。",
+        "zh_cn": "哥哥……",
+        "zh_tw": "哥哥大人……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0014",
+      "book": ""
+    },
+    {
+      "icon": "100017_03",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "That's all well and good to say, but HOW\\ndo you plan to take it? I trust you're not\\njust spouting promises without a plan?",
+        "ja_jp": "<ruby><rb>城</rb><rt>しろ</rt></ruby>を<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>戻</rb><rt>もど</rt></ruby>すのはいいけどよ、どうやる\\nつもりなんだ？　ろくに<ruby><rb>考</rb><rt>かんが</rt></ruby>えもなく<ruby><rb>勢</rb><rt>いきお</rt></ruby>い\\nだけで<ruby><rb>言</rb><rt>い</rt></ruby>ってるんじゃねえだろうな？",
+        "zh_cn": "夺回圣城说得好听，\\n但你有什么具体计划吗？\\n不会只是脑袋一热随口说的吧？",
+        "zh_tw": "說要奪回聖城是很好啦，\\n但你打算怎麼做？不會是什麼都沒想，\\n就憑著氣勢隨口說說的吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0015",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I...may not have a concrete plan just yet,\\nbut I still need to make it clear to everyone\\nthat I've not given up.",
+        "ja_jp": "それは……<ruby><rb>今</rb><rt>いま</rt></ruby>はまだ<ruby><rb>具体的</rb><rt>ぐたいてき</rt></ruby>な<ruby><rb>方策</rb><rt>ほうさく</rt></ruby>は\\nないけど、みんなにおれたちが<ruby><rb>諦</rb><rt>あきら</rt></ruby>めて\\nいないという<ruby><rb>姿勢</rb><rt>しせい</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>せないと……。",
+        "zh_cn": "这……现在虽然还没有具体方案，\\n但我们必须得拿出态度，\\n让大家知道我们还没有放弃……",
+        "zh_tw": "那是……雖然我現在還沒有\\n具體的策略，但我認為必須向大家\\n展現出我們沒有放棄的樣子……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0016",
+      "book": ""
+    },
+    {
+      "icon": "100017_03",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Oh, please. Just don't expect me to charge\\nheadlong to my death beside you. There's\\nno point in fighting unless you can win.",
+        "ja_jp": "んだよそりゃ。<ruby><rb>勝算</rb><rt>しょうさん</rt></ruby>もないのに<ruby><rb>特攻</rb><rt>とっこう</rt></ruby>して\\n<ruby><rb>心中</rb><rt>しんじゅう</rt></ruby>なんてごめんだぞ。\\n<ruby><rb>勝</rb><rt>か</rt></ruby>てなきゃ<ruby><rb>戦</rb><rt>たたか</rt></ruby>ったって<ruby><rb>意味</rb><rt>いみ</rt></ruby>ないだろ!?",
+        "zh_cn": "得了吧。我可不想陪你在没有\\n胜算的情况下去自杀。\\n赢不了的战斗又有什么意义！？",
+        "zh_tw": "什麼嘛。我可不會沒有一點勝算\\n就衝進去自殺。\\n贏不了的話戰鬥也沒有意義吧！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0017",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "Not true, Emile. Even if our odds are grim,\\nwe still must fight.",
+        "ja_jp": "いや、エミュール。\\nたとえ<ruby><rb>旗色</rb><rt>はたいろ</rt></ruby>が<ruby><rb>悪</rb><rt>わる</rt></ruby>かったとしても\\n<ruby><rb>我々</rb><rt>われわれ</rt></ruby>は<ruby><rb>戦</rb><rt>たたか</rt></ruby>わなくてはならん。",
+        "zh_cn": "不，艾缪尔。\\n无论形势有多严峻，\\n我们都不能放弃战斗。",
+        "zh_tw": "不，埃米爾。\\n即使戰況並不樂觀，我們仍必須戰鬥。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0018",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "A citizenry stripped of hope soon becomes\\ndesperate, and the kingdom will fall from\\nwithin. We must show them all is not lost.",
+        "ja_jp": "<ruby><rb>心</rb><rt>こころ</rt></ruby>の<ruby><rb>拠</rb><rt>よ</rt></ruby>り<ruby><rb>所</rb><rt>どころ</rt></ruby>を<ruby><rb>失</rb><rt>うしな</rt></ruby>った<ruby><rb>民</rb><rt>たみ</rt></ruby>は<ruby><rb>容易</rb><rt>たやす</rt></ruby>く<ruby><rb>暴徒</rb><rt>ぼうと</rt></ruby>と\\n<ruby><rb>化</rb><rt>か</rt></ruby>し、<ruby><rb>国</rb><rt>くに</rt></ruby>は<ruby><rb>荒</rb><rt>あ</rt></ruby>れる。それを<ruby><rb>防</rb><rt>ふせ</rt></ruby>ぐため、\\n<ruby><rb>我</rb><rt>われ</rt></ruby>らが<ruby><rb>戦</rb><rt>たたか</rt></ruby>う<ruby><rb>姿勢</rb><rt>しせい</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>せねばならぬのだ。",
+        "zh_cn": "失去精神支柱的民众很容易成为暴徒，\\n导致国家动乱。为了防止其发生，\\n我们必须要展现出抗争到底的态度。",
+        "zh_tw": "失去心靈依靠的人民容易化作暴徒，\\n導致國家動亂。為防患未然，\\n必須讓人民看見我們戰鬥的身姿。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0019",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "Such is our duty as royalty, to protect the\\npeople. All the more so if the threat comes\\nfrom one who shares our blood.",
+        "ja_jp": "それが<ruby><rb>民</rb><rt>たみ</rt></ruby>を<ruby><rb>守</rb><rt>まも</rt></ruby>る<ruby><rb>王族</rb><rt>おうぞく</rt></ruby>としての<ruby><rb>責務</rb><rt>せきむ</rt></ruby>……\\n<ruby><rb>何</rb><rt>なに</rt></ruby>より、<ruby><rb>相手</rb><rt>あいて</rt></ruby>が<ruby><rb>竜</rb><rt>りゅう</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>を<ruby><rb>継</rb><rt>つ</rt></ruby>ぐ<ruby><rb>我々</rb><rt>われわれ</rt></ruby>の<ruby><rb>祖先</rb><rt>そせん</rt></ruby>\\nアルベリウスだと<ruby><rb>言</rb><rt>い</rt></ruby>うのなら<ruby><rb>尚更</rb><rt>なおさら</rt></ruby>だ。",
+        "zh_cn": "这是身为王族保护子民的责任……\\n更何况对手是我们的祖先，\\n同样有着龙之血的阿尔贝琉斯。",
+        "zh_tw": "那便是作為守護人民的王族之責……\\n更何況，敵方是傳承龍之血的\\n祖先阿爾博流斯，就更應如此。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0020",
+      "book": ""
+    },
+    {
+      "icon": "100017_03",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Urgh. I suppose that's... That's fair, but...",
+        "ja_jp": "うぐっ……それは、そうなのかも……\\nしれないけどさ……。",
+        "zh_cn": "唔……确实……\\n倒也没错……",
+        "zh_tw": "唔咕……那可能，是那樣……\\n也說不定，但是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0021",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Oh? I feel the point Emile raises is\\nextremely reasonable.",
+        "ja_jp": "あら、わたくしはエミュールさんの\\n<ruby><rb>主張</rb><rt>しゅちょう</rt></ruby>も<ruby><rb>至極</rb><rt>しごく</rt></ruby><ruby><rb>真</rb><rt>ま</rt></ruby>っ<ruby><rb>当</rb><rt>とう</rt></ruby>だと<ruby><rb>思</rb><rt>おも</rt></ruby>いますわ。",
+        "zh_cn": "哎呀，我倒是觉得艾缪尔的\\n观点也非常正确呢。",
+        "zh_tw": "哎呀，我認為埃米爾的主張\\n也非常有道理呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0022",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Embarking on a lost fight lacks elegance.",
+        "ja_jp": "<ruby><rb>負</rb><rt>ま</rt></ruby>けるとわかっていて<ruby><rb>戦</rb><rt>たたか</rt></ruby>うなんて\\n<ruby><rb>優雅</rb><rt>ゆうが</rt></ruby>さに<ruby><rb>欠</rb><rt>か</rt></ruby>けていましてよ。",
+        "zh_cn": "明知道会败还要上战场，\\n未免有失优雅风范。",
+        "zh_tw": "明知終將敗北卻仍上戰場，\\n一點也不優雅從容。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0023",
+      "book": ""
+    },
+    {
+      "icon": "100013_05",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "I've little concern for elegance, but Emile\\nis correct to state that fighting a losing war\\nis meaningless.",
+        "ja_jp": "そうだな。<ruby><rb>優雅</rb><rt>ゆうが</rt></ruby>かどうかはともかく、\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>いは<ruby><rb>勝</rb><rt>か</rt></ruby>たなければ<ruby><rb>意味</rb><rt>いみ</rt></ruby>がないという\\nエミュールの<ruby><rb>言</rb><rt>い</rt></ruby>い<ruby><rb>分</rb><rt>ぶん</rt></ruby>はもっともだ。",
+        "zh_cn": "没错。优雅与否暂且不论，\\n无法胜利的战斗没有意义，\\n这一点艾缪尔说得很对。",
+        "zh_tw": "沒錯。先不論優雅與否，\\n「戰而不勝便毫無意義」，\\n埃米爾說的這點相當正確。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0024",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "So you and Chelle think we ought not fight\\nagainst that Alberius?",
+        "ja_jp": "じゃあ、<ruby><rb>兄</rb><rt>にい</rt></ruby>さんもシェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さんも、\\nあのアルベリウスとは<ruby><rb>戦</rb><rt>たたか</rt></ruby>うべきじゃ\\nないと<ruby><rb>思</rb><rt>おも</rt></ruby>っているのか？",
+        "zh_cn": "那哥哥和谢斯姐姐也认为\\n我们不应该再去挑战\\n那个阿尔贝琉斯吗？",
+        "zh_tw": "那麼，哥哥和謝斯姊姊\\n都認為我們不應該與\\n那個阿爾博流斯戰鬥是嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0025",
+      "book": ""
+    },
+    {
+      "icon": "100013_05",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Do not mistake me. I'm merely saying not\\nto fight with the intention of losing.",
+        "ja_jp": "<ruby><rb>勘違</rb><rt>かんちが</rt></ruby>いするな。<ruby><rb>俺</rb><rt>おれ</rt></ruby>は、<ruby><rb>負</rb><rt>ま</rt></ruby>けるつもりで\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>うのはやめろ、と<ruby><rb>言</rb><rt>い</rt></ruby>っているだけだ。",
+        "zh_cn": "你别误会，我只是在说，\\n不能以失败为前提去战斗。",
+        "zh_tw": "別搞錯了。我的意思是，\\n不要以戰敗為前提戰鬥。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0026",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "So if we're to fight, do it under the\\nassumption of victory?",
+        "ja_jp": "つまり、<ruby><rb>戦</rb><rt>たたか</rt></ruby>うのなら<ruby><rb>勝利</rb><rt>しょうり</rt></ruby>を<ruby><rb>前提</rb><rt>ぜんてい</rt></ruby>に<ruby><rb>戦</rb><rt>たたか</rt></ruby>え\\n……ということですね？",
+        "zh_cn": "也就是说，若是要战，\\n便要以胜利为前提……对吗？",
+        "zh_tw": "也就是說，既然要戰就應以\\n獲勝為前提戰鬥……是這個意思吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0027",
+      "book": ""
+    },
+    {
+      "icon": "100013_05",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Obviously. We win, or the future is lost.\\nFailure is unacceptable.",
+        "ja_jp": "<ruby><rb>当然</rb><rt>とうぜん</rt></ruby>だ、<ruby><rb>勝</rb><rt>か</rt></ruby>てなければ<ruby><rb>後</rb><rt>あと</rt></ruby>はない。\\nならば<ruby><rb>勝利</rb><rt>しょうり</rt></ruby>は<ruby><rb>絶対条件</rb><rt>ぜったいじょうけん</rt></ruby>だ。",
+        "zh_cn": "当然。此战不胜，我们便无路可走。\\n所以胜利是必须条件。",
+        "zh_tw": "當然，一旦戰敗便無後路。\\n所以獲勝是絕對條件。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0028",
+      "book": ""
+    },
+    {
+      "icon": "100013_05",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Or had you all intended to lose again?",
+        "ja_jp": "それとも、お<ruby><rb>前</rb><rt>まえ</rt></ruby>たちは\\nまた<ruby><rb>負</rb><rt>ま</rt></ruby>けるつもりでいるのか？",
+        "zh_cn": "还是说，\\n你们还想再败一场吗？",
+        "zh_tw": "還是說，\\n你們幾個仍打算繼續打敗仗？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0029",
+      "book": ""
+    },
+    {
+      "icon": "100013_05",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Hmph. Then let's begin formulating our\\nplan to grind that smug ersatz hero into\\nthe dirt beneath our boots.",
+        "ja_jp": "ふん、ならば<ruby><rb>早速</rb><rt>さっそく</rt></ruby><ruby><rb>作戦</rb><rt>さくせん</rt></ruby><ruby><rb>会議</rb><rt>かいぎ</rt></ruby>だ。\\nあの<ruby><rb>余裕</rb><rt>よゆう</rt></ruby>ぶった<ruby><rb>英雄</rb><rt>えいゆう</rt></ruby><ruby><rb>擬</rb><rt>もど</rt></ruby>きの<ruby><rb>鼻</rb><rt>はな</rt></ruby>っ<ruby><rb>柱</rb><rt>ぱしら</rt></ruby>を\\n<ruby><rb>完膚</rb><rt>かんぷ</rt></ruby>なきまでに<ruby><rb>圧</rb><rt>へ</rt></ruby>し<ruby><rb>折</rb><rt>お</rt></ruby>ってくれる！",
+        "zh_cn": "哼，那就立刻开始作战会议吧。\\n让那故作从容的冒牌英雄\\n彻彻底底地败在我们脚下！",
+        "zh_tw": "哼，那就立刻開始作戰會議。\\n我要徹底粉碎那個故作從容的\\n假英雄高傲的模樣！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0030",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "So you were here. Emile was worried.\\nYou've only just recovered.",
+        "ja_jp": "こんなところにいたのですね。\\n<ruby><rb>傷</rb><rt>きず</rt></ruby>が<ruby><rb>癒</rb><rt>い</rt></ruby>えたばかりなのに<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>なのか、\\nってエミュールが<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>してましたよ。",
+        "zh_cn": "原来你在这里。\\n你这伤刚好就跑出来，\\n艾缪尔他很担心你。",
+        "zh_tw": "你在這裡啊。\\n傷才剛好沒多久不要緊嗎，\\n埃米爾很擔心地在問喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0031",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "I'm in sorry shape indeed if I've a brother\\nlike him worrying for me.",
+        "ja_jp": "あの<ruby><rb>弟</rb><rt>おとうと</rt></ruby>にそのような<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>をさせて\\nしまうとは、<ruby><rb>兄</rb><rt>あに</rt></ruby>として<ruby><rb>不甲斐</rb><rt>ふがい</rt></ruby>ないな。",
+        "zh_cn": "能让那个弟弟替我操这样的心，\\n我这个当哥哥的还真是不中用啊。",
+        "zh_tw": "讓那個弟弟如此擔心，\\n我作為兄長實在太不成器了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0032",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "...Doubts about tomorrow's operation?",
+        "ja_jp": "……<ruby><rb>明日</rb><rt>あす</rt></ruby>の<ruby><rb>作戦</rb><rt>さくせん</rt></ruby>について\\n<ruby><rb>何</rb><rt>なに</rt></ruby>か<ruby><rb>不安</rb><rt>ふあん</rt></ruby>でもあるのですか？",
+        "zh_cn": "你是对明天的作战\\n还有什么不安吗？",
+        "zh_tw": "……對於明天的作戰\\n你是有哪裡感到不安嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0033",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "We draw the enemy's attention while\\nEuden strikes Alberius.\\nA poetic bit of revenge for the Halidom.",
+        "ja_jp": "<ruby><rb>我々</rb><rt>われわれ</rt></ruby>が<ruby><rb>敵</rb><rt>てき</rt></ruby><ruby><rb>軍勢</rb><rt>ぐんぜい</rt></ruby>を<ruby><rb>陽動</rb><rt>ようどう</rt></ruby>し、その<ruby><rb>隙</rb><rt>すき</rt></ruby>を<ruby><rb>突</rb><rt>つ</rt></ruby>いて\\nユーディルがアルベリウスを\\n<ruby><rb>討</rb><rt>う</rt></ruby>つ……<ruby><rb>意趣</rb><rt>いしゅ</rt></ruby><ruby><rb>返</rb><rt>がえ</rt></ruby>しとしても<ruby><rb>妥当</rb><rt>だとう</rt></ruby>です。",
+        "zh_cn": "我们来引诱敌军，\\n尤蒂尔则伺机打败阿尔贝琉斯……\\n确实是个不错的反击方案。",
+        "zh_tw": "由我們佯攻引誘敵軍，\\n尤帝爾再乘隙擊敗\\n阿爾博流斯……確實是不錯的反擊案。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0034",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "We've crafted contingencies for everything\\nfrom terrain to weather conditions down to\\nthe last detail. ...I have no doubts.",
+        "ja_jp": "<ruby><rb>細</rb><rt>こま</rt></ruby>かな<ruby><rb>動</rb><rt>うご</rt></ruby>きに<ruby><rb>関</rb><rt>かん</rt></ruby>しても、<ruby><rb>地形</rb><rt>ちけい</rt></ruby>や<ruby><rb>天候</rb><rt>てんこう</rt></ruby>は\\nもちろん<ruby><rb>様々</rb><rt>さまざま</rt></ruby>なケースを<ruby><rb>考慮</rb><rt>こうりょ</rt></ruby>して<ruby><rb>対策</rb><rt>たいさく</rt></ruby>を\\n<ruby><rb>講</rb><rt>こう</rt></ruby>じてある……<ruby><rb>不安</rb><rt>ふあん</rt></ruby>などありません。",
+        "zh_cn": "至于具体行动，也已经根据\\n不同的地形和天气预备了各种方案……\\n没有什么好不安的。",
+        "zh_tw": "而具體行動，也依據地形及天候等\\n各種不同狀況一一制定了\\n相對應的策略……並無不安之處。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0035",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "Dissatisfactions, then?",
+        "ja_jp": "ならば、<ruby><rb>不満</rb><rt>ふまん</rt></ruby>は？",
+        "zh_cn": "那就是有什么不满了？",
+        "zh_tw": "那麼是，不滿嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0036",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "...",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "Perhaps you wanted to be the one to face\\nAlberius?",
+        "ja_jp": "アルベリウスを<ruby><rb>討</rb><rt>う</rt></ruby>つ<ruby><rb>役割</rb><rt>やくわり</rt></ruby>、<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>は\\nあなたがやりたかったのでしょう？",
+        "zh_cn": "你其实是想亲自去\\n打败阿尔贝琉斯对吧？",
+        "zh_tw": "其實你更想要擔任，\\n擊敗阿爾博流斯的角色吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0038",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "I acknowledge our brother's skill... He has\\nthe blood, the strength, and the faith of\\nthe people. He's a true royal.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>はあの<ruby><rb>弟</rb><rt>おとうと</rt></ruby>のことを<ruby><rb>認</rb><rt>みと</rt></ruby>めています……\\nやつは『<ruby><rb>血</rb><rt>ち</rt></ruby>』と『<ruby><rb>武勇</rb><rt>ぶゆう</rt></ruby>』、そして\\n『<ruby><rb>人徳</rb><rt>じんとく</rt></ruby>』を<ruby><rb>備</rb><rt>そな</rt></ruby>えた<ruby><rb>真</rb><rt>しん</rt></ruby>に<ruby><rb>王族</rb><rt>おうぞく</rt></ruby>たる<ruby><rb>者</rb><rt>もの</rt></ruby>です。",
+        "zh_cn": "“龙之血”、“英勇”和“人望”……\\n咱们那个弟弟已经皆数拥有。\\n我承认他是一名真正合格的王族。",
+        "zh_tw": "我已認可了那個弟弟……\\n他是個「血」、「武勇」與\\n「仁德」兼具的真正王族。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0039",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "Ahh yes, the three qualifications for a king,\\nwas it? I recall you speaking of them when\\nwe were children.",
+        "ja_jp": "ああ、たしか<ruby><rb>国</rb><rt>くに</rt></ruby>を<ruby><rb>統</rb><rt>す</rt></ruby>べる<ruby><rb>者</rb><rt>もの</rt></ruby>が<ruby><rb>有</rb><rt>ゆう</rt></ruby>するべき\\n『3つの<ruby><rb>資格</rb><rt>しかく</rt></ruby>』でしたか。<ruby><rb>子供</rb><rt>こども</rt></ruby>の<ruby><rb>頃</rb><rt>ころ</rt></ruby>に\\nあなたが<ruby><rb>言</rb><rt>い</rt></ruby>っていたのを<ruby><rb>覚</rb><rt>おぼ</rt></ruby>えています。",
+        "zh_cn": "哦，你是说一国之主所需的\\n那“三种资质”啊。\\n我还记得儿时你曾经说过这些。",
+        "zh_tw": "啊啊，那是統御國家者\\n須擁有的「三項資格」對吧。\\n我記得小時侯曾聽你提起過。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0040",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "I was bedridden with wyrmscale back then.\\nYou and the others were my only link to\\nworld beyond my chamber door.",
+        "ja_jp": "あの<ruby><rb>頃</rb><rt>ころ</rt></ruby>の<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>竜鱗病</rb><rt>りゅうりんびょう</rt></ruby>の<ruby><rb>影響</rb><rt>えいきょう</rt></ruby>でろくに\\n<ruby><rb>部屋</rb><rt>へや</rt></ruby>から<ruby><rb>出</rb><rt>で</rt></ruby>ることもできず、あなたや\\n<ruby><rb>他</rb><rt>ほか</rt></ruby>の<ruby><rb>兄弟</rb><rt>きょうだい</rt></ruby>たちをよく<ruby><rb>羨</rb><rt>うらや</rt></ruby>んでいました。",
+        "zh_cn": "当时的我为龙鳞病所折磨，\\n连房间都出不去。\\n所以特别羡慕你和其他的兄弟们。",
+        "zh_tw": "當時的我受到龍鱗病影響\\n幾乎無法離開房間，\\n所以十分羨慕你和其他手足們。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0041",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "Days of cursing my fate, of fearing death's\\ncoming... But still I burned with a hunger\\nfor my research, to chase that faint hope.",
+        "ja_jp": "<ruby><rb>抗</rb><rt>あらが</rt></ruby>えぬ<ruby><rb>理不尽</rb><rt>りふじん</rt></ruby>を<ruby><rb>呪</rb><rt>のろ</rt></ruby>い、<ruby><rb>迫</rb><rt>せま</rt></ruby>る<ruby><rb>死</rb><rt>し</rt></ruby>に<ruby><rb>恐怖</rb><rt>きょうふ</rt></ruby>し、\\nそれでももしかしたらと<ruby><rb>内</rb><rt>うち</rt></ruby>から<ruby><rb>溢</rb><rt>あふ</rt></ruby>れる\\n<ruby><rb>渇望</rb><rt>かつぼう</rt></ruby>を<ruby><rb>糧</rb><rt>かて</rt></ruby>に、<ruby><rb>研究</rb><rt>けんきゅう</rt></ruby>に<ruby><rb>没頭</rb><rt>ぼっとう</rt></ruby>する<ruby><rb>日々</rb><rt>ひび</rt></ruby>……",
+        "zh_cn": "我曾诅咒那无法反抗的不公，也曾惧怕\\n那逐渐逼近的死亡。但仍为了那一丝希望，\\n在渴望的驱使下埋头于研究……",
+        "zh_tw": "我詛咒著無法抵抗的不公，懼怕著近在\\n眼前的死亡，但仍懷抱一絲希望，以滿溢\\n內心的渴望為糧，成天埋首研究……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0042",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "I've kept company with unrequited hunger\\ntoo long not to notice, brother. ...You're\\nbiting your tongue about something.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>長</rb><rt>なが</rt></ruby>いこと<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>内</rb><rt>うち</rt></ruby>にある<ruby><rb>渇望</rb><rt>かつぼう</rt></ruby>と\\n<ruby><rb>向</rb><rt>む</rt></ruby>き<ruby><rb>合</rb><rt>あ</rt></ruby>っていたから、わかるんですよ\\n……あなたは<ruby><rb>何</rb><rt>なに</rt></ruby>かを<ruby><rb>我慢</rb><rt>がまん</rt></ruby>していると。",
+        "zh_cn": "正因为我与自己内心的渴望打了\\n很长时间的交道，所以我能明白……\\n你的内心压抑着一些东西。",
+        "zh_tw": "正因為我長時間都面對著\\n自己內心的渴望，所以能明白喔……\\n你現在正壓抑著什麼。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0043",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "...Perhaps you're right. But this is not the\\ntime for selfishness.",
+        "ja_jp": "<ruby><rb>我慢</rb><rt>がまん</rt></ruby>、か……たしかに<ruby><rb>兄上</rb><rt>あにうえ</rt></ruby>の<ruby><rb>言</rb><rt>い</rt></ruby>う<ruby><rb>通</rb><rt>とお</rt></ruby>り\\nかもしれません。ですが、だとしても\\n<ruby><rb>今</rb><rt>いま</rt></ruby>は<ruby><rb>我</rb><rt>が</rt></ruby>を<ruby><rb>通</rb><rt>とお</rt></ruby>す<ruby><rb>場面</rb><rt>ばめん</rt></ruby>ではないでしょう。",
+        "zh_cn": "压抑……兄长你说得也许没错。\\n但即便如此，\\n现在也不是由我任性的时候。",
+        "zh_tw": "壓抑、嗎……或許真如王兄所言。\\n但是，儘管如此，\\n現在也並非我貫徹內心渴望的時候。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0044",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "Euden was assigned the\\ntask of fighting Alberius will my blessing,\\nand yours, and all the others'.",
+        "ja_jp": "ユーディルがアルベリウスと\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>う<ruby><rb>役</rb><rt>やく</rt></ruby>を<ruby><rb>務</rb><rt>つと</rt></ruby>めることは<ruby><rb>私</rb><rt>わたし</rt></ruby>も、<ruby><rb>兄上</rb><rt>あにうえ</rt></ruby>も、\\n<ruby><rb>皆</rb><rt>みな</rt></ruby>が<ruby><rb>納得</rb><rt>なっとく</rt></ruby>して<ruby><rb>決</rb><rt>き</rt></ruby>めたことのはずです。",
+        "zh_cn": "由尤蒂尔挑战阿尔贝琉斯一事\\n是你我以及其他所有人\\n都已经达成共识的选择。",
+        "zh_tw": "由尤帝爾擔任與\\n阿爾博流斯戰鬥的角色，是我、王兄、\\n以及其他手足皆同意的決定。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0045",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "Yes, but what are your true feelings? You\\nhave long silenced your own voice to be an\\ninstrument in achieving others' designs.",
+        "ja_jp": "ですが、あなたの<ruby><rb>本心</rb><rt>ほんしん</rt></ruby>はどうなのです？\\nあなたはずっとそうやって<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>意志</rb><rt>いし</rt></ruby>を\\n<ruby><rb>殺</rb><rt>ころ</rt></ruby>し、<ruby><rb>他人</rb><rt>たにん</rt></ruby>が<ruby><rb>描</rb><rt>えが</rt></ruby>く<ruby><rb>理想</rb><rt>りそう</rt></ruby>に<ruby><rb>囚</rb><rt>とら</rt></ruby>われてきた。",
+        "zh_cn": "但你真正的想法是什么呢？\\n你一直都这样扼杀自己的意志，\\n被别人描绘的理想所束缚。",
+        "zh_tw": "可是，你真正的想法是什麼呢？\\n你一直都像這樣將自己的意志抹滅，\\n受他人描繪的理想所禁錮。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0046",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "Might it not be time to turn your eye from\\nthe outward ideal you seek to uphold and\\nlook inward? What is it you hunger for?",
+        "ja_jp": "そろそろ、<ruby><rb>外側</rb><rt>そとがわ</rt></ruby>にある<ruby><rb>理想</rb><rt>りそう</rt></ruby>に<ruby><rb>囚</rb><rt>とら</rt></ruby>われず\\n<ruby><rb>己</rb><rt>おのれ</rt></ruby>の<ruby><rb>内側</rb><rt>うちがわ</rt></ruby>にある<ruby><rb>渇望</rb><rt>かつぼう</rt></ruby>にも<ruby><rb>目</rb><rt>め</rt></ruby>を<ruby><rb>向</rb><rt>む</rt></ruby>けては\\nどうですか？",
+        "zh_cn": "你也是时候摆脱这理想的假面，\\n正视自己内心的渴望了吧？",
+        "zh_tw": "差不多是時候，\\n該擺脫外在理想的束縛，\\n正視自己內心的渴望了吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0047",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "...I do wish to face the hero I admire and\\nseek to emulate. To fight an honorable\\nduel, one warrior against another.",
+        "ja_jp": "……<ruby><rb>理想</rb><rt>りそう</rt></ruby>と<ruby><rb>仰</rb><rt>あお</rt></ruby>ぎ<ruby><rb>目標</rb><rt>もくひょう</rt></ruby>としてきた<ruby><rb>英雄</rb><rt>えいゆう</rt></ruby>に\\nひとりの<ruby><rb>武人</rb><rt>ぶじん</rt></ruby>として<ruby><rb>正々堂々</rb><rt>せいせいどうどう</rt></ruby>と<ruby><rb>挑</rb><rt>いど</rt></ruby>みたい\\n<ruby><rb>気持</rb><rt>きも</rt></ruby>ちはたしかにあります。ですが……",
+        "zh_cn": "我的确想要以一名武者的身份\\n与那一直以来自己视作理想与\\n目标的英雄一决胜负。只是……",
+        "zh_tw": "……我確實想以一名習武之人的身分\\n與自己長期視為理想與目標的英雄\\n堂堂正正地一較高下。但……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0048",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "...But what about you? Do you still think\\nyourself the cause of all this?",
+        "ja_jp": "……ならば、<ruby><rb>兄上</rb><rt>あにうえ</rt></ruby>はどうなのですか。\\n<ruby><rb>兄上</rb><rt>あにうえ</rt></ruby>は、この<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>を<ruby><rb>作</rb><rt>つく</rt></ruby>った<ruby><rb>原因</rb><rt>げんいん</rt></ruby>が<ruby><rb>自分</rb><rt>じぶん</rt></ruby>に\\nあると<ruby><rb>考</rb><rt>かんが</rt></ruby>え<ruby><rb>責任</rb><rt>せきにん</rt></ruby>を<ruby><rb>感</rb><rt>かん</rt></ruby>じているのでは？",
+        "zh_cn": "兄长你又如何……\\n你不是也因为觉得当下的形势\\n是自己造成而难辞其咎吗？",
+        "zh_tw": "……那麼，王兄又是如何。\\n王兄不也認為自己是造成現狀的\\n始作俑者，而感到應肩負起責任嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0049",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "I expect your desire to stop Alberius is\\neven greater than mine. Am I mistaken?",
+        "ja_jp": "<ruby><rb>兄上</rb><rt>あにうえ</rt></ruby>のほうこそ、<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>は<ruby><rb>私以上</rb><rt>わたしいじょう</rt></ruby>に\\n<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>手</rb><rt>て</rt></ruby>でアルベリウスを<ruby><rb>討</rb><rt>う</rt></ruby>ちたいと\\n<ruby><rb>思</rb><rt>おも</rt></ruby>っているのではありませんか？",
+        "zh_cn": "兄长你其实比我更想亲手\\n打败阿尔贝琉斯不是吗？",
+        "zh_tw": "王兄內心真正的想法，\\n其實比我更想親自擊敗\\n阿爾博流斯不是嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0050",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "...I don't suppose you are.",
+        "ja_jp": "……それは、そうかもしれませんね。",
+        "zh_cn": "你说得……也许没错。",
+        "zh_tw": "……這麼說來，或許是那樣也說不定。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0051",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "Whatever you might say to me now, I have\\nno intention of objecting to the plan. This\\nis the correct choice, as the royal line.",
+        "ja_jp": "……<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>何</rb><rt>なに</rt></ruby>を<ruby><rb>言</rb><rt>い</rt></ruby>われようと、<ruby><rb>今</rb><rt>いま</rt></ruby>さら\\n<ruby><rb>異</rb><rt>い</rt></ruby>を<ruby><rb>唱</rb><rt>とな</rt></ruby>える<ruby><rb>気</rb><rt>き</rt></ruby>はありません。これが、\\n<ruby><rb>王族</rb><rt>おうぞく</rt></ruby>としての<ruby><rb>正</rb><rt>ただ</rt></ruby>しい<ruby><rb>選択</rb><rt>せんたく</rt></ruby>です。",
+        "zh_cn": "无论你说些什么，\\n事到如今我都没有反悔的想法。\\n这是身为王族应有的正确选择。",
+        "zh_tw": "……無論怎麼說，事已至此\\n我並不打算再提異議。這正是，\\n作為王族正確的選擇。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0052",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "Valyx... I only hope you're certain.",
+        "ja_jp": "ヴァルクス……\\nあなたは<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>にそれでいいのですか？",
+        "zh_cn": "巴尔库斯……\\n这样你真的甘心吗？",
+        "zh_tw": "范爾克斯……\\n你真的認為這樣就行了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0053",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "The next day, north of the Halidom\\nOperating base of Leonidas's army\\nCommand Center",
+        "ja_jp": "<ruby><rb>翌日</rb><rt>よくじつ</rt></ruby>　<ruby><rb>聖城北方</rb><rt>せいじょうほっぽう</rt></ruby>\\nレオニード<ruby><rb>軍</rb><rt>ぐん</rt></ruby><ruby><rb>臨時</rb><rt>りんじ</rt></ruby><ruby><rb>拠点</rb><rt>きょてん</rt></ruby>・<ruby><rb>戦闘指揮所</rb><rt>せんとうしきじょ</rt></ruby>",
+        "zh_cn": "次日 圣城北方\\n莱昂尼多军临时据点·战斗指挥处",
+        "zh_tw": "隔天　聖城北方\\n雷歐尼特軍臨時據點‧戰鬥指揮所"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120010_01",
+      "name": {
+        "en_us": "Leonidas's Army Staff Officer",
+        "ja_jp": "レオニード軍幕僚",
+        "zh_cn": "莱昂尼多军幕僚",
+        "zh_tw": "雷歐尼特軍幕僚"
+      },
+      "context": {
+        "en_us": "Final preparations are complete, my liege.\\nAwaiting orders, sir.",
+        "ja_jp": "<ruby><rb>閣下</rb><rt>かっか</rt></ruby>、<ruby><rb>手筈</rb><rt>てはず</rt></ruby>が<ruby><rb>整</rb><rt>ととの</rt></ruby>いました。\\n<ruby><rb>次</rb><rt>つぎ</rt></ruby>のご<ruby><rb>指示</rb><rt>しじ</rt></ruby>を。",
+        "zh_cn": "殿下，准备已经就绪。\\n请指示。",
+        "zh_tw": "閣下，準備皆已就緒。\\n請求下個指示。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0054",
+      "book": ""
+    },
+    {
+      "icon": "100013_05",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Good... Then the operation to retake the\\nHalidom shall commence! Send up the\\nstarting flare!",
+        "ja_jp": "ああ、わかった……。\\nこれより、<ruby><rb>聖城奪還作戦</rb><rt>せいじょうだっかんさくせん</rt></ruby>を<ruby><rb>開始</rb><rt>かいし</rt></ruby>する！\\n<ruby><rb>開戦</rb><rt>かいせん</rt></ruby>の<ruby><rb>狼煙</rb><rt>のろし</rt></ruby>を<ruby><rb>上</rb><rt>あ</rt></ruby>げろッ！",
+        "zh_cn": "嗯，我知道了……\\n圣城夺回计划现在开始！\\n起狼烟为号！",
+        "zh_tw": "啊啊，知道了……\\n我在此宣布，聖城奪回作戰正式開始！\\n升起開戰的狼煙！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0055",
+      "book": ""
+    },
+    {
+      "icon": "120010_01",
+      "name": {
+        "en_us": "Leonidas's Army Staff Officer",
+        "ja_jp": "レオニード軍幕僚",
+        "zh_cn": "莱昂尼多军幕僚",
+        "zh_tw": "雷歐尼特軍幕僚"
+      },
+      "context": {
+        "en_us": "At once, sir!",
+        "ja_jp": "はっ！　<ruby><rb>速</rb><rt>すみ</rt></ruby>やかに！",
+        "zh_cn": "遵命！",
+        "zh_tw": "是！馬上前去！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0056",
+      "book": ""
+    },
+    {
+      "icon": "120010_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "West of the Halidom\\nOperating base of Chelle's army",
+        "ja_jp": "<ruby><rb>聖城西方</rb><rt>せいじょうせいほう</rt></ruby>\\nシェス<ruby><rb>軍</rb><rt>ぐん</rt></ruby><ruby><rb>臨時</rb><rt>りんじ</rt></ruby><ruby><rb>拠点</rb><rt>きょてん</rt></ruby>",
+        "zh_cn": "圣城西方\\n谢斯军临时据点",
+        "zh_tw": "聖城西方\\n謝斯軍臨時據點"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "That's the flare. Look alive, people, it's\\nladies first! Ohh ho ho!",
+        "ja_jp": "<ruby><rb>狼煙</rb><rt>のろし</rt></ruby>が<ruby><rb>上</rb><rt>あ</rt></ruby>がりましたわね。\\nここはレディファーストで<ruby><rb>行</rb><rt>い</rt></ruby>かせて\\nいただきますわ！　おーっほっほっ！",
+        "zh_cn": "狼烟起了啊。\\n女士优先，\\n我便先出手啦，哦呵呵呵！",
+        "zh_tw": "狼煙升起了呢。\\n女士優先，我就先行出發了！\\n喔──呵、呵、呵！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0057",
+      "book": ""
+    },
+    {
+      "icon": "120010_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "South of the Halidom\\nOperating base of Valyx's army",
+        "ja_jp": "<ruby><rb>聖城南方</rb><rt>せいじょうなんぽう</rt></ruby>\\nヴァルクス<ruby><rb>軍</rb><rt>ぐん</rt></ruby><ruby><rb>臨時</rb><rt>りんじ</rt></ruby><ruby><rb>拠点</rb><rt>きょてん</rt></ruby>",
+        "zh_cn": "圣城南方\\n巴尔库斯军临时据点",
+        "zh_tw": "聖城南方\\n范爾克斯軍臨時據點"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "They've sent up the signal. Everything here\\nis ready to go... Move out, men!",
+        "ja_jp": "<ruby><rb>作戦</rb><rt>さくせん</rt></ruby><ruby><rb>開始</rb><rt>かいし</rt></ruby>の<ruby><rb>合図</rb><rt>あいず</rt></ruby>だな。\\nこちらも<ruby><rb>準備</rb><rt>じゅんび</rt></ruby>に<ruby><rb>抜</rb><rt>ぬ</rt></ruby>かりはない……\\n<ruby><rb>者</rb><rt>もの</rt></ruby>ども、かかれッ！",
+        "zh_cn": "作战开始的信号来了。\\n这边准备也已万无一失……\\n全军听令！前进！",
+        "zh_tw": "是作戰開始的信號。\\n我們亦準備萬全……\\n全軍聽令，給我上！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0058",
+      "book": ""
+    },
+    {
+      "icon": "120008_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "East of the Halidom\\nOperating base of Emile's army",
+        "ja_jp": "<ruby><rb>聖城東方</rb><rt>せいじょうとうほう</rt></ruby>\\nエミュール<ruby><rb>軍</rb><rt>ぐん</rt></ruby><ruby><rb>臨時</rb><rt>りんじ</rt></ruby><ruby><rb>拠点</rb><rt>きょてん</rt></ruby>",
+        "zh_cn": "圣城东方\\n艾缪尔军临时据点",
+        "zh_tw": "聖城東方\\n埃米爾軍臨時據點"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100017_03",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "The first flare has been fired. The plan is\\nfor us to move after the second. ...Right?\\nPhares?",
+        "ja_jp": "1<ruby><rb>発</rb><rt>ぱつ</rt></ruby><ruby><rb>目</rb><rt>め</rt></ruby>の<ruby><rb>狼煙</rb><rt>のろし</rt></ruby>が<ruby><rb>上</rb><rt>あ</rt></ruby>がったみたいだな。\\nたしか、オレたちが<ruby><rb>動</rb><rt>うご</rt></ruby>くのは<ruby><rb>次</rb><rt>つぎ</rt></ruby>の<ruby><rb>狼煙</rb><rt>のろし</rt></ruby>\\n……だったよね、ファルエス<ruby><rb>兄</rb><rt>にい</rt></ruby>さん？",
+        "zh_cn": "第一波狼烟已经升起来了啊。\\n我们这边应该是下一波狼烟时\\n才行动……对吧，法尔艾斯哥哥？",
+        "zh_tw": "第一道狼煙好像升起了耶。我記得，\\n我們是下一道狼煙升起的時候行動……\\n對不對啊，法魯艾斯哥哥？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0059",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "That's correct. Chelle and Valyx should be\\ncommencing their attack now.",
+        "ja_jp": "ええ、そうです。\\n<ruby><rb>今頃</rb><rt>いまごろ</rt></ruby>はシェスとヴァルクスが\\n<ruby><rb>敵</rb><rt>てき</rt></ruby>に<ruby><rb>攻撃</rb><rt>こうげき</rt></ruby>を<ruby><rb>仕掛</rb><rt>しか</rt></ruby>けている<ruby><rb>頃</rb><rt>ころ</rt></ruby>でしょう。",
+        "zh_cn": "嗯，没错。\\n现在谢斯和巴尔库斯\\n应该正在向敌军进攻。",
+        "zh_tw": "嗯，是的。\\n現在是由謝斯和范爾克斯\\n向敵人進攻吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0060",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "Once the enemy mobilizes to meet them,\\nthey'll begin falling back, drawing the\\nenemy to the Halidom's south and west.",
+        "ja_jp": "<ruby><rb>敵</rb><rt>てき</rt></ruby>が<ruby><rb>応戦</rb><rt>おうせん</rt></ruby>するために<ruby><rb>出撃</rb><rt>しゅつげき</rt></ruby>してきたら\\n<ruby><rb>今度</rb><rt>こんど</rt></ruby>は<ruby><rb>徐々</rb><rt>じょじょ</rt></ruby>に<ruby><rb>後退</rb><rt>こうたい</rt></ruby>し、<ruby><rb>敵</rb><rt>てき</rt></ruby>を<ruby><rb>引</rb><rt>ひ</rt></ruby>きつけ、\\n<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>の<ruby><rb>西</rb><rt>にし</rt></ruby>と<ruby><rb>南</rb><rt>みなみ</rt></ruby>に<ruby><rb>敵戦力</rb><rt>てきせんりょく</rt></ruby>を<ruby><rb>集中</rb><rt>しゅうちゅう</rt></ruby>させます。",
+        "zh_cn": "待敌人出城迎战之时，\\n他们会逐渐后退，\\n将敌军主力引至圣城西面和南面。",
+        "zh_tw": "等到敵軍為了應戰而出擊時\\n就慢慢向後退，誘導敵軍，\\n將敵方戰力集中到聖城的西方和南方。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0061",
+      "book": ""
+    },
+    {
+      "icon": "100017_03",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Then, once their defenses are stretched\\nthin, Leonidas and we strike from the east\\nand north. ...But will this really work?",
+        "ja_jp": "それで<ruby><rb>今度</rb><rt>こんど</rt></ruby>は、<ruby><rb>手薄</rb><rt>てうす</rt></ruby>になった<ruby><rb>北</rb><rt>きた</rt></ruby>と<ruby><rb>東</rb><rt>ひがし</rt></ruby>を\\nオレたちとレオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さんが<ruby><rb>攻</rb><rt>せ</rt></ruby>める。\\n……でも、そんなに<ruby><rb>上手</rb><rt>うま</rt></ruby>くいくのか？",
+        "zh_cn": "届时由我们和莱昂尼多哥哥\\n进攻兵力薄弱的北面和东面……\\n但计划真的能顺利实施吗？",
+        "zh_tw": "然後，就輪到我們和雷歐尼特哥哥\\n進攻防守變弱的北方和東方。\\n……可是，真的會那麼順利嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0062",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "Obviously we can't expect that everything\\nwill go exactly to plan, but—",
+        "ja_jp": "それはもちろん、<ruby><rb>何</rb><rt>なに</rt></ruby>もかもが<ruby><rb>想定</rb><rt>そうてい</rt></ruby><ruby><rb>通</rb><rt>どお</rt></ruby>り\\nとまでは<ruby><rb>行</rb><rt>い</rt></ruby>かないでしょうが――",
+        "zh_cn": "一切皆按计划发生\\n自然是不太可能，不过……",
+        "zh_tw": "當然，不可能所有事情\\n都按照計畫進行──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0063",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "Oh. There's the second flare. It would seem\\nthings are going to plan so far, at least.",
+        "ja_jp": "――おや、<ruby><rb>次</rb><rt>つぎ</rt></ruby>の<ruby><rb>狼煙</rb><rt>のろし</rt></ruby>が<ruby><rb>上</rb><rt>あ</rt></ruby>がりましたね。\\nどうやら、<ruby><rb>今</rb><rt>いま</rt></ruby>のところは<ruby><rb>想定</rb><rt>そうてい</rt></ruby><ruby><rb>通</rb><rt>どお</rt></ruby>りに\\n<ruby><rb>事</rb><rt>ごと</rt></ruby>が<ruby><rb>運</rb><rt>はこ</rt></ruby>んでいるみたいですよ。",
+        "zh_cn": "噢，第二波狼烟已起。\\n看来目前计划进行得还是很顺利的。",
+        "zh_tw": "──哎呀，下一道狼煙升起了呢。\\n看來，到目前為止\\n都是照計畫順利進行著喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0064",
+      "book": ""
+    },
+    {
+      "icon": "100017_03",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "R-right. In that case... Time to move out,\\nyou lot! All of you, fall in behind me!",
+        "ja_jp": "よ、よし。それじゃあ……\\n<ruby><rb>行</rb><rt>い</rt></ruby>くぞ、お<ruby><rb>前</rb><rt>まえ</rt></ruby>ら！　オレ<ruby><rb>様</rb><rt>さま</rt></ruby>に<ruby><rb>続</rb><rt>つづ</rt></ruby>けッ！",
+        "zh_cn": "好、好的。那……\\n全军听令！跟本大爷前进！",
+        "zh_tw": "好、好喔。那麼就……\\n走吧，你們這些傢伙！\\n跟著本大爺出發！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0065",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "A simultaneous strike from all directions...\\nAlberius will surely realize this is a feint.",
+        "ja_jp": "<ruby><rb>四方</rb><rt>しほう</rt></ruby>からの<ruby><rb>同時</rb><rt>どうじ</rt></ruby><ruby><rb>攻撃</rb><rt>こうげき</rt></ruby>……\\nアルベリウスならこれが<ruby><rb>陽動</rb><rt>ようどう</rt></ruby>であること\\nくらいは<ruby><rb>読</rb><rt>よ</rt></ruby>んでくるはず。ですが……",
+        "zh_cn": "从四个方向同时进攻……\\n阿尔贝琉斯那样的人应该能猜到\\n这都是佯攻。只是……",
+        "zh_tw": "從四方同時攻擊……\\n如果是阿爾博流斯應該能看穿\\n這是佯攻。但是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0066",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "But for that very reason, he should be\\nreluctant to make a move before he knows\\nwhere the real attack is coming from.",
+        "ja_jp": "だからこそ、こちらの<ruby><rb>主力</rb><rt>しゅりょく</rt></ruby>がわかるまで\\n<ruby><rb>軽率</rb><rt>けいそつ</rt></ruby>に<ruby><rb>動</rb><rt>うご</rt></ruby>くことはしないでしょう。",
+        "zh_cn": "正因如此，\\n他在分辨出这边的主力之前\\n应该不会贸然行动。",
+        "zh_tw": "正因為如此，在明白我們的主力\\n位於何處前，是不會輕易行動的吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0067",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "Next is Euden's unit,\\nbut... I'm a bit concerned.",
+        "ja_jp": "<ruby><rb>次</rb><rt>つぎ</rt></ruby>はユーディルの<ruby><rb>部隊</rb><rt>ぶたい</rt></ruby>ですが\\n……<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>気掛</rb><rt>きが</rt></ruby>かりですね。",
+        "zh_cn": "接下来就该是\\n尤蒂尔的部队了……\\n有点让人担心啊。",
+        "zh_tw": "接下來輪到\\n尤帝爾的部隊……\\n有點擔心呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0068",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Phares",
+        "ja_jp": "ファルエス",
+        "zh_cn": "法尔艾斯",
+        "zh_tw": "法魯艾斯"
+      },
+      "context": {
+        "en_us": "Emile is leading the troops well. I shall\\nhead out on an independent raid.",
+        "ja_jp": "エミュールも<ruby><rb>上手</rb><rt>うま</rt></ruby>く<ruby><rb>兵</rb><rt>へい</rt></ruby>を<ruby><rb>率</rb><rt>ひき</rt></ruby>いていますし\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>遊撃</rb><rt>ゆうげき</rt></ruby>に<ruby><rb>移</rb><rt>うつ</rt></ruby>らせていただきましょう。",
+        "zh_cn": "艾缪尔指挥起来也没什么问题，\\n我就加入游击作战吧。",
+        "zh_tw": "埃米爾也將軍隊率領得有聲有色，\\n我就先以游擊為主吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0069",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "It seems the fighting has begun.",
+        "ja_jp": "どうやら、<ruby><rb>戦</rb><rt>たたか</rt></ruby>いがはじまったみたい\\nですね……。",
+        "zh_cn": "看来已经开始佯攻了呢……",
+        "zh_tw": "看來戰鬥已經開始了呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0070",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Yes. If things are going to plan, his forces\\nshould have been drawn out of the\\nHalidom by now.",
+        "ja_jp": "ああ。<ruby><rb>作戦</rb><rt>さくせん</rt></ruby><ruby><rb>通</rb><rt>どお</rt></ruby>りに<ruby><rb>事</rb><rt>こと</rt></ruby>が<ruby><rb>運</rb><rt>はこ</rt></ruby>んでいれば<ruby><rb>今頃</rb><rt>いまごろ</rt></ruby>\\n<ruby><rb>敵</rb><rt>てき</rt></ruby>は<ruby><rb>聖城内</rb><rt>せいじょうない</rt></ruby>から<ruby><rb>出払</rb><rt>ではら</rt></ruby>っているはず……。",
+        "zh_cn": "嗯。进展顺利的话，\\n敌人此时应该已经\\n从圣城里出来了……",
+        "zh_tw": "嗯。如果按照計畫順利進行，\\n現在聖城裡的敵人應該都外出迎擊了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0071",
+      "book": ""
+    },
+    {
+      "icon": "100014_02",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "...It's time.",
+        "ja_jp": "……そろそろか。",
+        "zh_cn": "差不多是时候了……",
+        "zh_tw": "……差不多了吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0072",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "This is...your room?",
+        "ja_jp": "ここは、<ruby><rb>兄</rb><rt>にい</rt></ruby>さまの……？",
+        "zh_cn": "这里是哥哥的……",
+        "zh_tw": "這裡是，哥哥大人的……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0073",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Inside the Halidom\\nEuden's Chambers",
+        "ja_jp": "<ruby><rb>聖城内部</rb><rt>せいじょうないぶ</rt></ruby>\\nユーディルの<ruby><rb>部屋</rb><rt>へや</rt></ruby>",
+        "zh_cn": "圣城内部\\n尤蒂尔的房间",
+        "zh_tw": "聖城內部\\n尤帝爾的房間"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "A friend of mine dug these tunnels as a\\nmeans of escape in emergencies. ...I never\\nthought I'd be using them as a way IN.",
+        "ja_jp": "<ruby><rb>仲間</rb><rt>なかま</rt></ruby>が<ruby><rb>有事</rb><rt>ゆうじ</rt></ruby>の<ruby><rb>脱出口</rb><rt>だっしゅつこう</rt></ruby>として<ruby><rb>掘</rb><rt>ほ</rt></ruby>ってくれた\\nいくつもの<ruby><rb>抜</rb><rt>ぬ</rt></ruby>け<ruby><rb>穴</rb><rt>あな</rt></ruby>……まさか<ruby><rb>脱出</rb><rt>だっしゅつ</rt></ruby>でなく\\n<ruby><rb>侵入</rb><rt>しんにゅう</rt></ruby>の<ruby><rb>用途</rb><rt>ようと</rt></ruby>で<ruby><rb>使</rb><rt>つか</rt></ruby>うことになるとはね。",
+        "zh_cn": "伙伴们为了应对紧急情况而\\n挖的这些逃生用的地道……\\n没想到会被用来潜入啊。",
+        "zh_tw": "夥伴為了以防萬一挖了很多通道\\n當作逃生路線……但沒想到會有不是\\n為了逃生，而是為了侵入使用的一天。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0074",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Come in, everyone.",
+        "ja_jp": "みんな、<ruby><rb>入</rb><rt>はい</rt></ruby>って<ruby><rb>来</rb><rt>き</rt></ruby>てくれ。",
+        "zh_cn": "大家都进来吧。",
+        "zh_tw": "大家，進來吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0075",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Their numbers inside the castle should be\\nthin, but Alberius should still be here\\ntracking the status of the four fronts...",
+        "ja_jp": "<ruby><rb>陽動</rb><rt>ようどう</rt></ruby>で<ruby><rb>聖城内部</rb><rt>せいじょうないぶ</rt></ruby>が<ruby><rb>手薄</rb><rt>てうす</rt></ruby>になっている\\nこの<ruby><rb>隙</rb><rt>すき</rt></ruby>に、<ruby><rb>四方</rb><rt>しほう</rt></ruby>の<ruby><rb>戦況</rb><rt>せんきょう</rt></ruby>を<ruby><rb>把握</rb><rt>はあく</rt></ruby>するため\\n<ruby><rb>城</rb><rt>しろ</rt></ruby>に<ruby><rb>残</rb><rt>のこ</rt></ruby>っているアルベリウスを<ruby><rb>討</rb><rt>う</rt></ruby>つ……",
+        "zh_cn": "趁着圣城内部因佯攻而防守薄弱之时\\n击败城内指挥守军的阿尔贝琉斯……",
+        "zh_tw": "趁聖城內部的防守因佯攻變得薄弱時，\\n擊敗為了掌握四方戰況而待在城內的\\n阿爾博流斯……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0076",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "We'll take him out, here and now!",
+        "ja_jp": "みんな、おれについて<ruby><rb>来</rb><rt>き</rt></ruby>てくれ！",
+        "zh_cn": "大家跟我来！",
+        "zh_tw": "大家，跟著我上吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0077",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "...This is odd. Where is he?",
+        "ja_jp": "……おかしい。\\nアルベリウスはどこだ？",
+        "zh_cn": "奇怪……\\n阿尔贝琉斯去哪儿了？",
+        "zh_tw": "……奇怪。\\n阿爾博流斯在哪裡？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0078",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "Alberius isn't here. There's no sign of any\\nblack mana or fiends or dragons, either.",
+        "ja_jp": "……<ruby><rb>城内</rb><rt>じょうない</rt></ruby>にアルベリウスがいない。\\nそれに、<ruby><rb>黒</rb><rt>くろ</rt></ruby>いマナの<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>やドラゴンも\\nまったく<ruby><rb>見当</rb><rt>みあ</rt></ruby>たりません……。",
+        "zh_cn": "城内没有阿尔贝琉斯的踪影……\\n而且连被黑暗魔力侵蚀的魔兽\\n和龙也没有出现……",
+        "zh_tw": "……阿爾博流斯不在城裡。\\n而且，就連被黑色瑪納侵蝕的魔獸和\\n龍族也都不見蹤影……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0079",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "However successful our sibling's diversion,\\nthere's no way that not a single enemy\\nwould be left in—",
+        "ja_jp": "いくらお<ruby><rb>兄様</rb><rt>にいさま</rt></ruby>たちが<ruby><rb>陽動</rb><rt>ようどう</rt></ruby>してくれている\\nとは<ruby><rb>言</rb><rt>い</rt></ruby>え、<ruby><rb>聖城内部</rb><rt>せいじょうないぶ</rt></ruby>に<ruby><rb>敵</rb><rt>てき</rt></ruby>が1<ruby><rb>体</rb><rt>たい</rt></ruby>も<ruby><rb>残</rb><rt>のこ</rt></ruby>って\\nいないなんてことは――",
+        "zh_cn": "虽说有哥哥姐姐他们在城外佯攻，\\n但城内不可能没有任何防卫——",
+        "zh_tw": "就算哥哥大人他們的佯攻再成功，\\n聖城內部也不可能連一名敵人\\n都沒有留守──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0080",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Zethia, look out!",
+        "ja_jp": "ゼシア、<ruby><rb>危</rb><rt>あぶ</rt></ruby>ないっ！",
+        "zh_cn": "塞西娅，小心！",
+        "zh_tw": "潔西雅，危險！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0081",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "Thank you, Euden. A\\nsurprise attack? This is—",
+        "ja_jp": "ありがとうございます、<ruby><rb>兄</rb><rt>にい</rt></ruby>さま。\\n<ruby><rb>敵</rb><rt>てき</rt></ruby>の<ruby><rb>不意打</rb><rt>ふいう</rt></ruby>ち……でも、これって……！",
+        "zh_cn": "谢谢你，哥哥。\\n敌人竟然会偷袭我们……可这……",
+        "zh_tw": "非常感謝，哥哥大人。\\n敵人的突擊……但是，這……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0082",
+      "book": ""
+    },
+    {
+      "icon": "120128_01",
+      "name": {
+        "en_us": "Alberian Soldier",
+        "ja_jp": "アルベリア兵",
+        "zh_cn": "阿尔贝里亚士兵",
+        "zh_tw": "阿爾貝利亞士兵"
+      },
+      "context": {
+        "en_us": "We're surrounded?! But how did they react\\nthis quickly?",
+        "ja_jp": "か、<ruby><rb>囲</rb><rt>かこ</rt></ruby>まれた!?\\nどうして<ruby><rb>突然</rb><rt>とつぜん</rt></ruby>、こんな……！",
+        "zh_cn": "被、被包围了！？\\n为什么会突然变成这样……",
+        "zh_tw": "被、被包圍了！？\\n為什麼突然，變這樣……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0083",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "An ambush... They read our strategy! Then\\nAlberius is—",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>ち<ruby><rb>伏</rb><rt>ぶ</rt></ruby>せ……<ruby><rb>作戦</rb><rt>さくせん</rt></ruby>が<ruby><rb>読</rb><rt>よ</rt></ruby>まれていたのか！\\nだとしたら、アルベリウスは――",
+        "zh_cn": "对方埋伏已久……\\n是我们的计划被识破了！\\n那阿尔贝琉斯他——",
+        "zh_tw": "埋伏……我們的作戰被看穿了嗎！\\n如果真是這樣的話，阿爾博流斯──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0084",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Replica of Alberius",
+        "ja_jp": "アルベリウス・コピー",
+        "zh_cn": "阿尔贝琉斯复制体",
+        "zh_tw": "阿爾博流斯‧複製體"
+      },
+      "context": {
+        "en_us": "Did you think to find me just sitting about\\nthe castle?",
+        "ja_jp": "――おれが<ruby><rb>城</rb><rt>しろ</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>で<ruby><rb>黙</rb><rt>だま</rt></ruby>って<ruby><rb>待</rb><rt>ま</rt></ruby>っている\\nとでも<ruby><rb>思</rb><rt>おも</rt></ruby>ったのか？",
+        "zh_cn": "你以为我会在城内坐以待毙吗？",
+        "zh_tw": "──以為我會乖乖地在城裡等嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0085",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Awfully impatient for a storied hero, aren't\\nyou? I didn't think you would take such\\nobvious bait.",
+        "ja_jp": "<ruby><rb>英雄</rb><rt>えいゆう</rt></ruby>ともあろう<ruby><rb>人</rb><rt>ひと</rt></ruby>が<ruby><rb>意外</rb><rt>いがい</rt></ruby>とお<ruby><rb>尻</rb><rt>しり</rt></ruby>が<ruby><rb>軽</rb><rt>かる</rt></ruby>いの\\nですね。こんな<ruby><rb>陽動</rb><rt>ようどう</rt></ruby>にノコノコと<ruby><rb>乗</rb><rt>の</rt></ruby>って\\nくるなんて<ruby><rb>思</rb><rt>おも</rt></ruby>いませんでしたわ。",
+        "zh_cn": "你身为英雄还真是行事草率呢。\\n没想到竟然这么简单就被\\n我的佯攻引了出来。",
+        "zh_tw": "你作為英雄意外地沉不住氣呢。\\n沒想到竟然會因為這樣的佯攻\\n而被引誘出城。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0086",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Replica of Alberius",
+        "ja_jp": "アルベリウス・コピー",
+        "zh_cn": "阿尔贝琉斯复制体",
+        "zh_tw": "阿爾博流斯‧複製體"
+      },
+      "context": {
+        "en_us": "Sorry, but waiting around was never my\\nstyle.",
+        "ja_jp": "<ruby><rb>悪</rb><rt>わる</rt></ruby>いな。<ruby><rb>待</rb><rt>ま</rt></ruby>ち<ruby><rb>構</rb><rt>かま</rt></ruby>えるってのは\\n<ruby><rb>趣味</rb><rt>しゅみ</rt></ruby>じゃないんだ。",
+        "zh_cn": "抱歉啊，\\n守株待兔不是我的作风。",
+        "zh_tw": "不好意思啊。\\n我不太喜歡等待。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0087",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "In that case, we shall gladly take the\\nHalidom back from you. I'd have thought a\\nhero would be a bit smarter?",
+        "ja_jp": "そういうことでしたら<ruby><rb>遠慮</rb><rt>えんりょ</rt></ruby>なく<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>は\\n<ruby><rb>奪還</rb><rt>だっかん</rt></ruby>させていただきますわよ。\\n<ruby><rb>考</rb><rt>かんが</rt></ruby>えなしの<ruby><rb>英雄様</rb><rt>えいゆうさま</rt></ruby>？",
+        "zh_cn": "既然如此，\\n那就多谢头脑简单的大英雄\\n把圣城拱手相让了哦。",
+        "zh_tw": "如果是這樣的話，\\n我們就不客氣地奪回聖城囉。\\n有勇無謀的英雄大人？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0088",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Replica of Alberius",
+        "ja_jp": "アルベリウス・コピー",
+        "zh_cn": "阿尔贝琉斯复制体",
+        "zh_tw": "阿爾博流斯‧複製體"
+      },
+      "context": {
+        "en_us": "Hah. If you hope to provoke me and buy\\ntime, I'll disappoint you. I can handle you\\nlot and make it back with time to spare.",
+        "ja_jp": "ふっ。おれを<ruby><rb>挑発</rb><rt>ちょうはつ</rt></ruby>して<ruby><rb>時間</rb><rt>じかん</rt></ruby>を<ruby><rb>稼</rb><rt>かせ</rt></ruby>ごうと\\nしても<ruby><rb>無駄</rb><rt>むだ</rt></ruby>だ。この<ruby><rb>程度</rb><rt>ていど</rt></ruby>の<ruby><rb>陽動</rb><rt>ようどう</rt></ruby>、すべて\\n<ruby><rb>叩</rb><rt>たた</rt></ruby>いてからでも<ruby><rb>対処</rb><rt>たいしょ</rt></ruby>は<ruby><rb>十分</rb><rt>じゅうぶん</rt></ruby><ruby><rb>間</rb><rt>ま</rt></ruby>に<ruby><rb>合</rb><rt>あ</rt></ruby>う。",
+        "zh_cn": "呵，你这些拖延时间的手段毫无意义。\\n这种程度的佯攻，\\n我完全可以把你们各个击破再回圣城。",
+        "zh_tw": "呵。挑釁我來爭取時間是沒用的。\\n這種程度的佯攻，我全部逐一擊破後\\n再回去應付也綽綽有餘。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0089",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "...You flatter yourself. But I know you're\\nnot just idle talk!",
+        "ja_jp": "……<ruby><rb>自信過剰</rb><rt>じしんかじょう</rt></ruby>ですこと。\\nけれど、<ruby><rb>口</rb><rt>くち</rt></ruby>だけというわけでは\\nなさそうですわね……！",
+        "zh_cn": "你也太过度自信了吧……\\n不过，你看起来也不像是\\n只会逞口舌之快的人……",
+        "zh_tw": "……你對自己太過自信了。\\n但是，看來並不只是\\n嘴上說說而已呢……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0090",
+      "book": ""
+    },
+    {
+      "icon": "120008_01",
+      "name": {
+        "en_us": "Valyx's Army Soldier",
+        "ja_jp": "ヴァルクス軍兵",
+        "zh_cn": "巴尔库斯军士兵",
+        "zh_tw": "范爾克斯軍士兵"
+      },
+      "context": {
+        "en_us": "B-bad news, sir! Lady Chelle and Leonidas\\nare routed! Their forces are retreating!",
+        "ja_jp": "た、<ruby><rb>大変</rb><rt>たいへん</rt></ruby>です！\\nシェス<ruby><rb>様</rb><rt>さま</rt></ruby>とレオニード<ruby><rb>様</rb><rt>さま</rt></ruby>が<ruby><rb>敗退</rb><rt>はいたい</rt></ruby>、\\n<ruby><rb>各</rb><rt>かく</rt></ruby><ruby><rb>部隊</rb><rt>ぶたい</rt></ruby>は<ruby><rb>撤退</rb><rt>てったい</rt></ruby>を<ruby><rb>開始</rb><rt>かいし</rt></ruby>しています！",
+        "zh_cn": "不、不好了！\\n谢斯大人和莱昂尼多大人战败，\\n各部队正在开始撤退！",
+        "zh_tw": "不、不好了！\\n謝斯大人和雷歐尼特大人戰敗，\\n各部隊都開始撤退了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0091",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "What?! Both of them are already...",
+        "ja_jp": "なんだと!?　あのふたりが……！",
+        "zh_cn": "你说什么！？他们两个怎么会……",
+        "zh_tw": "你說什麼！？那兩位……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0092",
+      "book": ""
+    },
+    {
+      "icon": "120041_01",
+      "name": {
+        "en_us": "Valyx's Army Soldier",
+        "ja_jp": "ヴァルクス軍兵",
+        "zh_cn": "巴尔库斯军士兵",
+        "zh_tw": "范爾克斯軍士兵"
+      },
+      "context": {
+        "en_us": "And the Dyrenell Army under Emperor\\nEmile is all but wiped out! At this rate, our\\nown forces will soon fall!",
+        "ja_jp": "エミュール<ruby><rb>様</rb><rt>さま</rt></ruby><ruby><rb>率</rb><rt>ひき</rt></ruby>いるディアネル<ruby><rb>軍</rb><rt>ぐん</rt></ruby>も\\n<ruby><rb>敵</rb><rt>てき</rt></ruby>の<ruby><rb>手</rb><rt>て</rt></ruby>により<ruby><rb>壊滅</rb><rt>かいめつ</rt></ruby>した<ruby><rb>模様</rb><rt>もよう</rt></ruby>！\\nこのままでは<ruby><rb>我々</rb><rt>われわれ</rt></ruby>も……！",
+        "zh_cn": "艾缪尔大人率领的狄涅尔军\\n似乎也惨败在了敌人手下！\\n这样下去的话我们也……",
+        "zh_tw": "埃米爾大人率領的狄亞內魯軍\\n似乎也遭到敵軍擊潰！\\n這樣下去我們也會……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0093",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "Black mana-frenzied fiends and dragons\\nare formidable, but it shouldn't be possible\\nfor them to change the tides so quickly.",
+        "ja_jp": "いくら<ruby><rb>黒</rb><rt>くろ</rt></ruby>いマナの<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>やドラゴンが\\n<ruby><rb>強力</rb><rt>きょうりょく</rt></ruby>だとしても、ここまで<ruby><rb>急</rb><rt>きゅう</rt></ruby>に<ruby><rb>戦況</rb><rt>せんきょう</rt></ruby>が\\n<ruby><rb>一変</rb><rt>いっぺん</rt></ruby>するのは<ruby><rb>異常</rb><rt>いじょう</rt></ruby><ruby><rb>事態</rb><rt>じたい</rt></ruby>だ。",
+        "zh_cn": "就算被黑暗魔力侵蚀的魔兽和龙\\n再怎么厉害，也不可能在如此\\n短时间内如此改变战况。",
+        "zh_tw": "儘管被黑色瑪納侵蝕的魔獸和龍族\\n再強大，如此突然的戰況變化\\n實屬異常事態。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0094",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "Unless...?!",
+        "ja_jp": "これは、まさか……!?",
+        "zh_cn": "这……难道是！？",
+        "zh_tw": "這、莫非是……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0095",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Replica of Alberius",
+        "ja_jp": "アルベリウス・コピー",
+        "zh_cn": "阿尔贝琉斯复制体",
+        "zh_tw": "阿爾博流斯‧複製體"
+      },
+      "context": {
+        "en_us": "I'm afraid so.",
+        "ja_jp": "ああ、そのまさかさ。",
+        "zh_cn": "你猜得没错。",
+        "zh_tw": "沒錯，就是你猜的那樣。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0096",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "Alberius?!",
+        "ja_jp": "アルベリウス!?",
+        "zh_cn": "阿尔贝琉斯！？",
+        "zh_tw": "阿爾博流斯！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0097",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Replica of Alberius",
+        "ja_jp": "アルベリウス・コピー",
+        "zh_cn": "阿尔贝琉斯复制体",
+        "zh_tw": "阿爾博流斯‧複製體"
+      },
+      "context": {
+        "en_us": "Draw my forces out in each direction, then\\nstrike me at the Halidom, was that it? I'm\\nafraid your little plan missed the mark.",
+        "ja_jp": "おおかた、<ruby><rb>四方</rb><rt>しほう</rt></ruby>へ<ruby><rb>敵</rb><rt>てき</rt></ruby>を<ruby><rb>陽動</rb><rt>ようどう</rt></ruby>している<ruby><rb>内</rb><rt>うち</rt></ruby>に\\n<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>にいるおれを<ruby><rb>討</rb><rt>う</rt></ruby>ち<ruby><rb>取</rb><rt>と</rt></ruby>ろう、って<ruby><rb>作戦</rb><rt>さくせん</rt></ruby>\\nだったんだろうが……<ruby><rb>当</rb><rt>あ</rt></ruby>てが<ruby><rb>外</rb><rt>はず</rt></ruby>れたな。",
+        "zh_cn": "我想你们应该是想通过四面佯攻把兵力\\n引出圣城，然后趁机打败位于圣城之内\\n的我吧……可惜你们的计划落空了。",
+        "zh_tw": "你們大概是打算利用從四方進行佯攻\\n引開敵軍注意，再乘機擊敗位於\\n聖城的我……可惜計畫泡湯了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0098",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Replica of Alberius",
+        "ja_jp": "アルベリウス・コピー",
+        "zh_cn": "阿尔贝琉斯复制体",
+        "zh_tw": "阿爾博流斯‧複製體"
+      },
+      "context": {
+        "en_us": "I expect you've already heard, but I've\\ncrushed the other three. It's just you now.\\n...What's your move?",
+        "ja_jp": "もう<ruby><rb>聞</rb><rt>き</rt></ruby>いていると<ruby><rb>思</rb><rt>おも</rt></ruby>うが、<ruby><rb>他</rb><rt>ほか</rt></ruby>の<ruby><rb>三方</rb><rt>さんぽう</rt></ruby>は\\nすでに<ruby><rb>壊滅</rb><rt>かいめつ</rt></ruby>させた。<ruby><rb>残</rb><rt>のこ</rt></ruby>すはお<ruby><rb>前</rb><rt>まえ</rt></ruby>だけだ。\\n……さあ、どうする？",
+        "zh_cn": "想必你已经得到了其它三面\\n已被我攻破的消息。\\n现在就只剩下你了……你打算怎么办？",
+        "zh_tw": "你應該也已經聽說了，其他三方\\n都已經被我擊潰。就只剩下你了。\\n……好，你要怎麼辦？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0099",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "You need to ask?",
+        "ja_jp": "<ruby><rb>言</rb><rt>い</rt></ruby>わずもがな……！",
+        "zh_cn": "那还用说吗！",
+        "zh_tw": "不必多言……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0100",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "I stand indomitable... I will avenge the\\nhumiliation you dealt me! STAND READY,\\nSIR!",
+        "ja_jp": "<ruby><rb>百折不撓</rb><rt>ひゃくせつふとう</rt></ruby>……<ruby><rb>先</rb><rt>さき</rt></ruby>の<ruby><rb>屈辱</rb><rt>くつじょく</rt></ruby>、ここで\\n<ruby><rb>晴</rb><rt>は</rt></ruby>らさせてもらう！　<ruby><rb>行</rb><rt>い</rt></ruby>くぞ!!",
+        "zh_cn": "我便在这里将你击败，\\n一雪前耻！接招吧！",
+        "zh_tw": "百折不撓……先前的屈辱，\\n就讓我在此償還！接招吧！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22904_04_0101",
+      "book": ""
+    }
+  ]
 }

@@ -1,607 +1,1156 @@
 {
-    "story_id": "",
-    "story_name": "防卫战～挚言纵横为何人～ 两封密函",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "被任命为外交使节的约亚希姆\\n和诺艾尔为了得到“铳”而到访\\n绚烂都市香榭利亚与谢斯进行谈判。\\n然而，和巴尔特国联手的帝国军\\n却突然出现，向约亚希姆他们发起攻击。"
-        ]
+  "title": {
+    "en_us": "Northern Negotiators    Two Secret Missives",
+    "ja_jp": "防衛戦～交わす言葉は誰がために～  2通の密書",
+    "zh_cn": "防卫战～挚言纵横为何人～  两封密函",
+    "zh_tw": "防衛戰～交織的話語是為誰～  兩封密信"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [],
-            "speaker_name": "SYS",
-            "context": "某一天的圣城",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [],
-            "speaker_name": "？？？",
-            "context": "（蹑手蹑脚）……",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110353_01"
-            ],
-            "speaker_name": "科丝蒂",
-            "context": "唔……是诺艾尔吗？\\n我猜你差不多该来了。\\n是总司令部的命令书吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110340_01"
-            ],
-            "speaker_name": "诺艾尔",
-            "context": "是、是的。其中一封……是。\\n不过……还有一封。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110353_01"
-            ],
-            "speaker_name": "科丝蒂",
-            "context": "两封？让我看看。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110353_01"
-            ],
-            "speaker_name": "科丝蒂",
-            "context": "原来如此……",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_01"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "科姐，什么情况？\\n怎么一脸厌恶透顶的表情。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110353_01"
-            ],
-            "speaker_name": "科丝蒂",
-            "context": "两封内容差不多。\\n一封是总司令部寄来的……\\n另一封来自利比诺夫。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_01"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "利比诺夫……是在策划\\n如何摘除祖国毒瘤的\\n“那位大人”吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_01"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "同一时间不同的人寄来内容\\n相同的密函……我有不好的预感，\\n麻烦的事又要发生了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110353_01"
-            ],
-            "speaker_name": "科丝蒂",
-            "context": "哼，直觉挺准嘛。\\n事不宜迟……约亚希姆、诺艾尔，\\n我有命令要下达给你们两个。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110340_01"
-            ],
-            "speaker_name": "诺艾尔",
-            "context": "包、包括……我吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110353_01"
-            ],
-            "speaker_name": "科丝蒂",
-            "context": "对，是你们两个。\\n虽然有点超出传令的工作内容，\\n但你一定能办到。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110340_01"
-            ],
-            "speaker_name": "诺艾尔",
-            "context": "怎么会，我除了传令以外的工作……\\n不、不对……我连传令都还没……\\n做到……完美……",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110353_01"
-            ],
-            "speaker_name": "科丝蒂",
-            "context": "不要妄自菲薄，诺艾尔。\\n我看上的不是你的功绩，\\n而是你克己诚挚的态度。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110353_01"
-            ],
-            "speaker_name": "科丝蒂",
-            "context": "期待你们两个的表现。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_02"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "这期待也太高了吧……",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "所以你就来找\\n尤蒂尔了？",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_02"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "与统治绚烂都市香榭利亚的公主谈判，\\n确保她复原的古代兵器“铳”的\\n进口路线——",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_02"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "这种事对我和诺艾尔来说\\n负担太重了。尤蒂尔\\n就是我们的救命稻草。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110340_02"
-            ],
-            "speaker_name": "诺艾尔",
-            "context": "（点头）……",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "就算你们拜托我，\\n我除了把你们引见给谢斯姐姐\\n也做不了什么。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_02"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "没关系，那之后就是\\n我们斯威尼特拉的事了……\\n这一点我心里还是有数的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110340_02"
-            ],
-            "speaker_name": "诺艾尔",
-            "context": "（点头）……",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110340_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "哎呀，既然心里有数，\\n是不是应该事先让\\n与谈判无关的人士退下呢？",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "谢斯姐姐……\\n也对，要是会妨碍你们谈判，\\n我还是在外面等你们谈完吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_02"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "不，我希望尤蒂尔\\n你们能作为我方和公主的\\n共同熟人，一同在场。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_02"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "拉上没有利害关系的第三方\\n是保证谈判顺利进行的铁则。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_01"
-            ],
-            "speaker_name": "谢斯",
-            "context": "呵呵呵。原来如此，有点道理。\\n不过这对现在的你们来说\\n也没什么太大的意义。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110340_02"
-            ],
-            "speaker_name": "诺艾尔",
-            "context": "这是……什么意思？",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_01"
-            ],
-            "speaker_name": "谢斯",
-            "context": "我的意思是，\\n现在还没开始谈判呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_01"
-            ],
-            "speaker_name": "谢斯",
-            "context": "卖关子也没什么意义，\\n我就直说了吧……\\n巴尔特国也表示要进行谈判。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_02"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "你说什么！？巴尔特可是我们\\n斯威尼特拉的敌对国家啊！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_01"
-            ],
-            "speaker_name": "谢斯",
-            "context": "你们两国现在似乎处于停战状态。\\n他们应该是想趁这期间尽可能地\\n增强自己军队的战斗力吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_01"
-            ],
-            "speaker_name": "谢斯",
-            "context": "巴尔特那边的要求简单来说\\n就是想让香榭利亚提供铳……\\n你们的要求应该也差不多吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110340_02"
-            ],
-            "speaker_name": "诺艾尔",
-            "context": "巴、巴尔特……已经……\\n和香榭利亚、谈妥了？",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_01"
-            ],
-            "speaker_name": "谢斯",
-            "context": "结论下得太早了吧？\\n我可一句都没说\\n和巴尔特达成了协议。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_01"
-            ],
-            "speaker_name": "谢斯",
-            "context": "我已经严正拒绝了巴尔特那边。\\n因为我现在还不打算\\n把铳出口给其它国家。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110340_02"
-            ],
-            "speaker_name": "诺艾尔",
-            "context": "也就是说，\\n包括我们……在内吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_01"
-            ],
-            "speaker_name": "谢斯",
-            "context": "是的。不过作为我方来说，\\n确实想找一个在北格拉斯迪亚\\n大陆活动的契机……",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_01"
-            ],
-            "speaker_name": "谢斯",
-            "context": "话虽如此，\\n我的铳也不是可以\\n轻易拿出来示人的筹码。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_01"
-            ],
-            "speaker_name": "谢斯",
-            "context": "要让我交出来的话，\\n得是我信得过的人才行。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_02"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "信得过……吗。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120156_01",
-                "120156_02",
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "不、不好了！帝国那帮家伙\\n正朝这边进军！",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "帝国？这种时候\\n为什么会跑来香榭利亚！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "这就不知道了，\\n不过来的那帮人里好像\\n还混着一些帝国以外的家伙。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120156_01"
-            ],
-            "speaker_name": "斯威尼特拉军士兵1",
-            "context": "从军旗和装束看，\\n应该是巴尔特国\\n反对停战的那一派人！",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_01"
-            ],
-            "speaker_name": "谢斯",
-            "context": "因为我拒绝提供铳，\\n这就来强取豪夺了吗。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "但如果是这样，\\n为什么连帝国也一起？",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_01"
-            ],
-            "speaker_name": "谢斯",
-            "context": "恐怕是被巴尔特国那边的\\n花言巧语给骗了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_01"
-            ],
-            "speaker_name": "谢斯",
-            "context": "他们大概会声称，\\n我不提供他们铳是因为\\n暗中和新阿尔贝里亚联手了吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "帝国会这么轻易就上当吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_01"
-            ],
-            "speaker_name": "谢斯",
-            "context": "找个像模像样的名义\\n再强烈地声明，\\n就很容易让人信服呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "那么，我们要怎么办？\\n不会就这么作壁上观吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_02"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "是啊，也只有迎战了吧……\\n各位，快回到在香榭利亚外部\\n待命的部队那边！",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_01"
-            ],
-            "speaker_name": "谢斯",
-            "context": "哎呀，稍微等一下。\\n我都差点忘了，\\n“这个”就借你一用吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_02"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "这……这就是“铳”吗？\\n你不是说只会交给\\n信得过的人吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_01"
-            ],
-            "speaker_name": "谢斯",
-            "context": "所以说这充其量只是借。\\n就用这个来证明\\n你们是值得信赖的吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_02"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "那我就恭敬不如从命……\\n借它一用了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_01"
-            ],
-            "speaker_name": "谢斯",
-            "context": "呵呵呵，好好证明吧。\\n让我看看你们是否具备\\n值得信赖的顽强意志……",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120156_01"
-            ],
-            "speaker_name": "斯威尼特拉军士兵2",
-            "context": "已收到侦察部队的报告。\\n自东南进军的巴尔特和帝国的联军……\\n兵力大约为我方的10倍！",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_02"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "10倍……这下棘手了啊。\\n倒也不是完全打不过，\\n可光靠我们很难应付……",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_02"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "虽然和预想的方式不同，\\n不过尤蒂尔，\\n你能助我们一臂之力吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "伙伴遇到危机，岂有不帮之理！\\n更何况还牵涉到帝国，\\n就更不能放任不管了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_02"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "那可真是感激不尽……\\n这话音还没落，\\n敌军的先头部队好像就来了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110350_02"
-            ],
-            "speaker_name": "约亚希姆",
-            "context": "那么，虽然不怎么想这么做，\\n但我们就迅速、果断、彻底地\\n打倒他们吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22206_01_0065",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Joachim and Noelle make for Chanzelia as\\nenvoys to negotiate with Chelle for a shipment\\nof manacasters. But before they can complete\\nthe deal, the Empire—now allied with Barthe—\\nappears on the scene with bad intentions.",
+      "ja_jp": "<ruby><rb>外交使節</rb><rt>がいこうしせつ</rt></ruby>に<ruby><rb>任命</rb><rt>にんめい</rt></ruby>されたヨアキムとノエルは\\n『<ruby><rb>銃</rb><rt>じゅう</rt></ruby>』を<ruby><rb>手</rb><rt>て</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>れるためシェスと<ruby><rb>交渉</rb><rt>こうしょう</rt></ruby>すべく\\n<ruby><rb>絢爛都市</rb><rt>けんらんとし</rt></ruby>シャンゼリアを<ruby><rb>訪</rb><rt>おとず</rt></ruby>れた。\\nだがそこにバルテ<ruby><rb>国</rb><rt>こく</rt></ruby>と<ruby><rb>手</rb><rt>て</rt></ruby>を<ruby><rb>結</rb><rt>むす</rt></ruby>んだ<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>軍</rb><rt>ぐん</rt></ruby>が\\n<ruby><rb>現</rb><rt>あらわ</rt></ruby>れ、ヨアキムたちに<ruby><rb>攻撃</rb><rt>こうげき</rt></ruby>を<ruby><rb>仕掛</rb><rt>しか</rt></ruby>けてくる。",
+      "zh_cn": "被任命为外交使节的约亚希姆\\n和诺艾尔为了得到“铳”而到访\\n绚烂都市香榭利亚与谢斯进行谈判。\\n然而，和巴尔特国联手的帝国军\\n却突然出现，向约亚希姆他们发起攻击。",
+      "zh_tw": "被任命為外交使節的約爾希姆與諾艾兒，\\n為了獲得「銃」，而前往造訪\\n絢爛都市香捷里亞，與謝斯進行協商。\\n但此時與巴爾鐵國聯手的帝國軍出現，\\n向約爾希姆等人發動攻擊。"
+    }
+  },
+  "prev": "",
+  "next": "2220602",
+  "content": [
+    {
+      "icon": "",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "At the Halidom...",
+        "ja_jp": "とある<ruby><rb>日</rb><rt>ひ</rt></ruby>の<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>",
+        "zh_cn": "某一天的圣城",
+        "zh_tw": "某天的聖城"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110340_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "...Ahem.",
+        "ja_jp": "…………（そっ）",
+        "zh_cn": "（蹑手蹑脚）……",
+        "zh_tw": "…………（偷看）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0001",
+      "book": ""
+    },
+    {
+      "icon": "110353_01",
+      "name": {
+        "en_us": "Kirsty",
+        "ja_jp": "キルスティ",
+        "zh_cn": "科丝蒂",
+        "zh_tw": "基魯斯緹"
+      },
+      "context": {
+        "en_us": "Mm? Oh, Noelle. I've been expecting you.\\nHave you come with orders from HQ?",
+        "ja_jp": "む……ノエルか？\\nそろそろ<ruby><rb>来</rb><rt>く</rt></ruby>る<ruby><rb>頃合</rb><rt>ころあ</rt></ruby>いだと<ruby><rb>思</rb><rt>おも</rt></ruby>っていた。\\n<ruby><rb>総司令部</rb><rt>そうしれいぶ</rt></ruby>からの<ruby><rb>命令書</rb><rt>めいれいしょ</rt></ruby>だろう？",
+        "zh_cn": "唔……是诺艾尔吗？\\n我猜你差不多该来了。\\n是总司令部的命令书吧？",
+        "zh_tw": "唔……是諾艾兒嗎？\\n我正想說妳差不多要到了。\\n是總司令部傳來的命令書吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0002",
+      "book": ""
+    },
+    {
+      "icon": "110340_01",
+      "name": {
+        "en_us": "Noelle",
+        "ja_jp": "ノエル",
+        "zh_cn": "诺艾尔",
+        "zh_tw": "諾艾兒"
+      },
+      "context": {
+        "en_us": "Y-yes, ma'am. Er, that's...one letter.\\nBut I, um...also have a second one.",
+        "ja_jp": "は、はい。1<ruby><rb>通</rb><rt>つう</rt></ruby>は……そうです。\\nでも……もう1<ruby><rb>通</rb><rt>つう</rt></ruby>、あります。",
+        "zh_cn": "是、是的。其中一封……是。\\n不过……还有一封。",
+        "zh_tw": "是、是的。一封……是命令書。\\n不過……還有、另一封。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0003",
+      "book": ""
+    },
+    {
+      "icon": "110353_01",
+      "name": {
+        "en_us": "Kirsty",
+        "ja_jp": "キルスティ",
+        "zh_cn": "科丝蒂",
+        "zh_tw": "基魯斯緹"
+      },
+      "context": {
+        "en_us": "Well, isn't this my lucky day? Let's see here.",
+        "ja_jp": "2<ruby><rb>通</rb><rt>つう</rt></ruby>……？　どれ、<ruby><rb>見</rb><rt>み</rt></ruby>せてみろ。",
+        "zh_cn": "两封？让我看看。",
+        "zh_tw": "兩封……？\\n哪個，讓我看看。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0004",
+      "book": ""
+    },
+    {
+      "icon": "110353_01",
+      "name": {
+        "en_us": "Kirsty",
+        "ja_jp": "キルスティ",
+        "zh_cn": "科丝蒂",
+        "zh_tw": "基魯斯緹"
+      },
+      "context": {
+        "en_us": "...Hmmm.",
+        "ja_jp": "……なるほど、な。",
+        "zh_cn": "原来如此……",
+        "zh_tw": "……原來如此。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0005",
+      "book": ""
+    },
+    {
+      "icon": "110350_01",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "What's up, Kirsty? You look half-nauseous.",
+        "ja_jp": "どうしたんすか、キル<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さん？\\nそんなまた<ruby><rb>心底</rb><rt>しんそこ</rt></ruby><ruby><rb>嫌</rb><rt>いや</rt></ruby>そうな<ruby><rb>顔</rb><rt>かお</rt></ruby>して。",
+        "zh_cn": "科姐，什么情况？\\n怎么一脸厌恶透顶的表情。",
+        "zh_tw": "怎麼了，基魯姐？\\n看妳一臉打從心底嫌惡的表情。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0006",
+      "book": ""
+    },
+    {
+      "icon": "110353_01",
+      "name": {
+        "en_us": "Kirsty",
+        "ja_jp": "キルスティ",
+        "zh_cn": "科丝蒂",
+        "zh_tw": "基魯斯緹"
+      },
+      "context": {
+        "en_us": "One is from HQ, the other from Litvinov.\\nThey both say more or less the same thing.",
+        "ja_jp": "どちらも<ruby><rb>書</rb><rt>か</rt></ruby>いてある<ruby><rb>内容</rb><rt>ないよう</rt></ruby>は<ruby><rb>大体</rb><rt>だいたい</rt></ruby><ruby><rb>同</rb><rt>おな</rt></ruby>じだ。\\n<ruby><rb>一方</rb><rt>いっぽう</rt></ruby>の<ruby><rb>差出人</rb><rt>さしだしにん</rt></ruby>は<ruby><rb>総司令部</rb><rt>そうしれいぶ</rt></ruby>……そして、\\nもう<ruby><rb>一方</rb><rt>いっぽう</rt></ruby>にはリヴィノフとある。",
+        "zh_cn": "两封内容差不多。\\n一封是总司令部寄来的……\\n另一封来自利比诺夫。",
+        "zh_tw": "兩封的內容大致相同。\\n一封是總司令部寄的……\\n而另一封則是來自里維諾夫。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0007",
+      "book": ""
+    },
+    {
+      "icon": "110350_01",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "Litvinov... He's that ＂certain someone.＂\\nThe one who's plotting to excise the rot\\nof corruption from our nation's core.",
+        "ja_jp": "リヴィノフ……<ruby><rb>祖国</rb><rt>そこく</rt></ruby>の<ruby><rb>膿</rb><rt>うみ</rt></ruby>を<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>除</rb><rt>のぞ</rt></ruby>こうと\\n<ruby><rb>画策</rb><rt>かくさく</rt></ruby>している『さる<ruby><rb>御方</rb><rt>おかた</rt></ruby>』からっすか。",
+        "zh_cn": "利比诺夫……是在策划\\n如何摘除祖国毒瘤的\\n“那位大人”吗？",
+        "zh_tw": "里維諾夫……是計畫替母國\\n除掉毒瘤的「某位大人」嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0008",
+      "book": ""
+    },
+    {
+      "icon": "110350_01",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "That aside, two secret missives coming\\nfrom two different senders at the same\\ntime...with the exact same contents? \\nSmells like we have some work to do.",
+        "ja_jp": "<ruby><rb>同</rb><rt>おな</rt></ruby>じ<ruby><rb>時期</rb><rt>じき</rt></ruby>に<ruby><rb>別</rb><rt>べつ</rt></ruby>の<ruby><rb>差出人</rb><rt>さしだしにん</rt></ruby>から<ruby><rb>送</rb><rt>おく</rt></ruby>られてきた\\n<ruby><rb>同</rb><rt>おな</rt></ruby>じ<ruby><rb>内容</rb><rt>ないよう</rt></ruby>の<ruby><rb>密書</rb><rt>みっしょ</rt></ruby>……これはまた<ruby><rb>面倒事</rb><rt>めんどうごと</rt></ruby>が\\n<ruby><rb>降</rb><rt>ふ</rt></ruby>って<ruby><rb>来</rb><rt>き</rt></ruby>そうなヤな<ruby><rb>感</rb><rt>かん</rt></ruby>じがするっすね。",
+        "zh_cn": "同一时间不同的人寄来内容\\n相同的密函……我有不好的预感，\\n麻烦的事又要发生了。",
+        "zh_tw": "在相同時期從不同人寄來了\\n相同內容的密信……\\n感覺又會發生麻煩事呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0009",
+      "book": ""
+    },
+    {
+      "icon": "110353_01",
+      "name": {
+        "en_us": "Kirsty",
+        "ja_jp": "キルスティ",
+        "zh_cn": "科丝蒂",
+        "zh_tw": "基魯斯緹"
+      },
+      "context": {
+        "en_us": "Heh, a shrewd guess. You're right: \\nI have new orders for you and Noelle.",
+        "ja_jp": "フッ、<ruby><rb>察</rb><rt>さっ</rt></ruby>しが<ruby><rb>良</rb><rt>い</rt></ruby>いな。<ruby><rb>早速</rb><rt>さっそく</rt></ruby>だが……\\nヨアキム、ノエル<ruby><rb>両名</rb><rt>りょうめい</rt></ruby>に<ruby><rb>命令</rb><rt>めいれい</rt></ruby>を<ruby><rb>下</rb><rt>くだ</rt></ruby>す。",
+        "zh_cn": "哼，直觉挺准嘛。\\n事不宜迟……约亚希姆、诺艾尔，\\n我有命令要下达给你们两个。",
+        "zh_tw": "呵，真敏銳。那麼事不宜遲……\\n約爾希姆、諾艾兒，\\n我在此對你們下令。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0010",
+      "book": ""
+    },
+    {
+      "icon": "110340_01",
+      "name": {
+        "en_us": "Noelle",
+        "ja_jp": "ノエル",
+        "zh_cn": "诺艾尔",
+        "zh_tw": "諾艾兒"
+      },
+      "context": {
+        "en_us": "Wait, me?",
+        "ja_jp": "わ、わたしも……ですか？",
+        "zh_cn": "包、包括……我吗？",
+        "zh_tw": "我、我也要……嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0011",
+      "book": ""
+    },
+    {
+      "icon": "110353_01",
+      "name": {
+        "en_us": "Kirsty",
+        "ja_jp": "キルスティ",
+        "zh_cn": "科丝蒂",
+        "zh_tw": "基魯斯緹"
+      },
+      "context": {
+        "en_us": "Yes, you. It's a bit of a departure from your\\nusual messenger work, but I'm confident\\nthat you'll manage.",
+        "ja_jp": "ああ、ふたりにだ。\\n<ruby><rb>伝令</rb><rt>でんれい</rt></ruby>の<ruby><rb>役割</rb><rt>やくわり</rt></ruby>からは<ruby><rb>少々逸脱</rb><rt>しょうしょういつだつ</rt></ruby>するが、\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>なら<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>だろう。",
+        "zh_cn": "对，是你们两个。\\n虽然有点超出传令的工作内容，\\n但你一定能办到。",
+        "zh_tw": "嗯，就是你們兩位。\\n雖然有些超出傳令的職責，\\n但我想妳不會有問題的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0012",
+      "book": ""
+    },
+    {
+      "icon": "110340_01",
+      "name": {
+        "en_us": "Noelle",
+        "ja_jp": "ノエル",
+        "zh_cn": "诺艾尔",
+        "zh_tw": "諾艾兒"
+      },
+      "context": {
+        "en_us": "I, um, really don't know if I'm cut out for\\nanything other than delivering letters.\\nEr, not that I even do THAT all that...well.",
+        "ja_jp": "そんな、わたしに<ruby><rb>伝令</rb><rt>でんれい</rt></ruby><ruby><rb>以外</rb><rt>いがい</rt></ruby>の<ruby><rb>仕事</rb><rt>しごと</rt></ruby>は……\\nい、いえ……まだ<ruby><rb>伝令</rb><rt>でんれい</rt></ruby>の<ruby><rb>仕事</rb><rt>しごと</rt></ruby>だって……\\n<ruby><rb>完璧</rb><rt>かんぺき</rt></ruby>とは……<ruby><rb>言</rb><rt>い</rt></ruby>えないです、し……。",
+        "zh_cn": "怎么会，我除了传令以外的工作……\\n不、不对……我连传令都还没……\\n做到……完美……",
+        "zh_tw": "怎麼可以，傳令以外的工作我……\\n不、不對……連傳令的工作都還……\\n說不上……完美……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0013",
+      "book": ""
+    },
+    {
+      "icon": "110353_01",
+      "name": {
+        "en_us": "Kirsty",
+        "ja_jp": "キルスティ",
+        "zh_cn": "科丝蒂",
+        "zh_tw": "基魯斯緹"
+      },
+      "context": {
+        "en_us": "Have some confidence, soldier! Besides,\\nI care more about your diligence and\\nsincerity than I do about your past\\naccomplishments.",
+        "ja_jp": "そう<ruby><rb>自分</rb><rt>じぶん</rt></ruby>を<ruby><rb>卑下</rb><rt>ひげ</rt></ruby>するな、ノエル。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>はお<ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>実績</rb><rt>じっせき</rt></ruby>ではなく、お<ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>克己的</rb><rt>こっきてき</rt></ruby>\\nかつ<ruby><rb>篤実</rb><rt>とくじつ</rt></ruby>な<ruby><rb>姿勢</rb><rt>しせい</rt></ruby>を<ruby><rb>買</rb><rt>か</rt></ruby>っているんだ。",
+        "zh_cn": "不要妄自菲薄，诺艾尔。\\n我看上的不是你的功绩，\\n而是你克己诚挚的态度。",
+        "zh_tw": "別那麼貶低自己，諾艾兒。\\n我所看重的並非妳過去的成果，\\n是妳那自制而誠實的態度。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0014",
+      "book": ""
+    },
+    {
+      "icon": "110353_01",
+      "name": {
+        "en_us": "Kirsty",
+        "ja_jp": "キルスティ",
+        "zh_cn": "科丝蒂",
+        "zh_tw": "基魯斯緹"
+      },
+      "context": {
+        "en_us": "I expect great things from the both of you.",
+        "ja_jp": "ふたりとも、<ruby><rb>期待</rb><rt>きたい</rt></ruby>しているぞ。",
+        "zh_cn": "期待你们两个的表现。",
+        "zh_tw": "我很期待你們喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0015",
+      "book": ""
+    },
+    {
+      "icon": "110350_02",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "And the weight of those expectations\\nis crushing me.",
+        "ja_jp": "<ruby><rb>期待</rb><rt>きたい</rt></ruby>が<ruby><rb>重</rb><rt>おも</rt></ruby>すぎるんすよ……。",
+        "zh_cn": "这期待也太高了吧……",
+        "zh_tw": "這期待太沉重了啦……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0016",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "...So that's why ya came to the boss?",
+        "ja_jp": "それでユーディルに\\n<ruby><rb>声</rb><rt>こえ</rt></ruby>をかけたのか？",
+        "zh_cn": "所以你就来找\\n尤蒂尔了？",
+        "zh_tw": "所以你才會來找\\n尤帝爾嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0017",
+      "book": ""
+    },
+    {
+      "icon": "110350_02",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "Our orders are to negotiate with the ruler\\nof Chanzelia for the import of the ancient\\nmanacaster weapons she's engineered.",
+        "ja_jp": "<ruby><rb>絢爛都市</rb><rt>けんらんとし</rt></ruby>シャンゼリアを<ruby><rb>統</rb><rt>す</rt></ruby>べる<ruby><rb>王女</rb><rt>おうじょ</rt></ruby>と\\n<ruby><rb>交渉</rb><rt>こうしょう</rt></ruby>し、<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>が<ruby><rb>現代</rb><rt>げんだい</rt></ruby>に<ruby><rb>蘇</rb><rt>よみがえ</rt></ruby>らせた<ruby><rb>古</rb><rt>いにしえ</rt></ruby>の<ruby><rb>武器</rb><rt>ぶき</rt></ruby>\\n『<ruby><rb>銃</rb><rt>じゅう</rt></ruby>』の<ruby><rb>輸入</rb><rt>ゆにゅう</rt></ruby>ルートを<ruby><rb>確保</rb><rt>かくほ</rt></ruby>せよ――",
+        "zh_cn": "与统治绚烂都市香榭利亚的公主谈判，\\n确保她复原的古代兵器“铳”的\\n进口路线——",
+        "zh_tw": "與統治絢爛都市香捷里亞的王女\\n進行協商，確保重現於世的\\n古代兵器「銃」的進口通路──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0018",
+      "book": ""
+    },
+    {
+      "icon": "110350_02",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "Which is CLEARLY above our pay grade.\\nThe prince is the only chance we've got.",
+        "ja_jp": "――なんて、オレとノエルのふたりじゃ\\n<ruby><rb>荷</rb><rt>に</rt></ruby>が<ruby><rb>勝</rb><rt>か</rt></ruby>ちすぎてますからね。\\nユーディルが<ruby><rb>頼</rb><rt>たの</rt></ruby>みの<ruby><rb>綱</rb><rt>つな</rt></ruby>っす。",
+        "zh_cn": "这种事对我和诺艾尔来说\\n负担太重了。尤蒂尔\\n就是我们的救命稻草。",
+        "zh_tw": "──這種事，\\n光靠我跟諾艾兒兩個人負擔太重。\\n只能依靠尤帝爾了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0019",
+      "book": ""
+    },
+    {
+      "icon": "110340_02",
+      "name": {
+        "en_us": "Noelle",
+        "ja_jp": "ノエル",
+        "zh_cn": "诺艾尔",
+        "zh_tw": "諾艾兒"
+      },
+      "context": {
+        "en_us": "*nod* *nod*",
+        "ja_jp": "…………（コクコク）",
+        "zh_cn": "（点头）……",
+        "zh_tw": "…………（點頭點頭）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0020",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I make for a poor lifeline when all I can do\\nis arrange a meeting with my sister.",
+        "ja_jp": "そんな<ruby><rb>風</rb><rt>ふう</rt></ruby>に<ruby><rb>頼</rb><rt>たよ</rt></ruby>りにされても、おれには\\nこうしてふたりをシェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さんと\\n<ruby><rb>会</rb><rt>あ</rt></ruby>わせる<ruby><rb>以上</rb><rt>いじょう</rt></ruby>のことはできないよ？",
+        "zh_cn": "就算你们拜托我，\\n我除了把你们引见给谢斯姐姐\\n也做不了什么。",
+        "zh_tw": "就算你們拜託我，我也只能幫忙\\n讓你們跟謝斯姊姊見面而已喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0021",
+      "book": ""
+    },
+    {
+      "icon": "110350_02",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "That's all we're asking. Past that,\\nit's Svenitla's problem.",
+        "ja_jp": "まあ、その<ruby><rb>先</rb><rt>さき</rt></ruby>はオレたちスヴェニトラの\\n<ruby><rb>問題</rb><rt>もんだい</rt></ruby>ですしね……<ruby><rb>一応</rb><rt>いちおう</rt></ruby>、そこんとこは\\n<ruby><rb>弁</rb><rt>わきま</rt></ruby>えてるつもりっすよ。",
+        "zh_cn": "没关系，那之后就是\\n我们斯威尼特拉的事了……\\n这一点我心里还是有数的。",
+        "zh_tw": "嗯，畢竟之後就是我們\\n斯韋尼德拉的問題了嘛……\\n這點我還是理解的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0022",
+      "book": ""
+    },
+    {
+      "icon": "110340_02",
+      "name": {
+        "en_us": "Noelle",
+        "ja_jp": "ノエル",
+        "zh_cn": "诺艾尔",
+        "zh_tw": "諾艾兒"
+      },
+      "context": {
+        "en_us": "*nod* *nod*",
+        "ja_jp": "…………（コクコク）",
+        "zh_cn": "（点头）……",
+        "zh_tw": "…………（點頭點頭）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0023",
+      "book": ""
+    },
+    {
+      "icon": "110340_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Well then! If you've come to negotiate\\nwith me, I'd prefer to dispense with the\\ndeadweight in the room.",
+        "ja_jp": "あら、<ruby><rb>弁</rb><rt>わきま</rt></ruby>えていると<ruby><rb>言</rb><rt>い</rt></ruby>うのなら\\n<ruby><rb>交渉</rb><rt>こうしょう</rt></ruby>と<ruby><rb>関係</rb><rt>かんけい</rt></ruby>のない<ruby><rb>方々</rb><rt>かたがた</rt></ruby>は<ruby><rb>事前</rb><rt>じぜん</rt></ruby>に\\n<ruby><rb>下</rb><rt>さ</rt></ruby>がらせておくべきでなくって？",
+        "zh_cn": "哎呀，既然心里有数，\\n是不是应该事先让\\n与谈判无关的人士退下呢？",
+        "zh_tw": "哎呀，既然你理解，\\n難道不該讓與協商無關的人士\\n先行離開嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0024",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Well that's...harsh. But I suppose we can\\nstep outside until you're finish—",
+        "ja_jp": "シェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さん……。\\nそうだな、<ruby><rb>交渉</rb><rt>こうしょう</rt></ruby>の<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>になるくらいなら\\n<ruby><rb>終</rb><rt>お</rt></ruby>わるまでおれたちは<ruby><rb>外</rb><rt>そと</rt></ruby>に<ruby><rb>出</rb><rt>で</rt></ruby>ているよ。",
+        "zh_cn": "谢斯姐姐……\\n也对，要是会妨碍你们谈判，\\n我还是在外面等你们谈完吧。",
+        "zh_tw": "謝斯姊姊……\\n也是，如果會妨礙你們協商的話，\\n在結束之前我們就先到外面等吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0025",
+      "book": ""
+    },
+    {
+      "icon": "110350_02",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "Wait. I'd like for Euden\\nto remain here as an impartial third\\nparty familiar with both sides of\\nthe negotiations.",
+        "ja_jp": "いや、ユーディルたちには\\nオレたちと<ruby><rb>王女</rb><rt>おうじょ</rt></ruby>の<ruby><rb>共通</rb><rt>きょうつう</rt></ruby>の<ruby><rb>知人</rb><rt>ちじん</rt></ruby>として、\\nここに<ruby><rb>同席</rb><rt>どうせき</rt></ruby>していてもらいたいっす。",
+        "zh_cn": "不，我希望尤蒂尔\\n你们能作为我方和公主的\\n共同熟人，一同在场。",
+        "zh_tw": "不，我希望尤帝爾\\n他們能以雙方共同認識的人的身分，\\n一起在場。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0026",
+      "book": ""
+    },
+    {
+      "icon": "110350_02",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "Having someone in the room with no skin\\nin the game should let things go smoothly.",
+        "ja_jp": "<ruby><rb>利害関係</rb><rt>りがいかんけい</rt></ruby>のない<ruby><rb>第三者</rb><rt>だいさんしゃ</rt></ruby>を<ruby><rb>巻</rb><rt>ま</rt></ruby>き<ruby><rb>込</rb><rt>こ</rt></ruby>むのが\\n<ruby><rb>交渉</rb><rt>こうしょう</rt></ruby>を<ruby><rb>円滑</rb><rt>えんかつ</rt></ruby>に<ruby><rb>進</rb><rt>すす</rt></ruby>める<ruby><rb>鉄則</rb><rt>てっそく</rt></ruby>っすから。",
+        "zh_cn": "拉上没有利害关系的第三方\\n是保证谈判顺利进行的铁则。",
+        "zh_tw": "讓沒有利害關係的第三者參與，\\n是使協商順利進行的鐵則。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0027",
+      "book": ""
+    },
+    {
+      "icon": "100015_01",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Eee hee hee! Oh, well played INDEED!\\nThough I don't know that your quick wit\\nwill avail you of much in this case.",
+        "ja_jp": "ふふふ。なるほど、<ruby><rb>道理</rb><rt>どうり</rt></ruby>ですわね。\\nでもその<ruby><rb>理屈</rb><rt>りくつ</rt></ruby>、<ruby><rb>今</rb><rt>いま</rt></ruby>のあなた<ruby><rb>方</rb><rt>がた</rt></ruby>には\\nあまり<ruby><rb>意味</rb><rt>いみ</rt></ruby>を<ruby><rb>成</rb><rt>な</rt></ruby>しませんわよ。",
+        "zh_cn": "呵呵呵。原来如此，有点道理。\\n不过这对现在的你们来说\\n也没什么太大的意义。",
+        "zh_tw": "呵呵呵，原來如此，有點道理。\\n不過那個道理，\\n對現在的你們而言沒什麼意義喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0028",
+      "book": ""
+    },
+    {
+      "icon": "110340_02",
+      "name": {
+        "en_us": "Noelle",
+        "ja_jp": "ノエル",
+        "zh_cn": "诺艾尔",
+        "zh_tw": "諾艾兒"
+      },
+      "context": {
+        "en_us": "Meaning... What, exactly?",
+        "ja_jp": "それは……どういう<ruby><rb>意味</rb><rt>いみ</rt></ruby>、ですか？",
+        "zh_cn": "这是……什么意思？",
+        "zh_tw": "那是……什麼、意思呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0029",
+      "book": ""
+    },
+    {
+      "icon": "100015_01",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Meaning we have yet to even reach\\nthe negotiating stage.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>はまだ<ruby><rb>交渉</rb><rt>こうしょう</rt></ruby>する<ruby><rb>以前</rb><rt>いぜん</rt></ruby>の<ruby><rb>問題</rb><rt>もんだい</rt></ruby>、\\nということですわ。",
+        "zh_cn": "我的意思是，\\n现在还没开始谈判呢。",
+        "zh_tw": "意思是指現在還不到協商的時候。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0030",
+      "book": ""
+    },
+    {
+      "icon": "100015_01",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Delicious as it is to leave you guessing,\\nI have other things I must attend to today:\\nBarthe, you see, has ALSO approached me\\nabout a trade deal.",
+        "ja_jp": "<ruby><rb>勿体</rb><rt>もったい</rt></ruby>ぶっても<ruby><rb>仕方</rb><rt>しかた</rt></ruby>ないから<ruby><rb>言</rb><rt>い</rt></ruby>ってしまい\\nますけど……わたくし、バルテ<ruby><rb>国</rb><rt>こく</rt></ruby>からも\\n<ruby><rb>交渉</rb><rt>こうしょう</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>ちかけられましたの。",
+        "zh_cn": "卖关子也没什么意义，\\n我就直说了吧……\\n巴尔特国也表示要进行谈判。",
+        "zh_tw": "故弄玄虛也沒什麼意義，\\n就告訴你們吧……\\n其實巴爾鐵國也向我提出了協商。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0031",
+      "book": ""
+    },
+    {
+      "icon": "110350_02",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "Barthe?! But they're our enemy!",
+        "ja_jp": "なんだって!?　バルテはオレたち\\nスヴェニトラの<ruby><rb>敵対国</rb><rt>てきたいこく</rt></ruby>っすよ!?",
+        "zh_cn": "你说什么！？巴尔特可是我们\\n斯威尼特拉的敌对国家啊！？",
+        "zh_tw": "妳說什麼！？巴爾鐵可是\\n我們斯韋尼德拉的敵對國喔！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0032",
+      "book": ""
+    },
+    {
+      "icon": "100015_01",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Last I checked, you were in a cease-fire\\nagreement, yes? Perhaps they've merely\\nbeen using that time to shore up their\\nforces.",
+        "ja_jp": "たしか<ruby><rb>今</rb><rt>いま</rt></ruby>、<ruby><rb>両国</rb><rt>りょうごく</rt></ruby>は<ruby><rb>停戦中</rb><rt>ていせんちゅう</rt></ruby>でしたわね。\\nその<ruby><rb>間</rb><rt>かん</rt></ruby>に<ruby><rb>自軍</rb><rt>じぐん</rt></ruby>の<ruby><rb>戦力</rb><rt>せんりょく</rt></ruby>を<ruby><rb>少</rb><rt>すこ</rt></ruby>しでも<ruby><rb>増強</rb><rt>ぞうきょう</rt></ruby>して\\nおきたい……とでも<ruby><rb>考</rb><rt>かんが</rt></ruby>えたのでしょう。",
+        "zh_cn": "你们两国现在似乎处于停战状态。\\n他们应该是想趁这期间尽可能地\\n增强自己军队的战斗力吧。",
+        "zh_tw": "記得你們兩國正在停戰中吧。\\n我想對方……應該是想趁現在\\n增強自家軍隊的戰力吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0033",
+      "book": ""
+    },
+    {
+      "icon": "100015_01",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Bottom line, Barthe is looking to purchase\\nour manacasters. May I presume you came\\nto me for much the same reason?",
+        "ja_jp": "バルテ<ruby><rb>側</rb><rt>がわ</rt></ruby>の<ruby><rb>要求</rb><rt>ようきゅう</rt></ruby>を<ruby><rb>端的</rb><rt>たんてき</rt></ruby>に<ruby><rb>言</rb><rt>い</rt></ruby>えば、\\nシャンゼリアが<ruby><rb>保有</rb><rt>ほゆう</rt></ruby>する<ruby><rb>銃</rb><rt>じゅう</rt></ruby>の<ruby><rb>提供</rb><rt>ていきょう</rt></ruby>……\\nそちらの<ruby><rb>要求</rb><rt>ようきゅう</rt></ruby>も<ruby><rb>大方</rb><rt>おおかた</rt></ruby><ruby><rb>同</rb><rt>おな</rt></ruby>じでなくて？",
+        "zh_cn": "巴尔特那边的要求简单来说\\n就是想让香榭利亚提供铳……\\n你们的要求应该也差不多吧？",
+        "zh_tw": "巴爾鐵的要求簡單來說，\\n就是要我提供香捷里亞才有的銃……\\n和你們的要求大致相同不是嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0034",
+      "book": ""
+    },
+    {
+      "icon": "110340_02",
+      "name": {
+        "en_us": "Noelle",
+        "ja_jp": "ノエル",
+        "zh_cn": "诺艾尔",
+        "zh_tw": "諾艾兒"
+      },
+      "context": {
+        "en_us": "S-so Barthe...got to them first?",
+        "ja_jp": "も、もう……バルテとシャンゼリアで、\\n<ruby><rb>話</rb><rt>はなし</rt></ruby>は……まとまってしまった……？",
+        "zh_cn": "巴、巴尔特……已经……\\n和香榭利亚、谈妥了？",
+        "zh_tw": "巴、巴爾鐵……和香捷里亞，\\n已經……談妥了嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0035",
+      "book": ""
+    },
+    {
+      "icon": "100015_01",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "I'll thank you not to jump to conclusions.\\nHave I said one word about signing a deal\\nwith Barthe? Hmmmm?",
+        "ja_jp": "なにを<ruby><rb>早合点</rb><rt>はやがてん</rt></ruby>してますの？\\nわたくし、バルテとの<ruby><rb>交渉</rb><rt>こうしょう</rt></ruby>が<ruby><rb>成立</rb><rt>せいりつ</rt></ruby>した\\nなんて<ruby><rb>一言</rb><rt>ひとこと</rt></ruby>も<ruby><rb>言</rb><rt>い</rt></ruby>ってませんわよ。",
+        "zh_cn": "结论下得太早了吧？\\n我可一句都没说\\n和巴尔特达成了协议。",
+        "zh_tw": "妳在著急什麼？\\n我可完全沒說\\n和巴爾鐵的協商已經成立了喲。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0036",
+      "book": ""
+    },
+    {
+      "icon": "100015_01",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "No, I very politely sent them on their merry\\nway, for I have no intention of exporting\\nmanacasters to ANYONE at present.",
+        "ja_jp": "バルテからのお<ruby><rb>話</rb><rt>はなし</rt></ruby>は<ruby><rb>丁重</rb><rt>ていちょう</rt></ruby>にお<ruby><rb>断</rb><rt>ことわ</rt></ruby>りさせて\\nいただきましたわ。わたくし、まだ<ruby><rb>銃</rb><rt>じゅう</rt></ruby>を\\n<ruby><rb>他国</rb><rt>たこく</rt></ruby>に<ruby><rb>輸出</rb><rt>ゆしゅつ</rt></ruby>するつもりありませんの。",
+        "zh_cn": "我已经严正拒绝了巴尔特那边。\\n因为我现在还不打算\\n把铳出口给其它国家。",
+        "zh_tw": "我已經鄭重拒絕巴爾鐵的要求了。\\n畢竟我還沒打算將銃出口到其他國家。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0037",
+      "book": ""
+    },
+    {
+      "icon": "110340_02",
+      "name": {
+        "en_us": "Noelle",
+        "ja_jp": "ノエル",
+        "zh_cn": "诺艾尔",
+        "zh_tw": "諾艾兒"
+      },
+      "context": {
+        "en_us": "So, uh, are you also sending US\\non our merry way?",
+        "ja_jp": "それは、わたしたちにも……ですか？",
+        "zh_cn": "也就是说，\\n包括我们……在内吗？",
+        "zh_tw": "那個、連我們……也是嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0038",
+      "book": ""
+    },
+    {
+      "icon": "100015_01",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "I am indeed. Now mind you, I certainly\\nwouldn't mind the opportunity to get a\\nfoothold in North Grastaea...",
+        "ja_jp": "ええ。こちらとしては<ruby><rb>北</rb><rt>きた</rt></ruby>グラスティアで\\n<ruby><rb>活動</rb><rt>かつどう</rt></ruby>するための<ruby><rb>足</rb><rt>あし</rt></ruby>がかりを<ruby><rb>得</rb><rt>え</rt></ruby>たいところ\\nではあるのですけれど……",
+        "zh_cn": "是的。不过作为我方来说，\\n确实想找一个在北格拉斯迪亚\\n大陆活动的契机……",
+        "zh_tw": "是的。雖然以我的立場，\\n很希望能有在北格拉斯迪亞\\n活動的踏板……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0039",
+      "book": ""
+    },
+    {
+      "icon": "100015_01",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "But my manacasters are a trump card I\\ndon't intend to play for penny-ante stakes.",
+        "ja_jp": "だからと<ruby><rb>言</rb><rt>い</rt></ruby>って、わたくしの<ruby><rb>銃</rb><rt>じゅう</rt></ruby>は\\nそう<ruby><rb>簡単</rb><rt>かんたん</rt></ruby>に<ruby><rb>切</rb><rt>き</rt></ruby>れるほど<ruby><rb>安</rb><rt>やす</rt></ruby>いカードでは\\nありませんわ。",
+        "zh_cn": "话虽如此，\\n我的铳也不是可以\\n轻易拿出来示人的筹码。",
+        "zh_tw": "話雖如此，我的銃也並非可以\\n輕易拿來當作籌碼的東西。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0040",
+      "book": ""
+    },
+    {
+      "icon": "100015_01",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "The only way someone's getting at them\\nis if I trust them down to their very core.",
+        "ja_jp": "もし<ruby><rb>銃</rb><rt>じゅう</rt></ruby>を<ruby><rb>渡</rb><rt>わた</rt></ruby>すとしたら、それは\\nわたくしが<ruby><rb>信用</rb><rt>しんよう</rt></ruby>できると<ruby><rb>思</rb><rt>おも</rt></ruby>った\\n<ruby><rb>相手</rb><rt>あいて</rt></ruby>にだけでしてよ。",
+        "zh_cn": "要让我交出来的话，\\n得是我信得过的人才行。",
+        "zh_tw": "如果真要交出銃，\\n我只會交給值得信任的對象而已。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0041",
+      "book": ""
+    },
+    {
+      "icon": "110350_02",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "So it comes down to trust, eh?",
+        "ja_jp": "<ruby><rb>信用</rb><rt>しんよう</rt></ruby>……っすか。",
+        "zh_cn": "信得过……吗。",
+        "zh_tw": "信任……是嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0042",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Bad news, guys! We've got imperials\\nmarching on our position!",
+        "ja_jp": "た、<ruby><rb>大変</rb><rt>たいへん</rt></ruby>だ！　<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>のやつらが\\nここに<ruby><rb>向</rb><rt>む</rt></ruby>かって<ruby><rb>進軍</rb><rt>しんぐん</rt></ruby>してきてるぜ！",
+        "zh_cn": "不、不好了！帝国那帮家伙\\n正朝这边进军！",
+        "zh_tw": "不、不好啦！\\n帝國那些傢伙朝這邊進攻過來了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0043",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Dyrenell's invadin' Chanzelia?! Why?!",
+        "ja_jp": "<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>だあ？　こんな<ruby><rb>時</rb><rt>とき</rt></ruby>にどうして\\nシャンゼリアに!?",
+        "zh_cn": "帝国？这种时候\\n为什么会跑来香榭利亚！？",
+        "zh_tw": "你說帝國？\\n為什麼會在這種時候來香捷里亞！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0044",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "You're not seriously asking me, are you?\\nAnyway, it ain't just the Empire this time.",
+        "ja_jp": "それはわかんねえけど、どうやら\\nこっちに<ruby><rb>来</rb><rt>き</rt></ruby>てる<ruby><rb>連中</rb><rt>れんちゅう</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>には<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>以外</rb><rt>いがい</rt></ruby>の\\nやつらも<ruby><rb>交</rb><rt>ま</rt></ruby>じってるみたいなんだ。",
+        "zh_cn": "这就不知道了，\\n不过来的那帮人里好像\\n还混着一些帝国以外的家伙。",
+        "zh_tw": "雖然不知道為什麼，\\n但在朝這裡攻過來的軍隊裡面\\n好像混著帝國以外的人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0045",
+      "book": ""
+    },
+    {
+      "icon": "120156_01",
+      "name": {
+        "en_us": "Svenitlan Soldier 1",
+        "ja_jp": "スヴェニトラ軍兵士１",
+        "zh_cn": "斯威尼特拉军士兵1",
+        "zh_tw": "斯韋尼德拉軍士兵1"
+      },
+      "context": {
+        "en_us": "Based on their banners and uniforms, they\\nappear to be with the Barthe faction that\\nwishes to dispense with the cease-fire.",
+        "ja_jp": "<ruby><rb>軍旗</rb><rt>ぐんき</rt></ruby>と<ruby><rb>兵</rb><rt>へい</rt></ruby><ruby><rb>装</rb><rt>そう</rt></ruby>から、バルテ<ruby><rb>国</rb><rt>こく</rt></ruby>の<ruby><rb>停戦反対派</rb><rt>ていせんはんたいは</rt></ruby>\\nであると<ruby><rb>思</rb><rt>おも</rt></ruby>われます！",
+        "zh_cn": "从军旗和装束看，\\n应该是巴尔特国\\n反对停战的那一派人！",
+        "zh_tw": "從軍旗和士兵服裝來看，\\n應該是巴爾鐵國的停戰反對派！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0046",
+      "book": ""
+    },
+    {
+      "icon": "100015_01",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Goodness, they are NOT eager to take no\\nfor an answer on those manacasters.",
+        "ja_jp": "<ruby><rb>銃</rb><rt>じゅう</rt></ruby>の<ruby><rb>提供</rb><rt>ていきょう</rt></ruby>を<ruby><rb>断</rb><rt>ことわ</rt></ruby>られたから、<ruby><rb>今度</rb><rt>こんど</rt></ruby>は\\n<ruby><rb>力</rb><rt>ちから</rt></ruby>ずくで<ruby><rb>奪</rb><rt>うば</rt></ruby>いに<ruby><rb>来</rb><rt>き</rt></ruby>たってことかしら。",
+        "zh_cn": "因为我拒绝提供铳，\\n这就来强取豪夺了吗。",
+        "zh_tw": "因為提供銃的要求遭拒，\\n所以這次打算靠蠻力來搶嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0047",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Yeah, but why's the Empire with 'em?",
+        "ja_jp": "だが、それならなんで<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>も<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に？",
+        "zh_cn": "但如果是这样，\\n为什么连帝国也一起？",
+        "zh_tw": "不過，那樣的話為什麼帝國也會一起？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0048",
+      "book": ""
+    },
+    {
+      "icon": "100015_01",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Perhaps they had better luck sweet-talking\\nDyrenell's people than they did with me.",
+        "ja_jp": "<ruby><rb>大方</rb><rt>おおかた</rt></ruby>バルテ<ruby><rb>国</rb><rt>こく</rt></ruby>の<ruby><rb>方々</rb><rt>かたがた</rt></ruby>に、いいように\\n<ruby><rb>丸</rb><rt>まる</rt></ruby>め<ruby><rb>込</rb><rt>こ</rt></ruby>まれたのでしょう。",
+        "zh_cn": "恐怕是被巴尔特国那边的\\n花言巧语给骗了。",
+        "zh_tw": "大概是被巴爾鐵國的人們\\n用花言巧語拉攏了吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0049",
+      "book": ""
+    },
+    {
+      "icon": "100015_01",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "They likely claimed that I only refused to\\nsell because I plan to give them all\\naway to New Alberia.",
+        "ja_jp": "わたくしが<ruby><rb>銃</rb><rt>じゅう</rt></ruby>を<ruby><rb>提供</rb><rt>ていきょう</rt></ruby>しないのは、<ruby><rb>裏</rb><rt>うら</rt></ruby>で\\n<ruby><rb>新</rb><rt>しん</rt></ruby>アルべリアと<ruby><rb>手</rb><rt>て</rt></ruby>を<ruby><rb>組</rb><rt>く</rt></ruby>んでいるからだ、\\nとでも<ruby><rb>言</rb><rt>い</rt></ruby>ったのではないかしら。",
+        "zh_cn": "他们大概会声称，\\n我不提供他们铳是因为\\n暗中和新阿尔贝里亚联手了吧。",
+        "zh_tw": "例如我之所以不肯提供銃，\\n是因為暗地裡跟新阿爾貝利亞有勾結。\\n應該是這類的話術吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0050",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "And they'd buy that load'a bull?",
+        "ja_jp": "そんな<ruby><rb>簡単</rb><rt>かんたん</rt></ruby>に<ruby><rb>丸</rb><rt>まる</rt></ruby>め<ruby><rb>込</rb><rt>こ</rt></ruby>めるもんか？",
+        "zh_cn": "帝国会这么轻易就上当吗？",
+        "zh_tw": "會那麼簡單就被拉攏嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0051",
+      "book": ""
+    },
+    {
+      "icon": "100015_01",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "You would be surprised what people will\\nbelieve if you state a vaguely plausible\\ncase loudly enough.",
+        "ja_jp": "もっともらしい<ruby><rb>名目</rb><rt>めいもく</rt></ruby>を<ruby><rb>声高</rb><rt>こわだか</rt></ruby>に<ruby><rb>主張</rb><rt>しゅちょう</rt></ruby>される\\nと<ruby><rb>存外</rb><rt>ぞんがい</rt></ruby><ruby><rb>信</rb><rt>しん</rt></ruby>じてしまうものですわよ。",
+        "zh_cn": "找个像模像样的名义\\n再强烈地声明，\\n就很容易让人信服呢。",
+        "zh_tw": "要是對方大肆主張著看似合理的理由，\\n人意外地會被說服喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0052",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Okay, so what's our move? We clearly\\nain't gonna stand around and watch them\\nchumps march down main street, yeah?",
+        "ja_jp": "で、どうするよ。まさか、このまま\\n<ruby><rb>指</rb><rt>ゆび</rt></ruby>くわえて<ruby><rb>見</rb><rt>み</rt></ruby>てるなんて<ruby><rb>言</rb><rt>い</rt></ruby>わないだろ？",
+        "zh_cn": "那么，我们要怎么办？\\n不会就这么作壁上观吧？",
+        "zh_tw": "那現在怎麼辦？\\n該不會要我們就這樣坐視不管吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0053",
+      "book": ""
+    },
+    {
+      "icon": "110350_02",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "I don't see what choice we have but to\\nintercept them. Let's hurry back to the\\nsquad standing by outside the city gates!",
+        "ja_jp": "まあ、<ruby><rb>迎</rb><rt>むか</rt></ruby>え<ruby><rb>撃</rb><rt>う</rt></ruby>つしかないっすよね……。\\nみんな、シャンゼリアの<ruby><rb>外</rb><rt>そと</rt></ruby>に<ruby><rb>待機</rb><rt>たいき</rt></ruby>させて\\nいる<ruby><rb>部隊</rb><rt>ぶたい</rt></ruby>のところまで<ruby><rb>急</rb><rt>いそ</rt></ruby>いで<ruby><rb>戻</rb><rt>もど</rt></ruby>るっす！",
+        "zh_cn": "是啊，也只有迎战了吧……\\n各位，快回到在香榭利亚外部\\n待命的部队那边！",
+        "zh_tw": "嗯，只能迎擊了吧……\\n各位，我們趕緊回到在香捷里亞外頭\\n待機的部隊那裡吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0054",
+      "book": ""
+    },
+    {
+      "icon": "100015_01",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "My, but you ARE an eager beaver!\\nI almost didn't have a chance to lend you\\nthis before you ran off.",
+        "ja_jp": "あら、ちょっとお<ruby><rb>待</rb><rt>ま</rt></ruby>ちになって。\\n<ruby><rb>危</rb><rt>あや</rt></ruby>うく<ruby><rb>忘</rb><rt>わす</rt></ruby>れるところでしたわ。あなたに\\n『これ』をお<ruby><rb>貸</rb><rt>か</rt></ruby>ししてさしあげます。",
+        "zh_cn": "哎呀，稍微等一下。\\n我都差点忘了，\\n“这个”就借你一用吧。",
+        "zh_tw": "哎呀，請等一下。差點就忘了呢。\\n我要將「這個」借給你。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0055",
+      "book": ""
+    },
+    {
+      "icon": "110350_02",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "Wait, this is a caster. Don't you only\\nhand these things out to folks you\\n＂trust down to your very core＂?",
+        "ja_jp": "これは……これが『<ruby><rb>銃</rb><rt>じゅう</rt></ruby>』？\\n<ruby><rb>信用</rb><rt>しんよう</rt></ruby>できると<ruby><rb>思</rb><rt>おも</rt></ruby>った<ruby><rb>相手</rb><rt>あいて</rt></ruby>にしか\\n<ruby><rb>渡</rb><rt>わた</rt></ruby>さないんじゃなかったんすか？",
+        "zh_cn": "这……这就是“铳”吗？\\n你不是说只会交给\\n信得过的人吗？",
+        "zh_tw": "這是……這就是「銃」？\\n妳不是只會交給值得信任的人嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0056",
+      "book": ""
+    },
+    {
+      "icon": "100015_01",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Which is why I'm only LENDING it to you.\\nBut show you me know how to use it, and\\nI might just start to trust you for real.",
+        "ja_jp": "だからあくまでお<ruby><rb>貸</rb><rt>か</rt></ruby>しするだけですわ。\\nそれを<ruby><rb>使</rb><rt>つか</rt></ruby>って、あなた<ruby><rb>方</rb><rt>がた</rt></ruby>が<ruby><rb>信用</rb><rt>しんよう</rt></ruby>できる\\nということを<ruby><rb>証明</rb><rt>しょうめい</rt></ruby>してちょうだい。",
+        "zh_cn": "所以说这充其量只是借。\\n就用这个来证明\\n你们是值得信赖的吧。",
+        "zh_tw": "所以只是暫時「借」給你而已。\\n你就用它，來證明你們值得我信任吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0057",
+      "book": ""
+    },
+    {
+      "icon": "110350_02",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "Can't turn down an offer like that. Thanks.",
+        "ja_jp": "……じゃあ、お<ruby><rb>言葉</rb><rt>ことば</rt></ruby>に<ruby><rb>甘</rb><rt>あま</rt></ruby>えて\\n<ruby><rb>遠慮</rb><rt>えんりょ</rt></ruby>なくお<ruby><rb>借</rb><rt>か</rt></ruby>りしとくっす。",
+        "zh_cn": "那我就恭敬不如从命……\\n借它一用了。",
+        "zh_tw": "……那就恭敬不如從命，向妳借用了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0058",
+      "book": ""
+    },
+    {
+      "icon": "100015_01",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Rest assured, my little kittens will be\\nwatching closely, so do show me you have\\nconviction enough to deserve my trust.",
+        "ja_jp": "ふふふ、<ruby><rb>見</rb><rt>み</rt></ruby>せてもらいますわよ。\\nあなた<ruby><rb>方</rb><rt>がた</rt></ruby>に、<ruby><rb>信用</rb><rt>しんよう</rt></ruby>に<ruby><rb>値</rb><rt>あたい</rt></ruby>するだけの\\n<ruby><rb>意志</rb><rt>いし</rt></ruby>の<ruby><rb>強</rb><rt>つよ</rt></ruby>さがあるのかどうかを……。",
+        "zh_cn": "呵呵呵，好好证明吧。\\n让我看看你们是否具备\\n值得信赖的顽强意志……",
+        "zh_tw": "呵呵呵，就讓我見識一下吧。\\n看看你們是否擁有值得我信任的\\n堅強意志……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0059",
+      "book": ""
+    },
+    {
+      "icon": "120156_01",
+      "name": {
+        "en_us": "Svenitlan Soldier 2",
+        "ja_jp": "スヴェニトラ軍兵士２",
+        "zh_cn": "斯威尼特拉军士兵2",
+        "zh_tw": "斯韋尼德拉軍士兵2"
+      },
+      "context": {
+        "en_us": "Sir, we've gotten word from our scouts that\\nthe enemy force approaching from the\\nsoutheast numbers ten times our own!",
+        "ja_jp": "<ruby><rb>偵察部隊</rb><rt>ていさつぶたい</rt></ruby>からの<ruby><rb>報告</rb><rt>ほうこく</rt></ruby>、<ruby><rb>届</rb><rt>とど</rt></ruby>きました。\\n<ruby><rb>南東</rb><rt>なんとう</rt></ruby>より<ruby><rb>進軍中</rb><rt>しんぐんちゅう</rt></ruby>のバルテと<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>の<ruby><rb>連合</rb><rt>れんごう</rt></ruby><ruby><rb>軍</rb><rt>ぐん</rt></ruby>\\n……その<ruby><rb>兵</rb><rt>へい</rt></ruby><ruby><rb>数</rb><rt>すう</rt></ruby>はこちらの<ruby><rb>約</rb><rt>やく</rt></ruby>10<ruby><rb>倍</rb><rt>ばい</rt></ruby>！",
+        "zh_cn": "已收到侦察部队的报告。\\n自东南进军的巴尔特和帝国的联军……\\n兵力大约为我方的10倍！",
+        "zh_tw": "收到來自偵察部隊的報告。\\n巴爾鐵與帝國的同盟軍自東南方進軍。\\n……人數大約是我方的十倍！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0060",
+      "book": ""
+    },
+    {
+      "icon": "110350_02",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "Wow. Ten is...a lot. We may be just a\\ntouch outclassed on this one.",
+        "ja_jp": "10<ruby><rb>倍</rb><rt>ばい</rt></ruby>って……こりゃあマズいっすね。\\nとてもじゃないけど、オレたちだけじゃ\\n<ruby><rb>太刀打</rb><rt>たちう</rt></ruby>ちできない……。",
+        "zh_cn": "10倍……这下棘手了啊。\\n倒也不是完全打不过，\\n可光靠我们很难应付……",
+        "zh_tw": "十倍……這下不妙了呢。\\n儘管不是完全沒辦法，\\n但光憑我們還是難以對抗……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0061",
+      "book": ""
+    },
+    {
+      "icon": "110350_02",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "I know this is waaay beyond what you\\nsigned up for, but you mind lending us a\\nhand here, Euden?",
+        "ja_jp": "<ruby><rb>思</rb><rt>おも</rt></ruby>っていた<ruby><rb>形</rb><rt>かたち</rt></ruby>とはだいぶ<ruby><rb>違</rb><rt>ちが</rt></ruby>うんすけど、\\nユーディル、オレたちに<ruby><rb>手</rb><rt>て</rt></ruby>を\\n<ruby><rb>貸</rb><rt>か</rt></ruby>してもらえないっすか？",
+        "zh_cn": "虽然和预想的方式不同，\\n不过尤蒂尔，\\n你能助我们一臂之力吗？",
+        "zh_tw": "雖然和預想的不太一樣，\\n但尤帝爾，\\n能不能拜託你協助我們呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0062",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Of course! I wouldn't abandon you.\\nAnd with the Empire involved, this is as\\nmuch our problem as yours. We're in.",
+        "ja_jp": "<ruby><rb>仲間</rb><rt>なかま</rt></ruby>のピンチだ、もちろん<ruby><rb>力</rb><rt>ちから</rt></ruby>になるよ！\\n<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>が<ruby><rb>絡</rb><rt>から</rt></ruby>んでいるとなればなおのこと\\nこのまま<ruby><rb>放</rb><rt>ほう</rt></ruby>ってはおけない。",
+        "zh_cn": "伙伴遇到危机，岂有不帮之理！\\n更何况还牵涉到帝国，\\n就更不能放任不管了。",
+        "zh_tw": "夥伴遇到危機，當然要幫忙啊！\\n況且跟帝國有關，\\n就更不能坐視不管了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0063",
+      "book": ""
+    },
+    {
+      "icon": "110350_02",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "Appreciate it! And lookee there.\\nTheir vanguard's already arrived.",
+        "ja_jp": "そいつはありがたいっす。……って\\n<ruby><rb>言</rb><rt>い</rt></ruby>ってるそばから<ruby><rb>早速</rb><rt>さっそく</rt></ruby>、<ruby><rb>敵</rb><rt>てき</rt></ruby>の<ruby><rb>先行部隊</rb><rt>せんこうぶたい</rt></ruby>が\\nやって<ruby><rb>来</rb><rt>き</rt></ruby>たみたいっすね。",
+        "zh_cn": "那可真是感激不尽……\\n这话音还没落，\\n敌军的先头部队好像就来了。",
+        "zh_tw": "真是感激不盡……唔，話才剛說完，\\n敵人的先鋒部隊似乎就來了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0064",
+      "book": ""
+    },
+    {
+      "icon": "110350_02",
+      "name": {
+        "en_us": "Joachim",
+        "ja_jp": "ヨアキム",
+        "zh_cn": "约亚希姆",
+        "zh_tw": "約爾希姆"
+      },
+      "context": {
+        "en_us": "I'm usually not much for the brutal\\nbeatdown, but we don't have a choice if\\nwe wanna get out of this in one piece—\\nso let's get to it, folks!",
+        "ja_jp": "じゃあ、あんまり<ruby><rb>本意</rb><rt>ほんい</rt></ruby>じゃないけど、\\nここは<ruby><rb>素早</rb><rt>すばや</rt></ruby>く、<ruby><rb>容赦</rb><rt>ようしゃ</rt></ruby>なく、<ruby><rb>徹底的</rb><rt>てっていてき</rt></ruby>に\\n<ruby><rb>打</rb><rt>う</rt></ruby>ちのめしてやりますか！",
+        "zh_cn": "那么，虽然不怎么想这么做，\\n但我们就迅速、果断、彻底地\\n打倒他们吧！",
+        "zh_tw": "那麼，雖然並非本意，\\n總之就迅速、無情、徹底地\\n擊潰他們吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22206_01_0065",
+      "book": ""
+    }
+  ]
 }

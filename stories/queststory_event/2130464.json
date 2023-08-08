@@ -1,31 +1,60 @@
 {
-    "story_id": "",
-    "story_name": "情人节·甜美佳肴 追加剧情 安妮利艾",
-    "story_icon": "",
-    "outline": {
-        "title": "",
-        "content": [
-            "要跳过此剧情吗？"
-        ]
+  "title": {
+    "en_us": "Valentine's Confections Extra    Annelie",
+    "ja_jp": "バレンタイン・アラカルト エクストラ  アンネリーエ",
+    "zh_cn": "情人节·甜美佳肴 追加剧情  安妮利艾",
+    "zh_tw": "情人節‧精巧甜品　追加劇情  安妮李耶"
+  },
+  "outline": {
+    "title": {
+      "en_us": "",
+      "ja_jp": "",
+      "zh_cn": "",
+      "zh_tw": ""
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110275_01"
-            ],
-            "speaker_name": "安妮利艾",
-            "context": "送我的！？谢谢！呵呵，\\n你一直都带给我欢乐呢♪",
-            "voice_line": "VO_CHR_EVENTSTORY_21304_01_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110275_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "收到了来自安妮利艾的回礼。",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Skip this scene?",
+      "ja_jp": "このストーリーをスキップしますか？",
+      "zh_cn": "要跳过此剧情吗？",
+      "zh_tw": "請確認是否略過劇情？"
+    }
+  },
+  "prev": "2130463",
+  "next": "2130465",
+  "content": [
+    {
+      "icon": "110275_01",
+      "name": {
+        "en_us": "Annelie",
+        "ja_jp": "アンネリーエ",
+        "zh_cn": "安妮利艾",
+        "zh_tw": "安妮李耶"
+      },
+      "context": {
+        "en_us": "For me?! Aw, you didn't need\\nto get me anything!",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>に!?　ありがとう！　ふふ、あなたは\\nいつも<ruby><rb>笑顔</rb><rt>えがお</rt></ruby>をくれるわね♪",
+        "zh_cn": "送我的！？谢谢！呵呵，\\n你一直都带给我欢乐呢♪",
+        "zh_tw": "要送我的！？謝謝你！\\n呵呵，你總是會讓我充滿笑容呢♪"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21304_01_0024",
+      "book": ""
+    },
+    {
+      "icon": "110275_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "You received a thank-you gift from Annelie.",
+        "ja_jp": "アンネリーエからプレゼントのお<ruby><rb>礼</rb><rt>れい</rt></ruby>をもらった。",
+        "zh_cn": "收到了来自安妮利艾的回礼。",
+        "zh_tw": "收到了來自安妮李耶的回禮。"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

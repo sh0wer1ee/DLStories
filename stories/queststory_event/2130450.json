@@ -1,31 +1,60 @@
 {
-    "story_id": "",
-    "story_name": "情人节·甜美佳肴 追加剧情 皮雅茜",
-    "story_icon": "",
-    "outline": {
-        "title": "",
-        "content": [
-            "要跳过此剧情吗？"
-        ]
+  "title": {
+    "en_us": "Valentine's Confections Extra    Pia",
+    "ja_jp": "バレンタイン・アラカルト エクストラ  ピアチェ",
+    "zh_cn": "情人节·甜美佳肴 追加剧情  皮雅茜",
+    "zh_tw": "情人節‧精巧甜品　追加劇情  琵雅雀"
+  },
+  "outline": {
+    "title": {
+      "en_us": "",
+      "ja_jp": "",
+      "zh_cn": "",
+      "zh_tw": ""
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110302_01"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "哇啊……好、好开心！",
-            "voice_line": "VO_CHR_EVENTSTORY_21304_01_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "收到了来自皮雅茜的回礼。",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Skip this scene?",
+      "ja_jp": "このストーリーをスキップしますか？",
+      "zh_cn": "要跳过此剧情吗？",
+      "zh_tw": "請確認是否略過劇情？"
+    }
+  },
+  "prev": "2130449",
+  "next": "2130451",
+  "content": [
+    {
+      "icon": "110302_01",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Huh? A thank-you for me?\\nWowsers, I'm so excited!",
+        "ja_jp": "ふえぇ……う、うれしいです……！",
+        "zh_cn": "哇啊……好、好开心！",
+        "zh_tw": "嗚哇哇……好、好開心喔……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21304_01_0010",
+      "book": ""
+    },
+    {
+      "icon": "110302_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "You received a thank-you gift from Pia.",
+        "ja_jp": "ピアチェからプレゼントのお<ruby><rb>礼</rb><rt>れい</rt></ruby>をもらった。",
+        "zh_cn": "收到了来自皮雅茜的回礼。",
+        "zh_tw": "收到了來自琵雅雀的回禮。"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

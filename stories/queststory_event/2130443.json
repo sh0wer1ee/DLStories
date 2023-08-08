@@ -1,31 +1,60 @@
 {
-    "story_id": "",
-    "story_name": "情人节·甜美佳肴 追加剧情 拉辛",
-    "story_icon": "",
-    "outline": {
-        "title": "",
-        "content": [
-            "要跳过此剧情吗？"
-        ]
+  "title": {
+    "en_us": "Valentine's Confections Extra    Renelle",
+    "ja_jp": "バレンタイン・アラカルト エクストラ  ラシーヌ",
+    "zh_cn": "情人节·甜美佳肴 追加剧情  拉辛",
+    "zh_tw": "情人節‧精巧甜品　追加劇情  拉辛"
+  },
+  "outline": {
+    "title": {
+      "en_us": "",
+      "ja_jp": "",
+      "zh_cn": "",
+      "zh_tw": ""
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110005_01"
-            ],
-            "speaker_name": "拉辛",
-            "context": "谢、谢了！\\n这、这个，给、给你！\\n你可别说“真难得啊”之类的话哦！？",
-            "voice_line": "VO_CHR_EVENTSTORY_21304_01_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110005_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "收到了来自拉辛的回礼。",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Skip this scene?",
+      "ja_jp": "このストーリーをスキップしますか？",
+      "zh_cn": "要跳过此剧情吗？",
+      "zh_tw": "請確認是否略過劇情？"
+    }
+  },
+  "prev": "2130442",
+  "next": "2130444",
+  "content": [
+    {
+      "icon": "110005_01",
+      "name": {
+        "en_us": "Renelle",
+        "ja_jp": "ラシーヌ",
+        "zh_cn": "拉辛",
+        "zh_tw": "拉辛"
+      },
+      "context": {
+        "en_us": "Oh? Thanks!",
+        "ja_jp": "……あ、ありがとう、な！\\nこ、これ、やるよ！　<ruby><rb>珍</rb><rt>めずら</rt></ruby>しいとか\\n<ruby><rb>言</rb><rt>い</rt></ruby>うなよ!?",
+        "zh_cn": "谢、谢了！\\n这、这个，给、给你！\\n你可别说“真难得啊”之类的话哦！？",
+        "zh_tw": "……謝、謝謝、囉！\\n這、這個，給你啦！\\n可別說什麼「真難得啊」之類的喔！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21304_01_0003",
+      "book": ""
+    },
+    {
+      "icon": "110005_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "You received a thank-you gift from Renelle.",
+        "ja_jp": "ラシーヌからプレゼントのお<ruby><rb>礼</rb><rt>れい</rt></ruby>をもらった。",
+        "zh_cn": "收到了来自拉辛的回礼。",
+        "zh_tw": "收到了來自拉辛的回禮。"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

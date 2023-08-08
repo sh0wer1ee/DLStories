@@ -1,69 +1,136 @@
 {
-    "story_id": "",
-    "story_name": "崛起于圣城 第6章 3-4 对阵巴尔库斯军",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "王子一行人赶到巴尔库斯的所在之处。\\n要展现英勇，就意味着必须击败巴尔库斯。\\n王子怀抱着决心，\\n向自己的哥哥发起挑战。"
-        ]
+  "title": {
+    "en_us": "The Halidom's Crisis  Ch. 6 / 3-4  Battle with Valyx's Soldiers",
+    "ja_jp": "聖城に起つ 6章 3-4 対ヴァルクス軍",
+    "zh_cn": "崛起于圣城 第6章 3-4 对阵巴尔库斯军",
+    "zh_tw": "聖城崛起 第6章 3-4 對抗范爾克斯軍團"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "你来了啊，尤蒂尔。\\n似乎是击败了我的手下们……",
-            "voice_line": "VO_CHR_INGAMESTORY_06_01_1001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "收拾一堆杂兵和魔兽\\n来充英雄吗？",
-            "voice_line": "VO_CHR_INGAMESTORY_06_01_1002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "怎么会。我明白的。\\n要展现自己的英勇，就必须——",
-            "voice_line": "VO_CHR_INGAMESTORY_06_01_1003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "要击败\\n巴尔库斯哥哥！",
-            "voice_line": "VO_CHR_INGAMESTORY_06_01_1004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "很好。不过……",
-            "voice_line": "VO_CHR_INGAMESTORY_06_01_1005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100016_01"
-            ],
-            "speaker_name": "巴尔库斯",
-            "context": "哼，对付你们根本不需要龙化。\\n用这把斧就足够了！",
-            "voice_line": "VO_CHR_INGAMESTORY_06_01_1006",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "The prince reaches Valyx, who demands that\\n{player_name} demonstrate his valor\\nby surpassing him. The prince steels himself for\\nbattle and rises to his brother's challenge.",
+      "ja_jp": "ヴァルクスの<ruby><rb>元</rb><rt>もと</rt></ruby>にたどりついた<ruby><rb>王子</rb><rt>おうじ</rt></ruby>たち。\\n<ruby><rb>武勇</rb><rt>ぶゆう</rt></ruby>を<ruby><rb>示</rb><rt>しめ</rt></ruby>すとは、すなわちヴァルクスを\\n<ruby><rb>超</rb><rt>こ</rt></ruby>えること。<ruby><rb>王子</rb><rt>おうじ</rt></ruby>は<ruby><rb>決意</rb><rt>けつい</rt></ruby>を<ruby><rb>胸</rb><rt>むね</rt></ruby>に、<ruby><rb>兄</rb><rt>あに</rt></ruby>に<ruby><rb>戦</rb><rt>たたか</rt></ruby>いを\\n<ruby><rb>挑</rb><rt>いど</rt></ruby>む。",
+      "zh_cn": "王子一行人赶到巴尔库斯的所在之处。\\n要展现英勇，就意味着必须击败巴尔库斯。\\n王子怀抱着决心，\\n向自己的哥哥发起挑战。",
+      "zh_tw": "王子等人來到范爾克斯所在處。\\n欲展示合乎王者的武勇，\\n意即要打敗范爾克斯超越其武勇。\\n王子在此下定決心，與兄長一決勝負。"
+    }
+  },
+  "prev": "1000607",
+  "next": "1000609",
+  "content": [
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "You've come. Bested men and fiend alike.",
+        "ja_jp": "<ruby><rb>来</rb><rt>き</rt></ruby>たな、ユーディル。\\n<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>配下</rb><rt>はいか</rt></ruby>たちは<ruby><rb>倒</rb><rt>たお</rt></ruby>し<ruby><rb>切</rb><rt>き</rt></ruby>ったようだが──",
+        "zh_cn": "你来了啊，尤蒂尔。\\n似乎是击败了我的手下们……",
+        "zh_tw": "來了啊，尤帝爾。\\n看來我的部下全都被你打倒了──"
+      },
+      "voice": "VO_CHR_INGAMESTORY_06_01_1001",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "But do not think you've shown yourself a\\nhero yet, Euden.",
+        "ja_jp": "<ruby><rb>雑兵</rb><rt>ぞうひょう</rt></ruby>や<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>を<ruby><rb>蹴散</rb><rt>けち</rt></ruby>らして、\\n<ruby><rb>英雄</rb><rt>えいゆう</rt></ruby><ruby><rb>気取</rb><rt>きど</rt></ruby>りか？",
+        "zh_cn": "收拾一堆杂兵和魔兽\\n来充英雄吗？",
+        "zh_tw": "但你該不會以為收拾些雜兵或魔獸，\\n就當得成英雄了？"
+      },
+      "voice": "VO_CHR_INGAMESTORY_06_01_1002",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I've no illusions, Valyx. You asked me to\\ndemonstrate my strength, and that can\\nonly mean one thing...",
+        "ja_jp": "まさか。おれにはわかってる。\\n<ruby><rb>武勇</rb><rt>ぶゆう</rt></ruby>を<ruby><rb>示</rb><rt>しめ</rt></ruby>せ。それはすなわち──",
+        "zh_cn": "怎么会。我明白的。\\n要展现自己的英勇，就必须——",
+        "zh_tw": "怎麼可能，我可是很清楚的。\\n要我展示武勇，那就代表著──"
+      },
+      "voice": "VO_CHR_INGAMESTORY_06_01_1003",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I have to defeat you in combat!",
+        "ja_jp": "ヴァルクス<ruby><rb>兄</rb><rt>にい</rt></ruby>さんを<ruby><rb>越</rb><rt>こ</rt></ruby>えろということ！\\nおれはただ、そのためにここへ<ruby><rb>来</rb><rt>き</rt></ruby>た！",
+        "zh_cn": "要击败\\n巴尔库斯哥哥！",
+        "zh_tw": "要我超越范爾克斯哥哥！\\n我會到這裡，也只是為了那個目的！"
+      },
+      "voice": "VO_CHR_INGAMESTORY_06_01_1004",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "Your resolve is commendable...",
+        "ja_jp": "いい<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>だ。だが……",
+        "zh_cn": "很好。不过……",
+        "zh_tw": "有這樣的覺悟非常好。但是……"
+      },
+      "voice": "VO_CHR_INGAMESTORY_06_01_1005",
+      "book": ""
+    },
+    {
+      "icon": "100016_01",
+      "name": {
+        "en_us": "Valyx",
+        "ja_jp": "ヴァルクス",
+        "zh_cn": "巴尔库斯",
+        "zh_tw": "范爾克斯"
+      },
+      "context": {
+        "en_us": "But I needn't even draw upon the dragon's\\nmight to crush you. This axe is enough to\\ncleave your upstart's dreams in twain!",
+        "ja_jp": "フン、<ruby><rb>貴様</rb><rt>きさま</rt></ruby>ら<ruby><rb>相手</rb><rt>あいて</rt></ruby>に<ruby><rb>竜化</rb><rt>りゅうか</rt></ruby>するまでも\\nない。この<ruby><rb>斧</rb><rt>おの</rt></ruby>で<ruby><rb>両断</rb><rt>りょうだん</rt></ruby>してくれるッ!!",
+        "zh_cn": "哼，对付你们根本不需要龙化。\\n用这把斧就足够了！",
+        "zh_tw": "哼，對付你們，我根本連龍化都不需要。\\n就讓我的斧頭斬斷你吧！！"
+      },
+      "voice": "VO_CHR_INGAMESTORY_06_01_1006",
+      "book": ""
+    }
+  ]
 }

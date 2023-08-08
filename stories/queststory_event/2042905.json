@@ -1,602 +1,1139 @@
 {
-    "story_id": "",
-    "story_name": "PERSONA5 SCRAMBLE 失心之乱 Dubious Fanatic",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "王子一行人从艾缪尔的近卫兵口中\\n得知帝国的异变并赶往其同伴前去的村落，\\n却在那里遭到了神秘敌人的袭击。\\n在“心之怪盗团”的帮助下，\\n王子一行人最终脱身并与其一同撤退。"
-        ]
+  "title": {
+    "en_us": "Caged Desire    Warped Worshipers",
+    "ja_jp": "PERSONA5 SCRAMBLE Desire Lost  Dubious Fanatic",
+    "zh_cn": "PERSONA5 SCRAMBLE 失心之乱  Dubious Fanatic",
+    "zh_tw": "PERSONA5 SCRAMBLE Desire Lost  Dubious Fanatic"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [],
-            "speaker_name": "SYS",
-            "context": "几天前",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "帝国兵",
-            "context": "尤蒂尔殿下，\\n初次见面。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "你是？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "萨博亚",
-            "context": "我叫萨博亚，是您的兄长……\\n艾缪尔大人的近卫兵。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "艾缪尔！？\\n那个坏家伙的部下\\n来这里干什么？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "萨博亚",
-            "context": "我深知身为敌对势力\\n不该向您寻求帮助，\\n但是……唔啊！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "你有伤在身吗？\\n兰扎卜，快帮他治疗。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "好。有事就等到\\n伤治好之后再慢慢说吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "萨博亚",
-            "context": "请、请等一下！\\n我还有另一位同伴为了告知\\n帝国的异变而去了附近的村落。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "萨博亚",
-            "context": "唔唔……现在也许还来得及。\\n请一定要……救救……他……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "喂，振作一点！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "帝国的异变……\\n到底发生了什么……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "他说他的同伴\\n去了附近的村落对吧？\\n我们去打探一下情况吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "有道理。\\n我和卢卡去附近的村落一趟。\\n他就拜托你了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "好，这里就交给我吧。\\n你们要多加小心啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "啊，等等！我也去！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "喂，尤蒂尔，\\n那边聚集了很多人啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "可能发生了什么事。\\n我们去打听一下吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "村里的男子",
-            "context": "啊啊，艾缪尔大人！\\n艾缪尔大人您就是\\n我们活下去的动力……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120019_01"
-            ],
-            "speaker_name": "村里的青年",
-            "context": "全村一起歌颂艾缪尔大人吧！\\n要让更多的人们明白\\n艾缪尔大人的伟大才行！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "村落的女子",
-            "context": "只有艾缪尔大人才能\\n给这片格拉斯迪亚大陆带来安宁！\\n啊啊，亲爱的艾缪尔大人！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "这些人是怎么回事！？\\n一口一个艾缪尔大人……\\n这种狂热的样子绝对有问题！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "刚才那个人！\\n就是近卫兵说的同伴吧？\\n追他的那帮人是谁啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01"
-            ],
-            "speaker_name": "帝国兵",
-            "context": "唔！？怎、怎么还追过来！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01"
-            ],
-            "speaker_name": "帝国兵",
-            "context": "住、住手！？哇啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "刚才是怎么回事！？好像有个\\n宝石一样的东西被从身体里取出……\\n到底发生了什么！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "呃……看来没时间考虑了。\\n小心点，他们要来了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "这是盯上我们了吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120213_01",
-                "120213_01",
-                "120213_01"
-            ],
-            "speaker_name": "暗影警卫Ａ",
-            "context": "为了我们的王，\\n交出你们的“愿望”吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "该死，数量太多了……\\n怎么办，尤蒂尔，\\n要不要暂时撤退！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "不能丢下倒下的士兵不管。\\n至少要想办法救下他！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120213_01",
-                "120213_01",
-                "120213_01"
-            ],
-            "speaker_name": "暗影警卫B",
-            "context": "为了艾缪尔大人！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "人变成了魔兽！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "呀、呀啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "纳姆！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "怎么回事！？\\n有人在攻击魔兽！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "魔兽？\\n这些家伙是暗影！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110380_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "暗影就是敌人。\\n我来对付它们！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "毕竟不能丢下\\n有困难的人不管嘛！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "你、你们到底是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110377_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "我们是——“心之怪盗团”。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "心之……怪盗团！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110377_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "这里就交给我们吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "好、好厉害……\\n他们到底是何方神圣……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110377_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "到此为止了。\\n现身吧，亚森！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "JOKER，真有你的！\\n这下附近的暗影\\n差不多都除干净了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110380_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "但是马上就会有\\n新的敌人赶来增援。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "JOKER，怎么办？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110377_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "嗯……先撤退吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "是啊。喂，你们几个，\\n不想被夺走愿望的话，\\n就跟吾辈们一起走吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "愿、愿望？跟你们一起……\\n是什么意思？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "就是说……总之眼下\\n先和我们一起逃跑吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "哦，好的。不过，在那之前\\n我想救倒下的士兵……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110380_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "抱歉……已经来不及了。\\n我刚才看到他的愿望\\n已经被别的暗影夺走了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "诶……来不及了……\\n是指死了的意思吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "这个嘛……倒也不是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01"
-            ],
-            "speaker_name": "帝国兵",
-            "context": "啊啊，艾缪尔大人……\\n艾缪尔大人……万岁！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "太好了，原来他没事啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "没事倒是好……\\n但他看起来不太对劲啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110380_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "他被“心牢” 的“王”\\n夺走了“愿望”，\\n已经“悔改”了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110380_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "不夺回愿望的话，\\n就没法恢复原样。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "什么乱七八糟的……\\n又是心牢又是王，还有愿望……\\n你们到底是什么人？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "之后再向你解释。\\n现在不抓紧时间的话，\\n暗影又会聚起来的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110377_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "要赶在被包围前撤出去，\\n我们走。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我们也一起走吧！\\n退到安全的地方之后，\\n再向他们打听这事！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_02_0064",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "A member of Emile's royal guard tells the\\nprince of strange happenings within the Empire\\nbefore asking him to help another guard in a\\nnearby village. But when that meeting turns into\\nan all-out attack, the Phantom Thieves suddenly\\ncome to the rescue!",
+      "ja_jp": "エミュールの<ruby><rb>近衛兵</rb><rt>このえへい</rt></ruby>から<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>の<ruby><rb>異変</rb><rt>いへん</rt></ruby>について\\n<ruby><rb>聞</rb><rt>き</rt></ruby>いた<ruby><rb>王子</rb><rt>おうじ</rt></ruby>たちは、<ruby><rb>彼</rb><rt>かれ</rt></ruby>の<ruby><rb>仲間</rb><rt>なかま</rt></ruby>が<ruby><rb>訪</rb><rt>たず</rt></ruby>ねたという\\n<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>へ<ruby><rb>行</rb><rt>い</rt></ruby>く。そこで<ruby><rb>正体不明</rb><rt>しょうたいふめい</rt></ruby>の<ruby><rb>敵</rb><rt>てき</rt></ruby>に<ruby><rb>襲</rb><rt>おそ</rt></ruby>われる\\n<ruby><rb>王子</rb><rt>おうじ</rt></ruby>たちだったが、『<ruby><rb>心</rb><rt>こころ</rt></ruby>の<ruby><rb>怪盗</rb><rt>かいとう</rt></ruby><ruby><rb>団</rb><rt>だん</rt></ruby>』によって\\n<ruby><rb>助</rb><rt>たす</rt></ruby>けられ、<ruby><rb>彼</rb><rt>かれ</rt></ruby>らと<ruby><rb>共</rb><rt>とも</rt></ruby>に<ruby><rb>撤退</rb><rt>てったい</rt></ruby>することとなる。",
+      "zh_cn": "王子一行人从艾缪尔的近卫兵口中\\n得知帝国的异变并赶往其同伴前去的村落，\\n却在那里遭到了神秘敌人的袭击。\\n在“心之怪盗团”的帮助下，\\n王子一行人最终脱身并与其一同撤退。",
+      "zh_tw": "王子等人由埃米爾的近衛兵口中\\n得知帝國發生變異後，便前往其夥伴\\n造訪的村落。一行人到達後遭受到\\n不明的敵人所襲擊，此時『心之怪盜團』\\n出手相救，王子一行人便與他們一同撤離。"
+    }
+  },
+  "prev": "2042904",
+  "next": "2042906",
+  "content": [
+    {
+      "icon": "",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "A few days earlier...",
+        "ja_jp": "<ruby><rb>数日前</rb><rt>すうじつまえ</rt></ruby>",
+        "zh_cn": "几天前",
+        "zh_tw": "數天前"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Imperial Soldier",
+        "ja_jp": "帝国兵",
+        "zh_cn": "帝国兵",
+        "zh_tw": "帝國兵"
+      },
+      "context": {
+        "en_us": "It is an honor to meet you, Your Highness.",
+        "ja_jp": "ユーディル<ruby><rb>殿下</rb><rt>でんか</rt></ruby>。\\nお<ruby><rb>初</rb><rt>はつ</rt></ruby>にお<ruby><rb>目</rb><rt>め</rt></ruby>にかかります。",
+        "zh_cn": "尤蒂尔殿下，\\n初次见面。",
+        "zh_tw": "尤帝爾殿下。\\n初次見面。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0001",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Er... Who might you be?",
+        "ja_jp": "……きみは？",
+        "zh_cn": "你是？",
+        "zh_tw": "……你是？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0002",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Saboa",
+        "ja_jp": "サボア",
+        "zh_cn": "萨博亚",
+        "zh_tw": "薩博亞"
+      },
+      "context": {
+        "en_us": "My name is Saboa, and I serve in the\\nroyal guard of your brother, Prince Emile.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>はサボアと<ruby><rb>申</rb><rt>もう</rt></ruby>します。<ruby><rb>兄君</rb><rt>あにぎみ</rt></ruby>の……\\nエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>の<ruby><rb>近衛兵</rb><rt>このえへい</rt></ruby>を<ruby><rb>務</rb><rt>つと</rt></ruby>めて\\nおります。",
+        "zh_cn": "我叫萨博亚，是您的兄长……\\n艾缪尔大人的近卫兵。",
+        "zh_tw": "我名叫薩博亞。\\n現在正擔任您兄長……\\n埃米爾大人的近衛兵。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0003",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Emile?! The hell's that rat sendin'\\none'a his lackeys around here for?!",
+        "ja_jp": "……！　エミュールだって!?\\nあの<ruby><rb>性悪兄貴</rb><rt>しょうわるあにき</rt></ruby>の<ruby><rb>部下</rb><rt>ぶか</rt></ruby>が<ruby><rb>何</rb><rt>なん</rt></ruby>の<ruby><rb>用</rb><rt>よう</rt></ruby>だ？",
+        "zh_cn": "艾缪尔！？\\n那个坏家伙的部下\\n来这里干什么？",
+        "zh_tw": "……！埃米爾！？\\n那個性格惡劣哥哥的部下來這裡\\n是有什麼事？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0004",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Saboa",
+        "ja_jp": "サボア",
+        "zh_cn": "萨博亚",
+        "zh_tw": "薩博亞"
+      },
+      "context": {
+        "en_us": "I understand you and he are not on the\\nmost genial of terms and that I've no\\nright to ask your help, but... Nnngh!",
+        "ja_jp": "<ruby><rb>我々</rb><rt>われわれ</rt></ruby>と<ruby><rb>敵対</rb><rt>てきたい</rt></ruby><ruby><rb>関係</rb><rt>かんけい</rt></ruby>にある<ruby><rb>貴方様</rb><rt>あなたさま</rt></ruby>を<ruby><rb>頼</rb><rt>たよ</rt></ruby>るのが\\n<ruby><rb>筋違</rb><rt>すじちが</rt></ruby>いであるということは<ruby><rb>重々承知</rb><rt>じゅうじゅうしょうち</rt></ruby>して\\nいます。ですが――ぐぅ!?",
+        "zh_cn": "我深知身为敌对势力\\n不该向您寻求帮助，\\n但是……唔啊！？",
+        "zh_tw": "雖然深知向身為敵對關係的您\\n提出請求實在是非常不合乎情理，\\n但請您──唔呃！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0005",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Oh, you're hurt. Think you can take care\\nof his wounds, Ranzal?",
+        "ja_jp": "<ruby><rb>傷</rb><rt>きず</rt></ruby>を<ruby><rb>負</rb><rt>お</rt></ruby>っているのか？\\nランザーヴ、<ruby><rb>彼</rb><rt>かれ</rt></ruby>を<ruby><rb>手当</rb><rt>てあ</rt></ruby>てして\\nやってくれ。",
+        "zh_cn": "你有伤在身吗？\\n兰扎卜，快帮他治疗。",
+        "zh_tw": "你受傷了嗎？\\n蘭薩弗，快幫他做緊急處置。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0006",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Yeah, all right. We'll hear him out after.",
+        "ja_jp": "ああ、そうだな。<ruby><rb>話</rb><rt>はなし</rt></ruby>は<ruby><rb>怪我</rb><rt>けが</rt></ruby>を<ruby><rb>治療</rb><rt>ちりょう</rt></ruby>した\\nあとでゆっくり<ruby><rb>聞</rb><rt>き</rt></ruby>くぜ。",
+        "zh_cn": "好。有事就等到\\n伤治好之后再慢慢说吧。",
+        "zh_tw": "嗯，我同意。\\n有什麼話就等治療完再慢慢說吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0007",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Saboa",
+        "ja_jp": "サボア",
+        "zh_cn": "萨博亚",
+        "zh_tw": "薩博亞"
+      },
+      "context": {
+        "en_us": "Wait! There is another besides me\\nwho came to convey the news of the\\ndisturbance in the Empire. He traveled\\nto the nearby village.",
+        "ja_jp": "ま、<ruby><rb>待</rb><rt>ま</rt></ruby>ってください……！　<ruby><rb>私以外</rb><rt>わたしいがい</rt></ruby>にも\\n<ruby><rb>仲間</rb><rt>なかま</rt></ruby>がひとり、<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>の<ruby><rb>異変</rb><rt>いへん</rt></ruby>を<ruby><rb>伝</rb><rt>つた</rt></ruby>えるため\\n<ruby><rb>近</rb><rt>ちか</rt></ruby>くの<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>に<ruby><rb>訪</rb><rt>おとず</rt></ruby>れています。",
+        "zh_cn": "请、请等一下！\\n我还有另一位同伴为了告知\\n帝国的异变而去了附近的村落。",
+        "zh_tw": "請、請稍等……！除了我以外\\n還有一名同伴，正到附近的聚落\\n通知大家帝國發生變異的消息。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0008",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Saboa",
+        "ja_jp": "サボア",
+        "zh_cn": "萨博亚",
+        "zh_tw": "薩博亞"
+      },
+      "context": {
+        "en_us": "There may...still be time...\\nPlease help him, I beg you...",
+        "ja_jp": "ううっ……<ruby><rb>今</rb><rt>いま</rt></ruby>ならまだ<ruby><rb>間</rb><rt>ま</rt></ruby>に<ruby><rb>合</rb><rt>あ</rt></ruby>うかも。\\nどうか、<ruby><rb>彼</rb><rt>かれ</rt></ruby>を……<ruby><rb>助</rb><rt>たす</rt></ruby>け、て……。",
+        "zh_cn": "唔唔……现在也许还来得及。\\n请一定要……救救……他……",
+        "zh_tw": "唔唔……現在或許還來得及。\\n請您務必，幫助……他……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0009",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Hang on, buddy. Stay with us!",
+        "ja_jp": "おい、しっかりしろ！",
+        "zh_cn": "喂，振作一点！",
+        "zh_tw": "喂，你振作點！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0010",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What do you think he meant by\\n＂disturbance in the Empire＂?",
+        "ja_jp": "<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>の<ruby><rb>異変</rb><rt>いへん</rt></ruby>……いったい<ruby><rb>何</rb><rt>なに</rt></ruby>が……？",
+        "zh_cn": "帝国的异变……\\n到底发生了什么……",
+        "zh_tw": "帝國的變異……究竟是怎麼了……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0011",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "This guy's out cold, so we'll have to ask\\nhis pal. You wanna hoof it to the village?",
+        "ja_jp": "<ruby><rb>近</rb><rt>ちか</rt></ruby>くの<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>に<ruby><rb>仲間</rb><rt>なかま</rt></ruby>が<ruby><rb>来</rb><rt>き</rt></ruby>てるって<ruby><rb>言</rb><rt>い</rt></ruby>ってた\\nよな？　<ruby><rb>様子</rb><rt>ようす</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>こうぜ！",
+        "zh_cn": "他说他的同伴\\n去了附近的村落对吧？\\n我们去打探一下情况吧！",
+        "zh_tw": "他說有同伴來到了這附近的聚落是嗎？\\n那我就去看看狀況吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0012",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "It's a plan. You and I can ask around after\\nthe mystery guard while Ranzal stays back\\nand takes care of our friend here.",
+        "ja_jp": "そうだな。おれとリュカで\\n<ruby><rb>近隣</rb><rt>きんりん</rt></ruby>の<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>を<ruby><rb>確認</rb><rt>かくにん</rt></ruby>して<ruby><rb>回</rb><rt>まわ</rt></ruby>ろう。\\nランザーヴは<ruby><rb>彼</rb><rt>かれ</rt></ruby>のことを<ruby><rb>頼</rb><rt>たの</rt></ruby>む。",
+        "zh_cn": "有道理。\\n我和卢卡去附近的村落一趟。\\n他就拜托你了。",
+        "zh_tw": "是啊，那我和琉卡就到\\n附近的聚落去確認情況。\\n蘭薩弗，就麻煩你照顧他了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0013",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Don't worry, I'll get him patched up pretty\\nas a picture—no missin' limbs or nothin'.\\nJust be careful out there, yeah?",
+        "ja_jp": "ああ、こっちは<ruby><rb>任</rb><rt>まか</rt></ruby>せておけ。\\n<ruby><rb>気</rb><rt>き</rt></ruby>をつけて<ruby><rb>行</rb><rt>い</rt></ruby>けよ。",
+        "zh_cn": "好，这里就交给我吧。\\n你们要多加小心啊。",
+        "zh_tw": "嗯，這裡就交給我處理吧。\\n你們多加小心啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0014",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Hey, wait for me! You bozos don't stand\\na chance out there without ol' Notte!",
+        "ja_jp": "あっ、<ruby><rb>待</rb><rt>ま</rt></ruby>って！　わたしも<ruby><rb>行</rb><rt>い</rt></ruby>くよー！",
+        "zh_cn": "啊，等等！我也去！",
+        "zh_tw": "啊，等等！\\n我也要跟你們一起去！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0015",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Uh oh. Looks like we've got\\na bit of a situation here.",
+        "ja_jp": "おい、ユーディル。\\nなんか<ruby><rb>人</rb><rt>ひと</rt></ruby>だかりができてるぜ？",
+        "zh_cn": "喂，尤蒂尔，\\n那边聚集了很多人啊。",
+        "zh_tw": "喂，尤帝爾。\\n好像有人聚集在那邊耶。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0016",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "That's quite the crowd. Let's ask around\\nand try to find out what happened.",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>かあったのかもしれない。\\n<ruby><rb>話</rb><rt>はなし</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>きに<ruby><rb>行</rb><rt>い</rt></ruby>ってみよう。",
+        "zh_cn": "可能发生了什么事。\\n我们去打听一下吧。",
+        "zh_tw": "搞不好發生什麼事了。\\n我們去打聽看看吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0017",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Male Villager",
+        "ja_jp": "村の男",
+        "zh_cn": "村里的男子",
+        "zh_tw": "部落的男子"
+      },
+      "context": {
+        "en_us": "Great Prince Emile! I could never dream\\nof a life without you as my guiding star!",
+        "ja_jp": "ああ、エミュール<ruby><rb>様</rb><rt>さま</rt></ruby>！\\nもうエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>なしでは\\n<ruby><rb>生</rb><rt>い</rt></ruby>きていけない……！",
+        "zh_cn": "啊啊，艾缪尔大人！\\n艾缪尔大人您就是\\n我们活下去的动力……",
+        "zh_tw": "啊啊，埃米爾大人！\\n我們要是失去了埃米爾大人\\n是活不下去的……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0018",
+      "book": ""
+    },
+    {
+      "icon": "120019_01",
+      "name": {
+        "en_us": "Village Youth",
+        "ja_jp": "村の青年",
+        "zh_cn": "村里的青年",
+        "zh_tw": "村裡的青年"
+      },
+      "context": {
+        "en_us": "Let us offer up prayers of supplication to\\nHis Highness Prince Emile! May our village\\nspread word of his greatness far and wide!",
+        "ja_jp": "<ruby><rb>村</rb><rt>むら</rt></ruby>を<ruby><rb>挙</rb><rt>あ</rt></ruby>げてエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>を<ruby><rb>讃</rb><rt>たた</rt></ruby>えよう！\\nエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>の<ruby><rb>素晴</rb><rt>すば</rt></ruby>らしさを\\nもっともっと<ruby><rb>広</rb><rt>ひろ</rt></ruby>めなくては!!",
+        "zh_cn": "全村一起歌颂艾缪尔大人吧！\\n要让更多的人们明白\\n艾缪尔大人的伟大才行！",
+        "zh_tw": "動員全村的人來讚揚埃米爾大人吧！\\n埃米爾大人的偉大，\\n必須要更廣為人知才行！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0019",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Female Villager",
+        "ja_jp": "村の女",
+        "zh_cn": "村落的女子",
+        "zh_tw": "部落的女子"
+      },
+      "context": {
+        "en_us": "Emile alone can bring peace to Grastaea!\\nAll hail our most beloved prince!\\nAll hail our hero and savior!",
+        "ja_jp": "このグラスティア<ruby><rb>大陸</rb><rt>たいりく</rt></ruby>に<ruby><rb>平穏</rb><rt>へいおん</rt></ruby>をもたらす\\nことができるのはエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>だけよ！\\nああ、なんて<ruby><rb>愛</rb><rt>いと</rt></ruby>おしいエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>っ！",
+        "zh_cn": "只有艾缪尔大人才能\\n给这片格拉斯迪亚大陆带来安宁！\\n啊啊，亲爱的艾缪尔大人！",
+        "zh_tw": "只有埃米爾大人才能為這\\n格拉斯迪亞大陸帶來和平！\\n啊啊，埃米爾大人怎麼如此令人敬愛！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0020",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Did somebody drop this entire village on\\nits head? NOBODY likes Emile this much!\\n...Well, except Emile, I suppose.",
+        "ja_jp": "みんな、どうしちゃったの!?\\nエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>、エミュール<ruby><rb>様</rb><rt>さま</rt></ruby>って……\\nこの<ruby><rb>熱狂</rb><rt>ねっきょう</rt></ruby>ぶり、<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby>おかしいよ！",
+        "zh_cn": "这些人是怎么回事！？\\n一口一个艾缪尔大人……\\n这种狂热的样子绝对有问题！",
+        "zh_tw": "大家，是發生什麼事了！？\\n滿口埃米爾大人、埃米爾大人的……\\n狂熱成這樣，一定是有什麼問題啦！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0021",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Hey, look! That's gotta be the other guard!\\n...Er, but why do you figure they're chasing\\nhim all over the place?",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>の！　<ruby><rb>近衛兵</rb><rt>このえへい</rt></ruby>が<ruby><rb>言</rb><rt>い</rt></ruby>ってた<ruby><rb>仲間</rb><rt>なかま</rt></ruby>だよな！\\n<ruby><rb>追</rb><rt>お</rt></ruby>っかけてたヤツらはいったい……!?",
+        "zh_cn": "刚才那个人！\\n就是近卫兵说的同伴吧？\\n追他的那帮人是谁啊？",
+        "zh_tw": "剛才的人！是近衛兵說的同伴吧！\\n那些在追他的傢伙們到底是……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0022",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Imperial Soldier",
+        "ja_jp": "帝国兵",
+        "zh_cn": "帝国兵",
+        "zh_tw": "帝國兵"
+      },
+      "context": {
+        "en_us": "Stay back! Leave me be!",
+        "ja_jp": "くっ!?　ま、まだ<ruby><rb>追</rb><rt>お</rt></ruby>って<ruby><rb>来</rb><rt>く</rt></ruby>るのか！",
+        "zh_cn": "唔！？怎、怎么还追过来！",
+        "zh_tw": "唔！？又、又追過來了嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0023",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Imperial Soldier",
+        "ja_jp": "帝国兵",
+        "zh_cn": "帝国兵",
+        "zh_tw": "帝國兵"
+      },
+      "context": {
+        "en_us": "Stop! No! AAAAAAAAUGH!",
+        "ja_jp": "や、やめろ!?　うわぁああああああ！",
+        "zh_cn": "住、住手！？哇啊啊啊啊啊啊！",
+        "zh_tw": "住手、住手！？\\n哇啊啊啊啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0024",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Uh, so I don't know much about human\\nanatomy or whatever, but I'm pretty sure\\ngems ain't supposed to pop outta your\\nbodies like that!",
+        "ja_jp": "なんだよ<ruby><rb>今</rb><rt>いま</rt></ruby>の!?　<ruby><rb>身体</rb><rt>からだ</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>から\\n<ruby><rb>宝石</rb><rt>ほうせき</rt></ruby>みたいなもんを<ruby><rb>抜</rb><rt>ぬ</rt></ruby>き<ruby><rb>取</rb><rt>と</rt></ruby>ってたぞ\\n……どうなってんだ!?",
+        "zh_cn": "刚才是怎么回事！？好像有个\\n宝石一样的东西被从身体里取出……\\n到底发生了什么！？",
+        "zh_tw": "那是怎樣！？從他身體裡有個像是\\n寶石的東西被抽出來了耶……\\n到底是發生什麼事了！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0025",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Let's worry about that later.\\nThe crowd's coming this way!",
+        "ja_jp": "くっ……どうやら<ruby><rb>考</rb><rt>かんが</rt></ruby>えている<ruby><rb>暇</rb><rt>ひま</rt></ruby>は\\nなさそうだ。<ruby><rb>気</rb><rt>き</rt></ruby>をつけろ、こっちに\\n<ruby><rb>来</rb><rt>く</rt></ruby>るぞ！",
+        "zh_cn": "呃……看来没时间考虑了。\\n小心点，他们要来了！",
+        "zh_tw": "唔……看來沒有時間思考了。\\n大家小心，他們要往這來了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0026",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Wait, they're after US now?!",
+        "ja_jp": "<ruby><rb>次</rb><rt>つぎ</rt></ruby>の<ruby><rb>標的</rb><rt>ひょうてき</rt></ruby>はオレたちってわけかよ！",
+        "zh_cn": "这是盯上我们了吗！",
+        "zh_tw": "下個目標是我們的意思嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0027",
+      "book": ""
+    },
+    {
+      "icon": "120213_01",
+      "name": {
+        "en_us": "Shadow Guard A",
+        "ja_jp": "シャドウ警備兵Ａ",
+        "zh_cn": "暗影警卫Ａ",
+        "zh_tw": "陰影警衛兵A"
+      },
+      "context": {
+        "en_us": "Offer up your Desires to our Monarch!",
+        "ja_jp": "<ruby><rb>我</rb><rt>われ</rt></ruby>らが<ruby><rb>王</rb><rt>キング</rt></ruby>のために、\\n<ruby><rb>貴様</rb><rt>きさま</rt></ruby>らの『ネガイ』も<ruby><rb>寄越</rb><rt>よこ</rt></ruby>せ！",
+        "zh_cn": "为了我们的王，\\n交出你们的“愿望”吧！",
+        "zh_tw": "為了我們的王，\\n把你們的『願望』給交出來！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0028",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Damn, there's a lot of them...\\nWhat's the plan? Retreat and regroup?",
+        "ja_jp": "くそっ、すげえ<ruby><rb>数</rb><rt>かず</rt></ruby>だな……\\nどうする、ユーディル、\\n<ruby><rb>一度</rb><rt>いちど</rt></ruby>、<ruby><rb>退</rb><rt>ひ</rt></ruby>くか!?",
+        "zh_cn": "该死，数量太多了……\\n怎么办，尤蒂尔，\\n要不要暂时撤退！？",
+        "zh_tw": "該死，這數量也太多了……\\n怎麼辦，尤帝爾，\\n先撤退嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0029",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "We have to help that guard first!",
+        "ja_jp": "<ruby><rb>倒</rb><rt>たお</rt></ruby>れた<ruby><rb>兵士</rb><rt>へいし</rt></ruby>を<ruby><rb>放</rb><rt>ほう</rt></ruby>っていくわけには\\nいかない。なんとか、<ruby><rb>彼</rb><rt>かれ</rt></ruby>だけでも\\n<ruby><rb>助</rb><rt>たす</rt></ruby>けないと……！",
+        "zh_cn": "不能丢下倒下的士兵不管。\\n至少要想办法救下他！",
+        "zh_tw": "我們不能把倒下的士兵丟在那。\\n總得想辦法，把他給救出來……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0030",
+      "book": ""
+    },
+    {
+      "icon": "120213_01",
+      "name": {
+        "en_us": "Shadow Guard B",
+        "ja_jp": "シャドウ警備兵Ｂ",
+        "zh_cn": "暗影警卫B",
+        "zh_tw": "陰影警衛兵B"
+      },
+      "context": {
+        "en_us": "For the glory of Prince Emile!",
+        "ja_jp": "エミュール<ruby><rb>様</rb><rt>さま</rt></ruby>のためにッ！",
+        "zh_cn": "为了艾缪尔大人！",
+        "zh_tw": "為了埃米爾大人！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0031",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "He transformed into a fiend!",
+        "ja_jp": "<ruby><rb>人</rb><rt>ひと</rt></ruby>が<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>に<ruby><rb>変</rb><rt>か</rt></ruby>わった!?",
+        "zh_cn": "人变成了魔兽！？",
+        "zh_tw": "人變成魔獸了！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0032",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Aaaaaaaaah!",
+        "ja_jp": "き、きゃああああああっ！",
+        "zh_cn": "呀、呀啊啊啊啊啊啊！",
+        "zh_tw": "呀、呀啊啊啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0033",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Notte!",
+        "ja_jp": "ナームっ！",
+        "zh_cn": "纳姆！",
+        "zh_tw": "那姆！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0034",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Wait, look! Someone's attacking the fiend!",
+        "ja_jp": "なんだ!?\\n<ruby><rb>誰</rb><rt>だれ</rt></ruby>かが<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>を<ruby><rb>攻撃</rb><rt>こうげき</rt></ruby>してる!?",
+        "zh_cn": "怎么回事！？\\n有人在攻击魔兽！？",
+        "zh_tw": "怎麼了！？\\n是誰在攻擊魔獸？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0035",
+      "book": ""
+    },
+    {
+      "icon": "110379_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "This is no fiend. It's a Shadow!",
+        "ja_jp": "マジュウ？\\nこいつらはシャドウってんだ！",
+        "zh_cn": "魔兽？\\n这些家伙是暗影！",
+        "zh_tw": "魔獸？\\n這些傢伙是陰影啦！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0036",
+      "book": ""
+    },
+    {
+      "icon": "110380_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "And all Shadows are our enemies.\\nI'll take them on!",
+        "ja_jp": "シャドウなら<ruby><rb>敵</rb><rt>てき</rt></ruby>だな。\\n<ruby><rb>相手</rb><rt>あいて</rt></ruby>になるぞ！",
+        "zh_cn": "暗影就是敌人。\\n我来对付它们！",
+        "zh_tw": "陰影，所以是敵人對吧。\\n讓我來對付你們！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0037",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "We can't just ignore all these\\npeople in trouble, you know?",
+        "ja_jp": "<ruby><rb>困</rb><rt>こま</rt></ruby>ってる<ruby><rb>人</rb><rt>ひと</rt></ruby>を<ruby><rb>放</rb><rt>ほ</rt></ruby>っとけないもんね！",
+        "zh_cn": "毕竟不能丢下\\n有困难的人不管嘛！",
+        "zh_tw": "畢竟有人陷入麻煩，\\n不能不管他們嘛！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0038",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Who are you people?",
+        "ja_jp": "き、きみたちは<ruby><rb>一体</rb><rt>いったい</rt></ruby>……？",
+        "zh_cn": "你、你们到底是……",
+        "zh_tw": "你、你們是……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0039",
+      "book": ""
+    },
+    {
+      "icon": "110377_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "We're...the Phantom Thieves of Hearts.",
+        "ja_jp": "<ruby><rb>俺</rb><rt>おれ</rt></ruby>たちは――『<ruby><rb>心</rb><rt>こころ</rt></ruby>の<ruby><rb>怪盗</rb><rt>かいとう</rt></ruby><ruby><rb>団</rb><rt>だん</rt></ruby>』。",
+        "zh_cn": "我们是——“心之怪盗团”。",
+        "zh_tw": "我們是──『心之怪盜團』。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0040",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Uh, you're THIEVES?!",
+        "ja_jp": "<ruby><rb>心</rb><rt>こころ</rt></ruby>の……<ruby><rb>怪盗</rb><rt>かいとう</rt></ruby><ruby><rb>団</rb><rt>だん</rt></ruby>!?",
+        "zh_cn": "心之……怪盗团！？",
+        "zh_tw": "心之……怪盜團！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0041",
+      "book": ""
+    },
+    {
+      "icon": "110377_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Leave this to us!",
+        "ja_jp": "ここは<ruby><rb>任</rb><rt>まか</rt></ruby>せろ！",
+        "zh_cn": "这里就交给我们吧！",
+        "zh_tw": "這裡就交給我們吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0042",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Whoa. These guys are something else!",
+        "ja_jp": "す、すげえ……なんだこいつら……。",
+        "zh_cn": "好、好厉害……\\n他们到底是何方神圣……",
+        "zh_tw": "好、好厲害……\\n這些傢伙到底……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0043",
+      "book": ""
+    },
+    {
+      "icon": "110377_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Come, Arsène!",
+        "ja_jp": "<ruby><rb>終</rb><rt>お</rt></ruby>わりだ。\\n――<ruby><rb>来</rb><rt>こ</rt></ruby>い、アルセーヌ！",
+        "zh_cn": "到此为止了。\\n现身吧，亚森！",
+        "zh_tw": "結束了。\\n──出來吧，亞森！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0044",
+      "book": ""
+    },
+    {
+      "icon": "110379_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Slick as ever, Joker! That should do it for\\nthe Shadows around here.",
+        "ja_jp": "さすがだぜ、ジョーカー！\\nこれで<ruby><rb>近</rb><rt>ちか</rt></ruby>くのシャドウは\\n<ruby><rb>粗方</rb><rt>あらかた</rt></ruby><ruby><rb>片付</rb><rt>かたづ</rt></ruby>いたな。",
+        "zh_cn": "JOKER，真有你的！\\n这下附近的暗影\\n差不多都除干净了。",
+        "zh_tw": "不愧是JOKER啊！\\n這樣一來附近的陰影\\n大致上都收拾掉了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0045",
+      "book": ""
+    },
+    {
+      "icon": "110380_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "But more will come soon.",
+        "ja_jp": "でも、またすぐ<ruby><rb>増援</rb><rt>ぞうえん</rt></ruby>が<ruby><rb>来</rb><rt>く</rt></ruby>るぞ。",
+        "zh_cn": "但是马上就会有\\n新的敌人赶来增援。",
+        "zh_tw": "但是，\\n援軍馬上就會過來了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0046",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "What's our next move, Joker?",
+        "ja_jp": "どうする、ジョーカー？",
+        "zh_cn": "JOKER，怎么办？",
+        "zh_tw": "怎麼辦，JOKER？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0047",
+      "book": ""
+    },
+    {
+      "icon": "110377_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "We fall back—for now.",
+        "ja_jp": "ああ…<ruby><rb>一度</rb><rt>いちど</rt></ruby>、<ruby><rb>退</rb><rt>ひ</rt></ruby>こう。",
+        "zh_cn": "嗯……先撤退吧。",
+        "zh_tw": "嗯……先暫時撤退吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0048",
+      "book": ""
+    },
+    {
+      "icon": "110379_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Hey, you three! You better come with us\\nif you don't want your Desires stolen!",
+        "ja_jp": "だな。おい、そこのオマエら。\\nネガイを<ruby><rb>奪</rb><rt>うば</rt></ruby>われたくなければ、\\nワガハイたちと<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に<ruby><rb>来</rb><rt>こ</rt></ruby>い。",
+        "zh_cn": "是啊。喂，你们几个，\\n不想被夺走愿望的话，\\n就跟吾辈们一起走吧。",
+        "zh_tw": "也是。喂，那邊的幾位，\\n如果不想要願望被奪走，\\n就跟吾輩等人一起走吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0049",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Wait, they ＂steal＂ desires? How's that\\nwork? And where are you guys going?\\nAlso, what's happening, like, in general?",
+        "ja_jp": "ね、ネガイ？　<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に<ruby><rb>来</rb><rt>こ</rt></ruby>いって……\\nどういうことだ？",
+        "zh_cn": "愿、愿望？跟你们一起……\\n是什么意思？",
+        "zh_tw": "願、願望？\\n你說和你們一起走……\\n是什麼意思？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0050",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Well, right now we're running away,\\nso get your butts in gear!",
+        "ja_jp": "とりあえず<ruby><rb>今</rb><rt>いま</rt></ruby>は、<ruby><rb>私</rb><rt>わたし</rt></ruby>たちと<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に\\n<ruby><rb>逃</rb><rt>に</rt></ruby>げましょ――ってこと。",
+        "zh_cn": "就是说……总之眼下\\n先和我们一起逃跑吧。",
+        "zh_tw": "總之先跟我們一起\\n逃離這裡的意思啦。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0051",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Wait! We have to help that guard.",
+        "ja_jp": "あ、ああ、わかった。でも、その<ruby><rb>前</rb><rt>まえ</rt></ruby>に\\n<ruby><rb>倒</rb><rt>たお</rt></ruby>れた<ruby><rb>兵士</rb><rt>へいし</rt></ruby>を<ruby><rb>助</rb><rt>たす</rt></ruby>けないと……。",
+        "zh_cn": "哦，好的。不过，在那之前\\n我想救倒下的士兵……",
+        "zh_tw": "啊、嗯嗯，我明白了。\\n但是，在那之前我們必須要\\n把倒下的士兵救出來……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0052",
+      "book": ""
+    },
+    {
+      "icon": "110380_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "I'm sorry... We were too late.\\nI saw another Shadow seize\\nhis Desire a few moments ago.",
+        "ja_jp": "すまない…<ruby><rb>間</rb><rt>ま</rt></ruby>に<ruby><rb>合</rb><rt>あ</rt></ruby>わなかった。\\nさっき<ruby><rb>別</rb><rt>べつ</rt></ruby>のシャドウにネガイを<ruby><rb>奪</rb><rt>うば</rt></ruby>われて\\nいるのが<ruby><rb>見</rb><rt>み</rt></ruby>えた。",
+        "zh_cn": "抱歉……已经来不及了。\\n我刚才看到他的愿望\\n已经被别的暗影夺走了。",
+        "zh_tw": "抱歉……我們來得太遲了。\\n剛才我看見有其他陰影\\n把他的願望奪走了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0053",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "So he's...dead?",
+        "ja_jp": "えっ……<ruby><rb>間</rb><rt>ま</rt></ruby>に<ruby><rb>合</rb><rt>あ</rt></ruby>わなかったって……\\n<ruby><rb>死</rb><rt>し</rt></ruby>んじゃったってこと？",
+        "zh_cn": "诶……来不及了……\\n是指死了的意思吗？",
+        "zh_tw": "咦……妳說太遲了……\\n是指他已經死掉了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0054",
+      "book": ""
+    },
+    {
+      "icon": "110379_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Well, not exactly.",
+        "ja_jp": "あー…いや、そうじゃないが…",
+        "zh_cn": "这个嘛……倒也不是……",
+        "zh_tw": "啊……不，雖然不是那樣……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0055",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Imperial Soldier",
+        "ja_jp": "帝国兵",
+        "zh_cn": "帝国兵",
+        "zh_tw": "帝國兵"
+      },
+      "context": {
+        "en_us": "Ahhh... AAAAAH! Prince Emile!\\nAll hail your glorious name!",
+        "ja_jp": "ああ……エミュール<ruby><rb>様</rb><rt>さま</rt></ruby>……\\nエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>……ばんざーい……！",
+        "zh_cn": "啊啊，艾缪尔大人……\\n艾缪尔大人……万岁！",
+        "zh_tw": "啊啊……埃米爾大人……\\n埃米爾大人……萬歲……!"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0056",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Look! He's alive!",
+        "ja_jp": "よかった、<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>だったか！",
+        "zh_cn": "太好了，原来他没事啊！",
+        "zh_tw": "太好了，他沒受傷嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0057",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Yeah, but doesn't he seem a little...\\nI dunno. Funny?",
+        "ja_jp": "<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>だったのはいいが……\\nな、なんか<ruby><rb>様子</rb><rt>ようす</rt></ruby>がおかしくねえか？",
+        "zh_cn": "没事倒是好……\\n但他看起来不太对劲啊？",
+        "zh_tw": "雖然沒受傷是好事……\\n但怎麼、看起來樣子有點奇怪啊？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0058",
+      "book": ""
+    },
+    {
+      "icon": "110380_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "The Jail's Monarch has seized his Desire\\nand changed his heart.",
+        "ja_jp": "この『ジェイル』の『<ruby><rb>王</rb><rt>キング</rt></ruby>』に\\n『ネガイ』を<ruby><rb>奪</rb><rt>うば</rt></ruby>われて\\n『<ruby><rb>改心</rb><rt>かいしん</rt></ruby>』させられたんだ。",
+        "zh_cn": "他被“心牢” 的“王”\\n夺走了“愿望”，\\n已经“悔改”了。",
+        "zh_tw": "他已經被這個『監獄』的『王』\\n奪走『願望』而『悔改』了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0059",
+      "book": ""
+    },
+    {
+      "icon": "110380_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "The only way to return him to the way\\nhe was is to steal that Desire back.",
+        "ja_jp": "ネガイを<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>返</rb><rt>かえ</rt></ruby>さないと\\n<ruby><rb>元</rb><rt>もと</rt></ruby>には<ruby><rb>戻</rb><rt>もど</rt></ruby>らない。",
+        "zh_cn": "不夺回愿望的话，\\n就没法恢复原样。",
+        "zh_tw": "如果不把願望拿回來，\\n就無法恢復原狀。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0060",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "I know those words individually, but they\\ndon't make any sense in that order.\\nJust who ARE you people, anyway?",
+        "ja_jp": "ジェイルとか<ruby><rb>王</rb><rt>キング</rt></ruby>とかネガイとか……\\nわけがわからねえ……！\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>ら、いったい<ruby><rb>何者</rb><rt>なにもの</rt></ruby>なんだ？",
+        "zh_cn": "什么乱七八糟的……\\n又是心牢又是王，还有愿望……\\n你们到底是什么人？",
+        "zh_tw": "監獄啊、王啊、還有願望什麼的……\\n我怎麼有聽沒有懂啊……！\\n你們到底是什麼人？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0061",
+      "book": ""
+    },
+    {
+      "icon": "110379_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "We can explain later—if we hang around here,\\nwe'll be swarmed by Shadows.",
+        "ja_jp": "<ruby><rb>詳</rb><rt>くわ</rt></ruby>しい<ruby><rb>説明</rb><rt>せつめい</rt></ruby>はあとだ。\\nのんびりしてると\\nまたシャドウが<ruby><rb>集</rb><rt>あつ</rt></ruby>まって<ruby><rb>来</rb><rt>き</rt></ruby>ちまう。",
+        "zh_cn": "之后再向你解释。\\n现在不抓紧时间的话，\\n暗影又会聚起来的。",
+        "zh_tw": "詳細的事情就等等再說明。\\n如果繼續在這裡悠哉下去，\\n等下陰影又要聚集過來了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0062",
+      "book": ""
+    },
+    {
+      "icon": "110377_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "We need to move. Come on.",
+        "ja_jp": "<ruby><rb>囲</rb><rt>かこ</rt></ruby>まれる<ruby><rb>前</rb><rt>まえ</rt></ruby>に<ruby><rb>撤退</rb><rt>てったい</rt></ruby>する。<ruby><rb>行</rb><rt>い</rt></ruby>こう。",
+        "zh_cn": "要赶在被包围前撤出去，\\n我们走。",
+        "zh_tw": "在被包圍之前先撤退，走吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0063",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Come on, Luca, let's get somewhere safe.\\nWe can hear them out after that.",
+        "ja_jp": "おれたちも<ruby><rb>行</rb><rt>い</rt></ruby>こう！\\n<ruby><rb>安全</rb><rt>あんぜん</rt></ruby>な<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>まで<ruby><rb>退避</rb><rt>たいひ</rt></ruby>する。<ruby><rb>彼</rb><rt>かれ</rt></ruby>らから\\n<ruby><rb>詳</rb><rt>くわ</rt></ruby>しい<ruby><rb>話</rb><rt>はなし</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>くのはそのあとだ！",
+        "zh_cn": "我们也一起走吧！\\n退到安全的地方之后，\\n再向他们打听这事！",
+        "zh_tw": "我們也走吧！\\n先躲到安全的地方去，\\n之後再來跟他們打聽詳細的情報！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_02_0064",
+      "book": ""
+    }
+  ]
 }

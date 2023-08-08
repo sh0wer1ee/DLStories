@@ -1,668 +1,1258 @@
 {
-    "story_id": "",
-    "story_name": "迎击战～晚夏使者愁纷纷～ 来自黄泉之下",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "前去参加祭典的库菈乌和拉托妮\\n在那里遇到了灯笼逆流而行的奇异现象。\\n目睹此景的拉托妮突然念起了\\n神秘咒语，灯笼随即化身为僵尸。\\n为打倒袭来的僵尸，二人联手迎战。"
-        ]
+  "title": {
+    "en_us": "Drifting Sorrows    Lost Souls in Twilight",
+    "ja_jp": "迎撃戦～晩夏の使者、愁然に交わりて～  黒き黄昏の底より舞い上がりて",
+    "zh_cn": "迎击战～晚夏使者愁纷纷～  来自黄泉之下",
+    "zh_tw": "迎擊戰～暮夏使者的憂愁之遇～  躍起於黑暗黃昏之淵"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "呼……这下需要我\\n帮忙穿浴衣的人\\n都已经穿好了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "今年奎因贝尔的祭典\\n也非常热闹呢。多亏如此，\\n圣城也能清净……咦？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_02",
-                "120144_01"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "我们要留下来看家呢……\\n好想去逛祭典啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120144_01"
-            ],
-            "speaker_name": "乌尔塔",
-            "context": "喵。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "那是……拉托妮？\\n我记得今早库格尔他们\\n好像因为紧急任务出门了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120144_01"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "这也没办法……\\n库格尔他们不在，\\n拜托别人带我去会添麻烦的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120144_01"
-            ],
-            "speaker_name": "乌尔塔",
-            "context": "喵～",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120144_01"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "没关系……\\n我很擅长，克制自己的。\\n一个人待着就好。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_02",
-                "120144_01"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "不过……浴衣，\\n好想再穿一次啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "没事的，你不用克制自己。\\n浴衣，想穿就穿吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_02"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "哇！？你是……库菈乌？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "是的。穿浴衣的任务\\n就交给我吧。我们这就穿上，\\n然后一起去逛祭典吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_02"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "诶……诶？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03",
-                "120144_01"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "就这样不明不白地……\\n来逛祭典了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120144_01"
-            ],
-            "speaker_name": "乌尔塔",
-            "context": "喵～",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "拉托妮！你看，我给你买了\\n小摊上卖的棉花糖哦！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "唔、嗯……谢谢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "别客气，尽管吃。\\n要喝点饮料吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "不、不用了。\\n棉花糖，我就不客气了。\\n嗯……啊呜。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "真好吃……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "是吗！呵呵，太好了！\\n你开心就好。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "要是还有其它想做的事，\\n就尽管和我说吧。难得来逛祭典，\\n我希望你玩得开心。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "嗯、嗯……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "（库菈乌她……\\n平时就总是照顾大家，\\n给我一种非常温柔的感觉……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "（可是她为什么\\n突然带我出门了呢？）",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "拉托妮？\\n怎么了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "那……那个。\\n我没给你添麻烦吧？\\n你和我一起……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "怎么会添麻烦呢？\\n是我希望看到你的笑容，\\n才自作主张这么做的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "笑、容……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "是的。所以我希望你玩得开心。\\n虽然我作为库格尔的代理\\n可能让你没有安全感……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "没、没有的事……谢谢你。\\n那个，既然是这样，\\n我想去……放灯笼。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "之前我和库格尔他们去过……\\n特别好看。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "哦，那可是这次祭典的重头戏。\\n和日出之国本土一样，往水里\\n放灯笼以抚慰死者的亡魂……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "我也想见识一下呢。\\n那我们这就去看看吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "哇……好多灯笼在水上漂，\\n好美啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "是啊，比传闻中更美。\\n来，我们也放一个灯笼\\n试试吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "嗯。之前库格尔教过我，\\n说放灯笼的时候\\n要边为故人祈祷边放。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "所以，我要为爸爸和妈妈……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01",
-                "120019_01"
-            ],
-            "speaker_name": "祭典参与者",
-            "context": "喂，这是怎么回事啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120019_01"
-            ],
-            "speaker_name": "祭典参与者",
-            "context": "真邪门……怎么会这样？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "咦？那边好像……\\n很吵的样子。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "不知道发生了什么事。\\n我们去看看吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "诶！这是……怎么回事？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "灯笼在逆流而行……\\n为什么会这样？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "不知道……不过，\\n我有一种不祥的预感……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120144_01"
-            ],
-            "speaker_name": "乌尔塔",
-            "context": "喵啊啊啊！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "乌尔塔？怎么了？\\n你也觉得灯笼不对劲吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120144_01"
-            ],
-            "speaker_name": "乌尔塔",
-            "context": "喵啊啊啊啊啊……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120144_01"
-            ],
-            "speaker_name": "乌尔塔",
-            "context": "喵啊——",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "诶？\\n啊……啊、啊、啊啊啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮？",
-            "context": "黄泉之下，迷途亡魂。\\n听闻召唤，速速聚集。\\n皆以吾主为尊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮？",
-            "context": "阴阳两界，颠沛流离。\\n活供为祭，听吾之令。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "咦？我到底……\\n在做什么……啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120202_01"
-            ],
-            "speaker_name": "僵尸们",
-            "context": "嗷呜呜呜呜。嗷呜呜。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "诶……拉托妮的咒语\\n让灯笼变成了僵尸？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "怪物在……袭击人群……\\n难道……又是我体内\\n可怕的东西在作祟？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "怎么会，不要……\\n都怪我，又有人……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120202_01"
-            ],
-            "speaker_name": "僵尸",
-            "context": "嗷呜呜呜……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "小心！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "你冷静一点，拉托妮！\\n总之我们现在\\n得先摆脱那些僵尸才行！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "可是，我……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "之后再说。\\n你躲到我身后来。\\n我用魔法来赶跑敌人！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120203_01",
-                "120202_01"
-            ],
-            "speaker_name": "僵尸们",
-            "context": "呜咕噜噜。呜啊啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "吃我……这一招！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120202_01"
-            ],
-            "speaker_name": "僵尸们",
-            "context": "唔嗷嗷嗷嗷嗷嗷！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120202_01"
-            ],
-            "speaker_name": "僵尸",
-            "context": "唔……啊、啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "好了，这下清出了一条路。\\n趁现在——",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120202_01"
-            ],
-            "speaker_name": "僵尸们",
-            "context": "呜呜呜呜呜呜，\\n嗷嗷嗷嗷嗷嗷！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "什么，这么快就又出现了！？\\n一点喘息的时间\\n都不给我们啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "我们快点从这里脱身，\\n然后和来逛祭典的\\n圣城诸位会合吧。明白了吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "唔、嗯！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_01_0065",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "As Cleo and Lathna enjoy a festival outing, they\\nspy lanterns mysteriously flowing backwards up\\nthe river. The sight causes Lathna to suddenly\\ncast an unknown spell, turning the lanterns into\\nzombies. The pair work together to fight off the\\nincoming tide of undead assailants.",
+      "ja_jp": "お<ruby><rb>祭</rb><rt>まつ</rt></ruby>りへ<ruby><rb>来</rb><rt>き</rt></ruby>たクラウとラトニー。そこで\\n<ruby><rb>灯篭</rb><rt>とうろう</rt></ruby>が<ruby><rb>川</rb><rt>かわ</rt></ruby>を<ruby><rb>逆流</rb><rt>ぎゃくりゅう</rt></ruby>する<ruby><rb>怪異</rb><rt>かいい</rt></ruby>に<ruby><rb>遭遇</rb><rt>そうぐう</rt></ruby>。それを<ruby><rb>見</rb><rt>み</rt></ruby>た\\nラトニーは<ruby><rb>突然</rb><rt>とつぜん</rt></ruby><ruby><rb>謎</rb><rt>なぞ</rt></ruby>の<ruby><rb>呪文</rb><rt>じゅもん</rt></ruby>を<ruby><rb>唱</rb><rt>とな</rt></ruby>え<ruby><rb>出</rb><rt>だ</rt></ruby>した。\\nすると、<ruby><rb>灯篭</rb><rt>とうろう</rt></ruby>がゾンビに<ruby><rb>変身</rb><rt>へんしん</rt></ruby>。<ruby><rb>襲</rb><rt>おそ</rt></ruby>い<ruby><rb>来</rb><rt>く</rt></ruby>る\\nゾンビを<ruby><rb>倒</rb><rt>たお</rt></ruby>すため、ふたりは<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>合</rb><rt>あ</rt></ruby>わせる。",
+      "zh_cn": "前去参加祭典的库菈乌和拉托妮\\n在那里遇到了灯笼逆流而行的奇异现象。\\n目睹此景的拉托妮突然念起了\\n神秘咒语，灯笼随即化身为僵尸。\\n为打倒袭来的僵尸，二人联手迎战。",
+      "zh_tw": "克菈兒與菈特妮來參加祭典，\\n卻遇到燈籠沿著河川逆流而上的怪異現象。\\n看見此景的菈特妮突然詠唱出謎樣咒語，\\n燈籠也因此變身為殭屍。\\n為了擊退襲來的殭屍，兩人便合力作戰。"
+    }
+  },
+  "prev": "",
+  "next": "2221502",
+  "content": [
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Phew. That should about do it for all of\\nthe yukata fitting I was asked to handle.",
+        "ja_jp": "ふぅ……これで<ruby><rb>頼</rb><rt>たの</rt></ruby>まれていた<ruby><rb>分</rb><rt>ぶん</rt></ruby>は\\n<ruby><rb>浴衣</rb><rt>ゆかた</rt></ruby>を<ruby><rb>着付</rb><rt>きつ</rt></ruby>け<ruby><rb>終</rb><rt>お</rt></ruby>わりましたか。",
+        "zh_cn": "呼……这下需要我\\n帮忙穿浴衣的人\\n都已经穿好了。",
+        "zh_tw": "呼……這樣一來，\\n幫忙穿浴衣的委託就全部結束了吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0001",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "This year's festival in Quinbell looks as\\nthough it will be quite popular. No doubt\\nthe Halidom will be quiet as a result.\\n...Hm?",
+        "ja_jp": "<ruby><rb>今年</rb><rt>ことし</rt></ruby>もクインベルのお<ruby><rb>祭</rb><rt>まつ</rt></ruby>りは<ruby><rb>大人気</rb><rt>だいにんき</rt></ruby>\\nですね。おかげで<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>は<ruby><rb>静</rb><rt>しず</rt></ruby>かになり\\nそうですが……おや？",
+        "zh_cn": "今年奎因贝尔的祭典\\n也非常热闹呢。多亏如此，\\n圣城也能清净……咦？",
+        "zh_tw": "今年昆恩貝爾的祭典也很有人氣呢。\\n這也讓聖城清閒不少就是了……喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0002",
+      "book": ""
+    },
+    {
+      "icon": "120144_01",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Wish they hadn't left me to watch the\\nplace... I wanted to go to the festival.",
+        "ja_jp": "……お<ruby><rb>留守番</rb><rt>るすばん</rt></ruby>になっちゃったね。\\nお<ruby><rb>祭</rb><rt>まつ</rt></ruby>り、<ruby><rb>行</rb><rt>い</rt></ruby>きたかったな。",
+        "zh_cn": "我们要留下来看家呢……\\n好想去逛祭典啊。",
+        "zh_tw": "……變成我們留下來看家了呢。\\n本來、想去看看祭典的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0003",
+      "book": ""
+    },
+    {
+      "icon": "120144_01",
+      "name": {
+        "en_us": "Ulthar",
+        "ja_jp": "ウルタール",
+        "zh_cn": "乌尔塔",
+        "zh_tw": "烏魯塔爾"
+      },
+      "context": {
+        "en_us": "Mrow.",
+        "ja_jp": "にゃぁ。",
+        "zh_cn": "喵。",
+        "zh_tw": "喵。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Is that Lathna? Ah, if I recall, Curran and\\nHeinwald did depart on sudden business\\nthis morning.",
+        "ja_jp": "あれは……ラトニーさん？\\nそういえば<ruby><rb>今朝</rb><rt>けさ</rt></ruby>、クーガーさんたちが\\n<ruby><rb>急</rb><rt>きゅう</rt></ruby>な<ruby><rb>仕事</rb><rt>しごと</rt></ruby>に<ruby><rb>出</rb><rt>で</rt></ruby>て<ruby><rb>行</rb><rt>い</rt></ruby>ったような……。",
+        "zh_cn": "那是……拉托妮？\\n我记得今早库格尔他们\\n好像因为紧急任务出门了……",
+        "zh_tw": "那是……菈特妮？\\n這麼說來今天早上，庫豹先生他們\\n好像去處理緊急的工作了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0004",
+      "book": ""
+    },
+    {
+      "icon": "120144_01",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Oh well. I'm sure I'd only be a bother if I\\nasked someone else to take me.",
+        "ja_jp": "……<ruby><rb>仕方</rb><rt>しかた</rt></ruby>ないの。クーガーたち\\n<ruby><rb>以外</rb><rt>いがい</rt></ruby>に<ruby><rb>頼</rb><rt>たの</rt></ruby>むのは、きっと<ruby><rb>迷惑</rb><rt>めいわく</rt></ruby>だから。",
+        "zh_cn": "这也没办法……\\n库格尔他们不在，\\n拜托别人带我去会添麻烦的。",
+        "zh_tw": "……沒辦法。\\n如果拜託庫豹他們以外的人，\\n一定會添麻煩的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0005",
+      "book": ""
+    },
+    {
+      "icon": "120144_01",
+      "name": {
+        "en_us": "Ulthar",
+        "ja_jp": "ウルタール",
+        "zh_cn": "乌尔塔",
+        "zh_tw": "烏魯塔爾"
+      },
+      "context": {
+        "en_us": "Mrrrow.",
+        "ja_jp": "にゃあ～。",
+        "zh_cn": "喵～",
+        "zh_tw": "喵～"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120144_01",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "It's okay. I know how to grin and bear\\nthings. I'm fine being by myself.",
+        "ja_jp": "<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>……がまんは、<ruby><rb>得意</rb><rt>とくい</rt></ruby>。\\nわたしは、ひとりでいいの。",
+        "zh_cn": "没关系……\\n我很擅长，克制自己的。\\n一个人待着就好。",
+        "zh_tw": "沒關係……\\n我很會、忍耐。\\n我自己、一個人就行了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0006",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "...!",
+        "ja_jp": "…………！",
+        "zh_cn": "！",
+        "zh_tw": "………！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120144_01",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "But...I really did want to wear a yukata\\nagain.",
+        "ja_jp": "……でも。<ruby><rb>浴衣</rb><rt>ゆかた</rt></ruby>、また、\\n<ruby><rb>着</rb><rt>き</rt></ruby>てみたかったな……。",
+        "zh_cn": "不过……浴衣，\\n好想再穿一次啊……",
+        "zh_tw": "……但是，浴衣，\\n還想、再穿看看呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0007",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Worry not, Lathna. You need not ＂grin and\\nbear＂ a thing today. Let's get you into a\\nyukata!",
+        "ja_jp": "――<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>です、<ruby><rb>我慢</rb><rt>がまん</rt></ruby>の<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>は\\nありません。<ruby><rb>着</rb><rt>き</rt></ruby>ましょう、<ruby><rb>浴衣</rb><rt>ゆかた</rt></ruby>！",
+        "zh_cn": "没事的，你不用克制自己。\\n浴衣，想穿就穿吧！",
+        "zh_tw": "──沒事的，妳不須要忍耐。\\n就穿吧！浴衣！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0008",
+      "book": ""
+    },
+    {
+      "icon": "110349_02",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Eep! You... You're Cleo.",
+        "ja_jp": "ひゃっ!?　あなたは……クラウ？",
+        "zh_cn": "哇！？你是……库菈乌？",
+        "zh_tw": "呀啊！？妳是……克菈兒？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0009",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Yes, that's right. And if it's a yukata you\\nwant, I'm happy to dress you in one! Let's\\nget you taken care of. The festival awaits!",
+        "ja_jp": "はい、そうです。<ruby><rb>浴衣</rb><rt>ゆかた</rt></ruby>の<ruby><rb>着付</rb><rt>きつ</rt></ruby>けなら、\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>にお<ruby><rb>任</rb><rt>まか</rt></ruby>せください。<ruby><rb>早速</rb><rt>さっそく</rt></ruby><ruby><rb>着付</rb><rt>きつ</rt></ruby>けて、\\n<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>にお<ruby><rb>祭</rb><rt>まつ</rt></ruby>りへ<ruby><rb>行</rb><rt>い</rt></ruby>きましょう！",
+        "zh_cn": "是的。穿浴衣的任务\\n就交给我吧。我们这就穿上，\\n然后一起去逛祭典吧！",
+        "zh_tw": "對，是我。\\n如果要幫忙穿浴衣的話，請交給我。\\n我們趕快換完裝，然後一起去祭典吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0010",
+      "book": ""
+    },
+    {
+      "icon": "110349_02",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Huh? Whaaat?",
+        "ja_jp": "えっ？　えっ、えぇっ？",
+        "zh_cn": "诶……诶？",
+        "zh_tw": "咦？咦、咦咦？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0011",
+      "book": ""
+    },
+    {
+      "icon": "120144_01",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "...And now somehow I'm at the festival.",
+        "ja_jp": "……なんだかわからないまま、\\nお<ruby><rb>祭</rb><rt>まつ</rt></ruby>り、<ruby><rb>来</rb><rt>き</rt></ruby>ちゃった……。",
+        "zh_cn": "就这样不明不白地……\\n来逛祭典了……",
+        "zh_tw": "……還搞不清楚狀況，\\n就這樣、來到祭典了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0012",
+      "book": ""
+    },
+    {
+      "icon": "120144_01",
+      "name": {
+        "en_us": "Ulthar",
+        "ja_jp": "ウルタール",
+        "zh_cn": "乌尔塔",
+        "zh_tw": "烏魯塔爾"
+      },
+      "context": {
+        "en_us": "Mrowl.",
+        "ja_jp": "にゃ～。",
+        "zh_cn": "喵～",
+        "zh_tw": "喵～"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Lathnaaa! Look, I bought us some cotton\\ncandy from one of the stalls.",
+        "ja_jp": "ラトニーさ～ん！　ほら、<ruby><rb>屋台</rb><rt>やたい</rt></ruby>の\\nわたあめ、<ruby><rb>買</rb><rt>か</rt></ruby>ってきましたよ！",
+        "zh_cn": "拉托妮！你看，我给你买了\\n小摊上卖的棉花糖哦！",
+        "zh_tw": "菈特妮～！\\n來，我從攤販那邊，\\n買了棉花糖喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0013",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Oh... Thank you.",
+        "ja_jp": "あ、う、うん……。ありがとう。",
+        "zh_cn": "唔、嗯……谢谢。",
+        "zh_tw": "啊、唔、嗯……謝謝。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0014",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Don't be bashful. Have as much as you'd\\nlike. Do you need something to drink?",
+        "ja_jp": "<ruby><rb>遠慮</rb><rt>えんりょ</rt></ruby>しないで、<ruby><rb>好</rb><rt>す</rt></ruby>きなだけ<ruby><rb>食</rb><rt>た</rt></ruby>べて\\nくださいね。<ruby><rb>飲</rb><rt>の</rt></ruby>みものも<ruby><rb>要</rb><rt>い</rt></ruby>りますか？",
+        "zh_cn": "别客气，尽管吃。\\n要喝点饮料吗？",
+        "zh_tw": "請不用顧慮，盡情地吃喔。\\n要喝飲料嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0015",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "It's okay. I'll just snack for now. *munch*",
+        "ja_jp": "だ、<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>。わたあめ、もらうね。\\nんっ……はむっ。",
+        "zh_cn": "不、不用了。\\n棉花糖，我就不客气了。\\n嗯……啊呜。",
+        "zh_tw": "沒、沒關係。\\n棉花糖，我就吃囉。\\n嗯……啊嗯。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0016",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "...It's good.",
+        "ja_jp": "……おいしい。",
+        "zh_cn": "真好吃……",
+        "zh_tw": "……好好吃。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0017",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Delighted to hear it! As long as you're\\nhappy, I'm happy.",
+        "ja_jp": "そうですか！　ふふ、よかった！\\n<ruby><rb>喜</rb><rt>よろこ</rt></ruby>んでもらえてなによりです。",
+        "zh_cn": "是吗！呵呵，太好了！\\n你开心就好。",
+        "zh_tw": "是嗎！呵呵，太好了！\\n只要妳喜歡就好。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0018",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "If there's anything else you'd like to do,\\njust let me know. I want you to enjoy the\\nfestival as much as possible.",
+        "ja_jp": "<ruby><rb>他</rb><rt>ほか</rt></ruby>に<ruby><rb>何</rb><rt>なに</rt></ruby>かやりたいことがあれば\\nどんどん<ruby><rb>言</rb><rt>い</rt></ruby>ってください。せっかくの\\nお<ruby><rb>祭</rb><rt>まつ</rt></ruby>り、<ruby><rb>楽</rb><rt>たの</rt></ruby>しんでほしいですから。",
+        "zh_cn": "要是还有其它想做的事，\\n就尽管和我说吧。难得来逛祭典，\\n我希望你玩得开心。",
+        "zh_tw": "如果有什麼其他想做的事，\\n都請儘管說出來。\\n難得來祭典了，希望妳能玩開心點。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0019",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Okay...",
+        "ja_jp": "う、うん……。",
+        "zh_cn": "嗯、嗯……",
+        "zh_tw": "嗯、嗯……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0020",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "(I know Cleo has a reputation for being\\na nice person who always takes care of\\neverybody...)",
+        "ja_jp": "（クラウ……いつもみんなの\\n　お<ruby><rb>世話</rb><rt>せわ</rt></ruby>をしてて、やさしそうな\\n　<ruby><rb>人</rb><rt>ひと</rt></ruby>だなって<ruby><rb>思</rb><rt>おも</rt></ruby>ってたけど……）",
+        "zh_cn": "（库菈乌她……\\n平时就总是照顾大家，\\n给我一种非常温柔的感觉……）",
+        "zh_tw": "（克菈兒……\\n因為她總是在照顧大家，\\n所以本來就覺得她是個溫柔的人……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0021",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "(But what made her so suddenly decide to\\nbring me here?)",
+        "ja_jp": "（どうして<ruby><rb>急</rb><rt>きゅう</rt></ruby>に、わたしを\\n　<ruby><rb>連</rb><rt>つ</rt></ruby>れ<ruby><rb>出</rb><rt>だ</rt></ruby>してくれたんだろう……？）",
+        "zh_cn": "（可是她为什么\\n突然带我出门了呢？）",
+        "zh_tw": "（但為什麼，\\n要突然把我帶出來呢……？）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0022",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Something wrong, sweetheart?",
+        "ja_jp": "……ラトニーさん？　\\nどうかしましたか？",
+        "zh_cn": "拉托妮？\\n怎么了吗？",
+        "zh_tw": "……菈特妮？\\n妳怎麼了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0023",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Um... Isn't it a bother, Cleo? For you\\nto be babysitting me like this, I mean.",
+        "ja_jp": "あ……あの。クラウは、<ruby><rb>迷惑</rb><rt>めいわく</rt></ruby>じゃない？\\nわたしと<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>にいるのが……。",
+        "zh_cn": "那……那个。\\n我没给你添麻烦吧？\\n你和我一起……",
+        "zh_tw": "啊……那個，\\n克菈兒，不麻煩嗎？\\n和我在一起……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0024",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Not in the slightest. I wanted to see\\nyou smile, so I'm doing this of my own\\nvolition.",
+        "ja_jp": "<ruby><rb>迷惑</rb><rt>めいわく</rt></ruby>だなんてとんでもない。\\nラトニーさんの<ruby><rb>笑顔</rb><rt>えがお</rt></ruby>が<ruby><rb>見</rb><rt>み</rt></ruby>たくて、\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>勝手</rb><rt>かって</rt></ruby>にやっていることです。",
+        "zh_cn": "怎么会添麻烦呢？\\n是我希望看到你的笑容，\\n才自作主张这么做的。",
+        "zh_tw": "一點也不麻煩喔。\\n是我想要看到菈特妮的笑容，\\n所以擅自這麼做的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0025",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Oh! I...",
+        "ja_jp": "……！　えが、お……。",
+        "zh_cn": "笑、容……",
+        "zh_tw": "……！笑、容……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0026",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Please, just enjoy yourself. I may not\\nbe exactly what you're looking for as a\\nsubstitute for Curran and Heinwald, but\\nI hope I'll suffice while they're away.",
+        "ja_jp": "はい。だから<ruby><rb>楽</rb><rt>たの</rt></ruby>しんでほしいんです。\\nクーガーさんたちの<ruby><rb>代理</rb><rt>だいり</rt></ruby>としては\\n<ruby><rb>心許</rb><rt>こころもと</rt></ruby>ないかもしれませんが……。",
+        "zh_cn": "是的。所以我希望你玩得开心。\\n虽然我作为库格尔的代理\\n可能让你没有安全感……",
+        "zh_tw": "對。所以希望妳能玩得開心。\\n雖然作為代替庫豹先生他們的人，\\n我可能還不夠稱職……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0027",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "No, you're great... Thank you. Um, then\\nif it's okay, I think I'd like to go see the\\nlantern ceremony on the river.",
+        "ja_jp": "う、ううん……ありがとう。\\n――あの。それならわたし、\\n<ruby><rb>灯篭流</rb><rt>とうろうなが</rt></ruby>しに……<ruby><rb>行</rb><rt>い</rt></ruby>きたい。",
+        "zh_cn": "没、没有的事……谢谢你。\\n那个，既然是这样，\\n我想去……放灯笼。",
+        "zh_tw": "不、沒有……謝謝妳。\\n──那個，這樣的話，\\n我想要去……放水燈。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0028",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "I went there with Curran and them before.\\nIt was really pretty.",
+        "ja_jp": "<ruby><rb>前</rb><rt>まえ</rt></ruby>に、クーガーたちと<ruby><rb>行</rb><rt>い</rt></ruby>って……\\nとっても、きれいだったから。",
+        "zh_cn": "之前我和库格尔他们去过……\\n特别好看。",
+        "zh_tw": "之前、和庫豹他們一起去過……\\n非常的、漂亮。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0029",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "That event certainly is a show-stopper,\\nisn't it? It's just like in its home country,\\nHinomoto, where lanterns are set afloat on\\nthe river to comfort the souls of the dead.",
+        "ja_jp": "ああ、このお<ruby><rb>祭</rb><rt>まつ</rt></ruby>りの<ruby><rb>目玉</rb><rt>めだま</rt></ruby><ruby><rb>行事</rb><rt>ぎょうじ</rt></ruby>ですよね。\\nヒノモト<ruby><rb>本国</rb><rt>ほんごく</rt></ruby><ruby><rb>同様</rb><rt>どうよう</rt></ruby>、ランタンを<ruby><rb>流</rb><rt>なが</rt></ruby>して\\n<ruby><rb>死者</rb><rt>ししゃ</rt></ruby>の<ruby><rb>魂</rb><rt>たましい</rt></ruby>を<ruby><rb>慰撫</rb><rt>いぶ</rt></ruby>するという……。",
+        "zh_cn": "哦，那可是这次祭典的重头戏。\\n和日出之国本土一样，往水里\\n放灯笼以抚慰死者的亡魂……",
+        "zh_tw": "嗯，那是這個祭典的重點活動對吧。\\n和日初之國當地一樣，是將燈籠\\n放到河流裡來弔念死者……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0030",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "I myself wanted to see it at least once\\nas well. Let's be on our way, shall we?",
+        "ja_jp": "<ruby><rb>一度</rb><rt>いちど</rt></ruby><ruby><rb>見</rb><rt>み</rt></ruby>てみたいと<ruby><rb>思</rb><rt>おも</rt></ruby>っていたんです。\\n<ruby><rb>早速</rb><rt>さっそく</rt></ruby><ruby><rb>行</rb><rt>い</rt></ruby>ってみましょう！",
+        "zh_cn": "我也想见识一下呢。\\n那我们这就去看看吧！",
+        "zh_tw": "我也想要去看一次。\\n那我們馬上過去吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0031",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Wooow... So many lanterns.\\nIt's beautiful.",
+        "ja_jp": "わぁ……たくさんの<ruby><rb>灯篭</rb><rt>とうろう</rt></ruby>が\\n<ruby><rb>流</rb><rt>なが</rt></ruby>れて、きれい……。",
+        "zh_cn": "哇……好多灯笼在水上漂，\\n好美啊……",
+        "zh_tw": "哇……有好多燈籠漂著，\\n好漂亮……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0032",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Moreso even than I had heard. Now,\\nlet's release a lantern of our own.",
+        "ja_jp": "ええ。<ruby><rb>話</rb><rt>はなし</rt></ruby>で<ruby><rb>聞</rb><rt>き</rt></ruby>いていた<ruby><rb>以上</rb><rt>いじょう</rt></ruby>の<ruby><rb>美</rb><rt>うつく</rt></ruby>しさ\\nです。さて、<ruby><rb>私</rb><rt>わたし</rt></ruby>たちも<ruby><rb>灯篭</rb><rt>とうろう</rt></ruby>を\\n<ruby><rb>流</rb><rt>なが</rt></ruby>してみましょうか。",
+        "zh_cn": "是啊，比传闻中更美。\\n来，我们也放一个灯笼\\n试试吧。",
+        "zh_tw": "嗯，比聽到的描述還更美。\\n那麼，我們也去把燈籠放到河裡吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0033",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Yeah. Curran showed me how to do it last\\ntime. You fill your mind with thoughts of\\nsomeone who has died, and then you let\\nit go.",
+        "ja_jp": "うん。<ruby><rb>前</rb><rt>まえ</rt></ruby>にクーガーから、<ruby><rb>教</rb><rt>おし</rt></ruby>えて\\nもらったよ。<ruby><rb>灯篭</rb><rt>とうろう</rt></ruby>は、<ruby><rb>死</rb><rt>し</rt></ruby>んだ<ruby><rb>人</rb><rt>ひと</rt></ruby>への\\nお<ruby><rb>祈</rb><rt>いの</rt></ruby>りをこめて<ruby><rb>流</rb><rt>なが</rt></ruby>すんだって。",
+        "zh_cn": "嗯。之前库格尔教过我，\\n说放灯笼的时候\\n要边为故人祈祷边放。",
+        "zh_tw": "嗯，以前庫豹、有教過我喔。\\n燈籠、在放到河裡時\\n要向死去的人獻上祈禱。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0034",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "So I remember my mom and dad...",
+        "ja_jp": "だからね、わたし、パパとママに……。",
+        "zh_cn": "所以，我要为爸爸和妈妈……",
+        "zh_tw": "所以呢，我、要向爸爸媽媽……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0035",
+      "book": ""
+    },
+    {
+      "icon": "120019_01",
+      "name": {
+        "en_us": "Festival Participant",
+        "ja_jp": "祭りの参加者",
+        "zh_cn": "祭典参与者",
+        "zh_tw": "祭典參加者"
+      },
+      "context": {
+        "en_us": "Hey, what's up with that?",
+        "ja_jp": "――おい、なんだこりゃ？",
+        "zh_cn": "喂，这是怎么回事啊？",
+        "zh_tw": "──喂，這是怎樣啊？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0036",
+      "book": ""
+    },
+    {
+      "icon": "120019_01",
+      "name": {
+        "en_us": "Festival Participant",
+        "ja_jp": "祭りの参加者",
+        "zh_cn": "祭典参与者",
+        "zh_tw": "祭典參加者"
+      },
+      "context": {
+        "en_us": "That's CREEPY. What's going on?",
+        "ja_jp": "<ruby><rb>気味悪</rb><rt>きみわり</rt></ruby>ぃよ……どうなってんだ？",
+        "zh_cn": "真邪门……怎么会这样？",
+        "zh_tw": "看了心裡好毛……怎麼搞的啊？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0037",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Um... Why're those people making a fuss?",
+        "ja_jp": "……あれ？　なんだか、<ruby><rb>向</rb><rt>む</rt></ruby>こう……\\nざわざわしてる。",
+        "zh_cn": "咦？那边好像……\\n很吵的样子。",
+        "zh_tw": "……咦？怎麼、對面……\\n好像很吵鬧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0038",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Something must have happened.\\nLet's go check it out.",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>かあったのでしょうか。\\n<ruby><rb>見</rb><rt>み</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>ってみましょう。",
+        "zh_cn": "不知道发生了什么事。\\n我们去看看吧。",
+        "zh_tw": "會不會是發生什麼事了？\\n過去看看吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0039",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "What?! What's this?",
+        "ja_jp": "えっ……！　なに、これ……？",
+        "zh_cn": "诶！这是……怎么回事？",
+        "zh_tw": "咦……！這、什麼……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0040",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "The lanterns are flowing back up the river!\\nWhat in the world is happening?",
+        "ja_jp": "<ruby><rb>灯篭</rb><rt>とうろう</rt></ruby>が、<ruby><rb>川</rb><rt>かわ</rt></ruby>を<ruby><rb>逆流</rb><rt>ぎゃくりゅう</rt></ruby>している……！\\nいったいどうして？",
+        "zh_cn": "灯笼在逆流而行……\\n为什么会这样？",
+        "zh_tw": "燈籠，正在逆流而上……！\\n究竟是為什麼？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0041",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "I don't know...but I've got a bad feeling\\nabout this.",
+        "ja_jp": "わからない……でも、なんだか、\\n<ruby><rb>嫌</rb><rt>いや</rt></ruby>な<ruby><rb>感</rb><rt>かん</rt></ruby>じがする……。",
+        "zh_cn": "不知道……不过，\\n我有一种不祥的预感……",
+        "zh_tw": "不知道……但是，\\n總覺得、有不好的預感……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0042",
+      "book": ""
+    },
+    {
+      "icon": "120144_01",
+      "name": {
+        "en_us": "Ulthar",
+        "ja_jp": "ウルタール",
+        "zh_cn": "乌尔塔",
+        "zh_tw": "烏魯塔爾"
+      },
+      "context": {
+        "en_us": "MRAAAAWL!",
+        "ja_jp": "――ぶにゃあああっ!!",
+        "zh_cn": "喵啊啊啊！",
+        "zh_tw": "──呼喵啊啊啊！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Ulthar, what's wrong? Are you sensing\\nsomething with the lanterns?",
+        "ja_jp": "ウルタール？　どうしたの？\\nあなたも<ruby><rb>灯篭</rb><rt>とうろう</rt></ruby>に、<ruby><rb>何</rb><rt>なに</rt></ruby>か<ruby><rb>感</rb><rt>かん</rt></ruby>じたの？",
+        "zh_cn": "乌尔塔？怎么了？\\n你也觉得灯笼不对劲吗？",
+        "zh_tw": "烏魯塔爾？怎麼了？\\n燈籠、也讓你感受到什麼了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0043",
+      "book": ""
+    },
+    {
+      "icon": "120144_01",
+      "name": {
+        "en_us": "Ulthar",
+        "ja_jp": "ウルタール",
+        "zh_cn": "乌尔塔",
+        "zh_tw": "烏魯塔爾"
+      },
+      "context": {
+        "en_us": "Mrrrrr...",
+        "ja_jp": "ぶにゃあああああっ……",
+        "zh_cn": "喵啊啊啊啊啊……",
+        "zh_tw": "呼喵啊啊啊啊啊……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120144_01",
+      "name": {
+        "en_us": "Ulthar",
+        "ja_jp": "ウルタール",
+        "zh_cn": "乌尔塔",
+        "zh_tw": "烏魯塔爾"
+      },
+      "context": {
+        "en_us": "Mrow.",
+        "ja_jp": "――うにゃあ。",
+        "zh_cn": "喵啊——",
+        "zh_tw": "──唔喵啊。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Huh? Oh... Aaaaah!",
+        "ja_jp": "えっ？\\nあ……。あ、あ、ああぁっ……！",
+        "zh_cn": "诶？\\n啊……啊、啊、啊啊啊……",
+        "zh_tw": "咦？\\n啊……啊、啊、啊啊……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0044",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna?",
+        "ja_jp": "ラトニー？",
+        "zh_cn": "拉托妮？",
+        "zh_tw": "菈特妮？"
+      },
+      "context": {
+        "en_us": "Lost children of the soil, soaring from the\\ndepths of twilight black! Gather at the\\nguidance of the emissary, and obey Him!",
+        "ja_jp": "――<ruby><rb>黒</rb><rt>くろ</rt></ruby>き<ruby><rb>黄昏</rb><rt>たそがれ</rt></ruby>の<ruby><rb>底</rb><rt>そこ</rt></ruby>より<ruby><rb>舞</rb><rt>ま</rt></ruby>い<ruby><rb>上</rb><rt>あ</rt></ruby>がる\\n<ruby><rb>土塊</rb><rt>つちくれ</rt></ruby>の<ruby><rb>迷</rb><rt>まよ</rt></ruby>い<ruby><rb>子</rb><rt>ご</rt></ruby>たちよ。<ruby><rb>使者</rb><rt>ししゃ</rt></ruby>の<ruby><rb>示</rb><rt>しめ</rt></ruby>す\\n<ruby><rb>導</rb><rt>しるべ</rt></ruby>に<ruby><rb>集</rb><rt>つど</rt></ruby>い、『<ruby><rb>主</rb><rt>あるじ</rt></ruby>』へ<ruby><rb>恭順</rb><rt>きょうじゅん</rt></ruby>せよ。",
+        "zh_cn": "黄泉之下，迷途亡魂。\\n听闻召唤，速速聚集。\\n皆以吾主为尊。",
+        "zh_tw": "──躍起於黑暗黃昏之淵，\\n眾土塊之迷途幼子，隨使者引導，\\n向「主」宣示恭順。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0045",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna?",
+        "ja_jp": "ラトニー？",
+        "zh_cn": "拉托妮？",
+        "zh_tw": "菈特妮？"
+      },
+      "context": {
+        "en_us": "Sacrifices unto Him, wandering lost\\nbetwixt here and Beyond: revel in\\nnewfound depravity and feast upon\\nthe ignorance of humanity.",
+        "ja_jp": "<ruby><rb>彼方</rb><rt>かなた</rt></ruby>と<ruby><rb>此方</rb><rt>こなた</rt></ruby>を<ruby><rb>惑</rb><rt>まど</rt></ruby>う、<ruby><rb>緋毛氈</rb><rt>ひもうせん</rt></ruby>が<ruby><rb>贄</rb><rt>にえ</rt></ruby>ども。\\n<ruby><rb>放埓</rb><rt>ほうらつ</rt></ruby>に<ruby><rb>弾</rb><rt>はじ</rt></ruby>け<ruby><rb>蒙昧</rb><rt>もうまい</rt></ruby>に<ruby><rb>饗</rb><rt>きょう</rt></ruby>するがいい。",
+        "zh_cn": "阴阳两界，颠沛流离。\\n活供为祭，听吾之令。",
+        "zh_tw": "徘徊彼方此地，赤毯之活祭，\\n肆意狂舞而棄思設宴便是。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0046",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Huh? What in the world did I just—agh!",
+        "ja_jp": "――あれっ？　わたし、いったい\\nなにを……あぁっ!!",
+        "zh_cn": "咦？我到底……\\n在做什么……啊啊！",
+        "zh_tw": "──咦？我、到底在……啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0047",
+      "book": ""
+    },
+    {
+      "icon": "120202_01",
+      "name": {
+        "en_us": "Zombies",
+        "ja_jp": "ゾンビたち",
+        "zh_cn": "僵尸们",
+        "zh_tw": "殭屍們"
+      },
+      "context": {
+        "en_us": "Urgaaah...",
+        "ja_jp": "あうぅうう。あぁうう。",
+        "zh_cn": "嗷呜呜呜呜。嗷呜呜。",
+        "zh_tw": "啊唔唔唔唔、啊啊唔唔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0048",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "The spell you just cast turned the\\nlanterns into...zombies?!",
+        "ja_jp": "えっ……ラトニーさんの<ruby><rb>呪文</rb><rt>じゅもん</rt></ruby>で、\\n<ruby><rb>灯篭</rb><rt>とうろう</rt></ruby>が、ゾンビに<ruby><rb>変</rb><rt>か</rt></ruby>わった……？",
+        "zh_cn": "诶……拉托妮的咒语\\n让灯笼变成了僵尸？",
+        "zh_tw": "唔……菈特妮的咒語，\\n讓燈籠變成殭屍了……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0049",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "The monsters... They're attacking everyone.\\nMaybe the scary thing inside me is\\nrunning wild again?",
+        "ja_jp": "<ruby><rb>化</rb><rt>ば</rt></ruby>け<ruby><rb>物</rb><rt>もの</rt></ruby>……みんなを<ruby><rb>襲</rb><rt>おそ</rt></ruby>ってる……。\\n……もしかして。また、わたしの<ruby><rb>中</rb><rt>なか</rt></ruby>の\\n<ruby><rb>怖</rb><rt>こわ</rt></ruby>いものが<ruby><rb>暴</rb><rt>あば</rt></ruby>れたの……？",
+        "zh_cn": "怪物在……袭击人群……\\n难道……又是我体内\\n可怕的东西在作祟？",
+        "zh_tw": "怪物……在襲擊大家……\\n……該不會，又是、在我體內的\\n可怕東西在作亂……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0050",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "No... No! Are people going to get hurt\\nagain because of me?!",
+        "ja_jp": "そんな、いや……\\nわたしのせいで、また、<ruby><rb>人</rb><rt>ひと</rt></ruby>が……っ！",
+        "zh_cn": "怎么会，不要……\\n都怪我，又有人……",
+        "zh_tw": "怎麼會，不要……\\n因為我，又要、有人……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0051",
+      "book": ""
+    },
+    {
+      "icon": "120202_01",
+      "name": {
+        "en_us": "Zombie",
+        "ja_jp": "ゾンビ",
+        "zh_cn": "僵尸",
+        "zh_tw": "殭屍"
+      },
+      "context": {
+        "en_us": "Aaaaurgh!",
+        "ja_jp": "あぅぅぅぅ……！",
+        "zh_cn": "嗷呜呜呜……",
+        "zh_tw": "啊唔唔唔唔……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0052",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Watch out!",
+        "ja_jp": "――<ruby><rb>危</rb><rt>あぶ</rt></ruby>ないっ!!",
+        "zh_cn": "小心！",
+        "zh_tw": "──危險！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0053",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Calm yourself, Lathna. We need to get\\naway from here, and quickly!",
+        "ja_jp": "<ruby><rb>落</rb><rt>お</rt></ruby>ち<ruby><rb>着</rb><rt>つ</rt></ruby>いてください、ラトニーさん！\\nとにかく<ruby><rb>今</rb><rt>いま</rt></ruby>は、あのゾンビたちから\\n<ruby><rb>逃</rb><rt>に</rt></ruby>げないと！",
+        "zh_cn": "你冷静一点，拉托妮！\\n总之我们现在\\n得先摆脱那些僵尸才行！",
+        "zh_tw": "請冷靜下來，菈特妮！\\n總之現在必須趕快逃離那些殭屍才行！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0054",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "But I—",
+        "ja_jp": "でも、わたし……。",
+        "zh_cn": "可是，我……",
+        "zh_tw": "但是、我……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0055",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "We'll talk after. You stay behind me.\\nI'll use my magic to clear a path!",
+        "ja_jp": "<ruby><rb>話</rb><rt>はなし</rt></ruby>はあとです。ラトニーさんは<ruby><rb>私</rb><rt>わたし</rt></ruby>の\\n<ruby><rb>後</rb><rt>うし</rt></ruby>ろに。<ruby><rb>魔法</rb><rt>まほう</rt></ruby>で<ruby><rb>敵</rb><rt>てき</rt></ruby>を<ruby><rb>吹</rb><rt>ふ</rt></ruby>き<ruby><rb>飛</rb><rt>と</rt></ruby>ばします！",
+        "zh_cn": "之后再说。\\n你躲到我身后来。\\n我用魔法来赶跑敌人！",
+        "zh_tw": "有話等一下再說。\\n菈特妮先到我後面，\\n我要用魔法把它們吹散！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0056",
+      "book": ""
+    },
+    {
+      "icon": "120202_01",
+      "name": {
+        "en_us": "Zombies",
+        "ja_jp": "ゾンビたち",
+        "zh_cn": "僵尸们",
+        "zh_tw": "殭屍們"
+      },
+      "context": {
+        "en_us": "Urrrgaaah...",
+        "ja_jp": "うぐるぅうう。あぅぅあぁ。",
+        "zh_cn": "呜咕噜噜。呜啊啊。",
+        "zh_tw": "唔咕唔唔。啊唔啊啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0057",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Begone, foul creatures of the night!",
+        "ja_jp": "これでも――<ruby><rb>喰</rb><rt>く</rt></ruby>らっていなさい!!",
+        "zh_cn": "吃我……这一招！",
+        "zh_tw": "接下──這一招吧！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0058",
+      "book": ""
+    },
+    {
+      "icon": "120202_01",
+      "name": {
+        "en_us": "Zombies",
+        "ja_jp": "ゾンビたち",
+        "zh_cn": "僵尸们",
+        "zh_tw": "殭屍們"
+      },
+      "context": {
+        "en_us": "Ungaaaaah!",
+        "ja_jp": "うぁああああああ!!",
+        "zh_cn": "唔嗷嗷嗷嗷嗷嗷！",
+        "zh_tw": "唔啊啊啊啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0059",
+      "book": ""
+    },
+    {
+      "icon": "120202_01",
+      "name": {
+        "en_us": "Zombie",
+        "ja_jp": "ゾンビ",
+        "zh_cn": "僵尸",
+        "zh_tw": "殭屍"
+      },
+      "context": {
+        "en_us": "Uuurgh...",
+        "ja_jp": "……ぅ、あ、ぁ……。",
+        "zh_cn": "唔……啊、啊……",
+        "zh_tw": "……唔、啊、啊……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0060",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "There's our opening.\\nLet's get out of here while we can!",
+        "ja_jp": "よし、これで<ruby><rb>道</rb><rt>みち</rt></ruby>は<ruby><rb>開</rb><rt>ひら</rt></ruby>けました。\\n<ruby><rb>今</rb><rt>いま</rt></ruby>の<ruby><rb>内</rb><rt>うち</rt></ruby>に――",
+        "zh_cn": "好了，这下清出了一条路。\\n趁现在——",
+        "zh_tw": "好，這樣就開出一條路了。\\n趁現在──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0061",
+      "book": ""
+    },
+    {
+      "icon": "120202_01",
+      "name": {
+        "en_us": "Zombies",
+        "ja_jp": "ゾンビたち",
+        "zh_cn": "僵尸们",
+        "zh_tw": "殭屍們"
+      },
+      "context": {
+        "en_us": "UUUUUUURGAH!",
+        "ja_jp": "うぅぅぅうう、あぅあああああっ!!",
+        "zh_cn": "呜呜呜呜呜呜，\\n嗷嗷嗷嗷嗷嗷！",
+        "zh_tw": "唔唔唔唔唔唔、啊唔啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0062",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "What?! More of them?! So relentless...",
+        "ja_jp": "なっ、もう<ruby><rb>新手</rb><rt>あらて</rt></ruby>が!?　どうやら\\n<ruby><rb>一息</rb><rt>ひといき</rt></ruby>つく<ruby><rb>暇</rb><rt>ひま</rt></ruby>もないようですね。",
+        "zh_cn": "什么，这么快就又出现了！？\\n一点喘息的时间\\n都不给我们啊。",
+        "zh_tw": "什麼，又有新的殭屍！？\\n看來連一刻都不能喘息呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0063",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Once we've made our escape, we'll meet\\nup with the others from the Halidom\\nattending the festival! Understood?",
+        "ja_jp": "<ruby><rb>一刻</rb><rt>いっこく</rt></ruby>も<ruby><rb>早</rb><rt>はや</rt></ruby>くここを<ruby><rb>抜</rb><rt>ぬ</rt></ruby>け、お<ruby><rb>祭</rb><rt>まつ</rt></ruby>りに\\n<ruby><rb>来</rb><rt>き</rt></ruby>ている<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>のみなさんと<ruby><rb>合流</rb><rt>ごうりゅう</rt></ruby>\\nしましょう。いいですね！",
+        "zh_cn": "我们快点从这里脱身，\\n然后和来逛祭典的\\n圣城诸位会合吧。明白了吗！",
+        "zh_tw": "我們立刻離開這裡，\\n去和從聖城來參加祭典的夥伴們會合，\\n了解了嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0064",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Yeah!",
+        "ja_jp": "う、うんっ……!!",
+        "zh_cn": "唔、嗯！",
+        "zh_tw": "嗯、嗯……！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_01_0065",
+      "book": ""
+    }
+  ]
 }

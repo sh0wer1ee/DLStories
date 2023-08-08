@@ -1,798 +1,1513 @@
 {
-    "story_id": "",
-    "story_name": "破晓之龙约 天地异变",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "对人类行径感到绝望的耶梦加得\\n离开了阿尔贝琉斯。与此同时，\\n圣域龙也正为了亲自打倒魔神\\n并制裁脱离常理制约的人类\\n而率领龙群赶赴战场……"
-        ]
+  "title": {
+    "en_us": "Dawn of Dragalia    All of Creation Trembles",
+    "ja_jp": "ドラガリア・デイブレイク  揺れる天地",
+    "zh_cn": "破晓之龙约  天地异变",
+    "zh_tw": "龍絆‧破曉  天地動盪"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "好……姑且是成功撤退了。\\n我们就穿过森林回大圣堂吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "嗯……可是，父亲大人他……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "一定会有办法的。\\n我们一定要从魔神手上\\n夺回枢机主教。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110387_01"
-            ],
-            "speaker_name": "耶梦加得",
-            "context": "你要让他恢复过来？\\n这是他醉心于统治人世的权威，\\n抛却常理的下场吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "别这样说，耶梦加得。\\n尽管枢机主教的方法有问题，\\n但他也是为民着想。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110387_01"
-            ],
-            "speaker_name": "耶梦加得",
-            "context": "为民？你这样袒护他，\\n是因为你也是人类吗？\\n还是说……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110387_01"
-            ],
-            "speaker_name": "耶梦加得",
-            "context": "当权者给你英雄的头衔，\\n让你有了优越感？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "你在胡说些什么呢。\\n我拼上性命，是为了打倒魔神，\\n保护人与龙……仅此而已。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110387_01"
-            ],
-            "speaker_name": "耶梦加得",
-            "context": "阿尔贝琉斯，你已经相当\\n习惯于自我牺牲了啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110387_01"
-            ],
-            "speaker_name": "耶梦加得",
-            "context": "好吧，如果你要继续\\n活在这茫茫凡尘里……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110387_01"
-            ],
-            "speaker_name": "耶梦加得",
-            "context": "我们的旅途就到此为止吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110387_01"
-            ],
-            "speaker_name": "耶梦加得",
-            "context": "人类啊，再见了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "耶梦加得……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120040_01"
-            ],
-            "speaker_name": "领主",
-            "context": "怎么会这样……\\n兰伯特枢机主教\\n竟然会被魔神附身。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "大主教",
-            "context": "这可不得了……\\n教会里怕是要大乱。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "大主教",
-            "context": "说不定还会出现追随\\n狄涅尔帝国的党派……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120037_01"
-            ],
-            "speaker_name": "领主",
-            "context": "怎、怎么会！教会闹分裂\\n要怎么办。我们可是相信你们\\n才一路追随过来的啊！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120040_01"
-            ],
-            "speaker_name": "领主",
-            "context": "就是啊。要是没有教会当后盾，\\n其他领主们也有可能\\n向帝国那边倒戈。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "大主教",
-            "context": "请诸位等一等。\\n我已经给教皇厅送去了加急传令，\\n我们要等待教皇的指示。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "没、没错。\\n在那之前先想办法坚持一下。\\n而且，我们还有英雄阿尔贝琉斯……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120040_01"
-            ],
-            "speaker_name": "领主",
-            "context": "没有了教会的权威，\\n英雄之名不也朝不保夕吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "即便如此，\\n只要心怀信仰去祈祷，\\n一定会得到女神的庇佑……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120037_01"
-            ],
-            "speaker_name": "领主",
-            "context": "你那所谓的女神的庇佑\\n如今何在？\\n啊……我们该何去何从……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "……\\n这……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "（联合军失去了父亲大人\\n这个中流砥柱，\\n军心开始动摇……）",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "（我明白，只靠祈祷无法战斗。\\n父亲大人一直肩负着的\\n是权威之下的百姓安宁……）",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "（我并不认可他的做法，\\n也想对此做些什么。\\n可是，可是……）",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "我说的话，\\n根本……不会有人听。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "穆穆？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "啊！阿尔贝琉斯……\\n你怎么在这里？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "我觉得必须商量一下今后的事，\\n所以正在找你呢。但是……\\n你是在哭吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "啊，这是因为，那个……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "我在想……\\n这样下去我们也许赢不了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "我一直以为，联合军\\n是因为信仰而集结到一起的。\\n但是，我好像错了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "联合军失去了\\n父亲大人这根支柱，\\n已经几近分裂……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "这样下去信仰是不是会输呢？\\n不光是输给魔神……\\n还有父亲所说的权威。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "但是……你是想\\n赢得这场战争的吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "诶？嗯……当然。\\n我相信，祈祷之心\\n也会化为战斗的力量。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "是吗，那就还没到绝望的时候哦。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "毕竟，你我都还没放弃呢。\\n对吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "就算魔神彻底复活，\\n联合军分崩离析，\\n我也会继续战斗下去。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "只要你和士兵们还需要我，\\n我就一定会与你们同在。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "阿尔贝琉斯……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "你说得对。越是这种时候，\\n越要加油才行呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "嗯，现在还是想想要打倒魔神，\\n我们能做些什么……嗯？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "地盘在震动？\\n鸟儿们也很吵闹……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "啊，阿尔贝琉斯！\\n快看天空！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "那是，一群龙！？\\n朝这边来了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "龙竟然在袭击人？\\n到底是怎么回事！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200010_01"
-            ],
-            "speaker_name": "普鲁托",
-            "context": "阿尔贝琉斯，\\n那是圣域龙的意志。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "普鲁托……\\n这话是什么意思？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200010_01"
-            ],
-            "speaker_name": "普鲁托",
-            "context": "人类……尤其是以打倒魔神\\n为使命的伊莉雅教徒们\\n亲手让魔神复活了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200010_01"
-            ],
-            "speaker_name": "普鲁托",
-            "context": "此事似乎触怒了圣域龙。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200010_01"
-            ],
-            "speaker_name": "普鲁托",
-            "context": "事已至此，\\n为了维护世界秩序，\\n圣域龙定会亲自打倒魔神。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200010_01"
-            ],
-            "speaker_name": "普鲁托",
-            "context": "连同那些背信弃义的士兵一起。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "你是说圣域龙，\\n会伤害人类？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "不能让那种事发生！\\n穆穆，我们去禁域，\\n再和圣域龙对话一次！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "圣域龙！\\n你在哪，我知道你在！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "人类之子……找我何事？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "圣域龙，你不能这么做！\\n竟然不光是魔神，\\n连人的性命都要夺去！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "恕我拒绝。\\n打倒魔神乃人之使命，\\n是人类自己违背了这一常理。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "人类……违背常理……\\n的确，我父亲本该率先担此重任，\\n却亲手复活了魔神……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "正是如此。负责打倒魔神的组织\\n为了维护权力而腐败堕落的结果，\\n就是如今这番惨状。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "伊莉雅以为通过让人类担负起责任，\\n就能保护他们免于我的责罚，\\n但是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "这些信徒自己舍弃了使命，\\n复活了魔神。看来人类\\n果然只是青涩幼稚的生物。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "等一下，圣域龙。\\n众多士兵都牢记伊莉雅的教诲，\\n为打倒魔神而奋战。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "人类还没有舍弃打倒魔神的使命。\\n所以，能请你助我一臂之力吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "阿尔贝琉斯，你很单纯……\\n在人类之中也尤为愚蠢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "你不过是我为了巩固\\n人类的信仰而认可的英雄——\\n仅此而已。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "仅、仅此而已？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "是的，为了让人类保持斗志，\\n将圣剑托付于龙之血的继承者……\\n700年前，我同意了此事。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "然而，\\n伊莉雅想出来的这种方法，\\n似乎对这个时代的人类无效。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "因此，你对我已经没用了。\\n从此刻起，将由我来打倒魔神，\\n淘汰掉那些彼此争斗的人类。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "等、等等！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "哈啊、哈啊……\\n不妙，真正的天地异变\\n已经开始了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200010_01"
-            ],
-            "speaker_name": "普鲁托",
-            "context": "看来谈判失败了。\\n虽然本来也不认为\\n你们能轻易阻止圣域龙……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "是啊……可即便如此\\n也得阻止。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200010_01"
-            ],
-            "speaker_name": "普鲁托",
-            "context": "看来你不肯放弃啊。\\n那就只剩一条路……\\n用武力制服圣域龙。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "什么！要跨越试炼的范畴，\\n与圣域龙再战吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "我明白了……普鲁托，\\n就算要与圣域龙为敌，\\n我也想阻止这一切。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "不光是魔神的侵犯，\\n还有圣域龙的制裁！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200010_01"
-            ],
-            "speaker_name": "普鲁托",
-            "context": "好，这才不枉我答应\\n与你并肩作战。\\n请到我的背上来。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "嗯！穆穆雅娜就在这里等着吧。\\n我一定……会阻止他们的！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200010_01"
-            ],
-            "speaker_name": "普鲁托",
-            "context": "准备好了吗？那就……\\n出发吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "阿尔贝琉斯……\\n千万要小心啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_06_0087",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Despairing at humanity's deeds, Midgardsormr\\nabandons Alberius. At the same time, Elysium\\nleads a force of dragons toward the battlefield\\nin an attempt to bring judgment upon the errant\\nhumans and defeat the Other personally.",
+      "ja_jp": "<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>所業</rb><rt>しょぎょう</rt></ruby>に<ruby><rb>絶望</rb><rt>ぜつぼう</rt></ruby>したミドガルズオルムは\\nアルベリウスの<ruby><rb>下</rb><rt>もと</rt></ruby>を<ruby><rb>離</rb><rt>はな</rt></ruby>れてしまう。また、\\n<ruby><rb>時</rb><rt>とき</rt></ruby>を<ruby><rb>同</rb><rt>おな</rt></ruby>じくしてエリュシオンも、<ruby><rb>理</rb><rt>ことわり</rt></ruby>を<ruby><rb>外</rb><rt>はず</rt></ruby>れた\\n<ruby><rb>人</rb><rt>ひと</rt></ruby>を<ruby><rb>裁</rb><rt>さば</rt></ruby>き、<ruby><rb>自身</rb><rt>じしん</rt></ruby>で<ruby><rb>魔神</rb><rt>まじん</rt></ruby>を<ruby><rb>倒</rb><rt>たお</rt></ruby>すべく、\\nドラゴンを<ruby><rb>率</rb><rt>ひき</rt></ruby>いて<ruby><rb>戦場</rb><rt>せんじょう</rt></ruby>へと<ruby><rb>向</rb><rt>む</rt></ruby>かう――。",
+      "zh_cn": "对人类行径感到绝望的耶梦加得\\n离开了阿尔贝琉斯。与此同时，\\n圣域龙也正为了亲自打倒魔神\\n并制裁脱离常理制约的人类\\n而率领龙群赶赴战场……",
+      "zh_tw": "對於人類的行徑感到絕望的耶夢加得，\\n從阿爾博流斯的身邊離去。同時，\\n伊利西恩決定制裁背離定理的人類，\\n並親自打倒魔神，\\n於是率領眾龍族前往戰場──"
+    }
+  },
+  "prev": "2043105",
+  "next": "2043107",
+  "content": [
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "We managed to fall back. Let's cut through\\nthe woods and return to the cathedral.",
+        "ja_jp": "よし……なんとか<ruby><rb>撤退</rb><rt>てったい</rt></ruby>できたな。\\nこのまま<ruby><rb>森</rb><rt>もり</rt></ruby>を<ruby><rb>抜</rb><rt>ぬ</rt></ruby>け、<ruby><rb>大聖堂</rb><rt>だいせいどう</rt></ruby>へ<ruby><rb>戻</rb><rt>もど</rt></ruby>ろう。",
+        "zh_cn": "好……姑且是成功撤退了。\\n我们就穿过森林回大圣堂吧。",
+        "zh_tw": "好……總算是成功撤退了。\\n就這樣穿過森林，回到主教座堂去吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0001",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "But my father...",
+        "ja_jp": "ええ……。でも、お<ruby><rb>父様</rb><rt>とうさま</rt></ruby>が……。",
+        "zh_cn": "嗯……可是，父亲大人他……",
+        "zh_tw": "嗯……但是，父親大人他……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0002",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "There must be a way. I promise we'll get\\nthe cardinal back from the Other.",
+        "ja_jp": "きっとなにかすべはある。<ruby><rb>魔神</rb><rt>まじん</rt></ruby>から\\n<ruby><rb>必</rb><rt>かなら</rt></ruby>ず<ruby><rb>枢機卿</rb><rt>すうききょう</rt></ruby>を<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>戻</rb><rt>もど</rt></ruby>そう。",
+        "zh_cn": "一定会有办法的。\\n我们一定要从魔神手上\\n夺回枢机主教。",
+        "zh_tw": "一定會有辦法的。\\n我們一定會從魔神手中\\n把樞機主教給奪回來。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0003",
+      "book": ""
+    },
+    {
+      "icon": "110387_01",
+      "name": {
+        "en_us": "Midgardsormr",
+        "ja_jp": "ミドガルズオルム",
+        "zh_cn": "耶梦加得",
+        "zh_tw": "耶夢加得"
+      },
+      "context": {
+        "en_us": "You would save the man when his lust for\\npower and abandonment of all reason\\ncreated this madness in the first place?",
+        "ja_jp": "……<ruby><rb>奴</rb><rt>やつ</rt></ruby>を<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>戻</rb><rt>もど</rt></ruby>すというのか？\\n<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>世</rb><rt>よ</rt></ruby>を<ruby><rb>統</rb><rt>す</rt></ruby>べる<ruby><rb>権威</rb><rt>けんい</rt></ruby>に<ruby><rb>溺</rb><rt>おぼ</rt></ruby>れ、<ruby><rb>理</rb><rt>ことわり</rt></ruby>を\\n<ruby><rb>投</rb><rt>な</rt></ruby>げうった<ruby><rb>結果</rb><rt>けっか</rt></ruby>であろう。",
+        "zh_cn": "你要让他恢复过来？\\n这是他醉心于统治人世的权威，\\n抛却常理的下场吧。",
+        "zh_tw": "……汝欲將之奪回？\\n然而其乃沉溺於統帥人世之權威，\\n棄定理於不顧之下場。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0004",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "Soft, Midgardsormr. Though he failed,\\nhe truly did seek to aid the people.",
+        "ja_jp": "よせ、ミドガルズオルム。\\nやり<ruby><rb>方</rb><rt>かた</rt></ruby>はともかく、<ruby><rb>枢機卿</rb><rt>すうききょう</rt></ruby>も\\n<ruby><rb>民</rb><rt>たみ</rt></ruby>のことを<ruby><rb>思</rb><rt>おも</rt></ruby>ってしたことだ。",
+        "zh_cn": "别这样说，耶梦加得。\\n尽管枢机主教的方法有问题，\\n但他也是为民着想。",
+        "zh_tw": "別說了，耶夢加得。\\n先不論他的做法好不好，\\n至少樞機主教還是為人民著想的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0005",
+      "book": ""
+    },
+    {
+      "icon": "110387_01",
+      "name": {
+        "en_us": "Midgardsormr",
+        "ja_jp": "ミドガルズオルム",
+        "zh_cn": "耶梦加得",
+        "zh_tw": "耶夢加得"
+      },
+      "context": {
+        "en_us": "Do you excuse the man's folly\\nbecause you are both human?",
+        "ja_jp": "<ruby><rb>民</rb><rt>たみ</rt></ruby>、か。そうやって<ruby><rb>奴</rb><rt>やつ</rt></ruby>をかばうのは、\\n<ruby><rb>汝</rb><rt>なんじ</rt></ruby>が<ruby><rb>同</rb><rt>おな</rt></ruby>じ<ruby><rb>人間</rb><rt>にんげん</rt></ruby>だからか？\\nそれとも……",
+        "zh_cn": "为民？你这样袒护他，\\n是因为你也是人类吗？\\n还是说……",
+        "zh_tw": "人民、嗎。如此袒護之，\\n乃因汝同為人類？\\n抑或是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0006",
+      "book": ""
+    },
+    {
+      "icon": "110387_01",
+      "name": {
+        "en_us": "Midgardsormr",
+        "ja_jp": "ミドガルズオルム",
+        "zh_cn": "耶梦加得",
+        "zh_tw": "耶夢加得"
+      },
+      "context": {
+        "en_us": "Or is it because you find the mantle of\\nhero granted to you by one with authority\\nto be eminently comfortable?",
+        "ja_jp": "<ruby><rb>権力者</rb><rt>けんりょくしゃ</rt></ruby>から<ruby><rb>与</rb><rt>あた</rt></ruby>えられる<ruby><rb>英雄</rb><rt>えいゆう</rt></ruby>という\\n<ruby><rb>地位</rb><rt>ちい</rt></ruby>が、<ruby><rb>心地</rb><rt>ここち</rt></ruby>よくでもなったか？",
+        "zh_cn": "当权者给你英雄的头衔，\\n让你有了优越感？",
+        "zh_tw": "由掌權者給予汝之英雄地位，\\n實已令汝無法割捨？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0007",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "Don't be absurd. I will defeat the Other\\nand protect human and dragon alike.\\nAnd for that purpose, I will risk my life. \\nThat's all.",
+        "ja_jp": "<ruby><rb>馬鹿</rb><rt>ばか</rt></ruby>なことを<ruby><rb>言</rb><rt>い</rt></ruby>うな。<ruby><rb>魔神</rb><rt>まじん</rt></ruby>を<ruby><rb>倒</rb><rt>たお</rt></ruby>し、\\n<ruby><rb>人</rb><rt>ひと</rt></ruby>やドラゴンを<ruby><rb>守</rb><rt>まも</rt></ruby>る。そのために\\n<ruby><rb>命</rb><rt>いのち</rt></ruby>をかける……それだけだ。",
+        "zh_cn": "你在胡说些什么呢。\\n我拼上性命，是为了打倒魔神，\\n保护人与龙……仅此而已。",
+        "zh_tw": "別說傻話了。\\n我要打倒魔神，守護人類與龍族。\\n為此我會拼命努力……就只是這樣。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0008",
+      "book": ""
+    },
+    {
+      "icon": "110387_01",
+      "name": {
+        "en_us": "Midgardsormr",
+        "ja_jp": "ミドガルズオルム",
+        "zh_cn": "耶梦加得",
+        "zh_tw": "耶夢加得"
+      },
+      "context": {
+        "en_us": "...You've certainly grown accustomed to\\nsacrificing yourself, Alberius.",
+        "ja_jp": "……その<ruby><rb>身</rb><rt>み</rt></ruby>を<ruby><rb>犠牲</rb><rt>ぎせい</rt></ruby>にすることに、\\n<ruby><rb>随分</rb><rt>ずいぶん</rt></ruby><ruby><rb>慣</rb><rt>な</rt></ruby>れたな。アルベリウスよ。",
+        "zh_cn": "阿尔贝琉斯，你已经相当\\n习惯于自我牺牲了啊。",
+        "zh_tw": "……看似汝已慣於自我犧牲啊，\\n阿爾博流斯。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0009",
+      "book": ""
+    },
+    {
+      "icon": "110387_01",
+      "name": {
+        "en_us": "Midgardsormr",
+        "ja_jp": "ミドガルズオルム",
+        "zh_cn": "耶梦加得",
+        "zh_tw": "耶夢加得"
+      },
+      "context": {
+        "en_us": "But ultimately, it is of no matter.\\nIf your aim is to continue the path you\\nare on now...",
+        "ja_jp": "まあよい。<ruby><rb>汝</rb><rt>なんじ</rt></ruby>がこのまま<ruby><rb>俗世</rb><rt>ぞくせ</rt></ruby>の<ruby><rb>海原</rb><rt>うなばら</rt></ruby>で\\n<ruby><rb>生</rb><rt>い</rt></ruby>きるというなら……",
+        "zh_cn": "好吧，如果你要继续\\n活在这茫茫凡尘里……",
+        "zh_tw": "不過無妨。\\n汝若就此於俗世汪洋中生存……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0010",
+      "book": ""
+    },
+    {
+      "icon": "110387_01",
+      "name": {
+        "en_us": "Midgardsormr",
+        "ja_jp": "ミドガルズオルム",
+        "zh_cn": "耶梦加得",
+        "zh_tw": "耶夢加得"
+      },
+      "context": {
+        "en_us": "Then our time together ends here.",
+        "ja_jp": "<ruby><rb>我</rb><rt>われ</rt></ruby>らの<ruby><rb>旅</rb><rt>たび</rt></ruby>は、ここでしまいだ。",
+        "zh_cn": "我们的旅途就到此为止吧。",
+        "zh_tw": "吾等之旅程，便於此刻告終。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0011",
+      "book": ""
+    },
+    {
+      "icon": "110387_01",
+      "name": {
+        "en_us": "Midgardsormr",
+        "ja_jp": "ミドガルズオルム",
+        "zh_cn": "耶梦加得",
+        "zh_tw": "耶夢加得"
+      },
+      "context": {
+        "en_us": "Farewell, human.",
+        "ja_jp": "……さらばだ。<ruby><rb>人</rb><rt>ひと</rt></ruby>よ。",
+        "zh_cn": "人类啊，再见了……",
+        "zh_tw": "……再會了，人類啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0012",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "Midgardsormr...",
+        "ja_jp": "ミドガルズオルム……。",
+        "zh_cn": "耶梦加得……",
+        "zh_tw": "耶夢加得……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0013",
+      "book": ""
+    },
+    {
+      "icon": "120040_01",
+      "name": {
+        "en_us": "Lord",
+        "ja_jp": "領主",
+        "zh_cn": "领主",
+        "zh_tw": "領主"
+      },
+      "context": {
+        "en_us": "I can't believe Cardinal Lambert\\nbecome a host for the Other...",
+        "ja_jp": "なんということだ……\\nランベルト<ruby><rb>枢機卿</rb><rt>すうききょう</rt></ruby>が、<ruby><rb>魔神</rb><rt>まじん</rt></ruby>の<ruby><rb>依</rb><rt>よ</rt></ruby>り<ruby><rb>代</rb><rt>しろ</rt></ruby>と\\nなってしまうとは……。",
+        "zh_cn": "怎么会这样……\\n兰伯特枢机主教\\n竟然会被魔神附身。",
+        "zh_tw": "怎麼會這樣……\\n蘭彼魯托樞機主教，\\n居然會成為魔神附身的對象……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0014",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Archbishop",
+        "ja_jp": "大司教",
+        "zh_cn": "大主教",
+        "zh_tw": "大主教"
+      },
+      "context": {
+        "en_us": "This is most terrible indeed—and will\\nlikely plunge the Church into great turmoil.",
+        "ja_jp": "これは<ruby><rb>大変</rb><rt>たいへん</rt></ruby>なことになりました……\\n<ruby><rb>教会内</rb><rt>きょうかいない</rt></ruby>は<ruby><rb>荒</rb><rt>あ</rt></ruby>れましょうな。",
+        "zh_cn": "这可不得了……\\n教会里怕是要大乱。",
+        "zh_tw": "這可真是不妙啊……\\n教會內部會陷入一片混亂吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0015",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Archbishop",
+        "ja_jp": "大司教",
+        "zh_cn": "大主教",
+        "zh_tw": "大主教"
+      },
+      "context": {
+        "en_us": "Factions taking the side of Dyrenell\\nmay even begin to crop up.",
+        "ja_jp": "ディアネル<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>側</rb><rt>がわ</rt></ruby>につく<ruby><rb>派閥</rb><rt>はばつ</rt></ruby>も、\\n<ruby><rb>出</rb><rt>で</rt></ruby>るやもしれませぬ……。",
+        "zh_cn": "说不定还会出现追随\\n狄涅尔帝国的党派……",
+        "zh_tw": "傾向狄亞內魯帝國那方的派系\\n或許也會在這時候出頭……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0016",
+      "book": ""
+    },
+    {
+      "icon": "120037_01",
+      "name": {
+        "en_us": "Lord",
+        "ja_jp": "領主",
+        "zh_cn": "领主",
+        "zh_tw": "領主"
+      },
+      "context": {
+        "en_us": "What?! We can't have the church\\nsplintering! We've followed and trusted you\\nthis whole time, you know!",
+        "ja_jp": "そ、そんな！　<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>が<ruby><rb>分裂</rb><rt>ぶんれつ</rt></ruby>など\\n<ruby><rb>困</rb><rt>こま</rt></ruby>りますわ。<ruby><rb>私</rb><rt>わたし</rt></ruby>たちは、ここまで\\n<ruby><rb>信</rb><rt>しん</rt></ruby>じてついてきたのですよ!?",
+        "zh_cn": "怎、怎么会！教会闹分裂\\n要怎么办。我们可是相信你们\\n才一路追随过来的啊！？",
+        "zh_tw": "那、那怎麼可以！教會要是分裂了\\n我會很頭痛啊。我們可是相信教會\\n才聚集在這的耶！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0017",
+      "book": ""
+    },
+    {
+      "icon": "120040_01",
+      "name": {
+        "en_us": "Lord",
+        "ja_jp": "領主",
+        "zh_cn": "领主",
+        "zh_tw": "領主"
+      },
+      "context": {
+        "en_us": "Indeed. Without the backing of the Church,\\nit is entirely possible that the territorial\\nlords will side with the Empire.",
+        "ja_jp": "そうですよ。<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>の<ruby><rb>後</rb><rt>うし</rt></ruby>ろ<ruby><rb>盾</rb><rt>だて</rt></ruby>なくば、\\nほかの<ruby><rb>領主</rb><rt>りょうしゅ</rt></ruby>たちも<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>側</rb><rt>がわ</rt></ruby>につく\\n<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>がありましょう。",
+        "zh_cn": "就是啊。要是没有教会当后盾，\\n其他领主们也有可能\\n向帝国那边倒戈。",
+        "zh_tw": "就是說啊。要是沒了教會這個後盾，\\n其他的領主也有可能會\\n依附到帝國陣營那邊去。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0018",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Archbishop",
+        "ja_jp": "大司教",
+        "zh_cn": "大主教",
+        "zh_tw": "大主教"
+      },
+      "context": {
+        "en_us": "I beg you to be patient. I have dispatched\\na messenger to make haste to the Curia;\\nwe shall wait for the Pope's instructions.",
+        "ja_jp": "お<ruby><rb>待</rb><rt>ま</rt></ruby>ちくだされ。<ruby><rb>教皇庁</rb><rt>きょうこうちょう</rt></ruby>にも<ruby><rb>急</rb><rt>いそ</rt></ruby>ぎ\\n<ruby><rb>伝令</rb><rt>でんれい</rt></ruby>を<ruby><rb>出</rb><rt>だ</rt></ruby>しております。<ruby><rb>教皇</rb><rt>きょうこう</rt></ruby>の<ruby><rb>指示</rb><rt>しじ</rt></ruby>を\\n<ruby><rb>待</rb><rt>ま</rt></ruby>つのです。",
+        "zh_cn": "请诸位等一等。\\n我已经给教皇厅送去了加急传令，\\n我们要等待教皇的指示。",
+        "zh_tw": "各位請少安毋躁，\\n已經緊急派出傳令兵向教廷回報了。\\n請大家靜候教宗的指示。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0019",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "Yes, please endure until then.\\nAnd remember, we still have the hero\\nAlberius on our side.",
+        "ja_jp": "そ、そうです。それまでなんとか\\n<ruby><rb>耐</rb><rt>た</rt></ruby>えましょう。それに、<ruby><rb>私</rb><rt>わたし</rt></ruby>たちには\\n<ruby><rb>英雄</rb><rt>えいゆう</rt></ruby>アルベリウスも……",
+        "zh_cn": "没、没错。\\n在那之前先想办法坚持一下。\\n而且，我们还有英雄阿尔贝琉斯……",
+        "zh_tw": "對、對啊。在那之前，\\n我們就先忍耐一下吧。\\n而且，我們還有英雄阿爾博流斯……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0020",
+      "book": ""
+    },
+    {
+      "icon": "120040_01",
+      "name": {
+        "en_us": "Lord",
+        "ja_jp": "領主",
+        "zh_cn": "领主",
+        "zh_tw": "領主"
+      },
+      "context": {
+        "en_us": "But without the Church's authority,\\nhis reputation is naught but a candle\\nin the wind—one stiff breeze away\\nfrom being snuffed out entirely!",
+        "ja_jp": "<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>の<ruby><rb>権威</rb><rt>けんい</rt></ruby>なくば、<ruby><rb>英雄</rb><rt>えいゆう</rt></ruby>の<ruby><rb>名声</rb><rt>めいせい</rt></ruby>など\\n<ruby><rb>風前</rb><rt>ふうぜん</rt></ruby>の<ruby><rb>灯</rb><rt>ともしび</rt></ruby>ではありませぬか！",
+        "zh_cn": "没有了教会的权威，\\n英雄之名不也朝不保夕吗！",
+        "zh_tw": "沒了教會的權威，\\n英雄的名聲不就只是風中殘燭嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0021",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "Nevertheless, if we believe and pray,\\nthe Goddess will grant her protection.",
+        "ja_jp": "それでも、きっと<ruby><rb>信</rb><rt>しん</rt></ruby>じて<ruby><rb>祈</rb><rt>いの</rt></ruby>れば\\n<ruby><rb>女神</rb><rt>めがみ</rt></ruby>の<ruby><rb>加護</rb><rt>かご</rt></ruby>が……。",
+        "zh_cn": "即便如此，\\n只要心怀信仰去祈祷，\\n一定会得到女神的庇佑……",
+        "zh_tw": "即使如此，只要誠心祈禱，\\n一定能獲得女神的加護……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0022",
+      "book": ""
+    },
+    {
+      "icon": "120037_01",
+      "name": {
+        "en_us": "Lord",
+        "ja_jp": "領主",
+        "zh_cn": "领主",
+        "zh_tw": "領主"
+      },
+      "context": {
+        "en_us": "Where is that blessing right now, though?\\nHeavens forfend, what is to become of us?!",
+        "ja_jp": "その<ruby><rb>女神</rb><rt>めがみ</rt></ruby>の<ruby><rb>加護</rb><rt>かご</rt></ruby>は、<ruby><rb>今</rb><rt>いま</rt></ruby>、どこにあるの\\nですか？　ああ……<ruby><rb>私</rb><rt>わたし</rt></ruby>たちは、\\nどうなってしまうの……!?",
+        "zh_cn": "你那所谓的女神的庇佑\\n如今何在？\\n啊……我们该何去何从……",
+        "zh_tw": "妳口中那女神的加護，\\n現在是在哪裡啊？啊啊……\\n我們究竟會變成怎樣呢……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0023",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "I...",
+        "ja_jp": "…………。\\nそれは……。",
+        "zh_cn": "……\\n这……",
+        "zh_tw": "…………\\n這…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0024",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "(My father was a crucial support for the\\nalliance, and with his loss, it is shaken.)",
+        "ja_jp": "（お<ruby><rb>父様</rb><rt>とうさま</rt></ruby>という<ruby><rb>圧倒的</rb><rt>あっとうてき</rt></ruby>な<ruby><rb>支柱</rb><rt>しちゅう</rt></ruby>を<ruby><rb>失</rb><rt>うしな</rt></ruby>った\\n　<ruby><rb>連合軍</rb><rt>れんごうぐん</rt></ruby>が、<ruby><rb>揺</rb><rt>ゆ</rt></ruby>れている……）",
+        "zh_cn": "（联合军失去了父亲大人\\n这个中流砥柱，\\n军心开始动摇……）",
+        "zh_tw": "（失去父親大人這個絕對的支柱，\\n同盟軍產生了動搖……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0025",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "(He carried upon his back the well-being\\nof those under his authority, and mere\\nprayer alone will not restore that.)",
+        "ja_jp": "（わかってる。<ruby><rb>祈</rb><rt>いの</rt></ruby>るだけでは<ruby><rb>戦</rb><rt>たたか</rt></ruby>え\\n　ない。お<ruby><rb>父様</rb><rt>とうさま</rt></ruby>が<ruby><rb>背負</rb><rt>せお</rt></ruby>ってきたのは\\n　<ruby><rb>権威</rb><rt>けんい</rt></ruby>の<ruby><rb>下</rb><rt>もと</rt></ruby>の、<ruby><rb>民</rb><rt>たみ</rt></ruby>の<ruby><rb>安寧</rb><rt>あんねい</rt></ruby>……）",
+        "zh_cn": "（我明白，只靠祈祷无法战斗。\\n父亲大人一直肩负着的\\n是权威之下的百姓安宁……）",
+        "zh_tw": "（我知道。光靠祈禱是無法戰鬥的。\\n父親大人所背負的，是在權威下\\n續存的，人民的安穩……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0026",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "(I do not believe my father's way was just.\\nAnd I want to do SOMETHING, but...)",
+        "ja_jp": "（お<ruby><rb>父様</rb><rt>とうさま</rt></ruby>のやり<ruby><rb>方</rb><rt>かた</rt></ruby>が<ruby><rb>正</rb><rt>ただ</rt></ruby>しいとは\\n　<ruby><rb>思</rb><rt>おも</rt></ruby>わない。どうにかしたい。\\n　でも、でも……）",
+        "zh_cn": "（我并不认可他的做法，\\n也想对此做些什么。\\n可是，可是……）",
+        "zh_tw": "（我不覺得父親大人的做法正確。\\n而我也想做點什麼，但是、但是……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0027",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "But my words move no one.",
+        "ja_jp": "こんな<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>言葉</rb><rt>ことば</rt></ruby>じゃ、だれも\\n<ruby><rb>動</rb><rt>うご</rt></ruby>くわけ……ないわ。",
+        "zh_cn": "我说的话，\\n根本……不会有人听。",
+        "zh_tw": "像我這種人說的話，\\n根本不可能……會有人聽。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0028",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "...Mym?",
+        "ja_jp": "……ムム？",
+        "zh_cn": "穆穆？",
+        "zh_tw": "……慕慕？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0029",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "Alberius! What are you doing here?",
+        "ja_jp": "――！　あ、アルベリウス……。\\nどうしてここに？",
+        "zh_cn": "啊！阿尔贝琉斯……\\n你怎么在这里？",
+        "zh_tw": "──！阿、阿爾博流斯……\\n你怎麼會在這邊？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0030",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "I wanted to talk about what's next,\\nso I came looking for you.\\nWere you...crying?",
+        "ja_jp": "これからのことを<ruby><rb>話</rb><rt>はな</rt></ruby>さねばと<ruby><rb>思</rb><rt>おも</rt></ruby>って、\\nムムを<ruby><rb>捜</rb><rt>さが</rt></ruby>してたんだ。だが……\\n<ruby><rb>泣</rb><rt>な</rt></ruby>いているのか……？",
+        "zh_cn": "我觉得必须商量一下今后的事，\\n所以正在找你呢。但是……\\n你是在哭吗？",
+        "zh_tw": "我想說須要和妳談談往後的事，\\n所以就來找妳了。但是……\\n妳在哭嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0031",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "Well, I...",
+        "ja_jp": "あ。これは、ええと、その……。",
+        "zh_cn": "啊，这是因为，那个……",
+        "zh_tw": "啊，這是、那個、就是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0032",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "I was merely wondering if we are destined\\nto fail on our current course.",
+        "ja_jp": "……このままじゃ、<ruby><rb>勝</rb><rt>か</rt></ruby>てないかもって\\n<ruby><rb>思</rb><rt>おも</rt></ruby>ってたの。",
+        "zh_cn": "我在想……\\n这样下去我们也许赢不了。",
+        "zh_tw": "……我想說再這樣下去，\\n搞不好無法戰勝魔神。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0033",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "All this time, I believed it was faith\\nwhich formed the alliance and drove\\nits members to take up arms as\\none. But it seems I was wrong.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>はずっと、<ruby><rb>信仰</rb><rt>しんこう</rt></ruby>の<ruby><rb>下</rb><rt>もと</rt></ruby>に<ruby><rb>連合軍</rb><rt>れんごうぐん</rt></ruby>が\\n<ruby><rb>結成</rb><rt>けっせい</rt></ruby>されて<ruby><rb>戦</rb><rt>たたか</rt></ruby>ってきたと<ruby><rb>思</rb><rt>おも</rt></ruby>ってた。\\nでも、<ruby><rb>違</rb><rt>ちが</rt></ruby>うみたい。",
+        "zh_cn": "我一直以为，联合军\\n是因为信仰而集结到一起的。\\n但是，我好像错了。",
+        "zh_tw": "我一直都以為同盟軍\\n是受到信仰的號召而一起作戰的。\\n但實際上，好像不是這樣。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0034",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "Without my father as a support,\\nthe movement is poised to splinter.",
+        "ja_jp": "お<ruby><rb>父様</rb><rt>とうさま</rt></ruby>という<ruby><rb>柱</rb><rt>はしら</rt></ruby>がなくなった\\n<ruby><rb>連合軍</rb><rt>れんごうぐん</rt></ruby>は、<ruby><rb>分裂</rb><rt>ぶんれつ</rt></ruby>するのも<ruby><rb>近</rb><rt>ちか</rt></ruby>い……。",
+        "zh_cn": "联合军失去了\\n父亲大人这根支柱，\\n已经几近分裂……",
+        "zh_tw": "在失去父親大人這支柱後，\\n同盟軍已經瀕臨分裂……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0035",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "At this rate, faith may well lose—not only\\nto the Other, but to the authority my father\\nspoke of.",
+        "ja_jp": "このまま<ruby><rb>信仰</rb><rt>しんこう</rt></ruby>は<ruby><rb>負</rb><rt>ま</rt></ruby>けるのかしら。\\n<ruby><rb>魔神</rb><rt>まじん</rt></ruby>にだけじゃない……お<ruby><rb>父様</rb><rt>とうさま</rt></ruby>の\\n<ruby><rb>言</rb><rt>い</rt></ruby>っていた、<ruby><rb>権威</rb><rt>けんい</rt></ruby>の<ruby><rb>前</rb><rt>まえ</rt></ruby>に。",
+        "zh_cn": "这样下去信仰是不是会输呢？\\n不光是输给魔神……\\n还有父亲所说的权威。",
+        "zh_tw": "這樣下去，信仰是不是會被打敗呢？\\n不只是敗給魔神……\\n還會如父親大人所說，敗給權威。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0036",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "But you still want to win that fight, right?",
+        "ja_jp": "……けど、ムムはその<ruby><rb>戦</rb><rt>たたか</rt></ruby>いに、\\n<ruby><rb>勝</rb><rt>か</rt></ruby>ちたいと<ruby><rb>思</rb><rt>おも</rt></ruby>ってるんだろう？",
+        "zh_cn": "但是……你是想\\n赢得这场战争的吧？",
+        "zh_tw": "……但是，在這場戰鬥中，\\n慕慕還是想贏的對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0037",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "Of course I do! I believe a heart full of\\nprayer can grant the strength to fight.",
+        "ja_jp": "え？　ええ……もちろんよ。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>信</rb><rt>しん</rt></ruby>じてる。<ruby><rb>祈</rb><rt>いの</rt></ruby>る<ruby><rb>心</rb><rt>こころ</rt></ruby>が、<ruby><rb>戦</rb><rt>たたか</rt></ruby>う<ruby><rb>力</rb><rt>ちから</rt></ruby>に\\nなることもあるって。",
+        "zh_cn": "诶？嗯……当然。\\n我相信，祈祷之心\\n也会化为战斗的力量。",
+        "zh_tw": "咦？嗯……當然囉。\\n我一直相信，誠摯祈禱的內心\\n是能成為強大戰力的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0038",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "Well, then, that means it's not time to\\ndespair just yet.",
+        "ja_jp": "そうか。じゃあ、まだ<ruby><rb>絶望</rb><rt>ぜつぼう</rt></ruby>する<ruby><rb>時</rb><rt>とき</rt></ruby>では\\nないな。",
+        "zh_cn": "是吗，那就还没到绝望的时候哦。",
+        "zh_tw": "是嗎，那麼現在就還不到絕望的時候。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0039",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "After all, neither of us has given up.\\nRight?",
+        "ja_jp": "なにしろ、おれもムムも<ruby><rb>諦</rb><rt>あきら</rt></ruby>めてない。\\n――そうだろう？",
+        "zh_cn": "毕竟，你我都还没放弃呢。\\n对吧？",
+        "zh_tw": "再怎麼說，\\n我和慕慕都還沒有放棄──\\n妳說是吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0040",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "……!!",
+        "zh_cn": "！",
+        "zh_tw": "……！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0041",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "Even if the Other is back and the alliance\\nfalls apart, I will continue the fight.",
+        "ja_jp": "<ruby><rb>魔神</rb><rt>まじん</rt></ruby>が<ruby><rb>完全</rb><rt>かんぜん</rt></ruby>に<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>しても、<ruby><rb>連合軍</rb><rt>れんごうぐん</rt></ruby>が\\n<ruby><rb>分裂</rb><rt>ぶんれつ</rt></ruby>しても、おれは<ruby><rb>戦</rb><rt>たたか</rt></ruby>い<ruby><rb>続</rb><rt>つづ</rt></ruby>ける。",
+        "zh_cn": "就算魔神彻底复活，\\n联合军分崩离析，\\n我也会继续战斗下去。",
+        "zh_tw": "就算魔神完全復活也好，\\n同盟軍分裂也罷，\\n我都會繼續戰鬥下去。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0042",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "So long as you and our soldiers need me,\\nI will be here for all of you.",
+        "ja_jp": "ムムや<ruby><rb>兵</rb><rt>へい</rt></ruby>が<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>としてくれる<ruby><rb>限</rb><rt>かぎ</rt></ruby>り、\\nおれは<ruby><rb>必</rb><rt>かなら</rt></ruby>ず、ここにいるから。",
+        "zh_cn": "只要你和士兵们还需要我，\\n我就一定会与你们同在。",
+        "zh_tw": "只要慕慕和士兵們需要我，\\n那我就一定會繼續留在這裡。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0043",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "Thank you, Alberius...",
+        "ja_jp": "アルベリウス……。",
+        "zh_cn": "阿尔贝琉斯……",
+        "zh_tw": "阿爾博流斯……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0044",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "And you are right: This is precisely the\\nmoment when we must hew to our\\nconvictions and press on.",
+        "ja_jp": "そうね。こんな<ruby><rb>時</rb><rt>とき</rt></ruby>だからこそ……\\n<ruby><rb>頑張</rb><rt>がんば</rt></ruby>らなくちゃだめよね。",
+        "zh_cn": "你说得对。越是这种时候，\\n越要加油才行呢。",
+        "zh_tw": "是啊，就是在這種時候……\\n才更需要努力呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0045",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "Exactly. Right now, we must focus on\\ndefeating the Other above all... Hmm?",
+        "ja_jp": "ああ。<ruby><rb>今</rb><rt>いま</rt></ruby>は<ruby><rb>魔神</rb><rt>まじん</rt></ruby>を<ruby><rb>倒</rb><rt>たお</rt></ruby>すためにできる\\nことを……ん？",
+        "zh_cn": "嗯，现在还是想想要打倒魔神，\\n我们能做些什么……嗯？",
+        "zh_tw": "是啊。現在就把打倒魔神\\n所需要的事情都做好……嗯？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0046",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "The ground is rumbling—and the birds\\nappear to be much disturbed.",
+        "ja_jp": "<ruby><rb>地鳴</rb><rt>じな</rt></ruby>り……？\\nそれに、<ruby><rb>鳥</rb><rt>とり</rt></ruby>たちも<ruby><rb>騒</rb><rt>さわ</rt></ruby>がしい……。",
+        "zh_cn": "地盘在震动？\\n鸟儿们也很吵闹……",
+        "zh_tw": "地震……？\\n而且鳥都在躁動……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0047",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "Alberius! Look at the sky!",
+        "ja_jp": "あ、アルベリウス……！\\n<ruby><rb>空</rb><rt>そら</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>て!!",
+        "zh_cn": "啊，阿尔贝琉斯！\\n快看天空！",
+        "zh_tw": "啊，阿爾博流斯……！\\n快看天空！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0048",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "It's a horde of dragons—and they're\\nheaded this way!",
+        "ja_jp": "!!　あれは、ドラゴンの<ruby><rb>群</rb><rt>む</rt></ruby>れ!?\\nこっちに……<ruby><rb>向</rb><rt>む</rt></ruby>かってくる！",
+        "zh_cn": "那是，一群龙！？\\n朝这边来了！",
+        "zh_tw": "！！\\n那是成群的龍族！？\\n正朝著……這裡過來！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0049",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "By Ilia, they're attacking people! But why?!",
+        "ja_jp": "ドラゴンが<ruby><rb>人</rb><rt>ひと</rt></ruby>を<ruby><rb>襲</rb><rt>おそ</rt></ruby>ってる……？\\n<ruby><rb>一体</rb><rt>いったい</rt></ruby>どういうことだ!?",
+        "zh_cn": "龙竟然在袭击人？\\n到底是怎么回事！？",
+        "zh_tw": "龍族在襲擊人類……？\\n究竟是怎麼回事！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0050",
+      "book": ""
+    },
+    {
+      "icon": "200010_01",
+      "name": {
+        "en_us": "Chthonius",
+        "ja_jp": "プルートー",
+        "zh_cn": "普鲁托",
+        "zh_tw": "普魯托"
+      },
+      "context": {
+        "en_us": "It is Elysium's will.",
+        "ja_jp": "――エリュシオンの<ruby><rb>意志</rb><rt>いし</rt></ruby>ですよ。\\nアルベリウス。",
+        "zh_cn": "阿尔贝琉斯，\\n那是圣域龙的意志。",
+        "zh_tw": "──這是伊利西恩的意志啊，\\n阿爾博流斯。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0051",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "What do you mean?!",
+        "ja_jp": "プルートー……。\\nこれがエリュシオンの<ruby><rb>意志</rb><rt>いし</rt></ruby>って、\\nどういうことなの？",
+        "zh_cn": "普鲁托……\\n这话是什么意思？",
+        "zh_tw": "普魯托……\\n你說這是伊利西恩的意志，\\n是什麼意思？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0052",
+      "book": ""
+    },
+    {
+      "icon": "200010_01",
+      "name": {
+        "en_us": "Chthonius",
+        "ja_jp": "プルートー",
+        "zh_cn": "普鲁托",
+        "zh_tw": "普魯托"
+      },
+      "context": {
+        "en_us": "Humans—and in particular adherents of\\nIlia who long ago were charged with\\ndefeating the Other—have by their own\\nhands given him flesh once more.",
+        "ja_jp": "<ruby><rb>人</rb><rt>ひと</rt></ruby>……とくに<ruby><rb>魔神</rb><rt>まじん</rt></ruby><ruby><rb>打倒</rb><rt>だとう</rt></ruby>を<ruby><rb>使命</rb><rt>しめい</rt></ruby>と\\nしていたイリア<ruby><rb>教徒</rb><rt>きょうと</rt></ruby>たちが<ruby><rb>自</rb><rt>みずか</rt></ruby>らの<ruby><rb>手</rb><rt>て</rt></ruby>で\\n<ruby><rb>魔神</rb><rt>まじん</rt></ruby>を<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>させた……。",
+        "zh_cn": "人类……尤其是以打倒魔神\\n为使命的伊莉雅教徒们\\n亲手让魔神复活了……",
+        "zh_tw": "人類……尤其是以打倒魔神為使命的\\n伊利亞教徒們，親手讓魔神復活了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0053",
+      "book": ""
+    },
+    {
+      "icon": "200010_01",
+      "name": {
+        "en_us": "Chthonius",
+        "ja_jp": "プルートー",
+        "zh_cn": "普鲁托",
+        "zh_tw": "普魯托"
+      },
+      "context": {
+        "en_us": "This act has incurred the divine wrath\\nof the Holywyrm.",
+        "ja_jp": "どうやらそれが、エリュシオンの\\n<ruby><rb>逆鱗</rb><rt>げきりん</rt></ruby>にふれてしまったようですね。",
+        "zh_cn": "此事似乎触怒了圣域龙。",
+        "zh_tw": "看來此次事件，\\n觸及了伊利西恩的逆鱗。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0054",
+      "book": ""
+    },
+    {
+      "icon": "200010_01",
+      "name": {
+        "en_us": "Chthonius",
+        "ja_jp": "プルートー",
+        "zh_cn": "普鲁托",
+        "zh_tw": "普魯托"
+      },
+      "context": {
+        "en_us": "The Holywyrm will seek to fell the Other\\nso order might be preserved.",
+        "ja_jp": "こうなってしまえばあの<ruby><rb>聖竜</rb><rt>せいりゅう</rt></ruby>は、\\n<ruby><rb>世界</rb><rt>せかい</rt></ruby>の<ruby><rb>秩序</rb><rt>ちつじょ</rt></ruby>のために<ruby><rb>自</rb><rt>みずか</rt></ruby>ら<ruby><rb>魔神</rb><rt>まじん</rt></ruby>を\\n<ruby><rb>倒</rb><rt>たお</rt></ruby>そうとするでしょう。",
+        "zh_cn": "事已至此，\\n为了维护世界秩序，\\n圣域龙定会亲自打倒魔神。",
+        "zh_tw": "事已至此，\\n想必聖龍為了維持世界秩序，\\n決意要親自擊敗魔神了吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0055",
+      "book": ""
+    },
+    {
+      "icon": "200010_01",
+      "name": {
+        "en_us": "Chthonius",
+        "ja_jp": "プルートー",
+        "zh_cn": "普鲁托",
+        "zh_tw": "普魯托"
+      },
+      "context": {
+        "en_us": "If any soldiers fail to honor the ancient\\naccord, their lives shall also be forfeit.",
+        "ja_jp": "<ruby><rb>約束</rb><rt>やくそく</rt></ruby>を<ruby><rb>違</rb><rt>たが</rt></ruby>え<ruby><rb>争</rb><rt>あらそ</rt></ruby>い<ruby><rb>合</rb><rt>あ</rt></ruby>う<ruby><rb>兵士</rb><rt>へいし</rt></ruby>たち<ruby><rb>諸共</rb><rt>もろとも</rt></ruby>。",
+        "zh_cn": "连同那些背信弃义的士兵一起。",
+        "zh_tw": "連同違反約定互相爭鬥的眾人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0056",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "Elysium intends to harm humans?!",
+        "ja_jp": "<ruby><rb>聖竜</rb><rt>せいりゅう</rt></ruby>エリュシオンが、\\n<ruby><rb>人</rb><rt>ひと</rt></ruby>に<ruby><rb>危害</rb><rt>きがい</rt></ruby>を<ruby><rb>加</rb><rt>くわ</rt></ruby>えるというの？",
+        "zh_cn": "你是说圣域龙，\\n会伤害人类？",
+        "zh_tw": "你的意思是聖龍伊利西恩\\n想要加害人類？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0057",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "We can't allow that! Mym, let's go to the\\nForbidden Dominion and speak with\\nElysium again!",
+        "ja_jp": "そんなことはさせない……！\\nムム、<ruby><rb>禁域</rb><rt>きんいき</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>こう。もう<ruby><rb>一度</rb><rt>いちど</rt></ruby>\\nエリュシオンと<ruby><rb>話</rb><rt>はな</rt></ruby>すんだ！",
+        "zh_cn": "不能让那种事发生！\\n穆穆，我们去禁域，\\n再和圣域龙对话一次！",
+        "zh_tw": "不能讓他那麼做……！\\n慕慕，我們到禁域去。\\n我要再和伊利西恩談一談！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0058",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "Where are you, Elysium?! Show yourself!",
+        "ja_jp": "エリュシオンッ！\\nどこだ、いるんだろう!?",
+        "zh_cn": "圣域龙！\\n你在哪，我知道你在！",
+        "zh_tw": "伊利西恩！\\n出來，你在這裡吧！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0059",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "What brings you to me, child of man?",
+        "ja_jp": "……<ruby><rb>何用</rb><rt>なによう</rt></ruby>です。<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>仔</rb><rt>こ</rt></ruby>よ。",
+        "zh_cn": "人类之子……找我何事？",
+        "zh_tw": "……有何事，人類之子？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0060",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "Call off your attack! You must not take\\nhuman lives along with the Other's!",
+        "ja_jp": "<ruby><rb>聖竜</rb><rt>せいりゅう</rt></ruby>よ、こんなことはよすんだ！\\n<ruby><rb>魔神</rb><rt>まじん</rt></ruby><ruby><rb>諸共</rb><rt>もろとも</rt></ruby>、<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>命</rb><rt>いのち</rt></ruby>を<ruby><rb>奪</rb><rt>うば</rt></ruby>うなど……！",
+        "zh_cn": "圣域龙，你不能这么做！\\n竟然不光是魔神，\\n连人的性命都要夺去！",
+        "zh_tw": "聖龍，快停止那種事！\\n居然要在打倒魔神的同時\\n將人們的生命一起奪去……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0061",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "I refuse your exhortation; defeating the\\nOther was the charge of humans,\\nand they have abandoned their duty.",
+        "ja_jp": "お<ruby><rb>断</rb><rt>ことわ</rt></ruby>りしましょう。\\n<ruby><rb>魔神</rb><rt>まじん</rt></ruby><ruby><rb>打倒</rb><rt>だとう</rt></ruby>は<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>役目</rb><rt>やくめ</rt></ruby>。その<ruby><rb>理</rb><rt>ことわり</rt></ruby>より、\\n<ruby><rb>人</rb><rt>ひと</rt></ruby>は<ruby><rb>自</rb><rt>みずか</rt></ruby>ら<ruby><rb>外</rb><rt>はず</rt></ruby>れてしまったのですから。",
+        "zh_cn": "恕我拒绝。\\n打倒魔神乃人之使命，\\n是人类自己违背了这一常理。",
+        "zh_tw": "我拒絕。\\n打倒魔神是人類的使命，\\n但人類卻自行脫離了此定理。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0062",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "Holywyrm, you are correct that my father\\nrestored the Other when he was sworn\\nto do the opposite, but—",
+        "ja_jp": "<ruby><rb>理</rb><rt>ことわり</rt></ruby>より、<ruby><rb>人自</rb><rt>ひとみずか</rt></ruby>ら……。\\nたしかにその<ruby><rb>役目</rb><rt>やくめ</rt></ruby>を<ruby><rb>先頭</rb><rt>せんとう</rt></ruby>でになうべき\\n<ruby><rb>父</rb><rt>ちち</rt></ruby>が、<ruby><rb>魔神</rb><rt>まじん</rt></ruby>を<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>させましたが……。",
+        "zh_cn": "人类……违背常理……\\n的确，我父亲本该率先担此重任，\\n却亲手复活了魔神……",
+        "zh_tw": "人類自己，脫離了定理……\\n確實應當主導並實行那份使命的父親，\\n讓魔神復活了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0063",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "This spectacle is the fruit born of an\\norganization sworn to end the Other\\nfailing to abide their authority.",
+        "ja_jp": "そのとおりです。<ruby><rb>魔神</rb><rt>まじん</rt></ruby>を<ruby><rb>倒</rb><rt>たお</rt></ruby>さねば\\nならぬ<ruby><rb>組織</rb><rt>そしき</rt></ruby>が、<ruby><rb>権力</rb><rt>けんりょく</rt></ruby>を<ruby><rb>守</rb><rt>まも</rt></ruby>らんと<ruby><rb>腐</rb><rt>くさ</rt></ruby>った\\n<ruby><rb>結果</rb><rt>けっか</rt></ruby>。これがこの<ruby><rb>惨状</rb><rt>さんじょう</rt></ruby>です。",
+        "zh_cn": "正是如此。负责打倒魔神的组织\\n为了维护权力而腐败堕落的结果，\\n就是如今这番惨状。",
+        "zh_tw": "正是如此。必須打倒魔神的組織，\\n卻為守住權力而腐敗之結果，\\n就是這副慘狀。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0064",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "In giving her people this critical role,\\nIlia hoped to protect them from me.",
+        "ja_jp": "<ruby><rb>人</rb><rt>ひと</rt></ruby>に<ruby><rb>役目</rb><rt>やくめ</rt></ruby>を<ruby><rb>負</rb><rt>お</rt></ruby>わせることで、イリアは\\n<ruby><rb>貴方</rb><rt>あなた</rt></ruby>がたを<ruby><rb>私</rb><rt>わたし</rt></ruby>から<ruby><rb>守</rb><rt>まも</rt></ruby>ったつもりで\\nいたのでしょう。しかし……",
+        "zh_cn": "伊莉雅以为通过让人类担负起责任，\\n就能保护他们免于我的责罚，\\n但是……",
+        "zh_tw": "伊利亞自認讓人類擔起此職責，\\n便能從我手中保護你們。\\n然而……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0065",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "Yet it is her own faithful who cast aside\\ntheir charge and restored the Other.\\nI long believed humans to be immature,\\nchildish things, and now it is proven true.",
+        "ja_jp": "その<ruby><rb>信徒自</rb><rt>しんとみずか</rt></ruby>ら<ruby><rb>役目</rb><rt>やくめ</rt></ruby>を<ruby><rb>捨</rb><rt>す</rt></ruby>て、<ruby><rb>魔神</rb><rt>まじん</rt></ruby>を\\n<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>させた。やはり<ruby><rb>人</rb><rt>ひと</rt></ruby>は、<ruby><rb>未熟</rb><rt>みじゅく</rt></ruby>で\\n<ruby><rb>幼稚</rb><rt>ようち</rt></ruby>な<ruby><rb>生</rb><rt>い</rt></ruby>き<ruby><rb>物</rb><rt>もの</rt></ruby>でしかないようです。",
+        "zh_cn": "这些信徒自己舍弃了使命，\\n复活了魔神。看来人类\\n果然只是青涩幼稚的生物。",
+        "zh_tw": "那信徒擅自捨棄使命，使魔神復活了。\\n果然人類就只是\\n不成熟且幼稚的生物罷了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0066",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "Yet there remain countless people who\\nHAVE kept to Ilia's teachings and struggle\\neven now to bring down the Other.",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>ってくれ、エリュシオンよ。\\n<ruby><rb>多</rb><rt>おお</rt></ruby>くの<ruby><rb>兵</rb><rt>へい</rt></ruby>がイリアの<ruby><rb>教</rb><rt>おし</rt></ruby>えを<ruby><rb>守</rb><rt>まも</rt></ruby>り、\\n<ruby><rb>魔神</rb><rt>まじん</rt></ruby>を<ruby><rb>倒</rb><rt>たお</rt></ruby>そうと<ruby><rb>奮闘</rb><rt>ふんとう</rt></ruby>している。",
+        "zh_cn": "等一下，圣域龙。\\n众多士兵都牢记伊莉雅的教诲，\\n为打倒魔神而奋战。",
+        "zh_tw": "等等，伊利西恩。\\n還有許多士兵是遵循伊利亞的教誨，\\n正為打倒魔神而努力奮鬥著。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0067",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "We haven't abandoned our mission to see\\nhim laid low! You mustn't lose faith!",
+        "ja_jp": "<ruby><rb>人</rb><rt>ひと</rt></ruby>はまだ、<ruby><rb>魔神</rb><rt>まじん</rt></ruby><ruby><rb>打倒</rb><rt>だとう</rt></ruby>の<ruby><rb>使命</rb><rt>しめい</rt></ruby>を<ruby><rb>捨</rb><rt>す</rt></ruby>てては\\nいない。だから、どうか<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>貸</rb><rt>か</rt></ruby>して\\nくれないか？",
+        "zh_cn": "人类还没有舍弃打倒魔神的使命。\\n所以，能请你助我一臂之力吗？",
+        "zh_tw": "人類還沒有捨棄打倒魔神的使命。\\n所以，能請你把力量借給我嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0068",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "Even for a child of man, Alberius,\\nyou are a naive and resounding fool.",
+        "ja_jp": "アルベリウス。<ruby><rb>貴方</rb><rt>あなた</rt></ruby>は<ruby><rb>純粋</rb><rt>じゅんすい</rt></ruby>で……\\n<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>仔</rb><rt>こ</rt></ruby>のなかでもとくに<ruby><rb>愚</rb><rt>おろ</rt></ruby>かです。",
+        "zh_cn": "阿尔贝琉斯，你很单纯……\\n在人类之中也尤为愚蠢。",
+        "zh_tw": "阿爾博流斯，你真是純粹……\\n在人類之子中，亦屬特別愚蠢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0069",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "?",
+        "ja_jp": "……？",
+        "zh_cn": "？",
+        "zh_tw": "……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0070",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "I named you hero that the people's faith\\nmight be strengthened—nothing more.",
+        "ja_jp": "<ruby><rb>貴方</rb><rt>あなた</rt></ruby>は<ruby><rb>人々</rb><rt>ひとびと</rt></ruby>の<ruby><rb>信仰</rb><rt>しんこう</rt></ruby>をより<ruby><rb>強固</rb><rt>きょうこ</rt></ruby>なものに\\nするために<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>認</rb><rt>みと</rt></ruby>めた<ruby><rb>英雄</rb><rt>えいゆう</rt></ruby>。\\n――それだけでしかありません。",
+        "zh_cn": "你不过是我为了巩固\\n人类的信仰而认可的英雄——\\n仅此而已。",
+        "zh_tw": "為使人們的信仰更加堅定，\\n我才認定你為英雄──\\n除此之外沒有任何用意了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0071",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "That's...really the only reason?",
+        "ja_jp": "そ、それだけ……？",
+        "zh_cn": "仅、仅此而已？",
+        "zh_tw": "就、就只是那樣……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0072",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "Yes. Seven hundred years ago, I accepted\\nthat the sacred sword would be entrusted\\nto one of the dragonblood in order to keep\\nyour people's fighting spirit burning hot.",
+        "ja_jp": "はい。<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>戦意</rb><rt>せんい</rt></ruby>を<ruby><rb>維持</rb><rt>いじ</rt></ruby>するために\\n<ruby><rb>竜</rb><rt>りゅう</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>を<ruby><rb>継</rb><rt>つ</rt></ruby>ぐ<ruby><rb>者</rb><rt>もの</rt></ruby>に<ruby><rb>聖剣</rb><rt>せいけん</rt></ruby>を<ruby><rb>託</rb><rt>たく</rt></ruby>す……\\n700<ruby><rb>年</rb><rt>ねん</rt></ruby><ruby><rb>前</rb><rt>まえ</rt></ruby>、<ruby><rb>私</rb><rt>わたし</rt></ruby>はそれを<ruby><rb>了承</rb><rt>りょうしょう</rt></ruby>しました。",
+        "zh_cn": "是的，为了让人类保持斗志，\\n将圣剑托付于龙之血的继承者……\\n700年前，我同意了此事。",
+        "zh_tw": "沒錯。為了維持人類戰意，\\n將聖劍托付予龍之血繼承者……\\n700年前，我接受了此項條件。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0073",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "Yet the arrangement conceived by Ilia\\nseems woefully ineffective in this era.",
+        "ja_jp": "しかし、イリアが<ruby><rb>考</rb><rt>かんが</rt></ruby>えたその<ruby><rb>仕組</rb><rt>しく</rt></ruby>みも\\nこの<ruby><rb>時代</rb><rt>じだい</rt></ruby>の<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>仔</rb><rt>こ</rt></ruby>には<ruby><rb>有効</rb><rt>ゆうこう</rt></ruby>では\\nなかったようです。",
+        "zh_cn": "然而，\\n伊莉雅想出来的这种方法，\\n似乎对这个时代的人类无效。",
+        "zh_tw": "然而，伊利亞所想的方式，\\n似乎對這時代的人類之子並不管用。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0074",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "Your kind is no longer necessary.\\nI will slay the Other myself and cull your\\nbrethren who do war—starting now.",
+        "ja_jp": "ゆえに、<ruby><rb>貴方</rb><rt>あなた</rt></ruby>はもう<ruby><rb>不要</rb><rt>ふよう</rt></ruby>です。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>魔神</rb><rt>まじん</rt></ruby>を<ruby><rb>倒</rb><rt>たお</rt></ruby>し、<ruby><rb>争</rb><rt>あらそ</rt></ruby>う<ruby><rb>仔</rb><rt>こ</rt></ruby>らを<ruby><rb>間引</rb><rt>まび</rt></ruby>く。\\n――<ruby><rb>今</rb><rt>いま</rt></ruby>この<ruby><rb>瞬間</rb><rt>しゅんかん</rt></ruby>より。",
+        "zh_cn": "因此，你对我已经没用了。\\n从此刻起，将由我来打倒魔神，\\n淘汰掉那些彼此争斗的人类。",
+        "zh_tw": "因此，你已經無用了。\\n我會打倒魔神，除掉爭執不斷的\\n人類之子──從這一刻起。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0075",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "No! Stop!",
+        "ja_jp": "!!　ま、<ruby><rb>待</rb><rt>ま</rt></ruby>ってくれ！",
+        "zh_cn": "等、等等！",
+        "zh_tw": "！！\\n等、等等！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0076",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "*pant* *pant* This isn't good...\\nIt's a full-scale natural disaster!",
+        "ja_jp": "はぁ、はぁ……！\\nまずいわ。<ruby><rb>本格的</rb><rt>ほんかくてき</rt></ruby>に、<ruby><rb>天変地異</rb><rt>てんぺんちい</rt></ruby>が\\n<ruby><rb>起</rb><rt>お</rt></ruby>き<ruby><rb>始</rb><rt>はじ</rt></ruby>めてる……！",
+        "zh_cn": "哈啊、哈啊……\\n不妙，真正的天地异变\\n已经开始了！",
+        "zh_tw": "呼、呼……！\\n這下糟了，\\n真正的天地異變已經開始了……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0077",
+      "book": ""
+    },
+    {
+      "icon": "200010_01",
+      "name": {
+        "en_us": "Chthonius",
+        "ja_jp": "プルートー",
+        "zh_cn": "普鲁托",
+        "zh_tw": "普魯托"
+      },
+      "context": {
+        "en_us": "Your attempt to treat with the Holywyrm\\nhas ended in failure, then? Sadly,\\nthis comes as little surprise to me.",
+        "ja_jp": "<ruby><rb>交渉</rb><rt>こうしょう</rt></ruby>は<ruby><rb>失敗</rb><rt>しっぱい</rt></ruby>したようですね。\\nもっともあの<ruby><rb>聖竜</rb><rt>せいりゅう</rt></ruby>が<ruby><rb>簡単</rb><rt>かんたん</rt></ruby>に<ruby><rb>止</rb><rt>と</rt></ruby>められる\\nとは<ruby><rb>思</rb><rt>おも</rt></ruby>っていませんでしたが……。",
+        "zh_cn": "看来谈判失败了。\\n虽然本来也不认为\\n你们能轻易阻止圣域龙……",
+        "zh_tw": "看來交涉失敗了。\\n雖然吾本就不認為\\n能夠輕易阻止聖龍……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0078",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "I'm still not giving up.",
+        "ja_jp": "ああ……それでも、<ruby><rb>止</rb><rt>と</rt></ruby>めないと。",
+        "zh_cn": "是啊……可即便如此\\n也得阻止。",
+        "zh_tw": "嗯……即使是那樣，\\n還是得阻止他。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0079",
+      "book": ""
+    },
+    {
+      "icon": "200010_01",
+      "name": {
+        "en_us": "Chthonius",
+        "ja_jp": "プルートー",
+        "zh_cn": "普鲁托",
+        "zh_tw": "普魯托"
+      },
+      "context": {
+        "en_us": "It seems you are firm in your resolve.\\nIn that case, your only course of action\\nis to stop Elysium by force.",
+        "ja_jp": "<ruby><rb>諦</rb><rt>あきら</rt></ruby>めぬというのですね。\\nならば<ruby><rb>道</rb><rt>みち</rt></ruby>はひとつ……エリュシオンを\\n<ruby><rb>力</rb><rt>ちから</rt></ruby>ずくで<ruby><rb>抑</rb><rt>おさ</rt></ruby>えることでしょう。",
+        "zh_cn": "看来你不肯放弃啊。\\n那就只剩一条路……\\n用武力制服圣域龙。",
+        "zh_tw": "意即您不打算放棄對吧。\\n那麼只剩一個方法……\\n就是以力量壓制伊利西恩。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0080",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "You mean for him to fight the Holywyrm\\noutside the bounds of their trial?!",
+        "ja_jp": "な！　<ruby><rb>聖竜</rb><rt>せいりゅう</rt></ruby>と<ruby><rb>試練</rb><rt>しれん</rt></ruby>の<ruby><rb>枠</rb><rt>わく</rt></ruby>を<ruby><rb>超</rb><rt>こ</rt></ruby>え、\\nまた<ruby><rb>戦</rb><rt>たたか</rt></ruby>うというの……!?",
+        "zh_cn": "什么！要跨越试炼的范畴，\\n与圣域龙再战吗！？",
+        "zh_tw": "什麼！要超過試煉的範疇，\\n直接與聖龍開戰的意思嗎……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0081",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "If that is what it takes to stop this,\\nthen I will see it done.",
+        "ja_jp": "……わかったよ、プルートー。\\nおれはエリュシオンと<ruby><rb>争</rb><rt>あらそ</rt></ruby>うことに\\nなっても、すべてを<ruby><rb>止</rb><rt>と</rt></ruby>めたい。",
+        "zh_cn": "我明白了……普鲁托，\\n就算要与圣域龙为敌，\\n我也想阻止这一切。",
+        "zh_tw": "……我明白的，普魯托。\\n就算要與伊利西恩為敵，\\n我也想要阻止這一切。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0082",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "I will halt the Other's invasion\\nand Elysium's judgment alike!",
+        "ja_jp": "<ruby><rb>魔神</rb><rt>まじん</rt></ruby>の<ruby><rb>侵略</rb><rt>しんりゃく</rt></ruby>も。\\nエリュシオンの<ruby><rb>裁</rb><rt>さば</rt></ruby>きも！",
+        "zh_cn": "不光是魔神的侵犯，\\n还有圣域龙的制裁！",
+        "zh_tw": "不論是魔神的侵略，\\n或是伊利西恩的制裁！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0083",
+      "book": ""
+    },
+    {
+      "icon": "200010_01",
+      "name": {
+        "en_us": "Chthonius",
+        "ja_jp": "プルートー",
+        "zh_cn": "普鲁托",
+        "zh_tw": "普魯托"
+      },
+      "context": {
+        "en_us": "I see I was right to align myself with you.\\nOn my back now, if you would.",
+        "ja_jp": "よいでしょう。それでこそ<ruby><rb>共</rb><rt>とも</rt></ruby>に<ruby><rb>戦</rb><rt>たたか</rt></ruby>うと\\n<ruby><rb>約束</rb><rt>やくそく</rt></ruby>した<ruby><rb>甲斐</rb><rt>かい</rt></ruby>があったというもの。\\nどうぞ、<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>背</rb><rt>せ</rt></ruby>に。",
+        "zh_cn": "好，这才不枉我答应\\n与你并肩作战。\\n请到我的背上来。",
+        "zh_tw": "應當如此。這樣才不枉費\\n吾決意與您共同作戰之約定。\\n請乘坐到吾的背上。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0084",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "Wait here, Myriam. I'm going to fix this!",
+        "ja_jp": "ああ……！　ムムジアンヌはここで\\n<ruby><rb>待</rb><rt>ま</rt></ruby>っててくれ。<ruby><rb>必</rb><rt>かなら</rt></ruby>ずおれが……\\n<ruby><rb>止</rb><rt>と</rt></ruby>めてみせる！",
+        "zh_cn": "嗯！穆穆雅娜就在这里等着吧。\\n我一定……会阻止他们的！",
+        "zh_tw": "嗯……！慕慕潔安就在這裡等著。\\n我一定會……阻止這一切的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0085",
+      "book": ""
+    },
+    {
+      "icon": "200010_01",
+      "name": {
+        "en_us": "Chthonius",
+        "ja_jp": "プルートー",
+        "zh_cn": "普鲁托",
+        "zh_tw": "普魯托"
+      },
+      "context": {
+        "en_us": "If you are ready, we must be off.",
+        "ja_jp": "<ruby><rb>準備</rb><rt>じゅんび</rt></ruby>はよいですね？　ならば……\\n<ruby><rb>参</rb><rt>まい</rt></ruby>りましょう。",
+        "zh_cn": "准备好了吗？那就……\\n出发吧。",
+        "zh_tw": "都準備好了吧？\\n那麼……走吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0086",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "Please be careful, Alberius...",
+        "ja_jp": "<ruby><rb>気</rb><rt>き</rt></ruby>を<ruby><rb>付</rb><rt>つ</rt></ruby>けてね。\\nアルベリウス……。",
+        "zh_cn": "阿尔贝琉斯……\\n千万要小心啊。",
+        "zh_tw": "要多小心喔，\\n阿爾博流斯……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_06_0087",
+      "book": ""
+    }
+  ]
 }

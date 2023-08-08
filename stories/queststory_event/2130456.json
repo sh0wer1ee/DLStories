@@ -1,31 +1,60 @@
 {
-    "story_id": "",
-    "story_name": "情人节·甜美佳肴 追加剧情 朱丽叶",
-    "story_icon": "",
-    "outline": {
-        "title": "",
-        "content": [
-            "要跳过此剧情吗？"
-        ]
+  "title": {
+    "en_us": "Valentine's Confections Extra    Julietta",
+    "ja_jp": "バレンタイン・アラカルト エクストラ  ジュリエッタ",
+    "zh_cn": "情人节·甜美佳肴 追加剧情  朱丽叶",
+    "zh_tw": "情人節‧精巧甜品　追加劇情  朱莉葉塔"
+  },
+  "outline": {
+    "title": {
+      "en_us": "",
+      "ja_jp": "",
+      "zh_cn": "",
+      "zh_tw": ""
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110042_01"
-            ],
-            "speaker_name": "朱丽叶",
-            "context": "我、我倒不是不高兴啦。\\n不如说是……\\n啊，没、没什么！",
-            "voice_line": "VO_CHR_EVENTSTORY_21304_01_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110042_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "收到了来自朱丽叶的回礼。",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Skip this scene?",
+      "ja_jp": "このストーリーをスキップしますか？",
+      "zh_cn": "要跳过此剧情吗？",
+      "zh_tw": "請確認是否略過劇情？"
+    }
+  },
+  "prev": "2130455",
+  "next": "2130457",
+  "content": [
+    {
+      "icon": "110042_01",
+      "name": {
+        "en_us": "Julietta",
+        "ja_jp": "ジュリエッタ",
+        "zh_cn": "朱丽叶",
+        "zh_tw": "朱莉葉塔"
+      },
+      "context": {
+        "en_us": "Oh? For me? It's...it's not that I'm\\nnot happy, per se. It's just, I...\\nOh, just forget it!",
+        "ja_jp": "う、<ruby><rb>嬉</rb><rt>うれ</rt></ruby>しくないわけではありませんわ。\\nむしろ……\\nあ、な、なんでもありません！",
+        "zh_cn": "我、我倒不是不高兴啦。\\n不如说是……\\n啊，没、没什么！",
+        "zh_tw": "我、我怎麼可能不開心呢。\\n不如說……\\n啊，沒、沒什麼！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21304_01_0016",
+      "book": ""
+    },
+    {
+      "icon": "110042_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "You received a thank-you gift from Julietta.",
+        "ja_jp": "ジュリエッタからプレゼントのお<ruby><rb>礼</rb><rt>れい</rt></ruby>をもらった。",
+        "zh_cn": "收到了来自朱丽叶的回礼。",
+        "zh_tw": "收到了來自朱莉葉塔的回禮。"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

@@ -1,942 +1,1785 @@
 {
-    "story_id": "",
-    "story_name": "防卫战～矛盾之心·人偶之战～ “心”与“躯”",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "艾琳操控着马斯古拉的躯体，\\n以此作为牵制莱姬希的杀手锏发起攻击。\\n王子等人虽陷入危机，却也以此为契机\\n让马斯古拉的心夺回了身体的控制权，\\n众人开始进行反击。"
-        ]
+  "title": {
+    "en_us": "Ageless Artifice    Hearts and Bodies",
+    "ja_jp": "防衛戦～アンビバレント・マリオーン～  『心』と『体』",
+    "zh_cn": "防卫战～矛盾之心·人偶之战～  “心”与“躯”",
+    "zh_tw": "防衛戰～矛盾之心‧瑪利昂～  「心」與「身體」"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "那些家伙又来了。\\n也不像能讲得通道理的样子，\\n到底是怎么回事啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "古老的记录有记载。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "机械神兵……似乎是\\n1000年来坚持为人类而战的\\n战斗人偶群体。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "据说每几十年就会在活动\\n和休眠之间反复切换，\\n为了让人类夺回大地而战。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "为了人类而战吗……\\n不过，他们根本没把我们\\n当成人类吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_05"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "予以肯定。\\n机械神兵定义的“人类”只有\\n1000年前逃亡到空中都市的人们。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_05"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "尤蒂尔你们\\n是不同的概念，叫作“地人”。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "不同的概念吗……\\n要是能和那个空中都市的人们\\n达成和解就好了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "很遗憾，机械神兵的作战当中\\n从来都没有出现过人类。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "是没有交涉的余地吗。他们只是\\n派出兵器，自己作壁上观，\\n这种行为实在有碍观瞻。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "那就只能和他们打了吗。\\n不过被迫战斗了1000年，\\n感觉他们也挺可怜的……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "但是，无差别袭击人\\n这种行径不分兵民，\\n都不能视而不见。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "嗯，这我知道。\\n我也很清楚真要打起来\\n肯定没工夫同情他们。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_05"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "今天一定要击毁指挥官机体。\\n这样一来，大多数战斗人偶\\n都会宕机。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "靠你们了，莱姬希，马斯古拉。\\n不过可不要乱来哦。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_05"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "明白。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "他们来了……我们上！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "哈啊、哈啊……总算倒下了。\\n不觉得他们和之前不太一样了吗？\\n该说气势汹汹还是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "是啊，不再是之前那种\\n观望似的战斗方式了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "他们这是开始拿出真本事了吗……\\n这样下去要成消耗战了。\\n不赶紧想办法的话可不妙啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_05"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "没事，现在开始想办法。\\n——捕捉到指挥官机体位置。\\n我们来阻止她！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好，莱姬希，马斯古拉，\\n拜托你们了。卢卡，\\n我们去给莱姬希他们开路！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "好！包在我身上！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_05"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——切换为伊甸园模式。\\n一口气解决战斗！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "魔力浓度急剧下降……\\n她好像发动伊甸园模式了。\\n芬妮……准备好了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "唔、嗯……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "芬妮？怎么了？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "艾琳……\\n我的“心”……已经破损了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "你、你突然……说什么呢？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "你不用装傻我也知道。\\n我最近总是失控，\\n每次都是你来阻止我……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "总有一天你阻止不了我。\\n我有这种预感……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "芬妮……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "我……很害怕……\\n“心”破损的话会变成什么样？\\n会不会失控连你一起毁掉？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "我不想这样……\\n艾琳，我不要……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "芬妮……\\n还记得我们的约定吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "我们说好了“无论是否报废，\\n都要永远在一起”。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "当然记得了。\\n我怎么会清除那条记忆呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "那你应该明白吧？\\n我不会丢下你的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "我不会让你孤单，\\n绝对不会。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "发现目标，确认指挥官机体。\\n开始攻击。\\n——莱姬希！左侧有个体正快速接近！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——明白，先迎击左侧……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "这个体……难道是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "莱姬希你没事吧！\\n喽啰交给我，指挥官就……\\n诶！？这、这家伙是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "攻击范围内\\n出现新的敌对个体。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "骗、骗人的吧？这不是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120135_01"
-            ],
-            "speaker_name": "马斯古拉",
-            "context": "开始、消灭。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "马斯古拉！？\\n这不是马斯古拉吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——是、是啊。是我的身体……\\n放在圣城里的我的身体……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120135_01"
-            ],
-            "speaker_name": "马斯古拉",
-            "context": "无法确认初次攻击生效。\\n继续攻击。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "唔噢噢！？\\n见鬼，这该咋办啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "啊……因为我的身体卢卡他……\\n得想想办法……但、但是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——马斯古拉！振作点！\\n——我、我知道。那具身体\\n不是我，可是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——马斯古拉！？\\n不好，这样下去……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "伊甸园模式解除了！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——都是我内心动摇的错……\\n呃，理智明明知道……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "艾琳",
-            "context": "我等的就是这个时机！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "如我所料，只要使用那具身体，\\n发动伊甸园模式所必需的\\n“心”的同步就会紊乱。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "艾琳！这是你的圈套吗？\\n故意偷走我的身体……\\n不惜这么做！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "没错。我可是不择手段的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "你的……不，你们的“心”，\\n我就收下了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "“心”？\\n为什么你要我们的“心”……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "人偶也有重要之物！\\n就是这么回事！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "哇啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "莱姬希你没事吧！\\n虽然想立刻去帮你，但……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120135_01"
-            ],
-            "speaker_name": "马斯古拉",
-            "context": "消灭、妨碍执行作战的\\n敌对个体。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "也不能伤害马斯古拉的身体！\\n怎么办？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "干脆放弃吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "糟了，身后！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "晚了！哈啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "呃啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "别想妨碍艾琳！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "糟、糟糕……搞砸了……\\n可恶，身体……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "喂，彻底了结这家伙。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120135_01"
-            ],
-            "speaker_name": "马斯古拉",
-            "context": "遵命。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "我的身体要对卢卡……\\n我会……杀掉卢卡？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "那种事……不、不可以！\\n——马斯古拉，集中精力！\\n——唔！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "你应该没工夫东张西望。\\n当然，如果是举手投降\\n我倒是很欢迎。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "唔、呃……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120135_01"
-            ],
-            "speaker_name": "马斯古拉",
-            "context": "消灭、敌对、机体。\\n给予、最后、一击。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "呃！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "（我要杀掉卢卡了？不要！\\n绝对不能让那种事发生！）",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120135_01"
-            ],
-            "speaker_name": "马斯古拉",
-            "context": "最后、一击……\\n不……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "喂，怎么了？\\n赶紧执行命令。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120135_01"
-            ],
-            "speaker_name": "马斯古拉",
-            "context": "不……会。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "诶？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120135_01"
-            ],
-            "speaker_name": "马斯古拉",
-            "context": "不会！\\n我不会让那种事发生！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "你……说什么！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120135_01"
-            ],
-            "speaker_name": "马斯古拉",
-            "context": "我不会……\\n让你，伤害我的朋友！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "怎么回事！？\\n为什么会摆脱控制……\\n而且，那个人格！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0089",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——马斯古拉……是你吗？\\n你在远程操控身体？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0090",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——是的，我在控制。\\n我也不知道为什么可以……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0091",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "怎么会……不可能！\\n一定是哪里搞错了！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0092",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120135_01"
-            ],
-            "speaker_name": "马斯古拉",
-            "context": "莱姬希！趁……趁现在！\\n赶快破坏掉这具身体！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0093",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——马斯古拉！？\\n说明一下情况。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0094",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——我也不明白原理。\\n总之，我现在能控制我的身体。\\n但是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0095",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120135_01"
-            ],
-            "speaker_name": "马斯古拉",
-            "context": "但是，我也不知道\\n能撑到什么时候。\\n不破坏它就没法解决问题。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0096",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——这样真的好吗？\\n你也许变不回去了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0097",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120135_01"
-            ],
-            "speaker_name": "马斯古拉",
-            "context": "没关系，莱姬希。\\n我确实想要自己的身体，\\n会想着要是能变回去该多好。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0098",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120135_01"
-            ],
-            "speaker_name": "马斯古拉",
-            "context": "但是，我有比身体更重要的东西。\\n我从大家那里得到了\\n好多珍贵的东西。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0099",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120135_01"
-            ],
-            "speaker_name": "马斯古拉",
-            "context": "身体并不是真正的我。\\n想守护珍视之物的这份心情……\\n才是“我”！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0100",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120135_01"
-            ],
-            "speaker_name": "马斯古拉",
-            "context": "所以……与其失去珍视之物，\\n我宁可不要这身体！\\n拜托你，莱姬希！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0101",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "我明白了……但是，马斯古拉，\\n你也要一起！\\n——好，来吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0102",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_06"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "模式，转换……伊甸园！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_04_0103",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "As a secret weapon to defeat Laxi, Eirene\\ncontrols Mascula's body and makes it attack.\\nWhen the prince and his allies end up in a\\ntight situation, the danger causes Mascula\\nto regain control and launch a counterattack.",
+      "ja_jp": "アイリーンは、ラキシ<ruby><rb>撃破</rb><rt>げきは</rt></ruby>の<ruby><rb>切</rb><rt>き</rt></ruby>り<ruby><rb>札</rb><rt>ふだ</rt></ruby>として\\nマスキュラの<ruby><rb>体</rb><rt>からだ</rt></ruby>を<ruby><rb>操</rb><rt>あやつ</rt></ruby>り、<ruby><rb>攻撃</rb><rt>こうげき</rt></ruby>を<ruby><rb>行</rb><rt>おこな</rt></ruby>わせる。\\n<ruby><rb>王子</rb><rt>おうじ</rt></ruby>たちはピンチに<ruby><rb>陥</rb><rt>おちい</rt></ruby>るものの、その<ruby><rb>危機</rb><rt>きき</rt></ruby>を\\nきっかけとして、マスキュラの<ruby><rb>心</rb><rt>こころ</rt></ruby>が<ruby><rb>体</rb><rt>からだ</rt></ruby>の\\n<ruby><rb>制御</rb><rt>せいぎょ</rt></ruby>を<ruby><rb>奪</rb><rt>うば</rt></ruby>い<ruby><rb>返</rb><rt>かえ</rt></ruby>し、<ruby><rb>反撃</rb><rt>はんげき</rt></ruby>を<ruby><rb>開始</rb><rt>かいし</rt></ruby>するのだった。",
+      "zh_cn": "艾琳操控着马斯古拉的躯体，\\n以此作为牵制莱姬希的杀手锏发起攻击。\\n王子等人虽陷入危机，却也以此为契机\\n让马斯古拉的心夺回了身体的控制权，\\n众人开始进行反击。",
+      "zh_tw": "艾零操控馬斯科拉的身體進行攻擊，\\n將其作為用來擊毀拉契希的王牌。\\n雖然王子等人一度陷入危機，\\n卻也以此為契機，使馬斯科拉的心奪回了\\n身體的操控權，並開始展開反擊。"
+    }
+  },
+  "prev": "2221003",
+  "next": "2221005",
+  "content": [
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Hell, they're back again—and they don't\\nlook like they're in the mood to chat.",
+        "ja_jp": "あいつら、また<ruby><rb>来</rb><rt>き</rt></ruby>やがった。\\n<ruby><rb>話</rb><rt>はな</rt></ruby>し<ruby><rb>合</rb><rt>あ</rt></ruby>いが<ruby><rb>通</rb><rt>つう</rt></ruby>じる<ruby><rb>風</rb><rt>ふう</rt></ruby>でもねえし、\\n<ruby><rb>一体</rb><rt>いったい</rt></ruby>、<ruby><rb>何</rb><rt>なん</rt></ruby>なんだよ……。",
+        "zh_cn": "那些家伙又来了。\\n也不像能讲得通道理的样子，\\n到底是怎么回事啊……",
+        "zh_tw": "那些傢伙又來了。\\n看起來也不像能溝通的樣子，\\n到底是怎麼回事啊……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0001",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "I recall reading an old tome once...",
+        "ja_jp": "<ruby><rb>古</rb><rt>ふる</rt></ruby>い<ruby><rb>記録</rb><rt>きろく</rt></ruby>が<ruby><rb>残</rb><rt>のこ</rt></ruby>っておりましたわ。",
+        "zh_cn": "古老的记录有记载。",
+        "zh_tw": "古老紀錄中留有相關記載喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0002",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Ex Machina was evidently an organization\\nof androids from a thousand years ago\\nwho fought to protect all people.",
+        "ja_jp": "エクス・マキナ……1000<ruby><rb>年</rb><rt>ねん</rt></ruby><ruby><rb>前</rb><rt>まえ</rt></ruby>より、\\n<ruby><rb>人間</rb><rt>にんげん</rt></ruby>のために<ruby><rb>戦</rb><rt>たたか</rt></ruby>い<ruby><rb>続</rb><rt>つづ</rt></ruby>けている\\n<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>の<ruby><rb>集団</rb><rt>しゅうだん</rt></ruby>のようですわね。",
+        "zh_cn": "机械神兵……似乎是\\n1000年来坚持为人类而战的\\n战斗人偶群体。",
+        "zh_tw": "艾克斯‧馬奇那……\\n似乎是從1000年前就為了人類\\n戰鬥至今的戰鬥人偶集團。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0003",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "They surface and go dormant every few\\ndecades, fighting to put the land back in\\nthe hands of those they serve.",
+        "ja_jp": "<ruby><rb>数十年</rb><rt>すうじゅうねん</rt></ruby><ruby><rb>単位</rb><rt>たんい</rt></ruby>で<ruby><rb>活動</rb><rt>かつどう</rt></ruby>と<ruby><rb>休眠</rb><rt>きゅうみん</rt></ruby>を<ruby><rb>繰</rb><rt>く</rt></ruby>り<ruby><rb>返</rb><rt>かえ</rt></ruby>し、\\n<ruby><rb>地上</rb><rt>ちじょう</rt></ruby>を<ruby><rb>人間</rb><rt>にんげん</rt></ruby>の<ruby><rb>手</rb><rt>て</rt></ruby>に<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>戻</rb><rt>もど</rt></ruby>そうと\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>っているのだとか。",
+        "zh_cn": "据说每几十年就会在活动\\n和休眠之间反复切换，\\n为了让人类夺回大地而战。",
+        "zh_tw": "以數十年為單位反覆活動與休眠，\\n現在也為了將地上奪回人類手中，\\n而不斷戰鬥。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0004",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Uh, wait. We're people, and so are the\\nfolks in Grams, so why are they trying\\nto kill all of us?",
+        "ja_jp": "<ruby><rb>人間</rb><rt>にんげん</rt></ruby>のために……か。\\nでも、その<ruby><rb>中</rb><rt>なか</rt></ruby>にオレたちは\\n<ruby><rb>入</rb><rt>はい</rt></ruby>ってねえんだろ？",
+        "zh_cn": "为了人类而战吗……\\n不过，他们根本没把我们\\n当成人类吧？",
+        "zh_tw": "為了人類……嗎。\\n不過，那裡面不包括我們吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0005",
+      "book": ""
+    },
+    {
+      "icon": "100032_05",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Ex Machina defines ＂people＂ only as those\\nwho fled to a flying city a millennium ago.",
+        "ja_jp": "<ruby><rb>肯定</rb><rt>こうてい</rt></ruby>。エクス・マキナの<ruby><rb>定義</rb><rt>ていぎ</rt></ruby>する\\n『<ruby><rb>人間</rb><rt>にんげん</rt></ruby>』は、1000<ruby><rb>年</rb><rt>ねん</rt></ruby><ruby><rb>前</rb><rt>まえ</rt></ruby>に<ruby><rb>空中都市</rb><rt>くうちゅうとし</rt></ruby>に\\n<ruby><rb>逃</rb><rt>のが</rt></ruby>れた<ruby><rb>人々</rb><rt>ひとびと</rt></ruby>だけ。",
+        "zh_cn": "予以肯定。\\n机械神兵定义的“人类”只有\\n1000年前逃亡到空中都市的人们。",
+        "zh_tw": "肯定。\\n艾克斯‧馬奇那所定義的「人類」，\\n只有1000年前逃到空中都市的人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0006",
+      "book": ""
+    },
+    {
+      "icon": "100032_05",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "So far as they are concerned, all of you\\nfall into the category of ＂terrestrials,＂\\nnot people.",
+        "ja_jp": "ユーディルたちは、\\n『<ruby><rb>地人</rb><rt>ちじん</rt></ruby>』という、<ruby><rb>別</rb><rt>べつ</rt></ruby>の<ruby><rb>存在</rb><rt>そんざい</rt></ruby>。",
+        "zh_cn": "尤蒂尔你们\\n是不同的概念，叫作“地人”。",
+        "zh_tw": "尤帝爾你們\\n叫做「地人」，是不同的存在。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0007",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I don't suppose there's any way for us to\\nsimply reconcile with the people who live\\nin that floating city?",
+        "ja_jp": "<ruby><rb>別</rb><rt>べつ</rt></ruby>の<ruby><rb>存在</rb><rt>そんざい</rt></ruby>か……。\\nその<ruby><rb>空中都市</rb><rt>くうちゅうとし</rt></ruby>の<ruby><rb>人</rb><rt>ひと</rt></ruby>たちと<ruby><rb>和解</rb><rt>わかい</rt></ruby>することが\\nできればいいんだけど……。",
+        "zh_cn": "不同的概念吗……\\n要是能和那个空中都市的人们\\n达成和解就好了……",
+        "zh_tw": "不同的存在嗎……\\n如果能跟那座空中都市的人們\\n和解就好了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0008",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Unfortunately, no one has ever seen them,\\nwhich rules negotiation out as a tactic.",
+        "ja_jp": "<ruby><rb>残念</rb><rt>ざんねん</rt></ruby>ですが、エクス・マキナの\\n<ruby><rb>活動時</rb><rt>かつどうじ</rt></ruby>に<ruby><rb>人間</rb><rt>にんげん</rt></ruby>が<ruby><rb>確認</rb><rt>かくにん</rt></ruby>されたことは\\n<ruby><rb>一度</rb><rt>いちど</rt></ruby>もないようですわ。",
+        "zh_cn": "很遗憾，机械神兵的作战当中\\n从来都没有出现过人类。",
+        "zh_tw": "遺憾的是，\\n在艾克斯‧馬奇那活動的紀錄裡，\\n似乎從來沒發現過當中有人類存在。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0009",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "There is little to be said for a civilization\\nwilling to watch from afar as they send\\nweapons out to do their bidding.",
+        "ja_jp": "<ruby><rb>交渉</rb><rt>こうしょう</rt></ruby>の<ruby><rb>余地</rb><rt>よち</rt></ruby>などない、ということ\\nでしょうか。<ruby><rb>兵器</rb><rt>へいき</rt></ruby>だけ<ruby><rb>送</rb><rt>おく</rt></ruby>り<ruby><rb>込</rb><rt>こ</rt></ruby>んで<ruby><rb>高</rb><rt>たか</rt></ruby>みの\\n<ruby><rb>見物</rb><rt>けんぶつ</rt></ruby>とは、<ruby><rb>美</rb><rt>うつく</rt></ruby>しくありませんわね。",
+        "zh_cn": "是没有交涉的余地吗。他们只是\\n派出兵器，自己作壁上观，\\n这种行为实在有碍观瞻。",
+        "zh_tw": "這也表示沒有交涉的餘地吧。\\n竟然送出兵器後就待在高處旁觀，\\n真是不優美呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0010",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Sounds like the androids are the ones\\ngetting a raw deal here.",
+        "ja_jp": "やるっきゃねえってことか。\\n1000<ruby><rb>年</rb><rt>ねん</rt></ruby>も<ruby><rb>戦</rb><rt>たたか</rt></ruby>い<ruby><rb>続</rb><rt>つづ</rt></ruby>けさせられてるのは\\n<ruby><rb>可哀</rb><rt>かわい</rt></ruby>そうな<ruby><rb>気</rb><rt>き</rt></ruby>もするが……。",
+        "zh_cn": "那就只能和他们打了吗。\\n不过被迫战斗了1000年，\\n感觉他们也挺可怜的……",
+        "zh_tw": "所以只能應戰了吧。\\n雖然聽到他們這1000年都被迫\\n持續戰鬥之後，覺得他們有點可憐……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0011",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I agree, Luca, but we still can't turn away\\nwhen they are indiscriminately attacking\\nanyone who crosses their path.",
+        "ja_jp": "だけど、<ruby><rb>兵士</rb><rt>へいし</rt></ruby>も<ruby><rb>民</rb><rt>たみ</rt></ruby>も<ruby><rb>関係</rb><rt>かんけい</rt></ruby>なく、\\n<ruby><rb>無差別</rb><rt>むさべつ</rt></ruby>に<ruby><rb>人</rb><rt>ひと</rt></ruby>を<ruby><rb>攻撃</rb><rt>こうげき</rt></ruby>していくような<ruby><rb>真似</rb><rt>まね</rt></ruby>を\\n<ruby><rb>見過</rb><rt>みす</rt></ruby>ごすわけにはいかない。",
+        "zh_cn": "但是，无差别袭击人\\n这种行径不分兵民，\\n都不能视而不见。",
+        "zh_tw": "可是，不分士兵和人民\\n進行攻擊的行為，\\n我們也不能坐視不管。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0012",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Yeah, I know we can't afford sympathy for \\nfolks who are tryin' to kill everybody.",
+        "ja_jp": "ああ、わかってるさ。<ruby><rb>同情</rb><rt>どうじょう</rt></ruby>しながら\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>える<ruby><rb>相手</rb><rt>あいて</rt></ruby>じゃないってこともな。",
+        "zh_cn": "嗯，这我知道。\\n我也很清楚真要打起来\\n肯定没工夫同情他们。",
+        "zh_tw": "嗯，我知道啦。\\n我也很清楚他們不是抱著同情\\n還能應付得來的對手。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0013",
+      "book": ""
+    },
+    {
+      "icon": "100032_05",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Today, I will terminate their lead unit.\\nOnce this happens, the bulk of their\\nforces will be rendered powerless.",
+        "ja_jp": "<ruby><rb>今日</rb><rt>きょう</rt></ruby>こそ、ワタシがリーダー<ruby><rb>機</rb><rt>き</rt></ruby>を\\n<ruby><rb>撃破</rb><rt>げきは</rt></ruby>する。それで<ruby><rb>大半</rb><rt>たいはん</rt></ruby>の<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>は\\n<ruby><rb>無力化</rb><rt>むりょくか</rt></ruby>できる。",
+        "zh_cn": "今天一定要击毁指挥官机体。\\n这样一来，大多数战斗人偶\\n都会宕机。",
+        "zh_tw": "今天，一定要擊敗指揮機。\\n這樣就能讓大部分戰鬥人偶無力化。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0014",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "We'll be counting on you two,\\nbut don't do anything rash.",
+        "ja_jp": "<ruby><rb>頼</rb><rt>たよ</rt></ruby>りにしてるよ、ラキシ、マスキュラ。\\nでも、<ruby><rb>無茶</rb><rt>むちゃ</rt></ruby>はしないでくれよ。",
+        "zh_cn": "靠你们了，莱姬希，马斯古拉。\\n不过可不要乱来哦。",
+        "zh_tw": "靠你們囉，拉契希、馬斯科拉。\\n但也記得別逞強喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0015",
+      "book": ""
+    },
+    {
+      "icon": "100032_05",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Understood.",
+        "ja_jp": "<ruby><rb>了解</rb><rt>りょうかい</rt></ruby>。",
+        "zh_cn": "明白。",
+        "zh_tw": "了解。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0016",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "They're here. Come on, everyone!",
+        "ja_jp": "<ruby><rb>来</rb><rt>き</rt></ruby>たな……<ruby><rb>行</rb><rt>い</rt></ruby>こうぜ、みんな！",
+        "zh_cn": "他们来了……我们上！",
+        "zh_tw": "來了吧……我們走，大家！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0017",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "*pant* *pant* Finally took 'em down.\\nStill, doesn't it seem like something's\\ndifferent with them from before?\\nThey're a lot more...gung-ho.",
+        "ja_jp": "はあ、はあ……やっと<ruby><rb>倒</rb><rt>たお</rt></ruby>れた。\\nなんだか、<ruby><rb>今</rb><rt>いま</rt></ruby>までと<ruby><rb>雰囲気</rb><rt>ふんいき</rt></ruby>が\\n<ruby><rb>違</rb><rt>ちが</rt></ruby>わねえか？　<ruby><rb>意気込</rb><rt>いきご</rt></ruby>みっていうか。",
+        "zh_cn": "哈啊、哈啊……总算倒下了。\\n不觉得他们和之前不太一样了吗？\\n该说气势汹汹还是……",
+        "zh_tw": "呼、呼……總算倒下了。\\n我總覺得他們跟之前感覺不一樣耶？\\n好像充滿幹勁。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0018",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Yeah, this isn't the cautious approach they\\ntook before.",
+        "ja_jp": "ああ。これまでの<ruby><rb>様子見</rb><rt>ようすみ</rt></ruby>のような\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>い<ruby><rb>方</rb><rt>かた</rt></ruby>じゃない。",
+        "zh_cn": "是啊，不再是之前那种\\n观望似的战斗方式了。",
+        "zh_tw": "嗯。\\n跟之前還在觀察情況的戰鬥方式不同。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0019",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Guess that means they're fighting for real.\\nWe better come up with a new plan in that\\ncase, 'cause we can't keep up with this.",
+        "ja_jp": "<ruby><rb>本気</rb><rt>ほんき</rt></ruby>を<ruby><rb>出</rb><rt>だ</rt></ruby>してきたってわけか……。\\nこのままじゃズルズルと<ruby><rb>消耗</rb><rt>しょうもう</rt></ruby>しちまう。\\nなんか<ruby><rb>手</rb><rt>て</rt></ruby>を<ruby><rb>打</rb><rt>う</rt></ruby>たねえとヤバくねえか？",
+        "zh_cn": "他们这是开始拿出真本事了吗……\\n这样下去要成消耗战了。\\n不赶紧想办法的话可不妙啊？",
+        "zh_tw": "也就是說他們認真起來了嗎……\\n這樣下去我們會持續消耗的。\\n不快想辦法對付就不妙了吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0020",
+      "book": ""
+    },
+    {
+      "icon": "100032_05",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "We will do something about it.\\n▷We've located their lead unit,\\nand we're heading out to stop her!◁",
+        "ja_jp": "<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>。<ruby><rb>手</rb><rt>て</rt></ruby>は<ruby><rb>今</rb><rt>いま</rt></ruby>から<ruby><rb>打</rb><rt>う</rt></ruby>つ。\\n――リーダー<ruby><rb>機</rb><rt>き</rt></ruby>を<ruby><rb>捕捉</rb><rt>ほそく</rt></ruby>しました。\\nボクらで、<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>を<ruby><rb>止</rb><rt>と</rt></ruby>めます！",
+        "zh_cn": "没事，现在开始想办法。\\n——捕捉到指挥官机体位置。\\n我们来阻止她！",
+        "zh_tw": "不用擔心。現在開始對付。\\n──已捕捉到指揮機。\\n由我們來阻止她！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0021",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'm counting on you both.\\nLuca, let's clear a path for Laxi!",
+        "ja_jp": "わかった。<ruby><rb>頼</rb><rt>たの</rt></ruby>む、ラキシ、マスキュラ。\\nリュカ、おれたちでラキシの\\n<ruby><rb>道</rb><rt>みち</rt></ruby>を<ruby><rb>拓</rb><rt>ひら</rt></ruby>こう！",
+        "zh_cn": "好，莱姬希，马斯古拉，\\n拜托你们了。卢卡，\\n我们去给莱姬希他们开路！",
+        "zh_tw": "我知道了。\\n拜託囉，拉契希、馬斯科拉。\\n琉卡，我們來幫拉契希開路吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0022",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Oh, I'm a path-clearing MACHINE!\\n...Er, a figurative machine, I mean.",
+        "ja_jp": "よっしゃ！　まかしとけ！",
+        "zh_cn": "好！包在我身上！",
+        "zh_tw": "好！包在我身上！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0023",
+      "book": ""
+    },
+    {
+      "icon": "100032_05",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Switching to Eden mode.\\nI'll finish this fast!",
+        "ja_jp": "――ガンエデンモードへ<ruby><rb>移行</rb><rt>いこう</rt></ruby>。\\n<ruby><rb>一気</rb><rt>いっき</rt></ruby>に<ruby><rb>方</rb><rt>かた</rt></ruby>をつける！",
+        "zh_cn": "——切换为伊甸园模式。\\n一口气解决战斗！",
+        "zh_tw": "──變更為伊甸園模式。\\n一口氣解決！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0024",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Mana density is dropping sharply;\\nshe's clearly switched to Eden mode.\\nAre you ready, Finni?",
+        "ja_jp": "マナの<ruby><rb>濃度</rb><rt>のうど</rt></ruby>が<ruby><rb>急激</rb><rt>きゅうげき</rt></ruby>に<ruby><rb>下</rb><rt>さ</rt></ruby>がっている……。\\nガンエデンモードを<ruby><rb>発動</rb><rt>はつどう</rt></ruby>したようね。\\n……フィニー、<ruby><rb>準備</rb><rt>じゅんび</rt></ruby>はいい？",
+        "zh_cn": "魔力浓度急剧下降……\\n她好像发动伊甸园模式了。\\n芬妮……准备好了吗？",
+        "zh_tw": "瑪納的濃度正急速降低……\\n看來她發動了伊甸園模式呢。\\n……菲霓，準備好了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0025",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "Um...yeah.",
+        "ja_jp": "う、うん……。",
+        "zh_cn": "唔、嗯……",
+        "zh_tw": "唔、嗯……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0026",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Is something wrong?",
+        "ja_jp": "フィニー？　どうしたの？",
+        "zh_cn": "芬妮？怎么了？",
+        "zh_tw": "菲霓？怎麼了？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0027",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "Eirene, is my heart...broken?",
+        "ja_jp": "……ねえ、アイリーン。\\nあたしの『<ruby><rb>心</rb><rt>こころ</rt></ruby>』……<ruby><rb>壊</rb><rt>こわ</rt></ruby>れてるんだよね？",
+        "zh_cn": "艾琳……\\n我的“心”……已经破损了吧？",
+        "zh_tw": "……欸，艾零。\\n我的「心」……壞掉了對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0028",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Why would you ask such a thing?!",
+        "ja_jp": "……っ!?　き、<ruby><rb>急</rb><rt>きゅう</rt></ruby>に……<ruby><rb>何</rb><rt>なに</rt></ruby>を<ruby><rb>言</rb><rt>い</rt></ruby>うの？",
+        "zh_cn": "你、你突然……说什么呢？",
+        "zh_tw": "……！？\\n妳、妳突然……在說些什麼？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0029",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "You're dodging the question; you know I've\\nbeen running out of control a lot recently\\nand you've been forced to stop me.",
+        "ja_jp": "ごまかしたってわかるよ。このところ\\n<ruby><rb>暴走</rb><rt>ぼうそう</rt></ruby>してばかりだ。そのたびに<ruby><rb>止</rb><rt>と</rt></ruby>めて\\nもらってるけど……",
+        "zh_cn": "你不用装傻我也知道。\\n我最近总是失控，\\n每次都是你来阻止我……",
+        "zh_tw": "就算妳不說實話我也知道。\\n這陣子我總是會失控。\\n雖然每次都有妳阻止我……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0030",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "But what happens if you CAN'T\\nstop me at some point?",
+        "ja_jp": "いつか<ruby><rb>止</rb><rt>と</rt></ruby>められなくなる。そんな<ruby><rb>気</rb><rt>き</rt></ruby>が\\nするんだ……。",
+        "zh_cn": "总有一天你阻止不了我。\\n我有这种预感……",
+        "zh_tw": "但我有種感覺，\\n自己遲早會無法停止……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0031",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Finni, that's not...",
+        "ja_jp": "フィニー……。",
+        "zh_cn": "芬妮……",
+        "zh_tw": "菲霓……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0032",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "If my heart is broken, what happens?\\nWill I run amok destroying everything?\\nWill I destroy...you?",
+        "ja_jp": "あたし……<ruby><rb>怖</rb><rt>こわ</rt></ruby>いよ……『<ruby><rb>心</rb><rt>こころ</rt></ruby>』が<ruby><rb>壊</rb><rt>こわ</rt></ruby>れたら\\nどうなるの？　<ruby><rb>暴走</rb><rt>ぼうそう</rt></ruby>してアイリーンまで\\n<ruby><rb>壊</rb><rt>こわ</rt></ruby>そうとしちゃうのか……？",
+        "zh_cn": "我……很害怕……\\n“心”破损的话会变成什么样？\\n会不会失控连你一起毁掉？",
+        "zh_tw": "我……很害怕……\\n如果「心」壞掉了會怎麼樣呢？\\n失控後甚至會想破壞艾零嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0033",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "Just the thought of doing that\\nmakes me want to scream.",
+        "ja_jp": "そんなの<ruby><rb>嫌</rb><rt>いや</rt></ruby>だ……！\\n<ruby><rb>嫌</rb><rt>いや</rt></ruby>だよ、アイリーン……。",
+        "zh_cn": "我不想这样……\\n艾琳，我不要……",
+        "zh_tw": "我不要那樣……！\\n我不要啊，艾零……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0034",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Do you remember our promise, Finni?",
+        "ja_jp": "……ねえ、フィニー。\\nあの<ruby><rb>約束</rb><rt>やくそく</rt></ruby>、<ruby><rb>覚</rb><rt>おぼ</rt></ruby>えてる？",
+        "zh_cn": "芬妮……\\n还记得我们的约定吗？",
+        "zh_tw": "……欸，菲霓。\\n妳還記得那個約定嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0035",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "We promised to always be together,\\nuntil the day we both break down.\\nRemember?",
+        "ja_jp": "「ずっと<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に。<ruby><rb>壊</rb><rt>こわ</rt></ruby>れるまでも、\\n　<ruby><rb>壊</rb><rt>こわ</rt></ruby>れる<ruby><rb>時</rb><rt>とき</rt></ruby>も」って<ruby><rb>約束</rb><rt>やくそく</rt></ruby>したでしょう？",
+        "zh_cn": "我们说好了“无论是否报废，\\n都要永远在一起”。",
+        "zh_tw": "「我們要永遠在一起。\\n　無論壞掉之前，還是壞掉之時。」\\n我們這麼約定過吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0036",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "Of course I remember.\\nI'd never erase that memory.",
+        "ja_jp": "もちろん、<ruby><rb>覚</rb><rt>おぼ</rt></ruby>えてるさ。\\nあのメモリーを<ruby><rb>消去</rb><rt>しょうきょ</rt></ruby>なんてするもんか。",
+        "zh_cn": "当然记得了。\\n我怎么会清除那条记忆呢。",
+        "zh_tw": "當然記得啊。\\n誰會消除那個記憶資料啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0037",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Then you know I will never abandon you.",
+        "ja_jp": "なら、わかるでしょう？\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>はフィニーを<ruby><rb>置</rb><rt>お</rt></ruby>いて<ruby><rb>行</rb><rt>い</rt></ruby>ったり\\nしないわ。",
+        "zh_cn": "那你应该明白吧？\\n我不会丢下你的。",
+        "zh_tw": "既然如此，妳應該知道吧？\\n我是不會丟下菲霓的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0038",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Not ever.",
+        "ja_jp": "ひとりになんてさせないから。\\n<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby>に。",
+        "zh_cn": "我不会让你孤单，\\n绝对不会。",
+        "zh_tw": "我不會丟下妳一個人，\\n絕對不會。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0039",
+      "book": ""
+    },
+    {
+      "icon": "100032_04",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "I have visual confirmation of the lead unit.\\nCommencing attack.\\n▷Laxi, someone is approaching at VERY\\nhigh speed from our left!◁",
+        "ja_jp": "<ruby><rb>見</rb><rt>み</rt></ruby>つけた。リーダー<ruby><rb>機</rb><rt>き</rt></ruby>を<ruby><rb>目視</rb><rt>もくし</rt></ruby>。\\n<ruby><rb>攻撃</rb><rt>こうげき</rt></ruby>を<ruby><rb>開始</rb><rt>かいし</rt></ruby>する――ラキシ！　<ruby><rb>左</rb><rt>ひだり</rt></ruby>から\\n<ruby><rb>急速</rb><rt>きゅうそく</rt></ruby>に<ruby><rb>接近</rb><rt>せっきん</rt></ruby>する<ruby><rb>個体</rb><rt>こたい</rt></ruby>があります！",
+        "zh_cn": "发现目标，确认指挥官机体。\\n开始攻击。\\n——莱姬希！左侧有个体正快速接近！",
+        "zh_tw": "找到了。目視指揮機。開始攻擊。\\n──拉契希！有個體從左邊急速接近！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0040",
+      "book": ""
+    },
+    {
+      "icon": "100032_04",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Understood. I will intercept that one fir...\\n*gasp*!",
+        "ja_jp": "――<ruby><rb>了解</rb><rt>りょうかい</rt></ruby>。<ruby><rb>先</rb><rt>さき</rt></ruby>にそちらを<ruby><rb>迎撃</rb><rt>げいげき</rt></ruby>す……!?",
+        "zh_cn": "——明白，先迎击左侧……",
+        "zh_tw": "──了解。先迎擊那……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0041",
+      "book": ""
+    },
+    {
+      "icon": "100032_04",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "That unit is...",
+        "ja_jp": "この<ruby><rb>個体</rb><rt>こたい</rt></ruby>は……まさか……。",
+        "zh_cn": "这个体……难道是……",
+        "zh_tw": "這具個體……難道……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0042",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Laxi, are you okay?! Leave the small fry\\nto us and just take care of the lea...\\nOkay, what the HELL?!",
+        "ja_jp": "ラキシ、<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>か！　<ruby><rb>雑魚</rb><rt>ざこ</rt></ruby>の<ruby><rb>相手</rb><rt>あいて</rt></ruby>は\\nオレたちに<ruby><rb>任</rb><rt>まか</rt></ruby>せて、リーダーを……\\nえっ!?　こ、こいつは……!?",
+        "zh_cn": "莱姬希你没事吧！\\n喽啰交给我，指挥官就……\\n诶！？这、这家伙是……",
+        "zh_tw": "拉契希，沒事吧！\\n小嘍囉就交給我們，妳負責指揮機……\\n咦！？這、這傢伙是……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0043",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "NeW HoSTiLe DeTeCTed WiThIn\\nAtTAcK RaNGe.",
+        "ja_jp": "<ruby><rb>攻撃</rb><rt>こうげき</rt></ruby>れんじ<ruby><rb>内</rb><rt>ない</rt></ruby>ニ<ruby><rb>新</rb><rt>あら</rt></ruby>タナ<ruby><rb>敵性個体</rb><rt>てきせいこたい</rt></ruby><ruby><rb>出現</rb><rt>しゅつげん</rt></ruby>。",
+        "zh_cn": "攻击范围内\\n出现新的敌对个体。",
+        "zh_tw": "攻擊範圍內有新敵對個體出現。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0044",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "No way. That's...",
+        "ja_jp": "う、<ruby><rb>嘘</rb><rt>うそ</rt></ruby>だろう……？　こいつは……。",
+        "zh_cn": "骗、骗人的吧？这不是……",
+        "zh_tw": "騙、騙人的吧……？\\n這傢伙是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0045",
+      "book": ""
+    },
+    {
+      "icon": "120135_01",
+      "name": {
+        "en_us": "Mascula",
+        "ja_jp": "マスキュラ",
+        "zh_cn": "马斯古拉",
+        "zh_tw": "馬斯科拉"
+      },
+      "context": {
+        "en_us": "CoMmEnCinG TErMiNATiOn.",
+        "ja_jp": "<ruby><rb>排除</rb><rt>はいじょ</rt></ruby>、<ruby><rb>開始</rb><rt>かいし</rt></ruby>、シマス。",
+        "zh_cn": "开始、消灭。",
+        "zh_tw": "開始、進行、排除。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0046",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "It's Mascula!",
+        "ja_jp": "マスキュラ……!?\\nマスキュラじゃないのか!?",
+        "zh_cn": "马斯古拉！？\\n这不是马斯古拉吗！？",
+        "zh_tw": "馬斯科拉……！？\\n這不是馬斯科拉嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0047",
+      "book": ""
+    },
+    {
+      "icon": "100032_04",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷Or more precisely, it's my body.\\nThe one that was stored in the Halidom.◁",
+        "ja_jp": "――そ、そうです。ボクの<ruby><rb>体</rb><rt>からだ</rt></ruby>です……\\n<ruby><rb>聖城内</rb><rt>せいじょうない</rt></ruby>に<ruby><rb>保管</rb><rt>ほかん</rt></ruby>していた、ボクの<ruby><rb>体</rb><rt>からだ</rt></ruby>……。",
+        "zh_cn": "——是、是啊。是我的身体……\\n放在圣城里的我的身体……",
+        "zh_tw": "──沒、沒有錯。是我的身體……\\n被保管在聖城裡的、我的身體……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0048",
+      "book": ""
+    },
+    {
+      "icon": "120135_01",
+      "name": {
+        "en_us": "Mascula",
+        "ja_jp": "マスキュラ",
+        "zh_cn": "马斯古拉",
+        "zh_tw": "馬斯科拉"
+      },
+      "context": {
+        "en_us": "FiRsT AtTaCk InEfFeCtIvE...\\nCoNTinUiNG AsSauLT.",
+        "ja_jp": "ふぁーすとあたっくニ<ruby><rb>有効性</rb><rt>ゆうこうせい</rt></ruby>ハ\\n<ruby><rb>認</rb><rt>みと</rt></ruby>メラレナイ。<ruby><rb>攻撃</rb><rt>こうげき</rt></ruby><ruby><rb>続行</rb><rt>ぞっこう</rt></ruby>、シマス。",
+        "zh_cn": "无法确认初次攻击生效。\\n继续攻击。",
+        "zh_tw": "首次出擊未確認到效果。\\n持續進行、攻擊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0049",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Dammit, what are we supposed to do?!",
+        "ja_jp": "うおおっ!?\\nくそっ、どうすりゃいいんだ……！",
+        "zh_cn": "唔噢噢！？\\n见鬼，这该咋办啊！",
+        "zh_tw": "唔喔喔！？\\n可惡，這該怎麼辦才好啊……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0050",
+      "book": ""
+    },
+    {
+      "icon": "100032_04",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷Oh, no. Because of my body, Luca was...\\nI have to do something, but...◁",
+        "ja_jp": "ああ……ボクの<ruby><rb>体</rb><rt>からだ</rt></ruby>のせいでリュカが……\\nなんとかしなきゃ……で、でも……。",
+        "zh_cn": "啊……因为我的身体卢卡他……\\n得想想办法……但、但是……",
+        "zh_tw": "啊啊……因為我的身體害得琉卡……\\n必須想辦法才行……可、可是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0051",
+      "book": ""
+    },
+    {
+      "icon": "100032_04",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Mascula, get it together!\\n▷I...I know. That body isn't me.\\nAnd yet, I can't help...◁",
+        "ja_jp": "――マスキュラ！　しっかりして！\\n――わ、わかってます。あの<ruby><rb>体</rb><rt>からだ</rt></ruby>はボク\\nじゃない。ボクじゃないけど……。",
+        "zh_cn": "——马斯古拉！振作点！\\n——我、我知道。那具身体\\n不是我，可是……",
+        "zh_tw": "──馬斯科拉！振作！\\n──我、我知道。那具身體並不是我。\\n雖然不是我，可是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0052",
+      "book": ""
+    },
+    {
+      "icon": "100032_04",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Mascula!\\nNo, we're going to...!",
+        "ja_jp": "――マスキュラ!?\\nいけない、このままじゃ……！",
+        "zh_cn": "——马斯古拉！？\\n不好，这样下去……",
+        "zh_tw": "──馬斯科拉！？\\n不行，這樣下去的話……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0053",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Eden mode was deactivated!",
+        "ja_jp": "っ！　ガンエデンモードが\\n<ruby><rb>解除</rb><rt>かいじょ</rt></ruby>された!?",
+        "zh_cn": "伊甸园模式解除了！？",
+        "zh_tw": "唔！\\n伊甸園模式被解除了！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0054",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷Was it because I'm hesitating?! Damn!\\nI KNOW that body isn't me, but I just can't\\nstop thinking about it!◁",
+        "ja_jp": "――ぼ、ボクの<ruby><rb>躊躇</rb><rt>ためら</rt></ruby>いのせい……!?\\nくっ、<ruby><rb>頭</rb><rt>あたま</rt></ruby>ではわかっているのに……！",
+        "zh_cn": "——都是我内心动摇的错……\\n呃，理智明明知道……",
+        "zh_tw": "──因、因為我猶豫了……！？\\n唔，我的理智明明就知道的……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0055",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "This is the moment I've been waiting for!",
+        "ja_jp": "この<ruby><rb>時</rb><rt>とき</rt></ruby>を<ruby><rb>待</rb><rt>ま</rt></ruby>っていたわ！",
+        "zh_cn": "我等的就是这个时机！",
+        "zh_tw": "我等這一刻很久了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0056",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Using that body allowed us to disrupt\\nthe synchronicity their hearts require\\nto maintain Eden mode.",
+        "ja_jp": "<ruby><rb>思</rb><rt>おも</rt></ruby>った<ruby><rb>通</rb><rt>とお</rt></ruby>りね。あのボディを<ruby><rb>使</rb><rt>つか</rt></ruby>えば、\\nガンエデンモードに<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>な『<ruby><rb>心</rb><rt>こころ</rt></ruby>』の\\nシンクロを<ruby><rb>乱</rb><rt>みだ</rt></ruby>すことができる。",
+        "zh_cn": "如我所料，只要使用那具身体，\\n发动伊甸园模式所必需的\\n“心”的同步就会紊乱。",
+        "zh_tw": "如我所料，只要使用那具軀體，\\n就能擾亂伊甸園模式所必要的\\n「心」的同步。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0057",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷So this was your doing?\\nYou went to the trouble of stealing my\\nbody just to cause this?!◁",
+        "ja_jp": "アイリーン……！　これは、アナタの\\n<ruby><rb>策</rb><rt>さく</rt></ruby>ですか。わざわざボクの<ruby><rb>体</rb><rt>からだ</rt></ruby>を\\n<ruby><rb>盗</rb><rt>ぬす</rt></ruby>んで……そこまでして！",
+        "zh_cn": "艾琳！这是你的圈套吗？\\n故意偷走我的身体……\\n不惜这么做！",
+        "zh_tw": "艾零……！這就是妳的策略嗎。\\n還刻意偷走我的身體……\\n竟然做到這種地步！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0058",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "That's right. I'll do whatever it takes!",
+        "ja_jp": "ええ、そうよ。つまり、<ruby><rb>形振</rb><rt>なりふ</rt></ruby>り<ruby><rb>構</rb><rt>かま</rt></ruby>って\\nなどいられないということ！",
+        "zh_cn": "没错。我可是不择手段的！",
+        "zh_tw": "是啊，沒錯。這就代表，\\n我已經沒有選擇手段的餘地了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0059",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "I will have your heart...\\nI will have them BOTH!",
+        "ja_jp": "あなたの……いえ、あなたたちの\\n『<ruby><rb>心</rb><rt>こころ</rt></ruby>』を<ruby><rb>頂</rb><rt>いただ</rt></ruby>くわ！",
+        "zh_cn": "你的……不，你们的“心”，\\n我就收下了！",
+        "zh_tw": "你的……不，\\n你們的「心」我要定了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0060",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷Why do you want our hearts?◁",
+        "ja_jp": "こ、『<ruby><rb>心</rb><rt>こころ</rt></ruby>』……？\\nボクたちの『<ruby><rb>心</rb><rt>こころ</rt></ruby>』をどうして……？",
+        "zh_cn": "“心”？\\n为什么你要我们的“心”……",
+        "zh_tw": "妳說、「心」……？\\n為什麼要我們的「心」……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0061",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Because even androids have things\\nthat are important to them!",
+        "ja_jp": "<ruby><rb>人形</rb><rt>にんぎょう</rt></ruby>にだって、<ruby><rb>大切</rb><rt>たいせつ</rt></ruby>なものくらいある\\nということよ！",
+        "zh_cn": "人偶也有重要之物！\\n就是这么回事！",
+        "zh_tw": "因為就算是人偶，\\n也有重要的東西啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0062",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷Aaaaagh!◁",
+        "ja_jp": "うわあああっ！",
+        "zh_cn": "哇啊啊啊啊！",
+        "zh_tw": "嗚哇啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0063",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Hang on, Laxi! I'm coming!",
+        "ja_jp": "ラキシ、<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>か！\\nすぐに<ruby><rb>助</rb><rt>たす</rt></ruby>けに<ruby><rb>行</rb><rt>い</rt></ruby>きてえとこだけど……！",
+        "zh_cn": "莱姬希你没事吧！\\n虽然想立刻去帮你，但……",
+        "zh_tw": "拉契希，妳沒事吧！\\n我很想馬上去幫忙，可是……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0064",
+      "book": ""
+    },
+    {
+      "icon": "120135_01",
+      "name": {
+        "en_us": "Mascula",
+        "ja_jp": "マスキュラ",
+        "zh_cn": "马斯古拉",
+        "zh_tw": "馬斯科拉"
+      },
+      "context": {
+        "en_us": "HoStILe TaRgEt InTeRFerInG WiTh\\nOpeRaTiOn. InITiaTinG TerMiNAtioN.",
+        "ja_jp": "<ruby><rb>作戦</rb><rt>さくせん</rt></ruby><ruby><rb>行動</rb><rt>こうどう</rt></ruby>ノ<ruby><rb>支障</rb><rt>ししょう</rt></ruby>トナル<ruby><rb>敵性個体</rb><rt>てきせいこたい</rt></ruby>ヲ\\n<ruby><rb>排除</rb><rt>はいじょ</rt></ruby>、シマス。",
+        "zh_cn": "消灭、妨碍执行作战的\\n敌对个体。",
+        "zh_tw": "將妨礙作戰行動的敵對個體、排除。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0065",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Dammit! I don't want to harm\\nMascula's body!",
+        "ja_jp": "マスキュラの<ruby><rb>体</rb><rt>からだ</rt></ruby>を<ruby><rb>傷</rb><rt>きず</rt></ruby>つけるわけにも\\nいかねえ！　どうする……？",
+        "zh_cn": "也不能伤害马斯古拉的身体！\\n怎么办？",
+        "zh_tw": "我又不能傷害馬斯科拉的身體！\\n該怎麼做……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0066",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "How about giving up gracefully?",
+        "ja_jp": "<ruby><rb>潔</rb><rt>いさぎよ</rt></ruby>く<ruby><rb>諦</rb><rt>あきら</rt></ruby>めるってのはどうだ？",
+        "zh_cn": "干脆放弃吧？",
+        "zh_tw": "乾脆放棄怎麼樣？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0067",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Oh crap, behind me!",
+        "ja_jp": "――!?　しまった、<ruby><rb>後</rb><rt>うし</rt></ruby>ろを……！",
+        "zh_cn": "糟了，身后！",
+        "zh_tw": "──！？\\n糟了，後面……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0068",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "Too slow! Hraaaah!",
+        "ja_jp": "<ruby><rb>遅</rb><rt>おせ</rt></ruby>ぇよっ！　おらああっ！",
+        "zh_cn": "晚了！哈啊啊！",
+        "zh_tw": "太慢了啦！喔啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0069",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Aaaaagh!",
+        "ja_jp": "ぐあああっ！",
+        "zh_cn": "呃啊啊啊！",
+        "zh_tw": "呃啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0070",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "I won't let you interfere with Irene!",
+        "ja_jp": "アイリーンの<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>はさせないよ……！",
+        "zh_cn": "别想妨碍艾琳！",
+        "zh_tw": "我不會讓你妨礙艾零的……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0071",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Ugh, dammit... I screwed up...\\nI can barely move...",
+        "ja_jp": "や、やべえ……しくじっちまった……。\\nくそ、<ruby><rb>体</rb><rt>からだ</rt></ruby>が……。",
+        "zh_cn": "糟、糟糕……搞砸了……\\n可恶，身体……",
+        "zh_tw": "不、不妙……失算了……\\n可惡，身體……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0072",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "Finish this one off.",
+        "ja_jp": "おい、こいつにとどめを<ruby><rb>刺</rb><rt>さ</rt></ruby>しとけ。",
+        "zh_cn": "喂，彻底了结这家伙。",
+        "zh_tw": "喂，把這傢伙解決掉。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0073",
+      "book": ""
+    },
+    {
+      "icon": "120135_01",
+      "name": {
+        "en_us": "Mascula",
+        "ja_jp": "マスキュラ",
+        "zh_cn": "马斯古拉",
+        "zh_tw": "馬斯科拉"
+      },
+      "context": {
+        "en_us": "UnDeRStoOD.",
+        "ja_jp": "<ruby><rb>了解</rb><rt>りょうかい</rt></ruby>。",
+        "zh_cn": "遵命。",
+        "zh_tw": "了解。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0074",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷No! My body...\\nI'm going to kill Luca...!◁",
+        "ja_jp": "……っ!?　ボクの<ruby><rb>体</rb><rt>からだ</rt></ruby>がリュカを……\\nボクがリュカを……<ruby><rb>殺</rb><rt>ころ</rt></ruby>す？",
+        "zh_cn": "我的身体要对卢卡……\\n我会……杀掉卢卡？",
+        "zh_tw": "……！？\\n我的身體要把琉卡……\\n我要把琉卡……殺了？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0075",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷No! You can't!◁\\nMascula, FOCUS!",
+        "ja_jp": "だ、ダメです！　そんなこと……！\\n――マスキュラ、<ruby><rb>集中</rb><rt>しゅうちゅう</rt></ruby>して！\\n――っ！",
+        "zh_cn": "那种事……不、不可以！\\n——马斯古拉，集中精力！\\n——唔！",
+        "zh_tw": "不、不可以！那種事……！\\n──馬斯科拉，集中！\\n──唔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0076",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "You don't have time for distractions.\\nAlthough, if it means you're giving up,\\nthat's good news for me.",
+        "ja_jp": "よそ<ruby><rb>見</rb><rt>み</rt></ruby>をしている<ruby><rb>暇</rb><rt>ひま</rt></ruby>はないはずよ。\\nまあ、<ruby><rb>諦</rb><rt>あきら</rt></ruby>めてくれるというのなら、\\n<ruby><rb>歓迎</rb><rt>かんげい</rt></ruby>だけど。",
+        "zh_cn": "你应该没工夫东张西望。\\n当然，如果是举手投降\\n我倒是很欢迎。",
+        "zh_tw": "你們應該沒空看旁邊喔。\\n不過，如果你們願意放棄，\\n我倒是很歡迎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0077",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷Urgh...◁  ",
+        "ja_jp": "う、ううう……。",
+        "zh_cn": "唔、呃……",
+        "zh_tw": "唔、唔嗚嗚……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0078",
+      "book": ""
+    },
+    {
+      "icon": "120135_01",
+      "name": {
+        "en_us": "Mascula",
+        "ja_jp": "マスキュラ",
+        "zh_cn": "马斯古拉",
+        "zh_tw": "馬斯科拉"
+      },
+      "context": {
+        "en_us": "TerMiNaTinG HoStiLe. I WiLL DeLiVeR\\ntHE FiNiShInG bLoW.",
+        "ja_jp": "<ruby><rb>敵性個体</rb><rt>てきせいこたい</rt></ruby>、<ruby><rb>排除</rb><rt>はいじょ</rt></ruby>、シマス。\\nトドメヲ、<ruby><rb>刺</rb><rt>さ</rt></ruby>ス、マス。",
+        "zh_cn": "消灭、敌对、机体。\\n给予、最后、一击。",
+        "zh_tw": "敵對個體、進行、排除。\\n給予敵方、致命、攻擊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0079",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷Hrk!◁",
+        "ja_jp": "く……！",
+        "zh_cn": "呃！",
+        "zh_tw": "唔……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0080",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷(I'm going to...kill Luca...\\nNo! I won't let that happen! I won't!)◁",
+        "ja_jp": "（ボクがリュカを……？　<ruby><rb>嫌</rb><rt>いや</rt></ruby>だ……！\\n　そんなこと、<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby>に――！）",
+        "zh_cn": "（我要杀掉卢卡了？不要！\\n绝对不能让那种事发生！）",
+        "zh_tw": "（我要把琉卡給……？\\n不要……！\\n那種事、我絕對不要──！）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0081",
+      "book": ""
+    },
+    {
+      "icon": "120135_01",
+      "name": {
+        "en_us": "Mascula",
+        "ja_jp": "マスキュラ",
+        "zh_cn": "马斯古拉",
+        "zh_tw": "馬斯科拉"
+      },
+      "context": {
+        "en_us": "FiNiShInG bLoW...WiLl nOt bE DeLiVeReD.",
+        "ja_jp": "トドメヲ、<ruby><rb>刺</rb><rt>さ</rt></ruby>……\\n……………………ナイ。",
+        "zh_cn": "最后、一击……\\n不……",
+        "zh_tw": "給予敵方、致命……\\n……………………不。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0082",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "Hey, quit with the stalling and take\\nthat long-eared guy out already.",
+        "ja_jp": "……？　おい、どうした。\\n<ruby><rb>早</rb><rt>はや</rt></ruby>く、<ruby><rb>命令</rb><rt>めいれい</rt></ruby>を<ruby><rb>実行</rb><rt>じっこう</rt></ruby>しろ。",
+        "zh_cn": "喂，怎么了？\\n赶紧执行命令。",
+        "zh_tw": "……？\\n喂，怎麼了。快點實行命令。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0083",
+      "book": ""
+    },
+    {
+      "icon": "120135_01",
+      "name": {
+        "en_us": "Mascula",
+        "ja_jp": "マスキュラ",
+        "zh_cn": "马斯古拉",
+        "zh_tw": "馬斯科拉"
+      },
+      "context": {
+        "en_us": "WoN'T...Do iT...",
+        "ja_jp": "サ……ナイ。",
+        "zh_cn": "不……会。",
+        "zh_tw": "不……做。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0084",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "Huh?",
+        "ja_jp": "え？",
+        "zh_cn": "诶？",
+        "zh_tw": "咦？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0085",
+      "book": ""
+    },
+    {
+      "icon": "120135_01",
+      "name": {
+        "en_us": "Mascula",
+        "ja_jp": "マスキュラ",
+        "zh_cn": "马斯古拉",
+        "zh_tw": "馬斯科拉"
+      },
+      "context": {
+        "en_us": "I WON'T LET YOU DO IT!",
+        "ja_jp": "サせない！　そんなこと、させない！",
+        "zh_cn": "不会！\\n我不会让那种事发生！",
+        "zh_tw": "不讓妳那麼做！\\n我絕不讓妳、那麼做！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0086",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "What the?!",
+        "ja_jp": "なん……だとっ!?",
+        "zh_cn": "你……说什么！？",
+        "zh_tw": "怎麼……可能！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0087",
+      "book": ""
+    },
+    {
+      "icon": "120135_01",
+      "name": {
+        "en_us": "Mascula",
+        "ja_jp": "マスキュラ",
+        "zh_cn": "马斯古拉",
+        "zh_tw": "馬斯科拉"
+      },
+      "context": {
+        "en_us": "I WoN'T LeT YoU...hurt my...FRIEND!",
+        "ja_jp": "ボクの……トモダチを、<ruby><rb>傷</rb><rt>きず</rt></ruby>つけさせは\\nしまセン！",
+        "zh_cn": "我不会……\\n让你，伤害我的朋友！",
+        "zh_tw": "我的……朋友，我絕不讓妳傷害他！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0088",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Why is that body out of my control,\\nand how is it conscious?!",
+        "ja_jp": "どういうこと!?　どうして<ruby><rb>制御下</rb><rt>せいぎょか</rt></ruby>から\\n<ruby><rb>外</rb><rt>はず</rt></ruby>れて……それに、あの<ruby><rb>自我</rb><rt>じが</rt></ruby>は！",
+        "zh_cn": "怎么回事！？\\n为什么会摆脱控制……\\n而且，那个人格！",
+        "zh_tw": "怎麼回事！？為什麼能脫離控制……\\n而且，那個自我是！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0089",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Mascula, are you manipulating\\nyour body remotely?",
+        "ja_jp": "――マスキュラ……アナタなの？\\nアナタが<ruby><rb>遠隔</rb><rt>えんかく</rt></ruby>で<ruby><rb>体</rb><rt>からだ</rt></ruby>を<ruby><rb>操作</rb><rt>そうさ</rt></ruby>している？",
+        "zh_cn": "——马斯古拉……是你吗？\\n你在远程操控身体？",
+        "zh_tw": "──馬斯科拉……是你嗎？\\n是你以遠距操控著身體的？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0090",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷Yes, I'm controlling myself—\\nalthough I have no idea how.◁",
+        "ja_jp": "――はい、ボクがコントロールして\\nいます。どうしてそんなことができる\\nのか、<ruby><rb>自分</rb><rt>じぶん</rt></ruby>でもわかりませんが……。",
+        "zh_cn": "——是的，我在控制。\\n我也不知道为什么可以……",
+        "zh_tw": "──是的，是我在進行操控。\\n但為什麼辦得到這種事，\\n連我自己都不清楚就是了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0091",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "No! This is impossible!",
+        "ja_jp": "そんな……ありえないわ！\\n<ruby><rb>何</rb><rt>なに</rt></ruby>かの<ruby><rb>間違</rb><rt>まちが</rt></ruby>いじゃないの……!?",
+        "zh_cn": "怎么会……不可能！\\n一定是哪里搞错了！？",
+        "zh_tw": "這種事……不可能！\\n應該是哪裡搞錯了才對……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0092",
+      "book": ""
+    },
+    {
+      "icon": "120135_01",
+      "name": {
+        "en_us": "Mascula",
+        "ja_jp": "マスキュラ",
+        "zh_cn": "马斯古拉",
+        "zh_tw": "馬斯科拉"
+      },
+      "context": {
+        "en_us": "Laxi, now! Hurry up...and...\\nDeSTRoY ThIS BoDy!",
+        "ja_jp": "ラキシ！　イ……<ruby><rb>今</rb><rt>いま</rt></ruby>のうちです！\\n<ruby><rb>早</rb><rt>はや</rt></ruby>く、この<ruby><rb>体</rb><rt>からだ</rt></ruby>を<ruby><rb>破壊</rb><rt>はかい</rt></ruby>してくだサイ！",
+        "zh_cn": "莱姬希！趁……趁现在！\\n赶快破坏掉这具身体！",
+        "zh_tw": "拉契希！趁……趁現在！\\n請快點、破壞掉這具身體！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0093",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Explain what's going on, Mascula!",
+        "ja_jp": "――マスキュラ!?　どういうことか、\\n<ruby><rb>説明</rb><rt>せつめい</rt></ruby>して。",
+        "zh_cn": "——马斯古拉！？\\n说明一下情况。",
+        "zh_tw": "──馬斯科拉！？\\n這是什麼意思，快說明。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0094",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷I don't know know how I'm able to\\ncontrol my body, Laxi.◁",
+        "ja_jp": "――どういう<ruby><rb>理屈</rb><rt>りくつ</rt></ruby>かわかりませんが、\\nとにかく、<ruby><rb>今</rb><rt>いま</rt></ruby>はボクの<ruby><rb>体</rb><rt>からだ</rt></ruby>を<ruby><rb>制御</rb><rt>せいぎょ</rt></ruby>できて\\nいます。でも……",
+        "zh_cn": "——我也不明白原理。\\n总之，我现在能控制我的身体。\\n但是……",
+        "zh_tw": "──雖然不知道是什麼原因，\\n總之，現在我的確能控制我的身體。\\n但是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0095",
+      "book": ""
+    },
+    {
+      "icon": "120135_01",
+      "name": {
+        "en_us": "Mascula",
+        "ja_jp": "マスキュラ",
+        "zh_cn": "马斯古拉",
+        "zh_tw": "馬斯科拉"
+      },
+      "context": {
+        "en_us": "AnD I AlSo don't know how long I'll be\\nAbLe to Do tHiS. Destroying it is the OnLy\\nWaY!",
+        "ja_jp": "でも、イツマデ<ruby><rb>制御</rb><rt>せいぎょ</rt></ruby>できるのか\\nボク<ruby><rb>自身</rb><rt>じしん</rt></ruby>にもわからないンデス。\\n<ruby><rb>破壊</rb><rt>はかい</rt></ruby>しなけれバ、<ruby><rb>解決</rb><rt>かいけつ</rt></ruby>になりませン！",
+        "zh_cn": "但是，我也不知道\\n能撑到什么时候。\\n不破坏它就没法解决问题。",
+        "zh_tw": "但是，究竟能控制到什麼時候，\\n連我自己都不曉得。\\n如果不破壞掉，就無法解決！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0096",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Are you sure? It might mean you'll never\\nbe able to go back to the way you were...",
+        "ja_jp": "――<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>にそれで、いいの？\\n<ruby><rb>元</rb><rt>もと</rt></ruby>に<ruby><rb>戻</rb><rt>もど</rt></ruby>る<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>がなくなるかも\\nしれないのに……。",
+        "zh_cn": "——这样真的好吗？\\n你也许变不回去了……",
+        "zh_tw": "──真的、沒關係嗎？\\n說不定會失去恢復原狀的可能性……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0097",
+      "book": ""
+    },
+    {
+      "icon": "120135_01",
+      "name": {
+        "en_us": "Mascula",
+        "ja_jp": "マスキュラ",
+        "zh_cn": "马斯古拉",
+        "zh_tw": "馬斯科拉"
+      },
+      "context": {
+        "en_us": "That's fine. I mean, yes, it would be\\nwonderful to go back to how things were\\nand have my own body again...",
+        "ja_jp": "いいんです、ラキシ。<ruby><rb>確</rb><rt>たし</rt></ruby>かにボクは\\n<ruby><rb>体</rb><rt>からだ</rt></ruby>を<ruby><rb>欲</rb><rt>ほ</rt></ruby>しいと<ruby><rb>思</rb><rt>おも</rt></ruby>っていました。\\n<ruby><rb>元</rb><rt>もと</rt></ruby>に<ruby><rb>戻</rb><rt>もど</rt></ruby>れたら<ruby><rb>素晴</rb><rt>すば</rt></ruby>らしいだろうと。",
+        "zh_cn": "没关系，莱姬希。\\n我确实想要自己的身体，\\n会想着要是能变回去该多好。",
+        "zh_tw": "沒關係的，拉契希。\\n我的確曾經很想要身體。\\n也覺得能恢復原狀一定很棒。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0098",
+      "book": ""
+    },
+    {
+      "icon": "120135_01",
+      "name": {
+        "en_us": "Mascula",
+        "ja_jp": "マスキュラ",
+        "zh_cn": "马斯古拉",
+        "zh_tw": "馬斯科拉"
+      },
+      "context": {
+        "en_us": "But there are things in my life that are\\nso much more important than that.",
+        "ja_jp": "でも、ボクには、<ruby><rb>体</rb><rt>からだ</rt></ruby>よりもっと<ruby><rb>大切</rb><rt>たいせつ</rt></ruby>な\\nものがあります。<ruby><rb>大切</rb><rt>たいせつ</rt></ruby>なものを\\nいっぱい、みんなからもらったんです。",
+        "zh_cn": "但是，我有比身体更重要的东西。\\n我从大家那里得到了\\n好多珍贵的东西。",
+        "zh_tw": "不過，我擁有比身體更重要的事物。\\n是大家給了我許多重要的東西。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0099",
+      "book": ""
+    },
+    {
+      "icon": "120135_01",
+      "name": {
+        "en_us": "Mascula",
+        "ja_jp": "マスキュラ",
+        "zh_cn": "马斯古拉",
+        "zh_tw": "馬斯科拉"
+      },
+      "context": {
+        "en_us": "The body isn't me—what IS me is the\\ndesire I hold to protect my friends!",
+        "ja_jp": "<ruby><rb>体</rb><rt>からだ</rt></ruby>がボクじゃない。<ruby><rb>大切</rb><rt>たいせつ</rt></ruby>なものを\\n<ruby><rb>守</rb><rt>まも</rt></ruby>りたいっていうこの<ruby><rb>気持</rb><rt>きも</rt></ruby>ち……\\nそれが、『ボク』だ！",
+        "zh_cn": "身体并不是真正的我。\\n想守护珍视之物的这份心情……\\n才是“我”！",
+        "zh_tw": "身體並不是我。\\n想守護重要事物的這份心情……\\n才是「我」！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0100",
+      "book": ""
+    },
+    {
+      "icon": "120135_01",
+      "name": {
+        "en_us": "Mascula",
+        "ja_jp": "マスキュラ",
+        "zh_cn": "马斯古拉",
+        "zh_tw": "馬斯科拉"
+      },
+      "context": {
+        "en_us": "And I'd rather lose my own body than\\nlose what really matters to me!",
+        "ja_jp": "だから……<ruby><rb>大切</rb><rt>たいせつ</rt></ruby>なものを<ruby><rb>失</rb><rt>うしな</rt></ruby>うくらいなら\\n<ruby><rb>体</rb><rt>からだ</rt></ruby>はなくたっていい！\\nお<ruby><rb>願</rb><rt>ねが</rt></ruby>いします、ラキシ！",
+        "zh_cn": "所以……与其失去珍视之物，\\n我宁可不要这身体！\\n拜托你，莱姬希！",
+        "zh_tw": "所以……與其失去重要的事物，\\n我寧願沒有身體！\\n拜託妳，拉契希！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0101",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Understood...but we do this together.\\n▷Right! Let's go!◁",
+        "ja_jp": "……わかった。でも、マスキュラ。\\nアナタも<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に！\\n――ええ、<ruby><rb>行</rb><rt>い</rt></ruby>きましょう！",
+        "zh_cn": "我明白了……但是，马斯古拉，\\n你也要一起！\\n——好，来吧！",
+        "zh_tw": "……我知道了。不過，馬斯科拉。\\n你也一起！\\n──好的，開始吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0102",
+      "book": ""
+    },
+    {
+      "icon": "100032_06",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Mode shift...EDEN!",
+        "ja_jp": "チェンジ、モード……ガンエデン！",
+        "zh_cn": "模式，转换……伊甸园！",
+        "zh_tw": "變更，模式……伊甸園！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_04_0103",
+      "book": ""
+    }
+  ]
 }

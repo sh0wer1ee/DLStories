@@ -1,693 +1,1309 @@
 {
-    "story_id": "",
-    "story_name": "荒岛求生 狼烟过后",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "王子一行人在漂流物中找到了发烟筒。\\n兄弟三人一起去发射求救信号，\\n却遭到魔兽的妨碍未能如愿。\\n莱昂尼多还为了保护艾缪尔不受魔兽\\n攻击而坠崖。王子和艾缪尔无奈撤退。"
-        ]
+  "title": {
+    "en_us": "Stranded Scions    Beyond the Smoke",
+    "ja_jp": "サバイブ・アイランド  煙の向こう",
+    "zh_cn": "荒岛求生  狼烟过后",
+    "zh_tw": "野外求生‧島嶼驚魂  煙之彼方"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "艾缪尔的声音",
-            "context": "噫噫噫噫！？对不起！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "刚才的声音是！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "可、可是莱昂尼多哥哥！\\n一点点过错根本不算什么吧！\\n只要结果好不就行了吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "肤浅，简直无可救药。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09",
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "原来你们两个在一起啊！？\\n不过看起来也不像是\\n齐心协力的样子……发生什么了？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "哼，没什么。\\n我只不过是惊讶于这个\\n不成器的弟弟竟如此无能罢了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "呜，生个火而已嘛，\\n干嘛要这么凶地骂我……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "诶？生火？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "你小子，什么叫生个火“而已”？\\n看来我跟你说了那么多\\n都是白费口舌！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "不、不是，\\n刚才是我词不达意……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "听好了！我再教你最后一次！\\n人生存的必要条件是空气、水、\\n粮食、安全的睡铺还有火。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "其中火能用于保温、\\n净水、做饭等各种场合，\\n可以说火事关生死！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "你轻视生火这件大事，\\n当心丢了性命。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "想活下去就做点力所能及的事。\\n不想死的话就抛开无意义的矫情，\\n尽全力去做！明白了吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01",
-                "100015_09",
-                "100001_13"
-            ],
-            "speaker_name": "众人",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "明白了就快去捡些柴火来，\\n你这个蠢货。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "知道了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "他看起来不太服气的样子……\\n真的没问题吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "哼，谁管他服不服。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "先不说他，你们那边怎么样？\\n确保水和食物以及寻找漂流物……\\n应该有些收获了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "真不愧是王兄啊。\\n我们还什么都没说，\\n你就掌握了我们的动向。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "收起你那多余的猜忌。\\n我只是根据你们的性格\\n猜想你们的行为而已。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "也就是说，哥哥你一开始\\n就打算与我们合作吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "我自然知道为了生存，齐心协力\\n才是上策。当时我们几个之中\\n没有合作意向的只有艾缪尔吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "我之所以选择单独行动，\\n只是因为我认为分头行动寻找\\n生存所需的物资更有效率而已。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "但现在必需的东西已经找齐了，\\n接下来就应该集体行动了。\\n这一点，谢斯你也赞成吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "当然。毕竟这里只有我们四个人，\\n兄弟姐妹应该和睦地联手，\\n互相帮助共渡难关才对。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "听你这语气……\\n看来是你找到什么\\n能共渡难关的成果了？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "是啊，那是自然。\\n我想王兄也一定\\n会喜欢“这个”的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "嗯？是发射仙花焰的筒啊……\\n不对，应该是用仙花焰的原理\\n制作的能放出狼烟的道具。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "好眼力。只要有了这个“发烟筒”，\\n就能向远方传达\\n我们在这座岛上的信息。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "虽然这只是个不算完美的试验品，\\n但只要点火后马上离开，\\n应该就能满足我们的需求。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "具体要怎么用呢？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "来的路上我已经向\\n尤蒂尔说明过了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "很好。那么事不宜迟，\\n我们这就去发射求救信号吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "哈啊……哈啊……我、我回来了……\\n这下你们……哈啊……\\n没意见了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "谢斯你在这里等着。\\n尤蒂尔和艾缪尔\\n跟我一起来！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "诶！？\\n我才刚捡完柴火……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "既然捡完了\\n就没别的事做了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "是、是这样没错……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "要是你不想去，\\n就请你一个人留在这里\\n准备晚饭可以吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "诶，我自己一个人！？\\n要是来魔兽可怎么办！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "毕竟只有你一个人，\\n只能自己想办法啦。\\n要是不想的话，就跟王兄一起去吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "可是，说让我跟着……\\n我还不知道要跟着去哪\\n做什么呢……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "走了，你们快跟上！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "哈？诶？等、等等啊！\\n这到底是怎么回事……\\n都说了等等我啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "唉……真让人担心。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "嗯，这里看起来挺适合。\\n尤蒂尔，放吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "知道了。\\n你们稍微离得远一些。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "哼，虽然作为狼烟来说爆发力过大，\\n但正如谢斯所说，\\n似乎能满足我们的需求。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "接下来就等有人\\n发现这股烟……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "不好，快离开那里！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120235_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "嗷嗷嗷嗷嗷嗷嗷嗷！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "出、出现了！？\\n是一直追着我跑的怪物！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "简直像是这座岛的主人一样。\\n应该是看到了升起的狼烟，\\n所以来这里妨碍我们了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "啊，烟没了！？\\n这样不就没人能发现\\n本大爷在这里了吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "尤蒂尔！\\n烟筒还剩几支！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "还有三支……不能浪费。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "一发射狼烟就被阻碍的话，\\n岂不是无计可施。为了呼唤救援，\\n也要先解决眼前这个障碍才行。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "等、等一下……\\n你们打算打倒那家伙吗！？\\n也太乱来了吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "这种水平的小喽啰，\\n我立刻就能解决！\\n唔噢噢噢噢噢！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "莱昂尼多哥哥，\\n我也一起来战斗！哈啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "莱昂尼多哥哥\\n和尤蒂尔\\n搞什么啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "我要是可以的话我也……\\n不过，我……不像哥哥他们那么……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好，只差一点了！\\n再加把劲——",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "嗯！？艾缪尔，小心身后！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "哈？又有一头……一样的魔兽！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "荒岛之主B",
-            "context": "嗷嗷嗷嗷嗷嗷嗷嗷！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "啧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "呃啊啊啊啊啊啊！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "不会吧！？哥哥掉下了悬崖……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "唔……我们先撤退！\\n快跑，艾缪尔！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120235_01"
-            ],
-            "speaker_name": "荒岛之主A",
-            "context": "噫、噫噫噫噫……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "干什么！喂，别拽我！\\n放手！我让你放手！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_04_0072",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "The siblings obtain smoke signals from a\\nbag that washed ashore. The prince goes with\\nhis brothers to raise a rescue signal, but an\\ninterloper foils the attempt. What's more,\\nLeonidas falls from a cliff protecting Emile from\\na second fiend, forcing the group to withdraw.",
+      "ja_jp": "<ruby><rb>漂着物</rb><rt>ひょうちゃくぶつ</rt></ruby>から<ruby><rb>発煙</rb><rt>はつえん</rt></ruby><ruby><rb>筒</rb><rt>とう</rt></ruby>を<ruby><rb>手</rb><rt>て</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>れた<ruby><rb>王子</rb><rt>おうじ</rt></ruby>たち。\\n<ruby><rb>王子</rb><rt>おうじ</rt></ruby>は<ruby><rb>兄弟</rb><rt>きょうだい</rt></ruby>と<ruby><rb>共</rb><rt>とも</rt></ruby>に<ruby><rb>救難信号</rb><rt>きゅうなんしんごう</rt></ruby>を<ruby><rb>上</rb><rt>あ</rt></ruby>げに<ruby><rb>行</rb><rt>い</rt></ruby>くが\\n<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>に<ruby><rb>妨害</rb><rt>ぼうがい</rt></ruby>されて<ruby><rb>失敗</rb><rt>しっぱい</rt></ruby>。また、レオニードが\\n<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>の<ruby><rb>攻撃</rb><rt>こうげき</rt></ruby>からエミュールを<ruby><rb>庇</rb><rt>かば</rt></ruby>い<ruby><rb>崖</rb><rt>がけ</rt></ruby>に<ruby><rb>落下</rb><rt>らっか</rt></ruby>。\\n<ruby><rb>撤退</rb><rt>てったい</rt></ruby>を<ruby><rb>余儀</rb><rt>よぎ</rt></ruby>なくされる。",
+      "zh_cn": "王子一行人在漂流物中找到了发烟筒。\\n兄弟三人一起去发射求救信号，\\n却遭到魔兽的妨碍未能如愿。\\n莱昂尼多还为了保护艾缪尔不受魔兽\\n攻击而坠崖。王子和艾缪尔无奈撤退。",
+      "zh_tw": "王子等人從漂流上岸的行李中取得了發煙筒，\\n眾兄弟便一同前去發出求救信號，\\n但在魔獸的妨礙下失敗，且雷歐尼特也為了\\n在魔獸的攻擊下保護埃米爾而墜落懸崖。\\n王子與埃米爾只好選擇撤退。"
+    }
+  },
+  "prev": "2043503",
+  "next": "2043505",
+  "content": [
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Emile's Voice",
+        "ja_jp": "エミュールの声",
+        "zh_cn": "艾缪尔的声音",
+        "zh_tw": "埃米爾的聲音"
+      },
+      "context": {
+        "en_us": "Eeeeek! I'm sorry!",
+        "ja_jp": "ひぃいいいっ!?　ごめんなさい！",
+        "zh_cn": "噫噫噫噫！？对不起！",
+        "zh_tw": "噫噫噫噫噫！？對不起！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0001",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Do I hear Emile again?",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>の<ruby><rb>声</rb><rt>こえ</rt></ruby>は……!?",
+        "zh_cn": "刚才的声音是！？",
+        "zh_tw": "剛才的聲音是……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0002",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "But Leonidas! I'm telling you, I just made\\na bad call, that's all! If the result is the\\nsame, it's hardly worth worrying about.",
+        "ja_jp": "だ、だけどレオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さん！\\n<ruby><rb>多少</rb><rt>たしょう</rt></ruby>の<ruby><rb>過</rb><rt>あやま</rt></ruby>ちがなんだって<ruby><rb>言</rb><rt>い</rt></ruby>うんだよ！\\n<ruby><rb>結果</rb><rt>けっか</rt></ruby>が<ruby><rb>同</rb><rt>おな</rt></ruby>じならどうだっていいだろ!?",
+        "zh_cn": "可、可是莱昂尼多哥哥！\\n一点点过错根本不算什么吧！\\n只要结果好不就行了吗！？",
+        "zh_tw": "但、但是雷歐尼特哥哥！\\n不過是犯了點過錯那又怎樣！\\n只要結果一樣就無所謂吧！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0003",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "You are thoughtless. Our language\\nlacks words descriptive enough to\\nencapsulate your sheer idiocy.",
+        "ja_jp": "<ruby><rb>浅</rb><rt>あさ</rt></ruby>はかな。もはや<ruby><rb>呆</rb><rt>あき</rt></ruby>れて<ruby><rb>言葉</rb><rt>ことば</rt></ruby>も<ruby><rb>出</rb><rt>で</rt></ruby>ん。",
+        "zh_cn": "肤浅，简直无可救药。",
+        "zh_tw": "膚淺。我對你實在無話可說。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0004",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'm surprised to see you together. Not that\\nyou look to be cooperating... Care to fill\\nme in on what's going on?",
+        "ja_jp": "ふたりとも、<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>だったのか!?\\nでも、あまり<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>しあっているようには\\n<ruby><rb>見</rb><rt>み</rt></ruby>えないし……いったい<ruby><rb>何</rb><rt>なに</rt></ruby>が？",
+        "zh_cn": "原来你们两个在一起啊！？\\n不过看起来也不像是\\n齐心协力的样子……发生什么了？",
+        "zh_tw": "你們兩個在一起行動嗎！？\\n但看起來不像是在協力合作……\\n究竟發生什麼事了？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0005",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Nothing, save me expressing disgust at the\\nprofound depth of my brother's imbecility.",
+        "ja_jp": "フン、<ruby><rb>何</rb><rt>なに</rt></ruby>もありはしない。\\nただ<ruby><rb>俺</rb><rt>おれ</rt></ruby>が、この<ruby><rb>愚弟</rb><rt>ぐてい</rt></ruby>の<ruby><rb>浅薄</rb><rt>せんぱく</rt></ruby>さに\\nほとほと<ruby><rb>呆</rb><rt>あき</rt></ruby>れ<ruby><rb>果</rb><rt>は</rt></ruby>てていただけだ！",
+        "zh_cn": "哼，没什么。\\n我只不过是惊讶于这个\\n不成器的弟弟竟如此无能罢了！",
+        "zh_tw": "哼，沒有發生什麼事。\\n只不過，我對這愚蠢弟弟的淺薄\\n已經徹底無話可說了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0006",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "All I said is that I didn't see the import in\\nmerely starting a fire.",
+        "ja_jp": "うぅ、どうしてたかが<ruby><rb>火</rb><rt>ひ</rt></ruby><ruby><rb>起</rb><rt>お</rt></ruby>こしくらいで\\nこんな<ruby><rb>叱</rb><rt>しか</rt></ruby>られなきゃいけないんだ……。",
+        "zh_cn": "呜，生个火而已嘛，\\n干嘛要这么凶地骂我……",
+        "zh_tw": "唔、不過是升火而已\\n為什麼非得被罵成這樣……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0007",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What, now?",
+        "ja_jp": "えっ、<ruby><rb>火</rb><rt>ひ</rt></ruby><ruby><rb>起</rb><rt>お</rt></ruby>こし？",
+        "zh_cn": "诶？生火？",
+        "zh_tw": "咦，升火？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0008",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "＂Merely＂? Clearly, you still lack even the\\nmost basic understanding of your error!",
+        "ja_jp": "おい<ruby><rb>貴様</rb><rt>きさま</rt></ruby>。<ruby><rb>今</rb><rt>いま</rt></ruby>、「たかが」と<ruby><rb>言</rb><rt>い</rt></ruby>ったか？\\nどうやら、あれだけ<ruby><rb>言</rb><rt>い</rt></ruby>われても\\nまだ<ruby><rb>理解</rb><rt>りかい</rt></ruby>できていないようだな！",
+        "zh_cn": "你小子，什么叫生个火“而已”？\\n看来我跟你说了那么多\\n都是白费口舌！",
+        "zh_tw": "我說你，剛才說了「不過是」嗎？\\n看來，即使說了這麼多\\n卻還是沒有讓你理解啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0009",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Oh, er, no, it was just a figure of speech—",
+        "ja_jp": "いや、ちがッ、<ruby><rb>今</rb><rt>いま</rt></ruby>のは<ruby><rb>言葉</rb><rt>ことば</rt></ruby>のアヤで――",
+        "zh_cn": "不、不是，\\n刚才是我词不达意……",
+        "zh_tw": "不，不是，剛才那是口誤──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0010",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Listen here! I will tell you one more time.\\nTo survive, a person needs access to\\nair, water, food, shelter, and fire.",
+        "ja_jp": "いいか！　もう<ruby><rb>一度</rb><rt>いちど</rt></ruby>だけ<ruby><rb>教</rb><rt>おし</rt></ruby>えてやる。\\n<ruby><rb>人</rb><rt>ひと</rt></ruby>が<ruby><rb>生</rb><rt>い</rt></ruby>きるために<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>な<ruby><rb>要素</rb><rt>ようそ</rt></ruby>は<ruby><rb>空気</rb><rt>くうき</rt></ruby>、\\n<ruby><rb>水</rb><rt>みず</rt></ruby>、<ruby><rb>食料</rb><rt>しょくりょう</rt></ruby>、<ruby><rb>安全</rb><rt>あんぜん</rt></ruby>な<ruby><rb>寝床</rb><rt>ねどこ</rt></ruby>、そして<ruby><rb>火</rb><rt>ひ</rt></ruby>だ。",
+        "zh_cn": "听好了！我再教你最后一次！\\n人生存的必要条件是空气、水、\\n粮食、安全的睡铺还有火。",
+        "zh_tw": "聽好了！我只再跟你說明最後一次。\\n人類為求存活的必須要素就是空氣、\\n水、食物、安全的休憩處，還有火。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0011",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Fire is particularly essential for a variety of\\ntasks like heating, water purification, and\\ncooking. Access to fire can spell the\\ndifference between life or death!",
+        "ja_jp": "<ruby><rb>中</rb><rt>なか</rt></ruby>でも<ruby><rb>火</rb><rt>ひ</rt></ruby>は<ruby><rb>保温</rb><rt>ほおん</rt></ruby>、<ruby><rb>浄水</rb><rt>じょうすい</rt></ruby>、<ruby><rb>調理</rb><rt>ちょうり</rt></ruby>など<ruby><rb>様々</rb><rt>さまざま</rt></ruby>な\\n<ruby><rb>用途</rb><rt>ようと</rt></ruby>で<ruby><rb>使</rb><rt>つか</rt></ruby>うことになる。<ruby><rb>火</rb><rt>ひ</rt></ruby>の<ruby><rb>有無</rb><rt>うむ</rt></ruby>こそが\\n<ruby><rb>生死</rb><rt>せいし</rt></ruby>を<ruby><rb>分</rb><rt>わ</rt></ruby>けると<ruby><rb>言</rb><rt>い</rt></ruby>っても<ruby><rb>過言</rb><rt>かごん</rt></ruby>ではない！",
+        "zh_cn": "其中火能用于保温、\\n净水、做饭等各种场合，\\n可以说火事关生死！",
+        "zh_tw": "其中火是有保暖、淨水、調理等等\\n具備各式各樣的功用。有沒有火可說是\\n關係到生死存亡的重大要素也不為過！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0012",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "If you would make light of it with such\\ndiminutive words, you cannot possibly\\nhope to survive!",
+        "ja_jp": "それをたかがなどと<ruby><rb>蔑</rb><rt>ないがし</rt></ruby>ろにしていては\\n<ruby><rb>生</rb><rt>い</rt></ruby>き<ruby><rb>残</rb><rt>のこ</rt></ruby>れるものも<ruby><rb>生</rb><rt>い</rt></ruby>き<ruby><rb>残</rb><rt>のこ</rt></ruby>れん。",
+        "zh_cn": "你轻视生火这件大事，\\n当心丢了性命。",
+        "zh_tw": "對如此重要之物以「不過是」的心態\\n加以輕蔑，能存活也會變得活不下來。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0013",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "You must cast aside your pride and fight\\nto live with all your body and soul! Do I\\nmake myself clear?!",
+        "ja_jp": "<ruby><rb>生</rb><rt>い</rt></ruby>き<ruby><rb>残</rb><rt>のこ</rt></ruby>りたいならできることをやれ。\\n<ruby><rb>死</rb><rt>し</rt></ruby>にたくなければ<ruby><rb>下</rb><rt>くだ</rt></ruby>らん<ruby><rb>矜持</rb><rt>きょうじ</rt></ruby>など<ruby><rb>捨</rb><rt>す</rt></ruby>て\\n<ruby><rb>最善</rb><rt>さいぜん</rt></ruby>を<ruby><rb>尽</rb><rt>つ</rt></ruby>くせ！　わかったか！",
+        "zh_cn": "想活下去就做点力所能及的事。\\n不想死的话就抛开无意义的矫情，\\n尽全力去做！明白了吗！",
+        "zh_tw": "想生存下去就做好自己能做之事。\\n不想死的話就把那無聊的自尊捨去，\\n給我盡力而為！聽明白了嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0014",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Younger Siblings",
+        "ja_jp": "弟妹たち",
+        "zh_cn": "众人",
+        "zh_tw": "眾弟妹"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0015",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Your silence indicates your assent.\\nHurry up and gather firewood.",
+        "ja_jp": "わかったらとっとと<ruby><rb>薪</rb><rt>まき</rt></ruby>を<ruby><rb>拾</rb><rt>ひろ</rt></ruby>ってこい、\\n<ruby><rb>愚</rb><rt>おろ</rt></ruby>か<ruby><rb>者</rb><rt>もの</rt></ruby>め。",
+        "zh_cn": "明白了就快去捡些柴火来，\\n你这个蠢货。",
+        "zh_tw": "聽明白的話就快去撿木柴回來，\\n這個蠢貨。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0016",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "...Right away.",
+        "ja_jp": "…………わかったよ。",
+        "zh_cn": "知道了……",
+        "zh_tw": "…………我知道了啦。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0017",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "He sure didn't look convinced.\\nAre we sure he's going to be okay?",
+        "ja_jp": "なんだか、あまり<ruby><rb>納得</rb><rt>なっとく</rt></ruby>していないみたい\\nだったけど……あれでよかったのかな？",
+        "zh_cn": "他看起来不太服气的样子……\\n真的没问题吗？",
+        "zh_tw": "總覺得他好像不是很能接受……\\n這樣就行了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0018",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Hmph. It's none of my concern.",
+        "ja_jp": "フン、<ruby><rb>俺</rb><rt>おれ</rt></ruby>の<ruby><rb>知</rb><rt>し</rt></ruby>ったことではない。",
+        "zh_cn": "哼，谁管他服不服。",
+        "zh_tw": "哼，那可與我無關。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0019",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "What of your efforts? Did you succeed in\\nsecuring provisions and finding anything\\nfrom the shipwreck?",
+        "ja_jp": "それより、そちらの<ruby><rb>首尾</rb><rt>しゅび</rt></ruby>はどうだ。\\n<ruby><rb>水</rb><rt>みず</rt></ruby>と<ruby><rb>食料</rb><rt>しょくりょう</rt></ruby>の<ruby><rb>確保</rb><rt>かくほ</rt></ruby>に<ruby><rb>漂着物</rb><rt>ひょうちゃくぶつ</rt></ruby>の<ruby><rb>探索</rb><rt>たんさく</rt></ruby>……\\nそれなりの<ruby><rb>成果</rb><rt>せいか</rt></ruby>は<ruby><rb>上</rb><rt>あ</rt></ruby>がったのだろう？",
+        "zh_cn": "先不说他，你们那边怎么样？\\n确保水和食物以及寻找漂流物……\\n应该有些收获了吧？",
+        "zh_tw": "比起那個，你們的狀況呢？\\n確保飲水和糧食，以及探索漂流物……\\n應該多少有點成果吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0020",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Keen as ever, dear brother. Even without\\nus saying a word, you knew what we were\\nup to.",
+        "ja_jp": "さすがはお<ruby><rb>兄</rb><rt>にい</rt></ruby><ruby><rb>様</rb><rt>さま</rt></ruby>ですわね。まだ<ruby><rb>何</rb><rt>なに</rt></ruby>も\\n<ruby><rb>話</rb><rt>はな</rt></ruby>してないというのに、わたくしたちの\\n<ruby><rb>動向</rb><rt>どうこう</rt></ruby>を<ruby><rb>把握</rb><rt>はあく</rt></ruby>していらっしゃるなんて。",
+        "zh_cn": "真不愧是王兄啊。\\n我们还什么都没说，\\n你就掌握了我们的动向。",
+        "zh_tw": "真不愧是哥哥大人呢。\\n明明什麼都還沒說，\\n你卻已經掌握我們的動向了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0021",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Spare me. I simply made an educated\\nguess as to what measures you'd take.",
+        "ja_jp": "<ruby><rb>余計</rb><rt>よけい</rt></ruby>な<ruby><rb>勘繰</rb><rt>かんぐ</rt></ruby>りはよせ。<ruby><rb>俺</rb><rt>おれ</rt></ruby>がお<ruby><rb>前</rb><rt>まえ</rt></ruby>たちなら\\nそうすると<ruby><rb>予測</rb><rt>よそく</rt></ruby>していただけのことだ。",
+        "zh_cn": "收起你那多余的猜忌。\\n我只是根据你们的性格\\n猜想你们的行为而已。",
+        "zh_tw": "少做些無謂的猜測。不過是推斷\\n若我是你們就會那麼做而已。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0022",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Brother, does that mean you planned\\nto work with us from the very start?",
+        "ja_jp": "それって、<ruby><rb>兄</rb><rt>にい</rt></ruby>さんは<ruby><rb>最初</rb><rt>さいしょ</rt></ruby>からちゃんと\\n<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>するつもりだったってことかい？",
+        "zh_cn": "也就是说，哥哥你一开始\\n就打算与我们合作吗？",
+        "zh_tw": "也就是說，\\n哥哥你從一開始就有打算\\n要跟我們合作了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0023",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "It is axiomatic that cooperation is the\\nsurest way to survive. The only one who\\nhadn't a mind for it then was Emile.",
+        "ja_jp": "<ruby><rb>生</rb><rt>い</rt></ruby>き<ruby><rb>残</rb><rt>のこ</rt></ruby>るために<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>し<ruby><rb>合</rb><rt>あ</rt></ruby>うことが<ruby><rb>最善</rb><rt>さいぜん</rt></ruby>\\nなのは<ruby><rb>自明</rb><rt>じめい</rt></ruby>だ。あの<ruby><rb>場</rb><rt>ば</rt></ruby>で<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>する<ruby><rb>気</rb><rt>き</rt></ruby>が\\nなかったのはエミュールだけだろう。",
+        "zh_cn": "我自然知道为了生存，齐心协力\\n才是上策。当时我们几个之中\\n没有合作意向的只有艾缪尔吧。",
+        "zh_tw": "為了存活，協力合作明顯是最佳選擇。\\n當時沒有意願合作的只有埃米爾吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0024",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "I took action alone because I believed that\\nit would be more efficient to gather the\\nnecessary elements for survival individually.",
+        "ja_jp": "<ruby><rb>俺</rb><rt>おれ</rt></ruby>が<ruby><rb>単独</rb><rt>たんどく</rt></ruby><ruby><rb>行動</rb><rt>こうどう</rt></ruby>をとったのは、あくまで\\n<ruby><rb>生存</rb><rt>せいぞん</rt></ruby>に<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>な<ruby><rb>要素</rb><rt>ようそ</rt></ruby>の<ruby><rb>確保</rb><rt>かくほ</rt></ruby>は<ruby><rb>個々</rb><rt>ここ</rt></ruby>に<ruby><rb>行</rb><rt>おこな</rt></ruby>った\\nほうが<ruby><rb>効率</rb><rt>こうりつ</rt></ruby><ruby><rb>的</rb><rt>てき</rt></ruby>だと<ruby><rb>考</rb><rt>かんが</rt></ruby>えたからだ。",
+        "zh_cn": "我之所以选择单独行动，\\n只是因为我认为分头行动寻找\\n生存所需的物资更有效率而已。",
+        "zh_tw": "我會選擇單獨行動，也只是因為\\n個別行動對於確保生存所需要素\\n比較有效率而已。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0025",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "With that done, I move that we act jointly\\nfrom this point forth. Likely Chelle has\\nalready reached the same conclusion.",
+        "ja_jp": "だが、もう<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>な<ruby><rb>要素</rb><rt>ようそ</rt></ruby>は<ruby><rb>確保</rb><rt>かくほ</rt></ruby>し<ruby><rb>終</rb><rt>お</rt></ruby>えた。\\nここからはまとまって<ruby><rb>行動</rb><rt>こうどう</rt></ruby>するべきだ。\\nその<ruby><rb>点</rb><rt>てん</rt></ruby>はシェス、お<ruby><rb>前</rb><rt>まえ</rt></ruby>も<ruby><rb>同意</rb><rt>どうい</rt></ruby>だろう？",
+        "zh_cn": "但现在必需的东西已经找齐了，\\n接下来就应该集体行动了。\\n这一点，谢斯你也赞成吧？",
+        "zh_tw": "但是，所需要素都已湊齊。\\n現在開始我們應該一起行動。\\n關於這點，謝斯妳也同意吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0026",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Indeed. There are only four of us here, so\\nwe siblings should join hands in harmony\\nand help each other.",
+        "ja_jp": "ですわね。ここにはわたくしたち4<ruby><rb>人</rb><rt>にん</rt></ruby>\\nしかいないのですし、<ruby><rb>兄弟</rb><rt>きょうだい</rt></ruby>で<ruby><rb>仲</rb><rt>なか</rt></ruby><ruby><rb>睦</rb><rt>むつ</rt></ruby>まじく\\n<ruby><rb>手</rb><rt>て</rt></ruby>を<ruby><rb>取</rb><rt>と</rt></ruby>って<ruby><rb>助</rb><rt>たす</rt></ruby>け<ruby><rb>合</rb><rt>あ</rt></ruby>うべきでしてよ。",
+        "zh_cn": "当然。毕竟这里只有我们四个人，\\n兄弟姐妹应该和睦地联手，\\n互相帮助共渡难关才对。",
+        "zh_tw": "說得沒錯，畢竟這裡只有我們四人，\\n應該要手足和睦相處、互相合作才對。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0027",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Given your wording, may I assume that\\nyour cooperation thus far has borne fruit?",
+        "ja_jp": "その<ruby><rb>口振</rb><rt>くちぶ</rt></ruby>り……<ruby><rb>手</rb><rt>て</rt></ruby>を<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>合</rb><rt>あ</rt></ruby>うだけの\\n<ruby><rb>成果</rb><rt>せいか</rt></ruby>があったと<ruby><rb>捉</rb><rt>とら</rt></ruby>えていいんだな？",
+        "zh_cn": "听你这语气……\\n看来是你找到什么\\n能共渡难关的成果了？",
+        "zh_tw": "依妳這口氣……我能當作妳已經有什麼\\n可以拿出來互助的成果了吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0028",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "But of course. I am quite certain that you\\nwill find this to your liking, my brother.",
+        "ja_jp": "ええ、それはもちろん。\\n『これ』はきっとお<ruby><rb>兄</rb><rt>にい</rt></ruby><ruby><rb>様</rb><rt>さま</rt></ruby>にも<ruby><rb>気</rb><rt>き</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>って\\nもらえるはずでしてよ。",
+        "zh_cn": "是啊，那是自然。\\n我想王兄也一定\\n会喜欢“这个”的。",
+        "zh_tw": "是啊，那當然。\\n我想「這個」\\n哥哥大人一定也會喜歡的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0029",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Is that...a tube for launching\\npyroblossoms? Wait, no. It must be\\na similar tool that applies the same\\nprinciple to launch smoke signals.",
+        "ja_jp": "む？　それは<ruby><rb>仙花焔</rb><rt>せんかえん</rt></ruby>を<ruby><rb>上</rb><rt>あ</rt></ruby>げる<ruby><rb>筒</rb><rt>つつ</rt></ruby>か……\\nいや、その<ruby><rb>原理</rb><rt>げんり</rt></ruby>を<ruby><rb>応用</rb><rt>おうよう</rt></ruby>した<ruby><rb>狼煙</rb><rt>のろし</rt></ruby>を<ruby><rb>上</rb><rt>あ</rt></ruby>げる\\n<ruby><rb>道具</rb><rt>どうぐ</rt></ruby>といったところだな。",
+        "zh_cn": "嗯？是发射仙花焰的筒啊……\\n不对，应该是用仙花焰的原理\\n制作的能放出狼烟的道具。",
+        "zh_tw": "唔？那是仙花焰的發射筒嗎……\\n不，是利用相同原理製作，\\n用來放出狼煙的道具吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0030",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Keen insight, dear brother. Using these\\nsmoke projectors, we can convey our\\npresence on this island from a great\\ndistance.",
+        "ja_jp": "ご<ruby><rb>明察</rb><rt>めいさつ</rt></ruby>ですわ。この『<ruby><rb>発煙</rb><rt>はつえん</rt></ruby><ruby><rb>筒</rb><rt>とう</rt></ruby>』があれば\\nわたくしたちがこの<ruby><rb>島</rb><rt>しま</rt></ruby>にいることを\\n<ruby><rb>遠</rb><rt>とお</rt></ruby>くまで<ruby><rb>伝</rb><rt>つた</rt></ruby>えることができましてよ。",
+        "zh_cn": "好眼力。只要有了这个“发烟筒”，\\n就能向远方传达\\n我们在这座岛上的信息。",
+        "zh_tw": "正確答案。只要有這個「發煙筒」，\\n就可以告知遠處的人\\n我們在這座島上了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0031",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Being a prototype, it still needs a number\\nof adjustments, but so long as we move\\nclear immediately after lighting it, it\\nshould serve our purposes without issue.",
+        "ja_jp": "まだ<ruby><rb>諸々調整不足</rb><rt>もろもろちょうせいぶそく</rt></ruby>な<ruby><rb>試作品</rb><rt>しさくひん</rt></ruby>ですけど、\\n<ruby><rb>点火</rb><rt>てんか</rt></ruby><ruby><rb>後</rb><rt>ご</rt></ruby>すぐに<ruby><rb>距離</rb><rt>きょり</rt></ruby>をあければ<ruby><rb>問題</rb><rt>もんだい</rt></ruby>なく\\n<ruby><rb>用途</rb><rt>ようと</rt></ruby>を<ruby><rb>満</rb><rt>み</rt></ruby>たしてくれるはずですわ。",
+        "zh_cn": "虽然这只是个不算完美的试验品，\\n但只要点火后马上离开，\\n应该就能满足我们的需求。",
+        "zh_tw": "雖然還只是須要諸多調整的試作品，\\n但只要點火後立刻拉開距離，\\n應該就能順利達到我們的目的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0032",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "How precisely does one use them?",
+        "ja_jp": "<ruby><rb>詳</rb><rt>くわ</rt></ruby>しい<ruby><rb>使</rb><rt>つか</rt></ruby>い<ruby><rb>方</rb><rt>かた</rt></ruby>は？",
+        "zh_cn": "具体要怎么用呢？",
+        "zh_tw": "詳細的使用方法是？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0033",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "While we made our way here, I gave a full\\nexplanation to Euden.",
+        "ja_jp": "ユーディルには\\nここへ<ruby><rb>来</rb><rt>く</rt></ruby>るまでの<ruby><rb>間</rb><rt>あいだ</rt></ruby>に<ruby><rb>説明</rb><rt>せつめい</rt></ruby><ruby><rb>済</rb><rt>ず</rt></ruby>みですわ。",
+        "zh_cn": "来的路上我已经向\\n尤蒂尔说明过了。",
+        "zh_tw": "在前往這裡的途中，\\n我已經向尤帝爾\\n都說明過了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0034",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Good. Let us waste no time, then.",
+        "ja_jp": "<ruby><rb>上出来</rb><rt>じょうでき</rt></ruby>だ。ならば、さっそくそれで\\n<ruby><rb>救難信号</rb><rt>きゅうなんしんごう</rt></ruby>を<ruby><rb>上</rb><rt>あ</rt></ruby>げるとしよう。",
+        "zh_cn": "很好。那么事不宜迟，\\n我们这就去发射求救信号吧。",
+        "zh_tw": "很好。那麼我們立刻\\n發出求救信號吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0035",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "*wheeze* *pant* I'm back...and this\\nshould give you—hup!—nothing to\\ncomplain about.",
+        "ja_jp": "ぜぇ……ぜぇ……も、<ruby><rb>戻</rb><rt>もど</rt></ruby>ったぞ……。\\nこれで、<ruby><rb>文句</rb><rt>もんく</rt></ruby>……ぜぇ……ないだろ。",
+        "zh_cn": "哈啊……哈啊……我、我回来了……\\n这下你们……哈啊……\\n没意见了吧？",
+        "zh_tw": "呼……呼……我、我回來了……\\n這樣，你就……呼……沒話說了吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0036",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Wait here, Chelle. Euden\\nand Emile, with me!",
+        "ja_jp": "シェスはここで<ruby><rb>待</rb><rt>ま</rt></ruby>て。\\nユーディルとエミュールは\\n<ruby><rb>俺</rb><rt>おれ</rt></ruby>と<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に<ruby><rb>来</rb><rt>こ</rt></ruby>い！",
+        "zh_cn": "谢斯你在这里等着。\\n尤蒂尔和艾缪尔\\n跟我一起来！",
+        "zh_tw": "謝斯妳留在這。\\n尤帝爾和埃米爾\\n跟我一起過來！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0037",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "But I JUST finished getting firewood!",
+        "ja_jp": "ええっ!?　オレは<ruby><rb>今</rb><rt>いま</rt></ruby>ようやく<ruby><rb>薪</rb><rt>まき</rt></ruby><ruby><rb>拾</rb><rt>ひろ</rt></ruby>いが\\n<ruby><rb>終</rb><rt>お</rt></ruby>わったところで……。",
+        "zh_cn": "诶！？\\n我才刚捡完柴火……",
+        "zh_tw": "咦咦！？\\n我才剛撿完木柴回來……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0038",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Which means you're not presently\\noccupied.",
+        "ja_jp": "<ruby><rb>終</rb><rt>お</rt></ruby>わったのなら<ruby><rb>手</rb><rt>て</rt></ruby>が<ruby><rb>空</rb><rt>あ</rt></ruby>いているはずだ。",
+        "zh_cn": "既然捡完了\\n就没别的事做了吧？",
+        "zh_tw": "既然撿完了應該有空才對。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0039",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Er... Well, I guess not...",
+        "ja_jp": "そ、それはそうだけど……。",
+        "zh_cn": "是、是这样没错……",
+        "zh_tw": "是、是那樣沒錯啦……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0040",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "You could always stay here and cook\\ndinner for us instead.",
+        "ja_jp": "<ruby><rb>行</rb><rt>い</rt></ruby>きたくないと<ruby><rb>言</rb><rt>い</rt></ruby>うのなら、\\nひとりでここに<ruby><rb>残</rb><rt>のこ</rt></ruby>って<ruby><rb>夕飯</rb><rt>ゆうはん</rt></ruby>の<ruby><rb>支度</rb><rt>したく</rt></ruby>を\\nしておいてくださる？",
+        "zh_cn": "要是你不想去，\\n就请你一个人留在这里\\n准备晚饭可以吗？",
+        "zh_tw": "如果不想去的話，\\n可以請你獨自留下為我們準備晚餐嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0041",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "What?! By myself? What if I get attacked\\nby fiends?!",
+        "ja_jp": "えっ、オレひとりで!?\\n<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>が<ruby><rb>襲</rb><rt>おそ</rt></ruby>ってきたらどうするんだよ!?",
+        "zh_cn": "诶，我自己一个人！？\\n要是来魔兽可怎么办！？",
+        "zh_tw": "咦，我自己一個人！？\\n要是被魔獸襲擊的話怎麼辦啊！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0042",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Then you'd have to deal with it yourself.\\nIf you don't like it, then you can go with\\nour brothers.",
+        "ja_jp": "あなたしかいないのだから、<ruby><rb>自分</rb><rt>じぶん</rt></ruby>で<ruby><rb>対処</rb><rt>たいしょ</rt></ruby>\\nするしかありませんわよ。それが<ruby><rb>嫌</rb><rt>いや</rt></ruby>なら\\nお<ruby><rb>兄</rb><rt>にい</rt></ruby><ruby><rb>様</rb><rt>さま</rt></ruby>について<ruby><rb>行</rb><rt>い</rt></ruby>きなさいな。",
+        "zh_cn": "毕竟只有你一个人，\\n只能自己想办法啦。\\n要是不想的话，就跟王兄一起去吧。",
+        "zh_tw": "因為只有你自己一個人，\\n所以只能自己想辦法囉。\\n如果不願意，就跟著哥哥大人走吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0043",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "But nobody's even told me WHERE\\nwe'd be going, and for what!",
+        "ja_jp": "そんな、ついて<ruby><rb>行</rb><rt>い</rt></ruby>けって<ruby><rb>言</rb><rt>い</rt></ruby>われても……\\nそもそもオレ、<ruby><rb>何処</rb><rt>どこ</rt></ruby>になにしに<ruby><rb>行</rb><rt>い</rt></ruby>くのか\\nまだ<ruby><rb>聞</rb><rt>き</rt></ruby>いてないんだけど……。",
+        "zh_cn": "可是，说让我跟着……\\n我还不知道要跟着去哪\\n做什么呢……",
+        "zh_tw": "怎麼這樣，就算妳叫我跟他走……\\n但我連要去哪裡做什麼\\n都還不知道啊……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0044",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "We're leaving now!",
+        "ja_jp": "では<ruby><rb>行</rb><rt>い</rt></ruby>くぞ、お<ruby><rb>前</rb><rt>まえ</rt></ruby>たち！",
+        "zh_cn": "走了，你们快跟上！",
+        "zh_tw": "要走了，跟上！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0045",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Huh?! Wait! I have no idea what's\\ngoing on... I said WAIT, damn you!",
+        "ja_jp": "は？　え？　ちょっ、<ruby><rb>待</rb><rt>ま</rt></ruby>ってくれよ！\\n<ruby><rb>話</rb><rt>はなし</rt></ruby>が<ruby><rb>見</rb><rt>み</rt></ruby>えな……だから<ruby><rb>待</rb><rt>ま</rt></ruby>ってくれって！",
+        "zh_cn": "哈？诶？等、等等啊！\\n这到底是怎么回事……\\n都说了等等我啊！",
+        "zh_tw": "呃？咦？等、等一下啦！\\n我根本沒搞懂……就說等一下了啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0046",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "*sigh* There's a decent chance he'll die.",
+        "ja_jp": "…………はあ。<ruby><rb>不安</rb><rt>ふあん</rt></ruby>ですわ。",
+        "zh_cn": "唉……真让人担心。",
+        "zh_tw": "…………唉，真讓人不安。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0047",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "This spot should suit our needs.\\nEuden, do it.",
+        "ja_jp": "うむ、ここがよさそうだな。\\nユーディル、やれ。",
+        "zh_cn": "嗯，这里看起来挺适合。\\n尤蒂尔，放吧。",
+        "zh_tw": "嗯，這裡看起來很合適。\\n尤帝爾，動手吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0048",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Got it. You two stand back a little.",
+        "ja_jp": "ああ、わかった。\\nふたりとも、<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>離</rb><rt>はな</rt></ruby>れていてくれ。",
+        "zh_cn": "知道了。\\n你们稍微离得远一些。",
+        "zh_tw": "嗯，我知道了。\\n你們兩位稍微離遠一點。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0049",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Hmph. That's excessive explosive power\\nfor a smoke signal, but it does appear to\\nbe functional.",
+        "ja_jp": "ふん、<ruby><rb>狼煙</rb><rt>のろし</rt></ruby>としては<ruby><rb>無駄</rb><rt>むだ</rt></ruby>な<ruby><rb>爆発力</rb><rt>ばくはつりょく</rt></ruby>だが\\nシェスの<ruby><rb>言</rb><rt>い</rt></ruby>っていた<ruby><rb>通</rb><rt>とお</rt></ruby>り<ruby><rb>用途</rb><rt>ようと</rt></ruby>を<ruby><rb>満</rb><rt>み</rt></ruby>たす\\nことはできているようだな。",
+        "zh_cn": "哼，虽然作为狼烟来说爆发力过大，\\n但正如谢斯所说，\\n似乎能满足我们的需求。",
+        "zh_tw": "哼，以狼煙而言實在爆發力過剩，\\n但看來如謝斯所說，\\n它確實可以順利達到我們的目的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0050",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Now we just have to hope someone sees\\nit.",
+        "ja_jp": "あとは<ruby><rb>誰</rb><rt>だれ</rt></ruby>かがこの<ruby><rb>煙</rb><rt>けむり</rt></ruby>に<ruby><rb>気</rb><rt>き</rt></ruby>づいて\\nくれれば……。",
+        "zh_cn": "接下来就等有人\\n发现这股烟……",
+        "zh_tw": "再來只要有人發現到這陣煙……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0051",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "?! Brother, get away from there!",
+        "ja_jp": "――!?　まずい、そこから<ruby><rb>離</rb><rt>はな</rt></ruby>れろ！",
+        "zh_cn": "不好，快离开那里！",
+        "zh_tw": "──！？\\n不妙，快離開那裡！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0052",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Not this thing again!",
+        "ja_jp": "こいつは……ッ！",
+        "zh_cn": "这是……",
+        "zh_tw": "這傢伙是……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0053",
+      "book": ""
+    },
+    {
+      "icon": "120235_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Graaaargh!",
+        "ja_jp": "ギャオオオオオオオオオ!! ",
+        "zh_cn": "嗷嗷嗷嗷嗷嗷嗷嗷！",
+        "zh_tw": "嘎吼喔喔喔喔喔喔！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "IT'S BAAAACK! THAT'S THE MONSTER\\nTHAT CHASED ME!",
+        "ja_jp": "で、<ruby><rb>出</rb><rt>で</rt></ruby>たぁあああああ!?　オレ<ruby><rb>様</rb><rt>さま</rt></ruby>を\\n<ruby><rb>追</rb><rt>お</rt></ruby>いかけてきたバケモノだ！",
+        "zh_cn": "出、出现了！？\\n是一直追着我跑的怪物！",
+        "zh_tw": "出、出現啦────！？\\n是剛才追著本大爺的怪物！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0054",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "It appears to be the master of the island.\\nIt saw the signal and came here to stand\\nin our way.",
+        "ja_jp": "まるで、<ruby><rb>島</rb><rt>しま</rt></ruby>の<ruby><rb>主</rb><rt>ぬし</rt></ruby>だな。\\n<ruby><rb>狼煙</rb><rt>のろし</rt></ruby>が<ruby><rb>上</rb><rt>あ</rt></ruby>がったのを<ruby><rb>見</rb><rt>み</rt></ruby>て、<ruby><rb>俺</rb><rt>おれ</rt></ruby>たちの\\n<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>をしにやって<ruby><rb>来</rb><rt>き</rt></ruby>たというわけだ。",
+        "zh_cn": "简直像是这座岛的主人一样。\\n应该是看到了升起的狼烟，\\n所以来这里妨碍我们了。",
+        "zh_tw": "簡直就是這座島的島主呢。\\n看到了升起的狼煙，\\n才跑來礙事的吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0055",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Agh, the smoke! Now I'm doomed...\\nDOOOOOMED, I SAY!",
+        "ja_jp": "ああっ、<ruby><rb>煙</rb><rt>けむり</rt></ruby>が!?\\nこれじゃ<ruby><rb>誰</rb><rt>だれ</rt></ruby>もオレ<ruby><rb>様</rb><rt>さま</rt></ruby>がここにいるって\\n<ruby><rb>気</rb><rt>き</rt></ruby>づけないじゃないか！",
+        "zh_cn": "啊，烟没了！？\\n这样不就没人能发现\\n本大爷在这里了吗！",
+        "zh_tw": "啊，煙散了！？\\n這樣不就沒人會發現\\n本大爺在這了嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0056",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Euden!\\nHow many smoke projectors are left?",
+        "ja_jp": "ユーディル！\\n<ruby><rb>発煙</rb><rt>はつえん</rt></ruby><ruby><rb>筒</rb><rt>とう</rt></ruby>はあと<ruby><rb>何</rb><rt>なん</rt></ruby><ruby><rb>本</rb><rt>ぼん</rt></ruby><ruby><rb>残</rb><rt>のこ</rt></ruby>っている!?",
+        "zh_cn": "尤蒂尔！\\n烟筒还剩几支！？",
+        "zh_tw": "尤帝爾！\\n發煙筒還剩下幾個！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0057",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Three. We can't waste them.",
+        "ja_jp": "あと3<ruby><rb>本</rb><rt>ぼん</rt></ruby>だ……<ruby><rb>無駄</rb><rt>むだ</rt></ruby><ruby><rb>打</rb><rt>う</rt></ruby>ちはできない。",
+        "zh_cn": "还有三支……不能浪费。",
+        "zh_tw": "還剩三個……不能隨便發射。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0058",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "And our ＂friend＂ here will interfere with\\nevery shot, no doubt. We won't be able\\nto call for help unless we defeat it.",
+        "ja_jp": "<ruby><rb>狼煙</rb><rt>のろし</rt></ruby>を<ruby><rb>上</rb><rt>あ</rt></ruby>げる<ruby><rb>度</rb><rt>たび</rt></ruby>に<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>されたのでは\\n<ruby><rb>敵</rb><rt>かな</rt></ruby>わん。<ruby><rb>救助</rb><rt>きゅうじょ</rt></ruby>を<ruby><rb>呼</rb><rt>よ</rt></ruby>ぶためにも<ruby><rb>目</rb><rt>め</rt></ruby>の<ruby><rb>前</rb><rt>まえ</rt></ruby>の\\n<ruby><rb>邪魔者</rb><rt>じゃまもの</rt></ruby>を<ruby><rb>排除</rb><rt>はいじょ</rt></ruby>することが<ruby><rb>先決</rb><rt>せんけつ</rt></ruby>だな。",
+        "zh_cn": "一发射狼烟就被阻碍的话，\\n岂不是无计可施。为了呼唤救援，\\n也要先解决眼前这个障碍才行。",
+        "zh_tw": "我們經不起每次升起狼煙都被阻斷。\\n為了求救，必須優先\\n把眼前的礙事者排除才行。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0059",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Wait... But that thing is crazy-go-nuts\\nscary! Fighting it would be ABSURD!",
+        "ja_jp": "ま、<ruby><rb>待</rb><rt>ま</rt></ruby>ってくれ……まさかアイツを<ruby><rb>倒</rb><rt>たお</rt></ruby>す\\nつもりなのか!?　<ruby><rb>無茶</rb><rt>むちゃ</rt></ruby>だろそんなの！",
+        "zh_cn": "等、等一下……\\n你们打算打倒那家伙吗！？\\n也太乱来了吧！",
+        "zh_tw": "等、等一下……\\n你該不會打算打倒那傢伙吧！？\\n不可能辦得到的啦！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0060",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "I could crush a runt like this without\\nbreaking a sweat. Hraaah!",
+        "ja_jp": "この<ruby><rb>程度</rb><rt>ていど</rt></ruby>の<ruby><rb>雑魚</rb><rt>ざこ</rt></ruby>、すぐに<ruby><rb>叩</rb><rt>たた</rt></ruby>き<ruby><rb>潰</rb><rt>つぶ</rt></ruby>して\\nくれるわ！　うぉおおおおッ！",
+        "zh_cn": "这种水平的小喽啰，\\n我立刻就能解决！\\n唔噢噢噢噢噢！",
+        "zh_tw": "這種程度的雜碎，我馬上滅了她！\\n唔喔喔喔喔喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0061",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'm with you, Leonidas! Haaah!",
+        "ja_jp": "レオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さん、\\nおれも<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に<ruby><rb>戦</rb><rt>たたか</rt></ruby>うよ！　ハァアアッ！",
+        "zh_cn": "莱昂尼多哥哥，\\n我也一起来战斗！哈啊啊！",
+        "zh_tw": "雷歐尼特哥哥，我也一起加入作戰！\\n喝啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0062",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "They're seriously both going for it...",
+        "ja_jp": "……なんなんだよ。レオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さんも\\nユーディルも……！",
+        "zh_cn": "莱昂尼多哥哥\\n和尤蒂尔\\n搞什么啊……",
+        "zh_tw": "……搞什麼啊，不管是雷歐尼特哥哥，\\n還是尤帝爾……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0063",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "If I could, I would too...but I'm not strong\\nthe way they are.",
+        "ja_jp": "できるならオレだって……でも、オレは\\n……<ruby><rb>兄</rb><rt>にい</rt></ruby>さんたちみたいには……。",
+        "zh_cn": "我要是可以的话我也……\\n不过，我……不像哥哥他们那么……",
+        "zh_tw": "如果可以的話，我也……\\n但是，要我……\\n變得像他們那樣……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0064",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Keep pushing! We've got it pinned do—",
+        "ja_jp": "よし、もう<ruby><rb>一押</rb><rt>ひとお</rt></ruby>しだ！\\nこのまま――",
+        "zh_cn": "好，只差一点了！\\n再加把劲——",
+        "zh_tw": "好，就差最後一擊了！\\n就這樣──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0065",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "?! Emile! Behind you!",
+        "ja_jp": "――!?　エミュール、<ruby><rb>後</rb><rt>うし</rt></ruby>ろだ！",
+        "zh_cn": "嗯！？艾缪尔，小心身后！",
+        "zh_tw": "──！？埃米爾，後面！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0066",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Huh? There's another one?!",
+        "ja_jp": "は？　<ruby><rb>同</rb><rt>おな</rt></ruby>じのが、もう1<ruby><rb>体</rb><rt>たい</rt></ruby>……ッ!?",
+        "zh_cn": "哈？又有一头……一样的魔兽！？",
+        "zh_tw": "蛤？還有一隻一樣的……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0067",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Ruler of the Island B",
+        "ja_jp": "無人島の主B",
+        "zh_cn": "荒岛之主B",
+        "zh_tw": "無人島島主B"
+      },
+      "context": {
+        "en_us": "Graaagh!",
+        "ja_jp": "グルァアアアアアアアア!! ",
+        "zh_cn": "嗷嗷嗷嗷嗷嗷嗷嗷！",
+        "zh_tw": "咕吼喔喔喔喔喔喔喔喔喔！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Tch!",
+        "ja_jp": "ちぃッ！",
+        "zh_cn": "啧！",
+        "zh_tw": "嘖！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0068",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "AAAGH!",
+        "ja_jp": "ぐああああああッ!?",
+        "zh_cn": "呃啊啊啊啊啊啊！？",
+        "zh_tw": "唔啊啊啊啊啊啊！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0069",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "NO! He went over the cliff!",
+        "ja_jp": "そんなっ!?　<ruby><rb>兄</rb><rt>にい</rt></ruby>さんが<ruby><rb>崖</rb><rt>がけ</rt></ruby>に……！",
+        "zh_cn": "不会吧！？哥哥掉下了悬崖……",
+        "zh_tw": "怎麼會！？哥哥掉下山崖了……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0070",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Hrk... We have to back off for now.\\nCome on, Emile!",
+        "ja_jp": "くっ……ここは<ruby><rb>一時</rb><rt>いちじ</rt></ruby><ruby><rb>撤退</rb><rt>てったい</rt></ruby>だ！\\n<ruby><rb>退</rb><rt>ひ</rt></ruby>くぞエミュール！",
+        "zh_cn": "唔……我们先撤退！\\n快跑，艾缪尔！",
+        "zh_tw": "唔……現在先撤退！\\n快走吧，埃米爾！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0071",
+      "book": ""
+    },
+    {
+      "icon": "120235_01",
+      "name": {
+        "en_us": "Ruler of the Island A",
+        "ja_jp": "無人島の主A",
+        "zh_cn": "荒岛之主A",
+        "zh_tw": "無人島島主A"
+      },
+      "context": {
+        "en_us": "Gyaaagh?!",
+        "ja_jp": "ギ、ギギィイイ……!?",
+        "zh_cn": "噫、噫噫噫噫……",
+        "zh_tw": "嘎、嘎噫噫噫……！？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Damn it all! Let go of me...\\nI said let go, damn you! LET GOOO!",
+        "ja_jp": "ざっけんな！　おい、<ruby><rb>腕</rb><rt>うで</rt></ruby><ruby><rb>引</rb><rt>ひ</rt></ruby>っ<ruby><rb>張</rb><rt>ぱ</rt></ruby>んな！\\n<ruby><rb>離</rb><rt>はな</rt></ruby>せッ！　<ruby><rb>離</rb><rt>はな</rt></ruby>せっつってんだよぉッ！",
+        "zh_cn": "干什么！喂，别拽我！\\n放手！我让你放手！",
+        "zh_tw": "開什麼玩笑！喂，不要拉我！\\n放開我！我叫你放開我啦！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_04_0072",
+      "book": ""
+    }
+  ]
 }

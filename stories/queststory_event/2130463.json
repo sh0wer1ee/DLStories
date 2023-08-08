@@ -1,31 +1,60 @@
 {
-    "story_id": "",
-    "story_name": "情人节·甜美佳肴 追加剧情 武藏",
-    "story_icon": "",
-    "outline": {
-        "title": "",
-        "content": [
-            "要跳过此剧情吗？"
-        ]
+  "title": {
+    "en_us": "Valentine's Confections Extra    Musashi",
+    "ja_jp": "バレンタイン・アラカルト エクストラ  ムサシ",
+    "zh_cn": "情人节·甜美佳肴 追加剧情  武藏",
+    "zh_tw": "情人節‧精巧甜品　追加劇情  武藏"
+  },
+  "outline": {
+    "title": {
+      "en_us": "",
+      "ja_jp": "",
+      "zh_cn": "",
+      "zh_tw": ""
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110030_01"
-            ],
-            "speaker_name": "武藏",
-            "context": "这竟是为了表达平日的感谢？\\n太客气了。不过我很高兴。",
-            "voice_line": "VO_CHR_EVENTSTORY_21304_01_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110030_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "收到了来自武藏的回礼。",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Skip this scene?",
+      "ja_jp": "このストーリーをスキップしますか？",
+      "zh_cn": "要跳过此剧情吗？",
+      "zh_tw": "請確認是否略過劇情？"
+    }
+  },
+  "prev": "2130462",
+  "next": "2130464",
+  "content": [
+    {
+      "icon": "110030_01",
+      "name": {
+        "en_us": "Musashi",
+        "ja_jp": "ムサシ",
+        "zh_cn": "武藏",
+        "zh_tw": "武藏"
+      },
+      "context": {
+        "en_us": "You wish to offer up a token of thanks?\\nI would be honored.",
+        "ja_jp": "なんと、<ruby><rb>日頃</rb><rt>ひごろ</rt></ruby>の<ruby><rb>感謝</rb><rt>かんしゃ</rt></ruby>の<ruby><rb>礼</rb><rt>れい</rt></ruby>と？\\n<ruby><rb>心遣</rb><rt>こころづか</rt></ruby>い、<ruby><rb>痛</rb><rt>いた</rt></ruby>み<ruby><rb>入</rb><rt>い</rt></ruby>る。うれしいものだな。",
+        "zh_cn": "这竟是为了表达平日的感谢？\\n太客气了。不过我很高兴。",
+        "zh_tw": "什麼，閣下是說以此表達平日的感謝？\\n如此心意實不敢當。本人十分高興呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21304_01_0023",
+      "book": ""
+    },
+    {
+      "icon": "110030_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "You received a thank-you gift from Musashi.",
+        "ja_jp": "ムサシからプレゼントのお<ruby><rb>礼</rb><rt>れい</rt></ruby>をもらった。",
+        "zh_cn": "收到了来自武藏的回礼。",
+        "zh_tw": "收到了來自武藏的回禮。"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

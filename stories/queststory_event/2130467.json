@@ -1,31 +1,60 @@
 {
-    "story_id": "",
-    "story_name": "情人节·甜美佳肴 追加剧情 克雷伊曼",
-    "story_icon": "",
-    "outline": {
-        "title": "",
-        "content": [
-            "要跳过此剧情吗？"
-        ]
+  "title": {
+    "en_us": "Valentine's Confections Extra    Kleimann",
+    "ja_jp": "バレンタイン・アラカルト エクストラ  クレイマン",
+    "zh_cn": "情人节·甜美佳肴 追加剧情  克雷伊曼",
+    "zh_tw": "情人節‧精巧甜品　追加劇情  苦雷曼"
+  },
+  "outline": {
+    "title": {
+      "en_us": "",
+      "ja_jp": "",
+      "zh_cn": "",
+      "zh_tw": ""
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110051_01"
-            ],
-            "speaker_name": "克雷伊曼",
-            "context": "居然要给我礼物？\\n啊哈哈哈！你可真是个怪人啊，\\n我就收下了！",
-            "voice_line": "VO_CHR_EVENTSTORY_21304_01_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110051_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "收到了来自克雷伊曼的回礼。",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Skip this scene?",
+      "ja_jp": "このストーリーをスキップしますか？",
+      "zh_cn": "要跳过此剧情吗？",
+      "zh_tw": "請確認是否略過劇情？"
+    }
+  },
+  "prev": "2130466",
+  "next": "2130468",
+  "content": [
+    {
+      "icon": "110051_01",
+      "name": {
+        "en_us": "Kleimann",
+        "ja_jp": "クレイマン",
+        "zh_cn": "克雷伊曼",
+        "zh_tw": "苦雷曼"
+      },
+      "context": {
+        "en_us": "A present for me? Mwah ha ha!\\nYou really ARE peculiar! ...Gimme.",
+        "ja_jp": "この<ruby><rb>私</rb><rt>わたし</rt></ruby>に<ruby><rb>贈</rb><rt>おく</rt></ruby>り<ruby><rb>物</rb><rt>もの</rt></ruby>だと？\\nあっひゃひゃひゃひゃ！　<ruby><rb>君</rb><rt>きみ</rt></ruby>は<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に\\n<ruby><rb>変</rb><rt>か</rt></ruby>わり<ruby><rb>者</rb><rt>もの</rt></ruby>だなぁ。<ruby><rb>頂戴</rb><rt>ちょうだい</rt></ruby>しよう！",
+        "zh_cn": "居然要给我礼物？\\n啊哈哈哈！你可真是个怪人啊，\\n我就收下了！",
+        "zh_tw": "居然要送我禮物？\\n啊嘻嘻嘻嘻！你真是個怪人呢。\\n那我就收下吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21304_01_0027",
+      "book": ""
+    },
+    {
+      "icon": "110051_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "You received a thank-you gift from Kleimann.",
+        "ja_jp": "クレイマンからプレゼントのお<ruby><rb>礼</rb><rt>れい</rt></ruby>をもらった。",
+        "zh_cn": "收到了来自克雷伊曼的回礼。",
+        "zh_tw": "收到了來自苦雷曼的回禮。"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

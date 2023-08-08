@@ -1,726 +1,1377 @@
 {
-    "story_id": "",
-    "story_name": "FIRE EMBLEM 彼此相连的世界第2话 交错的王子们",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "菲约尔姆阻止了{player_name}\\n与阿尔冯斯之间的战斗。\\n解开了误会的两位王子握手言和。\\n而此时帝国军即将袭来。"
-        ]
+  "title": {
+    "en_us": "Fire Emblem: Lost Heroes  Episode 2  Clash of Princes",
+    "ja_jp": "FIRE EMBLEM つながる世界 2話 交差する王子",
+    "zh_cn": "FIRE EMBLEM 彼此相连的世界 第2话 交错的王子们",
+    "zh_tw": "FIRE EMBLEM 彼此相連的世界 第2話 交錯的王子"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110327_01"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "呜……好强大。\\n想以寡敌众实在有点难啊。\\n但是……",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "胜负已分。我们不想给你\\n造成更多伤害，快投降吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110327_01"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "（已经争取到时间了。\\n我一个人的话倒还能选择投降……\\n不过维洛妮卡皇女会生气吧。）",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110327_01"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "（而且，那个金发的剑士\\n看上去是领头的。如果能重创他，\\n应该就有逃跑的机会……）",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110327_01"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "还没完呢！哈啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "唔！还不死心吗！\\n既然如此……",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "尤蒂尔，\\n我来掩护你！",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "虽然不喜欢以多欺少，\\n但可得动点真格了！",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "住手！请等一下！",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110327_01"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "嗯！？你、你是！",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110328_01"
-            ],
-            "speaker_name": "菲约尔姆",
-            "context": "各位没有必要开战！",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "咦！？谁、谁啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110327_01"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "菲约尔姆公主……",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110328_01"
-            ],
-            "speaker_name": "菲约尔姆",
-            "context": "阿尔冯斯王子，\\n你没事真是太好了。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "你到底是……",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110328_01"
-            ],
-            "speaker_name": "菲约尔姆",
-            "context": "拜托了，\\n尤蒂尔王子，\\n请听我解释。\\n",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "也就是说……你们是从\\n别的世界来到这里的？",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110328_01"
-            ],
-            "speaker_name": "菲约尔姆",
-            "context": "是的。对你们来说，\\n就是这么一回事。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110328_01"
-            ],
-            "speaker_name": "菲约尔姆",
-            "context": "我名为菲约尔姆，\\n曾经是尼福尔王国的公主……",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "曾经是？",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110328_01"
-            ],
-            "speaker_name": "菲约尔姆",
-            "context": "是的……我的祖国\\n已经被敌人毁灭了……",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "是、是这样啊……\\n抱歉，我失言了……",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110328_01"
-            ],
-            "speaker_name": "菲约尔姆",
-            "context": "不，没关系。\\n我现在正栖身于\\n这位阿尔冯斯王子的国家。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110327_02"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "我叫阿尔冯斯，是她所提到的\\n亚斯克王国的王子。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "尼福尔和亚斯克……\\n都是没听过的国名呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110328_01"
-            ],
-            "speaker_name": "菲约尔姆",
-            "context": "我也一样。\\n阿尔贝里亚和狄涅尔……\\n都从未听说。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "所以才觉得\\n是不同的世界吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "话说回来别的世界这种事，\\n你们居然能如此轻易地接受吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110327_02"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "在我们的世界里……\\n这并不稀奇。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "啊！？你说不稀奇……\\n这是什么意思？",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110327_02"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "在我们的世界，\\n有无数扇通往其它世界——\\n也就是异界的“门”……",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "通往异界的门！？\\n也就是说通过那个“门”\\n能前往各种不同的世界吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110327_02"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "是啊，\\n简而言之就是这么一回事。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "等一下，这么说，刚才一起的\\n那个小姑娘也是你们的同伴吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110328_01"
-            ],
-            "speaker_name": "菲约尔姆",
-            "context": "是的，她叫维洛妮卡，\\n是恩布拉帝国的皇女。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "那为什么恩布拉的皇女\\n会成了狄涅尔的指挥官啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110328_01"
-            ],
-            "speaker_name": "菲约尔姆",
-            "context": "这是误会。\\n现在指挥狄涅尔军的……\\n是伪装成维洛妮卡皇女的其他人。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "咦！？到底怎么回事呀！？",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110328_01"
-            ],
-            "speaker_name": "菲约尔姆",
-            "context": "在我们的世界……\\n有人能做到这种事。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110327_02"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "难道说……是洛基！？",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110328_01"
-            ],
-            "speaker_name": "菲约尔姆",
-            "context": "是的……我来到这个世界之后，\\n见到过她的身影。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110328_01"
-            ],
-            "speaker_name": "菲约尔姆",
-            "context": "而且当时她还\\n和狄涅尔帝国的士兵在一起。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110327_02"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "什么！\\n洛基竟然也来到了这个世界……",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "喂……我说，那个叫洛基的，\\n是乔装高手之类的吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110328_01"
-            ],
-            "speaker_name": "菲约尔姆",
-            "context": "与其说是乔装……\\n说变身可能更准确。\\n她能变得和别人一模一样。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "你是说她变成了刚才那个女孩……\\n维洛妮卡了是吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "这么说，我们遇到的人，\\n其实是那位叫洛基的人？",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "一时有点难以置信啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "但是，我不觉得他们在撒谎。\\n我想相信他们。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "算了，就知道你会这么说。\\n既然老大都这么说了也没辙。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110328_01"
-            ],
-            "speaker_name": "菲约尔姆",
-            "context": "太好了……我听说了你们的事之后\\n决定来找你们，还真是找对了。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "可你也太鲁莽了。\\n刚才那种情况，稍有闪失你就和\\n阿尔冯斯王子一起被斩于剑下了。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110327_02"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "她就是这样的人。\\n非常温柔善良……\\n但有时会乱来，让人放心不下。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110328_01"
-            ],
-            "speaker_name": "菲约尔姆",
-            "context": "怎、怎么会，\\n我、我才没有乱来……",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "哈哈，\\n简直和某人一样嘛！",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "诶？",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "我懂你。真希望某人也能\\n体谅一下周围人的苦衷。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "那、那个……",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110327_02"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "哈哈……看来你们也很伤脑筋呢。\\n这话说来可能有点怪，\\n但我觉得你们可以信任。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我也是。为了让你们能回到\\n自己的世界，我愿助一臂之力。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "谢谢……那就拜托你了，\\n尤蒂尔王子。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "当然，也请你多关照，\\n阿尔冯斯王子。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110327_02"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "那么，事不宜迟……",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我知道，你想去找\\n维洛妮卡皇女是吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110327_02"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "是的，她失去了记忆……\\n现在内心也许非常无助。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "既然被帝国盯上了，\\n说明她对帝国来说也是重要人物。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "反正他们肯定不安好心，\\n还是由我们来保护她比较好。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "就这么办。",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "哇、哇啊啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "惨、惨叫声！？",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "怎么了！？出了什么事！？",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "喂，怎么了！发生什么了！",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "村民",
-            "context": "是、是帝国军！\\n狄涅尔军大举来袭了！",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "什么！？该死，偏偏挑这种时候！\\n那些家伙还是那么会见风使舵！",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110327_02"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "这种时候……吗。简直就像\\n为了牵制我们一样挑准了时机。\\n难道……",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "抱歉，阿尔冯斯王子。\\n我们不能丢下村子不管！",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110327_01"
-            ],
-            "speaker_name": "阿尔冯斯",
-            "context": "我明白。\\n我当然也会帮忙！",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110328_01"
-            ],
-            "speaker_name": "菲约尔姆",
-            "context": "好，我也要尽绵薄之力！",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "感谢两位。\\n各位，一起保护村子吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_21401_03_0081",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "After Fjorm puts a stop to the clash between\\nAlfonse and the prince, the two of them agree\\nto put the misunderstanding behind them and\\nbecome allies. Just then, the imperial army\\nappears and launches an attack.",
+      "ja_jp": "{player_name}とアルフォンスの\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>いを<ruby><rb>止</rb><rt>と</rt></ruby>めたのは、フィヨルムだった。\\n<ruby><rb>誤解</rb><rt>ごかい</rt></ruby>から<ruby><rb>争</rb><rt>あらそ</rt></ruby>っていたことを<ruby><rb>知</rb><rt>し</rt></ruby>ったふたりの\\n<ruby><rb>王子</rb><rt>おうじ</rt></ruby>は<ruby><rb>手</rb><rt>て</rt></ruby>を<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>合</rb><rt>あ</rt></ruby>う。そこへ、<ruby><rb>帝国軍</rb><rt>ていこくぐん</rt></ruby>が\\n<ruby><rb>襲</rb><rt>おそ</rt></ruby>い<ruby><rb>掛</rb><rt>か</rt></ruby>かってくるのだった。",
+      "zh_cn": "菲约尔姆阻止了{player_name}\\n与阿尔冯斯之间的战斗。\\n解开了误会的两位王子握手言和。\\n而此时帝国军即将袭来。",
+      "zh_tw": "菲約爾姆挺身阻止了\\n{player_name}與阿爾馮斯的對戰。\\n兩位王子得知自己是因為誤會才產生爭執，\\n於是決定攜手合作。\\n就在此時，帝國軍襲擊而來。"
+    }
+  },
+  "prev": "2140102",
+  "next": "2140104",
+  "content": [
+    {
+      "icon": "110327_01",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "They're even stronger than I thought...\\nI'm not going to make it...",
+        "ja_jp": "…くっ、<ruby><rb>強</rb><rt>つよ</rt></ruby>い。\\nさすがにこの<ruby><rb>戦力差</rb><rt>せんりょくさ</rt></ruby>では<ruby><rb>勝</rb><rt>か</rt></ruby>てないか。\\nでも…",
+        "zh_cn": "呜……好强大。\\n想以寡敌众实在有点难啊。\\n但是……",
+        "zh_tw": "……唔、好強。\\n果然以這個戰力差距贏不了嗎。\\n不過……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0001",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I don't want to kill you! Surrender!",
+        "ja_jp": "<ruby><rb>勝負</rb><rt>しょうぶ</rt></ruby>はついた。これ<ruby><rb>以上</rb><rt>いじょう</rt></ruby><ruby><rb>傷</rb><rt>きず</rt></ruby>つけたくは\\nない、<ruby><rb>投降</rb><rt>とうこう</rt></ruby>してくれ！",
+        "zh_cn": "胜负已分。我们不想给你\\n造成更多伤害，快投降吧！",
+        "zh_tw": "勝負已分。我不想再繼續傷害你，\\n請投降吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0002",
+      "book": ""
+    },
+    {
+      "icon": "110327_01",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "(I suppose I COULD surrender now that\\nI've bought Veronica enough time—\\nalthough she will likely be very cross\\nat me for doing so.)",
+        "ja_jp": "（<ruby><rb>時間</rb><rt>じかん</rt></ruby>は<ruby><rb>稼</rb><rt>かせ</rt></ruby>げた。<ruby><rb>僕</rb><rt>ぼく</rt></ruby>だけなら、<ruby><rb>投降</rb><rt>とうこう</rt></ruby>する\\n　<ruby><rb>手</rb><rt>て</rt></ruby>もあるけど…ヴェロニカ<ruby><rb>皇女</rb><rt>おうじょ</rt></ruby>には\\n　<ruby><rb>怒</rb><rt>おこ</rt></ruby>られるかな）",
+        "zh_cn": "（已经争取到时间了。\\n我一个人的话倒还能选择投降……\\n不过维洛妮卡皇女会生气吧。）",
+        "zh_tw": "（時間爭取得夠多了。\\n如果只有我，投降也是一個方法……\\n但是應該會被維洛妮卡皇女罵吧。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0003",
+      "book": ""
+    },
+    {
+      "icon": "110327_01",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "(Or... Hmm. That sandy-haired swordsman\\nis clearly their leader. If I inflict a heavy\\nwound on him, that should allow me\\nenough time to make my escape.)",
+        "ja_jp": "（それに、どうやらあの<ruby><rb>金髪</rb><rt>きんぱつ</rt></ruby>の<ruby><rb>剣士</rb><rt>けんし</rt></ruby>が\\n　リーダーだ。<ruby><rb>彼</rb><rt>かれ</rt></ruby>に<ruby><rb>深手</rb><rt>ふかで</rt></ruby>を<ruby><rb>与</rb><rt>あた</rt></ruby>えられれば\\n　<ruby><rb>隙</rb><rt>すき</rt></ruby>ができるはず…）",
+        "zh_cn": "（而且，那个金发的剑士\\n看上去是领头的。如果能重创他，\\n应该就有逃跑的机会……）",
+        "zh_tw": "（而且，看來那個金髮劍士\\n就是領導者。只要讓他受重傷，\\n應該就會有空隙……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0004",
+      "book": ""
+    },
+    {
+      "icon": "110327_01",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "I'm not done yet! Haaaaah!",
+        "ja_jp": "まだだ！　はああっ！",
+        "zh_cn": "还没完呢！哈啊啊！",
+        "zh_tw": "還早呢！喝啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0005",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Come on already!",
+        "ja_jp": "くっ、まだ<ruby><rb>諦</rb><rt>あきら</rt></ruby>めないのか！\\nそれなら――！",
+        "zh_cn": "唔！还不死心吗！\\n既然如此……",
+        "zh_tw": "唔，還不放棄嗎！\\n既然如此──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0006",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "I'll not allow you to harm His Highness!",
+        "ja_jp": "ユーディル、\\n<ruby><rb>援護</rb><rt>えんご</rt></ruby>します！",
+        "zh_cn": "尤蒂尔，\\n我来掩护你！",
+        "zh_tw": "尤帝爾，\\n我來掩護你！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0007",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "I ain't a fan of gangin' up on somebody\\nin a fight, but this joker clearly don't\\nknow when he's been beat!",
+        "ja_jp": "<ruby><rb>大勢</rb><rt>おおぜい</rt></ruby>でひとりにってのは<ruby><rb>好</rb><rt>す</rt></ruby>きじゃねえが\\n<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>手荒</rb><rt>てあら</rt></ruby>くいかせてもらうぜ！",
+        "zh_cn": "虽然不喜欢以多欺少，\\n但可得动点真格了！",
+        "zh_tw": "雖然我不喜歡以多擊少，\\n但這次只能粗暴些了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0008",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Stop, please!",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>って！　<ruby><rb>待</rb><rt>ま</rt></ruby>ってください！",
+        "zh_cn": "住手！请等一下！",
+        "zh_tw": "等等！請等一下！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0009",
+      "book": ""
+    },
+    {
+      "icon": "110327_01",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "Princess Fjorm! Is that you?",
+        "ja_jp": "…っ!?　き、<ruby><rb>君</rb><rt>きみ</rt></ruby>は！",
+        "zh_cn": "嗯！？你、你是！",
+        "zh_tw": "……唔！？妳、妳是！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0010",
+      "book": ""
+    },
+    {
+      "icon": "110328_01",
+      "name": {
+        "en_us": "Fjorm",
+        "ja_jp": "フィヨルム",
+        "zh_cn": "菲约尔姆",
+        "zh_tw": "菲約爾姆"
+      },
+      "context": {
+        "en_us": "This quarrel is pointless!",
+        "ja_jp": "みなさんが<ruby><rb>戦</rb><rt>たたか</rt></ruby>うことなどありません！",
+        "zh_cn": "各位没有必要开战！",
+        "zh_tw": "各位沒有必要戰鬥！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0011",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Oh for the love of... How many new people\\nare we gonna meet today?!",
+        "ja_jp": "えっ!?　だ、<ruby><rb>誰</rb><rt>だれ</rt></ruby>？",
+        "zh_cn": "咦！？谁、谁啊？",
+        "zh_tw": "咦！？是、是誰？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0012",
+      "book": ""
+    },
+    {
+      "icon": "110327_01",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "Greetings, Princess Fjorm.",
+        "ja_jp": "フィヨルム<ruby><rb>王女</rb><rt>おうじょ</rt></ruby>…",
+        "zh_cn": "菲约尔姆公主……",
+        "zh_tw": "菲約爾姆公主……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0013",
+      "book": ""
+    },
+    {
+      "icon": "110328_01",
+      "name": {
+        "en_us": "Fjorm",
+        "ja_jp": "フィヨルム",
+        "zh_cn": "菲约尔姆",
+        "zh_tw": "菲約爾姆"
+      },
+      "context": {
+        "en_us": "It is good to see you safe, Prince Alfonse.",
+        "ja_jp": "ご<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>でなによりです、\\nアルフォンス<ruby><rb>王子</rb><rt>おうじ</rt></ruby>。",
+        "zh_cn": "阿尔冯斯王子，\\n你没事真是太好了。",
+        "zh_tw": "你沒事真是太好了，\\n阿爾馮斯王子。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0014",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Might I ask who you are?",
+        "ja_jp": "きみは<ruby><rb>一体</rb><rt>いったい</rt></ruby>……？",
+        "zh_cn": "你到底是……",
+        "zh_tw": "妳到底是……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0015",
+      "book": ""
+    },
+    {
+      "icon": "110328_01",
+      "name": {
+        "en_us": "Fjorm",
+        "ja_jp": "フィヨルム",
+        "zh_cn": "菲约尔姆",
+        "zh_tw": "菲約爾姆"
+      },
+      "context": {
+        "en_us": "I beg you to listen to what I have to say,\\nPrince Euden. See...",
+        "ja_jp": "お<ruby><rb>願</rb><rt>ねが</rt></ruby>いです。\\nどうか、<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>話</rb><rt>はなし</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>いてください。\\nユーディル<ruby><rb>王子</rb><rt>おうじ</rt></ruby>。",
+        "zh_cn": "拜托了，\\n尤蒂尔王子，\\n请听我解释。\\n",
+        "zh_tw": "拜託，請務必聽我說。\\n尤帝爾王子。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0016",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "...Okay, so you all came here from\\nanother world?",
+        "ja_jp": "じゃあ……きみたちは、<ruby><rb>別</rb><rt>べつ</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>から\\nやってきた<ruby><rb>人</rb><rt>ひと</rt></ruby>ということなのか？",
+        "zh_cn": "也就是说……你们是从\\n别的世界来到这里的？",
+        "zh_tw": "那……也就是說，\\n你們是從別的世界來的人囉？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0017",
+      "book": ""
+    },
+    {
+      "icon": "110328_01",
+      "name": {
+        "en_us": "Fjorm",
+        "ja_jp": "フィヨルム",
+        "zh_cn": "菲约尔姆",
+        "zh_tw": "菲約爾姆"
+      },
+      "context": {
+        "en_us": "I suppose from your perspective,\\nthat would be accurate.",
+        "ja_jp": "はい。あなた<ruby><rb>方</rb><rt>がた</rt></ruby>から<ruby><rb>見</rb><rt>み</rt></ruby>れば、そういう\\nことになるかと。",
+        "zh_cn": "是的。对你们来说，\\n就是这么一回事。",
+        "zh_tw": "是的。\\n由你們的立場來看，是這樣沒錯。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0018",
+      "book": ""
+    },
+    {
+      "icon": "110328_01",
+      "name": {
+        "en_us": "Fjorm",
+        "ja_jp": "フィヨルム",
+        "zh_cn": "菲约尔姆",
+        "zh_tw": "菲約爾姆"
+      },
+      "context": {
+        "en_us": "I am Fjorm, and I am—well, WAS—\\na princess of the Nifl Kingdom.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>はフィヨルムと<ruby><rb>申</rb><rt>もう</rt></ruby>します。\\nニフルという<ruby><rb>王国</rb><rt>おうこく</rt></ruby>の<ruby><rb>王女</rb><rt>おうじょ</rt></ruby>…でした。",
+        "zh_cn": "我名为菲约尔姆，\\n曾经是尼福尔王国的公主……",
+        "zh_tw": "我名叫菲約爾姆。\\n曾經……是尼福爾王國的公主。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0019",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "...Was?",
+        "ja_jp": "でした？",
+        "zh_cn": "曾经是？",
+        "zh_tw": "曾經？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0020",
+      "book": ""
+    },
+    {
+      "icon": "110328_01",
+      "name": {
+        "en_us": "Fjorm",
+        "ja_jp": "フィヨルム",
+        "zh_cn": "菲约尔姆",
+        "zh_tw": "菲約爾姆"
+      },
+      "context": {
+        "en_us": "Alas, my homeland was ravaged\\nby a fearsome enemy.",
+        "ja_jp": "ええ…<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>祖国</rb><rt>そこく</rt></ruby>は<ruby><rb>敵</rb><rt>てき</rt></ruby>に<ruby><rb>滅</rb><rt>ほろ</rt></ruby>ぼされて\\nしまったのです…",
+        "zh_cn": "是的……我的祖国\\n已经被敌人毁灭了……",
+        "zh_tw": "是的……因為我的祖國已經\\n被敵人消滅了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0021",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "My apologies if I brought up\\na painful memory.",
+        "ja_jp": "っ！　そ、そうか……\\nそれは<ruby><rb>失礼</rb><rt>しつれい</rt></ruby>なことを……。",
+        "zh_cn": "是、是这样啊……\\n抱歉，我失言了……",
+        "zh_tw": "咦！這、這樣啊……\\n抱歉問了失禮的事……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0022",
+      "book": ""
+    },
+    {
+      "icon": "110328_01",
+      "name": {
+        "en_us": "Fjorm",
+        "ja_jp": "フィヨルム",
+        "zh_cn": "菲约尔姆",
+        "zh_tw": "菲約爾姆"
+      },
+      "context": {
+        "en_us": "I do not mind. However, because of this,\\nI presently reside in the kingdom of\\nPrince Alfonse.",
+        "ja_jp": "いえ、<ruby><rb>構</rb><rt>かま</rt></ruby>いません。<ruby><rb>今</rb><rt>いま</rt></ruby>は、こちらの\\nアルフォンス<ruby><rb>王子</rb><rt>おうじ</rt></ruby>の<ruby><rb>国</rb><rt>くに</rt></ruby>に、<ruby><rb>身</rb><rt>み</rt></ruby>を<ruby><rb>寄</rb><rt>よ</rt></ruby>せて\\nいるんです。",
+        "zh_cn": "不，没关系。\\n我现在正栖身于\\n这位阿尔冯斯王子的国家。",
+        "zh_tw": "不會，沒關係。我現在\\n投靠在這位阿爾馮斯王子的國家。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0023",
+      "book": ""
+    },
+    {
+      "icon": "110327_02",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "Er, that would be me.\\nI am Prince Alfonse of Askr.",
+        "ja_jp": "アスク<ruby><rb>王国</rb><rt>おうこく</rt></ruby>という<ruby><rb>国</rb><rt>くに</rt></ruby>だ。<ruby><rb>僕</rb><rt>ぼく</rt></ruby>はその<ruby><rb>国</rb><rt>くに</rt></ruby>の\\n<ruby><rb>王子</rb><rt>おうじ</rt></ruby>、アルフォンス。",
+        "zh_cn": "我叫阿尔冯斯，是她所提到的\\n亚斯克王国的王子。",
+        "zh_tw": "是叫做亞斯克王國的國家。\\n而我就是那裡的王子，阿爾馮斯。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0024",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "I've never heard of either of\\nyour kingdoms before.",
+        "ja_jp": "ニフルにアスク……<ruby><rb>聞</rb><rt>き</rt></ruby>いたこともない\\n<ruby><rb>名前</rb><rt>なまえ</rt></ruby>です。",
+        "zh_cn": "尼福尔和亚斯克……\\n都是没听过的国名呢。",
+        "zh_tw": "尼福爾跟亞斯克……沒聽過的名字呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0025",
+      "book": ""
+    },
+    {
+      "icon": "110328_01",
+      "name": {
+        "en_us": "Fjorm",
+        "ja_jp": "フィヨルム",
+        "zh_cn": "菲约尔姆",
+        "zh_tw": "菲約爾姆"
+      },
+      "context": {
+        "en_us": "Just as we had never heard of\\nAlberia or Dyrenell before this day.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>も<ruby><rb>同</rb><rt>おな</rt></ruby>じです。アルベリアにディアネル\\n…どちらも<ruby><rb>聞</rb><rt>き</rt></ruby>いたことが\\nありませんでした。",
+        "zh_cn": "我也一样。\\n阿尔贝里亚和狄涅尔……\\n都从未听说。",
+        "zh_tw": "我也是。阿爾貝利亞跟狄亞內魯……\\n兩個都不曾聽過。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0026",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Guess that's one point for the whole\\n＂other world＂ theory, yeah?",
+        "ja_jp": "だから<ruby><rb>違</rb><rt>ちが</rt></ruby>う<ruby><rb>世界</rb><rt>せかい</rt></ruby>じゃないかと\\n<ruby><rb>思</rb><rt>おも</rt></ruby>ったってわけか……。",
+        "zh_cn": "所以才觉得\\n是不同的世界吗……",
+        "zh_tw": "所以才會想說\\n可能是不同的世界啊……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0027",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "You guys are taking this REALLY well.\\nIf I got sent to another world, I'd probably\\nbe runnin' in circles and screaming.",
+        "ja_jp": "それにしても<ruby><rb>別世界</rb><rt>べつせかい</rt></ruby>だなんて、\\nそんな<ruby><rb>簡単</rb><rt>かんたん</rt></ruby>に<ruby><rb>納得</rb><rt>なっとく</rt></ruby>できるか？",
+        "zh_cn": "话说回来别的世界这种事，\\n你们居然能如此轻易地接受吗？",
+        "zh_tw": "即使如此，別的世界這種事，\\n有那麼簡單就能接受嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0028",
+      "book": ""
+    },
+    {
+      "icon": "110327_02",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "Where we come from, such unexpected\\ndetours are not so uncommon.",
+        "ja_jp": "…<ruby><rb>僕</rb><rt>ぼく</rt></ruby>たちの<ruby><rb>世界</rb><rt>せかい</rt></ruby>では、\\n<ruby><rb>珍</rb><rt>めずら</rt></ruby>しいことではないんだ。",
+        "zh_cn": "在我们的世界里……\\n这并不稀奇。",
+        "zh_tw": "……在我們的世界，\\n這並不是很罕見的事。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0029",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Yep! Circles and screaming.",
+        "ja_jp": "はあっ!?　<ruby><rb>珍</rb><rt>めずら</rt></ruby>しくないって……\\nどういうことだ？",
+        "zh_cn": "啊！？你说不稀奇……\\n这是什么意思？",
+        "zh_tw": "蛤！？你說不罕見……\\n是什麼意思啊？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0030",
+      "book": ""
+    },
+    {
+      "icon": "110327_02",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "Where we come from, there are countless\\ngateways that open onto other worlds.",
+        "ja_jp": "<ruby><rb>僕</rb><rt>ぼく</rt></ruby>たちの<ruby><rb>世界</rb><rt>せかい</rt></ruby>には<ruby><rb>無数</rb><rt>むすう</rt></ruby>の【<ruby><rb>扉</rb><rt>とびら</rt></ruby>】がある。\\n<ruby><rb>別</rb><rt>べつ</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>…<ruby><rb>異界</rb><rt>いかい</rt></ruby>に<ruby><rb>通</rb><rt>つう</rt></ruby>じる【<ruby><rb>扉</rb><rt>とびら</rt></ruby>】がね。",
+        "zh_cn": "在我们的世界，\\n有无数扇通往其它世界——\\n也就是异界的“门”……",
+        "zh_tw": "我們的世界有著無數的【門】。\\n能通往別的世界……異界的【門】。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0031",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "So you can travel back and forth\\nbetween worlds at will?",
+        "ja_jp": "<ruby><rb>異界</rb><rt>いかい</rt></ruby>への<ruby><rb>扉</rb><rt>とびら</rt></ruby>!?　\\nじゃあ、その【<ruby><rb>扉</rb><rt>とびら</rt></ruby>】を<ruby><rb>通</rb><rt>とお</rt></ruby>って\\nさまざまな<ruby><rb>世界</rb><rt>せかい</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>ってたってことか!?",
+        "zh_cn": "通往异界的门！？\\n也就是说通过那个“门”\\n能前往各种不同的世界吗！？",
+        "zh_tw": "通往異界的門！？\\n那麼，也就是說你們通過那扇【門】，\\n去過各式各樣的世界嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0032",
+      "book": ""
+    },
+    {
+      "icon": "110327_02",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "I suppose that's about the size of it.",
+        "ja_jp": "ああ、<ruby><rb>簡単</rb><rt>かんたん</rt></ruby>に<ruby><rb>言</rb><rt>い</rt></ruby>えばそういうことに\\nなるかな。",
+        "zh_cn": "是啊，\\n简而言之就是这么一回事。",
+        "zh_tw": "嗯，簡單來說就是那樣吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0033",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "So are ya pals with that lady\\nwhat took off earlier?",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>てよ？　じゃあ、<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>にいた\\n<ruby><rb>嬢</rb><rt>じょう</rt></ruby>ちゃんもお<ruby><rb>仲間</rb><rt>なかま</rt></ruby>ってことか？",
+        "zh_cn": "等一下，这么说，刚才一起的\\n那个小姑娘也是你们的同伴吗？",
+        "zh_tw": "等等喔？那麼，剛才跟你在一起的\\n小丫頭也是你們的同伴嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0034",
+      "book": ""
+    },
+    {
+      "icon": "110328_01",
+      "name": {
+        "en_us": "Fjorm",
+        "ja_jp": "フィヨルム",
+        "zh_cn": "菲约尔姆",
+        "zh_tw": "菲約爾姆"
+      },
+      "context": {
+        "en_us": "In a way, yes. Her name is Veronica,\\nand she is the princess of the\\nEmblian Empire.",
+        "ja_jp": "はい、<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>の<ruby><rb>名</rb><rt>な</rt></ruby>はヴェロニカ。\\nエンブラ<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>の<ruby><rb>皇女</rb><rt>おうじょ</rt></ruby>です。",
+        "zh_cn": "是的，她叫维洛妮卡，\\n是恩布拉帝国的皇女。",
+        "zh_tw": "是的，她名叫維洛妮卡。\\n是恩布拉帝國的皇女。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0035",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Then why is she commanding\\nthe Dyrenell forces?",
+        "ja_jp": "なんで、エンブラの<ruby><rb>皇女</rb><rt>おうじょ</rt></ruby>とかいうのが、\\nディアネルの<ruby><rb>指揮官</rb><rt>しきかん</rt></ruby>なんかやってんだ？",
+        "zh_cn": "那为什么恩布拉的皇女\\n会成了狄涅尔的指挥官啊？",
+        "zh_tw": "為什麼那個恩布拉的皇女，\\n會變成狄亞內魯的指揮官啊？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0036",
+      "book": ""
+    },
+    {
+      "icon": "110328_01",
+      "name": {
+        "en_us": "Fjorm",
+        "ja_jp": "フィヨルム",
+        "zh_cn": "菲约尔姆",
+        "zh_tw": "菲約爾姆"
+      },
+      "context": {
+        "en_us": "I fear the person you saw was, in fact,\\nsomeone who assumed the appearance\\nof Princess Veronica.",
+        "ja_jp": "それは<ruby><rb>誤解</rb><rt>ごかい</rt></ruby>です。ディアネル<ruby><rb>軍</rb><rt>ぐん</rt></ruby>の<ruby><rb>指揮</rb><rt>しき</rt></ruby>を\\nとっていたのは…ヴェロニカ<ruby><rb>皇女</rb><rt>おうじょ</rt></ruby>に\\n<ruby><rb>化</rb><rt>ば</rt></ruby>けた<ruby><rb>別人</rb><rt>べつじん</rt></ruby>なのです。",
+        "zh_cn": "这是误会。\\n现在指挥狄涅尔军的……\\n是伪装成维洛妮卡皇女的其他人。",
+        "zh_tw": "那是個誤會。\\n在狄亞內魯軍中指揮的……\\n是假扮成維洛妮卡皇女的其他人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0037",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Wanna run that by me again?",
+        "ja_jp": "えーっ!?　どういうこと!?",
+        "zh_cn": "咦！？到底怎么回事呀！？",
+        "zh_tw": "咦～ ！？什麼意思！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0038",
+      "book": ""
+    },
+    {
+      "icon": "110328_01",
+      "name": {
+        "en_us": "Fjorm",
+        "ja_jp": "フィヨルム",
+        "zh_cn": "菲约尔姆",
+        "zh_tw": "菲約爾姆"
+      },
+      "context": {
+        "en_us": "There is an individual with such\\ncapabilities in our world.",
+        "ja_jp": "…<ruby><rb>私</rb><rt>わたし</rt></ruby>たちの<ruby><rb>世界</rb><rt>せかい</rt></ruby>には、そういうことを\\nできる<ruby><rb>人物</rb><rt>じんぶつ</rt></ruby>がいるのです。",
+        "zh_cn": "在我们的世界……\\n有人能做到这种事。",
+        "zh_tw": "……在我們的世界裡，\\n有個人物辦得到這種事。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0039",
+      "book": ""
+    },
+    {
+      "icon": "110327_02",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "By the gods... LOKI is here?!",
+        "ja_jp": "まさか…ロキが!?",
+        "zh_cn": "难道说……是洛基！？",
+        "zh_tw": "難不成是……洛基！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0040",
+      "book": ""
+    },
+    {
+      "icon": "110328_01",
+      "name": {
+        "en_us": "Fjorm",
+        "ja_jp": "フィヨルム",
+        "zh_cn": "菲约尔姆",
+        "zh_tw": "菲約爾姆"
+      },
+      "context": {
+        "en_us": "I'm afraid so. I saw her shortly after\\narriving in this world.",
+        "ja_jp": "はい…。<ruby><rb>私</rb><rt>わたし</rt></ruby>は、この<ruby><rb>世界</rb><rt>せかい</rt></ruby>に<ruby><rb>来</rb><rt>き</rt></ruby>てから\\n<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>の<ruby><rb>姿</rb><rt>すがた</rt></ruby>を<ruby><rb>目</rb><rt>め</rt></ruby>にしました。",
+        "zh_cn": "是的……我来到这个世界之后，\\n见到过她的身影。",
+        "zh_tw": "是的……我來到這個世界之後\\n曾經見過她。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0041",
+      "book": ""
+    },
+    {
+      "icon": "110328_01",
+      "name": {
+        "en_us": "Fjorm",
+        "ja_jp": "フィヨルム",
+        "zh_cn": "菲约尔姆",
+        "zh_tw": "菲約爾姆"
+      },
+      "context": {
+        "en_us": "She was traveling alongside the soldiers\\nof this ＂Dyrenell Empire.＂",
+        "ja_jp": "それも、ディアネル<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>の<ruby><rb>兵士</rb><rt>へいし</rt></ruby>と\\n<ruby><rb>共</rb><rt>とも</rt></ruby>にいるところを、です。",
+        "zh_cn": "而且当时她还\\n和狄涅尔帝国的士兵在一起。",
+        "zh_tw": "而且，她還跟狄亞內魯帝國的兵士\\n在一起。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0042",
+      "book": ""
+    },
+    {
+      "icon": "110327_02",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "I cannot believe she is also here...\\nThis bodes most ill indeed.",
+        "ja_jp": "なんてことだ…！\\nロキもこの<ruby><rb>世界</rb><rt>せかい</rt></ruby>に…",
+        "zh_cn": "什么！\\n洛基竟然也来到了这个世界……",
+        "zh_tw": "怎麼會這樣……！\\n洛基也到了這個世界……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0043",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "So this lady's...what? Master of disguise?\\nGot a killer collection of masks and wigs\\nor whatever?",
+        "ja_jp": "お……おいおい、そのロキってのは、\\n<ruby><rb>変装</rb><rt>へんそう</rt></ruby>の<ruby><rb>達人</rb><rt>たつじん</rt></ruby>かなにかか？",
+        "zh_cn": "喂……我说，那个叫洛基的，\\n是乔装高手之类的吗？",
+        "zh_tw": "喂……喂喂，那個叫洛基的，\\n是喬裝達人還是什麼嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0044",
+      "book": ""
+    },
+    {
+      "icon": "110328_01",
+      "name": {
+        "en_us": "Fjorm",
+        "ja_jp": "フィヨルム",
+        "zh_cn": "菲约尔姆",
+        "zh_tw": "菲約爾姆"
+      },
+      "context": {
+        "en_us": "It is no mean disguise; Loki can transform\\ninto a perfect imitation of those whose\\nform she is assuming.",
+        "ja_jp": "<ruby><rb>変装</rb><rt>へんそう</rt></ruby>…というより、<ruby><rb>変化</rb><rt>へんげ</rt></ruby>といった<ruby><rb>方</rb><rt>ほう</rt></ruby>が\\nいいでしょうね。そっくりの<ruby><rb>姿</rb><rt>すがた</rt></ruby>に\\n<ruby><rb>化</rb><rt>ば</rt></ruby>けるのです。",
+        "zh_cn": "与其说是乔装……\\n说变身可能更准确。\\n她能变得和别人一模一样。",
+        "zh_tw": "與其說喬裝……應該說\\n是變身比較適合吧。\\n她能偽裝成完全一模一樣的姿態。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0045",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "I wish I could do that! I'd totally act like\\nthe prince and order everybody to make\\nme cakes and stuff. Mmm...",
+        "ja_jp": "あの<ruby><rb>女</rb><rt>おんな</rt></ruby>の<ruby><rb>子</rb><rt>こ</rt></ruby>……ヴェロニカに\\n<ruby><rb>化</rb><rt>ば</rt></ruby>けてたってこと？",
+        "zh_cn": "你是说她变成了刚才那个女孩……\\n维洛妮卡了是吗？",
+        "zh_tw": "也就是說她假扮成那個女生……\\n維洛妮卡囉？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0046",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "And you think the person we saw was this\\nLoki character assuming Veronica's form?",
+        "ja_jp": "では、<ruby><rb>私</rb><rt>わたし</rt></ruby>たちが<ruby><rb>遭遇</rb><rt>そうぐう</rt></ruby>した<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>は、\\nそのロキという<ruby><rb>人物</rb><rt>じんぶつ</rt></ruby>だったのですか？",
+        "zh_cn": "这么说，我们遇到的人，\\n其实是那位叫洛基的人？",
+        "zh_tw": "那麼，我們遇到的女性，\\n就是那個叫洛基的人物嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0047",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "This day is gettin' weirder by the second.",
+        "ja_jp": "にわかには<ruby><rb>信</rb><rt>しん</rt></ruby>じがたい<ruby><rb>話</rb><rt>はなし</rt></ruby>だな……。",
+        "zh_cn": "一时有点难以置信啊……",
+        "zh_tw": "真是讓人很難馬上相信啊……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0048",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Still, they don't appear to be lying,\\nso I'm inclined to trust them.",
+        "ja_jp": "でも、<ruby><rb>彼</rb><rt>かれ</rt></ruby>らが<ruby><rb>嘘</rb><rt>うそ</rt></ruby>を<ruby><rb>言</rb><rt>い</rt></ruby>っているようには\\n<ruby><rb>思</rb><rt>おも</rt></ruby>えないな。おれは<ruby><rb>信</rb><rt>しん</rt></ruby>じたいよ。",
+        "zh_cn": "但是，我不觉得他们在撒谎。\\n我想相信他们。",
+        "zh_tw": "不過，我不覺得他們在說謊。\\n我想相信他們。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0049",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Bwa ha ha! How'd I know you'd say that?\\nBut hey, yer the boss man, so if that's\\nwhatcha wanna do, we'll do it.",
+        "ja_jp": "ま、お<ruby><rb>前</rb><rt>まえ</rt></ruby>ならそう<ruby><rb>言</rb><rt>い</rt></ruby>うと<ruby><rb>思</rb><rt>おも</rt></ruby>ったぜ。\\n<ruby><rb>大将</rb><rt>たいしょう</rt></ruby>がこう<ruby><rb>言</rb><rt>い</rt></ruby>うんじゃ<ruby><rb>仕方</rb><rt>しかた</rt></ruby>ねえ。",
+        "zh_cn": "算了，就知道你会这么说。\\n既然老大都这么说了也没辙。",
+        "zh_tw": "嗯，我就知道你會那麼說。\\n既然老大這麼說那就沒辦法了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0050",
+      "book": ""
+    },
+    {
+      "icon": "110328_01",
+      "name": {
+        "en_us": "Fjorm",
+        "ja_jp": "フィヨルム",
+        "zh_cn": "菲约尔姆",
+        "zh_tw": "菲約爾姆"
+      },
+      "context": {
+        "en_us": "It seems the rumors about you were true.\\nIt was well worth seeking you out.",
+        "ja_jp": "…よかった。<ruby><rb>噂</rb><rt>うわさ</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>き、あなた<ruby><rb>方</rb><rt>かた</rt></ruby>を\\n<ruby><rb>頼</rb><rt>たよ</rt></ruby>ろうと<ruby><rb>思</rb><rt>おも</rt></ruby>った<ruby><rb>甲斐</rb><rt>かい</rt></ruby>がありました。",
+        "zh_cn": "太好了……我听说了你们的事之后\\n决定来找你们，还真是找对了。",
+        "zh_tw": "……太好了。我聽說了你們的傳聞後，\\n就決定來投靠你們，真是找對了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0051",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "You are lucky to still draw breath,\\nconsidering how you threw yourself\\nin the middle of our brawl in an\\nattempt to see it ended.",
+        "ja_jp": "とはいえ、あなたも<ruby><rb>無茶</rb><rt>むちゃ</rt></ruby>をする<ruby><rb>人</rb><rt>ひと</rt></ruby>だ。\\nあの<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>では、アルフォンス<ruby><rb>王子共々</rb><rt>おうじともども</rt></ruby>、\\n<ruby><rb>斬</rb><rt>き</rt></ruby>られていてもおかしくなかったのに。",
+        "zh_cn": "可你也太鲁莽了。\\n刚才那种情况，稍有闪失你就和\\n阿尔冯斯王子一起被斩于剑下了。",
+        "zh_tw": "話雖如此，妳也是個很亂來的人呢。\\n在那個情況下，就算被阿爾馮斯王子\\n他們砍到也不奇怪。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0052",
+      "book": ""
+    },
+    {
+      "icon": "110327_02",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "That's merely the manner of person she is.\\nI fear her unfailing kindness sometimes\\ngets her into rash situations.",
+        "ja_jp": "<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>はそういう<ruby><rb>人</rb><rt>ひと</rt></ruby>だ。\\nとても<ruby><rb>優</rb><rt>やさ</rt></ruby>しく…でも<ruby><rb>時々</rb><rt>ときどき</rt></ruby>、\\n<ruby><rb>無茶</rb><rt>むちゃ</rt></ruby>をするから<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>になるよ。",
+        "zh_cn": "她就是这样的人。\\n非常温柔善良……\\n但有时会乱来，让人放心不下。",
+        "zh_tw": "她就是這樣的人。\\n非常溫柔……但偶爾又會亂來，\\n所以很令人擔心。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0053",
+      "book": ""
+    },
+    {
+      "icon": "110328_01",
+      "name": {
+        "en_us": "Fjorm",
+        "ja_jp": "フィヨルム",
+        "zh_cn": "菲约尔姆",
+        "zh_tw": "菲約爾姆"
+      },
+      "context": {
+        "en_us": "M-me? Rash?",
+        "ja_jp": "そ、そんなっ、わたしは<ruby><rb>無茶</rb><rt>むちゃ</rt></ruby>なんて…",
+        "zh_cn": "怎、怎么会，\\n我、我才没有乱来……",
+        "zh_tw": "哪、哪有，我怎麼會亂來……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0054",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Sounds like somebody we know.",
+        "ja_jp": "ははっ、まるでどっかの<ruby><rb>誰</rb><rt>だれ</rt></ruby>かさん\\nみたいだな！",
+        "zh_cn": "哈哈，\\n简直和某人一样嘛！",
+        "zh_tw": "哈哈，很像是哪裡的某人呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0057",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Hmm?",
+        "ja_jp": "えっ？",
+        "zh_cn": "诶？",
+        "zh_tw": "咦？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0058",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Well then. So long as you are here,\\nI think we should fill you in on our\\ncurrent situation as best we can.",
+        "ja_jp": "わかります。<ruby><rb>周</rb><rt>まわ</rt></ruby>りの<ruby><rb>大変</rb><rt>たいへん</rt></ruby>さを\\nわかって<ruby><rb>欲</rb><rt>ほ</rt></ruby>しいものです。",
+        "zh_cn": "我懂你。真希望某人也能\\n体谅一下周围人的苦衷。",
+        "zh_tw": "我懂。\\n真希望他能多了解周遭人的辛苦。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0059",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Right. Here's the deal...",
+        "ja_jp": "え、えーと……。",
+        "zh_cn": "那、那个……",
+        "zh_tw": "呃、呃嗯……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0060",
+      "book": ""
+    },
+    {
+      "icon": "110327_02",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "...Well, you certainly seem to have faced\\nyour share of hardships. Strange as it\\nis to say, I feel like that makes me trust\\nyou all the more.",
+        "ja_jp": "はは…<ruby><rb>君</rb><rt>きみ</rt></ruby>たちも<ruby><rb>苦労</rb><rt>くろう</rt></ruby>してそうだね。\\n<ruby><rb>僕</rb><rt>ぼく</rt></ruby>がこう<ruby><rb>言</rb><rt>い</rt></ruby>うのはおかしいけど、\\n<ruby><rb>君</rb><rt>きみ</rt></ruby>たちは<ruby><rb>信用</rb><rt>しんよう</rt></ruby>できそうだ。",
+        "zh_cn": "哈哈……看来你们也很伤脑筋呢。\\n这话说来可能有点怪，\\n但我觉得你们可以信任。",
+        "zh_tw": "哈哈……看來你們也吃了不少苦呢。\\n雖然我這麼說有點奇怪，\\n但你們似乎能夠信任。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0061",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I understand. And if you want to return\\nto your world, we'll help however we can.",
+        "ja_jp": "それは、おれも<ruby><rb>同</rb><rt>おな</rt></ruby>じさ。きみたちが\\n<ruby><rb>元</rb><rt>もと</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>に<ruby><rb>戻</rb><rt>もど</rt></ruby>れるよう、<ruby><rb>力</rb><rt>ちから</rt></ruby>になるよ。",
+        "zh_cn": "我也是。为了让你们能回到\\n自己的世界，我愿助一臂之力。",
+        "zh_tw": "這點，我也是一樣的。\\n為了讓你們能回到原來的世界，\\n我也來出一份力吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0062",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "You have my deepest gratitude,\\nPrince Euden.",
+        "ja_jp": "…ありがとう、よろしく<ruby><rb>頼</rb><rt>たの</rt></ruby>むよ、\\nユーディル<ruby><rb>王子</rb><rt>おうじ</rt></ruby>。",
+        "zh_cn": "谢谢……那就拜托你了，\\n尤蒂尔王子。",
+        "zh_tw": "……謝謝，那就請多指教了，\\n尤帝爾王子。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0063",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "It's good to meet you, Prince Alfonse.",
+        "ja_jp": "ああ、こちらこそよろしく、\\nアルフォンス<ruby><rb>王子</rb><rt>おうじ</rt></ruby>。",
+        "zh_cn": "当然，也请你多关照，\\n阿尔冯斯王子。",
+        "zh_tw": "嗯，我才要請你多多指教，\\n阿爾馮斯王子。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0064",
+      "book": ""
+    },
+    {
+      "icon": "110327_02",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "And now, I apologize for immediately\\ngetting down to business, but...",
+        "ja_jp": "それで、<ruby><rb>早速</rb><rt>さっそく</rt></ruby>で<ruby><rb>悪</rb><rt>わる</rt></ruby>いんだけど…",
+        "zh_cn": "那么，事不宜迟……",
+        "zh_tw": "那麼，雖然馬上這麼說很抱歉……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0065",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You'd like to search for Princess Veronica.",
+        "ja_jp": "わかっている、ヴェロニカ<ruby><rb>皇女</rb><rt>おうじょ</rt></ruby>を\\n<ruby><rb>探</rb><rt>さが</rt></ruby>したいんだろう？",
+        "zh_cn": "我知道，你想去找\\n维洛妮卡皇女是吧？",
+        "zh_tw": "我知道，你想去找維洛妮卡皇女對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0066",
+      "book": ""
+    },
+    {
+      "icon": "110327_02",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "Indeed. She has lost her memory,\\nand is likely rather forlorn at present.",
+        "ja_jp": "ああ、<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>は<ruby><rb>記憶</rb><rt>きおく</rt></ruby>を<ruby><rb>失</rb><rt>うしな</rt></ruby>っているんだ…\\n<ruby><rb>心細</rb><rt>こころぼそ</rt></ruby>い<ruby><rb>思</rb><rt>おも</rt></ruby>いをしているかもしれない。",
+        "zh_cn": "是的，她失去了记忆……\\n现在内心也许非常无助。",
+        "zh_tw": "嗯，因為她喪失了記憶……\\n說不定正覺得很不安。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0067",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "She must have some kinda value for the\\nEmpire considerin' how many men they\\ngot tryin' to hunt her down.",
+        "ja_jp": "<ruby><rb>狙</rb><rt>ねら</rt></ruby>われてるってことは、<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>にとっても\\n<ruby><rb>重要</rb><rt>じゅうよう</rt></ruby>な<ruby><rb>人物</rb><rt>じんぶつ</rt></ruby>ってことだ。",
+        "zh_cn": "既然被帝国盯上了，\\n说明她对帝国来说也是重要人物。",
+        "zh_tw": "正在被追捕，就表示她對帝國而言\\n也是很重要的人物。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0068",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "She's gonna be safer with us.",
+        "ja_jp": "どうせろくでもないことだろうし、\\nこっちで<ruby><rb>保護</rb><rt>ほご</rt></ruby>したほうがいいだろう。",
+        "zh_cn": "反正他们肯定不安好心，\\n还是由我们来保护她比较好。",
+        "zh_tw": "反正應該不會是什麼好事，\\n那由我們先保護她會比較好吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0069",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Then let's get out there and find—",
+        "ja_jp": "よし――。",
+        "zh_cn": "就这么办。",
+        "zh_tw": "好──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0070",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "AAAAAAAGH!",
+        "ja_jp": "う、うわあああああああああっ！",
+        "zh_cn": "哇、哇啊啊啊啊啊啊啊！",
+        "zh_tw": "嗚、嗚哇啊啊啊啊啊啊啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0071",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "What was that scream?!",
+        "ja_jp": "ひ、<ruby><rb>悲鳴</rb><rt>ひめい</rt></ruby>!?",
+        "zh_cn": "惨、惨叫声！？",
+        "zh_tw": "慘、慘叫聲！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0072",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "The heck's going on?!",
+        "ja_jp": "なになに!?　どうしたの～!?",
+        "zh_cn": "怎么了！？出了什么事！？",
+        "zh_tw": "什麼什麼！？怎麼了啊～！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0073",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Did something happen?!",
+        "ja_jp": "おい、どうした！　<ruby><rb>何</rb><rt>なに</rt></ruby>があった！",
+        "zh_cn": "喂，怎么了！发生什么了！",
+        "zh_tw": "喂，怎麼了！發生什麼事了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0074",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Resident",
+        "ja_jp": "町の人",
+        "zh_cn": "村民",
+        "zh_tw": "村民"
+      },
+      "context": {
+        "en_us": "The Dyrenell Empire is attacking,\\nand in vast numbers!",
+        "ja_jp": "て、<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>だ！　ディアネル<ruby><rb>軍</rb><rt>ぐん</rt></ruby>が<ruby><rb>大挙</rb><rt>たいきょ</rt></ruby>して\\nやってきやがった！",
+        "zh_cn": "是、是帝国军！\\n狄涅尔军大举来袭了！",
+        "zh_tw": "是、是帝國！\\n狄亞內魯軍有大隊人馬過來了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0075",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "What?! Of all the times...\\nSo much for searching for that princess.",
+        "ja_jp": "んだとぉ!?　くそっ、こんな<ruby><rb>時</rb><rt>とき</rt></ruby>に！\\n<ruby><rb>相変</rb><rt>あいか</rt></ruby>わらず、<ruby><rb>節操</rb><rt>せっそう</rt></ruby>のねえ<ruby><rb>奴</rb><rt>やつ</rt></ruby>らだぜ！",
+        "zh_cn": "什么！？该死，偏偏挑这种时候！\\n那些家伙还是那么会见风使舵！",
+        "zh_tw": "你說什麼！？可惡，竟然挑這種時候！\\n這群沒節操的傢伙真是老樣子啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0076",
+      "book": ""
+    },
+    {
+      "icon": "110327_02",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "That may not be a coincidence.\\nIt's almost as if they want to stall us...",
+        "ja_jp": "こんな<ruby><rb>時</rb><rt>とき</rt></ruby>に…か。<ruby><rb>確</rb><rt>たし</rt></ruby>かにまるで<ruby><rb>僕</rb><rt>ぼく</rt></ruby>らを\\n<ruby><rb>牽制</rb><rt>けんせい</rt></ruby>するかのようなタイミングだ。\\nまさか…",
+        "zh_cn": "这种时候……吗。简直就像\\n为了牵制我们一样挑准了时机。\\n难道……",
+        "zh_tw": "這種時候……是嗎。的確，\\n時間點上就像是在牽制我們一樣。\\n難不成……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0077",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Diversion or no, we have to defend\\nthe people of this town.",
+        "ja_jp": "アルフォンス<ruby><rb>王子</rb><rt>おうじ</rt></ruby>、すまない。\\n<ruby><rb>町</rb><rt>まち</rt></ruby>を<ruby><rb>見捨</rb><rt>みす</rt></ruby>てるわけにはいかない！",
+        "zh_cn": "抱歉，阿尔冯斯王子。\\n我们不能丢下村子不管！",
+        "zh_tw": "阿爾馮斯王子，抱歉。\\n我不能放任村子不管！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0078",
+      "book": ""
+    },
+    {
+      "icon": "110327_01",
+      "name": {
+        "en_us": "Alfonse",
+        "ja_jp": "アルフォンス",
+        "zh_cn": "阿尔冯斯",
+        "zh_tw": "阿爾馮斯"
+      },
+      "context": {
+        "en_us": "Then my sword is yours.",
+        "ja_jp": "わかっている。\\nもちろん、<ruby><rb>僕</rb><rt>ぼく</rt></ruby>も<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>する！",
+        "zh_cn": "我明白。\\n我当然也会帮忙！",
+        "zh_tw": "我知道。\\n當然，我也會幫忙的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0079",
+      "book": ""
+    },
+    {
+      "icon": "110328_01",
+      "name": {
+        "en_us": "Fjorm",
+        "ja_jp": "フィヨルム",
+        "zh_cn": "菲约尔姆",
+        "zh_tw": "菲約爾姆"
+      },
+      "context": {
+        "en_us": "I also offer up my strength to your cause.",
+        "ja_jp": "はい、<ruby><rb>私</rb><rt>わたし</rt></ruby>も<ruby><rb>微力</rb><rt>びりょく</rt></ruby>を<ruby><rb>尽</rb><rt>つ</rt></ruby>くします！",
+        "zh_cn": "好，我也要尽绵薄之力！",
+        "zh_tw": "是啊，我也會盡我所能！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0080",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Thank you both. ...Come on, everyone!",
+        "ja_jp": "ありがとう、ふたりとも。\\nみんな、<ruby><rb>町</rb><rt>まち</rt></ruby>を<ruby><rb>守</rb><rt>まも</rt></ruby>るぞ！",
+        "zh_cn": "感谢两位。\\n各位，一起保护村子吧！",
+        "zh_tw": "謝謝你們兩位。\\n各位，守護村子吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21401_03_0081",
+      "book": ""
+    }
+  ]
 }

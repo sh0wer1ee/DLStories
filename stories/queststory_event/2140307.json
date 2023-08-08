@@ -1,501 +1,952 @@
 {
-    "story_id": "",
-    "story_name": "FIRE EMBLEM 新启之门 觉醒之试炼",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "众人得知了阿尔冯斯的所在之处，\\n急忙前往的途中却被伊里斯的王子\\n库洛姆挡住了去路。他声称\\n{player_name}将招致绝望的未来\\n并向一行人发起挑战。"
-        ]
+  "title": {
+    "en_us": "Fire Emblem: Kindred Ties    A Solemn Trial",
+    "ja_jp": "FIRE EMBLEM 新たなる扉  覚醒の試練",
+    "zh_cn": "FIRE EMBLEM 新启之门  觉醒之试炼",
+    "zh_tw": "FIRE EMBLEM 全新的【門】  覺醒的試煉"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "什么！？你说知道\\n阿尔冯斯王子在哪了！？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "是的！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "我刚才和埃尔菲莉丝她们\\n一起去消灭从异界裂缝\\n跑出来的魔兽了。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "就在那时，我在异界裂缝的\\n另一边看到了哥哥！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "我想那应该是\\n异界空间另一边的其它世界。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "你说什么？异界空间中\\n通往异界的入口打开了吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "我觉得应该是受夏蓉公主\\n“开启之力”的影响，异界空间中\\n通往其它世界的入口才开启了吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "那么，到底是怎么一回事？\\n阿尔冯斯在别的世界吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "不，那应该是……\\n“异界的哥哥”。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "在与这个世界一模一样的\\n其它世界中的哥哥\\n被抓起来的身影。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "我听说过……这个世界\\n是被各种异界包围起来的，\\n而异界是这个世界的其它可能。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "是的！我认为异界的哥哥\\n所在之处和这个世界的哥哥\\n是相同的！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "原来如此……所以，\\n那个异界的阿尔冯斯王子\\n被困的地方是……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "根据夏蓉公主的描述，那似乎\\n是300年前封魔战争时代的遗迹。\\n具体地点也能确定。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好，我们去看看吧。\\n现在即使是细微的线索\\n也至关重要。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "应该就在前方了……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "我当时看见好像是\\n在一扇被封印的门里……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "门、门……啊！\\n快看，是不是那个呀！？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好，我们去看看……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "站住。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "诶？是谁！？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "库洛姆！？\\n这不是库洛姆吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "夏蓉公主，你认识他吗？\\n那就是说……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "是的，他是我们的伙伴。\\n对我来说也是异界的英雄……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "他是伊里斯圣王国的王子，\\n同时也是自卫团的团长，\\n是个非常可靠的人！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "他也是我下落不明的伙伴之一……\\n能遇到真是太好了！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110359_01"
-            ],
-            "speaker_name": "库洛姆",
-            "context": "夏蓉公主也没事就好。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "库洛姆，\\n其实我们现在……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110359_01"
-            ],
-            "speaker_name": "库洛姆",
-            "context": "大致情况我已经了解了。\\n阿尔冯斯王子被困在这前面，\\n而你们要去救他对吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "是的是的！\\n你竟然都知道！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110359_01"
-            ],
-            "speaker_name": "库洛姆",
-            "context": "但是……\\n我不能让你们这么做。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "诶？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110359_01"
-            ],
-            "speaker_name": "库洛姆",
-            "context": "我的意思是\\n不能放你们过去。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110359_01"
-            ],
-            "speaker_name": "库洛姆",
-            "context": "尤其是尤蒂尔王子……\\n有必要的话，\\n我得在这里打倒你。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "什么！？\\n我做了什么吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110359_01"
-            ],
-            "speaker_name": "库洛姆",
-            "context": "你的行动……你做出的选择，\\n可能会招致绝望的未来。\\n对此我不能坐视不管。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "绝望的未来？\\n什么意思……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110359_01"
-            ],
-            "speaker_name": "库洛姆",
-            "context": "回答我一个问题，\\n尤蒂尔王子。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110359_01"
-            ],
-            "speaker_name": "库洛姆",
-            "context": "我听说你有一个双胞胎妹妹，\\n而她现在失去了自由。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110359_01"
-            ],
-            "speaker_name": "库洛姆",
-            "context": "为了救你的妹妹，\\n你愿意付出一切代价吗？\\n能牺牲你自己吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "当然了，异界的王子。\\n我妹妹……塞西娅对我来说，\\n是无可替代的亲人……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "为了救塞西娅，\\n我做好了赌上一切的觉悟！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110359_01"
-            ],
-            "speaker_name": "库洛姆",
-            "context": "是吗……\\n看来你果真如传闻所说。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110359_01"
-            ],
-            "speaker_name": "库洛姆",
-            "context": "但是……也许正因如此，\\n才招致了那种未来……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110359_01"
-            ],
-            "speaker_name": "库洛姆",
-            "context": "尤蒂尔王子，\\n就让我来检验一下\\n你能否担负起未来。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110359_01"
-            ],
-            "speaker_name": "库洛姆",
-            "context": "若是你不具备那种能力，\\n就会招致绝望的未来……\\n那么很遗憾，你只能葬身于此！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "什么！？\\n这话是什么意思！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "虽然听不懂你在说什么，\\n但如果你敢动尤蒂尔，\\n我们也会一同应战！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110359_01"
-            ],
-            "speaker_name": "库洛姆",
-            "context": "我一开始就是这个打算。\\n抱歉，我不会手下留情。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "各位，请小心！\\n库洛姆可是伊里斯圣王国\\n数一数二的剑士！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "看出来了，夏蓉公主。\\n光是这样对峙，\\n就能感受到他的强大……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "但若他执意阻挡我们的去路，\\n就只能跨越他这道障碍了！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110359_01"
-            ],
-            "speaker_name": "库洛姆",
-            "context": "这眼神真不错……很遗憾\\n我们得以这样的方式交手。\\n但我也有无法退让的理由。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110359_01"
-            ],
-            "speaker_name": "库洛姆",
-            "context": "来吧，尤蒂尔王子，\\n让我们赌上各自的信念一战！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_07_0054",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Having discovered Prince Alfonse's location,\\nthe party hurries to save him—but finds Chrom,\\nthe prince of Ylisse, standing in their way.\\nHe claims {player_name} will doom\\nthe world to a bleak future, and challenges\\nthe entire party to battle.",
+      "ja_jp": "アルフォンスの<ruby><rb>居場所</rb><rt>いばしょ</rt></ruby>が<ruby><rb>判明</rb><rt>はんめい</rt></ruby>し、そこへと\\n<ruby><rb>急</rb><rt>いそ</rt></ruby>ぐ<ruby><rb>一行</rb><rt>いっこう</rt></ruby>の<ruby><rb>前</rb><rt>まえ</rt></ruby>に、イーリスの<ruby><rb>王子</rb><rt>おうじ</rt></ruby>クロムが\\n<ruby><rb>立</rb><rt>た</rt></ruby>ちふさがる。<ruby><rb>彼</rb><rt>かれ</rt></ruby>は{player_name}が\\n<ruby><rb>絶望</rb><rt>ぜつぼう</rt></ruby>の<ruby><rb>未来</rb><rt>みらい</rt></ruby>を<ruby><rb>呼</rb><rt>よ</rt></ruby>ぶのだと<ruby><rb>告</rb><rt>つ</rt></ruby>げると、<ruby><rb>一行</rb><rt>いっこう</rt></ruby>に\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>いを<ruby><rb>挑</rb><rt>いど</rt></ruby>んでくるのだった。",
+      "zh_cn": "众人得知了阿尔冯斯的所在之处，\\n急忙前往的途中却被伊里斯的王子\\n库洛姆挡住了去路。他声称\\n{player_name}将招致绝望的未来\\n并向一行人发起挑战。",
+      "zh_tw": "王子等人找出了阿爾馮斯的所在地，\\n卻在匆忙趕往的途中，\\n被伊里斯的王子庫洛武阻擋去路。\\n他表示{player_name}將會招致\\n絕望的未來之後，便朝眾人發動攻勢。"
+    }
+  },
+  "prev": "2140306",
+  "next": "2140308",
+  "content": [
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "...You've figured out where\\nPrince Alfonse is?!",
+        "ja_jp": "えっ!?　アルフォンス<ruby><rb>王子</rb><rt>おうじ</rt></ruby>の<ruby><rb>居場所</rb><rt>いばしょ</rt></ruby>が\\nわかっただって!?",
+        "zh_cn": "什么！？你说知道\\n阿尔冯斯王子在哪了！？",
+        "zh_tw": "咦！？\\n妳知道阿爾馮斯王子的所在地了！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0001",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "I sure have!",
+        "ja_jp": "はい、そうなんです！",
+        "zh_cn": "是的！",
+        "zh_tw": "是的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0002",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "I was just out slaying fiends from the\\nrifts with Elisanne and the others.",
+        "ja_jp": "さっきまで、エルフィリスさんたちと\\n<ruby><rb>異界</rb><rt>いかい</rt></ruby>の<ruby><rb>裂</rb><rt>さ</rt></ruby>け<ruby><rb>目</rb><rt>め</rt></ruby>から<ruby><rb>現</rb><rt>あらわ</rt></ruby>れた<ruby><rb>魔獣退治</rb><rt>まじゅうたいじ</rt></ruby>に\\n<ruby><rb>行</rb><rt>い</rt></ruby>っていたんです。",
+        "zh_cn": "我刚才和埃尔菲莉丝她们\\n一起去消灭从异界裂缝\\n跑出来的魔兽了。",
+        "zh_tw": "我剛才跟耶魯菲莉絲他們一起去擊退\\n從異界的裂縫跑出來的魔獸。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0003",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "And while I was doing that, I spotted\\nmy brother on the other side of a rift!",
+        "ja_jp": "その<ruby><rb>時</rb><rt>とき</rt></ruby>、<ruby><rb>異界</rb><rt>いかい</rt></ruby>の<ruby><rb>裂</rb><rt>さ</rt></ruby>け<ruby><rb>目</rb><rt>め</rt></ruby>の<ruby><rb>向</rb><rt>む</rt></ruby>こうに、\\nお<ruby><rb>兄様</rb><rt>にいさま</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>つけたんです！",
+        "zh_cn": "就在那时，我在异界裂缝的\\n另一边看到了哥哥！",
+        "zh_tw": "那時，我在異界的裂縫另一端，\\n找到了哥哥！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0004",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "I think he was in another world—one\\nbeyond the space between worlds.",
+        "ja_jp": "あれは、<ruby><rb>狭間</rb><rt>はざま</rt></ruby>のさらに<ruby><rb>向</rb><rt>む</rt></ruby>こう、\\n<ruby><rb>別</rb><rt>べつ</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>だったと<ruby><rb>思</rb><rt>おも</rt></ruby>います。",
+        "zh_cn": "我想那应该是\\n异界空间另一边的其它世界。",
+        "zh_tw": "我想，那是比夾縫間\\n還要遙遠的其他世界。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0005",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You're saying an entrance to another world\\nis open in the space BETWEEN worlds?!",
+        "ja_jp": "なんだって？　<ruby><rb>異界</rb><rt>いかい</rt></ruby>の<ruby><rb>狭間</rb><rt>はざま</rt></ruby>から<ruby><rb>異界</rb><rt>いかい</rt></ruby>への\\n<ruby><rb>入</rb><rt>い</rt></ruby>り<ruby><rb>口</rb><rt>ぐち</rt></ruby>が<ruby><rb>開</rb><rt>ひら</rt></ruby>いたというのか!?",
+        "zh_cn": "你说什么？异界空间中\\n通往异界的入口打开了吗！？",
+        "zh_tw": "什麼？妳是說從異界的夾縫間\\n開啟了通往異界的入口嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0006",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "I suspect its opening may have been\\na reaction of sorts to Princess Sharena's\\nability to control gateways.",
+        "ja_jp": "おそらく、シャロン<ruby><rb>王女</rb><rt>おうじょ</rt></ruby>の【<ruby><rb>開</rb><rt>ひら</rt></ruby>く<ruby><rb>力</rb><rt>ちから</rt></ruby>】に\\n<ruby><rb>反応</rb><rt>はんのう</rt></ruby>して、<ruby><rb>狭間</rb><rt>はざま</rt></ruby>から<ruby><rb>別</rb><rt>べつ</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>への\\n<ruby><rb>入</rb><rt>い</rt></ruby>り<ruby><rb>口</rb><rt>ぐち</rt></ruby>が<ruby><rb>開</rb><rt>ひら</rt></ruby>いたのではないでしょうか。",
+        "zh_cn": "我觉得应该是受夏蓉公主\\n“开启之力”的影响，异界空间中\\n通往其它世界的入口才开启了吧。",
+        "zh_tw": "會不會，是對夏蓉公主的【啟門之力】\\n產生反應，才導致從夾縫間\\n開啟了通往異界的入口呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0007",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "I know I ain't the sharpest sandwich\\non the platter, but what'n the hell is\\ngoing on again? Alfonse is off in\\nsome other world?",
+        "ja_jp": "つまり、どういうことだ？\\nアルフォンスは<ruby><rb>別</rb><rt>べつ</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>にいるのか？",
+        "zh_cn": "那么，到底是怎么一回事？\\n阿尔冯斯在别的世界吗？",
+        "zh_tw": "什麼意思啊？\\n阿爾馮斯他在其他的世界嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0008",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "Actually, I believe what I saw was not\\nmy brother, but instead another world's \\nVERSION of my brother.",
+        "ja_jp": "いえ、たぶんあれは…\\n『<ruby><rb>異界</rb><rt>いかい</rt></ruby>のお<ruby><rb>兄様</rb><rt>にいさま</rt></ruby>』です。",
+        "zh_cn": "不，那应该是……\\n“异界的哥哥”。",
+        "zh_tw": "不，那大概是……\\n「異界的哥哥」。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0009",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "However, that Alfonse was being held\\ncaptive in a world that looked exactly\\nlike the one we are in now.",
+        "ja_jp": "この<ruby><rb>世界</rb><rt>せかい</rt></ruby>にそっくりな<ruby><rb>別</rb><rt>べつ</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>で、\\nお<ruby><rb>兄様</rb><rt>にいさま</rt></ruby>が<ruby><rb>捕</rb><rt>と</rt></ruby>らえられている<ruby><rb>姿</rb><rt>すがた</rt></ruby>なんじゃ\\nないかと。",
+        "zh_cn": "在与这个世界一模一样的\\n其它世界中的哥哥\\n被抓起来的身影。",
+        "zh_tw": "我想可能是在和這個世界\\n一模一樣的其他世界裡，\\n哥哥被擄走的樣子。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0010",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "I've heard of this. They say our world is\\none of myriad alternate worlds, each of\\nwhich is but a different possibility for\\nhow things might unfold.",
+        "ja_jp": "……<ruby><rb>聞</rb><rt>き</rt></ruby>いたことがあります。この<ruby><rb>世界</rb><rt>せかい</rt></ruby>は\\nさまざまな<ruby><rb>異界</rb><rt>いかい</rt></ruby>に<ruby><rb>囲</rb><rt>かこ</rt></ruby>まれていて、<ruby><rb>異界</rb><rt>いかい</rt></ruby>は\\nこの<ruby><rb>世界</rb><rt>せかい</rt></ruby>の<ruby><rb>別</rb><rt>べつ</rt></ruby>の<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>なのだと。",
+        "zh_cn": "我听说过……这个世界\\n是被各种异界包围起来的，\\n而异界是这个世界的其它可能。",
+        "zh_tw": "……我曾聽過。這個世界被\\n各種異界包圍，而異界就是擁有\\n與這個世界不同可能性的世界。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0011",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "Exactly. But it got me thinking: Maybe\\nour Alfonse in THIS world is in the same\\nlocation as the Alfonse in THAT world!",
+        "ja_jp": "はい！　<ruby><rb>異界</rb><rt>いかい</rt></ruby>のお<ruby><rb>兄様</rb><rt>にいさま</rt></ruby>と<ruby><rb>同</rb><rt>おな</rt></ruby>じ\\nような<ruby><rb>所</rb><rt>ところ</rt></ruby>に、こちらのお<ruby><rb>兄様</rb><rt>にいさま</rt></ruby>もいるん\\nじゃないかと<ruby><rb>思</rb><rt>おも</rt></ruby>うんですよ！",
+        "zh_cn": "是的！我认为异界的哥哥\\n所在之处和这个世界的哥哥\\n是相同的！",
+        "zh_tw": "是的！所以我想說\\n異界的哥哥所在的地方，\\n說不定這個世界的哥哥也在同個地方！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0012",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "And where was Alfonse being held\\nin this other world you saw?",
+        "ja_jp": "なるほど……\\nそれで、その<ruby><rb>異界</rb><rt>いかい</rt></ruby>のアルフォンス<ruby><rb>王子</rb><rt>おうじ</rt></ruby>が\\n<ruby><rb>囚</rb><rt>とら</rt></ruby>われていた<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>というのは――。",
+        "zh_cn": "原来如此……所以，\\n那个异界的阿尔冯斯王子\\n被困的地方是……",
+        "zh_tw": "原來如此……\\n那麼，那個異界的阿爾馮斯王子\\n被囚禁的地方是──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0013",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "The way Princess Sharena described it,\\nhe's likely in ruins from the Second War\\nof Binding. I believe I should be able to\\nidentify the exact location.",
+        "ja_jp": "シャロン<ruby><rb>王女</rb><rt>おうじょ</rt></ruby>の<ruby><rb>話</rb><rt>はなし</rt></ruby>からすると、\\n300<ruby><rb>年前</rb><rt>ねんまえ</rt></ruby>の<ruby><rb>封魔戦争時代</rb><rt>ふうませんそうじだい</rt></ruby>の<ruby><rb>遺跡</rb><rt>いせき</rt></ruby>の\\nようです。<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>も<ruby><rb>特定</rb><rt>とくてい</rt></ruby>できます。",
+        "zh_cn": "根据夏蓉公主的描述，那似乎\\n是300年前封魔战争时代的遗迹。\\n具体地点也能确定。",
+        "zh_tw": "根據夏蓉公主所說的內容來看，\\n應該是三百年前封魔戰爭時代的遺蹟。\\n地點也鎖定好了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0014",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "In that case, we should go take a look.\\nAt this point, any small lead is more\\nthan worth following up on.",
+        "ja_jp": "よし、<ruby><rb>行</rb><rt>い</rt></ruby>ってみよう。\\n<ruby><rb>今</rb><rt>いま</rt></ruby>はわずかな<ruby><rb>手</rb><rt>て</rt></ruby>がかりでも<ruby><rb>重要</rb><rt>じゅうよう</rt></ruby>だ。",
+        "zh_cn": "好，我们去看看吧。\\n现在即使是细微的线索\\n也至关重要。",
+        "zh_tw": "好，那就去看看吧。\\n現在連微小的線索都很重要。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0015",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "I believe the spot is just ahead, but...",
+        "ja_jp": "おそらく、この<ruby><rb>先</rb><rt>さき</rt></ruby>のはずですが……。",
+        "zh_cn": "应该就在前方了……",
+        "zh_tw": "恐怕，就在這前面……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0016",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "The vision I saw was near a sealed door,\\nbut I'm not seeing one here.",
+        "ja_jp": "わたしが<ruby><rb>見</rb><rt>み</rt></ruby>たのは、<ruby><rb>封印</rb><rt>ふういん</rt></ruby>された<ruby><rb>扉</rb><rt>とびら</rt></ruby>の<ruby><rb>奥</rb><rt>おく</rt></ruby>、\\nといった<ruby><rb>感</rb><rt>かん</rt></ruby>じだったんですけど…",
+        "zh_cn": "我当时看见好像是\\n在一扇被封印的门里……",
+        "zh_tw": "我看見的，感覺像是\\n被封印的門扉深處……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0017",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "A door... A dooooor... Hey, THAT'S a door!",
+        "ja_jp": "<ruby><rb>扉</rb><rt>とびら</rt></ruby>、<ruby><rb>扉</rb><rt>とびら</rt></ruby>……あっ！\\nねえねえ、あれじゃない!?",
+        "zh_cn": "门、门……啊！\\n快看，是不是那个呀！？",
+        "zh_tw": "門，門……啊！\\n欸欸，會不會是那個！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0018",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Okay, then let's—",
+        "ja_jp": "よし、<ruby><rb>行</rb><rt>い</rt></ruby>こ――。",
+        "zh_cn": "好，我们去看看……",
+        "zh_tw": "好，走吧──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0019",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Stop.",
+        "ja_jp": "――<ruby><rb>待</rb><rt>ま</rt></ruby>て。",
+        "zh_cn": "站住。",
+        "zh_tw": "──站住。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0020",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Huh? Who's there?!",
+        "ja_jp": "えっ？　<ruby><rb>誰</rb><rt>だれ</rt></ruby>だ!?",
+        "zh_cn": "诶？是谁！？",
+        "zh_tw": "咦？是誰！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0021",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "Chrom! It's you!",
+        "ja_jp": "っ！　クロムさん!?\\nクロムさんじゃないですか！",
+        "zh_cn": "库洛姆！？\\n这不是库洛姆吗！",
+        "zh_tw": "唔！庫洛武殿下！？\\n你不是庫洛武殿下嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0022",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Do you know this man, Sharena?\\nIf he's another of your acquaintances—",
+        "ja_jp": "<ruby><rb>知</rb><rt>し</rt></ruby>ってるのか、シャロン<ruby><rb>王女</rb><rt>おうじょ</rt></ruby>？\\nきみの<ruby><rb>知</rb><rt>し</rt></ruby>り<ruby><rb>合</rb><rt>あ</rt></ruby>いってことは――。",
+        "zh_cn": "夏蓉公主，你认识他吗？\\n那就是说……",
+        "zh_tw": "妳認識他嗎，夏蓉公主？\\n既然他是妳認識的人，就代表──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0023",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "Oh, I know him, all right! He's a good\\nfriend and great hero from another world.",
+        "ja_jp": "はい、わたしたちの<ruby><rb>仲間</rb><rt>なかま</rt></ruby>です。\\nわたしにとっても<ruby><rb>異界</rb><rt>いかい</rt></ruby>の<ruby><rb>英雄</rb><rt>えいゆう</rt></ruby>ですが…",
+        "zh_cn": "是的，他是我们的伙伴。\\n对我来说也是异界的英雄……",
+        "zh_tw": "是的，他是我們的夥伴。\\n對我來說也是異界的英雄就是了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0024",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "He's the prince of the Halidom of Ylisse,\\nand captain of the Shepherds who guard it.\\nHe's also one of the vanished companions\\nthat I mentioned earlier.",
+        "ja_jp": "イーリス<ruby><rb>聖王国</rb><rt>せいおうこく</rt></ruby>という<ruby><rb>国</rb><rt>くに</rt></ruby>の<ruby><rb>王子</rb><rt>おうじ</rt></ruby>で、\\n<ruby><rb>自警団</rb><rt>じけいだん</rt></ruby>の<ruby><rb>団長</rb><rt>だんちょう</rt></ruby>もしている、とっても\\n<ruby><rb>頼</rb><rt>たよ</rt></ruby>りになる<ruby><rb>人</rb><rt>ひと</rt></ruby>です！",
+        "zh_cn": "他是伊里斯圣王国的王子，\\n同时也是自卫团的团长，\\n是个非常可靠的人！",
+        "zh_tw": "他是伊里斯聖王國的王子，\\n也身兼自衛團的團長，\\n是位非常可靠的人！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0025",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "I'm so glad to see you safe, Chrom!",
+        "ja_jp": "<ruby><rb>行方不明</rb><rt>ゆくえふめい</rt></ruby>になった<ruby><rb>仲間</rb><rt>なかま</rt></ruby>のひとりだったん\\nですが…<ruby><rb>会</rb><rt>あ</rt></ruby>えてよかったです！",
+        "zh_cn": "他也是我下落不明的伙伴之一……\\n能遇到真是太好了！",
+        "zh_tw": "他也是失蹤的夥伴之一……\\n能見到你真是太好了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0026",
+      "book": ""
+    },
+    {
+      "icon": "110359_01",
+      "name": {
+        "en_us": "Chrom",
+        "ja_jp": "クロム",
+        "zh_cn": "库洛姆",
+        "zh_tw": "庫洛武"
+      },
+      "context": {
+        "en_us": "And I am supremely relieved to see\\nyou safe as well, Princess Sharena.",
+        "ja_jp": "…シャロン<ruby><rb>王女</rb><rt>おうじょ</rt></ruby>も<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>のようで\\nなによりだ。",
+        "zh_cn": "夏蓉公主也没事就好。",
+        "zh_tw": "……夏蓉公主也平安無事就好。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0027",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "It's been quite the whirlwind here, Chrom!\\nLet me tell you all about—",
+        "ja_jp": "クロムさん、<ruby><rb>実</rb><rt>じつ</rt></ruby>はわたしたちは\\n<ruby><rb>今</rb><rt>いま</rt></ruby>――",
+        "zh_cn": "库洛姆，\\n其实我们现在……",
+        "zh_tw": "庫洛武殿下，其實我們現在──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0028",
+      "book": ""
+    },
+    {
+      "icon": "110359_01",
+      "name": {
+        "en_us": "Chrom",
+        "ja_jp": "クロム",
+        "zh_cn": "库洛姆",
+        "zh_tw": "庫洛武"
+      },
+      "context": {
+        "en_us": "I believe I have a solid grasp of it already.\\nPrince Alfonse is held behind that door,\\nand you've come to rescue him.",
+        "ja_jp": "<ruby><rb>事情</rb><rt>じじょう</rt></ruby>はあらかた<ruby><rb>把握</rb><rt>はあく</rt></ruby>している。\\nこの<ruby><rb>先</rb><rt>さき</rt></ruby>にアルフォンス<ruby><rb>王子</rb><rt>おうじ</rt></ruby>が<ruby><rb>囚</rb><rt>とら</rt></ruby>われて\\nいて、それを<ruby><rb>助</rb><rt>たす</rt></ruby>けに<ruby><rb>行</rb><rt>い</rt></ruby>くのだろう？",
+        "zh_cn": "大致情况我已经了解了。\\n阿尔冯斯王子被困在这前面，\\n而你们要去救他对吧？",
+        "zh_tw": "情況我已經大致掌握到了。\\n阿爾馮斯王子被囚禁在前方，\\n而你們要去救他對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0029",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "Yes, exactly!",
+        "ja_jp": "そうです、そうです！\\nよくご<ruby><rb>存知</rb><rt>ぞんじ</rt></ruby>ですね！",
+        "zh_cn": "是的是的！\\n你竟然都知道！",
+        "zh_tw": "沒錯沒錯！\\n你真清楚呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0030",
+      "book": ""
+    },
+    {
+      "icon": "110359_01",
+      "name": {
+        "en_us": "Chrom",
+        "ja_jp": "クロム",
+        "zh_cn": "库洛姆",
+        "zh_tw": "庫洛武"
+      },
+      "context": {
+        "en_us": "I'm afraid I can't let that happen.",
+        "ja_jp": "だが――そうはさせん。",
+        "zh_cn": "但是……\\n我不能让你们这么做。",
+        "zh_tw": "不過──我不會讓你們那麼做。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0031",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "What?",
+        "ja_jp": "…え？",
+        "zh_cn": "诶？",
+        "zh_tw": "……咦？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0032",
+      "book": ""
+    },
+    {
+      "icon": "110359_01",
+      "name": {
+        "en_us": "Chrom",
+        "ja_jp": "クロム",
+        "zh_cn": "库洛姆",
+        "zh_tw": "庫洛武"
+      },
+      "context": {
+        "en_us": "I will not allow you to proceed.",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>たちをこの<ruby><rb>先</rb><rt>さき</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>かせるわけには\\nいかんということだ。",
+        "zh_cn": "我的意思是\\n不能放你们过去。",
+        "zh_tw": "就是我不能讓你們前進的意思。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0033",
+      "book": ""
+    },
+    {
+      "icon": "110359_01",
+      "name": {
+        "en_us": "Chrom",
+        "ja_jp": "クロム",
+        "zh_cn": "库洛姆",
+        "zh_tw": "庫洛武"
+      },
+      "context": {
+        "en_us": "Pray forgive me, but I fear it may be\\nnecessary to fell you here and now,\\nPrince Euden.",
+        "ja_jp": "<ruby><rb>特</rb><rt>とく</rt></ruby>にユーディル<ruby><rb>王子</rb><rt>おうじ</rt></ruby>…\\n<ruby><rb>事</rb><rt>こと</rt></ruby>と<ruby><rb>次第</rb><rt>しだい</rt></ruby>によっては、お<ruby><rb>前</rb><rt>まえ</rt></ruby>をこの<ruby><rb>場</rb><rt>ば</rt></ruby>で\\n<ruby><rb>倒</rb><rt>たお</rt></ruby>さねばならん。",
+        "zh_cn": "尤其是尤蒂尔王子……\\n有必要的话，\\n我得在这里打倒你。",
+        "zh_tw": "尤其是尤帝爾王子……\\n根據情況，我必須在這裡打倒你。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0034",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Why?! What have I done to you?!",
+        "ja_jp": "なに……!?\\nおれが<ruby><rb>何</rb><rt>なに</rt></ruby>をしたというんだ？",
+        "zh_cn": "什么！？\\n我做了什么吗？",
+        "zh_tw": "什麼……！？\\n我到底做了什麼？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0035",
+      "book": ""
+    },
+    {
+      "icon": "110359_01",
+      "name": {
+        "en_us": "Chrom",
+        "ja_jp": "クロム",
+        "zh_cn": "库洛姆",
+        "zh_tw": "庫洛武"
+      },
+      "context": {
+        "en_us": "A bleak future may be the end result of\\nyour actions here, and I will not permit\\nsuch a thing to come to pass.",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>行動</rb><rt>こうどう</rt></ruby>…お<ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>選択</rb><rt>せんたく</rt></ruby>の<ruby><rb>末</rb><rt>すえ</rt></ruby>には、\\n<ruby><rb>絶望</rb><rt>ぜつぼう</rt></ruby>の<ruby><rb>未来</rb><rt>みらい</rt></ruby>が<ruby><rb>待</rb><rt>ま</rt></ruby>ち<ruby><rb>受</rb><rt>う</rt></ruby>けているかもしれん\\n<ruby><rb>俺</rb><rt>おれ</rt></ruby>はそれを<ruby><rb>看過</rb><rt>かんか</rt></ruby>するわけにはいかん。",
+        "zh_cn": "你的行动……你做出的选择，\\n可能会招致绝望的未来。\\n对此我不能坐视不管。",
+        "zh_tw": "你的行動……你的選擇，\\n都可能導致絕望的未來。\\n而我無法裝作沒看見。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0036",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Explain yourself!",
+        "ja_jp": "<ruby><rb>絶望</rb><rt>ぜつぼう</rt></ruby>の<ruby><rb>未来</rb><rt>みらい</rt></ruby>だって……？\\nどういうことだ……？",
+        "zh_cn": "绝望的未来？\\n什么意思……",
+        "zh_tw": "絕望的未來……？\\n什麼意思……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0037",
+      "book": ""
+    },
+    {
+      "icon": "110359_01",
+      "name": {
+        "en_us": "Chrom",
+        "ja_jp": "クロム",
+        "zh_cn": "库洛姆",
+        "zh_tw": "庫洛武"
+      },
+      "context": {
+        "en_us": "Answer me this one question,\\nPrince Euden...",
+        "ja_jp": "ひとつ<ruby><rb>質問</rb><rt>しつもん</rt></ruby>に<ruby><rb>答</rb><rt>こた</rt></ruby>えてもらう、\\nユーディル<ruby><rb>王子</rb><rt>おうじ</rt></ruby>。",
+        "zh_cn": "回答我一个问题，\\n尤蒂尔王子。",
+        "zh_tw": "回答我一個問題吧，\\n尤帝爾王子。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0038",
+      "book": ""
+    },
+    {
+      "icon": "110359_01",
+      "name": {
+        "en_us": "Chrom",
+        "ja_jp": "クロム",
+        "zh_cn": "库洛姆",
+        "zh_tw": "庫洛武"
+      },
+      "context": {
+        "en_us": "I understand that you have a twin sister\\nwho is currently being held captive\\nof a sort.",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>には<ruby><rb>双子</rb><rt>ふたご</rt></ruby>の<ruby><rb>妹</rb><rt>いもうと</rt></ruby>がいると<ruby><rb>聞</rb><rt>き</rt></ruby>いた。\\nその<ruby><rb>妹</rb><rt>いもうと</rt></ruby>が、<ruby><rb>現在</rb><rt>げんざい</rt></ruby>、<ruby><rb>自由</rb><rt>じゆう</rt></ruby>を<ruby><rb>奪</rb><rt>うば</rt></ruby>われている\\nということもな。",
+        "zh_cn": "我听说你有一个双胞胎妹妹，\\n而她现在失去了自由。",
+        "zh_tw": "我聽說你有位雙胞胎妹妹。\\n也知道那個妹妹現在被奪去了自由。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0039",
+      "book": ""
+    },
+    {
+      "icon": "110359_01",
+      "name": {
+        "en_us": "Chrom",
+        "ja_jp": "クロム",
+        "zh_cn": "库洛姆",
+        "zh_tw": "庫洛武"
+      },
+      "context": {
+        "en_us": "Are you willing to cast aside everything\\nin order to save her? Are you capable\\nof sacrificing yourself, if necessary?",
+        "ja_jp": "<ruby><rb>妹</rb><rt>いもうと</rt></ruby>を<ruby><rb>救</rb><rt>すく</rt></ruby>うために、お<ruby><rb>前</rb><rt>まえ</rt></ruby>はすべてを\\nなげうてるか？　その<ruby><rb>身</rb><rt>み</rt></ruby>を<ruby><rb>捧</rb><rt>ささ</rt></ruby>げることが\\nできるのか？",
+        "zh_cn": "为了救你的妹妹，\\n你愿意付出一切代价吗？\\n能牺牲你自己吗？",
+        "zh_tw": "為了拯救妹妹，你能捨棄一切嗎？\\n能獻上自己的身體嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0040",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "My sister Zethia means more to me\\nthan anything, and I will do whatever\\nis necessary to see her safe.",
+        "ja_jp": "……もちろんだ、<ruby><rb>異界</rb><rt>いかい</rt></ruby>の<ruby><rb>王子</rb><rt>おうじ</rt></ruby>。\\n<ruby><rb>妹</rb><rt>いもうと</rt></ruby>は――ゼシアはおれにとって\\nかけがえのない<ruby><rb>大切</rb><rt>たいせつ</rt></ruby>な<ruby><rb>家族</rb><rt>かぞく</rt></ruby>……",
+        "zh_cn": "当然了，异界的王子。\\n我妹妹……塞西娅对我来说，\\n是无可替代的亲人……",
+        "zh_tw": "……那當然，異界的王子。\\n妹妹她──潔西雅她對我而言\\n是無可替代的重要家人……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0041",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I will risk all to save her!",
+        "ja_jp": "ゼシアを<ruby><rb>救</rb><rt>すく</rt></ruby>うためなら、おれはすべてを\\n<ruby><rb>懸</rb><rt>か</rt></ruby>ける<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>がある！",
+        "zh_cn": "为了救塞西娅，\\n我做好了赌上一切的觉悟！",
+        "zh_tw": "如果是為了救潔西雅，\\n我已做好賭上一切的覺悟！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0042",
+      "book": ""
+    },
+    {
+      "icon": "110359_01",
+      "name": {
+        "en_us": "Chrom",
+        "ja_jp": "クロム",
+        "zh_cn": "库洛姆",
+        "zh_tw": "庫洛武"
+      },
+      "context": {
+        "en_us": "Then you are every inch the man\\nI was told to expect.",
+        "ja_jp": "そうか…<ruby><rb>聞</rb><rt>き</rt></ruby>いていた<ruby><rb>通</rb><rt>とお</rt></ruby>りの<ruby><rb>人物</rb><rt>じんぶつ</rt></ruby>の\\nようだな。",
+        "zh_cn": "是吗……\\n看来你果真如传闻所说。",
+        "zh_tw": "是嗎……\\n你就跟傳聞一樣呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0043",
+      "book": ""
+    },
+    {
+      "icon": "110359_01",
+      "name": {
+        "en_us": "Chrom",
+        "ja_jp": "クロム",
+        "zh_cn": "库洛姆",
+        "zh_tw": "庫洛武"
+      },
+      "context": {
+        "en_us": "But despite that—no, BECAUSE of it—\\nthe future I fear may yet come to pass.",
+        "ja_jp": "だが…だからこそ、あの<ruby><rb>未来</rb><rt>みらい</rt></ruby>へと\\n<ruby><rb>続</rb><rt>つづ</rt></ruby>いたのかもしれない…",
+        "zh_cn": "但是……也许正因如此，\\n才招致了那种未来……",
+        "zh_tw": "不過……或許正因如此，\\n才會演變成那個未來吧……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0044",
+      "book": ""
+    },
+    {
+      "icon": "110359_01",
+      "name": {
+        "en_us": "Chrom",
+        "ja_jp": "クロム",
+        "zh_cn": "库洛姆",
+        "zh_tw": "庫洛武"
+      },
+      "context": {
+        "en_us": "I must test you to determine whether you\\nare worthy of deciding this world's fate,\\nPrince Euden.",
+        "ja_jp": "ユーディル<ruby><rb>王子</rb><rt>おうじ</rt></ruby>、\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>が<ruby><rb>未来</rb><rt>みらい</rt></ruby>を<ruby><rb>託</rb><rt>たく</rt></ruby>すに<ruby><rb>相応</rb><rt>ふさわ</rt></ruby>しいかどうか\\n<ruby><rb>試</rb><rt>ため</rt></ruby>させてもらうぞ。",
+        "zh_cn": "尤蒂尔王子，\\n就让我来检验一下\\n你能否担负起未来。",
+        "zh_tw": "尤帝爾王子，\\n你是否有足夠資格肩負未來，\\n就讓我來考驗看看吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0045",
+      "book": ""
+    },
+    {
+      "icon": "110359_01",
+      "name": {
+        "en_us": "Chrom",
+        "ja_jp": "クロム",
+        "zh_cn": "库洛姆",
+        "zh_tw": "庫洛武"
+      },
+      "context": {
+        "en_us": "If you lack the strength, it will be you\\nwho brings about this future of despair.\\nAnd if that is the case, then I fear you\\nwill meet your end this day!",
+        "ja_jp": "<ruby><rb>力</rb><rt>ちから</rt></ruby>がないのなら、\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>は<ruby><rb>絶望</rb><rt>ぜつぼう</rt></ruby>の<ruby><rb>未来</rb><rt>みらい</rt></ruby>を<ruby><rb>呼</rb><rt>よ</rt></ruby>ぶ…\\n<ruby><rb>残念</rb><rt>ざんねん</rt></ruby>だが、ここで<ruby><rb>倒</rb><rt>たお</rt></ruby>れてもらう！",
+        "zh_cn": "若是你不具备那种能力，\\n就会招致绝望的未来……\\n那么很遗憾，你只能葬身于此！",
+        "zh_tw": "若力量不足，你將喚來絕望的未來……\\n很遺憾，我就會在此打倒你！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0046",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What is the meaning of this?!",
+        "ja_jp": "なっ!?　どういうことなんだ！",
+        "zh_cn": "什么！？\\n这话是什么意思！",
+        "zh_tw": "什麼！？到底是什麼意思！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0047",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "I dunno what's going on here, fella,\\nbut if ya wanna take down the boss,\\nyer gonna have to go through me.",
+        "ja_jp": "なにがなんだかわからねえが、\\nユーディルをやろうってん\\nなら、<ruby><rb>俺</rb><rt>おれ</rt></ruby>たちも<ruby><rb>相手</rb><rt>あいて</rt></ruby>になるぜ！",
+        "zh_cn": "虽然听不懂你在说什么，\\n但如果你敢动尤蒂尔，\\n我们也会一同应战！",
+        "zh_tw": "雖然不太懂，但如果你想對\\n尤帝爾出手，\\n我們也願意奉陪！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0048",
+      "book": ""
+    },
+    {
+      "icon": "110359_01",
+      "name": {
+        "en_us": "Chrom",
+        "ja_jp": "クロム",
+        "zh_cn": "库洛姆",
+        "zh_tw": "庫洛武"
+      },
+      "context": {
+        "en_us": "I would have expected nothing less.\\nAnd while it pains me to say so,\\nI cannot promise not to harm you.",
+        "ja_jp": "こちらとしても<ruby><rb>最初</rb><rt>さいしょ</rt></ruby>からそのつもりだ。\\n<ruby><rb>悪</rb><rt>わる</rt></ruby>いが<ruby><rb>手加減</rb><rt>てかげん</rt></ruby>はできん。",
+        "zh_cn": "我一开始就是这个打算。\\n抱歉，我不会手下留情。",
+        "zh_tw": "我從一開始就是如此打算。\\n很抱歉，但我不會手下留情。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0049",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "All of you need to be careful—Chrom is\\nthe finest swordsman in all of Ylisse!",
+        "ja_jp": "みなさん、<ruby><rb>気</rb><rt>き</rt></ruby>をつけてください！\\nクロムさんはイーリス<ruby><rb>聖王国</rb><rt>せいおうこく</rt></ruby>きっての\\n<ruby><rb>剣士</rb><rt>けんし</rt></ruby>なんです！",
+        "zh_cn": "各位，请小心！\\n库洛姆可是伊里斯圣王国\\n数一数二的剑士！",
+        "zh_tw": "各位，請小心！\\n庫洛武殿下是伊里斯聖王國\\n最傑出的劍士！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0050",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Your warning is unnecessary, Princess.\\nFrom the way he seeks to oppose us,\\nhis strength could not be more clear.",
+        "ja_jp": "ご<ruby><rb>忠告</rb><rt>ちゅうこく</rt></ruby>には<ruby><rb>及</rb><rt>およ</rt></ruby>びません、シャロン<ruby><rb>王女</rb><rt>おうじょ</rt></ruby>。\\nこうして<ruby><rb>向</rb><rt>む</rt></ruby>かい<ruby><rb>合</rb><rt>あ</rt></ruby>うだけでも、\\n<ruby><rb>彼</rb><rt>かれ</rt></ruby>の<ruby><rb>強</rb><rt>つよ</rt></ruby>さはわかります……。",
+        "zh_cn": "看出来了，夏蓉公主。\\n光是这样对峙，\\n就能感受到他的强大……",
+        "zh_tw": "我也感受到了，夏蓉公主。\\n光是這樣互相對峙，\\n就已經知道他的強大……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0051",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "But if he plans to stand in my way,\\nI've no choice but to go through him.",
+        "ja_jp": "だが、<ruby><rb>彼</rb><rt>かれ</rt></ruby>がおれたちの<ruby><rb>前</rb><rt>まえ</rt></ruby>に<ruby><rb>立</rb><rt>た</rt></ruby>ちはだかる\\nなら、おれはそれを<ruby><rb>乗</rb><rt>の</rt></ruby>り<ruby><rb>越</rb><rt>こ</rt></ruby>えなくては\\nいけない！",
+        "zh_cn": "但若他执意阻挡我们的去路，\\n就只能跨越他这道障碍了！",
+        "zh_tw": "但是，既然他要阻擋在我們面前，\\n我們就必須跨越才行！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0052",
+      "book": ""
+    },
+    {
+      "icon": "110359_01",
+      "name": {
+        "en_us": "Chrom",
+        "ja_jp": "クロム",
+        "zh_cn": "库洛姆",
+        "zh_tw": "庫洛武"
+      },
+      "context": {
+        "en_us": "I admire the steel in your eyes, Prince.\\nAnd while I wish we did not have to cross\\nswords like this, I, too, am unable to yield.",
+        "ja_jp": "いい<ruby><rb>目</rb><rt>め</rt></ruby>だ…こうして<ruby><rb>剣</rb><rt>けん</rt></ruby>を<ruby><rb>交</rb><rt>まじ</rt></ruby>えねば\\nならないのが<ruby><rb>残念</rb><rt>ざんねん</rt></ruby>だ。だが、<ruby><rb>俺</rb><rt>おれ</rt></ruby>にも\\n<ruby><rb>譲</rb><rt>ゆず</rt></ruby>れぬ<ruby><rb>思</rb><rt>おも</rt></ruby>いがある。",
+        "zh_cn": "这眼神真不错……很遗憾\\n我们得以这样的方式交手。\\n但我也有无法退让的理由。",
+        "zh_tw": "很棒的眼神……必須在這種場面交戰\\n非常令人遺憾。\\n不過，我也有不能退讓的理由。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0053",
+      "book": ""
+    },
+    {
+      "icon": "110359_01",
+      "name": {
+        "en_us": "Chrom",
+        "ja_jp": "クロム",
+        "zh_cn": "库洛姆",
+        "zh_tw": "庫洛武"
+      },
+      "context": {
+        "en_us": "Now, let us each fight for what we must!",
+        "ja_jp": "<ruby><rb>行</rb><rt>い</rt></ruby>くぞ、ユーディル<ruby><rb>王子</rb><rt>おうじ</rt></ruby>、\\n<ruby><rb>互</rb><rt>たが</rt></ruby>いの<ruby><rb>信念</rb><rt>しんねん</rt></ruby>を<ruby><rb>懸</rb><rt>か</rt></ruby>けて！",
+        "zh_cn": "来吧，尤蒂尔王子，\\n让我们赌上各自的信念一战！",
+        "zh_tw": "要上囉，尤帝爾王子。\\n賭上我們彼此的信念吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_07_0054",
+      "book": ""
+    }
+  ]
 }

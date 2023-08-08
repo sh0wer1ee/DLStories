@@ -1,865 +1,1632 @@
 {
-    "story_id": "",
-    "story_name": "笼罩光芒的暗影 第15章 4-8 战胜黑暗",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "一行人成功脱身回到了圣城。\\n王子因未能救出塞西娅而深深自责，\\n与伙伴们争执后闭门不出。\\n在泽娜的鼓励下，王子重新振作起来。\\n为收集情报，他决定出发去见莱昂尼多。"
-        ]
+  "title": {
+    "en_us": "Light and Shadow  Ch. 15 / 4-8  In the Wake of Defeat",
+    "ja_jp": "光を覆う影 15章 4-8 闇を乗り越えて",
+    "zh_cn": "笼罩光芒的暗影 第15章 4-8 战胜黑暗",
+    "zh_tw": "覆光之影 第15章 4-8 戰勝黑暗"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "唔唔……\\n大、大家都没事吧……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_05"
-            ],
-            "speaker_name": "穆穆",
-            "context": "嗯……咦这里是！？\\n这不是圣城吗！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "泽娜，是你把我们\\n带到这里来的吗！？",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "是、是的……\\n把大家转移到这里的\\n确实是我……可是……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "我的能力并不足以把大家\\n带得这么远，更别说是圣城了……\\n到底是怎么来到这里的……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100005_05"
-            ],
-            "speaker_name": "沙音",
-            "context": "我们倒是得救了，\\n可是塞西娅大人她……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "不光是塞西娅……\\n巴尔库斯哥哥也不在。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我没能救出塞西娅……\\n又失败了……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "哥哥……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "塞西娅，为什么……\\n到底是为什么啊！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "可恶！我要……\\n再去见一次那个男人……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "喂，你不会\\n要再去北方吧？",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "尤蒂尔，别这样！\\n那个男人不好对付。就算你去了，\\n也只会遭到他的还击而已！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "可是，我不能就此退缩！\\n塞西娅还在等着我！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "尤蒂尔，\\n以你现在的身体状况是办不到的！\\n至少要先接受治疗！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "是啊！你先休息好，\\n等心情平复了大家再一起……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "你让我怎么平复心情啊！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "塞西娅……还在那家伙手里！\\n我一定要把她救出来！\\n就算搭上我的性命，也绝对要救！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_05"
-            ],
-            "speaker_name": "穆穆",
-            "context": "亲爱的，你冷静一点！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "塞西娅不在！我怎么冷静得下来！\\n就算我待在圣城，塞西娅她，\\n塞西娅她也回不来！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "够了！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01",
-                "100010_05",
-                "100001_09"
-            ],
-            "speaker_name": "全员",
-            "context": "！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "现在不是斗嘴的时候。\\n塞西娅是为了保护我们才被抓住的，\\n请不要辜负她的心意……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "泽娜……\\n……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "大家，对不起……\\n我太冲动了……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这阵子大家\\n就待在圣城养伤吧……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我回房间了。\\n让我一个人静一静……\\n有些事我想独自思考。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01",
-                "100005_05",
-                "100002_01"
-            ],
-            "speaker_name": "全员",
-            "context": "……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_05"
-            ],
-            "speaker_name": "穆穆",
-            "context": "这，亲爱的……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "他现在那副样子，\\n接下来要怎么办才好啊。\\n该死……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "哥哥……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "SYS",
-            "context": "次日——",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "要是我早点说出奈迪犹的事……\\n不，要是我没有让塞西娅\\n被他掳走的话……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100005_05"
-            ],
-            "speaker_name": "沙音",
-            "context": "埃尔菲莉丝，为已经过去的事\\n烦恼也没有意义。虽然很不甘心，\\n但那个男人不是我们能应付的……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "不……我是，输给了自己。\\n输给了自己的迷茫……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "我一直想成为强大的人，\\n为此不断地锻炼自己。\\n但我的内心依旧软弱……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "要怎么做，\\n才能真正变得强大呢……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100005_05"
-            ],
-            "speaker_name": "沙音",
-            "context": "埃尔菲莉丝……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100005_05"
-            ],
-            "speaker_name": "泽娜",
-            "context": "哥哥，我可以进来吗？",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "哦……是泽娜啊……\\n昨天很抱歉……是我失态了……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "要道歉的人是我才对……\\n当时我没有顾及哥哥的心情，\\n把塞西娅留在了那里……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "不……泽娜，你做得对。\\n为了让我们得救而选择\\n留下来的塞西娅也没有错……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "可是，无论如何\\n我都忘不了那个场景。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "哥哥……我……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "我要，留下来……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "是我，让塞西娅不得已说出那种话。\\n我太软弱了，也不够可靠，\\n连和我最亲近的塞西娅都没保护好。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我总是不禁会想——\\n这样的我，\\n有资格统领大家吗……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "哥哥……\\n你果然还是很在意那个人\\n说你不是王族的事……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "身为王室的一员……\\n我一直感到很骄傲。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "阿尔贝琉斯付出自己的生命拯救了\\n这个世界。为了无愧于其名，\\n我拼命保护民众、挽回和平。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我以为这就是自己的使命。\\n之后，我身边逐渐聚集了\\n一群优秀的伙伴和民众。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "可是，如果我不是王室的人，\\n大家会不会\\n就不再需要我了……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "没这回事！\\n哥哥就是哥哥啊！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "我所在的世界里……\\n哥哥被魔神夺走了心智。\\n可是……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "我遇到了这个世界的哥哥——\\n也就是你，我真的很高兴。\\n你也是个既温柔又强大的人……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "泽娜，你错了……\\n我一点都不强大……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "但同时你也非常脆弱！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "！\\n泽娜……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "但伙伴们还是很担心你，\\n这让我再次意识到，\\n无论什么样的你，都是我的哥哥……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "曾跨越无数个世界的我\\n见证过各种各样的未来，\\n也遇到过各种各样的哥哥。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "有无数个世界，就有无数个哥哥。\\n无论什么样的哥哥，\\n都是合乎情理的。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "就算没能成为理想中的自己，\\n只要继续去寻找就好了——\\n寻找另一个、全新的自己。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "另一个、全新的自己……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "对。哥哥一直以来所想的\\n一定都是想变强、维护正义，\\n背负起整个阿尔贝里亚这些事。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "但是，我觉得哥哥\\n可以寻找与这样的哥哥\\n不同的可能性。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "因为世界有无数个，\\n我们也可以无数次重来。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "泽娜……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "今天尤蒂尔\\n也闭门不出吗……\\n好担心他……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100005_05"
-            ],
-            "speaker_name": "沙音",
-            "context": "毕竟他这相当于\\n被人否定了自身的存在……\\n需要一些时间来重新振作吧……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100005_05"
-            ],
-            "speaker_name": "？？？",
-            "context": "各位……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "尤蒂尔！\\n你什么时候出来的！？",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我出来没多久……\\n那个……抱歉让大家担心了。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "你真的没事了吗？",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "嗯……只能说暂时没事了吧。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "喂，什么“暂时”，\\n这可一点都不像你啊。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我也这么认为。但是，\\n这就是我当下的真实心情。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_05"
-            ],
-            "speaker_name": "穆穆",
-            "context": "不过亲爱的，\\n你似乎是释然了呢。\\n看起来更有魅力了！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "那么，尤蒂尔，\\n你接下来打算怎么办？",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "嗯，总之我想先去\\n见一见莱昂尼多哥哥。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "现在我们需要的是情报。\\n关于阿基德和伊莉雅教的，\\n还有关于我自己的……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我觉得哥哥他\\n一定知道一些内情。\\n然后，你们……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "还愿意继续\\n追随这样的我吗……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "你在说什么呢，\\n当然愿意啊！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "是啊！就算你说不行，\\n我也要跟着你！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "殿下……那个，我……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "抱歉让你受苦了，\\n害你背负了重担。",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "不、不对，不是的！\\n我才要……",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "没关系，什么都不用说……\\n埃尔菲莉丝，\\n你也愿意跟我一起来吗？",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "殿下……我当然愿意！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0089",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "嗯，谢谢你。\\n好了各位，我们准备完毕后\\n就立即出发吧！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0090",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "全员",
-            "context": "是！",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0091",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "（大家都为了哥哥……\\n太好了，真是太好了……）",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0092",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "（塞西娅，请等着我。\\n我一定会赶到你身边。\\n与哥哥还有大家一起……）",
-            "voice_line": "VO_CHR_MAINSTORY_15_09_0093",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Having escaped Agito, the party returns to the\\nHalidom. Frustrated at his inability to rescue\\nZethia, the prince argues with his friends and\\nconfines himself in his room. However, he is\\nable to rally thanks to Zena's encouragement,\\nand decides to seek out his brother Leonidas.",
+      "ja_jp": "<ruby><rb>脱出</rb><rt>だっしゅつ</rt></ruby>した<ruby><rb>一行</rb><rt>いっこう</rt></ruby>は<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>まで<ruby><rb>戻</rb><rt>もど</rt></ruby>る。ゼシア<ruby><rb>救出</rb><rt>きゅうしゅつ</rt></ruby>に\\n<ruby><rb>失敗</rb><rt>しっぱい</rt></ruby>した<ruby><rb>自身</rb><rt>じしん</rt></ruby>への<ruby><rb>苛立</rb><rt>いらだ</rt></ruby>ちから、<ruby><rb>王子</rb><rt>おうじ</rt></ruby>は<ruby><rb>仲間</rb><rt>なかま</rt></ruby>と\\nもめて<ruby><rb>自室</rb><rt>じしつ</rt></ruby>に<ruby><rb>籠</rb><rt>こも</rt></ruby>るが、ゼーナに<ruby><rb>励</rb><rt>はげ</rt></ruby>まされて\\n<ruby><rb>立</rb><rt>た</rt></ruby>ち<ruby><rb>直</rb><rt>なお</rt></ruby>る。<ruby><rb>王子</rb><rt>おうじ</rt></ruby>は<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>を<ruby><rb>集</rb><rt>あつ</rt></ruby>めるため、\\nレオニードのもとに<ruby><rb>出向</rb><rt>でむ</rt></ruby>くことを<ruby><rb>決</rb><rt>き</rt></ruby>める。",
+      "zh_cn": "一行人成功脱身回到了圣城。\\n王子因未能救出塞西娅而深深自责，\\n与伙伴们争执后闭门不出。\\n在泽娜的鼓励下，王子重新振作起来。\\n为收集情报，他决定出发去见莱昂尼多。",
+      "zh_tw": "一行人逃離後回到了聖城。\\n王子對自己無法拯救潔西雅感到焦躁，\\n導致與夥伴內鬨並獨自關在房內。\\n後因潔那的鼓勵而振作。\\n為了收集情報，王子決定去造訪雷歐尼特。"
+    }
+  },
+  "prev": "1001508",
+  "next": "1001510",
+  "content": [
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "Is...is everyone all right?",
+        "ja_jp": "うう……。み、みなさん、\\n<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>ですか……。",
+        "zh_cn": "唔唔……\\n大、大家都没事吧……",
+        "zh_tw": "唔嗚……各、各位，\\n你們沒事吧……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0001",
+      "book": ""
+    },
+    {
+      "icon": "100010_05",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "Yes, and... Wait, we're at the Halidom!",
+        "ja_jp": "え、ええ……。ってここは……!? 　\\n<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>じゃないの……！",
+        "zh_cn": "嗯……咦这里是！？\\n这不是圣城吗！",
+        "zh_tw": "呃、嗯……這裡……！？\\n不就是聖城嗎……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0002",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Did you bring us here, Zena?",
+        "ja_jp": "ゼーナ、お<ruby><rb>前</rb><rt>まえ</rt></ruby>がオレたちをここに\\n<ruby><rb>運</rb><rt>はこ</rt></ruby>んでくれたのか!?",
+        "zh_cn": "泽娜，是你把我们\\n带到这里来的吗！？",
+        "zh_tw": "潔那，是妳帶我們到這裡的嗎！？"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0003",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "I did, but...",
+        "ja_jp": "は、はい……みなさんを<ruby><rb>移動</rb><rt>いどう</rt></ruby>させた\\nのは<ruby><rb>私</rb><rt>わたし</rt></ruby>です……ですが……。",
+        "zh_cn": "是、是的……\\n把大家转移到这里的\\n确实是我……可是……",
+        "zh_tw": "是、是的……\\n讓大家移動的是我沒錯……\\n不過……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0004",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "But I am unsure how, to be honest.\\nMy power should not have been able\\nto take us much of a distance, let alone\\nall the way back here.",
+        "ja_jp": "これほどの<ruby><rb>距離</rb><rt>きょり</rt></ruby>を、しかも<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>へと\\n<ruby><rb>辿</rb><rt>たど</rt></ruby>り<ruby><rb>着</rb><rt>つ</rt></ruby>く<ruby><rb>能力</rb><rt>のうりょく</rt></ruby>は<ruby><rb>私</rb><rt>わたし</rt></ruby>にも……。\\nいったいどうしてここに……。",
+        "zh_cn": "我的能力并不足以把大家\\n带得这么远，更别说是圣城了……\\n到底是怎么来到这里的……",
+        "zh_tw": "移動這麼遠的距離，還要抵達聖城，\\n這樣的力量就算是我也……\\n究竟為什麼會在這裡……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0005",
+      "book": ""
+    },
+    {
+      "icon": "100005_05",
+      "name": {
+        "en_us": "Alex",
+        "ja_jp": "シャノン",
+        "zh_cn": "沙音",
+        "zh_tw": "夏儂"
+      },
+      "context": {
+        "en_us": "Regardless, we are now safe,\\nbut I fear the Auspex is missing.",
+        "ja_jp": "おれたちは<ruby><rb>助</rb><rt>たす</rt></ruby>かったが、\\nゼシア<ruby><rb>様</rb><rt>さま</rt></ruby>が……。",
+        "zh_cn": "我们倒是得救了，\\n可是塞西娅大人她……",
+        "zh_tw": "我們得救了，但潔西雅大人她……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0006",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Not just Zethia—Valyx isn't here, either.",
+        "ja_jp": "……ゼシアだけじゃない。\\nヴァルクス<ruby><rb>兄</rb><rt>にい</rt></ruby>さんもいない。",
+        "zh_cn": "不光是塞西娅……\\n巴尔库斯哥哥也不在。",
+        "zh_tw": "……不只是潔西雅。\\n范爾克斯哥哥也不在。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0007",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I couldn't save them. I failed. AGAIN.",
+        "ja_jp": "<ruby><rb>助</rb><rt>たす</rt></ruby>けられなかった……。\\nまた、<ruby><rb>失敗</rb><rt>しっぱい</rt></ruby>したんだ……。",
+        "zh_cn": "我没能救出塞西娅……\\n又失败了……",
+        "zh_tw": "我沒能拯救他們……\\n我又、失敗了……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0008",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "Brother...",
+        "ja_jp": "<ruby><rb>兄</rb><rt>にい</rt></ruby>さま……。",
+        "zh_cn": "哥哥……",
+        "zh_tw": "哥哥大人……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0009",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Why did you DO that, Zethia?!",
+        "ja_jp": "ゼシア、どうしてっ……！\\nどうしてなんだ……！",
+        "zh_cn": "塞西娅，为什么……\\n到底是为什么啊！",
+        "zh_tw": "潔西雅，為什麼……！\\n到底是為什麼……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0010",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Damn it all! I'll do it all over again!\\nI'll take on that man as many times\\nas it takes! We're going back!",
+        "ja_jp": "くそ！　もう<ruby><rb>一度</rb><rt>いちど</rt></ruby>……。\\nもう<ruby><rb>一度</rb><rt>いちど</rt></ruby>あの<ruby><rb>男</rb><rt>おとこ</rt></ruby>に……。",
+        "zh_cn": "可恶！我要……\\n再去见一次那个男人……",
+        "zh_tw": "可惡！我要再次……\\n再次去見那個男人……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0011",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Wait, hang on. You wanna go BACK?!",
+        "ja_jp": "お、おい、まさか、\\nまた<ruby><rb>北</rb><rt>きた</rt></ruby>へ<ruby><rb>戻</rb><rt>もど</rt></ruby>ろうっていうのかよ！",
+        "zh_cn": "喂，你不会\\n要再去北方吧？",
+        "zh_tw": "呃、喂，\\n你不會打算要再去北方吧！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0012",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Ain't no nice way to say this, boss—\\nwe just got our damn butts handed to us.\\nAnd if you go marchin' back there now,\\nit plays right into that jerk's hands.",
+        "ja_jp": "ユーディル、やめろ！\\nあいつは<ruby><rb>手強</rb><rt>てごわ</rt></ruby>い。<ruby><rb>行</rb><rt>い</rt></ruby>ったところで\\nまた<ruby><rb>返</rb><rt>かえ</rt></ruby>り<ruby><rb>討</rb><rt>う</rt></ruby>ちに<ruby><rb>遭</rb><rt>あ</rt></ruby>うだけだ……！",
+        "zh_cn": "尤蒂尔，别这样！\\n那个男人不好对付。就算你去了，\\n也只会遭到他的还击而已！",
+        "zh_tw": "尤帝爾，別這樣！\\n那傢伙很棘手。就算你現在去，\\n也只會反被攻擊而已……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0013",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "We can't stop now, Ranzal.\\nZethia needs me.",
+        "ja_jp": "だが、このまま<ruby><rb>引</rb><rt>ひ</rt></ruby>き<ruby><rb>下</rb><rt>さ</rt></ruby>がるわけにはいか\\nない！　ゼシアが、<ruby><rb>待</rb><rt>ま</rt></ruby>っているんだ！",
+        "zh_cn": "可是，我不能就此退缩！\\n塞西娅还在等着我！",
+        "zh_tw": "可是，我不能就這樣退縮！\\n潔西雅還在等我！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0014",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "And yet many of us are wounded.\\nYou must allow everyone time to heal.",
+        "ja_jp": "ユーディル、\\n<ruby><rb>今</rb><rt>いま</rt></ruby>のあなたの<ruby><rb>体</rb><rt>からだ</rt></ruby>では<ruby><rb>無茶</rb><rt>むちゃ</rt></ruby>です！\\nせめて<ruby><rb>治療</rb><rt>ちりょう</rt></ruby>を<ruby><rb>受</rb><rt>う</rt></ruby>けてください！",
+        "zh_cn": "尤蒂尔，\\n以你现在的身体状况是办不到的！\\n至少要先接受治疗！",
+        "zh_tw": "尤帝爾，\\n依你現在的身體太勉強了！\\n至少要先接受治療才行！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0015",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Everybody's right. Let's all just calm down\\nfor a hot second and then—",
+        "ja_jp": "そうだよ……！　しっかり<ruby><rb>休</rb><rt>やす</rt></ruby>んで、\\n<ruby><rb>気持</rb><rt>きも</rt></ruby>ちが<ruby><rb>落</rb><rt>お</rt></ruby>ち<ruby><rb>着</rb><rt>つ</rt></ruby>いたらみんなで――",
+        "zh_cn": "是啊！你先休息好，\\n等心情平复了大家再一起……",
+        "zh_tw": "對啊……！\\n你先好好休息，\\n等冷靜了之後，再大家一起──"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0016",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Calm down? CALM DOWN?! How in the\\nHELL am I supposed to calm down, Notte?!",
+        "ja_jp": "<ruby><rb>落</rb><rt>お</rt></ruby>ち<ruby><rb>着</rb><rt>つ</rt></ruby>いてなんかいられるものかっ!!",
+        "zh_cn": "你让我怎么平复心情啊！",
+        "zh_tw": "妳要我怎麼冷靜！！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0017",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "…………！",
+        "zh_cn": "！",
+        "zh_tw": "…………！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0018",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "That man has Zethia, and I am going to\\nsave her! And if that means I die trying\\nto do it, I don't really much care!",
+        "ja_jp": "ゼシアが……あいつに<ruby><rb>奪</rb><rt>うば</rt></ruby>われたまま\\nなんだ！　<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby>に<ruby><rb>助</rb><rt>たす</rt></ruby>けるんだ……！\\nおれの<ruby><rb>命</rb><rt>いのち</rt></ruby>に<ruby><rb>替</rb><rt>か</rt></ruby>えてでも、<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby>に……！",
+        "zh_cn": "塞西娅……还在那家伙手里！\\n我一定要把她救出来！\\n就算搭上我的性命，也绝对要救！",
+        "zh_tw": "潔西雅……還在那傢伙手上！\\n我絕對要救她……！\\n就算拿我的命去換，也絕對……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0019",
+      "book": ""
+    },
+    {
+      "icon": "100010_05",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "Darling, you cannot—",
+        "ja_jp": "ダーリン、<ruby><rb>落</rb><rt>お</rt></ruby>ち<ruby><rb>着</rb><rt>つ</rt></ruby>いて！\\n<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>冷静</rb><rt>れいせい</rt></ruby>になるのよ！",
+        "zh_cn": "亲爱的，你冷静一点！",
+        "zh_tw": "達令，別這樣！\\n你冷靜一點！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0020",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Zethia is GONE! Do any of you see that?\\nShe's gone, and staying here in the\\nHalidom isn't going to—",
+        "ja_jp": "ゼシアがいないんだ！　<ruby><rb>冷静</rb><rt>れいせい</rt></ruby>になれる\\nはずがない！　このまま\\n<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>にいても、ゼシアは、ゼシアは！",
+        "zh_cn": "塞西娅不在！我怎么冷静得下来！\\n就算我待在圣城，塞西娅她，\\n塞西娅她也回不来！",
+        "zh_tw": "潔西雅不在！我怎麼冷靜得下來！\\n就算這種情況下待在聖城，\\n潔西雅、潔西雅她！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0021",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "ENOUGH!",
+        "ja_jp": "やめてください――！",
+        "zh_cn": "够了！",
+        "zh_tw": "請別再說了──！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0022",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "全員",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "…………！",
+        "zh_cn": "！",
+        "zh_tw": "…………！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0023",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "This is no time for us to squabble amongst\\nourselves. Think of Zethia—of how she\\ngave all to see us safe. Do not permit\\nher choice and sacrifice to be in vain.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>はもめているときではありません。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>たちを<ruby><rb>庇</rb><rt>かば</rt></ruby>い、<ruby><rb>囚</rb><rt>とら</rt></ruby>われたゼシアの\\n<ruby><rb>気持</rb><rt>きも</rt></ruby>ちを<ruby><rb>無駄</rb><rt>むだ</rt></ruby>にしないでください……。",
+        "zh_cn": "现在不是斗嘴的时候。\\n塞西娅是为了保护我们才被抓住的，\\n请不要辜负她的心意……",
+        "zh_tw": "現在不是起內鬨的時候。\\n請各位別白費潔西雅她為了保護我們，\\n而自願被禁錮的心意……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0024",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Zena, I...",
+        "ja_jp": "ゼーナ……。\\n…………。",
+        "zh_cn": "泽娜……\\n……",
+        "zh_tw": "潔那……\\n…………"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0025",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "...I'm sorry. I'm sorry to all of you.\\nI never should have said those things.",
+        "ja_jp": "みんな、すまなかった……。\\n<ruby><rb>声</rb><rt>こえ</rt></ruby>を<ruby><rb>荒</rb><rt>あら</rt></ruby>げてしまって……。",
+        "zh_cn": "大家，对不起……\\n我太冲动了……",
+        "zh_tw": "各位，真的很抱歉……\\n對你們大吼……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0026",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Take some time to rest up here in\\nthe Halidom.",
+        "ja_jp": "……みんなは、しばらく<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>で\\n<ruby><rb>傷</rb><rt>きず</rt></ruby>を<ruby><rb>癒</rb><rt>いや</rt></ruby>してくれ。",
+        "zh_cn": "这阵子大家\\n就待在圣城养伤吧……",
+        "zh_tw": "……大家這陣子就在聖城療傷吧。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0027",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'm heading to my quarters.\\nI need some time to think.",
+        "ja_jp": "おれは<ruby><rb>部屋</rb><rt>へや</rt></ruby>に<ruby><rb>戻</rb><rt>もど</rt></ruby>るよ――。\\n<ruby><rb>少</rb><rt>すこ</rt></ruby>し、<ruby><rb>放</rb><rt>ほう</rt></ruby>っておいてくれ……。\\nひとりで<ruby><rb>考</rb><rt>かんが</rt></ruby>えたいことがあるんだ。",
+        "zh_cn": "我回房间了。\\n让我一个人静一静……\\n有些事我想独自思考。",
+        "zh_tw": "我先回房間了──\\n讓我稍微靜一靜……\\n我想單獨考慮一些事。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0028",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "全員",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0029",
+      "book": ""
+    },
+    {
+      "icon": "100010_05",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "Oh, my darling...",
+        "ja_jp": "そんな、ダーリン……。",
+        "zh_cn": "这，亲爱的……",
+        "zh_tw": "怎麼會，達令……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0030",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Well, he's in a hell of a state.",
+        "ja_jp": "あいつがあんな<ruby><rb>調子</rb><rt>ちょうし</rt></ruby>じゃ、これから\\nどうすりゃいいってんだよ、くそ……。",
+        "zh_cn": "他现在那副样子，\\n接下来要怎么办才好啊。\\n该死……",
+        "zh_tw": "那傢伙變成那個樣子，\\n接下來要怎麼辦啊，\\n可惡……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0031",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "Euden...",
+        "ja_jp": "<ruby><rb>兄</rb><rt>にい</rt></ruby>さま……。",
+        "zh_cn": "哥哥……",
+        "zh_tw": "哥哥大人……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0032",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "The next day...",
+        "ja_jp": "<ruby><rb>翌日</rb><rt>よくじつ</rt></ruby>――",
+        "zh_cn": "次日——",
+        "zh_tw": "隔天──"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "If only I had confessed what I knew about\\nNedrick—or if I simply hadn't failed and\\nallowed Zethia to be taken at all!",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>が、ネデウのことを<ruby><rb>打</rb><rt>う</rt></ruby>ち<ruby><rb>明</rb><rt>あ</rt></ruby>けていれば\\n……いや、そもそもゼシア<ruby><rb>様</rb><rt>さま</rt></ruby>を<ruby><rb>奪</rb><rt>うば</rt></ruby>われ\\nていなければ……。",
+        "zh_cn": "要是我早点说出奈迪犹的事……\\n不，要是我没有让塞西娅\\n被他掳走的话……",
+        "zh_tw": "要是我早點說出涅帝爾的事……\\n不，說到底，\\n如果我沒有讓潔西雅大人被奪走……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0033",
+      "book": ""
+    },
+    {
+      "icon": "100005_05",
+      "name": {
+        "en_us": "Alex",
+        "ja_jp": "シャノン",
+        "zh_cn": "沙音",
+        "zh_tw": "夏儂"
+      },
+      "context": {
+        "en_us": "The past is the past, Elisanne. And vexing\\nthough it may be, you simply were not on\\nNedrick's level—NONE of us were.",
+        "ja_jp": "エルフィリス、<ruby><rb>過</rb><rt>す</rt></ruby>ぎたことを<ruby><rb>悩</rb><rt>なや</rt></ruby>んで\\nいても<ruby><rb>仕方</rb><rt>しかた</rt></ruby>がない。<ruby><rb>悔</rb><rt>くや</rt></ruby>しいがあの<ruby><rb>男</rb><rt>おとこ</rt></ruby>は\\nおれたちが<ruby><rb>敵</rb><rt>かな</rt></ruby>う<ruby><rb>相手</rb><rt>あいて</rt></ruby>ではなかった……。",
+        "zh_cn": "埃尔菲莉丝，为已经过去的事\\n烦恼也没有意义。虽然很不甘心，\\n但那个男人不是我们能应付的……",
+        "zh_tw": "耶魯菲莉絲，過去的事再後悔也沒用。\\n雖然很不甘心，\\n但我們並非那個男人的對手……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0034",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "No. I lost to myself—to my own hesitation.",
+        "ja_jp": "いや……<ruby><rb>私</rb><rt>わたし</rt></ruby>は、<ruby><rb>自分</rb><rt>じぶん</rt></ruby>に<ruby><rb>負</rb><rt>ま</rt></ruby>けたのだ。\\n<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>迷</rb><rt>まよ</rt></ruby>いに……。",
+        "zh_cn": "不……我是，输给了自己。\\n输给了自己的迷茫……",
+        "zh_tw": "不……我輸給了自己。\\n輸給了自己的迷惘……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0035",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "I wanted to be strong. I set my eyes upon\\nthis goal and trained my body—but I failed\\nto train my heart.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>は、<ruby><rb>強</rb><rt>つよ</rt></ruby>い<ruby><rb>人間</rb><rt>にんげん</rt></ruby>になりたかった。\\nそのために<ruby><rb>鍛錬</rb><rt>たんれん</rt></ruby>を<ruby><rb>積</rb><rt>つ</rt></ruby>み<ruby><rb>重</rb><rt>かさ</rt></ruby>ねた。\\nだが、<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>心</rb><rt>こころ</rt></ruby>はいまだ<ruby><rb>弱</rb><rt>よわ</rt></ruby>いままだ……。",
+        "zh_cn": "我一直想成为强大的人，\\n为此不断地锻炼自己。\\n但我的内心依旧软弱……",
+        "zh_tw": "我原本想成為強大的人。\\n也為此不斷地鍛鍊自己。\\n但是，我的內心卻仍然很軟弱……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0036",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "What must I do to find true strength?",
+        "ja_jp": "<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>の<ruby><rb>強</rb><rt>つよ</rt></ruby>さを<ruby><rb>手</rb><rt>て</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>れるために、\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>何</rb><rt>なに</rt></ruby>をすればいいのだ……。",
+        "zh_cn": "要怎么做，\\n才能真正变得强大呢……",
+        "zh_tw": "為了獲得真正的強大，\\n我到底該怎麼做才好……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0037",
+      "book": ""
+    },
+    {
+      "icon": "100005_05",
+      "name": {
+        "en_us": "Alex",
+        "ja_jp": "シャノン",
+        "zh_cn": "沙音",
+        "zh_tw": "夏儂"
+      },
+      "context": {
+        "en_us": "Oh, Elisanne...",
+        "ja_jp": "エルフィリス……。",
+        "zh_cn": "埃尔菲莉丝……",
+        "zh_tw": "耶魯菲莉絲……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0038",
+      "book": ""
+    },
+    {
+      "icon": "100005_05",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "Brother? May I come in?",
+        "ja_jp": "<ruby><rb>兄</rb><rt>にい</rt></ruby>さま、<ruby><rb>入</rb><rt>はい</rt></ruby>ってもよろしいですか……？",
+        "zh_cn": "哥哥，我可以进来吗？",
+        "zh_tw": "哥哥大人，我可以進去嗎……？"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0039",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Of course, Zena—and before you say\\nanything, I have to apologize again for\\nyesterday. I lost my temper, and I'm sorry.",
+        "ja_jp": "ああ……ゼーナ……。\\n<ruby><rb>昨日</rb><rt>きのう</rt></ruby>はごめん……<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>乱</rb><rt>みだ</rt></ruby>してしまって。",
+        "zh_cn": "哦……是泽娜啊……\\n昨天很抱歉……是我失态了……",
+        "zh_tw": "嗯……潔那……\\n昨天很抱歉……我當時有點混亂。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0040",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "It is I who must apologize; I ignored\\nyour wishes and left Zethia behind.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>こそ<ruby><rb>謝</rb><rt>あやま</rt></ruby>るべきです……。\\nあのとき、<ruby><rb>兄</rb><rt>にい</rt></ruby>さまの<ruby><rb>気持</rb><rt>きも</rt></ruby>ちを<ruby><rb>聞</rb><rt>き</rt></ruby>かずに\\nゼシアを<ruby><rb>残</rb><rt>のこ</rt></ruby>してしまって……。",
+        "zh_cn": "要道歉的人是我才对……\\n当时我没有顾及哥哥的心情，\\n把塞西娅留在了那里……",
+        "zh_tw": "我才應該道歉……\\n那個時候，我沒顧及哥哥大人的想法，\\n就留下了潔西雅……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0041",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "And it was the right decision.\\nI understand that now.",
+        "ja_jp": "いや……ゼーナ、きみが<ruby><rb>正</rb><rt>ただ</rt></ruby>しかった。\\nおれたちを<ruby><rb>助</rb><rt>たす</rt></ruby>けるためにあの<ruby><rb>場</rb><rt>ば</rt></ruby>に<ruby><rb>残</rb><rt>のこ</rt></ruby>った\\nゼシアも……。",
+        "zh_cn": "不……泽娜，你做得对。\\n为了让我们得救而选择\\n留下来的塞西娅也没有错……",
+        "zh_tw": "不……潔那，妳是對的。\\n為了救我們自願留下的潔西雅也是……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0042",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "But still, every time I close my eyes\\nI see her and it...it just...",
+        "ja_jp": "でも、あの<ruby><rb>瞬間</rb><rt>しゅんかん</rt></ruby>が、\\nどうしても<ruby><rb>忘</rb><rt>わす</rt></ruby>れられないんだ。",
+        "zh_cn": "可是，无论如何\\n我都忘不了那个场景。",
+        "zh_tw": "只是，那個瞬間，\\n我無論如何都忘不掉。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0043",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "Euden, I...",
+        "ja_jp": "<ruby><rb>兄</rb><rt>にい</rt></ruby>さま……<ruby><rb>私</rb><rt>わたし</rt></ruby>は……。",
+        "zh_cn": "哥哥……我……",
+        "zh_tw": "哥哥大人……我……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0044",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "I will remain here.",
+        "ja_jp": "ここに、<ruby><rb>残</rb><rt>のこ</rt></ruby>ります……。",
+        "zh_cn": "我要，留下来……",
+        "zh_tw": "我要、留在這裡……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0045",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I forced Zethia to say those words.\\nBy the Goddess, I'm pathetic! She is the\\nclosest person in the world to me, and I'm\\nso unreliable that I couldn't save her.",
+        "ja_jp": "おれは、ゼシアにあんなことを<ruby><rb>言</rb><rt>い</rt></ruby>わせて\\nしまった。<ruby><rb>一番</rb><rt>いちばん</rt></ruby><ruby><rb>身近</rb><rt>みぢか</rt></ruby>なゼシアすら<ruby><rb>守</rb><rt>まも</rt></ruby>れ\\nないほど、おれは、<ruby><rb>弱</rb><rt>よわ</rt></ruby>くて、<ruby><rb>頼</rb><rt>たよ</rt></ruby>りない。",
+        "zh_cn": "是我，让塞西娅不得已说出那种话。\\n我太软弱了，也不够可靠，\\n连和我最亲近的塞西娅都没保护好。",
+        "zh_tw": "是我讓潔西雅說出那種話的。\\n因為我軟弱又不可靠，\\n甚至連最親近的潔西雅都保護不了。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0046",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I find myself asking whether I have the\\nright to lead anyone.",
+        "ja_jp": "そんなおれに、みんなをまとめる<ruby><rb>資格</rb><rt>しかく</rt></ruby>が\\nあるだろうか――。そんな<ruby><rb>風</rb><rt>ふう</rt></ruby>に<ruby><rb>思</rb><rt>おも</rt></ruby>って\\nしまう<ruby><rb>自分</rb><rt>じぶん</rt></ruby>がいて……。",
+        "zh_cn": "我总是不禁会想——\\n这样的我，\\n有资格统领大家吗……",
+        "zh_tw": "這樣的我，有資格率領大家嗎──\\n我不禁會這麼想……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0047",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "Nedrick's claim that you are not of\\nthe royal bloodline is troubling you.",
+        "ja_jp": "<ruby><rb>兄</rb><rt>にい</rt></ruby>さま……やはり、<ruby><rb>王家</rb><rt>おうけ</rt></ruby>の<ruby><rb>人間</rb><rt>にんげん</rt></ruby>ではない\\nと<ruby><rb>言</rb><rt>い</rt></ruby>われたことを<ruby><rb>気</rb><rt>き</rt></ruby>にされて……。",
+        "zh_cn": "哥哥……\\n你果然还是很在意那个人\\n说你不是王族的事……",
+        "zh_tw": "哥哥大人……您果然很介意\\n對方說您不是王家成員……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0048",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I was proud to be a member of that family.",
+        "ja_jp": "……おれにとって、<ruby><rb>王家</rb><rt>おうけ</rt></ruby>の<ruby><rb>一員</rb><rt>いちいん</rt></ruby>で\\nあることは、<ruby><rb>大</rb><rt>おお</rt></ruby>きな<ruby><rb>誇</rb><rt>ほこ</rt></ruby>りだったんだ。",
+        "zh_cn": "身为王室的一员……\\n我一直感到很骄傲。",
+        "zh_tw": "……對我而言，身為王家的一員，\\n曾是我很大的榮耀。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0049",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Alberius gave his life to save the world,\\nand I wanted to live up to that. I wanted\\nto bring honor to his name, protect my\\npeople, and return peace to the world.",
+        "ja_jp": "<ruby><rb>自</rb><rt>みずか</rt></ruby>らの<ruby><rb>命</rb><rt>いのち</rt></ruby>と<ruby><rb>引</rb><rt>ひ</rt></ruby>き<ruby><rb>換</rb><rt>か</rt></ruby>えに<ruby><rb>世界</rb><rt>せかい</rt></ruby>を<ruby><rb>救</rb><rt>すく</rt></ruby>った\\nアルべリウスの<ruby><rb>名</rb><rt>な</rt></ruby>に<ruby><rb>恥</rb><rt>は</rt></ruby>じぬよう、\\n<ruby><rb>民</rb><rt>たみ</rt></ruby>たちを<ruby><rb>守</rb><rt>まも</rt></ruby>り、<ruby><rb>平和</rb><rt>へいわ</rt></ruby>を<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>戻</rb><rt>もど</rt></ruby>す。",
+        "zh_cn": "阿尔贝琉斯付出自己的生命拯救了\\n这个世界。为了无愧于其名，\\n我拼命保护民众、挽回和平。",
+        "zh_tw": "為了不辱賭上性命拯救世界的\\n阿爾博流斯之名，\\n我要守護人民，取回和平。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0050",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I believed that was my destiny—and I\\nconvinced so many incredible friends\\nand citizens of the same.",
+        "ja_jp": "それが、<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>使命</rb><rt>しめい</rt></ruby>だと<ruby><rb>思</rb><rt>おも</rt></ruby>ってきた。\\nそして、おれの<ruby><rb>周</rb><rt>まわ</rt></ruby>りに、<ruby><rb>素晴</rb><rt>すば</rt></ruby>らしい\\n<ruby><rb>仲間</rb><rt>なかま</rt></ruby>や<ruby><rb>民</rb><rt>たみ</rt></ruby>たちが<ruby><rb>集</rb><rt>あつ</rt></ruby>まってきてくれた。",
+        "zh_cn": "我以为这就是自己的使命。\\n之后，我身边逐渐聚集了\\n一群优秀的伙伴和民众。",
+        "zh_tw": "我一直將那當作自己的使命。\\n然後，在我的周遭，\\n逐漸聚集了很棒的夥伴與人民。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0051",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "But if I'm not even a royal...\\ndo they even need me?",
+        "ja_jp": "でも、もしおれが<ruby><rb>王家</rb><rt>おうけ</rt></ruby>の<ruby><rb>人間</rb><rt>にんげん</rt></ruby>ではない\\nなら、みんながおれを、<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>と\\nしなくなるんじゃないかって……。",
+        "zh_cn": "可是，如果我不是王室的人，\\n大家会不会\\n就不再需要我了……",
+        "zh_tw": "可是，如果我並非王家成員，\\n大家會不會就不需要我了……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0052",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "You remain the man you are, my brother,\\nregardless of the blood in your veins.",
+        "ja_jp": "そんなことありません……！\\n<ruby><rb>兄</rb><rt>にい</rt></ruby>さまは<ruby><rb>兄</rb><rt>にい</rt></ruby>さまです！",
+        "zh_cn": "没这回事！\\n哥哥就是哥哥啊！",
+        "zh_tw": "沒有那種事……！\\n哥哥大人就是哥哥大人！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0053",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "In my world, if you remember,\\nyou lost your heart to the Other.",
+        "ja_jp": "……<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>では、<ruby><rb>兄</rb><rt>にい</rt></ruby>さまは<ruby><rb>魔神</rb><rt>まじん</rt></ruby>に<ruby><rb>心</rb><rt>こころ</rt></ruby>を\\n<ruby><rb>奪</rb><rt>うば</rt></ruby>われてしまいました。でも――",
+        "zh_cn": "我所在的世界里……\\n哥哥被魔神夺走了心智。\\n可是……",
+        "zh_tw": "……在我的世界，\\n哥哥大人被魔神奪走了心。\\n但是──"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0054",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "I was so happy when I met you in this\\nworld. You were kind and strong and—",
+        "ja_jp": "この<ruby><rb>世界</rb><rt>せかい</rt></ruby>の<ruby><rb>兄</rb><rt>にい</rt></ruby>さま――あなたに<ruby><rb>会</rb><rt>あ</rt></ruby>えて、\\n<ruby><rb>嬉</rb><rt>うれ</rt></ruby>しかった。あなたもまた、とても\\n<ruby><rb>優</rb><rt>やさ</rt></ruby>しくて、<ruby><rb>強</rb><rt>つよ</rt></ruby>くて――。",
+        "zh_cn": "我遇到了这个世界的哥哥——\\n也就是你，我真的很高兴。\\n你也是个既温柔又强大的人……",
+        "zh_tw": "我能見到這個世界的哥哥大人──\\n能見到您，我非常高興。\\n而且您依然那麼溫柔並堅強──"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0055",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "No. I'm not strong. Not at all.",
+        "ja_jp": "ゼーナ、<ruby><rb>違</rb><rt>ちが</rt></ruby>うよ……。\\nおれは<ruby><rb>全然</rb><rt>ぜんぜん</rt></ruby><ruby><rb>強</rb><rt>つよ</rt></ruby>くなんか――",
+        "zh_cn": "泽娜，你错了……\\n我一点都不强大……",
+        "zh_tw": "潔那，妳誤會了……\\n我一點都不堅強──"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0056",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "AND...you also have many weaknesses.",
+        "ja_jp": "でもそれ<ruby><rb>以上</rb><rt>いじょう</rt></ruby>に、<ruby><rb>弱</rb><rt>よわ</rt></ruby>いところも\\nたくさんあって！",
+        "zh_cn": "但同时你也非常脆弱！",
+        "zh_tw": "但也有更多脆弱的部分！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0057",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Zena?!",
+        "ja_jp": "…………！\\nゼーナ……。",
+        "zh_cn": "！\\n泽娜……",
+        "zh_tw": "…………！\\n潔那……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0058",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "Yet even so, when I saw how much your\\nfriends worried about you, I knew you to\\nbe my true brother.",
+        "ja_jp": "それでも、<ruby><rb>仲間</rb><rt>なかま</rt></ruby>がいっぱい<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>して\\nくれて、<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>改</rb><rt>あらた</rt></ruby>めて<ruby><rb>気</rb><rt>き</rt></ruby>づいたんです。\\nどんな<ruby><rb>兄</rb><rt>にい</rt></ruby>さまも、<ruby><rb>兄</rb><rt>にい</rt></ruby>さまだって……。",
+        "zh_cn": "但伙伴们还是很担心你，\\n这让我再次意识到，\\n无论什么样的你，都是我的哥哥……",
+        "zh_tw": "即使如此，夥伴還是非常擔心您，\\n讓我再次體會到一件事。\\n無論是怎樣的哥哥大人，都不會變……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0059",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "I have crossed uncountable worlds and\\nseen myriad futures, and found many\\ndifferent versions of you.",
+        "ja_jp": "<ruby><rb>数多</rb><rt>あまた</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>を<ruby><rb>巡</rb><rt>めぐ</rt></ruby>った<ruby><rb>私</rb><rt>わたし</rt></ruby>は、いろいろな\\n<ruby><rb>未来</rb><rt>みらい</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>てきました。<ruby><rb>同</rb><rt>おな</rt></ruby>じように、\\nいろいろな<ruby><rb>兄</rb><rt>にい</rt></ruby>さまにも<ruby><rb>出会</rb><rt>であ</rt></ruby>いました。",
+        "zh_cn": "曾跨越无数个世界的我\\n见证过各种各样的未来，\\n也遇到过各种各样的哥哥。",
+        "zh_tw": "我走過眾多世界，看過各種未來。\\n也同樣遇見過不同的哥哥大人。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0060",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "For every world, there is a you.\\nEvery sort of you has a right to exist.",
+        "ja_jp": "<ruby><rb>世界</rb><rt>せかい</rt></ruby>はいくつもあって、その<ruby><rb>世界</rb><rt>せかい</rt></ruby>の<ruby><rb>数</rb><rt>かず</rt></ruby>\\nだけ<ruby><rb>兄</rb><rt>にい</rt></ruby>さまがいます。どんな<ruby><rb>兄</rb><rt>にい</rt></ruby>さまが\\nいたっていいんです。",
+        "zh_cn": "有无数个世界，就有无数个哥哥。\\n无论什么样的哥哥，\\n都是合乎情理的。",
+        "zh_tw": "世界有無數個，\\n哥哥大人就有無數個。\\n所以無論是怎樣的哥哥大人都沒關係。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0061",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "Even if the person you thought you were\\nis no more, it means only that you must\\nset out to find a new and different you.",
+        "ja_jp": "<ruby><rb>自分</rb><rt>じぶん</rt></ruby>が<ruby><rb>思</rb><rt>おも</rt></ruby>っていた<ruby><rb>自分</rb><rt>じぶん</rt></ruby>になれなくても、\\nまた、<ruby><rb>探</rb><rt>さが</rt></ruby>しにいけばいいんです。\\n<ruby><rb>新</rb><rt>あたら</rt></ruby>しい、<ruby><rb>別</rb><rt>べつ</rt></ruby>の<ruby><rb>自分</rb><rt>じぶん</rt></ruby>を――。",
+        "zh_cn": "就算没能成为理想中的自己，\\n只要继续去寻找就好了——\\n寻找另一个、全新的自己。",
+        "zh_tw": "就算無法成為自己認為的自己，\\n只要再去尋找就好了。\\n嶄新的，另一個自己──"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0062",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "A new me...",
+        "ja_jp": "<ruby><rb>新</rb><rt>あたら</rt></ruby>しい、<ruby><rb>別</rb><rt>べつ</rt></ruby>の<ruby><rb>自分</rb><rt>じぶん</rt></ruby>……。",
+        "zh_cn": "另一个、全新的自己……",
+        "zh_tw": "嶄新的，另一個自己……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0063",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "All this time, you've thought of yourself\\nas someone who has to be strong and\\njust—a person who bears the future of\\nAlberia on his shoulders.",
+        "ja_jp": "ええ。<ruby><rb>兄</rb><rt>にい</rt></ruby>さまはこれまで、<ruby><rb>強</rb><rt>つよ</rt></ruby>くあろう\\n<ruby><rb>正</rb><rt>ただ</rt></ruby>しくあろう、アルベリアを<ruby><rb>背負</rb><rt>せお</rt></ruby>おう、\\nそう<ruby><rb>考</rb><rt>かんが</rt></ruby>えてきたのだと<ruby><rb>思</rb><rt>おも</rt></ruby>います。",
+        "zh_cn": "对。哥哥一直以来所想的\\n一定都是想变强、维护正义，\\n背负起整个阿尔贝里亚这些事。",
+        "zh_tw": "是的。我想哥哥大人至今的想法，\\n都要讓自己變強大，走在正道，\\n並且背負阿爾貝利亞。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0064",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "But instead of holding on to the person\\nyou thought you were—or needed to be—\\nyou should set out to find the one you ARE.",
+        "ja_jp": "ですが、そんな<ruby><rb>兄</rb><rt>にい</rt></ruby>さまとは<ruby><rb>別</rb><rt>べつ</rt></ruby>の\\n<ruby><rb>兄</rb><rt>にい</rt></ruby>さまを<ruby><rb>探</rb><rt>さが</rt></ruby>してみるのも、\\nいいと<ruby><rb>思</rb><rt>おも</rt></ruby>うんです。",
+        "zh_cn": "但是，我觉得哥哥\\n可以寻找与这样的哥哥\\n不同的可能性。",
+        "zh_tw": "不過，我覺得可以試著尋找\\n和過去不同的哥哥大人。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0065",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "There are many worlds, and you can start\\nover as many times as you wish.",
+        "ja_jp": "<ruby><rb>世界</rb><rt>せかい</rt></ruby>はいくつもあって、いくらでも\\nやり<ruby><rb>直</rb><rt>なお</rt></ruby>せるのですから――。",
+        "zh_cn": "因为世界有无数个，\\n我们也可以无数次重来。",
+        "zh_tw": "因為世界有無數個，\\n不管幾次都能重新來過──"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0066",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Do you really think so?",
+        "ja_jp": "ゼーナ……。",
+        "zh_cn": "泽娜……",
+        "zh_tw": "潔那……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0067",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Euden has been cooped\\nup in his room all day.\\nIt worries me.",
+        "ja_jp": "ユーディルは、<ruby><rb>今日</rb><rt>きょう</rt></ruby>も<ruby><rb>部屋</rb><rt>へや</rt></ruby>に\\n<ruby><rb>籠</rb><rt>こも</rt></ruby>りきりなのでしょうか……。\\n<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>ですね……。",
+        "zh_cn": "今天尤蒂尔\\n也闭门不出吗……\\n好担心他……",
+        "zh_tw": "尤帝爾，\\n不曉得今天會不會也窩在房裡……\\n真讓人擔心……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0068",
+      "book": ""
+    },
+    {
+      "icon": "100005_05",
+      "name": {
+        "en_us": "Alex",
+        "ja_jp": "シャノン",
+        "zh_cn": "沙音",
+        "zh_tw": "夏儂"
+      },
+      "context": {
+        "en_us": "He just had his entire life torn out from\\nunder him. It will take him some time\\nto rally back from that.",
+        "ja_jp": "<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>存在</rb><rt>そんざい</rt></ruby>を<ruby><rb>否定</rb><rt>ひてい</rt></ruby>されたようなもの\\nだからな……。<ruby><rb>立</rb><rt>た</rt></ruby>ち<ruby><rb>直</rb><rt>なお</rt></ruby>るには<ruby><rb>少</rb><rt>すこ</rt></ruby>し\\n<ruby><rb>時間</rb><rt>じかん</rt></ruby>がかかるだろう……。",
+        "zh_cn": "毕竟他这相当于\\n被人否定了自身的存在……\\n需要一些时间来重新振作吧……",
+        "zh_tw": "畢竟就像自己的存在遭到否定啊……\\n要振作還得花一點時間吧……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0069",
+      "book": ""
+    },
+    {
+      "icon": "100005_05",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Hey, everyone.",
+        "ja_jp": "……みんな。",
+        "zh_cn": "各位……",
+        "zh_tw": "……各位。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0070",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Dude! You're back!",
+        "ja_jp": "ユーディル！\\nいつの<ruby><rb>間</rb><rt>ま</rt></ruby>に<ruby><rb>出</rb><rt>で</rt></ruby>てきたの!?",
+        "zh_cn": "尤蒂尔！\\n你什么时候出来的！？",
+        "zh_tw": "尤帝爾！\\n你什麼時候出來的！？"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0071",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I just wanted to say that I'm sorry\\nfor worrying all of you.",
+        "ja_jp": "……ほんの<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>前</rb><rt>まえ</rt></ruby>にね。\\nその……<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>かけてすまなかった。",
+        "zh_cn": "我出来没多久……\\n那个……抱歉让大家担心了。",
+        "zh_tw": "……就在剛剛。\\n那個……抱歉讓你們擔心了。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0072",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "You all better?",
+        "ja_jp": "<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に、もう<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>なのか……？",
+        "zh_cn": "你真的没事了吗？",
+        "zh_tw": "你真的已經沒事了嗎……？"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0073",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Yes—well, for now, at least.",
+        "ja_jp": "ああ――とりあえず、だけどね。",
+        "zh_cn": "嗯……只能说暂时没事了吧。",
+        "zh_tw": "嗯──總之，目前沒事了。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0074",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "＂For now?＂ Bull plop! That ain't like\\nyou at all, boss!",
+        "ja_jp": "おいおい、「とりあえず」なんて、\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>らしくねえじゃねえかよ。",
+        "zh_cn": "喂，什么“暂时”，\\n这可一点都不像你啊。",
+        "zh_tw": "喂喂，說什麼「總之」，\\n一點都不像你啊。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0075",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "No, I understand that. But I think it's\\nthe best I'll be able to do for now.",
+        "ja_jp": "<ruby><rb>自分</rb><rt>じぶん</rt></ruby>でもそう<ruby><rb>思</rb><rt>おも</rt></ruby>うよ。でも、これが\\n<ruby><rb>今</rb><rt>いま</rt></ruby>の<ruby><rb>正直</rb><rt>しょうじき</rt></ruby>な<ruby><rb>気持</rb><rt>きも</rt></ruby>ちなんだ。",
+        "zh_cn": "我也这么认为。但是，\\n这就是我当下的真实心情。",
+        "zh_tw": "我也有同感。\\n不過，這就是我現在真實的心情。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0076",
+      "book": ""
+    },
+    {
+      "icon": "100010_05",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "You do seem to have relaxed, darling.\\nYou look even more handsome than before!",
+        "ja_jp": "でもダーリン、なんだか<ruby><rb>肩</rb><rt>かた</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>が\\n<ruby><rb>抜</rb><rt>ぬ</rt></ruby>けたみたいじゃない？　\\n<ruby><rb>前</rb><rt>まえ</rt></ruby>よりもっと<ruby><rb>素敵</rb><rt>すてき</rt></ruby>に<ruby><rb>見</rb><rt>み</rt></ruby>えるわよ！",
+        "zh_cn": "不过亲爱的，\\n你似乎是释然了呢。\\n看起来更有魅力了！",
+        "zh_tw": "但是達令，\\n感覺你好像放鬆了許多耶？\\n看起來比以前更帥囉！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0077",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "So what's the plan?",
+        "ja_jp": "それで、ユーディル、\\nこれからどうするつもりなんだ？",
+        "zh_cn": "那么，尤蒂尔，\\n你接下来打算怎么办？",
+        "zh_tw": "那麼，尤帝爾，\\n你接下來打算怎麼做？"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0078",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I need to speak with Leonidas.",
+        "ja_jp": "ああ、ひとまずレオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さんに\\n<ruby><rb>会</rb><rt>あ</rt></ruby>いに<ruby><rb>行</rb><rt>い</rt></ruby>こうと<ruby><rb>思</rb><rt>おも</rt></ruby>っている。",
+        "zh_cn": "嗯，总之我想先去\\n见一见莱昂尼多哥哥。",
+        "zh_tw": "嗯，我打算先去見雷歐尼特哥哥。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0079",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Right now we need information:\\nabout Agito, about the Ilian Church,\\nand about who I actually AM.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>はとにかく<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>が<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>だ。\\nアギトやイリア<ruby><rb>教</rb><rt>きょう</rt></ruby>のこと、それから、\\nおれ<ruby><rb>自身</rb><rt>じしん</rt></ruby>のことも――。",
+        "zh_cn": "现在我们需要的是情报。\\n关于阿基德和伊莉雅教的，\\n还有关于我自己的……",
+        "zh_tw": "總之現在我們需要的是情報。\\n關於咢牙和伊利亞教，\\n還有，關於我自己的事──"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0080",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "If anyone knows these things, it's him.\\nAnd as for all of you...",
+        "ja_jp": "<ruby><rb>兄</rb><rt>にい</rt></ruby>さんならきっと、いろいろなことを\\n<ruby><rb>知</rb><rt>し</rt></ruby>っているんじゃないかと<ruby><rb>思</rb><rt>おも</rt></ruby>ってね。\\nそれで、みんな――",
+        "zh_cn": "我觉得哥哥他\\n一定知道一些内情。\\n然后，你们……",
+        "zh_tw": "我想如果是哥哥，\\n他應該會知道很多事才對。\\n還有，大家──"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0081",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Can I still ask you to follow me?",
+        "ja_jp": "こんなおれだけど、\\nまたついてきてくれるかな……。",
+        "zh_cn": "还愿意继续\\n追随这样的我吗……",
+        "zh_tw": "雖然是這樣的我，\\n你們還願意繼續跟著我嗎……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0082",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Do not be daft! We are with you to the end.",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>を<ruby><rb>言</rb><rt>い</rt></ruby>っているんですか、\\n<ruby><rb>当</rb><rt>あ</rt></ruby>たり<ruby><rb>前</rb><rt>まえ</rt></ruby>じゃないですか！",
+        "zh_cn": "你在说什么呢，\\n当然愿意啊！",
+        "zh_tw": "你在說什麼啊，\\n那不是當然的嗎！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0083",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "We're coming with you even if you try to\\nstop us! Which, by the way, YA CAN'T.",
+        "ja_jp": "そうだよ！　ダメだっていわれても\\nついていくんだから！",
+        "zh_cn": "是啊！就算你说不行，\\n我也要跟着你！",
+        "zh_tw": "對啊！\\n就算你說不行，我也會跟著你的！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0084",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Your Highness, I...",
+        "ja_jp": "<ruby><rb>殿下</rb><rt>でんか</rt></ruby>……その、<ruby><rb>私</rb><rt>わたし</rt></ruby>は……",
+        "zh_cn": "殿下……那个，我……",
+        "zh_tw": "殿下……那個、我……"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0085",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "This has been hardest of all on you, Elly.\\nI tasked you with a terrible burden.",
+        "ja_jp": "<ruby><rb>苦労</rb><rt>くろう</rt></ruby>をかけてしまったね。\\nきみに<ruby><rb>重</rb><rt>おも</rt></ruby>いものを<ruby><rb>背負</rb><rt>せお</rt></ruby>わせてしまった。",
+        "zh_cn": "抱歉让你受苦了，\\n害你背负了重担。",
+        "zh_tw": "辛苦妳了。\\n讓妳背負那樣的重擔。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0086",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "No. I was the one who—",
+        "ja_jp": "い、いえ、<ruby><rb>違</rb><rt>ちが</rt></ruby>います……！　\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>のほうこそ――",
+        "zh_cn": "不、不对，不是的！\\n我才要……",
+        "zh_tw": "不、不會，不是的……！\\n我才要──"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0087",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Don't. Don't say anything else.\\nJust...please come with me.",
+        "ja_jp": "いいんだ、<ruby><rb>何</rb><rt>なに</rt></ruby>も<ruby><rb>言</rb><rt>い</rt></ruby>わなくて――。\\nエルフィリス、きみも<ruby><rb>来</rb><rt>き</rt></ruby>てくれるかい。",
+        "zh_cn": "没关系，什么都不用说……\\n埃尔菲莉丝，\\n你也愿意跟我一起来吗？",
+        "zh_tw": "沒關係，什麼都不必多說──\\n耶魯菲莉絲，妳也一起走吧。"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0088",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "O-of course, Your Highness.",
+        "ja_jp": "<ruby><rb>殿下</rb><rt>でんか</rt></ruby>……もちろんです……！",
+        "zh_cn": "殿下……我当然愿意！",
+        "zh_tw": "殿下……當然……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0089",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "All right everyone. As soon as we're ready,\\nwe're setting off.",
+        "ja_jp": "うん、ありがとう。\\nよしみんな、<ruby><rb>準備</rb><rt>じゅんび</rt></ruby>ができ<ruby><rb>次第</rb><rt>しだい</rt></ruby>\\n<ruby><rb>出発</rb><rt>しゅっぱつ</rt></ruby>しよう！",
+        "zh_cn": "嗯，谢谢你。\\n好了各位，我们准备完毕后\\n就立即出发吧！",
+        "zh_tw": "嗯，謝謝妳。\\n好，各位，等準備好就出發吧！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0090",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "全員",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "Got it!",
+        "ja_jp": "はい――!!",
+        "zh_cn": "是！",
+        "zh_tw": "是──！！"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0091",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "(They're all ready to act for his sake.\\nI'm so, SO glad.)",
+        "ja_jp": "（<ruby><rb>兄</rb><rt>にい</rt></ruby>さまのためにみんなが……\\n　よかった、<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に……）",
+        "zh_cn": "（大家都为了哥哥……\\n太好了，真是太好了……）",
+        "zh_tw": "（大家為了哥哥大人……\\n太好了，真的太好了……）"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0092",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "(Hold on a little longer, Zethia.\\nWe are all coming to save you.)",
+        "ja_jp": "（ゼシア、<ruby><rb>待</rb><rt>ま</rt></ruby>っていてください。\\n　いつかあなたのもとへと<ruby><rb>参</rb><rt>まい</rt></ruby>ります。\\n　<ruby><rb>兄</rb><rt>にい</rt></ruby>さまと、そしてみんなで……）",
+        "zh_cn": "（塞西娅，请等着我。\\n我一定会赶到你身边。\\n与哥哥还有大家一起……）",
+        "zh_tw": "（潔西雅，請妳再等等。\\n我有天絕對會前往妳身邊。\\n跟哥哥大人，還有大家……）"
+      },
+      "voice": "VO_CHR_MAINSTORY_15_09_0093",
+      "book": ""
+    }
+  ]
 }

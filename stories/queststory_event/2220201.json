@@ -1,791 +1,1496 @@
 {
-    "story_id": "",
-    "story_name": "防卫战～盛夏假日守护者！～ 度假总是一波三折",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "正在沙滩上享受度假的帕蒂亚\\n遇到了不知为何从海上漂流而来的米科特。\\n此时帝国兵却突然出现并发动袭击。\\n为了守护大家的假期，二人带着\\n各自的信念展开了一场沙滩防卫战。"
-        ]
+  "title": {
+    "en_us": "Summertime Saviors    Vacation Basics",
+    "ja_jp": "防衛戦～真夏のバカンスガーディアン！～  バカンスはいつも波乱万丈",
+    "zh_cn": "防卫战～盛夏假日守护者！～  度假总是一波三折",
+    "zh_tw": "防衛戰～盛夏的假期守護者！～  假期總是一波三折"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "蔚蓝的大海、白色的沙滩！\\n我来啦，梦幻假日！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "SYS",
-            "context": "终于盼来休假的白燕副团长\\n帕蒂亚",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "帕蒂亚看起来相当兴奋呢。\\n倒也不难理解，听说来这里之前\\n一直在不断赶工？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_14"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "殿下，听说是被熊、海盗和怪人\\n给缠上了呢。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_01"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "是啊，太不容易了。\\n现在能勉强和大家\\n一起来度假简直是奇迹。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "不过，过去的事就过去了！\\n今天我要在这里全新起航，\\n好好享受假期……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "哎哟！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "好痛……这是什么？\\n是漂流物吗？真倒霉……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "？？？",
-            "context": "……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "天呐，这不是人吗！\\n喂！你没事吧！？还活着吗！？\\n给点反应啊～",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "唔……这里是？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "SYS",
-            "context": "不知为何漂流而来的天启冲浪者\\n米科特",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "我遵循上天的意愿，\\n应该正和那家伙进行\\n生死搏斗才对……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "咦？你是……米科特？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "正是。我是已得天启、\\n寻找刀背斩之人。\\n现在也是漂流于海上之人。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_14"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "漂流于海上之人？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "我因寻找刀背斩而驰骋于浪中时，\\n使用的冲浪板突然遇难。\\n于是我便与冲浪板一同被海浪吞噬了。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "冲浪板也能遇难？\\n你是说冲浪板\\n折成两半沉下去了吗？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "在那尽头，我遇到了一个\\n拥有强大力量的家伙。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "这个人真是我行我素啊……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "在疯狂的大自然中，我惹怒了那家伙，\\n无奈之下只能投身于死斗。\\n不分昼夜的战斗持续了很久。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "然而，就在第三天的夜晚……\\n一道光在冲浪板上闪过。\\n胜负似乎就此定了……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_08"
-            ],
-            "speaker_name": "卢卡",
-            "context": "你在海上打了整整三天！？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "而当我再次醒来时……\\n我已经从海上漂流至此。\\n这里是哪里？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "这里是莱萨姆沙滩，\\n你是米科特。顺便一提，\\n我是帕蒂亚。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "总之，我们已经知道了\\n你漂流至此的经过。也知道了\\n你似乎不是来这里度假的。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "你怎么打算？如果要去找猫，\\n我可以送你到码头……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_04"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "不不不，难得来到莱萨姆，\\n马上就走的话也太可惜了。\\n要不要和我们一起？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_13"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "度假就是要人多才好玩嘛。\\n米科特，你意下如何？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "我知道了。如果凡事皆由天注定，\\n那么我在此与你们相遇\\n想必也有某种意义吧。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "但我对于度假一窍不通。\\n能教教我吗？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "原来如此，你是第一次度假啊。\\n这样的话，不如先试一试\\n简单的水上运动？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "好。无论是什么样的竞技，\\n我都会竭尽全力。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "好！那么各位，\\n都跟我来！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "锵锵！沙滩夺旗战！\\n你看到对面插着的旗子了吗？\\n我们要在沙滩上同时起跑去夺取它！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "原来如此，最先抓到旗子的人\\n就是胜者对吧。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_08"
-            ],
-            "speaker_name": "卢卡",
-            "context": "就是这样！不过我和帕蒂亚\\n可非常擅长夺旗呢。不好意思，\\n这里就是我们的秀场！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_13"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "好啦好啦。参加的人\\n请各就各位。预备……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "夺到了。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "诶……怎、怎么可能！\\n刚才是怎么做到的？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "得到天启的我只要肯努力，\\n就没有什么能难倒我。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_04"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "看来……把他当成菜鸟轻敌的话，\\n是要付出代价的啊。帕蒂亚，\\n下一场要尽全力了，比“那个”吧。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "唔，“那个”是吧？\\n知道了！接下来是……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "锵锵！沙滩排球！\\n说到球技，\\n我可不会输给任何人！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "唔……在沙滩上来回打这个球\\n就可以了对吧？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "嗯。不过别以为\\n你能像刚才那样顺利。看球！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "什么！？\\n虽然看得到球，\\n身体却跟不上！？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_14"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "噢，出现了啊，帕蒂亚的魔球！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "哼哼，刚才的幻影魔球\\n就当是个下马威了。好了，\\n这下局势变得难以预测了吧？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "诶？什么时候变成比赛了？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "嚯。那么考虑到你们的实力，\\n关于下一场比赛我有一个提议。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_08"
-            ],
-            "speaker_name": "卢卡",
-            "context": "噢，好啊！比什么都行！\\n那么下一场是……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_13"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "带、带着猫冲浪！？\\n我、我对于这类游戏\\n没什么自信……呀啊！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_04"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "库菈乌！库菈乌落水啦！\\n快点救她！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_14"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "这、这也太难了吧。\\n因为猫也站在板上，\\n重心会有细微的变化……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "置身于大自然的波动中，\\n波浪自然就会跟上来。\\n只要遵循这些就行，倒是很容易。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "猫",
-            "context": "喵～",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_08"
-            ],
-            "speaker_name": "卢卡",
-            "context": "是、是吗。请手下留情……\\n呀啊啊啊啊啊啊！？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_08"
-            ],
-            "speaker_name": "猫",
-            "context": "喵喵喵☆",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "噢，被浪涛蹂躏了一番呢。\\n看这猫咪的兴奋劲头，\\n果然来头不简单。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "哇啊啊！话说这个玩法\\n要怎么定输赢啊！？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "呼……感觉把一辈子的水上运动\\n都玩完了。原来世上还有这么多\\n我不知道的游戏啊。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "米科特的运动神经出类拔萃，\\n所以比赛很激烈，让人不禁投入其中。\\n第一次度假，米科特你感觉如何？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "嗯，不管什么都感觉很新鲜。即使是\\n得到天启的我，也想不出带猫冲浪\\n劈西瓜三局两胜等竞技。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_13"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "这应该无关天启，\\n而是本来就没人玩吧……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_04"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "不过你对第一次见的竞技\\n也投身其中的样子真了不起。\\n不愧是经历过严酷修行的人。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "诶，严酷的修行？\\n原来这就是米科特\\n强大非凡的原因啊。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "我说，你休息的时候能跟我讲讲\\n修行的经历吗？比如强大的秘诀\\n之类的，我想作为今后的参考……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "？？？",
-            "context": "不要啊啊啊啊啊啊！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "出什么事了！？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01"
-            ],
-            "speaker_name": "轻浮的帝国兵",
-            "context": "都闪开，都闪开！\\n从今天起这片沙滩\\n就是我们专属的了！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01"
-            ],
-            "speaker_name": "散漫的帝国兵",
-            "context": "度假♪度假♪\\n还留在沙滩上的人，\\n就尝尝我的厉害吧！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120068_01"
-            ],
-            "speaker_name": "沙滩游客",
-            "context": "呀啊！怎么会有这种跑调的歌声！\\n简、简直让人听不下去！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_14"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "什么……这些家伙，是帝国兵！？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "不要啊！我的假期即将\\n在这场死亡独唱会中逝去！\\n为什么要做这种事！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01"
-            ],
-            "speaker_name": "浅薄的帝国兵",
-            "context": "我们拼命地干活，\\n海边却传来欢声笑语……\\n简直忍不了人们热火朝天地度假！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01"
-            ],
-            "speaker_name": "轻浮的帝国兵",
-            "context": "所以我们也决定要度假了！\\n我话说在前头，\\n这片沙滩就归我们了！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "啊？你们竟然为了自己度假\\n而剥夺他人度假的权利？身为白燕骑士，\\n岂能放任你们如此蛮横无理！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "上天在说，\\n你们的主张违反了自然的波动……\\n任何事物都应遵循大自然的规律。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01",
-                "120080_01"
-            ],
-            "speaker_name": "帝国兵们",
-            "context": "闭嘴！\\n敢不让我们度假的话，\\n就让你们好看！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01",
-                "120080_01"
-            ],
-            "speaker_name": "帝国兵们",
-            "context": "怎么会！？\\n我们的攻击竟然！？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110335_03"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "哼，攻击手法太嫩了……殿下！\\n这里就交给我们吧，\\n你们快带度假的游客去避难！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我知道了！大家，跟我来！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "帕蒂亚",
-            "context": "好了，接下来由我来对付你们。\\n为了守护大家的假期和我内心的宁静！\\n我不会手下留情！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "米科特",
-            "context": "天知地知你知我知。\\n我们要顺应天意，\\n铲除一切向前迈进。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_04"
-            ],
-            "speaker_name": "帕蒂亚&米科特",
-            "context": "接招吧！",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Patia is enjoying a holiday at the beach when\\nsuddenly Mikoto washes ashore and a gang\\nof imperial soldiers begin to attack! The two\\nwarriors then step forward to defend the beach\\nand the vacations of all who rest upon it.",
+      "ja_jp": "なぜか<ruby><rb>海</rb><rt>うみ</rt></ruby>を<ruby><rb>流</rb><rt>なが</rt></ruby>れてきたミコトと<ruby><rb>合流</rb><rt>ごうりゅう</rt></ruby>し、\\nビーチでバカンスを<ruby><rb>楽</rb><rt>たの</rt></ruby>しんでいたパティア。\\nだがそこを<ruby><rb>突如</rb><rt>とつじょ</rt></ruby><ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>たちに<ruby><rb>襲撃</rb><rt>しゅうげき</rt></ruby>される。\\nみんなのバカンスを<ruby><rb>守</rb><rt>まも</rt></ruby>るため、それぞれの\\n<ruby><rb>信念</rb><rt>しんねん</rt></ruby>のもとふたりはビーチ<ruby><rb>防衛</rb><rt>ぼうえい</rt></ruby>に<ruby><rb>乗</rb><rt>の</rt></ruby>り<ruby><rb>出</rb><rt>だ</rt></ruby>す。",
+      "zh_cn": "正在沙滩上享受度假的帕蒂亚\\n遇到了不知为何从海上漂流而来的米科特。\\n此时帝国兵却突然出现并发动袭击。\\n为了守护大家的假期，二人带着\\n各自的信念展开了一场沙滩防卫战。",
+      "zh_tw": "正當帕媞亞到海灘享受假期時，\\n尊不知為何由海上漂流而來。\\n而此時一群帝國兵襲向海灘，\\n為了守護大家的假期，\\n兩人懷著各自的信念投身海灘防衛。"
+    }
+  },
+  "prev": "",
+  "next": "2220202",
+  "content": [
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "Look at these blue seas and white sandy\\nbeaches... I believe this is going to be\\nthe vacation of my dreams!",
+        "ja_jp": "<ruby><rb>青</rb><rt>あお</rt></ruby>い<ruby><rb>海</rb><rt>うみ</rt></ruby>、<ruby><rb>白</rb><rt>しろ</rt></ruby>い<ruby><rb>砂浜</rb><rt>すなはま</rt></ruby>……！\\n<ruby><rb>来</rb><rt>き</rt></ruby>たぞっ、<ruby><rb>夢</rb><rt>ゆめ</rt></ruby>のバカンスタイム！",
+        "zh_cn": "蔚蓝的大海、白色的沙滩！\\n我来啦，梦幻假日！",
+        "zh_tw": "蔚藍的大海，純白的沙灘……！\\n我來啦，夢想的度假時光！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Vice Captain Patia\\nOn leave (finally) from the White Sparrow Corps",
+        "ja_jp": "やっと<ruby><rb>休暇</rb><rt>きゅうか</rt></ruby>にありついた<ruby><rb>白燕副長</rb><rt>はくえんふくちょう</rt></ruby>\\nパティア",
+        "zh_cn": "终于盼来休假的白燕副团长\\n帕蒂亚",
+        "zh_tw": "終於可以休假的白燕副團長\\n帕媞亞"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You're certainly in high spirits, Patia.\\nBut I understand—if anyone deserves\\na vacation, it's you.",
+        "ja_jp": "はしゃいでるなあ、パティア。\\nまあ<ruby><rb>無理</rb><rt>むり</rt></ruby>もないか、ここに<ruby><rb>来</rb><rt>く</rt></ruby>るまで\\n<ruby><rb>急</rb><rt>きゅう</rt></ruby>な<ruby><rb>仕事</rb><rt>しごと</rt></ruby>が<ruby><rb>続</rb><rt>つづ</rt></ruby>いたんだっけ？",
+        "zh_cn": "帕蒂亚看起来相当兴奋呢。\\n倒也不难理解，听说来这里之前\\n一直在不断赶工？",
+        "zh_tw": "帕媞亞還真興奮呢。\\n不過這也是應該的，在來之前\\n妳接連負責了很多緊急任務吧？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100002_14",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Indeed, I hear the White Sparrows have\\nbeen forced to deal with everything from\\nbears to pirates to mutants.",
+        "ja_jp": "<ruby><rb>確</rb><rt>たし</rt></ruby>か、<ruby><rb>熊</rb><rt>くま</rt></ruby>と<ruby><rb>海賊</rb><rt>かいぞく</rt></ruby>と<ruby><rb>怪人</rb><rt>かいじん</rt></ruby>に<ruby><rb>絡</rb><rt>から</rt></ruby>まれたという\\n<ruby><rb>話</rb><rt>はなし</rt></ruby>でしたよ、<ruby><rb>殿下</rb><rt>でんか</rt></ruby>。",
+        "zh_cn": "殿下，听说是被熊、海盗和怪人\\n给缠上了呢。",
+        "zh_tw": "記得是跟熊、海賊以及怪人\\n有關的工作，殿下。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_01",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "Aye, we've had a rough go of it lately.\\nIt's nothing less than a miracle that I was\\nable to join you on this vacation at all.",
+        "ja_jp": "そう、えらい<ruby><rb>目</rb><rt>め</rt></ruby>に<ruby><rb>遭</rb><rt>あ</rt></ruby>った。みんなの\\nバカンスにギリギリ<ruby><rb>合流</rb><rt>ごうりゅう</rt></ruby>できたのは\\nもはや<ruby><rb>奇跡</rb><rt>きせき</rt></ruby>だよ。",
+        "zh_cn": "是啊，太不容易了。\\n现在能勉强和大家\\n一起来度假简直是奇迹。",
+        "zh_tw": "對啊，真的很辛苦呢。\\n能勉強趕上跟大家度假，\\n根本就是奇蹟。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "But now is the time to put my cares behind\\nme and just enjoy my vaca—",
+        "ja_jp": "まあでも<ruby><rb>過去</rb><rt>かこ</rt></ruby>のことはもう<ruby><rb>忘</rb><rt>わす</rt></ruby>れる！\\n<ruby><rb>今日</rb><rt>きょう</rt></ruby>からはここで<ruby><rb>心機一転</rb><rt>しんきいってん</rt></ruby>、\\n<ruby><rb>今度</rb><rt>こんど</rt></ruby>こそバカンスを<ruby><rb>楽</rb><rt>たの</rt></ruby>しんで――",
+        "zh_cn": "不过，过去的事就过去了！\\n今天我要在这里全新起航，\\n好好享受假期……",
+        "zh_tw": "但是過去的事就先忘了吧！\\n從今天起我要轉換心情，\\n這次絕對要好好享受假期──"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "GWARGH!",
+        "ja_jp": "わぎゃっ！",
+        "zh_cn": "哎哟！",
+        "zh_tw": "哇呀！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "Just my luck to begin my vacation being\\nstruck by an errant chunk of driftwood.",
+        "ja_jp": "いったた……なに？\\n<ruby><rb>流木</rb><rt>りゅうぼく</rt></ruby>とかかな、ツイてな……",
+        "zh_cn": "好痛……这是什么？\\n是漂流物吗？真倒霉……",
+        "zh_tw": "痛痛痛……什麼啊？\\n是流木嗎，真不走運……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "Ho, this is no driftwood—it's a man!\\nDo you yet draw breath, sir? Speak!",
+        "ja_jp": "――って<ruby><rb>人</rb><rt>ひと</rt></ruby>じゃん！\\nおーい、<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>!?　<ruby><rb>生</rb><rt>い</rt></ruby>きてる!?\\n<ruby><rb>返事</rb><rt>へんじ</rt></ruby>して～っ！",
+        "zh_cn": "天呐，这不是人吗！\\n喂！你没事吧！？还活着吗！？\\n给点反应啊～",
+        "zh_tw": "──是人耶！\\n喂～你沒事吧！？還活著嗎！？\\n快回答我～！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Wh-where...am I...?",
+        "ja_jp": "む……。ここは……？",
+        "zh_cn": "唔……这里是？",
+        "zh_tw": "唔……這裡是……？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Mikoto\\nWashed-up (literally) surfer of revelation",
+        "ja_jp": "なぜか<ruby><rb>流</rb><rt>なが</rt></ruby>れてきた<ruby><rb>天啓</rb><rt>てんけい</rt></ruby>サーファー\\nミコト",
+        "zh_cn": "不知为何漂流而来的天启冲浪者\\n米科特",
+        "zh_tw": "不知為何漂流上岸的天啟衝浪者\\n尊"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Heeding the will of Heaven, I have been\\nlocked in a battle of life and death.\\nYet how did I...?",
+        "ja_jp": "<ruby><rb>我</rb><rt>われ</rt></ruby>は<ruby><rb>天</rb><rt>てん</rt></ruby>のはからいに<ruby><rb>従</rb><rt>したが</rt></ruby>い、ヤツと<ruby><rb>死闘</rb><rt>しとう</rt></ruby>を\\n<ruby><rb>繰</rb><rt>く</rt></ruby>り<ruby><rb>広</rb><rt>ひろ</rt></ruby>げていたはずでは……。",
+        "zh_cn": "我遵循上天的意愿，\\n应该正和那家伙进行\\n生死搏斗才对……",
+        "zh_tw": "吾人聽從上天的旨意，\\n正和那傢伙進行死鬥才是……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Mikoto?! Is that you?!",
+        "ja_jp": "あれっ？　きみは……ミコト？",
+        "zh_cn": "咦？你是……米科特？",
+        "zh_tw": "咦？你是……尊？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "One and the same: I am he who has\\nattained revelation and he who seeks\\nMineuchi—and now I am he who\\nwas swept away by the waves.",
+        "ja_jp": "いかにも。<ruby><rb>我</rb><rt>われ</rt></ruby>は<ruby><rb>天啓</rb><rt>てんけい</rt></ruby>を<ruby><rb>得</rb><rt>え</rt></ruby>て、ミネウチを\\n<ruby><rb>捜</rb><rt>さが</rt></ruby>す<ruby><rb>者</rb><rt>もの</rt></ruby>。そして<ruby><rb>今</rb><rt>いま</rt></ruby>は<ruby><rb>海</rb><rt>うみ</rt></ruby>を<ruby><rb>漂</rb><rt>ただよ</rt></ruby>い<ruby><rb>流</rb><rt>なが</rt></ruby>れる<ruby><rb>者</rb><rt>もの</rt></ruby>。",
+        "zh_cn": "正是。我是已得天启、\\n寻找刀背斩之人。\\n现在也是漂流于海上之人。",
+        "zh_tw": "是。吾人乃獲得天啟，尋找刀背斬者。\\n此刻亦是漂流於大海之人。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100002_14",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Er, and what does that mean, exactly?\\nThe last part specifically.",
+        "ja_jp": "<ruby><rb>海</rb><rt>うみ</rt></ruby>を<ruby><rb>漂</rb><rt>ただよ</rt></ruby>い<ruby><rb>流</rb><rt>なが</rt></ruby>れる<ruby><rb>者</rb><rt>もの</rt></ruby>……？",
+        "zh_cn": "漂流于海上之人？",
+        "zh_tw": "漂流於大海之人……？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "I was surfing the ocean in search of\\nmy poor lost cat Mineuchi when both\\nI and my board were swamped by a\\nrogue wave and shipwrecked.",
+        "ja_jp": "ミネウチを<ruby><rb>捜</rb><rt>さが</rt></ruby>し<ruby><rb>波</rb><rt>なみ</rt></ruby>に<ruby><rb>乗</rb><rt>の</rt></ruby>っている<ruby><rb>最中</rb><rt>さなか</rt></ruby>……\\n<ruby><rb>我</rb><rt>われ</rt></ruby>が<ruby><rb>乗</rb><rt>の</rt></ruby>っていたサーフボードが<ruby><rb>難破</rb><rt>なんぱ</rt></ruby>。\\n<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>身</rb><rt>み</rt></ruby>は<ruby><rb>板</rb><rt>いた</rt></ruby>とともに<ruby><rb>波</rb><rt>なみ</rt></ruby>に<ruby><rb>飲</rb><rt>の</rt></ruby>みこまれた。",
+        "zh_cn": "我因寻找刀背斩而驰骋于浪中时，\\n使用的冲浪板突然遇难。\\n于是我便与冲浪板一同被海浪吞噬了。",
+        "zh_tw": "吾人尋找刀背斬，在乘浪途中……\\n足下的衝浪板遭難，\\n吾人之身也隨之被浪潮吞沒。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "How can one be ＂shipwrecked＂ on a\\nsurfboard? Did it crack in two or—",
+        "ja_jp": "サーフボードで<ruby><rb>難破</rb><rt>なんぱ</rt></ruby>ってする？\\n<ruby><rb>真</rb><rt>ま</rt></ruby>っ<ruby><rb>二</rb><rt>ぷた</rt></ruby>つになって<ruby><rb>沈</rb><rt>しず</rt></ruby>んだってこと？",
+        "zh_cn": "冲浪板也能遇难？\\n你是说冲浪板\\n折成两半沉下去了吗？",
+        "zh_tw": "一般會因為衝浪板遭難嗎？\\n你的意思是它斷成兩半沉下去了？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "And who did I encounter then, but a\\nbeing possessed of unfathomable power!",
+        "ja_jp": "その<ruby><rb>果</rb><rt>は</rt></ruby>てに<ruby><rb>我</rb><rt>われ</rt></ruby>が<ruby><rb>相</rb><rt>あい</rt></ruby>まみえたのは、\\nすさまじき<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>つヤツ。",
+        "zh_cn": "在那尽头，我遇到了一个\\n拥有强大力量的家伙。",
+        "zh_tw": "最終吾人所遇見的，\\n正是擁有異常強大力量的傢伙。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "By all means, do not let my sensible\\nquestion interrupt your monologue.",
+        "ja_jp": "マイペースだな、この<ruby><rb>人</rb><rt>ひと</rt></ruby>……。",
+        "zh_cn": "这个人真是我行我素啊……",
+        "zh_tw": "這個人還真自我中心耶……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "As nature roiled all around me, it became\\nclear I had given offense and would be\\nforced to fight for my life. Thus did I battle\\nthe fell being day and night without pause.",
+        "ja_jp": "<ruby><rb>荒</rb><rt>あら</rt></ruby>ぶる<ruby><rb>自然</rb><rt>しぜん</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>、<ruby><rb>我</rb><rt>われ</rt></ruby>はヤツの<ruby><rb>機嫌</rb><rt>きげん</rt></ruby>を\\n<ruby><rb>損</rb><rt>そこ</rt></ruby>ね、やむなく<ruby><rb>死闘</rb><rt>しとう</rt></ruby>へと<ruby><rb>身</rb><rt>み</rt></ruby>を<ruby><rb>投</rb><rt>とう</rt></ruby>じた。\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>いは<ruby><rb>昼</rb><rt>ひる</rt></ruby>も<ruby><rb>夜</rb><rt>よる</rt></ruby>もなく、<ruby><rb>長</rb><rt>なが</rt></ruby>く<ruby><rb>続</rb><rt>つづ</rt></ruby>く。",
+        "zh_cn": "在疯狂的大自然中，我惹怒了那家伙，\\n无奈之下只能投身于死斗。\\n不分昼夜的战斗持续了很久。",
+        "zh_tw": "置身狂亂的大自然中，吾人使那傢伙\\n心生不悅，只能迫於無奈投身死鬥。\\n持續進行著不分晝夜的激戰。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "On the night of the third day, the beast\\nunleashed a great flash upon my board.\\nThat is when I knew the battle was—",
+        "ja_jp": "だが、3<ruby><rb>日目</rb><rt>かめ</rt></ruby>の<ruby><rb>夜</rb><rt>よる</rt></ruby>……サーフボードの\\n<ruby><rb>上</rb><rt>うえ</rt></ruby>から<ruby><rb>放</rb><rt>はな</rt></ruby>たれた<ruby><rb>一閃</rb><rt>いっせん</rt></ruby>。それで<ruby><rb>勝負</rb><rt>しょうぶ</rt></ruby>は\\n<ruby><rb>決</rb><rt>き</rt></ruby>まったかに<ruby><rb>見</rb><rt>み</rt></ruby>え――",
+        "zh_cn": "然而，就在第三天的夜晚……\\n一道光在冲浪板上闪过。\\n胜负似乎就此定了……",
+        "zh_tw": "然而，至第三夜……\\n對方於衝浪板上釋出一閃。\\n原以為就此分出勝負──"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100006_08",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "You've been fighting on the ocean\\nfor THREE DAYS?!",
+        "ja_jp": "3<ruby><rb>日</rb><rt>か</rt></ruby>も<ruby><rb>海</rb><rt>うみ</rt></ruby>の<ruby><rb>上</rb><rt>うえ</rt></ruby>で<ruby><rb>戦</rb><rt>たたか</rt></ruby>ってたのか!?",
+        "zh_cn": "你在海上打了整整三天！？",
+        "zh_tw": "你在海上連續戰鬥了三天嗎！？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "The next thing I knew, I found myself \\nswept here. Ah, but where IS here?",
+        "ja_jp": "――そして<ruby><rb>気</rb><rt>き</rt></ruby>がつけば、<ruby><rb>我</rb><rt>われ</rt></ruby>は<ruby><rb>海</rb><rt>うみ</rt></ruby>を<ruby><rb>漂</rb><rt>ただよ</rt></ruby>い\\n<ruby><rb>流</rb><rt>なが</rt></ruby>れ<ruby><rb>着</rb><rt>つ</rt></ruby>いていた。ここはどこだ？",
+        "zh_cn": "而当我再次醒来时……\\n我已经从海上漂流至此。\\n这里是哪里？",
+        "zh_tw": "──回過神來，\\n吾人已漂流於汪洋大海。\\n這裡是何處？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "This is Lathom Beach. You are Mikoto.\\nOh, and I'm Patia, if you care.",
+        "ja_jp": "ここはレイサムビーチで、\\nあなたはミコト。ついでに<ruby><rb>言</rb><rt>い</rt></ruby>うと、\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>はパティア。",
+        "zh_cn": "这里是莱萨姆沙滩，\\n你是米科特。顺便一提，\\n我是帕蒂亚。",
+        "zh_tw": "這裡是雷撒姆海灘，你呢則是尊。\\n順便一提，我是帕媞亞。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "Well, now that we know how you came\\nto wash up on this beach, it seems clear\\nyou aren't here to enjoy our vacation.",
+        "ja_jp": "とりあえず、<ruby><rb>流</rb><rt>なが</rt></ruby>れてきた<ruby><rb>経緯</rb><rt>けいい</rt></ruby>はよく\\nわかったよ。あなたがバカンスに\\n<ruby><rb>来</rb><rt>き</rt></ruby>たわけじゃなさそうなことも。",
+        "zh_cn": "总之，我们已经知道了\\n你漂流至此的经过。也知道了\\n你似乎不是来这里度假的。",
+        "zh_tw": "總之，你漂流到這裡的經過，\\n我們已經很清楚了。\\n而且也知道你似乎不是來度假的。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "Still, if you intend to continue searching\\nfor your cat, I suppose we could take the\\ntime to escort you to the nearest harbor.",
+        "ja_jp": "どうする？　<ruby><rb>猫</rb><rt>ねこ</rt></ruby>を<ruby><rb>捜</rb><rt>さが</rt></ruby>しに<ruby><rb>出</rb><rt>で</rt></ruby>るのなら、\\n<ruby><rb>船着</rb><rt>ふなつ</rt></ruby>き<ruby><rb>場</rb><rt>ば</rt></ruby>ぐらいまでは<ruby><rb>送</rb><rt>おく</rt></ruby>るけど……",
+        "zh_cn": "你怎么打算？如果要去找猫，\\n我可以送你到码头……",
+        "zh_tw": "要怎麼做？如果你想去找貓，\\n我們可以送你到碼頭……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100003_04",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Hell no, he ain't comin' all the way here\\njust to turn around and leave! Stick around,\\nyeah? Kick back! Take a load off!",
+        "ja_jp": "いやいや、せっかくレイサムに<ruby><rb>来</rb><rt>き</rt></ruby>て\\nとんぼ<ruby><rb>返</rb><rt>がえ</rt></ruby>りはもったいねえよ。\\nどうだ、<ruby><rb>俺</rb><rt>おれ</rt></ruby>たちに<ruby><rb>混</rb><rt>ま</rt></ruby>ざらないか？",
+        "zh_cn": "不不不，难得来到莱萨姆，\\n马上就走的话也太可惜了。\\n要不要和我们一起？",
+        "zh_tw": "那怎麼行，難得來到雷撒姆，\\n直接回去也太浪費了。\\n如何，要不要跟我們一起玩啊？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100004_13",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "We would be thrilled to have you\\njoin us, Mikoto. What do you say?",
+        "ja_jp": "バカンスは<ruby><rb>大勢</rb><rt>おおぜい</rt></ruby>の<ruby><rb>方</rb><rt>ほう</rt></ruby>が<ruby><rb>楽</rb><rt>たの</rt></ruby>しいですしね。\\nいかがですか？　ミコトさん。",
+        "zh_cn": "度假就是要人多才好玩嘛。\\n米科特，你意下如何？",
+        "zh_tw": "畢竟度假時人多一點也比較開心。\\n你覺得呢？尊先生。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "As divine providence guides us in all\\nthings, I have clearly been reunited\\nwith you here for a reason.",
+        "ja_jp": "わかった。<ruby><rb>万事</rb><rt>ばんじ</rt></ruby>は<ruby><rb>天意</rb><rt>てんい</rt></ruby>の<ruby><rb>示</rb><rt>しめ</rt></ruby>すところで\\nあるならば、<ruby><rb>我</rb><rt>われ</rt></ruby>がここでおぬしらに\\n<ruby><rb>出会</rb><rt>であ</rt></ruby>ったことにも<ruby><rb>何</rb><rt>なに</rt></ruby>か<ruby><rb>意味</rb><rt>いみ</rt></ruby>があろう。",
+        "zh_cn": "我知道了。如果凡事皆由天注定，\\n那么我在此与你们相遇\\n想必也有某种意义吧。",
+        "zh_tw": "吾人明白。若萬事皆為天意所指，\\n那在此與各位相遇，\\n想必亦有何意義才是。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "However, I am not acquainted with the\\nspecific rituals of this...＂vacation,＂ was it?\\nMight I seek your guidance in the matter?",
+        "ja_jp": "しかし<ruby><rb>我</rb><rt>われ</rt></ruby>はバカンスとやらの<ruby><rb>流儀</rb><rt>りゅうぎ</rt></ruby>は\\n<ruby><rb>何</rb><rt>なに</rt></ruby>もわからぬ。<ruby><rb>手</rb><rt>て</rt></ruby>ほどきを<ruby><rb>頼</rb><rt>たの</rt></ruby>めるか。",
+        "zh_cn": "但我对于度假一窍不通。\\n能教教我吗？",
+        "zh_tw": "但吾人絲毫不懂所謂的度假\\n該如何是好。能拜託各位指點嗎？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "Looks like we have a fresh recruit!\\nIn that case, why don't we start out\\nwith some basic beach activities?",
+        "ja_jp": "あーそっか、バカンス<ruby><rb>初体験</rb><rt>はつたいけん</rt></ruby>か。なら\\nとりあえず<ruby><rb>簡単</rb><rt>かんたん</rt></ruby>なマリンスポーツとか\\nやってみる？",
+        "zh_cn": "原来如此，你是第一次度假啊。\\n这样的话，不如先试一试\\n简单的水上运动？",
+        "zh_tw": "啊～原來如此，你是第一次度假啊。\\n那要不要先從簡單的海灘活動試試？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "I shall face all of your trials\\nwith the zeal of a challenger!",
+        "ja_jp": "よかろう。どのような<ruby><rb>競技</rb><rt>きょうぎ</rt></ruby>でも、<ruby><rb>全力</rb><rt>ぜんりょく</rt></ruby>を\\n<ruby><rb>尽</rb><rt>つ</rt></ruby>くす。",
+        "zh_cn": "好。无论是什么样的竞技，\\n我都会竭尽全力。",
+        "zh_tw": "好吧。\\n無論何種競技，吾人都將全力以赴。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "In that case, everyone follow me!",
+        "ja_jp": "オッケー！　じゃあみんな、<ruby><rb>私</rb><rt>わたし</rt></ruby>に\\nついてこーい！",
+        "zh_cn": "好！那么各位，\\n都跟我来！",
+        "zh_tw": "OK──！\\n那麼大家，跟著我來吧──！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "Right! This game is called beach flags.\\nYou see those flags over there, yes?\\nThe idea is to run through the sand\\nin a pack and grab one of them!",
+        "ja_jp": "じゃーん、ビーチフラッグス！\\n<ruby><rb>向</rb><rt>む</rt></ruby>こうに<ruby><rb>旗</rb><rt>はた</rt></ruby>が<ruby><rb>立</rb><rt>た</rt></ruby>ってるの、<ruby><rb>見</rb><rt>み</rt></ruby>える？\\nあれを<ruby><rb>取</rb><rt>と</rt></ruby>りに、<ruby><rb>一斉</rb><rt>いっせい</rt></ruby>に<ruby><rb>浜</rb><rt>はま</rt></ruby>を<ruby><rb>走</rb><rt>はし</rt></ruby>るの！",
+        "zh_cn": "锵锵！沙滩夺旗战！\\n你看到对面插着的旗子了吗？\\n我们要在沙滩上同时起跑去夺取它！",
+        "zh_tw": "鏘～～沙灘搶旗！\\n對面那邊插著旗子，看得到嗎？\\n大家要在沙灘上同時衝過去搶它！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "I imagine whoever can claim a flag\\nmost quickly is the victor?",
+        "ja_jp": "なるほど、そしてより<ruby><rb>早</rb><rt>はや</rt></ruby>く<ruby><rb>旗</rb><rt>はた</rt></ruby>をつかんだ\\n<ruby><rb>者</rb><rt>もの</rt></ruby>が<ruby><rb>勝者</rb><rt>しょうしゃ</rt></ruby>となるのだな。",
+        "zh_cn": "原来如此，最先抓到旗子的人\\n就是胜者对吧。",
+        "zh_tw": "原來如此，率先奪得旗子之人\\n即為勝者吧。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100006_08",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "You got it! But I gotta warn you, Patia and\\nI have captured more than a few flags in\\nour day. So at the risk of being a big jerk,\\none of us is totally gonna win this thing.",
+        "ja_jp": "そういうこと！　でもオレもパティアも\\nこの<ruby><rb>競技</rb><rt>きょうぎ</rt></ruby>はかなり<ruby><rb>得意</rb><rt>とくい</rt></ruby>だからな。\\n<ruby><rb>悪</rb><rt>わる</rt></ruby>いが、オレたちの<ruby><rb>独壇場</rb><rt>どくだんじょう</rt></ruby>だぜ！",
+        "zh_cn": "就是这样！不过我和帕蒂亚\\n可非常擅长夺旗呢。不好意思，\\n这里就是我们的秀场！",
+        "zh_tw": "就是這樣！\\n但我跟帕媞亞都頗擅長這個比賽。\\n雖然很抱歉，但你不是我們的對手啦！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100004_13",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Yes, yes, we're all sufficiently impressed.\\nNow then, anyone who wants to participate\\nshould line up here. Ready, set, g—",
+        "ja_jp": "はいはい。では<ruby><rb>参加者</rb><rt>さんかしゃ</rt></ruby>のみなさんは\\n<ruby><rb>位置</rb><rt>いち</rt></ruby>についてくださいね。よーい――",
+        "zh_cn": "好啦好啦。参加的人\\n请各就各位。预备……",
+        "zh_tw": "好了好了。\\n那麼請參賽者們各就各位吧。\\n預～備──"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Done.",
+        "ja_jp": "<ruby><rb>取</rb><rt>と</rt></ruby>ったぞ。",
+        "zh_cn": "夺到了。",
+        "zh_tw": "得手了。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "What? Rubbish! No one is that fast!",
+        "ja_jp": "……えっ？　う、<ruby><rb>嘘</rb><rt>うそ</rt></ruby>。なに、<ruby><rb>今</rb><rt>いま</rt></ruby>の<ruby><rb>動</rb><rt>うご</rt></ruby>き。",
+        "zh_cn": "诶……怎、怎么可能！\\n刚才是怎么做到的？",
+        "zh_tw": "……咦？騙、騙人。\\n剛才的動作是怎麼回事。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "It is a trivial matter for one who has\\nattained divine revelation.",
+        "ja_jp": "<ruby><rb>天啓</rb><rt>てんけい</rt></ruby>を<ruby><rb>得</rb><rt>え</rt></ruby>た<ruby><rb>我</rb><rt>われ</rt></ruby>が<ruby><rb>人事</rb><rt>じんじ</rt></ruby>を<ruby><rb>尽</rb><rt>つ</rt></ruby>くせば、\\n<ruby><rb>造作</rb><rt>ぞうさ</rt></ruby>もないこと。",
+        "zh_cn": "得到天启的我只要肯努力，\\n就没有什么能难倒我。",
+        "zh_tw": "獲得天啟的吾人只要盡己所能，\\n這點事易如反掌。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100003_04",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Bwaaa ha ha! I knew ya shouldn't have\\ndismissed this guy as a noob! Ya better\\ngive yer all in the next game—and I think\\nya know exactly which game I mean.",
+        "ja_jp": "こいつは……<ruby><rb>初心者</rb><rt>しょしんしゃ</rt></ruby>だと<ruby><rb>思</rb><rt>おも</rt></ruby>って<ruby><rb>舐</rb><rt>な</rt></ruby>めて\\nかかったら<ruby><rb>火傷</rb><rt>やけど</rt></ruby>するな。パティア、\\n<ruby><rb>次</rb><rt>つぎ</rt></ruby>は<ruby><rb>全力</rb><rt>ぜんりょく</rt></ruby>だ。『アレ』で<ruby><rb>行</rb><rt>い</rt></ruby>こうぜ。",
+        "zh_cn": "看来……把他当成菜鸟轻敌的话，\\n是要付出代价的啊。帕蒂亚，\\n下一场要尽全力了，比“那个”吧。",
+        "zh_tw": "這傢伙……如果因為他是初學者就\\n小看他，可是會吃鱉的啊。帕媞亞，\\n接下來就使出全力，用「那個」吧。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "I believe I do indeed.\\nSo for our next event...",
+        "ja_jp": "むっ、『アレ』だね？　オッケー、\\nわかった！　お<ruby><rb>次</rb><rt>つぎ</rt></ruby>は――",
+        "zh_cn": "唔，“那个”是吧？\\n知道了！接下来是……",
+        "zh_tw": "唔，是「那個」對吧？\\nOK～我知道了！\\n那接下來就──"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "Behold! Beach volleyball! Let us see if\\nyour fleet feet will avail you here, sir!",
+        "ja_jp": "じゃじゃーん、ビーチバレー！\\nボールでは、<ruby><rb>後</rb><rt>おく</rt></ruby>れを<ruby><rb>取</rb><rt>と</rt></ruby>らないよ！",
+        "zh_cn": "锵锵！沙滩排球！\\n说到球技，\\n我可不会输给任何人！",
+        "zh_tw": "鏘鏘──沙灘排球！\\n玩球的話我可不會輸喔！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "So we are to stand in the sand\\nand bat this sphere about?",
+        "ja_jp": "ふむ……この<ruby><rb>球</rb><rt>たま</rt></ruby>を、<ruby><rb>浜辺</rb><rt>はまべ</rt></ruby>で\\n<ruby><rb>打</rb><rt>う</rt></ruby>ち<ruby><rb>合</rb><rt>あ</rt></ruby>えばよいのだな。",
+        "zh_cn": "唔……在沙滩上来回打这个球\\n就可以了对吧？",
+        "zh_tw": "嗯……\\n在沙灘互相擊打這顆球即可對吧。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "I think you will find it more complicated\\nthan securing a flag. Are you ready?",
+        "ja_jp": "うん。でも、さっきみたいにいくとは\\n<ruby><rb>思</rb><rt>おも</rt></ruby>わないことだね。――それっ!!",
+        "zh_cn": "嗯。不过别以为\\n你能像刚才那样顺利。看球！",
+        "zh_tw": "嗯。不過，\\n可別以為會像剛才那麼順利喔。\\n──看我的！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Heavens above, I cannot possibly\\nmatch the movements of this sphere!",
+        "ja_jp": "――なに!?\\n<ruby><rb>見</rb><rt>み</rt></ruby>えた<ruby><rb>球</rb><rt>たま</rt></ruby>に、<ruby><rb>体</rb><rt>からだ</rt></ruby>が<ruby><rb>追</rb><rt>お</rt></ruby>いつかぬ……!?",
+        "zh_cn": "什么！？\\n虽然看得到球，\\n身体却跟不上！？",
+        "zh_tw": "──什麼！？\\n看得見球，身體卻無法跟上……！？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100002_14",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "By Ilia, what a serve!",
+        "ja_jp": "おおっ、<ruby><rb>出</rb><rt>で</rt></ruby>たな、パティアの<ruby><rb>魔球</rb><rt>まきゅう</rt></ruby>が！",
+        "zh_cn": "噢，出现了啊，帕蒂亚的魔球！",
+        "zh_tw": "喔喔，出現了，帕媞亞的魔球！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "That was my famed mirageball, feared the\\nworld over by rookies and veterans alike!\\nPerhaps our dear Mikoto won't be walking\\naway with the prize so easily after all.",
+        "ja_jp": "ふふん、<ruby><rb>今</rb><rt>いま</rt></ruby>のは<ruby><rb>初見殺</rb><rt>しょけんごろ</rt></ruby>しの<ruby><rb>幻影魔球</rb><rt>げんえいまきゅう</rt></ruby>だ！\\nさあ、これで<ruby><rb>勝負</rb><rt>しょうぶ</rt></ruby>はわからなくなって\\nきたね？",
+        "zh_cn": "哼哼，刚才的幻影魔球\\n就当是个下马威了。好了，\\n这下局势变得难以预测了吧？",
+        "zh_tw": "哼哼～剛才那是初見必殺的幻影魔球！\\n好了，這下就難以看出勝負了吧？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I wasn't aware this was a competition.",
+        "ja_jp": "えっ、これ、いつから<ruby><rb>勝負</rb><rt>しょうぶ</rt></ruby>になったの？",
+        "zh_cn": "诶？什么时候变成比赛了？",
+        "zh_tw": "咦，這什麼時候變成對決的？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Well, now that I have seen what you are\\ncapable of, perhaps you will permit me\\nto set the next challenge.",
+        "ja_jp": "ほう。ならばおぬしらの<ruby><rb>腕前</rb><rt>うでまえ</rt></ruby>を<ruby><rb>鑑</rb><rt>かんが</rt></ruby>み、\\n<ruby><rb>我</rb><rt>われ</rt></ruby>に<ruby><rb>次</rb><rt>つぎ</rt></ruby>なる<ruby><rb>競技</rb><rt>きょうぎ</rt></ruby>の<ruby><rb>提案</rb><rt>ていあん</rt></ruby>がある。",
+        "zh_cn": "嚯。那么考虑到你们的实力，\\n关于下一场比赛我有一个提议。",
+        "zh_tw": "喔，那麼鑒於各位的技術，\\n吾人對下一場競技有個提案。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100006_08",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Bring it on, pal—we're up for whatever!",
+        "ja_jp": "おう、いいぜ！　なんでもこい！\\nさて、お<ruby><rb>次</rb><rt>つぎ</rt></ruby>は――",
+        "zh_cn": "噢，好啊！比什么都行！\\n那么下一场是……",
+        "zh_tw": "嗯，好啊！儘管來吧！\\n那麼，接下來是──"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100004_13",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "When Luca said we were ＂ready for\\nanything＂ I do not think he meant we\\nwould be surfing with cats! ...Blurgh!",
+        "ja_jp": "ね、<ruby><rb>猫</rb><rt>ねこ</rt></ruby>を<ruby><rb>乗</rb><rt>の</rt></ruby>せて<ruby><rb>波乗</rb><rt>なみの</rt></ruby>りですか!?\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>、この<ruby><rb>手</rb><rt>て</rt></ruby>の<ruby><rb>遊戯</rb><rt>ゆうぎ</rt></ruby>には<ruby><rb>自信</rb><rt>じしん</rt></ruby>が……\\nきゃあっ!!",
+        "zh_cn": "带、带着猫冲浪！？\\n我、我对于这类游戏\\n没什么自信……呀啊！",
+        "zh_tw": "帶、帶著貓衝浪嗎！？\\n我對這類遊戲沒有自信……呀啊！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100003_04",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Cleo's gone under! Get a lifeguard, stat!",
+        "ja_jp": "クラウ！　クラウが<ruby><rb>沈</rb><rt>しず</rt></ruby>んだー!!\\n<ruby><rb>救助</rb><rt>きゅうじょ</rt></ruby>、<ruby><rb>救助</rb><rt>きゅうじょ</rt></ruby>!!",
+        "zh_cn": "库菈乌！库菈乌落水啦！\\n快点救她！",
+        "zh_tw": "克菈兒！克菈兒沉下去啦──！！\\n救人、快救人！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100002_14",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "It does my balance no favors to\\nshare my board with this cat.",
+        "ja_jp": "む、<ruby><rb>難</rb><rt>むずか</rt></ruby>しくないかこれ。こう、<ruby><rb>猫</rb><rt>ねこ</rt></ruby>が\\n<ruby><rb>乗</rb><rt>の</rt></ruby>ることで<ruby><rb>妙</rb><rt>みょう</rt></ruby>に<ruby><rb>重心</rb><rt>じゅうしん</rt></ruby>もずれるし……。",
+        "zh_cn": "这、这也太难了吧。\\n因为猫也站在板上，\\n重心会有细微的变化……",
+        "zh_tw": "這、這會不會有點難啊。\\n貓一起在上面的話，\\n重心會很微妙地偏掉……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "If you but align yourself wholeheartedly\\nwith the flow of nature, you will become\\none with the waves—and the more you\\ntrust your partner, the easier this will be.",
+        "ja_jp": "<ruby><rb>自然</rb><rt>しぜん</rt></ruby>の<ruby><rb>流</rb><rt>なが</rt></ruby>れゆくままに<ruby><rb>身</rb><rt>み</rt></ruby>を<ruby><rb>投</rb><rt>とう</rt></ruby>じれば、\\nおのずと<ruby><rb>波</rb><rt>なみ</rt></ruby>がついてくる。こやつらに\\n<ruby><rb>従</rb><rt>したが</rt></ruby>えばよいぶん、<ruby><rb>容易</rb><rt>ようい</rt></ruby>なぐらいだ。",
+        "zh_cn": "置身于大自然的波动中，\\n波浪自然就会跟上来。\\n只要遵循这些就行，倒是很容易。",
+        "zh_tw": "只要委身於大自然的流動，\\n浪潮便隨之而來。\\n效仿這些傢伙，則越容易。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Cat",
+        "ja_jp": "猫",
+        "zh_cn": "猫",
+        "zh_tw": "貓"
+      },
+      "context": {
+        "en_us": "Meow.",
+        "ja_jp": "にゃ～。",
+        "zh_cn": "喵～",
+        "zh_tw": "喵～"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100006_08",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Uh, okay? Hey there, kitty.\\nGo easy on me here, ok—BLURGH!",
+        "ja_jp": "お、おう。お<ruby><rb>手柔</rb><rt>てやわ</rt></ruby>らかにお<ruby><rb>願</rb><rt>ねが</rt></ruby>いしま……\\nってうぎゃあああああ!?",
+        "zh_cn": "是、是吗。请手下留情……\\n呀啊啊啊啊啊啊！？",
+        "zh_tw": "喔、喔。還請手下留情……\\n嗚呀啊啊啊啊啊！？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100006_08",
+      "name": {
+        "en_us": "Cat",
+        "ja_jp": "猫",
+        "zh_cn": "猫",
+        "zh_tw": "貓"
+      },
+      "context": {
+        "en_us": "Meeeeooow.",
+        "ja_jp": "んにゃにゃにゃ～っ☆",
+        "zh_cn": "喵喵喵☆",
+        "zh_tw": "嗯喵喵喵～☆"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "You have ridden the rough waves well!\\nThe joy within your cat speaks to the fact\\nthat you are of singular talent.",
+        "ja_jp": "おお、<ruby><rb>見事</rb><rt>みごと</rt></ruby>に<ruby><rb>荒波</rb><rt>あらなみ</rt></ruby>にもまれている。\\n<ruby><rb>猫</rb><rt>ねこ</rt></ruby>のこのはしゃぎようからしても、\\nやはりただ<ruby><rb>者</rb><rt>もの</rt></ruby>ではなかったようだ。",
+        "zh_cn": "噢，被浪涛蹂躏了一番呢。\\n看这猫咪的兴奋劲头，\\n果然来头不简单。",
+        "zh_tw": "喔喔，諸位皆被狂浪玩弄於鼓掌間啊。\\n但看貓咪這般歡鬧的模樣，\\n果然各位都非等閒之輩。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "That's all well and good, but how are\\nwe even supposed to tell who is the\\nvictor of such a ridiculous event?!",
+        "ja_jp": "うわわ～っ！　ていうかこれ、<ruby><rb>勝敗</rb><rt>しょうはい</rt></ruby>とか\\nつかないタイプの<ruby><rb>遊</rb><rt>あそ</rt></ruby>びじゃない!?",
+        "zh_cn": "哇啊啊！话说这个玩法\\n要怎么定输赢啊！？",
+        "zh_tw": "嗚哇哇～！\\n是說，這種遊戲應該分不出勝負吧！？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "...I feel like I've done a lifetime of beach\\nactivities today. I never knew some of\\nthose even existed.",
+        "ja_jp": "ふう。なんだか<ruby><rb>一生分</rb><rt>いっしょうぶん</rt></ruby>マリンスポーツを\\nやった<ruby><rb>気</rb><rt>き</rt></ruby>がするよ。<ruby><rb>世</rb><rt>よ</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>まだ、おれの\\n<ruby><rb>知</rb><rt>し</rt></ruby>らない<ruby><rb>遊</rb><rt>あそ</rt></ruby>びがいろいろあるなあ。",
+        "zh_cn": "呼……感觉把一辈子的水上运动\\n都玩完了。原来世上还有这么多\\n我不知道的游戏啊。",
+        "zh_tw": "呼～感覺好像把一輩子的\\n海灘活動都玩完了。\\n世上還有許多我不知道的遊戲呢。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "Mikoto's athleticism made for some truly\\nstirring competition. What say you,\\nMikoto? How did you like your first\\never vacation?",
+        "ja_jp": "ミコトは<ruby><rb>運動神経</rb><rt>うんどうしんけい</rt></ruby><ruby><rb>抜群</rb><rt>ばつぐん</rt></ruby>だから、<ruby><rb>勝負</rb><rt>しょうぶ</rt></ruby>にも\\n<ruby><rb>張</rb><rt>は</rt></ruby>り<ruby><rb>合</rb><rt>あ</rt></ruby>いがあるし<ruby><rb>夢中</rb><rt>むちゅう</rt></ruby>になっちゃった。\\nミコトはどう？　<ruby><rb>初</rb><rt>はじ</rt></ruby>めてのバカンス。",
+        "zh_cn": "米科特的运动神经出类拔萃，\\n所以比赛很激烈，让人不禁投入其中。\\n第一次度假，米科特你感觉如何？",
+        "zh_tw": "因為尊的運動神經太好，\\n對勝負也很堅持，不小心太熱衷了。\\n尊覺得如何？對於初次的度假。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "It was quite the novel experience. Even\\nhaving attained revelation, I would never\\nhave thought up the likes of best-of-three,\\ncat-surfing, and watermelon-smashing.",
+        "ja_jp": "うむ、どれも<ruby><rb>新鮮</rb><rt>しんせん</rt></ruby>に<ruby><rb>感</rb><rt>かん</rt></ruby>じる。<ruby><rb>天啓</rb><rt>てんけい</rt></ruby>を<ruby><rb>得</rb><rt>え</rt></ruby>た\\n<ruby><rb>我</rb><rt>われ</rt></ruby>でも、<ruby><rb>波乗</rb><rt>なみの</rt></ruby>り<ruby><rb>猫</rb><rt>ねこ</rt></ruby>スイカ<ruby><rb>割</rb><rt>わ</rt></ruby>り<ruby><rb>三本勝負</rb><rt>さんぼんしょうぶ</rt></ruby>\\nなどという<ruby><rb>競技</rb><rt>きょうぎ</rt></ruby>、<ruby><rb>思</rb><rt>おも</rt></ruby>いつきもせぬ。",
+        "zh_cn": "嗯，不管什么都感觉很新鲜。即使是\\n得到天启的我，也想不出带猫冲浪\\n劈西瓜三局两胜等竞技。",
+        "zh_tw": "嗯，每項都頗為新奇。\\n縱使是獲得天啟的吾人，也想不出\\n衝浪貓打西瓜三戰兩勝這等競技。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100004_13",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "I think that was new to all of us...",
+        "ja_jp": "それは<ruby><rb>天啓</rb><rt>てんけい</rt></ruby>の<ruby><rb>有無</rb><rt>うむ</rt></ruby>にかかわらずあまり\\nしないことかと<ruby><rb>思</rb><rt>おも</rt></ruby>いますが。",
+        "zh_cn": "这应该无关天启，\\n而是本来就没人玩吧……",
+        "zh_tw": "我覺得那和有沒有天啟無關，\\n只是一般不會做這種事而已。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100003_04",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Well, for a first-timer, ya put on one\\nhelluva show. Maybe there really is\\nsomethin' to that whole zen dealie\\nya got goin' on.",
+        "ja_jp": "それにしても、<ruby><rb>初見</rb><rt>しょけん</rt></ruby>の<ruby><rb>競技</rb><rt>きょうぎ</rt></ruby>に<ruby><rb>喰</rb><rt>く</rt></ruby>らい\\nついていく<ruby><rb>姿</rb><rt>すがた</rt></ruby>は<ruby><rb>見事</rb><rt>みごと</rt></ruby>なもんだったぜ。\\nさすが、<ruby><rb>荒行</rb><rt>あらぎょう</rt></ruby>をこなしただけある。",
+        "zh_cn": "不过你对第一次见的竞技\\n也投身其中的样子真了不起。\\n不愧是经历过严酷修行的人。",
+        "zh_tw": "話說回來，尊對初次的競技\\n堅持不懈的樣子還真了不起啊。\\n不愧是歷經艱苦修行的人。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "Ah, so THAT is the secret to\\nMikoto's otherworldly strength!",
+        "ja_jp": "へえ、<ruby><rb>荒行</rb><rt>あらぎょう</rt></ruby>？　それがミコトの\\n<ruby><rb>浮世離</rb><rt>うきよばな</rt></ruby>れした<ruby><rb>強</rb><rt>つよ</rt></ruby>さの<ruby><rb>源</rb><rt>みなもと</rt></ruby>ってわけかあ。",
+        "zh_cn": "诶，严酷的修行？\\n原来这就是米科特\\n强大非凡的原因啊。",
+        "zh_tw": "喔，艱苦修行？\\n那就是尊強大得超脫常人的理由嗎。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "In that case, the next time we have a\\nspare moment, I would hear all of your\\nsecrets in terms of—",
+        "ja_jp": "ねえ、よかったら<ruby><rb>休憩</rb><rt>きゅうけい</rt></ruby>がてらその<ruby><rb>話</rb><rt>はなし</rt></ruby>を\\n<ruby><rb>聞</rb><rt>き</rt></ruby>かせてよ！　<ruby><rb>強</rb><rt>つよ</rt></ruby>さの<ruby><rb>秘訣</rb><rt>ひけつ</rt></ruby>とか、<ruby><rb>今後</rb><rt>こんご</rt></ruby>の\\n<ruby><rb>参考</rb><rt>さんこう</rt></ruby>に<ruby><rb>知</rb><rt>し</rt></ruby>りた――",
+        "zh_cn": "我说，你休息的时候能跟我讲讲\\n修行的经历吗？比如强大的秘诀\\n之类的，我想作为今后的参考……",
+        "zh_tw": "欸，如果你不介意，休息的時候\\n順便說給我聽吧！例如強大的秘訣，\\n我想當作今後的參考──"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "GRAAAAAGH!",
+        "ja_jp": "いやああああーーーーーーっ!!",
+        "zh_cn": "不要啊啊啊啊啊啊！",
+        "zh_tw": "不要啊啊啊啊──────！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "Oh, what is it now?!",
+        "ja_jp": "<ruby><rb>何事</rb><rt>なにごと</rt></ruby>ッ!?",
+        "zh_cn": "出什么事了！？",
+        "zh_tw": "怎麼了！？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Gaudy Imperial Soldier",
+        "ja_jp": "チャラい帝国兵",
+        "zh_cn": "轻浮的帝国兵",
+        "zh_tw": "輕浮帝國兵"
+      },
+      "context": {
+        "en_us": "Get outta here, you lot!\\nThis beach belongs to us now!",
+        "ja_jp": "ヘイヘイ！　どいたどいた～！\\n<ruby><rb>今日</rb><rt>きょう</rt></ruby>からこのビーチは<ruby><rb>俺</rb><rt>おれ</rt></ruby>っちたち\\nだけのもんっしょ!!",
+        "zh_cn": "都闪开，都闪开！\\n从今天起这片沙滩\\n就是我们专属的了！",
+        "zh_tw": "嘿嘿！讓開讓開～！\\n從今天起這片海灘就是\\n專屬於我們的啦！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Carefree Imperial Soldier",
+        "ja_jp": "ユルい帝国兵",
+        "zh_cn": "散漫的帝国兵",
+        "zh_tw": "散漫帝國兵"
+      },
+      "context": {
+        "en_us": "It's a lovely day for a hooooliday,\\nbut not for any of yooooouuuu!\\nWe're not gonna let you enjooooy it,\\nbecause you smell like...uh...traaaash!",
+        "ja_jp": "ば～かんす♪　ば～かんす♪\\nビーチに<ruby><rb>残</rb><rt>のこ</rt></ruby>ってるみんなには、\\nこうだ～！",
+        "zh_cn": "度假♪度假♪\\n还留在沙滩上的人，\\n就尝尝我的厉害吧！",
+        "zh_tw": "度～假♪度～假♪\\n還留在海灘上的人，\\n下場就是這樣～！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120068_01",
+      "name": {
+        "en_us": "Tourist",
+        "ja_jp": "ビーチの客",
+        "zh_cn": "沙滩游客",
+        "zh_tw": "海灘遊客"
+      },
+      "context": {
+        "en_us": "Ugh! I can't take another minute\\nof that off-key caterwauling!",
+        "ja_jp": "ぎゃあっ！　なんて<ruby><rb>音痴</rb><rt>おんち</rt></ruby>な<ruby><rb>歌</rb><rt>うた</rt></ruby>だ！\\nこ、こんなの<ruby><rb>聞</rb><rt>き</rt></ruby>いてられるか～!!",
+        "zh_cn": "呀啊！怎么会有这种跑调的歌声！\\n简、简直让人听不下去！",
+        "zh_tw": "呀啊！也未免太音痴了吧！\\n這、這種東西哪聽得下去啊～！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100002_14",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Imperial soldiers?! Fie!",
+        "ja_jp": "な――こいつらは、<ruby><rb>帝国兵</rb><rt>ていこくへい</rt></ruby>!?",
+        "zh_cn": "什么……这些家伙，是帝国兵！？",
+        "zh_tw": "什麼──他們是，帝國兵！？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "I don't know what those scum are doing\\nhere, but I won't let them ruin my vacation!",
+        "ja_jp": "イヤー！　デスリサイタルで<ruby><rb>私</rb><rt>わたし</rt></ruby>の\\n<ruby><rb>休暇</rb><rt>きゅうか</rt></ruby>が<ruby><rb>死</rb><rt>し</rt></ruby>んでいくー！　\\nなんでこんなことするの!!",
+        "zh_cn": "不要啊！我的假期即将\\n在这场死亡独唱会中逝去！\\n为什么要做这种事！",
+        "zh_tw": "不──！\\n死亡演唱會打算殺了我的假期──！\\n為什麼要這麼做！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Frivolous Imperial Soldier",
+        "ja_jp": "カルい帝国兵",
+        "zh_cn": "浅薄的帝国兵",
+        "zh_tw": "膚淺帝國兵"
+      },
+      "context": {
+        "en_us": "Hey, we're risking our lives out there while\\nyou lot frolic and cavort at the beach!\\nWell, now it's OUR turn for some fun!",
+        "ja_jp": "<ruby><rb>俺</rb><rt>おれ</rt></ruby>らがシャカリキ<ruby><rb>働</rb><rt>はたら</rt></ruby>いてるのに、\\n<ruby><rb>浜</rb><rt>はま</rt></ruby>では<ruby><rb>楽</rb><rt>たの</rt></ruby>しそうな<ruby><rb>声</rb><rt>こえ</rt></ruby>がアハンウフン……\\nワイワイバカンスしてて<ruby><rb>許</rb><rt>ゆる</rt></ruby>せないっす！",
+        "zh_cn": "我们拼命地干活，\\n海边却传来欢声笑语……\\n简直忍不了人们热火朝天地度假！",
+        "zh_tw": "我們拼命埋頭工作的時候，\\n海灘上卻不斷傳來歡笑聲……\\n無法原諒你們享受快樂假期！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Gaudy Imperial Soldier",
+        "ja_jp": "チャラい帝国兵",
+        "zh_cn": "轻浮的帝国兵",
+        "zh_tw": "輕浮帝國兵"
+      },
+      "context": {
+        "en_us": "Yep! It's a soldier summer vacation!\\nOh, and we're gonna need the whole\\nbeach, so let's all move along now.\\nThat's it, off you pop. Taaaa!",
+        "ja_jp": "そこで<ruby><rb>俺</rb><rt>おれ</rt></ruby>っちたちも、バカンス<ruby><rb>取</rb><rt>と</rt></ruby>るって\\n<ruby><rb>決</rb><rt>き</rt></ruby>めたっしょ！　そのためにもこの\\nビーチ、もらっちゃうんでシクヨロ！",
+        "zh_cn": "所以我们也决定要度假了！\\n我话说在前头，\\n这片沙滩就归我们了！",
+        "zh_tw": "因此我們也決定要來度假！\\n海灘就由我們收下啦，請多指教！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "As a knight of the White Sparrow Corps,\\nI shall not stand idly by while you ruin the\\nvacations of all merely so you can attempt\\nto have one of your own!",
+        "ja_jp": "はい？　<ruby><rb>自分</rb><rt>じぶん</rt></ruby>のバカンスのために<ruby><rb>他人</rb><rt>たにん</rt></ruby>の\\nバカンスを<ruby><rb>奪</rb><rt>うば</rt></ruby>おうっての？　そんな\\n<ruby><rb>横暴</rb><rt>おうぼう</rt></ruby>、<ruby><rb>白燕騎士</rb><rt>はくえんきし</rt></ruby>として<ruby><rb>見過</rb><rt>みす</rt></ruby>ごせない!!",
+        "zh_cn": "啊？你们竟然为了自己度假\\n而剥夺他人度假的权利？身为白燕骑士，\\n岂能放任你们如此蛮横无理！",
+        "zh_tw": "等等？你們為了自己的假期\\n而要奪走別人的假期？這種暴行，\\n我身為白燕騎士絕不允許！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Heaven has spoken. Your behavior is\\na violation of the natural order, and all\\nthings must heed to nature's flow.",
+        "ja_jp": "<ruby><rb>天</rb><rt>てん</rt></ruby>は<ruby><rb>言</rb><rt>い</rt></ruby>っている。その<ruby><rb>主張</rb><rt>しゅちょう</rt></ruby>は、いささか\\n<ruby><rb>自然</rb><rt>しぜん</rt></ruby>の<ruby><rb>流</rb><rt>なが</rt></ruby>れに<ruby><rb>反</rb><rt>はん</rt></ruby>している……と。\\n<ruby><rb>物事</rb><rt>ものごと</rt></ruby>は<ruby><rb>自然</rb><rt>しぜん</rt></ruby>のままにあるべきだ。",
+        "zh_cn": "上天在说，\\n你们的主张违反了自然的波动……\\n任何事物都应遵循大自然的规律。",
+        "zh_tw": "上天表示，如此主張，\\n略為違反自然的流動……\\n萬物皆該順應自然存在。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Imperial Soldiers",
+        "ja_jp": "帝国兵たち",
+        "zh_cn": "帝国兵们",
+        "zh_tw": "帝國兵們"
+      },
+      "context": {
+        "en_us": "Cram it with walnuts, pal! If you won't get\\noutta our way, we'll make you pay!",
+        "ja_jp": "うるせ～～～い！\\n<ruby><rb>俺</rb><rt>おれ</rt></ruby>っちたちからバカンスを<ruby><rb>奪</rb><rt>うば</rt></ruby>うやつには\\nこうだ～～～～～!!",
+        "zh_cn": "闭嘴！\\n敢不让我们度假的话，\\n就让你们好看！",
+        "zh_tw": "吵死了啦～～～！\\n想奪走我們假期的傢伙，\\n吃我這招吧～～～～～！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Imperial Soldiers",
+        "ja_jp": "帝国兵たち",
+        "zh_cn": "帝国兵们",
+        "zh_tw": "帝國兵們"
+      },
+      "context": {
+        "en_us": "What the...? They deflected our attacks!",
+        "ja_jp": "なにぃ～っ!?　\\n<ruby><rb>俺</rb><rt>おれ</rt></ruby>っちたちの<ruby><rb>一撃</rb><rt>いちげき</rt></ruby>が～!?",
+        "zh_cn": "怎么会！？\\n我们的攻击竟然！？",
+        "zh_tw": "什麼～！？\\n接下了我們的一擊～！？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110335_03",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "Your attacks were pathetic. Your Highness,\\nwe shall stand our ground here—please\\nsee the other vacationers to safety!",
+        "ja_jp": "ふん、<ruby><rb>攻撃</rb><rt>こうげき</rt></ruby>が<ruby><rb>甘</rb><rt>あま</rt></ruby>い。……<ruby><rb>殿下</rb><rt>でんか</rt></ruby>！　\\nこの<ruby><rb>場</rb><rt>ば</rt></ruby>は<ruby><rb>私</rb><rt>わたし</rt></ruby>たちが<ruby><rb>受</rb><rt>う</rt></ruby>け<ruby><rb>持</rb><rt>も</rt></ruby>ちます、　\\n<ruby><rb>殿下</rb><rt>でんか</rt></ruby>たちはバカンス<ruby><rb>客</rb><rt>きゃく</rt></ruby>の<ruby><rb>避難誘導</rb><rt>ひなんゆうどう</rt></ruby>を！",
+        "zh_cn": "哼，攻击手法太嫩了……殿下！\\n这里就交给我们吧，\\n你们快带度假的游客去避难！",
+        "zh_tw": "哼，攻擊太弱了。\\n……殿下！這裡就由我們負責。\\n請殿下和各位負責引導度假旅客避難！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Right. With me, everyone!",
+        "ja_jp": "ああ、わかった！　いくぞ、みんな！",
+        "zh_cn": "我知道了！大家，跟我来！",
+        "zh_tw": "嗯，我知道了！走吧，大家！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Patia",
+        "ja_jp": "パティア",
+        "zh_cn": "帕蒂亚",
+        "zh_tw": "帕媞亞"
+      },
+      "context": {
+        "en_us": "You curs are dealing with me now,\\nand I shall stop at nothing to protect \\nthe public order as well as the right\\nof the people to vacation in peace!",
+        "ja_jp": "さーて、ここからは<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>相手</rb><rt>あいて</rt></ruby>だ。\\n<ruby><rb>人々</rb><rt>ひとびと</rt></ruby>のバカンスと<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>心</rb><rt>こころ</rt></ruby>の<ruby><rb>安寧</rb><rt>あんねい</rt></ruby>を\\n<ruby><rb>守</rb><rt>まも</rt></ruby>るため！　<ruby><rb>容赦</rb><rt>ようしゃ</rt></ruby>はしない！",
+        "zh_cn": "好了，接下来由我来对付你们。\\n为了守护大家的假期和我内心的宁静！\\n我不会手下留情！",
+        "zh_tw": "好～啦，接下來由我來對付你們。\\n為了守護人們的假期與我內心的安穩！\\n絕不手下留情！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "What Heaven knows, the earth knows—\\nand what the earth knows, Mikoto knows.\\nWe will set down any and all in our path\\nso long as Heaven wills it.",
+        "ja_jp": "<ruby><rb>天知</rb><rt>てんし</rt></ruby>り<ruby><rb>地知</rb><rt>ちし</rt></ruby>り<ruby><rb>我知</rb><rt>われし</rt></ruby>り<ruby><rb>人知</rb><rt>ひとし</rt></ruby>る。<ruby><rb>天意</rb><rt>てんい</rt></ruby>に\\n<ruby><rb>従</rb><rt>したが</rt></ruby>い、<ruby><rb>我</rb><rt>われ</rt></ruby>ら<ruby><rb>一切合切</rb><rt>いっさいがっさい</rt></ruby>を<ruby><rb>切</rb><rt>き</rt></ruby>り<ruby><rb>捨</rb><rt>す</rt></ruby>て<ruby><rb>進</rb><rt>すす</rt></ruby>む。",
+        "zh_cn": "天知地知你知我知。\\n我们要顺应天意，\\n铲除一切向前迈进。",
+        "zh_tw": "天知地知你知吾人知。\\n吾等遵從天意，剷除一切向前邁進。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_04",
+      "name": {
+        "en_us": "Patia & Mikoto",
+        "ja_jp": "パティア＆ミコト",
+        "zh_cn": "帕蒂亚&米科特",
+        "zh_tw": "帕媞亞＆尊"
+      },
+      "context": {
+        "en_us": "En garde!",
+        "ja_jp": "<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>ッ!!",
+        "zh_cn": "接招吧！",
+        "zh_tw": "覺悟吧！！"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

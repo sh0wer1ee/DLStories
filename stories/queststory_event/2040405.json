@@ -1,798 +1,1513 @@
 {
-    "story_id": "",
-    "story_name": "新春初曦招福开运第4话 除夕夜的比试",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "款待大比拼的前哨战突然打响。\\n家康的侍女山茶花与牡丹的跨年荞麦面\\n比拼以山茶花的胜利而告终。\\n下一场比试是和家康进行的模拟战。\\n只要战胜家康，就能得到“红包”……"
-        ]
+  "title": {
+    "en_us": "Fortune from Afar  Episode 4  The War of Soba Noodles",
+    "ja_jp": "新春日ノ下招福縁起 第4話 大晦日の真剣勝負",
+    "zh_cn": "新春初曦招福开运 第4话 除夕夜的比试",
+    "zh_tw": "新春日下招福來運 第4話 除夕的全力對決"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "哇……\\n好棒啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_05"
-            ],
-            "speaker_name": "穆穆",
-            "context": "虽然我活了很久，\\n但这样的还是第一次见。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "原本熟悉的房间经过布置\\n一下变得很有异域风情……",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_02"
-            ],
-            "speaker_name": "家康",
-            "context": "呵呵。你们能喜欢，\\n我们也很欣慰。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110311_01"
-            ],
-            "speaker_name": "山茶花",
-            "context": "各位，跨年荞麦面做好了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110311_01"
-            ],
-            "speaker_name": "山茶花",
-            "context": "请在面泡涨之前，\\n尽快享用吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_03"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "噢！闻起来真香啊！\\n是日出之国的面条吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110311_01"
-            ],
-            "speaker_name": "山茶花",
-            "context": "对。这叫作荞麦面。\\n而除夕吃的面\\n又叫跨年荞麦面。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_03"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "哇～看起来挺好吃的！\\n快让我尝尝……",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110312_01"
-            ],
-            "speaker_name": "牡丹",
-            "context": "先别吃啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "咦？牡丹？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110312_01"
-            ],
-            "speaker_name": "牡丹",
-            "context": "我也准备了跨年荞麦面！\\n这是我的拿手好戏！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110312_01"
-            ],
-            "speaker_name": "牡丹",
-            "context": "所以你们就吃我的荞麦面吧！\\n好吗？好吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "是我的错觉吗，\\n这荞麦面好像吸了不少汤……",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110312_01"
-            ],
-            "speaker_name": "牡丹",
-            "context": "这、这就是这样的啦！\\n我和山茶花做的有些不同而已。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "是、是吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "干脆把跨年荞麦面\\n当作款待大比拼的前哨战吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110312_01"
-            ],
-            "speaker_name": "牡丹",
-            "context": "哎呀，这主意不错。\\n正合我意！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110311_01"
-            ],
-            "speaker_name": "山茶花",
-            "context": "我也没有异议。因为我做的面\\n对得起家康大人的名号。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好，那我们就赶快尝尝吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "我开动了！\\n先尝尝山茶花做的吧♪",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_03"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "嗯……嗯、嗯！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "这、这味道……",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110311_01"
-            ],
-            "speaker_name": "山茶花",
-            "context": "各位……怎么颤抖得这么厉害，\\n是不合你们的胃口吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_03"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "真！　好！　吃！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110311_01"
-            ],
-            "speaker_name": "山茶花",
-            "context": "咦？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_03"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "实在太好吃了，\\n不禁感动了一番！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "是啊！我还是头一次尝到\\n如此细腻的味道。真是后味无穷……",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110311_01"
-            ],
-            "speaker_name": "山茶花",
-            "context": "因为我熬的汤很讲究。\\n你们喜欢就好。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110312_01"
-            ],
-            "speaker_name": "牡丹",
-            "context": "那我呢那我呢！？\\n我做的怎么样！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "别急啊！\\n这就吃你做的面……嗯？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "好、好像……\\n比山茶花做的软了一些……",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_05"
-            ],
-            "speaker_name": "穆穆",
-            "context": "而且还很咸……\\n亲爱的，能给我杯水吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110310_01"
-            ],
-            "speaker_name": "阿迪斯",
-            "context": "你……自己尝过味道吗？\\n而且这面已经泡涨了啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110312_01"
-            ],
-            "speaker_name": "牡丹",
-            "context": "别瞎说好吗？\\n这怎么可……嗯？咦？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110312_01"
-            ],
-            "speaker_name": "牡丹",
-            "context": "不会吧……煮面的时间搞错了！？\\n而且还很咸！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210078_01"
-            ],
-            "speaker_name": "狮子舞",
-            "context": "尤蒂尔大人，\\n决出胜负了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "唔……这个嘛……\\n有点难以抉择啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210078_01"
-            ],
-            "speaker_name": "狮子舞",
-            "context": "顺便说一下，添面的时候\\n添的可是胜者做的面！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_03"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "什么！？尤蒂尔，\\n行行好，你可别选错了啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "唔、嗯……牡丹，抱歉了！\\n胜者是，山茶花……",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110311_01"
-            ],
-            "speaker_name": "山茶花",
-            "context": "承让了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_05"
-            ],
-            "speaker_name": "穆穆",
-            "context": "不愧是亲爱的♪\\n我就相信你一定会选对！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110310_01"
-            ],
-            "speaker_name": "阿迪斯",
-            "context": "这也没办法。\\n不管是谁都一定会选山茶花。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110312_01"
-            ],
-            "speaker_name": "牡丹",
-            "context": "还、还没结束呢。今天只是除夕！\\n重头戏可是从明天哦？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "说起来，明天要做什么啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_02"
-            ],
-            "speaker_name": "家康",
-            "context": "明天在这里吃什锦年菜，\\n再请各位观赏一下新年玩的游戏。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "什锦年菜？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110311_01"
-            ],
-            "speaker_name": "山茶花",
-            "context": "那是日出之国新年吃的传统饭菜。\\n里面用到的食材，\\n都有不同的含义。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110311_01"
-            ],
-            "speaker_name": "山茶花",
-            "context": "比如说虾代表长寿、\\n鲱鱼子寓意人丁兴旺。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "真有趣……\\n我还想听关于日出之国的事。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_02"
-            ],
-            "speaker_name": "家康",
-            "context": "我想想……\\n也许你会对“红包”感兴趣。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_02"
-            ],
-            "speaker_name": "家康",
-            "context": "它本来代表着与大家\\n分享天照赐予我们的福气……",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_02"
-            ],
-            "speaker_name": "家康",
-            "context": "现在则更具体地演变为\\n送东西让对方高兴的习俗。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "喔！红包！\\n听起来挺不错！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210078_01"
-            ],
-            "speaker_name": "狮子舞",
-            "context": "当然了，而且我们也带来了红包♪",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "太好了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_03"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "你们真大方啊！\\n真的可以收下吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_02"
-            ],
-            "speaker_name": "家康",
-            "context": "可以。因为我们希望各位\\n能体验到日出之国新年的乐趣啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_02"
-            ],
-            "speaker_name": "家康",
-            "context": "天照和将军也吩咐过，\\n送红包的时候，\\n一定要送得有趣味。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "哇……好期待！\\n谢谢你，家康！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_02"
-            ],
-            "speaker_name": "家康",
-            "context": "不客气。那么，\\n就请和我比试一下吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "比试？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_02"
-            ],
-            "speaker_name": "家康",
-            "context": "要是平平淡淡地送出红包，\\n可就太无趣了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_02"
-            ],
-            "speaker_name": "家康",
-            "context": "如果能战胜我，就给你们红包。\\n如何？简单又有趣的玩法吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_03"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "什么！？\\n不应该大方地送出去吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110310_01"
-            ],
-            "speaker_name": "阿迪斯",
-            "context": "怎么？\\n你该不会是怕家康大人吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110310_01"
-            ],
-            "speaker_name": "阿迪斯",
-            "context": "毕竟大人的刀法在日出之国\\n也称得上是顶尖高手。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110310_01"
-            ],
-            "speaker_name": "阿迪斯",
-            "context": "对自己没有信心的话，就放弃吧。\\n免得连什锦年菜都吃不成。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_03"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "啊？怎么可能。\\n他身手了得的话，我还求之不得呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "就是！就让你们见识见识\\n森隐族的箭术！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_02"
-            ],
-            "speaker_name": "家康",
-            "context": "那您意下如何呢？\\n尤蒂尔殿下。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_02"
-            ],
-            "speaker_name": "家康",
-            "context": "虽然阿迪斯那样说，但这不过是场游戏。\\n就当是切磋武艺吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "是啊……我知道了\\n我接受你的挑战。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "尤蒂尔，真的要比试吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "嗯。我对日出之国的武术也有些兴趣，\\n想和他过过招。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110312_01"
-            ],
-            "speaker_name": "牡丹",
-            "context": "我也要参战！当然，是加入\\n尤蒂尔阵营！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "咦！？\\n为什么加入我们！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110312_01"
-            ],
-            "speaker_name": "牡丹",
-            "context": "我才不想输给家康，\\n当然要和你一组了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_02"
-            ],
-            "speaker_name": "家康",
-            "context": "无妨。我也有很多\\n以寡敌众的经验。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110312_01"
-            ],
-            "speaker_name": "牡丹",
-            "context": "你看，他都这么说了！\\n就让我加入吧！好吗？好吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "既然这样……好吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110312_01"
-            ],
-            "speaker_name": "牡丹",
-            "context": "太好了！\\n我绝对不会输！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_02"
-            ],
-            "speaker_name": "家康",
-            "context": "那我们就移步宽敞的地方吧。\\n可不能把城里弄乱了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_03"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "好啊，来吧！\\n一定要打败家康，拿到红包！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "全员",
-            "context": "噢！",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "（接受挑战\\n应该没问题吧……）",
-            "voice_line": "VO_CHR_EVENTSTORY_20404_05_0089",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "The hospitality face-off begins with a warm-up\\nbout, and Ieyasu's attendant Sazanka is\\nvictorious over Botan in a war of soba noodles.\\nThe next competition is a mock battle with\\nIeyasu where the winner will receive\\nNew Year's gifts known as an ＂otoshidama.＂",
+      "ja_jp": "<ruby><rb>突如</rb><rt>とつじょ</rt></ruby>はじまった、おもてなし<ruby><rb>対決</rb><rt>たいけつ</rt></ruby>の<ruby><rb>前哨戦</rb><rt>ぜんしょうせん</rt></ruby>。\\nイエヤスの<ruby><rb>侍女</rb><rt>じじょ</rt></ruby>サザンカvsボタンの<ruby><rb>年越</rb><rt>としこし</rt></ruby>\\n<ruby><rb>蕎麦</rb><rt>そば</rt></ruby><ruby><rb>対決</rb><rt>たいけつ</rt></ruby>は、サザンカの<ruby><rb>勝利</rb><rt>しょうり</rt></ruby>に<ruby><rb>終</rb><rt>お</rt></ruby>わった。\\nつぎなる<ruby><rb>勝負</rb><rt>しょうぶ</rt></ruby>は、イエヤスとの<ruby><rb>模擬戦</rb><rt>もぎせん</rt></ruby>。\\n<ruby><rb>勝</rb><rt>か</rt></ruby>ったら『お<ruby><rb>年玉</rb><rt>としだま</rt></ruby>』をもらえることに……。",
+      "zh_cn": "款待大比拼的前哨战突然打响。\\n家康的侍女山茶花与牡丹的跨年荞麦面\\n比拼以山茶花的胜利而告终。\\n下一场比试是和家康进行的模拟战。\\n只要战胜家康，就能得到“红包”……",
+      "zh_tw": "突然其來的，款待對決的前哨戰。\\n家康的侍女山茶vs牡丹的跨年蕎麥麵對決，\\n以山茶的勝利畫下句點。\\n之後則是和家康的模擬戰。\\n勝者將可獲得「紅包」……"
+    }
+  },
+  "prev": "2040404",
+  "next": "2040406",
+  "content": [
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Whoa, man. Look at THAT!",
+        "ja_jp": "わぁ……！\\nすっごーい！",
+        "zh_cn": "哇……\\n好棒啊！",
+        "zh_tw": "哇……！\\n好棒喔──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0001",
+      "book": ""
+    },
+    {
+      "icon": "100010_05",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "I have been around for a very long time,\\nand yet this is a first even for my eyes!",
+        "ja_jp": "<ruby><rb>長</rb><rt>なが</rt></ruby>く<ruby><rb>生</rb><rt>い</rt></ruby>きてるけど、\\nこういうのは<ruby><rb>初</rb><rt>はじ</rt></ruby>めて<ruby><rb>見</rb><rt>み</rt></ruby>るわね。",
+        "zh_cn": "虽然我活了很久，\\n但这样的还是第一次见。",
+        "zh_tw": "我活了這麼久，\\n這種裝飾還是第一次見到呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0002",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "I have seen this room a thousand times,\\nand yet with these decorations in place,\\nI would swear that I had entered the\\ngreat hall of some other nation.",
+        "ja_jp": "<ruby><rb>見慣</rb><rt>みな</rt></ruby>れているはずなのに、<ruby><rb>飾</rb><rt>かざ</rt></ruby>り<ruby><rb>付</rb><rt>つ</rt></ruby>けで\\nあっという<ruby><rb>間</rb><rt>ま</rt></ruby>に<ruby><rb>異国</rb><rt>いこく</rt></ruby>の<ruby><rb>部屋</rb><rt>へや</rt></ruby>だな……！",
+        "zh_cn": "原本熟悉的房间经过布置\\n一下变得很有异域风情……",
+        "zh_tw": "明明應該是很熟悉的地方，但經過布置\\n一下子就成了異國的房間呢……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0003",
+      "book": ""
+    },
+    {
+      "icon": "110313_02",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "I am delighted that it pleases you.",
+        "ja_jp": "ふふ、<ruby><rb>気</rb><rt>き</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>っていただけたなら\\nこちらも<ruby><rb>喜</rb><rt>よろこ</rt></ruby>ばしい<ruby><rb>限</rb><rt>かぎ</rt></ruby>りです。",
+        "zh_cn": "呵呵。你们能喜欢，\\n我们也很欣慰。",
+        "zh_tw": "呵呵，能得各位賞光，\\n我也甚感榮幸。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0004",
+      "book": ""
+    },
+    {
+      "icon": "110311_01",
+      "name": {
+        "en_us": "Sazanka",
+        "ja_jp": "サザンカ",
+        "zh_cn": "山茶花",
+        "zh_tw": "山茶"
+      },
+      "context": {
+        "en_us": "The soba noodles are ready!",
+        "ja_jp": "<ruby><rb>皆様</rb><rt>みなさま</rt></ruby>、<ruby><rb>年越蕎麦</rb><rt>としこしそば</rt></ruby>ができあがりました。",
+        "zh_cn": "各位，跨年荞麦面做好了。",
+        "zh_tw": "各位，跨年蕎麥麵完成了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0005",
+      "book": ""
+    },
+    {
+      "icon": "110311_01",
+      "name": {
+        "en_us": "Sazanka",
+        "ja_jp": "サザンカ",
+        "zh_cn": "山茶花",
+        "zh_tw": "山茶"
+      },
+      "context": {
+        "en_us": "Please eat quickly before they grow soggy.",
+        "ja_jp": "どうぞ、<ruby><rb>蕎麦</rb><rt>そば</rt></ruby>がのびないうちに\\nお<ruby><rb>召</rb><rt>め</rt></ruby>し<ruby><rb>上</rb><rt>あ</rt></ruby>がりくださいませ。",
+        "zh_cn": "请在面泡涨之前，\\n尽快享用吧。",
+        "zh_tw": "請趁蕎麥麵變糊之前享用吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0006",
+      "book": ""
+    },
+    {
+      "icon": "100003_03",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Oh man, these smell better'n hot bread\\non a cold morning! This must be some\\nkinda Hinomotoan specialty, yeah?",
+        "ja_jp": "お！　いい<ruby><rb>匂</rb><rt>にお</rt></ruby>いじゃねぇか！\\nヒノモトの<ruby><rb>麺料理</rb><rt>めんりょうり</rt></ruby>か？",
+        "zh_cn": "噢！闻起来真香啊！\\n是日出之国的面条吗？",
+        "zh_tw": "喔！味道可真香！\\n這是日初之國的麵料理嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0007",
+      "book": ""
+    },
+    {
+      "icon": "110311_01",
+      "name": {
+        "en_us": "Sazanka",
+        "ja_jp": "サザンカ",
+        "zh_cn": "山茶花",
+        "zh_tw": "山茶"
+      },
+      "context": {
+        "en_us": "Indeed they are. And while we eat them\\nat many times of the year, those served\\nat New Year have extra significance.",
+        "ja_jp": "はい。<ruby><rb>蕎麦</rb><rt>そば</rt></ruby>という<ruby><rb>名</rb><rt>な</rt></ruby>の<ruby><rb>料理</rb><rt>りょうり</rt></ruby>です。\\n<ruby><rb>特</rb><rt>とく</rt></ruby>に<ruby><rb>大晦日</rb><rt>おおみそか</rt></ruby>に<ruby><rb>食</rb><rt>た</rt></ruby>べるものは、\\n<ruby><rb>年越蕎麦</rb><rt>としこしそば</rt></ruby>と<ruby><rb>呼</rb><rt>よ</rt></ruby>ばれております。",
+        "zh_cn": "对。这叫作荞麦面。\\n而除夕吃的面\\n又叫跨年荞麦面。",
+        "zh_tw": "是的，這道料理名為蕎麥麵。\\n而在除夕吃的話，\\n則特別稱為跨年蕎麥麵。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0008",
+      "book": ""
+    },
+    {
+      "icon": "100003_03",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "In that case, I'm gonna shove noodles\\ndown my gullet till I puk—",
+        "ja_jp": "へぇ～！　<ruby><rb>美味</rb><rt>うま</rt></ruby>そうだな！\\nじゃあ、さっそくいただくと――",
+        "zh_cn": "哇～看起来挺好吃的！\\n快让我尝尝……",
+        "zh_tw": "喔～！看起來很好吃耶！\\n那我馬上就來開動──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0009",
+      "book": ""
+    },
+    {
+      "icon": "110312_01",
+      "name": {
+        "en_us": "Botan",
+        "ja_jp": "ボタン",
+        "zh_cn": "牡丹",
+        "zh_tw": "牡丹"
+      },
+      "context": {
+        "en_us": "HOLD IT RIGHT THERE!",
+        "ja_jp": "ちょっと<ruby><rb>待</rb><rt>ま</rt></ruby>ったあああああ！",
+        "zh_cn": "先别吃啊啊啊啊啊！",
+        "zh_tw": "給我等一下啊啊啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0010",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Er, Botan?",
+        "ja_jp": "え？　ボタン？",
+        "zh_cn": "咦？牡丹？",
+        "zh_tw": "咦？牡丹？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0011",
+      "book": ""
+    },
+    {
+      "icon": "110312_01",
+      "name": {
+        "en_us": "Botan",
+        "ja_jp": "ボタン",
+        "zh_cn": "牡丹",
+        "zh_tw": "牡丹"
+      },
+      "context": {
+        "en_us": "I ALSO MADE SOBA NOODLES,\\nFOR THEY ARE ALSO MY SPECIALTY!",
+        "ja_jp": "<ruby><rb>年越蕎麦</rb><rt>としこしそば</rt></ruby>なら、あたしも<ruby><rb>作</rb><rt>つく</rt></ruby>ったわ！\\n<ruby><rb>蕎麦作</rb><rt>そばづく</rt></ruby>りは<ruby><rb>大得意</rb><rt>だいとくい</rt></ruby>なんだから！",
+        "zh_cn": "我也准备了跨年荞麦面！\\n这是我的拿手好戏！",
+        "zh_tw": "跨年蕎麥麵的話，我也做了喔！\\n蕎麥麵可是我最擅長的料理！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0012",
+      "book": ""
+    },
+    {
+      "icon": "110312_01",
+      "name": {
+        "en_us": "Botan",
+        "ja_jp": "ボタン",
+        "zh_cn": "牡丹",
+        "zh_tw": "牡丹"
+      },
+      "context": {
+        "en_us": "So drop those zero noodles and get\\nwith my HERO noodles!",
+        "ja_jp": "だから、あたしの<ruby><rb>蕎麦</rb><rt>そば</rt></ruby>を<ruby><rb>食</rb><rt>た</rt></ruby>べなさいな！\\nね？　ね？",
+        "zh_cn": "所以你们就吃我的荞麦面吧！\\n好吗？好吗？",
+        "zh_tw": "所以你們來吃我的蕎麥麵吧！\\n好嘛？好嘛？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0013",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Is it my imagination, or is your soba\\nabsorbing all of the broth?",
+        "ja_jp": "<ruby><rb>気</rb><rt>き</rt></ruby>のせいでしょうか。<ruby><rb>蕎麦</rb><rt>そば</rt></ruby>がおつゆを\\n<ruby><rb>吸</rb><rt>す</rt></ruby>っているように<ruby><rb>見</rb><rt>み</rt></ruby>えるのですが……。",
+        "zh_cn": "是我的错觉吗，\\n这荞麦面好像吸了不少汤……",
+        "zh_tw": "是我的錯覺嗎？\\n蕎麥麵看起來吸了很多湯汁……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0014",
+      "book": ""
+    },
+    {
+      "icon": "110312_01",
+      "name": {
+        "en_us": "Botan",
+        "ja_jp": "ボタン",
+        "zh_cn": "牡丹",
+        "zh_tw": "牡丹"
+      },
+      "context": {
+        "en_us": "Th-that's how it's supposed to be!\\nMine are just awesome like that.",
+        "ja_jp": "こ、これはそういうものなの！\\nサザンカさんのとはちょっと<ruby><rb>違</rb><rt>ちが</rt></ruby>うのよ。",
+        "zh_cn": "这、这就是这样的啦！\\n我和山茶花做的有些不同而已。",
+        "zh_tw": "這、這道料理就是這樣啦！\\n我和山茶做的有點不同罷了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0015",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "I...see.",
+        "ja_jp": "は、はあ……。",
+        "zh_cn": "是、是吗……",
+        "zh_tw": "是、是喔……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0016",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Well then, maybe we should call this the\\nwarm-up round of our hospitality face-off.\\nIt's a soba skirmish! A noodle knock-down!",
+        "ja_jp": "いっそのこと<ruby><rb>年越蕎麦</rb><rt>としこしそば</rt></ruby>の<ruby><rb>出来</rb><rt>でき</rt></ruby>を\\nおもてなし<ruby><rb>対決</rb><rt>たいけつ</rt></ruby>の<ruby><rb>前哨戦</rb><rt>ぜんしょうせん</rt></ruby>にしねーか？",
+        "zh_cn": "干脆把跨年荞麦面\\n当作款待大比拼的前哨战吧？",
+        "zh_tw": "乾脆來比較跨年蕎麥麵的成果，\\n當作是款待對決的前哨戰吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0017",
+      "book": ""
+    },
+    {
+      "icon": "110312_01",
+      "name": {
+        "en_us": "Botan",
+        "ja_jp": "ボタン",
+        "zh_cn": "牡丹",
+        "zh_tw": "牡丹"
+      },
+      "context": {
+        "en_us": "Capital idea, bub!",
+        "ja_jp": "あら、いいじゃない。\\n<ruby><rb>上等</rb><rt>じょうとう</rt></ruby>よ！",
+        "zh_cn": "哎呀，这主意不错。\\n正合我意！",
+        "zh_tw": "哦，好主意。\\n求之不得！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0018",
+      "book": ""
+    },
+    {
+      "icon": "110311_01",
+      "name": {
+        "en_us": "Sazanka",
+        "ja_jp": "サザンカ",
+        "zh_cn": "山茶花",
+        "zh_tw": "山茶"
+      },
+      "context": {
+        "en_us": "I accept this challenge, for my noodles\\nwill bring naught but glory unto the name\\nof Master Ieyasu.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたくし</rt></ruby>も<ruby><rb>構</rb><rt>かま</rt></ruby>いません。イエヤス<ruby><rb>様</rb><rt>さま</rt></ruby>の<ruby><rb>名</rb><rt>な</rt></ruby>に\\n<ruby><rb>恥</rb><rt>は</rt></ruby>じないものを<ruby><rb>作</rb><rt>つく</rt></ruby>りましたから。",
+        "zh_cn": "我也没有异议。因为我做的面\\n对得起家康大人的名号。",
+        "zh_tw": "我也不介意，我做的蕎麥麵\\n是絕不會讓家康大人之名蒙羞的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0019",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Sounds like it's time for a taste-test.",
+        "ja_jp": "よし、じゃあ<ruby><rb>早速</rb><rt>さっそく</rt></ruby>いただこうかな。",
+        "zh_cn": "好，那我们就赶快尝尝吧。",
+        "zh_tw": "好，那我們就趕快嚐嚐吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0020",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "NOODLE TIME! I'll start with Sazanka's.",
+        "ja_jp": "いっただっきまーす！\\nまずはサザンカのほうからだね♪",
+        "zh_cn": "我开动了！\\n先尝尝山茶花做的吧♪",
+        "zh_tw": "我要開動了──！\\n就從山茶做的先吃囉♪"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0021",
+      "book": ""
+    },
+    {
+      "icon": "100003_03",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Wh...WHAT?!",
+        "ja_jp": "…………ん！　んんっ!?",
+        "zh_cn": "嗯……嗯、嗯！？",
+        "zh_tw": "…………嗯！嗯嗯！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0022",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Th-this is...",
+        "ja_jp": "こ、これは……！",
+        "zh_cn": "这、这味道……",
+        "zh_tw": "這、這味道……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0023",
+      "book": ""
+    },
+    {
+      "icon": "110311_01",
+      "name": {
+        "en_us": "Sazanka",
+        "ja_jp": "サザンカ",
+        "zh_cn": "山茶花",
+        "zh_tw": "山茶"
+      },
+      "context": {
+        "en_us": "Oh dear. You appear to be shaking.\\nHave my noodles given offense somehow?",
+        "ja_jp": "……<ruby><rb>皆様</rb><rt>みなさま</rt></ruby>、そんなに<ruby><rb>震</rb><rt>ふる</rt></ruby>えて\\nお<ruby><rb>口</rb><rt>くち</rt></ruby>に<ruby><rb>合</rb><rt>あ</rt></ruby>いませんでしたか？",
+        "zh_cn": "各位……怎么颤抖得这么厉害，\\n是不合你们的胃口吗？",
+        "zh_tw": "……看各位全身打顫，\\n是不合口味嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0024",
+      "book": ""
+    },
+    {
+      "icon": "100003_03",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "THESE!\\nARE!\\nAMAAAAZIN'!",
+        "ja_jp": "う！　ま！　い！ ",
+        "zh_cn": "真！　好！　吃！",
+        "zh_tw": "超！　好！　吃！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0025",
+      "book": ""
+    },
+    {
+      "icon": "110311_01",
+      "name": {
+        "en_us": "Sazanka",
+        "ja_jp": "サザンカ",
+        "zh_cn": "山茶花",
+        "zh_tw": "山茶"
+      },
+      "context": {
+        "en_us": "Huh?",
+        "ja_jp": "え？",
+        "zh_cn": "咦？",
+        "zh_tw": "咦？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0028",
+      "book": ""
+    },
+    {
+      "icon": "100003_03",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "*sniff* I'm actually tearin' up here...",
+        "ja_jp": "いや、あまりの<ruby><rb>美味</rb><rt>うま</rt></ruby>さに\\n<ruby><rb>感動</rb><rt>かんどう</rt></ruby>してたんだ！",
+        "zh_cn": "实在太好吃了，\\n不禁感动了一番！",
+        "zh_tw": "唉呀，實在是好吃到\\n讓我太感動了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0029",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "They're so delicate—and yet the flavor\\nis so complex!",
+        "ja_jp": "ええ！　こんな<ruby><rb>繊細</rb><rt>せんさい</rt></ruby>な<ruby><rb>味</rb><rt>あじ</rt></ruby>は\\n<ruby><rb>初</rb><rt>はじ</rt></ruby>めてです。とても<ruby><rb>奥深</rb><rt>おくぶか</rt></ruby>い<ruby><rb>味</rb><rt>あじ</rt></ruby>……！",
+        "zh_cn": "是啊！我还是头一次尝到\\n如此细腻的味道。真是后味无穷……",
+        "zh_tw": "是啊！這麼纖細的味道\\n我還是第一次嚐到。太有深度了……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0030",
+      "book": ""
+    },
+    {
+      "icon": "110311_01",
+      "name": {
+        "en_us": "Sazanka",
+        "ja_jp": "サザンカ",
+        "zh_cn": "山茶花",
+        "zh_tw": "山茶"
+      },
+      "context": {
+        "en_us": "Well, I was quite careful with the stock.\\nStill, it pleases me to see you enjoy my\\nhumble dish so.",
+        "ja_jp": "<ruby><rb>丁寧</rb><rt>ていねい</rt></ruby>に<ruby><rb>出汁</rb><rt>だし</rt></ruby>をとりましたから。\\nお<ruby><rb>気</rb><rt>き</rt></ruby>に<ruby><rb>召</rb><rt>め</rt></ruby>したなら<ruby><rb>何</rb><rt>なに</rt></ruby>よりですわ。",
+        "zh_cn": "因为我熬的汤很讲究。\\n你们喜欢就好。",
+        "zh_tw": "因為我特別下了點功夫熬煮高湯。\\n各位喜歡就好。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0031",
+      "book": ""
+    },
+    {
+      "icon": "110312_01",
+      "name": {
+        "en_us": "Botan",
+        "ja_jp": "ボタン",
+        "zh_cn": "牡丹",
+        "zh_tw": "牡丹"
+      },
+      "context": {
+        "en_us": "Yeah yeah, it's a transcendent experience,\\nblah blah blah. Try mine already!",
+        "ja_jp": "ねえねえ、あたしは!?\\nあたしのはどう!?",
+        "zh_cn": "那我呢那我呢！？\\n我做的怎么样！？",
+        "zh_tw": "喂喂，那我呢！？\\n我做的味道如何！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0032",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Right! Lemme just pick yours up here\\nand see how...it... Muh?",
+        "ja_jp": "<ruby><rb>焦</rb><rt>あせ</rt></ruby>るなって！\\n<ruby><rb>今</rb><rt>いま</rt></ruby>から<ruby><rb>食</rb><rt>く</rt></ruby>うから……ん？",
+        "zh_cn": "别急啊！\\n这就吃你做的面……嗯？",
+        "zh_tw": "別急啦！\\n現在才要吃……嗯？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0033",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "These feel rather...mushy?",
+        "ja_jp": "こ、これは……サザンカのお<ruby><rb>蕎麦</rb><rt>そば</rt></ruby>より、\\nやわらかいような……？",
+        "zh_cn": "好、好像……\\n比山茶花做的软了一些……",
+        "zh_tw": "這、這個……\\n好像比山茶的蕎麥麵還要軟……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0034",
+      "book": ""
+    },
+    {
+      "icon": "100010_05",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "S-such an aggressive flavor...\\n*cough* *hack* *wheeze*\\nW-water! Water! Bring a bucket!",
+        "ja_jp": "それに、すっごく<ruby><rb>味</rb><rt>あじ</rt></ruby>が<ruby><rb>濃</rb><rt>こ</rt></ruby>い……。\\nダーリン、お<ruby><rb>水</rb><rt>みず</rt></ruby>くれない？",
+        "zh_cn": "而且还很咸……\\n亲爱的，能给我杯水吗？",
+        "zh_tw": "而且，味道非常重……\\n達令，可以給我杯水嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0035",
+      "book": ""
+    },
+    {
+      "icon": "110310_01",
+      "name": {
+        "en_us": "Addis",
+        "ja_jp": "アディス",
+        "zh_cn": "阿迪斯",
+        "zh_tw": "阿迪斯"
+      },
+      "context": {
+        "en_us": "This soba's soggy as hell. Did you even\\ntaste it before you slopped it down?",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>……これ、<ruby><rb>味見</rb><rt>あじみ</rt></ruby>したのか？\\nそれに<ruby><rb>蕎麦</rb><rt>そば</rt></ruby>がすげぇのびてるぞ。",
+        "zh_cn": "你……自己尝过味道吗？\\n而且这面已经泡涨了啊。",
+        "zh_tw": "喂……這個，妳有先嚐過味道嗎？\\n還有麵都已經糊掉了耶。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0036",
+      "book": ""
+    },
+    {
+      "icon": "110312_01",
+      "name": {
+        "en_us": "Botan",
+        "ja_jp": "ボタン",
+        "zh_cn": "牡丹",
+        "zh_tw": "牡丹"
+      },
+      "context": {
+        "en_us": "How dare you, sir?! You have besmirched\\nmy name with your wild accusation!",
+        "ja_jp": "<ruby><rb>言</rb><rt>い</rt></ruby>いがかりつけないでくれる？\\nそんなわけ……ん？　んん？",
+        "zh_cn": "别瞎说好吗？\\n这怎么可……嗯？咦？",
+        "zh_tw": "你可以不要亂說嗎？\\n那怎麼可……嗯？嗯嗯？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0037",
+      "book": ""
+    },
+    {
+      "icon": "110312_01",
+      "name": {
+        "en_us": "Botan",
+        "ja_jp": "ボタン",
+        "zh_cn": "牡丹",
+        "zh_tw": "牡丹"
+      },
+      "context": {
+        "en_us": "But if it makes you happy... *nibble*\\nHURRRGH! SO SALTY!",
+        "ja_jp": "<ruby><rb>嘘</rb><rt>うそ</rt></ruby>……<ruby><rb>茹</rb><rt>ゆ</rt></ruby>で<ruby><rb>時間</rb><rt>じかん</rt></ruby>、<ruby><rb>間違</rb><rt>まちが</rt></ruby>えた!?\\nそれにしょっぱい!?",
+        "zh_cn": "不会吧……煮面的时间搞错了！？\\n而且还很咸！？",
+        "zh_tw": "不會吧……我記錯要煮多久了嗎！？\\n而且還很鹹！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0038",
+      "book": ""
+    },
+    {
+      "icon": "210078_01",
+      "name": {
+        "en_us": "Shishimai",
+        "ja_jp": "シシマイ",
+        "zh_cn": "狮子舞",
+        "zh_tw": "舞獅"
+      },
+      "context": {
+        "en_us": "Have you selected a winner yet,\\nEuden?",
+        "ja_jp": "ユーディル<ruby><rb>様</rb><rt>さま</rt></ruby>、\\n<ruby><rb>勝敗</rb><rt>しょうはい</rt></ruby>は<ruby><rb>決</rb><rt>き</rt></ruby>まった？",
+        "zh_cn": "尤蒂尔大人，\\n决出胜负了吗？",
+        "zh_tw": "尤帝爾殿下，\\n決定好勝負了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0039",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Well, they're both good...in their own way.",
+        "ja_jp": "うーん……えーっと……\\n<ruby><rb>決</rb><rt>き</rt></ruby>めにくいな……。",
+        "zh_cn": "唔……这个嘛……\\n有点难以抉择啊……",
+        "zh_tw": "嗯……這個……\\n難以決定耶……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0040",
+      "book": ""
+    },
+    {
+      "icon": "210078_01",
+      "name": {
+        "en_us": "Shishimai",
+        "ja_jp": "シシマイ",
+        "zh_cn": "狮子舞",
+        "zh_tw": "舞獅"
+      },
+      "context": {
+        "en_us": "Oh, and on a related note, we'll all be\\nhaving seconds of the winning soba!",
+        "ja_jp": "ちなみにおかわりは、<ruby><rb>勝</rb><rt>か</rt></ruby>ったほうの\\nお<ruby><rb>蕎麦</rb><rt>そば</rt></ruby>になるからね！",
+        "zh_cn": "顺便说一下，添面的时候\\n添的可是胜者做的面！",
+        "zh_tw": "順道提一下，\\n續碗是吃贏家的蕎麥麵喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0041",
+      "book": ""
+    },
+    {
+      "icon": "100003_03",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "DON'T SCREW THIS UP,\\nEuden!",
+        "ja_jp": "なっ!?　ユーディル、\\n<ruby><rb>後生</rb><rt>ごしょう</rt></ruby>だから、<ruby><rb>判断</rb><rt>はんだん</rt></ruby>を<ruby><rb>誤</rb><rt>あやま</rt></ruby>るなよ!?",
+        "zh_cn": "什么！？尤蒂尔，\\n行行好，你可别选错了啊！",
+        "zh_tw": "什麼！？尤帝爾，\\n拜託你了，可千萬別誤判啊！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0042",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Ulp! ...Er, I'm sorry, Botan, but I have to\\ngive this one to Sazanka.",
+        "ja_jp": "う、うーん……ボタン、ごめん！\\nサザンカの<ruby><rb>勝</rb><rt>か</rt></ruby>ち、で……。",
+        "zh_cn": "唔、嗯……牡丹，抱歉了！\\n胜者是，山茶花……",
+        "zh_tw": "呃、嗯……牡丹，抱歉！\\n由山茶、獲勝……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0043",
+      "book": ""
+    },
+    {
+      "icon": "110311_01",
+      "name": {
+        "en_us": "Sazanka",
+        "ja_jp": "サザンカ",
+        "zh_cn": "山茶花",
+        "zh_tw": "山茶"
+      },
+      "context": {
+        "en_us": "I am humbled beyond words.",
+        "ja_jp": "<ruby><rb>恐</rb><rt>おそ</rt></ruby>れ<ruby><rb>入</rb><rt>い</rt></ruby>ります。",
+        "zh_cn": "承让了。",
+        "zh_tw": "不敢當。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0044",
+      "book": ""
+    },
+    {
+      "icon": "100010_05",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "That's my darling! I always believed in you!",
+        "ja_jp": "さっすが、アタシのダーリン♪\\n<ruby><rb>信</rb><rt>しん</rt></ruby>じてたわ！",
+        "zh_cn": "不愧是亲爱的♪\\n我就相信你一定会选对！",
+        "zh_tw": "不愧是人家的達令♪\\n我就相信你會做出正確的判斷！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0045",
+      "book": ""
+    },
+    {
+      "icon": "110310_01",
+      "name": {
+        "en_us": "Addis",
+        "ja_jp": "アディス",
+        "zh_cn": "阿迪斯",
+        "zh_tw": "阿迪斯"
+      },
+      "context": {
+        "en_us": "Pretty obvious if you ask me.",
+        "ja_jp": "こいつは<ruby><rb>仕方</rb><rt>しかた</rt></ruby>ねぇよ。<ruby><rb>誰</rb><rt>だれ</rt></ruby>だって、\\nサザンカを<ruby><rb>選</rb><rt>えら</rt></ruby>ぶに<ruby><rb>決</rb><rt>き</rt></ruby>まってる。",
+        "zh_cn": "这也没办法。\\n不管是谁都一定会选山茶花。",
+        "zh_tw": "這也是沒辦法的啦。\\n不管是誰一定都會選山茶。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0046",
+      "book": ""
+    },
+    {
+      "icon": "110312_01",
+      "name": {
+        "en_us": "Botan",
+        "ja_jp": "ボタン",
+        "zh_cn": "牡丹",
+        "zh_tw": "牡丹"
+      },
+      "context": {
+        "en_us": "Yeah, okay. You may have won the\\nwarm-up, but New Year's doesn't even\\nstart until tomorrow—so get ready!",
+        "ja_jp": "ま、まだよ。まだ<ruby><rb>大晦日</rb><rt>おおみそか</rt></ruby>だもの！\\n<ruby><rb>本番</rb><rt>ほんばん</rt></ruby>は<ruby><rb>明日</rb><rt>あした</rt></ruby>からでしょ？",
+        "zh_cn": "还、还没结束呢。今天只是除夕！\\n重头戏可是从明天哦？",
+        "zh_tw": "還、還沒完呢。今天只是除夕嘛！\\n正式對決是從明天開始吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0047",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "That reminds me—what are we actually\\nDOING on New Year's?",
+        "ja_jp": "そういえば、<ruby><rb>明日</rb><rt>あした</rt></ruby>って<ruby><rb>何</rb><rt>なに</rt></ruby>をやるの？",
+        "zh_cn": "说起来，明天要做什么啊？",
+        "zh_tw": "這麼說來，明天要做什麼呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0048",
+      "book": ""
+    },
+    {
+      "icon": "110313_02",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "We shall eat osechi in this room and\\ndemonstrate traditional games of the\\nholiday season.",
+        "ja_jp": "<ruby><rb>明日</rb><rt>あした</rt></ruby>はこの<ruby><rb>部屋</rb><rt>へや</rt></ruby>でお<ruby><rb>節</rb><rt>せち</rt></ruby>を<ruby><rb>食</rb><rt>た</rt></ruby>べたり、\\n<ruby><rb>正月遊</rb><rt>しょうがつあそ</rt></ruby>びをご<ruby><rb>覧</rb><rt>らん</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>れましょう。",
+        "zh_cn": "明天在这里吃什锦年菜，\\n再请各位观赏一下新年玩的游戏。",
+        "zh_tw": "明天就請各位在這個房間裡享用年菜，\\n然後觀賞新年遊藝吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0049",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What's osechi?",
+        "ja_jp": "お<ruby><rb>節</rb><rt>せち</rt></ruby>？",
+        "zh_cn": "什锦年菜？",
+        "zh_tw": "年菜？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0050",
+      "book": ""
+    },
+    {
+      "icon": "110311_01",
+      "name": {
+        "en_us": "Sazanka",
+        "ja_jp": "サザンカ",
+        "zh_cn": "山茶花",
+        "zh_tw": "山茶"
+      },
+      "context": {
+        "en_us": "A traditional meal eaten in Hinomoto\\nat New Year. It is made of various\\ningredients, each with their own\\nintrinsic meaning.",
+        "ja_jp": "ヒノモトの<ruby><rb>正月</rb><rt>しょうがつ</rt></ruby>に<ruby><rb>食</rb><rt>た</rt></ruby>べる<ruby><rb>伝統料理</rb><rt>でんとうりょうり</rt></ruby>です。\\n<ruby><rb>使</rb><rt>つか</rt></ruby>われている<ruby><rb>食材</rb><rt>しょくざい</rt></ruby>それぞれに、\\n<ruby><rb>意味</rb><rt>いみ</rt></ruby>がこめられているのですよ。",
+        "zh_cn": "那是日出之国新年吃的传统饭菜。\\n里面用到的食材，\\n都有不同的含义。",
+        "zh_tw": "是日初之國在新年吃的傳統料理。\\n裡面使用的每道食材都有其含義在喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0051",
+      "book": ""
+    },
+    {
+      "icon": "110311_01",
+      "name": {
+        "en_us": "Sazanka",
+        "ja_jp": "サザンカ",
+        "zh_cn": "山茶花",
+        "zh_tw": "山茶"
+      },
+      "context": {
+        "en_us": "For example, shrimp are for longevity,\\nherring roe is for prosperous offspring,\\nand so forth.",
+        "ja_jp": "たとえばエビには<ruby><rb>長寿</rb><rt>ちょうじゅ</rt></ruby>、<ruby><rb>数</rb><rt>かず</rt></ruby>の<ruby><rb>子</rb><rt>こ</rt></ruby>には\\n<ruby><rb>子孫繁栄</rb><rt>しそんはんえい</rt></ruby>といった<ruby><rb>意味</rb><rt>いみ</rt></ruby>がありますね。",
+        "zh_cn": "比如说虾代表长寿、\\n鲱鱼子寓意人丁兴旺。",
+        "zh_tw": "例如蝦子是代表長壽，\\n鯡魚卵則有子孫滿堂的意思。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0052",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Absolutely fascinating. I would love to\\nhear more about Hinomoto.",
+        "ja_jp": "<ruby><rb>興味深</rb><rt>きょうみぶか</rt></ruby>いですね……。\\n<ruby><rb>他</rb><rt>ほか</rt></ruby>にもヒノモトのお<ruby><rb>話</rb><rt>はなし</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>きたいです。",
+        "zh_cn": "真有趣……\\n我还想听关于日出之国的事。",
+        "zh_tw": "真有意思呢……\\n我還想多聽些其他日初之國的事情。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0053",
+      "book": ""
+    },
+    {
+      "icon": "110313_02",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "In that case, I think you will find\\nour concept of ＂otoshidama＂ interesting.",
+        "ja_jp": "そうですね……<ruby><rb>面白</rb><rt>おもしろ</rt></ruby>いと<ruby><rb>思</rb><rt>おも</rt></ruby>われるのは、\\n『お<ruby><rb>年玉</rb><rt>としだま</rt></ruby>』でしょうか。",
+        "zh_cn": "我想想……\\n也许你会对“红包”感兴趣。",
+        "zh_tw": "我想想……一般會覺得有趣的\\n應該是「紅包」吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0054",
+      "book": ""
+    },
+    {
+      "icon": "110313_02",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "The term originally referred to receiving\\nthe good fortune shared by Amaterasu.",
+        "ja_jp": "もともとはアマテラスからいただいた\\n<ruby><rb>福</rb><rt>ふく</rt></ruby>を<ruby><rb>分</rb><rt>わ</rt></ruby>け<ruby><rb>合</rb><rt>あ</rt></ruby>うという<ruby><rb>意味</rb><rt>いみ</rt></ruby>でしたが……",
+        "zh_cn": "它本来代表着与大家\\n分享天照赐予我们的福气……",
+        "zh_tw": "原本的含意是彼此分享\\n從天照那獲得之福……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0055",
+      "book": ""
+    },
+    {
+      "icon": "110313_02",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "However, it now refers to a more tangible\\ngift given with the goal of making the\\nrecipient happy.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>はより<ruby><rb>具体的</rb><rt>ぐたいてき</rt></ruby>に、<ruby><rb>相手</rb><rt>あいて</rt></ruby>が<ruby><rb>喜</rb><rt>よろこ</rt></ruby>ぶものを\\n<ruby><rb>贈</rb><rt>おく</rt></ruby>り<ruby><rb>合</rb><rt>あ</rt></ruby>う<ruby><rb>習慣</rb><rt>しゅうかん</rt></ruby>になったのです。",
+        "zh_cn": "现在则更具体地演变为\\n送东西让对方高兴的习俗。",
+        "zh_tw": "但現在則更為具體，\\n變成互贈讓對方感到開心的東西。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0056",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "That sounds awesome!",
+        "ja_jp": "へぇ！\\nお<ruby><rb>年玉</rb><rt>としだま</rt></ruby>っての、すごくいいじゃねぇか！",
+        "zh_cn": "喔！红包！\\n听起来挺不错！",
+        "zh_tw": "喔～！\\n這個叫紅包的東西還真不錯耶！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0057",
+      "book": ""
+    },
+    {
+      "icon": "210078_01",
+      "name": {
+        "en_us": "Shishimai",
+        "ja_jp": "シシマイ",
+        "zh_cn": "狮子舞",
+        "zh_tw": "舞獅"
+      },
+      "context": {
+        "en_us": "And lucky for you, we just happened to\\nbring a few of those New Year's gifts\\nwith us!",
+        "ja_jp": "もちろん、オイラたちも<ruby><rb>持</rb><rt>も</rt></ruby>ってきたよ！\\nおっとしだまー♪",
+        "zh_cn": "当然了，而且我们也带来了红包♪",
+        "zh_tw": "當然，我們也有帶來喔！\\n紅包～♪"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0058",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "YESSSSS!",
+        "ja_jp": "やったー！",
+        "zh_cn": "太好了！",
+        "zh_tw": "太好了──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0059",
+      "book": ""
+    },
+    {
+      "icon": "100003_03",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Holy crap, are ya sure?",
+        "ja_jp": "<ruby><rb>太</rb><rt>ふと</rt></ruby>っ<ruby><rb>腹</rb><rt>ぱら</rt></ruby>じゃねぇか！\\n<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>にいいのか？",
+        "zh_cn": "你们真大方啊！\\n真的可以收下吗？",
+        "zh_tw": "真是慷慨啊！\\n這樣真的好嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0060",
+      "book": ""
+    },
+    {
+      "icon": "110313_02",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "Of course. We want you all to enjoy the\\nHinomotoan New Year's celebrations,\\nafter all.",
+        "ja_jp": "ええ。あなた<ruby><rb>方</rb><rt>がた</rt></ruby>にヒノモトの<ruby><rb>正月</rb><rt>しょうがつ</rt></ruby>を\\n<ruby><rb>楽</rb><rt>たの</rt></ruby>しんでいただきたいのですから。",
+        "zh_cn": "可以。因为我们希望各位\\n能体验到日出之国新年的乐趣啊。",
+        "zh_tw": "當然。因為我們想讓諸位享受\\n日初之國的新年氣氛。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0061",
+      "book": ""
+    },
+    {
+      "icon": "110313_02",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "Also, both the shogun and Amaterasu have\\ncommanded that we impart a sense of fun\\nwhen giving these gifts, so I must make\\ncertain we can fulfill that obligation.",
+        "ja_jp": "アマテラスと<ruby><rb>将軍</rb><rt>しょうぐん</rt></ruby>からも、お<ruby><rb>年玉</rb><rt>としだま</rt></ruby>を\\n<ruby><rb>贈</rb><rt>おく</rt></ruby>る<ruby><rb>際</rb><rt>さい</rt></ruby>は、<ruby><rb>遊</rb><rt>あそ</rt></ruby>び<ruby><rb>心</rb><rt>ごころ</rt></ruby>をもって<ruby><rb>贈</rb><rt>おく</rt></ruby>りなさいと\\n<ruby><rb>言付</rb><rt>ことづ</rt></ruby>かっておりますし。",
+        "zh_cn": "天照和将军也吩咐过，\\n送红包的时候，\\n一定要送得有趣味。",
+        "zh_tw": "而且天照與將軍也吩咐過，\\n贈予紅包時，要記得帶著玩心。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0062",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Thank you, Ieyasu. I'm sure you will.",
+        "ja_jp": "わぁ……<ruby><rb>楽</rb><rt>たの</rt></ruby>しみだな！\\nありがとう、イエヤス！",
+        "zh_cn": "哇……好期待！\\n谢谢你，家康！",
+        "zh_tw": "哇……好期待喔！\\n謝謝你，家康！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0063",
+      "book": ""
+    },
+    {
+      "icon": "110313_02",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "To that end, you must battle me!",
+        "ja_jp": "はい。それでは、\\nこれから<ruby><rb>私</rb><rt>わたし</rt></ruby>と<ruby><rb>勝負</rb><rt>しょうぶ</rt></ruby>しましょう。",
+        "zh_cn": "不客气。那么，\\n就请和我比试一下吧。",
+        "zh_tw": "不會。\\n那麼，接下來就與我來場對決吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0064",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Er, come again?",
+        "ja_jp": "え？　<ruby><rb>勝負</rb><rt>しょうぶ</rt></ruby>？",
+        "zh_cn": "比试？",
+        "zh_tw": "咦？對決？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0065",
+      "book": ""
+    },
+    {
+      "icon": "110313_02",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "We must battle—for a gift handed over is\\nnot nearly as fun as one that is earned!",
+        "ja_jp": "<ruby><rb>勝負</rb><rt>しょうぶ</rt></ruby>は<ruby><rb>勝負</rb><rt>しょうぶ</rt></ruby>ですよ。ただお<ruby><rb>年玉</rb><rt>としだま</rt></ruby>を\\n<ruby><rb>贈</rb><rt>おく</rt></ruby>るだけでは<ruby><rb>遊</rb><rt>あそ</rt></ruby>び<ruby><rb>心</rb><rt>ごころ</rt></ruby>がありませんから。",
+        "zh_cn": "要是平平淡淡地送出红包，\\n可就太无趣了。",
+        "zh_tw": "對決就是對決喔。\\n若只是單純贈予紅包，就沒有玩心了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0066",
+      "book": ""
+    },
+    {
+      "icon": "110313_02",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "Now then! If you defeat me in a contest\\nof martial arts, I will give you your gifts.\\nThis will be fun, no?",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>と<ruby><rb>勝負</rb><rt>しょうぶ</rt></ruby>をして<ruby><rb>勝</rb><rt>か</rt></ruby>てたらお<ruby><rb>年玉</rb><rt>としだま</rt></ruby>を<ruby><rb>贈</rb><rt>おく</rt></ruby>る。\\nね？　<ruby><rb>単純明快</rb><rt>たんじゅんめいかい</rt></ruby>で<ruby><rb>楽</rb><rt>たの</rt></ruby>しい<ruby><rb>遊</rb><rt>あそ</rt></ruby>びでしょう？",
+        "zh_cn": "如果能战胜我，就给你们红包。\\n如何？简单又有趣的玩法吧？",
+        "zh_tw": "如果與我的對決贏了，\\n便將紅包贈予各位。\\n如何？是個簡單明瞭又有趣的遊戲吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0067",
+      "book": ""
+    },
+    {
+      "icon": "100003_03",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Aw, come on! I gotta EARN my present?",
+        "ja_jp": "はああ!?\\nいや、そこは<ruby><rb>景気</rb><rt>けいき</rt></ruby>よくパーッとさ！",
+        "zh_cn": "什么！？\\n不应该大方地送出去吗！",
+        "zh_tw": "啥啊！？\\n不是吧，這時候應該大方一點嘛！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0068",
+      "book": ""
+    },
+    {
+      "icon": "110310_01",
+      "name": {
+        "en_us": "Addis",
+        "ja_jp": "アディス",
+        "zh_cn": "阿迪斯",
+        "zh_tw": "阿迪斯"
+      },
+      "context": {
+        "en_us": "You afraid of Master Ieyasu?",
+        "ja_jp": "なんだ？\\nイエヤス<ruby><rb>様</rb><rt>さま</rt></ruby>に<ruby><rb>恐</rb><rt>おそ</rt></ruby>れをなしたか？",
+        "zh_cn": "怎么？\\n你该不会是怕家康大人吧？",
+        "zh_tw": "怎麼？\\n你畏懼我們家康大人嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0069",
+      "book": ""
+    },
+    {
+      "icon": "110310_01",
+      "name": {
+        "en_us": "Addis",
+        "ja_jp": "アディス",
+        "zh_cn": "阿迪斯",
+        "zh_tw": "阿迪斯"
+      },
+      "context": {
+        "en_us": "I mean, he's an expert even by\\nHinomotoan standards, so I won't\\nblame you for being a little chicken.",
+        "ja_jp": "まあ、<ruby><rb>確</rb><rt>たし</rt></ruby>かに<ruby><rb>殿</rb><rt>との</rt></ruby>の<ruby><rb>刀</rb><rt>かたな</rt></ruby>の<ruby><rb>腕</rb><rt>うで</rt></ruby>は\\nヒノモトでも<ruby><rb>達人</rb><rt>たつじん</rt></ruby>の<ruby><rb>域</rb><rt>いき</rt></ruby>だからな。",
+        "zh_cn": "毕竟大人的刀法在日出之国\\n也称得上是顶尖高手。",
+        "zh_tw": "也是啦，畢竟殿下的使刀技巧\\n即使在日初之國也是高手等級嘛。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0070",
+      "book": ""
+    },
+    {
+      "icon": "110310_01",
+      "name": {
+        "en_us": "Addis",
+        "ja_jp": "アディス",
+        "zh_cn": "阿迪斯",
+        "zh_tw": "阿迪斯"
+      },
+      "context": {
+        "en_us": "So yeah, maybe just give up now—\\neven though you'll miss out on your\\nchance to eat osechi.",
+        "ja_jp": "<ruby><rb>腕</rb><rt>うで</rt></ruby>に<ruby><rb>自信</rb><rt>じしん</rt></ruby>がねぇなら、やめときな。\\nせっかくのお<ruby><rb>節</rb><rt>せち</rt></ruby>が<ruby><rb>食</rb><rt>く</rt></ruby>えなくなるぜ。",
+        "zh_cn": "对自己没有信心的话，就放弃吧。\\n免得连什锦年菜都吃不成。",
+        "zh_tw": "對自己實力沒信心的話，\\n那還是放棄吧。\\n免得吃不了難得的年菜喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0071",
+      "book": ""
+    },
+    {
+      "icon": "100003_03",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Cram it, pal! I'm gonna fight for this gift,\\nand I'm gonna WIN!",
+        "ja_jp": "ああ？　そんなわけねぇだろ。\\nむしろ<ruby><rb>強者</rb><rt>つわもの</rt></ruby>ってんなら、<ruby><rb>大歓迎</rb><rt>だいかんげい</rt></ruby>だ。",
+        "zh_cn": "啊？怎么可能。\\n他身手了得的话，我还求之不得呢。",
+        "zh_tw": "蛤啊？怎麼可能！\\n不如說真是強者的話，\\n我還求之不得呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0072",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "And I'll show you what a sylvan archer\\nis capable of when there's loot involved!",
+        "ja_jp": "おう！　フォレスティアの<ruby><rb>弓</rb><rt>ゆみ</rt></ruby>を\\n<ruby><rb>見</rb><rt>み</rt></ruby>せてやろうじゃねーか！",
+        "zh_cn": "就是！就让你们见识见识\\n森隐族的箭术！",
+        "zh_tw": "喔！就讓你們見識見識\\n佛萊斯提亞的箭術吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0073",
+      "book": ""
+    },
+    {
+      "icon": "110313_02",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "And what exactly will you do,\\nEuden?",
+        "ja_jp": "さて、あなたはどうなさいますか？\\nユーディル<ruby><rb>殿</rb><rt>どの</rt></ruby>。",
+        "zh_cn": "那您意下如何呢？\\n尤蒂尔殿下。",
+        "zh_tw": "那麽，您打算如何呢？\\n尤帝爾殿下。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0074",
+      "book": ""
+    },
+    {
+      "icon": "110313_02",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "Addis speaks with his usual swagger,\\nbut it really is just a game. Just some\\nlight sparring.",
+        "ja_jp": "アディスはああ<ruby><rb>言</rb><rt>い</rt></ruby>っていますが、<ruby><rb>所詮</rb><rt>しょせん</rt></ruby>は\\n<ruby><rb>遊戯</rb><rt>ゆうぎ</rt></ruby>。<ruby><rb>手合</rb><rt>てあわ</rt></ruby>せ<ruby><rb>程度</rb><rt>ていど</rt></ruby>にお<ruby><rb>考</rb><rt>かんが</rt></ruby>えください。",
+        "zh_cn": "虽然阿迪斯那样说，但这不过是场游戏。\\n就当是切磋武艺吧。",
+        "zh_tw": "雖然阿迪斯那麼說，\\n但只不過是場遊戲。\\n請您就想成是簡單比劃一下。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0075",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "In that case, you're on!",
+        "ja_jp": "そうだな……わかった。\\nその<ruby><rb>勝負</rb><rt>しょうぶ</rt></ruby>、<ruby><rb>受</rb><rt>う</rt></ruby>けよう。",
+        "zh_cn": "是啊……我知道了\\n我接受你的挑战。",
+        "zh_tw": "這樣啊……我知道了。\\n這場對決，我就接受吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0076",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Are you certain, Your Highness?",
+        "ja_jp": "ユーディル、<ruby><rb>良</rb><rt>よ</rt></ruby>いのですか？",
+        "zh_cn": "尤蒂尔，真的要比试吗？",
+        "zh_tw": "尤帝爾，這樣好嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0077",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I am. At the very least, I'd like a chance\\nto see what Hinomotoan martial arts\\nare all about.",
+        "ja_jp": "ああ。ヒノモトの<ruby><rb>武術</rb><rt>ぶじゅつ</rt></ruby>にも<ruby><rb>興味</rb><rt>きょうみ</rt></ruby>が\\nあるし。<ruby><rb>実際</rb><rt>じっさい</rt></ruby>に<ruby><rb>戦</rb><rt>たたか</rt></ruby>ってみたいんだ。",
+        "zh_cn": "嗯。我对日出之国的武术也有些兴趣，\\n想和他过过招。",
+        "zh_tw": "嗯。而且我也對日初之國的武術\\n很有興趣，想實際對戰看看。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0078",
+      "book": ""
+    },
+    {
+      "icon": "110312_01",
+      "name": {
+        "en_us": "Botan",
+        "ja_jp": "ボタン",
+        "zh_cn": "牡丹",
+        "zh_tw": "牡丹"
+      },
+      "context": {
+        "en_us": "I'm in, too! Oh, but I'm gonna fight with\\nEuden.",
+        "ja_jp": "あたしも<ruby><rb>参戦</rb><rt>さんせん</rt></ruby>するわ！　もちろん\\nユーディル<ruby><rb>側</rb><rt>がわ</rt></ruby>で！",
+        "zh_cn": "我也要参战！当然，是加入\\n尤蒂尔阵营！",
+        "zh_tw": "我也要參戰！當然我要在\\n尤帝爾這邊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0079",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Huh? Why are you joining us?",
+        "ja_jp": "えっ!?\\nなんで、おれたちのほうに!?",
+        "zh_cn": "咦！？\\n为什么加入我们！？",
+        "zh_tw": "咦！？\\n為什麼妳要加入我們這邊？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0080",
+      "book": ""
+    },
+    {
+      "icon": "110312_01",
+      "name": {
+        "en_us": "Botan",
+        "ja_jp": "ボタン",
+        "zh_cn": "牡丹",
+        "zh_tw": "牡丹"
+      },
+      "context": {
+        "en_us": "Because I don't wanna lose to Ieyasu!\\nThat means I'm kinda with you guys by\\ndefault, right?",
+        "ja_jp": "あたしはイエヤスに<ruby><rb>負</rb><rt>ま</rt></ruby>けたくないの。\\nなら、あんたにつくのは<ruby><rb>当然</rb><rt>とうぜん</rt></ruby>でしょ？",
+        "zh_cn": "我才不想输给家康，\\n当然要和你一组了。",
+        "zh_tw": "因為我不想輸給家康。\\n所以，加入你們也是當然的吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0081",
+      "book": ""
+    },
+    {
+      "icon": "110313_02",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "It matters not; I've trained my whole life to\\nfight off superior numbers.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>構</rb><rt>かま</rt></ruby>いませんよ。<ruby><rb>多勢</rb><rt>たぜい</rt></ruby>を<ruby><rb>相手</rb><rt>あいて</rt></ruby>にする\\n<ruby><rb>鍛錬</rb><rt>たんれん</rt></ruby>も<ruby><rb>積</rb><rt>つ</rt></ruby>んでいますから。",
+        "zh_cn": "无妨。我也有很多\\n以寡敌众的经验。",
+        "zh_tw": "我倒是無妨喔。我也有過不少\\n面對眾多敵人時的經驗。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0082",
+      "book": ""
+    },
+    {
+      "icon": "110312_01",
+      "name": {
+        "en_us": "Botan",
+        "ja_jp": "ボタン",
+        "zh_cn": "牡丹",
+        "zh_tw": "牡丹"
+      },
+      "context": {
+        "en_us": "See? He's fine it with, I'm fine with it,\\neverybody's fine with it. Now let's GO!",
+        "ja_jp": "ほら、あいつも<ruby><rb>言</rb><rt>い</rt></ruby>ってるし！\\nあたしを<ruby><rb>仲間</rb><rt>なかま</rt></ruby>にしてよ！　ね？　ね!?",
+        "zh_cn": "你看，他都这么说了！\\n就让我加入吧！好吗？好吗！？",
+        "zh_tw": "看吧，他都這麼說了！\\n就讓我加入你們嘛！\\n好嘛？好嘛？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0083",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Well, I suppose it's all right.",
+        "ja_jp": "まあ、それなら……いいか。うん。",
+        "zh_cn": "既然这样……好吧。",
+        "zh_tw": "呃，既然這樣的話……好吧。嗯。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0084",
+      "book": ""
+    },
+    {
+      "icon": "110312_01",
+      "name": {
+        "en_us": "Botan",
+        "ja_jp": "ボタン",
+        "zh_cn": "牡丹",
+        "zh_tw": "牡丹"
+      },
+      "context": {
+        "en_us": "Oh yeah! We're gonna have victory for\\nDAYS up in this joint!",
+        "ja_jp": "やったー！\\n<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby>、<ruby><rb>負</rb><rt>ま</rt></ruby>けないからね！",
+        "zh_cn": "太好了！\\n我绝对不会输！",
+        "zh_tw": "太好了──！\\n我絕對不會輸的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0085",
+      "book": ""
+    },
+    {
+      "icon": "110313_02",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "Let us move to an open area, then.\\nIt wouldn't do to cause damage to\\nthis lovely castle.",
+        "ja_jp": "それでは<ruby><rb>開</rb><rt>ひら</rt></ruby>けた<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>に<ruby><rb>移</rb><rt>うつ</rt></ruby>りましょうか。\\nお<ruby><rb>城</rb><rt>しろ</rt></ruby>を<ruby><rb>荒</rb><rt>あ</rt></ruby>らしてはいけませんからね。",
+        "zh_cn": "那我们就移步宽敞的地方吧。\\n可不能把城里弄乱了。",
+        "zh_tw": "那麼便移動至空曠的場所吧。\\n可不能讓城裡變髒亂了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0086",
+      "book": ""
+    },
+    {
+      "icon": "100003_03",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Bring it on, pal! We're gonna wipe the\\nfloor with ya and then take some sweet,\\nsweet New Year's giftage!",
+        "ja_jp": "おう、いいぜ。よっしゃ！\\nイエヤスに<ruby><rb>勝</rb><rt>か</rt></ruby>って、お<ruby><rb>年玉</rb><rt>としだま</rt></ruby>もらうぞー！",
+        "zh_cn": "好啊，来吧！\\n一定要打败家康，拿到红包！",
+        "zh_tw": "喔，沒問題。走吧！\\n打贏家康，拿紅包囉──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0087",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "一同",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "YEAH!",
+        "ja_jp": "おー！",
+        "zh_cn": "噢！",
+        "zh_tw": "喔──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0088",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "(Is it really okay that I agreed\\nto do this...?)",
+        "ja_jp": "（この<ruby><rb>勝負</rb><rt>しょうぶ</rt></ruby>、\\n　<ruby><rb>受</rb><rt>う</rt></ruby>けて<ruby><rb>良</rb><rt>よ</rt></ruby>かったんだよな……？）",
+        "zh_cn": "（接受挑战\\n应该没问题吧……）",
+        "zh_tw": "（接受這場對決，\\n應該是正確的決定吧……？）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20404_05_0089",
+      "book": ""
+    }
+  ]
 }

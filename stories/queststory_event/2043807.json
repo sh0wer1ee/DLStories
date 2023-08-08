@@ -1,907 +1,1717 @@
 {
-    "story_id": "",
-    "story_name": "圣天之陨～前篇～ 血色圣大祭",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "伪恶魔突然开始大肆虐杀\\n聚集到会场的666个活祭。\\n与此同时，天使米迦勒出现在赶往\\n祭祀会场的使徒和天使一行人面前，\\n拦住了他们的去路。"
-        ]
+  "title": {
+    "en_us": "Faith Forsaken (Part One)    Bloodstained Auspecalia",
+    "ja_jp": "セイクリッドロスト～前編～  血塗れの聖大祭",
+    "zh_cn": "圣天之陨～前篇～  血色圣大祭",
+    "zh_tw": "失落的信仰～前篇～  染血的聖大祭"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [],
-            "speaker_name": "SYS",
-            "context": "圣都格拉姆斯\\n伊莉雅教会·教皇厅·大圣堂\\n圣大祭祭祀会场",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "教会骑士",
-            "context": "古拉特大人，参加者都到齐了。\\n奥莉加大人也已经到了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "辛苦了，你可以退下了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120217_01"
-            ],
-            "speaker_name": "法斯",
-            "context": "仪式似乎已经准备就绪了啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "是啊，这下献给“撒旦”的活祭\\n就齐了。呵呵呵……快了。\\n一切就快要属于我了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "这真是可喜可贺，\\n古拉特枢机主教。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "嚯，哈尔你也来了啊。也行，\\n毕竟受你关照了，你就在特等座上\\n见证撒旦复活的那一刻吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "哈尔……呵呵，也是。\\n这是我曾向您报上的名字。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "嗯？这话是什么意思？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "不是什么大事。\\n哎呀，话说回来……\\n这下您的夙愿就要实现了呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "是啊，终于要实现了……\\n这一路真是太漫长了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "在南格拉斯迪亚的事前准备、\\n疏通各国要人、制定首选计划\\n失败时的备用计划……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "备用计划？\\n啊，是指“炼狱之匙”那件事吧……\\n听说是找到了女神的后代。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "你知道的可真多啊。那是为了\\n弄到尚未发现的“炼狱文书”\\n并获得更强力兵器的制法。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "因为炼狱文书里关于1000年前\\n使用兵器的记载也不在少数，\\n我料想这也能用于侵攻南大陆。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "但是，那不过是说服合作伙伴、\\n引诱他们出资的备用计划……\\n只要有了撒旦的力量，这些就都没用了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "恶魔之王的力量甚于“五大恶魔”，\\n我要用这份力量成为新教皇，\\n君临天下！呵呵呵，哈——哈哈！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "唔！？怎么回事，有情况！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "那是用瘴气生成的伪恶魔！\\n住、住手！不要随便杀活祭！\\n复活仪式有正式的步骤……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "可恶，事已至此，只能用\\n我的封印石来制止了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "看招！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "怎么可能！？为什么不停下来！\\n应该能用封印石制止那些家伙啊！\\n为什么会不听话！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "呵呵……哈哈哈哈哈！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "哈尔……你笑什么！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "哎呀，恕我失礼。\\n看您如此狼狈我就没忍住……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "很抱歉让您不高兴了。\\n作为赔礼，\\n我就为您揭晓谜底吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "揭晓谜底！？难道这事\\n是你设计的不成！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "说什么设计，多难听啊。\\n眼下的情况\\n不都基本如您所愿吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "住口，你竟敢让我的计划付诸东流！\\n我这就用我的封印石\\n让伪恶魔取了你的小命！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "没用的。给一块破石头\\n注入多少魔力也是白费力气。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "破石头！？怎么可能……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "对，就是一块破石头。\\n当封印其中的恶魔被释放出来，\\n它就与其他石头没什么两样了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "不、不可能……对了！\\n法斯在洛基梅亚的时候\\n不是还操纵伪恶魔来着，对吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120217_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "法斯，用你的封印石操纵\\n这些伪恶魔，命其讨此奸贼！\\n即刻肃清叛徒！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "很遗憾，这也是办不到的。\\n法斯阁下的封印石和您的一样，\\n都已经失去了力量。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "你说什么……\\n那要怎么操纵伪恶魔！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "现在五大恶魔已全部得到解放，\\n封印石也都失效，能操纵伪恶魔的\\n只有身怀瘴气的恶魔了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "只有恶魔……\\n这么说，你是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "洛基",
-            "context": "呵呵呵……\\n没错，我并非人类。\\n我叫洛基……是恶魔哦。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "那我之前听到的袭击\\n洛基梅亚的报告也是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "洛基",
-            "context": "没错。在军事国家洛基梅亚\\n操纵伪恶魔……也就是这些\\n瘴气天使军团的，正是我。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "这……难道！\\n法斯，你这家伙全都知情吧！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120217_01"
-            ],
-            "speaker_name": "法斯",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "开、开什么玩笑！\\n你不是为了实现我的理想，\\n甘愿献身成为撒旦的容器吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120217_01"
-            ],
-            "speaker_name": "法斯",
-            "context": "真是愚蠢……\\n我为了你而献身？\\n你真的信了这种话吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120217_01"
-            ],
-            "speaker_name": "法斯",
-            "context": "一直以来，\\n我都是为了向你复仇而活，\\n怎么可能为了你这种人献身。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "向我复仇？\\n我对你做过什么吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120217_01"
-            ],
-            "speaker_name": "法斯",
-            "context": "你为了那什么破武器的实验，\\n灭我全村……过去了十多年，\\n你都已经不记得了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "十多年前……武器实验……\\n原来，你是那村子里的幸存者！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120217_01"
-            ],
-            "speaker_name": "法斯",
-            "context": "正是。你和前任阵翼之使徒合谋，\\n给我所在的村子冠上异端的罪名，\\n在那里实行惨无人道的兵器实验……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120217_01"
-            ],
-            "speaker_name": "法斯",
-            "context": "最后为了毁灭证据，将村子\\n付之一炬。我不曾有一天忘记过\\n当时的熊熊大火有多么灼人！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "等、等一下……那是我为了\\n爬上如今的地位不得不做的事！\\n你懂的吧！？无可奈何啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120217_01"
-            ],
-            "speaker_name": "法斯",
-            "context": "那么，你惨死在这里\\n也是无可奈何。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "法斯，住、住手！好，我知道了。\\n说吧，你想要什么！\\n我都成全你！怎么样！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120217_01"
-            ],
-            "speaker_name": "法斯",
-            "context": "我的愿望就是向你这个\\n毁灭我故乡的凶手复仇……\\n还有，让那位大人得偿所愿。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "那位大人？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "洛基",
-            "context": "你们谈完了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "唔呃！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "洛基",
-            "context": "我已经看腻了你惊慌失措的模样，\\n差不多就到此为止吧？\\n临死前再为我们做点贡献吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "哇啊啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "是这条路没错吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210145_01"
-            ],
-            "speaker_name": "加百列",
-            "context": "嗯，古拉特他们所在的祭祀会场\\n就在穿过这条路的前方——嗯！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210145_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "嗨，加百列，还有诸位。\\n你们这么急匆匆的\\n是要上哪儿去啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "不妨也告诉我吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210145_01"
-            ],
-            "speaker_name": "加百列",
-            "context": "米迦勒！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210154_01"
-            ],
-            "speaker_name": "拉斐尔",
-            "context": "我们急着赶路，\\n你要捣乱的话，\\n可别怪我们不客气。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "真不巧，在法斯壮志得酬之前，\\n就算你吓唬我，\\n我也不能就此退让。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210132_01"
-            ],
-            "speaker_name": "拉米艾尔",
-            "context": "壮志？他复活撒旦，\\n究竟是想干什么？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "你们知道了又怎样？如果理由\\n可以接受的话就会好心放过？\\n还是准备苦口婆心地劝他放弃复仇？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110382_03"
-            ],
-            "speaker_name": "弗拉斯",
-            "context": "复仇……这就是法斯\\n试图复活撒旦的原因吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "没这么简单。\\n这的确是复仇的一环，\\n但也并不止于复仇。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120195_01"
-            ],
-            "speaker_name": "圣德芬",
-            "context": "说重点。到底是怎么回事，\\n你简明扼要地说清楚。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "圣德芬，你也学学什么是情绪吧。\\n如今连战斗人偶\\n都比你感情丰富吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "算了，先不说这个……\\n虽然算不上简明扼要，\\n但还是稍微和你们说说吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "法斯的故乡被古拉特和……\\n上一任阵翼之使徒毁灭了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "当然，和阵翼之使徒\\n以圣痕相连的我也在场。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "里莎",
-            "context": "这、这么说……\\n你也是法斯的复仇对象？\\n但是，你们看起来不像是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "你还是一如既往地敏锐啊。\\n我本来也是他的复仇对象，\\n可我向他说明原委后，我们达成了和解。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01",
-                "120217_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "当时，我被古拉特他们所骗……\\n他们说那个村子是扰乱\\n世界秩序的异端村落。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01",
-                "120217_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "遗憾的是，\\n在听法斯说出真相之前，\\n我根本没发现自己还蒙在鼓里。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01",
-                "120217_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "他们为了不让事迹败露，\\n似乎也相当谨慎地在行动。\\n而我做梦也没想到使徒会欺骗我。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120217_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "不过我这也是借口吧。\\n虽然法斯听说原委后原谅了我，\\n但我却无法自我释怀。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "所以为了赎罪，\\n我决定协助法斯……\\n就算这么做有违正义。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210145_01"
-            ],
-            "speaker_name": "加百列",
-            "context": "那事态为什么会演变成\\n要复活撒旦？这与向古拉特复仇\\n根本是矛盾之举啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "这就是所谓“不简单”的关键所在。\\n只是法斯向古拉特复仇的话，\\n不会搞得这么麻烦。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "因为事情已经超出了\\n私人恩怨的范围。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110382_01"
-            ],
-            "speaker_name": "弗拉斯",
-            "context": "我不明白……像法斯这样的人\\n不惜用这种手段也要追求力量的\\n理由到底是什么？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "这我就不能说了。\\n不过，追求力量的理由\\n要多少有多少吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "比如，某个野心勃勃的枢机主教\\n就为了自己能君临天下\\n而渴望撒旦的力量。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "不是借由对女神虚无缥缈的信仰\\n来支配世界，而是通过肉眼可见的\\n全新神威……听起来就像做梦一样。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0089",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "但是，只要有了撒旦之力就能\\n让美梦成真。他起初还宣称\\n要毁灭南部教会杀鸡儆猴呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0090",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "可惜……这已经是无果之梦了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0091",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110395_01"
-            ],
-            "speaker_name": "奎茵",
-            "context": "听你这口气……古拉特\\n枢机主教已经被处置了？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0092",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "呵呵……谁知道呢？\\n你们还是别把我的话当真为好。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0093",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "毕竟，我可是你们的敌人啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0094",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110395_01"
-            ],
-            "speaker_name": "奎茵",
-            "context": "这魔力……他是真打算与我们一战吗。\\n但是战斗力相差悬殊，他应该\\n没打算赢……目的在于争取时间。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0095",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120195_01"
-            ],
-            "speaker_name": "圣德芬",
-            "context": "难怪说得滔滔不绝。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0096",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "我永远站在法斯这边。\\n只要是他想得到的，\\n就算与世界为敌我也在所不惜。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0097",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120231_01"
-            ],
-            "speaker_name": "米迦勒",
-            "context": "这就是我的信念，亦是赎罪……\\n虽然对不住你们，可为了\\n他的心愿，我得在此拦下你们！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_07_0098",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "In the blink of an eye, demonic entities swarm\\nthe crowd, and the slaughter of the 666 begins.\\nAs the apostles and angels race to the site,\\nthey find the way blocked by the angel Michael.",
+      "ja_jp": "<ruby><rb>突如</rb><rt>とつじょ</rt></ruby>、666<ruby><rb>人</rb><rt>にん</rt></ruby>の<ruby><rb>生贄</rb><rt>いけにえ</rt></ruby>を<ruby><rb>集</rb><rt>あつ</rt></ruby>めた<ruby><rb>会場</rb><rt>かいじょう</rt></ruby>で\\n<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>もどきたちによる<ruby><rb>虐殺</rb><rt>ぎゃくさつ</rt></ruby>が<ruby><rb>開始</rb><rt>かいし</rt></ruby>される。\\n<ruby><rb>一方</rb><rt>いっぽう</rt></ruby>その<ruby><rb>頃</rb><rt>ころ</rt></ruby>、<ruby><rb>急</rb><rt>いそ</rt></ruby>ぎ<ruby><rb>祭祀会場</rb><rt>さいしかいじょう</rt></ruby>へ<ruby><rb>向</rb><rt>む</rt></ruby>かっていた\\n<ruby><rb>使徒</rb><rt>しと</rt></ruby>と<ruby><rb>天使</rb><rt>てんし</rt></ruby>たちの<ruby><rb>前</rb><rt>まえ</rt></ruby>に、<ruby><rb>天使</rb><rt>てんし</rt></ruby>ミカエルが\\n<ruby><rb>立</rb><rt>た</rt></ruby>ち<ruby><rb>塞</rb><rt>ふさ</rt></ruby>がる。",
+      "zh_cn": "伪恶魔突然开始大肆虐杀\\n聚集到会场的666个活祭。\\n与此同时，天使米迦勒出现在赶往\\n祭祀会场的使徒和天使一行人面前，\\n拦住了他们的去路。",
+      "zh_tw": "在聚集了666名活祭品的會場中，\\n假惡魔突然展開了虐殺。在此同時，\\n使徒與天使們正全速趕往祭祀會場，\\n但天使米迦勒出現，阻擋了眾人的去路。"
+    }
+  },
+  "prev": "2043806",
+  "next": "2043808",
+  "content": [
+    {
+      "icon": "",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Curia of the Ilian Church of Grams\\nAugust Cathedral\\nAuspecalia Ritual Hall",
+        "ja_jp": "<ruby><rb>聖都</rb><rt>せいと</rt></ruby>グラムス\\nイリア<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>・<ruby><rb>教皇庁</rb><rt>きょうこうちょう</rt></ruby>・<ruby><rb>大聖堂</rb><rt>だいせいどう</rt></ruby>\\n<ruby><rb>聖大祭祭祀会場</rb><rt>せいだいさいさいしかいじょう</rt></ruby>",
+        "zh_cn": "圣都格拉姆斯\\n伊莉雅教会·教皇厅·大圣堂\\n圣大祭祭祀会场",
+        "zh_tw": "聖都葛拉姆斯\\n伊利亞教會‧教廷‧主教座堂\\n聖大祭祭祀會場"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Templar",
+        "ja_jp": "教会騎士",
+        "zh_cn": "教会骑士",
+        "zh_tw": "教會騎士"
+      },
+      "context": {
+        "en_us": "All of the attendees have arrived,\\nYour Eminence—including Her Holiness.",
+        "ja_jp": "グラート<ruby><rb>様</rb><rt>さま</rt></ruby>、<ruby><rb>参加者</rb><rt>さんかしゃ</rt></ruby>が<ruby><rb>全員</rb><rt>ぜんいん</rt></ruby><ruby><rb>揃</rb><rt>そろ</rt></ruby>いました。\\nオリガ<ruby><rb>様</rb><rt>さま</rt></ruby>もご<ruby><rb>到着</rb><rt>とうちゃく</rt></ruby>されております。",
+        "zh_cn": "古拉特大人，参加者都到齐了。\\n奥莉加大人也已经到了。",
+        "zh_tw": "古拉特大人，參加者全都到齊了。\\n奧莉加大人也已經抵達。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0001",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "Very well. You are dismissed.",
+        "ja_jp": "ご<ruby><rb>苦労</rb><rt>くろう</rt></ruby>。<ruby><rb>下</rb><rt>さ</rt></ruby>がっていいぞ。",
+        "zh_cn": "辛苦了，你可以退下了。",
+        "zh_tw": "辛苦了，你退下吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0002",
+      "book": ""
+    },
+    {
+      "icon": "120217_01",
+      "name": {
+        "en_us": "Basileus",
+        "ja_jp": "ヴァース",
+        "zh_cn": "法斯",
+        "zh_tw": "梵斯"
+      },
+      "context": {
+        "en_us": "Then everything is ready for the rite.",
+        "ja_jp": "……<ruby><rb>儀式</rb><rt>ぎしき</rt></ruby>の<ruby><rb>準備</rb><rt>じゅんび</rt></ruby>は<ruby><rb>整</rb><rt>ととの</rt></ruby>ったようだな。",
+        "zh_cn": "仪式似乎已经准备就绪了啊。",
+        "zh_tw": "……儀式的準備看來已經完成了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0003",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "Yes, Satan will indeed have his offerings.\\nOh, but it is close now... So very close.\\nEverything is within my reach, and soon\\nit all will be mine!",
+        "ja_jp": "ああ、これで『サタン』に<ruby><rb>捧</rb><rt>ささ</rt></ruby>げる<ruby><rb>生贄</rb><rt>いけにえ</rt></ruby>は\\n<ruby><rb>揃</rb><rt>そろ</rt></ruby>った。クックック……もうすぐだ。\\nもうすぐ、すべてが<ruby><rb>私</rb><rt>わたし</rt></ruby>のものとなる！",
+        "zh_cn": "是啊，这下献给“撒旦”的活祭\\n就齐了。呵呵呵……快了。\\n一切就快要属于我了！",
+        "zh_tw": "是啊，這樣獻給「撒旦」的活祭品\\n都湊齊了。呵呵呵……就快了。\\n很快，一切就會歸我所有！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0004",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Yes, and congratulations on all that,\\nCardinal! Seizing literally ＂everything＂\\nreally is the dream, mmm?",
+        "ja_jp": "それはそれは、おめでとうございます\\nグラート<ruby><rb>枢機卿</rb><rt>すうききょう</rt></ruby>。",
+        "zh_cn": "这真是可喜可贺，\\n古拉特枢机主教。",
+        "zh_tw": "那還真是恭喜你呢，\\n古拉特樞機主教。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0005",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "Decided to come after all, eh, Harle?\\nWell, I suppose all of your help earns you\\na front-row seat for Satan's rebirth.",
+        "ja_jp": "ほう、ハールも<ruby><rb>来</rb><rt>き</rt></ruby>たか。よかろう。\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>には<ruby><rb>世話</rb><rt>せわ</rt></ruby>になった。サタン<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>の\\n<ruby><rb>瞬間</rb><rt>しゅんかん</rt></ruby>を<ruby><rb>特等席</rb><rt>とくとうせき</rt></ruby>で<ruby><rb>見</rb><rt>み</rt></ruby>ていくと<ruby><rb>良</rb><rt>よ</rt></ruby>い。",
+        "zh_cn": "嚯，哈尔你也来了啊。也行，\\n毕竟受你关照了，你就在特等座上\\n见证撒旦复活的那一刻吧。",
+        "zh_tw": "喔，哈魯也來了嗎。很好。\\n你也幫了我們不少，撒旦復活的瞬間\\n就在特等席好好觀賞吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0006",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Harle? ...Ha ha! Oh, that's right! I was\\nstill using that name with you, wasn't I?",
+        "ja_jp": "ハール……ふふ、そうですね。\\n<ruby><rb>貴方様</rb><rt>あなたさま</rt></ruby>にはそう<ruby><rb>名乗</rb><rt>なの</rt></ruby>ったままでした。",
+        "zh_cn": "哈尔……呵呵，也是。\\n这是我曾向您报上的名字。",
+        "zh_tw": "哈魯……呵呵，是啊。\\n我對你們一直都是用那名字呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0007",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "And what is that supposed to mean?",
+        "ja_jp": "うん？　どういう<ruby><rb>意味</rb><rt>いみ</rt></ruby>だ？",
+        "zh_cn": "嗯？这话是什么意思？",
+        "zh_tw": "嗯？什麼意思？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0008",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Oh, nothing of consequence. But truly,\\nwhat a momentous occasion this is.\\nAt long last, all of your dreams will\\nfinally be realized.",
+        "ja_jp": "いえ、<ruby><rb>大</rb><rt>たい</rt></ruby>した<ruby><rb>事</rb><rt>こと</rt></ruby>ではありませんよ。\\nいやはや、それにしても……これで<ruby><rb>遂</rb><rt>つい</rt></ruby>に\\n<ruby><rb>貴方様</rb><rt>あなたさま</rt></ruby>の<ruby><rb>悲願</rb><rt>ひがん</rt></ruby>が<ruby><rb>成就</rb><rt>じょうじゅ</rt></ruby>されるわけですね。",
+        "zh_cn": "不是什么大事。\\n哎呀，话说回来……\\n这下您的夙愿就要实现了呢。",
+        "zh_tw": "不，不是什麼重要的事唷。\\n哎呀，不過……這下子你們也終於\\n達成朝思暮想的願望了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0009",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "It has been a struggle—one which took\\nfar longer than I initially anticipated.",
+        "ja_jp": "ああ、ようやくだ……\\nここに<ruby><rb>至</rb><rt>いた</rt></ruby>るまで<ruby><rb>多</rb><rt>おお</rt></ruby>くの<ruby><rb>時間</rb><rt>じかん</rt></ruby>がかかった。",
+        "zh_cn": "是啊，终于要实现了……\\n这一路真是太漫长了。",
+        "zh_tw": "是啊，終於……\\n走到這一步實在是花了很長的時間。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0010",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "All the groundwork in the south, placing\\npeople in key positions around the world,\\nhaving a backup plan for any possible\\ncontingencies that might arise...",
+        "ja_jp": "<ruby><rb>南</rb><rt>みなみ</rt></ruby>グラスティアでの<ruby><rb>事前</rb><rt>じぜん</rt></ruby><ruby><rb>工作</rb><rt>こうさく</rt></ruby>、\\n<ruby><rb>各国</rb><rt>かっこく</rt></ruby><ruby><rb>要人</rb><rt>ようじん</rt></ruby>への<ruby><rb>根回</rb><rt>ねまわ</rt></ruby>し、<ruby><rb>本案</rb><rt>ほんあん</rt></ruby>がとん<ruby><rb>挫</rb><rt>ざ</rt></ruby>した\\n<ruby><rb>場合</rb><rt>ばあい</rt></ruby>のための<ruby><rb>予備</rb><rt>よび</rt></ruby>プラン<ruby><rb>策定</rb><rt>さくてい</rt></ruby>……。",
+        "zh_cn": "在南格拉斯迪亚的事前准备、\\n疏通各国要人、制定首选计划\\n失败时的备用计划……",
+        "zh_tw": "南格拉斯迪亞的事前工作，\\n和各國的重要人物斡旋，\\n還有擬定失敗時的預備方案……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0011",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Wait, we had a backup plan? ...Ah, yes!\\nThat matter with the key to perdition.\\nWas a living descendant of the Goddess\\never truly found?",
+        "ja_jp": "<ruby><rb>予備</rb><rt>よび</rt></ruby>プラン？\\nああ、『<ruby><rb>煉獄</rb><rt>れんごく</rt></ruby>の<ruby><rb>鍵</rb><rt>かぎ</rt></ruby>』の<ruby><rb>一件</rb><rt>いっけん</rt></ruby>ですね……\\nたしか、<ruby><rb>女神</rb><rt>めがみ</rt></ruby>の<ruby><rb>子孫</rb><rt>しそん</rt></ruby>が<ruby><rb>見</rb><rt>み</rt></ruby>つかったとか。",
+        "zh_cn": "备用计划？\\n啊，是指“炼狱之匙”那件事吧……\\n听说是找到了女神的后代。",
+        "zh_tw": "預備方案？\\n啊，是「煉獄之鑰」嗎……\\n記得你已經找到女神的子孫了吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0012",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "You're well-informed. Yes, we'd hoped to\\nfind a new Scroll of Perdition and access\\nmore powerful alchemical recipes.",
+        "ja_jp": "よく<ruby><rb>知</rb><rt>し</rt></ruby>っているな。あれは、<ruby><rb>未確認</rb><rt>みかくにん</rt></ruby>の\\n『<ruby><rb>煉獄文書</rb><rt>れんごくぶんしょ</rt></ruby>』を<ruby><rb>入手</rb><rt>にゅうしゅ</rt></ruby>し、より<ruby><rb>強力</rb><rt>きょうりょく</rt></ruby>な\\n<ruby><rb>兵器</rb><rt>へいき</rt></ruby>のレシピを<ruby><rb>得</rb><rt>え</rt></ruby>る<ruby><rb>事</rb><rt>こと</rt></ruby>が<ruby><rb>目的</rb><rt>もくてき</rt></ruby>だった。",
+        "zh_cn": "你知道的可真多啊。那是为了\\n弄到尚未发现的“炼狱文书”\\n并获得更强力兵器的制法。",
+        "zh_tw": "你知道得還真清楚啊。那件事的目的\\n是為了得到未確認的「煉獄文書」，\\n並獲得更強大兵器的藍圖。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0013",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "Those scrolls are teeming with records\\nof the tools of war from a thousand years\\nago—weapons that could greatly aid in\\nour conquest of South Grastaea.",
+        "ja_jp": "<ruby><rb>煉獄文書</rb><rt>れんごくぶんしょ</rt></ruby>には1000<ruby><rb>年</rb><rt>ねん</rt></ruby><ruby><rb>前</rb><rt>まえ</rt></ruby>に<ruby><rb>用</rb><rt>もち</rt></ruby>いられた\\n<ruby><rb>兵器</rb><rt>へいき</rt></ruby>に<ruby><rb>関</rb><rt>かん</rt></ruby>する<ruby><rb>記述</rb><rt>きじゅつ</rt></ruby>も<ruby><rb>少</rb><rt>すく</rt></ruby>なくないからな。\\n<ruby><rb>南大陸</rb><rt>みなみたいりく</rt></ruby>の<ruby><rb>侵攻</rb><rt>しんこう</rt></ruby>にも<ruby><rb>使</rb><rt>つか</rt></ruby>えると<ruby><rb>踏</rb><rt>ふ</rt></ruby>んだのだ。",
+        "zh_cn": "因为炼狱文书里关于1000年前\\n使用兵器的记载也不在少数，\\n我料想这也能用于侵攻南大陆。",
+        "zh_tw": "煉獄文書中記載了不少關於\\n1000年前所使用的兵器資訊。\\n我相信在侵略南大陸時能派上用場。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0014",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "But in the end, it was merely a way to win\\nover some investors. I'll have little use for\\nweapons once I command Satan's power.",
+        "ja_jp": "だが、<ruby><rb>所詮</rb><rt>しょせん</rt></ruby>そちらは<ruby><rb>協力者</rb><rt>きょうりょくしゃ</rt></ruby>を<ruby><rb>納得</rb><rt>なっとく</rt></ruby>させ、\\n<ruby><rb>出資</rb><rt>しゅっし</rt></ruby>を<ruby><rb>引</rb><rt>ひ</rt></ruby>き<ruby><rb>出</rb><rt>だ</rt></ruby>すための<ruby><rb>予備</rb><rt>よび</rt></ruby>プラン……\\nサタンの<ruby><rb>力</rb><rt>ちから</rt></ruby>さえあれば<ruby><rb>無用</rb><rt>むよう</rt></ruby>の<ruby><rb>長物</rb><rt>ちょうぶつ</rt></ruby>よ。",
+        "zh_cn": "但是，那不过是说服合作伙伴、\\n引诱他们出资的备用计划……\\n只要有了撒旦的力量，这些就都没用了。",
+        "zh_tw": "但是，那頂多就是為了說服協助者，\\n讓他們為計畫出資的預備方案……\\n一旦有了撒旦的力量就不再需要了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0015",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "The Demonlord's might dwarfs even the\\nFive Archdemons, and with it I'll become\\npope and rule over the world! Aaah ha ha!",
+        "ja_jp": "『<ruby><rb>五大悪魔</rb><rt>ディアボロス</rt></ruby>』をも<ruby><rb>凌</rb><rt>しの</rt></ruby>ぐ<ruby><rb>悪魔王</rb><rt>あくまおう</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>用</rb><rt>もち</rt></ruby>い\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>新</rb><rt>あら</rt></ruby>たな<ruby><rb>教皇</rb><rt>きょうこう</rt></ruby>となり<ruby><rb>世界</rb><rt>せかい</rt></ruby>の<ruby><rb>頂点</rb><rt>ちょうてん</rt></ruby>に<ruby><rb>君臨</rb><rt>くんりん</rt></ruby>\\nするのだ！　ふふふ、はーっはっはっ！",
+        "zh_cn": "恶魔之王的力量甚于“五大恶魔”，\\n我要用这份力量成为新教皇，\\n君临天下！呵呵呵，哈——哈哈！",
+        "zh_tw": "利用凌駕「五大惡魔」的惡魔王之力，\\n我就能成為新的教宗，君臨世界頂點！\\n呵呵呵，哈──哈哈！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0016",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "Nnngh?! What is that? What's happening?!",
+        "ja_jp": "むっ!?　なんだ、<ruby><rb>何</rb><rt>なに</rt></ruby>が<ruby><rb>起</rb><rt>お</rt></ruby>きている！",
+        "zh_cn": "唔！？怎么回事，有情况！",
+        "zh_tw": "唔！？什麼，發生什麼事了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0017",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "Those are the demonic entities born of the\\nmiasma! Stop that at once! You can't just\\nkill the sacrifices—there is a ritual that\\nmust be followed!",
+        "ja_jp": "あれは、<ruby><rb>瘴気</rb><rt>しょうき</rt></ruby>で<ruby><rb>生</rb><rt>う</rt></ruby>み<ruby><rb>出</rb><rt>だ</rt></ruby>した<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>もどき！\\nや、やめろ!?　<ruby><rb>勝手</rb><rt>かって</rt></ruby>に<ruby><rb>生贄</rb><rt>いけにえ</rt></ruby>を<ruby><rb>殺</rb><rt>ころ</rt></ruby>すな！\\n<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>の<ruby><rb>儀式</rb><rt>ぎしき</rt></ruby>には<ruby><rb>正式</rb><rt>せいしき</rt></ruby>な<ruby><rb>手順</rb><rt>てじゅん</rt></ruby>が……ッ！",
+        "zh_cn": "那是用瘴气生成的伪恶魔！\\n住、住手！不要随便杀活祭！\\n复活仪式有正式的步骤……",
+        "zh_tw": "那是由瘴氣產生出的假惡魔！\\n住、住手！？不要隨便把活祭品殺了！\\n復活儀式是有正式程序的……呃！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0018",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "Damned useless creatures. I'll have to\\nstop them with the sealing stone...",
+        "ja_jp": "くそっ、こうなったら<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>封印石</rb><rt>ふういんせき</rt></ruby>で\\n<ruby><rb>止</rb><rt>と</rt></ruby>めるしか――",
+        "zh_cn": "可恶，事已至此，只能用\\n我的封印石来制止了……",
+        "zh_tw": "可惡，既然這樣就只能\\n用我的封印石來阻止他們──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0019",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "You there! HALT!",
+        "ja_jp": "――これでどうだ！",
+        "zh_cn": "看招！",
+        "zh_tw": "──還不快停下！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0020",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "Impossible... Why aren't they stopping?!\\nThey're bound by the sealing stone,\\nso why won't they listen?!",
+        "ja_jp": "<ruby><rb>馬鹿</rb><rt>ばか</rt></ruby>なっ!?　なぜ<ruby><rb>止</rb><rt>と</rt></ruby>まらない！\\n<ruby><rb>奴</rb><rt>やつ</rt></ruby>らは<ruby><rb>封印石</rb><rt>ふういんせき</rt></ruby>で<ruby><rb>制御</rb><rt>せいぎょ</rt></ruby>できるはずだろう！\\nどうして<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>言</rb><rt>い</rt></ruby>う<ruby><rb>事</rb><rt>こと</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>かんのだ!?",
+        "zh_cn": "怎么可能！？为什么不停下来！\\n应该能用封印石制止那些家伙啊！\\n为什么会不听话！？",
+        "zh_tw": "怎麼可能！？為什麼阻止不了！\\n封印石應該可以操控他們才對啊！\\n為什麼會不受我控制！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0021",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "AH HA HA HA HA HA HA!",
+        "ja_jp": "ふふ……はははははっ！",
+        "zh_cn": "呵呵……哈哈哈哈哈！",
+        "zh_tw": "呵呵……哈哈哈哈哈！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0022",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "What are you laughing about,\\nyou little weasel?!",
+        "ja_jp": "ハール……<ruby><rb>貴様</rb><rt>きさま</rt></ruby>、<ruby><rb>何</rb><rt>なに</rt></ruby>を<ruby><rb>笑</rb><rt>わら</rt></ruby>う!?",
+        "zh_cn": "哈尔……你笑什么！？",
+        "zh_tw": "哈魯……你這傢伙在笑什麼！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0023",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Oh, but you must forgive me. Your panic\\nwas just so delightfully awkward!",
+        "ja_jp": "おっと、これは<ruby><rb>失礼</rb><rt>しつれい</rt></ruby>。\\nあまりの<ruby><rb>狼狽</rb><rt>ろうばい</rt></ruby>ぶりについ……。",
+        "zh_cn": "哎呀，恕我失礼。\\n看您如此狼狈我就没忍住……",
+        "zh_tw": "喔，這還真是失禮了。\\n因為看你太過狼狽，不小心就……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0024",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Still, if I've offended, let me make it up\\nto you with a little secret.",
+        "ja_jp": "では、ご<ruby><rb>機嫌</rb><rt>きげん</rt></ruby>を<ruby><rb>損</rb><rt>そこ</rt></ruby>ねてしまったお<ruby><rb>詫</rb><rt>わ</rt></ruby>びに\\nネタばらしをして<ruby><rb>差</rb><rt>さ</rt></ruby>し<ruby><rb>上</rb><rt>あ</rt></ruby>げましょう。",
+        "zh_cn": "很抱歉让您不高兴了。\\n作为赔礼，\\n我就为您揭晓谜底吧。",
+        "zh_tw": "那麼，作為破壞你好心情的賠罪，\\n我就把事情的原由告訴你吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0025",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "What secret? ...Is this all YOUR treachery?!",
+        "ja_jp": "ネタばらしだと!?　まさか、<ruby><rb>貴様</rb><rt>きさま</rt></ruby>が\\nこの<ruby><rb>事態</rb><rt>じたい</rt></ruby>を<ruby><rb>仕組</rb><rt>しく</rt></ruby>んだと<ruby><rb>言</rb><rt>い</rt></ruby>うのか！",
+        "zh_cn": "揭晓谜底！？难道这事\\n是你设计的不成！",
+        "zh_tw": "事情的原由！？\\n該不會，這事態是你搞出來的吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0026",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "You wound me, my friend! This isn't so far\\nfrom what you wanted, is it?",
+        "ja_jp": "<ruby><rb>仕組</rb><rt>しく</rt></ruby>んだなどとは<ruby><rb>人聞</rb><rt>ひとぎ</rt></ruby>きの<ruby><rb>悪</rb><rt>わる</rt></ruby>い。\\n<ruby><rb>今</rb><rt>いま</rt></ruby>の<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>のほとんどは<ruby><rb>貴方様</rb><rt>あなたさま</rt></ruby>が\\n<ruby><rb>望</rb><rt>のぞ</rt></ruby>んだ<ruby><rb>事</rb><rt>こと</rt></ruby>ではないですか。",
+        "zh_cn": "说什么设计，多难听啊。\\n眼下的情况\\n不都基本如您所愿吗？",
+        "zh_tw": "把話講成這樣還真是不好聽。\\n現在的狀況不是幾乎都\\n按照你的期望走嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0027",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "Shut your double-crossing mouth, fool!\\nYou may have ruined my plans, but I'll\\nhave these demonic entities rip you apart!",
+        "ja_jp": "<ruby><rb>黙</rb><rt>だま</rt></ruby>れ、<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>計画</rb><rt>けいかく</rt></ruby>を<ruby><rb>台無</rb><rt>だいな</rt></ruby>しにしおって！\\n<ruby><rb>今</rb><rt>いま</rt></ruby>に<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>封印石</rb><rt>ふういんせき</rt></ruby>で<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>もどきどもを\\n<ruby><rb>差</rb><rt>さ</rt></ruby>し<ruby><rb>向</rb><rt>む</rt></ruby>け、<ruby><rb>貴様</rb><rt>きさま</rt></ruby>を<ruby><rb>亡</rb><rt>な</rt></ruby>き<ruby><rb>者</rb><rt>もの</rt></ruby>にしてくれる！",
+        "zh_cn": "住口，你竟敢让我的计划付诸东流！\\n我这就用我的封印石\\n让伪恶魔取了你的小命！",
+        "zh_tw": "閉嘴，居然讓我的計畫泡湯！\\n現在就用我的封印石\\n讓假惡魔把你變成亡者！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0028",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "I rather doubt that; you could pour every\\nounce of mana you have into that common\\npebble and it won't accomplish a thing.",
+        "ja_jp": "<ruby><rb>無駄</rb><rt>むだ</rt></ruby>ですよ。そんな、ただの<ruby><rb>石</rb><rt>いし</rt></ruby>ころに\\nどれだけマナを<ruby><rb>注</rb><rt>そそ</rt></ruby>ごうと<ruby><rb>何</rb><rt>なに</rt></ruby>も<ruby><rb>起</rb><rt>お</rt></ruby>きは\\nしません。",
+        "zh_cn": "没用的。给一块破石头\\n注入多少魔力也是白费力气。",
+        "zh_tw": "沒用的唷。不管你對那種普通的石頭\\n注入多少瑪納，也什麼事都不會發生。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0029",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "A common... No! That's not possible!",
+        "ja_jp": "ただの<ruby><rb>石</rb><rt>いし</rt></ruby>ころ!?　そんなはずは……！",
+        "zh_cn": "破石头！？怎么可能……",
+        "zh_tw": "普通的石頭！？怎麼可能……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0030",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Oh, but it is. The moment the demon\\nwas released from its seal, it became\\nno different from any roadside rock.",
+        "ja_jp": "いいえ、ただの<ruby><rb>石</rb><rt>いし</rt></ruby>ですよ。<ruby><rb>封</rb><rt>ふう</rt></ruby>じられて\\nいた<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>が<ruby><rb>解放</rb><rt>かいほう</rt></ruby>された<ruby><rb>時点</rb><rt>じてん</rt></ruby>で、それは\\n<ruby><rb>何</rb><rt>なん</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>もない<ruby><rb>路傍</rb><rt>ろぼう</rt></ruby>の<ruby><rb>石</rb><rt>いし</rt></ruby>と<ruby><rb>化</rb><rt>か</rt></ruby>したのです。",
+        "zh_cn": "对，就是一块破石头。\\n当封印其中的恶魔被释放出来，\\n它就与其他石头没什么两样了。",
+        "zh_tw": "不，它就是普通的石頭喔。\\n當封印在其中的惡魔被解放的瞬間，\\n它就變成了毫無力量的石頭。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0031",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "Basileus! You controlled the demonic\\nentities in Rozcimea, remember?!",
+        "ja_jp": "あ、あり<ruby><rb>得</rb><rt>え</rt></ruby>ん……そうだ！\\nロジメアではヴァースが<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>もどきを\\n<ruby><rb>操</rb><rt>あやつ</rt></ruby>っていたはずだ、そうだろう！",
+        "zh_cn": "不、不可能……对了！\\n法斯在洛基梅亚的时候\\n不是还操纵伪恶魔来着，对吧！",
+        "zh_tw": "不、不可能……對了！\\n在羅吉梅亞時梵斯也操縱過\\n假惡魔才對，沒錯吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0032",
+      "book": ""
+    },
+    {
+      "icon": "120217_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "Use your stone now and purge this traitor!\\nHave them tear him limb from limb!",
+        "ja_jp": "ヴァース、お<ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>持</rb><rt>も</rt></ruby>つ<ruby><rb>封印石</rb><rt>ふういんせき</rt></ruby>で\\n<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>もどきを<ruby><rb>操</rb><rt>あやつ</rt></ruby>り、こいつを<ruby><rb>討</rb><rt>う</rt></ruby>て！\\n<ruby><rb>今</rb><rt>いま</rt></ruby>すぐ<ruby><rb>裏切</rb><rt>うらぎ</rt></ruby>り<ruby><rb>者</rb><rt>もの</rt></ruby>を<ruby><rb>粛清</rb><rt>しゅくせい</rt></ruby>するのだ！",
+        "zh_cn": "法斯，用你的封印石操纵\\n这些伪恶魔，命其讨此奸贼！\\n即刻肃清叛徒！",
+        "zh_tw": "梵斯，用你的封印石操縱假惡魔，\\n把這傢伙收拾掉！\\n現在立刻肅清這個叛徒！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0033",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "I hate to disappoint, but that won't be\\nhappening either. Just like yours,\\nBasileus's stone is now devoid of power.",
+        "ja_jp": "<ruby><rb>残念</rb><rt>ざんねん</rt></ruby>ですが、それも<ruby><rb>不可能</rb><rt>ふかのう</rt></ruby>ですよ。\\nヴァース<ruby><rb>殿</rb><rt>どの</rt></ruby>が<ruby><rb>持</rb><rt>も</rt></ruby>つ<ruby><rb>封印石</rb><rt>ふういんせき</rt></ruby>も<ruby><rb>貴方様</rb><rt>あなたさま</rt></ruby>が<ruby><rb>持</rb><rt>も</rt></ruby>つ\\n<ruby><rb>封印石</rb><rt>ふういんせき</rt></ruby>と<ruby><rb>同様</rb><rt>どうよう</rt></ruby>、すでに<ruby><rb>力</rb><rt>ちから</rt></ruby>はありません。",
+        "zh_cn": "很遗憾，这也是办不到的。\\n法斯阁下的封印石和您的一样，\\n都已经失去了力量。",
+        "zh_tw": "很遺憾，那也是不可能的唷。\\n梵斯閣下的封印石與你的相同，\\n已經沒有任何力量了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0034",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "Then how were these entities\\neven summoned?!",
+        "ja_jp": "なんだと……では、どうやって\\n<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>もどきを……!?",
+        "zh_cn": "你说什么……\\n那要怎么操纵伪恶魔！？",
+        "zh_tw": "什麼……\\n那要怎麼將假惡魔……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0035",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Well, with the Five Archdemons freed and\\nall the sealing stones spent, only a demon\\npossessed of miasma can do that.",
+        "ja_jp": "<ruby><rb>五大悪魔</rb><rt>ディアボロス</rt></ruby>がすべて<ruby><rb>解放</rb><rt>かいほう</rt></ruby>され<ruby><rb>封印石</rb><rt>ふういんせき</rt></ruby>が\\nいずれも<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>失</rb><rt>うしな</rt></ruby>った<ruby><rb>今</rb><rt>いま</rt></ruby>、<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>もどきを\\n<ruby><rb>操</rb><rt>あやつ</rt></ruby>れるのは<ruby><rb>瘴気</rb><rt>しょうき</rt></ruby>を<ruby><rb>宿</rb><rt>やど</rt></ruby>す<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>だけです。",
+        "zh_cn": "现在五大恶魔已全部得到解放，\\n封印石也都失效，能操纵伪恶魔的\\n只有身怀瘴气的恶魔了。",
+        "zh_tw": "現在五大惡魔已經全部得到解放，\\n封印石也全部失去力量，那麼能操縱\\n假惡魔的就只有寄宿著瘴氣的惡魔了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0036",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "A demon...? But that means you're—?!",
+        "ja_jp": "<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>だけ……\\nだとしたら、<ruby><rb>貴様</rb><rt>きさま</rt></ruby>は……!?",
+        "zh_cn": "只有恶魔……\\n这么说，你是……",
+        "zh_tw": "只有惡魔……\\n這樣的話，你是……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0037",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Loki",
+        "ja_jp": "ロキ$ロキハール",
+        "zh_cn": "洛基",
+        "zh_tw": "洛基"
+      },
+      "context": {
+        "en_us": "That's right! I'm a demon through\\nand through! But you can call me...Loki.",
+        "ja_jp": "ふふふ……。\\nそう、<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>人間</rb><rt>にんげん</rt></ruby>ではありません。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>はロキ……<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>ですよ。",
+        "zh_cn": "呵呵呵……\\n没错，我并非人类。\\n我叫洛基……是恶魔哦。",
+        "zh_tw": "呵呵呵……\\n沒錯，我不是人類。\\n我是洛基……是個惡魔唷。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0038",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "Then the attack on Rozcimea from the\\nother day's report was you?",
+        "ja_jp": "では、<ruby><rb>先日</rb><rt>せんじつ</rt></ruby>の<ruby><rb>報告</rb><rt>ほうこく</rt></ruby>で<ruby><rb>聞</rb><rt>き</rt></ruby>いた\\nロジメアの<ruby><rb>襲撃</rb><rt>しゅうげき</rt></ruby>も……？",
+        "zh_cn": "那我之前听到的袭击\\n洛基梅亚的报告也是……",
+        "zh_tw": "那麼，幾天前在報告中聽到的\\n羅吉梅亞的襲擊也是……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0039",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Loki",
+        "ja_jp": "ロキ$ロキハール",
+        "zh_cn": "洛基",
+        "zh_tw": "洛基"
+      },
+      "context": {
+        "en_us": "Indeed! That little band of of demonic\\nentities—or more properly, miasmic\\nangels—was the work of yours truly.",
+        "ja_jp": "ええ。<ruby><rb>軍事</rb><rt>ぐんじ</rt></ruby><ruby><rb>国家</rb><rt>こっか</rt></ruby>ロジメアで<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>もどき\\n……もとい<ruby><rb>瘴気天使</rb><rt>しょうきてんし</rt></ruby>たちの<ruby><rb>軍団</rb><rt>ぐんだん</rt></ruby>を<ruby><rb>操</rb><rt>あやつ</rt></ruby>って\\nいたのは、<ruby><rb>私</rb><rt>わたし</rt></ruby>です。",
+        "zh_cn": "没错。在军事国家洛基梅亚\\n操纵伪恶魔……也就是这些\\n瘴气天使军团的，正是我。",
+        "zh_tw": "沒錯，在軍政府羅吉梅亞的\\n假惡魔……應該說是瘴氣天使軍團，\\n就是我操縱的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0040",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "And you knew all along, Basilius?!",
+        "ja_jp": "と……いう<ruby><rb>事</rb><rt>こと</rt></ruby>は、まさか！\\nヴァース、<ruby><rb>貴様</rb><rt>きさま</rt></ruby>すべて<ruby><rb>知</rb><rt>し</rt></ruby>っていたな!?",
+        "zh_cn": "这……难道！\\n法斯，你这家伙全都知情吧！？",
+        "zh_tw": "也……就是說，該不會！\\n梵斯，這一切你全都知道吧！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0041",
+      "book": ""
+    },
+    {
+      "icon": "120217_01",
+      "name": {
+        "en_us": "Basileus",
+        "ja_jp": "ヴァース",
+        "zh_cn": "法斯",
+        "zh_tw": "梵斯"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0042",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "What madness is this?! You were willing to\\ngive your body to become Satan's vessel!\\nYou wanted to fulfill my grand design!",
+        "ja_jp": "ふ、ふざけるなよ！　<ruby><rb>貴様</rb><rt>きさま</rt></ruby>は<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>理想</rb><rt>りそう</rt></ruby>を\\n<ruby><rb>実現</rb><rt>じつげん</rt></ruby>するため、サタンの<ruby><rb>器</rb><rt>うつわ</rt></ruby>として\\nその<ruby><rb>身</rb><rt>み</rt></ruby>を<ruby><rb>捧</rb><rt>ささ</rt></ruby>げるのではなかったのか！",
+        "zh_cn": "开、开什么玩笑！\\n你不是为了实现我的理想，\\n甘愿献身成为撒旦的容器吗！",
+        "zh_tw": "別、別開玩笑了！\\n你不是為了要實現我的理想，\\n而準備獻身成為撒旦的容器嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0043",
+      "book": ""
+    },
+    {
+      "icon": "120217_01",
+      "name": {
+        "en_us": "Basileus",
+        "ja_jp": "ヴァース",
+        "zh_cn": "法斯",
+        "zh_tw": "梵斯"
+      },
+      "context": {
+        "en_us": "You are a fool. Did you truly believe I\\nwould give my life for a scheme born of\\nyour staggeringly meager imagination?",
+        "ja_jp": "……<ruby><rb>愚</rb><rt>おろ</rt></ruby>かだな。\\n<ruby><rb>俺</rb><rt>おれ</rt></ruby>がお<ruby><rb>前</rb><rt>まえ</rt></ruby>のためにこの<ruby><rb>身</rb><rt>み</rt></ruby>を<ruby><rb>捧</rb><rt>ささ</rt></ruby>げる？\\n<ruby><rb>本気</rb><rt>ほんき</rt></ruby>でそんな<ruby><rb>言葉</rb><rt>ことば</rt></ruby>を<ruby><rb>信</rb><rt>しん</rt></ruby>じていたのか。",
+        "zh_cn": "真是愚蠢……\\n我为了你而献身？\\n你真的信了这种话吗？",
+        "zh_tw": "……真是愚蠢啊。\\n我會為了你而獻身？\\n你是真的相信那些話嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0044",
+      "book": ""
+    },
+    {
+      "icon": "120217_01",
+      "name": {
+        "en_us": "Basileus",
+        "ja_jp": "ヴァース",
+        "zh_cn": "法斯",
+        "zh_tw": "梵斯"
+      },
+      "context": {
+        "en_us": "I've lived until this day for the purpose\\nof taking my vengeance against you.\\nWhy would I offer you ANYTHING?",
+        "ja_jp": "<ruby><rb>俺</rb><rt>おれ</rt></ruby>はこれまで、お<ruby><rb>前</rb><rt>まえ</rt></ruby>に<ruby><rb>復讐</rb><rt>ふくしゅう</rt></ruby>するために\\n<ruby><rb>生</rb><rt>い</rt></ruby>きてきたのだ。お<ruby><rb>前</rb><rt>まえ</rt></ruby>のような<ruby><rb>男</rb><rt>おとこ</rt></ruby>に\\n<ruby><rb>誰</rb><rt>だれ</rt></ruby>が<ruby><rb>身</rb><rt>み</rt></ruby>を<ruby><rb>捧</rb><rt>ささ</rt></ruby>げるものか。",
+        "zh_cn": "一直以来，\\n我都是为了向你复仇而活，\\n怎么可能为了你这种人献身。",
+        "zh_tw": "我至今為止，都是為了向你復仇而活。\\n誰要為了你這種人獻身啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0045",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "Vengeance? Vengeance for what?!",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>に<ruby><rb>復讐</rb><rt>ふくしゅう</rt></ruby>だと……？　いったい<ruby><rb>私</rb><rt>わたし</rt></ruby>が\\n<ruby><rb>貴様</rb><rt>きさま</rt></ruby>に<ruby><rb>何</rb><rt>なに</rt></ruby>をしたと<ruby><rb>言</rb><rt>い</rt></ruby>うのだ!?",
+        "zh_cn": "向我复仇？\\n我对你做过什么吗！？",
+        "zh_tw": "為了向我復仇……？\\n我到底對你做過了什麼！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0046",
+      "book": ""
+    },
+    {
+      "icon": "120217_01",
+      "name": {
+        "en_us": "Basileus",
+        "ja_jp": "ヴァース",
+        "zh_cn": "法斯",
+        "zh_tw": "梵斯"
+      },
+      "context": {
+        "en_us": "You slaughtered my village just to test\\nsome worthless new weapon—though it\\nwas over a decade ago, so I doubt you\\neven remember the incident.",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>は、<ruby><rb>下</rb><rt>くだ</rt></ruby>らん<ruby><rb>武器</rb><rt>ぶき</rt></ruby>の<ruby><rb>実験</rb><rt>じっけん</rt></ruby>をするために\\n<ruby><rb>俺</rb><rt>おれ</rt></ruby>の<ruby><rb>村</rb><rt>むら</rt></ruby>を<ruby><rb>滅</rb><rt>ほろ</rt></ruby>ぼした……<ruby><rb>十年以上前</rb><rt>じゅうねんいじょうまえ</rt></ruby>の<ruby><rb>事</rb><rt>こと</rt></ruby>と\\nなるともう<ruby><rb>覚</rb><rt>おぼ</rt></ruby>えていないか？",
+        "zh_cn": "你为了那什么破武器的实验，\\n灭我全村……过去了十多年，\\n你都已经不记得了吗？",
+        "zh_tw": "你為了無聊的武器實驗\\n而摧毀了我的村莊……但這已經是\\n十年多前的事，你應該也不記得了吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0047",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "You mean that village of heretics?\\nYou survived that?",
+        "ja_jp": "<ruby><rb>十年以上前</rb><rt>じゅうねんいじょうまえ</rt></ruby>……<ruby><rb>武器</rb><rt>ぶき</rt></ruby>の<ruby><rb>実験</rb><rt>じっけん</rt></ruby>……\\nそうか<ruby><rb>貴様</rb><rt>きさま</rt></ruby>、あの<ruby><rb>村</rb><rt>むら</rt></ruby>の<ruby><rb>生</rb><rt>い</rt></ruby>き<ruby><rb>残</rb><rt>のこ</rt></ruby>りか!?",
+        "zh_cn": "十多年前……武器实验……\\n原来，你是那村子里的幸存者！？",
+        "zh_tw": "十多年前……武器實驗……\\n我懂了，你是那個村莊的生還者嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0048",
+      "book": ""
+    },
+    {
+      "icon": "120217_01",
+      "name": {
+        "en_us": "Basileus",
+        "ja_jp": "ヴァース",
+        "zh_cn": "法斯",
+        "zh_tw": "梵斯"
+      },
+      "context": {
+        "en_us": "That village you falsely accused of heresy!\\nAll so you and the previous Wing of War\\ncould play with your sick toys.",
+        "ja_jp": "その<ruby><rb>通</rb><rt>とお</rt></ruby>りだ。お<ruby><rb>前</rb><rt>まえ</rt></ruby>は<ruby><rb>先代</rb><rt>せんだい</rt></ruby>の<ruby><rb>陣翼</rb><rt>じんよく</rt></ruby>の<ruby><rb>使徒</rb><rt>しと</rt></ruby>と\\n<ruby><rb>共謀</rb><rt>きょうぼう</rt></ruby>し、<ruby><rb>俺</rb><rt>おれ</rt></ruby>の<ruby><rb>村</rb><rt>むら</rt></ruby>に<ruby><rb>異端</rb><rt>いたん</rt></ruby>のレッテルを<ruby><rb>貼</rb><rt>は</rt></ruby>り\\n<ruby><rb>非道</rb><rt>ひどう</rt></ruby>な<ruby><rb>兵器</rb><rt>へいき</rt></ruby><ruby><rb>実験</rb><rt>じっけん</rt></ruby>を<ruby><rb>行</rb><rt>おこな</rt></ruby>った……。",
+        "zh_cn": "正是。你和前任阵翼之使徒合谋，\\n给我所在的村子冠上异端的罪名，\\n在那里实行惨无人道的兵器实验……",
+        "zh_tw": "沒錯。你與前任的陣翼使徒合謀，\\n將我們村莊貼上了異端的標籤，\\n然後進行了非人道的武器實驗……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0049",
+      "book": ""
+    },
+    {
+      "icon": "120217_01",
+      "name": {
+        "en_us": "Basileus",
+        "ja_jp": "ヴァース",
+        "zh_cn": "法斯",
+        "zh_tw": "梵斯"
+      },
+      "context": {
+        "en_us": "And then you burnt what remained to the\\nground to destroy the evidence. I've never\\nonce forgotten the heat of those flames!",
+        "ja_jp": "その<ruby><rb>挙句</rb><rt>あげく</rt></ruby>、<ruby><rb>証拠</rb><rt>しょうこ</rt></ruby>が<ruby><rb>残</rb><rt>のこ</rt></ruby>らぬようにと<ruby><rb>村</rb><rt>むら</rt></ruby>を\\nすべて<ruby><rb>焼</rb><rt>や</rt></ruby>き<ruby><rb>払</rb><rt>はら</rt></ruby>ったのだ。<ruby><rb>俺</rb><rt>おれ</rt></ruby>は<ruby><rb>一日</rb><rt>いちにち</rt></ruby>として\\nあの<ruby><rb>時</rb><rt>とき</rt></ruby>の<ruby><rb>炎</rb><rt>ほのお</rt></ruby>の<ruby><rb>熱</rb><rt>あつ</rt></ruby>さを<ruby><rb>忘</rb><rt>わす</rt></ruby>れた<ruby><rb>事</rb><rt>こと</rt></ruby>はない！",
+        "zh_cn": "最后为了毁灭证据，将村子\\n付之一炬。我不曾有一天忘记过\\n当时的熊熊大火有多么灼人！",
+        "zh_tw": "結果就是，為了不留證據而將我們村莊\\n給全數燒毀了。我沒有一天能忘記\\n當時的火焰有多麼灼熱！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0050",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "But...but that was all necessary to reach\\nthe position I'm in now! Surely you must\\nunderstand I had no other choice!",
+        "ja_jp": "ま、<ruby><rb>待</rb><rt>ま</rt></ruby>て……あれは<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>今</rb><rt>いま</rt></ruby>の<ruby><rb>地位</rb><rt>ちい</rt></ruby>を\\n<ruby><rb>手</rb><rt>て</rt></ruby>にするのに<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>な<ruby><rb>事</rb><rt>こと</rt></ruby>だったのだ！\\nわかるだろう!?　<ruby><rb>仕方</rb><rt>しかた</rt></ruby>がなかった！",
+        "zh_cn": "等、等一下……那是我为了\\n爬上如今的地位不得不做的事！\\n你懂的吧！？无可奈何啊！",
+        "zh_tw": "等、等等……那是為了讓我能爬到\\n現在的地位而必要的手段！\\n你能理解吧！？那是沒辦法的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0051",
+      "book": ""
+    },
+    {
+      "icon": "120217_01",
+      "name": {
+        "en_us": "Basileus",
+        "ja_jp": "ヴァース",
+        "zh_cn": "法斯",
+        "zh_tw": "梵斯"
+      },
+      "context": {
+        "en_us": "And now you have no choice but to accept\\na pathetic death, humiliated and broken.",
+        "ja_jp": "ならば、お<ruby><rb>前</rb><rt>まえ</rt></ruby>がここで<ruby><rb>惨</rb><rt>みじ</rt></ruby>めな<ruby><rb>最期</rb><rt>さいご</rt></ruby>を\\n<ruby><rb>遂</rb><rt>と</rt></ruby>げる<ruby><rb>事</rb><rt>こと</rt></ruby>も<ruby><rb>仕方</rb><rt>しかた</rt></ruby>がない<ruby><rb>事</rb><rt>こと</rt></ruby>だな。",
+        "zh_cn": "那么，你惨死在这里\\n也是无可奈何。",
+        "zh_tw": "那麼，讓你在這裡迎接悲慘的死期，\\n也是沒辦法的事呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0052",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "Don't! Stop this, Basileus! Th-there must\\nbe something you want. Say it! Anything!\\nWhatever it is, I shall make it yours!",
+        "ja_jp": "や、やめるんだヴァース……！\\nよし、わかった。お<ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>望</rb><rt>のぞ</rt></ruby>みを<ruby><rb>言</rb><rt>い</rt></ruby>え！\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>何</rb><rt>なん</rt></ruby>でも<ruby><rb>叶</rb><rt>かな</rt></ruby>えてやるぞ!?　どうだ！",
+        "zh_cn": "法斯，住、住手！好，我知道了。\\n说吧，你想要什么！\\n我都成全你！怎么样！",
+        "zh_tw": "住、住手啊梵斯……！\\n好，我懂了。說出你的願望吧！\\n我會為你實現一切喔！？怎麼樣！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0053",
+      "book": ""
+    },
+    {
+      "icon": "120217_01",
+      "name": {
+        "en_us": "Basileus",
+        "ja_jp": "ヴァース",
+        "zh_cn": "法斯",
+        "zh_tw": "梵斯"
+      },
+      "context": {
+        "en_us": "My only wish is revenge for the home\\nyou put to the torch...and for his will\\nto be granted.",
+        "ja_jp": "<ruby><rb>俺</rb><rt>おれ</rt></ruby>の<ruby><rb>望</rb><rt>のぞ</rt></ruby>みは、<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>故郷</rb><rt>こきょう</rt></ruby>を<ruby><rb>焼</rb><rt>や</rt></ruby>いた\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>への<ruby><rb>復讐</rb><rt>ふくしゅう</rt></ruby>……そして、あの<ruby><rb>方</rb><rt>かた</rt></ruby>が\\n<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>想</rb><rt>おも</rt></ruby>いを<ruby><rb>遂</rb><rt>と</rt></ruby>げる<ruby><rb>事</rb><rt>こと</rt></ruby>だ。",
+        "zh_cn": "我的愿望就是向你这个\\n毁灭我故乡的凶手复仇……\\n还有，让那位大人得偿所愿。",
+        "zh_tw": "我的願望，就是對毀了我故鄉的你\\n進行復仇……然後，讓那位大人\\n能完成自己的理想。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0054",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "Whose will?!",
+        "ja_jp": "あの<ruby><rb>方</rb><rt>かた</rt></ruby>だと……？",
+        "zh_cn": "那位大人？",
+        "zh_tw": "那位大人是……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0055",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Loki",
+        "ja_jp": "ロキ$ロキハール",
+        "zh_cn": "洛基",
+        "zh_tw": "洛基"
+      },
+      "context": {
+        "en_us": "Are we about done here?",
+        "ja_jp": "そろそろよろしいですか？",
+        "zh_cn": "你们谈完了吗？",
+        "zh_tw": "差不多可以了吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0056",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "HRK!",
+        "ja_jp": "ぐぬっ!?",
+        "zh_cn": "唔呃！？",
+        "zh_tw": "咕唔！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0057",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Loki",
+        "ja_jp": "ロキ$ロキハール",
+        "zh_cn": "洛基",
+        "zh_tw": "洛基"
+      },
+      "context": {
+        "en_us": "Your floundering has ceased to amuse me,\\nand I trust you've had your fill as well.\\nIt's time for you to finally be of some use.",
+        "ja_jp": "うろたえる<ruby><rb>貴方</rb><rt>あなた</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>るのも<ruby><rb>飽</rb><rt>あ</rt></ruby>きました。\\nもう<ruby><rb>十分</rb><rt>じゅうぶん</rt></ruby>でしょう？　<ruby><rb>貴方</rb><rt>あなた</rt></ruby>には<ruby><rb>最期</rb><rt>さいご</rt></ruby>に、\\n<ruby><rb>我々</rb><rt>われわれ</rt></ruby>の<ruby><rb>役</rb><rt>やく</rt></ruby>に<ruby><rb>立</rb><rt>た</rt></ruby>っていただきましょう。",
+        "zh_cn": "我已经看腻了你惊慌失措的模样，\\n差不多就到此为止吧？\\n临死前再为我们做点贡献吧。",
+        "zh_tw": "你驚嚇的樣子我也看膩了。\\n已經夠了吧？你生命的最後，\\n就好好為我們貢獻吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0058",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "AUGH!",
+        "ja_jp": "ぐわぁああああああ!!",
+        "zh_cn": "哇啊啊啊啊啊啊啊！",
+        "zh_tw": "咕哇啊啊啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0059",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "We're sure this is the right way?",
+        "ja_jp": "<ruby><rb>道</rb><rt>みち</rt></ruby>、こっちで<ruby><rb>合</rb><rt>あ</rt></ruby>ってますよね？",
+        "zh_cn": "是这条路没错吧？",
+        "zh_tw": "是走這條路沒錯吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0060",
+      "book": ""
+    },
+    {
+      "icon": "210145_01",
+      "name": {
+        "en_us": "Gabriel",
+        "ja_jp": "ガブリエル",
+        "zh_cn": "加百列",
+        "zh_tw": "加百列"
+      },
+      "context": {
+        "en_us": "Yes, Graht and Basileus should be in the\\nritual hall just past this... What?!",
+        "ja_jp": "ええ、グラートたちがいる<ruby><rb>祭祀会場</rb><rt>さいしかいじょう</rt></ruby>は\\nこの<ruby><rb>道</rb><rt>みち</rt></ruby>を<ruby><rb>抜</rb><rt>ぬ</rt></ruby>けた<ruby><rb>先</rb><rt>さき</rt></ruby>よ――ッ!?",
+        "zh_cn": "嗯，古拉特他们所在的祭祀会场\\n就在穿过这条路的前方——嗯！？",
+        "zh_tw": "嗯，古拉特他們所在的祭祀會場\\n就在穿過這條路的前方──唔！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0061",
+      "book": ""
+    },
+    {
+      "icon": "210145_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Hello, Gabriel. Hello, everyone.\\nWhere are you off to in such a rush?",
+        "ja_jp": "やあ、ガブリエル。それにみんな。\\nそんな<ruby><rb>急</rb><rt>いそ</rt></ruby>いでどこへ<ruby><rb>行</rb><rt>い</rt></ruby>くんだい？",
+        "zh_cn": "嗨，加百列，还有诸位。\\n你们这么急匆匆的\\n是要上哪儿去啊？",
+        "zh_tw": "唷，加百列，還有各位。\\n這麼著急想要去哪啊？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0062",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Please do fill me in.",
+        "ja_jp": "よかったら、<ruby><rb>僕</rb><rt>ぼく</rt></ruby>に<ruby><rb>教</rb><rt>おし</rt></ruby>えてくれよ。",
+        "zh_cn": "不妨也告诉我吧。",
+        "zh_tw": "不介意的話，能不能告訴我呀？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0063",
+      "book": ""
+    },
+    {
+      "icon": "210145_01",
+      "name": {
+        "en_us": "Gabriel",
+        "ja_jp": "ガブリエル",
+        "zh_cn": "加百列",
+        "zh_tw": "加百列"
+      },
+      "context": {
+        "en_us": "Michael!",
+        "ja_jp": "ミカエル……！",
+        "zh_cn": "米迦勒！",
+        "zh_tw": "米迦勒……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0064",
+      "book": ""
+    },
+    {
+      "icon": "210154_01",
+      "name": {
+        "en_us": "Raphael",
+        "ja_jp": "ラファエル",
+        "zh_cn": "拉斐尔",
+        "zh_tw": "拉斐爾"
+      },
+      "context": {
+        "en_us": "As you say, we're in a hurry—so if you try\\nto stop us, we won't hold back.",
+        "ja_jp": "あたしたちは<ruby><rb>急</rb><rt>いそ</rt></ruby>いでんだ、\\n<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>するつもりなら<ruby><rb>容赦</rb><rt>ようしゃ</rt></ruby>しねえぞ。",
+        "zh_cn": "我们急着赶路，\\n你要捣乱的话，\\n可别怪我们不客气。",
+        "zh_tw": "我們正在趕時間，你如果要來礙事，\\n我們可不會手下留情喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0065",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "An impressive threat! But sadly, I can't\\nstand down until Basileus's grand design\\nis brought to fruition.",
+        "ja_jp": "<ruby><rb>生憎</rb><rt>あいにく</rt></ruby>、そんな<ruby><rb>凄</rb><rt>すご</rt></ruby>まれてもここを<ruby><rb>退</rb><rt>ど</rt></ruby>く\\nわけにはいかないんだよ。ヴァースの\\n<ruby><rb>抱</rb><rt>いだ</rt></ruby>いた<ruby><rb>大望</rb><rt>たいぼう</rt></ruby>が<ruby><rb>成就</rb><rt>じょうじゅ</rt></ruby>するまではね。",
+        "zh_cn": "真不巧，在法斯壮志得酬之前，\\n就算你吓唬我，\\n我也不能就此退让。",
+        "zh_tw": "很可惜，就算被妳這樣威嚇\\n我也不能退讓唷。\\n直到梵斯完成他的遠大抱負為止呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0066",
+      "book": ""
+    },
+    {
+      "icon": "210132_01",
+      "name": {
+        "en_us": "Ramiel",
+        "ja_jp": "ラミエル",
+        "zh_cn": "拉米艾尔",
+        "zh_tw": "雷米爾"
+      },
+      "context": {
+        "en_us": "What grand design? What does he hope to\\naccomplish by bringing Satan back to life?",
+        "ja_jp": "<ruby><rb>大望</rb><rt>たいぼう</rt></ruby>？　ヴァースはサタンを<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>させて\\nいったい<ruby><rb>何</rb><rt>なに</rt></ruby>を<ruby><rb>為</rb><rt>な</rt></ruby>そうというのですか？",
+        "zh_cn": "壮志？他复活撒旦，\\n究竟是想干什么？",
+        "zh_tw": "遠大抱負？\\n梵斯讓撒旦復活究竟是有什麼目的？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0067",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "Why do you even ask? Would a persuasive\\nanswer win you over, or will you just\\nrespond with some trite speech on the\\nemptiness of revenge?",
+        "ja_jp": "それを<ruby><rb>知</rb><rt>し</rt></ruby>ってどうするんだい？　<ruby><rb>納得</rb><rt>なっとく</rt></ruby>の\\n<ruby><rb>行</rb><rt>い</rt></ruby>く<ruby><rb>理由</rb><rt>りゆう</rt></ruby>なら<ruby><rb>優</rb><rt>やさ</rt></ruby>しく<ruby><rb>許</rb><rt>ゆる</rt></ruby>す？　それとも、\\n<ruby><rb>復讐</rb><rt>ふくしゅう</rt></ruby>なんてやめろって<ruby><rb>諭</rb><rt>さと</rt></ruby>すつもりかい？",
+        "zh_cn": "你们知道了又怎样？如果理由\\n可以接受的话就会好心放过？\\n还是准备苦口婆心地劝他放弃复仇？",
+        "zh_tw": "你就算知道又能如何？\\n如果能認同的話就溫柔地原諒他？\\n還是要曉以大義勸他停止復仇？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0068",
+      "book": ""
+    },
+    {
+      "icon": "110382_03",
+      "name": {
+        "en_us": "Faris",
+        "ja_jp": "フワラス",
+        "zh_cn": "弗拉斯",
+        "zh_tw": "法朗斯"
+      },
+      "context": {
+        "en_us": "So revenge is what he's after?",
+        "ja_jp": "<ruby><rb>復讐</rb><rt>ふくしゅう</rt></ruby>……それが、ヴァースがサタンを\\n<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>させようとしている<ruby><rb>理由</rb><rt>りゆう</rt></ruby>なのか？",
+        "zh_cn": "复仇……这就是法斯\\n试图复活撒旦的原因吗？",
+        "zh_tw": "復仇……\\n那就是梵斯要讓撒旦復活的理由嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0069",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "Oh, it's not so simple as all that. It's true\\nthis will serve as revenge, but it has all\\nbecome so much more.",
+        "ja_jp": "そう<ruby><rb>単純</rb><rt>たんじゅん</rt></ruby>な<ruby><rb>話</rb><rt>はなし</rt></ruby>ではないよ。\\nたしかにそれは<ruby><rb>復讐</rb><rt>ふくしゅう</rt></ruby>の<ruby><rb>一環</rb><rt>いっかん</rt></ruby>ではあるが、\\nもはや<ruby><rb>復讐</rb><rt>ふくしゅう</rt></ruby>だけというわけでもない。",
+        "zh_cn": "没这么简单。\\n这的确是复仇的一环，\\n但也并不止于复仇。",
+        "zh_tw": "並不單純只有那樣唷。\\n雖然那也包含在復仇的一部分裡，\\n但事到如今也不完全只是復仇了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0070",
+      "book": ""
+    },
+    {
+      "icon": "120195_01",
+      "name": {
+        "en_us": "Sandalphon",
+        "ja_jp": "サンダルフォン",
+        "zh_cn": "圣德芬",
+        "zh_tw": "聖德芬"
+      },
+      "context": {
+        "en_us": "A statement so vague as to be pointless.\\nGive an answer with actual substance.",
+        "ja_jp": "<ruby><rb>要領</rb><rt>ようりょう</rt></ruby>を<ruby><rb>得</rb><rt>え</rt></ruby>ない<ruby><rb>発言</rb><rt>はつげん</rt></ruby>だ。つまりどういう\\n<ruby><rb>事</rb><rt>こと</rt></ruby>なのか<ruby><rb>端的</rb><rt>たんてき</rt></ruby>に<ruby><rb>述</rb><rt>の</rt></ruby>べたまえ。",
+        "zh_cn": "说重点。到底是怎么回事，\\n你简明扼要地说清楚。",
+        "zh_tw": "不得要領的發言。\\n你說明清楚究竟是怎麼回事。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0071",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "Oh, Sandalphon. Isn't it time you grew a\\nbit of a personality? Even androids don't\\nsound so mechanical these days.",
+        "ja_jp": "サンダルフォン、<ruby><rb>君</rb><rt>きみ</rt></ruby>は<ruby><rb>情緒</rb><rt>じょうちょ</rt></ruby>ってものを\\n<ruby><rb>学</rb><rt>まな</rt></ruby>ぼうよ。<ruby><rb>今時</rb><rt>いまどき</rt></ruby><ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>だって<ruby><rb>君</rb><rt>きみ</rt></ruby>より\\n<ruby><rb>感情豊</rb><rt>かんじょうゆた</rt></ruby>かなんじゃない？",
+        "zh_cn": "圣德芬，你也学学什么是情绪吧。\\n如今连战斗人偶\\n都比你感情丰富吧？",
+        "zh_tw": "聖德芬，妳也該學學何謂情緒了。\\n這年頭就連戰鬥人偶\\n都比妳還要感情豐富唷？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0072",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "Well, I suppose some things never change.\\nI may not be able to give you the perfect\\nanswer, but I can tell you this much...",
+        "ja_jp": "まあ、それはそれとして……\\n<ruby><rb>端的</rb><rt>たんてき</rt></ruby>にとは<ruby><rb>行</rb><rt>い</rt></ruby>かないかもだけれど、\\n<ruby><rb>少</rb><rt>すこ</rt></ruby>しくらいは<ruby><rb>話</rb><rt>はな</rt></ruby>してあげようか。",
+        "zh_cn": "算了，先不说这个……\\n虽然算不上简明扼要，\\n但还是稍微和你们说说吧。",
+        "zh_tw": "不過，先不管這個……\\n我雖然無法全部說明清楚，\\n但還是稍微告訴你們一點吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0073",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "Basileus's village was wiped out by Graht\\nand his own predecessor—the previous\\nWing of War.",
+        "ja_jp": "ヴァースは、<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>故郷</rb><rt>こきょう</rt></ruby>をグラートと\\n<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>先代</rb><rt>せんだい</rt></ruby>……<ruby><rb>陣翼</rb><rt>じんよく</rt></ruby>の<ruby><rb>使徒</rb><rt>しと</rt></ruby>によって\\n<ruby><rb>滅</rb><rt>ほろ</rt></ruby>ぼされているんだよ。",
+        "zh_cn": "法斯的故乡被古拉特和……\\n上一任阵翼之使徒毁灭了。",
+        "zh_tw": "梵斯的故鄉，是被古拉特和\\n上一任的……陣翼使徒所消滅。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0074",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "As I am connected to that Sigil, needless\\nto say I was also there when it happened.",
+        "ja_jp": "もちろん、そこには<ruby><rb>陣翼</rb><rt>じんよく</rt></ruby>の<ruby><rb>使徒</rb><rt>しと</rt></ruby>と\\n<ruby><rb>聖痕</rb><rt>せいこん</rt></ruby>で<ruby><rb>繋</rb><rt>つな</rt></ruby>がっている<ruby><rb>僕</rb><rt>ぼく</rt></ruby>もいた。",
+        "zh_cn": "当然，和阵翼之使徒\\n以圣痕相连的我也在场。",
+        "zh_tw": "當然，和當時的陣翼使徒\\n以聖痕連結的我也參與其中。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0075",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Ryszarda",
+        "ja_jp": "リィザ",
+        "zh_cn": "里莎",
+        "zh_tw": "理薩"
+      },
+      "context": {
+        "en_us": "But wouldn't that make you another target\\nof Basileus's revenge? I never felt that\\nsort of hostility between you, but...",
+        "ja_jp": "そ、それじゃあ……ミカエルも\\nヴァースの<ruby><rb>復讐相手</rb><rt>ふくしゅうあいて</rt></ruby>……？\\nでも、ふたりはそんな<ruby><rb>雰囲気</rb><rt>ふんいき</rt></ruby>じゃ……。",
+        "zh_cn": "这、这么说……\\n你也是法斯的复仇对象？\\n但是，你们看起来不像是……",
+        "zh_tw": "那、那不就表示……\\n連米迦勒也是梵斯復仇的目標……？\\n但是，你們兩個看起來並不像那樣……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0076",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "It seems I was on his list at one point,\\nbut we managed to talk through it\\nand reach a kind of accord.",
+        "ja_jp": "<ruby><rb>相変</rb><rt>あいか</rt></ruby>わらず<ruby><rb>鋭</rb><rt>するど</rt></ruby>いね<ruby><rb>君</rb><rt>きみ</rt></ruby>は。\\n<ruby><rb>元々</rb><rt>もともと</rt></ruby>は<ruby><rb>僕</rb><rt>ぼく</rt></ruby>も<ruby><rb>復讐</rb><rt>ふくしゅう</rt></ruby>の<ruby><rb>対象</rb><rt>たいしょう</rt></ruby>だったようだけど\\n<ruby><rb>事情</rb><rt>じじょう</rt></ruby>を<ruby><rb>話</rb><rt>はな</rt></ruby>して<ruby><rb>和解</rb><rt>わかい</rt></ruby>したのさ。",
+        "zh_cn": "你还是一如既往地敏锐啊。\\n我本来也是他的复仇对象，\\n可我向他说明原委后，我们达成了和解。",
+        "zh_tw": "妳還是依舊很敏銳呢。\\n原本我也是他的復仇目標之一，\\n但我們在溝通之後和解了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0077",
+      "book": ""
+    },
+    {
+      "icon": "120217_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "In truth, I was being deceived by Graht\\nat the time. He told me only that it was a\\nvillage of heretics hell-bent on disrupting\\nthe world's order.",
+        "ja_jp": "その<ruby><rb>当時</rb><rt>とうじ</rt></ruby>、<ruby><rb>僕</rb><rt>ぼく</rt></ruby>はグラートたちに<ruby><rb>騙</rb><rt>だま</rt></ruby>されて\\nいたんだ……その<ruby><rb>村</rb><rt>むら</rt></ruby>は<ruby><rb>世界</rb><rt>せかい</rt></ruby>の<ruby><rb>秩序</rb><rt>ちつじょ</rt></ruby>を<ruby><rb>乱</rb><rt>みだ</rt></ruby>す\\n<ruby><rb>異端</rb><rt>いたん</rt></ruby>の<ruby><rb>村</rb><rt>むら</rt></ruby>だ、みたいな<ruby><rb>事</rb><rt>こと</rt></ruby>を<ruby><rb>言</rb><rt>い</rt></ruby>われてね。",
+        "zh_cn": "当时，我被古拉特他们所骗……\\n他们说那个村子是扰乱\\n世界秩序的异端村落。",
+        "zh_tw": "當時，我被古拉特他們欺騙了……\\n他們說那裡是擾亂世界秩序的\\n異端村莊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0078",
+      "book": ""
+    },
+    {
+      "icon": "120217_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "Shameful as it is, I had no idea I was\\nbeing played for the fool until Basileus\\ntold me the truth.",
+        "ja_jp": "<ruby><rb>遺憾</rb><rt>いかん</rt></ruby>ながら、ヴァースから<ruby><rb>真実</rb><rt>しんじつ</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>か\\nされるまで、<ruby><rb>僕</rb><rt>ぼく</rt></ruby>は<ruby><rb>彼</rb><rt>かれ</rt></ruby>らに<ruby><rb>騙</rb><rt>だま</rt></ruby>されている\\nなんてまったく<ruby><rb>気</rb><rt>き</rt></ruby>づかなかった。",
+        "zh_cn": "遗憾的是，\\n在听法斯说出真相之前，\\n我根本没发现自己还蒙在鼓里。",
+        "zh_tw": "雖然很慚愧，但在梵斯告訴我事實前，\\n我都被蒙在鼓裡，\\n完全沒發現這是場騙局。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0079",
+      "book": ""
+    },
+    {
+      "icon": "120217_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "They always took every precaution not to\\nbe found out, and I never thought to doubt\\nmy own apostle's loyalty.",
+        "ja_jp": "<ruby><rb>彼</rb><rt>かれ</rt></ruby>らもバレないようかなり<ruby><rb>周到</rb><rt>しゅうとう</rt></ruby>に<ruby><rb>動</rb><rt>うご</rt></ruby>いて\\nいたようだし、<ruby><rb>僕</rb><rt>ぼく</rt></ruby>もまさか<ruby><rb>使徒</rb><rt>しと</rt></ruby>が<ruby><rb>自分</rb><rt>じぶん</rt></ruby>を\\n<ruby><rb>騙</rb><rt>だま</rt></ruby>すなんて<ruby><rb>露</rb><rt>つゆ</rt></ruby><ruby><rb>程</rb><rt>ほど</rt></ruby>も<ruby><rb>思</rb><rt>おも</rt></ruby>ってなかったんだ。",
+        "zh_cn": "他们为了不让事迹败露，\\n似乎也相当谨慎地在行动。\\n而我做梦也没想到使徒会欺骗我。",
+        "zh_tw": "他們也為了不露出馬腳，非常謹慎地\\n安排這一切。而我也萬萬沒想到\\n使徒會如此欺騙我。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0080",
+      "book": ""
+    },
+    {
+      "icon": "120217_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "Still, those are all excuses. Basileus may\\nhave forgiven me after opening my eyes,\\nbut I haven't forgiven myself—which is\\nwhy I swore to help him find justice.",
+        "ja_jp": "まあでも、そんなのは<ruby><rb>言</rb><rt>い</rt></ruby>い<ruby><rb>訳</rb><rt>わけ</rt></ruby>だよね。\\n<ruby><rb>事情</rb><rt>じじょう</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>いたヴァースは<ruby><rb>僕</rb><rt>ぼく</rt></ruby>を<ruby><rb>許</rb><rt>ゆる</rt></ruby>したけど\\n<ruby><rb>僕</rb><rt>ぼく</rt></ruby>はそれじゃ<ruby><rb>自分</rb><rt>じぶん</rt></ruby>が<ruby><rb>納得</rb><rt>なっとく</rt></ruby>できなかった。",
+        "zh_cn": "不过我这也是借口吧。\\n虽然法斯听说原委后原谅了我，\\n但我却无法自我释怀。",
+        "zh_tw": "不過那些都只能算是藉口對吧。\\n聽完這些話的梵斯雖然原諒了我，\\n但我自己卻不能認同。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0081",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "Even if what he seeks is ultimately unjust,\\nI must atone for my part in that atrocity. ",
+        "ja_jp": "だから<ruby><rb>僕</rb><rt>ぼく</rt></ruby>は<ruby><rb>贖罪</rb><rt>しょくざい</rt></ruby>のため、ヴァースに\\n<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>する<ruby><rb>事</rb><rt>こと</rt></ruby>を<ruby><rb>決</rb><rt>き</rt></ruby>めたんだ……たとえ\\nそれが<ruby><rb>正義</rb><rt>せいぎ</rt></ruby>にもとるものであってもね。",
+        "zh_cn": "所以为了赎罪，\\n我决定协助法斯……\\n就算这么做有违正义。",
+        "zh_tw": "所以我為了贖罪，決定要協助梵斯……\\n即使那是有違正義的做法。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0082",
+      "book": ""
+    },
+    {
+      "icon": "210145_01",
+      "name": {
+        "en_us": "Gabriel",
+        "ja_jp": "ガブリエル",
+        "zh_cn": "加百列",
+        "zh_tw": "加百列"
+      },
+      "context": {
+        "en_us": "But how do you get from there to reviving\\nSatan? That strikes me as the opposite of\\ngetting revenge against Graht.",
+        "ja_jp": "それでどうしてサタンを<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>させよう\\nって<ruby><rb>事</rb><rt>こと</rt></ruby>になるの？　グラートに<ruby><rb>復讐</rb><rt>ふくしゅう</rt></ruby>\\nするのとは<ruby><rb>真逆</rb><rt>まぎゃく</rt></ruby>の<ruby><rb>行為</rb><rt>こうい</rt></ruby>だわ。",
+        "zh_cn": "那事态为什么会演变成\\n要复活撒旦？这与向古拉特复仇\\n根本是矛盾之举啊。",
+        "zh_tw": "那為什麼會想讓撒旦復活呢？\\n這與向古拉特復仇\\n是完全相反的行為喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0083",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "That's the part that isn't so simple. If all\\nBasileus wanted was revenge, he could\\njust kill Graht and be done with it.",
+        "ja_jp": "そこが<ruby><rb>単純</rb><rt>たんじゅん</rt></ruby>じゃないところなんだよ。\\nヴァースがグラートに<ruby><rb>復讐</rb><rt>ふくしゅう</rt></ruby>するだけなら\\nこんな<ruby><rb>面倒</rb><rt>めんどう</rt></ruby>な<ruby><rb>事</rb><rt>こと</rt></ruby>はしない。",
+        "zh_cn": "这就是所谓“不简单”的关键所在。\\n只是法斯向古拉特复仇的话，\\n不会搞得这么麻烦。",
+        "zh_tw": "那就是比較複雜的地方了。\\n如果梵斯只是想向古拉特復仇，\\n就不用做這麼麻煩的事了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0084",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "But this has grown beyond one man's\\nsearch for vengeance.",
+        "ja_jp": "<ruby><rb>事</rb><rt>こと</rt></ruby>はすでに<ruby><rb>個人</rb><rt>こじん</rt></ruby>の<ruby><rb>復讐</rb><rt>ふくしゅう</rt></ruby>で<ruby><rb>収</rb><rt>おさ</rt></ruby>まるような\\n<ruby><rb>問題</rb><rt>もんだい</rt></ruby>じゃなくなっているのさ。",
+        "zh_cn": "因为事情已经超出了\\n私人恩怨的范围。",
+        "zh_tw": "但事情已經發展成\\n不光是對個人復仇就能了事的程度了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0085",
+      "book": ""
+    },
+    {
+      "icon": "110382_01",
+      "name": {
+        "en_us": "Faris",
+        "ja_jp": "フワラス",
+        "zh_cn": "弗拉斯",
+        "zh_tw": "法朗斯"
+      },
+      "context": {
+        "en_us": "I'm confused. Why does a man of \\nBasileus's stature need power badly\\nenough to resort to such measures?",
+        "ja_jp": "……わからないな。ヴァースほどの<ruby><rb>男</rb><rt>おとこ</rt></ruby>が\\nこんな<ruby><rb>方法</rb><rt>ほうほう</rt></ruby>を<ruby><rb>取</rb><rt>と</rt></ruby>ってまで<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>求</rb><rt>もと</rt></ruby>める<ruby><rb>理由</rb><rt>りゆう</rt></ruby>\\nとは、いったいなんだ？",
+        "zh_cn": "我不明白……像法斯这样的人\\n不惜用这种手段也要追求力量的\\n理由到底是什么？",
+        "zh_tw": "……我無法理解。\\n強如梵斯，居然不惜使出這種手段\\n也要追求力量，究竟是為了什麼理由？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0086",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "Afraid I can't share that part. But surely\\nit isn't so hard to come up with reasons\\na person might seek more power?",
+        "ja_jp": "それは<ruby><rb>言</rb><rt>い</rt></ruby>えないな～。でも、<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>求</rb><rt>もと</rt></ruby>める\\n<ruby><rb>理由</rb><rt>りゆう</rt></ruby>なんていくらだって<ruby><rb>思</rb><rt>おも</rt></ruby>いつくだろ？",
+        "zh_cn": "这我就不能说了。\\n不过，追求力量的理由\\n要多少有多少吧？",
+        "zh_tw": "那我就不能說了～\\n但是，追求力量的理由\\n要多少應該都想得到吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0087",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "Why, just the other day there was a greedy\\ncardinal lusting after Satan's power in\\norder to rule the world.",
+        "ja_jp": "たとえば、どこぞの<ruby><rb>強欲</rb><rt>ごうよく</rt></ruby>な<ruby><rb>枢機卿</rb><rt>すうききょう</rt></ruby>は\\n<ruby><rb>自分</rb><rt>じぶん</rt></ruby>が<ruby><rb>世界</rb><rt>せかい</rt></ruby>の<ruby><rb>頂点</rb><rt>ちょうてん</rt></ruby>に<ruby><rb>君臨</rb><rt>くんりん</rt></ruby>するために\\nサタンの<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>欲</rb><rt>ほっ</rt></ruby>していた。",
+        "zh_cn": "比如，某个野心勃勃的枢机主教\\n就为了自己能君临天下\\n而渴望撒旦的力量。",
+        "zh_tw": "比方說，某個利慾薰心的樞機主教\\n就為了要君臨世界的頂點而想要得到\\n撒旦的力量。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0088",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "Casting aside an absent goddess for a\\nnew and very present god and gaining the\\nworld in the bargain sounds nice, no?",
+        "ja_jp": "<ruby><rb>目</rb><rt>め</rt></ruby>に<ruby><rb>見</rb><rt>み</rt></ruby>えない<ruby><rb>女神</rb><rt>めがみ</rt></ruby>への<ruby><rb>信仰</rb><rt>しんこう</rt></ruby>ではなく、\\n<ruby><rb>目</rb><rt>め</rt></ruby>に<ruby><rb>見</rb><rt>み</rt></ruby>える<ruby><rb>新</rb><rt>あら</rt></ruby>たな<ruby><rb>神</rb><rt>かみ</rt></ruby>の<ruby><rb>威光</rb><rt>いこう</rt></ruby>によって\\n<ruby><rb>世界</rb><rt>せかい</rt></ruby>を<ruby><rb>支配</rb><rt>しはい</rt></ruby>する……まさに<ruby><rb>夢物語</rb><rt>ゆめものがたり</rt></ruby>さ。",
+        "zh_cn": "不是借由对女神虚无缥缈的信仰\\n来支配世界，而是通过肉眼可见的\\n全新神威……听起来就像做梦一样。",
+        "zh_tw": "不選擇無從見證的女神信仰，\\n而是以兩眼可視的新神威光\\n來支配世界……簡直是夢想的劇本。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0089",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "And Satan's power could make it a reality,\\nso Graht planned to destroy the southern\\nChurch to command the awe of the people.",
+        "ja_jp": "でも、サタンの<ruby><rb>力</rb><rt>ちから</rt></ruby>があれば<ruby><rb>現実</rb><rt>げんじつ</rt></ruby>になる。\\n<ruby><rb>彼</rb><rt>かれ</rt></ruby>は、<ruby><rb>手始</rb><rt>てはじ</rt></ruby>めに<ruby><rb>南教会</rb><rt>みなみきょうかい</rt></ruby>を<ruby><rb>滅</rb><rt>ほろ</rt></ruby>ぼす<ruby><rb>事</rb><rt>こと</rt></ruby>で\\n<ruby><rb>人々</rb><rt>ひとびと</rt></ruby>の<ruby><rb>畏敬</rb><rt>いけい</rt></ruby>を<ruby><rb>集</rb><rt>あつ</rt></ruby>めるって<ruby><rb>息巻</rb><rt>いきま</rt></ruby>いてたよ。",
+        "zh_cn": "但是，只要有了撒旦之力就能\\n让美梦成真。他起初还宣称\\n要毁灭南部教会杀鸡儆猴呢。",
+        "zh_tw": "但若擁有撒旦的力量這就能變為真實。\\n他之前還揚言要先將南方教會殲滅，\\n好讓人們對他感到敬畏呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0090",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "Though his was a dream fated to end\\nas nothing more than that.",
+        "ja_jp": "……ま、もはや<ruby><rb>叶</rb><rt>かな</rt></ruby>わぬ<ruby><rb>夢</rb><rt>ゆめ</rt></ruby>だろうけどね。",
+        "zh_cn": "可惜……这已经是无果之梦了。",
+        "zh_tw": "……不過，\\n這也都是無法實現的夢想了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0091",
+      "book": ""
+    },
+    {
+      "icon": "110395_01",
+      "name": {
+        "en_us": "Regina",
+        "ja_jp": "クイン",
+        "zh_cn": "奎茵",
+        "zh_tw": "柯恩"
+      },
+      "context": {
+        "en_us": "I take it from your tone that Basileus\\nhas already claimed his revenge?",
+        "ja_jp": "その<ruby><rb>口振</rb><rt>くちぶ</rt></ruby>り……すでにグラート<ruby><rb>枢機卿</rb><rt>すうききょう</rt></ruby>は\\n<ruby><rb>討</rb><rt>う</rt></ruby>たれている、という<ruby><rb>事</rb><rt>こと</rt></ruby>か？",
+        "zh_cn": "听你这口气……古拉特\\n枢机主教已经被处置了？",
+        "zh_tw": "聽你的說法……\\n意思是古拉特樞機主教\\n已經被消滅了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0092",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "Ha ha! Oh, who can tell? Honestly, I\\nwouldn't take anything I say too seriously.",
+        "ja_jp": "ふふ……さて、どうだろうね？\\n<ruby><rb>僕</rb><rt>ぼく</rt></ruby>の<ruby><rb>言</rb><rt>い</rt></ruby>う<ruby><rb>事</rb><rt>こと</rt></ruby>なんて<ruby><rb>真</rb><rt>ま</rt></ruby>に<ruby><rb>受</rb><rt>う</rt></ruby>けないほうが\\nいいんじゃないかな。",
+        "zh_cn": "呵呵……谁知道呢？\\n你们还是别把我的话当真为好。",
+        "zh_tw": "呵呵……究竟是如何呢？\\n我說的話不要全都相信比較好吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0093",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "After all...I am your enemy.",
+        "ja_jp": "だって、<ruby><rb>僕</rb><rt>ぼく</rt></ruby>は<ruby><rb>君</rb><rt>きみ</rt></ruby>たちの<ruby><rb>敵</rb><rt>てき</rt></ruby>なんだしさ！",
+        "zh_cn": "毕竟，我可是你们的敌人啊！",
+        "zh_tw": "畢竟，我是各位的敵人啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0094",
+      "book": ""
+    },
+    {
+      "icon": "110395_01",
+      "name": {
+        "en_us": "Regina",
+        "ja_jp": "クイン",
+        "zh_cn": "奎茵",
+        "zh_tw": "柯恩"
+      },
+      "context": {
+        "en_us": "That mana... It would seem he does\\nintend to fight us. But there's no way\\nhe can win—which means he's just\\ntrying to buy time.",
+        "ja_jp": "このマナ……<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>私</rb><rt>わたし</rt></ruby>たちと<ruby><rb>戦</rb><rt>たたか</rt></ruby>う<ruby><rb>気</rb><rt>き</rt></ruby>か。\\nだが、この<ruby><rb>戦力差</rb><rt>せんりょくさ</rt></ruby>で<ruby><rb>勝</rb><rt>か</rt></ruby>てるとは<ruby><rb>思</rb><rt>おも</rt></ruby>って\\nいまい……<ruby><rb>目的</rb><rt>もくてき</rt></ruby>は<ruby><rb>時間</rb><rt>じかん</rt></ruby><ruby><rb>稼</rb><rt>かせ</rt></ruby>ぎだな。",
+        "zh_cn": "这魔力……他是真打算与我们一战吗。\\n但是战斗力相差悬殊，他应该\\n没打算赢……目的在于争取时间。",
+        "zh_tw": "這瑪納……你是真打算與我們一戰嗎。\\n但在這戰力差距下你是不可能贏的……\\n所以目的是為了爭取時間吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0095",
+      "book": ""
+    },
+    {
+      "icon": "120195_01",
+      "name": {
+        "en_us": "Sandalphon",
+        "ja_jp": "サンダルフォン",
+        "zh_cn": "圣德芬",
+        "zh_tw": "聖德芬"
+      },
+      "context": {
+        "en_us": "Hence the long-winded exposition.",
+        "ja_jp": "どうりで<ruby><rb>長々</rb><rt>ながなが</rt></ruby>と<ruby><rb>話</rb><rt>はな</rt></ruby>してくるわけだ。",
+        "zh_cn": "难怪说得滔滔不绝。",
+        "zh_tw": "難怪要和我們說這麼多。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0096",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "I will always be on Basileus's side.\\nIf he wished it, I would make an enemy\\nof the entire world.",
+        "ja_jp": "……<ruby><rb>僕</rb><rt>ぼく</rt></ruby>はいつでもヴァースの<ruby><rb>味方</rb><rt>みかた</rt></ruby>だ。\\nあの<ruby><rb>子</rb><rt>こ</rt></ruby>が<ruby><rb>心</rb><rt>こころ</rt></ruby>から<ruby><rb>願</rb><rt>ねが</rt></ruby>うのなら、<ruby><rb>世界</rb><rt>せかい</rt></ruby>だって\\n<ruby><rb>敵</rb><rt>てき</rt></ruby>に<ruby><rb>回</rb><rt>まわ</rt></ruby>してみせる。",
+        "zh_cn": "我永远站在法斯这边。\\n只要是他想得到的，\\n就算与世界为敌我也在所不惜。",
+        "zh_tw": "……我無時無刻都是梵斯的夥伴。\\n如果是那孩子的衷心希望，\\n要我與世界為敵也在所不惜。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0097",
+      "book": ""
+    },
+    {
+      "icon": "120231_01",
+      "name": {
+        "en_us": "Michael",
+        "ja_jp": "ミカエル",
+        "zh_cn": "米迦勒",
+        "zh_tw": "米迦勒"
+      },
+      "context": {
+        "en_us": "That is my choice—and my atonement.\\nSo apologies, my friends, but his dream\\ndemands I stop you here!",
+        "ja_jp": "それが<ruby><rb>僕</rb><rt>ぼく</rt></ruby>の<ruby><rb>信念</rb><rt>しんねん</rt></ruby>であり、<ruby><rb>贖罪</rb><rt>しょくざい</rt></ruby>でもある。\\n……<ruby><rb>君</rb><rt>きみ</rt></ruby>たちには<ruby><rb>悪</rb><rt>わる</rt></ruby>いが、あの<ruby><rb>子</rb><rt>こ</rt></ruby>の<ruby><rb>願</rb><rt>ねが</rt></ruby>いの\\nために、ここで<ruby><rb>足止</rb><rt>あしど</rt></ruby>めさせてもらうよ！",
+        "zh_cn": "这就是我的信念，亦是赎罪……\\n虽然对不住你们，可为了\\n他的心愿，我得在此拦下你们！",
+        "zh_tw": "那就是我的信念，也是贖罪。\\n……雖然對你們很抱歉，但為了\\n那孩子的心願，我要在這阻止你們！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_07_0098",
+      "book": ""
+    }
+  ]
 }

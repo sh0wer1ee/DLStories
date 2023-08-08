@@ -1,892 +1,1683 @@
 {
-    "story_id": "",
-    "story_name": "神龙降临 赤红的天空",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "王子一行击败了撒旦并成功复活奥莉加。\\n但塞西娅却出现了异样，她的意识被侵占\\n并利用撒旦的肉体复活了巴哈姆特！\\n为了抵抗那抹除世界的力量，\\n王子一行与巴哈姆特展开战斗——"
-        ]
+  "title": {
+    "en_us": "Advent of the Origin    Crimson Skies",
+    "ja_jp": "神竜降臨  赤き空より",
+    "zh_cn": "神龙降临  赤红的天空",
+    "zh_tw": "神龍降臨  來自熾紅天空"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "120243_01"
-            ],
-            "speaker_name": "撒旦",
-            "context": "！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100043_01"
-            ],
-            "speaker_name": "奥莉加",
-            "context": "撒旦已经被削弱了……\\n这里暂时就由我来控制。\\n你们快返回外面解开撒旦的封印。",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100043_01"
-            ],
-            "speaker_name": "奥莉加",
-            "context": "那样的话我就能够苏醒，\\n然后和你们在外面并肩作战！",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好的……\\n大家，我们返回外面去！",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好的，这样一来……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "全都回来了啊。\\n事情办得怎么样？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "相当成功。\\n我们痛揍了撒旦一顿，\\n那家伙已经被削弱了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "塞西娅、泽娜。\\n能麻烦你们用晓之圣片\\n解开撒旦的封印吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "好的！\\n塞西娅，我们一同把手放在圣片上。",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "好的……\\n那我们……开始吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100043_01"
-            ],
-            "speaker_name": "奥莉加",
-            "context": "……\\n唔……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "你感觉怎么样？奥莉加！",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100043_01"
-            ],
-            "speaker_name": "奥莉加",
-            "context": "嗯……我没事。\\n只是好久没见到外界的光了，\\n有点刺眼……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100043_01"
-            ],
-            "speaker_name": "奥莉加",
-            "context": "先不说这个，\\n撒旦……也要苏醒了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "撒旦……来了！\\n我们一定要在这里打败——",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "塞西娅，你怎么了？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "啊，没事，那个……\\n只是……身体好像……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "唔！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "塞西娅！你怎么了？\\n这到底是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "我也……不知道……\\n刀中突然涌出一股力量……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "唔……\\n呀啊啊啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100054_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "塞西娅？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "塞西娅？你到底怎么了？\\n塞西娅！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100054_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "……\\n撒旦……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120243_01"
-            ],
-            "speaker_name": "撒旦",
-            "context": "……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "唔唔，身体不听使唤……\\n有谁正在操控着我的身体……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "唔……\\n之前好像也发生过同样的事……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "难道和当时一样，\\n我的身体又被谁所控制了吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "究竟……\\n会是谁！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100053_01"
-            ],
-            "speaker_name": "泽诺斯",
-            "context": "看清了吗，这就是可能性的本质。",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100053_01"
-            ],
-            "speaker_name": "泽诺斯",
-            "context": "现在你们明白可能性\\n是多么渺小且没有意义的东西了吗——",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "唔！？刚才那是……泽诺斯？\\n是那操控着我的谁的记忆\\n流入了我的意识之中吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100053_01"
-            ],
-            "speaker_name": "泽诺斯",
-            "context": "撒旦是我模仿你们龙的模样\\n创造出来的产物。",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100053_01"
-            ],
-            "speaker_name": "泽诺斯",
-            "context": "撒旦会追求可能性，\\n不知疲倦地追求可能性。\\n因为我将其创造成这样。",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100053_01"
-            ],
-            "speaker_name": "泽诺斯",
-            "context": "所以撒旦永远不会满足现状，\\n永远会为了追求新的可能性\\n而否定现状……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100053_01"
-            ],
-            "speaker_name": "泽诺斯",
-            "context": "否定的循环，\\n正是这种欲望终将毁灭世界。",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100053_01"
-            ],
-            "speaker_name": "泽诺斯",
-            "context": "可能性是多么没有意义的东西，\\n撒旦已经向你们证明了——",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100053_01"
-            ],
-            "speaker_name": "泽诺斯",
-            "context": "“起始之龙”啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "起始之……龙？\\n那这段记忆的主人岂不是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "怎么可能……\\n难道那并不是我的噩梦吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "那就是操控着我的那个——",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "喂……\\n塞西娅看起来不对劲啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "塞西娅！\\n你究竟是怎么了！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100054_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "哈啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120243_01"
-            ],
-            "speaker_name": "撒旦",
-            "context": "！？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100054_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "……\\n这样一来……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "塞西娅！",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "唔……塞西娅，你没事吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "唔……哥哥？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "对不起……都怪我……\\n是我害事情演变成这样……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "你在说些什么？\\n刚才不是塞西娅你打败了撒旦吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "不……不是的……\\n那不是我……\\n也根本没有打败撒旦……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "诶？这是什么意思……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "嗯？怎么回事？\\n为什么天空突然乌云密布……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "奥莉加",
-            "context": "大家！快看那边……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120256_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "那……那是……\\n巴哈姆特？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "嗯……\\n但那并不是我们所知的巴哈姆特。",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "那是“起始之龙”……\\n与将其部分力量化做实体创造出的\\n巴哈姆特完全不同的存在……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "是以模仿龙创造出来的撒旦\\n为容器而复活的……\\n真正的巴哈姆特！",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01",
-                "100043_01",
-                "100001_09"
-            ],
-            "speaker_name": "全员",
-            "context": "！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120256_01"
-            ],
-            "speaker_name": "巴哈姆特",
-            "context": "……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120256_01"
-            ],
-            "speaker_name": "巴哈姆特",
-            "context": "！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "天空眨眼间就染成了红色……\\n看起来像是黄昏，\\n但却又不是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "整个世界都被染成了\\n巴哈姆特魔力的颜色，\\n没想到那就是巴哈姆特的真正姿态……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "好、好大……\\n这家伙怎么会这么大……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "喂，塞西娅，那家伙应该跟\\n和你们缔结契约的巴哈姆特一样，\\n是我们的同伴……对吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "不……之前的黑色巴哈姆特\\n是拥有独立意识的个体。",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "通过与奈迪犹的契约，\\n巴哈姆特选择了与我们共同\\n消灭泽诺斯的道路……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "但那白色的巴哈姆特并非如此……\\n而是企图将泽诺斯用来复活的\\n这个世界……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "连同历史一起抹除得一干二净！",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01",
-                "100039_01",
-                "100001_09"
-            ],
-            "speaker_name": "全员",
-            "context": "！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "连同历史一同抹除世界？\\n这种事真的可能吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "我听芬罗达说过……\\n巴哈姆特拥有能够抹除大地与生物……\\n毁灭万物的力量。",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "被抹除的东西将从这个世界\\n彻底消失……连同其存在过的\\n历史与记忆一同消失。",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_05"
-            ],
-            "speaker_name": "穆穆",
-            "context": "竟、竟然会有这种夸张的力量吗……\\n这就是造物主的力量吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "嗯……巴哈姆特是可能性之神，\\n所以能够带来任何可能性。",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "只不过……反过来说，\\n可能性也可以用来\\n否定一切既定的事物……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "这、这是什么意思……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "也就是说我和哥哥，\\n以及大家存在于世的既定事实，\\n也可以被否定。",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "因为比起“我们存在于此”，\\n“我们不存在”的可能性……\\n会更加地丰富不是吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "也许回头时大家就在身后，\\n也许推开门大家都在眼前，\\n但也有可能我们根本就不存在……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "能够任意改变事物的存在与否……\\n这、这就是巴哈姆特所创造的……\\n最终极的可能性？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "是的。巴哈姆特想要用这种力量\\n阻止泽诺斯的阴谋，\\n保护“可能性的世界”。",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "唔……我们也的确是想要保护\\n可能性的世界。也是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "嗯。要是连世界本身都被毁灭的话，\\n还谈什么保护……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "没错……\\n我们要保护这个世界\\n不受泽诺斯的毁灭……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "所以现在更不能让\\n巴哈姆特将其抹除。",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我们来阻止巴哈姆特吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100043_01"
-            ],
-            "speaker_name": "奥莉加",
-            "context": "那是当然。\\n只不过，我们要如何才能办到？\\n对方可是与“起始之人”一样强大。",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "老实说，我也想不出办法。\\n但即便如此……\\n我们也只能反抗了不是吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100043_01"
-            ],
-            "speaker_name": "奥莉加",
-            "context": "没有对策吗……\\n不过，也对。\\n我们现在似乎也只能拼死抵抗了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "嗯。如果现在不反抗的话，\\n世界注定会迎来末日……",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "放手一搏吧……\\n我们上！",
-            "voice_line": "VO_CHR_EVENTSTORY_20440_03_0089",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120256_01"
-            ],
-            "speaker_name": "巴哈姆特",
-            "context": "！",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "When the party tries to defeat Satan and revive\\nOriga, something takes control of Zethia and\\nuses Satan's body to revive Bahamut. The group\\nmust then face off against Bahamut to keep him\\nfrom erasing the world.",
+      "ja_jp": "サタンを<ruby><rb>倒</rb><rt>たお</rt></ruby>し、オリガを<ruby><rb>蘇生</rb><rt>そせい</rt></ruby>させる<ruby><rb>王子</rb><rt>おうじ</rt></ruby>たち\\nだが、ゼシアに<ruby><rb>異変</rb><rt>いへん</rt></ruby>が。<ruby><rb>誰</rb><rt>だれ</rt></ruby>かに<ruby><rb>意識</rb><rt>いしき</rt></ruby>を<ruby><rb>奪</rb><rt>うば</rt></ruby>われ\\nサタンの<ruby><rb>肉体</rb><rt>にくたい</rt></ruby>を<ruby><rb>用</rb><rt>もち</rt></ruby>いてバハムートを<ruby><rb>蘇</rb><rt>よみがえ</rt></ruby>らせて\\nしまったのだ！　<ruby><rb>王子</rb><rt>おうじ</rt></ruby>たちは<ruby><rb>世界</rb><rt>せかい</rt></ruby>を<ruby><rb>消滅</rb><rt>しょうめつ</rt></ruby>\\nさせる<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>抑</rb><rt>おさ</rt></ruby>えるためバハムートに<ruby><rb>挑</rb><rt>いど</rt></ruby>む――",
+      "zh_cn": "王子一行击败了撒旦并成功复活奥莉加。\\n但塞西娅却出现了异样，她的意识被侵占\\n并利用撒旦的肉体复活了巴哈姆特！\\n为了抵抗那抹除世界的力量，\\n王子一行与巴哈姆特展开战斗——",
+      "zh_tw": "王子等人成功打倒撒旦，使奧莉加復活。\\n此時潔西雅卻發生異狀，遭到某個存在\\n奪去意識，並利用撒旦的肉體\\n讓巴哈姆特復活！王子等人為了對抗\\n能消滅世界的力量，於是迎戰巴哈姆特──"
+    }
+  },
+  "prev": "2044002",
+  "next": "2044004",
+  "content": [
+    {
+      "icon": "120243_01",
+      "name": {
+        "en_us": "Satan",
+        "ja_jp": "サタン",
+        "zh_cn": "撒旦",
+        "zh_tw": "撒旦"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "……！",
+        "zh_cn": "！",
+        "zh_tw": "……！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100043_01",
+      "name": {
+        "en_us": "Origa",
+        "ja_jp": "オリガ",
+        "zh_cn": "奥莉加",
+        "zh_tw": "奧莉加"
+      },
+      "context": {
+        "en_us": "He's weakened. I'll hold him while the\\nrest of you get out of my consciousness\\nand undo the seal on Satan.",
+        "ja_jp": "<ruby><rb>弱</rb><rt>よわ</rt></ruby>ってきたわね……あなたたち、ここは\\nいったんわたしが<ruby><rb>抑</rb><rt>おさ</rt></ruby>えてる。<ruby><rb>意識</rb><rt>いしき</rt></ruby>の<ruby><rb>外</rb><rt>そと</rt></ruby>へ\\n<ruby><rb>出</rb><rt>で</rt></ruby>て、サタンの<ruby><rb>封印</rb><rt>ふういん</rt></ruby>を<ruby><rb>解</rb><rt>と</rt></ruby>いて。",
+        "zh_cn": "撒旦已经被削弱了……\\n这里暂时就由我来控制。\\n你们快返回外面解开撒旦的封印。",
+        "zh_tw": "變得衰弱了呢……\\n各位，這裡暫時交由我來壓制。\\n請你們到意識之外，解除撒旦的封印。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0001",
+      "book": ""
+    },
+    {
+      "icon": "100043_01",
+      "name": {
+        "en_us": "Origa",
+        "ja_jp": "オリガ",
+        "zh_cn": "奥莉加",
+        "zh_tw": "奧莉加"
+      },
+      "context": {
+        "en_us": "After that, I'll be able to awaken and we\\ncan fight him together on the outside.",
+        "ja_jp": "そうすればわたしも<ruby><rb>目覚</rb><rt>めざ</rt></ruby>められる。\\n<ruby><rb>外</rb><rt>そと</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>で、<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に<ruby><rb>戦</rb><rt>たたか</rt></ruby>えるわ！",
+        "zh_cn": "那样的话我就能够苏醒，\\n然后和你们在外面并肩作战！",
+        "zh_tw": "如此一來我將會連帶清醒。\\n可以在外面的世界，並肩作戰！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0002",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Right. Let's get out of here, everyone!",
+        "ja_jp": "わかった……！\\nみんな、<ruby><rb>一度</rb><rt>いちど</rt></ruby><ruby><rb>外</rb><rt>そと</rt></ruby>に<ruby><rb>出</rb><rt>で</rt></ruby>るぞ！",
+        "zh_cn": "好的……\\n大家，我们返回外面去！",
+        "zh_tw": "知道了……！\\n大家，先離開這裡吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0003",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Perfect. And now...",
+        "ja_jp": "よし。これで……！",
+        "zh_cn": "好的，这样一来……",
+        "zh_tw": "好，這樣的話……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0004",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "You're back. How did it go?",
+        "ja_jp": "<ruby><rb>全員</rb><rt>ぜんいん</rt></ruby><ruby><rb>戻</rb><rt>もど</rt></ruby>ったか。<ruby><rb>首尾</rb><rt>しゅび</rt></ruby>は？",
+        "zh_cn": "全都回来了啊。\\n事情办得怎么样？",
+        "zh_tw": "全員都回來了嗎。情況如何？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0005",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "We beat the dude like an old carpet\\nand he's ready to fall!",
+        "ja_jp": "<ruby><rb>上々</rb><rt>じょうじょう</rt></ruby>だっ。サタンも<ruby><rb>一発</rb><rt>いっぱつ</rt></ruby>ぶん<ruby><rb>殴</rb><rt>なぐ</rt></ruby>ってきた\\nからな、<ruby><rb>確実</rb><rt>かくじつ</rt></ruby>に<ruby><rb>弱</rb><rt>よわ</rt></ruby>ってるぜ！",
+        "zh_cn": "相当成功。\\n我们痛揍了撒旦一顿，\\n那家伙已经被削弱了！",
+        "zh_tw": "好到不行。我們還揍了撒旦一頓呢。\\n他確實變衰弱了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0006",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Zethia? Zena? Can you two use the\\nDawnshard to undo the seal on Satan?",
+        "ja_jp": "ゼシア、ゼーナ。<ruby><rb>暁</rb><rt>あかつき</rt></ruby>の<ruby><rb>聖片</rb><rt>せいへん</rt></ruby>で、\\nサタンの<ruby><rb>封印</rb><rt>ふういん</rt></ruby>を<ruby><rb>解</rb><rt>と</rt></ruby>いてくれるか？",
+        "zh_cn": "塞西娅、泽娜。\\n能麻烦你们用晓之圣片\\n解开撒旦的封印吗？",
+        "zh_tw": "潔西雅、潔那。可以拜託妳們\\n用曉之聖片解除撒旦的封印嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0007",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "Of course. Zethia, place your hand on mine\\nas we both hold the shard.",
+        "ja_jp": "わかりました！　ゼシア、この<ruby><rb>聖片</rb><rt>せいへん</rt></ruby>に\\n<ruby><rb>手</rb><rt>て</rt></ruby>を<ruby><rb>重</rb><rt>かさ</rt></ruby>ねてくれますか？",
+        "zh_cn": "好的！\\n塞西娅，我们一同把手放在圣片上。",
+        "zh_tw": "我明白了！潔西雅，\\n能請妳將手放到這個聖片上嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0008",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "Ready? And...",
+        "ja_jp": "はい……！\\nでは……<ruby><rb>参</rb><rt>まい</rt></ruby>ります！",
+        "zh_cn": "好的……\\n那我们……开始吧！",
+        "zh_tw": "好的……！\\n那麼……開始吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0009",
+      "book": ""
+    },
+    {
+      "icon": "100043_01",
+      "name": {
+        "en_us": "Origa",
+        "ja_jp": "オリガ",
+        "zh_cn": "奥莉加",
+        "zh_tw": "奧莉加"
+      },
+      "context": {
+        "en_us": "Nnngh...",
+        "ja_jp": "…………。\\nうっ……。",
+        "zh_cn": "……\\n唔……",
+        "zh_tw": "…………\\n唔……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0010",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Are you okay, Origa?!",
+        "ja_jp": "<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>ですか？　オリガさん！",
+        "zh_cn": "你感觉怎么样？奥莉加！",
+        "zh_tw": "妳沒事吧？奧莉加小姐！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0011",
+      "book": ""
+    },
+    {
+      "icon": "100043_01",
+      "name": {
+        "en_us": "Origa",
+        "ja_jp": "オリガ",
+        "zh_cn": "奥莉加",
+        "zh_tw": "奧莉加"
+      },
+      "context": {
+        "en_us": "I'm fine. It's just so much...brighter\\nout here than I remember.",
+        "ja_jp": "ええ……<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>よ。<ruby><rb>久</rb><rt>ひさ</rt></ruby>しぶりに<ruby><rb>見</rb><rt>み</rt></ruby>た\\n<ruby><rb>外</rb><rt>そと</rt></ruby>の<ruby><rb>光</rb><rt>ひかり</rt></ruby>が、まぶしかっただけ……。",
+        "zh_cn": "嗯……我没事。\\n只是好久没见到外界的光了，\\n有点刺眼……",
+        "zh_tw": "嗯……我沒事。\\n只是久違地見到外面的陽光，\\n有些刺眼而已……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0012",
+      "book": ""
+    },
+    {
+      "icon": "100043_01",
+      "name": {
+        "en_us": "Origa",
+        "ja_jp": "オリガ",
+        "zh_cn": "奥莉加",
+        "zh_tw": "奧莉加"
+      },
+      "context": {
+        "en_us": "Enough of this. Satan is awakening!",
+        "ja_jp": "それより、<ruby><rb>目覚</rb><rt>めざ</rt></ruby>めるわよ。\\nサタンが……！",
+        "zh_cn": "先不说这个，\\n撒旦……也要苏醒了！",
+        "zh_tw": "比起這個，要醒來了。\\n撒旦……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0013",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "Let us finish this once and for all!",
+        "ja_jp": "サタン……！　<ruby><rb>来</rb><rt>き</rt></ruby>ましたね。\\nここで<ruby><rb>確実</rb><rt>かくじつ</rt></ruby>に<ruby><rb>倒</rb><rt>たお</rt></ruby>しま――",
+        "zh_cn": "撒旦……来了！\\n我们一定要在这里打败——",
+        "zh_tw": "撒旦……！來了呢。\\n現在得確實擊敗──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0014",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "?!",
+        "ja_jp": "――!?",
+        "zh_cn": "！？",
+        "zh_tw": "──！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0015",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "Zethia? Is something wrong?",
+        "ja_jp": "ゼシア、どうしたのですか？",
+        "zh_cn": "塞西娅，你怎么了？",
+        "zh_tw": "潔西雅，妳怎麼了？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0016",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "I just... My body is...",
+        "ja_jp": "あ、いえ、その……。\\nなんだか……からだが……",
+        "zh_cn": "啊，没事，那个……\\n只是……身体好像……",
+        "zh_tw": "啊、不，那個……\\n總覺得……身體……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0017",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "NNNGH!",
+        "ja_jp": "うう……っ!?",
+        "zh_cn": "唔！？",
+        "zh_tw": "唔嗚……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0018",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Zethia! What's happening?!",
+        "ja_jp": "ゼシア！　<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>か？\\nいったいなにが……！",
+        "zh_cn": "塞西娅！你怎么了？\\n这到底是……",
+        "zh_tw": "潔西雅！妳沒事吧？\\n究竟發生了什麼……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0019",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "I don't...I don't know! There's suddenly\\nso much power flowing out of my sword!",
+        "ja_jp": "わかり、ません……！\\n<ruby><rb>突然刀</rb><rt>とつぜんかたな</rt></ruby>から、<ruby><rb>力</rb><rt>ちから</rt></ruby>が<ruby><rb>溢</rb><rt>あふ</rt></ruby>れて……！",
+        "zh_cn": "我也……不知道……\\n刀中突然涌出一股力量……",
+        "zh_tw": "我也、不曉得……！\\n突然從刀中、湧出力量……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0020",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "AAAAAAAAAAAH!",
+        "ja_jp": "うっ……\\nきゃああああああああっ!!",
+        "zh_cn": "唔……\\n呀啊啊啊啊啊啊啊啊！",
+        "zh_tw": "嗚……\\n呀啊啊啊啊啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0021",
+      "book": ""
+    },
+    {
+      "icon": "100054_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Zethia?",
+        "ja_jp": "ゼシア……？",
+        "zh_cn": "塞西娅？",
+        "zh_tw": "潔西雅……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0022",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What's going on?! ZETHIA!",
+        "ja_jp": "……？　ゼシア？　どうしたんだ？\\nゼシア……!?",
+        "zh_cn": "塞西娅？你到底怎么了？\\n塞西娅！？",
+        "zh_tw": "……？\\n潔西雅？妳怎麼了？\\n潔西雅……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0023",
+      "book": ""
+    },
+    {
+      "icon": "100054_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "...Satan.",
+        "ja_jp": "…………。\\nサタン……。",
+        "zh_cn": "……\\n撒旦……",
+        "zh_tw": "…………\\n撒旦……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0024",
+      "book": ""
+    },
+    {
+      "icon": "120243_01",
+      "name": {
+        "en_us": "Satan",
+        "ja_jp": "サタン",
+        "zh_cn": "撒旦",
+        "zh_tw": "撒旦"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "My body won't listen to me...\\nSomeone else is moving it!",
+        "ja_jp": "うう、<ruby><rb>身体</rb><rt>からだ</rt></ruby>が<ruby><rb>自由</rb><rt>じゆう</rt></ruby>に<ruby><rb>動</rb><rt>うご</rt></ruby>かない……。\\nだれかが<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>身体</rb><rt>からだ</rt></ruby>を<ruby><rb>動</rb><rt>うご</rt></ruby>かしている……！",
+        "zh_cn": "唔唔，身体不听使唤……\\n有谁正在操控着我的身体……",
+        "zh_tw": "唔嗚，身體不聽使喚……\\n有其他存在正在操控我的身體……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0025",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "Something like this happened before...",
+        "ja_jp": "くっ……そういえばこんなことが、\\n<ruby><rb>前</rb><rt>まえ</rt></ruby>にもありましたね……。",
+        "zh_cn": "唔……\\n之前好像也发生过同样的事……",
+        "zh_tw": "唔……這麼說來類似的事情，\\n以前也發生過呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0026",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "Is someone else controlling\\nmy body again?",
+        "ja_jp": "あの<ruby><rb>時</rb><rt>とき</rt></ruby>と<ruby><rb>同</rb><rt>おな</rt></ruby>じ『<ruby><rb>何者</rb><rt>なにもの</rt></ruby>か』が、<ruby><rb>私</rb><rt>わたし</rt></ruby>の\\n<ruby><rb>身体</rb><rt>からだ</rt></ruby>を<ruby><rb>操</rb><rt>あやつ</rt></ruby>っているというのですか……？",
+        "zh_cn": "难道和当时一样，\\n我的身体又被谁所控制了吗……",
+        "zh_tw": "莫非是跟那時同樣的「某個存在」，\\n在操控我的身體嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0027",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "Who is doing this?!",
+        "ja_jp": "いったい……\\nだれなのですか……!?",
+        "zh_cn": "究竟……\\n会是谁！？",
+        "zh_tw": "究竟……\\n會是誰……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0028",
+      "book": ""
+    },
+    {
+      "icon": "100053_01",
+      "name": {
+        "en_us": "Xenos",
+        "ja_jp": "ゼノス",
+        "zh_cn": "泽诺斯",
+        "zh_tw": "瑟諾斯"
+      },
+      "context": {
+        "en_us": "Do you now see what possibility brings?",
+        "ja_jp": "<ruby><rb>見</rb><rt>み</rt></ruby>たか。<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>のなんたるかを。",
+        "zh_cn": "看清了吗，这就是可能性的本质。",
+        "zh_tw": "看見了嗎，可能性究竟為何。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0029",
+      "book": ""
+    },
+    {
+      "icon": "100053_01",
+      "name": {
+        "en_us": "Xenos",
+        "ja_jp": "ゼノス",
+        "zh_cn": "泽诺斯",
+        "zh_tw": "瑟諾斯"
+      },
+      "context": {
+        "en_us": "Do you see how pointless and pathetic\\nall of it is?",
+        "ja_jp": "<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>が、いかに<ruby><rb>無意味</rb><rt>むいみ</rt></ruby>で<ruby><rb>矮小</rb><rt>わいしょう</rt></ruby>なもの\\nであるかを――。",
+        "zh_cn": "现在你们明白可能性\\n是多么渺小且没有意义的东西了吗——",
+        "zh_tw": "可能性，\\n是多麼無意義而渺小之物──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0030",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "That was Xenos! Are these memories from\\nwhoever is controlling me?",
+        "ja_jp": "――!?　<ruby><rb>今</rb><rt>いま</rt></ruby>のは……ゼノス？\\n『<ruby><rb>何者</rb><rt>なにもの</rt></ruby>か』の<ruby><rb>記憶</rb><rt>きおく</rt></ruby>が<ruby><rb>流</rb><rt>なが</rt></ruby>れ<ruby><rb>込</rb><rt>こ</rt></ruby>んできて\\nいるのですか……？",
+        "zh_cn": "唔！？刚才那是……泽诺斯？\\n是那操控着我的谁的记忆\\n流入了我的意识之中吗……",
+        "zh_tw": "──！？剛才的是……瑟諾斯？\\n是「某個存在」的記憶\\n流進了我的腦中嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0031",
+      "book": ""
+    },
+    {
+      "icon": "100053_01",
+      "name": {
+        "en_us": "Xenos",
+        "ja_jp": "ゼノス",
+        "zh_cn": "泽诺斯",
+        "zh_tw": "瑟諾斯"
+      },
+      "context": {
+        "en_us": "Satan is my creation. I based his form\\non you dragons.",
+        "ja_jp": "サタン。それはお<ruby><rb>前</rb><rt>まえ</rt></ruby>たちドラゴンの\\n<ruby><rb>姿</rb><rt>すがた</rt></ruby>を<ruby><rb>模</rb><rt>も</rt></ruby>した、<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>被造物</rb><rt>ひぞうぶつ</rt></ruby>。",
+        "zh_cn": "撒旦是我模仿你们龙的模样\\n创造出来的产物。",
+        "zh_tw": "撒旦。是模仿你們龍族的模樣，\\n由我創造出來的受造物。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0032",
+      "book": ""
+    },
+    {
+      "icon": "100053_01",
+      "name": {
+        "en_us": "Xenos",
+        "ja_jp": "ゼノス",
+        "zh_cn": "泽诺斯",
+        "zh_tw": "瑟諾斯"
+      },
+      "context": {
+        "en_us": "He longs for possibility, and shall\\nforevermore. That is the sole reason\\nfor his entire existence.",
+        "ja_jp": "サタンは<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>を<ruby><rb>求</rb><rt>もと</rt></ruby>める。<ruby><rb>飽</rb><rt>あ</rt></ruby>くことなく\\n<ruby><rb>求</rb><rt>もと</rt></ruby>め<ruby><rb>続</rb><rt>つづ</rt></ruby>ける。そのように<ruby><rb>造</rb><rt>つく</rt></ruby>られている。",
+        "zh_cn": "撒旦会追求可能性，\\n不知疲倦地追求可能性。\\n因为我将其创造成这样。",
+        "zh_tw": "撒旦會追求可能性。\\n毫不厭倦地持續追求。\\n就是為此而創造出來的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0033",
+      "book": ""
+    },
+    {
+      "icon": "100053_01",
+      "name": {
+        "en_us": "Xenos",
+        "ja_jp": "ゼノス",
+        "zh_cn": "泽诺斯",
+        "zh_tw": "瑟諾斯"
+      },
+      "context": {
+        "en_us": "He will never be satisfied with the way\\nthings are, and continue to seek new\\npossibilities, rejecting the status quo\\nevery step of the way.",
+        "ja_jp": "ゆえにいつまでも、<ruby><rb>現状</rb><rt>げんじょう</rt></ruby>に<ruby><rb>満足</rb><rt>まんぞく</rt></ruby>しない。\\n<ruby><rb>新</rb><rt>あら</rt></ruby>たなる<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>を<ruby><rb>求</rb><rt>もと</rt></ruby>め、<ruby><rb>現状</rb><rt>げんじょう</rt></ruby>を<ruby><rb>否定</rb><rt>ひてい</rt></ruby>し\\n<ruby><rb>続</rb><rt>つづ</rt></ruby>ける……。",
+        "zh_cn": "所以撒旦永远不会满足现状，\\n永远会为了追求新的可能性\\n而否定现状……",
+        "zh_tw": "也因此，永遠不會滿足於現狀。\\n撒旦將持續追求嶄新可能性，\\n並否定現狀……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0034",
+      "book": ""
+    },
+    {
+      "icon": "100053_01",
+      "name": {
+        "en_us": "Xenos",
+        "ja_jp": "ゼノス",
+        "zh_cn": "泽诺斯",
+        "zh_tw": "瑟諾斯"
+      },
+      "context": {
+        "en_us": "His rejection will continue without end,\\nand his insatiable hunger for possibility\\nwill eventually bring ruin to the world.",
+        "ja_jp": "<ruby><rb>否定</rb><rt>ひてい</rt></ruby>に<ruby><rb>次</rb><rt>つ</rt></ruby>ぐ<ruby><rb>否定</rb><rt>ひてい</rt></ruby>。その<ruby><rb>欲望</rb><rt>よくぼう</rt></ruby>こそが、\\nついには<ruby><rb>世界</rb><rt>せかい</rt></ruby>を<ruby><rb>破壊</rb><rt>はかい</rt></ruby>する。",
+        "zh_cn": "否定的循环，\\n正是这种欲望终将毁灭世界。",
+        "zh_tw": "接連不斷地否定。\\n正是那份欲望，終將破壞世界。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0035",
+      "book": ""
+    },
+    {
+      "icon": "100053_01",
+      "name": {
+        "en_us": "Xenos",
+        "ja_jp": "ゼノス",
+        "zh_cn": "泽诺斯",
+        "zh_tw": "瑟諾斯"
+      },
+      "context": {
+        "en_us": "Satan will demonstrate to you\\njust how pointless possibility is.",
+        "ja_jp": "<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>がどれほど<ruby><rb>無意味</rb><rt>むいみ</rt></ruby>なものか。\\nサタンはそれを<ruby><rb>証明</rb><rt>しょうめい</rt></ruby>しているのだ――",
+        "zh_cn": "可能性是多么没有意义的东西，\\n撒旦已经向你们证明了——",
+        "zh_tw": "可能性是多麼無意義的存在。\\n撒旦已做出了證明──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0036",
+      "book": ""
+    },
+    {
+      "icon": "100053_01",
+      "name": {
+        "en_us": "Xenos",
+        "ja_jp": "ゼノス",
+        "zh_cn": "泽诺斯",
+        "zh_tw": "瑟諾斯"
+      },
+      "context": {
+        "en_us": "And now you see it all, my old friend.\\nNow you see it all...Origin.",
+        "ja_jp": "――『はじまりの<ruby><rb>竜</rb><rt>ドラゴン</rt></ruby>』よ。",
+        "zh_cn": "“起始之龙”啊。",
+        "zh_tw": "──「起始之龍」啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0037",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "The Origin?! Then these memories\\nbelong to...",
+        "ja_jp": "!!　はじまりの、<ruby><rb>竜</rb><rt>ドラゴン</rt></ruby>……？\\nじゃあ、この<ruby><rb>記憶</rb><rt>きおく</rt></ruby>の<ruby><rb>持</rb><rt>も</rt></ruby>ち<ruby><rb>主</rb><rt>ぬし</rt></ruby>は……。",
+        "zh_cn": "起始之……龙？\\n那这段记忆的主人岂不是……",
+        "zh_tw": "唔！！起始之、龍……？\\n那麼，這份記憶的主人是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0038",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "That was no mere nightmare!",
+        "ja_jp": "そんな……\\nあれはただの<ruby><rb>悪夢</rb><rt>あくむ</rt></ruby>じゃ、ない……？",
+        "zh_cn": "怎么可能……\\n难道那并不是我的噩梦吗……",
+        "zh_tw": "怎麼會……\\n那並不是單純的、惡夢……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0039",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "It was the thing which now controls\\nmy body!",
+        "ja_jp": "あれが、<ruby><rb>私</rb><rt>わたし</rt></ruby>を<ruby><rb>操</rb><rt>あやつ</rt></ruby>っている\\n『<ruby><rb>何者</rb><rt>なにもの</rt></ruby>か』――！",
+        "zh_cn": "那就是操控着我的那个——",
+        "zh_tw": "那正是，操控我的「某個存在」──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0040",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Uh, guys? Something's weird with Zethia!",
+        "ja_jp": "お、おい……。\\nゼシア、なんか<ruby><rb>変</rb><rt>へん</rt></ruby>だぞ……！",
+        "zh_cn": "喂……\\n塞西娅看起来不对劲啊……",
+        "zh_tw": "喂、喂……\\n潔西雅，好像怪怪的耶……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0041",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Zethia, what's happening?!",
+        "ja_jp": "ゼシア……！\\nいったい、どうしたんだ……!?　",
+        "zh_cn": "塞西娅！\\n你究竟是怎么了！？",
+        "zh_tw": "潔西雅……！\\n妳究竟、是怎麼了……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0042",
+      "book": ""
+    },
+    {
+      "icon": "100054_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "HAAAAAH!",
+        "ja_jp": "ハアアアアア……!!",
+        "zh_cn": "哈啊啊啊啊啊！",
+        "zh_tw": "喝啊啊啊啊啊……！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0043",
+      "book": ""
+    },
+    {
+      "icon": "120243_01",
+      "name": {
+        "en_us": "Satan",
+        "ja_jp": "サタン",
+        "zh_cn": "撒旦",
+        "zh_tw": "撒旦"
+      },
+      "context": {
+        "en_us": "?!",
+        "ja_jp": "……ッ!?",
+        "zh_cn": "！？",
+        "zh_tw": "……！？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100054_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "It is finished...",
+        "ja_jp": "…………。\\nコレ、デ……。",
+        "zh_cn": "……\\n这样一来……",
+        "zh_tw": "…………\\n這樣、一來……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0044",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "ZETHIA!",
+        "ja_jp": "!!　ゼシア！",
+        "zh_cn": "塞西娅！",
+        "zh_tw": "唔！！潔西雅！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0045",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Are you okay, Zethia?!",
+        "ja_jp": "くっ……ゼシア、<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>か？",
+        "zh_cn": "唔……塞西娅，你没事吧？",
+        "zh_tw": "唔……潔西雅，妳沒事吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0046",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "My...brother...",
+        "ja_jp": "う……<ruby><rb>兄</rb><rt>にい</rt></ruby>、さま……？",
+        "zh_cn": "唔……哥哥？",
+        "zh_tw": "嗚……哥哥、大人……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0047",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "I am so sorry... Something terrible has\\ncome to pass because of me...",
+        "ja_jp": "ごめんなさい……。<ruby><rb>大変</rb><rt>たいへん</rt></ruby>なことに、\\nなりました。<ruby><rb>私</rb><rt>わたし</rt></ruby>のせいで……。",
+        "zh_cn": "对不起……都怪我……\\n是我害事情演变成这样……",
+        "zh_tw": "對不起……事情演變成、這個樣子。\\n都是我害的……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0048",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Terrible? But you just defeated Satan!",
+        "ja_jp": "なにを<ruby><rb>言</rb><rt>い</rt></ruby>ってるんだ。さっきゼシアが\\nサタンを<ruby><rb>倒</rb><rt>たお</rt></ruby>してくれたじゃないか！",
+        "zh_cn": "你在说些什么？\\n刚才不是塞西娅你打败了撒旦吗！",
+        "zh_tw": "妳在胡說什麼。\\n剛才是潔西雅打倒了撒旦不是嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0049",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "I did nothing... Satan is not defeated!",
+        "ja_jp": "<ruby><rb>違</rb><rt>ちが</rt></ruby>う……<ruby><rb>違</rb><rt>ちが</rt></ruby>うのです……。\\nあれは、<ruby><rb>私</rb><rt>わたし</rt></ruby>ではないのです……。\\nサタンを<ruby><rb>倒</rb><rt>たお</rt></ruby>してなどいません……。",
+        "zh_cn": "不……不是的……\\n那不是我……\\n也根本没有打败撒旦……",
+        "zh_tw": "不是的……不是這樣的……\\n那個、並不是我……\\n也根本沒有打倒撒旦……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0050",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What do you mean?",
+        "ja_jp": "え……？　それは、どういう……",
+        "zh_cn": "诶？这是什么意思……",
+        "zh_tw": "咦……？\\n那是，什麼意思……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0051",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Hmm? The sky just got cloudy...",
+        "ja_jp": "ん……？　なんだ？\\n<ruby><rb>急</rb><rt>きゅう</rt></ruby>に<ruby><rb>空</rb><rt>そら</rt></ruby>が、<ruby><rb>曇</rb><rt>くも</rt></ruby>って……",
+        "zh_cn": "嗯？怎么回事？\\n为什么天空突然乌云密布……",
+        "zh_tw": "嗯……？怎麼了？\\n天空突然、烏雲密布……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0052",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Origa",
+        "ja_jp": "オリガ",
+        "zh_cn": "奥莉加",
+        "zh_tw": "奧莉加"
+      },
+      "context": {
+        "en_us": "Everyone, look!",
+        "ja_jp": "みんな！　あれを<ruby><rb>見</rb><rt>み</rt></ruby>て……！",
+        "zh_cn": "大家！快看那边……",
+        "zh_tw": "各位！快看那邊……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0053",
+      "book": ""
+    },
+    {
+      "icon": "120256_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Is that...Bahamut?",
+        "ja_jp": "あ……あれは……？\\nバハムート……？",
+        "zh_cn": "那……那是……\\n巴哈姆特？",
+        "zh_tw": "那……那是……？\\n巴哈姆特……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0054",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "Yes—but not the Bahamut we know.",
+        "ja_jp": "ええ……。ですが、<ruby><rb>私</rb><rt>わたし</rt></ruby>たちの\\n<ruby><rb>知</rb><rt>し</rt></ruby>っているバハムートではありません。",
+        "zh_cn": "嗯……\\n但那并不是我们所知的巴哈姆特。",
+        "zh_tw": "是的……不過，\\n並非我們所知的巴哈姆特。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0055",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "That is the Origin. Our Bahamut is a\\ncreation made from but a tiny fraction\\nof his power.",
+        "ja_jp": "あれは『はじまりの<ruby><rb>竜</rb><rt>ドラゴン</rt></ruby>』……。\\n<ruby><rb>力</rb><rt>ちから</rt></ruby>の<ruby><rb>一部</rb><rt>いちぶ</rt></ruby>を<ruby><rb>具現化</rb><rt>ぐげんか</rt></ruby>した、バハムートとは\\nまったく<ruby><rb>別</rb><rt>べつ</rt></ruby>の<ruby><rb>存在</rb><rt>そんざい</rt></ruby>……",
+        "zh_cn": "那是“起始之龙”……\\n与将其部分力量化做实体创造出的\\n巴哈姆特完全不同的存在……",
+        "zh_tw": "那是「起始之龍」……\\n其力量的部分顯現，\\n是與巴哈姆特截然不同的存在……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0056",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "That before you is the TRUE Bahamut!\\nHe used Satan as a vessel to fully revive!",
+        "ja_jp": "サタンというドラゴンの<ruby><rb>模造体</rb><rt>もぞうたい</rt></ruby>を\\n<ruby><rb>器</rb><rt>うつわ</rt></ruby>として<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>した……\\n<ruby><rb>真</rb><rt>しん</rt></ruby>のバハムートです！",
+        "zh_cn": "是以模仿龙创造出来的撒旦\\n为容器而复活的……\\n真正的巴哈姆特！",
+        "zh_tw": "是將撒旦這個龍族的複製品，\\n作為容器而復活的……\\n真正的巴哈姆特！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0057",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "一同",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "?!",
+        "ja_jp": "!?",
+        "zh_cn": "！？",
+        "zh_tw": "！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0058",
+      "book": ""
+    },
+    {
+      "icon": "120256_01",
+      "name": {
+        "en_us": "Bahamut",
+        "ja_jp": "バハムート",
+        "zh_cn": "巴哈姆特",
+        "zh_tw": "巴哈姆特"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "…………！",
+        "zh_cn": "……",
+        "zh_tw": "…………！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120256_01",
+      "name": {
+        "en_us": "Bahamut",
+        "ja_jp": "バハムート",
+        "zh_cn": "巴哈姆特",
+        "zh_tw": "巴哈姆特"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "――――ッ!!",
+        "zh_cn": "！",
+        "zh_tw": "────！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "The sky turned red as a sunset, but...",
+        "ja_jp": "<ruby><rb>空</rb><rt>そら</rt></ruby>が、<ruby><rb>一瞬</rb><rt>いっしゅん</rt></ruby>で<ruby><rb>赤</rb><rt>あか</rt></ruby>く……？\\n<ruby><rb>夕方</rb><rt>ゆうがた</rt></ruby>みたいだけど、<ruby><rb>違</rb><rt>ちが</rt></ruby>う……。",
+        "zh_cn": "天空眨眼间就染成了红色……\\n看起来像是黄昏，\\n但却又不是……",
+        "zh_tw": "天空、瞬間染為鮮紅……？\\n雖然看起來像是黃昏，但不是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0059",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "The world is now flush with the color of\\nBahamut's mana, and what we witness\\nis his true and final form.",
+        "ja_jp": "バハムートのマナの<ruby><rb>色</rb><rt>いろ</rt></ruby>に、<ruby><rb>世界中</rb><rt>せかいじゅう</rt></ruby>が\\n<ruby><rb>照</rb><rt>て</rt></ruby>らされている。あれがバハムートの\\n<ruby><rb>完全</rb><rt>かんぜん</rt></ruby>な<ruby><rb>姿</rb><rt>すがた</rt></ruby>とは……。",
+        "zh_cn": "整个世界都被染成了\\n巴哈姆特魔力的颜色，\\n没想到那就是巴哈姆特的真正姿态……",
+        "zh_tw": "是巴哈姆特瑪納的顏色，\\n正照耀著整個世界。\\n沒想到那就是巴哈姆特的完全姿態……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0060",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Okay, that dude is HUGE!",
+        "ja_jp": "で、でけぇ……。\\nなんなんだよ、あいつ……！",
+        "zh_cn": "好、好大……\\n这家伙怎么会这么大……",
+        "zh_tw": "好、好大……\\n那傢伙、是怎麼回事啊……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0061",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Hey, Zethia? I know I'm slow and all,\\nbut if that guy's with yer guys' Bahamut,\\ndoes that means he's with us?",
+        "ja_jp": "お、おい、ゼシア。あいつはお<ruby><rb>前</rb><rt>まえ</rt></ruby>らが\\n<ruby><rb>契約</rb><rt>けいやく</rt></ruby>してるバハムートと<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>で、\\n<ruby><rb>俺</rb><rt>おれ</rt></ruby>たちの<ruby><rb>味方</rb><rt>みかた</rt></ruby>……なんだよな……？",
+        "zh_cn": "喂，塞西娅，那家伙应该跟\\n和你们缔结契约的巴哈姆特一样，\\n是我们的同伴……对吧？",
+        "zh_tw": "欸、喂，潔西雅。那傢伙跟\\n你們締結契約的巴哈姆特一樣，\\n是我們的同伴……沒錯吧……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0062",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "No. The dark Bahamut we've seen\\npossesses an entirely different will.",
+        "ja_jp": "……いえ。<ruby><rb>先日</rb><rt>せんじつ</rt></ruby>の<ruby><rb>黒</rb><rt>くろ</rt></ruby>いバハムートは、\\nあくまで<ruby><rb>別</rb><rt>べつ</rt></ruby>の<ruby><rb>意思</rb><rt>いし</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>った<ruby><rb>個体</rb><rt>こたい</rt></ruby>。",
+        "zh_cn": "不……之前的黑色巴哈姆特\\n是拥有独立意识的个体。",
+        "zh_tw": "……不。先前的黑色巴哈姆特，\\n只是擁有不同意志的個體。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0063",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "When our Bahamut made a pact with\\nNedrick, he chose to fight Xenos.",
+        "ja_jp": "ネデウとの<ruby><rb>契約</rb><rt>けいやく</rt></ruby>を<ruby><rb>経</rb><rt>へ</rt></ruby>て、こちらの\\nバハムートは<ruby><rb>共</rb><rt>とも</rt></ruby>にゼノスを<ruby><rb>倒</rb><rt>たお</rt></ruby>す<ruby><rb>道</rb><rt>みち</rt></ruby>を\\n<ruby><rb>選択</rb><rt>せんたく</rt></ruby>しています……。",
+        "zh_cn": "通过与奈迪犹的契约，\\n巴哈姆特选择了与我们共同\\n消灭泽诺斯的道路……",
+        "zh_tw": "經歷與涅帝爾的契約，\\n我們的巴哈姆特做出了\\n共同打倒瑟諾斯的選擇……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0064",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "But this white Bahamut is different,\\nand his aims far more vile...",
+        "ja_jp": "ですが、あの<ruby><rb>白</rb><rt>しろ</rt></ruby>いバハムートは\\n<ruby><rb>違</rb><rt>ちが</rt></ruby>います……。ゼノスが<ruby><rb>蘇</rb><rt>よみがえ</rt></ruby>りに<ruby><rb>使</rb><rt>つか</rt></ruby>った\\nこの<ruby><rb>世界</rb><rt>せかい</rt></ruby>を……",
+        "zh_cn": "但那白色的巴哈姆特并非如此……\\n而是企图将泽诺斯用来复活的\\n这个世界……",
+        "zh_tw": "但是，那隻白色巴哈姆特不一樣……\\n他打算將瑟諾斯用來復活的\\n這個世界……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0065",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "For he seeks to seize this world where the\\nProgenitor has revived and erase it—\\nmaking it as though it never existed!",
+        "ja_jp": "<ruby><rb>歴史</rb><rt>れきし</rt></ruby>ごと、<ruby><rb>根</rb><rt>ね</rt></ruby>こそぎ<ruby><rb>消滅</rb><rt>しょうめつ</rt></ruby>させようと\\nしているのです――！",
+        "zh_cn": "连同历史一起抹除得一干二净！",
+        "zh_tw": "連同歷史，連根拔起全數消滅──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0066",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "一同",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "?!",
+        "ja_jp": "!?",
+        "zh_cn": "！？",
+        "zh_tw": "！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0067",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Is such a thing even possible?!",
+        "ja_jp": "<ruby><rb>世界</rb><rt>せかい</rt></ruby>を<ruby><rb>消滅</rb><rt>しょうめつ</rt></ruby>？　<ruby><rb>歴史</rb><rt>れきし</rt></ruby>ごと？\\nそんなことが、できるのか……!?",
+        "zh_cn": "连同历史一同抹除世界？\\n这种事真的可能吗！？",
+        "zh_tw": "將世界消滅？連同歷史？\\n這種事、真的辦得到嗎……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0068",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "Finlorda told me that Bahamut does\\nindeed have the power to undo the world\\nand all living creatures within it.",
+        "ja_jp": "……フィンローダから<ruby><rb>聞</rb><rt>き</rt></ruby>いたことが\\nある。バハムートには<ruby><rb>大地</rb><rt>だいち</rt></ruby>や<ruby><rb>生</rb><rt>い</rt></ruby>き<ruby><rb>物</rb><rt>もの</rt></ruby>……\\n<ruby><rb>万物</rb><rt>ばんぶつ</rt></ruby>を<ruby><rb>消滅</rb><rt>しょうめつ</rt></ruby>させる<ruby><rb>力</rb><rt>ちから</rt></ruby>があると。",
+        "zh_cn": "我听芬罗达说过……\\n巴哈姆特拥有能够抹除大地与生物……\\n毁灭万物的力量。",
+        "zh_tw": "……我曾聽菲恩洛達說過。\\n巴哈姆特擁有將大地與生物……\\n將世間萬物消滅的力量。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0069",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "All that is erased in this way will vanish,\\nand any history and memories they might\\nhave left behind will be undone.",
+        "ja_jp": "<ruby><rb>消滅</rb><rt>しょうめつ</rt></ruby>させられたものは、この<ruby><rb>世界</rb><rt>せかい</rt></ruby>から\\n<ruby><rb>文字通</rb><rt>もじどお</rt></ruby>り<ruby><rb>消</rb><rt>き</rt></ruby>える……。そこに<ruby><rb>存在</rb><rt>そんざい</rt></ruby>した\\n<ruby><rb>歴史</rb><rt>れきし</rt></ruby>や<ruby><rb>記憶</rb><rt>きおく</rt></ruby>ごとな。",
+        "zh_cn": "被抹除的东西将从这个世界\\n彻底消失……连同其存在过的\\n历史与记忆一同消失。",
+        "zh_tw": "被消滅的事物，就如同字面所說的\\n會從這個世上徹底抹除……\\n連同曾經存在過的歷史與記憶。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0070",
+      "book": ""
+    },
+    {
+      "icon": "100010_05",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "Can he really be THAT powerful?!",
+        "ja_jp": "そ、そんな<ruby><rb>途方</rb><rt>とほう</rt></ruby>もない<ruby><rb>力</rb><rt>ちから</rt></ruby>が……？\\nそれが、<ruby><rb>造物主</rb><rt>ぞうぶつしゅ</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>だっていうの!?",
+        "zh_cn": "竟、竟然会有这种夸张的力量吗……\\n这就是造物主的力量吗！？",
+        "zh_tw": "那、那麼誇張的力量……？\\n難道、那就是造物主的力量嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0071",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "Bahamut is the ruler of possibility, and as\\nsuch can make any possibility a reality.",
+        "ja_jp": "ええ……。バハムートは<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>の<ruby><rb>神</rb><rt>かみ</rt></ruby>。\\nあらゆる<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>をもたらします。",
+        "zh_cn": "嗯……巴哈姆特是可能性之神，\\n所以能够带来任何可能性。",
+        "zh_tw": "是的……巴哈姆特是可能性之神。\\n能帶來一切可能性。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0072",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "But looking at it another way,\\ntotal possibility means rejecting\\nthat anything be fixed.",
+        "ja_jp": "ですが……<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>とは<ruby><rb>裏返</rb><rt>うらがえ</rt></ruby>すと、\\nあらゆるものの<ruby><rb>確定</rb><rt>かくてい</rt></ruby>を<ruby><rb>許</rb><rt>ゆる</rt></ruby>さないという\\nことです……。",
+        "zh_cn": "只不过……反过来说，\\n可能性也可以用来\\n否定一切既定的事物……",
+        "zh_tw": "但是……可能性的反面，\\n也代表不允許一切事物得到肯定……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0073",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "I am SO not following this!",
+        "ja_jp": "ど、どういうことだよ……？",
+        "zh_cn": "这、这是什么意思……",
+        "zh_tw": "什、什麼意思啊……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0074",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "Bahamut won't even permit it to be\\na fixed fact that you and I exist here.",
+        "ja_jp": "ここに<ruby><rb>私</rb><rt>わたし</rt></ruby>や<ruby><rb>兄</rb><rt>にい</rt></ruby>さま、みなさんが\\n<ruby><rb>存在</rb><rt>そんざい</rt></ruby>している<ruby><rb>事実</rb><rt>じじつ</rt></ruby>すら、<ruby><rb>確定</rb><rt>かくてい</rt></ruby>させては\\nくれないということです。",
+        "zh_cn": "也就是说我和哥哥，\\n以及大家存在于世的既定事实，\\n也可以被否定。",
+        "zh_tw": "意思是就連我跟哥哥大人，\\n以及大家存在於世的事實，\\n都得不到他的肯定。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0075",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "After all, there's far more possibility\\nwhen something doesn't exist than when\\nit exists for certain right here.",
+        "ja_jp": "『ここに<ruby><rb>存在</rb><rt>そんざい</rt></ruby>する』よりも、\\n『<ruby><rb>存在</rb><rt>そんざい</rt></ruby>しない』ほうが……\\n<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>が<ruby><rb>豊富</rb><rt>ほうふ</rt></ruby>にあるでしょう？",
+        "zh_cn": "因为比起“我们存在于此”，\\n“我们不存在”的可能性……\\n会更加地丰富不是吗？",
+        "zh_tw": "與「存在於此」相比，\\n「不存在」的話……\\n可能性會更加豐富對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0076",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "Someone may be there if you turn around.\\nSomeone may be on the other side of the\\ndoor if you are to but swing it wide.\\n...Or there may be no one anywhere.",
+        "ja_jp": "<ruby><rb>振</rb><rt>ふ</rt></ruby>り<ruby><rb>向</rb><rt>む</rt></ruby>けば<ruby><rb>後</rb><rt>うし</rt></ruby>ろにいるかもしれない。\\n<ruby><rb>扉</rb><rt>とびら</rt></ruby>を<ruby><rb>開</rb><rt>あ</rt></ruby>けたらいるかもしれない。\\n……どこにも、いないかもしれない。",
+        "zh_cn": "也许回头时大家就在身后，\\n也许推开门大家都在眼前，\\n但也有可能我们根本就不存在……",
+        "zh_tw": "回過頭時可能會在身後。\\n推開門時可能會在門後。\\n……也可能，根本就不存在。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0077",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "So the extreme of Bahamut's possibility\\nis that he can change whether or not\\nsomeone even EXISTS?!",
+        "ja_jp": "<ruby><rb>存在</rb><rt>そんざい</rt></ruby>の<ruby><rb>有無</rb><rt>うむ</rt></ruby>を<ruby><rb>好</rb><rt>す</rt></ruby>きに<ruby><rb>変</rb><rt>か</rt></ruby>えられる……。\\nそ、それがバハムートが<ruby><rb>生</rb><rt>う</rt></ruby>み<ruby><rb>出</rb><rt>だ</rt></ruby>す、\\n<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>の<ruby><rb>究極</rb><rt>きゅうきょく</rt></ruby>……？",
+        "zh_cn": "能够任意改变事物的存在与否……\\n这、这就是巴哈姆特所创造的……\\n最终极的可能性？",
+        "zh_tw": "能將存在的有無隨意更改……\\n那、那就是巴哈姆特所創造出的，\\n可能性之究極……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0078",
+      "book": ""
+    },
+    {
+      "icon": "100009_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "Yes—and now he wants to use that power\\nto put a stop to Xenos's desires and protect\\nthis world of possibility.",
+        "ja_jp": "はい。バハムートはその<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>使</rb><rt>つか</rt></ruby>い、\\nゼノスの<ruby><rb>思惑</rb><rt>おもわく</rt></ruby>を<ruby><rb>阻止</rb><rt>そし</rt></ruby>して、『<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>の\\n<ruby><rb>世界</rb><rt>せかい</rt></ruby>』を<ruby><rb>守</rb><rt>まも</rt></ruby>ろうとしているのです。",
+        "zh_cn": "是的。巴哈姆特想要用这种力量\\n阻止泽诺斯的阴谋，\\n保护“可能性的世界”。",
+        "zh_tw": "是。巴哈姆特打算使用這股力量，\\n阻止瑟諾斯的陰謀，\\n並藉此守護「可能性的世界」。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0079",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "But we are ALSO trying to protect\\nthis world of possibility!",
+        "ja_jp": "くっ……たしかに<ruby><rb>私</rb><rt>わたし</rt></ruby>たちも<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>の\\n<ruby><rb>世界</rb><rt>せかい</rt></ruby>を<ruby><rb>守</rb><rt>まも</rt></ruby>ろうとしています。ですが……",
+        "zh_cn": "唔……我们也的确是想要保护\\n可能性的世界。也是……",
+        "zh_tw": "唔……我們的確也想守護\\n可能性的世界。但是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0080",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Which ain't gonna mean a damn thing\\nif the whole world gets undone!",
+        "ja_jp": "ああ。この<ruby><rb>世界</rb><rt>せかい</rt></ruby><ruby><rb>自体</rb><rt>じたい</rt></ruby>を<ruby><rb>消</rb><rt>け</rt></ruby>されちまったら\\n<ruby><rb>元</rb><rt>もと</rt></ruby>も<ruby><rb>子</rb><rt>こ</rt></ruby>もねぇぞ……！",
+        "zh_cn": "嗯。要是连世界本身都被毁灭的话，\\n还谈什么保护……",
+        "zh_tw": "嗯。要是這個世界本身被消滅，\\n可就得不償失了……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0081",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Which is why we're going to protect\\nthis world...",
+        "ja_jp": "そうだな……。おれたちが、この<ruby><rb>世界</rb><rt>せかい</rt></ruby>を\\nゼノスから<ruby><rb>守</rb><rt>まも</rt></ruby>る……！　",
+        "zh_cn": "没错……\\n我们要保护这个世界\\n不受泽诺斯的毁灭……",
+        "zh_tw": "說得對……我們要守護這個世界，\\n免受瑟諾斯的魔掌……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0082",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "And why we won't let Bahamut erase it!",
+        "ja_jp": "だから<ruby><rb>今</rb><rt>いま</rt></ruby>、バハムートに\\n<ruby><rb>世界</rb><rt>せかい</rt></ruby>を<ruby><rb>消</rb><rt>け</rt></ruby>されるわけにはいかないよ。",
+        "zh_cn": "所以现在更不能让\\n巴哈姆特将其抹除。",
+        "zh_tw": "所以現在，\\n絕對不能讓巴哈姆特消滅世界。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0083",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "We have to stop him right now!",
+        "ja_jp": "なんとかしてバハムートを<ruby><rb>止</rb><rt>と</rt></ruby>めよう！",
+        "zh_cn": "我们来阻止巴哈姆特吧！",
+        "zh_tw": "無論如何都要阻止巴哈姆特！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0084",
+      "book": ""
+    },
+    {
+      "icon": "100043_01",
+      "name": {
+        "en_us": "Origa",
+        "ja_jp": "オリガ",
+        "zh_cn": "奥莉加",
+        "zh_tw": "奧莉加"
+      },
+      "context": {
+        "en_us": "And how do you hope to defeat a being\\nwith the strength of the Progenitor?",
+        "ja_jp": "もちろん。でも、どうするの？\\n『はじまりの<ruby><rb>人</rb><rt>ひと</rt></ruby>』と<ruby><rb>同</rb><rt>おな</rt></ruby>じくらい\\n<ruby><rb>強</rb><rt>つよ</rt></ruby>いのよ？",
+        "zh_cn": "那是当然。\\n只不过，我们要如何才能办到？\\n对方可是与“起始之人”一样强大。",
+        "zh_tw": "當然。不過，該怎麼做？\\n對方可是跟「起始之人」同等強大喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0085",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I don't know—but I DO know that I'm not\\njust going to roll over and die here!",
+        "ja_jp": "<ruby><rb>手段</rb><rt>しゅだん</rt></ruby>は、<ruby><rb>正直</rb><rt>しょうじき</rt></ruby>ないな。\\nそれでも<ruby><rb>今</rb><rt>いま</rt></ruby>は……<ruby><rb>抗</rb><rt>あらが</rt></ruby>うしかないだろ？",
+        "zh_cn": "老实说，我也想不出办法。\\n但即便如此……\\n我们也只能反抗了不是吗？",
+        "zh_tw": "說實話，我沒想到方法。\\n即使如此……現在也只能對抗了吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0086",
+      "book": ""
+    },
+    {
+      "icon": "100043_01",
+      "name": {
+        "en_us": "Origa",
+        "ja_jp": "オリガ",
+        "zh_cn": "奥莉加",
+        "zh_tw": "奧莉加"
+      },
+      "context": {
+        "en_us": "Well, I suppose no plan but the will\\nto fight is at least something...",
+        "ja_jp": "<ruby><rb>無策</rb><rt>むさく</rt></ruby>ってわけね……でも、そうね。\\n<ruby><rb>今</rb><rt>いま</rt></ruby>はただ<ruby><rb>抵抗</rb><rt>ていこう</rt></ruby>するしかなさそうだわ。",
+        "zh_cn": "没有对策吗……\\n不过，也对。\\n我们现在似乎也只能拼死抵抗了。",
+        "zh_tw": "沒有對策嗎……不過，也是。\\n現在似乎只能盡力抵抗了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0087",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "If we fight and lose, the world is over.\\nBut if we don't even attempt to fight,\\nthe world is DEFINITELY over.",
+        "ja_jp": "ああ。ここで<ruby><rb>立</rb><rt>た</rt></ruby>ち<ruby><rb>向</rb><rt>む</rt></ruby>かわないと\\nどの<ruby><rb>道</rb><rt>みち</rt></ruby>、<ruby><rb>世界</rb><rt>せかい</rt></ruby>は<ruby><rb>終</rb><rt>お</rt></ruby>わりだ……。",
+        "zh_cn": "嗯。如果现在不反抗的话，\\n世界注定会迎来末日……",
+        "zh_tw": "嗯。如果現在不挺身面對，\\n世界注定會結束……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0088",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "NOW LET'S DO THIS!",
+        "ja_jp": "やるしかない……！\\n<ruby><rb>行</rb><rt>い</rt></ruby>くぞ――みんな！",
+        "zh_cn": "放手一搏吧……\\n我们上！",
+        "zh_tw": "只能去做了……！\\n我們走──大家！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20440_03_0089",
+      "book": ""
+    },
+    {
+      "icon": "120256_01",
+      "name": {
+        "en_us": "Bahamut",
+        "ja_jp": "バハムート",
+        "zh_cn": "巴哈姆特",
+        "zh_tw": "巴哈姆特"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "――――ッ!!",
+        "zh_cn": "！",
+        "zh_tw": "────！！"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

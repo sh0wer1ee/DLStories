@@ -1,742 +1,1411 @@
 {
-    "story_id": "",
-    "story_name": "心地善良的少女与被困的守护龙序章 寻求救援的少女",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "森隐族的村落遭到了帝国的袭击。\\n居住在村落的少女·梅露莎\\n拼了命逃到圣城寻求救援。\\n王子一行人在梅露莎的带领下，\\n出发前往位于森林深处的村落。"
-        ]
+  "title": {
+    "en_us": "Kindness and Captivity  Prologue  A Girl in Need",
+    "ja_jp": "優しき少女と拘囚の守護竜 プロローグ 救援を求める少女",
+    "zh_cn": "心地善良的少女与被困的守护龙 序章 寻求救援的少女",
+    "zh_tw": "心善的少女與受囚禁的守護龍 序章 尋求救助的少女"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [],
-            "speaker_name": "？？？",
-            "context": "这是……\\n多么可怕的阴谋……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210010_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "这样下去可不得了……\\n要想办法告诉她……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210010_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "告诉她，不可以来救我！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "尤蒂尔！\\n快去城门那边！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "埃尔菲莉丝？\\n怎么了？那么慌张。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "有位森隐族的少女\\n前来寻求救援！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "听说附近的村落遭到了帝国的镇压，\\n她是从村落逃到这里来的……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "什么！？\\n我知道了！马上去！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "尤蒂尔大人！\\n请救救我们的村落！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "少女名叫梅露莎。\\n她所在的村落遭到帝国袭击，\\n转瞬之间便被占领。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "村子很快投降，\\n因此并无多少伤亡\\n便被帝国吞并……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这样啊。\\n没有什么伤亡倒是不幸中的万幸……\\n得尽快制定作战计划夺回村落。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_1001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "不过……你不要紧吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "你看起来非常疲惫啊，\\n走路都不太稳……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "没、没事。只是跑来的路上，\\n两天不吃不喝……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "两天！？那可真是够呛。\\n赶快先休息一下吧……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "不用。比起这个，赶快前往村落吧！\\n我来带……路……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "哈啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "咦？这里是……\\n为什么我会睡在床上？",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "太好了，你终于醒了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "咦！？尤蒂尔大人！？\\n啊……我想起来了。\\n我来到这里求援，然后……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "不、不能再耽搁了！\\n得赶快回村落……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "啊，你就不要逞强了。\\n等你恢复之后再为我们带路吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我知道你很着急，\\n但既然村落并没有遭到破坏，\\n我们还是从长计议比较好。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_1002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "那我去做出发的准备。\\n希里丝，之后拜托你了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "好的，交给我吧！\\n我刚好拿了食物过来。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "尤蒂尔刚才也说了，\\n好好吃饭，早点恢复吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "是啊……谢谢你，\\n那我就恭敬不如从命了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "啊……请问你叫什么名字？\\n我叫梅露莎。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "我叫希里丝！同为森隐族，\\n今后多多关照啊，梅露莎！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "好、好的……那个，\\n原来希里丝小姐也是森隐族啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "咦！？什、什么！？\\n我的耳朵看起来不像森隐族吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "啊，不、不是这个意思……\\n我只是意外有同族的人在这里。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "我所在的村落，\\n大家基本都不会离开村落……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "啊～嗯，我的村落也是这样。\\n那才是正常的森隐族嘛。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "可是卢卡哥哥……啊，是我哥哥。\\n卢卡哥哥说，\\n村落的这种习俗实在太陈腐。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "于是离开村落成为了王子的伙伴，\\n目前在这座城里生活。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "好、好厉害啊！这种行动力……\\n我一定做不到……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "一点都不厉害。\\n哥哥只是个笨蛋而已。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "一不盯着他，\\n就不知道他会怎么乱来……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "父母都很担心，\\n所以我才来这里看着他。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "希里丝小姐……真是心地善良啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "咦！？不是啦！\\n我才没有！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "而且卢卡哥哥\\n经常说我粗鲁、淘气之类的！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "要说心地善良，\\n我觉得梅露莎才更符合！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "诶……是、是吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "嗯。你为了村落的各位，\\n不眠不休地跑了两天……\\n这可不是常人能做到的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "你说卢卡哥哥厉害，\\n但你也很厉害哦。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "两天……啊！\\n帝国袭击已经过去两天了吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "不能再继续休息了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "啊！等等，梅露莎！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "哈啊、哈啊……一跑起来，呼吸就……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "你还不可以动哦。\\n在这里休息一下，然后回房间吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "好、好的……\\n看来是得休息一下……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "梅露莎真的是拼了命地\\n一路跑过来的啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "不过以后我会帮你，\\n有什么事尽管开口哦。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "谢谢……\\n你的好意我心领了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "可是总给你们添麻烦，\\n实在过意不去……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "哎呀，这种事别在意啦。\\n啊！对了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "我们做朋友吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "诶？朋、朋友吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "没错！如果我们是朋友，\\n你就不用那么客气了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "可、可是……我……\\n我来这里是为了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "不行吗？我还以为\\n我们能成为好朋友……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "并不是不行！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "其、其实我也……\\n希望能和希里丝小姐成为朋友……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "那就从称呼改起吧！\\n叫我希里丝就行了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "咦？好、好的……\\n请多指教……希里丝。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "嗯！请多指教哦！\\n梅露莎！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "翌日",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "多亏各位的帮助，我已经恢复了。\\n我带各位去村落吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "梅露莎！等等、等等我！\\n我也要一起去！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "希里丝！？你知道现在的状况吗！？\\n我们可不是去玩的啊！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_01"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "对、对啊，希里丝！\\n跟我们一起去，会很危险……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "所以我才要去啊！\\n朋友有危险，我怎么能坐视不管！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "而且，我也能和魔兽战斗！\\n卢卡哥哥知道我的箭法水平吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "的确，之前卢卡还向我夸耀，\\n说希里丝比他更有天分。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "咦！？好像是说过，\\n不过那是……怎么说呢……",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0089",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "真拿你没辙……\\n就算我说不行，你肯定也会跟过来吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0090",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "那当然！我可是卢卡哥哥的妹妹啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0091",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好！那就出发吧！\\n前往森林深处！",
-            "voice_line": "VO_CHR_EVENTSTORY_20402_01_0092",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "The Empire has taken control of a sylvan\\nvillage nestled deep in the woods—but a young\\ngirl named Melsa manages to escape\\nand comes to the Halidom seeking aid.\\nUnder her guidance, the prince's retinue\\nmakes its way toward the besieged town.",
+      "ja_jp": "フォレスティアの<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>が<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>に<ruby><rb>制圧</rb><rt>せいあつ</rt></ruby>されて\\nしまった。<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>に<ruby><rb>住</rb><rt>す</rt></ruby>む<ruby><rb>少女</rb><rt>しょうじょ</rt></ruby>・メルサは、\\nどうにか<ruby><rb>逃</rb><rt>に</rt></ruby>げだして、<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>に<ruby><rb>救援</rb><rt>きゅうえん</rt></ruby>を<ruby><rb>求</rb><rt>もと</rt></ruby>める。\\n<ruby><rb>王子</rb><rt>おうじ</rt></ruby>たち<ruby><rb>一行</rb><rt>いっこう</rt></ruby>はメルサの<ruby><rb>道案内</rb><rt>みちあんない</rt></ruby>で、<ruby><rb>森</rb><rt>もり</rt></ruby>の\\n<ruby><rb>奥深</rb><rt>おくふか</rt></ruby>くにある<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>へと<ruby><rb>向</rb><rt>む</rt></ruby>かうのだった。",
+      "zh_cn": "森隐族的村落遭到了帝国的袭击。\\n居住在村落的少女·梅露莎\\n拼了命逃到圣城寻求救援。\\n王子一行人在梅露莎的带领下，\\n出发前往位于森林深处的村落。",
+      "zh_tw": "佛萊斯提亞的聚落遭到帝國的襲擊。\\n居住於聚落的少女‧梅兒莎，\\n費盡千辛萬苦逃了出來，並到聖城\\n尋求救援。王子一行人在梅兒莎的帶領下，\\n趕往森林深處的聚落。"
+    }
+  },
+  "prev": "",
+  "next": "2040202",
+  "content": [
+    {
+      "icon": "？？？",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Such...a terrifying plan.",
+        "ja_jp": "なんと……なんと<ruby><rb>恐</rb><rt>おそ</rt></ruby>ろしい<ruby><rb>企</rb><rt>たくら</rt></ruby>み\\nなのでしょう……。",
+        "zh_cn": "这是……\\n多么可怕的阴谋……",
+        "zh_tw": "這是……這是何等駭人的陰謀呀……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "210010_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "At this rate, something terrible will...\\nI must...tell them.",
+        "ja_jp": "このままでは<ruby><rb>大変</rb><rt>たいへん</rt></ruby>なことに……。\\nどうにかして<ruby><rb>伝</rb><rt>つた</rt></ruby>えなくては……。",
+        "zh_cn": "这样下去可不得了……\\n要想办法告诉她……",
+        "zh_tw": "這樣下去會一發不可收拾……\\n必須將訊息傳達出去……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "210010_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "They must not try to rescue me!",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>を、<ruby><rb>助</rb><rt>たす</rt></ruby>けに<ruby><rb>来</rb><rt>き</rt></ruby>てはいけないと……!!",
+        "zh_cn": "告诉她，不可以来救我！",
+        "zh_tw": "告訴她，不可以來救我……！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Your Highness, you must hurry to the\\ncastle gate at once!",
+        "ja_jp": "ユーディル！\\n<ruby><rb>急</rb><rt>いそ</rt></ruby>いで<ruby><rb>城門</rb><rt>じょうもん</rt></ruby>までお<ruby><rb>越</rb><rt>こ</rt></ruby>しください！",
+        "zh_cn": "尤蒂尔！\\n快去城门那边！",
+        "zh_tw": "尤帝爾！\\n請快到城門這邊來！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0004",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What's wrong, Elly?",
+        "ja_jp": "エルフィリス？　\\nどうしたんだ？　そんなに<ruby><rb>慌</rb><rt>あわ</rt></ruby>てて。",
+        "zh_cn": "埃尔菲莉丝？\\n怎么了？那么慌张。",
+        "zh_tw": "耶魯菲莉絲？\\n怎麼了嗎？看妳這麼驚慌。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0005",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "A sylvan girl has come seeking aid.",
+        "ja_jp": "フォレスティアの<ruby><rb>少女</rb><rt>しょうじょ</rt></ruby>が、\\n<ruby><rb>救援</rb><rt>きゅうえん</rt></ruby>を<ruby><rb>求</rb><rt>もと</rt></ruby>めに<ruby><rb>来</rb><rt>き</rt></ruby>ました！",
+        "zh_cn": "有位森隐族的少女\\n前来寻求救援！",
+        "zh_tw": "有名佛萊斯提亞的少女，\\n前來求援了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0006",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Apparently the Empire occupied a nearby\\nvillage and she just managed to escape.",
+        "ja_jp": "<ruby><rb>近隣</rb><rt>きんりん</rt></ruby>の<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>が<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>に<ruby><rb>制圧</rb><rt>せいあつ</rt></ruby>されて、\\n<ruby><rb>逃</rb><rt>に</rt></ruby>げてきたそうです……！",
+        "zh_cn": "听说附近的村落遭到了帝国的镇压，\\n她是从村落逃到这里来的……",
+        "zh_tw": "說是附近的聚落遭到帝國壓制，\\n然後她逃了出來……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0007",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Got it. Let's go see what we can do.",
+        "ja_jp": "なんだって!?\\nわかった！　すぐに<ruby><rb>行</rb><rt>い</rt></ruby>く！",
+        "zh_cn": "什么！？\\n我知道了！马上去！",
+        "zh_tw": "妳說什麼！？\\n明白了！我這就過去！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0008",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Please, Highness, you must save my\\nvillage. I beg it of you!",
+        "ja_jp": "ユーディル<ruby><rb>様</rb><rt>さま</rt></ruby>！　どうか、\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>たちの<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>を<ruby><rb>助</rb><rt>たす</rt></ruby>けてください！",
+        "zh_cn": "尤蒂尔大人！\\n请救救我们的村落！",
+        "zh_tw": "尤帝爾大人！\\n請你無論如何，都要幫幫我們的聚落！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0009",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "The sylvan girl's name is Melsa, and her village\\nwas recently overrun by the Empire.",
+        "ja_jp": "──<ruby><rb>少女</rb><rt>しょうじょ</rt></ruby>の<ruby><rb>名</rb><rt>な</rt></ruby>はメルサ。\\n<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>の<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>は、またたく<ruby><rb>間</rb><rt>ま</rt></ruby>に、\\n<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>に<ruby><rb>制圧</rb><rt>せいあつ</rt></ruby>されたらしい。",
+        "zh_cn": "少女名叫梅露莎。\\n她所在的村落遭到帝国袭击，\\n转瞬之间便被占领。",
+        "zh_tw": "──少女名為梅兒莎。\\n據說她所居住的聚落，\\n遭到帝國迅速地鎮壓。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Because they surrendered as soon as the attack\\nbegan, there were few lives lost, and the village's\\nabsorption into the Empire was largely peaceful.",
+        "ja_jp": "すぐ<ruby><rb>降伏</rb><rt>こうふく</rt></ruby>したため、\\n<ruby><rb>犠牲者</rb><rt>ぎせいしゃ</rt></ruby>はほとんど<ruby><rb>出</rb><rt>で</rt></ruby>ず、\\n<ruby><rb>併合</rb><rt>へいごう</rt></ruby>は<ruby><rb>穏</rb><rt>おだ</rt></ruby>やかに<ruby><rb>行</rb><rt>おこな</rt></ruby>われたらしいが……",
+        "zh_cn": "村子很快投降，\\n因此并无多少伤亡\\n便被帝国吞并……",
+        "zh_tw": "因為立刻就投降的關係，\\n在幾乎沒有人犧牲的情況下，\\n就這麼平靜地被帝國所併吞……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "...Well, I'm glad to hear there wasn't\\nfurther damage done. But we still have to\\ncome up with a battle plan and retake\\nthe village.",
+        "ja_jp": "そうか。<ruby><rb>被害</rb><rt>ひがい</rt></ruby>が<ruby><rb>最小</rb><rt>さいしょう</rt></ruby>で<ruby><rb>済</rb><rt>す</rt></ruby>んだのは\\nよかったけど……なんとか<ruby><rb>作戦</rb><rt>さくせん</rt></ruby>を\\n<ruby><rb>立</rb><rt>た</rt></ruby>てて、<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>返</rb><rt>かえ</rt></ruby>さなきゃな。",
+        "zh_cn": "这样啊。\\n没有什么伤亡倒是不幸中的万幸……\\n得尽快制定作战计划夺回村落。",
+        "zh_tw": "這樣啊，把被害狀況控制在最低\\n當然是再好不過……但還是需要\\n擬定作戰，把聚落奪回來才行呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_1001",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "But first, are you okay?",
+        "ja_jp": "でもその<ruby><rb>前</rb><rt>まえ</rt></ruby>に……きみは<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>？",
+        "zh_cn": "不过……你不要紧吧？",
+        "zh_tw": "不過在那之前……妳還好嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0010",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You seem exhausted. It looks like you\\nmight collapse at any second.",
+        "ja_jp": "だいぶ<ruby><rb>疲</rb><rt>つか</rt></ruby>れてるように<ruby><rb>見</rb><rt>み</rt></ruby>えるけど。\\n<ruby><rb>足</rb><rt>あし</rt></ruby>もふらふらだし……。",
+        "zh_cn": "你看起来非常疲惫啊，\\n走路都不太稳……",
+        "zh_tw": "妳看起來非常疲累了呢，\\n連腳都站不太穩……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0011",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "I am well. It's merely that I ran all the way\\nhere without eating or drinking anything.\\n...Er, for roughly two days.",
+        "ja_jp": "だ、<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>です。<ruby><rb>飲</rb><rt>の</rt></ruby>まず<ruby><rb>食</rb><rt>く</rt></ruby>わずで<ruby><rb>走</rb><rt>はし</rt></ruby>って\\nきただけですから。……2<ruby><rb>日</rb><rt>か</rt></ruby>ほど。",
+        "zh_cn": "没、没事。只是跑来的路上，\\n两天不吃不喝……",
+        "zh_tw": "沒、沒問題。我不過是不吃不喝\\n一路跑到這來而已。\\n……大概花了兩天吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0012",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Two days?! That's awful! You need to rest\\nin the castle before we do anything else.",
+        "ja_jp": "2<ruby><rb>日</rb><rt>か</rt></ruby>も!?　それは<ruby><rb>大変</rb><rt>たいへん</rt></ruby>だ。まずは<ruby><rb>城</rb><rt>しろ</rt></ruby>で\\nゆっくり<ruby><rb>休</rb><rt>やす</rt></ruby>んだ<ruby><rb>方</rb><rt>ほう</rt></ruby>が……！",
+        "zh_cn": "两天！？那可真是够呛。\\n赶快先休息一下吧……",
+        "zh_tw": "兩天！？那妳一定累壞了吧。\\n還是先在城裡休息比較好……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0013",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "No. What's most important is that we hurry\\nand save my village. Now let me show...\\nLet me show you the...",
+        "ja_jp": "いいえ。それよりも、<ruby><rb>早</rb><rt>はや</rt></ruby>く<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>に……！\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>道案内</rb><rt>みちあんない</rt></ruby>……を……？",
+        "zh_cn": "不用。比起这个，赶快前往村落吧！\\n我来带……路……",
+        "zh_tw": "不，比起那個，得快點回到聚落……！\\n由我來為各位……帶路……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0014",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Ooooh...",
+        "ja_jp": "はう…………。",
+        "zh_cn": "哈啊……",
+        "zh_tw": "哈嗚…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0016",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "...Hmm? Why am I in bed?",
+        "ja_jp": "…………えっ？　ここは？\\nどうして<ruby><rb>私</rb><rt>わたし</rt></ruby>、ベッドで<ruby><rb>寝</rb><rt>ね</rt></ruby>てるの？",
+        "zh_cn": "咦？这里是……\\n为什么我会睡在床上？",
+        "zh_tw": "…………咦？這裡是？\\n為什麼我會睡在床上呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0017",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Oh, good. You're awake.",
+        "ja_jp": "よかった。<ruby><rb>気</rb><rt>き</rt></ruby>がついたみたいだね。",
+        "zh_cn": "太好了，你终于醒了。",
+        "zh_tw": "太好了，妳醒過來了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0018",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Wait. I remember now. I came to the\\ncastle to beg your assistance, and then...",
+        "ja_jp": "えっ!?　ユーディル<ruby><rb>様</rb><rt>さま</rt></ruby>!?\\n……あ、<ruby><rb>思</rb><rt>おも</rt></ruby>い<ruby><rb>出</rb><rt>だ</rt></ruby>しました。<ruby><rb>私</rb><rt>わたし</rt></ruby>、お<ruby><rb>城</rb><rt>しろ</rt></ruby>に\\n<ruby><rb>助</rb><rt>たす</rt></ruby>けを<ruby><rb>求</rb><rt>もと</rt></ruby>めに<ruby><rb>来</rb><rt>き</rt></ruby>て、それで……。",
+        "zh_cn": "咦！？尤蒂尔大人！？\\n啊……我想起来了。\\n我来到这里求援，然后……",
+        "zh_tw": "咦！？尤帝爾大人！？\\n……啊，我想起來了。\\n我到城裡請求救援，然後……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0019",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Oh, no! I can't just be lying about!\\nWe must make for the village at once!",
+        "ja_jp": "こ、こうしてはいられません！\\n<ruby><rb>早</rb><rt>はや</rt></ruby>く、<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>に……！",
+        "zh_cn": "不、不能再耽搁了！\\n得赶快回村落……",
+        "zh_tw": "不、不能再這樣下去了！\\n要快點、回聚落去……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0020",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Easy there! You still need to rest.\\nYou can guide us to the village\\nonce you're able to move again.",
+        "ja_jp": "あっ、まだ<ruby><rb>無理</rb><rt>むり</rt></ruby>はしない<ruby><rb>方</rb><rt>ほう</rt></ruby>がいいよ。\\n<ruby><rb>道案内</rb><rt>みちあんない</rt></ruby>は、<ruby><rb>動</rb><rt>うご</rt></ruby>けるようになってからで。",
+        "zh_cn": "啊，你就不要逞强了。\\n等你恢复之后再为我们带路吧。",
+        "zh_tw": "啊，先不要勉強比較好喔，\\n帶路就等妳能動了之後再說吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0021",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I understand why you're in such a hurry,\\nbut your village is still standing, and we\\nneed to prepare carefully if we're going\\nto successfully liberate it.",
+        "ja_jp": "<ruby><rb>焦</rb><rt>あせ</rt></ruby>る<ruby><rb>気持</rb><rt>きも</rt></ruby>ちはわかるけど、\\n<ruby><rb>村</rb><rt>むら</rt></ruby>を<ruby><rb>荒</rb><rt>あ</rt></ruby>らされたんじゃないなら、\\n<ruby><rb>事</rb><rt>こと</rt></ruby>は<ruby><rb>慎重</rb><rt>しんちょう</rt></ruby>に<ruby><rb>構</rb><rt>かま</rt></ruby>えた<ruby><rb>方</rb><rt>ほう</rt></ruby>がいい。",
+        "zh_cn": "我知道你很着急，\\n但既然村落并没有遭到破坏，\\n我们还是从长计议比较好。",
+        "zh_tw": "我能明白妳焦躁的心情，\\n但如果村莊沒事的話，\\n還是慎重行事比較好。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_1002",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "And on that note, I'll take care of making\\npreparations for our departure. Think you\\ncan handle it from here, Sarisse?",
+        "ja_jp": "それじゃあ、おれは<ruby><rb>出発</rb><rt>しゅっぱつ</rt></ruby>の<ruby><rb>準備</rb><rt>じゅんび</rt></ruby>をして\\nくるから。シーリス、<ruby><rb>後</rb><rt>あと</rt></ruby>はよろしくね。",
+        "zh_cn": "那我去做出发的准备。\\n希里丝，之后拜托你了。",
+        "zh_tw": "那麼，我先去做出發的準備。\\n西莉絲，再來拜託妳了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0022",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Yep! I just brought some food, so we're\\nall good here.",
+        "ja_jp": "はーい、<ruby><rb>任</rb><rt>まか</rt></ruby>せて！\\nちょうど<ruby><rb>今</rb><rt>いま</rt></ruby>、<ruby><rb>食</rb><rt>た</rt></ruby>べ<ruby><rb>物</rb><rt>もの</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>ってきたよ。",
+        "zh_cn": "好的，交给我吧！\\n我刚好拿了食物过来。",
+        "zh_tw": "好的～交給我吧！\\n我剛好帶了食物來囉。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0023",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Okay, you. Time to chow down and start\\nregaining that lost strength.",
+        "ja_jp": "ユーディルも<ruby><rb>言</rb><rt>い</rt></ruby>ってたけど、\\nちゃんと<ruby><rb>食</rb><rt>た</rt></ruby>べて、<ruby><rb>元気</rb><rt>げんき</rt></ruby>になってね。",
+        "zh_cn": "尤蒂尔刚才也说了，\\n好好吃饭，早点恢复吧。",
+        "zh_tw": "尤帝爾也說了，\\n妳要吃飽，然後恢復精神唷。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0024",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "...I suppose you're right. I apologize for\\nbeing so overeager.",
+        "ja_jp": "……そうですね。すみません。\\nお<ruby><rb>言葉</rb><rt>ことば</rt></ruby>に<ruby><rb>甘</rb><rt>あま</rt></ruby>えて、お<ruby><rb>食事</rb><rt>しょくじ</rt></ruby>いただきます。",
+        "zh_cn": "是啊……谢谢你，\\n那我就恭敬不如从命了。",
+        "zh_tw": "……說得也是呢。那不好意思，\\n我就承蒙妳的好意，開動用餐了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0025",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Oh, and I am Melsa. Might I ask your\\nname?",
+        "ja_jp": "……あ。お<ruby><rb>名前</rb><rt>なまえ</rt></ruby>、<ruby><rb>聞</rb><rt>き</rt></ruby>いていいですか？\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>はメルサと<ruby><rb>言</rb><rt>い</rt></ruby>います。",
+        "zh_cn": "啊……请问你叫什么名字？\\n我叫梅露莎。",
+        "zh_tw": "……啊。可以請問，妳叫什麼名字嗎？\\n我叫做梅兒莎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0026",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Sarisse! And lemme tell ya, Melsa,\\nit's nice to have another sylvan around.",
+        "ja_jp": "アタシはシーリス！　フォレスティア\\n<ruby><rb>同士</rb><rt>どうし</rt></ruby>、これからよろしくね、メルサ！",
+        "zh_cn": "我叫希里丝！同为森隐族，\\n今后多多关照啊，梅露莎！",
+        "zh_tw": "我是西莉絲！一樣是佛萊斯提亞族人，\\n我們就好好相處吧，梅兒莎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0027",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Oh, um, yes. You are a sylvan, aren't you?",
+        "ja_jp": "は、はい……。その、シーリスさんは\\nフォレスティア、なんですよね……。",
+        "zh_cn": "好、好的……那个，\\n原来希里丝小姐也是森隐族啊……",
+        "zh_tw": "好、好的……那個，西莉絲小姐也是\\n佛萊斯提亞族，沒錯吧……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0028",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "HELLOOOO! Check the giant ears!\\nC'mon, it couldn't BE more obvious.",
+        "ja_jp": "えっ!?　な、なに!?　アタシの<ruby><rb>耳</rb><rt>みみ</rt></ruby>、\\nフォレスティアに<ruby><rb>見</rb><rt>み</rt></ruby>えない……!?",
+        "zh_cn": "咦！？什、什么！？\\n我的耳朵看起来不像森隐族吗！？",
+        "zh_tw": "咦！？怎、怎麼！？我的耳朵，\\n看起來不像佛萊斯提亞族的嗎……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0029",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "No, of course. I merely was surprised to\\nfind another of my kind here.",
+        "ja_jp": "い、いえ、そうではなくて……。<ruby><rb>同族</rb><rt>どうぞく</rt></ruby>が\\nここにいるのが<ruby><rb>意外</rb><rt>いがい</rt></ruby>だったんです。",
+        "zh_cn": "啊，不、不是这个意思……\\n我只是意外有同族的人在这里。",
+        "zh_tw": "不、不是的，我不是那個意思……\\n只是很意外這裡居然會有同族。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0030",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "The people in my village hardly ever leave\\nits borders, so...",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>では、みんなほとんど\\n<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>の<ruby><rb>外</rb><rt>そと</rt></ruby>には<ruby><rb>出</rb><rt>で</rt></ruby>ないので……。",
+        "zh_cn": "我所在的村落，\\n大家基本都不会离开村落……",
+        "zh_tw": "在我的聚落裡，\\n大家幾乎都不會到外面去……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0031",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Oh yeah, my village is the same way.\\nI think that's standard sylvan behavior.",
+        "ja_jp": "あー、うん、アタシの<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>もおんなじ。\\nそれが<ruby><rb>普通</rb><rt>ふつう</rt></ruby>のフォレスティアだよね。",
+        "zh_cn": "啊～嗯，我的村落也是这样。\\n那才是正常的森隐族嘛。",
+        "zh_tw": "啊～嗯，我的聚落也是一樣。\\n一般的佛萊斯提亞族都是像那樣呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0032",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "But Luca—he's my brother—says that\\ncustom is super dated and old-fashioned.",
+        "ja_jp": "でもリュカ<ruby><rb>兄</rb><rt>にい</rt></ruby>……あ、アタシの<ruby><rb>兄貴</rb><rt>あにき</rt></ruby>ね。\\nリュカ<ruby><rb>兄</rb><rt>にい</rt></ruby>ったら、<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>のそういう\\n<ruby><rb>風習</rb><rt>ふうしゅう</rt></ruby>が<ruby><rb>古臭</rb><rt>ふるくさ</rt></ruby>いって<ruby><rb>言</rb><rt>い</rt></ruby>ってね。",
+        "zh_cn": "可是卢卡哥哥……啊，是我哥哥。\\n卢卡哥哥说，\\n村落的这种习俗实在太陈腐。",
+        "zh_tw": "但是琉卡哥……啊，是我老哥啦。\\n琉卡哥他啊，說聚落裡的\\n這種習俗太落伍了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0033",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "So that's why he left town, made friends\\nwith the prince, and got us a sweet gig\\nhere at the Halidom.",
+        "ja_jp": "<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>を<ruby><rb>飛</rb><rt>と</rt></ruby>び<ruby><rb>出</rb><rt>だ</rt></ruby>して<ruby><rb>王子</rb><rt>おうじ</rt></ruby>の<ruby><rb>仲間</rb><rt>なかま</rt></ruby>になって、\\n<ruby><rb>今</rb><rt>いま</rt></ruby>じゃこのお<ruby><rb>城</rb><rt>しろ</rt></ruby>で<ruby><rb>暮</rb><rt>く</rt></ruby>らしてるの。",
+        "zh_cn": "于是离开村落成为了王子的伙伴，\\n目前在这座城里生活。",
+        "zh_tw": "他離開聚落成為了王子的夥伴，\\n現在就在這城裡生活呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0034",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Remarkable. I fear that I could never be\\nquite so proactive.",
+        "ja_jp": "す、すごいですね！　その<ruby><rb>行動力</rb><rt>こうどうりょく</rt></ruby>……\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>には、とても<ruby><rb>真似</rb><rt>まね</rt></ruby>できません……！",
+        "zh_cn": "好、好厉害啊！这种行动力……\\n我一定做不到……",
+        "zh_tw": "好、好厲害喔！那種行動力……\\n我實在是學不來……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0035",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Aw, it's nothing that impressive.\\nHonestly, my brother's a big idiot.",
+        "ja_jp": "すごくなんかないって。\\nただのバカ<ruby><rb>兄</rb><rt>にい</rt></ruby>だよ、あんなの。",
+        "zh_cn": "一点都不厉害。\\n哥哥只是个笨蛋而已。",
+        "zh_tw": "才不厲害呢。\\n只是個笨蛋老哥啦。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0036",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "There's no telling WHAT ridiculous thing he\\nmight do if I wasn't around.",
+        "ja_jp": "もうホント、ちょっと<ruby><rb>目</rb><rt>め</rt></ruby>を<ruby><rb>離</rb><rt>はな</rt></ruby>したら、\\nどんな<ruby><rb>無茶</rb><rt>むちゃ</rt></ruby>するかわかんないし……。",
+        "zh_cn": "一不盯着他，\\n就不知道他会怎么乱来……",
+        "zh_tw": "真的是，只要稍微一不注意，\\n就不知道又會搞出些什麼事……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0037",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "I'm actually here to keep an eye on him\\nso our parents don't worry themselves\\ninto a coma.",
+        "ja_jp": "<ruby><rb>両親</rb><rt>りょうしん</rt></ruby>もすごく<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>してるから、アタシが\\nこうして<ruby><rb>様子</rb><rt>ようす</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>に<ruby><rb>通</rb><rt>かよ</rt></ruby>ってるんだ。",
+        "zh_cn": "父母都很担心，\\n所以我才来这里看着他。",
+        "zh_tw": "父母也都很擔心，\\n所以我才會像這樣來城裡看看他。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0038",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "You're a very kind person, Sarisse.",
+        "ja_jp": "……シーリスさん、<ruby><rb>優</rb><rt>やさ</rt></ruby>しいんですね。",
+        "zh_cn": "希里丝小姐……真是心地善良啊。",
+        "zh_tw": "……西莉絲小姐很溫柔呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0039",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Huh? What? No! Knock it off!",
+        "ja_jp": "え、ええっ!?　ちがうよ！\\nアタシなんて、そんな！",
+        "zh_cn": "咦！？不是啦！\\n我才没有！",
+        "zh_tw": "咦、咦咦！？才沒有咧！\\n我才不是那種人呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0040",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "I mean, Luca's always going off about what\\na crude dude I am!",
+        "ja_jp": "リュカ<ruby><rb>兄</rb><rt>にい</rt></ruby>からはガサツだとか、\\nお<ruby><rb>転婆</rb><rt>てんば</rt></ruby>とか、しょっちゅう<ruby><rb>言</rb><rt>い</rt></ruby>われるし！",
+        "zh_cn": "而且卢卡哥哥\\n经常说我粗鲁、淘气之类的！",
+        "zh_tw": "我可是整天被琉卡哥說粗魯啦、\\n野丫頭之類的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0041",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Anyway, if anyone is kind here, it's you!",
+        "ja_jp": "<ruby><rb>優</rb><rt>やさ</rt></ruby>しいって<ruby><rb>言</rb><rt>い</rt></ruby>ったら、メルサのほうが\\nよっぽどそんな<ruby><rb>感</rb><rt>かん</rt></ruby>じだよ！",
+        "zh_cn": "要说心地善良，\\n我觉得梅露莎才更符合！",
+        "zh_tw": "要說溫柔，\\n梅兒莎才更有那種感覺呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0042",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Oh? Do you really think so?",
+        "ja_jp": "え……？　そ、そうですか？",
+        "zh_cn": "诶……是、是吗？",
+        "zh_tw": "咦……？是、是這樣嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0043",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Girl, you ran and ran for two straight days\\nto help your village! I could never do\\nsomething like that; my little stick legs\\nwould totally give out first.",
+        "ja_jp": "うん。<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>のみんなのために、\\n2<ruby><rb>日</rb><rt>か</rt></ruby>も<ruby><rb>走</rb><rt>はし</rt></ruby>り<ruby><rb>続</rb><rt>つづ</rt></ruby>けるなんて……。\\nそんなこと、なかなかできないもの。",
+        "zh_cn": "嗯。你为了村落的各位，\\n不眠不休地跑了两天……\\n这可不是常人能做到的。",
+        "zh_tw": "嗯。居然為了聚落裡的人，\\n跑了整整兩天……\\n這可不是很容易的事呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0044",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "So quit talking about how remarkable my\\ndumb brother is and start talking yourself\\nup a little, maybe.",
+        "ja_jp": "メルサはリュカ<ruby><rb>兄</rb><rt>にい</rt></ruby>をすごいって\\n<ruby><rb>言</rb><rt>い</rt></ruby>ったけど、メルサも<ruby><rb>十分</rb><rt>じゅうぶん</rt></ruby>すごいよ。",
+        "zh_cn": "你说卢卡哥哥厉害，\\n但你也很厉害哦。",
+        "zh_tw": "雖然梅兒莎妳說琉卡哥很厲害，\\n但梅兒莎妳也非常了不起唷。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0045",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Two days... Augh, that's right! I can't\\nbelieve so much time has passed\\nsince the Empire attacked!",
+        "ja_jp": "2<ruby><rb>日</rb><rt>か</rt></ruby>……！　そうでした。<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>の\\n<ruby><rb>襲撃</rb><rt>しゅうげき</rt></ruby>から、もうそんなに<ruby><rb>時間</rb><rt>じかん</rt></ruby>が……！",
+        "zh_cn": "两天……啊！\\n帝国袭击已经过去两天了吗！",
+        "zh_tw": "兩天……！這麼說來，\\n距離帝國襲擊已經過了那麼久……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0046",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "I can sit here and converse no longer;\\nI must leave at once!",
+        "ja_jp": "やっぱり、いつまでも<ruby><rb>休</rb><rt>やす</rt></ruby>んでいる\\nわけにはいきません……！",
+        "zh_cn": "不能再继续休息了！",
+        "zh_tw": "果然，\\n一直這樣休息下去是不行的……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0047",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Hey, Melsa! Waaaait!",
+        "ja_jp": "あ！　<ruby><rb>待</rb><rt>ま</rt></ruby>って、メルサ！ ",
+        "zh_cn": "啊！等等，梅露莎！",
+        "zh_tw": "啊！等等，梅兒莎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0048",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "*pant* *pant* Can't catch...my breath...",
+        "ja_jp": "はぁ、はぁ……。<ruby><rb>走</rb><rt>はし</rt></ruby>ったら、<ruby><rb>息</rb><rt>いき</rt></ruby>が……。",
+        "zh_cn": "哈啊、哈啊……一跑起来，呼吸就……",
+        "zh_tw": "哈啊、哈啊……一跑就喘不過氣……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0049",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "That's because you're still on death's door,\\nweirdo! Now get back to your room and\\ntake that rest already.",
+        "ja_jp": "まだ<ruby><rb>動</rb><rt>うご</rt></ruby>くのは<ruby><rb>無理</rb><rt>むり</rt></ruby>だよ。\\nここで<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>休</rb><rt>やす</rt></ruby>んで、<ruby><rb>部屋</rb><rt>へや</rt></ruby>に<ruby><rb>戻</rb><rt>もど</rt></ruby>ろう？",
+        "zh_cn": "你还不可以动哦。\\n在这里休息一下，然后回房间吧？",
+        "zh_tw": "妳還不能亂動啦。\\n在這裡休息一下後，就回房間去吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0050",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Well, I...guess that would be best.",
+        "ja_jp": "は、はい……。\\nその<ruby><rb>方</rb><rt>ほう</rt></ruby>がよさそうですね……。",
+        "zh_cn": "好、好的……\\n看来是得休息一下……",
+        "zh_tw": "好、好的……\\n看來這樣做比較好呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0051",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Look, I know how hard you struggled to\\nmake it all the way here, Melsa.",
+        "ja_jp": "メルサ、ここに<ruby><rb>来</rb><rt>く</rt></ruby>るまで、\\n<ruby><rb>必死</rb><rt>ひっし</rt></ruby>にがんばり<ruby><rb>続</rb><rt>つづ</rt></ruby>けてたんだね……。",
+        "zh_cn": "梅露莎真的是拼了命地\\n一路跑过来的啊……",
+        "zh_tw": "梅兒莎在到這裡的路途中，\\n真的是盡了全力呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0067",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "But you don't have to do all this alone,\\nokay? If you need help, just ask me!",
+        "ja_jp": "でもこれからは、アタシも<ruby><rb>力</rb><rt>ちから</rt></ruby>になるよ。\\nなんでも<ruby><rb>言</rb><rt>い</rt></ruby>って？",
+        "zh_cn": "不过以后我会帮你，\\n有什么事尽管开口哦。",
+        "zh_tw": "不過從今天起，我也會成為妳的助力。\\n有什麼事就儘管開口吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0068",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Thank you. But I will be all right.",
+        "ja_jp": "……ありがとうございます。でも、その\\n<ruby><rb>気持</rb><rt>きも</rt></ruby>ちだけ<ruby><rb>受</rb><rt>う</rt></ruby>け<ruby><rb>取</rb><rt>と</rt></ruby>っておきます。",
+        "zh_cn": "谢谢……\\n你的好意我心领了……",
+        "zh_tw": "……謝謝。\\n但是，妳的好意我就心領了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0069",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Still, I've been nothing but trouble for you\\nsince I got here, and for that I apologize.",
+        "ja_jp": "<ruby><rb>迷惑</rb><rt>めいわく</rt></ruby>ばかりかけてしまうのは、\\n<ruby><rb>申</rb><rt>もう</rt></ruby>し<ruby><rb>訳</rb><rt>わけ</rt></ruby>ないですから……。",
+        "zh_cn": "可是总给你们添麻烦，\\n实在过意不去……",
+        "zh_tw": "給妳添太多麻煩，\\n我會過意不去的……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0070",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "You sure do apologize a lot...\\nOh, hey! I've got an idea!",
+        "ja_jp": "もう。そんなの<ruby><rb>気</rb><rt>き</rt></ruby>にしなくていいのに。\\n……あ！　そうだ！",
+        "zh_cn": "哎呀，这种事别在意啦。\\n啊！对了！",
+        "zh_tw": "真是的，不用在意那種事嘛。\\n……啊！對了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0071",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Let's become besties!",
+        "ja_jp": "アタシたち、<ruby><rb>友</rb><rt>とも</rt></ruby>だちになろう？",
+        "zh_cn": "我们做朋友吧？",
+        "zh_tw": "我們來當朋友吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0072",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Er...＂besties＂?",
+        "ja_jp": "え……？　と、<ruby><rb>友</rb><rt>とも</rt></ruby>だち、ですか……？",
+        "zh_cn": "诶？朋、朋友吗……",
+        "zh_tw": "咦……？妳、妳說、當朋友嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0073",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Yeah! If we're besties, then you can stop\\nacting all formal and apologizing for\\neverything all the time!",
+        "ja_jp": "そう！　<ruby><rb>友</rb><rt>とも</rt></ruby>だち<ruby><rb>同士</rb><rt>どうし</rt></ruby>なら、<ruby><rb>水臭</rb><rt>みずくさ</rt></ruby>いこと\\n<ruby><rb>言</rb><rt>い</rt></ruby>いっこなしだもんね！",
+        "zh_cn": "没错！如果我们是朋友，\\n你就不用那么客气了！",
+        "zh_tw": "對！朋友之間，\\n就不用那麼見外了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0074",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "But...my coming to this castle was...",
+        "ja_jp": "で、でも……<ruby><rb>私</rb><rt>わたし</rt></ruby>は……。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>が、この<ruby><rb>城</rb><rt>しろ</rt></ruby>に<ruby><rb>来</rb><rt>き</rt></ruby>たのは……。",
+        "zh_cn": "可、可是……我……\\n我来这里是为了……",
+        "zh_tw": "可、可是……我……\\n我來到這座城是為了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0075",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Don't you WANT to be besties with me?",
+        "ja_jp": "ダメかな？　アタシたち、いい<ruby><rb>友</rb><rt>とも</rt></ruby>だちに\\nなれると<ruby><rb>思</rb><rt>おも</rt></ruby>ったんだけど……。",
+        "zh_cn": "不行吗？我还以为\\n我们能成为好朋友……",
+        "zh_tw": "不行嗎？我覺得我們\\n一定能成為好朋友的說……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0076",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "N-no! Er, I mean, yes! Wait, I mean...\\nOh, this is coming out all wrong.",
+        "ja_jp": "……っ！　ダメなんかじゃないです！",
+        "zh_cn": "并不是不行！",
+        "zh_tw": "……！怎麼會不行呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0077",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "It would be lovely to be your friend,\\nSarisse. Or even your ＂bestie.＂",
+        "ja_jp": "じ、<ruby><rb>実</rb><rt>じつ</rt></ruby>は<ruby><rb>私</rb><rt>わたし</rt></ruby>も……。シーリスさんと\\n<ruby><rb>友</rb><rt>とも</rt></ruby>だちになれたらいいな、って……。",
+        "zh_cn": "其、其实我也……\\n希望能和希里丝小姐成为朋友……",
+        "zh_tw": "其、其實我也……想說\\n要是能和西莉絲小姐當朋友的話\\n該有多好……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0078",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Great! Then from here on out, you and me\\nare best friends!",
+        "ja_jp": "じゃあ、それ！　その<ruby><rb>呼</rb><rt>よ</rt></ruby>び<ruby><rb>方</rb><rt>かた</rt></ruby>！\\nアタシのことはシーリスでいいよ！",
+        "zh_cn": "那就从称呼改起吧！\\n叫我希里丝就行了！",
+        "zh_tw": "那好，首先！妳就別那樣叫我了！\\n叫我西莉絲就好囉！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0079",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Best friends it is, then.\\nThank you, Sarisse.",
+        "ja_jp": "えっ？　は、はい……。\\nよろしくお<ruby><rb>願</rb><rt>ねが</rt></ruby>いします……シーリス。",
+        "zh_cn": "咦？好、好的……\\n请多指教……希里丝。",
+        "zh_tw": "咦？好、好……\\n請多指教……西莉絲。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0080",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Pleasure's all mine, bud!",
+        "ja_jp": "うん！　こちらこそ、よろしくね！\\nメルサ！",
+        "zh_cn": "嗯！请多指教哦！\\n梅露莎！",
+        "zh_tw": "嗯！我也是，請多指教喔！\\n梅兒莎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0081",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "The Next Day",
+        "ja_jp": "そして――<ruby><rb>翌日</rb><rt>よくじつ</rt></ruby>。",
+        "zh_cn": "翌日",
+        "zh_tw": "就這樣，到了隔天──"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Thanks to all of you, I have recovered and\\ncan now guide you to my village.",
+        "ja_jp": "ありがとうございました。おかげさまで\\n<ruby><rb>回復</rb><rt>かいふく</rt></ruby>しましたので、<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>へ<ruby><rb>案内</rb><rt>あんない</rt></ruby>します。",
+        "zh_cn": "多亏各位的帮助，我已经恢复了。\\n我带各位去村落吧。",
+        "zh_tw": "真的非常感謝。\\n多虧了各位，我總算是恢復了。\\n那就由我來帶各位到聚落去。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0082",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Meeeelsa! Waaait! I'm coming too!",
+        "ja_jp": "メルサ！　<ruby><rb>待</rb><rt>ま</rt></ruby>って、<ruby><rb>待</rb><rt>ま</rt></ruby>ってー！\\nアタシも<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>くよ！",
+        "zh_cn": "梅露莎！等等、等等我！\\n我也要一起去！",
+        "zh_tw": "梅兒莎！等等、等我啊──！\\n我也要一起去！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0083",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "You realize this isn't some happy field trip,\\nright, Sis?",
+        "ja_jp": "シーリス!?　お<ruby><rb>前</rb><rt>まえ</rt></ruby>、わかってるのか!?\\n<ruby><rb>遊</rb><rt>あそ</rt></ruby>びに<ruby><rb>行</rb><rt>い</rt></ruby>くんじゃないんだぞ!?",
+        "zh_cn": "希里丝！？你知道现在的状况吗！？\\n我们可不是去玩的啊！？",
+        "zh_tw": "西莉絲！？妳知道自己在說什麼嗎！？\\n我們可不是去玩的耶！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0084",
+      "book": ""
+    },
+    {
+      "icon": "110270_01",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "He's right, Sarisse. You will face grave\\ndanger if you accompany us.",
+        "ja_jp": "そ、そうですよ、シーリス！\\nついてきたら、きっと<ruby><rb>危険</rb><rt>きけん</rt></ruby>な<ruby><rb>目</rb><rt>め</rt></ruby>に……！",
+        "zh_cn": "对、对啊，希里丝！\\n跟我们一起去，会很危险……",
+        "zh_tw": "就、就是呀，西莉絲！\\n妳跟過來的話會遇到危險的……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0085",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Which is exactly WHY I'm coming!\\nI can't just sit around eating bon-bons\\nwhile my bestie is in danger.",
+        "ja_jp": "だから<ruby><rb>行</rb><rt>い</rt></ruby>くんじゃない!?　<ruby><rb>友</rb><rt>とも</rt></ruby>だちが\\n<ruby><rb>危</rb><rt>あぶ</rt></ruby>ないのに、じっとしていられないよ！",
+        "zh_cn": "所以我才要去啊！\\n朋友有危险，我怎么能坐视不管！",
+        "zh_tw": "所以才更應該去不是嗎！？\\n怎麼能眼睜睜看著朋友深入險境！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0086",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Plus, I can fight fiends. ...Tell her, Luca.\\nTell her how good I am with a bow.",
+        "ja_jp": "それに、<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>とも<ruby><rb>戦</rb><rt>たたか</rt></ruby>える！　リュカ<ruby><rb>兄</rb><rt>にい</rt></ruby>、\\nアタシの<ruby><rb>弓</rb><rt>ゆみ</rt></ruby>の<ruby><rb>腕</rb><rt>うで</rt></ruby>を<ruby><rb>知</rb><rt>し</rt></ruby>ってるでしょ!?",
+        "zh_cn": "而且，我也能和魔兽战斗！\\n卢卡哥哥知道我的箭法水平吧？",
+        "zh_tw": "再說我也能跟魔獸戰鬥！\\n琉卡哥很清楚我射箭的實力吧！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0087",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I can vouch for that. I've even heard Luca\\nsay Sarisse might be a better archer than\\nhe is—which is saying something.",
+        "ja_jp": "<ruby><rb>確</rb><rt>たし</rt></ruby>かにリュカ、<ruby><rb>前</rb><rt>まえ</rt></ruby>に<ruby><rb>自慢</rb><rt>じまん</rt></ruby>してたね。\\nシーリスはリュカより<ruby><rb>筋</rb><rt>すじ</rt></ruby>がいいって。",
+        "zh_cn": "的确，之前卢卡还向我夸耀，\\n说希里丝比他更有天分。",
+        "zh_tw": "確實琉卡之前還跟我炫耀過呢，\\n說西莉絲比自己還有天分。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0088",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Okay, let's not go overboard here...",
+        "ja_jp": "えっ!?　まあ<ruby><rb>言</rb><rt>い</rt></ruby>った<ruby><rb>気</rb><rt>き</rt></ruby>もするけど、\\nあれは、その……なんつーか……。",
+        "zh_cn": "咦！？好像是说过，\\n不过那是……怎么说呢……",
+        "zh_tw": "咦！？我可能是有說過啦，\\n不過那個是……該怎麼說呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0089",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Anyway, it doesn't matter now. Once\\nmy sister's mind is made up, there's\\nno way to change it.",
+        "ja_jp": "……しょうがねえな。ダメだって<ruby><rb>言</rb><rt>い</rt></ruby>って\\n<ruby><rb>聞</rb><rt>き</rt></ruby>くようなやつじゃないか。",
+        "zh_cn": "真拿你没辙……\\n就算我说不行，你肯定也会跟过来吧。",
+        "zh_tw": "……真沒辦法。\\n這傢伙也不是叫她別來\\n就會乖乖聽話的人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0090",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "I wonder who I get THAT from?!",
+        "ja_jp": "そりゃあね！　リュカ<ruby><rb>兄</rb><rt>にい</rt></ruby>の<ruby><rb>妹</rb><rt>いもうと</rt></ruby>だもの！",
+        "zh_cn": "那当然！我可是卢卡哥哥的妹妹啊！",
+        "zh_tw": "那當然囉！我是琉卡哥的妹妹嘛！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0091",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "In that case, it's time for us to go.\\nOur destination lies deep in those woods.",
+        "ja_jp": "よし！　じゃあ<ruby><rb>行</rb><rt>い</rt></ruby>こう！\\n<ruby><rb>目指</rb><rt>めざ</rt></ruby>すは、あの<ruby><rb>森</rb><rt>もり</rt></ruby>の<ruby><rb>奥</rb><rt>おく</rt></ruby>だ！",
+        "zh_cn": "好！那就出发吧！\\n前往森林深处！",
+        "zh_tw": "好！那麼出發吧！\\n前往那座森林的深處去！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20402_01_0092",
+      "book": ""
+    }
+  ]
 }

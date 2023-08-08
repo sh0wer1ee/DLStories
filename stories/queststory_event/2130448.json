@@ -1,31 +1,60 @@
 {
-    "story_id": "",
-    "story_name": "情人节·甜美佳肴 追加剧情 卡尔",
-    "story_icon": "",
-    "outline": {
-        "title": "",
-        "content": [
-            "要跳过此剧情吗？"
-        ]
+  "title": {
+    "en_us": "Valentine's Confections Extra    Karl",
+    "ja_jp": "バレンタイン・アラカルト エクストラ  カール",
+    "zh_cn": "情人节·甜美佳肴 追加剧情  卡尔",
+    "zh_tw": "情人節‧精巧甜品　追加劇情  卡爾"
+  },
+  "outline": {
+    "title": {
+      "en_us": "",
+      "ja_jp": "",
+      "zh_cn": "",
+      "zh_tw": ""
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110008_01"
-            ],
-            "speaker_name": "卡尔",
-            "context": "送我这个以示感谢？\\n那就证明我们是伙伴了！\\n你也很正义啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_21304_01_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110008_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "收到了来自卡尔的回礼。",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Skip this scene?",
+      "ja_jp": "このストーリーをスキップしますか？",
+      "zh_cn": "要跳过此剧情吗？",
+      "zh_tw": "請確認是否略過劇情？"
+    }
+  },
+  "prev": "2130447",
+  "next": "2130449",
+  "content": [
+    {
+      "icon": "110008_01",
+      "name": {
+        "en_us": "Karl",
+        "ja_jp": "カール",
+        "zh_cn": "卡尔",
+        "zh_tw": "卡爾"
+      },
+      "context": {
+        "en_us": "A gift for me? A symbol of our fiery-hot\\nbond? Friend, you SCREAM justice!",
+        "ja_jp": "<ruby><rb>日頃</rb><rt>ひごろ</rt></ruby>の<ruby><rb>感謝</rb><rt>かんしゃ</rt></ruby>として、これをオレに？\\nつまり<ruby><rb>仲間</rb><rt>なかま</rt></ruby>の<ruby><rb>証</rb><rt>あかし</rt></ruby>だな！　<ruby><rb>君</rb><rt>きみ</rt></ruby>も<ruby><rb>実</rb><rt>じつ</rt></ruby>に\\nジャスティスだ！",
+        "zh_cn": "送我这个以示感谢？\\n那就证明我们是伙伴了！\\n你也很正义啊！",
+        "zh_tw": "作為平日的感謝，要將這個送給我？\\n也就是夥伴的證明吧！\\n你也實在很正義啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21304_01_0008",
+      "book": ""
+    },
+    {
+      "icon": "110008_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "You received a thank-you gift from Karl.",
+        "ja_jp": "カールからプレゼントのお<ruby><rb>礼</rb><rt>れい</rt></ruby>をもらった。",
+        "zh_cn": "收到了来自卡尔的回礼。",
+        "zh_tw": "收到了來自卡爾的回禮。"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

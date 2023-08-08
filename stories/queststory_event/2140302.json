@@ -1,546 +1,1037 @@
 {
-    "story_id": "",
-    "story_name": "FIRE EMBLEM 新启之门 龙之血的世界",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "世界异变的原因是亚斯克王国的“开启之力”。\\n阿尔冯斯被自称是天上之神的\\n战神托尔一手掳走并被送入了这个世界。\\n众人得知这一情况后，\\n为了救他而开始收集各种线索。"
-        ]
+  "title": {
+    "en_us": "Fire Emblem: Kindred Ties    The Dragonblood Realm",
+    "ja_jp": "FIRE EMBLEM 新たなる扉  竜の血の世界",
+    "zh_cn": "FIRE EMBLEM 新启之门  龙之血的世界",
+    "zh_tw": "FIRE EMBLEM 全新的【門】  龍之血的世界"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "哇啊……这就是传说中的圣城吗！\\n好棒啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "没错！夏蓉，\\n欢迎你来到圣城……\\n不对，欢迎来到我们的世界！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "谢谢！小女子不才，\\n还请你们多多关照！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "也请你多关照，夏蓉公主。\\n真不好意思，刚一见面\\n就把你卷入我们的战斗。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "不，哪里的话！\\n我才应该向你们道歉吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "你是指刚才说的，\\n原因在于亚斯克王族的\\n“开启之力”？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "对了……关于那件事，\\n你能告诉我们详情吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "好……你们也许听王兄说过，\\n亚斯克王国的王族拥有一种\\n被称为“开启之力”的力量。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "那是打开通往异世界之“门”的力量，\\n但这个世界没有稳定的“门”，\\n所以……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "是啊……这里和你们的世界相比\\n很不稳定，所以对亚斯克王族的\\n“开启之力”非常敏感。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "受其影响，异世界入口——异界裂缝\\n偶尔会在各种地方“开启”……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "那就是说，阿尔冯斯\\n现在来到了这边的世界？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "其实……王兄在战斗途中\\n被掳走了。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "阿尔冯斯王子被掳走了！？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "真的假的……我们也清楚\\n他的实力，他不会那么轻易\\n就落入敌人手里吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "对方到底是何方神圣？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "对方是……神。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "神！？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "对方自称是传说中的\\n天上战神，托尔……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "实力也名副其实，\\n非常强大……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "虽然我们奋力抗争……\\n但王兄还是被掳走了……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "原来是这么一回事……\\n不过，阿尔冯斯王子\\n为什么会来到这个世界？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "那是因为……\\n托尔的目的似乎在这边。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_05"
-            ],
-            "speaker_name": "穆穆",
-            "context": "哈？什么意思？\\n我们可不认识那个什么托尔。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "我们也不知道\\n托尔的目的……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "还说什么要召集\\n拥有寻求战斗之魂的人……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "不过她说为选定“龙之血的世界”的英雄\\n需要借用王兄的力量，\\n所以我就猜会不会是指这里。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "“龙之血的世界”吗……\\n这么一说的确感觉如此呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "选定英雄……是什么意思呢？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "单纯来考虑的话，\\n那个叫什么托尔的神是要看看\\n我们能不能入神的法眼吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_05"
-            ],
-            "speaker_name": "穆穆",
-            "context": "我才不管她是神还是什么，\\n真是自说自话啊。\\n又没有人拜托她，多管闲事。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "不过，托尔特地\\n把这件事告诉你，\\n才更令人费解……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "会不会是什么陷阱呢？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "唔……恐怕不是。\\n托尔经常会做这种\\n像是在试探别人的事。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "“这是给你的试炼，\\n有本事就跨越它吧～”\\n之类的。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "还真像是神会干的事啊。\\n不过作为接受考验的一方\\n可高兴不起来。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "就是啊！\\n她总是这样，真让人头疼！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "原来如此，似乎是个\\n不好对付的人物……\\n啊不对，是神。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "总之，情况我了解了。\\n夏蓉公主，你认为阿尔冯斯王子\\n在这个世界对吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "是的，我听王兄说过\\n这个世界和各位的事！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "能这么快就见到你们真是太好了！\\n果然是因为我平日行善积德吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "虽然不知道你平日怎么行善积德，\\n不过我们目的一致，会想办法\\n把阿尔冯斯那家伙找出来的。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "要是有什么线索\\n就好了……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "不知道算不算得上是线索……\\n但差不多在王兄被抓走的同时，\\n我的伙伴们也突然失踪了。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "如果是托尔干的，\\n我的伙伴们或许也到……\\n也被带到这个世界来了。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "托尔想利用你的伙伴\\n来考验我们？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "也许是的……所以如果这个世界\\n发生了什么不可思议的事，\\n说不定我的伙伴就在那里……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "那就是说，你的伙伴\\n也许会有托尔甚至是\\n阿尔冯斯王子的消息。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_05"
-            ],
-            "speaker_name": "穆穆",
-            "context": "但是，你说不可思议的事\\n我们也没有头绪啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "唔……最近附近村子里的人说\\n蔬菜长势不好很伤脑筋，\\n这个应该不算吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "那种也算的话，我还听人说\\n睡懒觉的人太多了很头疼呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_05"
-            ],
-            "speaker_name": "穆穆",
-            "context": "最近头发分叉变多\\n能算在托尔头上吗。要真是那样\\n只要干掉她就万事大吉了。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "说、说不定是的……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_05"
-            ],
-            "speaker_name": "穆穆",
-            "context": "诶，头发分叉！？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "嗯！我也很为头发分叉伤脑筋，\\n这要是托尔干的就好了……\\n诶不对！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "我是说之前那句话！\\n睡懒觉的人……\\n该不会，是一觉不醒那种？",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "诶？我听说的是\\n有人怎么也起不来……",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110358_02"
-            ],
-            "speaker_name": "夏蓉",
-            "context": "在我们的世界\\n也发生过类似的事。\\n那里说不定有我的伙伴！",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "原来如此……\\n好，我们去看看情况吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_21403_02_0059",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "The tears in space turn out to be a side effect of\\nthe Askran Kingdom's gateway-opening powers.\\nSharena explains that Alfonse was captured by\\nThórr—who calls herself the god of war—and\\nsent to this world. Hoping to save Alfonse,\\nthe party decides to gather more information.",
+      "ja_jp": "<ruby><rb>世界</rb><rt>せかい</rt></ruby>の<ruby><rb>異変</rb><rt>いへん</rt></ruby>は、アスク<ruby><rb>王国</rb><rt>おうこく</rt></ruby>の【<ruby><rb>開</rb><rt>ひら</rt></ruby>く<ruby><rb>力</rb><rt>ちから</rt></ruby>】の\\n<ruby><rb>影響</rb><rt>えいきょう</rt></ruby>だった。<ruby><rb>天上</rb><rt>てんじょう</rt></ruby>の<ruby><rb>神</rb><rt>かみ</rt></ruby>を<ruby><rb>名乗</rb><rt>なの</rt></ruby>る<ruby><rb>戦神</rb><rt>せんじん</rt></ruby>トールの\\n<ruby><rb>画策</rb><rt>かくさく</rt></ruby>によりアルフォンスが、<ruby><rb>連</rb><rt>つ</rt></ruby>れ<ruby><rb>去</rb><rt>さ</rt></ruby>られ、\\nこの<ruby><rb>世界</rb><rt>せかい</rt></ruby>へと<ruby><rb>送</rb><rt>おく</rt></ruby>り<ruby><rb>込</rb><rt>こ</rt></ruby>まれたという。<ruby><rb>彼</rb><rt>かれ</rt></ruby>を<ruby><rb>救</rb><rt>すく</rt></ruby>う\\nため、<ruby><rb>一行</rb><rt>いっこう</rt></ruby>は<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>を<ruby><rb>集</rb><rt>あつ</rt></ruby>めることになる。",
+      "zh_cn": "世界异变的原因是亚斯克王国的“开启之力”。\\n阿尔冯斯被自称是天上之神的\\n战神托尔一手掳走并被送入了这个世界。\\n众人得知这一情况后，\\n为了救他而开始收集各种线索。",
+      "zh_tw": "世界的異變，原來是受到亞斯克王國的\\n【啟門之力】影響。自稱天神的戰神托爾\\n一手策劃將阿爾馮斯擄走，並且將他送到了\\n這個世界。為了拯救阿爾馮斯，\\n一行人動身收集情報。"
+    }
+  },
+  "prev": "2140301",
+  "next": "2140303",
+  "content": [
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "What an impressive castle!",
+        "ja_jp": "うわあ…ここが<ruby><rb>噂</rb><rt>うわさ</rt></ruby>の<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>ですか！\\n<ruby><rb>素敵</rb><rt>すてき</rt></ruby>ですね！",
+        "zh_cn": "哇啊……这就是传说中的圣城吗！\\n好棒啊！",
+        "zh_tw": "唔哇……這裡就是傳說中的聖城嗎！\\n很壯觀呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0001",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "I know, right? Welcome to the Halidom!\\nEr, I mean...welcome to our entire world?",
+        "ja_jp": "そうだよ！　ようこそ、シャロン。\\n<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>……ううん、\\nわたしたちの<ruby><rb>世界</rb><rt>せかい</rt></ruby>に！",
+        "zh_cn": "没错！夏蓉，\\n欢迎你来到圣城……\\n不对，欢迎来到我们的世界！",
+        "zh_tw": "對啊！歡迎妳，夏蓉。\\n歡迎來到聖城……不對，\\n歡迎來到我們的世界！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0002",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "Thanks! I appreciate all the hospitality,\\nespecially after popping out of a gate\\nuninvited the way I did.",
+        "ja_jp": "はいっ！　ふつつか<ruby><rb>者</rb><rt>もの</rt></ruby>ですが、\\nよろしくお<ruby><rb>願</rb><rt>ねが</rt></ruby>いします！",
+        "zh_cn": "谢谢！小女子不才，\\n还请你们多多关照！",
+        "zh_tw": "嗯！雖然可能會給你們添麻煩，\\n但請多多指教囉！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0003",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You're always welcome here, Sharena.\\nAnd I apologize for dragging you into\\na battle instead of giving you the proper\\nreception you deserve.",
+        "ja_jp": "こちらこそよろしく、シャロン<ruby><rb>王女</rb><rt>おうじょ</rt></ruby>。\\n<ruby><rb>悪</rb><rt>わる</rt></ruby>かったね、いきなりおれたちの<ruby><rb>戦</rb><rt>たたか</rt></ruby>いに\\n<ruby><rb>巻</rb><rt>ま</rt></ruby>き<ruby><rb>込</rb><rt>こ</rt></ruby>んでしまって。",
+        "zh_cn": "也请你多关照，夏蓉公主。\\n真不好意思，刚一见面\\n就把你卷入我们的战斗。",
+        "zh_tw": "我們才要請妳多指教，夏蓉公主。\\n真抱歉，突然就把妳牽扯進\\n我們的戰鬥裡。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0004",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "You didn't drag me into anything.\\nIn fact, I am likely the one who\\nshould be offering up apologies.",
+        "ja_jp": "いえ、<ruby><rb>巻</rb><rt>ま</rt></ruby>き<ruby><rb>込</rb><rt>こ</rt></ruby>んだなんて、そんな！\\nむしろ、<ruby><rb>謝</rb><rt>あやま</rt></ruby>るのはわたしのほうかも\\nしれないです。",
+        "zh_cn": "不，哪里的话！\\n我才应该向你们道歉吧。",
+        "zh_tw": "什麼牽扯，沒有那回事啦！\\n不如說，該道歉的或許是我才對。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0005",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Are you referring to when you said the\\nsource of the rifts was related to the\\npower of your family?",
+        "ja_jp": "<ruby><rb>原因</rb><rt>げんいん</rt></ruby>がアスク<ruby><rb>王族</rb><rt>おうぞく</rt></ruby>の<ruby><rb>持</rb><rt>も</rt></ruby>つ【<ruby><rb>開</rb><rt>ひら</rt></ruby>く<ruby><rb>力</rb><rt>ちから</rt></ruby>】に\\nある、と<ruby><rb>言</rb><rt>い</rt></ruby>っていたことですね？",
+        "zh_cn": "你是指刚才说的，\\n原因在于亚斯克王族的\\n“开启之力”？",
+        "zh_tw": "是妳之前說的，\\n原因在於亞斯克王族擁有的\\n【啟門之力】那件事吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0006",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "If so, could you tell us more?",
+        "ja_jp": "そうだ……そのことだけど、\\n<ruby><rb>詳</rb><rt>くわ</rt></ruby>しく<ruby><rb>教</rb><rt>おし</rt></ruby>えてもらってもいいかな？",
+        "zh_cn": "对了……关于那件事，\\n你能告诉我们详情吗？",
+        "zh_tw": "對了……關於那件事，\\n可以請妳告訴我們詳細嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0007",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "Certainly. So as I am sure my brother\\ntold you, the royal family of Askr has\\nthe ability to open gates.",
+        "ja_jp": "はい…お<ruby><rb>兄様</rb><rt>にいさま</rt></ruby>に<ruby><rb>聞</rb><rt>き</rt></ruby>いているかも\\nしれませんがアスク<ruby><rb>王国</rb><rt>おうこく</rt></ruby>の<ruby><rb>王族</rb><rt>おうぞく</rt></ruby>は\\n【<ruby><rb>開</rb><rt>ひら</rt></ruby>く<ruby><rb>力</rb><rt>ちから</rt></ruby>】と<ruby><rb>呼</rb><rt>よ</rt></ruby>ばれる<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>っています",
+        "zh_cn": "好……你们也许听王兄说过，\\n亚斯克王国的王族拥有一种\\n被称为“开启之力”的力量。",
+        "zh_tw": "好的……你們或許聽哥哥說過，\\n亞斯克王國的王族，\\n擁有被稱作【啟門之力】的力量。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0008",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "Now, we are very good at opening gates\\nto worlds that have stable ＂doors.＂\\nBut in a world like this...",
+        "ja_jp": "<ruby><rb>異</rb><rt>こと</rt></ruby>なる<ruby><rb>世界</rb><rt>せかい</rt></ruby>への【<ruby><rb>扉</rb><rt>とびら</rt></ruby>】を<ruby><rb>開</rb><rt>ひら</rt></ruby>くための<ruby><rb>力</rb><rt>ちから</rt></ruby>\\nなんですけど、しっかりとした【<ruby><rb>扉</rb><rt>とびら</rt></ruby>】の\\nないこの<ruby><rb>世界</rb><rt>せかい</rt></ruby>は――",
+        "zh_cn": "那是打开通往异世界之“门”的力量，\\n但这个世界没有稳定的“门”，\\n所以……",
+        "zh_tw": "那是開啟通往異世界之【門】的力量，\\n但在沒有穩定之【門】的這個世界──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0009",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Right, I remember. This world is unstable\\ncompared to yours, and highly sensitive\\nto your powers.",
+        "ja_jp": "ああ……きみたちの<ruby><rb>世界</rb><rt>せかい</rt></ruby>に<ruby><rb>比</rb><rt>くら</rt></ruby>べ<ruby><rb>不安定</rb><rt>ふあんてい</rt></ruby>で\\nアスク<ruby><rb>王族</rb><rt>おうぞく</rt></ruby>の【<ruby><rb>開</rb><rt>ひら</rt></ruby>く<ruby><rb>力</rb><rt>ちから</rt></ruby>】に<ruby><rb>対</rb><rt>たい</rt></ruby>して\\n<ruby><rb>過敏</rb><rt>かびん</rt></ruby>だという<ruby><rb>話</rb><rt>はなし</rt></ruby>だった。",
+        "zh_cn": "是啊……这里和你们的世界相比\\n很不稳定，所以对亚斯克王族的\\n“开启之力”非常敏感。",
+        "zh_tw": "嗯……比你們的世界更不安定，\\n會對亞斯克王族的【啟門之力】\\n過於敏感。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0010",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Which causes new passages to open up all\\nover the place.",
+        "ja_jp": "そのせいで、さまざまな<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>に<ruby><rb>偶発的</rb><rt>ぐうはつてき</rt></ruby>に\\n<ruby><rb>異世界</rb><rt>いせかい</rt></ruby>への<ruby><rb>入</rb><rt>い</rt></ruby>り<ruby><rb>口</rb><rt>ぐち</rt></ruby>――<ruby><rb>異界</rb><rt>いかい</rt></ruby>の<ruby><rb>裂</rb><rt>さ</rt></ruby>け<ruby><rb>目</rb><rt>め</rt></ruby>が\\n『<ruby><rb>開</rb><rt>ひら</rt></ruby>いて』しまう……。",
+        "zh_cn": "受其影响，异世界入口——异界裂缝\\n偶尔会在各种地方“开启”……",
+        "zh_tw": "因此，就會在各個地方偶然「開啟」\\n通往異世界的入口──異界的裂縫。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0011",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "So that means that Alfonse has come to\\nthis world, yeah?",
+        "ja_jp": "それってつまり、アルフォンスが\\n<ruby><rb>今</rb><rt>いま</rt></ruby>、この<ruby><rb>世界</rb><rt>せかい</rt></ruby>に<ruby><rb>来</rb><rt>き</rt></ruby>てるってことだよな？",
+        "zh_cn": "那就是说，阿尔冯斯\\n现在来到了这边的世界？",
+        "zh_tw": "那也就是說，\\n阿爾馮斯現在來到這個世界了吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0012",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "Actually, my brother was\\ncaptured during a battle.",
+        "ja_jp": "<ruby><rb>実</rb><rt>じつ</rt></ruby>は…お<ruby><rb>兄様</rb><rt>にいさま</rt></ruby>が<ruby><rb>戦</rb><rt>たたか</rt></ruby>いの<ruby><rb>最中</rb><rt>さなか</rt></ruby>に\\n<ruby><rb>攫</rb><rt>さら</rt></ruby>われてしまったんです。",
+        "zh_cn": "其实……王兄在战斗途中\\n被掳走了。",
+        "zh_tw": "其實……\\n哥哥他在戰鬥途中被擄走了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0013",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Prince Alfonse has been captured?!",
+        "ja_jp": "アルフォンス<ruby><rb>王子</rb><rt>おうじ</rt></ruby>が<ruby><rb>攫</rb><rt>さら</rt></ruby>われた……!?",
+        "zh_cn": "阿尔冯斯王子被掳走了！？",
+        "zh_tw": "阿爾馮斯王子被擄走了……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0014",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "That guy's tougher than a box of old nails.\\nHard to imagine anybody gettin' the\\nbetter of him in a fight.",
+        "ja_jp": "マジかよ……<ruby><rb>俺</rb><rt>おれ</rt></ruby>たちもアルフォンスの\\n<ruby><rb>実力</rb><rt>じつりょく</rt></ruby>は<ruby><rb>知</rb><rt>し</rt></ruby>ってるが、そう<ruby><rb>易々</rb><rt>やすやす</rt></ruby>と<ruby><rb>敵</rb><rt>てき</rt></ruby>の<ruby><rb>手</rb><rt>て</rt></ruby>に\\n<ruby><rb>落</rb><rt>お</rt></ruby>ちるような<ruby><rb>奴</rb><rt>やつ</rt></ruby>じゃねえだろう。",
+        "zh_cn": "真的假的……我们也清楚\\n他的实力，他不会那么轻易\\n就落入敌人手里吧。",
+        "zh_tw": "真的假的……\\n我們也知道阿爾馮斯的實力，\\n他不會那麼輕易就落入敵人手中吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0015",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Good point, Ranzal. His foe must have\\nbeen very powerful indeed.",
+        "ja_jp": "<ruby><rb>一体</rb><rt>いったい</rt></ruby>、どんな<ruby><rb>相手</rb><rt>あいて</rt></ruby>だったんだ？",
+        "zh_cn": "对方到底是何方神圣？",
+        "zh_tw": "究竟是怎樣的對手？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0016",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "Actually, his foe was...a god.",
+        "ja_jp": "<ruby><rb>相手</rb><rt>あいて</rt></ruby>は…<ruby><rb>神様</rb><rt>かみさま</rt></ruby>です。",
+        "zh_cn": "对方是……神。",
+        "zh_tw": "對手是……神。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0017",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "A god?!",
+        "ja_jp": "<ruby><rb>神</rb><rt>かみ</rt></ruby>!?",
+        "zh_cn": "神！？",
+        "zh_tw": "神！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0018",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "Yes. She is Thórr—or ＂the god of war,＂\\nas she insists on calling herself.",
+        "ja_jp": "<ruby><rb>伝承</rb><rt>でんしょう</rt></ruby>に<ruby><rb>残</rb><rt>のこ</rt></ruby>る<ruby><rb>天上</rb><rt>てんじょう</rt></ruby>の<ruby><rb>神</rb><rt>かみ</rt></ruby>、<ruby><rb>戦神</rb><rt>せんじん</rt></ruby>トール。\\n…そう<ruby><rb>相手</rb><rt>あいて</rt></ruby>は<ruby><rb>名乗</rb><rt>なの</rt></ruby>っています。",
+        "zh_cn": "对方自称是传说中的\\n天上战神，托尔……",
+        "zh_tw": "遠古傳承中的天神，「戰神托爾」。\\n……對方是這麼自稱的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0019",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "And she is a powerful enemy indeed.",
+        "ja_jp": "<ruby><rb>神様</rb><rt>かみさま</rt></ruby>を<ruby><rb>名乗</rb><rt>なの</rt></ruby>るだけあって、\\nむちゃくちゃな<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>ってて…",
+        "zh_cn": "实力也名副其实，\\n非常强大……",
+        "zh_tw": "而且她不愧能自稱為神，\\n擁有的力量非常強大……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0020",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "We fought her with everything we had,\\nbut she still ended up taking my brother.",
+        "ja_jp": "わたしたちも<ruby><rb>頑張</rb><rt>がんば</rt></ruby>って<ruby><rb>抵抗</rb><rt>ていこう</rt></ruby>したんです\\nけど…<ruby><rb>結局</rb><rt>けっきょく</rt></ruby>、お<ruby><rb>兄様</rb><rt>にいさま</rt></ruby>を<ruby><rb>攫</rb><rt>さら</rt></ruby>われて\\nしまって…",
+        "zh_cn": "虽然我们奋力抗争……\\n但王兄还是被掳走了……",
+        "zh_tw": "雖然我們很努力抵抗了……\\n結果，哥哥還是被她擄走……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0021",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'm so sorry to hear that, Sharena.\\nEr, but why did Thórr bring him here?",
+        "ja_jp": "そうだったのか……でも、その\\nアルフォンス<ruby><rb>王子</rb><rt>おうじ</rt></ruby>が、なぜこの<ruby><rb>世界</rb><rt>せかい</rt></ruby>に？",
+        "zh_cn": "原来是这么一回事……\\n不过，阿尔冯斯王子\\n为什么会来到这个世界？",
+        "zh_tw": "原來是這樣……\\n不過為什麼要將阿爾馮斯王子\\n送到這個世界？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0022",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "Because she has business in this place.\\nMy brother is just a means to that end.",
+        "ja_jp": "それが…どうもトールの<ruby><rb>目的</rb><rt>もくてき</rt></ruby>は、\\nこの<ruby><rb>世界</rb><rt>せかい</rt></ruby>にあるみたいなんです。",
+        "zh_cn": "那是因为……\\n托尔的目的似乎在这边。",
+        "zh_tw": "這個……\\n似乎是因為托爾的目的，\\n就在這個世界。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0023",
+      "book": ""
+    },
+    {
+      "icon": "100010_05",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "What could she want from us?\\nWe don't even KNOW this woman!",
+        "ja_jp": "はあ？　どういうこと？\\nアタシたちはそのトールなんて\\n<ruby><rb>知</rb><rt>し</rt></ruby>らないわよ？",
+        "zh_cn": "哈？什么意思？\\n我们可不认识那个什么托尔。",
+        "zh_tw": "啥？什麼意思啊？\\n我們可不認識那個叫托爾的喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0024",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "I don't know. Not exactly, anyway.",
+        "ja_jp": "わたしたちにもトールの<ruby><rb>目的</rb><rt>もくてき</rt></ruby>は\\nよくわからなくて…",
+        "zh_cn": "我们也不知道\\n托尔的目的……",
+        "zh_tw": "我們也不太清楚托爾的目的……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0025",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "But she said something about ＂judging the\\nworthiness of certain otherworldly heroes\\nas warriors for the heavens.＂",
+        "ja_jp": "<ruby><rb>戦</rb><rt>たたか</rt></ruby>いを<ruby><rb>求</rb><rt>もと</rt></ruby>める<ruby><rb>魂</rb><rt>たましい</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>つ<ruby><rb>者</rb><rt>もの</rt></ruby>たちを\\n<ruby><rb>集</rb><rt>あつ</rt></ruby>めるとかなんとか…",
+        "zh_cn": "还说什么要召集\\n拥有寻求战斗之魂的人……",
+        "zh_tw": "她說要收集擁有渴求戰鬥靈魂的人們\\n還什麼的……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0026",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "She also said she would use my brother's\\npower to reach the ＂dragonblood realm.＂\\nI figured she must have meant this world.",
+        "ja_jp": "ただ「<ruby><rb>竜</rb><rt>りゅう</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>」の<ruby><rb>英雄</rb><rt>えいゆう</rt></ruby>を<ruby><rb>選定</rb><rt>せんてい</rt></ruby>する\\nために、お<ruby><rb>兄様</rb><rt>にいさま</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>借</rb><rt>か</rt></ruby>りるとか<ruby><rb>言</rb><rt>い</rt></ruby>う\\nので、この<ruby><rb>世界</rb><rt>せかい</rt></ruby>のことなのかなって。",
+        "zh_cn": "不过她说为选定“龙之血的世界”的英雄\\n需要借用王兄的力量，\\n所以我就猜会不会是指这里。",
+        "zh_tw": "因為她說為了選定「龍之血的世界」的\\n英雄，所以要借用哥哥的力量，\\n我才認為應該是指這個世界。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0027",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "＂The dragonblood realm,＂ is it? Well,\\nthat does seem an apt description.",
+        "ja_jp": "「<ruby><rb>竜</rb><rt>りゅう</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>」ですか……。<ruby><rb>確</rb><rt>たし</rt></ruby>かに、\\n<ruby><rb>言</rb><rt>い</rt></ruby>われればそういう<ruby><rb>気</rb><rt>き</rt></ruby>もしますが。",
+        "zh_cn": "“龙之血的世界”吗……\\n这么一说的确感觉如此呢。",
+        "zh_tw": "「龍之血的世界」嗎……\\n的確，聽妳這麼一說似乎沒錯。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0028",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "But what's the part about judging\\nthe worth of heroes?",
+        "ja_jp": "<ruby><rb>英雄</rb><rt>えいゆう</rt></ruby>を<ruby><rb>選定</rb><rt>せんてい</rt></ruby>か……どういうことだろう？",
+        "zh_cn": "选定英雄……是什么意思呢？",
+        "zh_tw": "選定英雄嗎……到底是什麼意思呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0029",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Sounds like this Thórr god lady is comin'\\nhere to put us through our paces and see\\nif we all measure up.",
+        "ja_jp": "<ruby><rb>単純</rb><rt>たんじゅん</rt></ruby>に<ruby><rb>考</rb><rt>かんが</rt></ruby>えれば、そのトールとかいう\\n<ruby><rb>神様</rb><rt>かみさま</rt></ruby>が、<ruby><rb>俺</rb><rt>おれ</rt></ruby>たちが<ruby><rb>神様</rb><rt>かみさま</rt></ruby>のお<ruby><rb>眼鏡</rb><rt>めがね</rt></ruby>に\\n<ruby><rb>適</rb><rt>かな</rt></ruby>うか<ruby><rb>見</rb><rt>み</rt></ruby>てくれるってことだろ？",
+        "zh_cn": "单纯来考虑的话，\\n那个叫什么托尔的神是要看看\\n我们能不能入神的法眼吧？",
+        "zh_tw": "想得單純一點，就是說那個叫做\\n托爾的神，打算看看我們\\n能不能獲得神的認同吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0030",
+      "book": ""
+    },
+    {
+      "icon": "100010_05",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "I don't care if she IS a god—she has\\nno right to judge any of us!",
+        "ja_jp": "<ruby><rb>神</rb><rt>かみ</rt></ruby>だかなんだか<ruby><rb>知</rb><rt>し</rt></ruby>らないけど、\\n<ruby><rb>勝手</rb><rt>かって</rt></ruby>な<ruby><rb>話</rb><rt>はなし</rt></ruby>よねえ。<ruby><rb>頼</rb><rt>たの</rt></ruby>んだわけでもない\\nのに、<ruby><rb>有難迷惑</rb><rt>ありがためいわく</rt></ruby>だわ。",
+        "zh_cn": "我才不管她是神还是什么，\\n真是自说自话啊。\\n又没有人拜托她，多管闲事。",
+        "zh_tw": "雖然不知道是神還是什麼，\\n但也太自以為了吧。\\n又沒有人拜託她，真是倒添麻煩。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0031",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "And I fail to understand why she would\\ncarefully explain her scheme to you\\nbefore undertaking it.",
+        "ja_jp": "しかし、それをトールとやらが\\nわざわざあなた<ruby><rb>方</rb><rt>がた</rt></ruby>に<ruby><rb>言</rb><rt>い</rt></ruby>うというのが\\nわからないな……",
+        "zh_cn": "不过，托尔特地\\n把这件事告诉你，\\n才更令人费解……",
+        "zh_tw": "不過，那個托爾為何專程跟你們\\n說這些，實在讓人難以理解……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0032",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Unless she is attempting to lure you\\ninto some manner of trap?",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>かの<ruby><rb>罠</rb><rt>わな</rt></ruby>ではないのですか？",
+        "zh_cn": "会不会是什么陷阱呢？",
+        "zh_tw": "會不會是什麼陷阱？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0033",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "I don't think it's a trap—Thórr is just\\nobsessed with testing us mortals.\\nYou'd be surprised how often this\\nkind of thing happens to us.",
+        "ja_jp": "うーん…たぶん、<ruby><rb>違</rb><rt>ちが</rt></ruby>うと<ruby><rb>思</rb><rt>おも</rt></ruby>います。\\nトールは<ruby><rb>人</rb><rt>ひと</rt></ruby>を<ruby><rb>試</rb><rt>ため</rt></ruby>すようなことを\\nよくするんです。",
+        "zh_cn": "唔……恐怕不是。\\n托尔经常会做这种\\n像是在试探别人的事。",
+        "zh_tw": "嗯……我想應該不是。\\n托爾常常會做些考驗他人的事。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0034",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "She's always saying things to us like,\\n＂I'm giving you this challenge, so show\\nme you have the strength to prevail!＂\\n...And so forth.",
+        "ja_jp": "<ruby><rb>試練</rb><rt>しれん</rt></ruby>を<ruby><rb>与</rb><rt>あた</rt></ruby>えるから<ruby><rb>乗</rb><rt>の</rt></ruby>り<ruby><rb>越</rb><rt>こ</rt></ruby>えてみせろ～\\nみたいな。",
+        "zh_cn": "“这是给你的试炼，\\n有本事就跨越它吧～”\\n之类的。",
+        "zh_tw": "「試著跨越我給予的試煉吧～」這樣。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0035",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Well, that's all fine and dandy for a god,\\nbut it sure does suck for the poor sap\\nwhat's gettin' put through the wringer!",
+        "ja_jp": "<ruby><rb>文字通</rb><rt>もじどお</rt></ruby>り<ruby><rb>神様</rb><rt>かみさま</rt></ruby>らしくってわけかい。\\n<ruby><rb>試</rb><rt>ため</rt></ruby>されるほうにしてみりゃたまった\\nもんじゃねえな。",
+        "zh_cn": "还真像是神会干的事啊。\\n不过作为接受考验的一方\\n可高兴不起来。",
+        "zh_tw": "竟然跟字面上一樣像個神啊。\\n被迫受考驗的人哪受得了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0036",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "Yes, it does get very old.",
+        "ja_jp": "そうなんです！　あの<ruby><rb>人</rb><rt>ひと</rt></ruby>、いっつも\\nそんなのばっかりで<ruby><rb>困</rb><rt>こま</rt></ruby>っちゃいます！",
+        "zh_cn": "就是啊！\\n她总是这样，真让人头疼！",
+        "zh_tw": "就是說啊！\\n那個人每次都這樣，真的很傷腦筋！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0037",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "She sounds like a difficult person.\\nEr, or a difficult god, I guess?",
+        "ja_jp": "なるほど、<ruby><rb>一筋縄</rb><rt>ひとすじなわ</rt></ruby>ではいかない<ruby><rb>人物</rb><rt>じんぶつ</rt></ruby>の\\nようだな……いや、<ruby><rb>神</rb><rt>かみ</rt></ruby>……なのか。",
+        "zh_cn": "原来如此，似乎是个\\n不好对付的人物……\\n啊不对，是神。",
+        "zh_tw": "原來如此，\\n似乎是個不太好應付的人呢……\\n不，是神……嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0038",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Well, at least now we have some idea of\\nwhat we're dealing with—as well as why\\nyou think Alfonse has come here.",
+        "ja_jp": "とにかく<ruby><rb>事情</rb><rt>じじょう</rt></ruby>はわかった。それで\\nシャロン<ruby><rb>王女</rb><rt>おうじょ</rt></ruby>は、アルフォンス<ruby><rb>王子</rb><rt>おうじ</rt></ruby>が\\nこの<ruby><rb>世界</rb><rt>せかい</rt></ruby>にいると<ruby><rb>思</rb><rt>おも</rt></ruby>ったんだね。",
+        "zh_cn": "总之，情况我了解了。\\n夏蓉公主，你认为阿尔冯斯王子\\n在这个世界对吧。",
+        "zh_tw": "總之情況我都明白了。\\n所以夏蓉公主才會認為\\n阿爾馮斯王子在這個世界吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0039",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "Indeed, Alfonse was the one who told\\nme about all of you in the first place.",
+        "ja_jp": "はい、この<ruby><rb>世界</rb><rt>せかい</rt></ruby>とみなさんのことは\\nお<ruby><rb>兄様</rb><rt>にいさま</rt></ruby>から<ruby><rb>聞</rb><rt>き</rt></ruby>いていましたから！",
+        "zh_cn": "是的，我听王兄说过\\n这个世界和各位的事！",
+        "zh_tw": "是的，因為我從哥哥那裡\\n聽說過這個世界和大家的事！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0040",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "It's a lucky thing that I was able\\nto find you on the first try!",
+        "ja_jp": "すぐにお<ruby><rb>会</rb><rt>あ</rt></ruby>いできてよかったです！\\nやっぱりわたしの<ruby><rb>日頃</rb><rt>ひごろ</rt></ruby>の<ruby><rb>行</rb><rt>おこな</rt></ruby>いの\\nおかげですね！",
+        "zh_cn": "能这么快就见到你们真是太好了！\\n果然是因为我平日行善积德吧！",
+        "zh_tw": "這麼快就能見到你們真的太好了！\\n果然是因為我平常做好事的關係！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0041",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Feels a little deus ex machina to me,\\nbut what the hell do I know?",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>さんの<ruby><rb>日頃</rb><rt>ひごろ</rt></ruby>の<ruby><rb>行</rb><rt>おこな</rt></ruby>いは<ruby><rb>知</rb><rt>し</rt></ruby>らんが、\\n<ruby><rb>目的</rb><rt>もくてき</rt></ruby>は<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>だ。なんとかアルフォンスの\\nやつを<ruby><rb>見</rb><rt>み</rt></ruby>つけてやろうぜ。",
+        "zh_cn": "虽然不知道你平日怎么行善积德，\\n不过我们目的一致，会想办法\\n把阿尔冯斯那家伙找出来的。",
+        "zh_tw": "我不曉得妳平常有沒有做好事啦，\\n但我們目的一樣。一起想辦法\\n把阿爾馮斯那傢伙找出來吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0042",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "I wish we had something more to go on\\nbesides vague hunches.",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>か<ruby><rb>手</rb><rt>て</rt></ruby>がかりが\\n<ruby><rb>欲</rb><rt>ほ</rt></ruby>しいところですね……。",
+        "zh_cn": "要是有什么线索\\n就好了……",
+        "zh_tw": "真希望有什麼線索呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0043",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "Well, I don't know if this will help,\\nbut a bunch of our friends disappeared\\nat the same time my brother was taken.",
+        "ja_jp": "<ruby><rb>手</rb><rt>て</rt></ruby>がかりになるかわからないですけど…\\nお<ruby><rb>兄様</rb><rt>にいさま</rt></ruby>が<ruby><rb>攫</rb><rt>さら</rt></ruby>われるのと<ruby><rb>同時</rb><rt>どうじ</rt></ruby>くらいに、\\n<ruby><rb>仲間</rb><rt>なかま</rt></ruby>たちも<ruby><rb>行方不明</rb><rt>ゆくえふめい</rt></ruby>になってるんです。",
+        "zh_cn": "不知道算不算得上是线索……\\n但差不多在王兄被抓走的同时，\\n我的伙伴们也突然失踪了。",
+        "zh_tw": "雖然不知道算不算線索……\\n但哥哥被擄走的同時，\\n其他夥伴們也失蹤了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0044",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "If that is all Thórr's doing, she may have\\nbrought them to this world as well.",
+        "ja_jp": "それがトールの<ruby><rb>仕業</rb><rt>しわざ</rt></ruby>なら、<ruby><rb>仲間</rb><rt>なかま</rt></ruby>たちも\\nこの<ruby><rb>世界</rb><rt>せかい</rt></ruby>に<ruby><rb>来</rb><rt>き</rt></ruby>ている…<ruby><rb>来</rb><rt>こ</rt></ruby>させられている\\nかもしれません。",
+        "zh_cn": "如果是托尔干的，\\n我的伙伴们或许也到……\\n也被带到这个世界来了。",
+        "zh_tw": "如果那是托爾做的，或許夥伴們\\n也來到……被迫來到了這個世界。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0045",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Do you think Thórr is using your friends\\nas part of her plan to test us?",
+        "ja_jp": "……きみの<ruby><rb>仲間</rb><rt>なかま</rt></ruby>たちを<ruby><rb>使</rb><rt>つか</rt></ruby>って、トールが\\nおれたちに<ruby><rb>試練</rb><rt>しれん</rt></ruby>を<ruby><rb>与</rb><rt>あた</rt></ruby>えようとしている？",
+        "zh_cn": "托尔想利用你的伙伴\\n来考验我们？",
+        "zh_tw": "……托爾是打算利用妳的夥伴，\\n給予我們試煉嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0046",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "It's a possibility. Anyway, if there have\\nbeen any weird incidents around here\\nlately, it might be an indication that\\nmy missing friends are close by.",
+        "ja_jp": "…かもしれないです。だからこの<ruby><rb>世界</rb><rt>せかい</rt></ruby>で\\n<ruby><rb>何</rb><rt>なに</rt></ruby>か<ruby><rb>不思議</rb><rt>ふしぎ</rt></ruby>な<ruby><rb>出来事</rb><rt>できごと</rt></ruby>が<ruby><rb>起</rb><rt>お</rt></ruby>きていれば、\\nそこに<ruby><rb>仲間</rb><rt>なかま</rt></ruby>がいるかも…",
+        "zh_cn": "也许是的……所以如果这个世界\\n发生了什么不可思议的事，\\n说不定我的伙伴就在那里……",
+        "zh_tw": "……有可能。所以如果這個世界\\n發生了什麼神秘事件，\\n說不定就能在那裡找到我的夥伴……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0047",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "And if we find them, they might be able\\nto lead us to Thórr or Alfonse!",
+        "ja_jp": "その<ruby><rb>仲間</rb><rt>なかま</rt></ruby>が、トールやひいては\\nアルフォンス<ruby><rb>王子</rb><rt>おうじ</rt></ruby>の<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>っている\\nかもしれないというわけか。",
+        "zh_cn": "那就是说，你的伙伴\\n也许会有托尔甚至是\\n阿尔冯斯王子的消息。",
+        "zh_tw": "就是指那個夥伴，可能會有關於托爾\\n甚至是阿爾馮斯王子的情報吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0048",
+      "book": ""
+    },
+    {
+      "icon": "100010_05",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "＂Weird incidents＂ is casting a\\nfairly wide net, don't you think?",
+        "ja_jp": "でも、<ruby><rb>不思議</rb><rt>ふしぎ</rt></ruby>な<ruby><rb>出来事</rb><rt>できごと</rt></ruby>って<ruby><rb>言</rb><rt>い</rt></ruby>われても\\nちょっと<ruby><rb>困</rb><rt>こま</rt></ruby>るわよねえ。",
+        "zh_cn": "但是，你说不可思议的事\\n我们也没有头绪啊。",
+        "zh_tw": "不過，就算說要神秘事件，\\n也有點傷腦筋耶。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0049",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "One of the villages nearby had some\\ncarrots go bad in the field! Is that the\\nkind of thing you're lookin' for?",
+        "ja_jp": "うーん。<ruby><rb>最近</rb><rt>さいきん</rt></ruby>、<ruby><rb>野菜</rb><rt>やさい</rt></ruby>のできが<ruby><rb>悪</rb><rt>わる</rt></ruby>くて\\n<ruby><rb>困</rb><rt>こま</rt></ruby>ってるとか<ruby><rb>近</rb><rt>ちか</rt></ruby>くの<ruby><rb>村</rb><rt>むら</rt></ruby>で<ruby><rb>言</rb><rt>い</rt></ruby>われたけど、\\n<ruby><rb>関係</rb><rt>かんけい</rt></ruby>ねえよなあ。",
+        "zh_cn": "唔……最近附近村子里的人说\\n蔬菜长势不好很伤脑筋，\\n这个应该不算吧。",
+        "zh_tw": "嗯～是有附近村子在說\\n最近蔬菜的收成不好很頭痛，\\n不過應該無關吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0050",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Oh, and I heard about a town where\\neverybody keeps oversleeping!",
+        "ja_jp": "そんなのでいいなら、わたしだって\\n<ruby><rb>寝坊</rb><rt>ねぼう</rt></ruby>する<ruby><rb>人</rb><rt>ひと</rt></ruby>が<ruby><rb>多</rb><rt>おお</rt></ruby>くて<ruby><rb>困</rb><rt>こま</rt></ruby>ってるって<ruby><rb>話</rb><rt>はなし</rt></ruby>を\\n<ruby><rb>聞</rb><rt>き</rt></ruby>いたことあるよ。",
+        "zh_cn": "那种也算的话，我还听人说\\n睡懒觉的人太多了很头疼呢。",
+        "zh_tw": "如果那種也算的話，\\n我有聽說最近睡懶覺的人變多，\\n很傷腦筋的傳聞喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0051",
+      "book": ""
+    },
+    {
+      "icon": "100010_05",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "And my hair has been all split ends\\nlately—I hope that IS Thórr's doing\\nso it returns to normal after I kick\\nher butt all the way back to heaven!",
+        "ja_jp": "<ruby><rb>最近</rb><rt>さいきん</rt></ruby>、<ruby><rb>枝毛</rb><rt>えだげ</rt></ruby>が<ruby><rb>増</rb><rt>ふ</rt></ruby>えたのがトールの<ruby><rb>仕業</rb><rt>しわざ</rt></ruby>\\nだったりしてくれないかしら。それなら\\nやっつければいいだけなのに～。",
+        "zh_cn": "最近头发分叉变多\\n能算在托尔头上吗。要真是那样\\n只要干掉她就万事大吉了。",
+        "zh_tw": "最近頭髮的分叉變多，\\n能不能算在托爾頭上啊。\\n這樣只要打倒那傢伙就好了說～"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0052",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "Ah! Perhaps you're right!",
+        "ja_jp": "そ、それかもしれません…！",
+        "zh_cn": "说、说不定是的……",
+        "zh_tw": "說、說不定是喔……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0053",
+      "book": ""
+    },
+    {
+      "icon": "100010_05",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "Wait, really?! My split ends?!",
+        "ja_jp": "えっ、<ruby><rb>枝毛</rb><rt>えだげ</rt></ruby>!?",
+        "zh_cn": "诶，头发分叉！？",
+        "zh_tw": "咦，分叉嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0054",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "No. I mean, yes, split ends have been\\ndriving me crazy as well, and I'd be\\nthrilled if I could blame Thórr for that...",
+        "ja_jp": "はい！　わたしも<ruby><rb>枝毛</rb><rt>えだげ</rt></ruby>で<ruby><rb>困</rb><rt>こま</rt></ruby>ってて、\\nこれがトールの<ruby><rb>仕業</rb><rt>しわざ</rt></ruby>ならいいな～\\nって、<ruby><rb>違</rb><rt>ちが</rt></ruby>います！",
+        "zh_cn": "嗯！我也很为头发分叉伤脑筋，\\n这要是托尔干的就好了……\\n诶不对！",
+        "zh_tw": "是的！我也因為頭髮分叉很困擾，\\n就想說「如果是托爾害的就好了～」\\n呃，不對啦！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0055",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "But I mean the other one—the one about\\nfolks oversleeping. Are they just missing\\nthe first rooster crow, or are they so\\ndeeply asleep you can't wake them up?",
+        "ja_jp": "その<ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>話</rb><rt>はなし</rt></ruby>です！　<ruby><rb>寝坊</rb><rt>ねぼう</rt></ruby>する<ruby><rb>人</rb><rt>ひと</rt></ruby>って…\\nもしかして、<ruby><rb>眠</rb><rt>ねむ</rt></ruby>っちゃったまま<ruby><rb>起</rb><rt>お</rt></ruby>きて\\nこないとかじゃないですか？",
+        "zh_cn": "我是说之前那句话！\\n睡懒觉的人……\\n该不会，是一觉不醒那种？",
+        "zh_tw": "更前面那句！睡懶覺的人……\\n是不是一睡著就起不來了？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0056",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Uh, all I heard was that there are\\nsome folks who just won't wake up...",
+        "ja_jp": "えっ？　わたしが<ruby><rb>聞</rb><rt>き</rt></ruby>いたのは、\\nなかなか<ruby><rb>起</rb><rt>お</rt></ruby>きてこない<ruby><rb>人</rb><rt>ひと</rt></ruby>がいるって\\n<ruby><rb>話</rb><rt>はなし</rt></ruby>だったけど……。",
+        "zh_cn": "诶？我听说的是\\n有人怎么也起不来……",
+        "zh_tw": "咦？我聽到的只是\\n有些人一直不肯起床而已啦……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0057",
+      "book": ""
+    },
+    {
+      "icon": "110358_02",
+      "name": {
+        "en_us": "Sharena",
+        "ja_jp": "シャロン",
+        "zh_cn": "夏蓉",
+        "zh_tw": "夏蓉"
+      },
+      "context": {
+        "en_us": "We've had similar incidents on our world;\\nit's possible one of our friends is involved!",
+        "ja_jp": "わたしたちの<ruby><rb>世界</rb><rt>せかい</rt></ruby>で、<ruby><rb>似</rb><rt>に</rt></ruby>たような<ruby><rb>事件</rb><rt>じけん</rt></ruby>が\\n<ruby><rb>起</rb><rt>お</rt></ruby>きたことがあるんです。もしかすると\\nそこに<ruby><rb>仲間</rb><rt>なかま</rt></ruby>がいるかもです…！",
+        "zh_cn": "在我们的世界\\n也发生过类似的事。\\n那里说不定有我的伙伴！",
+        "zh_tw": "在我們的世界裡，\\n也曾發生過類似的事。\\n說不定我的夥伴就在那裡……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0058",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Sounds like it's time to head over\\nand take a look for ourselves.",
+        "ja_jp": "なるほど……。よし、<ruby><rb>行</rb><rt>い</rt></ruby>ってみよう。",
+        "zh_cn": "原来如此……\\n好，我们去看看情况吧。",
+        "zh_tw": "原來如此……\\n好，我們去看看吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21403_02_0059",
+      "book": ""
+    }
+  ]
 }

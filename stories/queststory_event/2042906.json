@@ -1,843 +1,1598 @@
 {
-    "story_id": "",
-    "story_name": "PERSONA5 SCRAMBLE 失心之乱 Deal with…",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "王子一行人从“心之怪盗团”处\\n得到情报，推测异变的原因在于艾缪尔。\\n为了阻止艾缪尔、回到原本的世界，\\n“心之怪盗团”欲与王子进行交易。\\n王子欣然同意，双方建立起合作关系。"
-        ]
+  "title": {
+    "en_us": "Caged Desire    Confrontation",
+    "ja_jp": "PERSONA5 SCRAMBLE Desire Lost  Deal with…",
+    "zh_cn": "PERSONA5 SCRAMBLE 失心之乱  Deal with…",
+    "zh_tw": "PERSONA5 SCRAMBLE Desire Lost  Deal with…"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "呼……到这里\\n应该就安全了吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110380_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "几乎感觉不到心牢的气息了。\\n应该已经在心牢外面了吧……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110380_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "但是这种感觉还是头一次……\\n是心牢与现实世界\\n混为一体了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "而且没用EMMA\\n就能穿梭于两地之间。\\n难道没有一个明确的边界吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "虽然搞不太懂状况，\\n但应该是脱身了吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我要先向你们道谢。\\n谢谢你们救了我们。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我叫尤蒂尔，\\n是阿尔贝里亚的第七王子。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "王、王子！？王子是说……\\n国王子嗣的那个王子？\\n而不是……侦探什么的？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "是啊。不过他看起来不太像，\\n也难怪你们会惊讶。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "我叫卢卡。\\n如你们所见，是个森隐族。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "我叫纳姆！是精灵哦！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "又是王子又是精灵的……\\n那个人的兔耳看起来也不假……\\n这难道真是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "嗯……这是与吾辈们\\n所知道的世界不同的异世界……\\n看来是那种魔幻风的世界啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "我本以为自己不会\\n再因为一点小事而惊讶……\\n但没想到会来到这种地方……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "不过，能遇到王子还真幸运。\\n看来能获得各种情报了。\\nJOKER的运气还是这么好啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "看来你们那边也有情况啊……\\n正好我也有事想问，\\n总之先来圣城怎么样？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110380_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "圣城？\\n圣城是什么？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "是我们居住的城堡。\\n在一个叫迷雾森林的地方。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "城堡……真不愧是王子……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "JOKER，要怎么办？\\n毕竟才刚认识，\\n万一这是个圈套……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110377_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "不……这帮人应该没问题。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "谢谢你愿意相信我们。\\n唔……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110377_02"
-            ],
-            "speaker_name": "JOKER",
-            "context": "我叫JOKER。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "谢谢你，JOKER。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110380_01"
-            ],
-            "speaker_name": "SOPHIE",
-            "context": "我是人类的好朋友SOPHIE。\\n如果你们遇到什么困难，\\n我会帮助你们。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "MONA",
-            "context": "吾辈叫MONA。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "虽然我见过各种各样的种族，\\n但狸猫还是头一次见。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "MONA",
-            "context": "你才是狸猫呢！\\n吾辈可是猫！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "MONA",
-            "context": "不对……吾辈可不是猫！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "到底是不是猫啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "PANTHER",
-            "context": "我叫PANTHER，请多关照。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "PANTHER",
-            "context": "我们本来还有其他伙伴，\\n但是现在都走散了……\\n也不知道大家怎么样了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "MONA",
-            "context": "虽然很担心走散的伙伴们，\\n但还是先梳理一下\\n眼下的情况吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "MONA",
-            "context": "因为吾辈们\\n对这个世界一无所知。\\n得先收集情报才行……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110377_02"
-            ],
-            "speaker_name": "JOKER",
-            "context": "为此我们需要合作者。\\n走吧，去他们的城堡——圣城。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110377_02"
-            ],
-            "speaker_name": "SYS",
-            "context": "几小时后\\n圣城食堂",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "原来如此……\\n虽然还没有完全理解，\\n但我已经了解了个大概。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "人内心产生的异境叫作“心牢”。\\n“心牢”的统治者叫“王”，而人类\\n潜意识中的另一个自我则是“暗影”……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "误入心牢的人类\\n一旦被王夺走了“愿望”，\\n就会变成王的傀儡。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "而你们“心之怪盗团”\\n则通过心之力“人格面具”\\n对抗王与暗影。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "就是JOKER\\n召唤出来的那个啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "PANTHER",
-            "context": "我们利用人格面具的力量\\n奔走在各地的心牢之间\\n行侠仗义。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "PANTHER",
-            "context": "但没想到会来到心牢以外的\\n异世界……不知道其他的伙伴们\\n是不是也在这个世界的某个角落。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110380_01"
-            ],
-            "speaker_name": "SOPHIE",
-            "context": "心之怪盗团的成员中\\n应该只有我们几个\\n来到了这个世界。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "PANTHER",
-            "context": "你怎么知道！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110380_01"
-            ],
-            "speaker_name": "SOPHIE",
-            "context": "我们是在心牢间的\\n传送中走散的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110380_01"
-            ],
-            "speaker_name": "SOPHIE",
-            "context": "记得当时突然传来了\\n一股蛮横的心牢气息，\\n而我们正是被那股气息所吞噬。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "MONA",
-            "context": "你是说其他人\\n没有被那股气息所吞噬，\\n所以现在很安全？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110380_01"
-            ],
-            "speaker_name": "SOPHIE",
-            "context": "嗯。移动途中没有被气息\\n所妨碍的SKULL他们\\n应该已经顺利抵达涩谷心牢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "虽然我不太懂，但这不是很好吗？\\n既然你们的伙伴没事，\\n就少了一个需要解决的问题。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "MONA",
-            "context": "剩下的问题，\\n就是这个世界的心牢……\\n还有回到原本世界的办法。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "MONA",
-            "context": "要是在某处\\n有和其它心牢相连的地方\\n就好说了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110380_01"
-            ],
-            "speaker_name": "SOPHIE",
-            "context": "现在还感觉不到\\n和其它心牢的联系。\\n似乎被这个世界的心牢干扰了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "PANTHER",
-            "context": "也就是说，不想办法处理好\\n这个世界的心牢就没办法\\n回到原本的世界？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110380_01"
-            ],
-            "speaker_name": "SOPHIE",
-            "context": "似乎是这样。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "MONA",
-            "context": "你们有没有\\n什么关于这个世界的\\n心牢之王的线索？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "你说的那个王在夺走愿望之后，\\n能够按自己的意愿\\n操纵愿望的主人对吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "那么王一定就是艾缪尔了。\\n既然是操纵，那他得到村民\\n异乎寻常的支持也说得通了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "是啊。毕竟艾缪尔被他人仰慕\\n这种事一般来说是不可能的！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "PANTHER",
-            "context": "那个叫艾缪尔的人……\\n就那么不被信赖吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "与其说不被信赖……\\n不如说是个人渣。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "对，他就是个胆小的废物。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "既卑鄙又厚脸皮，\\n让人完全无法信任！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "MONA",
-            "context": "这么差劲啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "虽然不想这么说，但艾缪尔总是\\n做出一些王室成员不应有的举动，\\n给许多人都造成了麻烦。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "老实说，我完全\\n无法想象他那样的人\\n会受到民众的狂热追捧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110380_01"
-            ],
-            "speaker_name": "SOPHIE",
-            "context": "你说他是王室成员，\\n那么他和尤蒂尔\\n是有什么关系的吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "艾缪尔是阿尔贝里亚第六王子……\\n是我的哥哥。不过很可惜，\\n我们的关系并不怎么好。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110380_01"
-            ],
-            "speaker_name": "SOPHIE",
-            "context": "哥哥？\\n你们是兄弟啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "MONA",
-            "context": "先不说这个，\\n总之那个叫艾缪尔的\\n最为可疑。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "MONA",
-            "context": "作为王的艾缪尔用某种方式\\n在这个世界制造了心牢……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "然后……在心牢被夺走\\n愿望的人们都被变成了\\n艾缪尔的狂热支持者。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "没有能让他们\\n恢复原状的办法吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110377_02"
-            ],
-            "speaker_name": "JOKER",
-            "context": "夺回愿望。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "MONA",
-            "context": "对，只要归还被夺走的愿望，\\n所有受害者应该就能恢复。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "PANTHER",
-            "context": "JOKER……\\n我们能不能也来帮忙\\n拯救这个世界的人们啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "PANTHER",
-            "context": "毕竟心牢的事不能袖手旁观，\\n附近又有这么多被夺走愿望的人，\\n我们不能坐视不管。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "MONA",
-            "context": "嗯。况且受了他们的佳肴款待，\\n这个恩要报嘛。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110377_02"
-            ],
-            "speaker_name": "JOKER",
-            "context": "说得对。\\n尤蒂尔，\\n要不要和我们做笔交易？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "交易？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "MONA",
-            "context": "吾辈们比你们更了解心牢和王。\\n如果要夺回人们的愿望，\\n应该会对你们有所帮助。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110379_02"
-            ],
-            "speaker_name": "MONA",
-            "context": "作为条件，希望你们能帮助\\n吾辈们回到原本的世界……\\n怎么样？这笔交易不亏吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "有道理……同为王族，\\n我不能眼睁睁地\\n看着他为非作歹。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "为了拯救那些被夺去愿望的人们，\\n希望你们心之怪盗团能助我一臂之力。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110377_02"
-            ],
-            "speaker_name": "JOKER",
-            "context": "好，交易成立。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "好！那今天就吃个痛快\\n为潜入心牢做准备吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "唉，真拿你没办法。\\n我再去厨房拿点料理来。\\n一会儿还有甜点哦。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "PANTHER",
-            "context": "好耶！好期待异世界的\\n甜点长什么样啊♪",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "你们世界的食物\\n和我们世界的食物不一样吗？\\n我有些好奇。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110378_02"
-            ],
-            "speaker_name": "PANTHER",
-            "context": "唔……这个嘛，比如……",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0089",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "看来大家似乎能相处愉快呢。\\n虽然还有很多不懂的事，\\n但明天开始就拜托你啦，JOKER。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0090",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110377_02"
-            ],
-            "speaker_name": "JOKER",
-            "context": "嗯，请多关照。",
-            "voice_line": "VO_CHR_EVENTSTORY_20429_03_0091",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "After getting briefed by the Phantom Thieves,\\nthe prince realizes Emile is behind all the\\nstrange happenings of late. Eager to stop him\\nand return to their own world, the Phantom\\nThieves then offer the prince a deal.",
+      "ja_jp": "『<ruby><rb>心</rb><rt>こころ</rt></ruby>の<ruby><rb>怪盗</rb><rt>かいとう</rt></ruby><ruby><rb>団</rb><rt>だん</rt></ruby>』から<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>を<ruby><rb>得</rb><rt>え</rt></ruby>た<ruby><rb>王子</rb><rt>おうじ</rt></ruby>たちは、\\n<ruby><rb>異変</rb><rt>いへん</rt></ruby>の<ruby><rb>原因</rb><rt>げんいん</rt></ruby>がエミュールにあると<ruby><rb>推測</rb><rt>すいそく</rt></ruby>する。\\nエミュールを<ruby><rb>止</rb><rt>と</rt></ruby>め、<ruby><rb>元</rb><rt>もと</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>へ<ruby><rb>戻</rb><rt>もど</rt></ruby>るため、\\n『<ruby><rb>心</rb><rt>こころ</rt></ruby>の<ruby><rb>怪盗</rb><rt>かいとう</rt></ruby><ruby><rb>団</rb><rt>だん</rt></ruby>』は<ruby><rb>王子</rb><rt>おうじ</rt></ruby>に<ruby><rb>取引</rb><rt>とりひき</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>ちかける。\\n<ruby><rb>王子</rb><rt>おうじ</rt></ruby>はこれを<ruby><rb>快諾</rb><rt>かいだく</rt></ruby>し、<ruby><rb>協力関係</rb><rt>きょうりょくかんけい</rt></ruby>を<ruby><rb>結</rb><rt>むす</rt></ruby>ぶ。",
+      "zh_cn": "王子一行人从“心之怪盗团”处\\n得到情报，推测异变的原因在于艾缪尔。\\n为了阻止艾缪尔、回到原本的世界，\\n“心之怪盗团”欲与王子进行交易。\\n王子欣然同意，双方建立起合作关系。",
+      "zh_tw": "得到『心之怪盜團』提供的情報後，\\n王子等人推斷變異的起因即是埃米爾。\\n為了阻止埃米爾並回到原本的世界，\\n『心之怪盜團』與王子進行了交易，\\n而王子也立即答應，雙方締結了合作關係。"
+    }
+  },
+  "prev": "2042905",
+  "next": "2042907",
+  "content": [
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Phew! Okay, this should be far enough.",
+        "ja_jp": "ふぅ……ここまで<ruby><rb>来</rb><rt>く</rt></ruby>れば\\nもう<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>だろ。",
+        "zh_cn": "呼……到这里\\n应该就安全了吧。",
+        "zh_tw": "呼……逃到這裡應該就沒問題了吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0001",
+      "book": ""
+    },
+    {
+      "icon": "110380_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "The scent of the Jail is very faint, which\\nmeans we're outside... I think.",
+        "ja_jp": "もうジェイルの<ruby><rb>匂</rb><rt>にお</rt></ruby>いがほとんどしない。\\n<ruby><rb>一応</rb><rt>いちおう</rt></ruby>ジェイルの<ruby><rb>外</rb><rt>そと</rt></ruby>、だと<ruby><rb>思</rb><rt>おも</rt></ruby>う…。",
+        "zh_cn": "几乎感觉不到心牢的气息了。\\n应该已经在心牢外面了吧……",
+        "zh_tw": "幾乎沒有監獄的氣味了。\\n所以應該，已經在監獄外了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0002",
+      "book": ""
+    },
+    {
+      "icon": "110380_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "But I've never experienced anything\\nlike this. Is the Jail somehow bleeding\\nout into the real world?",
+        "ja_jp": "でもこんな<ruby><rb>感</rb><rt>かん</rt></ruby>じは<ruby><rb>初</rb><rt>はじ</rt></ruby>めてだ…\\nジェイルと<ruby><rb>普通</rb><rt>ふつう</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>が\\n<ruby><rb>混</rb><rt>ま</rt></ruby>じってるのか？",
+        "zh_cn": "但是这种感觉还是头一次……\\n是心牢与现实世界\\n混为一体了吗？",
+        "zh_tw": "但是這種感覺還是第一次……\\n是監獄與普通的世界\\n混雜在一起了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0003",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Well, we did get in without EMMA, so\\nmaybe there's no clear boundary between\\nthe real and cognitive worlds here.",
+        "ja_jp": "<ruby><rb>EMMA</rb><rt>エマ</rt></ruby><ruby><rb>無</rb><rt>な</rt></ruby>しで\\n<ruby><rb>行</rb><rt>い</rt></ruby>き<ruby><rb>来</rb><rt>き</rt></ruby>できちまってるしな。\\n<ruby><rb>明確</rb><rt>めいかく</rt></ruby>な<ruby><rb>境界</rb><rt>きょうかい</rt></ruby>が<ruby><rb>無</rb><rt>な</rt></ruby>いのか…？",
+        "zh_cn": "而且没用EMMA\\n就能穿梭于两地之间。\\n难道没有一个明确的边界吗？",
+        "zh_tw": "而且沒用EMMA\\n就能往來兩邊了呢。\\n是代表沒有明確的界線嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0004",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Okay yeah, I'm just gonna assume\\nthat means we all got out safe.\\nEverybody good with that?",
+        "ja_jp": "よくわかんないけど、とりあえず\\n<ruby><rb>逃</rb><rt>に</rt></ruby>げ<ruby><rb>切</rb><rt>き</rt></ruby>れたってことだよね！",
+        "zh_cn": "虽然搞不太懂状况，\\n但应该是脱身了吧！",
+        "zh_tw": "雖然不是很懂，\\n但我們已經安全逃脫了對吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0005",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Well, first of all, thank you for your help.",
+        "ja_jp": "まずは、<ruby><rb>礼</rb><rt>れい</rt></ruby>を<ruby><rb>言</rb><rt>い</rt></ruby>うよ。\\n<ruby><rb>助</rb><rt>たす</rt></ruby>けてくれてありがとう。",
+        "zh_cn": "我要先向你们道谢。\\n谢谢你们救了我们。",
+        "zh_tw": "首先，讓我向你們說聲感謝。\\n謝謝你們的幫助。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0006",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'm Prince Euden,\\nseventh scion of the Kingdom of Alberia.",
+        "ja_jp": "おれはユーディル。\\nアルベリアの<ruby><rb>第七位王子</rb><rt>だいなないおうじ</rt></ruby>だ。",
+        "zh_cn": "我叫尤蒂尔，\\n是阿尔贝里亚的第七王子。",
+        "zh_tw": "我是尤帝爾。\\n阿爾貝利亞的第七王子。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0007",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Wait, so you're PRINCE-prince?! Like,\\nthe literal son of a king? Or is it more\\nlike a weird detective prince thing?",
+        "ja_jp": "お、<ruby><rb>王子</rb><rt>おうじ</rt></ruby>!?　<ruby><rb>王子</rb><rt>おうじ</rt></ruby>ってその…\\n<ruby><rb>王様</rb><rt>おうさま</rt></ruby>の<ruby><rb>子供</rb><rt>こども</rt></ruby>の<ruby><rb>王子様</rb><rt>おうじさま</rt></ruby>…？\\n<ruby><rb>探偵</rb><rt>たんてい</rt></ruby>の…とかじゃなくて？",
+        "zh_cn": "王、王子！？王子是说……\\n国王子嗣的那个王子？\\n而不是……侦探什么的？",
+        "zh_tw": "王、王子！？你說的王子是那個……\\n國王的兒子嗎……？\\n不是什麼……偵探王子之類的？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0008",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "I dunno what that's even supposed to\\nmean, but yeah, he's the actual son of a\\nking. Doesn't really look the part, I know.",
+        "ja_jp": "そうだぜ。ま、それっぽく<ruby><rb>見</rb><rt>み</rt></ruby>えないから\\n<ruby><rb>驚</rb><rt>おどろ</rt></ruby>くのは<ruby><rb>無理</rb><rt>むり</rt></ruby>ないけどな。",
+        "zh_cn": "是啊。不过他看起来不太像，\\n也难怪你们会惊讶。",
+        "zh_tw": "沒有錯。不過，因為他看起來很不像，\\n也難怪妳會那麼吃驚。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0009",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Oh, I'm Luca, by the way. I'm a sylvan,\\nin case that ain't obvious.",
+        "ja_jp": "オレはリュカってんだ。\\n<ruby><rb>見</rb><rt>み</rt></ruby>ての<ruby><rb>通</rb><rt>とお</rt></ruby>りフォレスティアだ。",
+        "zh_cn": "我叫卢卡。\\n如你们所见，是个森隐族。",
+        "zh_tw": "我叫做琉卡。\\n如你們所見，是佛萊斯提亞。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0010",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "And I'M Notte the amazing faerie!",
+        "ja_jp": "わたしはナーム！　<ruby><rb>妖精</rb><rt>ようせい</rt></ruby>だよ！",
+        "zh_cn": "我叫纳姆！是精灵哦！",
+        "zh_tw": "我叫那姆！是個妖精唷！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0011",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "So we got a prince, a faerie, and a guy\\nwith bunny ears that look awfully real...\\nDoes all of that mean...",
+        "ja_jp": "<ruby><rb>王子様</rb><rt>おうじさま</rt></ruby>に<ruby><rb>妖精</rb><rt>ようせい</rt></ruby>…ウサ<ruby><rb>耳</rb><rt>みみ</rt></ruby>の<ruby><rb>人</rb><rt>ひと</rt></ruby>も\\n<ruby><rb>作</rb><rt>つく</rt></ruby>り<ruby><rb>物</rb><rt>もの</rt></ruby>ってわけじゃなさそうだし…\\nこれって、やっぱり…。",
+        "zh_cn": "又是王子又是精灵的……\\n那个人的兔耳看起来也不假……\\n这难道真是……",
+        "zh_tw": "王子、妖精……還有兔耳的人，\\n大家看起來都不像是假扮的……\\n所以說，果然……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0012",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "That we're in a different world?\\nIt seems so. And a fantasy-flavored\\none, at that.",
+        "ja_jp": "ああ…ワガハイたちの<ruby><rb>知</rb><rt>し</rt></ruby>る<ruby><rb>異世界</rb><rt>いせかい</rt></ruby>とは\\nまったく<ruby><rb>違</rb><rt>ちが</rt></ruby>う<ruby><rb>異世界</rb><rt>いせかい</rt></ruby>…\\nファンタジー<ruby><rb>世界</rb><rt>せかい</rt></ruby>ってやつだな。",
+        "zh_cn": "嗯……这是与吾辈们\\n所知道的世界不同的异世界……\\n看来是那种魔幻风的世界啊。",
+        "zh_tw": "嗯……這裡和吾輩等人所知道的異世界\\n是完全不同的異世界……\\n也就是所謂的幻想世界吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0013",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "*sigh* And here I thought nothing could\\nsurprise me anymore...",
+        "ja_jp": "…もう、ちょっとやそっとのことじゃ\\n<ruby><rb>驚</rb><rt>おどろ</rt></ruby>かないと<ruby><rb>思</rb><rt>おも</rt></ruby>ってたけど…\\nこんな<ruby><rb>所</rb><rt>ところ</rt></ruby>に<ruby><rb>来</rb><rt>く</rt></ruby>るなんて…",
+        "zh_cn": "我本以为自己不会\\n再因为一点小事而惊讶……\\n但没想到会来到这种地方……",
+        "zh_tw": "……雖然我已經不會因為\\n一點小事情感到驚訝了……\\n但真想不到會來到這種地方……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0014",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Still, princes always have great intel,\\nso it's a good thing we ran into this one.\\nJoker always has the luck of the draw!",
+        "ja_jp": "だが、<ruby><rb>王子</rb><rt>おうじ</rt></ruby>に<ruby><rb>会</rb><rt>あ</rt></ruby>えたのは<ruby><rb>運</rb><rt>うん</rt></ruby>がいいぜ。\\n<ruby><rb>色々</rb><rt>いろいろ</rt></ruby>と<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>が<ruby><rb>聞</rb><rt>き</rt></ruby>けそうだ。\\n<ruby><rb>相変</rb><rt>あいか</rt></ruby>わらずジョーカーは<ruby><rb>引</rb><rt>ひ</rt></ruby>きが<ruby><rb>強</rb><rt>つよ</rt></ruby>いな。",
+        "zh_cn": "不过，能遇到王子还真幸运。\\n看来能获得各种情报了。\\nJOKER的运气还是这么好啊。",
+        "zh_tw": "不過，能遇到王子真是運氣不錯呢。\\n感覺可以打聽到各種情報。\\nJOKER還是老樣子，運氣很好耶。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0015",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You all seem as though you have valuable\\ninformation as well. What do you think\\nabout coming back to the Halidom with\\nus so we can share what we know?",
+        "ja_jp": "なんだかきみたちにも<ruby><rb>事情</rb><rt>じじょう</rt></ruby>がありそう\\nだね……おれも<ruby><rb>聞</rb><rt>き</rt></ruby>きたいことがあるし、\\nひとまず<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>に<ruby><rb>来</rb><rt>こ</rt></ruby>ないか？",
+        "zh_cn": "看来你们那边也有情况啊……\\n正好我也有事想问，\\n总之先来圣城怎么样？",
+        "zh_tw": "看來你們也是遇上了一些事情呢……\\n我也有些事情想問，\\n要不要先來聖城一趟呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0016",
+      "book": ""
+    },
+    {
+      "icon": "110380_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "What's a Halidom?",
+        "ja_jp": "セージョー？\\nセージョーってなんだ？",
+        "zh_cn": "圣城？\\n圣城是什么？",
+        "zh_tw": "聖城？\\n聖城是什麼？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0017",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "That's our castle. It's smack in the middle\\nof a humongo forest called the Mistholt.",
+        "ja_jp": "わたしたちが<ruby><rb>住</rb><rt>す</rt></ruby>んでいるお<ruby><rb>城</rb><rt>しろ</rt></ruby>だよ。\\n<ruby><rb>霧</rb><rt>きり</rt></ruby>の<ruby><rb>森</rb><rt>もり</rt></ruby>って<ruby><rb>呼</rb><rt>よ</rt></ruby>ばれてる<ruby><rb>森</rb><rt>もり</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>にあるの。",
+        "zh_cn": "是我们居住的城堡。\\n在一个叫迷雾森林的地方。",
+        "zh_tw": "是我們居住的城堡喔。\\n它就在迷霧森林的裡面。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0018",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Wait, you have a castle? A CASTLE?!\\nMan, I wanna be royalty sooo bad...",
+        "ja_jp": "お<ruby><rb>城</rb><rt>しろ</rt></ruby>…さすが<ruby><rb>王子様</rb><rt>おうじさま</rt></ruby>…。",
+        "zh_cn": "城堡……真不愧是王子……",
+        "zh_tw": "城堡……真不愧是王子……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0019",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "What do you say, Joker? I mean,\\nwe only just met these guys, so it could\\nall be some sort of elaborate trap.",
+        "ja_jp": "どうする、ジョーカー？\\nまだ<ruby><rb>会</rb><rt>あ</rt></ruby>ったばかりだし、\\nもし<ruby><rb>罠</rb><rt>わな</rt></ruby>とかだったら…",
+        "zh_cn": "JOKER，要怎么办？\\n毕竟才刚认识，\\n万一这是个圈套……",
+        "zh_tw": "怎麼辦，JOKER？\\n吾輩等人也才剛認識對方，\\n如果是陷阱的話……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0020",
+      "book": ""
+    },
+    {
+      "icon": "110377_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "I think we can trust them.",
+        "ja_jp": "いや…、たぶん<ruby><rb>彼</rb><rt>かれ</rt></ruby>らは<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>だ。",
+        "zh_cn": "不……这帮人应该没问题。",
+        "zh_tw": "不……我覺得他們沒問題。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0021",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'm grateful for that, er...",
+        "ja_jp": "<ruby><rb>信</rb><rt>しん</rt></ruby>じてくれて<ruby><rb>嬉</rb><rt>うれ</rt></ruby>しいよ。\\nえっと……。",
+        "zh_cn": "谢谢你愿意相信我们。\\n唔……",
+        "zh_tw": "很高興你能相信我們。\\n那個……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0022",
+      "book": ""
+    },
+    {
+      "icon": "110377_02",
+      "name": {
+        "en_us": "Joker",
+        "ja_jp": "ジョーカー",
+        "zh_cn": "JOKER",
+        "zh_tw": "JOKER"
+      },
+      "context": {
+        "en_us": "Joker.",
+        "ja_jp": "『ジョーカー』だ。",
+        "zh_cn": "我叫JOKER。",
+        "zh_tw": "我是『JOKER』。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0023",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Joker it is, then. Thank you.",
+        "ja_jp": "ありがとう、ジョーカー。",
+        "zh_cn": "谢谢你，JOKER。",
+        "zh_tw": "謝謝你，JOKER。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0024",
+      "book": ""
+    },
+    {
+      "icon": "110380_01",
+      "name": {
+        "en_us": "Sophie",
+        "ja_jp": "ソフィー",
+        "zh_cn": "SOPHIE",
+        "zh_tw": "SOPHIE"
+      },
+      "context": {
+        "en_us": "I'm humanity's companion, Sophie.\\nI'm ready to help anytime you have\\na problem.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>良</rb><rt>よ</rt></ruby>き<ruby><rb>友人</rb><rt>ゆうじん</rt></ruby>、『ソフィー』だ。\\n<ruby><rb>困</rb><rt>こま</rt></ruby>っているなら<ruby><rb>役</rb><rt>やく</rt></ruby>に<ruby><rb>立</rb><rt>た</rt></ruby>つぞ。",
+        "zh_cn": "我是人类的好朋友SOPHIE。\\n如果你们遇到什么困难，\\n我会帮助你们。",
+        "zh_tw": "我是人類的好朋友，『SOPHIE』。\\n有困難的話我可以幫忙喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0025",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "Mona",
+        "ja_jp": "モナ",
+        "zh_cn": "MONA",
+        "zh_tw": "MONA"
+      },
+      "context": {
+        "en_us": "You can call me Mona.",
+        "ja_jp": "ワガハイは『モナ』だ。",
+        "zh_cn": "吾辈叫MONA。",
+        "zh_tw": "吾輩是『MONA』。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0026",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "I've met folks from a lot of different races,\\nbut I can safely say you're my first tanuki.",
+        "ja_jp": "いろんな<ruby><rb>種族</rb><rt>しゅぞく</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>てきたけど、\\nタヌキは<ruby><rb>初</rb><rt>はじ</rt></ruby>めてだな。",
+        "zh_cn": "虽然我见过各种各样的种族，\\n但狸猫还是头一次见。",
+        "zh_tw": "雖然我見過了各個種族，\\n但還是第一次見到狸貓呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0027",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "Mona",
+        "ja_jp": "モナ",
+        "zh_cn": "MONA",
+        "zh_tw": "MONA"
+      },
+      "context": {
+        "en_us": "I'm not a tanuki! I'm a cat!",
+        "ja_jp": "タヌキじゃねーよ、<ruby><rb>猫</rb><rt>ねこ</rt></ruby>だよ！",
+        "zh_cn": "你才是狸猫呢！\\n吾辈可是猫！",
+        "zh_tw": "才不是狸貓，是貓！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0028",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "Mona",
+        "ja_jp": "モナ",
+        "zh_cn": "MONA",
+        "zh_tw": "MONA"
+      },
+      "context": {
+        "en_us": "Wait, no! I'm NOT a cat!",
+        "ja_jp": "…いや、<ruby><rb>猫</rb><rt>ねこ</rt></ruby>じゃねーよ！",
+        "zh_cn": "不对……吾辈可不是猫！",
+        "zh_tw": "……不，吾輩不是貓啦！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0029",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Uhhh...?",
+        "ja_jp": "どっちだよ……。",
+        "zh_cn": "到底是不是猫啊……",
+        "zh_tw": "到底是不是啦……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0030",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "Panther",
+        "ja_jp": "パンサー",
+        "zh_cn": "PANTHER",
+        "zh_tw": "PANTHER"
+      },
+      "context": {
+        "en_us": "And I'm Panther.\\nNice to meet you!",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>は『パンサー』。よろしくね。",
+        "zh_cn": "我叫PANTHER，请多关照。",
+        "zh_tw": "我是『PANTHER』，請多指教。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0031",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "Panther",
+        "ja_jp": "パンサー",
+        "zh_cn": "PANTHER",
+        "zh_tw": "PANTHER"
+      },
+      "context": {
+        "en_us": "This isn't the whole team, but we kinda got\\nsplit up. I hope everyone else is okay...",
+        "ja_jp": "<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>は<ruby><rb>他</rb><rt>ほか</rt></ruby>にも<ruby><rb>仲間</rb><rt>なかま</rt></ruby>がいるんだけど、\\n<ruby><rb>今</rb><rt>いま</rt></ruby>はちょっとはぐれちゃってて…\\nみんな、<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>かな？",
+        "zh_cn": "我们本来还有其他伙伴，\\n但是现在都走散了……\\n也不知道大家怎么样了。",
+        "zh_tw": "其實原本還有其他夥伴，\\n但現在和他們走散了……\\n不知道他們是不是都平安。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0032",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "Mona",
+        "ja_jp": "モナ",
+        "zh_cn": "MONA",
+        "zh_tw": "MONA"
+      },
+      "context": {
+        "en_us": "I'm worried about them too, but for now,\\nlet's just focus on what's in front of us.",
+        "ja_jp": "はぐれちまった<ruby><rb>仲間</rb><rt>なかま</rt></ruby>のことも<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>だが、\\n<ruby><rb>今</rb><rt>いま</rt></ruby>は<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>の<ruby><rb>整理</rb><rt>せいり</rt></ruby>が<ruby><rb>先決</rb><rt>せんけつ</rt></ruby>だ。",
+        "zh_cn": "虽然很担心走散的伙伴们，\\n但还是先梳理一下\\n眼下的情况吧。",
+        "zh_tw": "雖然吾輩也很擔心走散的夥伴們，\\n但是現在應該先釐清狀況。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0033",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "Mona",
+        "ja_jp": "モナ",
+        "zh_cn": "MONA",
+        "zh_tw": "MONA"
+      },
+      "context": {
+        "en_us": "We don't know anything about this world,\\nso gathering intel is priority number one.",
+        "ja_jp": "なにしろワガハイたちは\\nこの<ruby><rb>世界</rb><rt>せかい</rt></ruby>のことを<ruby><rb>何</rb><rt>なに</rt></ruby>も<ruby><rb>知</rb><rt>し</rt></ruby>らない。\\nまずは<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>を<ruby><rb>集</rb><rt>あつ</rt></ruby>めねえと…",
+        "zh_cn": "因为吾辈们\\n对这个世界一无所知。\\n得先收集情报才行……",
+        "zh_tw": "畢竟吾輩等人\\n對這個世界是一無所知。\\n所以必須先來收集情報……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0034",
+      "book": ""
+    },
+    {
+      "icon": "110377_02",
+      "name": {
+        "en_us": "Joker",
+        "ja_jp": "ジョーカー",
+        "zh_cn": "JOKER",
+        "zh_tw": "JOKER"
+      },
+      "context": {
+        "en_us": "And we'll need friends for that.\\nLet's head to their castle.",
+        "ja_jp": "そのためにも<ruby><rb>協力者</rb><rt>きょうりょくしゃ</rt></ruby>は<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>だ。\\n<ruby><rb>行</rb><rt>い</rt></ruby>こう、<ruby><rb>彼</rb><rt>かれ</rt></ruby>らの<ruby><rb>城</rb><rt>しろ</rt></ruby>――<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>へ。",
+        "zh_cn": "为此我们需要合作者。\\n走吧，去他们的城堡——圣城。",
+        "zh_tw": "為此我們需要協助者。\\n走吧，到他們的城堡──聖城去。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0035",
+      "book": ""
+    },
+    {
+      "icon": "110377_02",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "A few hours later, in the Halidom mess hall...",
+        "ja_jp": "<ruby><rb>数時間後</rb><rt>すうじかんご</rt></ruby>\\n<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>の<ruby><rb>食堂</rb><rt>しょくどう</rt></ruby>",
+        "zh_cn": "几小时后\\n圣城食堂",
+        "zh_tw": "幾小時後\\n聖城的食堂"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "While I still lack a complete picture, I am\\nbeginning to grasp the basic situation.",
+        "ja_jp": "なるほど……<ruby><rb>十分</rb><rt>じゅうぶん</rt></ruby>ではないが、\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>にもある<ruby><rb>程度</rb><rt>ていど</rt></ruby>は<ruby><rb>理解</rb><rt>りかい</rt></ruby>できた。",
+        "zh_cn": "原来如此……\\n虽然还没有完全理解，\\n但我已经了解了个大概。",
+        "zh_tw": "原來如此……\\n雖然沒有到完全了解，\\n但我多少算是聽懂了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0036",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Jails are alternate worlds created by\\npeople's hearts, which are ruled over by a\\nMonarch. But Shadows, on the other hand,\\nare formed from a subconscious ego.",
+        "ja_jp": "<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>心</rb><rt>こころ</rt></ruby>が<ruby><rb>生</rb><rt>う</rt></ruby>み<ruby><rb>出</rb><rt>だ</rt></ruby>す<ruby><rb>異世界</rb><rt>いせかい</rt></ruby>『ジェイル』。\\nそこを<ruby><rb>支配</rb><rt>しはい</rt></ruby>する『<ruby><rb>王</rb><rt>キング</rt></ruby>』に、<ruby><rb>無意識</rb><rt>むいしき</rt></ruby>に<ruby><rb>存在</rb><rt>そんざい</rt></ruby>\\nするもう<ruby><rb>1人</rb><rt>ひとり</rt></ruby>の<ruby><rb>自分</rb><rt>じぶん</rt></ruby>『シャドウ』……。",
+        "zh_cn": "人内心产生的异境叫作“心牢”。\\n“心牢”的统治者叫“王”，而人类\\n潜意识中的另一个自我则是“暗影”……",
+        "zh_tw": "『監獄』是由人類內心產生的異世界，\\n而支配著監獄的『王』，還有存在於\\n潛意識中的另一個自我，『陰影』……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0037",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Monarchs seize the Desires of any who\\nwander into their Jail, permitting them to\\nturn such people into their puppets.",
+        "ja_jp": "<ruby><rb>王</rb><rt>キング</rt></ruby>はジェイルに<ruby><rb>迷</rb><rt>まよ</rt></ruby>い<ruby><rb>込</rb><rt>こ</rt></ruby>んだ<ruby><rb>人々</rb><rt>ひとびと</rt></ruby>の\\nシャドウから『ネガイ』を<ruby><rb>奪</rb><rt>うば</rt></ruby>うことで、\\n<ruby><rb>本人</rb><rt>ほんにん</rt></ruby>を<ruby><rb>傀儡</rb><rt>かいらい</rt></ruby>にすることができる。",
+        "zh_cn": "误入心牢的人类\\n一旦被王夺走了“愿望”，\\n就会变成王的傀儡。",
+        "zh_tw": "王從誤入監獄的人們之陰影中\\n奪走『願望』後，\\n就能使本體變為傀儡。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0038",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "And you Phantom Thieves fight against\\nMonarchs and Shadows using Personas,\\nwhich are the power of the heart.",
+        "ja_jp": "そして、あなた<ruby><rb>方</rb><rt>がた</rt></ruby>『<ruby><rb>心</rb><rt>こころ</rt></ruby>の<ruby><rb>怪盗</rb><rt>かいとう</rt></ruby><ruby><rb>団</rb><rt>だん</rt></ruby>』は\\nそんな<ruby><rb>王</rb><rt>キング</rt></ruby>やシャドウに<ruby><rb>対抗</rb><rt>たいこう</rt></ruby>するため\\n<ruby><rb>心</rb><rt>こころ</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>『ペルソナ』で<ruby><rb>戦</rb><rt>たたか</rt></ruby>っている、と。",
+        "zh_cn": "而你们“心之怪盗团”\\n则通过心之力“人格面具”\\n对抗王与暗影。",
+        "zh_tw": "然後，你們『心之怪盜團』\\n則是以心之力『人格面具』\\n來與王以及陰影戰鬥，是吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0039",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "That's the thing Joker busted out!",
+        "ja_jp": "ジョーカーが<ruby><rb>出</rb><rt>だ</rt></ruby>してたアレな。",
+        "zh_cn": "就是JOKER\\n召唤出来的那个啊。",
+        "zh_tw": "就是JOKER剛才放出來的那個啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0040",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "Panther",
+        "ja_jp": "パンサー",
+        "zh_cn": "PANTHER",
+        "zh_tw": "PANTHER"
+      },
+      "context": {
+        "en_us": "You got it! We're on a whirlwind tour to\\ntake down Jails and make the world a\\nbetter place with our Personas.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>たちは、<ruby><rb>各地</rb><rt>かくち</rt></ruby>にあるジェイルを<ruby><rb>巡</rb><rt>めぐ</rt></ruby>って\\nペルソナで<ruby><rb>世直</rb><rt>よなお</rt></ruby>しする<ruby><rb>旅</rb><rt>たび</rt></ruby>をしてたんだ。",
+        "zh_cn": "我们利用人格面具的力量\\n奔走在各地的心牢之间\\n行侠仗义。",
+        "zh_tw": "我們在旅程中找尋各地的監獄，\\n並利用人格面具來改善世界。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0041",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "Panther",
+        "ja_jp": "パンサー",
+        "zh_cn": "PANTHER",
+        "zh_tw": "PANTHER"
+      },
+      "context": {
+        "en_us": "But somehow we wound up in an alternate\\nworld completely DIFFERENT from a Jail...\\nHey, you think maybe the others are here?",
+        "ja_jp": "でもまさか、ジェイル<ruby><rb>以外</rb><rt>いがい</rt></ruby>の<ruby><rb>異世界</rb><rt>いせかい</rt></ruby>に\\n<ruby><rb>来</rb><rt>き</rt></ruby>ちゃうなんて…。<ruby><rb>他</rb><rt>ほか</rt></ruby>のみんなも\\nこの<ruby><rb>世界</rb><rt>せかい</rt></ruby>のどこかにいるのかな？",
+        "zh_cn": "但没想到会来到心牢以外的\\n异世界……不知道其他的伙伴们\\n是不是也在这个世界的某个角落。",
+        "zh_tw": "但是沒想到居然會來到\\n監獄以外的異世界……其他人\\n不知道是不是也在這世界的某處？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0042",
+      "book": ""
+    },
+    {
+      "icon": "110380_01",
+      "name": {
+        "en_us": "Sophie",
+        "ja_jp": "ソフィー",
+        "zh_cn": "SOPHIE",
+        "zh_tw": "SOPHIE"
+      },
+      "context": {
+        "en_us": "I'm pretty sure we're currently the only\\nPhantom Thieves in this particular world.",
+        "ja_jp": "たぶん、<ruby><rb>今</rb><rt>いま</rt></ruby>この<ruby><rb>世界</rb><rt>せかい</rt></ruby>にいる<ruby><rb>心</rb><rt>こころ</rt></ruby>の<ruby><rb>怪盗</rb><rt>かいとう</rt></ruby><ruby><rb>団</rb><rt>だん</rt></ruby>は\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>たちだけだぞ。",
+        "zh_cn": "心之怪盗团的成员中\\n应该只有我们几个\\n来到了这个世界。",
+        "zh_tw": "現在心之怪盜團的成員\\n大概只有我們幾個在這世界。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0043",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "Panther",
+        "ja_jp": "パンサー",
+        "zh_cn": "PANTHER",
+        "zh_tw": "PANTHER"
+      },
+      "context": {
+        "en_us": "Wait, you can tell?!",
+        "ja_jp": "わかるの!?",
+        "zh_cn": "你怎么知道！？",
+        "zh_tw": "有辦法知道嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0044",
+      "book": ""
+    },
+    {
+      "icon": "110380_01",
+      "name": {
+        "en_us": "Sophie",
+        "ja_jp": "ソフィー",
+        "zh_cn": "SOPHIE",
+        "zh_tw": "SOPHIE"
+      },
+      "context": {
+        "en_us": "We got separated while warping\\nfrom one Jail to another.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>たちはジェイルから<ruby><rb>他</rb><rt>ほか</rt></ruby>のジェイルへ\\nワープしてる<ruby><rb>最中</rb><rt>さいちゅう</rt></ruby>にはぐれた。",
+        "zh_cn": "我们是在心牢间的\\n传送中走散的。",
+        "zh_tw": "我們是在監獄與監獄間的移動中\\n和他們走散的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0045",
+      "book": ""
+    },
+    {
+      "icon": "110380_01",
+      "name": {
+        "en_us": "Sophie",
+        "ja_jp": "ソフィー",
+        "zh_cn": "SOPHIE",
+        "zh_tw": "SOPHIE"
+      },
+      "context": {
+        "en_us": "I remember the scent of an unfamiliar Jail\\nwafting over me. It was that smell that\\nswallowed us up.",
+        "ja_jp": "あの<ruby><rb>時</rb><rt>とき</rt></ruby>、<ruby><rb>突然</rb><rt>とつぜん</rt></ruby><ruby><rb>知</rb><rt>し</rt></ruby>らないジェイルの<ruby><rb>匂</rb><rt>にお</rt></ruby>いが\\nぐわーって<ruby><rb>挟</rb><rt>はさ</rt></ruby>まってきたのを<ruby><rb>覚</rb><rt>おぼ</rt></ruby>えてる。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>たちはその<ruby><rb>匂</rb><rt>にお</rt></ruby>いに<ruby><rb>呑</rb><rt>の</rt></ruby>み<ruby><rb>込</rb><rt>こ</rt></ruby>まれたんだ。",
+        "zh_cn": "记得当时突然传来了\\n一股蛮横的心牢气息，\\n而我们正是被那股气息所吞噬。",
+        "zh_tw": "我記得當時突然有股奇怪的\\n監獄氣味「轟轟──」地摻雜了進來。\\n而我們就是被那氣味給吞沒了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0046",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "Mona",
+        "ja_jp": "モナ",
+        "zh_cn": "MONA",
+        "zh_tw": "MONA"
+      },
+      "context": {
+        "en_us": "But the others weren't, so they're okay?",
+        "ja_jp": "<ruby><rb>他</rb><rt>ほか</rt></ruby>のミンナはその<ruby><rb>匂</rb><rt>にお</rt></ruby>いに<ruby><rb>呑</rb><rt>の</rt></ruby>み<ruby><rb>込</rb><rt>こ</rt></ruby>まれて\\nいなかったから<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>だ、ってことか。",
+        "zh_cn": "你是说其他人\\n没有被那股气息所吞噬，\\n所以现在很安全？",
+        "zh_tw": "也就是說，\\n其他人沒有被那股氣味吞沒，\\n所以沒事的意思吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0047",
+      "book": ""
+    },
+    {
+      "icon": "110380_01",
+      "name": {
+        "en_us": "Sophie",
+        "ja_jp": "ソフィー",
+        "zh_cn": "SOPHIE",
+        "zh_tw": "SOPHIE"
+      },
+      "context": {
+        "en_us": "Right. Skull and the others who weren't\\nblocked by that smell should have arrived\\nin the Shibuya Jail as planned.",
+        "ja_jp": "ああ。<ruby><rb>匂</rb><rt>にお</rt></ruby>いに<ruby><rb>移動</rb><rt>いどう</rt></ruby>を<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>されなかった\\nスカルたちは、<ruby><rb>問題</rb><rt>もんだい</rt></ruby>なく<ruby><rb>渋谷</rb><rt>しぶや</rt></ruby>ジェイルに\\n<ruby><rb>到着</rb><rt>とうちゃく</rt></ruby>できてるはずだ。",
+        "zh_cn": "嗯。移动途中没有被气息\\n所妨碍的SKULL他们\\n应该已经顺利抵达涩谷心牢。",
+        "zh_tw": "嗯。SKULL他們沒有被那氣味\\n阻斷移動，所以應該是有順利地\\n抵達澀谷監獄。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0048",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Can't say I followed any'a that, but so long\\nas yer friends are safe, that's one less\\nthing for us to be worryin' about.",
+        "ja_jp": "よくわからんが、<ruby><rb>良</rb><rt>よ</rt></ruby>かったじゃねえか。\\nあんたらの<ruby><rb>仲間</rb><rt>なかま</rt></ruby>が<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>だってんなら、\\n<ruby><rb>解決</rb><rt>かいけつ</rt></ruby>すべき<ruby><rb>問題</rb><rt>もんだい</rt></ruby>は1つ<ruby><rb>減</rb><rt>へ</rt></ruby>ったわけだ。",
+        "zh_cn": "虽然我不太懂，但这不是很好吗？\\n既然你们的伙伴没事，\\n就少了一个需要解决的问题。",
+        "zh_tw": "雖然我聽不是很懂，但太好了對吧？\\n既然你們的夥伴平安無事，\\n那要解決的事就少一件了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0049",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "Mona",
+        "ja_jp": "モナ",
+        "zh_cn": "MONA",
+        "zh_tw": "MONA"
+      },
+      "context": {
+        "en_us": "Which leaves us with two issues:\\nTaking care of the Jail in this world,\\nand figuring out how we get back\\nto our own.",
+        "ja_jp": "<ruby><rb>残</rb><rt>のこ</rt></ruby>る<ruby><rb>問題</rb><rt>もんだい</rt></ruby>は、この<ruby><rb>世界</rb><rt>せかい</rt></ruby>のジェイル…\\nそして、<ruby><rb>元</rb><rt>もと</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>に<ruby><rb>戻</rb><rt>もど</rt></ruby>る<ruby><rb>方法</rb><rt>ほうほう</rt></ruby>だな。",
+        "zh_cn": "剩下的问题，\\n就是这个世界的心牢……\\n还有回到原本世界的办法。",
+        "zh_tw": "剩下的問題，\\n就是這個世界的監獄……\\n還有回到原本世界的方法。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0050",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "Mona",
+        "ja_jp": "モナ",
+        "zh_cn": "MONA",
+        "zh_tw": "MONA"
+      },
+      "context": {
+        "en_us": "We'll just have to hope that this Jail\\nconnects to another one we recognize.",
+        "ja_jp": "どこかに<ruby><rb>他</rb><rt>ほか</rt></ruby>のジェイルと<ruby><rb>繋</rb><rt>つな</rt></ruby>がっている\\nところがあればいいんだが…。",
+        "zh_cn": "要是在某处\\n有和其它心牢相连的地方\\n就好说了……",
+        "zh_tw": "如果能找到與其他監獄\\n相連的地方就好了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0051",
+      "book": ""
+    },
+    {
+      "icon": "110380_01",
+      "name": {
+        "en_us": "Sophie",
+        "ja_jp": "ソフィー",
+        "zh_cn": "SOPHIE",
+        "zh_tw": "SOPHIE"
+      },
+      "context": {
+        "en_us": "Actually, I haven't sensed any connections\\nat all yet—I think this world's Jail is\\ngetting in the way somehow.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>のところ、<ruby><rb>他</rb><rt>ほか</rt></ruby>のジェイルとの<ruby><rb>繋</rb><rt>つな</rt></ruby>がりは\\n<ruby><rb>感</rb><rt>かん</rt></ruby>じられない。この<ruby><rb>世界</rb><rt>せかい</rt></ruby>のジェイルに\\n<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>されてる<ruby><rb>感</rb><rt>かん</rt></ruby>じだ…。",
+        "zh_cn": "现在还感觉不到\\n和其它心牢的联系。\\n似乎被这个世界的心牢干扰了……",
+        "zh_tw": "目前沒能感受到與其他\\n監獄之間的連結。\\n感覺是被這世界的監獄所干涉了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0052",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "Panther",
+        "ja_jp": "パンサー",
+        "zh_cn": "PANTHER",
+        "zh_tw": "PANTHER"
+      },
+      "context": {
+        "en_us": "So until we take care of that Jail,\\nthere's no way for us to get home?",
+        "ja_jp": "じゃあ、この<ruby><rb>世界</rb><rt>せかい</rt></ruby>のジェイルを\\nなんとかしないと<ruby><rb>元</rb><rt>もと</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>には\\n<ruby><rb>戻</rb><rt>もど</rt></ruby>れないってこと？",
+        "zh_cn": "也就是说，不想办法处理好\\n这个世界的心牢就没办法\\n回到原本的世界？",
+        "zh_tw": "也就是說，如果不處理掉\\n這個世界的監獄，\\n我們就無法回到原本的世界嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0053",
+      "book": ""
+    },
+    {
+      "icon": "110380_01",
+      "name": {
+        "en_us": "Sophie",
+        "ja_jp": "ソフィー",
+        "zh_cn": "SOPHIE",
+        "zh_tw": "SOPHIE"
+      },
+      "context": {
+        "en_us": "It appears that way.",
+        "ja_jp": "そうなるな。",
+        "zh_cn": "似乎是这样。",
+        "zh_tw": "應該就是那樣了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0054",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "Mona",
+        "ja_jp": "モナ",
+        "zh_cn": "MONA",
+        "zh_tw": "MONA"
+      },
+      "context": {
+        "en_us": "Any guesses as to the Monarch\\nof this world's Jail?",
+        "ja_jp": "なあ、ここのジェイルの<ruby><rb>王</rb><rt>キング</rt></ruby>に\\n<ruby><rb>心当</rb><rt>こころあ</rt></ruby>たりはあるか？",
+        "zh_cn": "你们有没有\\n什么关于这个世界的\\n心牢之王的线索？",
+        "zh_tw": "那個，你們對於這個監獄的王\\n有沒有什麼線索？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0055",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "These Monarchs can manipulate anyone\\nwhose Desire has been seized, correct?",
+        "ja_jp": "その<ruby><rb>王</rb><rt>キング</rt></ruby>というのは、ネガイを<ruby><rb>奪</rb><rt>うば</rt></ruby>った\\n<ruby><rb>相手</rb><rt>あいて</rt></ruby>を<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>思</rb><rt>おも</rt></ruby>い<ruby><rb>通</rb><rt>どお</rt></ruby>りにできるん\\nでしたよね？",
+        "zh_cn": "你说的那个王在夺走愿望之后，\\n能够按自己的意愿\\n操纵愿望的主人对吧？",
+        "zh_tw": "你們說的王，\\n是會使願望被奪走的人\\n變得對自己言聽計從對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0056",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Which means it's GOTTA be Emile!\\nThat's the only reason an entire village\\nwould turn into his fan club overnight.",
+        "ja_jp": "なら、<ruby><rb>王</rb><rt>キング</rt></ruby>はエミュールで<ruby><rb>間違</rb><rt>まちが</rt></ruby>いねえよ。\\n<ruby><rb>操</rb><rt>あやつ</rt></ruby>ってたってんなら、<ruby><rb>村</rb><rt>むら</rt></ruby>の<ruby><rb>人</rb><rt>ひと</rt></ruby>たちから\\n<ruby><rb>変</rb><rt>へん</rt></ruby>に<ruby><rb>支持</rb><rt>しじ</rt></ruby>されてたのも<ruby><rb>納得</rb><rt>なっとく</rt></ruby>がいくしな。",
+        "zh_cn": "那么王一定就是艾缪尔了。\\n既然是操纵，那他得到村民\\n异乎寻常的支持也说得通了。",
+        "zh_tw": "那麼，王一定就是埃米爾啦。\\n如果是被操縱，那村裡的人們\\n會異常地支持他就也很合理了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0057",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Right?! Only a bunch of metaphysical,\\nparanormal brainwashing would make\\nsomebody a fan of THAT loser.",
+        "ja_jp": "だね。あのエミュールが<ruby><rb>人</rb><rt>ひと</rt></ruby>から<ruby><rb>慕</rb><rt>した</rt></ruby>われる\\nなんてフツーじゃありえないもん！",
+        "zh_cn": "是啊。毕竟艾缪尔被他人仰慕\\n这种事一般来说是不可能的！",
+        "zh_tw": "也對。那個埃米爾會受到人們愛戴，\\n這種事情平常才不可能發生！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0058",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "Panther",
+        "ja_jp": "パンサー",
+        "zh_cn": "PANTHER",
+        "zh_tw": "PANTHER"
+      },
+      "context": {
+        "en_us": "Not the most popular guy in town, huh?",
+        "ja_jp": "その、エミュールって<ruby><rb>人</rb><rt>ひと</rt></ruby>…\\nそんなに<ruby><rb>信用</rb><rt>しんよう</rt></ruby>ないの？",
+        "zh_cn": "那个叫艾缪尔的人……\\n就那么不被信赖吗？",
+        "zh_tw": "那個叫做埃米爾的人……\\n信用有這麼差嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0059",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Yeah, unpopular is one word for it—\\nthough ＂scumbag＂ is a better one.",
+        "ja_jp": "<ruby><rb>信用</rb><rt>しんよう</rt></ruby>ないっていうか……\\n<ruby><rb>人</rb><rt>ひと</rt></ruby>として<ruby><rb>最低</rb><rt>さいてい</rt></ruby>なやつだからな。",
+        "zh_cn": "与其说不被信赖……\\n不如说是个人渣。",
+        "zh_tw": "與其說信用差……\\n不如說作為人類他是最垃圾的那種。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0060",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "＂Trash can coward＂ is three words.\\nDoes that count?",
+        "ja_jp": "ああ、<ruby><rb>腰抜</rb><rt>こしぬ</rt></ruby>けのクズ<ruby><rb>野郎</rb><rt>やろう</rt></ruby>だ。",
+        "zh_cn": "对，他就是个胆小的废物。",
+        "zh_tw": "嗯，是個膽小的雜碎沒有錯。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0061",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Just tell it like it is: He's a low-down,\\nconniving, slimy, rotten, pompous little\\njerkfaced WEASEL PERSON!",
+        "ja_jp": "ヒキョウ<ruby><rb>者</rb><rt>もの</rt></ruby>で<ruby><rb>図々</rb><rt>ずうずう</rt></ruby>しくて\\nもうホント<ruby><rb>信</rb><rt>しん</rt></ruby>じらんない！",
+        "zh_cn": "既卑鄙又厚脸皮，\\n让人完全无法信任！",
+        "zh_tw": "又卑鄙又無恥，\\n真不敢相信天底下有那種人！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0062",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "Mona",
+        "ja_jp": "モナ",
+        "zh_cn": "MONA",
+        "zh_tw": "MONA"
+      },
+      "context": {
+        "en_us": "Yikes.",
+        "ja_jp": "ひどい<ruby><rb>言</rb><rt>い</rt></ruby>われようだな…。",
+        "zh_cn": "这么差劲啊……",
+        "zh_tw": "被說得可真慘啊……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0063",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Though it brings me no joy to say such,\\nEmile has failed to live up to the duties\\nof his royal birth. The man is nothing but\\nan endless source of strife and pain.",
+        "ja_jp": "あまり<ruby><rb>言</rb><rt>い</rt></ruby>いたくはないが、エミュールは\\n<ruby><rb>王族</rb><rt>おうぞく</rt></ruby>にあるまじき<ruby><rb>振</rb><rt>ふ</rt></ruby>る<ruby><rb>舞</rb><rt>ま</rt></ruby>いばかりして、\\n<ruby><rb>多</rb><rt>おお</rt></ruby>くの<ruby><rb>人</rb><rt>ひと</rt></ruby>に<ruby><rb>迷惑</rb><rt>めいわく</rt></ruby>をかけている。",
+        "zh_cn": "虽然不想这么说，但艾缪尔总是\\n做出一些王室成员不应有的举动，\\n给许多人都造成了麻烦。",
+        "zh_tw": "雖然我很不想講，但埃米爾\\n他做出了很多王族不應有的行為，\\n因而讓很多人受害。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0064",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Honestly, the thought of him receiving the\\npassionate support of ANYONE—let alone\\nan entire village—sets the mind to reel.",
+        "ja_jp": "<ruby><rb>正直</rb><rt>しょうじき</rt></ruby>、<ruby><rb>彼</rb><rt>かれ</rt></ruby>のような<ruby><rb>者</rb><rt>もの</rt></ruby>が<ruby><rb>民</rb><rt>たみ</rt></ruby>から<ruby><rb>熱狂的</rb><rt>ねっきょうてき</rt></ruby>な\\n<ruby><rb>支持</rb><rt>しじ</rt></ruby>を<ruby><rb>受</rb><rt>う</rt></ruby>けるなど、まるで<ruby><rb>想像</rb><rt>そうぞう</rt></ruby>できん。",
+        "zh_cn": "老实说，我完全\\n无法想象他那样的人\\n会受到民众的狂热追捧。",
+        "zh_tw": "說實在，像他那樣的人\\n會受到人民如此狂熱地支持，\\n簡直是無法想像。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0065",
+      "book": ""
+    },
+    {
+      "icon": "110380_01",
+      "name": {
+        "en_us": "Sophie",
+        "ja_jp": "ソフィー",
+        "zh_cn": "SOPHIE",
+        "zh_tw": "SOPHIE"
+      },
+      "context": {
+        "en_us": "If this Emile is royalty, does he have\\nsome tie to you, Euden?",
+        "ja_jp": "<ruby><rb>王族</rb><rt>おうぞく</rt></ruby>ということは、エミュールと\\nユーディルは<ruby><rb>何</rb><rt>なに</rt></ruby>か<ruby><rb>関係</rb><rt>かんけい</rt></ruby>が\\nあったりするのか？",
+        "zh_cn": "你说他是王室成员，\\n那么他和尤蒂尔\\n是有什么关系的吧？",
+        "zh_tw": "妳說王族，所以埃米爾\\n與尤帝爾\\n有著什麼關聯囉？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0066",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "He's my older brother—though I'm sad to\\nsay we aren't exactly on the best of terms.",
+        "ja_jp": "エミュールはアルベリア<ruby><rb>第六位王子</rb><rt>だいろくいおうじ</rt></ruby>……\\nおれの<ruby><rb>兄</rb><rt>にい</rt></ruby>さんだよ。<ruby><rb>残念</rb><rt>ざんねん</rt></ruby>ながら\\nあまり<ruby><rb>仲良</rb><rt>なかよ</rt></ruby>くはできてないけどね。",
+        "zh_cn": "艾缪尔是阿尔贝里亚第六王子……\\n是我的哥哥。不过很可惜，\\n我们的关系并不怎么好。",
+        "zh_tw": "埃米爾是阿爾貝利亞的第六王子……\\n也就是我的哥哥。不過很遺憾，\\n我和他的關係並沒有很好。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0067",
+      "book": ""
+    },
+    {
+      "icon": "110380_01",
+      "name": {
+        "en_us": "Sophie",
+        "ja_jp": "ソフィー",
+        "zh_cn": "SOPHIE",
+        "zh_tw": "SOPHIE"
+      },
+      "context": {
+        "en_us": "I see. I'm sorry to hear that.",
+        "ja_jp": "<ruby><rb>兄</rb><rt>にい</rt></ruby>さん…？\\n<ruby><rb>兄弟</rb><rt>きょうだい</rt></ruby>なのか。",
+        "zh_cn": "哥哥？\\n你们是兄弟啊。",
+        "zh_tw": "哥哥……？\\n你們是兄弟嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0068",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "Mona",
+        "ja_jp": "モナ",
+        "zh_cn": "MONA",
+        "zh_tw": "MONA"
+      },
+      "context": {
+        "en_us": "In any case, we've got our suspect.",
+        "ja_jp": "まあとにかく、\\nそのエミュールってのが、\\n<ruby><rb>一番</rb><rt>いちばん</rt></ruby><ruby><rb>怪</rb><rt>あや</rt></ruby>しそうだな。",
+        "zh_cn": "先不说这个，\\n总之那个叫艾缪尔的\\n最为可疑。",
+        "zh_tw": "總之，\\n那個叫埃米爾的，\\n目前最可疑呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0069",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "Mona",
+        "ja_jp": "モナ",
+        "zh_cn": "MONA",
+        "zh_tw": "MONA"
+      },
+      "context": {
+        "en_us": "Let's assume Emile is the Monarch,\\nand that he managed to find some way\\nto create a Jail in your world.",
+        "ja_jp": "<ruby><rb>王</rb><rt>キング</rt></ruby>であるエミュールはなんらかの<ruby><rb>方法</rb><rt>ほうほう</rt></ruby>で\\nこの<ruby><rb>世界</rb><rt>せかい</rt></ruby>にジェイルを<ruby><rb>生</rb><rt>う</rt></ruby>み<ruby><rb>出</rb><rt>だ</rt></ruby>した…",
+        "zh_cn": "作为王的艾缪尔用某种方式\\n在这个世界制造了心牢……",
+        "zh_tw": "作為王的埃米爾不知道用了什麼方法\\n讓這世界產生出監獄……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0070",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "That means everyone what gets their\\nDesire seized inside it turns into one of\\nEmile's little stooges.",
+        "ja_jp": "そこでネガイを<ruby><rb>奪</rb><rt>うば</rt></ruby>われちまったやつらは\\nみんなエミュールの<ruby><rb>熱狂的</rb><rt>ねっきょうてき</rt></ruby>な<ruby><rb>支持者</rb><rt>しじしゃ</rt></ruby>に\\n<ruby><rb>変</rb><rt>か</rt></ruby>えられちまう……ってわけか。",
+        "zh_cn": "然后……在心牢被夺走\\n愿望的人们都被变成了\\n艾缪尔的狂热支持者。",
+        "zh_tw": "然後在監獄中被奪走願望的人們，\\n都變成了埃米爾的狂熱支持者……\\n是這樣吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0071",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "So how do we bring them to their senses?",
+        "ja_jp": "<ruby><rb>彼</rb><rt>かれ</rt></ruby>らを<ruby><rb>元</rb><rt>もと</rt></ruby>に<ruby><rb>戻</rb><rt>もど</rt></ruby>す<ruby><rb>方法</rb><rt>ほうほう</rt></ruby>はないのか？",
+        "zh_cn": "没有能让他们\\n恢复原状的办法吗？",
+        "zh_tw": "有辦法把他們變回原狀嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0072",
+      "book": ""
+    },
+    {
+      "icon": "110377_02",
+      "name": {
+        "en_us": "Joker",
+        "ja_jp": "ジョーカー",
+        "zh_cn": "JOKER",
+        "zh_tw": "JOKER"
+      },
+      "context": {
+        "en_us": "By taking back their Desires.",
+        "ja_jp": "ネガイを<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>返</rb><rt>かえ</rt></ruby>す。",
+        "zh_cn": "夺回愿望。",
+        "zh_tw": "把願望奪回來。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0073",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "Mona",
+        "ja_jp": "モナ",
+        "zh_cn": "MONA",
+        "zh_tw": "MONA"
+      },
+      "context": {
+        "en_us": "Once they get those back, they'll return to\\ntheir old selves and be good as new!",
+        "ja_jp": "ああ。<ruby><rb>奪</rb><rt>うば</rt></ruby>われたネガイを<ruby><rb>返</rb><rt>かえ</rt></ruby>してやれば\\n<ruby><rb>被害者</rb><rt>ひがいしゃ</rt></ruby>はミンナ<ruby><rb>元</rb><rt>もと</rt></ruby>に<ruby><rb>戻</rb><rt>もど</rt></ruby>るはずだ。",
+        "zh_cn": "对，只要归还被夺走的愿望，\\n所有受害者应该就能恢复。",
+        "zh_tw": "嗯。如果把被奪走的願望拿回來，\\n被害者應該就都會恢復原狀。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0074",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "Panther",
+        "ja_jp": "パンサー",
+        "zh_cn": "PANTHER",
+        "zh_tw": "PANTHER"
+      },
+      "context": {
+        "en_us": "C'mon, Joker. Let's help these guys out.",
+        "ja_jp": "…ねえ、ジョーカー。<ruby><rb>私</rb><rt>わたし</rt></ruby>たちにも\\nこの<ruby><rb>世界</rb><rt>せかい</rt></ruby>の<ruby><rb>人</rb><rt>ひと</rt></ruby>たちを<ruby><rb>救</rb><rt>すく</rt></ruby>う<ruby><rb>手助</rb><rt>てだす</rt></ruby>け、\\nできないかな？",
+        "zh_cn": "JOKER……\\n我们能不能也来帮忙\\n拯救这个世界的人们啊？",
+        "zh_tw": "……吶，JOKER。\\n我們能不能也幫助\\n這個世界的人們？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0075",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "Panther",
+        "ja_jp": "パンサー",
+        "zh_cn": "PANTHER",
+        "zh_tw": "PANTHER"
+      },
+      "context": {
+        "en_us": "Taking down Jails is kinda our thing.\\nBesides, it doesn't feel right just sitting by\\nwhile people's Desires are getting stolen.",
+        "ja_jp": "ジェイルのことなら<ruby><rb>他人事</rb><rt>ひとごと</rt></ruby>じゃないし、\\n<ruby><rb>近</rb><rt>ちか</rt></ruby>くでネガイを<ruby><rb>奪</rb><rt>うば</rt></ruby>われてる<ruby><rb>人</rb><rt>ひと</rt></ruby>が<ruby><rb>沢山</rb><rt>たくさん</rt></ruby>\\nいるのに、<ruby><rb>放</rb><rt>ほ</rt></ruby>っとくなんてできないよ。",
+        "zh_cn": "毕竟心牢的事不能袖手旁观，\\n附近又有这么多被夺走愿望的人，\\n我们不能坐视不管。",
+        "zh_tw": "畢竟監獄的事也和我們有關，\\n加上這附近有許多人的願望\\n被奪走了，我沒辦法就這樣不管。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0076",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "Mona",
+        "ja_jp": "モナ",
+        "zh_cn": "MONA",
+        "zh_tw": "MONA"
+      },
+      "context": {
+        "en_us": "AND we owe them for the tasty meal!",
+        "ja_jp": "ああ。うまい<ruby><rb>食事</rb><rt>しょくじ</rt></ruby>を<ruby><rb>振舞</rb><rt>ふるま</rt></ruby>ってもらった\\n<ruby><rb>恩</rb><rt>おん</rt></ruby>もあるしな。",
+        "zh_cn": "嗯。况且受了他们的佳肴款待，\\n这个恩要报嘛。",
+        "zh_tw": "嗯，\\n而且也被招待了豐盛的一餐。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0077",
+      "book": ""
+    },
+    {
+      "icon": "110377_02",
+      "name": {
+        "en_us": "Joker",
+        "ja_jp": "ジョーカー",
+        "zh_cn": "JOKER",
+        "zh_tw": "JOKER"
+      },
+      "context": {
+        "en_us": "In that case, Euden,\\nI'd like to propose a deal.",
+        "ja_jp": "そうだな。\\nユーディル、\\n<ruby><rb>俺</rb><rt>おれ</rt></ruby>たちと<ruby><rb>取引</rb><rt>とりひき</rt></ruby>しないか？",
+        "zh_cn": "说得对。\\n尤蒂尔，\\n要不要和我们做笔交易？",
+        "zh_tw": "說得也是呢。\\n尤帝爾，\\n你願意和我們做個交易嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0078",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Which is?",
+        "ja_jp": "<ruby><rb>取引</rb><rt>とりひき</rt></ruby>？",
+        "zh_cn": "交易？",
+        "zh_tw": "交易？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0079",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "Mona",
+        "ja_jp": "モナ",
+        "zh_cn": "MONA",
+        "zh_tw": "MONA"
+      },
+      "context": {
+        "en_us": "We've got more intel than you when it\\ncomes to Jails and Monarchs, which will\\nbe handy for getting those Desires back.",
+        "ja_jp": "ワガハイたちはジェイルや<ruby><rb>王</rb><rt>キング</rt></ruby>について\\nオマエらより<ruby><rb>詳</rb><rt>くわ</rt></ruby>しい。<ruby><rb>人々</rb><rt>ひとびと</rt></ruby>のネガイを\\n<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>戻</rb><rt>もど</rt></ruby>すなら、<ruby><rb>役</rb><rt>やく</rt></ruby>に<ruby><rb>立</rb><rt>た</rt></ruby>つはずだ。",
+        "zh_cn": "吾辈们比你们更了解心牢和王。\\n如果要夺回人们的愿望，\\n应该会对你们有所帮助。",
+        "zh_tw": "吾輩等人對監獄和王的事情\\n比你們還要清楚。若要奪回\\n人們的願望，應該能幫上忙。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0080",
+      "book": ""
+    },
+    {
+      "icon": "110379_02",
+      "name": {
+        "en_us": "Mona",
+        "ja_jp": "モナ",
+        "zh_cn": "MONA",
+        "zh_tw": "MONA"
+      },
+      "context": {
+        "en_us": "But in exchange, we need your help to get\\nback to our own world. What do you say?\\nPretty sweet terms, if you ask me.",
+        "ja_jp": "その<ruby><rb>代</rb><rt>か</rt></ruby>わりオマエらにはワガハイたちが\\n<ruby><rb>元</rb><rt>もと</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>に<ruby><rb>戻</rb><rt>もど</rt></ruby>る<ruby><rb>手助</rb><rt>てだす</rt></ruby>けをしてほしい…。\\nどうだ？　<ruby><rb>悪</rb><rt>わる</rt></ruby>い<ruby><rb>話</rb><rt>はなし</rt></ruby>じゃないだろ？",
+        "zh_cn": "作为条件，希望你们能帮助\\n吾辈们回到原本的世界……\\n怎么样？这笔交易不亏吧？",
+        "zh_tw": "但相對的，希望你們也能幫助\\n吾輩等人回到原本的世界去……\\n怎麼樣，這提議不差吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0081",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "The terms are more than fair. And besides,\\nEmile is my brother—I can't overlook\\nwhatever trouble he's gotten up to now.",
+        "ja_jp": "……そうだね。おれは<ruby><rb>同</rb><rt>おな</rt></ruby>じ<ruby><rb>王族</rb><rt>おうぞく</rt></ruby>として、\\nエミュールがしている<ruby><rb>悪行</rb><rt>あくぎょう</rt></ruby>を<ruby><rb>見過</rb><rt>みす</rt></ruby>ごす\\nわけにはいかない。",
+        "zh_cn": "有道理……同为王族，\\n我不能眼睁睁地\\n看着他为非作歹。",
+        "zh_tw": "……是啊。同樣身為王族，\\n我也不能對埃米爾的惡行置之不理。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0082",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Phantom Thieves, please lend us your aid\\nin returning the Desires Emile has stolen\\nfrom the people of this land. In exchange,\\nwe'll see you safely back to your world.",
+        "ja_jp": "ネガイを<ruby><rb>奪</rb><rt>うば</rt></ruby>われた<ruby><rb>人々</rb><rt>ひとびと</rt></ruby>を<ruby><rb>救</rb><rt>すく</rt></ruby>うために、\\nきみたち<ruby><rb>心</rb><rt>こころ</rt></ruby>の<ruby><rb>怪盗</rb><rt>かいとう</rt></ruby><ruby><rb>団</rb><rt>だん</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>貸</rb><rt>か</rt></ruby>してくれ。",
+        "zh_cn": "为了拯救那些被夺去愿望的人们，\\n希望你们心之怪盗团能助我一臂之力。",
+        "zh_tw": "為了拯救被奪走願望的人們，\\n請你們心之怪盜團\\n務必助我們一臂之力。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0083",
+      "book": ""
+    },
+    {
+      "icon": "110377_02",
+      "name": {
+        "en_us": "Joker",
+        "ja_jp": "ジョーカー",
+        "zh_cn": "JOKER",
+        "zh_tw": "JOKER"
+      },
+      "context": {
+        "en_us": "That works for us. It's a deal.",
+        "ja_jp": "<ruby><rb>分</rb><rt>わ</rt></ruby>かった。<ruby><rb>取引</rb><rt>とりひき</rt></ruby><ruby><rb>成立</rb><rt>せいりつ</rt></ruby>だ。",
+        "zh_cn": "好，交易成立。",
+        "zh_tw": "了解，那麼交易成立了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0084",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Awww yeah! Now c'mon, let's celebrate by\\nchowin' down! Everyone knows ya can't do\\nany Jail-sneakin' on an empty stomach.",
+        "ja_jp": "よぉし！　それじゃあジェイル<ruby><rb>潜入</rb><rt>せんにゅう</rt></ruby>に\\n<ruby><rb>備</rb><rt>そな</rt></ruby>えて、<ruby><rb>今日</rb><rt>きょう</rt></ruby>はたらふく<ruby><rb>飯</rb><rt>めし</rt></ruby><ruby><rb>食</rb><rt>く</rt></ruby>おうぜ！",
+        "zh_cn": "好！那今天就吃个痛快\\n为潜入心牢做准备吧！",
+        "zh_tw": "好！那麼為了準備潛入監獄，\\n今天就來吃一個超飽吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0085",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "*sigh* You are simply unbelievable...\\nBut very well, I shall bring a few more\\ndishes in from the kitchen—oh, and we\\nwill also have some dessert waiting.",
+        "ja_jp": "ふぅ、<ruby><rb>仕方</rb><rt>しかた</rt></ruby>ありませんね。\\n<ruby><rb>台所</rb><rt>だいどころ</rt></ruby>から<ruby><rb>追加</rb><rt>ついか</rt></ruby>の<ruby><rb>料理</rb><rt>りょうり</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>って<ruby><rb>来</rb><rt>き</rt></ruby>ます。\\nあとでデザートもありますよ。",
+        "zh_cn": "唉，真拿你没办法。\\n我再去厨房拿点料理来。\\n一会儿还有甜点哦。",
+        "zh_tw": "呼，真拿你們沒辦法，\\n我去廚房把追加的料理端來。\\n另外還有甜點喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0086",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "Panther",
+        "ja_jp": "パンサー",
+        "zh_cn": "PANTHER",
+        "zh_tw": "PANTHER"
+      },
+      "context": {
+        "en_us": "Yesss! Fantasy world dessert?!\\nWhat's THAT gonna be like?! ♪",
+        "ja_jp": "やった！　<ruby><rb>異世界</rb><rt>いせかい</rt></ruby>のデザート、\\nどんなのかすっごい<ruby><rb>楽</rb><rt>たの</rt></ruby>しみ♪",
+        "zh_cn": "好耶！好期待异世界的\\n甜点长什么样啊♪",
+        "zh_tw": "太好了！異世界的甜點，\\n好期待會是什麼樣子♪"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0087",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "I'm curious how different the food\\nin your world is from our own.",
+        "ja_jp": "パンサーさんたちの<ruby><rb>世界</rb><rt>せかい</rt></ruby>の<ruby><rb>食事</rb><rt>しょくじ</rt></ruby>は\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>たちの<ruby><rb>世界</rb><rt>せかい</rt></ruby>の<ruby><rb>食事</rb><rt>しょくじ</rt></ruby>と<ruby><rb>違</rb><rt>ちが</rt></ruby>うのですか？\\n<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>興味</rb><rt>きょうみ</rt></ruby>があります。",
+        "zh_cn": "你们世界的食物\\n和我们世界的食物不一样吗？\\n我有些好奇。",
+        "zh_tw": "PANTHER小姐那邊的世界\\n和我們這裡吃的不一樣嗎？\\n我有點感興趣。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0088",
+      "book": ""
+    },
+    {
+      "icon": "110378_02",
+      "name": {
+        "en_us": "Panther",
+        "ja_jp": "パンサー",
+        "zh_cn": "PANTHER",
+        "zh_tw": "PANTHER"
+      },
+      "context": {
+        "en_us": "Well, my absolute FAVORITE thing is...",
+        "ja_jp": "うーん…そうだね。たとえば――。",
+        "zh_cn": "唔……这个嘛，比如……",
+        "zh_tw": "嗯～我想想喔。比方說──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0089",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Good to see everyone getting along.\\nI'm looking forward to working with you,\\nJoker—even if this is all still new to me.",
+        "ja_jp": "どうやら、みんな<ruby><rb>仲良</rb><rt>なかよ</rt></ruby>くやれそうだね。\\nわからないこともたくさんあるけど、\\n<ruby><rb>改</rb><rt>あらた</rt></ruby>めて<ruby><rb>明日</rb><rt>あした</rt></ruby>からよろしく、ジョーカー。",
+        "zh_cn": "看来大家似乎能相处愉快呢。\\n虽然还有很多不懂的事，\\n但明天开始就拜托你啦，JOKER。",
+        "zh_tw": "看來大家能相處得蠻不錯的。\\n雖然還有許多事情我們不清楚，\\n但再次請你們多關照了，JOKER。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0090",
+      "book": ""
+    },
+    {
+      "icon": "110377_02",
+      "name": {
+        "en_us": "Joker",
+        "ja_jp": "ジョーカー",
+        "zh_cn": "JOKER",
+        "zh_tw": "JOKER"
+      },
+      "context": {
+        "en_us": "Same.",
+        "ja_jp": "ああ。よろしく<ruby><rb>頼</rb><rt>たの</rt></ruby>む。",
+        "zh_cn": "嗯，请多关照。",
+        "zh_tw": "嗯，請多指教了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20429_03_0091",
+      "book": ""
+    }
+  ]
 }

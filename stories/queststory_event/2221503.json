@@ -1,844 +1,1615 @@
 {
-    "story_id": "",
-    "story_name": "迎击战～晚夏使者愁纷纷～ 绝望之门由此开启",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "二人在洞窟听夫人道出异端仪式一事，\\n以为找到了真凶便松了一口气。\\n然而，拉托妮一触碰夫人，\\n夫人却变成了奈亚拉托提普。\\n拉托妮认为是自己害死了夫人而绝望。"
-        ]
+  "title": {
+    "en_us": "Drifting Sorrows    The Door to Despair",
+    "ja_jp": "迎撃戦～晩夏の使者、愁然に交わりて～  絶望の扉、此方から開きて",
+    "zh_cn": "迎击战～晚夏使者愁纷纷～  绝望之门由此开启",
+    "zh_tw": "迎擊戰～暮夏使者的憂愁之遇～  絕望之扉，於此處敞開"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "呼……总算甩掉僵尸了。\\n不过真没想到洞窟深处\\n竟然还有这样一个地方。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "这里一看就很可疑……\\n会是夫人的藏身之处吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "不知道……但这里到处\\n都是奇怪的字和画呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "这个魔法阵看起来阴森森的……\\n不过这个奇怪的图案，\\n我好像在哪里见过……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "啊！我想记得这和库格尔他们\\n调查异端图书馆里面的时候\\n看到的魔法阵是同一体系。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "异端图书馆……那难道是……\\n呀啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "你没事吧！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "没事……只是绊到了。\\n这是……书？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [],
-            "speaker_name": "add_book_text",
-            "context": "丽龙之月 〇〇日\\n丈夫去世后过了几天。\\n我至今都无法相信。\\n就做是了一场噩梦一样。\\n一个人太孤独了。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [],
-            "speaker_name": "add_book_text",
-            "context": "军龙之月 ××日\\n我好想他。\\n想他……非常想他！\\n神啊，请让他再次\\n回到我身边吧！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [],
-            "speaker_name": "add_book_text",
-            "context": "雨龙之月 △△日\\n有声音。声音，声音。指引的声音。\\n啊啊。听到了，“还魂法”，的声音。\\n灯笼灯笼灯笼……\\n仪式将在放灯笼那天举行。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [],
-            "speaker_name": "add_book_text",
-            "context": "灼龙之月 〇×日\\n祭典音乐 血肉 宴会\\n祭品来了，灯笼来了来了来了来了\\n啊啊神啊 吾主啊，其名为——",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "日记……看来是已故的班戈\\n他夫人写的呢……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "越往后看，内容越支离破碎……\\n这到底是怎么回事？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "？？？",
-            "context": "啊——啊啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "有、有叫声！\\n从门里面传来的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "我们这就去里面看看吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "不行！门打不开。\\n有什么东西……在阻碍我们！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120144_01"
-            ],
-            "speaker_name": "乌尔塔",
-            "context": "喵嗷嗷嗷！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "乌尔塔？你怎么了……啊！\\n库菈乌，你看！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120040_01"
-            ],
-            "speaker_name": "亡灵",
-            "context": "……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "是人？不，不太对劲……\\n他的身体是透明的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120040_01"
-            ],
-            "speaker_name": "亡灵",
-            "context": "……\\n请救救我妻子。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "刚、刚才那人是……\\n啊！门开了。\\n难道是刚才的亡灵打开的？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "诶？不，虽然那个人的身体\\n是透明的，但是亡灵\\n真的存在吗……不对。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "现在没空考虑这些了……\\n我们快去一探究竟吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120037_01"
-            ],
-            "speaker_name": "夫人",
-            "context": "呜……呜啊啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "这位夫人！她还有气。\\n那就可以用治愈魔法……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120037_01"
-            ],
-            "speaker_name": "夫人",
-            "context": "你、你是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "太好了，你醒了啊！\\n你没事吧？\\n知道发生了什么事吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120037_01"
-            ],
-            "speaker_name": "夫人",
-            "context": "我、我……记得……\\n我为了见到丈夫……\\n举行了还魂仪式……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "还魂仪式？你是指\\n日记里写的“还魂法”吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120037_01"
-            ],
-            "speaker_name": "夫人",
-            "context": "对……是一个神奇的“声音”\\n告诉我的。只要让画着魔法阵的\\n灯笼逆流而行，我丈夫就能复活。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "果然是你做的手脚……\\n可是你为什么会倒在这里？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120037_01"
-            ],
-            "speaker_name": "夫人",
-            "context": "不知道……我只是为了\\n唤回我丈夫，把这一带沉睡的\\n所有魂魄都一起唤醒了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120037_01"
-            ],
-            "speaker_name": "夫人",
-            "context": "那些复苏的魂魄超出了我的控制……\\n我没能找到丈夫的魂魄，\\n还被那些魂魄的呻吟所侵蚀……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120037_01"
-            ],
-            "speaker_name": "夫人",
-            "context": "我正逐渐失去自我……\\n变得面目全非！啊啊……\\n是的……这让我无法忍受……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120037_01"
-            ],
-            "speaker_name": "夫人",
-            "context": "逐渐模糊的意识中，\\n听到那个“声音”说……\\n我的“使者”之力还不够强大……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "“使者”之力……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120037_01"
-            ],
-            "speaker_name": "夫人",
-            "context": "之后我就不记得了……\\n“声音”也……听不见了……\\n声音、声音……指引……我的……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "夫、夫人？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120037_01"
-            ],
-            "speaker_name": "夫人",
-            "context": "嘀嘀咕咕……为什么……神啊……\\n咿咿呀呀呜呜啊啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "夫人……\\n看来不能指望\\n和她继续对话了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "不过，这下事件的元凶\\n也水落石出了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "唔、嗯……\\n是这个人举行了仪式，\\n让灯笼逆水漂流……没错吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "嗯。她是异端信奉者，\\n恶意利用灯笼举行仪式，\\n企图复活已逝的丈夫。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "可是，她为什么\\n要用日出之国的灯笼\\n举行异端仪式呢？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "据说有人会为了更准确地\\n传达祷告而把故人的发丝等遗物\\n放进日出之国的灯笼里。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "也许这刚好可以作为\\n被招来的亡魂的容器吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "所以她才利用放灯笼\\n举行仪式……\\n但是……失败了？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "是的。虽然她让灯笼逆流而行，\\n但没办法控制那么多魂魄，\\n所以才晕倒了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "然后失去控制的那些魂魄\\n和在祭典会场的你的力量\\n互相作用，变成了僵尸。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "为什么……是僵尸？\\n因为我是个坏孩子，\\n所以魂魄也变成了邪恶的吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "不，并不是这样的。\\n应该是灯笼里的遗物和魂魄因为\\n偶然的力量融合，倒不如说……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "你的力量改变了\\n魔法阵本来的目的……\\n这应该是一场意外。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "不是我体内的某种存在\\n试图召唤……僵尸的？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "不是。所以这次事件的\\n元凶并不是你。\\n这下终于真相大白了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "这样一来你也不用\\n再去想自己不存在才好。\\n太好了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "唔、嗯……是呢……\\n原来我……不是坏孩子？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "那是当然的。好了，拉托妮，\\n接下来只要处理掉僵尸，\\n这次的事件就圆满解决了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "是啊。那么……\\n先让她教我们怎么让\\n这些魂魄回到原来的地方……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "夫人",
-            "context": "啊——",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "诶？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "夫人",
-            "context": "啊、啊、啊——",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "怎、怎么了……不要！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "夫人？",
-            "context": "使者，就位——",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120144_01"
-            ],
-            "speaker_name": "乌尔塔",
-            "context": "喵！喵嗷嗷嗷！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120037_01"
-            ],
-            "speaker_name": "夫人？",
-            "context": "尘封之棺，斗转星移，\\n沉睡之躯，觉醒终有时。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120037_01"
-            ],
-            "speaker_name": "夫人？",
-            "context": "时机已至，使者就位。\\n吾乃混沌。吾之终焉乃创生。既为黄昏\\n亦为黎明。暗黑之晨所见永恒噩梦。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120037_01"
-            ],
-            "speaker_name": "夫人？",
-            "context": "觉醒时刻到。\\n吾名为——",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210046_01"
-            ],
-            "speaker_name": "奈亚拉托提普",
-            "context": "奈 亚 拉 托 提 普。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "库菈乌&拉托妮",
-            "context": "！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "怎、怎么会……\\n夫人变成了\\n奈亚拉托提普？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "为什么？\\n没有力量的这个人，\\n应该不是“使者”才对……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210046_01"
-            ],
-            "speaker_name": "奈亚拉托提普",
-            "context": "了然之理。\\n同胞黄昏为吾解开束缚。\\n此女自始便为崇拜“主”之容器。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "那个人……一开始就是\\n你的一部分？那教会夫人\\n仪式的“声音”就是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210046_01"
-            ],
-            "speaker_name": "奈亚拉托提普",
-            "context": "然。吾乃指引此女举行仪式者。\\n收集魂魄为吾所用。\\n而此女之力不足以觉醒。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210046_01"
-            ],
-            "speaker_name": "奈亚拉托提普",
-            "context": "得同胞相助实乃吾之所幸。\\n破茧而出，吾之觉醒，异端行尸，\\n皆为汝之功劳。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "你是想说\\n多亏了拉托妮的力量……\\n让你提前觉醒了？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "不可能……\\n不可能，这不可能……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "因为我……\\n她才……死了？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210046_01"
-            ],
-            "speaker_name": "奈亚拉托提普",
-            "context": "汝可谓功不可没。\\n吾已挣脱枷锁，于俗世\\n履行身为吾主使者之命。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210046_01"
-            ],
-            "speaker_name": "奈亚拉托提普",
-            "context": "集祭品献予“遥远之主”。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "啊……啊……啊啊啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "拉托妮！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "别过来！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "唔！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "别过来……不可以……过来！",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_20"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "你在说什么……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "变出僵尸的……是我。\\n害死夫人让奈亚拉托提普\\n出现的也是我。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "一切都是因我而起——\\n奈亚拉托提普就是这么说的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "对不起……对不起，库菈乌。\\n我果然不是一个好孩子。\\n所以……",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110349_03"
-            ],
-            "speaker_name": "拉托妮",
-            "context": "像我这样的坏孩子，\\n不能和大家在一起。",
-            "voice_line": "VO_CHR_EVENTSTORY_22215_03_0089",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Cleo and Lathna learn from the woman in the\\ncave that she performed a heretical ritual, and\\nare relieved to have identified the true culprit.\\nHowever, the moment Lathna touches her, the\\nwoman transforms into Nyarlathotep. Lathna\\ndespairs, believing that she has killed her.",
+      "ja_jp": "<ruby><rb>洞窟</rb><rt>どうくつ</rt></ruby>で<ruby><rb>夫人</rb><rt>ふじん</rt></ruby>から<ruby><rb>異端</rb><rt>いたん</rt></ruby>の<ruby><rb>儀式</rb><rt>ぎしき</rt></ruby>の<ruby><rb>話</rb><rt>はなし</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>き、\\n<ruby><rb>真犯人</rb><rt>しんはんにん</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>つけたと<ruby><rb>安堵</rb><rt>あんど</rt></ruby>するふたり。だが\\nラトニーが<ruby><rb>夫人</rb><rt>ふじん</rt></ruby>に<ruby><rb>触</rb><rt>ふ</rt></ruby>れた<ruby><rb>途端</rb><rt>とたん</rt></ruby>、<ruby><rb>夫人</rb><rt>ふじん</rt></ruby>は\\nニャルラトホテプに<ruby><rb>変貌</rb><rt>へんぼう</rt></ruby>。ラトニーは<ruby><rb>自分</rb><rt>じぶん</rt></ruby>が\\n<ruby><rb>夫人</rb><rt>ふじん</rt></ruby>を<ruby><rb>殺</rb><rt>ころ</rt></ruby>したと<ruby><rb>思</rb><rt>おも</rt></ruby>い<ruby><rb>込</rb><rt>こ</rt></ruby>み、<ruby><rb>絶望</rb><rt>ぜつぼう</rt></ruby>してしまう。",
+      "zh_cn": "二人在洞窟听夫人道出异端仪式一事，\\n以为找到了真凶便松了一口气。\\n然而，拉托妮一触碰夫人，\\n夫人却变成了奈亚拉托提普。\\n拉托妮认为是自己害死了夫人而绝望。",
+      "zh_tw": "在洞窟中夫人講述起異端儀式之事，\\n而兩人也因找到元凶而鬆了一口氣。\\n但當菈特妮接觸到夫人的瞬間，\\n夫人竟變貌為奈亞拉托提普。菈特妮認為\\n是自己害死夫人，因而陷入絕望。"
+    }
+  },
+  "prev": "2221502",
+  "next": "2221504",
+  "content": [
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "That's the last of the zombies dealt with.\\nI must say, I did not expect to find a place\\nlike this in the cave depths.",
+        "ja_jp": "ふぅ……やっとゾンビを<ruby><rb>撒</rb><rt>ま</rt></ruby>けましたね。\\nしかし、<ruby><rb>驚</rb><rt>おどろ</rt></ruby>きました。まさか<ruby><rb>洞窟</rb><rt>どうくつ</rt></ruby>の\\n<ruby><rb>奥</rb><rt>おく</rt></ruby>にこんな<ruby><rb>空間</rb><rt>くうかん</rt></ruby>があったとは。",
+        "zh_cn": "呼……总算甩掉僵尸了。\\n不过真没想到洞窟深处\\n竟然还有这样一个地方。",
+        "zh_tw": "呼……總算是擺脫殭屍了。\\n但是，真令人驚訝。\\n想不到洞窟的深處會有這樣的空間。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0001",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "It is suspicious, to say the least.\\nPerhaps this is our suspect's hideaway.",
+        "ja_jp": "<ruby><rb>見</rb><rt>み</rt></ruby>るからに<ruby><rb>怪</rb><rt>あや</rt></ruby>しい<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>ですが……\\nご<ruby><rb>夫人</rb><rt>ふじん</rt></ruby>の<ruby><rb>隠</rb><rt>かく</rt></ruby>れ<ruby><rb>家</rb><rt>が</rt></ruby>とかでしょうか？",
+        "zh_cn": "这里一看就很可疑……\\n会是夫人的藏身之处吗？",
+        "zh_tw": "看起來就是個很可疑的地方……\\n是夫人的秘密藏身處嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0002",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "I dunno, but there are strange letters\\nand pictures all over the place.",
+        "ja_jp": "わからないけど……そこらじゅう、\\n<ruby><rb>変</rb><rt>へん</rt></ruby>な<ruby><rb>字</rb><rt>じ</rt></ruby>や<ruby><rb>絵</rb><rt>え</rt></ruby>でいっぱいだね。",
+        "zh_cn": "不知道……但这里到处\\n都是奇怪的字和画呢。",
+        "zh_tw": "不知道……但到處都是、\\n奇怪的字和畫。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0003",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "...That's a rather unsettling magic circle.\\nI feel as though I've seen this pattern\\nsomewhere before...",
+        "ja_jp": "……ずいぶん<ruby><rb>禍々</rb><rt>まがまが</rt></ruby>しい<ruby><rb>魔法陣</rb><rt>まほうじん</rt></ruby>ですね。\\nでもこの<ruby><rb>不思議</rb><rt>ふしぎ</rt></ruby>な<ruby><rb>図柄</rb><rt>ずがら</rt></ruby>、どこかで<ruby><rb>見</rb><rt>み</rt></ruby>た\\nことがあるような……",
+        "zh_cn": "这个魔法阵看起来阴森森的……\\n不过这个奇怪的图案，\\n我好像在哪里见过……",
+        "zh_tw": "……是相當駭人的魔法陣呢。\\n但是這個不可思議的圖樣，\\n總覺得有在哪裡看過……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0004",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Ah, right! It's the same sort as what we\\nsaw with Curran and the others in that\\nheretical library they were investigating.",
+        "ja_jp": "あっ！　そうです。<ruby><rb>確</rb><rt>たし</rt></ruby>かクーガーさん\\nたちが<ruby><rb>調査</rb><rt>ちょうさ</rt></ruby>していた<ruby><rb>異端</rb><rt>いたん</rt></ruby>の<ruby><rb>図書館</rb><rt>としょかん</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>で\\n<ruby><rb>見</rb><rt>み</rt></ruby>たものと、<ruby><rb>同</rb><rt>おな</rt></ruby>じ<ruby><rb>系統</rb><rt>けいとう</rt></ruby>です。",
+        "zh_cn": "啊！我想记得这和库格尔他们\\n调查异端图书馆里面的时候\\n看到的魔法阵是同一体系。",
+        "zh_tw": "啊！對了。在庫豹先生他們\\n之前調查過的異端圖書館裡出現的，\\n和這是同個系統。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0005",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "The forbidden library...?\\nIt can't be—EEEK!",
+        "ja_jp": "<ruby><rb>異端</rb><rt>いたん</rt></ruby>の<ruby><rb>図書館</rb><rt>としょかん</rt></ruby>……それってまさか……\\nきゃっ!!",
+        "zh_cn": "异端图书馆……那难道是……\\n呀啊！",
+        "zh_tw": "異端的圖書館……\\n那該不會是……呀啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0006",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Lathna! Are you okay?!",
+        "ja_jp": "<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>ですか!?",
+        "zh_cn": "你没事吧！？",
+        "zh_tw": "沒事吧！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0007",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "I'm okay... I, um, just tripped.\\nIs this...a book?",
+        "ja_jp": "へいき……<ruby><rb>何</rb><rt>なに</rt></ruby>かに、つまづいただけ。\\nこれは……<ruby><rb>本</rb><rt>ほん</rt></ruby>……？",
+        "zh_cn": "没事……只是绊到了。\\n这是……书？",
+        "zh_tw": "沒事……我只是、不知道絆到了什麼。\\n這是……書……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0008",
+      "book": ""
+    },
+    {
+      "icon": "",
+      "name": {
+        "en_us": "add_book_text",
+        "ja_jp": "add_book_text",
+        "zh_cn": "add_book_text",
+        "zh_tw": "add_book_text"
+      },
+      "context": {
+        "en_us": "Day OO, Month of the Lovely Dragon\\nIt's been a few days since I lost my husband.\\nI still can't believe it. This is a nightmare.\\nWhy can't I wake up? I've never felt so lonely.",
+        "ja_jp": "<ruby><rb>麗竜</rb><rt>れいりゅう</rt></ruby>の<ruby><rb>月</rb><rt>つき</rt></ruby>　○○<ruby><rb>日</rb><rt>にち</rt></ruby>\\n<ruby><rb>夫</rb><rt>おっと</rt></ruby>を<ruby><rb>亡</rb><rt>な</rt></ruby>くして<ruby><rb>数日</rb><rt>すうじつ</rt></ruby>が<ruby><rb>経</rb><rt>た</rt></ruby>った。\\n<ruby><rb>今</rb><rt>いま</rt></ruby>でも、まだ<ruby><rb>信</rb><rt>しん</rt></ruby>じられない。\\nまるで<ruby><rb>悪</rb><rt>わる</rt></ruby>い<ruby><rb>夢</rb><rt>ゆめ</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>ているよう。\\nひとりはとても<ruby><rb>寂</rb><rt>さび</rt></ruby>しい。",
+        "zh_cn": "丽龙之月 〇〇日\\n丈夫去世后过了几天。\\n我至今都无法相信。\\n就做是了一场噩梦一样。\\n一个人太孤独了。",
+        "zh_tw": "麗龍之月　〇〇日\\n丈夫死去後已過了好幾天。\\n到現在我還是無法相信。\\n簡直就像是一場惡夢般。\\n獨自一人真的非常寂寞。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "",
+      "name": {
+        "en_us": "add_book_text",
+        "ja_jp": "add_book_text",
+        "zh_cn": "add_book_text",
+        "zh_tw": "add_book_text"
+      },
+      "context": {
+        "en_us": "Day XX, Month of the Wardragon\\nI long to see him. My heart is broken.\\nO God, please return him to me! Please!",
+        "ja_jp": "<ruby><rb>軍竜</rb><rt>ぐんりゅう</rt></ruby>の<ruby><rb>月</rb><rt>つき</rt></ruby>　××<ruby><rb>日</rb><rt>にち</rt></ruby>\\nあの<ruby><rb>人</rb><rt>ひと</rt></ruby>に<ruby><rb>会</rb><rt>あ</rt></ruby>いたい。\\n<ruby><rb>会</rb><rt>あ</rt></ruby>いたい……<ruby><rb>会</rb><rt>あ</rt></ruby>いたいの！\\n<ruby><rb>神様</rb><rt>かみさま</rt></ruby>、どうかあの<ruby><rb>人</rb><rt>ひと</rt></ruby>をもう<ruby><rb>一度</rb><rt>いちど</rt></ruby>、\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>のもとへ<ruby><rb>呼</rb><rt>よ</rt></ruby>び<ruby><rb>戻</rb><rt>もど</rt></ruby>して！　どうか！",
+        "zh_cn": "军龙之月 ××日\\n我好想他。\\n想他……非常想他！\\n神啊，请让他再次\\n回到我身边吧！",
+        "zh_tw": "軍龍之月　××日\\n我好想見到他。\\n想見他……好想見他啊！\\n神啊，請把那個人，\\n再度喚回我的身邊！拜託！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "",
+      "name": {
+        "en_us": "add_book_text",
+        "ja_jp": "add_book_text",
+        "zh_cn": "add_book_text",
+        "zh_tw": "add_book_text"
+      },
+      "context": {
+        "en_us": "Day ZZ, Month of the Raindragon\\nVoice. Voice. Voice. Guidance. Yes.\\nI hear it, the Revival, it whispers.\\nThe lanterns, lanterns, LANTERNS!\\nRitual will happen on day of the lanterns.",
+        "ja_jp": "<ruby><rb>雨竜</rb><rt>うりゅう</rt></ruby>の<ruby><rb>月</rb><rt>つき</rt></ruby>　△△<ruby><rb>日</rb><rt>にち</rt></ruby>\\n<ruby><rb>声</rb><rt>こえ</rt></ruby>。<ruby><rb>声</rb><rt>こえ</rt></ruby>、<ruby><rb>声</rb><rt>こえ</rt></ruby>。<ruby><rb>声</rb><rt>こえ</rt></ruby>。<ruby><rb>導</rb><rt>みちび</rt></ruby>きの。ああ。\\n『<ruby><rb>反魂法</rb><rt>はんごんほう</rt></ruby>』　<ruby><rb>聞</rb><rt>き</rt></ruby>こえる　<ruby><rb>声声</rb><rt>こえこえ</rt></ruby>。\\n<ruby><rb>灯篭</rb><rt>とうろう</rt></ruby><ruby><rb>灯篭</rb><rt>とうろう</rt></ruby><ruby><rb>灯篭</rb><rt>とうろう</rt></ruby>をををををををを\\nをを<ruby><rb>儀式</rb><rt>ぎしき</rt></ruby>は<ruby><rb>灯篭流</rb><rt>とうろうなが</rt></ruby>しの<ruby><rb>日</rb><rt>ひ</rt></ruby>に<ruby><rb>行</rb><rt>おこな</rt></ruby>う。",
+        "zh_cn": "雨龙之月 △△日\\n有声音。声音，声音。指引的声音。\\n啊啊。听到了，“还魂法”，的声音。\\n灯笼灯笼灯笼……\\n仪式将在放灯笼那天举行。",
+        "zh_tw": "雨龍之月　△△日\\n聲音。聲音。聲音。引導著。啊。\\n「返魂法」　聽到的　聲音。\\n用燈籠用燈籠用燈籠來來來來來來\\n來來在放水燈的日子執行儀式。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "",
+      "name": {
+        "en_us": "add_book_text",
+        "ja_jp": "add_book_text",
+        "zh_cn": "add_book_text",
+        "zh_tw": "add_book_text"
+      },
+      "context": {
+        "en_us": "Day OX, Month of the Blazewyrm\\nThe music, the flesh, the feast, sacrifice.\\nThe lanterns, they come! COME COME COME!\\nO God, O Ancient One, thy name is...",
+        "ja_jp": "<ruby><rb>灼竜</rb><rt>しゃくりゅう</rt></ruby>の<ruby><rb>月</rb><rt>つき</rt></ruby>　○×<ruby><rb>日</rb><rt>にち</rt></ruby>\\nまつりばやし　ちにく　うたげ　ニエ\\nくる、とうろうがくるくるくるくる\\nああかみよ　アルジヨ、ソノナハ――",
+        "zh_cn": "灼龙之月 〇×日\\n祭典音乐 血肉 宴会\\n祭品来了，灯笼来了来了来了来了\\n啊啊神啊 吾主啊，其名为——",
+        "zh_tw": "灼龍之月　〇×日\\n祭典樂曲　血肉　宴會　祭品\\n來了，燈籠來了來了來了來了來了\\n啊啊神啊　主人啊，名為──"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "It's a diary. It looks like it belongs to the\\nwoman—poor deceased Banquo's wife.",
+        "ja_jp": "<ruby><rb>日記</rb><rt>にっき</rt></ruby>……。<ruby><rb>亡</rb><rt>な</rt></ruby>きバンコーさんの\\nご<ruby><rb>夫人</rb><rt>ふじん</rt></ruby>が<ruby><rb>書</rb><rt>か</rt></ruby>いたもののようですね……。",
+        "zh_cn": "日记……看来是已故的班戈\\n他夫人写的呢……",
+        "zh_tw": "日記……\\n看來是過世的班古先生\\n他的妻子所寫的……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0009",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "The entries get increasingly nonsensical\\nthe more you read. What in the world...?",
+        "ja_jp": "<ruby><rb>先</rb><rt>さき</rt></ruby>へ<ruby><rb>進</rb><rt>すす</rt></ruby>むにつれて、<ruby><rb>内容</rb><rt>ないよう</rt></ruby>が<ruby><rb>滅茶苦茶</rb><rt>めちゃくちゃ</rt></ruby>に\\nなっています……これは<ruby><rb>一体</rb><rt>いったい</rt></ruby>？",
+        "zh_cn": "越往后看，内容越支离破碎……\\n这到底是怎么回事？",
+        "zh_tw": "隨著日程的推進，\\n內容也變得越來越亂七八糟……\\n究竟是怎麼了？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0010",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "AAAaaaAAAH!",
+        "ja_jp": "あ――あぁああああああっ!!",
+        "zh_cn": "啊——啊啊啊啊啊啊啊！",
+        "zh_tw": "啊──啊啊啊啊啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0011",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Was that a scream?\\nIt came from beyond that gate!",
+        "ja_jp": "さ、<ruby><rb>叫</rb><rt>さけ</rt></ruby>び<ruby><rb>声</rb><rt>ごえ</rt></ruby>……！\\n<ruby><rb>向</rb><rt>む</rt></ruby>こうの、<ruby><rb>扉</rb><rt>とびら</rt></ruby>の<ruby><rb>奥</rb><rt>おく</rt></ruby>……！",
+        "zh_cn": "有、有叫声！\\n从门里面传来的！",
+        "zh_tw": "叫、叫聲……！\\n從對面的、門後方……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0012",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Let's go. Quickly!",
+        "ja_jp": "すぐに<ruby><rb>奥</rb><rt>おく</rt></ruby>へ<ruby><rb>向</rb><rt>む</rt></ruby>かいましょう！",
+        "zh_cn": "我们这就去里面看看吧！",
+        "zh_tw": "我們馬上進去！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0013",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Nnngh... It's no good. The gate won't open.\\nSomething's preventing us!",
+        "ja_jp": "……だめ！　<ruby><rb>扉</rb><rt>とびら</rt></ruby>、<ruby><rb>動</rb><rt>うご</rt></ruby>かない。\\n<ruby><rb>何</rb><rt>なに</rt></ruby>かが、<ruby><rb>拒</rb><rt>こば</rt></ruby>んでる……!!",
+        "zh_cn": "不行！门打不开。\\n有什么东西……在阻碍我们！",
+        "zh_tw": "……不行！門、打不開。\\n被什麼給、卡住了……！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0014",
+      "book": ""
+    },
+    {
+      "icon": "120144_01",
+      "name": {
+        "en_us": "Ulthar",
+        "ja_jp": "ウルタール",
+        "zh_cn": "乌尔塔",
+        "zh_tw": "烏魯塔爾"
+      },
+      "context": {
+        "en_us": "MRRRRROW!",
+        "ja_jp": "――にゃあああ!!",
+        "zh_cn": "喵嗷嗷嗷！",
+        "zh_tw": "──喵啊啊啊！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Ulthar? What is—oh! Cleo, there!",
+        "ja_jp": "ウルタール？　どうしたの……あっ！\\n……クラウ、あれ……！",
+        "zh_cn": "乌尔塔？你怎么了……啊！\\n库菈乌，你看！",
+        "zh_tw": "烏魯塔爾？\\n怎麼了……啊！\\n……克菈兒，那個……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0016",
+      "book": ""
+    },
+    {
+      "icon": "120040_01",
+      "name": {
+        "en_us": "Ghost",
+        "ja_jp": "亡霊",
+        "zh_cn": "亡灵",
+        "zh_tw": "幽靈"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Who is that? And...wait.\\nTheir body—it's transparent!",
+        "ja_jp": "<ruby><rb>人</rb><rt>ひと</rt></ruby>……？　いえ、<ruby><rb>変</rb><rt>へん</rt></ruby>です……\\n<ruby><rb>体</rb><rt>からだ</rt></ruby>が<ruby><rb>透</rb><rt>す</rt></ruby>けてる……！",
+        "zh_cn": "是人？不，不太对劲……\\n他的身体是透明的！",
+        "zh_tw": "人……？不，他很奇怪……\\n身體是透明的……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0018",
+      "book": ""
+    },
+    {
+      "icon": "120040_01",
+      "name": {
+        "en_us": "Ghost",
+        "ja_jp": "亡霊",
+        "zh_cn": "亡灵",
+        "zh_tw": "幽靈"
+      },
+      "context": {
+        "en_us": "......\\nRescue my wife, please.",
+        "ja_jp": "…………。\\n――<ruby><rb>妻</rb><rt>つま</rt></ruby>を、<ruby><rb>助</rb><rt>たす</rt></ruby>けてください。",
+        "zh_cn": "……\\n请救救我妻子。",
+        "zh_tw": "…………\\n──請幫助，我的妻子。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0019",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Oh! The gate, it's opening! C-could that\\nhave been the ghost of the man who died?",
+        "ja_jp": "い、<ruby><rb>今</rb><rt>いま</rt></ruby>のは……？\\n――あっ！　<ruby><rb>扉</rb><rt>とびら</rt></ruby>が、<ruby><rb>開</rb><rt>ひら</rt></ruby>いてる。\\nもしかして<ruby><rb>今</rb><rt>いま</rt></ruby>の、<ruby><rb>亡霊</rb><rt>ぼうれい</rt></ruby>さんが？",
+        "zh_cn": "刚、刚才那人是……\\n啊！门开了。\\n难道是刚才的亡灵打开的？",
+        "zh_tw": "剛、剛才的是……？\\n──啊！門、打開了。\\n該不會是剛才的、幽靈先生開的？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0020",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "What?! There's no way—wait, no.",
+        "ja_jp": "えっ！　いえ、<ruby><rb>確</rb><rt>たし</rt></ruby>かに<ruby><rb>体</rb><rt>からだ</rt></ruby>は<ruby><rb>透</rb><rt>す</rt></ruby>けて\\nいましたけど、<ruby><rb>亡霊</rb><rt>ぼうれい</rt></ruby>なんて<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に……\\nううん。",
+        "zh_cn": "诶？不，虽然那个人的身体\\n是透明的，但是亡灵\\n真的存在吗……不对。",
+        "zh_tw": "咦！不，確實他的身體是透明的，\\n但真的有幽靈存在嗎……不。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0021",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "This isn't the time to be thinking about\\nthat. We have to hurry on.",
+        "ja_jp": "……<ruby><rb>今</rb><rt>いま</rt></ruby>は、それを<ruby><rb>考</rb><rt>かんが</rt></ruby>えている<ruby><rb>場合</rb><rt>ばあい</rt></ruby>では\\nありません。<ruby><rb>先</rb><rt>さき</rt></ruby>を<ruby><rb>急</rb><rt>いそ</rt></ruby>ぎましょう。",
+        "zh_cn": "现在没空考虑这些了……\\n我们快去一探究竟吧。",
+        "zh_tw": "……現在不是思考這種事的時候。\\n我們趕快前進吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0022",
+      "book": ""
+    },
+    {
+      "icon": "120037_01",
+      "name": {
+        "en_us": "Woman",
+        "ja_jp": "夫人",
+        "zh_cn": "夫人",
+        "zh_tw": "夫人"
+      },
+      "context": {
+        "en_us": "Uuuh... Urah...",
+        "ja_jp": "うぅ……うあぁ……。",
+        "zh_cn": "呜……呜啊啊……",
+        "zh_tw": "唔唔……唔啊啊……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0023",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "The woman! She's still breathing. Good.\\nMy healing magic should prove effective.",
+        "ja_jp": "ご<ruby><rb>夫人</rb><rt>ふじん</rt></ruby>！　……まだ<ruby><rb>息</rb><rt>いき</rt></ruby>はあります。\\nそれなら、<ruby><rb>治癒</rb><rt>ちゆ</rt></ruby><ruby><rb>魔法</rb><rt>まほう</rt></ruby>で……！",
+        "zh_cn": "这位夫人！她还有气。\\n那就可以用治愈魔法……",
+        "zh_tw": "夫人！……還有呼吸。\\n那我就用治癒魔法……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0024",
+      "book": ""
+    },
+    {
+      "icon": "120037_01",
+      "name": {
+        "en_us": "Woman",
+        "ja_jp": "夫人",
+        "zh_cn": "夫人",
+        "zh_tw": "夫人"
+      },
+      "context": {
+        "en_us": "Who...are you?",
+        "ja_jp": "……あ、あなた、は……？",
+        "zh_cn": "你、你是……",
+        "zh_tw": "……妳、妳是……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0025",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Thank goodness you're awake! Are you\\nall right? Can you remember anything?",
+        "ja_jp": "よかった、<ruby><rb>目</rb><rt>め</rt></ruby>を<ruby><rb>覚</rb><rt>さ</rt></ruby>ましたんですね！\\n<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>ですか、ご<ruby><rb>自分</rb><rt>じぶん</rt></ruby>のことは\\nわかりますか。",
+        "zh_cn": "太好了，你醒了啊！\\n你没事吧？\\n知道发生了什么事吗？",
+        "zh_tw": "太好了，妳醒過來了呢！\\n還好嗎，知道自己是誰嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0026",
+      "book": ""
+    },
+    {
+      "icon": "120037_01",
+      "name": {
+        "en_us": "Woman",
+        "ja_jp": "夫人",
+        "zh_cn": "夫人",
+        "zh_tw": "夫人"
+      },
+      "context": {
+        "en_us": "I... That's right, I...wanted to see my\\nhusband, so I tried the revival ritual...",
+        "ja_jp": "わ、<ruby><rb>私</rb><rt>わたし</rt></ruby>は……そう、<ruby><rb>確</rb><rt>たし</rt></ruby>か……\\n<ruby><rb>主人</rb><rt>しゅじん</rt></ruby>に<ruby><rb>会</rb><rt>あ</rt></ruby>おうと……<ruby><rb>反魂</rb><rt>はんごん</rt></ruby>の<ruby><rb>儀式</rb><rt>ぎしき</rt></ruby>を……。",
+        "zh_cn": "我、我……记得……\\n我为了见到丈夫……\\n举行了还魂仪式……",
+        "zh_tw": "我、我……對了，我記得……\\n為了見到丈夫……進行返魂的儀式……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0027",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "The one you mentioned in your diary?",
+        "ja_jp": "<ruby><rb>反魂</rb><rt>はんごん</rt></ruby>の<ruby><rb>儀式</rb><rt>ぎしき</rt></ruby>？　<ruby><rb>日記</rb><rt>にっき</rt></ruby>に<ruby><rb>書</rb><rt>か</rt></ruby>かれていた、\\n『<ruby><rb>反魂法</rb><rt>はんごんほう</rt></ruby>』のことですか？",
+        "zh_cn": "还魂仪式？你是指\\n日记里写的“还魂法”吗？",
+        "zh_tw": "返魂的儀式？\\n是那本日記裡寫的「返魂法」嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0028",
+      "book": ""
+    },
+    {
+      "icon": "120037_01",
+      "name": {
+        "en_us": "Woman",
+        "ja_jp": "夫人",
+        "zh_cn": "夫人",
+        "zh_tw": "夫人"
+      },
+      "context": {
+        "en_us": "Yes... A strange voice told me about it.\\nIt said that if I drew magic circles on the\\nlanterns to make them go up the river,\\nmy husband would be revived.",
+        "ja_jp": "そう……。<ruby><rb>不思議</rb><rt>ふしぎ</rt></ruby>な『<ruby><rb>声</rb><rt>こえ</rt></ruby>』が<ruby><rb>教</rb><rt>おし</rt></ruby>えて\\nくれたの。<ruby><rb>魔法陣</rb><rt>まほうじん</rt></ruby>を<ruby><rb>描</rb><rt>えが</rt></ruby>いた<ruby><rb>灯篭</rb><rt>とうろう</rt></ruby>を\\n<ruby><rb>川</rb><rt>かわ</rt></ruby>に<ruby><rb>逆流</rb><rt>ぎゃくりゅう</rt></ruby>させれば、<ruby><rb>夫</rb><rt>おっと</rt></ruby>は<ruby><rb>蘇</rb><rt>よみがえ</rt></ruby>るって。",
+        "zh_cn": "对……是一个神奇的“声音”\\n告诉我的。只要让画着魔法阵的\\n灯笼逆流而行，我丈夫就能复活。",
+        "zh_tw": "對……是奇妙的「聲音」告訴我的。\\n它說只要讓畫了魔法陣的燈籠\\n逆流而上，就能讓丈夫復活。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0029",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "So it was your work after all.\\nBut why were you incapacitated here?",
+        "ja_jp": "やはり、あなたが<ruby><rb>細工</rb><rt>さいく</rt></ruby>を……。\\nでもなぜ、ここで<ruby><rb>倒</rb><rt>たお</rt></ruby>れていたのですか？",
+        "zh_cn": "果然是你做的手脚……\\n可是你为什么会倒在这里？",
+        "zh_tw": "果然，是妳動了手腳……\\n但為什麼妳會倒在這裡？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0030",
+      "book": ""
+    },
+    {
+      "icon": "120037_01",
+      "name": {
+        "en_us": "Woman",
+        "ja_jp": "夫人",
+        "zh_cn": "夫人",
+        "zh_tw": "夫人"
+      },
+      "context": {
+        "en_us": "I don't know. In order to bring my husband\\nback, I called to all of the souls sleeping\\nin this land, but...",
+        "ja_jp": "わからない……。<ruby><rb>主人</rb><rt>しゅじん</rt></ruby>を<ruby><rb>呼</rb><rt>よ</rt></ruby>び<ruby><rb>戻</rb><rt>もど</rt></ruby>す\\nために、この<ruby><rb>地</rb><rt>ち</rt></ruby>に<ruby><rb>眠</rb><rt>ねむ</rt></ruby>る<ruby><rb>魂</rb><rt>たましい</rt></ruby>をみんな、\\n<ruby><rb>一斉</rb><rt>いっせい</rt></ruby>に<ruby><rb>呼</rb><rt>よ</rt></ruby>び<ruby><rb>起</rb><rt>お</rt></ruby>こしたのだけど……。",
+        "zh_cn": "不知道……我只是为了\\n唤回我丈夫，把这一带沉睡的\\n所有魂魄都一起唤醒了……",
+        "zh_tw": "不知道……為了喚回丈夫，\\n我把沉睡在這地區的靈魂，\\n全都喚醒了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0031",
+      "book": ""
+    },
+    {
+      "icon": "120037_01",
+      "name": {
+        "en_us": "Woman",
+        "ja_jp": "夫人",
+        "zh_cn": "夫人",
+        "zh_tw": "夫人"
+      },
+      "context": {
+        "en_us": "It proved too much for me to handle.\\nI could not find my husband's soul, and\\nthe wailing of the others ate away at me.",
+        "ja_jp": "<ruby><rb>蘇</rb><rt>よみがえ</rt></ruby>った<ruby><rb>魂</rb><rt>たましい</rt></ruby>たちは<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>手</rb><rt>て</rt></ruby>に<ruby><rb>負</rb><rt>お</rt></ruby>えなくて……\\n<ruby><rb>主人</rb><rt>しゅじん</rt></ruby>の<ruby><rb>魂</rb><rt>たましい</rt></ruby>も<ruby><rb>見</rb><rt>み</rt></ruby>つからないまま、<ruby><rb>魂</rb><rt>たましい</rt></ruby>たちの\\n<ruby><rb>呻</rb><rt>うめ</rt></ruby>きは<ruby><rb>私</rb><rt>わたし</rt></ruby>を<ruby><rb>蝕</rb><rt>むしば</rt></ruby>んでいって……！",
+        "zh_cn": "那些复苏的魂魄超出了我的控制……\\n我没能找到丈夫的魂魄，\\n还被那些魂魄的呻吟所侵蚀……",
+        "zh_tw": "但那些被喚醒的靈魂我控制不住……\\n找不到丈夫靈魂的我，\\n就那樣被眾靈魂的呻吟所侵蝕……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0032",
+      "book": ""
+    },
+    {
+      "icon": "120037_01",
+      "name": {
+        "en_us": "Woman",
+        "ja_jp": "夫人",
+        "zh_cn": "夫人",
+        "zh_tw": "夫人"
+      },
+      "context": {
+        "en_us": "I become someone not myself!\\nI was transformed! Yes...and then...\\nI couldn't bear it!",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>私</rb><rt>わたし</rt></ruby>じゃ、なくなっていく……！\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>変貌</rb><rt>へんぼう</rt></ruby>する！　あぁ……そうだ……\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>はそれに、<ruby><rb>耐</rb><rt>た</rt></ruby>えられなかった……！",
+        "zh_cn": "我正逐渐失去自我……\\n变得面目全非！啊啊……\\n是的……这让我无法忍受……",
+        "zh_tw": "漸漸地，我變得不再是我自己……！\\n我將會改變姿態！啊……沒錯……\\n我沒有承受住……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0033",
+      "book": ""
+    },
+    {
+      "icon": "120037_01",
+      "name": {
+        "en_us": "Woman",
+        "ja_jp": "夫人",
+        "zh_cn": "夫人",
+        "zh_tw": "夫人"
+      },
+      "context": {
+        "en_us": "From inside a distant consciousness, a\\nvoice spoke. It told me that I was not\\nstrong enough to be the Emissary.",
+        "ja_jp": "<ruby><rb>遠</rb><rt>とお</rt></ruby>のく<ruby><rb>意識</rb><rt>いしき</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>で『<ruby><rb>声</rb><rt>こえ</rt></ruby>』が<ruby><rb>言</rb><rt>い</rt></ruby>った……\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>では『<ruby><rb>使者</rb><rt>ししゃ</rt></ruby>』の<ruby><rb>力</rb><rt>ちから</rt></ruby>が<ruby><rb>足</rb><rt>た</rt></ruby>りて\\nいなかったと……。",
+        "zh_cn": "逐渐模糊的意识中，\\n听到那个“声音”说……\\n我的“使者”之力还不够强大……",
+        "zh_tw": "在逐漸消失的意識中，\\n「聲音」說了……\\n我的「使者」之力並不足夠……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0034",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "The Emissary...",
+        "ja_jp": "……『<ruby><rb>使者</rb><rt>ししゃ</rt></ruby>』の<ruby><rb>力</rb><rt>ちから</rt></ruby>……。",
+        "zh_cn": "“使者”之力……",
+        "zh_tw": "……「使者」之力……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0035",
+      "book": ""
+    },
+    {
+      "icon": "120037_01",
+      "name": {
+        "en_us": "Woman",
+        "ja_jp": "夫人",
+        "zh_cn": "夫人",
+        "zh_tw": "夫人"
+      },
+      "context": {
+        "en_us": "I remember nothing after that.\\nI can't hear the voice...\\nThe voice... The voice... My guide...",
+        "ja_jp": "そのあとはもう<ruby><rb>記憶</rb><rt>きおく</rt></ruby>にない……\\n『<ruby><rb>声</rb><rt>こえ</rt></ruby>』も……<ruby><rb>聞</rb><rt>き</rt></ruby>こえない……\\n<ruby><rb>声</rb><rt>こえ</rt></ruby>、<ruby><rb>声</rb><rt>こえ</rt></ruby>……<ruby><rb>導</rb><rt>みちび</rt></ruby>き……<ruby><rb>私</rb><rt>わたし</rt></ruby>、の…………",
+        "zh_cn": "之后我就不记得了……\\n“声音”也……听不见了……\\n声音、声音……指引……我的……",
+        "zh_tw": "在那之後的事我都不記得了……\\n「聲音」也……聽不見……\\n聲音、聲音……引導……我、的……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0036",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Er... Are you well?",
+        "ja_jp": "ご、ご<ruby><rb>夫人</rb><rt>ふじん</rt></ruby>……？",
+        "zh_cn": "夫、夫人？",
+        "zh_tw": "夫、夫人……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0037",
+      "book": ""
+    },
+    {
+      "icon": "120037_01",
+      "name": {
+        "en_us": "Woman",
+        "ja_jp": "夫人",
+        "zh_cn": "夫人",
+        "zh_tw": "夫人"
+      },
+      "context": {
+        "en_us": "*mumble* Why, God...? *mumble*",
+        "ja_jp": "ブツブツ……どうして……<ruby><rb>神様</rb><rt>かみさま</rt></ruby>……\\nブツブツブツブツ……。",
+        "zh_cn": "嘀嘀咕咕……为什么……神啊……\\n咿咿呀呀呜呜啊啊……",
+        "zh_tw": "咕噥咕噥……為什麼……\\n神啊……咕噥咕噥咕噥咕噥……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0038",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Ma'am? ...I don't think we'll be able to get\\nany more out of her.",
+        "ja_jp": "ご<ruby><rb>夫人</rb><rt>ふじん</rt></ruby>……。\\n……どうやら、これ<ruby><rb>以上</rb><rt>いじょう</rt></ruby>の<ruby><rb>対話</rb><rt>たいわ</rt></ruby>は\\n<ruby><rb>望</rb><rt>のぞ</rt></ruby>めないようですね。",
+        "zh_cn": "夫人……\\n看来不能指望\\n和她继续对话了。",
+        "zh_tw": "夫人……\\n……看樣子，沒辦法和她\\n進行更進一步的對話呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0039",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "At least now we know who was responsible\\nfor the incident.",
+        "ja_jp": "けれど、これで<ruby><rb>事件</rb><rt>じけん</rt></ruby>の<ruby><rb>元凶</rb><rt>げんきょう</rt></ruby>は\\nハッキリしました。",
+        "zh_cn": "不过，这下事件的元凶\\n也水落石出了。",
+        "zh_tw": "但是，這樣一來\\n誰是事件的元凶就很清楚了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0040",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Yeah. So this lady did the ritual and\\nmade the lanterns go backwards... Right?",
+        "ja_jp": "う、うん……この<ruby><rb>人</rb><rt>ひと</rt></ruby>が<ruby><rb>儀式</rb><rt>ぎしき</rt></ruby>をして、\\n<ruby><rb>灯篭</rb><rt>とうろう</rt></ruby>を<ruby><rb>逆流</rb><rt>ぎゃくりゅう</rt></ruby>させた……だよね？",
+        "zh_cn": "唔、嗯……\\n是这个人举行了仪式，\\n让灯笼逆水漂流……没错吧？",
+        "zh_tw": "嗯、嗯……\\n這個人透過儀式，\\n讓燈籠逆流了……對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0041",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Yes. She is some manner of heretic, and\\nmisused the lanterns in a bid to revive\\nher husband through dark magicks.",
+        "ja_jp": "ええ。<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>は<ruby><rb>異端</rb><rt>いたん</rt></ruby>の<ruby><rb>信奉者</rb><rt>しんぽうしゃ</rt></ruby>で、\\n<ruby><rb>灯篭</rb><rt>とうろう</rt></ruby>を<ruby><rb>悪用</rb><rt>あくよう</rt></ruby>した<ruby><rb>儀式</rb><rt>ぎしき</rt></ruby>で<ruby><rb>亡</rb><rt>な</rt></ruby>き<ruby><rb>夫</rb><rt>おっと</rt></ruby>を\\n<ruby><rb>蘇</rb><rt>よみがえ</rt></ruby>らせようとしていたんです。",
+        "zh_cn": "嗯。她是异端信奉者，\\n恶意利用灯笼举行仪式，\\n企图复活已逝的丈夫。",
+        "zh_tw": "沒錯。她是異端的信奉者，\\n打算不當利用燈籠進行儀式，\\n讓自己的丈夫復活。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0042",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "But this was a Hinomotoan festival. How\\nwould that work for a heretical ritual?",
+        "ja_jp": "でも、なんでヒノモトの<ruby><rb>灯篭</rb><rt>とうろう</rt></ruby>を、\\n<ruby><rb>異端</rb><rt>いたん</rt></ruby>の<ruby><rb>儀式</rb><rt>ぎしき</rt></ruby>に、つかったの……？",
+        "zh_cn": "可是，她为什么\\n要用日出之国的灯笼\\n举行异端仪式呢？",
+        "zh_tw": "但是，為什麼日初之國的燈籠，\\n會和異端的儀式、有關係呢……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0043",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "It's said that sometimes, Hinomoto's\\nlanterns contain remnants of the deceased,\\nlike locks of hair, in order to guide the\\nprayers sent after them.",
+        "ja_jp": "ヒノモトの<ruby><rb>灯篭</rb><rt>とうろう</rt></ruby>には、<ruby><rb>祈</rb><rt>いの</rt></ruby>りを<ruby><rb>届</rb><rt>とど</rt></ruby>ける\\n<ruby><rb>道</rb><rt>みち</rt></ruby>しるべにするために、<ruby><rb>亡</rb><rt>な</rt></ruby>くなった<ruby><rb>人</rb><rt>ひと</rt></ruby>の\\n<ruby><rb>髪</rb><rt>かみ</rt></ruby>などを<ruby><rb>納</rb><rt>おさ</rt></ruby>めることがあるそうです。",
+        "zh_cn": "据说有人会为了更准确地\\n传达祷告而把故人的发丝等遗物\\n放进日出之国的灯笼里。",
+        "zh_tw": "日初之國的燈籠，似乎有時候會為了\\n作傳遞祈禱的指標，而將已故之人的\\n頭髮等物品放入其中。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0044",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Likely that unwittingly made them perfect\\nbeacons to use in summoning back the\\nsouls of the dead.",
+        "ja_jp": "それが、<ruby><rb>死者</rb><rt>ししゃ</rt></ruby>の<ruby><rb>魂</rb><rt>たましい</rt></ruby>を<ruby><rb>呼</rb><rt>よ</rt></ruby>ぶ<ruby><rb>依</rb><rt>よ</rt></ruby>り<ruby><rb>代</rb><rt>しろ</rt></ruby>とする\\nのにちょうどよかったのでしょうね。",
+        "zh_cn": "也许这刚好可以作为\\n被招来的亡魂的容器吧。",
+        "zh_tw": "而那剛好非常適合\\n拿來作為呼喚死者的媒介吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0045",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "So she used the festival to do her\\nritual, but it...failed, somehow?",
+        "ja_jp": "だから<ruby><rb>灯篭流</rb><rt>とうろうなが</rt></ruby>しを<ruby><rb>使</rb><rt>つか</rt></ruby>って、<ruby><rb>儀式</rb><rt>ぎしき</rt></ruby>を……。\\nでも……<ruby><rb>失敗</rb><rt>しっぱい</rt></ruby>しちゃった？",
+        "zh_cn": "所以她才利用放灯笼\\n举行仪式……\\n但是……失败了？",
+        "zh_tw": "所以利用放水燈、進行儀式……\\n但是……不小心失敗了？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0046",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Yes. She did manage to reverse the\\nlanterns, but she could not control the\\nmass of souls she summoned, and ended\\nup collapsing.",
+        "ja_jp": "はい。<ruby><rb>灯篭</rb><rt>とうろう</rt></ruby>を<ruby><rb>逆流</rb><rt>ぎゃくりゅう</rt></ruby>させたはいいものの、\\n<ruby><rb>呼</rb><rt>よ</rt></ruby>び<ruby><rb>戻</rb><rt>もど</rt></ruby>した<ruby><rb>無数</rb><rt>むすう</rt></ruby>の<ruby><rb>魂</rb><rt>たましい</rt></ruby>たちを<ruby><rb>制御</rb><rt>せいぎょ</rt></ruby>できず、\\nご<ruby><rb>夫人</rb><rt>ふじん</rt></ruby>は<ruby><rb>倒</rb><rt>たお</rt></ruby>れてしまった。",
+        "zh_cn": "是的。虽然她让灯笼逆流而行，\\n但没办法控制那么多魂魄，\\n所以才晕倒了。",
+        "zh_tw": "對。雖然成功讓燈籠逆流了，\\n但卻無法控制被喚醒的無數靈魂，\\n因此夫人便倒下了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0047",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "And then the souls that had broken free\\nfrom her grasp reacted to your power and\\nturned into zombies.",
+        "ja_jp": "そして<ruby><rb>制御</rb><rt>せいぎょ</rt></ruby>を<ruby><rb>失</rb><rt>うしな</rt></ruby>った<ruby><rb>魂</rb><rt>たましい</rt></ruby>たちは、お<ruby><rb>祭</rb><rt>まつ</rt></ruby>り\\n<ruby><rb>会場</rb><rt>かいじょう</rt></ruby>にいたラトニーさんの<ruby><rb>力</rb><rt>ちから</rt></ruby>と\\n<ruby><rb>作用</rb><rt>さよう</rt></ruby>しあい、ゾンビと<ruby><rb>化</rb><rt>か</rt></ruby>したんです。",
+        "zh_cn": "然后失去控制的那些魂魄\\n和在祭典会场的你的力量\\n互相作用，变成了僵尸。",
+        "zh_tw": "然後失去控制的那些靈魂，\\n在祭典會場與菈特妮的力量起了反應，\\n就變成殭屍了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0048",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Why zombies? Is it because I really am\\na bad person, so the souls turned into\\nsomething bad, too?",
+        "ja_jp": "……なんで、ゾンビ？　やっぱり、\\nわたしが<ruby><rb>悪</rb><rt>わる</rt></ruby>い<ruby><rb>子</rb><rt>こ</rt></ruby>だから、<ruby><rb>魂</rb><rt>たましい</rt></ruby>も<ruby><rb>悪</rb><rt>わる</rt></ruby>い\\nものになっちゃったの？",
+        "zh_cn": "为什么……是僵尸？\\n因为我是个坏孩子，\\n所以魂魄也变成了邪恶的吗？",
+        "zh_tw": "……為什麼、是殭屍？\\n果然、因為我是壞孩子，\\n所以靈魂才會變成壞東西嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0049",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "No, I don't think that's it. Likely the\\nremains in the lanterns and the souls\\nwere fused when they came into\\nunexpected contact with your power.",
+        "ja_jp": "いいえ、それは<ruby><rb>違</rb><rt>ちが</rt></ruby>うと<ruby><rb>思</rb><rt>おも</rt></ruby>います。\\n<ruby><rb>灯篭</rb><rt>とうろう</rt></ruby>に<ruby><rb>入</rb><rt>はい</rt></ruby>っている<ruby><rb>遺物</rb><rt>いぶつ</rt></ruby>と<ruby><rb>魂</rb><rt>たましい</rt></ruby>が<ruby><rb>意図</rb><rt>いと</rt></ruby>しない\\n<ruby><rb>力</rb><rt>ちから</rt></ruby>で<ruby><rb>融合</rb><rt>ゆうごう</rt></ruby>したのでは、というか……。",
+        "zh_cn": "不，并不是这样的。\\n应该是灯笼里的遗物和魂魄因为\\n偶然的力量融合，倒不如说……",
+        "zh_tw": "不，我覺得不是那樣的。\\n應該是燈籠中的遺物與靈魂\\n被意外的力量所融合，或者說……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0050",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Merely an accident caused by your power\\ndistorting the original purpose of the\\nmagic circles.",
+        "ja_jp": "ラトニーさんの<ruby><rb>力</rb><rt>ちから</rt></ruby>が、<ruby><rb>魔法陣</rb><rt>まほうじん</rt></ruby>の<ruby><rb>本来</rb><rt>ほんらい</rt></ruby>の\\n<ruby><rb>目的</rb><rt>もくてき</rt></ruby>を<ruby><rb>曲</rb><rt>ま</rt></ruby>げて<ruby><rb>起</rb><rt>お</rt></ruby>きてしまった……\\n<ruby><rb>事故</rb><rt>じこ</rt></ruby>ではないかと<ruby><rb>思</rb><rt>おも</rt></ruby>うんです。",
+        "zh_cn": "你的力量改变了\\n魔法阵本来的目的……\\n这应该是一场意外。",
+        "zh_tw": "菈特妮的力量，不小心使魔法陣\\n原本的目的產生偏差了……\\n我想這只是一場意外。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0051",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "So it wasn't that something inside me\\nwas trying to summon the zombies...?",
+        "ja_jp": "……わたしの<ruby><rb>中</rb><rt>なか</rt></ruby>の<ruby><rb>何</rb><rt>なに</rt></ruby>かが、ゾンビを\\n<ruby><rb>呼</rb><rt>よ</rt></ruby>ぼうとしてたわけじゃ、ない？",
+        "zh_cn": "不是我体内的某种存在\\n试图召唤……僵尸的？",
+        "zh_tw": "……不是我體內的什麼東西，\\n把殭屍、召喚出來的？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0052",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Right. Meaning you were not responsible\\nfor the incident. We know that much now.",
+        "ja_jp": "ええ。だから<ruby><rb>事件</rb><rt>じけん</rt></ruby>の<ruby><rb>元凶</rb><rt>げんきょう</rt></ruby>は\\nあなたではありません。\\nようやくハッキリしましたね。",
+        "zh_cn": "不是。所以这次事件的\\n元凶并不是你。\\n这下终于真相大白了。",
+        "zh_tw": "嗯，所以這事件的元凶不是妳。\\n終於釐清真相了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0053",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "So don't you spend another second\\nthinking about how things would be\\nbetter off if you weren't here! Okay?",
+        "ja_jp": "これでもう、あなたも、ここにいない\\nほうがいいなんて<ruby><rb>思</rb><rt>おも</rt></ruby>わなくて\\nいいんですよ。よかったですね！",
+        "zh_cn": "这样一来你也不用\\n再去想自己不存在才好。\\n太好了！",
+        "zh_tw": "這樣一來，妳也不用再覺得\\n自己不該在這裡了唷。\\n太好了呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0054",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Right. I'm...not a bad girl after all, huh?",
+        "ja_jp": "……う、うん。ほんとだ……。\\nわたし……<ruby><rb>悪</rb><rt>わる</rt></ruby>い<ruby><rb>子</rb><rt>こ</rt></ruby>じゃ、なかったの？",
+        "zh_cn": "唔、嗯……是呢……\\n原来我……不是坏孩子？",
+        "zh_tw": "……嗯、嗯，真的耶……\\n我……不是、壞孩子囉？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0055",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Of course not. And once we sort out\\nthe zombies, we'll have this whole\\nmatter wrapped up nicely.",
+        "ja_jp": "<ruby><rb>当</rb><rt>あ</rt></ruby>たり<ruby><rb>前</rb><rt>まえ</rt></ruby>です。さぁ、ラトニーさん。\\nあとはゾンビをどうにかすれば、\\n<ruby><rb>晴</rb><rt>は</rt></ruby>れて<ruby><rb>事件</rb><rt>じけん</rt></ruby><ruby><rb>解決</rb><rt>かいけつ</rt></ruby>ですよ。",
+        "zh_cn": "那是当然的。好了，拉托妮，\\n接下来只要处理掉僵尸，\\n这次的事件就圆满解决了。",
+        "zh_tw": "當然不是。那麼，菈特妮，\\n接下來只要把殭屍的問題解決，\\n就能讓事件圓滿結束了唷。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0056",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Yeah... Then first, maybe she can tell us\\nhow to get the souls to go back to where\\nthey came from...",
+        "ja_jp": "そう、だね。なら……まずは、\\n<ruby><rb>魂</rb><rt>たましい</rt></ruby>たちを<ruby><rb>元</rb><rt>もと</rt></ruby>の<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>へ<ruby><rb>戻</rb><rt>もど</rt></ruby>す<ruby><rb>方法</rb><rt>ほうほう</rt></ruby>を\\n<ruby><rb>教</rb><rt>おし</rt></ruby>えてもらって……。",
+        "zh_cn": "是啊。那么……\\n先让她教我们怎么让\\n这些魂魄回到原来的地方……",
+        "zh_tw": "嗯，對啊。那麼……首先，\\n讓她告訴我們\\n要怎樣使靈魂回去……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0057",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Woman",
+        "ja_jp": "夫人",
+        "zh_cn": "夫人",
+        "zh_tw": "夫人"
+      },
+      "context": {
+        "en_us": "...Aah.",
+        "ja_jp": "――ア。",
+        "zh_cn": "啊——",
+        "zh_tw": "──啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0058",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Huh?",
+        "ja_jp": "……えっ？",
+        "zh_cn": "诶？",
+        "zh_tw": "……咦？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0059",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Woman",
+        "ja_jp": "夫人",
+        "zh_cn": "夫人",
+        "zh_tw": "夫人"
+      },
+      "context": {
+        "en_us": "Ah, aaah, AAAH!",
+        "ja_jp": "ア、ア、ア――！",
+        "zh_cn": "啊、啊、啊——",
+        "zh_tw": "啊、啊、啊──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0060",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "What?! No... Nooo!",
+        "ja_jp": "な、なに……いやぁっ!!",
+        "zh_cn": "怎、怎么了……不要！",
+        "zh_tw": "什、什麼……呀啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0061",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Woman?",
+        "ja_jp": "夫人？",
+        "zh_cn": "夫人？",
+        "zh_tw": "夫人？"
+      },
+      "context": {
+        "en_us": "The Emissary hath come.",
+        "ja_jp": "――<ruby><rb>使者</rb><rt>シシャ</rt></ruby>ハ、<ruby><rb>来</rb><rt>キ</rt></ruby>マセリ。",
+        "zh_cn": "使者，就位——",
+        "zh_tw": "──使者、已至。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0062",
+      "book": ""
+    },
+    {
+      "icon": "120144_01",
+      "name": {
+        "en_us": "Ulthar",
+        "ja_jp": "ウルタール",
+        "zh_cn": "乌尔塔",
+        "zh_tw": "烏魯塔爾"
+      },
+      "context": {
+        "en_us": "Mrooow! MROWL!",
+        "ja_jp": "にゃあ！　にゃああっ!!",
+        "zh_cn": "喵！喵嗷嗷嗷！",
+        "zh_tw": "喵啊！喵啊啊！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120037_01",
+      "name": {
+        "en_us": "Woman?",
+        "ja_jp": "夫人？",
+        "zh_cn": "夫人？",
+        "zh_tw": "夫人？"
+      },
+      "context": {
+        "en_us": "Thus is the chaos of glittering stars poured\\ninto the closed casket, and the unripened\\nvessel is released from its long sleep!",
+        "ja_jp": "<ruby><rb>閉</rb><rt>ト</rt></ruby>ザサレシ<ruby><rb>棺</rb><rt>ヒツギ</rt></ruby>ニ<ruby><rb>綺羅星</rb><rt>キラボシ</rt></ruby>ノ<ruby><rb>混沌</rb><rt>コントン</rt></ruby>ガ<ruby><rb>注</rb><rt>ソソ</rt></ruby>ガレ、\\n<ruby><rb>熟</rb><rt>ジュク</rt></ruby>セヌ<ruby><rb>器</rb><rt>ウツワ</rt></ruby>ハ<ruby><rb>永</rb><rt>ナガ</rt></ruby>ノ<ruby><rb>眠</rb><rt>ネム</rt></ruby>リカラ<ruby><rb>放</rb><rt>ハナ</rt></ruby>タレル。",
+        "zh_cn": "尘封之棺，斗转星移，\\n沉睡之躯，觉醒终有时。",
+        "zh_tw": "塵封之棺注入繁星混沌，\\n未熟之器離脫永久沉眠。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0064",
+      "book": ""
+    },
+    {
+      "icon": "120037_01",
+      "name": {
+        "en_us": "Woman?",
+        "ja_jp": "夫人？",
+        "zh_cn": "夫人？",
+        "zh_tw": "夫人？"
+      },
+      "context": {
+        "en_us": "The time has come. We are Chaos. We\\nare without Beginning nor End. We are the\\nDawn and Dusk. An unwaking nightmare\\non bleakest, blackest morn comes.",
+        "ja_jp": "<ruby><rb>時</rb><rt>トキ</rt></ruby>ハ<ruby><rb>来</rb><rt>キ</rt></ruby>タレリ。<ruby><rb>使者</rb><rt>シシャ</rt></ruby>ハ<ruby><rb>来</rb><rt>キ</rt></ruby>マセリ。\\n<ruby><rb>我</rb><rt>ワレ</rt></ruby>ハ<ruby><rb>混沌</rb><rt>コントン</rt></ruby>。<ruby><rb>我</rb><rt>ワ</rt></ruby>ガ<ruby><rb>終焉</rb><rt>シュウエン</rt></ruby>ハ<ruby><rb>創生</rb><rt>ソウセイ</rt></ruby>。<ruby><rb>黄昏</rb><rt>タソガレ</rt></ruby>ニシテ\\n<ruby><rb>彼誰</rb><rt>カワタレ</rt></ruby>。<ruby><rb>黯黒</rb><rt>アンコク</rt></ruby>ノ<ruby><rb>朝</rb><rt>アサ</rt></ruby>ノ<ruby><rb>醒</rb><rt>サ</rt></ruby>メヌ<ruby><rb>悪夢</rb><rt>アクム</rt></ruby>ノ<ruby><rb>訪</rb><rt>オトズ</rt></ruby>レ。",
+        "zh_cn": "时机已至，使者就位。\\n吾乃混沌。吾之终焉乃创生。既为黄昏\\n亦为黎明。暗黑之晨所见永恒噩梦。",
+        "zh_tw": "時機成熟。使者已至。吾乃混沌。\\n吾之終末即創生，乃日暮亦為破曉。\\n為造訪暗黑晨曦之不醒夢魘。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0065",
+      "book": ""
+    },
+    {
+      "icon": "120037_01",
+      "name": {
+        "en_us": "Woman?",
+        "ja_jp": "夫人？",
+        "zh_cn": "夫人？",
+        "zh_tw": "夫人？"
+      },
+      "context": {
+        "en_us": "The time of Our awakening is nigh.\\nWe are...",
+        "ja_jp": "<ruby><rb>目覚</rb><rt>メザ</rt></ruby>メノ<ruby><rb>時</rb><rt>トキ</rt></ruby>ハ<ruby><rb>此処</rb><rt>ココ</rt></ruby>ニ。\\n<ruby><rb>我</rb><rt>ワ</rt></ruby>ガ<ruby><rb>名</rb><rt>ナ</rt></ruby>ハ――",
+        "zh_cn": "觉醒时刻到。\\n吾名为——",
+        "zh_tw": "此刻即是覺醒之時。\\n吾之名乃──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0066",
+      "book": ""
+    },
+    {
+      "icon": "210046_01",
+      "name": {
+        "en_us": "Nyarlathotep",
+        "ja_jp": "ニャルラトホテプ",
+        "zh_cn": "奈亚拉托提普",
+        "zh_tw": "奈亞拉托提普"
+      },
+      "context": {
+        "en_us": "N Y A R L A T H O T E P",
+        "ja_jp": "ニ　ャ　ル　ラ　ト　ホ　テ　プ",
+        "zh_cn": "奈 亚 拉 托 提 普。",
+        "zh_tw": "奈　亞　拉　托　提　普。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0067",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Cleo & Lathna",
+        "ja_jp": "クラウ＆ラトニー",
+        "zh_cn": "库菈乌&拉托妮",
+        "zh_tw": "克菈兒＆菈特妮"
+      },
+      "context": {
+        "en_us": "!!!",
+        "ja_jp": "……!!",
+        "zh_cn": "！",
+        "zh_tw": "……！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0068",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "It can't be. The woman—she\\nturned into Nyarlathotep...?",
+        "ja_jp": "そ、そんな……ご<ruby><rb>夫人</rb><rt>ふじん</rt></ruby>が、\\nニャルラトホテプに……？",
+        "zh_cn": "怎、怎么会……\\n夫人变成了\\n奈亚拉托提普？",
+        "zh_tw": "怎、怎麼會……夫人她、\\n變成了奈亞拉托提普……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0069",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Why...? This woman isn't the\\nEmissary! This shouldn't—!",
+        "ja_jp": "どうして……？　<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>たない\\nこの<ruby><rb>人</rb><rt>ひと</rt></ruby>は、『<ruby><rb>使者</rb><rt>ししゃ</rt></ruby>』じゃない、\\nはずじゃ……！",
+        "zh_cn": "为什么？\\n没有力量的这个人，\\n应该不是“使者”才对……",
+        "zh_tw": "為什麼……？\\n沒有力量的這個人，\\n不是應該、不是「使者」嗎……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0070",
+      "book": ""
+    },
+    {
+      "icon": "210046_01",
+      "name": {
+        "en_us": "Nyarlathotep",
+        "ja_jp": "ニャルラトホテプ",
+        "zh_cn": "奈亚拉托提普",
+        "zh_tw": "奈亞拉托提普"
+      },
+      "context": {
+        "en_us": "With Our brethren's aid, We have been\\nfreed from boundless slumber. She who\\nwoke Us was from the start a thrall of the\\nAncient One; one of Our faceless vessels.",
+        "ja_jp": "<ruby><rb>瞭然</rb><rt>リョウゼン</rt></ruby>タル<ruby><rb>理</rb><rt>コトワリ</rt></ruby>。<ruby><rb>我</rb><rt>ワ</rt></ruby>ガ<ruby><rb>同胞</rb><rt>ドウホウ</rt></ruby>ノ<ruby><rb>黄昏</rb><rt>タソガレ</rt></ruby>ガ<ruby><rb>繭</rb><rt>マユ</rt></ruby>ヲ\\n<ruby><rb>解</rb><rt>ホド</rt></ruby>ク。<ruby><rb>女</rb><rt>オンナ</rt></ruby>、<ruby><rb>元</rb><rt>モト</rt></ruby>ヨリ『<ruby><rb>主</rb><rt>アルジ</rt></ruby>』ヲ<ruby><rb>拝</rb><rt>ハイ</rt></ruby>スル\\n<ruby><rb>無貌</rb><rt>ムボウ</rt></ruby>ノ<ruby><rb>現身</rb><rt>ウツシミ</rt></ruby>ナレバ。",
+        "zh_cn": "了然之理。\\n同胞黄昏为吾解开束缚。\\n此女自始便为崇拜“主”之容器。",
+        "zh_tw": "瞭然之理。黃昏同胞破除吾繭。\\n該女，自始即崇拜\\n「主」之無貌顯形軀身。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0071",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "No... She's been a part of you all along?\\nThen the voice who told her about the\\nritual to bring back her husband...",
+        "ja_jp": "……!!　<ruby><rb>最初</rb><rt>さいしょ</rt></ruby>から、あの<ruby><rb>人</rb><rt>ひと</rt></ruby>は……\\nあなたの<ruby><rb>一部</rb><rt>いちぶ</rt></ruby>？　じゃあ、<ruby><rb>夫人</rb><rt>ふじん</rt></ruby>に\\n<ruby><rb>儀式</rb><rt>ぎしき</rt></ruby>を<ruby><rb>教</rb><rt>おし</rt></ruby>えた『<ruby><rb>声</rb><rt>こえ</rt></ruby>』の<ruby><rb>正体</rb><rt>しょうたい</rt></ruby>は……",
+        "zh_cn": "那个人……一开始就是\\n你的一部分？那教会夫人\\n仪式的“声音”就是……",
+        "zh_tw": "……！！從一開始，那個人……\\n就是你的一部分？那麼，\\n教夫人執行儀式的「聲音」，就是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0072",
+      "book": ""
+    },
+    {
+      "icon": "210046_01",
+      "name": {
+        "en_us": "Nyarlathotep",
+        "ja_jp": "ニャルラトホテプ",
+        "zh_cn": "奈亚拉托提普",
+        "zh_tw": "奈亞拉托提普"
+      },
+      "context": {
+        "en_us": "Yes. It was We who imparted to the\\nwoman vessel the means to perform\\nthe rite. And then We had her gather\\nsouls to awaken Us. Yet she was a void.",
+        "ja_jp": "<ruby><rb>然</rb><rt>シカ</rt></ruby>リ。<ruby><rb>女</rb><rt>オンナ</rt></ruby>、<ruby><rb>午睡</rb><rt>ゴスイ</rt></ruby>ニ<ruby><rb>聞</rb><rt>キ</rt></ruby>キシ<ruby><rb>宣託</rb><rt>センタク</rt></ruby>ハ\\n<ruby><rb>魂集</rb><rt>タマシイツド</rt></ruby>ワセシ<ruby><rb>我</rb><rt>ワ</rt></ruby>ガ<ruby><rb>目覚</rb><rt>メザ</rt></ruby>メノ<ruby><rb>手引</rb><rt>テビ</rt></ruby>キ。\\n<ruby><rb>然</rb><rt>シカ</rt></ruby>シ<ruby><rb>女</rb><rt>オンナ</rt></ruby>、<ruby><rb>虚</rb><rt>ウツ</rt></ruby>ロニ<ruby><rb>及</rb><rt>オヨ</rt></ruby>バズ。",
+        "zh_cn": "然。吾乃指引此女举行仪式者。\\n收集魂魄为吾所用。\\n而此女之力不足以觉醒。",
+        "zh_tw": "言然。該女午睡所聞旨意\\n乃吾為集魂覺醒而予之導引。\\n然該女，力不及虛無。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0073",
+      "book": ""
+    },
+    {
+      "icon": "210046_01",
+      "name": {
+        "en_us": "Nyarlathotep",
+        "ja_jp": "ニャルラトホテプ",
+        "zh_cn": "奈亚拉托提普",
+        "zh_tw": "奈亞拉托提普"
+      },
+      "context": {
+        "en_us": "Brethren, We are grateful for your help.\\nOur vessel's collapse, Our awakening,\\nthe heretical stride of the walking flesh...\\nAll are your achievements.",
+        "ja_jp": "<ruby><rb>福音</rb><rt>フクイン</rt></ruby>タル<ruby><rb>同胞</rb><rt>ドウホウ</rt></ruby>ガ<ruby><rb>佑助</rb><rt>ユウジョ</rt></ruby>ニ<ruby><rb>謝念</rb><rt>シャネン</rt></ruby>ヲ。\\n<ruby><rb>器</rb><rt>ウツワ</rt></ruby>ノ<ruby><rb>崩壊</rb><rt>ホウカイ</rt></ruby>、<ruby><rb>我</rb><rt>ワ</rt></ruby>ガ<ruby><rb>目覚</rb><rt>メザ</rt></ruby>メ、<ruby><rb>異端</rb><rt>イタン</rt></ruby>ナリシ\\n<ruby><rb>朽人</rb><rt>クチビト</rt></ruby>ノ<ruby><rb>闊歩</rb><rt>カッポ</rt></ruby>、<ruby><rb>全</rb><rt>スベ</rt></ruby>テ<ruby><rb>汝</rb><rt>ナンジ</rt></ruby>ガ<ruby><rb>功績</rb><rt>コウセキ</rt></ruby>ナリ。",
+        "zh_cn": "得同胞相助实乃吾之所幸。\\n破茧而出，吾之觉醒，异端行尸，\\n皆为汝之功劳。",
+        "zh_tw": "為同胞福音般佑助表以謝意。\\n器之崩壞、吾之覺醒、\\n異端朽者之闊步，皆為汝之功績。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0074",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "You're saying that your awakening was\\nhastened by Lathna's power?",
+        "ja_jp": "ラトニーさんの<ruby><rb>力</rb><rt>ちから</rt></ruby>のおかげで……\\n<ruby><rb>覚醒</rb><rt>かくせい</rt></ruby>が<ruby><rb>早</rb><rt>はや</rt></ruby>まった、と<ruby><rb>言</rb><rt>い</rt></ruby>いたいのですか。",
+        "zh_cn": "你是想说\\n多亏了拉托妮的力量……\\n让你提前觉醒了？",
+        "zh_tw": "多虧了有菈特妮的力量……\\n讓覺醒提早了，你是想這麼說嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0075",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "No...no...no...",
+        "ja_jp": "うそ……。\\nうそ、うそ……。",
+        "zh_cn": "不可能……\\n不可能，这不可能……",
+        "zh_tw": "騙人……\\n騙人、騙人……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0076",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "It's my fault that this woman...died?",
+        "ja_jp": "わたしのせいで……\\nあの<ruby><rb>女</rb><rt>おんな</rt></ruby>の<ruby><rb>人</rb><rt>ひと</rt></ruby>が……<ruby><rb>死</rb><rt>し</rt></ruby>ん、だ……？",
+        "zh_cn": "因为我……\\n她才……死了？",
+        "zh_tw": "都是我害的……\\n那個人……死掉、了……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0077",
+      "book": ""
+    },
+    {
+      "icon": "210046_01",
+      "name": {
+        "en_us": "Nyarlathotep",
+        "ja_jp": "ニャルラトホテプ",
+        "zh_cn": "奈亚拉托提普",
+        "zh_tw": "奈亞拉托提普"
+      },
+      "context": {
+        "en_us": "Your power invited us. We are free of our\\nshackles now because of you, and now\\nWe shall fulfill our duty as Emissary\\nof the Ancient One.",
+        "ja_jp": "<ruby><rb>汝</rb><rt>ナンジ</rt></ruby>ガ<ruby><rb>功績</rb><rt>コウセキ</rt></ruby>ナリ。<ruby><rb>故</rb><rt>ユエ</rt></ruby>ニ<ruby><rb>我</rb><rt>ワレ</rt></ruby>ハ<ruby><rb>枷</rb><rt>カセ</rt></ruby>ヨリ\\n<ruby><rb>放</rb><rt>ハナ</rt></ruby>タレシ<ruby><rb>斑</rb><rt>マダラ</rt></ruby>ト<ruby><rb>為</rb><rt>ナ</rt></ruby>リテ、<ruby><rb>使者</rb><rt>シシャ</rt></ruby>タル<ruby><rb>責</rb><rt>セキ</rt></ruby>、\\n<ruby><rb>薄汚</rb><rt>ウスヨゴ</rt></ruby>レタ<ruby><rb>皿</rb><rt>サラ</rt></ruby>ニ<ruby><rb>果</rb><rt>ハ</rt></ruby>タス。",
+        "zh_cn": "汝可谓功不可没。\\n吾已挣脱枷锁，于俗世\\n履行身为吾主使者之命。",
+        "zh_tw": "汝之功績。\\n故吾離脫枷鎖成斑，\\n盡使者職責，化不潔之器皿。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0078",
+      "book": ""
+    },
+    {
+      "icon": "210046_01",
+      "name": {
+        "en_us": "Nyarlathotep",
+        "ja_jp": "ニャルラトホテプ",
+        "zh_cn": "奈亚拉托提普",
+        "zh_tw": "奈亞拉托提普"
+      },
+      "context": {
+        "en_us": "We go now, to gather sacrifices unto the\\naltar of worship.",
+        "ja_jp": "『<ruby><rb>遥</rb><rt>ハル</rt></ruby>カナル<ruby><rb>主</rb><rt>アルジ</rt></ruby>』ニ<ruby><rb>捧</rb><rt>ササ</rt></ruby>ゲル<ruby><rb>贄</rb><rt>ニエ</rt></ruby>ヲ<ruby><rb>類聚</rb><rt>ルイジュウ</rt></ruby>セン。",
+        "zh_cn": "集祭品献予“遥远之主”。",
+        "zh_tw": "吾將集活祭獻予「悠久之主」。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0079",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Agh... Aaaaagh!",
+        "ja_jp": "あ……あ……あぁあっ……！",
+        "zh_cn": "啊……啊……啊啊啊……",
+        "zh_tw": "啊……啊……啊啊……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0080",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Lathna?!",
+        "ja_jp": "ラトニーさん!?　",
+        "zh_cn": "拉托妮！？",
+        "zh_tw": "菈特妮！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0081",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Stay back!",
+        "ja_jp": "<ruby><rb>来</rb><rt>こ</rt></ruby>ないでっ！",
+        "zh_cn": "别过来！",
+        "zh_tw": "不要過來！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0082",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "?!",
+        "ja_jp": "ッ!?",
+        "zh_cn": "唔！？",
+        "zh_tw": "呃！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0083",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Stay back! You can't come near me!",
+        "ja_jp": "<ruby><rb>来</rb><rt>こ</rt></ruby>ないで……<ruby><rb>来</rb><rt>き</rt></ruby>ちゃ、ダメ……！",
+        "zh_cn": "别过来……不可以……过来！",
+        "zh_tw": "不要過來……不可以、過來……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0084",
+      "book": ""
+    },
+    {
+      "icon": "100004_20",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "What are you talking about?",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>を<ruby><rb>言</rb><rt>い</rt></ruby>って……。",
+        "zh_cn": "你在说什么……",
+        "zh_tw": "妳在說什麼……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0085",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "It was me who summoned the zombies.\\nAnd it was me who killed the woman and\\nmade her into Nyarlathotep.",
+        "ja_jp": "ゾンビを<ruby><rb>生</rb><rt>う</rt></ruby>み<ruby><rb>出</rb><rt>だ</rt></ruby>したのも、わたし。\\n<ruby><rb>夫人</rb><rt>ふじん</rt></ruby>を<ruby><rb>殺</rb><rt>ころ</rt></ruby>してニャルラトホテプに\\nしたのも、わたしなの。",
+        "zh_cn": "变出僵尸的……是我。\\n害死夫人让奈亚拉托提普\\n出现的也是我。",
+        "zh_tw": "召喚出殭屍的，是我。\\n殺了夫人，讓她變成奈亞拉托提普的，\\n也是我。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0086",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "Everything, all of it, it's my fault.\\nThat's what Nyarlathotep said.",
+        "ja_jp": "なにもかも<ruby><rb>全部</rb><rt>ぜんぶ</rt></ruby>、わたしのせいなの。\\nあのニャルラトホテプが、\\nそう<ruby><rb>言</rb><rt>い</rt></ruby>ったの。",
+        "zh_cn": "一切都是因我而起——\\n奈亚拉托提普就是这么说的。",
+        "zh_tw": "所有的一切，都是我害的。\\n那個奈亞拉托提普，\\n就是這麼說的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0087",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "I'm sorry... I'm so sorry, Cleo.\\nI'm not a good girl after all.",
+        "ja_jp": "ごめんなさい、ごめんなさいクラウ……\\nわたし、やっぱりいい<ruby><rb>子</rb><rt>こ</rt></ruby>じゃ、\\nなかったよ。だからね……",
+        "zh_cn": "对不起……对不起，库菈乌。\\n我果然不是一个好孩子。\\n所以……",
+        "zh_tw": "對不起，對不起克菈兒……\\n我，果然不是、好孩子。\\n所以……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0088",
+      "book": ""
+    },
+    {
+      "icon": "110349_03",
+      "name": {
+        "en_us": "Lathna",
+        "ja_jp": "ラトニー",
+        "zh_cn": "拉托妮",
+        "zh_tw": "菈特妮"
+      },
+      "context": {
+        "en_us": "And bad girls deserve to be alone.",
+        "ja_jp": "わたしみたいな<ruby><rb>悪</rb><rt>わる</rt></ruby>い<ruby><rb>子</rb><rt>こ</rt></ruby>は、\\nみんなといちゃいけないの。",
+        "zh_cn": "像我这样的坏孩子，\\n不能和大家在一起。",
+        "zh_tw": "像我這樣的壞孩子，\\n是不能和大家在一起的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22215_03_0089",
+      "book": ""
+    }
+  ]
 }

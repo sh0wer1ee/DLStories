@@ -1,31 +1,60 @@
 {
-    "story_id": "",
-    "story_name": "情人节·甜美佳肴 追加剧情 奈法利耶",
-    "story_icon": "",
-    "outline": {
-        "title": "",
-        "content": [
-            "要跳过此剧情吗？"
-        ]
+  "title": {
+    "en_us": "Valentine's Confections Extra    Nefaria",
+    "ja_jp": "バレンタイン・アラカルト エクストラ  ネファリエ",
+    "zh_cn": "情人节·甜美佳肴 追加剧情  奈法利耶",
+    "zh_tw": "情人節‧精巧甜品　追加劇情  涅法莉耶"
+  },
+  "outline": {
+    "title": {
+      "en_us": "",
+      "ja_jp": "",
+      "zh_cn": "",
+      "zh_tw": ""
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "唔……即使变成了这样的身体，\\n收到礼物也还是会高兴……谢谢。",
-            "voice_line": "VO_CHR_EVENTSTORY_21304_01_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "收到了来自奈法利耶的回礼。",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Skip this scene?",
+      "ja_jp": "このストーリーをスキップしますか？",
+      "zh_cn": "要跳过此剧情吗？",
+      "zh_tw": "請確認是否略過劇情？"
+    }
+  },
+  "prev": "2130456",
+  "next": "2130458",
+  "content": [
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "It is a fine thing to receive presents\\nafter one's life is over.",
+        "ja_jp": "ふむ……この<ruby><rb>身</rb><rt>み</rt></ruby>になっても<ruby><rb>贈</rb><rt>おく</rt></ruby>り<ruby><rb>物</rb><rt>もの</rt></ruby>は\\n<ruby><rb>嬉</rb><rt>うれ</rt></ruby>しきもの……。ありがとう。",
+        "zh_cn": "唔……即使变成了这样的身体，\\n收到礼物也还是会高兴……谢谢。",
+        "zh_tw": "嗯……縱使已成此身，\\n獲得贈禮仍不禁心感歡喜……\\n謝謝。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21304_01_0017",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "You received a thank-you gift from Nefaria.",
+        "ja_jp": "ネファリエからプレゼントのお<ruby><rb>礼</rb><rt>れい</rt></ruby>をもらった。",
+        "zh_cn": "收到了来自奈法利耶的回礼。",
+        "zh_tw": "收到了來自涅法莉耶的回禮。"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

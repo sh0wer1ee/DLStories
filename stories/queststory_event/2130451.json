@@ -1,31 +1,60 @@
 {
-    "story_id": "",
-    "story_name": "情人节·甜美佳肴 追加剧情 乌尔嘉",
-    "story_icon": "",
-    "outline": {
-        "title": "",
-        "content": [
-            "要跳过此剧情吗？"
-        ]
+  "title": {
+    "en_us": "Valentine's Confections Extra    Rawn",
+    "ja_jp": "バレンタイン・アラカルト エクストラ  ウルガ",
+    "zh_cn": "情人节·甜美佳肴 追加剧情  乌尔嘉",
+    "zh_tw": "情人節‧精巧甜品　追加劇情  烏路嘉"
+  },
+  "outline": {
+    "title": {
+      "en_us": "",
+      "ja_jp": "",
+      "zh_cn": "",
+      "zh_tw": ""
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110040_01"
-            ],
-            "speaker_name": "乌尔嘉",
-            "context": "谢谢！好开心啊！\\n我可以把这个吃了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_21304_01_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110040_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "收到了来自乌尔嘉的回礼。",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Skip this scene?",
+      "ja_jp": "このストーリーをスキップしますか？",
+      "zh_cn": "要跳过此剧情吗？",
+      "zh_tw": "請確認是否略過劇情？"
+    }
+  },
+  "prev": "2130450",
+  "next": "2130452",
+  "content": [
+    {
+      "icon": "110040_01",
+      "name": {
+        "en_us": "Rawn",
+        "ja_jp": "ウルガ",
+        "zh_cn": "乌尔嘉",
+        "zh_tw": "烏路嘉"
+      },
+      "context": {
+        "en_us": "This make Rawn happy.\\nCan Rawn eat it now?",
+        "ja_jp": "ありがとう！　うれしい！\\nこれ、もう<ruby><rb>食</rb><rt>た</rt></ruby>べていい？",
+        "zh_cn": "谢谢！好开心啊！\\n我可以把这个吃了吗？",
+        "zh_tw": "謝謝！高興！\\n這個、可以吃嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21304_01_0011",
+      "book": ""
+    },
+    {
+      "icon": "110040_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "You received a thank-you gift from Rawn.",
+        "ja_jp": "ウルガからプレゼントのお<ruby><rb>礼</rb><rt>れい</rt></ruby>をもらった。",
+        "zh_cn": "收到了来自乌尔嘉的回礼。",
+        "zh_tw": "收到了來自烏路嘉的回禮。"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

@@ -1,31 +1,60 @@
 {
-    "story_id": "",
-    "story_name": "情人节·甜美佳肴 追加剧情 菲丽雅",
-    "story_icon": "",
-    "outline": {
-        "title": "",
-        "content": [
-            "要跳过此剧情吗？"
-        ]
+  "title": {
+    "en_us": "Valentine's Confections Extra    Philia",
+    "ja_jp": "バレンタイン・アラカルト エクストラ  フィリア",
+    "zh_cn": "情人节·甜美佳肴 追加剧情  菲丽雅",
+    "zh_tw": "情人節‧精巧甜品　追加劇情  菲莉亞"
+  },
+  "outline": {
+    "title": {
+      "en_us": "",
+      "ja_jp": "",
+      "zh_cn": "",
+      "zh_tw": ""
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110028_01"
-            ],
-            "speaker_name": "菲丽雅",
-            "context": "谢谢！今天真是最棒的一天！\\n你不觉得这种日子\\n非常适合举办婚礼吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_21304_01_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110028_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "收到了来自菲丽雅的回礼。",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Skip this scene?",
+      "ja_jp": "このストーリーをスキップしますか？",
+      "zh_cn": "要跳过此剧情吗？",
+      "zh_tw": "請確認是否略過劇情？"
+    }
+  },
+  "prev": "2130444",
+  "next": "2130446",
+  "content": [
+    {
+      "icon": "110028_01",
+      "name": {
+        "en_us": "Philia",
+        "ja_jp": "フィリア",
+        "zh_cn": "菲丽雅",
+        "zh_tw": "菲莉亞"
+      },
+      "context": {
+        "en_us": "For...for me? Oh, thank you!\\nThis is the best day ever!",
+        "ja_jp": "ありがとう！　<ruby><rb>今日</rb><rt>きょう</rt></ruby>は<ruby><rb>最高</rb><rt>さいこう</rt></ruby>の<ruby><rb>日</rb><rt>ひ</rt></ruby>ね！\\nこんな<ruby><rb>日</rb><rt>ひ</rt></ruby>に<ruby><rb>結婚式</rb><rt>けっこんしき</rt></ruby>を<ruby><rb>挙</rb><rt>あ</rt></ruby>げるのも、\\n<ruby><rb>素敵</rb><rt>すてき</rt></ruby>だと<ruby><rb>思</rb><rt>おも</rt></ruby>わない!?",
+        "zh_cn": "谢谢！今天真是最棒的一天！\\n你不觉得这种日子\\n非常适合举办婚礼吗！？",
+        "zh_tw": "謝謝！今天真是最棒的一天！\\n在這樣的日子裡舉辦結婚典禮，\\n不覺得也很好嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21304_01_0005",
+      "book": ""
+    },
+    {
+      "icon": "110028_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "You received a thank-you gift from Philia.",
+        "ja_jp": "フィリアからプレゼントのお<ruby><rb>礼</rb><rt>れい</rt></ruby>をもらった。",
+        "zh_cn": "收到了来自菲丽雅的回礼。",
+        "zh_tw": "收到了來自菲莉亞的回禮。"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

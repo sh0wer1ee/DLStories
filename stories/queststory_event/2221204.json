@@ -1,585 +1,1105 @@
 {
-    "story_id": "",
-    "story_name": "防卫战～代之同仇影随行～ 以义之名",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "八千代在决斗中占据上风。\\n不料此时骸众闯入，挑明了杂贺的目的\\n是与亡妻再会以及杂贺是因为懊悔\\n杀害了八千代的祖父才脱离骸众等事。\\n随后骸众操纵僵尸向二人袭来。"
-        ]
+  "title": {
+    "en_us": "Shadow of the Mukuroshu    Acting with Honor",
+    "ja_jp": "防衛戦～影かいそふ桃の盃～  義を以て為らく",
+    "zh_cn": "防卫战～代之同仇影随行～  以义之名",
+    "zh_tw": "防衛戰～暗影寄情桃花杯～  行以大義"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "你来了啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "杂贺……\\n你有什么想说的吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "没有……在下不是说了吗，\\n言语解释毫无意义。",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "那就算了……\\n反正你不再是我认识的那个\\n杂贺师兄，也不是我姐夫了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "杂贺，我要出招了。\\n我们就堂堂正正地——",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01",
-                "110064_02"
-            ],
-            "speaker_name": "二人",
-            "context": "一决胜负吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "你的刀去哪了！\\n你以为凭那种破铜烂铁做的钝器\\n就赢得了我吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "铳并无刀刃……",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "别用那种无聊的玩笑\\n糊弄人！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "有破绽！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "唔！？\\n唔啊啊啊啊，少得意！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "唔啊！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "你竟然不惧铳击，\\n呐喊冲锋……",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "哈啊……哈啊……刚才我要是\\n退怯的话就输了吧。但我猜要是\\n能逼上近前反而还有胜算。",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "如果你用的不是铳而是刀，\\n也许结果就不一样了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "呼……在下不会找那种借口。\\n八千代，你变强了。是你赢了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "来吧，\\n你不是有话要问在下吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "嗯。那就按我们事先说好的，\\n你要老实听从我的命令。",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "但是，怎么说呢，其实……",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "杂贺",
-            "context": "八千代！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "呃啊啊啊！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "八千代",
-            "context": "杂贺！？是谁干的好事！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120202_01",
-                "120203_01",
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "呵呵，一时的胜利\\n让你松懈了呢。你师父教你的\\n常在战场的意识怎么忘了？",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "你是何人！？听你这口气，\\n一定是在暗处偷听了吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "谁让你们背着我\\n聊起了有趣的事呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "多亏你们自相残杀，\\n可给我省了不少麻烦。",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "不过，没想到在骸众之中\\n也算大名鼎鼎的杀手杂贺\\n竟然会被这种小丫头钻了空子……",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "呵……这副样子还想再见亡妻，\\n怕是痴人说梦吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "再见……亡妻？\\n这话是什么意思！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "原来他没告诉你吗？\\n老实说出来的话也许就不用决斗，\\n留下一丝谈判的余地呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "呃……住口！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "杂贺之所以成为骸众的一员\\n完成了各种脏活，都是为了\\n再次见到他的亡妻……",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "他就是为了与已经死去的人\\n再次相见这种任性又幼稚的私欲\\n而杀死了你的祖父！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "为了再次见到死去的姐姐\\n而杀了祖父……\\n难道“道反石”是为了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "没错，他因为丧妻而身陷绝望，\\n我好心想鼓励他，\\n才破例告诉了他——",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "只要用我们所寻求的“道反石”\\n打开异界黄泉国之门，\\n就可以唤回死者的魂魄。",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "你为了拉杂贺入骸众一伙，\\n竟敢用我姐姐、用他深爱之人的死\\n来当诱饵……简直无耻！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "你这么说可太过分了。\\n我只是为了让失魂落魄的杂贺\\n打起精神，跟他聊了聊而已啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "自甘堕落踏上歧途的\\n可是杂贺他自己。",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "他说得没错。\\n在下是凭自己的意志委身骸众的。\\n对于这一点在下不会狡辩。",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "对妻子的执念蒙蔽了在下的双眼，\\n以至于主动背信弃义。",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "背信弃义？呵呵，真的是这样吗？\\n在我看来，你那仁义\\n可还没有彻底舍弃干净呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "虽然你嘴上不说，但你之所以\\n脱离骸众，是因为对自己亲手\\n杀死恩师一事悔恨不已吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "都到了这一步也不告诉他孙女\\n自己的苦衷……就是因为\\n你对自己的所作所为感到羞耻……",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "唉，真是无聊透顶。\\n到头来你的所作所为\\n都是半途而废！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "唔！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "看来你因为受伤，\\n身体都不听使唤了呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "看你那副德性\\n似乎也不用我特地下手了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120211_01"
-            ],
-            "speaker_name": "骸众男子",
-            "context": "一二三四五六七八九十。\\n布留部，由良由良止，布留部。\\n尸者们，吞噬生者吧——",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "八千代",
-            "context": "哈啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "杂贺，还愣着干什么！\\n这么多敌人，稍不留意\\n就会被逼上绝路的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "在下来开路……\\n八千代，你快从这里逃走。",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "逃走？你打算怎么办？\\n你该不会是想等我逃走后，\\n就这么一死了之吧！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "你是百代的妹妹……\\n在下不能让你死在这种地方。",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "你这个蠢货！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "我又怎么能\\n放任你死在这里！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "敌人趁我不备偷袭，是你保护了我。\\n我又怎么能把你扔在这绝境里，\\n自己恬不知耻地逃走呢！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "八千代，你……",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "我要贯彻我的道义，\\n不会扔下你独自逃跑。\\n我要在此讨伐骸众！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "呼……在下明白了。\\n在下也会全力以赴，不是为了\\n让你逃走，而是为了彼此都活下来！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110064_02"
-            ],
-            "speaker_name": "八千代",
-            "context": "哈哈！你看起来\\n恢复了一些昔日的神采。\\n来吧，杂贺哥，我们上！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110389_01"
-            ],
-            "speaker_name": "杂贺",
-            "context": "好！",
-            "voice_line": "VO_CHR_EVENTSTORY_22212_04_0063",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Yachiyo is the winner of the duel. However, the\\nMukuroshu necromancer shows up to explain\\nthat Saiga's goal was to be reunited with his\\ndead wife, and how he was so upset by the\\nmurder of Yachiyo's grandfather that he left the\\ngroup. He then summons corpses and attacks.",
+      "ja_jp": "<ruby><rb>決闘</rb><rt>けっとう</rt></ruby>の<ruby><rb>勝敗</rb><rt>しょうはい</rt></ruby>はヤチヨに<ruby><rb>軍配</rb><rt>ぐんばい</rt></ruby>が<ruby><rb>上</rb><rt>あ</rt></ruby>がった。\\nだが、そこに<ruby><rb>骸衆</rb><rt>むくろしゅう</rt></ruby>が<ruby><rb>闖入</rb><rt>ちんにゅう</rt></ruby>。サイガの<ruby><rb>目的</rb><rt>もくてき</rt></ruby>が\\n<ruby><rb>亡</rb><rt>な</rt></ruby>き<ruby><rb>妻</rb><rt>つま</rt></ruby>と<ruby><rb>再</rb><rt>ふたた</rt></ruby>び<ruby><rb>会</rb><rt>あ</rt></ruby>うためであることやヤチヨの\\n<ruby><rb>祖父</rb><rt>そふ</rt></ruby>を<ruby><rb>殺</rb><rt>あや</rt></ruby>めたことを<ruby><rb>悔</rb><rt>く</rt></ruby>いて<ruby><rb>骸衆</rb><rt>むくろしゅう</rt></ruby>を<ruby><rb>抜</rb><rt>ぬ</rt></ruby>けたこと\\nなどを<ruby><rb>明</rb><rt>あ</rt></ruby>かし、ふたりに<ruby><rb>屍</rb><rt>しかばね</rt></ruby>をけしかける。",
+      "zh_cn": "八千代在决斗中占据上风。\\n不料此时骸众闯入，挑明了杂贺的目的\\n是与亡妻再会以及杂贺是因为懊悔\\n杀害了八千代的祖父才脱离骸众等事。\\n随后骸众操纵僵尸向二人袭来。",
+      "zh_tw": "決鬥結果由八千代獲得勝利。\\n然而，骸眾卻於此時闖入。\\n並說出雜賀的目的是與亡妻再會，\\n且對殺害八千代祖父感到懊悔而脫離骸眾。\\n隨後操縱活屍向兩人展開襲擊。"
+    }
+  },
+  "prev": "2221203",
+  "next": "2221205",
+  "content": [
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "So you showed your ugly mug at last.",
+        "ja_jp": "……………………………………<ruby><rb>来</rb><rt>き</rt></ruby>たか。",
+        "zh_cn": "你来了啊……",
+        "zh_tw": "………………………………來了嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0001",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "Anything you want to say, bub?",
+        "ja_jp": "サイガ……なにか\\n<ruby><rb>言</rb><rt>い</rt></ruby>いたいことはあるか？",
+        "zh_cn": "杂贺……\\n你有什么想说的吗？",
+        "zh_tw": "雜賀……\\n你還有什麼話要說？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0002",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "As I told you, there is little meaning\\nin our exchanging words.",
+        "ja_jp": "……いや、ない。<ruby><rb>言</rb><rt>い</rt></ruby>っただろう。\\n<ruby><rb>言葉</rb><rt>ことば</rt></ruby>を<ruby><rb>交</rb><rt>か</rt></ruby>わすことに<ruby><rb>意味</rb><rt>いみ</rt></ruby>などない、と。",
+        "zh_cn": "没有……在下不是说了吗，\\n言语解释毫无意义。",
+        "zh_tw": "……不，沒有。在下說過了吧。\\n「縱使交談亦毫無意義。」"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0003",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "In that case, I'm going to consider our past\\nover and you officially dead to me.",
+        "ja_jp": "ならばもうよい……。\\nお<ruby><rb>主</rb><rt>ぬし</rt></ruby>はもはや、ワシの<ruby><rb>知</rb><rt>し</rt></ruby>っている\\n<ruby><rb>兄弟子</rb><rt>あにでし</rt></ruby>のサイガ<ruby><rb>義兄様</rb><rt>にいさま</rt></ruby>ではない！",
+        "zh_cn": "那就算了……\\n反正你不再是我认识的那个\\n杂贺师兄，也不是我姐夫了！",
+        "zh_tw": "那就好……\\n你已非姐所熟識的師兄抑或雜賀姊夫！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0004",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0005",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "Let's go, Saiga. You and me,\\nmano a mano!",
+        "ja_jp": "いくぞ、サイガ。\\n<ruby><rb>正々堂々</rb><rt>せいせいどうどう</rt></ruby>！　いざ、<ruby><rb>尋常</rb><rt>じんじょう</rt></ruby>に――",
+        "zh_cn": "杂贺，我要出招了。\\n我们就堂堂正正地——",
+        "zh_tw": "姐要上了，雜賀。\\n讓咱們！光明正大地──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0006",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Together",
+        "ja_jp": "ふたり",
+        "zh_cn": "二人",
+        "zh_tw": "兩人"
+      },
+      "context": {
+        "en_us": "Have at you!",
+        "ja_jp": "――<ruby><rb>参</rb><rt>まい</rt></ruby>るッ！",
+        "zh_cn": "一决胜负吧！",
+        "zh_tw": "一較高下吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0007",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "You think you can beat me with that\\nbean-shooter instead of a blade? Ha!",
+        "ja_jp": "お<ruby><rb>主</rb><rt>ぬし</rt></ruby>、<ruby><rb>刀</rb><rt>かたな</rt></ruby>はどうした！\\nそんな<ruby><rb>付</rb><rt>つ</rt></ruby>け<ruby><rb>焼</rb><rt>や</rt></ruby>き<ruby><rb>刃</rb><rt>ば</rt></ruby>でワシに<ruby><rb>勝</rb><rt>か</rt></ruby>てるとでも\\n<ruby><rb>思</rb><rt>おも</rt></ruby>っておるのか！",
+        "zh_cn": "你的刀去哪了！\\n你以为凭那种破铜烂铁做的钝器\\n就赢得了我吗！",
+        "zh_tw": "你的刀上哪去了！\\n莫非認為僅憑臨陣磨槍便可戰勝姐嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0008",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "If you are not taking me seriously now,\\nyou will soon wish you had...bean.",
+        "ja_jp": "……<ruby><rb>銃</rb><rt>じゅう</rt></ruby>に<ruby><rb>刃</rb><rt>は</rt></ruby>はついていない。",
+        "zh_cn": "铳并无刀刃……",
+        "zh_tw": "……銃可不須要磨。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0009",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "Save your act for the funny pages!",
+        "ja_jp": "くだらん<ruby><rb>冗談</rb><rt>じょうだん</rt></ruby>で<ruby><rb>煙</rb><rt>けむ</rt></ruby>に<ruby><rb>巻</rb><rt>ま</rt></ruby>くでないわ！",
+        "zh_cn": "别用那种无聊的玩笑\\n糊弄人！",
+        "zh_tw": "別妄想以無聊的玩笑蒙混！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0010",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "Now!",
+        "ja_jp": "ここだっ！",
+        "zh_cn": "有破绽！",
+        "zh_tw": "有破綻！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0011",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "Urgh! You dirty rat!",
+        "ja_jp": "ぐうっ!?\\n……っぐァアアア、<ruby><rb>洒落臭</rb><rt>しゃらくさ</rt></ruby>いわ！",
+        "zh_cn": "唔！？\\n唔啊啊啊啊，少得意！",
+        "zh_tw": "呃嗚！？\\n……唔啊啊啊啊，少得意忘形啦！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0012",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "Gaah!",
+        "ja_jp": "がはっ!?",
+        "zh_cn": "唔啊！？",
+        "zh_tw": "呃啊！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0013",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "You...you charged me as though you hold\\nno fear of my weapon at all.",
+        "ja_jp": "まさか、<ruby><rb>銃撃</rb><rt>じゅうげき</rt></ruby>に<ruby><rb>怯</rb><rt>ひる</rt></ruby>まず\\nそのまま<ruby><rb>吶喊</rb><rt>とっかん</rt></ruby>してくるとは……。",
+        "zh_cn": "你竟然不惧铳击，\\n呐喊冲锋……",
+        "zh_tw": "沒想到，妳竟不畏銃擊，\\n繼續朝在下直擊而來……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0014",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "*pant* *pant* If I'd given ground, that\\nheater of yours would have set me to\\ndance. Straight on was the only option.",
+        "ja_jp": "ハァ……ハァ……、あそこで<ruby><rb>退</rb><rt>ひ</rt></ruby>けば\\n<ruby><rb>負</rb><rt>ま</rt></ruby>けておったじゃろう。\\n<ruby><rb>逆</rb><rt>ぎゃく</rt></ruby>に<ruby><rb>詰</rb><rt>つ</rt></ruby>められれば<ruby><rb>勝機</rb><rt>しょうき</rt></ruby>があると<ruby><rb>踏</rb><rt>ふ</rt></ruby>んだ。",
+        "zh_cn": "哈啊……哈啊……刚才我要是\\n退怯的话就输了吧。但我猜要是\\n能逼上近前反而还有胜算。",
+        "zh_tw": "呼……呼……\\n若方才怯步，想必姐已經敗了吧。\\n姐判斷進攻反而存在勝算。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0015",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "Shame for you, 'cause if you'd been using\\na blade, I'd probably be done for.",
+        "ja_jp": "もしお<ruby><rb>主</rb><rt>ぬし</rt></ruby>が<ruby><rb>銃</rb><rt>じゅう</rt></ruby>ではなく<ruby><rb>刀</rb><rt>かたな</rt></ruby>で<ruby><rb>戦</rb><rt>たたか</rt></ruby>っていたら\\n<ruby><rb>結果</rb><rt>けっか</rt></ruby>は<ruby><rb>違</rb><rt>ちが</rt></ruby>ったかもしれぬな……。",
+        "zh_cn": "如果你用的不是铳而是刀，\\n也许结果就不一样了……",
+        "zh_tw": "若你不以銃而以刀應戰，\\n或許結果將會不同……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0016",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "I cannot resort to any such petty excuses.\\nYou have grown strong, Yachiyo,\\nand today you are the victor.",
+        "ja_jp": "……ふっ、そんなケチな<ruby><rb>言</rb><rt>い</rt></ruby>い<ruby><rb>訳</rb><rt>わけ</rt></ruby>はせぬ。\\n<ruby><rb>強</rb><rt>つよ</rt></ruby>くなったな、ヤチヨ。お<ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>勝</rb><rt>か</rt></ruby>ちだ。",
+        "zh_cn": "呼……在下不会找那种借口。\\n八千代，你变强了。是你赢了。",
+        "zh_tw": "……呵，在下並不打算找藉口。\\n妳變強了呢，八千代。是妳贏了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0017",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "Now do with me as you will.",
+        "ja_jp": "さあ、それがしに<ruby><rb>問</rb><rt>と</rt></ruby>いたいことが\\nあるのだろう？",
+        "zh_cn": "来吧，\\n你不是有话要问在下吗？",
+        "zh_tw": "好了，妳有事想問在下吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0018",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "Per the deal, you gotta do one thing I say,\\nno matter what.",
+        "ja_jp": "うむ。<ruby><rb>事前</rb><rt>じぜん</rt></ruby>に<ruby><rb>交</rb><rt>か</rt></ruby>わした<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>決</rb><rt>き</rt></ruby>め<ruby><rb>通</rb><rt>どお</rt></ruby>り、\\nワシの<ruby><rb>命令</rb><rt>めいれい</rt></ruby>をひとつ<ruby><rb>聞</rb><rt>き</rt></ruby>いてもらうぞ。",
+        "zh_cn": "嗯。那就按我们事先说好的，\\n你要老实听从我的命令。",
+        "zh_tw": "嗯。按事前約定，\\n你要聽姐一個命令。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0019",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "But to be honest—",
+        "ja_jp": "だが、そうじゃな。<ruby><rb>正直</rb><rt>しょうじき</rt></ruby>に<ruby><rb>申</rb><rt>もう</rt></ruby>すと――",
+        "zh_cn": "但是，怎么说呢，其实……",
+        "zh_tw": "然而，關於此事。\\n實不相瞞──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0020",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "Yachiyo!",
+        "ja_jp": "ヤチヨ！",
+        "zh_cn": "八千代！",
+        "zh_tw": "八千代！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0021",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "Nnngh!",
+        "ja_jp": "ぐあぁああッ!?",
+        "zh_cn": "呃啊啊啊！？",
+        "zh_tw": "嗚啊啊啊啊！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0022",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "Saiga! Who did this?!",
+        "ja_jp": "サイガ!?　<ruby><rb>誰</rb><rt>だれ</rt></ruby>の<ruby><rb>仕業</rb><rt>しわざ</rt></ruby>じゃ！",
+        "zh_cn": "杂贺！？是谁干的好事！",
+        "zh_tw": "雜賀！？是誰幹的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0023",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "Oh, how careless one victory can make\\na person. Did your teacher not tell you to\\nalways be ready for battle at any time?",
+        "ja_jp": "ふふ、<ruby><rb>一時</rb><rt>いっとき</rt></ruby>の<ruby><rb>勝利</rb><rt>しょうり</rt></ruby>に<ruby><rb>気</rb><rt>き</rt></ruby>が<ruby><rb>緩</rb><rt>ゆる</rt></ruby>みましたね。\\n<ruby><rb>師</rb><rt>し</rt></ruby>より<ruby><rb>教</rb><rt>おそ</rt></ruby>わったという<ruby><rb>常在戦場</rb><rt>じょうざいせんじょう</rt></ruby>の<ruby><rb>心得</rb><rt>こころえ</rt></ruby>は\\nいったいどうしたのですか？",
+        "zh_cn": "呵呵，一时的胜利\\n让你松懈了呢。你师父教你的\\n常在战场的意识怎么忘了？",
+        "zh_tw": "呵呵，因為一時的勝利而大意了呢。\\n師父教導過要「常時備戰」的心得\\n究竟到哪裡去了呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0024",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "Cram it with walnuts, pal!\\nYou don't know squat about nothin'!",
+        "ja_jp": "お<ruby><rb>主</rb><rt>ぬし</rt></ruby>は……!?　その<ruby><rb>口振</rb><rt>くちぶ</rt></ruby>り、\\nどこぞで<ruby><rb>聞</rb><rt>き</rt></ruby>き<ruby><rb>耳</rb><rt>みみ</rt></ruby>を<ruby><rb>立</rb><rt>た</rt></ruby>てておったか。",
+        "zh_cn": "你是何人！？听你这口气，\\n一定是在暗处偷听了吧。",
+        "zh_tw": "你是……！？\\n由語氣聽來，是躲在某處偷聽了吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0025",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "Ah, but I do—and I must say, I'm sad the\\ntwo of you left me out of your little chat.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたくし</rt></ruby>を<ruby><rb>除</rb><rt>の</rt></ruby>け<ruby><rb>者</rb><rt>もの</rt></ruby>にして<ruby><rb>面白</rb><rt>おもしろ</rt></ruby>そうな<ruby><rb>話</rb><rt>はなし</rt></ruby>を\\nしていらっしゃったのでね。",
+        "zh_cn": "谁让你们背着我\\n聊起了有趣的事呢。",
+        "zh_tw": "因為你們排擠我，\\n光顧著自己說些有趣的話啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0026",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "Still, your attacking each other does\\nsave me quite a bit of trouble.",
+        "ja_jp": "ふたりで<ruby><rb>潰</rb><rt>つぶ</rt></ruby>し<ruby><rb>合</rb><rt>あ</rt></ruby>っていただけて\\nこちらとしては<ruby><rb>手間</rb><rt>てま</rt></ruby>が<ruby><rb>省</rb><rt>はぶ</rt></ruby>けましたよ。",
+        "zh_cn": "多亏你们自相残杀，\\n可给我省了不少麻烦。",
+        "zh_tw": "能看見你們自相殘殺，\\n實在是省了我不少工夫呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0027",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "But to think a master assassin famed\\neven among the Mukuroshu would be\\ndefeated by a little girl like you...",
+        "ja_jp": "ですが、まさか<ruby><rb>骸衆</rb><rt>むくろしゅう</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>でも\\n<ruby><rb>名</rb><rt>な</rt></ruby>うての<ruby><rb>暗殺者</rb><rt>あんさつしゃ</rt></ruby>だったサイガが\\nこんな<ruby><rb>小娘</rb><rt>こむすめ</rt></ruby>に<ruby><rb>不覚</rb><rt>ふかく</rt></ruby>を<ruby><rb>取</rb><rt>と</rt></ruby>るとは……",
+        "zh_cn": "不过，没想到在骸众之中\\n也算大名鼎鼎的杀手杂贺\\n竟然会被这种小丫头钻了空子……",
+        "zh_tw": "不過，骸眾當中有名的暗殺者雜賀，\\n竟然會一時大意輸給這種小丫頭……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0028",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "You never had the skill to be reunited with\\nyour dead wife, and it was folly to think so.",
+        "ja_jp": "ふぅ……この<ruby><rb>様</rb><rt>ざま</rt></ruby>では、<ruby><rb>死</rb><rt>し</rt></ruby>んだ<ruby><rb>妻</rb><rt>つま</rt></ruby>に\\n<ruby><rb>再</rb><rt>ふたた</rt></ruby>び<ruby><rb>会</rb><rt>あ</rt></ruby>うなど、<ruby><rb>夢</rb><rt>ゆめ</rt></ruby>のまた<ruby><rb>夢</rb><rt>ゆめ</rt></ruby>でしょうね。",
+        "zh_cn": "呵……这副样子还想再见亡妻，\\n怕是痴人说梦吧。",
+        "zh_tw": "呼……依這樣看來，\\n想和死去的妻子重逢，\\n大概比登天還難吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0029",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "The hell does that mean?!",
+        "ja_jp": "<ruby><rb>死</rb><rt>し</rt></ruby>んだ<ruby><rb>妻</rb><rt>つま</rt></ruby>に、<ruby><rb>再</rb><rt>ふたた</rt></ruby>び……？\\nどういうことじゃ!?",
+        "zh_cn": "再见……亡妻？\\n这话是什么意思！？",
+        "zh_tw": "和死去的妻子、重逢……？\\n是何意思！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0030",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "He hasn't told you? Ah, if only he'd been\\nhonest from the start, perhaps this whole\\nduel could have been avoided.",
+        "ja_jp": "サイガから<ruby><rb>聞</rb><rt>き</rt></ruby>いていないのですか？\\n<ruby><rb>素直</rb><rt>すなお</rt></ruby>に<ruby><rb>話</rb><rt>はな</rt></ruby>せば、<ruby><rb>決闘</rb><rt>けっとう</rt></ruby>などせずとも\\n<ruby><rb>交渉</rb><rt>こうしょう</rt></ruby>の<ruby><rb>余地</rb><rt>よち</rt></ruby>はあったでしょうに。",
+        "zh_cn": "原来他没告诉你吗？\\n老实说出来的话也许就不用决斗，\\n留下一丝谈判的余地呢。",
+        "zh_tw": "雜賀沒告訴妳嗎？要是他願意老實說，\\n根本用不著決鬥也有餘地交涉的說。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0031",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "Silence!",
+        "ja_jp": "くっ……<ruby><rb>黙</rb><rt>だま</rt></ruby>れ！",
+        "zh_cn": "呃……住口！",
+        "zh_tw": "唔……閉嘴！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0032",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "All the good, dirty work Saiga did as a\\nmember of Mukuroshu was so he might\\nbe reunited with his beloved.",
+        "ja_jp": "サイガが<ruby><rb>骸衆</rb><rt>むくろしゅう</rt></ruby>の<ruby><rb>一員</rb><rt>いちいん</rt></ruby>となってさまざまな\\n<ruby><rb>汚</rb><rt>よご</rt></ruby>れ<ruby><rb>仕事</rb><rt>しごと</rt></ruby>をこなしてきたのは、すべて\\n<ruby><rb>死</rb><rt>し</rt></ruby>んだ<ruby><rb>妻</rb><rt>つま</rt></ruby>と<ruby><rb>再会</rb><rt>さいかい</rt></ruby>するため……",
+        "zh_cn": "杂贺之所以成为骸众的一员\\n完成了各种脏活，都是为了\\n再次见到他的亡妻……",
+        "zh_tw": "雜賀之所以加入骸眾\\n並做過許多骯髒事，\\n一切都是為了與亡妻再會……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0033",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "Your grandfather was killed for this man's\\nchildish self-indulgent dream of reuniting\\nwith the dead!",
+        "ja_jp": "<ruby><rb>死</rb><rt>し</rt></ruby>んでしまった<ruby><rb>人間</rb><rt>にんげん</rt></ruby>に<ruby><rb>会</rb><rt>あ</rt></ruby>いたいなどと\\nそんな<ruby><rb>子供</rb><rt>こども</rt></ruby>の<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>儘</rb><rt>まま</rt></ruby>のような<ruby><rb>理由</rb><rt>りゆう</rt></ruby>で、\\n<ruby><rb>貴方</rb><rt>あなた</rt></ruby>の<ruby><rb>祖父</rb><rt>そふ</rt></ruby>は<ruby><rb>殺</rb><rt>ころ</rt></ruby>されたのです！",
+        "zh_cn": "他就是为了与已经死去的人\\n再次相见这种任性又幼稚的私欲\\n而杀死了你的祖父！",
+        "zh_tw": "他只為了與死去的人相見\\n這種幼稚任性的理由，\\n而殺了妳的祖父啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0034",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "Saiga, is THAT why you're so hot to get\\nyour mitts on the Underworld Key?!\\nSo you can see my sister again?!",
+        "ja_jp": "<ruby><rb>死</rb><rt>し</rt></ruby>んだ<ruby><rb>姉</rb><rt>あね</rt></ruby>と<ruby><rb>会</rb><rt>あ</rt></ruby>うためにワシの<ruby><rb>祖父</rb><rt>そふ</rt></ruby>を……\\nまさか、『<ruby><rb>道反石</rb><rt>ちがえしのいし</rt></ruby>』はそのための……？",
+        "zh_cn": "为了再次见到死去的姐姐\\n而杀了祖父……\\n难道“道反石”是为了……",
+        "zh_tw": "為了見死去的姊姊，而將姐的祖父……\\n莫非、「道反石」也是為此……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0035",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "When I found him wracked with despair\\nover her loss, I told him something I\\nthought might lift his spirits:",
+        "ja_jp": "ええ、<ruby><rb>妻</rb><rt>つま</rt></ruby>を<ruby><rb>亡</rb><rt>な</rt></ruby>くして<ruby><rb>絶望</rb><rt>ぜつぼう</rt></ruby>していた<ruby><rb>彼</rb><rt>かれ</rt></ruby>を\\n<ruby><rb>励</rb><rt>はげ</rt></ruby>まそうという<ruby><rb>親切心</rb><rt>しんせつしん</rt></ruby>から、<ruby><rb>私</rb><rt>わたくし</rt></ruby>が<ruby><rb>特別</rb><rt>とくべつ</rt></ruby>に\\n<ruby><rb>教</rb><rt>おし</rt></ruby>えて<ruby><rb>差</rb><rt>さ</rt></ruby>し<ruby><rb>上</rb><rt>あ</rt></ruby>げたのですよ――",
+        "zh_cn": "没错，他因为丧妻而身陷绝望，\\n我好心想鼓励他，\\n才破例告诉了他——",
+        "zh_tw": "沒錯，當他因妻子逝去而絕望時，\\n是我出於好心想鼓舞他，\\n才特別告訴他的喔──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0036",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "In the event we open the gate to the\\nRealm of the Dead with an Underworld\\nKey, it would be possible to bring forth\\nthe spirits of the dead.",
+        "ja_jp": "――<ruby><rb>我々</rb><rt>われわれ</rt></ruby>が<ruby><rb>求</rb><rt>もと</rt></ruby>める『<ruby><rb>道反石</rb><rt>ちがえしのいし</rt></ruby>』によって\\n<ruby><rb>異界</rb><rt>いかい</rt></ruby>ヨモツクニの<ruby><rb>扉</rb><rt>とびら</rt></ruby>を<ruby><rb>開</rb><rt>ひら</rt></ruby>いた<ruby><rb>暁</rb><rt>あかつき</rt></ruby>には、\\n<ruby><rb>死者</rb><rt>ししゃ</rt></ruby>の<ruby><rb>魂</rb><rt>たましい</rt></ruby>を<ruby><rb>呼</rb><rt>よ</rt></ruby>び<ruby><rb>戻</rb><rt>もど</rt></ruby>すことも<ruby><rb>可能</rb><rt>かのう</rt></ruby>だ、と。",
+        "zh_cn": "只要用我们所寻求的“道反石”\\n打开异界黄泉国之门，\\n就可以唤回死者的魂魄。",
+        "zh_tw": "──告訴他當我們使用追求已久的\\n「道反石」開啟異界黃泉國之門時，\\n就可以喚回死者的靈魂。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0037",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "So you used my dead sister to trick him\\ninto your organization? That's lower than\\na snake's belly in a wheel rut!",
+        "ja_jp": "サイガを<ruby><rb>骸衆</rb><rt>むくろしゅう</rt></ruby>へ<ruby><rb>引</rb><rt>ひ</rt></ruby>き<ruby><rb>入</rb><rt>い</rt></ruby>れるために\\nワシの<ruby><rb>姉</rb><rt>あね</rt></ruby>を、<ruby><rb>愛</rb><rt>あい</rt></ruby>する<ruby><rb>者</rb><rt>もの</rt></ruby>の<ruby><rb>死</rb><rt>し</rt></ruby>をだしに\\n<ruby><rb>使</rb><rt>つか</rt></ruby>ったのか……<ruby><rb>下衆</rb><rt>げす</rt></ruby>め！",
+        "zh_cn": "你为了拉杂贺入骸众一伙，\\n竟敢用我姐姐、用他深爱之人的死\\n来当诱饵……简直无耻！",
+        "zh_tw": "為了拉攏雜賀加入骸眾，\\n竟利用姐的親姊、利用他者\\n心愛之人的死……卑鄙小人！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0038",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "＂Low＂ is such an ugly word. I merely spoke\\non a variety of topics in order to awaken\\nSaiga from his reverie of grief.",
+        "ja_jp": "これは<ruby><rb>酷</rb><rt>ひど</rt></ruby>い<ruby><rb>言</rb><rt>い</rt></ruby>い<ruby><rb>草</rb><rt>ぐさ</rt></ruby>ですな。<ruby><rb>私</rb><rt>わたくし</rt></ruby>はただ\\n<ruby><rb>喪心</rb><rt>そうしん</rt></ruby>していたサイガを<ruby><rb>元気</rb><rt>げんき</rt></ruby>づけようと\\n<ruby><rb>四方山話</rb><rt>よもやまばなし</rt></ruby>をしただけですよ？",
+        "zh_cn": "你这么说可太过分了。\\n我只是为了让失魂落魄的杂贺\\n打起精神，跟他聊了聊而已啊？",
+        "zh_tw": "妳說的還真過份呢。\\n我只是為了鼓勵意志消沉的雜賀，\\n所以找他聊聊而已喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0039",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "It was Saiga himself who chose to\\ndescend down the path to depravity.",
+        "ja_jp": "<ruby><rb>邪道</rb><rt>じゃどう</rt></ruby>に<ruby><rb>堕</rb><rt>お</rt></ruby>ちることを<ruby><rb>決</rb><rt>き</rt></ruby>めたのは\\nサイガ<ruby><rb>自身</rb><rt>じしん</rt></ruby>です。",
+        "zh_cn": "自甘堕落踏上歧途的\\n可是杂贺他自己。",
+        "zh_tw": "決定墮入歧途的，\\n是雜賀自己。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0040",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "All is as this man says: I allied with the\\nMukuroshu of my own volition, and can\\nmake no excuse for it.",
+        "ja_jp": "……その<ruby><rb>男</rb><rt>おとこ</rt></ruby>の<ruby><rb>言</rb><rt>い</rt></ruby>う<ruby><rb>通</rb><rt>とお</rt></ruby>りだ。\\nそれがしは<ruby><rb>己</rb><rt>おのれ</rt></ruby>の<ruby><rb>判断</rb><rt>はんだん</rt></ruby>で<ruby><rb>骸衆</rb><rt>むくろしゅう</rt></ruby>に<ruby><rb>与</rb><rt>くみ</rt></ruby>した。\\nそれについて<ruby><rb>言</rb><rt>い</rt></ruby>い<ruby><rb>訳</rb><rt>わけ</rt></ruby>するつもりはない。",
+        "zh_cn": "他说得没错。\\n在下是凭自己的意志委身骸众的。\\n对于这一点在下不会狡辩。",
+        "zh_tw": "……那男人說得沒錯。\\n是在下憑自身判斷投靠骸眾。\\n在下並不打算為此找藉口。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0041",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "I was deluded—obsessed with the idea of\\nseeing my wife—and of my own volition\\ndid I abandon righteousness.",
+        "ja_jp": "それがしは、<ruby><rb>妻</rb><rt>つま</rt></ruby>への<ruby><rb>妄執</rb><rt>もうしゅう</rt></ruby>に<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>憑</rb><rt>つ</rt></ruby>かれ\\n<ruby><rb>己</rb><rt>おのれ</rt></ruby>の<ruby><rb>意思</rb><rt>いし</rt></ruby>で<ruby><rb>義</rb><rt>ぎ</rt></ruby>を<ruby><rb>捨</rb><rt>す</rt></ruby>てたのだ。",
+        "zh_cn": "对妻子的执念蒙蔽了在下的双眼，\\n以至于主动背信弃义。",
+        "zh_tw": "在下出於對妻子的執著，\\n憑自身意志捨棄了仁義。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0042",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "Oh, I wouldn't go so far as all that.",
+        "ja_jp": "<ruby><rb>義</rb><rt>ぎ</rt></ruby>を<ruby><rb>捨</rb><rt>す</rt></ruby>てた、ですか。ふふっ、それは\\nどうでしょう。<ruby><rb>私</rb><rt>わたくし</rt></ruby>からすれば、<ruby><rb>義</rb><rt>ぎ</rt></ruby>を\\n<ruby><rb>捨</rb><rt>す</rt></ruby>てきれているとは<ruby><rb>到底</rb><rt>とうてい</rt></ruby><ruby><rb>思</rb><rt>おも</rt></ruby>えませんね。",
+        "zh_cn": "背信弃义？呵呵，真的是这样吗？\\n在我看来，你那仁义\\n可还没有彻底舍弃干净呢。",
+        "zh_tw": "捨棄了仁義，是嗎。\\n呵呵，真是如此嗎？就我看來，\\n實在不認為你徹底捨棄了仁義呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0043",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "In fact, your reason for abandoning the\\nMukuroshu was your regret at having killed\\nyour own teacher, was it not?",
+        "ja_jp": "<ruby><rb>口</rb><rt>くち</rt></ruby>では<ruby><rb>言</rb><rt>い</rt></ruby>ってませんが、そもそも<ruby><rb>貴方</rb><rt>あなた</rt></ruby>が\\n<ruby><rb>骸衆</rb><rt>むくろしゅう</rt></ruby>を<ruby><rb>抜</rb><rt>ぬ</rt></ruby>けたのも、その<ruby><rb>手</rb><rt>て</rt></ruby>で<ruby><rb>己</rb><rt>おのれ</rt></ruby>の<ruby><rb>師</rb><rt>し</rt></ruby>を\\n<ruby><rb>殺</rb><rt>あや</rt></ruby>めたことを<ruby><rb>悔</rb><rt>く</rt></ruby>やんでのことでしょう？",
+        "zh_cn": "虽然你嘴上不说，但你之所以\\n脱离骸众，是因为对自己亲手\\n杀死恩师一事悔恨不已吧？",
+        "zh_tw": "雖然嘴上沒說，但你之所以離開骸眾，\\n是因為對自己親手殺了師父一事\\n感到懊悔吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0044",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "And your reason for coming here and\\nhiding your past from this woman is the\\nsame: You are ashamed of your deeds.",
+        "ja_jp": "ここに<ruby><rb>来</rb><rt>き</rt></ruby>て、その<ruby><rb>孫娘</rb><rt>まごむすめ</rt></ruby>に<ruby><rb>自身</rb><rt>じしん</rt></ruby>の<ruby><rb>事情</rb><rt>じじょう</rt></ruby>を\\n<ruby><rb>話</rb><rt>はな</rt></ruby>せずにいたのもそう……<ruby><rb>己</rb><rt>おのれ</rt></ruby>の<ruby><rb>行</rb><rt>おこな</rt></ruby>いを\\n<ruby><rb>恥</rb><rt>は</rt></ruby>じているからだ……。",
+        "zh_cn": "都到了这一步也不告诉他孙女\\n自己的苦衷……就是因为\\n你对自己的所作所为感到羞耻……",
+        "zh_tw": "你來到這裡，卻依然無法\\n向其孫女說出口也是……\\n都是因為你對自身行為感到羞恥……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0045",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "Everything about you is a miserable mire\\nof half-measures, and it is absurd!",
+        "ja_jp": "ああ、まったく<ruby><rb>下</rb><rt>くだ</rt></ruby>らない。<ruby><rb>結局</rb><rt>けっきょく</rt></ruby><ruby><rb>全部</rb><rt>ぜんぶ</rt></ruby>\\n<ruby><rb>中途半端</rb><rt>ちゅうとはんぱ</rt></ruby>なんですよ、<ruby><rb>貴方</rb><rt>あなた</rt></ruby>はッ！",
+        "zh_cn": "唉，真是无聊透顶。\\n到头来你的所作所为\\n都是半途而废！",
+        "zh_tw": "啊啊，實在太無聊了。\\n結果你做任何事都半途而廢嘛！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0046",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "Ngah!",
+        "ja_jp": "ぐぬっ!?",
+        "zh_cn": "唔！？",
+        "zh_tw": "呃嗚！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0047",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "Alas, it seems that injured body of yours\\nis not ready to obey its mind.",
+        "ja_jp": "どうやら、ダメージで<ruby><rb>身体</rb><rt>からだ</rt></ruby>が\\n<ruby><rb>思</rb><rt>おも</rt></ruby>うように<ruby><rb>動</rb><rt>うご</rt></ruby>かないようですね。",
+        "zh_cn": "看来你因为受伤，\\n身体都不听使唤了呢。",
+        "zh_tw": "看來受到的傷害讓你無法\\n自由行動了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0048",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "With you in that state, I don't need to go\\nout of my way to handle you.",
+        "ja_jp": "その<ruby><rb>様子</rb><rt>ようす</rt></ruby>なら、わざわざ<ruby><rb>私</rb><rt>わたくし</rt></ruby>が<ruby><rb>手</rb><rt>て</rt></ruby>を<ruby><rb>下</rb><rt>くだ</rt></ruby>す\\n<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>もなさそうです――",
+        "zh_cn": "看你那副德性\\n似乎也不用我特地下手了……",
+        "zh_tw": "照你現在的樣子，\\n似乎也沒必要由我親自動手──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0049",
+      "book": ""
+    },
+    {
+      "icon": "120211_01",
+      "name": {
+        "en_us": "Mukuroshu Man",
+        "ja_jp": "骸衆の男",
+        "zh_cn": "骸众男子",
+        "zh_tw": "骸眾男子"
+      },
+      "context": {
+        "en_us": "Silent bones, mouldering beneath the\\nearth, walk this land once more!\\n...Now, my corpses, devour the living.",
+        "ja_jp": "ひふみよいむなやここのたり\\nふるべ　ゆらゆらと　ふるべ\\n――<ruby><rb>屍</rb><rt>しかばね</rt></ruby>たちよ、<ruby><rb>生</rb><rt>せい</rt></ruby>ある<ruby><rb>者</rb><rt>もの</rt></ruby>を<ruby><rb>貪</rb><rt>むさぼ</rt></ruby>りなさい。",
+        "zh_cn": "一二三四五六七八九十。\\n布留部，由良由良止，布留部。\\n尸者们，吞噬生者吧——",
+        "zh_tw": "一二三四五六七八九十。\\n布留部、由良由良止、布留部。\\n──眾屍骸啊，貪蝕生者吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0050",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "Haah!",
+        "ja_jp": "ハァアアッ！",
+        "zh_cn": "哈啊啊！",
+        "zh_tw": "喝啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0051",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "Where's your head at, bub?! If you slack\\nagainst this many corpses, they're gonna\\nturn you into hash!",
+        "ja_jp": "サイガ、なにを<ruby><rb>呆</rb><rt>ほう</rt></ruby>けておる！\\nこの<ruby><rb>数</rb><rt>かず</rt></ruby>の<ruby><rb>敵</rb><rt>てき</rt></ruby>、<ruby><rb>気</rb><rt>き</rt></ruby>を<ruby><rb>抜</rb><rt>ぬ</rt></ruby>けばあっという<ruby><rb>間</rb><rt>ま</rt></ruby>に\\n<ruby><rb>押</rb><rt>お</rt></ruby>し<ruby><rb>込</rb><rt>こ</rt></ruby>まれかねんぞ！",
+        "zh_cn": "杂贺，还愣着干什么！\\n这么多敌人，稍不留意\\n就会被逼上绝路的！",
+        "zh_tw": "雜賀，為何愣在原地！\\n敵勢如此眾多，若一時疏忽，\\n可會於剎那間遭到壓制啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0052",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "I will clear a path so you might\\nflee this place.",
+        "ja_jp": "……それがしが<ruby><rb>道</rb><rt>みち</rt></ruby>を<ruby><rb>作</rb><rt>つく</rt></ruby>る。\\nヤチヨ、お<ruby><rb>前</rb><rt>まえ</rt></ruby>はここから<ruby><rb>逃</rb><rt>に</rt></ruby>げよ。",
+        "zh_cn": "在下来开路……\\n八千代，你快从这里逃走。",
+        "zh_tw": "……由在下開拓道路。\\n八千代，妳藉此逃離吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0053",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "Oh no! I ain't gonna let you\\ntake the fall for me!",
+        "ja_jp": "<ruby><rb>逃</rb><rt>に</rt></ruby>げる？　お<ruby><rb>主</rb><rt>ぬし</rt></ruby>はどうするつもりじゃ。\\nまさかワシを<ruby><rb>逃</rb><rt>に</rt></ruby>がした<ruby><rb>後</rb><rt>あと</rt></ruby>、そのまま<ruby><rb>死</rb><rt>し</rt></ruby>ぬ\\nつもりではあるまいな!?",
+        "zh_cn": "逃走？你打算怎么办？\\n你该不会是想等我逃走后，\\n就这么一死了之吧！？",
+        "zh_tw": "逃？你有何打算。\\n該不是打算等姐逃離之後，\\n獨自於此尋死吧！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0054",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "You are Momoyo's dear sister.\\nI cannot permit you to die here.",
+        "ja_jp": "……モモヨの<ruby><rb>妹</rb><rt>いもうと</rt></ruby>であるお<ruby><rb>前</rb><rt>まえ</rt></ruby>を\\nこんなところで<ruby><rb>死</rb><rt>し</rt></ruby>なすわけにはいかぬ。",
+        "zh_cn": "你是百代的妹妹……\\n在下不能让你死在这种地方。",
+        "zh_tw": "……在下絕不可讓身為桃代親妹的妳\\n喪命於此。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0055",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "Ugh! You're such a chowderhead!",
+        "ja_jp": "この、<ruby><rb>戯</rb><rt>たわ</rt></ruby>けめ！",
+        "zh_cn": "你这个蠢货！",
+        "zh_tw": "你這、混帳東西！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0056",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "And I ain't gonna let YOU take\\nthe big sleep today neither!",
+        "ja_jp": "<ruby><rb>死</rb><rt>し</rt></ruby>なすわけにいかぬのは\\nこちらとて<ruby><rb>同</rb><rt>おな</rt></ruby>じじゃ！",
+        "zh_cn": "我又怎么能\\n放任你死在这里！",
+        "zh_tw": "姐同樣不可讓你喪命於此啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0057",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "You saved me from a surprise attack,\\nand I ain't the kind of dame what\\ndoesn't pay back what she owes!",
+        "ja_jp": "<ruby><rb>敵</rb><rt>てき</rt></ruby>の<ruby><rb>不意打</rb><rt>ふいう</rt></ruby>ちから<ruby><rb>守</rb><rt>まも</rt></ruby>ってくれた<ruby><rb>者</rb><rt>もの</rt></ruby>を\\n<ruby><rb>窮地</rb><rt>きゅうち</rt></ruby>に<ruby><rb>捨</rb><rt>す</rt></ruby>て<ruby><rb>置</rb><rt>お</rt></ruby>き、ひとりおめおめと\\n<ruby><rb>逃</rb><rt>に</rt></ruby>げるわけにはいかぬ！",
+        "zh_cn": "敌人趁我不备偷袭，是你保护了我。\\n我又怎么能把你扔在这绝境里，\\n自己恬不知耻地逃走呢！",
+        "zh_tw": "姐怎能將守護自己不受敵方偷襲之人\\n棄於絕境，厚顏無恥地獨自逃離！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0058",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "Yachiyo, you...",
+        "ja_jp": "ヤチヨ、お<ruby><rb>前</rb><rt>まえ</rt></ruby>……。",
+        "zh_cn": "八千代，你……",
+        "zh_tw": "八千代，妳……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0059",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "I do what's right, and right now, that\\nmeans crushin' the Mukuroshu—so let's\\nbash this cat's teeth in and then kick him\\nin the guts 'cause he mumbles too much!",
+        "ja_jp": "ワシは、ワシの<ruby><rb>義</rb><rt>ぎ</rt></ruby>を<ruby><rb>通</rb><rt>とお</rt></ruby>す。\\nお<ruby><rb>主</rb><rt>ぬし</rt></ruby>を<ruby><rb>置</rb><rt>お</rt></ruby>いて<ruby><rb>逃</rb><rt>に</rt></ruby>げたりなどせんぞ。\\nこのままここで、<ruby><rb>骸衆</rb><rt>むくろしゅう</rt></ruby>を<ruby><rb>討</rb><rt>う</rt></ruby>ちとる！",
+        "zh_cn": "我要贯彻我的道义，\\n不会扔下你独自逃跑。\\n我要在此讨伐骸众！",
+        "zh_tw": "姐必貫徹姐的仁義。\\n絕不丟下你獨自逃離。\\n姐將在此討伐骸眾！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0060",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "How can I refuse so impressive an offer?\\nVery well—let us fight to the utmost to\\nensure we both escape with our lives.",
+        "ja_jp": "…………フッ、<ruby><rb>承知</rb><rt>しょうち</rt></ruby>した。\\nそれがしも、お<ruby><rb>前</rb><rt>まえ</rt></ruby>を<ruby><rb>逃</rb><rt>に</rt></ruby>がすためではなく\\nふたりで<ruby><rb>生</rb><rt>い</rt></ruby>き<ruby><rb>残</rb><rt>のこ</rt></ruby>るために<ruby><rb>尽力</rb><rt>じんりょく</rt></ruby>しよう！",
+        "zh_cn": "呼……在下明白了。\\n在下也会全力以赴，不是为了\\n让你逃走，而是为了彼此都活下来！",
+        "zh_tw": "…………呵，明白了。\\n那麼在下也捨棄令妳獨自逃離之意，\\n為兩人共生傾盡全力吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0061",
+      "book": ""
+    },
+    {
+      "icon": "110064_02",
+      "name": {
+        "en_us": "Yachiyo",
+        "ja_jp": "ヤチヨ",
+        "zh_cn": "八千代",
+        "zh_tw": "八千代"
+      },
+      "context": {
+        "en_us": "Now THERE'S the Saiga I remember!\\nLet's get this shindig started!",
+        "ja_jp": "かっか！　<ruby><rb>少</rb><rt>すこ</rt></ruby>しは<ruby><rb>昔</rb><rt>むかし</rt></ruby>の<ruby><rb>面構</rb><rt>つらがま</rt></ruby>えに<ruby><rb>戻</rb><rt>もど</rt></ruby>った\\nようじゃのう。さあ、<ruby><rb>往</rb><rt>ゆ</rt></ruby>くぞ<ruby><rb>義兄様</rb><rt>あにさま</rt></ruby>！",
+        "zh_cn": "哈哈！你看起来\\n恢复了一些昔日的神采。\\n来吧，杂贺哥，我们上！",
+        "zh_tw": "哈、哈！\\n看來你似乎恢復些許昔日面貌了呢。\\n好，咱們上，姊夫！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0062",
+      "book": ""
+    },
+    {
+      "icon": "110389_01",
+      "name": {
+        "en_us": "Saiga",
+        "ja_jp": "サイガ",
+        "zh_cn": "杂贺",
+        "zh_tw": "雜賀"
+      },
+      "context": {
+        "en_us": "I am your blade!",
+        "ja_jp": "<ruby><rb>応</rb><rt>おう</rt></ruby>！",
+        "zh_cn": "好！",
+        "zh_tw": "嗯！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22212_04_0063",
+      "book": ""
+    }
+  ]
 }

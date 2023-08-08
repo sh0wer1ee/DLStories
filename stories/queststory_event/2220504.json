@@ -1,670 +1,1275 @@
 {
-    "story_id": "",
-    "story_name": "迎击战～万圣节·僵尸来袭～ 不死危机",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "梅露莎和阿加莎在湖边找到了这次骚动的\\n幕后黑手——帝国魔法师。她们向魔法师\\n发起奇袭，试图夺下魔导书。然而，\\n阿加莎却遭到埋伏好的僵尸队长偷袭，\\n并因魔导书之力而变为了僵尸。"
-        ]
+  "title": {
+    "en_us": "Postmortem Panic    Undead Crisis",
+    "ja_jp": "迎撃戦～ハロウィン・ゾンビーズ～  アンデッド・クライシス",
+    "zh_cn": "迎击战～万圣节·僵尸来袭～  不死危机",
+    "zh_tw": "迎擊戰～萬聖同樂‧殭屍派對～  不死危機"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [],
-            "speaker_name": "SYS",
-            "context": "为从操纵僵尸的人手上\\n夺下魔导书，梅露莎\\n与阿加莎赶往湖畔。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "哎呀，梅露莎大人。你还在惦记留下来\\n当诱饵的那些人吗？还是说你在担心\\n留在圣城的希里丝大人他们的安危？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "都有……不过，我很在意\\n在城门遇到的那只僵尸说的话。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "“人质”……“为了家人”……\\n那些话到底是什么意思？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "我想应该是它们生前所抱有的\\n强烈情感脱口而出了吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "在300年前的战争当中，\\n帝国在其统治的土地上\\n征用民兵，让他们投身战场。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "据我推测，当时帝国是以它的家人\\n为人质，强迫它参加战争吧。\\n所以它也只是个无辜百姓罢了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "听说被帝国抓起来的那些人在战后\\n都被释放，成了阿尔贝里亚王国的国民，\\n过上了安宁的生活。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "但僵尸们并不知道这一事实，\\n至今仍在被迫战斗……",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "哎呀，你又眉头紧锁，\\n真是心地善良呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "那我给你出一道谜语吧。\\n不管是打仗还是打桩，什么东西\\n要是过度的话便会致命？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "打仗和打桩？是什么呢……\\n打桩……牢固……啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "阿加莎，\\n我懂你的意思了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "不过，不用担心。\\n为了解救希里丝他们，\\n现在可不能畏首畏尾。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "呵呵♪\\n看来是我杞人忧天了呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "好了，差不多快到湖畔了。\\n抖擞精神，准备战斗吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "嗯！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "喂，你按摩再轻一点啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "僵尸",
-            "context": "啊呜……",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "唉～那些僵尸，\\n还没攻下圣城吗。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "下命令倒是轻松，\\n但在这里干等就不见得了～",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "（那个魔法师手上拿的，\\n就是《不死军之书》。）",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "（只要夺下魔导书，\\n应该就能停止僵尸们的攻击。\\n可是……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "（四周有一大堆僵尸……\\n怕是很难接近他。）",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "（梅露莎大人，现在\\n该使用那个东西了吧？）",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "（啊，说得也是。）",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "我都说了！\\n给我轻轻地按摩啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "僵尸",
-            "context": "啊呜……啊？啊呜啊呜！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "喂，手别停啊！咦？\\n有什么东西飞过来了。\\n那是……火球？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "呀啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "咳咳咳……该死！\\n僵尸们都被炸飞了！\\n到底是怎么回事！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "这是圣城里名为铳的武器。\\n罗卡族铁匠帮我们修理了一下之后，\\n这坏掉的武器也能使用一次了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "圣城……该死！\\n没想到你们能来到这里！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "已经没有僵尸保护你了。\\n乖乖把魔导书交出来。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "我在古墓又是踩到陷阱，\\n又是遭到魔兽袭击，好不容易\\n才拿到这本魔导书！怎么可能交出去！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "我要靠这群僵尸往上爬！\\n攻陷圣城，扬名立万，\\n最终登上皇帝的宝座！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "真是典型的小人物思想呢。\\n你怕是配不上那本魔导书吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "乖，听话。\\n不然……呵呵呵♪",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "喂！你想干什么！？\\n你别过来！别过来，别过来啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "才怪。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "僵尸从地面冒出来了！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "王牌就得留到最后关头才用！\\n这家伙生前可是当队长的，\\n比其它僵尸强了不止一点！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "快，动手吧！僵尸队长！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120203_01"
-            ],
-            "speaker_name": "僵尸队长",
-            "context": "嗷啊啊啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "离阿加莎远点！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "阿加莎，振作一点！\\n不会吧！？没有呼吸了！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "哈哈哈！这就死了啊！\\n那就吃我这一招。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "“汝，将化身宿命之恶魔。\\n汝，须冲破仇恨之桎梏。\\n地狱之门，敞开吧”！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "啊……呜……",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "啊……啊啊啊啊！\\n呜呜呜呜呜呜！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "阿加莎！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "《不死军之书》真正的恐怖之处，\\n就在于能将杀死的敌人\\n变为自己的棋子。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "好了，现在就只剩你了。\\n噢，可别想着逃跑哦。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "是刚才打倒的僵尸们……\\n已经复活了吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "虽然我可以直接把你杀掉变成僵尸，\\n但毕竟我攻打圣城遇到了瓶颈。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120077_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "所以，我就破例给你一次机会。\\n我留你一条命，但你得成为我的手下，\\n然后回圣城骗那些同伴落入我的陷阱。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "我拒绝！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "秒拒？可是，你好好想想。\\n我可是使役着绝对不死的\\n最强无敌僵尸军团哦？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "圣城连万分之一的胜算都没有。\\n既然如此，保全自己的性命\\n才是明智之举吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "无论如何\\n我都要救我的朋友。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "他们出于对我的信任，\\n才把我送出城。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "还有很多人\\n也为我而付出了努力。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "我死也不能辜负\\n他们对我的信赖。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "唉……谈判破裂。\\n那就变成僵尸为我效忠吧！\\n僵尸们，动手！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "对了，僵尸队长\\n可要负责保护好我哦。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120203_01"
-            ],
-            "speaker_name": "僵尸队长",
-            "context": "啊呜。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "我绝对不会输的！\\n我一定要救大家！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120044_01"
-            ],
-            "speaker_name": "帝国军魔法师",
-            "context": "嚯～有两下子嘛。\\n不过，你能以这家伙为敌吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "啊啊啊啊……呜呜呜呜呜！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "阿加莎！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_04_0072",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Melsa and Akasha reach the lake where the\\nsorcerer behind the zombie uprising awaits.\\nAs they prepare an ambush to steal his\\ngrimoire, they are set upon by zombies,\\nand Akasha is turned into the living dead!",
+      "ja_jp": "<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>で<ruby><rb>騒動</rb><rt>そうどう</rt></ruby>の<ruby><rb>黒幕</rb><rt>くろまく</rt></ruby>である<ruby><rb>魔術師</rb><rt>まじゅつし</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>つけた\\nメルサとアカーシャ。<ruby><rb>魔術師</rb><rt>まじゅつし</rt></ruby>に<ruby><rb>奇襲</rb><rt>きしゅう</rt></ruby>をかけ、\\n<ruby><rb>魔導書</rb><rt>まどうしょ</rt></ruby>の<ruby><rb>奪取</rb><rt>だっしゅ</rt></ruby>を<ruby><rb>試</rb><rt>こころ</rt></ruby>みる。しかし、<ruby><rb>伏兵</rb><rt>ふくへい</rt></ruby>の\\nゾンビ<ruby><rb>隊長</rb><rt>たいちょう</rt></ruby>がアカーシャを<ruby><rb>襲撃</rb><rt>しゅうげき</rt></ruby>。さらに\\n<ruby><rb>魔導書</rb><rt>まどうしょ</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>で<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>はゾンビと<ruby><rb>化</rb><rt>か</rt></ruby>してしまう。",
+      "zh_cn": "梅露莎和阿加莎在湖边找到了这次骚动的\\n幕后黑手——帝国魔法师。她们向魔法师\\n发起奇袭，试图夺下魔导书。然而，\\n阿加莎却遭到埋伏好的僵尸队长偷袭，\\n并因魔导书之力而变为了僵尸。",
+      "zh_tw": "梅兒莎與阿迦奢在湖畔發現身為這場騷動\\n幕後黑手的魔法師。兩人對魔法師\\n發動奇襲，嘗試奪走魔導書。\\n然而，埋伏的殭屍隊長卻襲向阿迦奢，\\n魔法師更以魔導書之力將她變為殭屍。"
+    }
+  },
+  "prev": "2220503",
+  "next": "2220505",
+  "content": [
+    {
+      "icon": "",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Melsa and Akasha make for the lakeside to steal\\nthe necromancy tome away from the man who\\nis controlling the zombie horde.",
+        "ja_jp": "ゾンビを<ruby><rb>操</rb><rt>あやつ</rt></ruby>る<ruby><rb>術者</rb><rt>じゅつしゃ</rt></ruby>から\\n<ruby><rb>魔導書</rb><rt>まどうしょ</rt></ruby>を<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>上</rb><rt>あ</rt></ruby>げるため、\\n<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>へ<ruby><rb>向</rb><rt>む</rt></ruby>かうメルサとアカーシャ。",
+        "zh_cn": "为从操纵僵尸的人手上\\n夺下魔导书，梅露莎\\n与阿加莎赶往湖畔。",
+        "zh_tw": "為了從操控殭屍的術者手上\\n奪走魔導書，\\n梅兒莎與阿迦奢趕往湖畔。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0001",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "Dear me, Melsa. Are the gentlemen who\\noffered themselves as bait still weighing\\non your mind? Or is this about Sarisse?",
+        "ja_jp": "あら、メルサ<ruby><rb>様</rb><rt>さま</rt></ruby>。<ruby><rb>囮</rb><rt>おとり</rt></ruby>になった<ruby><rb>殿方</rb><rt>とのがた</rt></ruby>たちが\\nまだ<ruby><rb>気</rb><rt>き</rt></ruby>がかりで？　それとも<ruby><rb>城</rb><rt>しろ</rt></ruby>に<ruby><rb>残</rb><rt>のこ</rt></ruby>った\\nシーリス<ruby><rb>様</rb><rt>さま</rt></ruby>たちの<ruby><rb>安否</rb><rt>あんぴ</rt></ruby>でしょうか？",
+        "zh_cn": "哎呀，梅露莎大人。你还在惦记留下来\\n当诱饵的那些人吗？还是说你在担心\\n留在圣城的希里丝大人他们的安危？",
+        "zh_tw": "哎呀，梅兒莎大人。\\n您還在擔心當誘餌的兩位男士嗎？\\n抑或城裡的西莉絲大人他們的安危？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0002",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Both—but even more than that, I'm\\nthinking about the zombie we met back\\nat the castle gates. The one that spoke.",
+        "ja_jp": "それもですけど……あの<ruby><rb>城門</rb><rt>じょうもん</rt></ruby>で<ruby><rb>会</rb><rt>あ</rt></ruby>った\\nゾンビの<ruby><rb>言葉</rb><rt>ことば</rt></ruby>が<ruby><rb>気</rb><rt>き</rt></ruby>になるんです。",
+        "zh_cn": "都有……不过，我很在意\\n在城门遇到的那只僵尸说的话。",
+        "zh_tw": "雖然都有……但我很介意\\n在城門見到的殭屍所說的話。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0003",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "It said ＂hostages＂ and ＂for my family.＂\\nWhat does that even MEAN?",
+        "ja_jp": "「<ruby><rb>人質</rb><rt>ひとじち</rt></ruby>」……「<ruby><rb>家族</rb><rt>かぞく</rt></ruby>のため」……。\\nあの<ruby><rb>言葉</rb><rt>ことば</rt></ruby>は<ruby><rb>何</rb><rt>なん</rt></ruby>だったのでしょうか？",
+        "zh_cn": "“人质”……“为了家人”……\\n那些话到底是什么意思？",
+        "zh_tw": "「人質」……「為了家人」……\\n那些話究竟是什麼意思呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0004",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "I expect the creature retained some\\npowerful emotion from when it yet lived.",
+        "ja_jp": "おそらく<ruby><rb>生前</rb><rt>せいぜん</rt></ruby>の<ruby><rb>強</rb><rt>つよ</rt></ruby>い<ruby><rb>想</rb><rt>おも</rt></ruby>いが、\\n<ruby><rb>口</rb><rt>くち</rt></ruby>に<ruby><rb>出</rb><rt>で</rt></ruby>たものと<ruby><rb>思</rb><rt>おも</rt></ruby>いますわ。",
+        "zh_cn": "我想应该是它们生前所抱有的\\n强烈情感脱口而出了吧。",
+        "zh_tw": "我想那應該是將生前的強烈意念\\n脫口而出了吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0005",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "In the war three hundred years ago,\\nthe Empire conscripted those living\\nin its lands by force.",
+        "ja_jp": "300<ruby><rb>年</rb><rt>ねん</rt></ruby><ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>戦争</rb><rt>せんそう</rt></ruby>において、\\n<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>は<ruby><rb>支配</rb><rt>しはい</rt></ruby>した<ruby><rb>土地</rb><rt>とち</rt></ruby>に<ruby><rb>暮</rb><rt>く</rt></ruby>らす<ruby><rb>民</rb><rt>たみ</rt></ruby>を\\n<ruby><rb>徴兵</rb><rt>ちょうへい</rt></ruby>し、<ruby><rb>戦</rb><rt>たたか</rt></ruby>わせていたそうです。",
+        "zh_cn": "在300年前的战争当中，\\n帝国在其统治的土地上\\n征用民兵，让他们投身战场。",
+        "zh_tw": "據說三百年前的戰爭，\\n帝國向領土上的居民實行徵兵，\\n讓他們參與戰鬥。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0006",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "It would scarce surprise me if the Empire\\ntook some of that zombie's family hostage\\nto compel them to fight 'neath its banner.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたくし</rt></ruby>が<ruby><rb>考</rb><rt>かんが</rt></ruby>えるに、あのゾンビたちの<ruby><rb>生前</rb><rt>せいぜん</rt></ruby>は\\n<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>に<ruby><rb>家族</rb><rt>かぞく</rt></ruby>を<ruby><rb>人質</rb><rt>ひとじち</rt></ruby>に<ruby><rb>取</rb><rt>と</rt></ruby>られ、<ruby><rb>戦争</rb><rt>せんそう</rt></ruby>に\\n<ruby><rb>駆</rb><rt>か</rt></ruby>り<ruby><rb>出</rb><rt>だ</rt></ruby>された<ruby><rb>無辜</rb><rt>むこ</rt></ruby>の<ruby><rb>民</rb><rt>たみ</rt></ruby>なのでしょう。",
+        "zh_cn": "据我推测，当时帝国是以它的家人\\n为人质，强迫它参加战争吧。\\n所以它也只是个无辜百姓罢了。",
+        "zh_tw": "我想，那些殭屍們就是生前\\n遭到帝國以家人要脅，\\n被迫參與戰爭的無辜民眾吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0007",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "Thankfully, such captives were generally\\nreleased at the war's end and permitted to\\nbecome citizens of Alberia, living out the\\nrest of their days in peace.",
+        "ja_jp": "<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>に<ruby><rb>囚</rb><rt>とら</rt></ruby>われていた<ruby><rb>人々</rb><rt>ひとびと</rt></ruby>は<ruby><rb>戦争後</rb><rt>せんそうご</rt></ruby>に\\n<ruby><rb>解放</rb><rt>かいほう</rt></ruby>され、アルベリア<ruby><rb>王国</rb><rt>おうこく</rt></ruby>の<ruby><rb>民</rb><rt>たみ</rt></ruby>となって\\n<ruby><rb>平穏</rb><rt>へいおん</rt></ruby>な<ruby><rb>暮</rb><rt>く</rt></ruby>らしを<ruby><rb>得</rb><rt>え</rt></ruby>たそうですが。",
+        "zh_cn": "听说被帝国抓起来的那些人在战后\\n都被释放，成了阿尔贝里亚王国的国民，\\n过上了安宁的生活。",
+        "zh_tw": "雖然聽說被帝國囚禁的人們在戰爭後\\n獲得釋放，並成為阿爾貝利亞王國居民，\\n過著平穩的生活就是了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0008",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "But these poor zombies don't know that.\\nThey're still fighting against their will.",
+        "ja_jp": "ゾンビたちはそれを<ruby><rb>知</rb><rt>し</rt></ruby>らないんですね。\\nそして<ruby><rb>今</rb><rt>いま</rt></ruby>も、<ruby><rb>望</rb><rt>のぞ</rt></ruby>まない<ruby><rb>戦</rb><rt>たたか</rt></ruby>いを……。",
+        "zh_cn": "但僵尸们并不知道这一事实，\\n至今仍在被迫战斗……",
+        "zh_tw": "殭屍們不知道這件事對吧。\\n因此現在也仍被迫參與戰爭……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0009",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "You look positively forlorn, dear.\\nWhat a kind soul you are.",
+        "ja_jp": "まあ、<ruby><rb>物憂</rb><rt>ものう</rt></ruby>げな<ruby><rb>面持</rb><rt>おもも</rt></ruby>ちです<ruby><rb>事</rb><rt>こと</rt></ruby>。\\nメルサ<ruby><rb>様</rb><rt>さま</rt></ruby>は<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>にお<ruby><rb>優</rb><rt>やさ</rt></ruby>しいのですね。",
+        "zh_cn": "哎呀，你又眉头紧锁，\\n真是心地善良呢。",
+        "zh_tw": "哎呀，看您一臉憂愁。\\n梅兒莎大人真的很溫柔呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0010",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "Well here's a riddle to cheer you up:\\nI am both deadly weapon\\nand fatal weakness. What am I?",
+        "ja_jp": "そんな<ruby><rb>貴方様</rb><rt>あなたさま</rt></ruby>に<ruby><rb>謎々</rb><rt>なぞなぞ</rt></ruby>で<ruby><rb>御座</rb><rt>ござ</rt></ruby>います。\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>いでもお<ruby><rb>菓子</rb><rt>かし</rt></ruby>でも、<ruby><rb>多</rb><rt>おお</rt></ruby>すぎると\\n<ruby><rb>毒</rb><rt>どく</rt></ruby>になるものとはなんでしょう？",
+        "zh_cn": "那我给你出一道谜语吧。\\n不管是打仗还是打桩，什么东西\\n要是过度的话便会致命？",
+        "zh_tw": "那麼我要對溫柔的您出道謎題。\\n無論戰爭還是點心，\\n過多就會有害的東西是什麼呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0011",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "A weapon AND a weakness? Hmm...\\nSomething that can kill, I suppose...\\nKill them with... Ah.",
+        "ja_jp": "<ruby><rb>戦</rb><rt>たたか</rt></ruby>いにお<ruby><rb>菓子</rb><rt>かし</rt></ruby>？　<ruby><rb>何</rb><rt>なん</rt></ruby>でしょう……？\\nお<ruby><rb>菓子</rb><rt>かし</rt></ruby>……<ruby><rb>砂糖</rb><rt>さとう</rt></ruby>…………あっ。",
+        "zh_cn": "打仗和打桩？是什么呢……\\n打桩……牢固……啊。",
+        "zh_tw": "戰爭跟點心？是什麼呀……？\\n點心……砂糖…………啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0012",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Point taken, Akasha.",
+        "ja_jp": "アカーシャさんの<ruby><rb>言</rb><rt>い</rt></ruby>いたい<ruby><rb>事</rb><rt>こと</rt></ruby>、\\nわかりました。",
+        "zh_cn": "阿加莎，\\n我懂你的意思了。",
+        "zh_tw": "我知道阿迦奢小姐的意思了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0013",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Don't worry—I'm not going to hold back\\nwith everyone's lives on the line.",
+        "ja_jp": "でも、<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>です。\\nシーリスたちを<ruby><rb>助</rb><rt>たす</rt></ruby>けるためなら、\\n<ruby><rb>遠慮</rb><rt>えんりょ</rt></ruby>はしていられませんから。",
+        "zh_cn": "不过，不用担心。\\n为了解救希里丝他们，\\n现在可不能畏首畏尾。",
+        "zh_tw": "不過，別擔心。\\n為了幫助西莉絲他們，\\n我也沒辦法太客氣嘛。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0014",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "How nice to hear that my concerns\\nwere completely unfounded.",
+        "ja_jp": "うふふ♪　\\n<ruby><rb>私</rb><rt>わたくし</rt></ruby>の<ruby><rb>杞憂</rb><rt>きゆう</rt></ruby>で<ruby><rb>御座</rb><rt>ござ</rt></ruby>いましたわね。",
+        "zh_cn": "呵呵♪\\n看来是我杞人忧天了呢。",
+        "zh_tw": "唔呵呵♪\\n看來是我杞人憂天了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0015",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "We're nearly to the lake now. Let us focus.",
+        "ja_jp": "さあ、そろそろ<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>で<ruby><rb>御座</rb><rt>ござ</rt></ruby>います。\\n<ruby><rb>眉宇</rb><rt>びう</rt></ruby>を<ruby><rb>引</rb><rt>ひ</rt></ruby>き<ruby><rb>締</rb><rt>し</rt></ruby>めて<ruby><rb>参</rb><rt>まい</rt></ruby>りましょう。",
+        "zh_cn": "好了，差不多快到湖畔了。\\n抖擞精神，准备战斗吧。",
+        "zh_tw": "好，我們差不多快抵達湖畔了。\\n打起精神前進吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0016",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Right!",
+        "ja_jp": "はい！",
+        "zh_cn": "嗯！",
+        "zh_tw": "好的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0017",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "Hey, watch it with the boney fingers!\\nI said MASSAGE me, not impale me.",
+        "ja_jp": "おい。もっと<ruby><rb>優</rb><rt>やさ</rt></ruby>しくマッサージしろ。",
+        "zh_cn": "喂，你按摩再轻一点啊。",
+        "zh_tw": "喂，你按摩輕一點啦。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0018",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Zombie",
+        "ja_jp": "ゾンビ",
+        "zh_cn": "僵尸",
+        "zh_tw": "殭屍"
+      },
+      "context": {
+        "en_us": "UrRgh...",
+        "ja_jp": "アウ……。",
+        "zh_cn": "啊呜……",
+        "zh_tw": "啊嗚……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0019",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "*sigh* Are those stupid zombies STILL\\nnot done storming the castle?",
+        "ja_jp": "はぁ～あ。ゾンビども、まーだ<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>の\\n<ruby><rb>攻略</rb><rt>こうりゃく</rt></ruby>に<ruby><rb>手間取</rb><rt>てまど</rt></ruby>っているのか。",
+        "zh_cn": "唉～那些僵尸，\\n还没攻下圣城吗。",
+        "zh_tw": "啊～啊。\\n那些殭屍還沒攻下聖城啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0020",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "Sitting back and giving orders is great,\\nbut being stuck here waiting is laaaame.",
+        "ja_jp": "<ruby><rb>命令</rb><rt>めいれい</rt></ruby>するだけなのは<ruby><rb>楽</rb><rt>らく</rt></ruby>だが、\\n<ruby><rb>待</rb><rt>ま</rt></ruby>つだけというのも<ruby><rb>考</rb><rt>かんが</rt></ruby>え<ruby><rb>物</rb><rt>もの</rt></ruby>だな～。",
+        "zh_cn": "下命令倒是轻松，\\n但在这里干等就不见得了～",
+        "zh_tw": "雖然只須負責發號施令是很輕鬆，\\n但還要在這乾等卻是個問題呢～"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0021",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "(Look at yon sorcerer there.\\nHe carries the Legion Immortalis.)",
+        "ja_jp": "（あの<ruby><rb>魔術師</rb><rt>まじゅつし</rt></ruby>が<ruby><rb>手</rb><rt>て</rt></ruby>にしているのが\\n　『<ruby><rb>不死軍の書</rb><rt>バタリオン・ブック</rt></ruby>』で<ruby><rb>御座</rb><rt>ござ</rt></ruby>いますわね）",
+        "zh_cn": "（那个魔法师手上拿的，\\n就是《不死军之书》。）",
+        "zh_tw": "（那位魔法師手上拿著的，\\n就是「不死軍之書」呢。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0022",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "(If we can take it from him, that should\\nstop the zombie invasion.)",
+        "ja_jp": "（<ruby><rb>魔導書</rb><rt>まどうしょ</rt></ruby>を<ruby><rb>奪</rb><rt>うば</rt></ruby>えば、ゾンビたちの<ruby><rb>襲撃</rb><rt>しゅうげき</rt></ruby>を\\n　<ruby><rb>止</rb><rt>と</rt></ruby>められるはず。でも……）",
+        "zh_cn": "（只要夺下魔导书，\\n应该就能停止僵尸们的攻击。\\n可是……）",
+        "zh_tw": "（只要搶走魔導書，\\n應該就能阻止殭屍們的攻擊。\\n可是……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0023",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "(But there are so many of them....\\nGetting close is going to be tough.)",
+        "ja_jp": "（<ruby><rb>周</rb><rt>まわ</rt></ruby>りにはゾンビがウヨウヨ……。\\n　あれだと<ruby><rb>近</rb><rt>ちか</rt></ruby>づくのは<ruby><rb>難</rb><rt>むずか</rt></ruby>しいかも）",
+        "zh_cn": "（四周有一大堆僵尸……\\n怕是很难接近他。）",
+        "zh_tw": "（他附近有很多殭屍……\\n那樣要靠近可能有點難。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0024",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "(Is this not an opportune time to\\nmake use of our cargo, Melsa?)",
+        "ja_jp": "（メルサ<ruby><rb>様</rb><rt>さま</rt></ruby>。<ruby><rb>今</rb><rt>いま</rt></ruby>こそ、<ruby><rb>例</rb><rt>れい</rt></ruby>の<ruby><rb>物</rb><rt>もの</rt></ruby>を\\n　<ruby><rb>使</rb><rt>つか</rt></ruby>う<ruby><rb>時</rb><rt>とき</rt></ruby>では？）",
+        "zh_cn": "（梅露莎大人，现在\\n该使用那个东西了吧？）",
+        "zh_tw": "（梅兒莎大人。\\n現在正是使用那個的時機不是嗎？）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0025",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "(Oh! Right!)",
+        "ja_jp": "（あっ、そうですね）",
+        "zh_cn": "（啊，说得也是。）",
+        "zh_tw": "（啊，說得也是。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0026",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "Did your ears fall off?! I said GENTLE!\\nI swear, you'd think a zombie masseuse\\nwould be easy to find...",
+        "ja_jp": "だーかーらー！　もっと<ruby><rb>優</rb><rt>やさ</rt></ruby>しく\\nマッサージしろっつってんだろ！",
+        "zh_cn": "我都说了！\\n给我轻轻地按摩啊！",
+        "zh_tw": "就──說──了！\\n叫你按小力一點聽不懂啊！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0027",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Zombie",
+        "ja_jp": "ゾンビ",
+        "zh_cn": "僵尸",
+        "zh_tw": "殭屍"
+      },
+      "context": {
+        "en_us": "RaAh? NRrAAaGH!",
+        "ja_jp": "アウ……。ア？　アウアウ！",
+        "zh_cn": "啊呜……啊？啊呜啊呜！",
+        "zh_tw": "啊嗚……啊？啊嗚啊嗚！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0028",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "＂Gentle＂ does not mean ＂stop,＂ sludge brain!\\n...Huh. That's weird. There's something\\ncoming this—CRAP IS THAT A FIREBALL?!",
+        "ja_jp": "おい、<ruby><rb>手</rb><rt>て</rt></ruby>を<ruby><rb>止</rb><rt>と</rt></ruby>めるな！　……って、ん？\\n<ruby><rb>何</rb><rt>なに</rt></ruby>かがこっちに<ruby><rb>向</rb><rt>む</rt></ruby>かって<ruby><rb>飛</rb><rt>と</rt></ruby>んで<ruby><rb>来</rb><rt>く</rt></ruby>る。\\nあれは――<ruby><rb>火</rb><rt>ひ</rt></ruby>の<ruby><rb>玉</rb><rt>たま</rt></ruby>か？",
+        "zh_cn": "喂，手别停啊！咦？\\n有什么东西飞过来了。\\n那是……火球？",
+        "zh_tw": "喂，手不要停啊！\\n……呃，嗯？好像有什麼飛過來了。\\n那是……火球嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0029",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "BLARGH!",
+        "ja_jp": "ぎゃああああーーーーっ!!",
+        "zh_cn": "呀啊啊啊啊！",
+        "zh_tw": "呀啊啊啊啊────！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0030",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "*cough* *sputter* Ugh. Now there's\\ngrilled zombie bits all over the place.\\nWhat the hell WAS that thing?",
+        "ja_jp": "ゲホゲホッ……クソ！　ゾンビたちが\\nぶっ<ruby><rb>飛</rb><rt>と</rt></ruby>びやがった！　<ruby><rb>一体</rb><rt>いったい</rt></ruby>、<ruby><rb>何</rb><rt>なん</rt></ruby>なんだ!?",
+        "zh_cn": "咳咳咳……该死！\\n僵尸们都被炸飞了！\\n到底是怎么回事！？",
+        "zh_tw": "咳咳……可惡！\\n殭屍都被炸飛了！\\n到底是什麼回事！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0031",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Something from the castle armory that I'm\\ntold is called a ＂manacaster.＂ A rokkan\\nsmith fixed it up enough to fire once.",
+        "ja_jp": "お<ruby><rb>城</rb><rt>しろ</rt></ruby>にあった<ruby><rb>銃</rb><rt>じゅう</rt></ruby>っていう<ruby><rb>武器</rb><rt>ぶき</rt></ruby>です。\\n<ruby><rb>壊</rb><rt>こわ</rt></ruby>れていたのを、ロッカの<ruby><rb>職人</rb><rt>しょくにん</rt></ruby>さんが\\n1<ruby><rb>回</rb><rt>かい</rt></ruby>だけ<ruby><rb>使</rb><rt>つか</rt></ruby>えるようにしてくれました。",
+        "zh_cn": "这是圣城里名为铳的武器。\\n罗卡族铁匠帮我们修理了一下之后，\\n这坏掉的武器也能使用一次了。",
+        "zh_tw": "這是聖城的武器，叫做「銃」。\\n是羅卡族職人幫我修理好的，\\n但只能使用一次。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0032",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "You're from the Halidom... Rrgh!\\nHow did you get here?!",
+        "ja_jp": "<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>……チキショウ！　\\nまさか、ここまでやって<ruby><rb>来</rb><rt>く</rt></ruby>るとは！",
+        "zh_cn": "圣城……该死！\\n没想到你们能来到这里！",
+        "zh_tw": "聖城……可惡！\\n沒想到妳們竟然能到這裡來！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0033",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "You've no zombies left to save you.\\nNow hand over that book.",
+        "ja_jp": "あなたを<ruby><rb>守</rb><rt>まも</rt></ruby>るゾンビはいません。\\n<ruby><rb>大人</rb><rt>おとな</rt></ruby>しく<ruby><rb>魔導書</rb><rt>まどうしょ</rt></ruby>を<ruby><rb>渡</rb><rt>わた</rt></ruby>してください。",
+        "zh_cn": "已经没有僵尸保护你了。\\n乖乖把魔导书交出来。",
+        "zh_tw": "已經沒有殭屍能保護你了。\\n請老實地交出魔導書吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0034",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "No way! I braved traps and fiends in\\nan ancient burial ground in order to\\ntrack this thing down!",
+        "ja_jp": "<ruby><rb>古代</rb><rt>こだい</rt></ruby>の<ruby><rb>墓場</rb><rt>はかば</rt></ruby>でトラップに<ruby><rb>嵌</rb><rt>はま</rt></ruby>り、<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>に\\n<ruby><rb>襲</rb><rt>おそ</rt></ruby>われながらも、ようやく<ruby><rb>手</rb><rt>て</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>れた\\n<ruby><rb>魔導書</rb><rt>まどうしょ</rt></ruby>だ！　だーれが<ruby><rb>渡</rb><rt>わた</rt></ruby>すものか！　",
+        "zh_cn": "我在古墓又是踩到陷阱，\\n又是遭到魔兽袭击，好不容易\\n才拿到这本魔导书！怎么可能交出去！",
+        "zh_tw": "這是我在古代墓場一下踏入機關、\\n一下遭到魔獸攻擊才好不容易到手的\\n魔導書！誰要交給妳啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0035",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "These zombies are my ticket up the ladder\\nto becoming emperor someday—and\\nbelieve you me, conquering the Halidom\\nis gonna look GREAT on my resume.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>はゾンビどもを<ruby><rb>使</rb><rt>つか</rt></ruby>って<ruby><rb>成</rb><rt>な</rt></ruby>り<ruby><rb>上</rb><rt>あ</rt></ruby>がる！\\n<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>を<ruby><rb>攻</rb><rt>せ</rt></ruby>め<ruby><rb>落</rb><rt>お</rt></ruby>として<ruby><rb>功績</rb><rt>こうせき</rt></ruby>を<ruby><rb>上</rb><rt>あ</rt></ruby>げ、\\nいずれは<ruby><rb>皇帝</rb><rt>こうてい</rt></ruby>の<ruby><rb>座</rb><rt>ざ</rt></ruby>に<ruby><rb>就</rb><rt>つ</rt></ruby>いてやるのだ！",
+        "zh_cn": "我要靠这群僵尸往上爬！\\n攻陷圣城，扬名立万，\\n最终登上皇帝的宝座！",
+        "zh_tw": "我要利用殭屍往上爬！\\n先攻陷聖城累積功績，\\n最後將會坐上皇帝的寶座！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0036",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "A truly remarkable portrayal of the classic\\ntwo-bit villain. It seems that grimoire is a\\nrelic far above your station.",
+        "ja_jp": "<ruby><rb>清々</rb><rt>すがすが</rt></ruby>しい<ruby><rb>程</rb><rt>ほど</rt></ruby>の<ruby><rb>小物</rb><rt>こもの</rt></ruby>ぶりですわね。\\n<ruby><rb>貴方様</rb><rt>あなたさま</rt></ruby>にその<ruby><rb>魔導書</rb><rt>まどうしょ</rt></ruby>は<ruby><rb>不相応</rb><rt>ふそうおう</rt></ruby>で\\n<ruby><rb>御座</rb><rt>ござ</rt></ruby>いましょう。",
+        "zh_cn": "真是典型的小人物思想呢。\\n你怕是配不上那本魔导书吧。",
+        "zh_tw": "真是令人佩服的地痞風範呢。\\n看來您與那本魔導書並不相稱。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0037",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "Now be a good boy and do as you're told,\\nor I fear we'll have to... Mmm hmm hmm.",
+        "ja_jp": "さあ、<ruby><rb>言</rb><rt>い</rt></ruby>う<ruby><rb>事</rb><rt>こと</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>いて<ruby><rb>下</rb><rt>くだ</rt></ruby>さいまし。\\nさもなければ……うふふふふふ♪",
+        "zh_cn": "乖，听话。\\n不然……呵呵呵♪",
+        "zh_tw": "好了，請聽從我們的指示。\\n不然的話……唔呵呵呵呵呵♪"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0038",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "Wh-what are you doing?! Hey! S-stay back!\\nStay back, stay back, stay baaaack!",
+        "ja_jp": "お、おい！　<ruby><rb>何</rb><rt>なに</rt></ruby>する<ruby><rb>気</rb><rt>き</rt></ruby>だよ!?\\n<ruby><rb>来</rb><rt>く</rt></ruby>るんじゃねえ！　<ruby><rb>来</rb><rt>く</rt></ruby>るな、<ruby><rb>来</rb><rt>く</rt></ruby>るなぁ!!",
+        "zh_cn": "喂！你想干什么！？\\n你别过来！别过来，别过来啊！",
+        "zh_tw": "喂、喂！妳想做什麼！？\\n不准過來！別過來、別過來！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0039",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "...Or don't! HAH CHA CHA CHAAAAA!",
+        "ja_jp": "……なーんてな。",
+        "zh_cn": "才怪。",
+        "zh_tw": "……開～玩笑的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0040",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Augh! Zombies were hiding in the dirt!",
+        "ja_jp": "<ruby><rb>地面</rb><rt>じめん</rt></ruby>からゾンビが!?",
+        "zh_cn": "僵尸从地面冒出来了！？",
+        "zh_tw": "殭屍從地面爬出來了！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0041",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "You gotta keep your ace card hidden until\\nthe very last minute! Oh, and that's not\\nyour average animated meat chunk—that\\nfellow there used to be a COMMANDER!",
+        "ja_jp": "<ruby><rb>奥</rb><rt>おく</rt></ruby>の<ruby><rb>手</rb><rt>て</rt></ruby>はギリギリまで<ruby><rb>隠</rb><rt>かく</rt></ruby>すもの！\\n<ruby><rb>生前</rb><rt>せいぜん</rt></ruby>、<ruby><rb>隊長</rb><rt>たいちょう</rt></ruby>を<ruby><rb>務</rb><rt>つと</rt></ruby>めていたそいつは\\n<ruby><rb>他</rb><rt>ほか</rt></ruby>のゾンビとは<ruby><rb>一味</rb><rt>ひとあじ</rt></ruby><ruby><rb>違</rb><rt>ちが</rt></ruby>うぞ！",
+        "zh_cn": "王牌就得留到最后关头才用！\\n这家伙生前可是当队长的，\\n比其它僵尸强了不止一点！",
+        "zh_tw": "絕招當然要隱藏到最後一刻啊！\\n這傢伙生前曾擔任隊長，\\n跟其他殭屍可不同喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0042",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "Let 'er have it, Commander Z!",
+        "ja_jp": "さあ、やるのだ！　ゾンビ<ruby><rb>隊長</rb><rt>たいちょう</rt></ruby>！",
+        "zh_cn": "快，动手吧！僵尸队长！",
+        "zh_tw": "上吧，幹掉她！殭屍隊長！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0043",
+      "book": ""
+    },
+    {
+      "icon": "120203_01",
+      "name": {
+        "en_us": "Commander Z",
+        "ja_jp": "ゾンビ隊長",
+        "zh_cn": "僵尸队长",
+        "zh_tw": "殭屍隊長"
+      },
+      "context": {
+        "en_us": "GRAaaAAaAAaARgH!",
+        "ja_jp": "ガアアアアァアアアアア!!",
+        "zh_cn": "嗷啊啊啊啊啊啊啊啊！",
+        "zh_tw": "嘎啊啊啊啊啊啊啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0044",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "AAAAAAAAH!",
+        "ja_jp": "あああああああああ!!",
+        "zh_cn": "啊啊啊啊啊啊！",
+        "zh_tw": "啊啊啊啊啊啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0045",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Get away from her!",
+        "ja_jp": "アカーシャさんから<ruby><rb>離</rb><rt>はな</rt></ruby>れてください！　",
+        "zh_cn": "离阿加莎远点！",
+        "zh_tw": "快離開阿迦奢小姐！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0046",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Akasha, hold on! I'm going to...\\nOh no. She's not breathing.",
+        "ja_jp": "アカーシャさん、しっかり！\\n……ウソ!?　<ruby><rb>息</rb><rt>いき</rt></ruby>をしていない!?",
+        "zh_cn": "阿加莎，振作一点！\\n不会吧！？没有呼吸了！？",
+        "zh_tw": "阿迦奢小姐，振作一點！\\n……不會吧！？沒有呼吸了！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0048",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "Wait, seriously? She barely got touched.\\nStill, if she's gonna go and die that easy,\\nthen how can I resist a little...?",
+        "ja_jp": "はっはっは！　あっけなく<ruby><rb>死</rb><rt>し</rt></ruby>んだな！\\nそれならこうしてやる。",
+        "zh_cn": "哈哈哈！这就死了啊！\\n那就吃我这一招。",
+        "zh_tw": "哈、哈、哈！竟然一下就死了！\\n那就看我這招吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0049",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "＂Kanda d'oom demonis.\\n Kanda be'yond cemetaris.\\nSwing wide, O gates of hell!＂",
+        "ja_jp": "『カンダ・ドゥーム・デモンズ。\\n　カンダ・ビヨンド・セメタリー。\\n　――<ruby><rb>地獄</rb><rt>じごく</rt></ruby>の<ruby><rb>門</rb><rt>もん</rt></ruby>は<ruby><rb>開</rb><rt>ひら</rt></ruby>きたり』！",
+        "zh_cn": "“汝，将化身宿命之恶魔。\\n汝，须冲破仇恨之桎梏。\\n地狱之门，敞开吧”！",
+        "zh_tw": "「汝，將化身宿命惡魔。\\n　汝，將跨越仇恨靈園。\\n　──地獄之門，敞開吧」！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0050",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "Nr...aArgh...",
+        "ja_jp": "あ……う……。",
+        "zh_cn": "啊……呜……",
+        "zh_tw": "啊……嗚……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0051",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "UrR...rAAaAgH...! NrrRRAaaUrGH...!",
+        "ja_jp": "……ア……アアアアァァ……！\\nウゥウウウウウ……！",
+        "zh_cn": "啊……啊啊啊啊！\\n呜呜呜呜呜呜！",
+        "zh_tw": "……啊……啊啊啊啊啊啊……！\\n嗚嗚嗚嗚嗚嗚嗚……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0052",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "A-Akasha?",
+        "ja_jp": "アカーシャ……さん……!?",
+        "zh_cn": "阿加莎！？",
+        "zh_tw": "阿迦奢……小姐……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0053",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "Witness the true terror of the Legion\\nImmortalis: Each life my army claims\\nbecomes its newest pawn!",
+        "ja_jp": "<ruby><rb>殺</rb><rt>ころ</rt></ruby>した<ruby><rb>敵</rb><rt>てき</rt></ruby>を<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>手駒</rb><rt>てごま</rt></ruby>にできる。これが\\n『<ruby><rb>不死軍の書</rb><rt>バタリオン・ブック</rt></ruby>』の<ruby><rb>真</rb><rt>しん</rt></ruby>の<ruby><rb>恐</rb><rt>おそ</rt></ruby>ろしさなのさ。",
+        "zh_cn": "《不死军之书》真正的恐怖之处，\\n就在于能将杀死的敌人\\n变为自己的棋子。",
+        "zh_tw": "能在殺死敵人後將其變成自己的棋子。\\n這就是「不死軍之書」\\n真正可怕的地方。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0054",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "Oh, and pro tip: This next part is gonna be\\na LOT easier if you dispense with all the\\nscreaming and fleeing and whatever\\nand just agree to help me out.",
+        "ja_jp": "さーて、<ruby><rb>残</rb><rt>のこ</rt></ruby>るは<ruby><rb>貴様</rb><rt>きさま</rt></ruby>だけだな。\\nおっと、<ruby><rb>逃</rb><rt>に</rt></ruby>げ<ruby><rb>道</rb><rt>みち</rt></ruby>はナッシングだぞ？",
+        "zh_cn": "好了，现在就只剩你了。\\n噢，可别想着逃跑哦。",
+        "zh_tw": "好～啦，現在只剩下妳了。\\n哎呀，可別以為還有路可逃喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0055",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "No! The creatures we blew up are\\nalready back on their feet!",
+        "ja_jp": "さっき<ruby><rb>倒</rb><rt>たお</rt></ruby>したはずのゾンビたち……！\\nもう<ruby><rb>蘇</rb><rt>よみがえ</rt></ruby>ったの……!?",
+        "zh_cn": "是刚才打倒的僵尸们……\\n已经复活了吗！？",
+        "zh_tw": "剛才打倒的殭屍們……！\\n已經復活了嗎……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0056",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "See, I'm sure you'd make a passable\\nzombie, but this Halidom business is\\ntaking WAAAAAY too long.",
+        "ja_jp": "<ruby><rb>貴様</rb><rt>きさま</rt></ruby>を<ruby><rb>殺</rb><rt>ころ</rt></ruby>してゾンビにするのも<ruby><rb>良</rb><rt>い</rt></ruby>いが、\\n<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>の<ruby><rb>攻略</rb><rt>こうりゃく</rt></ruby>に<ruby><rb>手間取</rb><rt>てまど</rt></ruby>っているからなぁ。",
+        "zh_cn": "虽然我可以直接把你杀掉变成僵尸，\\n但毕竟我攻打圣城遇到了瓶颈。",
+        "zh_tw": "要殺了妳再把妳變成殭屍也行，\\n但因為考慮到現在還在費勁攻陷聖城。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0057",
+      "book": ""
+    },
+    {
+      "icon": "120077_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "So I'll make you an offer: Work for me and\\nconvince your old allies to open the gates,\\nthereby closing the jaws of my incredibly\\nclever trap right on their tootsies.",
+        "ja_jp": "よし、<ruby><rb>特別</rb><rt>とくべつ</rt></ruby>にチャンスをくれてやる。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>手下</rb><rt>てした</rt></ruby>に<ruby><rb>寝返</rb><rt>ねがえ</rt></ruby>り、<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>の<ruby><rb>仲間</rb><rt>なかま</rt></ruby>を<ruby><rb>欺</rb><rt>あざむ</rt></ruby>け。\\n<ruby><rb>連中</rb><rt>れんちゅう</rt></ruby>を<ruby><rb>罠</rb><rt>わな</rt></ruby>に<ruby><rb>嵌</rb><rt>は</rt></ruby>める<ruby><rb>手伝</rb><rt>てつだ</rt></ruby>いをするのだ。",
+        "zh_cn": "所以，我就破例给你一次机会。\\n我留你一条命，但你得成为我的手下，\\n然后回圣城骗那些同伴落入我的陷阱。",
+        "zh_tw": "好，就特別給妳個機會。\\n成為我的手下，欺騙聖城的夥伴吧。\\n妳必須幫助我陷害那些傢伙。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0058",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Never!",
+        "ja_jp": "お<ruby><rb>断</rb><rt>ことわ</rt></ruby>りします！",
+        "zh_cn": "我拒绝！",
+        "zh_tw": "我拒絕！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0059",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "Uh, you do realize I command an immortal\\narmy of the risen dead here, right?\\nI was obvious enough about that?",
+        "ja_jp": "<ruby><rb>即答</rb><rt>そくとう</rt></ruby>かよ。しかし、よく<ruby><rb>考</rb><rt>かんが</rt></ruby>えてみろ。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>従</rb><rt>したが</rt></ruby>えているのは、<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby>に<ruby><rb>死</rb><rt>し</rt></ruby>なない\\n<ruby><rb>最強無敵</rb><rt>さいきょうむてき</rt></ruby>のゾンビ<ruby><rb>軍団</rb><rt>ぐんだん</rt></ruby>なのだぞ？",
+        "zh_cn": "秒拒？可是，你好好想想。\\n我可是使役着绝对不死的\\n最强无敌僵尸军团哦？",
+        "zh_tw": "竟然馬上回答呀。不過妳仔細想想。\\n現在我所操控的，可是絕對不會死，\\n最強又無敵的殭屍軍團喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0060",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "You guys have zero chance of winning,\\nso I feel like my offer to spare your life\\nis actually a pretty sweet deal.",
+        "ja_jp": "<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>には<ruby><rb>万</rb><rt>まん</rt></ruby>にひとつの<ruby><rb>勝</rb><rt>か</rt></ruby>ち<ruby><rb>目</rb><rt>め</rt></ruby>もない。\\nならば、<ruby><rb>自分</rb><rt>じぶん</rt></ruby>だけ<ruby><rb>助</rb><rt>たす</rt></ruby>かろうとするのが\\n<ruby><rb>利巧</rb><rt>りこう</rt></ruby>というものじゃないか？",
+        "zh_cn": "圣城连万分之一的胜算都没有。\\n既然如此，保全自己的性命\\n才是明智之举吧？",
+        "zh_tw": "聖城連萬分之一的勝算都沒有。\\n既然如此，至少讓自己得救，\\n不是比較聰明嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0061",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "I'll not let my friend die.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>にはどうしても<ruby><rb>助</rb><rt>たす</rt></ruby>けたい\\n<ruby><rb>友</rb><rt>とも</rt></ruby>だちがいます。",
+        "zh_cn": "无论如何\\n我都要救我的朋友。",
+        "zh_tw": "我有無論如何都想幫助的朋友。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0062",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "She believes in me and trusted me\\nenough to send me out here.",
+        "ja_jp": "その<ruby><rb>友</rb><rt>とも</rt></ruby>だちは<ruby><rb>私</rb><rt>わたし</rt></ruby>を<ruby><rb>信</rb><rt>しん</rt></ruby>じて\\n<ruby><rb>送</rb><rt>おく</rt></ruby>り<ruby><rb>出</rb><rt>だ</rt></ruby>してくれました。",
+        "zh_cn": "他们出于对我的信任，\\n才把我送出城。",
+        "zh_tw": "是那些朋友相信我，\\n將我送出城的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0063",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "All manner of people helped me get\\nthis far, in fact.",
+        "ja_jp": "<ruby><rb>他</rb><rt>ほか</rt></ruby>にも、<ruby><rb>私</rb><rt>わたし</rt></ruby>のために\\n<ruby><rb>動</rb><rt>うご</rt></ruby>いてくれた<ruby><rb>方</rb><rt>かた</rt></ruby>が<ruby><rb>大勢</rb><rt>おおぜい</rt></ruby>います。",
+        "zh_cn": "还有很多人\\n也为我而付出了努力。",
+        "zh_tw": "其他還有許多人為了我而行動。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0064",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "I would sooner die than betray that trust!",
+        "ja_jp": "その<ruby><rb>信頼</rb><rt>しんらい</rt></ruby>を<ruby><rb>裏切</rb><rt>うらぎ</rt></ruby>るような<ruby><rb>真似</rb><rt>まね</rt></ruby>は\\n<ruby><rb>死</rb><rt>し</rt></ruby>んだってできません！",
+        "zh_cn": "我死也不能辜负\\n他们对我的信赖。",
+        "zh_tw": "要我背叛他們的信賴，\\n我死都辦不到！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0065",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "This whole ＂power of friendship＂ thing is\\nSUCH a pain sometimes... But oh well!\\nYou'll just have to be my zombie instead.\\n...Get her, boys!",
+        "ja_jp": "……はぁ～あ。<ruby><rb>交渉決裂</rb><rt>こうしょうけつれつ</rt></ruby>だな。ならば\\nゾンビになって<ruby><rb>私</rb><rt>わたし</rt></ruby>に<ruby><rb>尽</rb><rt>つ</rt></ruby>くすがいい！\\nやれい、ゾンビども！",
+        "zh_cn": "唉……谈判破裂。\\n那就变成僵尸为我效忠吧！\\n僵尸们，动手！",
+        "zh_tw": "……唉～～交涉失敗嗎。\\n那妳就變成殭屍為我效忠吧！\\n給我上，殭屍們！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0066",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "Oh, except you, Commander Z.\\nYou're still on bodyguard duty.",
+        "ja_jp": "あ、ゾンビ<ruby><rb>隊長</rb><rt>たいちょう</rt></ruby>はしっかり<ruby><rb>私</rb><rt>わたし</rt></ruby>を<ruby><rb>守</rb><rt>まも</rt></ruby>れよ？",
+        "zh_cn": "对了，僵尸队长\\n可要负责保护好我哦。",
+        "zh_tw": "啊，殭屍隊長要好好保護我喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0067",
+      "book": ""
+    },
+    {
+      "icon": "120203_01",
+      "name": {
+        "en_us": "Commander Z",
+        "ja_jp": "ゾンビ隊長",
+        "zh_cn": "僵尸队长",
+        "zh_tw": "殭屍隊長"
+      },
+      "context": {
+        "en_us": "UrrGh.",
+        "ja_jp": "アウ。",
+        "zh_cn": "啊呜。",
+        "zh_tw": "啊嗚。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0068",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "I won't lose to you when everyone\\nis counting on me!",
+        "ja_jp": "<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby>に<ruby><rb>負</rb><rt>ま</rt></ruby>けない！\\nみんなを<ruby><rb>助</rb><rt>たす</rt></ruby>けるために！",
+        "zh_cn": "我绝对不会输的！\\n我一定要救大家！",
+        "zh_tw": "為了救大家！我絕對不會輸！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0069",
+      "book": ""
+    },
+    {
+      "icon": "120044_01",
+      "name": {
+        "en_us": "Imperial Mage",
+        "ja_jp": "帝国軍の魔術師",
+        "zh_cn": "帝国军魔法师",
+        "zh_tw": "帝國軍魔法師"
+      },
+      "context": {
+        "en_us": "Huh. Not bad. Maybe even decent?\\nBut let's see how you fare against my\\nnewest recruit.",
+        "ja_jp": "ほ～う。<ruby><rb>意外</rb><rt>いがい</rt></ruby>とやるじゃないか。\\nだが、こいつが<ruby><rb>相手</rb><rt>あいて</rt></ruby>ならどうだ？",
+        "zh_cn": "嚯～有两下子嘛。\\n不过，你能以这家伙为敌吗？",
+        "zh_tw": "喔～意外地能打嘛。\\n不過，如果對手是這傢伙會變怎樣呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0070",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "UrrRrRrgH... NrRRaAAaARGh...!",
+        "ja_jp": "アァァァァ……ウゥウゥゥウ……！",
+        "zh_cn": "啊啊啊啊……呜呜呜呜呜！",
+        "zh_tw": "啊啊啊啊啊……嗚嗚嗚嗚嗚嗚……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0071",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "No... Akasha!",
+        "ja_jp": "アカーシャさん……！",
+        "zh_cn": "阿加莎！",
+        "zh_tw": "阿迦奢小姐……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_04_0072",
+      "book": ""
+    }
+  ]
 }

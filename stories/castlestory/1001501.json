@@ -1,746 +1,1437 @@
 {
-    "story_id": "",
-    "story_name": "城堡剧情 寻找圣星使者",
-    "story_icon": "",
-    "outline": {
-        "title": "",
-        "content": [
-            "要跳过此剧情吗？"
-        ]
+  "title": {
+    "en_us": "Castle Story: Seeking Saint Starfall",
+    "ja_jp": "キャッスルストーリー サンメテオールをさがして",
+    "zh_cn": "城堡剧情 寻找圣星使者",
+    "zh_tw": "城堡的故事 尋找聖夜使者"
+  },
+  "outline": {
+    "title": {
+      "en_us": "",
+      "ja_jp": "",
+      "zh_cn": "",
+      "zh_tw": ""
     },
-    "story_content": [
-        {
-            "speaker_id": [],
-            "speaker_name": "add_book_text",
-            "context": "寻找圣星使者",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [],
-            "speaker_name": "add_book_text",
-            "context": "圣星使者——\\n传说那是在星龙祭的夜晚\\n到来的、派发奇迹之人。\\n乖孩子们都雀跃地\\n等待着他们的礼物……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "好了……\\n向圣星使者传达愿望的\\n准备已经就绪。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "接下来只要整晚不睡，\\n等明早和圣星使者见面。\\n这下刀背斩就会回到我身边……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "和圣星使者见面？\\n米科特那家伙在说什么呢。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "难道……从小孩子那里\\n听说了圣星使者的故事，\\n就信以为真了？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "怎么可能……\\n不，米科特有点不谙世事。\\n也许真的有可能？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "终于能见到你了，刀背斩……\\n啊啊，等不到天亮了，现在就想……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "相当期待的样子……\\n看来还是早点告诉他\\n真相比较好。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "那种东西不过是骗人的。\\n是奸商想利用星龙祭\\n大赚一笔的策略……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "好痛……谁啊！？\\n干什么！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_01"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "蠢货。\\n你才是，刚才想要干什么呢。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "呃，阿莱克西斯！？\\n我只是想告诉米科特\\n圣星使者根本不存在……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_01"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "为什么要做这么不解风情的事，\\n你有剥夺别人梦想的权力吗？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "权力我倒是没有，\\n不过早晚都要认清现实的话，\\n不是尽早更好吗？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_01"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "那也是该他自己决定的事。\\n他正向圣星使者寻求救赎……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "你刚才说“圣星使者”？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_01"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "你什么时候跑我身后的！？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "对于得到天启之人来说，\\n这点小事轻而易举。先不提这个，\\n关于圣星使者，你知道他吗？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "不知道才奇怪吧。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "是吗。那告诉我他在哪。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "什么在哪……这世上\\n根本没有圣星使者……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "好痛！？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_01"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "咳咳……\\n据说圣星使者\\n住在科尔巴山山顶。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "科尔巴山……\\n那个进山者无人能幸免的\\n传说中的死亡雪山吗。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_01"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "正是。所以就算知道在哪里\\n也不可能见到他。\\n明白了的话就老老实实地……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "明白了，我去去就来。\\n等着我，刀背斩！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "根本什么也没明白啊！？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "这可怎么办，那家伙真的走了！\\n这样下去圣星使者不存在的事\\n就要暴露了！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_01"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "这可不行。要抢在他前头\\n设下陷阱阻止他上山。跟我来！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "啥？我也得跟着去吗！？\\n喂，我说你！要付报酬给我啊！？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "死亡雪山\\n科尔巴山",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "呼、呼……这下陷阱就设好了。\\n可恶，力气活全丢给我啊。\\n喂，你真的得给我报酬……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_01"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "嚯，完成度挺高嘛。\\n嗯？米科特好像来了。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "圣星使者，给我等着。\\n为了达成我的夙愿，我来了！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "糟糕。那眼神是认真的。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_01"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "哼，不管多认真都不会\\n让你去山顶……发动陷阱！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "这就是为什么它被称为死亡雪山吗……\\n但是，还太嫩了。炽炎剑！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "啊啊啊啊！\\n我的劳动成果瞬间就付之一炬了！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_01"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "这陷阱也太不堪一击了。\\n不过我早就料到会这样，\\n已经设好了第二个陷阱。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "诶，你也设了陷阱吗……\\n那我的无偿劳动到底是为了什么……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_01"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "你的只是陪衬，我的才是重头戏。\\n预备……开火！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120007_01"
-            ],
-            "speaker_name": "被解放的魔兽们",
-            "context": "咕噢噢噢噢噢！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "呃！这魔法阵不是之前\\n克雷伊曼和希诺亚\\n引爆的东西吗！？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "不是因为会招来魔兽而被禁止了吗？\\n你搞来这么危险的玩意，\\n到底是有多认真啊！？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_01"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "凡事都要认真对待可是我的信条！\\n守护家臣的梦想是王的职责。\\n好了，这样一来就算是那家伙也……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "炽炎剑·魔障覆灭！\\n谁都不能阻挡我的愿望！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_01"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "漂亮……纯粹的愿望\\n会化为克服困难的利刃吗！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "你感动个什么劲啊！\\n这样下去他就要去山顶了！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_01"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "不行！连家臣的真挚感情\\n都无法保护的话，怎么称得上是王。\\n这种时候就交给我吧！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "喂、喂。怎么突然换衣服\\n拿武器……你想干什么？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_02"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "米科特啊，\\n真亏你能坚持来到这里！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "唔……阿莱克西斯。\\n你为什么会在这里？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_02"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "有一件事瞒着你，其实我就是\\n被选中的圣星使者代理人。\\n你休想继续向前！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "唔……你就是我实现愿望之路上\\n最后的试炼吗。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "那我就干掉你，继续前进。\\n炽炎剑！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "噢噢噢噢噢噢噢噢！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_02"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "哈啊啊啊啊啊啊啊！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "真是互不相让的激烈战斗！\\n连雪都开始融化了……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "嗯？这声音是怎么回事？\\n为什么有雪落下来……\\n啊，这是……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "阿莱克西斯！米科特！\\n雪崩了，快趴下！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "伊尔凡？你为什么会在……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_02"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "别废话了快趴下！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_02"
-            ],
-            "speaker_name": "3人",
-            "context": "哇啊啊啊啊啊！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "哈！？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "醒了啊。\\n你一直呻吟个不停。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "米科特？\\n咦？难道，全都是一场梦？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_02"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "不，不是梦。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "阿莱克西斯！\\n不是梦的话，就是说\\n我们真的被卷入雪崩……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_02"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "嗯。\\n到底是怎么从雪崩里生还的，\\n我一点都不记得了……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "你们……\\n不记得圣星使者了吗？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110022_02"
-            ],
-            "speaker_name": "阿莱克西斯",
-            "context": "什么？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "我们是被身着红衣的圣人——\\n圣星使者拉着雪橇载回圣城的。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110037_01"
-            ],
-            "speaker_name": "伊尔凡",
-            "context": "骗、骗人的吧……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "没骗你。这里的花就是证据，\\n是圣星使者给我们的。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "这就是刀背斩喜欢的花。\\n虽然没能和刀背斩重逢，\\n但却重新唤起了我珍贵的回忆。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110010_01"
-            ],
-            "speaker_name": "米科特",
-            "context": "我会将回忆珍藏在心中……\\n为了寻找刀背斩，继续追寻天意。\\n再见。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [],
-            "speaker_name": "add_book_text",
-            "context": "诶？怎、怎么回事？\\n难道圣星使者真的存在吗？",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [],
-            "speaker_name": "add_book_text",
-            "context": "怎么可能……\\n不，就当是这么回事吧。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [],
-            "speaker_name": "add_book_text",
-            "context": "这就是那家伙和我们的愿望\\n所引发的仅限一夜的奇迹。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [],
-            "speaker_name": "add_book_text",
-            "context": "这个美丽的结局也许\\n正是送给我们的真正礼物。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [],
-            "speaker_name": "add_book_text",
-            "context": "FIN",
-            "voice_line": "",
-            "book_image": "BOOK_new_1008"
-        }
-    ]
+    "content": {
+      "en_us": "Skip this scene?",
+      "ja_jp": "このストーリーをスキップしますか？",
+      "zh_cn": "要跳过此剧情吗？",
+      "zh_tw": "請確認是否略過劇情？"
+    }
+  },
+  "prev": "1001402",
+  "next": "1001601",
+  "content": [
+    {
+      "icon": "",
+      "name": {
+        "en_us": "add_book_text",
+        "ja_jp": "add_book_text",
+        "zh_cn": "add_book_text",
+        "zh_tw": "add_book_text"
+      },
+      "context": {
+        "en_us": "Seeking Saint Starfall",
+        "ja_jp": "サンメテオールをさがして",
+        "zh_cn": "寻找圣星使者",
+        "zh_tw": "尋找聖夜使者"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "",
+      "name": {
+        "en_us": "add_book_text",
+        "ja_jp": "add_book_text",
+        "zh_cn": "add_book_text",
+        "zh_tw": "add_book_text"
+      },
+      "context": {
+        "en_us": "Saint Starfall is a merchant of\\nmiracles, believed to make his\\nrounds on Dragonyule Eve. Good\\nlittle children wait eagerly for the\\npresents he might soon bring...",
+        "ja_jp": "サンメテオール。\\nそれは<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>の<ruby><rb>夜</rb><rt>よる</rt></ruby>にやって<ruby><rb>来</rb><rt>く</rt></ruby>ると\\n<ruby><rb>信</rb><rt>しん</rt></ruby>じられている、<ruby><rb>奇跡</rb><rt>きせき</rt></ruby>の<ruby><rb>配達人</rb><rt>はいたつにん</rt></ruby>。\\n<ruby><rb>良</rb><rt>よ</rt></ruby>い<ruby><rb>子</rb><rt>こ</rt></ruby>たちは<ruby><rb>胸</rb><rt>むね</rt></ruby>を<ruby><rb>躍</rb><rt>おど</rt></ruby>らせ、\\n<ruby><rb>贈</rb><rt>おく</rt></ruby>り<ruby><rb>物</rb><rt>もの</rt></ruby>を<ruby><rb>待</rb><rt>ま</rt></ruby>ちわびる――。",
+        "zh_cn": "圣星使者——\\n传说那是在星龙祭的夜晚\\n到来的、派发奇迹之人。\\n乖孩子们都雀跃地\\n等待着他们的礼物……",
+        "zh_tw": "聖夜使者。\\n那是人們深信會在星龍祭的夜晚\\n前來分送禮物，如奇蹟般的存在。\\n好孩子們都為此感到雀躍不已，\\n一心期盼著禮物的到來──"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "All right. I am now fully prepared to make\\nmy wish to Saint Starfall.",
+        "ja_jp": "……これでよし。\\nサンメテオールなる<ruby><rb>者</rb><rt>もの</rt></ruby>に<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>望</rb><rt>のぞ</rt></ruby>みを\\n<ruby><rb>伝</rb><rt>つた</rt></ruby>える<ruby><rb>準備</rb><rt>じゅんび</rt></ruby>も<ruby><rb>完了</rb><rt>かんりょう</rt></ruby>した。",
+        "zh_cn": "好了……\\n向圣星使者传达愿望的\\n准备已经就绪。",
+        "zh_tw": "……這樣即可。\\n向聖夜使者傳達吾人期望的\\n準備已準備齊全。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Now comes that dreaded time of waiting.\\nCome the morrow, I shall meet the Saint\\nhimself and see Mineuchi returned to\\nmy side.",
+        "ja_jp": "あとは<ruby><rb>明朝</rb><rt>みょうちょう</rt></ruby>まで<ruby><rb>不眠</rb><rt>ふみん</rt></ruby>で<ruby><rb>待</rb><rt>ま</rt></ruby>ち、\\nサンメテオールと<ruby><rb>面会</rb><rt>めんかい</rt></ruby>するのみ。\\nこれで、<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>元</rb><rt>もと</rt></ruby>にミネウチが……。",
+        "zh_cn": "接下来只要整晚不睡，\\n等明早和圣星使者见面。\\n这下刀背斩就会回到我身边……",
+        "zh_tw": "接著僅需保持清醒至明日，\\n待與聖夜使者見面。\\n如此，刀背斬便將回到吾人身邊……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "He's meeting with Saint Starfall?",
+        "ja_jp": "……サンメテオールと<ruby><rb>面会</rb><rt>めんかい</rt></ruby>？\\n<ruby><rb>何</rb><rt>なに</rt></ruby><ruby><rb>言</rb><rt>い</rt></ruby>ってるんだ、ミコトのやつ。",
+        "zh_cn": "和圣星使者见面？\\n米科特那家伙在说什么呢。",
+        "zh_tw": "……跟聖夜使者見面？\\n尊那傢伙是在胡說什麼啊。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "One of the kids must've told him about\\nthe whole deal—but why'd he believe it?",
+        "ja_jp": "もしかして……ガキどもから\\nサンメテオールの<ruby><rb>話</rb><rt>はなし</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>いて、\\n<ruby><rb>今更</rb><rt>いまさら</rt></ruby><ruby><rb>信</rb><rt>しん</rt></ruby>じちまった、とか？",
+        "zh_cn": "难道……从小孩子那里\\n听说了圣星使者的故事，\\n就信以为真了？",
+        "zh_tw": "難道……他從小鬼們那邊\\n聽說聖夜使者的故事，\\n結果到這把年紀卻還相信了，之類的？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "The guy's an adult, for cryin' out loud...\\nBut I guess he DOES kinda live in his\\nown little world.",
+        "ja_jp": "そんなバカな。……いや、\\nミコトってちょっと<ruby><rb>浮世離</rb><rt>うきよばな</rt></ruby>れしてる\\nところがあるし。あり<ruby><rb>得</rb><rt>え</rt></ruby>るのか？",
+        "zh_cn": "怎么可能……\\n不，米科特有点不谙世事。\\n也许真的有可能？",
+        "zh_tw": "怎麼可能。\\n……不，畢竟尊有點跟社會脫節，\\n說不定有可能？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Soon, Mineuchi. Our reunion is nigh.\\nJust one more night...",
+        "ja_jp": "とうとう<ruby><rb>会</rb><rt>あ</rt></ruby>えるのか、ミネウチよ……。\\nああ、<ruby><rb>夜</rb><rt>よる</rt></ruby>など<ruby><rb>待</rb><rt>ま</rt></ruby>てぬ。<ruby><rb>一刻</rb><rt>いっこく</rt></ruby>も<ruby><rb>早</rb><rt>はや</rt></ruby>く……。",
+        "zh_cn": "终于能见到你了，刀背斩……\\n啊啊，等不到天亮了，现在就想……",
+        "zh_tw": "終於能見到你了嗎，刀背斬……\\n啊啊，吾人等不及熬過夜晚。\\n刻不容緩……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "I better let the guy know what's up before\\nhe gets his heart broken.",
+        "ja_jp": "……かなり<ruby><rb>期待</rb><rt>きたい</rt></ruby>してるな。\\nこりゃ、<ruby><rb>早</rb><rt>はや</rt></ruby>いとこ<ruby><rb>真実</rb><rt>しんじつ</rt></ruby>を<ruby><rb>教</rb><rt>おし</rt></ruby>えてやった\\nほうがよさそうだ。",
+        "zh_cn": "相当期待的样子……\\n看来还是早点告诉他\\n真相比较好。",
+        "zh_tw": "……他相當期待呢。\\n看來早點告訴他真相會比較好。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "Dragonyule's just an excuse for merchants\\nand the like to make themselves a little\\nextra—",
+        "ja_jp": "あんなものは<ruby><rb>所詮</rb><rt>しょせん</rt></ruby>でっちあげ。\\n<ruby><rb>星竜祭</rb><rt>せいりゅうさい</rt></ruby>にかこつけて、<ruby><rb>商売繁盛</rb><rt>しょうばいはんじょう</rt></ruby>を\\n<ruby><rb>狙</rb><rt>ねら</rt></ruby>った<ruby><rb>商人</rb><rt>しょうにん</rt></ruby>どもの<ruby><rb>策略</rb><rt>さくりゃく</rt></ruby>――",
+        "zh_cn": "那种东西不过是骗人的。\\n是奸商想利用星龙祭\\n大赚一笔的策略……",
+        "zh_tw": "那種東西終究只是騙人的。\\n是商人們為了藉星龍祭的名義\\n大賺一筆的策略──"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "Ow! Hey, who did that?!\\nWho wants it?!",
+        "ja_jp": "<ruby><rb>痛</rb><rt>いた</rt></ruby>ッ……おい<ruby><rb>誰</rb><rt>だれ</rt></ruby>だ!?　\\n<ruby><rb>何</rb><rt>なに</rt></ruby>しやがる！",
+        "zh_cn": "好痛……谁啊！？\\n干什么！",
+        "zh_tw": "好痛……喂，誰啊！？\\n在搞什麼！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_01",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "Still your tongue, fool!",
+        "ja_jp": "<ruby><rb>馬鹿者</rb><rt>ばかもの</rt></ruby>。\\n<ruby><rb>貴様</rb><rt>きさま</rt></ruby>こそ、<ruby><rb>今</rb><rt>いま</rt></ruby>、<ruby><rb>何</rb><rt>なに</rt></ruby>をしようとしたのだ。",
+        "zh_cn": "蠢货。\\n你才是，刚才想要干什么呢。",
+        "zh_tw": "愚蠢之人。\\n你才是，剛剛打算做什麼。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "Xander? What's the deal? I was just\\nabout to go tell Mikoto that Saint\\nStarfall's not real.",
+        "ja_jp": "げっ、アレクシス!?　オレはただ、\\nミコトにサンメテオールなんか\\n<ruby><rb>実在</rb><rt>じつざい</rt></ruby>しないって<ruby><rb>話</rb><rt>はなし</rt></ruby>をしようと……。",
+        "zh_cn": "呃，阿莱克西斯！？\\n我只是想告诉米科特\\n圣星使者根本不存在……",
+        "zh_tw": "呃，亞雷克西斯！？\\n我只是打算告訴尊，\\n聖夜使者什麼的並不存在……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_01",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "Oh, I am well aware. But what right\\ndo you have to dash another man's\\ndreams, hm? Answer me, knave!",
+        "ja_jp": "<ruby><rb>何故</rb><rt>なぜ</rt></ruby>そんな<ruby><rb>無粋</rb><rt>ぶすい</rt></ruby>な<ruby><rb>真似</rb><rt>まね</rt></ruby>を。\\n<ruby><rb>他人</rb><rt>たにん</rt></ruby>の<ruby><rb>夢</rb><rt>ゆめ</rt></ruby>を<ruby><rb>奪</rb><rt>うば</rt></ruby>う<ruby><rb>資格</rb><rt>しかく</rt></ruby>が<ruby><rb>貴様</rb><rt>きさま</rt></ruby>にあるか？",
+        "zh_cn": "为什么要做这么不解风情的事，\\n你有剥夺别人梦想的权力吗？",
+        "zh_tw": "為何要做如此不解風情之事。\\n你有資格奪走他人的夢想嗎？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "Um, I guess none? But you can't tell me\\nhe's better off believing in lies at his age!",
+        "ja_jp": "そんな<ruby><rb>資格</rb><rt>しかく</rt></ruby>はねえけど。\\nでも、いつか<ruby><rb>現実</rb><rt>げんじつ</rt></ruby>を<ruby><rb>知</rb><rt>し</rt></ruby>るなら、\\n<ruby><rb>早</rb><rt>はや</rt></ruby>いほうがよくねえか。",
+        "zh_cn": "权力我倒是没有，\\n不过早晚都要认清现实的话，\\n不是尽早更好吗？",
+        "zh_tw": "我是沒有那種資格啦。\\n不過，既然遲早會知道現實，\\n早一點知道不是比較好嗎。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_01",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "That is for him alone to decide. He seems\\nto find salvation in Saint Starfall.",
+        "ja_jp": "それはあやつ<ruby><rb>自身</rb><rt>じしん</rt></ruby>が<ruby><rb>決</rb><rt>き</rt></ruby>めることよ。\\nあやつがサンメテオールに<ruby><rb>救</rb><rt>すく</rt></ruby>いを……",
+        "zh_cn": "那也是该他自己决定的事。\\n他正向圣星使者寻求救赎……",
+        "zh_tw": "那是那傢伙自己該決定的事。\\n他正向聖夜使者尋求救贖……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Did I hear mention of Saint Starfall?",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>、サンメテオールと<ruby><rb>言</rb><rt>い</rt></ruby>ったな？",
+        "zh_cn": "你刚才说“圣星使者”？",
+        "zh_tw": "剛才，你說了聖夜使者對吧？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_01",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "Ack! Where did you come from?!",
+        "ja_jp": "――!?　<ruby><rb>貴様</rb><rt>きさま</rt></ruby>、いつの<ruby><rb>間</rb><rt>ま</rt></ruby>に<ruby><rb>我</rb><rt>われ</rt></ruby>の<ruby><rb>背後</rb><rt>はいご</rt></ruby>に!?",
+        "zh_cn": "你什么时候跑我身后的！？",
+        "zh_tw": "──！？\\n你什麼時候在本王背後的！？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Just over there. Now tell me:\\nDo you know Saint Starfall?",
+        "ja_jp": "この<ruby><rb>程度</rb><rt>ていど</rt></ruby>、<ruby><rb>天啓</rb><rt>てんけい</rt></ruby>を<ruby><rb>得</rb><rt>え</rt></ruby>れば<ruby><rb>造作</rb><rt>ぞうさ</rt></ruby>もない。\\nそれよりサンメテオールのことだ。\\nあやつを<ruby><rb>知</rb><rt>し</rt></ruby>っているのか。",
+        "zh_cn": "对于得到天启之人来说，\\n这点小事轻而易举。先不提这个，\\n关于圣星使者，你知道他吗？",
+        "zh_tw": "這點程度，獲得天啟後便易如反掌。\\n更重要的是聖夜使者。\\n你們知道那傢伙嗎。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "I mean, who DOESN'T know him,\\nam I right?",
+        "ja_jp": "<ruby><rb>知</rb><rt>し</rt></ruby>らねえやつのほうが<ruby><rb>珍</rb><rt>めずら</rt></ruby>しいだろ。",
+        "zh_cn": "不知道才奇怪吧。",
+        "zh_tw": "不知道的人比較稀罕吧。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "I see. Then please, tell me where he is.",
+        "ja_jp": "そうか。では<ruby><rb>居所</rb><rt>いどころ</rt></ruby>を<ruby><rb>教</rb><rt>おし</rt></ruby>えろ。",
+        "zh_cn": "是吗。那告诉我他在哪。",
+        "zh_tw": "是嗎。那就告訴吾人其所在之處吧。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "Er... Well, he's not really ANYWHERE...",
+        "ja_jp": "<ruby><rb>居所</rb><rt>いどころ</rt></ruby>って……。サンメテオールなんて\\nこの<ruby><rb>世</rb><rt>よ</rt></ruby>にはいな……。",
+        "zh_cn": "什么在哪……这世上\\n根本没有圣星使者……",
+        "zh_tw": "所在之處……\\n聖夜使者什麼的，這個世上不存……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "OW!",
+        "ja_jp": "<ruby><rb>痛</rb><rt>いた</rt></ruby>ッ!?",
+        "zh_cn": "好痛！？",
+        "zh_tw": "好痛！？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_01",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "*ahem* Legend claims that Saint Starfall\\nlives high atop Mount Kolba.",
+        "ja_jp": "……コホン。サンメテオールはな、\\nコルバ<ruby><rb>山</rb><rt>さん</rt></ruby>の<ruby><rb>頂</rb><rt>いただき</rt></ruby>に<ruby><rb>住</rb><rt>す</rt></ruby>んでいると\\n<ruby><rb>言</rb><rt>い</rt></ruby>われている。",
+        "zh_cn": "咳咳……\\n据说圣星使者\\n住在科尔巴山山顶。",
+        "zh_tw": "……咳咳。聖夜使者啊，\\n據說住在克爾巴山的山頂。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Kolba... The frozen mountain of death.\\nIt is said those who visit never return.",
+        "ja_jp": "コルバ<ruby><rb>山</rb><rt>さん</rt></ruby>……。<ruby><rb>立</rb><rt>た</rt></ruby>ち<ruby><rb>入</rb><rt>い</rt></ruby>った<ruby><rb>者</rb><rt>もの</rt></ruby>は<ruby><rb>悉</rb><rt>ことごと</rt></ruby>く\\n<ruby><rb>命</rb><rt>いのち</rt></ruby>を<ruby><rb>落</rb><rt>お</rt></ruby>とすと<ruby><rb>言</rb><rt>い</rt></ruby>われる、<ruby><rb>死</rb><rt>し</rt></ruby>の<ruby><rb>雪山</rb><rt>ゆきやま</rt></ruby>か。",
+        "zh_cn": "科尔巴山……\\n那个进山者无人能幸免的\\n传说中的死亡雪山吗。",
+        "zh_tw": "克爾巴山……傳說舉凡進入之人\\n無一倖免都將喪命的死亡雪山嗎。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_01",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "Indeed. Which means that even knowing\\nthe saint's location, it is impossible to\\nmeet him. I think it best you simply wait\\npatiently for your pres—",
+        "ja_jp": "いかにも。ゆえに、<ruby><rb>居場所</rb><rt>いばしょ</rt></ruby>を<ruby><rb>知</rb><rt>し</rt></ruby>った\\nところで<ruby><rb>会</rb><rt>あ</rt></ruby>うなど<ruby><rb>不可能</rb><rt>ふかのう</rt></ruby>だ。\\nわかったら<ruby><rb>大人</rb><rt>おとな</rt></ruby>しく……。",
+        "zh_cn": "正是。所以就算知道在哪里\\n也不可能见到他。\\n明白了的话就老老实实地……",
+        "zh_tw": "沒錯。所以，你就算知道所在之處，\\n也不可能見到聖夜使者。\\n明白的話就老實地……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Very well. I shall leave now to summit\\nthe mountain. ...Wait for me, Mineuchi!",
+        "ja_jp": "わかった。では<ruby><rb>行</rb><rt>い</rt></ruby>ってくる。\\n<ruby><rb>待</rb><rt>ま</rt></ruby>っていろ、ミネウチ！",
+        "zh_cn": "明白了，我去去就来。\\n等着我，刀背斩！",
+        "zh_tw": "明白了。那麼吾人去去就回。\\n等著吧，刀背斬！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "What the—was he even listening?!",
+        "ja_jp": "なんにもわかってねえ!?",
+        "zh_cn": "根本什么也没明白啊！？",
+        "zh_tw": "他什麼都沒明白啊！？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "Nice going, fancypants. At this rate he's\\ndefinitely gonna find out the truth!",
+        "ja_jp": "おいどうする、あいつ<ruby><rb>行</rb><rt>い</rt></ruby>っちまったぞ！\\nこのままじゃサンメテオールは\\nいないってバレちまう！",
+        "zh_cn": "这可怎么办，那家伙真的走了！\\n这样下去圣星使者不存在的事\\n就要暴露了！",
+        "zh_tw": "喂，怎麼辦啊，那傢伙跑掉了耶！\\n這樣下去會被發現聖夜使者不存在的！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_01",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "Not if we leave at once. We shall beat him\\nto the summit and set a trap to block his\\npath. Come, vassal!",
+        "ja_jp": "そうはいかぬ。<ruby><rb>先回</rb><rt>さきまわ</rt></ruby>りして<ruby><rb>罠</rb><rt>わな</rt></ruby>を<ruby><rb>仕掛</rb><rt>しか</rt></ruby>け、\\n<ruby><rb>山頂</rb><rt>さんちょう</rt></ruby>への<ruby><rb>道</rb><rt>みち</rt></ruby>を<ruby><rb>阻</rb><rt>はば</rt></ruby>むぞ。ついてこい！",
+        "zh_cn": "这可不行。要抢在他前头\\n设下陷阱阻止他上山。跟我来！",
+        "zh_tw": "那可不行。必須搶先設置陷阱，\\n阻擋他前往山頂才行。\\n跟著本王來吧！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "Ugh. Fine, but I'm billing you for this!",
+        "ja_jp": "は？　ついてこいってオレもか!?\\n……おい、あんた！　<ruby><rb>報酬</rb><rt>ほうしゅう</rt></ruby>は<ruby><rb>払</rb><rt>はら</rt></ruby>えよ～!?",
+        "zh_cn": "啥？我也得跟着去吗！？\\n喂，我说你！要付报酬给我啊！？",
+        "zh_tw": "蛤？你是叫我也跟你去嗎！？\\n……喂，我說你！\\n可要記得付報酬喔～！？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Frozen Mountain of Death\\nMount Kolba",
+        "ja_jp": "<ruby><rb>死</rb><rt>し</rt></ruby>の<ruby><rb>雪山</rb><rt>ゆきやま</rt></ruby>\\nコルバ<ruby><rb>山</rb><rt>さん</rt></ruby>",
+        "zh_cn": "死亡雪山\\n科尔巴山",
+        "zh_tw": "死亡雪山\\n克爾巴山"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "*pant* That oughta do it for the trap.\\nHey, don't think I didn't notice you\\nleft all the hard stuff to me!",
+        "ja_jp": "ぜえ、ぜえ……これで<ruby><rb>罠</rb><rt>わな</rt></ruby>はよし、と。\\nくそう、<ruby><rb>力仕事</rb><rt>ちからしごと</rt></ruby>はオレに<ruby><rb>丸投</rb><rt>まるな</rt></ruby>げだよ。\\nなあ、マジで<ruby><rb>報酬</rb><rt>ほうしゅう</rt></ruby>を……。",
+        "zh_cn": "呼、呼……这下陷阱就设好了。\\n可恶，力气活全丢给我啊。\\n喂，你真的得给我报酬……",
+        "zh_tw": "呼、呼……這樣陷阱就完成了。\\n可惡，竟然把費力的工作都丟給我。\\n喂，你真的會付我報酬……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_01",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "Silence! He has arrived.",
+        "ja_jp": "ほほう、<ruby><rb>悪</rb><rt>わる</rt></ruby>くない<ruby><rb>出来</rb><rt>でき</rt></ruby>ではないか。\\n……む？　ミコトが<ruby><rb>来</rb><rt>き</rt></ruby>たようだな。",
+        "zh_cn": "嚯，完成度挺高嘛。\\n嗯？米科特好像来了。",
+        "zh_tw": "喔喔，相當不錯嘛。\\n……唔？尊似乎已經到了。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Prepare yourself, Saint Starfall.\\nI have come to see my dearest\\nwish granted!",
+        "ja_jp": "サンメテオール、<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>。\\n<ruby><rb>我</rb><rt>われ</rt></ruby>が<ruby><rb>悲願</rb><rt>ひがん</rt></ruby>の<ruby><rb>達成</rb><rt>たっせい</rt></ruby>のため、いざ<ruby><rb>参</rb><rt>まい</rt></ruby>る！",
+        "zh_cn": "圣星使者，给我等着。\\n为了达成我的夙愿，我来了！",
+        "zh_tw": "聖夜使者，覺悟吧。\\n為了達成夙願，吾人立刻就到！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "Cripes, you see his eyes? The guy's\\nnot kidding around...",
+        "ja_jp": "やばい。<ruby><rb>目</rb><rt>め</rt></ruby>がマジだ。",
+        "zh_cn": "糟糕。那眼神是认真的。",
+        "zh_tw": "糟糕，他的眼神是認真的。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_01",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "Which is precisely why we mustn't allow\\nhim to reach the summit. Activate the trap!",
+        "ja_jp": "ふん、どれほど<ruby><rb>本気</rb><rt>ほんき</rt></ruby>であろうと\\n<ruby><rb>山頂</rb><rt>さんちょう</rt></ruby>へは<ruby><rb>行</rb><rt>い</rt></ruby>かせぬ。――<ruby><rb>罠</rb><rt>わな</rt></ruby><ruby><rb>発動</rb><rt>はつどう</rt></ruby>！",
+        "zh_cn": "哼，不管多认真都不会\\n让你去山顶……发动陷阱！",
+        "zh_tw": "哼，無論有多麼認真，\\n本王都不會讓他前往山頂。\\n──發動陷阱！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Hmph! I see this mountain has earned\\nits reputation. But it is no match for my\\nRavenous Fire!",
+        "ja_jp": "ッ！　これが<ruby><rb>死</rb><rt>し</rt></ruby>の<ruby><rb>雪山</rb><rt>ゆきやま</rt></ruby>たる<ruby><rb>所以</rb><rt>ゆえん</rt></ruby>か。\\n……しかし、<ruby><rb>甘</rb><rt>あま</rt></ruby>い。<ruby><rb>熾炎剣</rb><rt>しえんけん</rt></ruby>！",
+        "zh_cn": "这就是为什么它被称为死亡雪山吗……\\n但是，还太嫩了。炽炎剑！",
+        "zh_tw": "唔！這就是稱之為死亡雪山的緣由嗎。\\n……然而，太過天真。熾炎劍！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "Nooooo! I spent AGES on that!",
+        "ja_jp": "あぁあああ！\\nオレの<ruby><rb>労働</rb><rt>ろうどう</rt></ruby>が<ruby><rb>一瞬</rb><rt>いっしゅん</rt></ruby>で<ruby><rb>灰</rb><rt>はい</rt></ruby>に！",
+        "zh_cn": "啊啊啊啊！\\n我的劳动成果瞬间就付之一炬了！",
+        "zh_tw": "啊啊啊啊啊！\\n我的辛苦一瞬間就化成灰了！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_01",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "Fear not, for I prepared a trap of my own!",
+        "ja_jp": "なんと<ruby><rb>根性</rb><rt>こんじょう</rt></ruby>のない<ruby><rb>罠</rb><rt>わな</rt></ruby>よ。\\nしかしこんなこともあろうかと、\\n<ruby><rb>第</rb><rt>だい</rt></ruby>2の<ruby><rb>罠</rb><rt>わな</rt></ruby>を<ruby><rb>設置</rb><rt>せっち</rt></ruby><ruby><rb>済</rb><rt>ず</rt></ruby>みだ。",
+        "zh_cn": "这陷阱也太不堪一击了。\\n不过我早就料到会这样，\\n已经设好了第二个陷阱。",
+        "zh_tw": "多麼沒骨氣的陷阱啊。\\n不過本王早已料到有這種事，\\n所以已經設好了第二陷阱。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "What was the point in MY trap then?!",
+        "ja_jp": "えっ、あんたも<ruby><rb>設置</rb><rt>せっち</rt></ruby>してたのか……？\\nなら、オレの<ruby><rb>無賃</rb><rt>むちん</rt></ruby><ruby><rb>労働</rb><rt>ろうどう</rt></ruby>は<ruby><rb>一体</rb><rt>いったい</rt></ruby>……？",
+        "zh_cn": "诶，你也设了陷阱吗……\\n那我的无偿劳动到底是为了什么……",
+        "zh_tw": "咦，你也設置了陷阱嗎……？\\n那麼，我的無償勞動到底……？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_01",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "It pays to be prepared, vassal.\\nNow, behold!",
+        "ja_jp": "<ruby><rb>貴様</rb><rt>きさま</rt></ruby>のは<ruby><rb>単</rb><rt>たん</rt></ruby>なる<ruby><rb>余興</rb><rt>よきょう</rt></ruby>、こちらが<ruby><rb>本命</rb><rt>ほんめい</rt></ruby>だ。\\nでは――ファイア！",
+        "zh_cn": "你的只是陪衬，我的才是重头戏。\\n预备……开火！",
+        "zh_tw": "你那僅僅是餘興，這邊才是重頭戲。\\n那麼──燃燒吧！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120007_01",
+      "name": {
+        "en_us": "Unleashed Fiends",
+        "ja_jp": "解き放たれた魔獣たち",
+        "zh_cn": "被解放的魔兽们",
+        "zh_tw": "被解放的魔獸們"
+      },
+      "context": {
+        "en_us": "Graaaaagh!",
+        "ja_jp": "グギャルオオオオオオオ!!",
+        "zh_cn": "咕噢噢噢噢噢！",
+        "zh_tw": "咕嘎嚕喔喔喔喔喔喔喔！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Hm?!",
+        "ja_jp": "――！",
+        "zh_cn": "！",
+        "zh_tw": "──！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "Wait a sec—weren't Kleimann and Sinoa\\nmessing with a magic circle like that?",
+        "ja_jp": "げっ！　この<ruby><rb>魔法陣</rb><rt>まほうじん</rt></ruby>って、この<ruby><rb>前</rb><rt>まえ</rt></ruby>\\nクレイマンとシノアが<ruby><rb>爆発</rb><rt>ばくはつ</rt></ruby>させてた\\nやつじゃ……!?",
+        "zh_cn": "呃！这魔法阵不是之前\\n克雷伊曼和希诺亚\\n引爆的东西吗！？",
+        "zh_tw": "呃！這個魔法陣，\\n不就是之前苦雷曼跟筱婭\\n引發爆炸的那個……！？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "And it summons FIENDS?!\\nJust what are you trying to do here?!",
+        "ja_jp": "<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>を<ruby><rb>呼</rb><rt>よ</rt></ruby>ぶからって<ruby><rb>禁止</rb><rt>きんし</rt></ruby>されたんじゃ。\\nこんな<ruby><rb>危</rb><rt>あぶ</rt></ruby>なっかしいもの<ruby><rb>持</rb><rt>も</rt></ruby>ち<ruby><rb>出</rb><rt>だ</rt></ruby>して、\\nあんた、どこまで<ruby><rb>本気</rb><rt>ほんき</rt></ruby>なんだよ!?",
+        "zh_cn": "不是因为会招来魔兽而被禁止了吗？\\n你搞来这么危险的玩意，\\n到底是有多认真啊！？",
+        "zh_tw": "因為會招來魔獸所以被禁止了才對。\\n你竟然把這麼危險的東西拿出來，\\n到底是有多認真啊！？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_01",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "Your king does not play when facing down\\na trial! Especially when a vassal's dreams\\nare involved.",
+        "ja_jp": "<ruby><rb>何事</rb><rt>なにごと</rt></ruby>にも<ruby><rb>本気</rb><rt>ほんき</rt></ruby>で<ruby><rb>臨</rb><rt>のぞ</rt></ruby>むが<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>信条</rb><rt>しんじょう</rt></ruby>！\\n<ruby><rb>家臣</rb><rt>かしん</rt></ruby>の<ruby><rb>夢</rb><rt>ゆめ</rt></ruby>を<ruby><rb>守</rb><rt>まも</rt></ruby>るは<ruby><rb>王</rb><rt>おう</rt></ruby>の<ruby><rb>務</rb><rt>つと</rt></ruby>めよ。\\nさて、これで<ruby><rb>流石</rb><rt>さすが</rt></ruby>にあやつも――",
+        "zh_cn": "凡事都要认真对待可是我的信条！\\n守护家臣的梦想是王的职责。\\n好了，这样一来就算是那家伙也……",
+        "zh_tw": "任何事都要全力以赴是吾的信條！\\n守護家臣的夢想即是王之責任。\\n好了，這下就算是那傢伙──"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Rrragh! None will stop me from seeing my\\ndream made manifest!",
+        "ja_jp": "――<ruby><rb>熾炎剣</rb><rt>しえんけん</rt></ruby>・<ruby><rb>魔障覆滅</rb><rt>ましょうふくめつ</rt></ruby>！\\n<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>願</rb><rt>ねが</rt></ruby>いは<ruby><rb>何者</rb><rt>なにもの</rt></ruby>にも<ruby><rb>止</rb><rt>と</rt></ruby>められぬ！",
+        "zh_cn": "炽炎剑·魔障覆灭！\\n谁都不能阻挡我的愿望！",
+        "zh_tw": "──熾炎劍‧魔障覆滅！\\n任何人都無法阻擋吾人的願望！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_01",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "...Marvelous. The purity of his desire\\nhas become the blade by which he\\nforges ahead!",
+        "ja_jp": "……<ruby><rb>見事</rb><rt>みごと</rt></ruby>。<ruby><rb>無垢</rb><rt>むく</rt></ruby>なる<ruby><rb>願</rb><rt>ねが</rt></ruby>いが、\\n<ruby><rb>困難</rb><rt>こんなん</rt></ruby>を<ruby><rb>打</rb><rt>う</rt></ruby>ち<ruby><rb>砕</rb><rt>くだ</rt></ruby>く<ruby><rb>刃</rb><rt>やいば</rt></ruby>となるか……！",
+        "zh_cn": "漂亮……纯粹的愿望\\n会化为克服困难的利刃吗！",
+        "zh_tw": "……真精彩。純真無邪的願望，\\n竟能化為粉碎困難的刀刃嗎……！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "Stop gawking and move! He's gonna reach\\nthe summit at this rate!",
+        "ja_jp": "<ruby><rb>感動</rb><rt>かんどう</rt></ruby>してる<ruby><rb>場合</rb><rt>ばあい</rt></ruby>か！\\nこのままじゃ<ruby><rb>山頂</rb><rt>さんちょう</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>かれるぞ！",
+        "zh_cn": "你感动个什么劲啊！\\n这样下去他就要去山顶了！",
+        "zh_tw": "現在不是感動的時候吧！\\n這樣下去會被他抵達山頂的喔！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_01",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "Yes, and we can't have that.\\nLeave the rest to me!",
+        "ja_jp": "それはならぬ！　<ruby><rb>家臣</rb><rt>かしん</rt></ruby>の<ruby><rb>純情</rb><rt>じゅんじょう</rt></ruby>も<ruby><rb>守</rb><rt>まも</rt></ruby>れず\\n<ruby><rb>何</rb><rt>なに</rt></ruby>が<ruby><rb>王</rb><rt>おう</rt></ruby>か。ここは<ruby><rb>我</rb><rt>われ</rt></ruby>に<ruby><rb>任</rb><rt>まか</rt></ruby>せるが<ruby><rb>良</rb><rt>よ</rt></ruby>い！",
+        "zh_cn": "不行！连家臣的真挚感情\\n都无法保护的话，怎么称得上是王。\\n这种时候就交给我吧！",
+        "zh_tw": "那可不行！\\n連家臣的純情都守不住，何以稱王。\\n這裡就交給本王來吧！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "Wh-what the heck? He changed his outfit\\nin a flash, and now he's drawing his\\nweapon—what's the plan here?!",
+        "ja_jp": "お、おい。あんた、<ruby><rb>急</rb><rt>きゅう</rt></ruby>に<ruby><rb>着替</rb><rt>きが</rt></ruby>えて\\n<ruby><rb>武器</rb><rt>ぶき</rt></ruby>もって……どうするつもりだ？",
+        "zh_cn": "喂、喂。怎么突然换衣服\\n拿武器……你想干什么？",
+        "zh_tw": "喂、喂，\\n你突然換衣服還拿武器……\\n是打算做什麼？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_02",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "Mikoto! You have done well to make it\\nthis far.",
+        "ja_jp": "ミコトよ。\\nよくぞここまで<ruby><rb>参</rb><rt>まい</rt></ruby>った！",
+        "zh_cn": "米科特啊，\\n真亏你能坚持来到这里！",
+        "zh_tw": "尊啊。\\n真虧你能來到這裡！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Xander? What are you doing here?",
+        "ja_jp": "む……アレクシス。\\nおぬし、<ruby><rb>何故</rb><rt>なぜ</rt></ruby>ここに？",
+        "zh_cn": "唔……阿莱克西斯。\\n你为什么会在这里？",
+        "zh_tw": "唔……亞雷克西斯。\\n你為何會在此？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_02",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "I am Saint Starfall's chosen agent!\\nAnd as such, I cannot allow you to\\nventure past this point.",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>を<ruby><rb>隠</rb><rt>かく</rt></ruby>そう<ruby><rb>我</rb><rt>われ</rt></ruby>こそが、<ruby><rb>選</rb><rt>えら</rt></ruby>ばれし\\nサンメテオールの<ruby><rb>代理人</rb><rt>だいりにん</rt></ruby>。ここから\\n<ruby><rb>先</rb><rt>さき</rt></ruby>に<ruby><rb>貴様</rb><rt>きさま</rt></ruby>を<ruby><rb>通</rb><rt>とお</rt></ruby>すわけにはいかぬ！",
+        "zh_cn": "有一件事瞒着你，其实我就是\\n被选中的圣星使者代理人。\\n你休想继续向前！",
+        "zh_tw": "沒什麼好隱瞞的，吾正是由天所選，\\n聖夜使者之代理人。\\n你別想從這裡往前一步！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "I see... Then you are my final trial.",
+        "ja_jp": "ふむ……おぬしが<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>願</rb><rt>ねが</rt></ruby>いを<ruby><rb>叶</rb><rt>かな</rt></ruby>える\\n<ruby><rb>上</rb><rt>うえ</rt></ruby>での、<ruby><rb>最後</rb><rt>さいご</rt></ruby>の<ruby><rb>試練</rb><rt>しれん</rt></ruby>というわけか。",
+        "zh_cn": "唔……你就是我实现愿望之路上\\n最后的试炼吗。",
+        "zh_tw": "嗯……你就是吾人欲實現願望，\\n最後一道的試煉嗎。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "I shall cut you down, and open a\\npath to my dream! Ravenous Fire!",
+        "ja_jp": "ならば、おぬしを<ruby><rb>屠</rb><rt>ほふ</rt></ruby>り<ruby><rb>活路</rb><rt>かつろ</rt></ruby>を<ruby><rb>開</rb><rt>ひら</rt></ruby>く。\\n――<ruby><rb>熾炎剣</rb><rt>しえんけん</rt></ruby>!!",
+        "zh_cn": "那我就干掉你，继续前进。\\n炽炎剑！",
+        "zh_tw": "既然如此，吾人便要斬了你開闢活路。\\n──熾炎劍！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Hrrraaagh!",
+        "ja_jp": "おおおおおおおっ！",
+        "zh_cn": "噢噢噢噢噢噢噢噢！",
+        "zh_tw": "喔喔喔喔喔喔喔！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_02",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "Haaaaah!",
+        "ja_jp": "はぁあああああっ！",
+        "zh_cn": "哈啊啊啊啊啊啊啊！",
+        "zh_tw": "喝啊啊啊啊啊啊！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "Jeez, talk about a slugfest! The fury of it's\\neven melting the dang snow.",
+        "ja_jp": "<ruby><rb>互</rb><rt>たが</rt></ruby>いに<ruby><rb>譲</rb><rt>ゆず</rt></ruby>らねえ、アツい<ruby><rb>戦</rb><rt>たたか</rt></ruby>いだ！\\nあまりの<ruby><rb>激</rb><rt>はげ</rt></ruby>しさに<ruby><rb>雪</rb><rt>ゆき</rt></ruby>も<ruby><rb>溶</rb><rt>と</rt></ruby>けて……。",
+        "zh_cn": "真是互不相让的激烈战斗！\\n连雪都开始融化了……",
+        "zh_tw": "彼此互不相讓，好熾熱的戰鬥！\\n還激烈得連雪都融化……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "Hold on... What's that sound?\\n...Oh, hell.",
+        "ja_jp": "ん？　なんだ、この<ruby><rb>音</rb><rt>おと</rt></ruby>？\\nなんで<ruby><rb>雪</rb><rt>ゆき</rt></ruby>が<ruby><rb>落</rb><rt>お</rt></ruby>ちてきて……。\\nあっ。これって……！",
+        "zh_cn": "嗯？这声音是怎么回事？\\n为什么有雪落下来……\\n啊，这是……",
+        "zh_tw": "嗯？這是什麼聲音？\\n為什麼會有雪掉下來……\\n啊、這是……！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "AVALAAAAANCHE!\\nXander, Mikoto, GET DOWN!",
+        "ja_jp": "アレクシスー！　ミコトー！\\n<ruby><rb>雪崩</rb><rt>なだれ</rt></ruby>だっ、<ruby><rb>伏</rb><rt>ふ</rt></ruby>せろーっ!!",
+        "zh_cn": "阿莱克西斯！米科特！\\n雪崩了，快趴下！",
+        "zh_tw": "亞雷克西斯──！尊──！\\n雪崩啦，快趴下──！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Irfan...?",
+        "ja_jp": "イルファン？　<ruby><rb>何故</rb><rt>なぜ</rt></ruby>おぬしが……。",
+        "zh_cn": "伊尔凡？你为什么会在……",
+        "zh_tw": "宜爾凡？為何你會……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_02",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "Just shut up and hit the deck!",
+        "ja_jp": "――!!　いいから<ruby><rb>早</rb><rt>はや</rt></ruby>く<ruby><rb>伏</rb><rt>ふ</rt></ruby>せろ!!",
+        "zh_cn": "别废话了快趴下！",
+        "zh_tw": "──！！\\n好了快點趴下！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_02",
+      "name": {
+        "en_us": "Together",
+        "ja_jp": "3人",
+        "zh_cn": "3人",
+        "zh_tw": "3人"
+      },
+      "context": {
+        "en_us": "Uwaaaagh!",
+        "ja_jp": "うわああああああー!!",
+        "zh_cn": "哇啊啊啊啊啊！",
+        "zh_tw": "嗚哇啊啊啊啊啊啊──！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "Wha?!",
+        "ja_jp": "――はっ!?",
+        "zh_cn": "哈！？",
+        "zh_tw": "──啊！？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "You were having quite the nightmare.",
+        "ja_jp": "<ruby><rb>目覚</rb><rt>めざ</rt></ruby>めたか。\\n<ruby><rb>随分</rb><rt>ずいぶん</rt></ruby>、うなされておったぞ。",
+        "zh_cn": "醒了啊。\\n你一直呻吟个不停。",
+        "zh_tw": "醒了嗎。\\n你呻吟得相當嚴重。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "Huh? Wait, was it all a dream then...?",
+        "ja_jp": "……ミコト？\\nあれ？　もしかして、<ruby><rb>全部</rb><rt>ぜんぶ</rt></ruby><ruby><rb>夢</rb><rt>ゆめ</rt></ruby>……？",
+        "zh_cn": "米科特？\\n咦？难道，全都是一场梦？",
+        "zh_tw": "……尊？\\n咦？該不會，全都是夢……？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_02",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "Oh, it was no dream.",
+        "ja_jp": "いや。<ruby><rb>夢</rb><rt>ゆめ</rt></ruby>ではない。",
+        "zh_cn": "不，不是梦。",
+        "zh_tw": "不，並不是夢。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "So we DID get swallowed by an avalanche!",
+        "ja_jp": "アレクシス！　<ruby><rb>夢</rb><rt>ゆめ</rt></ruby>じゃねえってことは、\\nオレたちやっぱり、\\n<ruby><rb>雪崩</rb><rt>なだれ</rt></ruby>に<ruby><rb>巻</rb><rt>ま</rt></ruby>き<ruby><rb>込</rb><rt>こ</rt></ruby>まれて……！",
+        "zh_cn": "阿莱克西斯！\\n不是梦的话，就是说\\n我们真的被卷入雪崩……",
+        "zh_tw": "亞雷克西斯！\\n你說不是夢，那我們果然，\\n真的被捲進雪崩裡……！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_02",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "Indeed we did, though I can't fathom\\nhow we survived—or even how we\\nreturned here.",
+        "ja_jp": "うむ。<ruby><rb>一体</rb><rt>いったい</rt></ruby>どのようにして、あの<ruby><rb>雪崩</rb><rt>なだれ</rt></ruby>\\nから<ruby><rb>生還</rb><rt>せいかん</rt></ruby>したのか。まるで<ruby><rb>記憶</rb><rt>きおく</rt></ruby>に\\nないのだが……。",
+        "zh_cn": "嗯。\\n到底是怎么从雪崩里生还的，\\n我一点都不记得了……",
+        "zh_tw": "嗯。究竟是如何從那場雪崩生還，\\n吾完全不記得了……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "Do you not recall Saint Starfall?",
+        "ja_jp": "……おぬしら、サンメテオールを\\n<ruby><rb>覚</rb><rt>おぼ</rt></ruby>えていないのか。",
+        "zh_cn": "你们……\\n不记得圣星使者了吗？",
+        "zh_tw": "……你們，不記得聖夜使者了嗎。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110022_02",
+      "name": {
+        "en_us": "Xander",
+        "ja_jp": "アレクシス",
+        "zh_cn": "阿莱克西斯",
+        "zh_tw": "亞雷克西斯"
+      },
+      "context": {
+        "en_us": "What?",
+        "ja_jp": "なに？",
+        "zh_cn": "什么？",
+        "zh_tw": "什麼？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "We were ferried back to the Halidom on\\nSaint Starfall's sleigh.",
+        "ja_jp": "<ruby><rb>我</rb><rt>われ</rt></ruby>らは<ruby><rb>赤</rb><rt>あか</rt></ruby>い<ruby><rb>服</rb><rt>ふく</rt></ruby>を<ruby><rb>着</rb><rt>き</rt></ruby>た<ruby><rb>聖人</rb><rt>せいじん</rt></ruby>、\\nサンメテオールのソリに<ruby><rb>乗</rb><rt>の</rt></ruby>せられ\\n<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>まで<ruby><rb>帰</rb><rt>かえ</rt></ruby>りついたのだ。",
+        "zh_cn": "我们是被身着红衣的圣人——\\n圣星使者拉着雪橇载回圣城的。",
+        "zh_tw": "吾人與你們是乘坐身著紅衣的聖人──\\n即聖夜使者的雪橇回到聖城的。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110037_01",
+      "name": {
+        "en_us": "Irfan",
+        "ja_jp": "イルファン",
+        "zh_cn": "伊尔凡",
+        "zh_tw": "宜爾凡"
+      },
+      "context": {
+        "en_us": "That... That can't be true...",
+        "ja_jp": "う、<ruby><rb>嘘</rb><rt>うそ</rt></ruby>だろ……？",
+        "zh_cn": "骗、骗人的吧……",
+        "zh_tw": "騙、騙人的吧……？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "It is no lie. He gave me this flower\\nas proof.",
+        "ja_jp": "<ruby><rb>嘘</rb><rt>うそ</rt></ruby>ではない。この<ruby><rb>花</rb><rt>はな</rt></ruby>が、その<ruby><rb>証拠</rb><rt>しょうこ</rt></ruby>。\\nサンメテオールに<ruby><rb>貰</rb><rt>もら</rt></ruby>ったものだ。",
+        "zh_cn": "没骗你。这里的花就是证据，\\n是圣星使者给我们的。",
+        "zh_tw": "並不是騙人的。這些花就是證據。\\n是聖夜使者贈予的。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "It's the same kind Mineuchi adores.\\nI may not have been blessed by reunion,\\nbut I was at least given the precious\\ngift of memory.",
+        "ja_jp": "これこそ、ミネウチが<ruby><rb>愛</rb><rt>あい</rt></ruby>していた<ruby><rb>花</rb><rt>はな</rt></ruby>。\\nミネウチとの<ruby><rb>再会</rb><rt>さいかい</rt></ruby>は<ruby><rb>叶</rb><rt>かな</rt></ruby>わなかったが、\\n<ruby><rb>大切</rb><rt>たいせつ</rt></ruby>な<ruby><rb>記憶</rb><rt>きおく</rt></ruby>を<ruby><rb>顧</rb><rt>かえり</rt></ruby>みることができた。",
+        "zh_cn": "这就是刀背斩喜欢的花。\\n虽然没能和刀背斩重逢，\\n但却重新唤起了我珍贵的回忆。",
+        "zh_tw": "這正是刀背斬所鍾愛之花。\\n雖然無法與刀背斬再會，\\n但吾人想起了極為重要的回憶。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110010_01",
+      "name": {
+        "en_us": "Mikoto",
+        "ja_jp": "ミコト",
+        "zh_cn": "米科特",
+        "zh_tw": "尊"
+      },
+      "context": {
+        "en_us": "I will keep it close to my heart as\\nmy search continues. Farewell.",
+        "ja_jp": "<ruby><rb>我</rb><rt>われ</rt></ruby>は、<ruby><rb>思</rb><rt>おも</rt></ruby>い<ruby><rb>出</rb><rt>で</rt></ruby>を<ruby><rb>胸</rb><rt>むね</rt></ruby>に……ミネウチを<ruby><rb>探</rb><rt>さが</rt></ruby>す\\nため、<ruby><rb>引</rb><rt>ひ</rt></ruby>き<ruby><rb>続</rb><rt>つづ</rt></ruby>き<ruby><rb>天</rb><rt>てん</rt></ruby>の<ruby><rb>意思</rb><rt>いし</rt></ruby>を<ruby><rb>追</rb><rt>お</rt></ruby>うとする。\\nではな。",
+        "zh_cn": "我会将回忆珍藏在心中……\\n为了寻找刀背斩，继续追寻天意。\\n再见。",
+        "zh_tw": "吾人決定將回憶深埋心中……\\n繼續追隨天意，尋找刀背斬。\\n再會了。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "",
+      "name": {
+        "en_us": "add_book_text",
+        "ja_jp": "add_book_text",
+        "zh_cn": "add_book_text",
+        "zh_tw": "add_book_text"
+      },
+      "context": {
+        "en_us": "...Is Saint Starfall in fact real?",
+        "ja_jp": "……えっ？　ど、どういうことなんだ？\\nサンメテオールは<ruby><rb>実在</rb><rt>じつざい</rt></ruby>するってのか？",
+        "zh_cn": "诶？怎、怎么回事？\\n难道圣星使者真的存在吗？",
+        "zh_tw": "……咦？到、到底是什麼意思啊？\\n難道說聖夜使者真的存在嗎？"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "",
+      "name": {
+        "en_us": "add_book_text",
+        "ja_jp": "add_book_text",
+        "zh_cn": "add_book_text",
+        "zh_tw": "add_book_text"
+      },
+      "context": {
+        "en_us": "No, certainly not. Unless...",
+        "ja_jp": "まさか。そんなはずは……いや。\\nそういうことにしておこう。",
+        "zh_cn": "怎么可能……\\n不，就当是这么回事吧。",
+        "zh_tw": "怎麼會。不可能會……不。\\n就當作是這麼回事吧。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "",
+      "name": {
+        "en_us": "add_book_text",
+        "ja_jp": "add_book_text",
+        "zh_cn": "add_book_text",
+        "zh_tw": "add_book_text"
+      },
+      "context": {
+        "en_us": "How's this: we'll call it a Dragonyule\\nmiracle, inspired by a wish made\\nthreefold!",
+        "ja_jp": "これこそが、あやつと<ruby><rb>我</rb><rt>われ</rt></ruby>らの<ruby><rb>願</rb><rt>ねが</rt></ruby>いが\\n<ruby><rb>起</rb><rt>お</rt></ruby>こした、<ruby><rb>一夜</rb><rt>いちや</rt></ruby>の<ruby><rb>奇跡</rb><rt>きせき</rt></ruby>。",
+        "zh_cn": "这就是那家伙和我们的愿望\\n所引发的仅限一夜的奇迹。",
+        "zh_tw": "這正是因那傢伙與吾等的心願，\\n所引起的一夜奇蹟。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "",
+      "name": {
+        "en_us": "add_book_text",
+        "ja_jp": "add_book_text",
+        "zh_cn": "add_book_text",
+        "zh_tw": "add_book_text"
+      },
+      "context": {
+        "en_us": "Yes, that's precisely what occurred.\\nHa HA!",
+        "ja_jp": "この<ruby><rb>美</rb><rt>うつく</rt></ruby>しい<ruby><rb>結末</rb><rt>けつまつ</rt></ruby>こそが、<ruby><rb>我</rb><rt>われ</rt></ruby>らに<ruby><rb>贈</rb><rt>おく</rt></ruby>られた\\n<ruby><rb>真</rb><rt>しん</rt></ruby>のプレゼントなのかもしれんな。",
+        "zh_cn": "这个美丽的结局也许\\n正是送给我们的真正礼物。",
+        "zh_tw": "這美麗的結尾，或許就是\\n贈予吾等的真正禮物也說不定呢。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "",
+      "name": {
+        "en_us": "add_book_text",
+        "ja_jp": "add_book_text",
+        "zh_cn": "add_book_text",
+        "zh_tw": "add_book_text"
+      },
+      "context": {
+        "en_us": "FIN",
+        "ja_jp": "FIN",
+        "zh_cn": "FIN",
+        "zh_tw": "FIN"
+      },
+      "voice": "",
+      "book": "BOOK_new_1008"
+    }
+  ]
 }

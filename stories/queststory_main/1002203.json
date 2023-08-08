@@ -1,863 +1,1632 @@
 {
-    "story_id": "",
-    "story_name": "两位契约者 第22章 2-4 创世与毁灭之龙",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "巴哈姆特为了阻止“起始之人”复活，\\n企图毁灭这个世界。\\n为了阻止巴哈姆特夺取奈迪犹的肉体，\\n王子一行决定进入奈迪犹的精神世界\\n帮助他对抗巴哈姆特。"
-        ]
+  "title": {
+    "en_us": "Twice Sworn  Ch. 22 / 2-4  Wyrm of Genesis and Oblivion",
+    "ja_jp": "ふたりの契約者 22章 2-4 創世にして破壊の竜",
+    "zh_cn": "两位契约者 第22章 2-4 创世与毁灭之龙",
+    "zh_tw": "兩位契約者 第22章 2-4 創世與破壞之龍"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "奈迪犹……\\n已经解除龙化了啊……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "只是解除龙化对我们来说\\n也不知是好事还是坏事……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100054_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "不过，不要大意。\\n我能感觉到奈迪犹体内\\n有一股无比强大的巴哈姆特的气息。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100042_01"
-            ],
-            "speaker_name": "迦道夫",
-            "context": "果然……奈迪犹应该是\\n被巴哈姆特的力量侵蚀了。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "至少可以肯定他现在的状态并不好。\\n既然如此……\\n我们不能放过这个大好的机会！",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "真是被看扁了啊……\\n就算我不在状态，\\n要打败你们也是轻而易举。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "哎呀，我们可没有小瞧你。\\n正是因为认可你的力量，\\n所以才要趁此机会做个了断。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "等一下，姐姐！",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "尤蒂尔？\\n怎么了？你不会是要放过奈迪犹吧？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "并不是……但你不要忘了，\\n我们的目的是阻止奈迪犹，\\n而不是打败他。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我们迟早要对抗“起始之人”。\\n待到那时，奈迪犹的力量\\n也许会对我们有帮助。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "我明白你想说什么……\\n但我们并不能因为将来的危机\\n而拖延眼下的问题。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "可如果现在重创奈迪犹，\\n不知道巴哈姆特会不会——",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "唔、唔呃呃呃呃呃！",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100048_01"
-            ],
-            "speaker_name": "芩罗达",
-            "context": "奈迪犹！",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "唔……巴哈姆特……\\n啊啊啊啊！？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "龙化！他是打算在这里做个了结吗！？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100054_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "不，他看起来有点奇怪。\\n难道……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210162_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "诶！？怎、怎么回事！？\\n为什么会突然出现异界裂缝！？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100054_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "世界被……破坏了……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "世界被破坏了！？\\n塞西娅！这到底是怎么回事！？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100054_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "巴哈姆特既是创世之龙，\\n同时也是毁灭之龙……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100054_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "巴哈姆特的力量\\n甚至足以毁灭整个世界。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100042_01"
-            ],
-            "speaker_name": "迦道夫",
-            "context": "能够创世的力量，\\n自然也足以毁灭世界。\\n但问题在于……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "奈迪犹打算毁灭这个世界吗！？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100048_01"
-            ],
-            "speaker_name": "芩罗达",
-            "context": "当然不会。\\n奈迪犹不可能做那种事。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100042_01"
-            ],
-            "speaker_name": "迦道夫",
-            "context": "那就是说……他的意识\\n已经被巴哈姆特占据了吗？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210162_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "唔……\\n这样下去，\\n世界会被巴哈姆特所毁灭……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "但这是为什么啊！？\\n为什么巴哈姆特\\n想要毁灭这个世界啊？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "巴哈姆特不是\\n创造了世界的神明吗！？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210162_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "呃……唔嗷嗷嗷嗷！\\n巴哈姆特！你休想控制我！",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100048_01"
-            ],
-            "speaker_name": "芩罗达",
-            "context": "奈迪犹！\\n你恢复意识了！？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "嗯……\\n巴哈姆特的控制力比我想象的\\n更加强大，不过我已经没事了……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100048_01"
-            ],
-            "speaker_name": "芩罗达",
-            "context": "……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "奈迪犹……\\n你能告诉我们这到底是怎么回事吗？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "为什么巴哈姆特想要毁灭这个世界？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "因为“起始之人”……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "巴哈姆特也发现了“起始之人”的复活。\\n尤其是这个世界，具备了太多条件。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100042_01"
-            ],
-            "speaker_name": "迦道夫",
-            "context": "条件？“起始之人”的复活\\n需要什么样的条件？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "条件有很多……\\n但与“起始之人”为伍之人\\n使用了魔神之力这一点至关重要。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "你是说贝维特哥哥……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "除此以外，还有恶魔们的影响，\\n以及身为身为世界管理者的\\n圣域龙受黑暗魔力侵蚀这件事。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "当然，也与巴哈姆特得到我这个宿主\\n也脱不了干系。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "这个世界已经是众多可能性的世界之中\\n最适合“起始之人”复活的世界。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "难道……巴哈姆特为了抹除\\n一切“起始之人”复活的可能性，\\n打算将整个世界毁灭吗！？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "没错。对巴哈姆特来说，\\n这个世界也不过是\\n无数可能性中的一个而已。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "不愧是创世之龙啊……\\n思想格局之大和态度之冷漠\\n真是难以想象……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "那、那我们会怎么样啊！\\n这个世界里的其他人呢！？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100054_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "毋庸置疑……世界被毁灭的话，\\n这个世界里所有的人\\n都没法逃过死亡的命运……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "怎么会这样……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "当然，我不会允许这种事情发生。\\n我会征服巴哈姆特\\n并将其力量据为己有。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "你不会以为跟我们说了这些，\\n我们就会放任你为所欲为吧？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "我反而认为在这里\\n把你和巴哈姆特一起干掉\\n才是效率最高的解决办法。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100048_01"
-            ],
-            "speaker_name": "芩罗达",
-            "context": "你最好住手。\\n那么做只会干扰奈迪犹，\\n导致巴哈姆特提前复活。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "那你想我们怎么办？\\n无论他和巴哈姆特谁获胜，\\n对我们来说都是个麻烦。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100048_01"
-            ],
-            "speaker_name": "芩罗达",
-            "context": "并非如此。我想你们应该很清楚，\\n奈迪犹和巴哈姆特谁获胜\\n所带来的结果有很大区别。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "的确……巴哈姆特获胜的话\\n似乎不会给我们交涉的余地……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100042_01"
-            ],
-            "speaker_name": "迦道夫",
-            "context": "但也没人能保证奈迪犹一定\\n赢得过巴哈姆特。破坏巴哈姆特\\n宿主的肉体才是最现实的方法。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100048_01"
-            ],
-            "speaker_name": "芩罗达",
-            "context": "我倒是有一个提案……\\n不，应该说是请求。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "请求？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100048_01"
-            ],
-            "speaker_name": "芩罗达",
-            "context": "是的，我有一个办法，\\n能够在这场争夺中\\n帮到奈迪犹。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100048_01"
-            ],
-            "speaker_name": "芩罗达",
-            "context": "如果能获得诸位的帮助，\\n奈迪犹赢过巴哈姆特的\\n可能性将会更大。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "芩！你不要多管闲事……\\n我说过，我会亲手征服巴哈姆特。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100048_01"
-            ],
-            "speaker_name": "芩罗达",
-            "context": "这不像你，奈迪犹。\\n冷静下来想想，你应该明白\\n什么才是你现在该做的。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100048_01"
-            ],
-            "speaker_name": "芩罗达",
-            "context": "虽然不明白你为什么要拘泥于\\n亲自动手，但你的强项不就是\\n为了达成目的可以不择手段吗？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "如果我们接受了你的请求，\\n你能给我们什么好处呢？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100048_01"
-            ],
-            "speaker_name": "芩罗达",
-            "context": "只要是我能办到的，什么都可以。\\n无论是让我让出精灵国的王位，\\n还是交出我自己的性命。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我的条件只有一个。\\n那就是希望你们能够放弃\\n赋予全人类龙化之力的计划。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我希望我们能够一起寻找一个\\n将牺牲控制在最小范围内的办法\\n来对抗“起始之人”，仅此而已。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "人家都说可以让出王位了，\\n你乖乖接受多好。\\n那么……你的回答呢？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "我没法向你保证。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "奈迪犹……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "因为那就是能让牺牲最小化的办法。\\n这是我经过了\\n深思熟虑之后得出的结论。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "我也并没有打算选择\\n会产生众多牺牲的方法。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "那、那就是说，\\n如果我们能想出一个牺牲更小的方法，\\n你就会重新考虑吗！？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100039_01"
-            ],
-            "speaker_name": "奈迪犹",
-            "context": "只要你的方法合理。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好吧……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "各位，我打算接受芩罗达的提案。\\n对抗巴哈姆特，帮助奈迪犹。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01",
-                "100005_05",
-                "100006_01"
-            ],
-            "speaker_name": "全员",
-            "context": "！",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100054_01"
-            ],
-            "speaker_name": "塞西娅",
-            "context": "说实话……我还是有所担心。\\n但如果这就是哥哥你得出的结论……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "嗯！我们和你一起去！",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "谢谢大家。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100048_01"
-            ],
-            "speaker_name": "芩罗达",
-            "context": "感谢你们愿意接受我的请求。\\n我在此向尤蒂尔殿下\\n所做出的决定表示最大的敬意。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "谢谢你，芩罗达。\\n那我们该怎么做？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100048_01"
-            ],
-            "speaker_name": "芩罗达",
-            "context": "简单来说就是请大家\\n进入奈迪犹的精神世界，\\n在那里对抗巴哈姆特。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "奈迪犹的……精神世界！？",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100048_01"
-            ],
-            "speaker_name": "芩罗达",
-            "context": "是的。为此我会\\n将各位的意识和肉体分离。",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "诶？等、等一下！\\n把意识和肉体分离……\\n那不是和死了一样吗……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100048_01"
-            ],
-            "speaker_name": "芩罗达",
-            "context": "不用担心。\\n只要意识没有在那里被毁灭，\\n一切结束之后就还可以回来……",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "不要咒我们啊～",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0089",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100048_01"
-            ],
-            "speaker_name": "芩罗达",
-            "context": "好了，开始吧！",
-            "voice_line": "VO_CHR_MAINSTORY_22_03_0090",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Bahamut is attempting to destroy the world in\\nan effort to stave off the Progenitor's return.\\nLearning this, the prince and his friends decide\\nto head into the world of Nedrick's mind in\\norder to save his body and aid in the fight.",
+      "ja_jp": "バハムートは『はじまりの<ruby><rb>人</rb><rt>ひと</rt></ruby>』<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>を<ruby><rb>阻止</rb><rt>そし</rt></ruby>\\nするため、この<ruby><rb>世界</rb><rt>せかい</rt></ruby>ごと<ruby><rb>破壊</rb><rt>はかい</rt></ruby>しようとして\\nいた。<ruby><rb>王子</rb><rt>おうじ</rt></ruby>たちはネデウの<ruby><rb>体</rb><rt>からだ</rt></ruby>を<ruby><rb>奪</rb><rt>うば</rt></ruby>わせない\\nため、ネデウの<ruby><rb>精神</rb><rt>せいしん</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>へと<ruby><rb>行</rb><rt>い</rt></ruby>き、ネデウ\\nの<ruby><rb>戦</rb><rt>たたか</rt></ruby>いを<ruby><rb>助</rb><rt>たす</rt></ruby>けることを<ruby><rb>決</rb><rt>き</rt></ruby>めるのだった。",
+      "zh_cn": "巴哈姆特为了阻止“起始之人”复活，\\n企图毁灭这个世界。\\n为了阻止巴哈姆特夺取奈迪犹的肉体，\\n王子一行决定进入奈迪犹的精神世界\\n帮助他对抗巴哈姆特。",
+      "zh_tw": "巴哈姆特為了阻止「起始之人」復活，\\n打算破壞整個世界。\\n王子等人則為了不讓涅帝爾的身體被奪走，\\n決定前往涅帝爾的精神世界，\\n協助涅帝爾應戰。"
+    }
+  },
+  "prev": "1002202",
+  "next": "1002204",
+  "content": [
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "It's Nedrick!\\nHe's shifted back to human form...",
+        "ja_jp": "ネデウ……！\\n<ruby><rb>竜化</rb><rt>りゅうか</rt></ruby>は<ruby><rb>解</rb><rt>と</rt></ruby>いているのか……。",
+        "zh_cn": "奈迪犹……\\n已经解除龙化了啊……",
+        "zh_tw": "涅帝爾……！\\n你已經解除龍化了嗎……"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0001",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "By his own accord or not, I wonder.",
+        "ja_jp": "さて、<ruby><rb>解</rb><rt>と</rt></ruby>いたのか、それとも<ruby><rb>解</rb><rt>と</rt></ruby>けて\\nしまったのか……どちらなのかしら。",
+        "zh_cn": "只是解除龙化对我们来说\\n也不知是好事还是坏事……",
+        "zh_tw": "究竟是自願解除，\\n還是受外力影響而解開……\\n不曉得是哪邊呢。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0002",
+      "book": ""
+    },
+    {
+      "icon": "100054_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "You mustn't let your guard down;\\nI still sense a frightfully strong level\\nof Bahamut's presence within him.",
+        "ja_jp": "でも、<ruby><rb>油断</rb><rt>ゆだん</rt></ruby>はしないでください。\\n<ruby><rb>恐</rb><rt>おそ</rt></ruby>ろしいほどに<ruby><rb>強</rb><rt>つよ</rt></ruby>いバハムートの<ruby><rb>気配</rb><rt>けはい</rt></ruby>を\\nネデウの<ruby><rb>中</rb><rt>なか</rt></ruby>に<ruby><rb>感</rb><rt>かん</rt></ruby>じます。",
+        "zh_cn": "不过，不要大意。\\n我能感觉到奈迪犹体内\\n有一股无比强大的巴哈姆特的气息。",
+        "zh_tw": "但是，請別大意。\\n涅帝爾體內仍然散發出強烈得\\n令人畏懼的巴哈姆特氣息。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0003",
+      "book": ""
+    },
+    {
+      "icon": "100042_01",
+      "name": {
+        "en_us": "Gatov",
+        "ja_jp": "ガトフ",
+        "zh_cn": "迦道夫",
+        "zh_tw": "葛托夫"
+      },
+      "context": {
+        "en_us": "Perhaps it really was the dragon's power\\neating away at him.",
+        "ja_jp": "……やはり、バハムートの<ruby><rb>力</rb><rt>ちから</rt></ruby>によって\\nネデウが<ruby><rb>蝕</rb><rt>むしば</rt></ruby>まれているのやもしれん。",
+        "zh_cn": "果然……奈迪犹应该是\\n被巴哈姆特的力量侵蚀了。",
+        "zh_tw": "……果然，因為巴哈姆特的力量，\\n涅帝爾正受到侵蝕也說不定。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0004",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "One thing is certain: He's definitely not in\\ntop form. And that's why we can't let this\\nopportunity pass us by.",
+        "ja_jp": "<ruby><rb>完調</rb><rt>かんちょう</rt></ruby>でないことは<ruby><rb>間違</rb><rt>まちが</rt></ruby>いなさそう\\nですわ。ならば、この<ruby><rb>絶好</rb><rt>ぜっこう</rt></ruby>の<ruby><rb>機会</rb><rt>きかい</rt></ruby>を<ruby><rb>逃</rb><rt>のが</rt></ruby>す\\nわけにはまいりませんわね……！",
+        "zh_cn": "至少可以肯定他现在的状态并不好。\\n既然如此……\\n我们不能放过这个大好的机会！",
+        "zh_tw": "狀態不完全這點看來不會錯。\\n既然如此，\\n可不能放過這種絕佳的機會呢……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0005",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "You take me too lightly; I can defeat the\\nlot of you without breaking a sweat no\\nmatter my condition.",
+        "ja_jp": "……<ruby><rb>甘</rb><rt>あま</rt></ruby>く<ruby><rb>見</rb><rt>み</rt></ruby>られたものだな。\\n<ruby><rb>完調</rb><rt>かんちょう</rt></ruby>でなかろうと、<ruby><rb>貴様</rb><rt>きさま</rt></ruby>らを<ruby><rb>倒</rb><rt>たお</rt></ruby>すのに\\nなんの<ruby><rb>問題</rb><rt>もんだい</rt></ruby>もない。",
+        "zh_cn": "真是被看扁了啊……\\n就算我不在状态，\\n要打败你们也是轻而易举。",
+        "zh_tw": "……還真是被小看了呢。\\n即使狀態不完全，\\n要打倒你們也毫無困難。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0006",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Oh, but I'm not taking you lightly at all.\\nI know well how strong you are, which is\\nwhy we must take this chance to end\\nthings once and for all.",
+        "ja_jp": "あら、<ruby><rb>甘</rb><rt>あま</rt></ruby>くなどみておりませんわ。\\nあなたの<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>認</rb><rt>みと</rt></ruby>めればこそ、この<ruby><rb>機</rb><rt>き</rt></ruby>に\\n<ruby><rb>終</rb><rt>お</rt></ruby>わらせなくてはと<ruby><rb>考</rb><rt>かんが</rt></ruby>えているのです。",
+        "zh_cn": "哎呀，我们可没有小瞧你。\\n正是因为认可你的力量，\\n所以才要趁此机会做个了断。",
+        "zh_tw": "哎呀，我們可沒有小看你喲。\\n正因為認同你的實力，\\n才覺得必須趁現在收拾你。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0007",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Chelle, wait!",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>ってくれ、<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さん！",
+        "zh_cn": "等一下，姐姐！",
+        "zh_tw": "等一下，姊姊！"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0008",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Please don't suggest I stay my hand out\\nof some misguided sense of pity, Brother.",
+        "ja_jp": "ユーディル？\\nなんですの？　まさかと<ruby><rb>思</rb><rt>おも</rt></ruby>いますけど\\nネデウに<ruby><rb>情</rb><rt>なさ</rt></ruby>けをかけようとでも？",
+        "zh_cn": "尤蒂尔？\\n怎么了？你不会是要放过奈迪犹吧？",
+        "zh_tw": "尤帝爾？\\n怎麼了？雖然我認為應該不可能，\\n但你該不會在同情涅帝爾吧？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0009",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Chelle, our goal is to stop Nedrick,\\nnot to kill him.",
+        "ja_jp": "そうじゃない……だけど、<ruby><rb>考</rb><rt>かんが</rt></ruby>えてくれ。\\nおれたちの<ruby><rb>目的</rb><rt>もくてき</rt></ruby>は、ネデウを<ruby><rb>止</rb><rt>と</rt></ruby>めること\\nであって、<ruby><rb>倒</rb><rt>たお</rt></ruby>すことじゃないはずだ。",
+        "zh_cn": "并不是……但你不要忘了，\\n我们的目的是阻止奈迪犹，\\n而不是打败他。",
+        "zh_tw": "不是這樣的……但是，請想一想。\\n我們的目的是要阻止涅帝爾，\\n並非打倒他才對。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0010",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "We're going to have to fight the Progenitor\\nat some point, and Nedrick would be a\\nvaluable ally in that battle.",
+        "ja_jp": "おれたちはいずれ『はじまりの<ruby><rb>人</rb><rt>ひと</rt></ruby>』と\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>わなきゃならない。その<ruby><rb>時</rb><rt>とき</rt></ruby>、ネデウの\\n<ruby><rb>力</rb><rt>ちから</rt></ruby>が<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>になるんじゃないのか？",
+        "zh_cn": "我们迟早要对抗“起始之人”。\\n待到那时，奈迪犹的力量\\n也许会对我们有帮助。",
+        "zh_tw": "我們遲早必須與「起始之人」一戰。\\n到時候應該會需要涅帝爾的力量，\\n不是嗎？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0011",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "This line of thought is not without merit,\\nbut a future threat is insufficient reason\\nto ignore a present danger.",
+        "ja_jp": "……<ruby><rb>言</rb><rt>い</rt></ruby>いたいことはわかりますけど、\\n<ruby><rb>将来</rb><rt>しょうらい</rt></ruby>の<ruby><rb>脅威</rb><rt>きょうい</rt></ruby>は、<ruby><rb>現在</rb><rt>げんざい</rt></ruby>の<ruby><rb>問題</rb><rt>もんだい</rt></ruby>を<ruby><rb>先送</rb><rt>さきおく</rt></ruby>りに\\nする<ruby><rb>理由</rb><rt>りゆう</rt></ruby>にはなりませんわ。",
+        "zh_cn": "我明白你想说什么……\\n但我们并不能因为将来的危机\\n而拖延眼下的问题。",
+        "zh_tw": "……我明白你的意思。\\n但將來的威脅，並不能成為\\n把眼前問題延後處理的理由。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0012",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "But there's no telling what will happen\\nto Bahamut if we kill Nedrick now.",
+        "ja_jp": "それに、<ruby><rb>今</rb><rt>いま</rt></ruby>、ネデウを<ruby><rb>倒</rb><rt>たお</rt></ruby>してしまうと、\\nバハムートがどうなるのか――。",
+        "zh_cn": "可如果现在重创奈迪犹，\\n不知道巴哈姆特会不会——",
+        "zh_tw": "況且，要是現在打倒了涅帝爾，\\n不曉得巴哈姆特會怎麼樣──"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0013",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "Gyaaaaa!",
+        "ja_jp": "ぐ、ぐうううううっ！",
+        "zh_cn": "唔、唔呃呃呃呃呃！",
+        "zh_tw": "唔、唔唔唔唔唔嗚！"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0014",
+      "book": ""
+    },
+    {
+      "icon": "100048_01",
+      "name": {
+        "en_us": "Jinlorda",
+        "ja_jp": "ジンローダ",
+        "zh_cn": "芩罗达",
+        "zh_tw": "季恩洛達"
+      },
+      "context": {
+        "en_us": "Nedrick!",
+        "ja_jp": "――！　ネデウ！",
+        "zh_cn": "奈迪犹！",
+        "zh_tw": "──！\\n涅帝爾！"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0015",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "Nnngh... Damn you...Bahamut...\\nGYAAAAAAAA!",
+        "ja_jp": "ぐ……！　バハムートめ……！\\nうおおおっ!?",
+        "zh_cn": "唔……巴哈姆特……\\n啊啊啊啊！？",
+        "zh_tw": "唔……！可惡的巴哈姆特……！\\n唔喔喔喔！？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0016",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "He shapeshifted! Is he going to try \\nsettling things with us here and now?!",
+        "ja_jp": "<ruby><rb>竜化</rb><rt>りゅうか</rt></ruby>！　<ruby><rb>一気</rb><rt>いっき</rt></ruby>に<ruby><rb>片</rb><rt>かた</rt></ruby>をつけるつもりか!?",
+        "zh_cn": "龙化！他是打算在这里做个了结吗！？",
+        "zh_tw": "龍化！他打算一口氣解決嗎！？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0017",
+      "book": ""
+    },
+    {
+      "icon": "100054_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "This is different. It... No. It cannot be!",
+        "ja_jp": "いえ、<ruby><rb>何</rb><rt>なに</rt></ruby>か<ruby><rb>様子</rb><rt>ようす</rt></ruby>がおかしいです。\\nまさか……。",
+        "zh_cn": "不，他看起来有点奇怪。\\n难道……",
+        "zh_tw": "不，樣子有點奇怪。\\n難道說……"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0018",
+      "book": ""
+    },
+    {
+      "icon": "210162_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "――！",
+        "zh_cn": "！",
+        "zh_tw": "──！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Okay, now he's opening a rift thingie,\\nand those are NEVER good.",
+        "ja_jp": "えっ!?　な、なに!?　なんで<ruby><rb>急</rb><rt>きゅう</rt></ruby>に\\n<ruby><rb>異界</rb><rt>いかい</rt></ruby>の<ruby><rb>裂</rb><rt>さ</rt></ruby>け<ruby><rb>目</rb><rt>め</rt></ruby>が……!?",
+        "zh_cn": "诶！？怎、怎么回事！？\\n为什么会突然出现异界裂缝！？",
+        "zh_tw": "咦！？怎、怎麼了！？\\n為什麼異界的裂縫會突然……！？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0019",
+      "book": ""
+    },
+    {
+      "icon": "100054_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "The world...was destroyed...",
+        "ja_jp": "<ruby><rb>世界</rb><rt>せかい</rt></ruby>が……<ruby><rb>破壊</rb><rt>はかい</rt></ruby>された……。",
+        "zh_cn": "世界被……破坏了……",
+        "zh_tw": "世界……被破壞了……"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0020",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Zethia? What are you talking about?",
+        "ja_jp": "<ruby><rb>世界</rb><rt>せかい</rt></ruby>が<ruby><rb>破壊</rb><rt>はかい</rt></ruby>!?\\nどういうことなんだ、ゼシア！",
+        "zh_cn": "世界被破坏了！？\\n塞西娅！这到底是怎么回事！？",
+        "zh_tw": "世界被破壞！？\\n到底是怎麼回事，潔西雅！"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0021",
+      "book": ""
+    },
+    {
+      "icon": "100054_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "Bahamut is a wyrm of creation, yes...\\nbut he is also one of destruction.",
+        "ja_jp": "バハムートは<ruby><rb>創世</rb><rt>そうせい</rt></ruby>の<ruby><rb>竜</rb><rt>りゅう</rt></ruby>であると<ruby><rb>同時</rb><rt>どうじ</rt></ruby>に、\\n<ruby><rb>破壊</rb><rt>はかい</rt></ruby>の<ruby><rb>竜</rb><rt>りゅう</rt></ruby>……。",
+        "zh_cn": "巴哈姆特既是创世之龙，\\n同时也是毁灭之龙……",
+        "zh_tw": "巴哈姆特身為創世之龍的同時，\\n也是破壞之龍……"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0022",
+      "book": ""
+    },
+    {
+      "icon": "100054_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "His power can erase existence itself.",
+        "ja_jp": "その<ruby><rb>力</rb><rt>ちから</rt></ruby>をもってすれば、<ruby><rb>世界</rb><rt>せかい</rt></ruby>そのものを\\n<ruby><rb>消</rb><rt>け</rt></ruby>してしまうことだって<ruby><rb>可能</rb><rt>かのう</rt></ruby>なんです。",
+        "zh_cn": "巴哈姆特的力量\\n甚至足以毁灭整个世界。",
+        "zh_tw": "如果以他的力量，\\n想消滅世界本身也辦得到。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0023",
+      "book": ""
+    },
+    {
+      "icon": "100042_01",
+      "name": {
+        "en_us": "Gatov",
+        "ja_jp": "ガトフ",
+        "zh_cn": "迦道夫",
+        "zh_tw": "葛托夫"
+      },
+      "context": {
+        "en_us": "It makes sense that the being who created\\nthe world has the ability to destroy it.\\nBut the problem is—",
+        "ja_jp": "<ruby><rb>世界</rb><rt>せかい</rt></ruby>を<ruby><rb>創</rb><rt>つく</rt></ruby>ることができるのだから、\\n<ruby><rb>壊</rb><rt>こわ</rt></ruby>すこともできるのは<ruby><rb>道理</rb><rt>どうり</rt></ruby>。\\nだが、<ruby><rb>問題</rb><rt>もんだい</rt></ruby>は……。",
+        "zh_cn": "能够创世的力量，\\n自然也足以毁灭世界。\\n但问题在于……",
+        "zh_tw": "既然能創造世界，\\n照理來說也能破壞世界。\\n然而，問題是……"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0024",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Hang on a hot freakin' second there, bub!\\nYou think this joker's gonna end the world?\\nLike, the WORLD world?!",
+        "ja_jp": "ネデウが、この<ruby><rb>世界</rb><rt>せかい</rt></ruby>を<ruby><rb>壊</rb><rt>こわ</rt></ruby>しちゃおう\\nって<ruby><rb>思</rb><rt>おも</rt></ruby>ってるってこと!?",
+        "zh_cn": "奈迪犹打算毁灭这个世界吗！？",
+        "zh_tw": "涅帝爾他、想要破壞這個世界嗎！？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0025",
+      "book": ""
+    },
+    {
+      "icon": "100048_01",
+      "name": {
+        "en_us": "Jinlorda",
+        "ja_jp": "ジンローダ",
+        "zh_cn": "芩罗达",
+        "zh_tw": "季恩洛達"
+      },
+      "context": {
+        "en_us": "Nedrick would never consider such a thing.",
+        "ja_jp": "まさか。ネデウがそんなことを<ruby><rb>考</rb><rt>かんが</rt></ruby>える\\nはずがありません。",
+        "zh_cn": "当然不会。\\n奈迪犹不可能做那种事。",
+        "zh_tw": "怎麼可能。\\n涅帝爾絕對不會有這種想法的。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0026",
+      "book": ""
+    },
+    {
+      "icon": "100042_01",
+      "name": {
+        "en_us": "Gatov",
+        "ja_jp": "ガトフ",
+        "zh_cn": "迦道夫",
+        "zh_tw": "葛托夫"
+      },
+      "context": {
+        "en_us": "Unless his consciousness has already\\nbeen seized by Bahamut.",
+        "ja_jp": "ならば、ネデウの<ruby><rb>意識</rb><rt>いしき</rt></ruby>がバハムートに\\n<ruby><rb>乗</rb><rt>の</rt></ruby>っ<ruby><rb>取</rb><rt>と</rt></ruby>られているということか……？",
+        "zh_cn": "那就是说……他的意识\\n已经被巴哈姆特占据了吗？",
+        "zh_tw": "那麼，是代表涅帝爾的意識\\n被巴哈姆特奪走了嗎……？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0027",
+      "book": ""
+    },
+    {
+      "icon": "210162_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "――！",
+        "zh_cn": "！",
+        "zh_tw": "──！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You're right! Bahamut's going to destroy\\nthe entire world if this keeps up!",
+        "ja_jp": "くっ……また……！\\nこのままじゃ、<ruby><rb>世界</rb><rt>せかい</rt></ruby>がバハムートに\\nよって、<ruby><rb>破壊</rb><rt>はかい</rt></ruby>されてしまう……！",
+        "zh_cn": "唔……\\n这样下去，\\n世界会被巴哈姆特所毁灭……",
+        "zh_tw": "唔……又來了……！\\n這樣下去，世界會被巴哈姆特、\\n給破壞掉……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0028",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "But why would he even WANT to do that?!",
+        "ja_jp": "だけど、なんで!?\\nなんで、バハムートは<ruby><rb>世界</rb><rt>せかい</rt></ruby>を<ruby><rb>壊</rb><rt>こわ</rt></ruby>そう\\nなんてするの？",
+        "zh_cn": "但这是为什么啊！？\\n为什么巴哈姆特\\n想要毁灭这个世界啊？",
+        "zh_tw": "可是，為什麼！？\\n為什麼、巴哈姆特要破壞世界呢？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0029",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Isn't he the dude who created it in the first\\nplace? Why does he want to trash it?!",
+        "ja_jp": "<ruby><rb>世界</rb><rt>せかい</rt></ruby>を<ruby><rb>創</rb><rt>つく</rt></ruby>った<ruby><rb>神様</rb><rt>かみさま</rt></ruby>だったんじゃ\\nなかったの!?",
+        "zh_cn": "巴哈姆特不是\\n创造了世界的神明吗！？",
+        "zh_tw": "他不是創造了世界的神嗎！？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0030",
+      "book": ""
+    },
+    {
+      "icon": "210162_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "AAAAAAAH! NO, BAHAMUT!\\nI WILL NOT PERMIT THIS!",
+        "ja_jp": "……ぐ……！　うおおおおっ！\\nバハムート……！　お<ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>思</rb><rt>おも</rt></ruby>い<ruby><rb>通</rb><rt>どお</rt></ruby>りに\\nなると<ruby><rb>思</rb><rt>おも</rt></ruby>うな……！",
+        "zh_cn": "呃……唔嗷嗷嗷嗷！\\n巴哈姆特！你休想控制我！",
+        "zh_tw": "……唔……！唔喔喔喔喔！\\n巴哈姆特……！\\n別以為一切都會如你所願……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0031",
+      "book": ""
+    },
+    {
+      "icon": "100048_01",
+      "name": {
+        "en_us": "Jinlorda",
+        "ja_jp": "ジンローダ",
+        "zh_cn": "芩罗达",
+        "zh_tw": "季恩洛達"
+      },
+      "context": {
+        "en_us": "Nedrick! Is that you?!",
+        "ja_jp": "――！　ネデウ！\\n<ruby><rb>意識</rb><rt>いしき</rt></ruby>が<ruby><rb>戻</rb><rt>もど</rt></ruby>ったのね!?",
+        "zh_cn": "奈迪犹！\\n你恢复意识了！？",
+        "zh_tw": "──！涅帝爾！\\n你恢復意識了對吧！？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0032",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "Yes... Bahamut's control was...stronger\\nthan I expected, but I am myself again...",
+        "ja_jp": "……ああ。\\n<ruby><rb>思</rb><rt>おも</rt></ruby>った<ruby><rb>以上</rb><rt>いじょう</rt></ruby>にバハムートの<ruby><rb>支配力</rb><rt>しはいりょく</rt></ruby>が\\n<ruby><rb>強</rb><rt>つよ</rt></ruby>かったが、もう<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>だ……。",
+        "zh_cn": "嗯……\\n巴哈姆特的控制力比我想象的\\n更加强大，不过我已经没事了……",
+        "zh_tw": "……嗯。\\n雖然巴哈姆特的支配力超乎想像，\\n但已經沒事了……"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0033",
+      "book": ""
+    },
+    {
+      "icon": "100048_01",
+      "name": {
+        "en_us": "Jinlorda",
+        "ja_jp": "ジンローダ",
+        "zh_cn": "芩罗达",
+        "zh_tw": "季恩洛達"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Tell us what's going on, Nedrick.",
+        "ja_jp": "……ネデウ。<ruby><rb>教</rb><rt>おし</rt></ruby>えてくれないか？\\n<ruby><rb>一体</rb><rt>いったい</rt></ruby>、<ruby><rb>何</rb><rt>なに</rt></ruby>が<ruby><rb>起</rb><rt>お</rt></ruby>きているんだ。",
+        "zh_cn": "奈迪犹……\\n你能告诉我们这到底是怎么回事吗？",
+        "zh_tw": "……涅帝爾。你能不能告訴我？\\n究竟，發生了什麼事。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0034",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "We know Bahamut is trying to destroy the\\nworld, but we don't understand why.",
+        "ja_jp": "なぜ、バハムートは<ruby><rb>世界</rb><rt>せかい</rt></ruby>を<ruby><rb>破壊</rb><rt>はかい</rt></ruby>しようと\\nしているんだ。",
+        "zh_cn": "为什么巴哈姆特想要毁灭这个世界？",
+        "zh_tw": "為什麼，巴哈姆特會想破壞世界？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0035",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "...Because of the Progenitor.",
+        "ja_jp": "……『はじまりの<ruby><rb>人</rb><rt>ひと</rt></ruby>』だ。",
+        "zh_cn": "因为“起始之人”……",
+        "zh_tw": "……因為「起始之人」。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0036",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "Bahamut thinks the Progenitor will return,\\nand the conditions for that to happen in\\nthis world are now perfect.",
+        "ja_jp": "バハムートもまた、『はじまりの<ruby><rb>人</rb><rt>ひと</rt></ruby>』の\\n<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>を<ruby><rb>察</rb><rt>さっ</rt></ruby>している。<ruby><rb>特</rb><rt>とく</rt></ruby>にこの<ruby><rb>世界</rb><rt>せかい</rt></ruby>は、\\n<ruby><rb>条件</rb><rt>じょうけん</rt></ruby>がそろいすぎた。",
+        "zh_cn": "巴哈姆特也发现了“起始之人”的复活。\\n尤其是这个世界，具备了太多条件。",
+        "zh_tw": "巴哈姆特也已經察覺到\\n「起始之人」的復活。\\n尤其在這個世界，條件全都湊齊了。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0037",
+      "book": ""
+    },
+    {
+      "icon": "100042_01",
+      "name": {
+        "en_us": "Gatov",
+        "ja_jp": "ガトフ",
+        "zh_cn": "迦道夫",
+        "zh_tw": "葛托夫"
+      },
+      "context": {
+        "en_us": "What conditions? What is it that will let\\nthe Progenitor come back?",
+        "ja_jp": "<ruby><rb>条件</rb><rt>じょうけん</rt></ruby>……？　『はじまりの<ruby><rb>人</rb><rt>ひと</rt></ruby>』の<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>に\\n<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>な<ruby><rb>条件</rb><rt>じょうけん</rt></ruby>とはなんだ。",
+        "zh_cn": "条件？“起始之人”的复活\\n需要什么样的条件？",
+        "zh_tw": "條件……？\\n「起始之人」復活所需的條件是什麼？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0038",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "There are more conditions than you can\\nfathom. But a major factor is that someone\\nsiding with the Progenitor has used the\\nOther's power.",
+        "ja_jp": "……<ruby><rb>数</rb><rt>かぞ</rt></ruby>え<ruby><rb>切</rb><rt>き</rt></ruby>れぬほどにある。\\nだが、<ruby><rb>魔神</rb><rt>まじん</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>が『はじまりの<ruby><rb>人</rb><rt>ひと</rt></ruby>』に\\n<ruby><rb>与</rb><rt>くみ</rt></ruby>する<ruby><rb>者</rb><rt>もの</rt></ruby>に<ruby><rb>使</rb><rt>つか</rt></ruby>われたのは<ruby><rb>大</rb><rt>おお</rt></ruby>きい。",
+        "zh_cn": "条件有很多……\\n但与“起始之人”为伍之人\\n使用了魔神之力这一点至关重要。",
+        "zh_tw": "……多到數不盡。\\n但是，魔神之力落入了\\n「起始之人」同夥手中這點相當關鍵。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0039",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You're talking about Beren!",
+        "ja_jp": "……！　ベベット<ruby><rb>兄</rb><rt>にい</rt></ruby>さんか……。",
+        "zh_cn": "你是说贝维特哥哥……",
+        "zh_tw": "……！\\n是指貝維特哥哥嗎……"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0040",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "Another is the activity of the ones known\\nas ＂demons,＂ and yet another is that\\nElysium—the very custodian of the world—\\nhas been corrupted by black mana.",
+        "ja_jp": "<ruby><rb>他</rb><rt>ほか</rt></ruby>にも、<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>と<ruby><rb>呼</rb><rt>よ</rt></ruby>ばれる<ruby><rb>者</rb><rt>もの</rt></ruby>の<ruby><rb>暗躍</rb><rt>あんやく</rt></ruby>や\\n<ruby><rb>世界</rb><rt>せかい</rt></ruby>の<ruby><rb>管理者</rb><rt>かんりしゃ</rt></ruby>であるエリュシオンまでも\\n<ruby><rb>黒</rb><rt>くろ</rt></ruby>いマナに<ruby><rb>侵</rb><rt>おか</rt></ruby>されたこと。",
+        "zh_cn": "除此以外，还有恶魔们的影响，\\n以及身为身为世界管理者的\\n圣域龙受黑暗魔力侵蚀这件事。",
+        "zh_tw": "其他還有被喚作惡魔者的暗中活躍，\\n以及連身為世界管理者的伊利西恩\\n都遭到黑色瑪納侵蝕一事。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0041",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "It's also not wholly unrelated to the fact\\nthat Bahamut has a body—which is to say\\nhe has me.",
+        "ja_jp": "バハムートが<ruby><rb>俺</rb><rt>おれ</rt></ruby>という<ruby><rb>憑代</rb><rt>よりしろ</rt></ruby>を<ruby><rb>手</rb><rt>て</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>れた\\nことも<ruby><rb>無関係</rb><rt>むかんけい</rt></ruby>ではない。",
+        "zh_cn": "当然，也与巴哈姆特得到我这个宿主\\n也脱不了干系。",
+        "zh_tw": "巴哈姆特得到了我這個附身對象\\n也並非毫無關係。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0042",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "Amongst all the worlds of possibility,\\nthis one has become the most fitting\\nplace for the return of the Progenitor.",
+        "ja_jp": "この<ruby><rb>世界</rb><rt>せかい</rt></ruby>は、<ruby><rb>数多</rb><rt>あまた</rt></ruby>の<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>で\\n『はじまりの<ruby><rb>人</rb><rt>ひと</rt></ruby>』の<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>に<ruby><rb>最</rb><rt>もっと</rt></ruby>も<ruby><rb>相応</rb><rt>ふさわ</rt></ruby>しい\\n<ruby><rb>世界</rb><rt>せかい</rt></ruby>となったのだ。",
+        "zh_cn": "这个世界已经是众多可能性的世界之中\\n最适合“起始之人”复活的世界。",
+        "zh_tw": "這個世界，是在眾多可能性的世界中，\\n最適合讓「起始之人」復活的世界。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0043",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "So Bahamut is going to destroy the world\\njust to eliminate the possibility of the\\nProgenitor's return?!",
+        "ja_jp": "まさか……！　バハムートは、\\n『はじまりの<ruby><rb>人</rb><rt>ひと</rt></ruby>』<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>の<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>を<ruby><rb>消</rb><rt>け</rt></ruby>す\\nために、<ruby><rb>世界</rb><rt>せかい</rt></ruby>ごと<ruby><rb>消滅</rb><rt>しょうめつ</rt></ruby>させるつもりか！",
+        "zh_cn": "难道……巴哈姆特为了抹除\\n一切“起始之人”复活的可能性，\\n打算将整个世界毁灭吗！？",
+        "zh_tw": "怎麼會……！巴哈姆特為了消除\\n「起始之人」復活的可能性，\\n所以打算消滅整個世界嗎！"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0044",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "Exactly. After all, to him this world\\nis but one of many possibilities.",
+        "ja_jp": "そうだ。バハムートにとっては、\\n<ruby><rb>所詮</rb><rt>しょせん</rt></ruby>この<ruby><rb>世界</rb><rt>せかい</rt></ruby>は<ruby><rb>数多</rb><rt>あまた</rt></ruby>ある<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>の<ruby><rb>内</rb><rt>うち</rt></ruby>の\\nひとつにすぎないのだからな。",
+        "zh_cn": "没错。对巴哈姆特来说，\\n这个世界也不过是\\n无数可能性中的一个而已。",
+        "zh_tw": "沒錯。對巴哈姆特而言，\\n這個世界不過是眾多可能性\\n當中的一個而已。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0045",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "That he thinks on such a scale and acts\\nwith such ruthlessness befits the Wyrm\\nof Genesis, I suppose.",
+        "ja_jp": "<ruby><rb>考</rb><rt>かんが</rt></ruby>えることのスケールの<ruby><rb>大</rb><rt>おお</rt></ruby>きさと\\n<ruby><rb>非情</rb><rt>ひじょう</rt></ruby>さは、さすがは<ruby><rb>創世</rb><rt>そうせい</rt></ruby>の<ruby><rb>竜</rb><rt>りゅう</rt></ruby>と\\n<ruby><rb>言</rb><rt>い</rt></ruby>うべきなのでしょうけど……。",
+        "zh_cn": "不愧是创世之龙啊……\\n思想格局之大和态度之冷漠\\n真是难以想象……",
+        "zh_tw": "思考的規模大小與無情程度，\\n確實可說不愧是創世之龍呢……"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0046",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "But what about all the people living here?!",
+        "ja_jp": "わ、わたしたちはどうなるのよ！\\nこの<ruby><rb>世界</rb><rt>せかい</rt></ruby>に<ruby><rb>住</rb><rt>す</rt></ruby>むみんなは!?",
+        "zh_cn": "那、那我们会怎么样啊！\\n这个世界里的其他人呢！？",
+        "zh_tw": "那、那我們會怎麼樣啊！\\n住在這個世界的大家呢！？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0047",
+      "book": ""
+    },
+    {
+      "icon": "100054_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "If the world is ended, it will be the death\\nknell for all life which resides inside it.",
+        "ja_jp": "……もちろん、<ruby><rb>世界</rb><rt>せかい</rt></ruby>が<ruby><rb>消</rb><rt>き</rt></ruby>え<ruby><rb>去</rb><rt>さ</rt></ruby>れば、\\nそこに<ruby><rb>住</rb><rt>す</rt></ruby>む<ruby><rb>人々</rb><rt>ひとびと</rt></ruby>もまた、<ruby><rb>生</rb><rt>い</rt></ruby>きては\\nゆけないでしょう……。",
+        "zh_cn": "毋庸置疑……世界被毁灭的话，\\n这个世界里所有的人\\n都没法逃过死亡的命运……",
+        "zh_tw": "……不用說，若世界消失，\\n居住在其中的人們，\\n想必也無法存活吧……"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0048",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Well, THAT sucks.",
+        "ja_jp": "そんな……。",
+        "zh_cn": "怎么会这样……",
+        "zh_tw": "怎麼會……"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0049",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "I will not permit that to happen. Instead,\\nI will subjugate Bahamut and take full\\npossession of his power.",
+        "ja_jp": "<ruby><rb>無論</rb><rt>むろん</rt></ruby>、そんなことはさせん。これより\\nバハムートを<ruby><rb>屈服</rb><rt>くっぷく</rt></ruby>させ、その<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>完全</rb><rt>かんぜん</rt></ruby>に\\n<ruby><rb>手中</rb><rt>しゅちゅう</rt></ruby>に<ruby><rb>収</rb><rt>おさ</rt></ruby>める。",
+        "zh_cn": "当然，我不会允许这种事情发生。\\n我会征服巴哈姆特\\n并将其力量据为己有。",
+        "zh_tw": "當然，我不會讓他得逞。\\n接下來我將使巴哈姆特屈服，\\n把他的力量完全收為己有。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0050",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "I do hope you don't think we're just going\\nto leave that little matter in your capable\\nhands at this point?",
+        "ja_jp": "……そんな<ruby><rb>話</rb><rt>はなし</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>いて、わたくしたちが\\n<ruby><rb>放</rb><rt>ほう</rt></ruby>っておくと<ruby><rb>思</rb><rt>おも</rt></ruby>っているのでは\\nないでしょうね？",
+        "zh_cn": "你不会以为跟我们说了这些，\\n我们就会放任你为所欲为吧？",
+        "zh_tw": "……你應該不會以為\\n聽了那些話之後，\\n我們會坐視不管吧？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0051",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "I repeat my strong belief that our most\\nefficient path forward is to slay you here\\nand now and take Bahamut with you.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>この<ruby><rb>場</rb><rt>ば</rt></ruby>で、あなたごとバハムートを\\n<ruby><rb>亡</rb><rt>な</rt></ruby>き<ruby><rb>者</rb><rt>もの</rt></ruby>にするのが<ruby><rb>最</rb><rt>もっと</rt></ruby>も<ruby><rb>効率</rb><rt>こうりつ</rt></ruby>のよい<ruby><rb>方法</rb><rt>ほうほう</rt></ruby>に\\n<ruby><rb>思</rb><rt>おも</rt></ruby>えてきますけれど。",
+        "zh_cn": "我反而认为在这里\\n把你和巴哈姆特一起干掉\\n才是效率最高的解决办法。",
+        "zh_tw": "不如說我開始覺得，\\n現在將你連同巴哈姆特一起送下黃泉，\\n是最有效率的方法呢。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0052",
+      "book": ""
+    },
+    {
+      "icon": "100048_01",
+      "name": {
+        "en_us": "Jinlorda",
+        "ja_jp": "ジンローダ",
+        "zh_cn": "芩罗达",
+        "zh_tw": "季恩洛達"
+      },
+      "context": {
+        "en_us": "Stop. You would only hinder Nedrick\\nand hasten Bahamut's return.",
+        "ja_jp": "おやめなさい。それではネデウの\\n<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>をして、バハムートの<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>を\\n<ruby><rb>早</rb><rt>はや</rt></ruby>める<ruby><rb>結果</rb><rt>けっか</rt></ruby>になるだけです。",
+        "zh_cn": "你最好住手。\\n那么做只会干扰奈迪犹，\\n导致巴哈姆特提前复活。",
+        "zh_tw": "住手。那樣妨礙涅帝爾，\\n只會讓巴哈姆特提早復活而已。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0053",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Then what ought we do? From our\\nperspective, the outcome is foul\\nno matter who emerges victorious.",
+        "ja_jp": "では、どうしろと？　わたくしたちに\\nしてみれば、どちらが<ruby><rb>勝</rb><rt>か</rt></ruby>とうと<ruby><rb>厄介</rb><rt>やっかい</rt></ruby>な\\nことに<ruby><rb>違</rb><rt>ちが</rt></ruby>いはないのですけれどね。",
+        "zh_cn": "那你想我们怎么办？\\n无论他和巴哈姆特谁获胜，\\n对我们来说都是个麻烦。",
+        "zh_tw": "那麼，你說該怎麼辦？\\n站在我們的立場而言，\\n無論哪邊獲勝都很麻煩呢。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0054",
+      "book": ""
+    },
+    {
+      "icon": "100048_01",
+      "name": {
+        "en_us": "Jinlorda",
+        "ja_jp": "ジンローダ",
+        "zh_cn": "芩罗达",
+        "zh_tw": "季恩洛達"
+      },
+      "context": {
+        "en_us": "It isn't. You must understand that there\\nis a gulf as wide as an ocean between\\nNedrick and Bahamut.",
+        "ja_jp": "いいえ。ネデウとバハムートでは、\\n<ruby><rb>大</rb><rt>おお</rt></ruby>きな<ruby><rb>違</rb><rt>ちが</rt></ruby>いがあります。それは、\\nわかっていただけると<ruby><rb>思</rb><rt>おも</rt></ruby>うのですが？",
+        "zh_cn": "并非如此。我想你们应该很清楚，\\n奈迪犹和巴哈姆特谁获胜\\n所带来的结果有很大区别。",
+        "zh_tw": "不。涅帝爾與巴哈姆特之間，\\n存在非常大的不同。\\n這點，我想妳應該很清楚才是？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0055",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "I don't imagine we'll have the luxury of\\ndiscourse with the wyrm, for one...",
+        "ja_jp": "……<ruby><rb>確</rb><rt>たし</rt></ruby>かに、バハムートには<ruby><rb>交渉</rb><rt>こうしょう</rt></ruby>の\\n<ruby><rb>余地</rb><rt>よち</rt></ruby>はなさそうですけれど……。",
+        "zh_cn": "的确……巴哈姆特获胜的话\\n似乎不会给我们交涉的余地……",
+        "zh_tw": "……的確，與巴哈姆特\\n似乎沒有交涉的餘地……"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0056",
+      "book": ""
+    },
+    {
+      "icon": "100042_01",
+      "name": {
+        "en_us": "Gatov",
+        "ja_jp": "ガトフ",
+        "zh_cn": "迦道夫",
+        "zh_tw": "葛托夫"
+      },
+      "context": {
+        "en_us": "But there is no guarantee Nedrick can\\nbest Bahamut, so the most pragmatic\\nresponse would be to destroy the body\\nhe now controls.",
+        "ja_jp": "だが、ネデウがバハムートに<ruby><rb>勝</rb><rt>か</rt></ruby>てると\\nいう<ruby><rb>保証</rb><rt>ほしょう</rt></ruby>もない。<ruby><rb>憑代</rb><rt>よりしろ</rt></ruby>となった<ruby><rb>体</rb><rt>からだ</rt></ruby>を\\n<ruby><rb>破壊</rb><rt>はかい</rt></ruby>するのは、<ruby><rb>最</rb><rt>もっと</rt></ruby>も<ruby><rb>現実</rb><rt>げんじつ</rt></ruby><ruby><rb>的</rb><rt>てき</rt></ruby>な<ruby><rb>対応</rb><rt>たいおう</rt></ruby>だ。",
+        "zh_cn": "但也没人能保证奈迪犹一定\\n赢得过巴哈姆特。破坏巴哈姆特\\n宿主的肉体才是最现实的方法。",
+        "zh_tw": "但是，也無法保證涅帝爾能戰勝\\n巴哈姆特。將成為附身對象的軀體\\n加以破壞，是最實際的應對方法。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0057",
+      "book": ""
+    },
+    {
+      "icon": "100048_01",
+      "name": {
+        "en_us": "Jinlorda",
+        "ja_jp": "ジンローダ",
+        "zh_cn": "芩罗达",
+        "zh_tw": "季恩洛達"
+      },
+      "context": {
+        "en_us": "So then, a proposal—or perhaps it would\\nbe better to call it a request.",
+        "ja_jp": "そこで、<ruby><rb>提案</rb><rt>ていあん</rt></ruby>です。……いえ、お<ruby><rb>願</rb><rt>ねが</rt></ruby>いと\\n<ruby><rb>言</rb><rt>い</rt></ruby>った<ruby><rb>方</rb><rt>ほう</rt></ruby>がいいでしょうか。",
+        "zh_cn": "我倒是有一个提案……\\n不，应该说是请求。",
+        "zh_tw": "所以，我有個提案。\\n……不，說是請求比較正確吧。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0058",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What is it?",
+        "ja_jp": "お<ruby><rb>願</rb><rt>ねが</rt></ruby>い？",
+        "zh_cn": "请求？",
+        "zh_tw": "請求？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0059",
+      "book": ""
+    },
+    {
+      "icon": "100048_01",
+      "name": {
+        "en_us": "Jinlorda",
+        "ja_jp": "ジンローダ",
+        "zh_cn": "芩罗达",
+        "zh_tw": "季恩洛達"
+      },
+      "context": {
+        "en_us": "I have the means to aid Nedrick in the\\nstruggle with Bahamut over his body.",
+        "ja_jp": "ええ。<ruby><rb>私</rb><rt>わたし</rt></ruby>にはネデウの<ruby><rb>肉体</rb><rt>にくたい</rt></ruby>を<ruby><rb>賭</rb><rt>か</rt></ruby>けた、\\nネデウとバハムートの<ruby><rb>争</rb><rt>あらそ</rt></ruby>いを<ruby><rb>手助</rb><rt>てだす</rt></ruby>けする\\n<ruby><rb>術</rb><rt>すべ</rt></ruby>があります。",
+        "zh_cn": "是的，我有一个办法，\\n能够在这场争夺中\\n帮到奈迪犹。",
+        "zh_tw": "是的。我知道一個術式能提供\\n涅帝爾協助，讓他在以自己肉體\\n為賭注的爭鬥中對抗巴哈姆特。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0060",
+      "book": ""
+    },
+    {
+      "icon": "100048_01",
+      "name": {
+        "en_us": "Jinlorda",
+        "ja_jp": "ジンローダ",
+        "zh_cn": "芩罗达",
+        "zh_tw": "季恩洛達"
+      },
+      "context": {
+        "en_us": "If you help me with that, the odds of him\\ndefeating Bahamut grow considerably.",
+        "ja_jp": "それをみなさんに<ruby><rb>手伝</rb><rt>てつだ</rt></ruby>っていただければ\\nネデウがバハムートに<ruby><rb>勝利</rb><rt>しょうり</rt></ruby>する<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>は\\nさらに<ruby><rb>高</rb><rt>たか</rt></ruby>まります。",
+        "zh_cn": "如果能获得诸位的帮助，\\n奈迪犹赢过巴哈姆特的\\n可能性将会更大。",
+        "zh_tw": "如果各位願意幫忙，\\n就能更加提高涅帝爾\\n戰勝巴哈姆特的可能性。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0061",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "I don't need people meddling in this, Jin!\\nI will force Bahamut to yield on my own,\\njust as I told you I would!",
+        "ja_jp": "<ruby><rb>余計</rb><rt>よけい</rt></ruby>なことをするな、ジン……！\\nバハムートは<ruby><rb>俺</rb><rt>おれ</rt></ruby><ruby><rb>自身</rb><rt>じしん</rt></ruby>の<ruby><rb>手</rb><rt>て</rt></ruby>で<ruby><rb>屈服</rb><rt>くっぷく</rt></ruby>させる。\\nそう<ruby><rb>言</rb><rt>い</rt></ruby>ったはずだ。",
+        "zh_cn": "芩！你不要多管闲事……\\n我说过，我会亲手征服巴哈姆特。",
+        "zh_tw": "別多管閒事，季恩……！\\n巴哈姆特要由我親手讓他屈服。\\n我應該告訴過你了。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0062",
+      "book": ""
+    },
+    {
+      "icon": "100048_01",
+      "name": {
+        "en_us": "Jinlorda",
+        "ja_jp": "ジンローダ",
+        "zh_cn": "芩罗达",
+        "zh_tw": "季恩洛達"
+      },
+      "context": {
+        "en_us": "This is unlike you, Nedrick. If you think\\nabout it calmly, you would realize what\\nmust be done now.",
+        "ja_jp": "あなたらしくないわよ、ネデウ。\\n<ruby><rb>冷静</rb><rt>れいせい</rt></ruby>に<ruby><rb>考</rb><rt>かんが</rt></ruby>えれば、<ruby><rb>今</rb><rt>いま</rt></ruby>、<ruby><rb>何</rb><rt>なに</rt></ruby>をすべきかは\\nあなたにならわかるはず。",
+        "zh_cn": "这不像你，奈迪犹。\\n冷静下来想想，你应该明白\\n什么才是你现在该做的。",
+        "zh_tw": "這樣不像你喔，涅帝爾。\\n冷靜地想一想，\\n你應該明白現在該做什麼才對。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0063",
+      "book": ""
+    },
+    {
+      "icon": "100048_01",
+      "name": {
+        "en_us": "Jinlorda",
+        "ja_jp": "ジンローダ",
+        "zh_cn": "芩罗达",
+        "zh_tw": "季恩洛達"
+      },
+      "context": {
+        "en_us": "I don't know why you've latched on to\\nthis idea, but what makes you strong is\\nyour ability to cast aside such things\\nfor the sake of our greater goal.",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>にこだわっているのか<ruby><rb>知</rb><rt>し</rt></ruby>らないけど、\\n<ruby><rb>目的</rb><rt>もくてき</rt></ruby>のためには、そんなもの<ruby><rb>捨</rb><rt>す</rt></ruby>てて\\nしまえるのがあなたの<ruby><rb>強</rb><rt>つよ</rt></ruby>さでしょう。",
+        "zh_cn": "虽然不明白你为什么要拘泥于\\n亲自动手，但你的强项不就是\\n为了达成目的可以不择手段吗？",
+        "zh_tw": "雖然我不知道你為何如此堅持，\\n但為了達到目的，\\n連堅持都能捨棄才是你的強大之處吧。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0064",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Assuming we go along with this request,\\nhow do you intend to compensate us?",
+        "ja_jp": "<ruby><rb>仮</rb><rt>かり</rt></ruby>にそのお<ruby><rb>願</rb><rt>ねが</rt></ruby>いを<ruby><rb>聞</rb><rt>き</rt></ruby>いたとして、\\nどんな<ruby><rb>見返</rb><rt>みかえ</rt></ruby>りを<ruby><rb>用意</rb><rt>ようい</rt></ruby>してくださるの\\nかしら？",
+        "zh_cn": "如果我们接受了你的请求，\\n你能给我们什么好处呢？",
+        "zh_tw": "假設我們答應了那個請求，\\n你又準備怎麼報答我們呢？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0065",
+      "book": ""
+    },
+    {
+      "icon": "100048_01",
+      "name": {
+        "en_us": "Jinlorda",
+        "ja_jp": "ジンローダ",
+        "zh_cn": "芩罗达",
+        "zh_tw": "季恩洛達"
+      },
+      "context": {
+        "en_us": "By anything within my means to provide.\\nYou may ask for the throne of the Faerie\\nKingdom or even my life—it matters not.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>にできることならなんでも。\\n<ruby><rb>妖精</rb><rt>ようせい</rt></ruby><ruby><rb>国</rb><rt>こく</rt></ruby>の<ruby><rb>王位</rb><rt>おうい</rt></ruby>を<ruby><rb>譲</rb><rt>ゆず</rt></ruby>ってもかまいませんし\\nこの<ruby><rb>命</rb><rt>いのち</rt></ruby>を<ruby><rb>差</rb><rt>さ</rt></ruby>し<ruby><rb>出</rb><rt>だ</rt></ruby>すのも<ruby><rb>厭</rb><rt>いと</rt></ruby>いません。",
+        "zh_cn": "只要是我能办到的，什么都可以。\\n无论是让我让出精灵国的王位，\\n还是交出我自己的性命。",
+        "zh_tw": "如果是我能做的，什麼都可以。\\n讓出妖精國的王位也行，\\n甚至要我這條命也無所謂。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0066",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Then here is my request: Abandon your\\nplan to give the power of shapeshifting\\nto everyone.",
+        "ja_jp": "おれが<ruby><rb>望</rb><rt>のぞ</rt></ruby>むのはひとつだ。\\nすべての<ruby><rb>人</rb><rt>ひと</rt></ruby>に『<ruby><rb>竜化</rb><rt>りゅうか</rt></ruby>』の<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>与</rb><rt>あた</rt></ruby>えると\\nいう<ruby><rb>計画</rb><rt>けいかく</rt></ruby>を<ruby><rb>考</rb><rt>かんが</rt></ruby>え<ruby><rb>直</rb><rt>なお</rt></ruby>してほしい。",
+        "zh_cn": "我的条件只有一个。\\n那就是希望你们能够放弃\\n赋予全人类龙化之力的计划。",
+        "zh_tw": "我只有一個要求。\\n希望你們能重新考慮給予所有人\\n「龍化」之力這個計畫。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0067",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Then work with us to come up with a way\\nto oppose the Progenitor that doesn't\\nentail the deaths of countless innocent\\npeople. That's what I ask.",
+        "ja_jp": "もっと、<ruby><rb>犠牲</rb><rt>ぎせい</rt></ruby>の<ruby><rb>少</rb><rt>すく</rt></ruby>ない<ruby><rb>形</rb><rt>かたち</rt></ruby>で\\n『はじまりの<ruby><rb>人</rb><rt>ひと</rt></ruby>』に<ruby><rb>対抗</rb><rt>たいこう</rt></ruby>する<ruby><rb>方法</rb><rt>ほうほう</rt></ruby>を\\n<ruby><rb>共</rb><rt>とも</rt></ruby>に<ruby><rb>目指</rb><rt>めざ</rt></ruby>したい。それだけだ。",
+        "zh_cn": "我希望我们能够一起寻找一个\\n将牺牲控制在最小范围内的办法\\n来对抗“起始之人”，仅此而已。",
+        "zh_tw": "我想跟你們一起想出能以更少犧牲的\\n形式對抗「起始之人」的方法。\\n只有這些。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0068",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Personally, I'd hold out for that throne you\\nso kindly offered, but alas, it's not my call.\\n...So then? What say you?",
+        "ja_jp": "くれると<ruby><rb>言</rb><rt>い</rt></ruby>うのだから<ruby><rb>玉座</rb><rt>ぎょくざ</rt></ruby>くらい\\nいただいておけばよいものを。\\n……さて、ご<ruby><rb>返答</rb><rt>へんとう</rt></ruby>はいかがですの？",
+        "zh_cn": "人家都说可以让出王位了，\\n你乖乖接受多好。\\n那么……你的回答呢？",
+        "zh_tw": "既然對方都說願意讓位了，\\n何不收下他的王位呢。\\n……好了，你們的回答如何呢？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0069",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "I cannot make that promise.",
+        "ja_jp": "その<ruby><rb>約束</rb><rt>やくそく</rt></ruby>はできん。",
+        "zh_cn": "我没法向你保证。",
+        "zh_tw": "我無法答應。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0070",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What?!",
+        "ja_jp": "ネデウ……！",
+        "zh_cn": "奈迪犹……",
+        "zh_tw": "涅帝爾……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0071",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "My method was the result of thinking\\nlong and hard on what would cause\\nthe fewest casualties.",
+        "ja_jp": "なぜなら、あれこそが<ruby><rb>最</rb><rt>もっと</rt></ruby>も<ruby><rb>犠牲</rb><rt>ぎせい</rt></ruby>の\\n<ruby><rb>少</rb><rt>すく</rt></ruby>なくなる<ruby><rb>方法</rb><rt>ほうほう</rt></ruby>を<ruby><rb>考</rb><rt>かんが</rt></ruby>えた<ruby><rb>末</rb><rt>すえ</rt></ruby>に<ruby><rb>出</rb><rt>だ</rt></ruby>した\\n<ruby><rb>結論</rb><rt>けつろん</rt></ruby>だからだ。",
+        "zh_cn": "因为那就是能让牺牲最小化的办法。\\n这是我经过了\\n深思熟虑之后得出的结论。",
+        "zh_tw": "要說原因，那是我對如何\\n才能將犧牲減至最少的方法，\\n幾經思考後才得出的結論。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0072",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "Though you clearly think me a monster,\\nI would not make a flippant choice that\\nwould hurt innocent people unnecessarily.",
+        "ja_jp": "……<ruby><rb>俺</rb><rt>おれ</rt></ruby>とて、<ruby><rb>無闇</rb><rt>むやみ</rt></ruby>に<ruby><rb>犠牲</rb><rt>ぎせい</rt></ruby>が<ruby><rb>多</rb><rt>おお</rt></ruby>くなる\\n<ruby><rb>方法</rb><rt>ほうほう</rt></ruby>を<ruby><rb>選</rb><rt>えら</rt></ruby>んだわけではない。",
+        "zh_cn": "我也并没有打算选择\\n会产生众多牺牲的方法。",
+        "zh_tw": "……我也不是隨意就選擇了\\n會造成眾多犧牲的方法。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0073",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "But what if we can come up with a\\nbetter idea that saves MORE lives?!\\nWill you consider it then?!",
+        "ja_jp": "……！　な、なら、おれたちがもっと\\n<ruby><rb>犠牲</rb><rt>ぎせい</rt></ruby>の<ruby><rb>出</rb><rt>で</rt></ruby>ない<ruby><rb>方法</rb><rt>ほうほう</rt></ruby>を<ruby><rb>提案</rb><rt>ていあん</rt></ruby>できれば、\\n<ruby><rb>考</rb><rt>かんが</rt></ruby>え<ruby><rb>直</rb><rt>なお</rt></ruby>してくれるのか!?",
+        "zh_cn": "那、那就是说，\\n如果我们能想出一个牺牲更小的方法，\\n你就会重新考虑吗！？",
+        "zh_tw": "……！那、那麼，\\n只要我們能提出不會造成犧牲的方法，\\n你願意重新考慮嗎！？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0074",
+      "book": ""
+    },
+    {
+      "icon": "100039_01",
+      "name": {
+        "en_us": "Nedrick",
+        "ja_jp": "ネデウ",
+        "zh_cn": "奈迪犹",
+        "zh_tw": "涅帝爾"
+      },
+      "context": {
+        "en_us": "If it is a valid plan, then yes.",
+        "ja_jp": "その<ruby><rb>提案</rb><rt>ていあん</rt></ruby>に<ruby><rb>妥当性</rb><rt>だとうせい</rt></ruby>があればな。",
+        "zh_cn": "只要你的方法合理。",
+        "zh_tw": "如果那個提案有可行性的話。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0075",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Very well.",
+        "ja_jp": "……わかった。",
+        "zh_cn": "好吧……",
+        "zh_tw": "……我知道了。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0076",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'm going to accept Jinlorda's proposal,\\neveryone. We're going to help Nedrick\\nfight Bahamut.",
+        "ja_jp": "みんな、おれはジンローダの<ruby><rb>提案</rb><rt>ていあん</rt></ruby>を\\n<ruby><rb>受</rb><rt>う</rt></ruby>け<ruby><rb>入</rb><rt>い</rt></ruby>れようと<ruby><rb>思</rb><rt>おも</rt></ruby>う。ネデウを<ruby><rb>助</rb><rt>たす</rt></ruby>ける\\nために、バハムートと<ruby><rb>戦</rb><rt>たたか</rt></ruby>う。",
+        "zh_cn": "各位，我打算接受芩罗达的提案。\\n对抗巴哈姆特，帮助奈迪犹。",
+        "zh_tw": "各位，我想答應季恩洛達的提案。\\n幫助涅帝爾，與巴哈姆特一戰。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0077",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "全員",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "――！",
+        "zh_cn": "！",
+        "zh_tw": "──！"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0078",
+      "book": ""
+    },
+    {
+      "icon": "100054_01",
+      "name": {
+        "en_us": "Zethia",
+        "ja_jp": "ゼシア",
+        "zh_cn": "塞西娅",
+        "zh_tw": "潔西雅"
+      },
+      "context": {
+        "en_us": "I would be lying if I said I didn't have\\nmisgivings, Brother, but if that is your\\nconclusion, I will accept it.",
+        "ja_jp": "……<ruby><rb>正直</rb><rt>しょうじき</rt></ruby>、<ruby><rb>不安</rb><rt>ふあん</rt></ruby>がないとは<ruby><rb>言</rb><rt>い</rt></ruby>いません。\\nでも、それが<ruby><rb>兄</rb><rt>にい</rt></ruby>さまの<ruby><rb>結論</rb><rt>けつろん</rt></ruby>なら――。",
+        "zh_cn": "说实话……我还是有所担心。\\n但如果这就是哥哥你得出的结论……",
+        "zh_tw": "……說實話，我不能說毫無不安。\\n但是，如果那是哥哥大人的結論──"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0079",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Yeah! We'll kick his butt together!",
+        "ja_jp": "うん！　わたしたちは<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>くよ！",
+        "zh_cn": "嗯！我们和你一起去！",
+        "zh_tw": "嗯！我們也會一起去的！"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0080",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Thanks, everybody.",
+        "ja_jp": "ありがとう、みんな。",
+        "zh_cn": "谢谢大家。",
+        "zh_tw": "謝謝，大家。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0081",
+      "book": ""
+    },
+    {
+      "icon": "100048_01",
+      "name": {
+        "en_us": "Jinlorda",
+        "ja_jp": "ジンローダ",
+        "zh_cn": "芩罗达",
+        "zh_tw": "季恩洛達"
+      },
+      "context": {
+        "en_us": "I offer my own thanks as well, and give\\nmy utmost respect to your decision.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>からもお<ruby><rb>礼</rb><rt>れい</rt></ruby>を<ruby><rb>申</rb><rt>もう</rt></ruby>し<ruby><rb>上</rb><rt>あ</rt></ruby>げます。\\nそして、ユーディル<ruby><rb>殿</rb><rt>どの</rt></ruby>の\\n<ruby><rb>決断</rb><rt>けつだん</rt></ruby>に<ruby><rb>最大限</rb><rt>さいだいげん</rt></ruby>の<ruby><rb>敬意</rb><rt>けいい</rt></ruby>を。",
+        "zh_cn": "感谢你们愿意接受我的请求。\\n我在此向尤蒂尔殿下\\n所做出的决定表示最大的敬意。",
+        "zh_tw": "我也要向各位道謝。同時，\\n也為尤帝爾殿下\\n做出的決定致上最大的敬意。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0082",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Thanks, Jinlorda. So what do we do now?",
+        "ja_jp": "ありがとう、ジンローダ。\\nそれで、おれたちは<ruby><rb>何</rb><rt>なに</rt></ruby>をすれば\\nいいんだ？",
+        "zh_cn": "谢谢你，芩罗达。\\n那我们该怎么做？",
+        "zh_tw": "謝謝你，季恩洛達。\\n那麼，我們該做什麼才好？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0083",
+      "book": ""
+    },
+    {
+      "icon": "100048_01",
+      "name": {
+        "en_us": "Jinlorda",
+        "ja_jp": "ジンローダ",
+        "zh_cn": "芩罗达",
+        "zh_tw": "季恩洛達"
+      },
+      "context": {
+        "en_us": "Put simply, you will go into the world\\nof Nedrick's mind and face Bahamut.",
+        "ja_jp": "<ruby><rb>簡単</rb><rt>かんたん</rt></ruby>に<ruby><rb>言</rb><rt>い</rt></ruby>えば、ネデウの<ruby><rb>精神</rb><rt>せいしん</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>へと\\n<ruby><rb>赴</rb><rt>おもむ</rt></ruby>き、そこでバハムートと\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>っていただくことになります。",
+        "zh_cn": "简单来说就是请大家\\n进入奈迪犹的精神世界，\\n在那里对抗巴哈姆特。",
+        "zh_tw": "簡單地說，\\n要請你們前往涅帝爾的精神世界，\\n在那裡與巴哈姆特一戰。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0084",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Into his MIND?!",
+        "ja_jp": "ネデウの……<ruby><rb>精神</rb><rt>せいしん</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>!?",
+        "zh_cn": "奈迪犹的……精神世界！？",
+        "zh_tw": "涅帝爾的……精神世界！？"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0085",
+      "book": ""
+    },
+    {
+      "icon": "100048_01",
+      "name": {
+        "en_us": "Jinlorda",
+        "ja_jp": "ジンローダ",
+        "zh_cn": "芩罗达",
+        "zh_tw": "季恩洛達"
+      },
+      "context": {
+        "en_us": "Yes. And for that purpose, I must separate\\nyour own spirits from your bodies.",
+        "ja_jp": "ええ。そのために、あなた<ruby><rb>方</rb><rt>がた</rt></ruby>の<ruby><rb>精神</rb><rt>せいしん</rt></ruby>を\\n<ruby><rb>肉体</rb><rt>にくたい</rt></ruby>から<ruby><rb>切</rb><rt>き</rt></ruby>り<ruby><rb>離</rb><rt>はな</rt></ruby>します。",
+        "zh_cn": "是的。为此我会\\n将各位的意识和肉体分离。",
+        "zh_tw": "是的。為此，\\n我會將各位的精神從肉體脫離。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0086",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "So I may not be a medical professional,\\nbut I'm pretty sure separating a spirit from\\na body IS HOW YOU KILL SOMEBODY!",
+        "ja_jp": "えっ？　ちょ、ちょっと<ruby><rb>待</rb><rt>ま</rt></ruby>って!?\\n<ruby><rb>精神</rb><rt>せいしん</rt></ruby>を<ruby><rb>肉体</rb><rt>にくたい</rt></ruby>からって……それって\\n<ruby><rb>死</rb><rt>し</rt></ruby>んじゃうみたいなものじゃ……！",
+        "zh_cn": "诶？等、等一下！\\n把意识和肉体分离……\\n那不是和死了一样吗……",
+        "zh_tw": "咦？等、等一下啦！？\\n把精神從肉體脫離……\\n那不就跟死掉一樣了嗎……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0087",
+      "book": ""
+    },
+    {
+      "icon": "100048_01",
+      "name": {
+        "en_us": "Jinlorda",
+        "ja_jp": "ジンローダ",
+        "zh_cn": "芩罗达",
+        "zh_tw": "季恩洛達"
+      },
+      "context": {
+        "en_us": "Worry not. When all is taken care of,\\nyou will be able to return unharmed—\\nso long as your spirits are not eliminated\\nwhile in the world of his mind, that is.",
+        "ja_jp": "ご<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>なく。すべてことが<ruby><rb>済</rb><rt>す</rt></ruby>めば\\n<ruby><rb>戻</rb><rt>もど</rt></ruby>ってこられます。……あちらの<ruby><rb>世界</rb><rt>せかい</rt></ruby>で\\n<ruby><rb>精神</rb><rt>せいしん</rt></ruby>が<ruby><rb>消滅</rb><rt>しょうめつ</rt></ruby>しなければ、ね。",
+        "zh_cn": "不用担心。\\n只要意识没有在那里被毁灭，\\n一切结束之后就还可以回来……",
+        "zh_tw": "不必擔心。等一切都結束之後，\\n就能恢復原狀……前提是精神\\n沒在那邊的世界被消滅，就是了。"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0088",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "I DO NOT LIKE THE CAVEAT AT THE END\\nOF THAT SENTENCE, MAN!",
+        "ja_jp": "なんか、<ruby><rb>不吉</rb><rt>ふきつ</rt></ruby>なこと<ruby><rb>言</rb><rt>い</rt></ruby>ってる～！",
+        "zh_cn": "不要咒我们啊～",
+        "zh_tw": "你那樣說，感覺很觸霉頭耶～！"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0089",
+      "book": ""
+    },
+    {
+      "icon": "100048_01",
+      "name": {
+        "en_us": "Jinlorda",
+        "ja_jp": "ジンローダ",
+        "zh_cn": "芩罗达",
+        "zh_tw": "季恩洛達"
+      },
+      "context": {
+        "en_us": "Now go forth!",
+        "ja_jp": "さあ、<ruby><rb>行</rb><rt>い</rt></ruby>きますよ――！",
+        "zh_cn": "好了，开始吧！",
+        "zh_tw": "好了，我要開始了──！"
+      },
+      "voice": "VO_CHR_MAINSTORY_22_03_0090",
+      "book": ""
+    }
+  ]
 }

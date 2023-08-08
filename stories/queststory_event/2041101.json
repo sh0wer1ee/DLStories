@@ -1,717 +1,1360 @@
 {
-    "story_id": "",
-    "story_name": "金银岛大冒险！序章 藏宝图的诱惑",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "一行人偶然得到了一张藏宝图。\\n为了和刚来圣城的新伙伴增进感情，\\n他们决定前往地图上所标记的岛屿。\\n换上了泳装的一行人兵分三路，\\n开始了寻宝之旅。"
-        ]
+  "title": {
+    "en_us": "A Splash of Adventure  Prologue  Treasure?!",
+    "ja_jp": "トレジャー・アイランド！ プロローグ 宝の地図に誘われて",
+    "zh_cn": "金银岛大冒险！ 序章 藏宝图的诱惑",
+    "zh_tw": "夢幻秘寶‧冒險島嶼！ 序章 來自藏寶圖的邀請"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "太棒了！\\n得到藏宝图啦！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "藏宝图吗……\\n又是那种可疑的东西……",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "别这么说嘛，你快看！\\n瓶子里面有地图哦！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "三张地图上分别画了叉吧？\\n怎么看都是藏宝图！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "藏宝图吗……如果是真的，\\n倒还挺有趣的样子。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "肯定没错！\\n卖古董的大叔也说\\n这是漂流到岸边捡来的！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "把捡到的东西拿来卖……\\n那个古董商能信吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "让我也看看……\\n嚯……这三张都是路易夫岛的地图啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "噢噢！？你知道那里吗，赛丽艾拉！\\n看吧，我就说这地图肯定是真的！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "虽然不知道有没有宝藏……\\n但那座岛是个好地方！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "路易夫岛吗，我也去过。\\n白色的沙滩，美丽的大海……\\n是夏日度假的绝佳去处。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "真的吗！？\\n啊！我也想去那座岛！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "也是，去看看不也挺好的嘛。\\n你说呢，尤蒂尔？",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "城里的伙伴也越来越多，\\n借机增进一下感情也不错啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好啊。既可以寻宝，又可以去海边玩。\\n大家一起去玩个尽兴吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "噢！好开心！\\n谢谢你，尤蒂尔！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "大海吗……真期待啊！长距离游泳，\\n沙滩冲刺，用来锻炼再合适不过了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "嗯，是个好机会！\\n久违地从头锻炼一下你们吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "哈、哈哈……请手下留情。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "朱丽叶，你要一起来吗？\\n同为圣骑士，我们也增进一下感情吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110042_01"
-            ],
-            "speaker_name": "朱丽叶",
-            "context": "姐……不，埃尔菲莉丝\\n要和我增进感情！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110042_01"
-            ],
-            "speaker_name": "朱丽叶",
-            "context": "当然要去！\\n请务必让我同行！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "咦？你不是说这个夏天\\n要去私人海滩吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110042_01"
-            ],
-            "speaker_name": "朱丽叶",
-            "context": "我、我改变主意了！\\n我也要和大家一起享受大海！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "是吗。谢谢，我也很期待。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "还有……维尔莎拉。\\n你呢？",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110269_01"
-            ],
-            "speaker_name": "维尔莎拉",
-            "context": "抱歉……夏天我打算\\n出远门去开占卜店。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "工作吗……那就没办法了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110269_01"
-            ],
-            "speaker_name": "维尔莎拉",
-            "context": "不过，我们要去的好像是同一座岛。\\n空闲的时候说不定可以\\n去你们那边露个脸。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这就足够了！\\n跟我们一起享受大海吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "于是，一行人前往路易夫岛。\\n众人换上泳装，\\n踏上了被炎炎烈日炙烤的沙滩。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "哈哈，水好凉好舒服。\\n现在就游……",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "艾丝蒂尔",
-            "context": "不可以，尤蒂尔！\\n入水之前先要做热身运动！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "艾丝蒂尔",
-            "context": "突然就开始游泳，要是抽筋可就麻烦了。\\n请千万小心！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "也是呢。\\n谢谢你的提醒，艾丝蒂尔。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "不过……有点意外呢。\\n你居然也愿意一起来。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110063_03"
-            ],
-            "speaker_name": "艾丝蒂尔",
-            "context": "我是为了监视你们有没有\\n做什么奇怪的事扰乱风纪。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110063_03"
-            ],
-            "speaker_name": "艾丝蒂尔",
-            "context": "毕竟夏日的阳光\\n容易让人放飞自我。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这样啊，我懂了。\\n我也会注意的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_08"
-            ],
-            "speaker_name": "卢卡",
-            "context": "好！赶紧开始寻宝！\\n地图上的标记全都调查一遍！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "要不大家分头去找\\n地图上标出来的地点？",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_04"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "好啊，我也有点兴趣，\\n就帮你一起调查吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_04"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "地图有三张啊，\\n那这张就先借我一用。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_02"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "我也去！寻宝吗……\\n冒险之中也隐藏着锻炼机会！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110042_03"
-            ],
-            "speaker_name": "朱丽叶",
-            "context": "那、那个，埃尔菲莉丝……\\n我们也去寻宝吧……",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110042_03"
-            ],
-            "speaker_name": "朱丽叶",
-            "context": "两人独处来增进感情什么的……\\n我、我可没有这么想哦！\\n我只是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_14"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "嗯，我懂的。\\n你想帮帮卢卡吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_14"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "虽然我对宝藏没兴趣……但如果是帮忙\\n就另当别论。卢卡，地图借我一用。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_14"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "这是……森林的方向吗。\\n好，我们一起去吧，朱丽叶。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110042_03"
-            ],
-            "speaker_name": "朱丽叶",
-            "context": "好……好的！我们出发吧！\\n姐……埃尔菲莉丝！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_08"
-            ],
-            "speaker_name": "卢卡",
-            "context": "各位……谢啦！\\n啊！要是找到宝藏了就平分吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_08"
-            ],
-            "speaker_name": "卢卡",
-            "context": "那么！我也要大显身手！\\n地图上画的叉……是那边！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "没想到……\\n大家真有精神呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "咦？\\n库菈乌你不去寻宝吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "嗯……不用在意我。\\n我在树荫下休息。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "毕竟为了能随时应对突发事态而待命\\n也是从者的职责。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这样啊，不愧是库菈乌。\\n不过……你穿成这样不热吗？\\n难得来一趟海边，要不要换泳装……",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110063_02"
-            ],
-            "speaker_name": "艾丝蒂尔",
-            "context": "尤蒂尔，这可不行！\\n怎么能强迫女孩子穿泳装！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110063_02"
-            ],
-            "speaker_name": "艾丝蒂尔",
-            "context": "啊！莫非……\\n你是有所企图才来海边的！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "咦！？不不，不是这样的！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "不过艾丝蒂尔，\\n那个不管没问题吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110063_03"
-            ],
-            "speaker_name": "艾丝蒂尔",
-            "context": "诶？你说的那个是指……",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_08"
-            ],
-            "speaker_name": "卢卡",
-            "context": "唔……不是这里吗。\\n那接下来就挖那边试试！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110063_03"
-            ],
-            "speaker_name": "艾丝蒂尔",
-            "context": "啊啊！？沙滩上全是洞？",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110063_02"
-            ],
-            "speaker_name": "艾丝蒂尔",
-            "context": "我说，你这是在做什么啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_08"
-            ],
-            "speaker_name": "卢卡",
-            "context": "嗯？做什么，当然是寻宝啊。\\n沙子里也可能埋着宝藏吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110063_03"
-            ],
-            "speaker_name": "艾丝蒂尔",
-            "context": "挖完请把洞填上！\\n这很危险的啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_08"
-            ],
-            "speaker_name": "卢卡",
-            "context": "喔……说得也对啊。\\n抱歉抱歉，我会填上的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110063_03"
-            ],
-            "speaker_name": "艾丝蒂尔",
-            "context": "没错！寻宝倒是无妨，\\n但是也要适度！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110063_03"
-            ],
-            "speaker_name": "艾丝蒂尔",
-            "context": "真是的……你这副样子，\\n真让人担心其他人都在做些什么。\\n我去看看情况！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_08"
-            ],
-            "speaker_name": "卢卡",
-            "context": "呜……艾丝蒂尔好严厉啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "哈哈……不过那也正是\\n她的温柔之处吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_08"
-            ],
-            "speaker_name": "卢卡",
-            "context": "温、温柔？你说那是温柔……",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "是啊。她一定是在担心\\n大家会不会遇到什么危险……",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110063_03"
-            ],
-            "speaker_name": "艾丝蒂尔",
-            "context": "尤蒂尔？\\n你在干什么呢？快点过来！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "诶，我也要去吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110063_03"
-            ],
-            "speaker_name": "艾丝蒂尔",
-            "context": "那当然！圣城各位的行为\\n自然要由你这个城主来负责！",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_03"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "要这么说的话，也没办法……\\n好，我这就去。",
-            "voice_line": "VO_CHR_EVENTSTORY_20411_01_0077",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "When the group finds several treasure maps\\nleading to a tropical island, they decide to make\\na party out of it and immediately head out.\\nAfter a quick swimsuit change, they split into\\nthree groups and begin the hunt in earnest.",
+      "ja_jp": "<ruby><rb>宝</rb><rt>たから</rt></ruby>の<ruby><rb>地図</rb><rt>ちず</rt></ruby>を<ruby><rb>手</rb><rt>て</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>れた<ruby><rb>一行</rb><rt>いっこう</rt></ruby>。\\n<ruby><rb>城</rb><rt>しろ</rt></ruby>の<ruby><rb>仲間</rb><rt>なかま</rt></ruby>たちと<ruby><rb>親睦</rb><rt>しんぼく</rt></ruby>を<ruby><rb>深</rb><rt>ふか</rt></ruby>めるため、\\n<ruby><rb>地図</rb><rt>ちず</rt></ruby>に<ruby><rb>記</rb><rt>しる</rt></ruby>された<ruby><rb>島</rb><rt>しま</rt></ruby>へと<ruby><rb>行</rb><rt>い</rt></ruby>くことに。\\n<ruby><rb>水着</rb><rt>みずぎ</rt></ruby>に<ruby><rb>着替</rb><rt>きが</rt></ruby>えた<ruby><rb>一行</rb><rt>いっこう</rt></ruby>は、3<ruby><rb>組</rb><rt>くみ</rt></ruby>に<ruby><rb>分</rb><rt>わ</rt></ruby>かれて\\n<ruby><rb>宝探</rb><rt>たからさが</rt></ruby>しを<ruby><rb>始</rb><rt>はじ</rt></ruby>める。",
+      "zh_cn": "一行人偶然得到了一张藏宝图。\\n为了和刚来圣城的新伙伴增进感情，\\n他们决定前往地图上所标记的岛屿。\\n换上了泳装的一行人兵分三路，\\n开始了寻宝之旅。",
+      "zh_tw": "得到藏寶圖的一行人。\\n為了與城裡的夥伴們增進情誼，\\n於是決定前往地圖上所記載的島嶼。\\n眾人換上泳裝後，\\n便分成三組出發尋找寶藏。"
+    }
+  },
+  "prev": "",
+  "next": "2041102",
+  "content": [
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Noice! Looks like we got ourselves\\nsome treasure maps!",
+        "ja_jp": "やったーっ！\\n<ruby><rb>宝</rb><rt>たから</rt></ruby>の<ruby><rb>地図</rb><rt>ちず</rt></ruby>を<ruby><rb>手</rb><rt>て</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>れたぜ！",
+        "zh_cn": "太棒了！\\n得到藏宝图啦！",
+        "zh_tw": "太棒啦──！\\n我拿到藏寶圖囉！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0001",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Well, there's certainly nothing at all\\nsuspicious about this.",
+        "ja_jp": "<ruby><rb>宝</rb><rt>たから</rt></ruby>の<ruby><rb>地図</rb><rt>ちず</rt></ruby>……ですか？\\nまたそんな、<ruby><rb>怪</rb><rt>あや</rt></ruby>しげな<ruby><rb>物</rb><rt>もの</rt></ruby>を……。",
+        "zh_cn": "藏宝图吗……\\n又是那种可疑的东西……",
+        "zh_tw": "藏寶圖……是嗎？\\n又是那種可疑的東西……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0002",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "I found 'em inside a bottle, Cleo.\\nA BOTTLE!",
+        "ja_jp": "まあまあ、そう<ruby><rb>言</rb><rt>い</rt></ruby>わずに<ruby><rb>見</rb><rt>み</rt></ruby>てくれ！\\nほら、<ruby><rb>瓶</rb><rt>びん</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>に<ruby><rb>地図</rb><rt>ちず</rt></ruby>が<ruby><rb>入</rb><rt>はい</rt></ruby>ってんだよ！",
+        "zh_cn": "别这么说嘛，你快看！\\n瓶子里面有地图哦！",
+        "zh_tw": "哎呀，先別那麼說嘛！\\n妳看，瓶子裡裝著地圖喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0003",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Three maps marked with Xs inside an\\nold bottle? What else could they be?!",
+        "ja_jp": "3<ruby><rb>枚</rb><rt>まい</rt></ruby>の<ruby><rb>地図</rb><rt>ちず</rt></ruby>に、それぞれバツ<ruby><rb>印</rb><rt>じるし</rt></ruby>が\\nあるだろ？　どう<ruby><rb>見</rb><rt>み</rt></ruby>ても<ruby><rb>宝</rb><rt>たから</rt></ruby>の<ruby><rb>地図</rb><rt>ちず</rt></ruby>だぜ！",
+        "zh_cn": "三张地图上分别画了叉吧？\\n怎么看都是藏宝图！",
+        "zh_tw": "在這三張地圖上，\\n分別都有標記叉叉符號對吧？\\n這不管怎麼看都是藏寶圖啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0004",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "It would be fun if it were true,\\nbut I think I'm with Cleo here.",
+        "ja_jp": "<ruby><rb>宝</rb><rt>たから</rt></ruby>の<ruby><rb>地図</rb><rt>ちず</rt></ruby>、か……。<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>にそうなら、\\nおもしろそうだけど。",
+        "zh_cn": "藏宝图吗……如果是真的，\\n倒还挺有趣的样子。",
+        "zh_tw": "藏寶圖啊……\\n如果是真的，似乎會蠻有趣就是了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0005",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Guys, I got 'em from an old antiques\\ndealer who said he picked the bottle up\\non the shore. What else do you need?!",
+        "ja_jp": "まちがいないって！　これは<ruby><rb>浜辺</rb><rt>はまべ</rt></ruby>に\\n<ruby><rb>流</rb><rt>なが</rt></ruby>れ<ruby><rb>着</rb><rt>つ</rt></ruby>いたものを<ruby><rb>拾</rb><rt>ひろ</rt></ruby>ったって、\\n<ruby><rb>古物商</rb><rt>こぶつしょう</rt></ruby>のオヤジも<ruby><rb>言</rb><rt>い</rt></ruby>ってたからな！",
+        "zh_cn": "肯定没错！\\n卖古董的大叔也说\\n这是漂流到岸边捡来的！",
+        "zh_tw": "不會錯啦！\\n這是漂流到海邊被撿回來的，\\n骨董店老闆也這樣跟我說了啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0006",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "You are putting your trust in a peddler\\nwho sold you something that was just\\nlying on the ground?",
+        "ja_jp": "<ruby><rb>拾</rb><rt>ひろ</rt></ruby>ったものを<ruby><rb>売</rb><rt>う</rt></ruby>り<ruby><rb>物</rb><rt>もの</rt></ruby>に……？\\nその<ruby><rb>古物商</rb><rt>こぶつしょう</rt></ruby>、<ruby><rb>信用</rb><rt>しんよう</rt></ruby>できるのか？",
+        "zh_cn": "把捡到的东西拿来卖……\\n那个古董商能信吗？",
+        "zh_tw": "把撿到的東西當商品賣……？\\n那家骨董店能相信嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0007",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "Give those here, Luca. ...Well, I'll be.\\nThese are maps of Lewis Island.",
+        "ja_jp": "どれ、<ruby><rb>私</rb><rt>わたし</rt></ruby>にも<ruby><rb>見</rb><rt>み</rt></ruby>せてみろ。……ほほう。\\nこの3<ruby><rb>枚</rb><rt>まい</rt></ruby>みんな、ルイフ<ruby><rb>島</rb><rt>とう</rt></ruby>の<ruby><rb>地図</rb><rt>ちず</rt></ruby>だな。",
+        "zh_cn": "让我也看看……\\n嚯……这三张都是路易夫岛的地图啊。",
+        "zh_tw": "哪個，也讓我看看吧。\\n……喔喔，\\n這三張都是路伊弗島的地圖耶。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0008",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "YOU SEE?! Celliera knows the score!\\nSo if you don't wanna trust me,\\nyou should at least trust her.",
+        "ja_jp": "おおっ!?　<ruby><rb>知</rb><rt>し</rt></ruby>ってるのか、セリエラ！\\nほら、ぜってー<ruby><rb>地図</rb><rt>ちず</rt></ruby>は<ruby><rb>本物</rb><rt>ほんもの</rt></ruby>だって！",
+        "zh_cn": "噢噢！？你知道那里吗，赛丽艾拉！\\n看吧，我就说这地图肯定是真的！",
+        "zh_tw": "喔喔！？妳知道啊，榭葉拉！\\n看吧，我就說這絕對是真的藏寶圖！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0009",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "I make no claims as to the veracity of the\\ntreasure portion, but it IS a lovely place.",
+        "ja_jp": "まあ、<ruby><rb>宝</rb><rt>たから</rt></ruby>があるかはわからないが……\\nあの<ruby><rb>島</rb><rt>しま</rt></ruby>は、いいところだったぞ！",
+        "zh_cn": "虽然不知道有没有宝藏……\\n但那座岛是个好地方！",
+        "zh_tw": "嗯，我是不知道有沒有寶藏啦……\\n但那座島是個好地方喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0010",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Lewis Island? Hell, I love that place!\\nNothin' but white sand and blue skies,\\nfar as the eye can see.",
+        "ja_jp": "ルイフ<ruby><rb>島</rb><rt>とう</rt></ruby>か。<ruby><rb>俺</rb><rt>おれ</rt></ruby>も<ruby><rb>行</rb><rt>い</rt></ruby>ったことあるぜ。\\n<ruby><rb>白</rb><rt>しろ</rt></ruby>い<ruby><rb>砂浜</rb><rt>すなはま</rt></ruby>に、きれいな<ruby><rb>海</rb><rt>うみ</rt></ruby>……。\\n<ruby><rb>夏</rb><rt>なつ</rt></ruby>に<ruby><rb>遊</rb><rt>あそ</rt></ruby>びに<ruby><rb>行</rb><rt>い</rt></ruby>くには、<ruby><rb>絶好</rb><rt>ぜっこう</rt></ruby>の<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>だ。",
+        "zh_cn": "路易夫岛吗，我也去过。\\n白色的沙滩，美丽的大海……\\n是夏日度假的绝佳去处。",
+        "zh_tw": "路伊弗島啊，我也有去過喔。\\n純白的沙灘，美麗的大海……\\n是夏日出遊的最佳場所。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0011",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "I wanna goooooo!",
+        "ja_jp": "マジか!?　くーっ！　オレもその<ruby><rb>島</rb><rt>しま</rt></ruby>に\\n<ruby><rb>行</rb><rt>い</rt></ruby>きてーよ！",
+        "zh_cn": "真的吗！？\\n啊！我也想去那座岛！",
+        "zh_tw": "真的嗎！？唔──！\\n我也好想去那座島喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0012",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Actually, that ain't a bad idea. \\nWhaddya think, boss?",
+        "ja_jp": "そうだな。いいんじゃねぇか。\\nなあ、ユーディル？",
+        "zh_cn": "也是，去看看不也挺好的嘛。\\n你说呢，尤蒂尔？",
+        "zh_tw": "說得也是。那也不錯啊，\\n對吧，尤帝爾？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0013",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "We've got a boatload'a new pals floatin'\\naround the castle these days, so a little\\nteam bondin' on a tropical island might\\nbe good for everybody.",
+        "ja_jp": "<ruby><rb>城</rb><rt>しろ</rt></ruby>の<ruby><rb>仲間</rb><rt>なかま</rt></ruby>も<ruby><rb>増</rb><rt>ふ</rt></ruby>えてきたしな。\\nここらで<ruby><rb>親睦</rb><rt>しんぼく</rt></ruby>を<ruby><rb>深</rb><rt>ふか</rt></ruby>めるのも<ruby><rb>悪</rb><rt>わる</rt></ruby>くねぇ。",
+        "zh_cn": "城里的伙伴也越来越多，\\n借机增进一下感情也不错啊。",
+        "zh_tw": "況且城裡的夥伴也增加了嘛。\\n利用這個機會交流一下感情也不壞。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0014",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Well, even if the treasure doesn't pan\\nout, I won't say no to a little vacation\\non a sunny beach.",
+        "ja_jp": "いいね。<ruby><rb>宝</rb><rt>たから</rt></ruby>を<ruby><rb>探</rb><rt>さが</rt></ruby>すもよし、<ruby><rb>海</rb><rt>うみ</rt></ruby>で\\n<ruby><rb>遊</rb><rt>あそ</rt></ruby>ぶもよし。みんなで<ruby><rb>楽</rb><rt>たの</rt></ruby>しもう！",
+        "zh_cn": "好啊。既可以寻宝，又可以去海边玩。\\n大家一起去玩个尽兴吧！",
+        "zh_tw": "好啊。要尋寶也好，\\n或是到海邊玩也可以。\\n大家一起放鬆玩耍吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0015",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "An excellent plan!",
+        "ja_jp": "おお！　それはうれしいぞ！\\nありがとう、ユーディル！",
+        "zh_cn": "噢！好开心！\\n谢谢你，尤蒂尔！",
+        "zh_tw": "喔喔！那真是太讓人開心了！\\n謝謝你，尤帝爾！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0016",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "We can run marathon sprints on the wet\\nsand and follow that up with a few rounds\\nof ocean squat thrusts!",
+        "ja_jp": "<ruby><rb>海</rb><rt>うみ</rt></ruby>か……<ruby><rb>楽</rb><rt>たの</rt></ruby>しみだ！　<ruby><rb>遠泳</rb><rt>えんえい</rt></ruby>に、\\n<ruby><rb>砂浜</rb><rt>すなはま</rt></ruby>ダッシュ、<ruby><rb>鍛錬</rb><rt>たんれん</rt></ruby>には<ruby><rb>事欠</rb><rt>ことか</rt></ruby>かない！",
+        "zh_cn": "大海吗……真期待啊！长距离游泳，\\n沙滩冲刺，用来锻炼再合适不过了！",
+        "zh_tw": "海邊嗎……真期待啊！\\n長泳跟沙灘衝刺，\\n完全不必擔心缺少鍛鍊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0017",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "It'll be like a reboot of everyone's training!",
+        "ja_jp": "うむ、いい<ruby><rb>機会</rb><rt>きかい</rt></ruby>だ！　<ruby><rb>久々</rb><rt>ひさびさ</rt></ruby>にお<ruby><rb>前</rb><rt>まえ</rt></ruby>たちを\\nイチから<ruby><rb>鍛</rb><rt>きた</rt></ruby>え<ruby><rb>直</rb><rt>なお</rt></ruby>してやろう！",
+        "zh_cn": "嗯，是个好机会！\\n久违地从头锻炼一下你们吧！",
+        "zh_tw": "嗯，這是個好機會！\\n我就來久違地將你們\\n從頭好好鍛鍊一番吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0018",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Heh. Just try not to run us\\ninto the ground, all right?",
+        "ja_jp": "は、はは……。お<ruby><rb>手</rb><rt>て</rt></ruby><ruby><rb>柔</rb><rt>やわ</rt></ruby>らかに<ruby><rb>頼</rb><rt>たの</rt></ruby>むよ。",
+        "zh_cn": "哈、哈哈……请手下留情。",
+        "zh_tw": "哈、哈哈……還請妳手下留情喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0019",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "You should join us, Julietta. As fellow\\nPaladyns, this will be a perfect chance\\nfor us to learn more about each other.",
+        "ja_jp": "ジュリエッタ、お<ruby><rb>前</rb><rt>まえ</rt></ruby>も<ruby><rb>来</rb><rt>こ</rt></ruby>ないか？\\n<ruby><rb>同</rb><rt>おな</rt></ruby>じ<ruby><rb>聖騎士</rb><rt>せいきし</rt></ruby>として、<ruby><rb>親睦</rb><rt>しんぼく</rt></ruby>を<ruby><rb>深</rb><rt>ふか</rt></ruby>めよう。",
+        "zh_cn": "朱丽叶，你要一起来吗？\\n同为圣骑士，我们也增进一下感情吧。",
+        "zh_tw": "朱莉葉塔，妳要不要也一起來？\\n同樣身為聖騎士，\\n讓我們增進彼此的感情吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0020",
+      "book": ""
+    },
+    {
+      "icon": "110042_01",
+      "name": {
+        "en_us": "Julietta",
+        "ja_jp": "ジュリエッタ",
+        "zh_cn": "朱丽叶",
+        "zh_tw": "朱莉葉塔"
+      },
+      "context": {
+        "en_us": "You want to get to know me better,\\nElly?! ...Er, I mean, Elisanne!",
+        "ja_jp": "お<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さ……いえ、エルフィリスさんが、\\nワタクシと<ruby><rb>親睦</rb><rt>しんぼく</rt></ruby>を……!?",
+        "zh_cn": "姐……不，埃尔菲莉丝\\n要和我增进感情！？",
+        "zh_tw": "姐姐大……不對，耶魯菲莉絲小姐\\n想與我增進感情……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0021",
+      "book": ""
+    },
+    {
+      "icon": "110042_01",
+      "name": {
+        "en_us": "Julietta",
+        "ja_jp": "ジュリエッタ",
+        "zh_cn": "朱丽叶",
+        "zh_tw": "朱莉葉塔"
+      },
+      "context": {
+        "en_us": "Well, of COURSE I will go!",
+        "ja_jp": "もちろん<ruby><rb>行</rb><rt>い</rt></ruby>きますわ！　ぜひとも\\nご<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>させてください！",
+        "zh_cn": "当然要去！\\n请务必让我同行！",
+        "zh_tw": "當然要去！\\n請務必讓我同行！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0022",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I thought you were going to spend the\\nsummer at a private beach?",
+        "ja_jp": "あれ？　この<ruby><rb>夏</rb><rt>なつ</rt></ruby>はプライベートビーチに\\n<ruby><rb>行</rb><rt>い</rt></ruby>くって、<ruby><rb>言</rb><rt>い</rt></ruby>ってなかった？",
+        "zh_cn": "咦？你不是说这个夏天\\n要去私人海滩吗？",
+        "zh_tw": "咦？妳不是說，\\n這個夏天要去私人海灘嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0023",
+      "book": ""
+    },
+    {
+      "icon": "110042_01",
+      "name": {
+        "en_us": "Julietta",
+        "ja_jp": "ジュリエッタ",
+        "zh_cn": "朱丽叶",
+        "zh_tw": "朱莉葉塔"
+      },
+      "context": {
+        "en_us": "I...I've changed my mind!",
+        "ja_jp": "き、<ruby><rb>気</rb><rt>き</rt></ruby>が<ruby><rb>変</rb><rt>か</rt></ruby>わりましたの！　ワタクシも\\nみなさんと<ruby><rb>海</rb><rt>うみ</rt></ruby>を<ruby><rb>楽</rb><rt>たの</rt></ruby>しみますわ！",
+        "zh_cn": "我、我改变主意了！\\n我也要和大家一起享受大海！",
+        "zh_tw": "我、我改變心意了！\\n我也要和大家一起享受海灘！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0024",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Good! I know we will have a most\\ndelightful time.",
+        "ja_jp": "そうか。ありがとう、<ruby><rb>私</rb><rt>わたし</rt></ruby>も<ruby><rb>楽</rb><rt>たの</rt></ruby>しみだ。",
+        "zh_cn": "是吗。谢谢，我也很期待。",
+        "zh_tw": "這樣啊。\\n謝謝妳，我也很期待喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0025",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I guess that just leaves you, Verica.",
+        "ja_jp": "あとは……ウェルシェラ。\\nきみはどうかな？",
+        "zh_cn": "还有……维尔莎拉。\\n你呢？",
+        "zh_tw": "還有……薇兒謝拉。\\n妳呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0026",
+      "book": ""
+    },
+    {
+      "icon": "110269_01",
+      "name": {
+        "en_us": "Verica",
+        "ja_jp": "ウェルシェラ",
+        "zh_cn": "维尔莎拉",
+        "zh_tw": "薇兒謝拉"
+      },
+      "context": {
+        "en_us": "I'll have to pass—I have plans to go on a\\nlong trip and open a divination stand.",
+        "ja_jp": "……すみません。<ruby><rb>夏</rb><rt>なつ</rt></ruby>は、<ruby><rb>遠出</rb><rt>とおで</rt></ruby>して\\n<ruby><rb>占</rb><rt>うらな</rt></ruby>いの<ruby><rb>店</rb><rt>みせ</rt></ruby>を<ruby><rb>開</rb><rt>ひら</rt></ruby>く<ruby><rb>予定</rb><rt>よてい</rt></ruby>がありまして。",
+        "zh_cn": "抱歉……夏天我打算\\n出远门去开占卜店。",
+        "zh_tw": "……抱歉，夏天我預定出趟遠門，\\n要去開一間占卜店。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0027",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Duty calls, eh? I understand.",
+        "ja_jp": "<ruby><rb>仕事</rb><rt>しごと</rt></ruby>か……。それじゃあ<ruby><rb>仕方</rb><rt>しかた</rt></ruby>ないな。",
+        "zh_cn": "工作吗……那就没办法了。",
+        "zh_tw": "工作啊……那就沒辦法了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0028",
+      "book": ""
+    },
+    {
+      "icon": "110269_01",
+      "name": {
+        "en_us": "Verica",
+        "ja_jp": "ウェルシェラ",
+        "zh_cn": "维尔莎拉",
+        "zh_tw": "薇兒謝拉"
+      },
+      "context": {
+        "en_us": "That said, I was actually planning to go\\nto that very island, so I'll try to stop by\\nduring any free time I might have.",
+        "ja_jp": "ですが、<ruby><rb>行先</rb><rt>ゆきさき</rt></ruby>は<ruby><rb>同</rb><rt>おな</rt></ruby>じ<ruby><rb>島</rb><rt>しま</rt></ruby>のようですね。\\n<ruby><rb>空</rb><rt>あ</rt></ruby>いた<ruby><rb>時間</rb><rt>じかん</rt></ruby>に、そちらへ<ruby><rb>顔</rb><rt>かお</rt></ruby>を<ruby><rb>出</rb><rt>だ</rt></ruby>すくらい\\nなら、できるかもしれません。",
+        "zh_cn": "不过，我们要去的好像是同一座岛。\\n空闲的时候说不定可以\\n去你们那边露个脸。",
+        "zh_tw": "不過，我要去的地方似乎就在\\n同一座島上。空閒的時候，\\n也許我可以去稍微露個面。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0029",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "That would be great!",
+        "ja_jp": "それでも<ruby><rb>十分</rb><rt>じゅうぶん</rt></ruby>だよ！　ウェルシェラも\\nいっしょに、<ruby><rb>海</rb><rt>うみ</rt></ruby>を<ruby><rb>楽</rb><rt>たの</rt></ruby>しもう！",
+        "zh_cn": "这就足够了！\\n跟我们一起享受大海吧！",
+        "zh_tw": "那樣也很足夠了！\\n薇兒謝拉也和我們一起享受大海吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0030",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "After changing into swimsuits, the group made\\ntheir way to sunny Lewis Island and headed\\nstraight for the beach.",
+        "ja_jp": "こうして、<ruby><rb>一行</rb><rt>いっこう</rt></ruby>はルイフ<ruby><rb>島</rb><rt>とう</rt></ruby>へ。\\n<ruby><rb>水着</rb><rt>みずぎ</rt></ruby>に<ruby><rb>着替</rb><rt>きが</rt></ruby>え、<ruby><rb>熱</rb><rt>あつ</rt></ruby>い<ruby><rb>陽射</rb><rt>ひざ</rt></ruby>しに\\n<ruby><rb>照</rb><rt>て</rt></ruby>らされた<ruby><rb>砂浜</rb><rt>すなはま</rt></ruby>を<ruby><rb>踏</rb><rt>ふ</rt></ruby>みしめるのだった。",
+        "zh_cn": "于是，一行人前往路易夫岛。\\n众人换上泳装，\\n踏上了被炎炎烈日炙烤的沙滩。",
+        "zh_tw": "就這樣，一行人前往了路伊弗島。\\n換上泳裝，踏上艷陽高照的沙灘。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Oh wow, this water is perfect.\\nWho's up for a swim?!",
+        "ja_jp": "はは。<ruby><rb>水</rb><rt>みず</rt></ruby>が<ruby><rb>冷</rb><rt>つめ</rt></ruby>たくて<ruby><rb>気持</rb><rt>きも</rt></ruby>ちいいや。\\nこのまま<ruby><rb>泳</rb><rt>およ</rt></ruby>いで――",
+        "zh_cn": "哈哈，水好凉好舒服。\\n现在就游……",
+        "zh_tw": "哈哈。海水好涼好舒服喔！\\n就這樣游到──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0031",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Estelle",
+        "ja_jp": "エステル",
+        "zh_cn": "艾丝蒂尔",
+        "zh_tw": "愛思蒂兒"
+      },
+      "context": {
+        "en_us": "Stop right there! You must warm up\\nproperly before entering the water!",
+        "ja_jp": "いけません、ユーディル！\\n<ruby><rb>水</rb><rt>みず</rt></ruby>に<ruby><rb>入</rb><rt>はい</rt></ruby>る<ruby><rb>前</rb><rt>まえ</rt></ruby>は、<ruby><rb>準備運動</rb><rt>じゅんびうんどう</rt></ruby>です！",
+        "zh_cn": "不可以，尤蒂尔！\\n入水之前先要做热身运动！",
+        "zh_tw": "不可以，尤帝爾！\\n下水之前要先做暖身運動！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0032",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Estelle",
+        "ja_jp": "エステル",
+        "zh_cn": "艾丝蒂尔",
+        "zh_tw": "愛思蒂兒"
+      },
+      "context": {
+        "en_us": "If you dive right in and get a cramp,\\nit could be curtains! ...CURTAINS!",
+        "ja_jp": "<ruby><rb>急</rb><rt>きゅう</rt></ruby>に<ruby><rb>泳</rb><rt>およ</rt></ruby>いで、<ruby><rb>足</rb><rt>あし</rt></ruby>がつったら<ruby><rb>大変</rb><rt>たいへん</rt></ruby>ですよ!?\\n<ruby><rb>気</rb><rt>き</rt></ruby>をつけてください！",
+        "zh_cn": "突然就开始游泳，要是抽筋可就麻烦了。\\n请千万小心！",
+        "zh_tw": "突然下水游泳，\\n要是腳抽筋可就糟糕囉！？\\n請你小心一點！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0033",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Thanks for the warning, Estelle.",
+        "ja_jp": "それもそうだね。<ruby><rb>注意</rb><rt>ちゅうい</rt></ruby>してくれて\\nありがとう、エステル。",
+        "zh_cn": "也是呢。\\n谢谢你的提醒，艾丝蒂尔。",
+        "zh_tw": "說得也是。\\n謝謝妳提醒我，愛思蒂兒。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0034",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You know, I'm actually sort of surprised\\nyou agreed to come with us.",
+        "ja_jp": "……でも、ちょっと<ruby><rb>意外</rb><rt>いがい</rt></ruby>だな。\\nきみもいっしょに<ruby><rb>来</rb><rt>き</rt></ruby>てくれるなんて。",
+        "zh_cn": "不过……有点意外呢。\\n你居然也愿意一起来。",
+        "zh_tw": "……但是，我有點意外呢。\\n沒想到妳會願意一起來。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0035",
+      "book": ""
+    },
+    {
+      "icon": "110063_03",
+      "name": {
+        "en_us": "Estelle",
+        "ja_jp": "エステル",
+        "zh_cn": "艾丝蒂尔",
+        "zh_tw": "愛思蒂兒"
+      },
+      "context": {
+        "en_us": "Someone needs to ensure that you\\nall remain on your best behavior\\nand don't engage in any strange\\nor indecent activities!",
+        "ja_jp": "あなたたちが<ruby><rb>変</rb><rt>へん</rt></ruby>なことをして、<ruby><rb>風紀</rb><rt>ふうき</rt></ruby>を\\n<ruby><rb>乱</rb><rt>みだ</rt></ruby>さないか、しっかり<ruby><rb>見張</rb><rt>みは</rt></ruby>るためです。",
+        "zh_cn": "我是为了监视你们有没有\\n做什么奇怪的事扰乱风纪。",
+        "zh_tw": "我是要來好好監視你們，\\n看有沒有做些奇怪的事擾亂風紀。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0036",
+      "book": ""
+    },
+    {
+      "icon": "110063_03",
+      "name": {
+        "en_us": "Estelle",
+        "ja_jp": "エステル",
+        "zh_cn": "艾丝蒂尔",
+        "zh_tw": "愛思蒂兒"
+      },
+      "context": {
+        "en_us": "The summer sun often makes people\\nlose all sense of decorum and discretion.",
+        "ja_jp": "<ruby><rb>夏</rb><rt>なつ</rt></ruby>の<ruby><rb>陽射</rb><rt>ひざ</rt></ruby>しは<ruby><rb>人</rb><rt>ひと</rt></ruby>を<ruby><rb>開放的</rb><rt>かいほうてき</rt></ruby>にして、\\n<ruby><rb>羽目</rb><rt>はめ</rt></ruby>を<ruby><rb>外</rb><rt>はず</rt></ruby>させてしまいますからね。",
+        "zh_cn": "毕竟夏日的阳光\\n容易让人放飞自我。",
+        "zh_tw": "因為盛夏陽光會讓人變得大膽，\\n接著就會大肆喧鬧呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0037",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Gotcha. I'll be careful too.",
+        "ja_jp": "そうか、わかった。\\nおれも<ruby><rb>気</rb><rt>き</rt></ruby>をつけるよ。",
+        "zh_cn": "这样啊，我懂了。\\n我也会注意的。",
+        "zh_tw": "這樣啊，我明白了。\\n我自己也會多注意的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0038",
+      "book": ""
+    },
+    {
+      "icon": "100006_08",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Enough chatter! Let's make with the\\ntreasure huntin' already!",
+        "ja_jp": "よーし！　さっそく<ruby><rb>宝探</rb><rt>たからさが</rt></ruby>しだ！\\n<ruby><rb>地図</rb><rt>ちず</rt></ruby>の<ruby><rb>印</rb><rt>しるし</rt></ruby>を<ruby><rb>片</rb><rt>かた</rt></ruby>っ<ruby><rb>端</rb><rt>ぱし</rt></ruby>から<ruby><rb>調</rb><rt>しら</rt></ruby>べてやる！",
+        "zh_cn": "好！赶紧开始寻宝！\\n地图上的标记全都调查一遍！",
+        "zh_tw": "好～！我們快點來尋寶吧！\\n把地圖上的標記全都調查一遍！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0039",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Well, we have three maps here,\\nso maybe we should split into\\nthree teams and check each one.",
+        "ja_jp": "なら、みんなで<ruby><rb>手分</rb><rt>てわ</rt></ruby>けして、<ruby><rb>地図</rb><rt>ちず</rt></ruby>の\\n<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>を<ruby><rb>調</rb><rt>しら</rt></ruby>べないか？",
+        "zh_cn": "要不大家分头去找\\n地图上标出来的地点？",
+        "zh_tw": "既然如此，不如大家分頭\\n去調查地圖上的地方吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0040",
+      "book": ""
+    },
+    {
+      "icon": "100003_04",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Now THAT sounds like a plan!",
+        "ja_jp": "よしきた。<ruby><rb>俺</rb><rt>おれ</rt></ruby>もちょいと<ruby><rb>興味</rb><rt>きょうみ</rt></ruby>あった\\nからな。<ruby><rb>調</rb><rt>しら</rt></ruby>べてきてやるよ。",
+        "zh_cn": "好啊，我也有点兴趣，\\n就帮你一起调查吧。",
+        "zh_tw": "就這麼決定了。\\n其實我也有點興趣，\\n就來幫忙調查吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0041",
+      "book": ""
+    },
+    {
+      "icon": "100003_04",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "I'll take this one. ...Yoink!",
+        "ja_jp": "<ruby><rb>地図</rb><rt>ちず</rt></ruby>は3<ruby><rb>枚</rb><rt>まい</rt></ruby>だったな。じゃ、この1<ruby><rb>枚</rb><rt>まい</rt></ruby>を\\n<ruby><rb>借</rb><rt>か</rt></ruby>りてくぜ。",
+        "zh_cn": "地图有三张啊，\\n那这张就先借我一用。",
+        "zh_tw": "地圖有三張吧，\\n那這張我就借走囉。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0042",
+      "book": ""
+    },
+    {
+      "icon": "110255_02",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "I'm sure I can come up with ample\\ntraining opportunities even in the\\nmidst of such an adventure.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>も<ruby><rb>行</rb><rt>い</rt></ruby>くぞ！　<ruby><rb>宝探</rb><rt>たからさが</rt></ruby>しか……！\\n<ruby><rb>冒険</rb><rt>ぼうけん</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>にも<ruby><rb>鍛錬</rb><rt>たんれん</rt></ruby>ありだ！",
+        "zh_cn": "我也去！寻宝吗……\\n冒险之中也隐藏着锻炼机会！",
+        "zh_tw": "我也要去！尋寶啊……！\\n冒險途中也能當作鍛鍊呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0043",
+      "book": ""
+    },
+    {
+      "icon": "110042_03",
+      "name": {
+        "en_us": "Julietta",
+        "ja_jp": "ジュリエッタ",
+        "zh_cn": "朱丽叶",
+        "zh_tw": "朱莉葉塔"
+      },
+      "context": {
+        "en_us": "U-um, Elisanne?\\nPerhaps you would like to go\\ntreasure-hunting...together?",
+        "ja_jp": "あ、あの、エルフィリスさん……。\\nワタクシたちも、<ruby><rb>宝探</rb><rt>たからさが</rt></ruby>しに……。",
+        "zh_cn": "那、那个，埃尔菲莉丝……\\n我们也去寻宝吧……",
+        "zh_tw": "那、那個，耶魯菲莉絲小姐……\\n我們要不要、也去尋寶……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0044",
+      "book": ""
+    },
+    {
+      "icon": "110042_03",
+      "name": {
+        "en_us": "Julietta",
+        "ja_jp": "ジュリエッタ",
+        "zh_cn": "朱丽叶",
+        "zh_tw": "朱莉葉塔"
+      },
+      "context": {
+        "en_us": "Purely to help Luca, of course. CERTAINLY\\nnot because I hope to grow closer to you\\nin the process. Er, that is...",
+        "ja_jp": "あわよくばふたりきりで<ruby><rb>親睦</rb><rt>しんぼく</rt></ruby>を……とか\\nそ、そんなことは<ruby><rb>思</rb><rt>おも</rt></ruby>ってませんのよ？\\nワタクシは、ただ……。",
+        "zh_cn": "两人独处来增进感情什么的……\\n我、我可没有这么想哦！\\n我只是……",
+        "zh_tw": "趁這個機會兩人單獨增進感情……\\n什麼的，我、我可沒那麼想喔？\\n我、只是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0045",
+      "book": ""
+    },
+    {
+      "icon": "100002_14",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "I completely understand.",
+        "ja_jp": "ああ、わかっている。リュカの<ruby><rb>手助</rb><rt>てだす</rt></ruby>けを\\nしたいんだろう？",
+        "zh_cn": "嗯，我懂的。\\n你想帮帮卢卡吧？",
+        "zh_tw": "嗯，我知道。\\n妳是想幫助琉卡對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0046",
+      "book": ""
+    },
+    {
+      "icon": "100002_14",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "While I have little interest in treasure,\\nI am always prepared to aid a friend.\\nMight I take one of the maps, Luca?",
+        "ja_jp": "<ruby><rb>宝</rb><rt>たから</rt></ruby>に<ruby><rb>興味</rb><rt>きょうみ</rt></ruby>はないが……そういうことなら\\n<ruby><rb>話</rb><rt>はなし</rt></ruby>は<ruby><rb>別</rb><rt>べつ</rt></ruby>だ。リュカ、<ruby><rb>地図</rb><rt>ちず</rt></ruby>を<ruby><rb>借</rb><rt>か</rt></ruby>りるぞ。",
+        "zh_cn": "虽然我对宝藏没兴趣……但如果是帮忙\\n就另当别论。卢卡，地图借我一用。",
+        "zh_tw": "雖然我對寶藏沒興趣……\\n但助人就另當別論了。\\n琉卡，地圖我借走囉。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0047",
+      "book": ""
+    },
+    {
+      "icon": "100002_14",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Hmm. This seems to lead to a dense\\njungle area. Shall we be off, Julietta?",
+        "ja_jp": "これは……<ruby><rb>森</rb><rt>もり</rt></ruby>の<ruby><rb>方</rb><rt>ほう</rt></ruby>か。\\nよし、<ruby><rb>共</rb><rt>とも</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>こう、ジュリエッタ。",
+        "zh_cn": "这是……森林的方向吗。\\n好，我们一起去吧，朱丽叶。",
+        "zh_tw": "這是……往森林的方向吧。\\n好，我們一起走吧，朱莉葉塔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0048",
+      "book": ""
+    },
+    {
+      "icon": "110042_03",
+      "name": {
+        "en_us": "Julietta",
+        "ja_jp": "ジュリエッタ",
+        "zh_cn": "朱丽叶",
+        "zh_tw": "朱莉葉塔"
+      },
+      "context": {
+        "en_us": "Oh, Elly! I'm so happy that...\\nEr, I mean, ELISANNE!\\nYes, that's what I said.",
+        "ja_jp": "は……はい！　<ruby><rb>行</rb><rt>い</rt></ruby>きますわよ！\\nお<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さ……エルフィリスさん！",
+        "zh_cn": "好……好的！我们出发吧！\\n姐……埃尔菲莉丝！",
+        "zh_tw": "是……是！我們走吧！\\n姐姐……耶魯菲莉絲小姐！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0049",
+      "book": ""
+    },
+    {
+      "icon": "100006_08",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Thanks for the assists, everybody.\\nOh, and don't worry—we'll split the\\nbooty equally once we track it down.",
+        "ja_jp": "みんな……！　ありがとよー！\\nあ！　<ruby><rb>宝</rb><rt>たから</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>つけたら<ruby><rb>山分</rb><rt>やまわ</rt></ruby>けだぜー!!",
+        "zh_cn": "各位……谢啦！\\n啊！要是找到宝藏了就平分吧！",
+        "zh_tw": "各位……！謝啦──！\\n啊！找到寶藏的話就大家平分吧～！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0050",
+      "book": ""
+    },
+    {
+      "icon": "100006_08",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Now if you'll excuse me, I'm off to find\\nthe treasure on this here map.",
+        "ja_jp": "さーて！　オレもやるぞー！\\n<ruby><rb>地図</rb><rt>ちず</rt></ruby>のバツ<ruby><rb>印</rb><rt>じるし</rt></ruby>は……あの<ruby><rb>辺</rb><rt>へん</rt></ruby>だな！",
+        "zh_cn": "那么！我也要大显身手！\\n地图上画的叉……是那边！",
+        "zh_tw": "好～啦！我也要開始囉～！\\n地圖上的叉叉記號……是那邊吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0051",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Well, everyone certainly seems excited\\nabout this particular endeavor.",
+        "ja_jp": "なんと、まあ……。みなさん、\\n<ruby><rb>元気</rb><rt>げんき</rt></ruby>たっぷりですね。",
+        "zh_cn": "没想到……\\n大家真有精神呢。",
+        "zh_tw": "沒想到，哎呀……\\n大家還真是精力充沛呢。 "
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0052",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You're not coming, Cleo?",
+        "ja_jp": "あれ？　クラウは<ruby><rb>宝探</rb><rt>たからさが</rt></ruby>しに\\n<ruby><rb>行</rb><rt>い</rt></ruby>かないのか？",
+        "zh_cn": "咦？\\n库菈乌你不去寻宝吗？",
+        "zh_tw": "咦？克菈兒不去尋寶嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0053",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "No, I think I will stay here and find\\na shady spot to relax in.",
+        "ja_jp": "…………。ええ、お<ruby><rb>構</rb><rt>かま</rt></ruby>いなく。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>木陰</rb><rt>こかげ</rt></ruby>で<ruby><rb>休</rb><rt>やす</rt></ruby>んでいます。",
+        "zh_cn": "嗯……不用在意我。\\n我在树荫下休息。",
+        "zh_tw": "…………\\n是的，不用在意我，\\n我在樹蔭下休息就好。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0054",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Being prepared for the unexpected is part\\nof an attendant's duty, after all.",
+        "ja_jp": "<ruby><rb>不測</rb><rt>ふそく</rt></ruby>の<ruby><rb>事態</rb><rt>じたい</rt></ruby>に<ruby><rb>備</rb><rt>そな</rt></ruby>えて<ruby><rb>待機</rb><rt>たいき</rt></ruby>しておくのも、\\n<ruby><rb>従者</rb><rt>じゅうしゃ</rt></ruby>の<ruby><rb>役目</rb><rt>やくめ</rt></ruby>ですから。",
+        "zh_cn": "毕竟为了能随时应对突发事态而待命\\n也是从者的职责。",
+        "zh_tw": "畢竟為了能隨時應對突發情況而待命，\\n也是僕從的職責。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0055",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "If you're going to relax on the beach,\\nshouldn't you be wearing a swimsuit?",
+        "ja_jp": "そうか、さすがクラウだね。\\n……でも、その<ruby><rb>格好</rb><rt>かっこう</rt></ruby>は<ruby><rb>暑</rb><rt>あつ</rt></ruby>くない？\\nせっかくだし、<ruby><rb>水着</rb><rt>みずぎ</rt></ruby>に<ruby><rb>着替</rb><rt>きが</rt></ruby>えたら……",
+        "zh_cn": "这样啊，不愧是库菈乌。\\n不过……你穿成这样不热吗？\\n难得来一趟海边，要不要换泳装……",
+        "zh_tw": "這樣啊，真不愧是克菈兒呢！\\n……但是，妳穿那樣不會熱嗎？\\n難得來一趟，要不要換上泳裝……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0056",
+      "book": ""
+    },
+    {
+      "icon": "110063_02",
+      "name": {
+        "en_us": "Estelle",
+        "ja_jp": "エステル",
+        "zh_cn": "艾丝蒂尔",
+        "zh_tw": "愛思蒂兒"
+      },
+      "context": {
+        "en_us": "How dare you harangue a woman\\ninto donning a swimsuit!",
+        "ja_jp": "ユーディル、いけませんよ！\\n<ruby><rb>女性</rb><rt>じょせい</rt></ruby>に<ruby><rb>水着姿</rb><rt>みずぎすがた</rt></ruby>を<ruby><rb>強要</rb><rt>きょうよう</rt></ruby>するなんて！",
+        "zh_cn": "尤蒂尔，这可不行！\\n怎么能强迫女孩子穿泳装！",
+        "zh_tw": "尤帝爾，這樣不行喔！\\n竟然強迫女性更換泳裝！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0057",
+      "book": ""
+    },
+    {
+      "icon": "110063_02",
+      "name": {
+        "en_us": "Estelle",
+        "ja_jp": "エステル",
+        "zh_cn": "艾丝蒂尔",
+        "zh_tw": "愛思蒂兒"
+      },
+      "context": {
+        "en_us": "Was THAT your motive for coming to the\\nbeach this whole time, you scoundrel?!",
+        "ja_jp": "……はっ！　まさか……そういう\\n<ruby><rb>不埒</rb><rt>ふらち</rt></ruby>な<ruby><rb>目的</rb><rt>もくてき</rt></ruby>で<ruby><rb>海</rb><rt>うみ</rt></ruby>へ!?",
+        "zh_cn": "啊！莫非……\\n你是有所企图才来海边的！？",
+        "zh_tw": "……啊！你該不會……\\n是為了那種不正當目的才來海邊的！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0058",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What?! No!",
+        "ja_jp": "ええっ!?　いやいや、ちがうって！",
+        "zh_cn": "咦！？不不，不是这样的！",
+        "zh_tw": "咦咦！？不不，不是啦！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0059",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "By the way, Estelle, is it quite all right\\nto permit him to keep doing that?",
+        "ja_jp": "ところで、エステルさん。あれは\\n<ruby><rb>野放</rb><rt>のばな</rt></ruby>しにしていて、いいのですか？",
+        "zh_cn": "不过艾丝蒂尔，\\n那个不管没问题吗？",
+        "zh_tw": "話說回來，愛思蒂兒小姐。\\n把那個放任不管沒問題嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0060",
+      "book": ""
+    },
+    {
+      "icon": "110063_03",
+      "name": {
+        "en_us": "Estelle",
+        "ja_jp": "エステル",
+        "zh_cn": "艾丝蒂尔",
+        "zh_tw": "愛思蒂兒"
+      },
+      "context": {
+        "en_us": "Doing what?",
+        "ja_jp": "え？　あれとは……。",
+        "zh_cn": "诶？你说的那个是指……",
+        "zh_tw": "咦？那個是指……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0061",
+      "book": ""
+    },
+    {
+      "icon": "100006_08",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "...Rats! Nothin'. Guess I'll try diggin'\\na little bit over here.",
+        "ja_jp": "んー。ここじゃなかったか。\\nじゃあ<ruby><rb>次</rb><rt>つぎ</rt></ruby>は、あっちを<ruby><rb>掘</rb><rt>ほ</rt></ruby>ってみるか！",
+        "zh_cn": "唔……不是这里吗。\\n那接下来就挖那边试试！",
+        "zh_tw": "嗯～不是這裡啊，\\n那接下來，挖挖看那裡好了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0062",
+      "book": ""
+    },
+    {
+      "icon": "110063_03",
+      "name": {
+        "en_us": "Estelle",
+        "ja_jp": "エステル",
+        "zh_cn": "艾丝蒂尔",
+        "zh_tw": "愛思蒂兒"
+      },
+      "context": {
+        "en_us": "AAAAUGH! HE'S COVERING THE\\nENTIRE BEACH IN HOLES!",
+        "ja_jp": "ああっ!?　<ruby><rb>砂浜</rb><rt>すなはま</rt></ruby>が<ruby><rb>穴</rb><rt>あな</rt></ruby>だらけに!?",
+        "zh_cn": "啊啊！？沙滩上全是洞？",
+        "zh_tw": "啊啊！？沙灘上變得到處都是洞！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0063",
+      "book": ""
+    },
+    {
+      "icon": "110063_02",
+      "name": {
+        "en_us": "Estelle",
+        "ja_jp": "エステル",
+        "zh_cn": "艾丝蒂尔",
+        "zh_tw": "愛思蒂兒"
+      },
+      "context": {
+        "en_us": "Stop that at once!",
+        "ja_jp": "ちょっとあなた、なにしてるんですか！",
+        "zh_cn": "我说，你这是在做什么啊！",
+        "zh_tw": "給我等等，你在做什麼啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0064",
+      "book": ""
+    },
+    {
+      "icon": "100006_08",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "If you know a way to dig for treasure\\nWITHOUT makin' holes, I'm all ears.\\n...'Course I'm all ears anyway. Nya ha!",
+        "ja_jp": "んん？　なにって、<ruby><rb>宝探</rb><rt>たからさが</rt></ruby>しさ。<ruby><rb>砂</rb><rt>すな</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>に\\n<ruby><rb>宝</rb><rt>たから</rt></ruby>が<ruby><rb>埋</rb><rt>う</rt></ruby>まってるかもしれねーだろ？",
+        "zh_cn": "嗯？做什么，当然是寻宝啊。\\n沙子里也可能埋着宝藏吧？",
+        "zh_tw": "嗯嗯？做什麼，我在尋寶啊。\\n沙子裡可能會埋有寶藏也說不定吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0065",
+      "book": ""
+    },
+    {
+      "icon": "110063_03",
+      "name": {
+        "en_us": "Estelle",
+        "ja_jp": "エステル",
+        "zh_cn": "艾丝蒂尔",
+        "zh_tw": "愛思蒂兒"
+      },
+      "context": {
+        "en_us": "If you are going to dig holes, I insist that\\nyou fill them in afterward. Someone could\\neasily sprain an ankle in one of these!",
+        "ja_jp": "<ruby><rb>穴</rb><rt>あな</rt></ruby>を<ruby><rb>掘</rb><rt>ほ</rt></ruby>ったら、<ruby><rb>埋</rb><rt>う</rt></ruby>めてください！\\n<ruby><rb>危</rb><rt>あぶ</rt></ruby>ないじゃないですか！",
+        "zh_cn": "挖完请把洞填上！\\n这很危险的啊！",
+        "zh_tw": "洞挖完，就請你再填起來！\\n這樣很危險不是嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0066",
+      "book": ""
+    },
+    {
+      "icon": "100006_08",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Oh dang, you're right. I'll make sure to\\nfill 'em in once I'm done, yeah?",
+        "ja_jp": "お……？　そーいやそーだな！\\n<ruby><rb>悪</rb><rt>わる</rt></ruby>い<ruby><rb>悪</rb><rt>わる</rt></ruby>い。ちゃんと<ruby><rb>埋</rb><rt>う</rt></ruby>めとくよ。",
+        "zh_cn": "喔……说得也对啊。\\n抱歉抱歉，我会填上的。",
+        "zh_tw": "啊……？這麼說也是喔！\\n抱歉抱歉，我會好好填起來的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0067",
+      "book": ""
+    },
+    {
+      "icon": "110063_03",
+      "name": {
+        "en_us": "Estelle",
+        "ja_jp": "エステル",
+        "zh_cn": "艾丝蒂尔",
+        "zh_tw": "愛思蒂兒"
+      },
+      "context": {
+        "en_us": "I've no problem with a treasure hunt,\\nbut you MUST practice moderation.",
+        "ja_jp": "そうです！　<ruby><rb>宝</rb><rt>たから</rt></ruby>を<ruby><rb>探</rb><rt>さが</rt></ruby>すのは\\n<ruby><rb>構</rb><rt>かま</rt></ruby>いませんが、<ruby><rb>節度</rb><rt>せつど</rt></ruby>を<ruby><rb>守</rb><rt>まも</rt></ruby>ってください！",
+        "zh_cn": "没错！寻宝倒是无妨，\\n但是也要适度！",
+        "zh_tw": "沒錯！要尋寶是沒關係，\\n但請你遵守分寸！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0068",
+      "book": ""
+    },
+    {
+      "icon": "110063_03",
+      "name": {
+        "en_us": "Estelle",
+        "ja_jp": "エステル",
+        "zh_cn": "艾丝蒂尔",
+        "zh_tw": "愛思蒂兒"
+      },
+      "context": {
+        "en_us": "Seeing your shenanigans makes me\\nwonder what everyone ELSE is up to.\\nTime for a decency check!",
+        "ja_jp": "まったく……。この<ruby><rb>調子</rb><rt>ちょうし</rt></ruby>では<ruby><rb>他</rb><rt>ほか</rt></ruby>の<ruby><rb>方々</rb><rt>かたがた</rt></ruby>が\\nなにをしているか、<ruby><rb>不安</rb><rt>ふあん</rt></ruby>ですね。\\n<ruby><rb>様子</rb><rt>ようす</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>きましょう！",
+        "zh_cn": "真是的……你这副样子，\\n真让人担心其他人都在做些什么。\\n我去看看情况！",
+        "zh_tw": "真是的……照這情況看來，\\n其他人會做出什麼事也讓人不安呢。\\n我們去看看情況好了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0069",
+      "book": ""
+    },
+    {
+      "icon": "100006_08",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Man, Estelle can be BRUTAL sometimes.",
+        "ja_jp": "うへえ……。<ruby><rb>厳</rb><rt>きび</rt></ruby>しいなあ、エステルは。",
+        "zh_cn": "呜……艾丝蒂尔好严厉啊。",
+        "zh_tw": "唔哇……愛思蒂兒好嚴格喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0070",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Heh. It's proof she's a kind soul\\nwho cares about us all.",
+        "ja_jp": "はは……。でも、あれが<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>の<ruby><rb>優</rb><rt>やさ</rt></ruby>しさ\\nなんじゃないかな。",
+        "zh_cn": "哈哈……不过那也正是\\n她的温柔之处吧。",
+        "zh_tw": "哈哈……不過，\\n那就是她溫柔的地方不是嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0071",
+      "book": ""
+    },
+    {
+      "icon": "100006_08",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "You call THAT kind?!",
+        "ja_jp": "や、<ruby><rb>優</rb><rt>やさ</rt></ruby>しさ？　あれが……？",
+        "zh_cn": "温、温柔？你说那是温柔……",
+        "zh_tw": "溫、溫柔？那個樣子嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0072",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "She just doesn't want to see anyone\\nget hurt. Nothing wrong with that.",
+        "ja_jp": "ああ。みんなが<ruby><rb>危険</rb><rt>きけん</rt></ruby>な<ruby><rb>目</rb><rt>め</rt></ruby>に<ruby><rb>遭</rb><rt>あ</rt></ruby>わないよう\\n<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>してくれてるんだよ……きっと。",
+        "zh_cn": "是啊。她一定是在担心\\n大家会不会遇到什么危险……",
+        "zh_tw": "是啊，為了不讓大家遇到危險，\\n她才會那麼擔心……一定是的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0073",
+      "book": ""
+    },
+    {
+      "icon": "110063_03",
+      "name": {
+        "en_us": "Estelle",
+        "ja_jp": "エステル",
+        "zh_cn": "艾丝蒂尔",
+        "zh_tw": "愛思蒂兒"
+      },
+      "context": {
+        "en_us": "Chop chop, Euden!",
+        "ja_jp": "ユーディル？　なにを\\nしてるんですか。<ruby><rb>早</rb><rt>はや</rt></ruby>く<ruby><rb>来</rb><rt>き</rt></ruby>てください！",
+        "zh_cn": "尤蒂尔？\\n你在干什么呢？快点过来！",
+        "zh_tw": "尤帝爾？\\n你在做什麼，快點過來！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0074",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Er, chop chop to...what, exactly?",
+        "ja_jp": "えっ、おれも？",
+        "zh_cn": "诶，我也要去吗？",
+        "zh_tw": "咦，我也要去嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0075",
+      "book": ""
+    },
+    {
+      "icon": "110063_03",
+      "name": {
+        "en_us": "Estelle",
+        "ja_jp": "エステル",
+        "zh_cn": "艾丝蒂尔",
+        "zh_tw": "愛思蒂兒"
+      },
+      "context": {
+        "en_us": "As the lord of the castle, you are\\nresponsible for the actions of your people.\\nNow come with me so we can ensure\\nthey don't get up to more mischief!",
+        "ja_jp": "もちろんです！　<ruby><rb>城</rb><rt>しろ</rt></ruby>のみなさんの\\n<ruby><rb>行動</rb><rt>こうどう</rt></ruby>は、<ruby><rb>城主</rb><rt>じょうしゅ</rt></ruby>のあなたの<ruby><rb>責任</rb><rt>せきにん</rt></ruby>です！",
+        "zh_cn": "那当然！圣城各位的行为\\n自然要由你这个城主来负责！",
+        "zh_tw": "那當然！城裡所有人的行動，\\n可都是城主你的責任！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0076",
+      "book": ""
+    },
+    {
+      "icon": "100001_03",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Can't argue with that. I'm on my way!",
+        "ja_jp": "そう<ruby><rb>言</rb><rt>い</rt></ruby>われちゃ、<ruby><rb>仕方</rb><rt>しかた</rt></ruby>ないな……。\\nわかった、<ruby><rb>今</rb><rt>いま</rt></ruby><ruby><rb>行</rb><rt>い</rt></ruby>くよ。",
+        "zh_cn": "要这么说的话，也没办法……\\n好，我这就去。",
+        "zh_tw": "被妳這麼一說，那就沒辦法了……\\n好吧，我馬上過去。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20411_01_0077",
+      "book": ""
+    }
+  ]
 }

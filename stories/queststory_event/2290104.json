@@ -1,766 +1,1445 @@
 {
-    "story_id": "",
-    "story_name": "森林之民与神树 守护神的恩赐",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "尤克特拉希尔为了森林唤来的风雨\\n对小镇而言却是引发伤亡的天灾。\\n卢卡为救人命打破规矩，告诉了\\n镇上居民秘药的存在。居民们\\n蜂拥至圣地，为求秘药而砍伐灵树。"
-        ]
+  "title": {
+    "en_us": "The Children of Yggdrasil    Yggdrasil's Blessing",
+    "ja_jp": "森の民と神なる樹  守り神のもたらすもの",
+    "zh_cn": "森林之民与神树  守护神的恩赐",
+    "zh_tw": "森林子民與神靈之樹  守護神所喚來之物"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "（我还是好在意昨天\\n在森林外围听到的声音啊……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "希里丝，怎么了？\\n表情那么严肃。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "那个，卢卡哥哥，其实……",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "镇上传来了地面的轰鸣？\\n可村落里什么也没听到啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "我确实在森林外围听到了！\\n所以很在意到底发生了什么……",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "所以你才一脸严肃吗？\\n那解决方法只有一个，\\n我们一起去看看吧，希里丝！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "我就知道\\n卢卡哥哥会这么说！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "那当然啦。\\n好，我们走吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "这是怎么回事……\\n镇上都不成样子了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "男子",
-            "context": "救、救命……",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "你没事吧？有好多人受伤啊。\\n这里发生了什么事？",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "男子",
-            "context": "是森林守护神唤来了灾难！\\n这个小镇已经完了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "喂喂，怎么可能……",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "不，他说的是真的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "你是森隐族吧？\\n住在这镇上吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "是啊。我虽然出生在伊尼希欧，\\n但受不了那种落后的生活。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "大约200年前我离开了森林，\\n在这里建起了城镇。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "这个小镇是你建的！？\\n好厉害！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "在这里既能看见伊尼希欧的森林，\\n又能过上城镇的生活。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "渐渐地，不光是森隐族，\\n各种人群都聚集到这里，\\n成了一个村落，继而成了城镇。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "这里是个好地方……\\n但是最近变得越来越奇怪。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "奇怪？",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "森林扩张过度。\\n最近连镇上都开始\\n一点点地遭到侵蚀。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "肯定是尤克特拉希尔干的。\\n虽然那家伙只是活着而已，\\n应该没有半点恶意。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "什么意思？",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "尤克特拉希尔是森林守护神。\\n对所有动植物都一视同仁，\\n守护并培育着大家。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "但是我们不能这样。\\n只培育需要的植物，其余的就修剪掉；\\n有了猛兽和害虫就要消灭。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "人不这么做的话，\\n是无法生存下去的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "风雨也是同理。\\n尤克特拉希尔应该只是想唤来\\n森林成长所必须的自然恩惠。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "但是，那给伐木拓路后的地方\\n带来的影响是无法想象的……\\n就像昨天发生的泥石流一样。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "泥石流……啊！\\n我昨天在森林外围听到的\\n地面轰鸣声原来是泥石流啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "现在伤员很多，\\n医生和药都远远不够。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "很多人就算想舍弃这里\\n也根本动不了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "只能在这里等死……\\n这个小镇已经完蛋了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "别说这种话……怎么会！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "是啊！别这么说！\\n就算小镇毁了，\\n也不能放弃人命啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "我们也不想放弃啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "对了！秘药！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "卢卡哥哥！？\\n那个不能说……",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "怎么能见死不救！\\n这些人又没有错！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "秘药？那是什么？",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "就是伊尼希欧\\n用蕴含尤克特拉希尔魔力的\\n树叶制成的秘药。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "只要吃了那个，就算是重伤\\n也能瞬间治好！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "但是，这种药其实是不能\\n在伊尼希欧以外的地方说起的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "我去找他们商量，把药拿来。\\n希望你们能等我。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "（竟然自作主张\\n破坏了伊尼希欧的人们\\n遵守至今的规矩……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "（我懂镇上居民的心情，\\n也理解卢卡哥哥的想法，\\n可是……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "（至少要在发生不测之前\\n通知以撒克才行！）",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "以撒克！\\n你终于回来了啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110391_01"
-            ],
-            "speaker_name": "以撒克",
-            "context": "希里丝？\\n你怎么这么慌张？",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "我有话要对你说！\\n其实今天……",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110391_01"
-            ],
-            "speaker_name": "以撒克",
-            "context": "等等！这声音是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "诶！？以撒克，你要去哪！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "你们等等！等等啊！\\n我都说了会去找他们商量的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "现在这种情况哪还等得了啊！\\n看镇上的惨状就知道了吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120056_01",
-                "120114_01",
-                "120113_01"
-            ],
-            "speaker_name": "森隐族们",
-            "context": "就是啊！就是啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120056_01",
-                "120114_01",
-                "120113_01"
-            ],
-            "speaker_name": "以撒克",
-            "context": "住手！\\n你们在干什么！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "全员",
-            "context": "！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "以、以撒克……",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110391_01"
-            ],
-            "speaker_name": "以撒克",
-            "context": "卢卡，这是怎么回事？\\n他们是什么人？为什么\\n未经允许就进入了森林？",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "这……",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "我们是住在\\n附近镇上的森隐族。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "我们是来要灵树的，\\n就是这家伙说的秘药材料！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110391_01"
-            ],
-            "speaker_name": "以撒克",
-            "context": "你把秘药的事说出去了吗……\\n卢卡！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "抱、抱歉……\\n但我没打算强夺灵树……",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "镇上的各位也冷静点！\\n别争锋相对，总会有一个\\n大家都能接受的办法的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "已经没时间了！\\n再等下去就要出人命了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "伊尼希欧的规矩乃先人的教诲。\\n就算事关人命，\\n也不会轻易动摇！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "正因为他们严格遵守，\\n伊尼希欧才得以作为圣地留存至今。\\n我身为森隐族对此深感骄傲。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "但是，传统拯救不了\\n我们的痛苦！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110391_01"
-            ],
-            "speaker_name": "以撒克",
-            "context": "你们知道砍掉灵树\\n会导致什么后果吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110391_01"
-            ],
-            "speaker_name": "以撒克",
-            "context": "这片森林就是尤克特拉希尔的命，\\n其中这棵灵树可以说是\\n尤克特拉希尔的分身。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110391_01"
-            ],
-            "speaker_name": "以撒克",
-            "context": "其蕴含的魔力非比寻常。\\n砍掉它，就相当于要了\\n尤克特拉希尔的命！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "那又怎么样！我们也正被\\n尤克特拉希尔压榨生命啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110391_01"
-            ],
-            "speaker_name": "以撒克",
-            "context": "竟然砍了灵树！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "我也是森隐族，\\n我当然知道森林\\n以及尤克特拉希尔有多重要。",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120055_01"
-            ],
-            "speaker_name": "镇上的森隐族",
-            "context": "但是，守护眼前的生活\\n就这么罪大恶极吗！？\\n抱歉，灵树的枝干我们要了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110391_01"
-            ],
-            "speaker_name": "以撒克",
-            "context": "等等！我身为神绿守护者，\\n决不允许……",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110391_01"
-            ],
-            "speaker_name": "以撒克",
-            "context": "这是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "什、什么！？怎么了！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110391_01"
-            ],
-            "speaker_name": "以撒克",
-            "context": "尤克特拉希尔正感到痛苦……\\n呃……这样下去的话，\\n尤克特拉希尔就危险了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_05"
-            ],
-            "speaker_name": "希里丝",
-            "context": "以撒克！\\n卢卡哥哥，我们去追他吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "好！",
-            "voice_line": "VO_CHR_EVENTSTORY_22901_04_0082",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "The rain Yggdrasil calls to nourish the forest is\\na natural disaster to its neighbors. When Luca\\nbreaks his oath and reveals the existence of the\\nsecret remedy to save their lives, the townsfolk\\ntake to the forest with axes in hand.",
+      "ja_jp": "ユグドラシルが<ruby><rb>森</rb><rt>もり</rt></ruby>のため<ruby><rb>呼</rb><rt>よ</rt></ruby>ぶ<ruby><rb>雨風</rb><rt>あめかぜ</rt></ruby>は、\\n<ruby><rb>街</rb><rt>まち</rt></ruby>にとっては<ruby><rb>天災</rb><rt>てんさい</rt></ruby>であり、<ruby><rb>被害</rb><rt>ひがい</rt></ruby>が<ruby><rb>出</rb><rt>で</rt></ruby>ていた。\\nリュカは<ruby><rb>人命</rb><rt>じんめい</rt></ruby>のため<ruby><rb>掟</rb><rt>おきて</rt></ruby>を<ruby><rb>破</rb><rt>やぶ</rt></ruby>り、<ruby><rb>秘薬</rb><rt>ひやく</rt></ruby>の<ruby><rb>存在</rb><rt>そんざい</rt></ruby>を\\n<ruby><rb>街</rb><rt>まち</rt></ruby>の<ruby><rb>者</rb><rt>もの</rt></ruby>に<ruby><rb>明</rb><rt>あ</rt></ruby>かす。<ruby><rb>街</rb><rt>まち</rt></ruby>の<ruby><rb>者</rb><rt>もの</rt></ruby>は<ruby><rb>聖地</rb><rt>せいち</rt></ruby>に<ruby><rb>詰</rb><rt>つ</rt></ruby>めかけ、\\n<ruby><rb>秘薬</rb><rt>ひやく</rt></ruby>を<ruby><rb>求</rb><rt>もと</rt></ruby>めて<ruby><rb>霊樹</rb><rt>れいじゅ</rt></ruby>を<ruby><rb>伐</rb><rt>き</rt></ruby>ってしまう。",
+      "zh_cn": "尤克特拉希尔为了森林唤来的风雨\\n对小镇而言却是引发伤亡的天灾。\\n卢卡为救人命打破规矩，告诉了\\n镇上居民秘药的存在。居民们\\n蜂拥至圣地，为求秘药而砍伐灵树。",
+      "zh_tw": "世界樹為森林喚來的暴風雨，\\n對城鎮而言卻是帶來嚴重損害的天災。\\n琉卡為了拯救人命打破守則，\\n將秘藥的存在告訴了城鎮居民。\\n城鎮居民湧入聖地，為求秘藥將砍倒靈樹。"
+    }
+  },
+  "prev": "2290103",
+  "next": "2290105",
+  "content": [
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "(I can't stop thinking about the noise\\nI heard when I was out with Isaac.)",
+        "ja_jp": "（<ruby><rb>昨日</rb><rt>きのう</rt></ruby>、<ruby><rb>森</rb><rt>もり</rt></ruby>の<ruby><rb>外</rb><rt>はず</rt></ruby>れで<ruby><rb>聞</rb><rt>き</rt></ruby>いた<ruby><rb>音</rb><rt>おと</rt></ruby>。\\n　やっぱり<ruby><rb>気</rb><rt>き</rt></ruby>になるな……）",
+        "zh_cn": "（我还是好在意昨天\\n在森林外围听到的声音啊……）",
+        "zh_tw": "（果然，還是很在意\\n昨天在森林邊際聽到的聲音……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0001",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Keep making that face and it'll stick that\\nway. What's on your mind, Sis?",
+        "ja_jp": "どうした、シーリス？　<ruby><rb>真剣</rb><rt>しんけん</rt></ruby>な<ruby><rb>顔</rb><rt>かお</rt></ruby>して。",
+        "zh_cn": "希里丝，怎么了？\\n表情那么严肃。",
+        "zh_tw": "怎麼了，西莉絲？\\n看妳一臉嚴肅。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0002",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Oh, er... Let me start by filling you in on\\nwhat happened yesterday.",
+        "ja_jp": "あのね、リュカ<ruby><rb>兄</rb><rt>にい</rt></ruby>。じつは……。",
+        "zh_cn": "那个，卢卡哥哥，其实……",
+        "zh_tw": "我跟你說，琉卡哥。\\n其實……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0003",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "A loud rumbling from the town? We\\ndidn't hear anything here in the village.",
+        "ja_jp": "<ruby><rb>街</rb><rt>まち</rt></ruby>の<ruby><rb>方</rb><rt>ほう</rt></ruby>から<ruby><rb>地響</rb><rt>じひび</rt></ruby>き？\\n<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>では<ruby><rb>何</rb><rt>なに</rt></ruby>も……。",
+        "zh_cn": "镇上传来了地面的轰鸣？\\n可村落里什么也没听到啊……",
+        "zh_tw": "從鎮上傳來地鳴？\\n部落裡什麼都沒聽到啊……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0004",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Well, I definitely heard it at the forest's\\nedge! It keeps playing over and over in\\nmy head.",
+        "ja_jp": "<ruby><rb>森</rb><rt>もり</rt></ruby>の<ruby><rb>外</rb><rt>はず</rt></ruby>れでは<ruby><rb>確</rb><rt>たし</rt></ruby>かに<ruby><rb>聞</rb><rt>き</rt></ruby>こえたの！\\nそれで<ruby><rb>何</rb><rt>なに</rt></ruby>があったのか<ruby><rb>気</rb><rt>き</rt></ruby>になって……。",
+        "zh_cn": "我确实在森林外围听到了！\\n所以很在意到底发生了什么……",
+        "zh_tw": "但我在森林邊際真的聽到了！\\n不知道發生了什麼事，讓我很在意……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0005",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "That's what's got you looking so tense?\\nSounds like an easy fix to me. Let's go!",
+        "ja_jp": "それで<ruby><rb>険</rb><rt>けわ</rt></ruby>しい<ruby><rb>顔</rb><rt>かお</rt></ruby>してたんだな？\\nじゃあ、<ruby><rb>解決法</rb><rt>かいけつほう</rt></ruby>はひとつだ。\\n<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>こうぜ、シーリス！",
+        "zh_cn": "所以你才一脸严肃吗？\\n那解决方法只有一个，\\n我们一起去看看吧，希里丝！",
+        "zh_tw": "所以妳的表情才那麼嚴肅啊？\\n那麼，解決方法只有一個。\\n一起去吧，西莉絲！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0006",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Y'know, sometimes I really am proud to\\nhave such a go-getter of a big brother!",
+        "ja_jp": "リュカ<ruby><rb>兄</rb><rt>にい</rt></ruby>ならそう<ruby><rb>言</rb><rt>い</rt></ruby>ってくれると\\n<ruby><rb>思</rb><rt>おも</rt></ruby>ってた！",
+        "zh_cn": "我就知道\\n卢卡哥哥会这么说！",
+        "zh_tw": "我就知道琉卡哥會這麼說！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0007",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Glad to meet your exacting standards.\\nNow, c'mon. Let's check it out!",
+        "ja_jp": "あったりまえだろ。\\nさあ、<ruby><rb>行</rb><rt>い</rt></ruby>ってみようぜ！",
+        "zh_cn": "那当然啦。\\n好，我们走吧！",
+        "zh_tw": "那當然啊！\\n好，我們去看看吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0008",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "The town... It's in ruins!\\nWhat's happening?!",
+        "ja_jp": "なにこれ……<ruby><rb>街</rb><rt>まち</rt></ruby>がめちゃくちゃ！",
+        "zh_cn": "这是怎么回事……\\n镇上都不成样子了！",
+        "zh_tw": "怎麼會這樣……鎮上亂七八糟的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0009",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Man",
+        "ja_jp": "男",
+        "zh_cn": "男子",
+        "zh_tw": "男子"
+      },
+      "context": {
+        "en_us": "Help...me...",
+        "ja_jp": "た、<ruby><rb>助</rb><rt>たす</rt></ruby>けてくれ……。",
+        "zh_cn": "救、救命……",
+        "zh_tw": "救、救救我……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0010",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Are you okay? I'm seeing a lot of injured\\nfolks. What's the story here?",
+        "ja_jp": "<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>か？　けが<ruby><rb>人</rb><rt>にん</rt></ruby>もたくさんいるな。\\nここで<ruby><rb>何</rb><rt>なに</rt></ruby>があったんだ？",
+        "zh_cn": "你没事吧？有好多人受伤啊。\\n这里发生了什么事？",
+        "zh_tw": "你沒事吧？其他還有很多人受傷。\\n這裡發生了什麼事？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0011",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Man",
+        "ja_jp": "男",
+        "zh_cn": "男子",
+        "zh_tw": "男子"
+      },
+      "context": {
+        "en_us": "The god of the forest is bringing disaster\\nupon us all! This town's finished, it is!",
+        "ja_jp": "<ruby><rb>森</rb><rt>もり</rt></ruby>の<ruby><rb>守</rb><rt>まも</rt></ruby>り<ruby><rb>神</rb><rt>がみ</rt></ruby>が<ruby><rb>災</rb><rt>わざわ</rt></ruby>いを<ruby><rb>呼</rb><rt>よ</rt></ruby>んでる！\\nこの<ruby><rb>街</rb><rt>まち</rt></ruby>はもうおしまいなんだ！",
+        "zh_cn": "是森林守护神唤来了灾难！\\n这个小镇已经完了！",
+        "zh_tw": "森林的守護神正在呼喚災難！\\n這個城鎮已經完蛋了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0012",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Whoa, slow down there, buddy.\\nI'm sure that's not—",
+        "ja_jp": "おいおい、そんなわけ……。",
+        "zh_cn": "喂喂，怎么可能……",
+        "zh_tw": "喂喂，怎麼可能……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0013",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "No. What he's saying is true.",
+        "ja_jp": "いや。そいつの<ruby><rb>言</rb><rt>い</rt></ruby>ってることは\\n<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>だぜ。",
+        "zh_cn": "不，他说的是真的。",
+        "zh_tw": "不，那傢伙說的是真的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0014",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "You're sylvan, aren't you?\\nBut you live here in this town?",
+        "ja_jp": "あなた、フォレスティアだよね？\\n<ruby><rb>街</rb><rt>まち</rt></ruby>に<ruby><rb>住</rb><rt>す</rt></ruby>んでるの？",
+        "zh_cn": "你是森隐族吧？\\n住在这镇上吗？",
+        "zh_tw": "你是佛萊斯提亞吧？\\n你住在鎮上嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0015",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "Yeah. I was born in the forest, but the old\\nInitio ways and I weren't a great match.",
+        "ja_jp": "ああ。イニシオの<ruby><rb>生</rb><rt>う</rt></ruby>まれだが、\\nあの<ruby><rb>古臭</rb><rt>ふるくさ</rt></ruby>い<ruby><rb>生活</rb><rt>せいかつ</rt></ruby>が<ruby><rb>肌</rb><rt>はだ</rt></ruby>に<ruby><rb>合</rb><rt>あ</rt></ruby>わなくてよ。",
+        "zh_cn": "是啊。我虽然出生在伊尼希欧，\\n但受不了那种落后的生活。",
+        "zh_tw": "嗯，雖然我出生在伊尼希昂，\\n但和那種古板的生活實在合不來。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0016",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "So I left it behind and built a new town out\\nhere. That was two hundred years ago.",
+        "ja_jp": "<ruby><rb>森</rb><rt>もり</rt></ruby>を<ruby><rb>飛</rb><rt>と</rt></ruby>び<ruby><rb>出</rb><rt>だ</rt></ruby>したのがおよそ200<ruby><rb>年</rb><rt>ねん</rt></ruby><ruby><rb>前</rb><rt>まえ</rt></ruby>。\\nこの<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>に<ruby><rb>街</rb><rt>まち</rt></ruby>を<ruby><rb>造</rb><rt>つく</rt></ruby>ったんだ。",
+        "zh_cn": "大约200年前我离开了森林，\\n在这里建起了城镇。",
+        "zh_tw": "大概在200年前離開了森林。\\n然後我建造了這座城鎮。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0017",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "YOU built this whole town?!\\nThat's amazing!",
+        "ja_jp": "この<ruby><rb>街</rb><rt>まち</rt></ruby>、あなたが<ruby><rb>造</rb><rt>つく</rt></ruby>ったの!?\\nすごい！",
+        "zh_cn": "这个小镇是你建的！？\\n好厉害！",
+        "zh_tw": "這座城鎮是你建造的嗎！？\\n好厲害喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0018",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "You can still see the old forest here,\\nbut we live unshackled from its laws.",
+        "ja_jp": "イニシオの<ruby><rb>森</rb><rt>もり</rt></ruby>が<ruby><rb>見</rb><rt>み</rt></ruby>えて、なおかつ\\n<ruby><rb>街</rb><rt>まち</rt></ruby>の<ruby><rb>暮</rb><rt>く</rt></ruby>らしができる。",
+        "zh_cn": "在这里既能看见伊尼希欧的森林，\\n又能过上城镇的生活。",
+        "zh_tw": "能夠看見伊尼希昂的森林，\\n同時還能過著城鎮居民的生活。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0019",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "That appealed to some sylvans. Humans\\nand others, too. They gathered here, and\\nan outpost became a village, then a town.",
+        "ja_jp": "フォレスティアだけじゃねえ、\\nいろんなヤツが<ruby><rb>集</rb><rt>あつ</rt></ruby>まってきて、\\n<ruby><rb>村</rb><rt>むら</rt></ruby>になり、<ruby><rb>街</rb><rt>まち</rt></ruby>になっていった。",
+        "zh_cn": "渐渐地，不光是森隐族，\\n各种人群都聚集到这里，\\n成了一个村落，继而成了城镇。",
+        "zh_tw": "除了佛萊斯提亞以外，\\n還有各式各樣的傢伙不斷聚集，\\n便成為村落，再變為城鎮。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0020",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "It was a nice place to live...\\n'Til things started going haywire recently.",
+        "ja_jp": "いい<ruby><rb>街</rb><rt>まち</rt></ruby>だったんだ……。だがここ<ruby><rb>最近</rb><rt>さいきん</rt></ruby>、\\nどんどんおかしくなりやがる。",
+        "zh_cn": "这里是个好地方……\\n但是最近变得越来越奇怪。",
+        "zh_tw": "原本是個很棒的城鎮……\\n但最近卻漸漸變得很奇怪。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0021",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "How so?",
+        "ja_jp": "おかしくって？",
+        "zh_cn": "奇怪？",
+        "zh_tw": "奇怪？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0022",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "The forest's spreading. Lately, it's even\\nstarted creeping into town.",
+        "ja_jp": "<ruby><rb>森</rb><rt>もり</rt></ruby>が<ruby><rb>広</rb><rt>ひろ</rt></ruby>がりすぎているんだ。\\n<ruby><rb>近頃</rb><rt>ちかごろ</rt></ruby>じゃ、<ruby><rb>徐々</rb><rt>じょじょ</rt></ruby>に<ruby><rb>街</rb><rt>まち</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>にも<ruby><rb>森</rb><rt>もり</rt></ruby>が\\n<ruby><rb>侵食</rb><rt>しんしょく</rt></ruby>してくるようになっちまった。",
+        "zh_cn": "森林扩张过度。\\n最近连镇上都开始\\n一点点地遭到侵蚀。",
+        "zh_tw": "森林範圍擴展得太大了。\\n這陣子甚至還慢慢地侵入鎮上。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0023",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "It's Yggdrasil. Not that it's doing it out of\\nany malice towards us. It just lives its life.",
+        "ja_jp": "……ユグドラシルの<ruby><rb>仕業</rb><rt>しわざ</rt></ruby>だよ。\\nもっともヤツはただ<ruby><rb>生</rb><rt>い</rt></ruby>きているだけ。\\n<ruby><rb>悪意</rb><rt>あくい</rt></ruby>は<ruby><rb>微塵</rb><rt>みじん</rt></ruby>もねえだろうがな。",
+        "zh_cn": "肯定是尤克特拉希尔干的。\\n虽然那家伙只是活着而已，\\n应该没有半点恶意。",
+        "zh_tw": "……都是世界樹幹的。\\n雖然那傢伙只是活著，\\n並沒有絲毫惡意。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0024",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "What does that mean, though?",
+        "ja_jp": "どういうことだ？",
+        "zh_cn": "什么意思？",
+        "zh_tw": "什麼意思？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0025",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "Yggdrasil is the guardian of the forest.\\nIt protects and fosters all life equally.",
+        "ja_jp": "ユグドラシルは<ruby><rb>森</rb><rt>もり</rt></ruby>の<ruby><rb>守護神</rb><rt>しゅごしん</rt></ruby>だ。\\nすべての<ruby><rb>植物</rb><rt>しょくぶつ</rt></ruby>、<ruby><rb>生</rb><rt>い</rt></ruby>き<ruby><rb>物</rb><rt>もの</rt></ruby>を<ruby><rb>同</rb><rt>おな</rt></ruby>じように\\n<ruby><rb>守</rb><rt>まも</rt></ruby>り、<ruby><rb>生</rb><rt>い</rt></ruby>かしていく。",
+        "zh_cn": "尤克特拉希尔是森林守护神。\\n对所有动植物都一视同仁，\\n守护并培育着大家。",
+        "zh_tw": "世界樹是森林的守護神。\\n會平等守護所有植物、生物，\\n並讓大家活下去。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0026",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "But that's not how things work in a town.\\nWe grow the crops that we need, and\\nweed out the rest. We kill harmful animals\\nand pests.",
+        "ja_jp": "だけど、<ruby><rb>俺</rb><rt>おれ</rt></ruby>たちはそれじゃダメだ。\\n<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>な<ruby><rb>植物</rb><rt>しょくぶつ</rt></ruby>だけ<ruby><rb>生</rb><rt>い</rt></ruby>かし、<ruby><rb>他</rb><rt>ほか</rt></ruby>は<ruby><rb>剪定</rb><rt>せんてい</rt></ruby>する。\\n<ruby><rb>害獣</rb><rt>がいじゅう</rt></ruby>や<ruby><rb>害虫</rb><rt>がいちゅう</rt></ruby>は<ruby><rb>駆除</rb><rt>くじょ</rt></ruby>する。",
+        "zh_cn": "但是我们不能这样。\\n只培育需要的植物，其余的就修剪掉；\\n有了猛兽和害虫就要消灭。",
+        "zh_tw": "但是，我們無法那麼做。\\n必須修剪其他植物，只留下必要的。\\n也得驅除害獸與害蟲。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0027",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "We couldn't go on living if we didn't.",
+        "ja_jp": "そうやっていかなきゃ、\\n<ruby><rb>人</rb><rt>ひと</rt></ruby>は<ruby><rb>生</rb><rt>い</rt></ruby>きていけやしないんだ。",
+        "zh_cn": "人不这么做的话，\\n是无法生存下去的。",
+        "zh_tw": "如果不那麼做，人就無法活下去。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0028",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "Same goes for the rains. I'm sure Yggdrasil\\nis just providing the forest with what it\\nneeds to grow.",
+        "ja_jp": "<ruby><rb>風雨</rb><rt>ふうう</rt></ruby>だってそうだ。\\nユグドラシルは<ruby><rb>森</rb><rt>もり</rt></ruby>の<ruby><rb>成長</rb><rt>せいちょう</rt></ruby>に<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>な\\n<ruby><rb>恵</rb><rt>めぐ</rt></ruby>みを<ruby><rb>呼</rb><rt>よ</rt></ruby>んだだけのつもりだろう。",
+        "zh_cn": "风雨也是同理。\\n尤克特拉希尔应该只是想唤来\\n森林成长所必须的自然恩惠。",
+        "zh_tw": "風雨也一樣。\\n世界樹應該只是為了森林的成長，\\n而喚來必要的恩惠而已吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0029",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "But the effects of storms like that on\\nopen land we've cleared of trees can be\\ncatastrophic...like yesterday's landslide.",
+        "ja_jp": "だが、<ruby><rb>木</rb><rt>き</rt></ruby>を<ruby><rb>伐</rb><rt>き</rt></ruby>り<ruby><rb>森</rb><rt>もり</rt></ruby>を<ruby><rb>拓</rb><rt>ひら</rt></ruby>いた<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>では、\\nその<ruby><rb>影響</rb><rt>えいきょう</rt></ruby>は<ruby><rb>計</rb><rt>はか</rt></ruby>り<ruby><rb>知</rb><rt>し</rt></ruby>れない。\\n……<ruby><rb>昨日</rb><rt>きのう</rt></ruby>の<ruby><rb>土砂崩</rb><rt>どしゃくず</rt></ruby>れみたいにな。",
+        "zh_cn": "但是，那给伐木拓路后的地方\\n带来的影响是无法想象的……\\n就像昨天发生的泥石流一样。",
+        "zh_tw": "但在森林樹木已被開墾砍伐的地方，\\n將會帶來無法想像的影響。\\n……就像昨天的土石流一樣。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0030",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Ah! So that WAS what I heard from the\\nforest outskirts yesterday.",
+        "ja_jp": "<ruby><rb>土砂崩</rb><rt>どしゃくず</rt></ruby>れ……あ！\\n<ruby><rb>昨日</rb><rt>きのう</rt></ruby>、<ruby><rb>森</rb><rt>もり</rt></ruby>の<ruby><rb>外</rb><rt>はず</rt></ruby>れで<ruby><rb>聞</rb><rt>き</rt></ruby>いた<ruby><rb>地響</rb><rt>じひび</rt></ruby>きは\\nそれだったんだ！",
+        "zh_cn": "泥石流……啊！\\n我昨天在森林外围听到的\\n地面轰鸣声原来是泥石流啊！",
+        "zh_tw": "土石流……啊！\\n昨天我在森林邊際聽見的地鳴\\n就是那個啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0031",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "Each new disaster creates more sick and\\ninjured, and fewer resources to help them.",
+        "ja_jp": "けが<ruby><rb>人</rb><rt>にん</rt></ruby>も<ruby><rb>病人</rb><rt>びょうにん</rt></ruby>も<ruby><rb>多</rb><rt>おお</rt></ruby>い。\\n<ruby><rb>医者</rb><rt>いしゃ</rt></ruby>も<ruby><rb>薬</rb><rt>くすり</rt></ruby>も<ruby><rb>足</rb><rt>た</rt></ruby>りやしねえ。",
+        "zh_cn": "现在伤员很多，\\n医生和药都远远不够。",
+        "zh_tw": "現在有很多傷患和病人。\\n但醫生和藥根本不夠。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0032",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "Even if we decided to give up on this place\\nand relocate, a lot of us here physically\\ncan't move.",
+        "ja_jp": "<ruby><rb>街</rb><rt>まち</rt></ruby>を<ruby><rb>捨</rb><rt>す</rt></ruby>てるにしても、もう<ruby><rb>動</rb><rt>うご</rt></ruby>くに\\n<ruby><rb>動</rb><rt>うご</rt></ruby>けねえやつらが<ruby><rb>大勢</rb><rt>おおぜい</rt></ruby>いる。",
+        "zh_cn": "很多人就算想舍弃这里\\n也根本动不了。",
+        "zh_tw": "即使要捨棄城鎮，\\n也有許多人想走也走不了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0033",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "So they just lie and wait for the end to\\ncome. I'm afraid this town is finished.",
+        "ja_jp": "もう<ruby><rb>死</rb><rt>し</rt></ruby>を<ruby><rb>待</rb><rt>ま</rt></ruby>つだけだ……。\\nこの<ruby><rb>街</rb><rt>まち</rt></ruby>は<ruby><rb>終</rb><rt>お</rt></ruby>わりだよ。",
+        "zh_cn": "只能在这里等死……\\n这个小镇已经完蛋了。",
+        "zh_tw": "只能等死……\\n這座城鎮已經完蛋了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0034",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "No! You can't mean that...",
+        "ja_jp": "<ruby><rb>終</rb><rt>お</rt></ruby>わりなんて、そんな……！",
+        "zh_cn": "别说这种话……怎么会！",
+        "zh_tw": "完蛋什麼的，別那麼說……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0035",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "I'm with Sarisse. Even if the town can't be\\nsaved, you can't give up on people's lives!",
+        "ja_jp": "そうだ！　そんなこと<ruby><rb>言</rb><rt>い</rt></ruby>うなよ！\\n<ruby><rb>街</rb><rt>まち</rt></ruby>はダメでも<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>命</rb><rt>いのち</rt></ruby>は<ruby><rb>諦</rb><rt>あきら</rt></ruby>めんな！",
+        "zh_cn": "是啊！别这么说！\\n就算小镇毁了，\\n也不能放弃人命啊！",
+        "zh_tw": "對啊！你別說那種話！\\n就算城鎮完蛋，也不能放棄人命！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0036",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "I'm not exactly keen on the idea,\\nbut it's not like I have a choice!",
+        "ja_jp": "<ruby><rb>諦</rb><rt>あきら</rt></ruby>めたくて<ruby><rb>諦</rb><rt>あきら</rt></ruby>めてんじゃねえんだよ！",
+        "zh_cn": "我们也不想放弃啊！",
+        "zh_tw": "我並不是想放棄才放棄的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0037",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "...Wait. The remedy!",
+        "ja_jp": "……そうだ！　<ruby><rb>秘薬</rb><rt>ひやく</rt></ruby>！",
+        "zh_cn": "对了！秘药！",
+        "zh_tw": "……對了！秘藥！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0038",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Luca, no! Don't!",
+        "ja_jp": "リュカ<ruby><rb>兄</rb><rt>にい</rt></ruby>!?　それは<ruby><rb>話</rb><rt>はな</rt></ruby>したら……！",
+        "zh_cn": "卢卡哥哥！？\\n那个不能说……",
+        "zh_tw": "琉卡哥！？要是說出來的話……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0039",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "I can't just sit by and let them die.\\nThese people have done nothing wrong!",
+        "ja_jp": "このまま<ruby><rb>見殺</rb><rt>みごろ</rt></ruby>しにできるか！\\nこいつらは<ruby><rb>悪</rb><rt>わる</rt></ruby>くねえ！",
+        "zh_cn": "怎么能见死不救！\\n这些人又没有错！",
+        "zh_tw": "我怎麼能就這樣見死不救！\\n這些傢伙並沒有錯！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0040",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "Remedy? What are you talking about?",
+        "ja_jp": "<ruby><rb>秘薬</rb><rt>ひやく</rt></ruby>？　なんだそれは？",
+        "zh_cn": "秘药？那是什么？",
+        "zh_tw": "秘藥？那是什麼？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0041",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "In Initio, they've got this miracle cure\\nthey make from leaves steeped in\\nYggdrasil's mana.",
+        "ja_jp": "ああ。イニシオにはユグドラシルの\\nマナが<ruby><rb>宿</rb><rt>やど</rt></ruby>った<ruby><rb>樹</rb><rt>き</rt></ruby>の<ruby><rb>葉</rb><rt>は</rt></ruby>で<ruby><rb>作</rb><rt>つく</rt></ruby>った<ruby><rb>秘薬</rb><rt>ひやく</rt></ruby>が\\nあるんだ。",
+        "zh_cn": "就是伊尼希欧\\n用蕴含尤克特拉希尔魔力的\\n树叶制成的秘药。",
+        "zh_tw": "嗯。伊尼希昂裡\\n有種用寄宿著世界樹瑪納的樹葉\\n做成的秘藥。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0042",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "A single dose, and even a serious injury'll\\nheal up in the blink of an eye!",
+        "ja_jp": "それを<ruby><rb>飲</rb><rt>の</rt></ruby>めば、<ruby><rb>大</rb><rt>おお</rt></ruby>けがも\\nあっという<ruby><rb>間</rb><rt>ま</rt></ruby>に<ruby><rb>治</rb><rt>なお</rt></ruby>っちまう！",
+        "zh_cn": "只要吃了那个，就算是重伤\\n也能瞬间治好！",
+        "zh_tw": "只要吞下那個，\\n再嚴重的傷都會馬上治好！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0043",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "But it's forbidden to tell anyone outside of\\nthe forest about it, so let me go ask for a\\nfew doses for the people here.",
+        "ja_jp": "だけど、<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>はイニシオの<ruby><rb>外</rb><rt>そと</rt></ruby>で\\nその<ruby><rb>薬</rb><rt>くすり</rt></ruby>のことを<ruby><rb>話</rb><rt>はな</rt></ruby>すのはダメなんだ。",
+        "zh_cn": "但是，这种药其实是不能\\n在伊尼希欧以外的地方说起的。",
+        "zh_tw": "但是，其實那種藥的事\\n不能在伊尼希昂以外的地方說出來。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0044",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Sit tight until I come back.",
+        "ja_jp": "オレが<ruby><rb>話</rb><rt>はなし</rt></ruby>をつけて<ruby><rb>貰</rb><rt>もら</rt></ruby>ってきてやる。\\nだから、<ruby><rb>待</rb><rt>ま</rt></ruby>っててほしいんだ。",
+        "zh_cn": "我去找他们商量，把药拿来。\\n希望你们能等我。",
+        "zh_tw": "我去跟他們商量把藥拿來。\\n所以，希望你等我一下。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0045",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "(I can't believe he would just violate one\\nof the laws they've held to for so long...)",
+        "ja_jp": "（イニシオの<ruby><rb>人</rb><rt>ひと</rt></ruby>たちが<ruby><rb>大切</rb><rt>たいせつ</rt></ruby>にしてきた\\n　<ruby><rb>掟</rb><rt>おきて</rt></ruby>を<ruby><rb>勝手</rb><rt>かって</rt></ruby>に<ruby><rb>破</rb><rt>やぶ</rt></ruby>っちゃうなんて……）",
+        "zh_cn": "（竟然自作主张\\n破坏了伊尼希欧的人们\\n遵守至今的规矩……）",
+        "zh_tw": "（竟然擅自打破伊尼希昂的人們\\n一直以來重視的守則……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0046",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "(I understand these people's plight, and I\\ncan relate to wanting to help them, but\\nstill!)",
+        "ja_jp": "（<ruby><rb>街</rb><rt>まち</rt></ruby>の<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>気持</rb><rt>きも</rt></ruby>ちも、リュカ<ruby><rb>兄</rb><rt>にい</rt></ruby>の\\n　<ruby><rb>気持</rb><rt>きも</rt></ruby>ちもわかるけど、でも……！）",
+        "zh_cn": "（我懂镇上居民的心情，\\n也理解卢卡哥哥的想法，\\n可是……）",
+        "zh_tw": "（雖然鎮上居民和琉卡哥的心情\\n我都懂，可是……！）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0047",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "(At the very least, I have to go tell Isaac\\nbefore anything happens.)",
+        "ja_jp": "（せめて<ruby><rb>何</rb><rt>なに</rt></ruby>か<ruby><rb>起</rb><rt>お</rt></ruby>こる<ruby><rb>前</rb><rt>まえ</rt></ruby>に、\\n　イスハークに<ruby><rb>報</rb><rt>しら</rt></ruby>せなきゃ――！）",
+        "zh_cn": "（至少要在发生不测之前\\n通知以撒克才行！）",
+        "zh_tw": "（至少得在發生什麼事之前，\\n通知伊斯哈克才行──！）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0048",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Isaac! Thank goodness you're finally back.",
+        "ja_jp": "イスハーク！\\nやっと<ruby><rb>帰</rb><rt>かえ</rt></ruby>ってきてくれた……！",
+        "zh_cn": "以撒克！\\n你终于回来了啊！",
+        "zh_tw": "伊斯哈克！\\n你終於回來了……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0049",
+      "book": ""
+    },
+    {
+      "icon": "110391_01",
+      "name": {
+        "en_us": "Isaac",
+        "ja_jp": "イスハーク",
+        "zh_cn": "以撒克",
+        "zh_tw": "伊斯哈克"
+      },
+      "context": {
+        "en_us": "Sarisse? What has you so shaken?",
+        "ja_jp": "シーリス？　そんなに<ruby><rb>慌</rb><rt>あわ</rt></ruby>てて\\nどうかしたのか？",
+        "zh_cn": "希里丝？\\n你怎么这么慌张？",
+        "zh_tw": "西莉絲？\\n看妳那麼慌張，怎麼了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0050",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "There's something you need to hear about.\\nEarlier today, we were—",
+        "ja_jp": "イスハークに<ruby><rb>話</rb><rt>はな</rt></ruby>したいことがあって！\\n<ruby><rb>実</rb><rt>じつ</rt></ruby>は<ruby><rb>今日</rb><rt>きょう</rt></ruby>……。",
+        "zh_cn": "我有话要对你说！\\n其实今天……",
+        "zh_tw": "我有事想告訴伊斯哈克！\\n其實今天……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0051",
+      "book": ""
+    },
+    {
+      "icon": "110391_01",
+      "name": {
+        "en_us": "Isaac",
+        "ja_jp": "イスハーク",
+        "zh_cn": "以撒克",
+        "zh_tw": "伊斯哈克"
+      },
+      "context": {
+        "en_us": "Wait! That sound...!",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>て！　この<ruby><rb>音</rb><rt>おと</rt></ruby>は……！",
+        "zh_cn": "等等！这声音是……",
+        "zh_tw": "等等！這個聲音是……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0052",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Huh? Isaac, wait! Where are you going?!",
+        "ja_jp": "えっ!?　イスハーク、どこへ!?",
+        "zh_cn": "诶！？以撒克，你要去哪！？",
+        "zh_tw": "咦！？伊斯哈克，你要去哪！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0053",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "No, stop! Please, just wait!\\nI told you I'd go and talk to them!",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>て、みんな！　<ruby><rb>待</rb><rt>ま</rt></ruby>ってくれ！\\nオレが<ruby><rb>話</rb><rt>はなし</rt></ruby>をつけるって<ruby><rb>言</rb><rt>い</rt></ruby>ってるだろ！",
+        "zh_cn": "你们等等！等等啊！\\n我都说了会去找他们商量的！",
+        "zh_tw": "等等，大家！先等一下！\\n我說過會去跟他們商量了吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0054",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "We're in no condition to just sit and wait!\\nYou saw the state of our town. You should\\nknow how urgent this is!",
+        "ja_jp": "もう、<ruby><rb>待</rb><rt>ま</rt></ruby>っていられる<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>じゃない！\\n<ruby><rb>街</rb><rt>まち</rt></ruby>の<ruby><rb>惨状</rb><rt>さんじょう</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>ればわかるはずだ！",
+        "zh_cn": "现在这种情况哪还等得了啊！\\n看镇上的惨状就知道了吧！",
+        "zh_tw": "現在的狀況已經無法再等下去了！\\n看到鎮上的慘狀你應該明白吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0055",
+      "book": ""
+    },
+    {
+      "icon": "120113_01",
+      "name": {
+        "en_us": "Sylvans",
+        "ja_jp": "フォレスティアたち",
+        "zh_cn": "森隐族们",
+        "zh_tw": "佛萊斯提亞們"
+      },
+      "context": {
+        "en_us": "Yeah! Yeah!",
+        "ja_jp": "そうだ！　そうだ！",
+        "zh_cn": "就是啊！就是啊！",
+        "zh_tw": "就是啊！就是啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0056",
+      "book": ""
+    },
+    {
+      "icon": "120113_01",
+      "name": {
+        "en_us": "Isaac",
+        "ja_jp": "イスハーク",
+        "zh_cn": "以撒克",
+        "zh_tw": "伊斯哈克"
+      },
+      "context": {
+        "en_us": "Stop this! What are you people doing?!",
+        "ja_jp": "やめろ！\\n<ruby><rb>貴様</rb><rt>きさま</rt></ruby>たち、<ruby><rb>何</rb><rt>なに</rt></ruby>をしている！",
+        "zh_cn": "住手！\\n你们在干什么！",
+        "zh_tw": "住手！\\n你們在做什麼！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0057",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "全員",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "――!!",
+        "zh_cn": "！",
+        "zh_tw": "──！！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Isaac...",
+        "ja_jp": "い、イスハーク……。",
+        "zh_cn": "以、以撒克……",
+        "zh_tw": "伊、伊斯哈克……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0058",
+      "book": ""
+    },
+    {
+      "icon": "110391_01",
+      "name": {
+        "en_us": "Isaac",
+        "ja_jp": "イスハーク",
+        "zh_cn": "以撒克",
+        "zh_tw": "伊斯哈克"
+      },
+      "context": {
+        "en_us": "Explain this, Luca. Who are these people?\\nWhy have they entered the forest without\\npermission?",
+        "ja_jp": "どういうことだ、リュカ。\\nそいつらは<ruby><rb>何者</rb><rt>なにもの</rt></ruby>だ？　なぜ<ruby><rb>赦</rb><rt>ゆる</rt></ruby>しもなく\\n<ruby><rb>森</rb><rt>もり</rt></ruby>に<ruby><rb>入</rb><rt>はい</rt></ruby>っている。",
+        "zh_cn": "卢卡，这是怎么回事？\\n他们是什么人？为什么\\n未经允许就进入了森林？",
+        "zh_tw": "這是怎麼回事，琉卡。\\n這些傢伙是什麼人？\\n為何未經允許就踏入森林。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0059",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "They're...",
+        "ja_jp": "それは……。",
+        "zh_cn": "这……",
+        "zh_tw": "那是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0060",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "We're sylvans from the town just outside\\nthese woods.",
+        "ja_jp": "<ruby><rb>近</rb><rt>ちか</rt></ruby>くの<ruby><rb>街</rb><rt>まち</rt></ruby>に<ruby><rb>住</rb><rt>す</rt></ruby>むフォレスティアさ。",
+        "zh_cn": "我们是住在\\n附近镇上的森隐族。",
+        "zh_tw": "我是住在附近鎮上的佛萊斯提亞。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0061",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "We've come for the spiritree.\\nWe need this remedy of yours!",
+        "ja_jp": "<ruby><rb>霊樹</rb><rt>れいじゅ</rt></ruby>をいただきに<ruby><rb>来</rb><rt>き</rt></ruby>たんだよ。\\nこいつの<ruby><rb>話</rb><rt>はな</rt></ruby>した<ruby><rb>秘薬</rb><rt>ひやく</rt></ruby>の<ruby><rb>材料</rb><rt>ざいりょう</rt></ruby>をな！",
+        "zh_cn": "我们是来要灵树的，\\n就是这家伙说的秘药材料！",
+        "zh_tw": "我是來帶走靈樹的。\\n就是這傢伙說過的秘藥材料！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0062",
+      "book": ""
+    },
+    {
+      "icon": "110391_01",
+      "name": {
+        "en_us": "Isaac",
+        "ja_jp": "イスハーク",
+        "zh_cn": "以撒克",
+        "zh_tw": "伊斯哈克"
+      },
+      "context": {
+        "en_us": "Luca... You told them?",
+        "ja_jp": "……！　<ruby><rb>秘薬</rb><rt>ひやく</rt></ruby>のことを<ruby><rb>話</rb><rt>はな</rt></ruby>したのか、\\nリュカ……！",
+        "zh_cn": "你把秘药的事说出去了吗……\\n卢卡！",
+        "zh_tw": "……！\\n你把秘藥的事說出去了嗎，琉卡……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0063",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "I'm...I'm sorry. I didn't think they'd\\ncome try to take the stuff by force!",
+        "ja_jp": "す、すまねえ……\\nだけど、<ruby><rb>無理</rb><rt>むり</rt></ruby>やり<ruby><rb>霊樹</rb><rt>れいじゅ</rt></ruby>を<ruby><rb>奪</rb><rt>うば</rt></ruby>おうなんて\\nつもりは……！",
+        "zh_cn": "抱、抱歉……\\n但我没打算强夺灵树……",
+        "zh_tw": "對、對不起……\\n可是，我沒打算強行搶走靈樹……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0064",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Listen, folks, I'm begging you to calm\\ndown. It doesn't have to be like this.\\nWe can all come to an agreement here!",
+        "ja_jp": "<ruby><rb>街</rb><rt>まち</rt></ruby>のみんなも<ruby><rb>落</rb><rt>お</rt></ruby>ち<ruby><rb>着</rb><rt>つ</rt></ruby>いてくれよ！\\nこんなやり<ruby><rb>方</rb><rt>かた</rt></ruby>じゃなく、もっとみんなが\\n<ruby><rb>納得</rb><rt>なっとく</rt></ruby>できる<ruby><rb>方法</rb><rt>ほうほう</rt></ruby>があるはずだろ！",
+        "zh_cn": "镇上的各位也冷静点！\\n别争锋相对，总会有一个\\n大家都能接受的办法的！",
+        "zh_tw": "鎮上的大家也冷靜一點嘛！\\n就算不這麼做，\\n應該也有所有人都能接受的方法才對！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0065",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "We don't have time to negotiate!\\nIf we don't act now, people will die!",
+        "ja_jp": "<ruby><rb>時間</rb><rt>じかん</rt></ruby>がねえんだよ！　<ruby><rb>待</rb><rt>ま</rt></ruby>ってたら\\n<ruby><rb>死</rb><rt>し</rt></ruby>んじまうやつが<ruby><rb>出</rb><rt>で</rt></ruby>る！",
+        "zh_cn": "已经没时间了！\\n再等下去就要出人命了！",
+        "zh_tw": "沒有時間了！\\n再等下去，就會有人死的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0066",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "The laws of Initio are the teachings of our\\nancestors. They won't give them up, even if\\nit means lives are lost!",
+        "ja_jp": "イニシオの<ruby><rb>掟</rb><rt>おきて</rt></ruby>は<ruby><rb>先人</rb><rt>せんじん</rt></ruby>の<ruby><rb>教</rb><rt>おし</rt></ruby>え。\\n<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>命</rb><rt>いのち</rt></ruby>がかかっていようが、\\n<ruby><rb>簡単</rb><rt>かんたん</rt></ruby>に<ruby><rb>揺</rb><rt>ゆ</rt></ruby>るぎはしねえ……！",
+        "zh_cn": "伊尼希欧的规矩乃先人的教诲。\\n就算事关人命，\\n也不会轻易动摇！",
+        "zh_tw": "伊尼希昂的守則是先人的教誨。\\n就算事關人命，也無法輕易動搖……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0067",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "That strict adherence to tradition is why\\nthis place remains a holy land to our kind.\\nI take pride in that, as a fellow sylvan.",
+        "ja_jp": "その<ruby><rb>厳格</rb><rt>げんかく</rt></ruby>さこそが、これまでイニシオが\\n<ruby><rb>聖地</rb><rt>せいち</rt></ruby>たり<ruby><rb>得</rb><rt>え</rt></ruby>たゆえんでもある。\\nフォレスティアとして<ruby><rb>誇</rb><rt>ほこ</rt></ruby>りだよ。",
+        "zh_cn": "正因为他们严格遵守，\\n伊尼希欧才得以作为圣地留存至今。\\n我身为森隐族对此深感骄傲。",
+        "zh_tw": "正因為如此嚴格，\\n伊尼希昂才會成為聖地。\\n我身為佛萊斯提亞也覺得很驕傲。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0068",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "But traditions won't save our friends and\\nfamilies from the swift advance of an\\nimminent and painful death!",
+        "ja_jp": "だがな。<ruby><rb>伝統</rb><rt>でんとう</rt></ruby>で<ruby><rb>俺</rb><rt>おれ</rt></ruby>たちの<ruby><rb>苦</rb><rt>くる</rt></ruby>しみは\\n<ruby><rb>救</rb><rt>すく</rt></ruby>えねえ――！",
+        "zh_cn": "但是，传统拯救不了\\n我们的痛苦！",
+        "zh_tw": "但是，傳統無法拯救我們的痛苦──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0069",
+      "book": ""
+    },
+    {
+      "icon": "110391_01",
+      "name": {
+        "en_us": "Isaac",
+        "ja_jp": "イスハーク",
+        "zh_cn": "以撒克",
+        "zh_tw": "伊斯哈克"
+      },
+      "context": {
+        "en_us": "Do you have any idea what will happen if\\nyou chop down that tree?!",
+        "ja_jp": "その<ruby><rb>霊樹</rb><rt>れいじゅ</rt></ruby>を<ruby><rb>伐</rb><rt>き</rt></ruby>れば、<ruby><rb>何</rb><rt>なに</rt></ruby>が<ruby><rb>起</rb><rt>お</rt></ruby>こるか\\n<ruby><rb>貴様</rb><rt>きさま</rt></ruby>らわかっているのか!?",
+        "zh_cn": "你们知道砍掉灵树\\n会导致什么后果吗！？",
+        "zh_tw": "要是砍倒那棵靈樹，\\n你們知道會發生什麼事嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0070",
+      "book": ""
+    },
+    {
+      "icon": "110391_01",
+      "name": {
+        "en_us": "Isaac",
+        "ja_jp": "イスハーク",
+        "zh_cn": "以撒克",
+        "zh_tw": "伊斯哈克"
+      },
+      "context": {
+        "en_us": "This forest is Yggdrasil's life itself.\\nAnd among all that grows here, that\\nspiritree is Yggdrasil's flesh and bone.",
+        "ja_jp": "この<ruby><rb>森</rb><rt>もり</rt></ruby>はユグドラシルの<ruby><rb>命</rb><rt>いのち</rt></ruby>そのもの。\\n<ruby><rb>中</rb><rt>なか</rt></ruby>でもその<ruby><rb>霊樹</rb><rt>れいじゅ</rt></ruby>はユグドラシルの\\n<ruby><rb>分身</rb><rt>ぶんしん</rt></ruby>といってもいい。",
+        "zh_cn": "这片森林就是尤克特拉希尔的命，\\n其中这棵灵树可以说是\\n尤克特拉希尔的分身。",
+        "zh_tw": "這座森林正代表著世界樹的生命。\\n尤其是那棵靈樹，\\n說是世界樹的分身也不為過。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0071",
+      "book": ""
+    },
+    {
+      "icon": "110391_01",
+      "name": {
+        "en_us": "Isaac",
+        "ja_jp": "イスハーク",
+        "zh_cn": "以撒克",
+        "zh_tw": "伊斯哈克"
+      },
+      "context": {
+        "en_us": "Its boughs are replete with Yggdrasil's\\nmana. To take an axe to them is to cut\\ndown Yggdrasil itself!",
+        "ja_jp": "<ruby><rb>宿</rb><rt>やど</rt></ruby>すマナが<ruby><rb>桁違</rb><rt>けたちが</rt></ruby>い。それを\\n<ruby><rb>伐</rb><rt>き</rt></ruby>るということは、すなわち\\nユグドラシルの<ruby><rb>命</rb><rt>いのち</rt></ruby>を<ruby><rb>刈</rb><rt>か</rt></ruby>ると<ruby><rb>同義</rb><rt>どうぎ</rt></ruby>！",
+        "zh_cn": "其蕴含的魔力非比寻常。\\n砍掉它，就相当于要了\\n尤克特拉希尔的命！",
+        "zh_tw": "當中寄宿的瑪納量，\\n其他樹木根本無法比擬。如果砍倒它，\\n就等同割取世界樹的生命！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0072",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "And what of it?! Yggdrasil's been making a\\nharvest of our lives for years now!",
+        "ja_jp": "それがどうした！　こっちだって\\nユグドラシルに<ruby><rb>命</rb><rt>いのち</rt></ruby>を<ruby><rb>搾</rb><rt>しぼ</rt></ruby>り<ruby><rb>取</rb><rt>と</rt></ruby>られてる！",
+        "zh_cn": "那又怎么样！我们也正被\\n尤克特拉希尔压榨生命啊！",
+        "zh_tw": "那又怎麼樣！\\n世界樹也正在剝奪我們的生命！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0073",
+      "book": ""
+    },
+    {
+      "icon": "110391_01",
+      "name": {
+        "en_us": "Isaac",
+        "ja_jp": "イスハーク",
+        "zh_cn": "以撒克",
+        "zh_tw": "伊斯哈克"
+      },
+      "context": {
+        "en_us": "NO! Leave the tree be, I say!",
+        "ja_jp": "――っ！　<ruby><rb>霊樹</rb><rt>れいじゅ</rt></ruby>を<ruby><rb>伐</rb><rt>き</rt></ruby>った……！",
+        "zh_cn": "竟然砍了灵树！",
+        "zh_tw": "──！\\n竟然砍了靈樹……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0074",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "I'm a sylvan, same as you. I know just how\\nimportant Yggdrasil and this forest are.",
+        "ja_jp": "<ruby><rb>俺</rb><rt>おれ</rt></ruby>だってフォレスティアだ。<ruby><rb>森</rb><rt>もり</rt></ruby>や\\nユグドラシルがどれだけ<ruby><rb>大切</rb><rt>たいせつ</rt></ruby>なものかは\\nわかってる。",
+        "zh_cn": "我也是森隐族，\\n我当然知道森林\\n以及尤克特拉希尔有多重要。",
+        "zh_tw": "我也是佛萊斯提亞。\\n很清楚森林和世界樹\\n是多麼重要的存在。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0075",
+      "book": ""
+    },
+    {
+      "icon": "120055_01",
+      "name": {
+        "en_us": "Town Sylvan",
+        "ja_jp": "街のフォレスティア",
+        "zh_cn": "镇上的森隐族",
+        "zh_tw": "鎮上的佛萊斯提亞"
+      },
+      "context": {
+        "en_us": "But is it a crime to try to protect OUR way\\nof life?! Sorry, but we're taking this branch\\nwith us!",
+        "ja_jp": "だけど、<ruby><rb>今</rb><rt>いま</rt></ruby>の<ruby><rb>暮</rb><rt>く</rt></ruby>らしを<ruby><rb>守</rb><rt>まも</rt></ruby>ろうとするのが\\nそんなに<ruby><rb>悪</rb><rt>わる</rt></ruby>いことか!?　<ruby><rb>悪</rb><rt>わる</rt></ruby>いが\\n<ruby><rb>霊樹</rb><rt>れいじゅ</rt></ruby>の<ruby><rb>枝</rb><rt>えだ</rt></ruby>はもらっていくぞ！",
+        "zh_cn": "但是，守护眼前的生活\\n就这么罪大恶极吗！？\\n抱歉，灵树的枝干我们要了！",
+        "zh_tw": "不過，想要守護現在的生活\\n就是那麼壞的事情嗎！？\\n很抱歉，但靈樹的枝幹我要了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0076",
+      "book": ""
+    },
+    {
+      "icon": "110391_01",
+      "name": {
+        "en_us": "Isaac",
+        "ja_jp": "イスハーク",
+        "zh_cn": "以撒克",
+        "zh_tw": "伊斯哈克"
+      },
+      "context": {
+        "en_us": "WAIT! As a guardsman of the verdure,\\nI cannot allow—",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>て！　<ruby><rb>神緑</rb><rt>しんりょく</rt></ruby>の<ruby><rb>番人</rb><rt>ばんにん</rt></ruby>として\\n<ruby><rb>赦</rb><rt>ゆる</rt></ruby>しは――。",
+        "zh_cn": "等等！我身为神绿守护者，\\n决不允许……",
+        "zh_tw": "站住！我身為神綠守衛，\\n絕不允許──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0077",
+      "book": ""
+    },
+    {
+      "icon": "110391_01",
+      "name": {
+        "en_us": "Isaac",
+        "ja_jp": "イスハーク",
+        "zh_cn": "以撒克",
+        "zh_tw": "伊斯哈克"
+      },
+      "context": {
+        "en_us": "No...!",
+        "ja_jp": "これは……！",
+        "zh_cn": "这是……",
+        "zh_tw": "這是……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0078",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "You guys! What happened?!",
+        "ja_jp": "な、なに!?　どうしちゃったの!?",
+        "zh_cn": "什、什么！？怎么了！？",
+        "zh_tw": "什、什麼！？到底怎麼了！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0079",
+      "book": ""
+    },
+    {
+      "icon": "110391_01",
+      "name": {
+        "en_us": "Isaac",
+        "ja_jp": "イスハーク",
+        "zh_cn": "以撒克",
+        "zh_tw": "伊斯哈克"
+      },
+      "context": {
+        "en_us": "Yggdrasil is suffering... Rgh.\\nAt this rate, its very life is in danger!",
+        "ja_jp": "ユグドラシルが<ruby><rb>苦</rb><rt>くる</rt></ruby>しんでいる……\\nくっ……このままでは、ユグドラシルの\\n<ruby><rb>命</rb><rt>いのち</rt></ruby>が<ruby><rb>危</rb><rt>あぶ</rt></ruby>ない！",
+        "zh_cn": "尤克特拉希尔正感到痛苦……\\n呃……这样下去的话，\\n尤克特拉希尔就危险了！",
+        "zh_tw": "世界樹正感到痛苦……\\n唔……這樣下去的話，\\n世界樹會有生命危險！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0080",
+      "book": ""
+    },
+    {
+      "icon": "100029_05",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Isaac! C'mon, Luca.\\nWe've got to go after him!",
+        "ja_jp": "イスハーク……！\\nリュカ<ruby><rb>兄</rb><rt>にい</rt></ruby>、イスハークを<ruby><rb>追</rb><rt>お</rt></ruby>おう！",
+        "zh_cn": "以撒克！\\n卢卡哥哥，我们去追他吧！",
+        "zh_tw": "伊斯哈克……！\\n琉卡哥，我們快去追伊斯哈克吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0081",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Right!",
+        "ja_jp": "おう……！",
+        "zh_cn": "好！",
+        "zh_tw": "嗯……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22901_04_0082",
+      "book": ""
+    }
+  ]
 }

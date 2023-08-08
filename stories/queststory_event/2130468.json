@@ -1,31 +1,60 @@
 {
-    "story_id": "",
-    "story_name": "情人节·甜美佳肴 追加剧情 切尔茜",
-    "story_icon": "",
-    "outline": {
-        "title": "",
-        "content": [
-            "要跳过此剧情吗？"
-        ]
+  "title": {
+    "en_us": "Valentine's Confections Extra    Chelsea",
+    "ja_jp": "バレンタイン・アラカルト エクストラ  チェルシー",
+    "zh_cn": "情人节·甜美佳肴 追加剧情  切尔茜",
+    "zh_tw": "情人節‧精巧甜品　追加劇情  雀兒喜"
+  },
+  "outline": {
+    "title": {
+      "en_us": "",
+      "ja_jp": "",
+      "zh_cn": "",
+      "zh_tw": ""
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110342_01"
-            ],
-            "speaker_name": "切尔茜",
-            "context": "我竟然收到了卢卡亲以外的人\\n送的礼物☆☆\\n不过，我很开心☆☆☆",
-            "voice_line": "VO_CHR_EVENTSTORY_21304_01_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110342_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "收到了来自切尔茜的回礼。",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Skip this scene?",
+      "ja_jp": "このストーリーをスキップしますか？",
+      "zh_cn": "要跳过此剧情吗？",
+      "zh_tw": "請確認是否略過劇情？"
+    }
+  },
+  "prev": "2130467",
+  "next": "2130469",
+  "content": [
+    {
+      "icon": "110342_01",
+      "name": {
+        "en_us": "Chelsea",
+        "ja_jp": "チェルシー",
+        "zh_cn": "切尔茜",
+        "zh_tw": "雀兒喜"
+      },
+      "context": {
+        "en_us": "Wait. This is from you? Not Luca?\\n...Well, good enough! Tee hee! ",
+        "ja_jp": "リュカきゅん<ruby><rb>以外</rb><rt>いがい</rt></ruby>から\\nもらっちゃった☆☆\\nでも、<ruby><rb>嬉</rb><rt>うれ</rt></ruby>しっ☆☆☆",
+        "zh_cn": "我竟然收到了卢卡亲以外的人\\n送的礼物☆☆\\n不过，我很开心☆☆☆",
+        "zh_tw": "收到了琉卡卡以外的人\\n送的禮物☆☆\\n不過，好開心☆☆☆"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21304_01_0028",
+      "book": ""
+    },
+    {
+      "icon": "110342_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "You received a thank-you gift from Chelsea.",
+        "ja_jp": "チェルシーからプレゼントのお<ruby><rb>礼</rb><rt>れい</rt></ruby>をもらった。",
+        "zh_cn": "收到了来自切尔茜的回礼。",
+        "zh_tw": "收到了來自雀兒喜的回禮。"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

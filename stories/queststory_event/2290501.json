@@ -1,736 +1,1394 @@
 {
-    "story_id": "",
-    "story_name": "艾缪尔宅邸潜入计划 艾缪尔发疯了！？",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "得知艾缪尔的行为异常，\\n皮雅茜和佐迪亚克自告奋勇前去拯救艾缪尔。\\n在爱德华指导下，\\n他们假扮佣人潜入艾缪尔的宅邸\\n进行秘密调查。"
-        ]
+  "title": {
+    "en_us": "Operation: At Your Service    Emile Loses It",
+    "ja_jp": "潜入！エミュールハウス  エミュール、乱心!?",
+    "zh_cn": "艾缪尔宅邸潜入计划  艾缪尔发疯了！？",
+    "zh_tw": "潛入！埃米爾豪宅  埃米爾瘋了！？"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "萨博亚",
-            "context": "请……请大家救救他吧！\\n艾缪尔大人最近变得很奇怪！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01",
-                "100003_01"
-            ],
-            "speaker_name": "全员",
-            "context": "嚯～",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "萨博亚",
-            "context": "完……完全没有人相信……\\n可我说的都是真的！几天前开始\\n艾缪尔大人就一直没出过宅邸！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "可能是他想要休息一段时间？\\n我看他最近好像也很用心执政……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "也有可能是他又在\\n悄悄铸造自己的铜像了吧。\\n那家伙不是很喜欢雕刻之类的吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "萨博亚",
-            "context": "不，其实……\\n艾缪尔大人似乎也完全\\n停止了这些艺术活动。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "萨博亚",
-            "context": "因为担心而前去看望的士兵们\\n则无一例外被赶了回来……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "那家伙不是经常一闹情绪就赶人走吗？\\n可能是他肚子疼，\\n或者只是单纯的心情不好？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "萨博亚",
-            "context": "这确实也有可能……\\n但我还是觉得有哪里怪怪的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "萨博亚",
-            "context": "他赶我们走的时候似乎非常有力气，\\n但面相上却十分憔悴，\\n就像是被幽灵附身了一样……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "幽、幽灵……应该不至于吧。\\n我能理解你担心他的心情，\\n可你们这也担心过头了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "没错没错。\\n先冷静下来，再多观察观察吧。\\n艾缪尔他也不是小孩子了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "萨博亚",
-            "context": "各位……\\n也是，可能真是我想多了吧。\\n艾缪尔大人也总说我们太爱操心。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "萨博亚",
-            "context": "我们前几天去宅邸探望时，\\n艾缪尔大人也是这么说的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "诸位臣子的心意让吾十分欣慰，\\n但无需为吾担忧。\\n诸位也该适时让自己放松放松。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "萨博亚",
-            "context": "既然这话是艾缪尔大人\\n亲口说出的话，\\n想必应该没问题的吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "没错！既然是艾缪尔\\n他自己说的，那肯定……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "不对等等！\\n这已经奇怪到不能再奇怪了吧！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "艾缪尔怎么可能会说\\n那种晦涩又正式的话！\\n怎么看都不正常吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "他绝对是被什么东西附身了！\\n你怎么不早点说啊！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "萨博亚",
-            "context": "我一直都在说啊！\\n话说您惊讶的点竟然是这个吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "这还用问吗！\\n萨博亚你可千万不能因为\\n他这种奇怪的行径感到高兴啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "唔……\\n也许真的有什么不好的东西\\n在暗中作祟。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "是啊，我们也不能坐视不管。\\n赶快派点人去救救他吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "可让谁去好呢？\\n如果是我去的话，\\n肯定会引起防备。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "确实。\\n要是能有艾缪尔不认识的人\\n去打探打探情况就好了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "我来我来！\\n我想来完成这份任务！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_02"
-            ],
-            "speaker_name": "SYS",
-            "context": "哈耳摩尼亚合唱团的少女\\n皮雅茜",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_02"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "我听到你们说的事情了哦。\\n那位大哥哥以前看过\\n我们合唱团的演出。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_02"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "虽然他可能已经不记得我了……\\n但当时大哥哥有夸过我，\\n如果他有难，我一定要去帮他！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "皮雅茜，我很高兴你能有这份心意，\\n但我不能让你一个小孩子\\n只身一人去做这么危险的调查……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "那就由我同行吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210005_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "传说中的六龙之一\\n暗龙佐迪亚克",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "佐……佐迪亚克！？\\n虽然很感谢你有这份心，但你身为龙，\\n无论怎样都太引人注目了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210005_01"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "唔……\\n那这样如何……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "噢！\\n原来你也能化成人形！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_01"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "嗯……这是五龙都有的力量。\\n这样我就能潜入宅邸去调查了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "嗯，不仅没问题，还特别让人放心。\\n不过……佐迪亚克你又\\n为什么愿意做这件事？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_01"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "与我灵魂融为一体的亚罗拉斯\\n也很担心他的孩子。\\n我想借此让他放心。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "父王吗？这样啊……\\n那就麻烦你了，佐迪亚克。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "剩下的问题就是\\n怎样才能接近艾缪尔……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "毕竟他连自己的部下都赶回去了。\\n就这么直接去的话会吃闭门羹的。\\n只有从后门悄悄溜进去了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "萨博亚",
-            "context": "问题是，戒备比想象中更森严。\\n常驻宅邸的总管家眼尖得很……\\n之前有人自告奋勇试图潜入——",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "萨博亚",
-            "context": "结果立刻就被发现了。\\n所以溜进去几乎是不可能的。\\n现在能想到的办法就只有强攻……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这可真让人头疼。\\n目前还不清楚到底发生了什么情况，\\n还是不要轻举妄动引起防备比较好。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "要是能有一种更安全的方法\\n接近艾缪尔就好了。\\n大家有什么好主意吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "我倒是有一个好办法。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "哇啊！？谁、谁啊——\\n啊，原来是爱德华啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "是的，我的主人。\\n正是您完美的管家爱德华。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "完美却偶尔毒舌的管家\\n爱德华",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "啊、啊哈哈……你还是老样子啊。\\n那么……你说的好办法是？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "无论艾缪尔大人如何不让人靠近，\\n对于没有生活能力的他来说，\\n有一种人是绝对离不开的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "那就是——我们这些\\n照顾生活起居的佣人。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "所以我认为，\\n以佣人的身份光明正大地\\n从正门进去就可以。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "萨博亚",
-            "context": "这的确是一个好办法！\\n可是，要怎样才能成为佣人呢？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "这种时候就交给专业人士吧。\\n其实我在佣人的职业介绍协会\\n有一些人脉。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "手续方面的事情无需担心。\\n至于身为佣人的举止言谈，\\n我也会完美地进行指导。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "不过短期的指导效果有限，\\n所以我会以导师的身份\\n与二位一同前往。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "爱德华……简直太可靠了！\\n可是，这样好吗？\\n麻烦你做这么多事。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "当然了。\\n您如今也已经十分出色。\\n很少有需要我贴身指导的事情了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "所以我认为……\\n今后我的“完美工作”应该是\\n为主人排忧解难，我的主人。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "爱德华……太谢谢你了！\\n那就拜托你了！还有皮雅茜和佐迪亚克！\\n这件事就看你们的了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_02"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "好的！\\n我们一定会解救艾缪尔的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_01"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "交给我们吧。\\n我会好好学习人类的礼仪，\\n略尽绵力的……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "二位的心态很不错。\\n那我们就立刻开始\\n进行佣人的训练吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_02"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "立、立刻！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "当然了，\\n佣人的基础可不是\\n一朝一夕就能练成的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "潜入任务的具体日期确定之前，\\n我会让二位掌握佣人\\n最基本的礼仪的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_02"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "好、好的！\\n我会尽全力的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_01"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "唔……走吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "数日后——\\n\\n狄涅尔帝国境内\\n艾缪尔宅邸前",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "这一刻终于到来了——",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "是啊。经过日复一日的刻苦训练，\\n我们终于收到了录取通知。\\n从今天起，正式潜入这栋宅邸！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "这都要感谢爱德华……\\n现在我们一定能够\\n以佣人的身份顺利潜入。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "真不愧是二位。\\n虽然只有短短几日，\\n也不枉我对二位的教导了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "请尽情发挥二位的训练成果吧。\\n我们走……\\n去揭开艾缪尔大人异常行为的真相。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120133_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "呵呵……呵呵……来了来了。\\n又有人……来了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120133_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "新的好朋友候选人……来了！\\n呵呵呵……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_01_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120133_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "……",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "After receiving word that something is wrong\\nwith Emile, Pia and Zodiark step in to help.\\nUnder Edward's guidance, they disguise\\nthemselves as servants and set off to infiltrate\\nthe emperor's vacation manor.",
+      "ja_jp": "エミュールに<ruby><rb>異変</rb><rt>いへん</rt></ruby>ありとの<ruby><rb>報</rb><rt>ほう</rt></ruby>を<ruby><rb>受</rb><rt>う</rt></ruby>け、\\nピアチェとゾディアークが<ruby><rb>救出役</rb><rt>きゅうしゅつやく</rt></ruby>に<ruby><rb>名乗</rb><rt>なの</rt></ruby>り\\n<ruby><rb>出</rb><rt>で</rt></ruby>た。ふたりはエドワードの<ruby><rb>指導</rb><rt>しどう</rt></ruby>のもと、\\n<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>に<ruby><rb>扮</rb><rt>ふん</rt></ruby>してエミュールが<ruby><rb>引</rb><rt>ひ</rt></ruby>きこもった\\n<ruby><rb>別荘</rb><rt>べっそう</rt></ruby>へ<ruby><rb>潜入調査</rb><rt>せんにゅうちょうさ</rt></ruby>に<ruby><rb>向</rb><rt>む</rt></ruby>かう。",
+      "zh_cn": "得知艾缪尔的行为异常，\\n皮雅茜和佐迪亚克自告奋勇前去拯救艾缪尔。\\n在爱德华指导下，\\n他们假扮佣人潜入艾缪尔的宅邸\\n进行秘密调查。",
+      "zh_tw": "聽聞埃米爾發生異變的消息，\\n琵雅雀與索狄亞克志願擔起救助之責。\\n他們在愛德華的指導下喬裝成僕人，\\n並動身前往埃米爾閉門不出的別墅\\n進行潛入調查。"
+    }
+  },
+  "prev": "",
+  "next": "2290502",
+  "content": [
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Saboa",
+        "ja_jp": "サボア",
+        "zh_cn": "萨博亚",
+        "zh_tw": "薩博亞"
+      },
+      "context": {
+        "en_us": "Someone help! Please!\\nEmperor Emile has lost his wits!",
+        "ja_jp": "どうか……どうかお<ruby><rb>助</rb><rt>たす</rt></ruby>けください！\\nエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>が、おかしくなって\\nしまわれたのです!!",
+        "zh_cn": "请……请大家救救他吧！\\n艾缪尔大人最近变得很奇怪！",
+        "zh_tw": "請各位……請各位務必協助！\\n埃米爾大人他、變得非常奇怪！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0001",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "一同",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "Oh. Really now.",
+        "ja_jp": "へ～。",
+        "zh_cn": "嚯～",
+        "zh_tw": "是喔～"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0002",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Saboa",
+        "ja_jp": "サボア",
+        "zh_cn": "萨博亚",
+        "zh_tw": "薩博亞"
+      },
+      "context": {
+        "en_us": "It's true! The other day, he suddenly\\ntook flight and shut himself up in his\\nvacation manor!",
+        "ja_jp": "ま……まるで<ruby><rb>信用</rb><rt>しんよう</rt></ruby>されていない……！\\nしかし<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>なのです！　<ruby><rb>先日</rb><rt>せんじつ</rt></ruby>から<ruby><rb>急</rb><rt>きゅう</rt></ruby>に\\n<ruby><rb>別荘</rb><rt>べっそう</rt></ruby>にお<ruby><rb>籠</rb><rt>こも</rt></ruby>りになられてしまって！",
+        "zh_cn": "完……完全没有人相信……\\n可我说的都是真的！几天前开始\\n艾缪尔大人就一直没出过宅邸！",
+        "zh_tw": "完……完全沒人相信……！\\n但這是真的！他從前幾天就突然\\n將自己關在別墅裡不肯出來！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0003",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Maybe he just wanted some time off.\\nHe's been working pretty hard lately,\\nand it's not easy to run a whole country.",
+        "ja_jp": "<ruby><rb>休暇</rb><rt>きゅうか</rt></ruby>が<ruby><rb>欲</rb><rt>ほ</rt></ruby>しかったんじゃないか？\\n<ruby><rb>最近</rb><rt>さいきん</rt></ruby>、<ruby><rb>執政</rb><rt>しっせい</rt></ruby>も<ruby><rb>頑張</rb><rt>がんば</rt></ruby>ってたみたいだし……",
+        "zh_cn": "可能是他想要休息一段时间？\\n我看他最近好像也很用心执政……",
+        "zh_tw": "會不會只是想休幾天假呢？\\n畢竟聽說他這陣子相當努力執政……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0004",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Guy's probably buildin' another big-arse\\nstatue of himself in secret. I mean, he's\\nall about sculptin' and junk, yeah?",
+        "ja_jp": "またコッソリと<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の\\n<ruby><rb>銅像</rb><rt>どうぞう</rt></ruby>を<ruby><rb>作</rb><rt>つく</rt></ruby>ってるのかもしれないぜ。\\nあいつ<ruby><rb>彫刻作</rb><rt>ちょうこくづく</rt></ruby>りとかも<ruby><rb>好</rb><rt>す</rt></ruby>きだろ。",
+        "zh_cn": "也有可能是他又在\\n悄悄铸造自己的铜像了吧。\\n那家伙不是很喜欢雕刻之类的吗？",
+        "zh_tw": "說不定又在偷刻自己的雕像了咧。\\n那傢伙也很喜歡雕刻之類的吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0005",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Saboa",
+        "ja_jp": "サボア",
+        "zh_cn": "萨博亚",
+        "zh_tw": "薩博亞"
+      },
+      "context": {
+        "en_us": "Actually, our emperor has apparently\\nhalted all of his artistic endeavors.",
+        "ja_jp": "いえ、それが……そういった\\n<ruby><rb>芸術活動</rb><rt>げいじゅつかつどう</rt></ruby>もぱったりと<ruby><rb>止</rb><rt>や</rt></ruby>めて\\nしまわれたようなのです。",
+        "zh_cn": "不，其实……\\n艾缪尔大人似乎也完全\\n停止了这些艺术活动。",
+        "zh_tw": "不，關於這點……\\n這類藝術活動據說也\\n突然完全不碰了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0006",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Saboa",
+        "ja_jp": "サボア",
+        "zh_cn": "萨博亚",
+        "zh_tw": "薩博亞"
+      },
+      "context": {
+        "en_us": "What's more, when we went to check on\\nhim, we were all turned away.",
+        "ja_jp": "おまけに<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>して<ruby><rb>様子</rb><rt>ようす</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>った\\n<ruby><rb>兵</rb><rt>へい</rt></ruby>たちまであえなく<ruby><rb>追</rb><rt>お</rt></ruby>い<ruby><rb>返</rb><rt>かえ</rt></ruby>されて……！",
+        "zh_cn": "因为担心而前去看望的士兵们\\n则无一例外被赶了回来……",
+        "zh_tw": "連因為擔心而去探視的士兵們\\n都被直接趕了回來……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0007",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Yeaaah, I still ain't seein' anything weird.\\nThe guy's always been moody—probably\\njust ate some bad clams or something.",
+        "ja_jp": "その<ruby><rb>日</rb><rt>ひ</rt></ruby>の<ruby><rb>気分</rb><rt>きぶん</rt></ruby>で<ruby><rb>追</rb><rt>お</rt></ruby>い<ruby><rb>返</rb><rt>かえ</rt></ruby>すのもよくある\\n<ruby><rb>話</rb><rt>ばなし</rt></ruby>だろ。<ruby><rb>腹痛</rb><rt>ふくつう</rt></ruby>とかで、<ruby><rb>単</rb><rt>たん</rt></ruby>に<ruby><rb>虫</rb><rt>むし</rt></ruby>の<ruby><rb>居所</rb><rt>いどころ</rt></ruby>が\\n<ruby><rb>悪</rb><rt>わる</rt></ruby>かったんじゃねえか？",
+        "zh_cn": "那家伙不是经常一闹情绪就赶人走吗？\\n可能是他肚子疼，\\n或者只是单纯的心情不好？",
+        "zh_tw": "他依當天的心情趕人不是常有的事嗎。\\n應該只是剛好肚子痛，\\n或是單純心情不佳而已吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0008",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Saboa",
+        "ja_jp": "サボア",
+        "zh_cn": "萨博亚",
+        "zh_tw": "薩博亞"
+      },
+      "context": {
+        "en_us": "It's possible this is all innocent, but my\\ngut tells me something is amiss.",
+        "ja_jp": "それは<ruby><rb>確</rb><rt>たし</rt></ruby>かに、ありえますが……。\\nしかしやはり、どこかおかしい\\n<ruby><rb>気</rb><rt>き</rt></ruby>がするのです。",
+        "zh_cn": "这确实也有可能……\\n但我还是觉得有哪里怪怪的。",
+        "zh_tw": "確實，這也有可能……\\n但我仍舊覺得有哪裡奇怪。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0009",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Saboa",
+        "ja_jp": "サボア",
+        "zh_cn": "萨博亚",
+        "zh_tw": "薩博亞"
+      },
+      "context": {
+        "en_us": "Although the hands that repelled us were\\nfull of strength, his face was gaunt, and I\\nhad the strangest feeling that he was...\\nWell, possessed by some kind of ghost.",
+        "ja_jp": "<ruby><rb>我々</rb><rt>われわれ</rt></ruby>を<ruby><rb>追</rb><rt>お</rt></ruby>い<ruby><rb>返</rb><rt>かえ</rt></ruby>す<ruby><rb>手</rb><rt>て</rt></ruby>こそ<ruby><rb>力</rb><rt>ちから</rt></ruby>がこもって\\nいたものの、お<ruby><rb>顔</rb><rt>かお</rt></ruby>はやつれ、まるで\\n<ruby><rb>幽霊</rb><rt>ゆうれい</rt></ruby>にでも<ruby><rb>取</rb><rt>と</rt></ruby>りつかれたようで……。",
+        "zh_cn": "他赶我们走的时候似乎非常有力气，\\n但面相上却十分憔悴，\\n就像是被幽灵附身了一样……",
+        "zh_tw": "他將我們趕走時雖然頗有力氣，\\n但神情卻相當憔悴，\\n彷彿被幽靈還是什麼附身一樣……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0010",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "A ghost?! ...Er, look. I understand your\\nconcerns—I really do—but I think you\\nmay be worrying too much here.",
+        "ja_jp": "ゆ、<ruby><rb>幽霊</rb><rt>ゆうれい</rt></ruby>……。さすがにそんなことは\\nないんじゃないかな。<ruby><rb>気持</rb><rt>きも</rt></ruby>ちはわかる\\nけど、サボアたちは<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>しすぎだよ。",
+        "zh_cn": "幽、幽灵……应该不至于吧。\\n我能理解你担心他的心情，\\n可你们这也担心过头了。",
+        "zh_tw": "幽、幽靈……應該不會有那種事吧。\\n我明白你的心情，\\n但薩博亞你們真的想太多了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0011",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "The boss is right. Take a couple'a deep\\nbreaths, drink some tea, and just maybe\\nkeep an eye on him for a bit. I mean,\\nEmile's Emile, but he's still a grown man.",
+        "ja_jp": "そうそう。<ruby><rb>一回</rb><rt>いっかい</rt></ruby><ruby><rb>落</rb><rt>お</rt></ruby>ち<ruby><rb>着</rb><rt>つ</rt></ruby>いて、<ruby><rb>様子</rb><rt>ようす</rt></ruby>を\\n<ruby><rb>見</rb><rt>み</rt></ruby>てやれよ。エミュールだって\\nガキじゃねえんだからさ。",
+        "zh_cn": "没错没错。\\n先冷静下来，再多观察观察吧。\\n艾缪尔他也不是小孩子了。",
+        "zh_tw": "對啊對啊。先暫時冷靜一下，\\n觀察看看情況吧。\\n何況埃米爾也不是小鬼了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0012",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Saboa",
+        "ja_jp": "サボア",
+        "zh_cn": "萨博亚",
+        "zh_tw": "薩博亞"
+      },
+      "context": {
+        "en_us": "...Perhaps I am jumping to conclusions.\\nEmperor Emile does often say that we\\nworry overmuch.",
+        "ja_jp": "<ruby><rb>皆様</rb><rt>みなさま</rt></ruby>……。<ruby><rb>確</rb><rt>たし</rt></ruby>かに、<ruby><rb>考</rb><rt>かんが</rt></ruby>えすぎ\\nでしょうか。<ruby><rb>我々</rb><rt>われわれ</rt></ruby>は<ruby><rb>心配性</rb><rt>しんぱいしょう</rt></ruby>すぎると\\nエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>にもよく<ruby><rb>言</rb><rt>い</rt></ruby>われますし。",
+        "zh_cn": "各位……\\n也是，可能真是我想多了吧。\\n艾缪尔大人也总说我们太爱操心。",
+        "zh_tw": "各位……\\n或許、確實是我多想了吧。\\n埃米爾大人也總說我們太愛操心。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0013",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Saboa",
+        "ja_jp": "サボア",
+        "zh_cn": "萨博亚",
+        "zh_tw": "薩博亞"
+      },
+      "context": {
+        "en_us": "In fact, he said exactly that the other day\\nwhen we went to check on him.",
+        "ja_jp": "<ruby><rb>先日</rb><rt>せんじつ</rt></ruby>も、<ruby><rb>別荘</rb><rt>べっそう</rt></ruby>を<ruby><rb>訪</rb><rt>たず</rt></ruby>ねた<ruby><rb>我々</rb><rt>われわれ</rt></ruby>に<ruby><rb>対</rb><rt>たい</rt></ruby>して\\nこう<ruby><rb>仰</rb><rt>おっしゃ</rt></ruby>っておりました。",
+        "zh_cn": "我们前几天去宅邸探望时，\\n艾缪尔大人也是这么说的。",
+        "zh_tw": "幾天前，當我們造訪別墅時，\\n他曾這麼說過──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0014",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "It is laudable for you to spare such\\nthoughts for your leader, but you need not\\nconcern yourself with me. See that you get\\nsome rest yourselves.",
+        "ja_jp": "<ruby><rb>将</rb><rt>しょう</rt></ruby>を<ruby><rb>思</rb><rt>おも</rt></ruby>うは<ruby><rb>優</rb><rt>すぐ</rt></ruby>れた<ruby><rb>心</rb><rt>こころ</rt></ruby>がけなれど、\\n<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>身</rb><rt>み</rt></ruby>を<ruby><rb>顧</rb><rt>かえり</rt></ruby>みずとも<ruby><rb>良</rb><rt>よ</rt></ruby>いのだ。\\n<ruby><rb>皆</rb><rt>みな</rt></ruby>、<ruby><rb>身心</rb><rt>しんしん</rt></ruby>を<ruby><rb>休</rb><rt>やす</rt></ruby>めよ。",
+        "zh_cn": "诸位臣子的心意让吾十分欣慰，\\n但无需为吾担忧。\\n诸位也该适时让自己放松放松。",
+        "zh_tw": "為將領著想之心值得讚美，\\n但你們無須掛懷。\\n各位，好好休息便是。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0015",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Saboa",
+        "ja_jp": "サボア",
+        "zh_cn": "萨博亚",
+        "zh_tw": "薩博亞"
+      },
+      "context": {
+        "en_us": "It was none other than Emperor Emile\\nhimself who spoke those words of\\nconsideration for us soldiers.\\nI'm sure he must be all right.",
+        "ja_jp": "ほかならぬエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>ご<ruby><rb>自身</rb><rt>じしん</rt></ruby>が\\nそうして<ruby><rb>我</rb><rt>われ</rt></ruby>ら<ruby><rb>兵士</rb><rt>へいし</rt></ruby>を<ruby><rb>慮</rb><rt>おもんばか</rt></ruby>ってくださる\\nのです。きっと<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>ですよね。",
+        "zh_cn": "既然这话是艾缪尔大人\\n亲口说出的话，\\n想必应该没问题的吧。",
+        "zh_tw": "這不是別人，而是埃米爾大人自身\\n為我們這些士兵設想而出之言。\\n所以一定沒問題對吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0016",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "That's what I've been sayin'! See, 'cause...",
+        "ja_jp": "そういうこった！　エミュール<ruby><rb>自身</rb><rt>じしん</rt></ruby>が\\n<ruby><rb>将</rb><rt>しょう</rt></ruby>はなんたらって<ruby><rb>言</rb><rt>い</rt></ruby>ったんなら……",
+        "zh_cn": "没错！既然是艾缪尔\\n他自己说的，那肯定……",
+        "zh_tw": "就是這麼回事！\\n既然埃米爾自己都說什麼\\n為將領著想……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0017",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Hold on. Emile'd never say somethin'\\nlike that in a million years!",
+        "ja_jp": "いや<ruby><rb>待</rb><rt>ま</rt></ruby>て！\\nめちゃくちゃおかしいじゃねえか!!",
+        "zh_cn": "不对等等！\\n这已经奇怪到不能再奇怪了吧！？",
+        "zh_tw": "不對等等等！\\n這也未免太奇怪了吧！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0018",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Something's wrong, I tells ya! WRONG!\\nHe's GOTTA be possessed by somethin'!",
+        "ja_jp": "エミュールがんな<ruby><rb>難</rb><rt>むずか</rt></ruby>しくてマトモな\\nこと<ruby><rb>言</rb><rt>い</rt></ruby>うはずがねえ！　なんにも\\n<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>じゃねえぞ！",
+        "zh_cn": "艾缪尔怎么可能会说\\n那种晦涩又正式的话！\\n怎么看都不正常吧！",
+        "zh_tw": "埃米爾不可能說出\\n那麼艱深又正經的話！\\n根本渾身上下都是問題啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0019",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "WHY DIDN'T YA TELL US SOONER?!",
+        "ja_jp": "<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby>なんかに<ruby><rb>取</rb><rt>と</rt></ruby>りつかれてるって！\\nなんでそれを<ruby><rb>早</rb><rt>はや</rt></ruby>く<ruby><rb>言</rb><rt>い</rt></ruby>わねえんだ!?",
+        "zh_cn": "他绝对是被什么东西附身了！\\n你怎么不早点说啊！？",
+        "zh_tw": "他絕對是被什麼附身了啦！\\n你幹嘛不早說啊！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0020",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Saboa",
+        "ja_jp": "サボア",
+        "zh_cn": "萨博亚",
+        "zh_tw": "薩博亞"
+      },
+      "context": {
+        "en_us": "I can't believe THAT is the thing which\\nfinally made you believe me...",
+        "ja_jp": "<ruby><rb>先程</rb><rt>さきほど</rt></ruby>から<ruby><rb>大変</rb><rt>たいへん</rt></ruby>なことにと<ruby><rb>申</rb><rt>もう</rt></ruby>し<ruby><rb>上</rb><rt>あ</rt></ruby>げて\\nおりましょう！　というか、<ruby><rb>驚</rb><rt>おどろ</rt></ruby>くのは\\nそこなのですか!?",
+        "zh_cn": "我一直都在说啊！\\n话说您惊讶的点竟然是这个吗？",
+        "zh_tw": "我剛才就表示大事不妙了啊！\\n是說，您驚訝的點竟然在這件事上！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0021",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Of course it was! You should be shocked\\nyerself to hear him talkin' like that!",
+        "ja_jp": "そりゃそうだろ！　サボアこそ、\\nそんな<ruby><rb>異常事態</rb><rt>いじょうじたい</rt></ruby>を<ruby><rb>喜</rb><rt>よろこ</rt></ruby>んでる<ruby><rb>場合</rb><rt>ばあい</rt></ruby>じゃ\\nねえぞ。マジで！",
+        "zh_cn": "这还用问吗！\\n萨博亚你可千万不能因为\\n他这种奇怪的行径感到高兴啊！",
+        "zh_tw": "那還用說！薩博亞你才是，\\n現在可不是為這種異常狀態\\n高興的時候喔，我跟你說真的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0022",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Yeah, I'm starting to think there might\\nactually be some sort of strange power\\nat work here.",
+        "ja_jp": "そうだな……。もしかしたら<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に、\\n<ruby><rb>何</rb><rt>なに</rt></ruby>かよからぬ<ruby><rb>力</rb><rt>ちから</rt></ruby>が<ruby><rb>働</rb><rt>はたら</rt></ruby>いているのかも\\nしれない。",
+        "zh_cn": "唔……\\n也许真的有什么不好的东西\\n在暗中作祟。",
+        "zh_tw": "的確……\\n或許真的有什麼邪惡力量\\n在後面作怪也說不定。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0023",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "We gotta send help, toot sweet!",
+        "ja_jp": "ああ、<ruby><rb>放</rb><rt>ほう</rt></ruby>ってはおけねえよ。\\n<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>から<ruby><rb>助</rb><rt>たす</rt></ruby>けを<ruby><rb>出</rb><rt>だ</rt></ruby>してやろうぜ。",
+        "zh_cn": "是啊，我们也不能坐视不管。\\n赶快派点人去救救他吧。",
+        "zh_tw": "嗯，不能放任不管。\\n我們從聖城派人去幫忙吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0024",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "But who do we send? If he sees me,\\nhe'll know something's up.",
+        "ja_jp": "でも、<ruby><rb>誰</rb><rt>だれ</rt></ruby>が<ruby><rb>行</rb><rt>い</rt></ruby>こうか？　おれが<ruby><rb>行</rb><rt>い</rt></ruby>くと、\\n<ruby><rb>多分</rb><rt>たぶん</rt></ruby><ruby><rb>警戒</rb><rt>けいかい</rt></ruby>させてしまうだろうし。",
+        "zh_cn": "可让谁去好呢？\\n如果是我去的话，\\n肯定会引起防备。",
+        "zh_tw": "不過，要派誰好呢？\\n如果由我親自去，\\n大概會被對方警戒吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0025",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Yeah, probably best if it's somebody\\nhe don't know...",
+        "ja_jp": "そうだな。<ruby><rb>誰</rb><rt>だれ</rt></ruby>か、エミュールに\\nツラが<ruby><rb>割</rb><rt>わ</rt></ruby>れてない<ruby><rb>奴</rb><rt>やつ</rt></ruby>に<ruby><rb>様子</rb><rt>ようす</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>て\\nきてもらえるといいんだが……。",
+        "zh_cn": "确实。\\n要是能有艾缪尔不认识的人\\n去打探打探情况就好了……",
+        "zh_tw": "也對。還是派個埃米爾\\n沒見過的人去看看清況比較好。\\n不過……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0026",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "I'm ready to help!",
+        "ja_jp": "――はいっ。そのおたすけ<ruby><rb>役</rb><rt>やく</rt></ruby>、\\nわたし、いきたいですっ！",
+        "zh_cn": "我来我来！\\n我想来完成这份任务！",
+        "zh_tw": "──我！\\n那份助人的工作，我、想去！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0027",
+      "book": ""
+    },
+    {
+      "icon": "110302_02",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Harmonia Choir Singer\\nPia",
+        "ja_jp": "ハルモニア<ruby><rb>合唱団</rb><rt>がっしょうだん</rt></ruby>の<ruby><rb>少女</rb><rt>しょうじょ</rt></ruby>\\nピアチェ",
+        "zh_cn": "哈耳摩尼亚合唱团的少女\\n皮雅茜",
+        "zh_tw": "哈莫尼亞合唱團的少女\\n琵雅雀"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110302_02",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Emile has come to see the Harmonia\\nChoir perform before, but I still think the\\nchance of his recognizing me is small.",
+        "ja_jp": "おはなし、<ruby><rb>聞</rb><rt>き</rt></ruby>かせてもらいましたっ。\\nわたし、エミュールさんには、<ruby><rb>合唱団</rb><rt>がっしょうだん</rt></ruby>の\\n<ruby><rb>公演</rb><rt>こうえん</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>てもらったことがあるんです。",
+        "zh_cn": "我听到你们说的事情了哦。\\n那位大哥哥以前看过\\n我们合唱团的演出。",
+        "zh_tw": "我、聽到大家說話了。\\n我曾經、看過埃米爾先生、\\n來觀賞合唱團的公演。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0028",
+      "book": ""
+    },
+    {
+      "icon": "110302_02",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "But he said REALLY nice things about us,\\nand I can't just stand by if someone like\\nthat is in trouble!",
+        "ja_jp": "エミュールさんは、<ruby><rb>覚</rb><rt>おぼ</rt></ruby>えてないと\\nおもうけど……あの<ruby><rb>時</rb><rt>とき</rt></ruby>ほめてくれた\\nお<ruby><rb>兄</rb><rt>にい</rt></ruby>さんが<ruby><rb>大変</rb><rt>たいへん</rt></ruby>なら、みすごせません！",
+        "zh_cn": "虽然他可能已经不记得我了……\\n但当时大哥哥有夸过我，\\n如果他有难，我一定要去帮他！",
+        "zh_tw": "雖然埃米爾先生、應該不記得我……\\n但如果當時稱讚我的大哥哥有困難，\\n我不能不管他！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0029",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Your concern is appreciated, Pia, but I\\ncan't send a child off on this kind of\\ninvestigation all alone.",
+        "ja_jp": "ピアチェ。ううん、その<ruby><rb>気持</rb><rt>きも</rt></ruby>ちは\\n<ruby><rb>嬉</rb><rt>うれ</rt></ruby>しいけど、<ruby><rb>子供</rb><rt>こども</rt></ruby>ひとりで<ruby><rb>調査</rb><rt>ちょうさ</rt></ruby>に\\n<ruby><rb>行</rb><rt>い</rt></ruby>かせるのは……。",
+        "zh_cn": "皮雅茜，我很高兴你能有这份心意，\\n但我不能让你一个小孩子\\n只身一人去做这么危险的调查……",
+        "zh_tw": "琵雅雀。不可以，\\n雖然我很高興妳有這份心，\\n但我不能讓一個小孩單獨去調查……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0030",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Then I shall accompany her.",
+        "ja_jp": "ならば、<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>同行</rb><rt>どうこう</rt></ruby>しよう。",
+        "zh_cn": "那就由我同行吧。",
+        "zh_tw": "若是如此，我也一同前去吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0031",
+      "book": ""
+    },
+    {
+      "icon": "210005_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Zodiark the Shadowwyrm\\nOne of the Six Greatwyrms",
+        "ja_jp": "<ruby><rb>伝説</rb><rt>でんせつ</rt></ruby>の<ruby><rb>六竜</rb><rt>ろくりゅう</rt></ruby>の<ruby><rb>一体</rb><rt>いったい</rt></ruby>\\n<ruby><rb>闇竜</rb><rt>やみりゅう</rt></ruby>ゾディアーク",
+        "zh_cn": "传说中的六龙之一\\n暗龙佐迪亚克",
+        "zh_tw": "傳說六龍之一\\n闇龍索狄亞克"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Yeah, whenever I wanna keep a low\\nprofile, I send in A FREAKIN' DRAGON!",
+        "ja_jp": "なっ……ゾディアーク!?　<ruby><rb>気持</rb><rt>きも</rt></ruby>ちは\\nありがたいが、ドラゴンに<ruby><rb>潜入調査</rb><rt>せんにゅうちょうさ</rt></ruby>は\\n<ruby><rb>目立</rb><rt>めだ</rt></ruby>ちすぎて<ruby><rb>無理</rb><rt>むり</rt></ruby>だろ。",
+        "zh_cn": "佐……佐迪亚克！？\\n虽然很感谢你有这份心，但你身为龙，\\n无论怎样都太引人注目了吧？",
+        "zh_tw": "啥……索狄亞克！？\\n你有這份心是很好啦，但龍族要\\n潛入調查太顯眼，應該沒辦法吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0032",
+      "book": ""
+    },
+    {
+      "icon": "210005_01",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Hmm. Good point. Then how about this?",
+        "ja_jp": "ふむ……。\\nでは、これならばどうだ……。",
+        "zh_cn": "唔……\\n那这样如何……",
+        "zh_tw": "嗯……\\n那麼，這樣如何……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0033",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Sweet crispy bacon!\\nYa transformed into a human!",
+        "ja_jp": "おお……！　\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>も<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>姿</rb><rt>すがた</rt></ruby>になれたのか！",
+        "zh_cn": "噢！\\n原来你也能化成人形！",
+        "zh_tw": "喔喔……！\\n原來你也能變成人類的樣子啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0034",
+      "book": ""
+    },
+    {
+      "icon": "110404_01",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Such is the power of the Five Greatwyrms.\\nI think I should be able to infiltrate his\\nmanor in this form, no?",
+        "ja_jp": "うむ……<ruby><rb>五竜</rb><rt>ごりゅう</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>といったところだ。\\nこの<ruby><rb>姿</rb><rt>すがた</rt></ruby>ならば<ruby><rb>潜入</rb><rt>せんにゅう</rt></ruby>もできよう？",
+        "zh_cn": "嗯……这是五龙都有的力量。\\n这样我就能潜入宅邸去调查了吧？",
+        "zh_tw": "嗯……簡而言之此亦為五龍之力。\\n若以這身姿態應可順利潛入？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0035",
+      "book": ""
+    },
+    {
+      "icon": "110404_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Yeah, that should work—and we'd all feel\\na lot better if you were also on the case.\\nBut why would you go to all this trouble\\nfor my brother?",
+        "ja_jp": "ああ、<ruby><rb>問題</rb><rt>もんだい</rt></ruby>ないし、<ruby><rb>心強</rb><rt>こころづよ</rt></ruby>い<ruby><rb>限</rb><rt>かぎ</rt></ruby>りだよ。\\n……でも、どうしてゾディアークが\\nそこまでしてくれるんだ？",
+        "zh_cn": "嗯，不仅没问题，还特别让人放心。\\n不过……佐迪亚克你又\\n为什么愿意做这件事？",
+        "zh_tw": "嗯，沒有問題，有你在我就能放心了。\\n……不過，為什麼索狄亞克\\n願意為我們做到這種地步呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0036",
+      "book": ""
+    },
+    {
+      "icon": "110404_01",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "You father Aurelius—with whom my soul\\nis fused—worries for his children. I would\\nlike to put those fears to rest.",
+        "ja_jp": "<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>魂</rb><rt>たましい</rt></ruby>と<ruby><rb>融合</rb><rt>ゆうごう</rt></ruby>したアローラスが、<ruby><rb>子</rb><rt>こ</rt></ruby>を\\n<ruby><rb>案</rb><rt>あん</rt></ruby>じておる。<ruby><rb>不安</rb><rt>ふあん</rt></ruby>を<ruby><rb>解消</rb><rt>かいしょう</rt></ruby>してやりたい。",
+        "zh_cn": "与我灵魂融为一体的亚罗拉斯\\n也很担心他的孩子。\\n我想借此让他放心。",
+        "zh_tw": "與我靈魂相互融合的安羅拉斯，\\n十分掛念愛子。我想為其消除不安。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0037",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I see. In that case, we'd be thrilled\\nto have your help.",
+        "ja_jp": "<ruby><rb>父上</rb><rt>ちちうえ</rt></ruby>が？　……そうか。\\nならぜひお<ruby><rb>願</rb><rt>ねが</rt></ruby>いするよ、ゾディアーク。",
+        "zh_cn": "父王吗？这样啊……\\n那就麻烦你了，佐迪亚克。",
+        "zh_tw": "父王他？\\n……這樣啊。\\n那就務必拜託了，索狄亞克。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0038",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Now we just need to figure out how to\\nget you into Emile's manor...",
+        "ja_jp": "あと<ruby><rb>問題</rb><rt>もんだい</rt></ruby>は、どうやってエミュールに\\n<ruby><rb>近</rb><rt>ちか</rt></ruby>づくかだけど……。",
+        "zh_cn": "剩下的问题就是\\n怎样才能接近艾缪尔……",
+        "zh_tw": "現在的問題，\\n只剩下該怎麼接近埃米爾……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0039",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Walkin' up and knockin' on the front door\\nain't gonna do squat if the guy's sendin'\\nhis own soldiers away, so we're gonna\\nhave to be all sneaky-like about it.",
+        "ja_jp": "<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>部下</rb><rt>ぶか</rt></ruby>でさえ<ruby><rb>追</rb><rt>お</rt></ruby>い<ruby><rb>返</rb><rt>かえ</rt></ruby>すんだもんな。\\n<ruby><rb>普通</rb><rt>ふつう</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>ったら<ruby><rb>門前払</rb><rt>もんぜんばら</rt></ruby>いだ。じゃあ\\n<ruby><rb>裏</rb><rt>うら</rt></ruby>からこっそり<ruby><rb>侵入</rb><rt>しんにゅう</rt></ruby>するとかか？",
+        "zh_cn": "毕竟他连自己的部下都赶回去了。\\n就这么直接去的话会吃闭门羹的。\\n只有从后门悄悄溜进去了吗？",
+        "zh_tw": "畢竟他連自己的部下都趕走了，\\n如果從正門應該連進都進不去吧。\\n要從後門偷闖嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0040",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Saboa",
+        "ja_jp": "サボア",
+        "zh_cn": "萨博亚",
+        "zh_tw": "薩博亞"
+      },
+      "context": {
+        "en_us": "I fear even that approach will be tricky;\\nsecurity at the manor is formidable,\\nand the head butler has a critical eye.",
+        "ja_jp": "それが、<ruby><rb>意外</rb><rt>いがい</rt></ruby>と<ruby><rb>警備</rb><rt>けいび</rt></ruby>が<ruby><rb>手</rb><rt>て</rt></ruby>ごわいのです。\\n<ruby><rb>別荘</rb><rt>べっそう</rt></ruby>つきの<ruby><rb>執事長</rb><rt>しつじちょう</rt></ruby>の<ruby><rb>目</rb><rt>め</rt></ruby>が<ruby><rb>厳</rb><rt>きび</rt></ruby>しくて……\\n<ruby><rb>有志</rb><rt>ゆうし</rt></ruby>で<ruby><rb>一度</rb><rt>いちど</rt></ruby><ruby><rb>侵入</rb><rt>しんにゅう</rt></ruby>を<ruby><rb>試</rb><rt>こころ</rt></ruby>みたのですが――",
+        "zh_cn": "问题是，戒备比想象中更森严。\\n常驻宅邸的总管家眼尖得很……\\n之前有人自告奋勇试图潜入——",
+        "zh_tw": "其實、別墅的警戒意外地森嚴。\\n管理別墅的執事長眼光非常犀利……\\n之前曾有志願者嘗試侵入，結果──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0041",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Saboa",
+        "ja_jp": "サボア",
+        "zh_cn": "萨博亚",
+        "zh_tw": "薩博亞"
+      },
+      "context": {
+        "en_us": "We once attempted to sneak a volunteer\\nin and they were found out within minutes.\\nNo, I fear our only option is to storm the\\nlocation with overwhelming numbers.",
+        "ja_jp": "アッサリ<ruby><rb>見</rb><rt>み</rt></ruby>つかってしまいました。\\n<ruby><rb>侵入</rb><rt>しんにゅう</rt></ruby>は<ruby><rb>難</rb><rt>むずか</rt></ruby>しいでしょう。あとは\\n<ruby><rb>大挙</rb><rt>たいきょ</rt></ruby>して<ruby><rb>攻</rb><rt>せ</rt></ruby>め<ruby><rb>落</rb><rt>お</rt></ruby>とすしか……。",
+        "zh_cn": "结果立刻就被发现了。\\n所以溜进去几乎是不可能的。\\n现在能想到的办法就只有强攻……",
+        "zh_tw": "沒兩下就被發現了，\\n要侵入應該很難吧。\\n現在可能只能靠大舉進攻……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0042",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "We should probably hold off on that kind\\nof thing until we understand better what's\\nactually going on.",
+        "ja_jp": "うーん、<ruby><rb>困</rb><rt>こま</rt></ruby>ったな。<ruby><rb>何</rb><rt>なに</rt></ruby>が<ruby><rb>起</rb><rt>お</rt></ruby>こっている\\nのかわからない<ruby><rb>以上</rb><rt>いじょう</rt></ruby>、あんまり<ruby><rb>警戒</rb><rt>けいかい</rt></ruby>を\\nあおるような<ruby><rb>真似</rb><rt>まね</rt></ruby>はしたくない。",
+        "zh_cn": "这可真让人头疼。\\n目前还不清楚到底发生了什么情况，\\n还是不要轻举妄动引起防备比较好。",
+        "zh_tw": "唔～嗯，傷腦筋。\\n目前還不曉得確切發生的情況，\\n我不太想做出會讓對方警戒的事。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0043",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'd prefer to approach Emile in a way that\\nwon't create a lot of fuss and noise.\\nAnyone have any good ideas?",
+        "ja_jp": "どうにか<ruby><rb>穏便</rb><rt>おんびん</rt></ruby>に、エミュールに\\n<ruby><rb>近</rb><rt>ちか</rt></ruby>づきたいものだけど。<ruby><rb>何</rb><rt>なに</rt></ruby>か<ruby><rb>妙案</rb><rt>みょうあん</rt></ruby>は\\nないものかな？",
+        "zh_cn": "要是能有一种更安全的方法\\n接近艾缪尔就好了。\\n大家有什么好主意吗？",
+        "zh_tw": "我希望能不把事情鬧大，\\n就順利接近埃米爾。\\n有沒有什麼好主意呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0044",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "I have one, sir.",
+        "ja_jp": "ございますよ、<ruby><rb>妙案</rb><rt>みょうあん</rt></ruby>。",
+        "zh_cn": "我倒是有一个好办法。",
+        "zh_tw": "好主意的話，確實有。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0045",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "GYA! WHO THE HECK?!",
+        "ja_jp": "うわあっ!?　だっ、<ruby><rb>誰</rb><rt>だれ</rt></ruby>――\\nって、エドワード！",
+        "zh_cn": "哇啊！？谁、谁啊——\\n啊，原来是爱德华啊！",
+        "zh_tw": "嗚哇！？是、是誰──\\n啊，是愛德華啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0046",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "It is I, sir—your butler par excellence,\\nEdward.",
+        "ja_jp": "イエス、マイマスター。\\nあなたの<ruby><rb>完璧</rb><rt>かんぺき</rt></ruby>な<ruby><rb>執事</rb><rt>しつじ</rt></ruby>のエドワードで\\nございます。",
+        "zh_cn": "是的，我的主人。\\n正是您完美的管家爱德华。",
+        "zh_tw": "是的，我的主人。\\n我是您的完美執事愛德華。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0047",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Ever-Perfect, Occasionally-Sharp-Tongued Butler\\nEdward",
+        "ja_jp": "いつも<ruby><rb>完璧</rb><rt>かんぺき</rt></ruby>ときどき<ruby><rb>毒舌</rb><rt>どくぜつ</rt></ruby><ruby><rb>執事</rb><rt>しつじ</rt></ruby>\\nエドワード",
+        "zh_cn": "完美却偶尔毒舌的管家\\n爱德华",
+        "zh_tw": "永遠完美但偶爾毒舌的執事\\n愛德華"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Well, I see you haven't changed a bit.\\nAnyway, tell me about your plan.",
+        "ja_jp": "あ、あはは……きみは<ruby><rb>相変</rb><rt>あいか</rt></ruby>わらずだな。\\nそれで……<ruby><rb>妙案</rb><rt>みょうあん</rt></ruby>って？",
+        "zh_cn": "啊、啊哈哈……你还是老样子啊。\\n那么……你说的好办法是？",
+        "zh_tw": "啊、啊哈哈……你還是老樣子呢。\\n那麼……你說的好主意是？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0048",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "No matter how much he may wish to cast\\naway all from his side, there are some\\nEmile cannot do without.",
+        "ja_jp": "いかに<ruby><rb>人払</rb><rt>ひとばら</rt></ruby>いをしようと、<ruby><rb>生活能力</rb><rt>せいかつのうりょく</rt></ruby>の\\nないエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>には、<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby>に\\n<ruby><rb>手放</rb><rt>てばな</rt></ruby>せないものがございます。",
+        "zh_cn": "无论艾缪尔大人如何不让人靠近，\\n对于没有生活能力的他来说，\\n有一种人是绝对离不开的。",
+        "zh_tw": "無論如何驅趕他人，\\n對毫無自理能力的埃米爾大人而言，\\n有一種人的存在是絕對必要的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0049",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "By which I mean, a man of his makeup\\ncannot do without the servants who wait\\non him hand and foot.",
+        "ja_jp": "すなわち。<ruby><rb>身</rb><rt>み</rt></ruby>の<ruby><rb>回</rb><rt>まわ</rt></ruby>りの<ruby><rb>世話</rb><rt>せわ</rt></ruby>をする――\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>ども<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>です。",
+        "zh_cn": "那就是——我们这些\\n照顾生活起居的佣人。",
+        "zh_tw": "也就是，負責為他打理生活瑣事的──\\n我們這些僕人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0050",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Of course!",
+        "ja_jp": "あ――！",
+        "zh_cn": "啊！",
+        "zh_tw": "啊──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0051",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "As such, I think your team of infiltrators\\nshould take on the guise of household\\nstaff and gain employment in the manor.",
+        "ja_jp": "ですので<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>として、<ruby><rb>正々堂々</rb><rt>せいせいどうどう</rt></ruby>\\n<ruby><rb>真正面</rb><rt>ましょうめん</rt></ruby>から<ruby><rb>入</rb><rt>はい</rt></ruby>ればよろしいかと。",
+        "zh_cn": "所以我认为，\\n以佣人的身份光明正大地\\n从正门进去就可以。",
+        "zh_tw": "因此我認為，以僕人的身分\\n光明正大地由前門進入即可。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0052",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Saboa",
+        "ja_jp": "サボア",
+        "zh_cn": "萨博亚",
+        "zh_tw": "薩博亞"
+      },
+      "context": {
+        "en_us": "Now THAT'S a good idea! Er, but how are\\nthey supposed to do that, exactly?",
+        "ja_jp": "<ruby><rb>確</rb><rt>たし</rt></ruby>かに、<ruby><rb>妙案</rb><rt>みょうあん</rt></ruby>です！　しかし、\\nいったいどうやったら<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>に\\nなれるのですか？",
+        "zh_cn": "这的确是一个好办法！\\n可是，要怎样才能成为佣人呢？",
+        "zh_tw": "的確是個好主意！\\n不過，要怎麼做才能成為僕人呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0053",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Thankfully, I have many connections\\nwith the local trade unions.",
+        "ja_jp": "そこはそれ、<ruby><rb>芸</rb><rt>げい</rt></ruby>は<ruby><rb>道</rb><rt>みち</rt></ruby>によって<ruby><rb>賢</rb><rt>かしこ</rt></ruby>しで\\nございます。<ruby><rb>私</rb><rt>わたし</rt></ruby>、<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>の<ruby><rb>職場</rb><rt>しょくば</rt></ruby><ruby><rb>斡旋</rb><rt>あっせん</rt></ruby>\\n<ruby><rb>組合</rb><rt>くみあい</rt></ruby>にコネがありまして。",
+        "zh_cn": "这种时候就交给专业人士吧。\\n其实我在佣人的职业介绍协会\\n有一些人脉。",
+        "zh_tw": "這時候，就由專業的來吧。\\n其實我跟僕人的\\n職業介紹工會略有交情。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0054",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "I shall inquire with them as to possible\\nemployment, then instruct the pair in\\nall things servant-related.",
+        "ja_jp": "<ruby><rb>手続</rb><rt>てつづ</rt></ruby>きは<ruby><rb>私</rb><rt>わたし</rt></ruby>のほうでなんとかいたし\\nましょう。そして<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>としての\\n<ruby><rb>振</rb><rt>ふ</rt></ruby>る<ruby><rb>舞</rb><rt>ま</rt></ruby>いも、<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>完璧</rb><rt>かんぺき</rt></ruby>に<ruby><rb>指導</rb><rt>しどう</rt></ruby>します。",
+        "zh_cn": "手续方面的事情无需担心。\\n至于身为佣人的举止言谈，\\n我也会完美地进行指导。",
+        "zh_tw": "手續方面我來想辦法。\\n至於僕人應有的言行舉止，\\n我也會完美地指導兩位。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0055",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "And as there is, of course, a limit to what\\nshort-term instruction might accomplish,\\nI shall also accompany them under the\\nguise of their mentor.",
+        "ja_jp": "とはいえ<ruby><rb>短期間</rb><rt>たんきかん</rt></ruby>の<ruby><rb>指導</rb><rt>しどう</rt></ruby>には<ruby><rb>限度</rb><rt>げんど</rt></ruby>があり\\nますので、<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>講師役</rb><rt>こうしやく</rt></ruby>として<ruby><rb>潜入</rb><rt>せんにゅう</rt></ruby>に\\n<ruby><rb>同行</rb><rt>どうこう</rt></ruby>いたしましょう。",
+        "zh_cn": "不过短期的指导效果有限，\\n所以我会以导师的身份\\n与二位一同前往。",
+        "zh_tw": "但因為只能進行短期指導成果有限，\\n所以我將作為講師一同潛入。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0056",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "That would be wonderful, Edward!\\nBut are you sure you don't mind\\ndoing all this?",
+        "ja_jp": "エドワード……それは<ruby><rb>心強</rb><rt>こころづよ</rt></ruby>いな！\\nでも、いいのか？　そんなにやって\\nもらって。",
+        "zh_cn": "爱德华……简直太可靠了！\\n可是，这样好吗？\\n麻烦你做这么多事。",
+        "zh_tw": "愛德華……你實在太可靠了！\\n不過，真的可以嗎？\\n讓你為我們做這麼多。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0057",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Quite. You have proven yourself quite\\nworthy these days, sir, making my constant\\nguidance not so readily required.",
+        "ja_jp": "ええ。<ruby><rb>近頃</rb><rt>ちかごろ</rt></ruby>は<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>主</rb><rt>あるじ</rt></ruby>も<ruby><rb>立派</rb><rt>りっぱ</rt></ruby>になられ、\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>がつきっきりで<ruby><rb>指導</rb><rt>しどう</rt></ruby>することも<ruby><rb>少</rb><rt>すく</rt></ruby>なく\\nなりましたから。",
+        "zh_cn": "当然了。\\n您如今也已经十分出色。\\n很少有需要我贴身指导的事情了。",
+        "zh_tw": "當然。\\n這陣子我的主人已變得十分傑出，\\n需要我貼身指導的情況也減少了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0058",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "But as I still live to serve, my next\\n＂perfect duty＂ is to resolve any and all\\nof your concerns.",
+        "ja_jp": "<ruby><rb>次</rb><rt>つぎ</rt></ruby>なる<ruby><rb>私</rb><rt>わたし</rt></ruby>の『<ruby><rb>完璧</rb><rt>かんぺき</rt></ruby>な<ruby><rb>仕事</rb><rt>しごと</rt></ruby>』は、<ruby><rb>主</rb><rt>あるじ</rt></ruby>の\\n<ruby><rb>悩</rb><rt>なや</rt></ruby>みを<ruby><rb>解消</rb><rt>かいしょう</rt></ruby>することにあり……そう\\n<ruby><rb>感</rb><rt>かん</rt></ruby>じたまでですよ、マイマスター。",
+        "zh_cn": "所以我认为……\\n今后我的“完美工作”应该是\\n为主人排忧解难，我的主人。",
+        "zh_tw": "所以今後我的「完美工作」，\\n便是為主人消除煩惱……\\n我只是這麼認為而已，我的主人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0059",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "In that case, I wish the three of you\\nthe best of luck.",
+        "ja_jp": "エドワード……！　<ruby><rb>助</rb><rt>たす</rt></ruby>かるよ。\\nよろしく<ruby><rb>頼</rb><rt>たの</rt></ruby>む！　それに、ピアチェと\\nゾディアークも。<ruby><rb>任</rb><rt>まか</rt></ruby>せたぞ！",
+        "zh_cn": "爱德华……太谢谢你了！\\n那就拜托你了！还有皮雅茜和佐迪亚克！\\n这件事就看你们的了！",
+        "zh_tw": "愛德華……！真是幫了大忙。\\n那就萬事拜託了！還有琵雅雀跟\\n索狄亞克，這件事交給你們囉！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0060",
+      "book": ""
+    },
+    {
+      "icon": "110302_02",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "We'll save Emile! I promise!",
+        "ja_jp": "はいっ！　かならず、\\nエミュールさんをおたすけします……！",
+        "zh_cn": "好的！\\n我们一定会解救艾缪尔的！",
+        "zh_tw": "是！我一定、\\n會幫助埃米爾先生的……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0061",
+      "book": ""
+    },
+    {
+      "icon": "110404_01",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "I shall delve closely into human ways\\nthat I might be of assistance.",
+        "ja_jp": "<ruby><rb>任</rb><rt>まか</rt></ruby>せよ。<ruby><rb>私</rb><rt>わたし</rt></ruby>も<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>流儀</rb><rt>りゅうぎ</rt></ruby>に<ruby><rb>寄</rb><rt>よ</rt></ruby>り<ruby><rb>添</rb><rt>そ</rt></ruby>い、\\n<ruby><rb>力</rb><rt>ちから</rt></ruby>となろう……。",
+        "zh_cn": "交给我们吧。\\n我会好好学习人类的礼仪，\\n略尽绵力的……",
+        "zh_tw": "儘管放心。我也會配合人類作風，\\n傾力相助……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0062",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "A great attitude for the both of you.\\nNow without further ado, let us begin\\nyour training.",
+        "ja_jp": "おふたりとも<ruby><rb>良</rb><rt>よ</rt></ruby>い<ruby><rb>心構</rb><rt>こころがま</rt></ruby>えです。\\nでは<ruby><rb>早速</rb><rt>さっそく</rt></ruby>、<ruby><rb>使用人</rb><rt>しようにん</rt></ruby><ruby><rb>修行</rb><rt>しゅぎょう</rt></ruby>と<ruby><rb>参</rb><rt>まい</rt></ruby>りましょう。",
+        "zh_cn": "二位的心态很不错。\\n那我们就立刻开始\\n进行佣人的训练吧。",
+        "zh_tw": "兩位的心態非常好。\\n那麼，我們立刻開始僕人修行吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0063",
+      "book": ""
+    },
+    {
+      "icon": "110302_02",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Wait, now? Like, RIGHT now?!",
+        "ja_jp": "いっ、いますぐ、ですか!?",
+        "zh_cn": "立、立刻！？",
+        "zh_tw": "現、現在馬上、嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0064",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Naturally. The basics of servitude cannot\\nbe learned in a single day, after all.",
+        "ja_jp": "<ruby><rb>当然</rb><rt>とうぜん</rt></ruby>です。<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>の<ruby><rb>基礎</rb><rt>きそ</rt></ruby>は<ruby><rb>一朝一夕</rb><rt>いっちょういっせき</rt></ruby>では\\n<ruby><rb>身</rb><rt>み</rt></ruby>に<ruby><rb>付</rb><rt>つ</rt></ruby>きません。",
+        "zh_cn": "当然了，\\n佣人的基础可不是\\n一朝一夕就能练成的。",
+        "zh_tw": "當然。要想學會僕人的基礎，\\n並非一朝一夕就能辦到的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0065",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "By the time the infiltration date is decided,\\nyou will be able to do all the basic tasks\\nexpected of household staff.",
+        "ja_jp": "<ruby><rb>潜入</rb><rt>せんにゅう</rt></ruby>の<ruby><rb>日取</rb><rt>ひど</rt></ruby>りが<ruby><rb>決</rb><rt>き</rt></ruby>まるまでに、<ruby><rb>基本的</rb><rt>きほんてき</rt></ruby>な\\nことは<ruby><rb>一通</rb><rt>ひととお</rt></ruby>りできるようになって\\nいただきますよ。",
+        "zh_cn": "潜入任务的具体日期确定之前，\\n我会让二位掌握佣人\\n最基本的礼仪的。",
+        "zh_tw": "在決定好何時潛入之前，\\n我會讓兩位習得大致基礎的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0066",
+      "book": ""
+    },
+    {
+      "icon": "110302_02",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "I'll do my very, very best!",
+        "ja_jp": "わ、わかりましたっ！　\\nぜんりょくぜんかい、がんばります！",
+        "zh_cn": "好、好的！\\n我会尽全力的！",
+        "zh_tw": "我、我知道了！\\n我會用盡全力、加油的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0067",
+      "book": ""
+    },
+    {
+      "icon": "110404_01",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "As shall I.",
+        "ja_jp": "うむ……<ruby><rb>参</rb><rt>まい</rt></ruby>るぞ。",
+        "zh_cn": "唔……走吧。",
+        "zh_tw": "嗯……走吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0068",
+      "book": ""
+    },
+    {
+      "icon": "110404_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "A few days later\\nDyrenell Empire\\nEmile's Manor",
+        "ja_jp": "<ruby><rb>数日後</rb><rt>すうじつご</rt></ruby>――\\n\\nディアネル<ruby><rb>帝国内</rb><rt>ていこくない</rt></ruby>\\nエミュールの<ruby><rb>別荘前</rb><rt>べっそうまえ</rt></ruby>",
+        "zh_cn": "数日后——\\n\\n狄涅尔帝国境内\\n艾缪尔宅邸前",
+        "zh_tw": "幾天後──\\n\\n狄亞內魯帝國內\\n埃米爾別墅前"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "The moment has arrived at last.",
+        "ja_jp": "――いよいよこの<ruby><rb>時</rb><rt>とき</rt></ruby>がきたか。",
+        "zh_cn": "这一刻终于到来了——",
+        "zh_tw": "──這個時刻終於來臨了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0069",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "We got through our training and got our\\nletters of appointment, which means it's\\ntime to infiltrate this place!",
+        "ja_jp": "はいっ。<ruby><rb>修行</rb><rt>しゅぎょう</rt></ruby>の<ruby><rb>日々</rb><rt>ひび</rt></ruby>をのりこえて、\\nぶじに<ruby><rb>採用通知</rb><rt>さいようつうち</rt></ruby>もいただきました。\\n<ruby><rb>今日</rb><rt>きょう</rt></ruby>からこの<ruby><rb>別荘</rb><rt>べっそう</rt></ruby>に、せんにゅうです！",
+        "zh_cn": "是啊。经过日复一日的刻苦训练，\\n我们终于收到了录取通知。\\n从今天起，正式潜入这栋宅邸！",
+        "zh_tw": "是。我們經過每天辛苦修行，\\n終於得到了錄用通知。\\n從今天開始、要潛入這間宅邸！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0070",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Thanks to Edward's training, we should fit\\nright in as members of the staff.",
+        "ja_jp": "エドワードのおかげだな……。<ruby><rb>今</rb><rt>いま</rt></ruby>ならば\\n<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>に<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>として<ruby><rb>潜入</rb><rt>せんにゅう</rt></ruby>できよう。",
+        "zh_cn": "这都要感谢爱德华……\\n现在我们一定能够\\n以佣人的身份顺利潜入。",
+        "zh_tw": "都得感謝愛德華呢……\\n此時的我們想必能順利\\n以僕人身分潛入吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0071",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "The pair of you inspire great confidence.\\nThough it has been but a scarce few days,\\nit seems it was well worth the effort in\\ninstructing you.",
+        "ja_jp": "<ruby><rb>頼</rb><rt>たの</rt></ruby>もしいですね、おふたりとも。\\n<ruby><rb>数日間</rb><rt>すうじつかん</rt></ruby>とはいえ、<ruby><rb>指導</rb><rt>しどう</rt></ruby>した\\n<ruby><rb>甲斐</rb><rt>かい</rt></ruby>があるというものです。",
+        "zh_cn": "真不愧是二位。\\n虽然只有短短几日，\\n也不枉我对二位的教导了。",
+        "zh_tw": "兩位都相當可靠呢。\\n雖說只有短短數日，\\n卻令我深深感受到指導有所回報。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0072",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "I would have you demonstrate the fruits of\\nour efforts to the fullest. Now let us enter\\nand uncover the truth behind what has\\nbefallen good Master Emile.",
+        "ja_jp": "その<ruby><rb>成果</rb><rt>せいか</rt></ruby>、<ruby><rb>存分</rb><rt>ぞんぶん</rt></ruby>に<ruby><rb>揮</rb><rt>ふる</rt></ruby>ってくださいませ。\\nでは<ruby><rb>参</rb><rt>まい</rt></ruby>りましょう……エミュール<ruby><rb>様</rb><rt>さま</rt></ruby>に\\n<ruby><rb>起</rb><rt>お</rt></ruby>きた<ruby><rb>異変</rb><rt>いへん</rt></ruby>の<ruby><rb>真相</rb><rt>しんそう</rt></ruby>を<ruby><rb>暴</rb><rt>あば</rt></ruby>きに。",
+        "zh_cn": "请尽情发挥二位的训练成果吧。\\n我们走……\\n去揭开艾缪尔大人异常行为的真相。",
+        "zh_tw": "接下來請盡情發揮修行成果吧。\\n那麼我們該動身了……\\n去揭露埃米爾大人異變的真相。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0073",
+      "book": ""
+    },
+    {
+      "icon": "120133_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Hee hee hee... It happened again...\\nNew people again...",
+        "ja_jp": "フフ……フフ……マタキタ。\\nアタラシイヒト、キタ。",
+        "zh_cn": "呵呵……呵呵……来了来了。\\n又有人……来了。",
+        "zh_tw": "呵呵……呵呵……又來了。\\n新人、來了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0074",
+      "book": ""
+    },
+    {
+      "icon": "120133_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "New FRIENDS have come! Eee hee!",
+        "ja_jp": "オトモダチコウホ、キタ……！\\nフフフ……！",
+        "zh_cn": "新的好朋友候选人……来了！\\n呵呵呵……",
+        "zh_tw": "好朋友候補、來了……！\\n呵呵呵……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_01_0075",
+      "book": ""
+    },
+    {
+      "icon": "120133_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

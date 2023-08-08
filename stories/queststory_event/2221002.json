@@ -1,791 +1,1496 @@
 {
-    "story_id": "",
-    "story_name": "防卫战～矛盾之心·人偶之战～ 机械神兵",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "来袭的战斗人偶隶属于\\n企图消灭人类的组织“机械神兵”。\\n王子等人艰难退敌。另一方面，\\n机械神兵成员艾琳和芬妮\\n则接到了破坏莱姬希的命令。"
-        ]
+  "title": {
+    "en_us": "Ageless Artifice    Ex Machina",
+    "ja_jp": "防衛戦～アンビバレント・マリオーン～  エクス・マキナ",
+    "zh_cn": "防卫战～矛盾之心·人偶之战～  机械神兵",
+    "zh_tw": "防衛戰～矛盾之心‧瑪利昂～  艾克斯‧馬奇那"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "哈啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "左手掌损伤，战斗力降低2.8%。\\n——莱姬希！指挥官机体\\n在你右边！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "晚了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "你虽然不赖，\\n不过要和我还有艾琳打，\\n性能还差点呢！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "了结了你。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "不好！莱姬希！\\n——来不及了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "身、身体被……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "虽说制造途径不同，\\n但运动传输回路的位置似乎一样呢。\\n你就先老实地待一会儿吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "运动传输回路损伤。\\n开始修复……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "两“心”同体……\\n到底是怎么做到的，\\n就让我看看你的存储器吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04"
-            ],
-            "speaker_name": "艾琳",
-            "context": "连接。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04",
-                "110384_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "莱姬希……紧急启动。\\n开启……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04",
-                "110384_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "杀戮模式。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120135_01"
-            ],
-            "speaker_name": "马斯古拉",
-            "context": "拜托了，请快停下来吧！\\n我们这么做的话，\\n麦斯特罗会伤心的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_02"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "心……麦斯特罗……\\n麦斯特罗……罗罗罗罗罗罗……\\n啊啊啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_02"
-            ],
-            "speaker_name": "马斯古拉",
-            "context": "莱姬希！把我的“心”给你！\\n唔……啊啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_02"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "啊啊啊……心……\\n马、马斯古拉……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "体内混入了多余的思考……\\n——怎么能是多余呢，\\n这是非常重要的——闭嘴。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "推断为……马斯古拉的“心”\\n混入所造成的故障……\\n——莱姬希，请听我说。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "植入别的“心”\\n代替损毁的“心”？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "但是，为什么两颗“心”重合了？\\n损毁的“心”似乎也修复了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "看来有必要好好调查一番。\\n38、39号，你们把这个\\n战斗人偶运到据点去。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120151_01"
-            ],
-            "speaker_name": "战斗人偶",
-            "context": "遵命。开始执行。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120151_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "莱姬希，这样下去就……\\n——我知道，转换模式。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120151_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——好，来吧！\\n——模式，转换……\\n伊甸园！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "伊甸园模式！？不好，\\n如果那存储器的数据可靠……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "周围魔力浓度正急剧下降。\\n这是在吸收魔力转化为能量吗？\\n那么果然……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "起源之核，启动。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "她正把魔力转化为物质！\\n不会错的，这战斗人偶搭载了\\n魔幻炉……竟会有这种事！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "总之先阻止指挥官机体！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "艾琳！\\n住手！谁都不许伤害艾琳！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "不可……饶恕！\\n不可、饶恕！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "芬妮！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_04"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——她难道……\\n——失控……推测为\\n近似杀戮模式的状态。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "芬妮！不可以！快停下！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "妨碍艾琳的家伙由我来毁掉。\\n毁掉毁掉毁掉！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "怎么会……\\n连我的声音都听不到了。\\n呃，没办法了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "我以901指挥官权限\\n强制停止个体名芬妮的运行！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110383_01"
-            ],
-            "speaker_name": "芬妮",
-            "context": "毁掉、毁……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "901指挥官传达各机体，\\n开始撤退，脱离战区。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120151_02"
-            ],
-            "speaker_name": "战斗人偶",
-            "context": "遵命……开始执行命令。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "搭载魔幻炉的战斗人偶……\\n你的个体名好像叫莱姬希？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_05"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "对……你们是什么人？\\n——你们似乎是1000年前的\\n战斗人偶。为什么袭击我们？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "我们是“机械神兵”。\\n战斗人偶肩负的使命\\n无论过多少年都不会变。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "那就是消灭龙，\\n从封闭的世界中解放人类。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_05"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "解放人类！？\\n你们伤害镇上的人们，\\n还在说什么胡话呢！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "机械神兵不会将那些\\n定义为人类。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "现在盘踞地表的\\n是与龙为伍的扭曲世界之徒。\\n那些“地人”也是我们驱逐的对象。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_05"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "“地人”！？竟然不定义为人……\\n——人就是人。你的思考出了故障。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "懒得和你们浪费口舌。\\n不过……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "有缘再见吧。\\n下次一定要让你告诉我\\n那具身体的秘密。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_05"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "机械神兵……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_05"
-            ],
-            "speaker_name": "SYS",
-            "context": "机械神兵前线基地",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_05"
-            ],
-            "speaker_name": "玛琪娜",
-            "context": "搭载魔幻炉的战斗人偶吗。\\n玛琪娜的记录中没有那种东西。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "果然如此啊。\\n这样一来，那战斗人偶……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "玛琪娜……有没有可能\\n是方舟对地人伸出了援手？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "玛琪娜",
-            "context": "这个问题毫无意义。\\n因为那是不可能的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "可是，300年前制造出来的\\n那机体无疑是我们的复制品。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "连我们这些原型都没有魔幻炉，\\n难以想象300年前的地人会拥有\\n给战斗人偶搭载魔幻炉的技术。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "要是存在那种技术，\\n只可能在方舟才有……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "玛琪娜",
-            "context": "重申一遍，\\n这个问题毫无意义。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "玛琪娜",
-            "context": "方舟——“空中都市方舟”，\\n是过去的人类在龙的淫威之下\\n移居的最后的乐园。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "玛琪娜",
-            "context": "方舟的目的是歼灭龙\\n和与龙为伍的地人，\\n让大地再度成为人类的乐园。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120218_01"
-            ],
-            "speaker_name": "玛琪娜",
-            "context": "就算搭载魔幻炉的战斗人偶\\n是方舟的技术人员所造，\\n那个人偶也不可能会保护地人。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "话是这么说没错……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "玛琪娜",
-            "context": "你有点言辞闪烁啊，\\n推测你的思考发生了故障，\\n是不是该送去维护了？",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "不，自我检测还在正常运转。\\n判断不需要维护。\\n执行方面也并无障碍。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "玛琪娜",
-            "context": "工作效率确实没有明显变化。\\n决断交给个体名艾琳。\\n不过……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "玛琪娜",
-            "context": "901战斗人偶队出现了\\n工作效率明显下降的机体呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "！",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "玛琪娜",
-            "context": "我已确认个体名芬妮\\n非但不接受命令，\\n还在战斗中失控。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "那、那是因为……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "玛琪娜",
-            "context": "个体名芬妮虽然是搭载了\\n珍贵的“心”的战斗人偶，\\n可关键的“心”似乎发生了损坏。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "玛琪娜",
-            "context": "“心”的技术已经在1000年间失传，\\n即使是机械神兵，\\n也无法进行制造或修理。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "玛琪娜",
-            "context": "“心”本来就是可能导致不稳定\\n行为的双刃剑，让她继续搭载\\n损坏的“心”太危险了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120218_01"
-            ],
-            "speaker_name": "玛琪娜",
-            "context": "我判断机械神兵\\n已不需要个体名芬妮，\\n建议报废。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "请、请等一下！芬妮的工作效率\\n确实有所下降，但是她的性能\\n远远凌驾于一般机体之上。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "尤其是和搭载魔幻炉的战斗人偶\\n这种强劲的机体作战时，\\n芬妮的力量至关重要。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "请三思。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120218_01"
-            ],
-            "speaker_name": "玛琪娜",
-            "context": "好吧……我暂且不做决断。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120218_01"
-            ],
-            "speaker_name": "玛琪娜",
-            "context": "要是她能击毁搭载魔幻炉的\\n战斗人偶，我就重新判定她\\n是对机械神兵有用的机体。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120218_01"
-            ],
-            "speaker_name": "玛琪娜",
-            "context": "但是，给她的缓期不会太长。\\n届时希望你能做出正确的判断。",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110384_01"
-            ],
-            "speaker_name": "艾琳",
-            "context": "（我不会让芬妮报废的……\\n为此……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22210_02_0085",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "The androids turn out to be with a group called\\nEx Machina whose goal is to eliminate humans.\\nAs the prince and his friends narrowly manage\\nto repel them, the Ex Machina androids Eirene\\nand Finni are given strict orders to destroy Laxi.",
+      "ja_jp": "<ruby><rb>襲</rb><rt>おそ</rt></ruby>ってきたのは、<ruby><rb>人間</rb><rt>にんげん</rt></ruby>の<ruby><rb>排除</rb><rt>はいじょ</rt></ruby>を<ruby><rb>謳</rb><rt>うた</rt></ruby>う<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>\\n<ruby><rb>組織</rb><rt>そしき</rt></ruby>『エクス・マキナ』の<ruby><rb>人形</rb><rt>にんぎょう</rt></ruby>たちだった。\\n<ruby><rb>王子</rb><rt>おうじ</rt></ruby>たちは<ruby><rb>辛</rb><rt>から</rt></ruby>くも<ruby><rb>彼</rb><rt>かれ</rt></ruby>らを<ruby><rb>撃退</rb><rt>げきたい</rt></ruby>する。<ruby><rb>一方</rb><rt>いっぽう</rt></ruby>、\\nエクス・マキナのアイリーンとフィニー\\nは、ラキシの<ruby><rb>破壊</rb><rt>はかい</rt></ruby>を<ruby><rb>厳命</rb><rt>げんめい</rt></ruby>されるのだった。",
+      "zh_cn": "来袭的战斗人偶隶属于\\n企图消灭人类的组织“机械神兵”。\\n王子等人艰难退敌。另一方面，\\n机械神兵成员艾琳和芬妮\\n则接到了破坏莱姬希的命令。",
+      "zh_tw": "發動攻勢的，正是主張排除人類的\\n戰鬥人偶組織──「艾克斯‧馬奇那」。\\n王子等人在一番苦戰後成功擊退人偶們。\\n而一方面，艾克斯‧馬奇那的艾零與菲霓\\n則被嚴格命令，必須破壞拉契希。"
+    }
+  },
+  "prev": "2221001",
+  "next": "2221003",
+  "content": [
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "Hraaaah!",
+        "ja_jp": "おおらあああっ！",
+        "zh_cn": "哈啊啊啊！",
+        "zh_tw": "喔喔啊啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0001",
+      "book": ""
+    },
+    {
+      "icon": "100032_04",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Damage to left carpus section.\\n2.8 percent reduction in combat strength.\\n▷Laxi, the leader is on your right!◁",
+        "ja_jp": "っ……！　<ruby><rb>左手根部損傷</rb><rt>ひだりしゅこんぶそんしょう</rt></ruby>。2.8％の\\n<ruby><rb>戦力低下</rb><rt>せんりょくていか</rt></ruby>。――ラキシ！　リーダー<ruby><rb>機</rb><rt>き</rt></ruby>が\\n<ruby><rb>右</rb><rt>みぎ</rt></ruby>に！",
+        "zh_cn": "左手掌损伤，战斗力降低2.8%。\\n——莱姬希！指挥官机体\\n在你右边！",
+        "zh_tw": "唔……！\\n左手根部損傷。戰力減少2.8％。\\n──拉契希！指揮機在右邊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0002",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Slow.",
+        "ja_jp": "<ruby><rb>遅</rb><rt>おそ</rt></ruby>いわ。",
+        "zh_cn": "晚了。",
+        "zh_tw": "太慢了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0003",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "You're not half bad, but you're nowhere\\nnear enough to take on me AND Eirene!",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>も<ruby><rb>悪</rb><rt>わる</rt></ruby>くなかったけど、あたしと\\nアイリーンを<ruby><rb>相手</rb><rt>あいて</rt></ruby>にするには<ruby><rb>性能</rb><rt>せいのう</rt></ruby>が\\n<ruby><rb>足</rb><rt>た</rt></ruby>りなかったな！",
+        "zh_cn": "你虽然不赖，\\n不过要和我还有艾琳打，\\n性能还差点呢！",
+        "zh_tw": "雖然妳也不算弱，\\n但要當我和艾零的對手，\\n性能還是不夠呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0004",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "This will end it.",
+        "ja_jp": "これで<ruby><rb>終</rb><rt>お</rt></ruby>わりよ。",
+        "zh_cn": "了结了你。",
+        "zh_tw": "這下就結束了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0005",
+      "book": ""
+    },
+    {
+      "icon": "100032_04",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷Laxi! Dodge!◁\\nI won't...make it!",
+        "ja_jp": "いけない！　ラキシ！\\n――<ruby><rb>間</rb><rt>ま</rt></ruby>に<ruby><rb>合</rb><rt>あ</rt></ruby>わ……ない！",
+        "zh_cn": "不好！莱姬希！\\n——来不及了……",
+        "zh_tw": "糟了！拉契希！\\n──來不……及！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0006",
+      "book": ""
+    },
+    {
+      "icon": "100032_04",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Huh? I...I can't move!",
+        "ja_jp": "……!?　か、<ruby><rb>体</rb><rt>からだ</rt></ruby>が……！",
+        "zh_cn": "身、身体被……",
+        "zh_tw": "……！？\\n身、身體……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0007",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Looks like your motion transmitter circuit\\nwas in the same location as ours despite\\nour different manufacturers. I'm going to\\nhave you settle down for a bit.",
+        "ja_jp": "<ruby><rb>製造元</rb><rt>せいぞうもと</rt></ruby>は<ruby><rb>違</rb><rt>ちが</rt></ruby>っても<ruby><rb>運動伝達回路</rb><rt>うんどうでんたつかいろ</rt></ruby>の<ruby><rb>位置</rb><rt>いち</rt></ruby>は\\n<ruby><rb>同</rb><rt>おな</rt></ruby>じだったようね。\\nしばらく<ruby><rb>大人</rb><rt>おとな</rt></ruby>しくしてもらうわ。",
+        "zh_cn": "虽说制造途径不同，\\n但运动传输回路的位置似乎一样呢。\\n你就先老实地待一会儿吧。",
+        "zh_tw": "雖然製造處不同，\\n但運動傳達回路的位置似乎一樣呢。\\n就請妳暫時老實點吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0008",
+      "book": ""
+    },
+    {
+      "icon": "100032_04",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "...! Motion transmission circuit damaged.\\nInitiating recovery.",
+        "ja_jp": "……！　<ruby><rb>運動伝達回路</rb><rt>うんどうでんたつかいろ</rt></ruby><ruby><rb>損傷</rb><rt>そんしょう</rt></ruby>。\\n……リカバリ<ruby><rb>開始</rb><rt>かいし</rt></ruby>。",
+        "zh_cn": "运动传输回路损伤。\\n开始修复……",
+        "zh_tw": "……！\\n運動傳達回路損傷。\\n……修復開始。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0009",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Time to peruse your memory and learn\\nwhy you have two hearts in one body.",
+        "ja_jp": "……ひとつの<ruby><rb>体</rb><rt>からだ</rt></ruby>にふたつの『<ruby><rb>心</rb><rt>こころ</rt></ruby>』。\\nどういうことなのか、あなたのメモリー\\n<ruby><rb>見</rb><rt>み</rt></ruby>させてもらうわ。",
+        "zh_cn": "两“心”同体……\\n到底是怎么做到的，\\n就让我看看你的存储器吧。",
+        "zh_tw": "……一具身體裡擁有兩顆「心」。\\n究竟是怎麼回事，\\n就讓我來看看妳的記憶資料吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0010",
+      "book": ""
+    },
+    {
+      "icon": "100032_04",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Connecting...",
+        "ja_jp": "コネクト。",
+        "zh_cn": "连接。",
+        "zh_tw": "連結。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0011",
+      "book": ""
+    },
+    {
+      "icon": "100032_04",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "?!",
+        "ja_jp": "――っ!?",
+        "zh_cn": "——！？",
+        "zh_tw": "──！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0012",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Engaging emergency protocols.",
+        "ja_jp": "ラキシ――<ruby><rb>緊急</rb><rt>きんきゅう</rt></ruby><ruby><rb>起動</rb><rt>きどう</rt></ruby>。\\nモード――",
+        "zh_cn": "莱姬希……紧急启动。\\n开启……",
+        "zh_tw": "拉契希──緊急啟動。\\n模式──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0013",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Activating annihilation mode.",
+        "ja_jp": "ジェノサイド。",
+        "zh_cn": "杀戮模式。",
+        "zh_tw": "肅清。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0014",
+      "book": ""
+    },
+    {
+      "icon": "120135_01",
+      "name": {
+        "en_us": "Mascula",
+        "ja_jp": "マスキュラ",
+        "zh_cn": "马斯古拉",
+        "zh_tw": "馬斯科拉"
+      },
+      "context": {
+        "en_us": "Laxi, stop! Please! Maestro would be\\nso sad to see us doing this!",
+        "ja_jp": "お<ruby><rb>願</rb><rt>ねが</rt></ruby>いです、<ruby><rb>止</rb><rt>と</rt></ruby>まってください！\\nボクたちがこんなことをしていたら、\\nマエストロが<ruby><rb>悲</rb><rt>かな</rt></ruby>しみます！",
+        "zh_cn": "拜托了，请快停下来吧！\\n我们这么做的话，\\n麦斯特罗会伤心的！",
+        "zh_tw": "拜託妳，請住手！\\n要是我們做出這種事，\\n大師會傷心的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0015",
+      "book": ""
+    },
+    {
+      "icon": "100032_02",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Hearts... Maestro...\\nMAESTROOooOoOooo!",
+        "ja_jp": "ココ……ロ。マエストロ……。\\nマエストロ……ウウウウウウ……\\nアアアアアアアアアアアアアアッ！",
+        "zh_cn": "心……麦斯特罗……\\n麦斯特罗……罗罗罗罗罗罗……\\n啊啊啊啊啊啊啊啊！",
+        "zh_tw": "心……大師……\\n大師……唔唔唔唔唔唔……\\n啊啊啊啊啊啊啊啊啊啊啊啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0016",
+      "book": ""
+    },
+    {
+      "icon": "100032_02",
+      "name": {
+        "en_us": "Mascula",
+        "ja_jp": "マスキュラ",
+        "zh_cn": "马斯古拉",
+        "zh_tw": "馬斯科拉"
+      },
+      "context": {
+        "en_us": "LAXI! I GIVE YOU MY HEART!\\nGRAAAAAAAAGH!",
+        "ja_jp": "ラキシ！　ボクの『<ruby><rb>心</rb><rt>こころ</rt></ruby>』をキミに！\\nく……ああああああああっ！",
+        "zh_cn": "莱姬希！把我的“心”给你！\\n唔……啊啊啊啊啊啊啊！",
+        "zh_tw": "拉契希！把我的「心」給妳！\\n唔……啊啊啊啊啊啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0017",
+      "book": ""
+    },
+    {
+      "icon": "100032_02",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "H-heart... M-Mascula...",
+        "ja_jp": "アアア……！　コ……ココロ……。\\nま、マスキュラ……。",
+        "zh_cn": "啊啊啊……心……\\n马、马斯古拉……",
+        "zh_tw": "啊啊……！\\n心……心……\\n馬、馬斯科拉……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0018",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "There are excess thoughts within me.\\n▷Not EXCESS thoughts.\\nImportant ones.◁\\nShut up.",
+        "ja_jp": "ワタシの<ruby><rb>中</rb><rt>なか</rt></ruby>に<ruby><rb>余計</rb><rt>よけい</rt></ruby>な<ruby><rb>思考</rb><rt>しこう</rt></ruby>が――そんな\\n<ruby><rb>余計</rb><rt>よけい</rt></ruby>だなんて、これは<ruby><rb>重要</rb><rt>じゅうよう</rt></ruby>なこと――\\nうるさい。",
+        "zh_cn": "体内混入了多余的思考……\\n——怎么能是多余呢，\\n这是非常重要的——闭嘴。",
+        "zh_tw": "我的內部發生多餘的思考……\\n──怎麼會多餘，這是很重要的事。\\n──囉嗦。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0019",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "It is likely that Mascula's heart merged\\nwith my own and caused this glitch.\\n▷Laxi, listen to me!◁",
+        "ja_jp": "おそらく……マスキュラの『<ruby><rb>心</rb><rt>こころ</rt></ruby>』が\\n<ruby><rb>混</rb><rt>ま</rt></ruby>ざったことによる<ruby><rb>不具合</rb><rt>ふぐあい</rt></ruby>――ラキシ、\\n<ruby><rb>聞</rb><rt>き</rt></ruby>いてください。",
+        "zh_cn": "推断为……马斯古拉的“心”\\n混入所造成的故障……\\n——莱姬希，请听我说。",
+        "zh_tw": "恐怕……是由於混合\\n馬斯科拉的「心」所造成的障害……\\n──拉契希，請聽我說。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0020",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "A different heart was transplanted\\nto replace her broken one?",
+        "ja_jp": "<ruby><rb>壊</rb><rt>こわ</rt></ruby>れた『<ruby><rb>心</rb><rt>こころ</rt></ruby>』の<ruby><rb>代</rb><rt>か</rt></ruby>わりに、<ruby><rb>別</rb><rt>べつ</rt></ruby>の『<ruby><rb>心</rb><rt>こころ</rt></ruby>』を\\n<ruby><rb>移植</rb><rt>いしょく</rt></ruby>……？",
+        "zh_cn": "植入别的“心”\\n代替损毁的“心”？",
+        "zh_tw": "為了代替損壞的「心」，\\n而移植其他的「心」……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0021",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "But why did the two hearts overlap?\\nAnd the broken heart seems to have\\nsomehow been repaired...",
+        "ja_jp": "でも、どうしてふたつの『<ruby><rb>心</rb><rt>こころ</rt></ruby>』が\\n<ruby><rb>重</rb><rt>かさ</rt></ruby>なったの……？　<ruby><rb>壊</rb><rt>こわ</rt></ruby>れたはずの『<ruby><rb>心</rb><rt>こころ</rt></ruby>』\\nも<ruby><rb>直</rb><rt>なお</rt></ruby>っているようだし……。",
+        "zh_cn": "但是，为什么两颗“心”重合了？\\n损毁的“心”似乎也修复了……",
+        "zh_tw": "但是，為什麼兩顆「心」會重疊……？\\n況且原本應該壞掉的「心」，\\n似乎也修復了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0022",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "This situation calls for thorough analysis.\\nNumbers 38 and 39, take this unit back\\nto the base at once.",
+        "ja_jp": "……しっかり<ruby><rb>調</rb><rt>しら</rt></ruby>べる<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>がありそうね。\\nナンバー38、39。あなたたちで、\\nこの<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>を<ruby><rb>拠点</rb><rt>きょてん</rt></ruby>に<ruby><rb>運</rb><rt>はこ</rt></ruby>びなさい。",
+        "zh_cn": "看来有必要好好调查一番。\\n38、39号，你们把这个\\n战斗人偶运到据点去。",
+        "zh_tw": "……看來有必要好好調查呢。\\n編號38、39。\\n你們將這具戰鬥人偶搬回據點。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0023",
+      "book": ""
+    },
+    {
+      "icon": "120151_01",
+      "name": {
+        "en_us": "Combat Android",
+        "ja_jp": "戦闘人形",
+        "zh_cn": "战斗人偶",
+        "zh_tw": "戰鬥人偶"
+      },
+      "context": {
+        "en_us": "Understood. Commencing operation.",
+        "ja_jp": "<ruby><rb>了解</rb><rt>りょうかい</rt></ruby>。<ruby><rb>実行</rb><rt>じっこう</rt></ruby>。",
+        "zh_cn": "遵命。开始执行。",
+        "zh_tw": "了解。實行。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0024",
+      "book": ""
+    },
+    {
+      "icon": "120151_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷Laxi, we have to do something!◁\\nI know. Let's shift modes.",
+        "ja_jp": "ラキシ、このままでは……！\\n――わかってる。モードチェンジを。",
+        "zh_cn": "莱姬希，这样下去就……\\n——我知道，转换模式。",
+        "zh_tw": "拉契希，這樣下去的話……！\\n──我知道。進行模式變更。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0025",
+      "book": ""
+    },
+    {
+      "icon": "120151_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷Right! Let's go!◁\\nMode shift...EDEN!",
+        "ja_jp": "――はい、<ruby><rb>行</rb><rt>い</rt></ruby>きましょう！\\n――チェンジ、モード……ガンエデン！",
+        "zh_cn": "——好，来吧！\\n——模式，转换……\\n伊甸园！",
+        "zh_tw": "──好，開始吧！\\n──變更，模式……伊甸園！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0026",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Eden mode? If that memory is accurate,\\nthis is not good at all!",
+        "ja_jp": "ガンエデンモード……!?　いけない\\nあのメモリーが<ruby><rb>確</rb><rt>たし</rt></ruby>かなら……！",
+        "zh_cn": "伊甸园模式！？不好，\\n如果那存储器的数据可靠……",
+        "zh_tw": "伊甸園模式……！？\\n糟了，如果剛才的記憶資料屬實……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0027",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Ambient mana concentration is dropping\\nprecipitously. Are you telling me she's\\nabsorbing mana and converting it into\\nenergy? That would mean...!",
+        "ja_jp": "<ruby><rb>周囲</rb><rt>しゅうい</rt></ruby>のマナ<ruby><rb>濃度</rb><rt>のうど</rt></ruby>が<ruby><rb>急激</rb><rt>きゅうげき</rt></ruby>に<ruby><rb>低下</rb><rt>ていか</rt></ruby>している。\\nマナを<ruby><rb>吸収</rb><rt>きゅうしゅう</rt></ruby>してエネルギーに<ruby><rb>変換</rb><rt>へんかん</rt></ruby>して\\nいるとでも？　それじゃやはり……！",
+        "zh_cn": "周围魔力浓度正急剧下降。\\n这是在吸收魔力转化为能量吗？\\n那么果然……",
+        "zh_tw": "周圍瑪納濃度正急速降低。\\n難道她在吸收瑪納轉化成能源？\\n那她果然……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0028",
+      "book": ""
+    },
+    {
+      "icon": "100032_04",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Fig activated.",
+        "ja_jp": "フィクス、<ruby><rb>起動</rb><rt>きどう</rt></ruby>。",
+        "zh_cn": "起源之核，启动。",
+        "zh_tw": "芬科斯，啟動。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0029",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "*gasp*\\nShe materialized mana in physical form!\\nThis android really is equipped with a\\nmana kiln!",
+        "ja_jp": "っ！　マナを<ruby><rb>物質化</rb><rt>ぶっしつか</rt></ruby>している！\\n<ruby><rb>間違</rb><rt>まちが</rt></ruby>いない、この<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>、<ruby><rb>魔幻炉</rb><rt>まげんろ</rt></ruby>を\\n<ruby><rb>搭載</rb><rt>とうさい</rt></ruby>しているんだわ……そんな<ruby><rb>話</rb><rt>はなし</rt></ruby>！",
+        "zh_cn": "她正把魔力转化为物质！\\n不会错的，这战斗人偶搭载了\\n魔幻炉……竟会有这种事！",
+        "zh_tw": "唔！她把瑪納物質化了！\\n不會錯，這具戰鬥人偶身上，\\n搭載著魔幻爐……怎麼會！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0030",
+      "book": ""
+    },
+    {
+      "icon": "100032_04",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "If we can just stop the lead unit!",
+        "ja_jp": "リーダー<ruby><rb>機</rb><rt>き</rt></ruby>さえ<ruby><rb>止</rb><rt>と</rt></ruby>められれば！",
+        "zh_cn": "总之先阻止指挥官机体！",
+        "zh_tw": "只要能阻止指揮機！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0031",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Aaagh!",
+        "ja_jp": "あああっ！",
+        "zh_cn": "啊啊啊！",
+        "zh_tw": "啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0032",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "Stop it! If you so much as scratch Eirene,\\nI'll smash you into a million pieces!",
+        "ja_jp": "アイリーン！\\nやめろ……！　アイリーンを<ruby><rb>傷</rb><rt>きず</rt></ruby>つける\\n<ruby><rb>奴</rb><rt>やつ</rt></ruby>はあたしが<ruby><rb>許</rb><rt>ゆる</rt></ruby>さない！",
+        "zh_cn": "艾琳！\\n住手！谁都不许伤害艾琳！",
+        "zh_tw": "艾零！\\n住手……！\\n我絕不原諒傷害艾零的傢伙！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0033",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "I'll rip every component off you one-by-one\\nand mash your circuits into DUUUST!",
+        "ja_jp": "ゆ、<ruby><rb>許</rb><rt>ゆる</rt></ruby>サ……ナイ！　アタシが、\\nユルサナナイ！",
+        "zh_cn": "不可……饶恕！\\n不可、饶恕！",
+        "zh_tw": "絕、絕不……原諒！\\n我、絕不原原諒！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0034",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Finni?!",
+        "ja_jp": "フィニー!?",
+        "zh_cn": "芬妮！？",
+        "zh_tw": "菲霓！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0035",
+      "book": ""
+    },
+    {
+      "icon": "100032_04",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷It can't be... Is she...?◁\\nShe is exhibiting a loss of control \\nvery similar to annihilation mode.",
+        "ja_jp": "――このひと、まさか……！\\n――<ruby><rb>暴走状態</rb><rt>ぼうそうじょうたい</rt></ruby>……ジェノサイドモードに\\n<ruby><rb>類</rb><rt>るい</rt></ruby>するものと<ruby><rb>推定</rb><rt>すいてい</rt></ruby>。",
+        "zh_cn": "——她难道……\\n——失控……推测为\\n近似杀戮模式的状态。",
+        "zh_tw": "──她、難道……！\\n──失控狀態……\\n推斷類似於肅清模式。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0036",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Finni, no! STOP!",
+        "ja_jp": "フィニー！　ダメ！　やめてっ！",
+        "zh_cn": "芬妮！不可以！快停下！",
+        "zh_tw": "菲霓！不行！住手！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0037",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "I'LL DESTROY ANYONE WHO TRIES TO\\nMESS WITH EIRENE! ALL OF YOU ARE\\nGOING TO DIIIIIIE!",
+        "ja_jp": "アイリーンを<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>スル<ruby><rb>奴</rb><rt>やつ</rt></ruby>はアタシが\\n<ruby><rb>破壊</rb><rt>はかい</rt></ruby>する。ハカイ<ruby><rb>破壊</rb><rt>はかい</rt></ruby>ハカイ……！",
+        "zh_cn": "妨碍艾琳的家伙由我来毁掉。\\n毁掉毁掉毁掉！",
+        "zh_tw": "妨礙艾零的傢伙就由我來破壞。\\n破壞破壞破壞……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0038",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "She can't even hear me...\\nI have no choice...!",
+        "ja_jp": "そんな……<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>声</rb><rt>こえ</rt></ruby>も<ruby><rb>聞</rb><rt>き</rt></ruby>こえてない。\\nくっ、<ruby><rb>仕方</rb><rt>しかた</rt></ruby>がない……！",
+        "zh_cn": "怎么会……\\n连我的声音都听不到了。\\n呃，没办法了！",
+        "zh_tw": "怎麼會……連我的聲音都聽不見。\\n唔，沒辦法了……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0039",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "On my authority as leader of the 901st,\\nI order the shutdown of unit Finni!",
+        "ja_jp": "901リーダーの<ruby><rb>権限</rb><rt>けんげん</rt></ruby>において、\\n<ruby><rb>個体名</rb><rt>こたいめい</rt></ruby>フィニーを<ruby><rb>強制停止</rb><rt>きょうせいていし</rt></ruby>！",
+        "zh_cn": "我以901指挥官权限\\n强制停止个体名芬妮的运行！",
+        "zh_tw": "以901指揮機的權限，\\n將個體名菲霓強制停止！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0040",
+      "book": ""
+    },
+    {
+      "icon": "110383_01",
+      "name": {
+        "en_us": "Finni",
+        "ja_jp": "フィニー",
+        "zh_cn": "芬妮",
+        "zh_tw": "菲霓"
+      },
+      "context": {
+        "en_us": "KILL! KILL! KIIIII...",
+        "ja_jp": "ハカイ、ハカ……！",
+        "zh_cn": "毁掉、毁……",
+        "zh_tw": "破壞、破……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0041",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "All units, this is 901 leader.\\nWithdraw and exit the battlefield.",
+        "ja_jp": "901リーダーより<ruby><rb>各機</rb><rt>かくき</rt></ruby>へ。\\n<ruby><rb>各自</rb><rt>かくじ</rt></ruby><ruby><rb>撤退開始</rb><rt>てったいかいし</rt></ruby>。<ruby><rb>戦域</rb><rt>せんいき</rt></ruby>より<ruby><rb>離脱</rb><rt>りだつ</rt></ruby>せよ。",
+        "zh_cn": "901指挥官传达各机体，\\n开始撤退，脱离战区。",
+        "zh_tw": "901指揮機對各機下令。\\n各自撤退開始，即刻離開戰域。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0042",
+      "book": ""
+    },
+    {
+      "icon": "120151_02",
+      "name": {
+        "en_us": "Combat Android",
+        "ja_jp": "戦闘人形",
+        "zh_cn": "战斗人偶",
+        "zh_tw": "戰鬥人偶"
+      },
+      "context": {
+        "en_us": "Understood. Commencing operation.",
+        "ja_jp": "<ruby><rb>了解</rb><rt>りょうかい</rt></ruby>。<ruby><rb>動作</rb><rt>どうさ</rt></ruby>を<ruby><rb>実行</rb><rt>じっこう</rt></ruby>。",
+        "zh_cn": "遵命……开始执行命令。",
+        "zh_tw": "了解。動作實行。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0043",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "You, android with the mana kiln.\\nYour designation is Laxi, correct?",
+        "ja_jp": "<ruby><rb>魔幻炉</rb><rt>まげんろ</rt></ruby>を<ruby><rb>搭載</rb><rt>とうさい</rt></ruby>した<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>……\\n<ruby><rb>確</rb><rt>たし</rt></ruby>か、<ruby><rb>個体名</rb><rt>こたいめい</rt></ruby>はラキシだったわね。",
+        "zh_cn": "搭载魔幻炉的战斗人偶……\\n你的个体名好像叫莱姬希？",
+        "zh_tw": "搭載魔幻爐的戰鬥人偶……\\n我記得，個體名是叫拉契希吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0044",
+      "book": ""
+    },
+    {
+      "icon": "100032_05",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Yes. Who are all of you?\\n▷You look like models from a thousand\\nyears ago, but why are you fighting us?◁",
+        "ja_jp": "……ええ。アナタたちは、<ruby><rb>何者</rb><rt>なにもの</rt></ruby>？\\n――1000<ruby><rb>年</rb><rt>ねん</rt></ruby><ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>のよう\\nですが、なぜボクたちを<ruby><rb>襲</rb><rt>おそ</rt></ruby>うのです？",
+        "zh_cn": "对……你们是什么人？\\n——你们似乎是1000年前的\\n战斗人偶。为什么袭击我们？",
+        "zh_tw": "……是。妳們，是誰？\\n──看起來是1000年前的戰鬥人偶，\\n為什麼要襲擊我們呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0045",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "We are with Ex Machina, and our mission\\nremains unchanged no matter how many\\nmillennia pass us by.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>たちは『エクス・マキナ』。\\n<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>に<ruby><rb>課</rb><rt>か</rt></ruby>せられた<ruby><rb>使命</rb><rt>しめい</rt></ruby>は、\\n<ruby><rb>何</rb><rt>なん</rt></ruby><ruby><rb>年</rb><rt>ねん</rt></ruby><ruby><rb>経</rb><rt>た</rt></ruby>とうと<ruby><rb>変</rb><rt>か</rt></ruby>わらないわ。",
+        "zh_cn": "我们是“机械神兵”。\\n战斗人偶肩负的使命\\n无论过多少年都不会变。",
+        "zh_tw": "我們是「艾克斯‧馬奇那」。\\n戰鬥人偶所背負的使命，\\n無論經過幾年都不會改變。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0046",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Said mission is the extermination of all\\ndragons and the liberation of the people\\nshut out from this world.",
+        "ja_jp": "ドラゴンの<ruby><rb>殲滅</rb><rt>せんめつ</rt></ruby>。そして<ruby><rb>閉</rb><rt>と</rt></ruby>ざされた\\n<ruby><rb>世界</rb><rt>せかい</rt></ruby>から<ruby><rb>人間</rb><rt>にんげん</rt></ruby>を<ruby><rb>解放</rb><rt>かいほう</rt></ruby>すること。",
+        "zh_cn": "那就是消灭龙，\\n从封闭的世界中解放人类。",
+        "zh_tw": "──「殲滅龍族」。\\n以及從這個封閉的世界解放人類。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0047",
+      "book": ""
+    },
+    {
+      "icon": "100032_05",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷Liberating people?! You're running\\naround the city trying to KILL them!◁",
+        "ja_jp": "<ruby><rb>人間</rb><rt>にんげん</rt></ruby>の<ruby><rb>解放</rb><rt>かいほう</rt></ruby>!?　この<ruby><rb>街</rb><rt>まち</rt></ruby>の<ruby><rb>人々</rb><rt>ひとびと</rt></ruby>を\\n<ruby><rb>傷</rb><rt>きず</rt></ruby>つけて<ruby><rb>何</rb><rt>なに</rt></ruby>を<ruby><rb>言</rb><rt>い</rt></ruby>うんです！",
+        "zh_cn": "解放人类！？\\n你们伤害镇上的人们，\\n还在说什么胡话呢！",
+        "zh_tw": "解放人類！？\\n剛剛才傷害了街上的人們，\\n妳憑什麼這麼說！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0048",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Ex Machina does not define such\\nlifeforms as people.",
+        "ja_jp": "エクス・マキナは、ソレを<ruby><rb>人間</rb><rt>にんげん</rt></ruby>と\\n<ruby><rb>定義</rb><rt>ていぎ</rt></ruby>しない。",
+        "zh_cn": "机械神兵不会将那些\\n定义为人类。",
+        "zh_tw": "艾克斯‧馬奇那，\\n並不將那些定義為人類。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0049",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Those who nest on the surface now consort\\nwith dragons and warp the very world,\\nand all such terrestrials are to be\\neliminated by Ex Machina.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>、<ruby><rb>地上</rb><rt>ちじょう</rt></ruby>に<ruby><rb>巣食</rb><rt>すく</rt></ruby>うのは、ドラゴンに<ruby><rb>与</rb><rt>くみ</rt></ruby>し\\n<ruby><rb>世界</rb><rt>せかい</rt></ruby>を<ruby><rb>歪</rb><rt>ゆが</rt></ruby>める<ruby><rb>者</rb><rt>もの</rt></ruby>。<ruby><rb>彼</rb><rt>かれ</rt></ruby>ら『<ruby><rb>地人</rb><rt>ちじん</rt></ruby>』も、\\nエクス・マキナの<ruby><rb>排除</rb><rt>はいじょ</rt></ruby>の<ruby><rb>対象</rb><rt>たいしょう</rt></ruby>よ。",
+        "zh_cn": "现在盘踞地表的\\n是与龙为伍的扭曲世界之徒。\\n那些“地人”也是我们驱逐的对象。",
+        "zh_tw": "現今棲息於地上的，都是投靠龍族、\\n扭曲世界的傢伙。那些「地人」，\\n也是艾克斯‧馬奇那的排除對象。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0050",
+      "book": ""
+    },
+    {
+      "icon": "100032_05",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷So ＂terrestrials＂ aren't people?◁\\nSorry, but all people are people. There\\nmust be a bug in your processing.",
+        "ja_jp": "『<ruby><rb>地人</rb><rt>ちじん</rt></ruby>』!?　<ruby><rb>定義</rb><rt>ていぎ</rt></ruby>しないだなんて……\\n――<ruby><rb>人</rb><rt>ひと</rt></ruby>は、<ruby><rb>人</rb><rt>ひと</rt></ruby>。アナタの<ruby><rb>思考</rb><rt>しこう</rt></ruby>には\\nバグがある。",
+        "zh_cn": "“地人”！？竟然不定义为人……\\n——人就是人。你的思考出了故障。",
+        "zh_tw": "「地人」！？\\n竟然不把大家定義成人類……\\n──人，就是人。妳的思考有故障。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0051",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "I have no intention of engaging in a\\ndebate with all of you. However, I can\\npromise that we will meet again.",
+        "ja_jp": "あなたたちと<ruby><rb>問答</rb><rt>もんどう</rt></ruby>をするつもりは\\nないわ。でも……",
+        "zh_cn": "懒得和你们浪费口舌。\\n不过……",
+        "zh_tw": "我不打算和你們進行爭論。\\n不過……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0052",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "And when we do, I will have you elucidate\\nupon the secrets contained in your body.",
+        "ja_jp": "また、<ruby><rb>会</rb><rt>あ</rt></ruby>いましょう。<ruby><rb>次</rb><rt>つぎ</rt></ruby>は、あなたの\\nその<ruby><rb>体</rb><rt>からだ</rt></ruby>の<ruby><rb>秘密</rb><rt>ひみつ</rt></ruby>、<ruby><rb>教</rb><rt>おし</rt></ruby>えてもらうわ。",
+        "zh_cn": "有缘再见吧。\\n下次一定要让你告诉我\\n那具身体的秘密。",
+        "zh_tw": "我們，還會再見面的。下次，\\n我會讓妳說出那具身體的秘密。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0053",
+      "book": ""
+    },
+    {
+      "icon": "100032_05",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Ex Machina...",
+        "ja_jp": "エクス・マキナ……。",
+        "zh_cn": "机械神兵……",
+        "zh_tw": "艾克斯‧馬奇那……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0054",
+      "book": ""
+    },
+    {
+      "icon": "100032_05",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Ex Machina Outpost",
+        "ja_jp": "エクス・マキナ<ruby><rb>前線基地</rb><rt>ぜんせんきち</rt></ruby>",
+        "zh_cn": "机械神兵前线基地",
+        "zh_tw": "艾克斯‧馬奇那前線基地"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100032_05",
+      "name": {
+        "en_us": "Anassa",
+        "ja_jp": "マーキナー",
+        "zh_cn": "玛琪娜",
+        "zh_tw": "瑪契娜"
+      },
+      "context": {
+        "en_us": "My memory contains no record of an\\nandroid equipped with a mana kiln.",
+        "ja_jp": "<ruby><rb>魔幻炉</rb><rt>まげんろ</rt></ruby>を<ruby><rb>搭載</rb><rt>とうさい</rt></ruby>した<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>ですか。\\nマーキナーの<ruby><rb>記録</rb><rt>きろく</rt></ruby>にはそのようなものは\\nありません。",
+        "zh_cn": "搭载魔幻炉的战斗人偶吗。\\n玛琪娜的记录中没有那种东西。",
+        "zh_tw": "搭載魔幻爐的戰鬥人偶是嗎。\\n瑪契娜的紀錄中沒有類似記載。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0055",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Then that android must be...",
+        "ja_jp": "やはりそうですか。\\nだとすると、あの<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>は……。",
+        "zh_cn": "果然如此啊。\\n这样一来，那战斗人偶……",
+        "zh_tw": "果然如此嗎。\\n這樣的話，那具戰鬥人偶……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0056",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Anassa, is there no possibility that the\\nArk could be helping the terrestrials?",
+        "ja_jp": "……マーキナー、アークが<ruby><rb>地人</rb><rt>ちじん</rt></ruby>に<ruby><rb>手</rb><rt>て</rt></ruby>を\\n<ruby><rb>貸</rb><rt>か</rt></ruby>している<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>はないでしょうか。",
+        "zh_cn": "玛琪娜……有没有可能\\n是方舟对地人伸出了援手？",
+        "zh_tw": "……瑪契娜，\\n有沒有可能是方舟在協助地人呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0057",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Anassa",
+        "ja_jp": "マーキナー",
+        "zh_cn": "玛琪娜",
+        "zh_tw": "瑪契娜"
+      },
+      "context": {
+        "en_us": "Such a thing is impossible.\\nYour very question is nonsensical.",
+        "ja_jp": "<ruby><rb>無意味</rb><rt>むいみ</rt></ruby>な<ruby><rb>質問</rb><rt>しつもん</rt></ruby>です。\\nその<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>はありません。",
+        "zh_cn": "这个问题毫无意义。\\n因为那是不可能的。",
+        "zh_tw": "那是無意義的問題。\\n沒有那種可能。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0058",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "However, there is no doubt this unit was\\ncreated 300 years ago as a copy of us.",
+        "ja_jp": "ですが、<ruby><rb>当該機</rb><rt>とうがいき</rt></ruby>が300<ruby><rb>年</rb><rt>ねん</rt></ruby><ruby><rb>前</rb><rt>まえ</rt></ruby>に\\n<ruby><rb>製造</rb><rt>せいぞう</rt></ruby>された、<ruby><rb>我々</rb><rt>われわれ</rt></ruby>のコピー<ruby><rb>機</rb><rt>き</rt></ruby>である\\nことに<ruby><rb>間違</rb><rt>まちが</rt></ruby>いはありません。",
+        "zh_cn": "可是，300年前制造出来的\\n那机体无疑是我们的复制品。",
+        "zh_tw": "可是，該機肯定是在300年前\\n以我們為原型製造出來的複製機。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0059",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Even we originals don't have mana kilns.\\nI find it highly unlikely that the terrestrials\\nof 300 years ago had such technology.",
+        "ja_jp": "オリジナルの<ruby><rb>我々</rb><rt>われわれ</rt></ruby>にすらない<ruby><rb>魔幻炉</rb><rt>まげんろ</rt></ruby>を\\n<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>に<ruby><rb>搭載</rb><rt>とうさい</rt></ruby>する<ruby><rb>技術</rb><rt>ぎじゅつ</rt></ruby>が300<ruby><rb>年</rb><rt>ねん</rt></ruby><ruby><rb>前</rb><rt>まえ</rt></ruby>の\\n<ruby><rb>地人</rb><rt>ちじん</rt></ruby>にあるとは<ruby><rb>思</rb><rt>おも</rt></ruby>えない。",
+        "zh_cn": "连我们这些原型都没有魔幻炉，\\n难以想象300年前的地人会拥有\\n给战斗人偶搭载魔幻炉的技术。",
+        "zh_tw": "連身為原型機的我們都沒有\\n搭載魔幻爐，我不認為300年前的地人\\n會有那樣的技術。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0060",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "If that technology does exist,\\nit must be on the Ark.",
+        "ja_jp": "その<ruby><rb>技術</rb><rt>ぎじゅつ</rt></ruby>が<ruby><rb>存在</rb><rt>そんざい</rt></ruby>するとしたら、\\nアークをおいて<ruby><rb>他</rb><rt>ほか</rt></ruby>にはないはず……。",
+        "zh_cn": "要是存在那种技术，\\n只可能在方舟才有……",
+        "zh_tw": "如果真的有那種技術，\\n應該也只會存在於方舟才對……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0061",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Anassa",
+        "ja_jp": "マーキナー",
+        "zh_cn": "玛琪娜",
+        "zh_tw": "瑪契娜"
+      },
+      "context": {
+        "en_us": "I repeat: Your query is nonsensical.",
+        "ja_jp": "<ruby><rb>繰</rb><rt>く</rt></ruby>り<ruby><rb>返</rb><rt>かえ</rt></ruby>します。<ruby><rb>無意味</rb><rt>むいみ</rt></ruby>な<ruby><rb>質問</rb><rt>しつもん</rt></ruby>です。",
+        "zh_cn": "重申一遍，\\n这个问题毫无意义。",
+        "zh_tw": "重覆。那是無意義的問題。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0062",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Anassa",
+        "ja_jp": "マーキナー",
+        "zh_cn": "玛琪娜",
+        "zh_tw": "瑪契娜"
+      },
+      "context": {
+        "en_us": "The Sky City Ark is where people fled\\nwhen exposed to the terror of dragonkind.\\nIt is their final paradise.",
+        "ja_jp": "アーク――『<ruby><rb>空中都市</rb><rt>くうちゅうとし</rt></ruby>アーク』は、\\nかつてドラゴンの<ruby><rb>猛威</rb><rt>もうい</rt></ruby>に<ruby><rb>晒</rb><rt>さら</rt></ruby>された<ruby><rb>人類</rb><rt>じんるい</rt></ruby>が\\n<ruby><rb>最後</rb><rt>さいご</rt></ruby>の<ruby><rb>楽園</rb><rt>らくえん</rt></ruby>として<ruby><rb>移</rb><rt>うつ</rt></ruby>り<ruby><rb>住</rb><rt>す</rt></ruby>んだ<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>。",
+        "zh_cn": "方舟——“空中都市方舟”，\\n是过去的人类在龙的淫威之下\\n移居的最后的乐园。",
+        "zh_tw": "方舟──「空中都市方舟」，\\n是昔日龍族肆虐下，\\n人類作為最後的樂園進行移住的場所。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0063",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Anassa",
+        "ja_jp": "マーキナー",
+        "zh_cn": "玛琪娜",
+        "zh_tw": "瑪契娜"
+      },
+      "context": {
+        "en_us": "The Ark's objective is to see both dragons\\nand any terrestrials affiliated with them\\nannihilated, thereby making the planet a\\nparadise for all humanoids once more.",
+        "ja_jp": "アークの<ruby><rb>目的</rb><rt>もくてき</rt></ruby>は、ドラゴンとそれに\\n<ruby><rb>与</rb><rt>くみ</rt></ruby>する<ruby><rb>地人</rb><rt>ちじん</rt></ruby>を<ruby><rb>殲滅</rb><rt>せんめつ</rt></ruby>し、<ruby><rb>再</rb><rt>ふたた</rt></ruby>び<ruby><rb>地上</rb><rt>ちじょう</rt></ruby>を\\n<ruby><rb>人類</rb><rt>じんるい</rt></ruby>の<ruby><rb>楽園</rb><rt>らくえん</rt></ruby>とすること。",
+        "zh_cn": "方舟的目的是歼灭龙\\n和与龙为伍的地人，\\n让大地再度成为人类的乐园。",
+        "zh_tw": "方舟的目的，\\n便是殲滅龍族與投靠龍族的地人，\\n好再次將地上變為人類的樂園。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0064",
+      "book": ""
+    },
+    {
+      "icon": "120218_01",
+      "name": {
+        "en_us": "Anassa",
+        "ja_jp": "マーキナー",
+        "zh_cn": "玛琪娜",
+        "zh_tw": "瑪契娜"
+      },
+      "context": {
+        "en_us": "Even if an Ark engineer manufactured\\nan android with an onboard mana kiln,\\nthere is no way said android would see\\nfit to protect the terrestrials.",
+        "ja_jp": "<ruby><rb>仮</rb><rt>かり</rt></ruby>に<ruby><rb>魔幻炉搭載型</rb><rt>まげんろとうさいがた</rt></ruby><ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>をアークの\\n<ruby><rb>技術者</rb><rt>ぎじゅつしゃ</rt></ruby>が<ruby><rb>製造</rb><rt>せいぞう</rt></ruby>したとしても、その<ruby><rb>人形</rb><rt>にんぎょう</rt></ruby>が\\n<ruby><rb>地人</rb><rt>ちじん</rt></ruby>を<ruby><rb>守</rb><rt>まも</rt></ruby>るはずがありません。",
+        "zh_cn": "就算搭载魔幻炉的战斗人偶\\n是方舟的技术人员所造，\\n那个人偶也不可能会保护地人。",
+        "zh_tw": "假設魔幻爐搭載型戰鬥人偶\\n是由方舟的技師所製造，\\n那具人偶也不可能會守護地人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0065",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "That's true, and yet...",
+        "ja_jp": "それは……その<ruby><rb>通</rb><rt>とお</rt></ruby>りですが……。",
+        "zh_cn": "话是这么说没错……",
+        "zh_tw": "這……是沒錯……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0066",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Anassa",
+        "ja_jp": "マーキナー",
+        "zh_cn": "玛琪娜",
+        "zh_tw": "瑪契娜"
+      },
+      "context": {
+        "en_us": "Your verbiage contains many vagaries;\\nI conject there is a bug in your thought\\nprocessing. Do you require maintenance?",
+        "ja_jp": "<ruby><rb>不明瞭</rb><rt>ふめいりょう</rt></ruby>な<ruby><rb>言葉</rb><rt>ことば</rt></ruby>が<ruby><rb>多</rb><rt>おお</rt></ruby>いですね。\\n<ruby><rb>思考</rb><rt>しこう</rt></ruby>にバグがあると<ruby><rb>推測</rb><rt>すいそく</rt></ruby>します。\\nメンテナンスが<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>ではありませんか。",
+        "zh_cn": "你有点言辞闪烁啊，\\n推测你的思考发生了故障，\\n是不是该送去维护了？",
+        "zh_tw": "使用了許多曖昧的詞彙呢。\\n推測思考中含有故障。\\n是否需要維護？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0067",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "My self-diagnostics are normal;\\nI deem maintenance unnecessary.",
+        "ja_jp": "いえ。<ruby><rb>自己診断</rb><rt>じこしんだん</rt></ruby>は<ruby><rb>正常</rb><rt>せいじょう</rt></ruby>に<ruby><rb>動</rb><rt>うご</rt></ruby>いています。\\nその<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>はないと<ruby><rb>判断</rb><rt>はんだん</rt></ruby>します。\\n<ruby><rb>動作</rb><rt>どうさ</rt></ruby>にも<ruby><rb>問題</rb><rt>もんだい</rt></ruby>はありません。",
+        "zh_cn": "不，自我检测还在正常运转。\\n判断不需要维护。\\n执行方面也并无障碍。",
+        "zh_tw": "不，自我診斷運轉正常。\\n判斷沒有那個必要。\\n動作上也沒有問題。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0068",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Anassa",
+        "ja_jp": "マーキナー",
+        "zh_cn": "玛琪娜",
+        "zh_tw": "瑪契娜"
+      },
+      "context": {
+        "en_us": "As there are no major changes to your\\noperating efficiency, I will entrust the\\nmatter to your judgment.",
+        "ja_jp": "<ruby><rb>確</rb><rt>たし</rt></ruby>かに<ruby><rb>稼働効率</rb><rt>かどうこうりつ</rt></ruby>に<ruby><rb>大</rb><rt>おお</rt></ruby>きな<ruby><rb>変動</rb><rt>へんどう</rt></ruby>は\\nないようです。<ruby><rb>個体名</rb><rt>こたいめい</rt></ruby>アイリーンの\\n<ruby><rb>判断</rb><rt>はんだん</rt></ruby>に<ruby><rb>任</rb><rt>まか</rt></ruby>せます。ですが――",
+        "zh_cn": "工作效率确实没有明显变化。\\n决断交给个体名艾琳。\\n不过……",
+        "zh_tw": "看來工作效率上確實沒有巨大變動。\\n交由個體名艾零進行判斷。\\n不過──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0069",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Anassa",
+        "ja_jp": "マーキナー",
+        "zh_cn": "玛琪娜",
+        "zh_tw": "瑪契娜"
+      },
+      "context": {
+        "en_us": "However, there IS a unit within the 901st\\nAndroid Corps whose operating efficiency\\nhas dropped significantly.",
+        "ja_jp": "901<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby><ruby><rb>隊</rb><rt>たい</rt></ruby>に、<ruby><rb>著</rb><rt>いちじる</rt></ruby>しく<ruby><rb>稼働効率</rb><rt>かどうこうりつ</rt></ruby>の\\n<ruby><rb>落</rb><rt>お</rt></ruby>ちる<ruby><rb>機体</rb><rt>きたい</rt></ruby>が<ruby><rb>存在</rb><rt>そんざい</rt></ruby>していますね。",
+        "zh_cn": "901战斗人偶队出现了\\n工作效率明显下降的机体呢。",
+        "zh_tw": "901戰鬥人偶隊當中，\\n有工作效率明顯低下的機體存在。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0070",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "……っ！",
+        "zh_cn": "！",
+        "zh_tw": "……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0071",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Anassa",
+        "ja_jp": "マーキナー",
+        "zh_cn": "玛琪娜",
+        "zh_tw": "瑪契娜"
+      },
+      "context": {
+        "en_us": "I have confirmed the unit designated Finni\\nrefused orders and then proceeded to\\nexhibit a loss of control.",
+        "ja_jp": "<ruby><rb>個体名</rb><rt>こたいめい</rt></ruby>フィニーは<ruby><rb>命令</rb><rt>めいれい</rt></ruby>を<ruby><rb>受</rb><rt>う</rt></ruby>けつけぬ<ruby><rb>上</rb><rt>うえ</rt></ruby>に\\n<ruby><rb>暴走</rb><rt>ぼうそう</rt></ruby>までしたことを<ruby><rb>確認</rb><rt>かくにん</rt></ruby>しています。",
+        "zh_cn": "我已确认个体名芬妮\\n非但不接受命令，\\n还在战斗中失控。",
+        "zh_tw": "確認到個體名菲霓不聽從命令之外，\\n還曾經陷入失控狀態。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0072",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Well...",
+        "ja_jp": "そ、それは……。",
+        "zh_cn": "那、那是因为……",
+        "zh_tw": "那、那是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0073",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Anassa",
+        "ja_jp": "マーキナー",
+        "zh_cn": "玛琪娜",
+        "zh_tw": "瑪契娜"
+      },
+      "context": {
+        "en_us": "Unit Finni is one of the rare androids\\nequipped with a heart, but said heart\\nseems to have been damaged.",
+        "ja_jp": "<ruby><rb>個体名</rb><rt>こたいめい</rt></ruby>フィニーは、<ruby><rb>貴重</rb><rt>きちょう</rt></ruby>な『<ruby><rb>心</rb><rt>こころ</rt></ruby>』を\\n<ruby><rb>搭載</rb><rt>とうさい</rt></ruby>した<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>ですが、<ruby><rb>肝心</rb><rt>かんじん</rt></ruby>の『<ruby><rb>心</rb><rt>こころ</rt></ruby>』\\nが<ruby><rb>破損</rb><rt>はそん</rt></ruby>しているようです。",
+        "zh_cn": "个体名芬妮虽然是搭载了\\n珍贵的“心”的战斗人偶，\\n可关键的“心”似乎发生了损坏。",
+        "zh_tw": "個體名菲霓是搭載了\\n貴重的「心」的戰鬥人偶，\\n但關鍵的「心」似乎有所破損。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0074",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Anassa",
+        "ja_jp": "マーキナー",
+        "zh_cn": "玛琪娜",
+        "zh_tw": "瑪契娜"
+      },
+      "context": {
+        "en_us": "Heart technology was lost over the past\\nthousand years, and not even Ex Machina\\ncan construct or repair them.",
+        "ja_jp": "『<ruby><rb>心</rb><rt>こころ</rt></ruby>』の<ruby><rb>技術</rb><rt>ぎじゅつ</rt></ruby>は1000<ruby><rb>年</rb><rt>ねん</rt></ruby>の<ruby><rb>間</rb><rt>あいだ</rt></ruby>に<ruby><rb>失</rb><rt>うしな</rt></ruby>われ\\nエクス・マキナでも、<ruby><rb>製造</rb><rt>せいぞう</rt></ruby>、<ruby><rb>修理</rb><rt>しゅうり</rt></ruby>を\\n<ruby><rb>行</rb><rt>おこな</rt></ruby>うことができません。",
+        "zh_cn": "“心”的技术已经在1000年间失传，\\n即使是机械神兵，\\n也无法进行制造或修理。",
+        "zh_tw": "「心」的技術已失傳了1000年，\\n即使是艾克斯‧馬奇那，\\n也無法進行製造、修理。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0075",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Anassa",
+        "ja_jp": "マーキナー",
+        "zh_cn": "玛琪娜",
+        "zh_tw": "瑪契娜"
+      },
+      "context": {
+        "en_us": "Even under optimal circumstances, the\\nheart is a double-edged sword which can\\ncause unstable behavior; it is dangerous to\\nleave a damaged one installed in a unit.",
+        "ja_jp": "ただでさえ『<ruby><rb>心</rb><rt>こころ</rt></ruby>』は、<ruby><rb>挙動</rb><rt>きょどう</rt></ruby>を<ruby><rb>不安定</rb><rt>ふあんてい</rt></ruby>に\\nする<ruby><rb>諸刃</rb><rt>もろは</rt></ruby>の<ruby><rb>剣</rb><rt>つるぎ</rt></ruby>。<ruby><rb>破損</rb><rt>はそん</rt></ruby>した『<ruby><rb>心</rb><rt>こころ</rt></ruby>』を<ruby><rb>搭載</rb><rt>とうさい</rt></ruby>\\nしたままにするのは<ruby><rb>危険</rb><rt>きけん</rt></ruby>です。",
+        "zh_cn": "“心”本来就是可能导致不稳定\\n行为的双刃剑，让她继续搭载\\n损坏的“心”太危险了。",
+        "zh_tw": "「心」本身就是會造成\\n言行不穩定的雙面刃。\\n繼續搭載已破損的「心」十分危險。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0076",
+      "book": ""
+    },
+    {
+      "icon": "120218_01",
+      "name": {
+        "en_us": "Anassa",
+        "ja_jp": "マーキナー",
+        "zh_cn": "玛琪娜",
+        "zh_tw": "瑪契娜"
+      },
+      "context": {
+        "en_us": "I have determined her to be unnecessary\\nto Ex Machina, and propose her disposal.",
+        "ja_jp": "エクス・マキナには<ruby><rb>不要</rb><rt>ふよう</rt></ruby>と\\n<ruby><rb>判断</rb><rt>はんだん</rt></ruby>しました。<ruby><rb>個体名</rb><rt>こたいめい</rt></ruby>フィニーの\\n<ruby><rb>廃棄</rb><rt>はいき</rt></ruby>を<ruby><rb>提案</rb><rt>ていあん</rt></ruby>します。",
+        "zh_cn": "我判断机械神兵\\n已不需要个体名芬妮，\\n建议报废。",
+        "zh_tw": "判斷為對艾克斯‧馬奇那無用的個體。\\n提議將個體名菲霓廢棄。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0077",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "Wait! Yes, it is true that her operating\\nefficiency has dropped, but Finni's\\ncapabilities far surpass ordinary units.",
+        "ja_jp": "ま、<ruby><rb>待</rb><rt>ま</rt></ruby>ってください！　<ruby><rb>確</rb><rt>たし</rt></ruby>かに\\n<ruby><rb>稼働効率</rb><rt>かどうこうりつ</rt></ruby>は<ruby><rb>落</rb><rt>お</rt></ruby>ちていますが、フィニーの\\n<ruby><rb>性能</rb><rt>せいのう</rt></ruby>は<ruby><rb>一般機</rb><rt>いっぱんき</rt></ruby>を<ruby><rb>遥</rb><rt>はる</rt></ruby>かに<ruby><rb>凌駕</rb><rt>りょうが</rt></ruby>しています。",
+        "zh_cn": "请、请等一下！芬妮的工作效率\\n确实有所下降，但是她的性能\\n远远凌驾于一般机体之上。",
+        "zh_tw": "請、請等一下！\\n菲霓的工作效率確實有些下降，\\n但她的性能仍遠遠凌駕一般機。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0078",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "If we hope to stand against powerful units\\nlike the android with the mana kiln,\\nFinni's capabilities will be critical.",
+        "ja_jp": "<ruby><rb>特</rb><rt>とく</rt></ruby>に、<ruby><rb>魔幻炉搭載型</rb><rt>まげんろとうさいがた</rt></ruby>の<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>のような\\n<ruby><rb>強力</rb><rt>きょうりょく</rt></ruby>な<ruby><rb>個体</rb><rt>こたい</rt></ruby>と<ruby><rb>戦</rb><rt>たたか</rt></ruby>う<ruby><rb>際</rb><rt>さい</rt></ruby>には、フィニーの\\n<ruby><rb>能力</rb><rt>のうりょく</rt></ruby>は<ruby><rb>重要</rb><rt>じゅうよう</rt></ruby>です。",
+        "zh_cn": "尤其是和搭载魔幻炉的战斗人偶\\n这种强劲的机体作战时，\\n芬妮的力量至关重要。",
+        "zh_tw": "尤其在與魔幻爐搭載型戰鬥人偶\\n這般強力個體戰鬥時，\\n菲霓的能力很重要。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0079",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "I implore you to reconsider.",
+        "ja_jp": "どうか、<ruby><rb>再考</rb><rt>さいこう</rt></ruby>をお<ruby><rb>願</rb><rt>ねが</rt></ruby>いします。",
+        "zh_cn": "请三思。",
+        "zh_tw": "請務必重新考慮。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0080",
+      "book": ""
+    },
+    {
+      "icon": "120218_01",
+      "name": {
+        "en_us": "Anassa",
+        "ja_jp": "マーキナー",
+        "zh_cn": "玛琪娜",
+        "zh_tw": "瑪契娜"
+      },
+      "context": {
+        "en_us": "Very well. I will defer final judgment.",
+        "ja_jp": "……よいでしょう。<ruby><rb>判断</rb><rt>はんだん</rt></ruby>を<ruby><rb>保留</rb><rt>ほりゅう</rt></ruby>します。",
+        "zh_cn": "好吧……我暂且不做决断。",
+        "zh_tw": "……好吧。保留判斷。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0081",
+      "book": ""
+    },
+    {
+      "icon": "120218_01",
+      "name": {
+        "en_us": "Anassa",
+        "ja_jp": "マーキナー",
+        "zh_cn": "玛琪娜",
+        "zh_tw": "瑪契娜"
+      },
+      "context": {
+        "en_us": "If she can defeat the android equipped\\nwith the mana kiln, I will revise my\\nperception that the unit Finni is no longer\\nof use to Ex Machina.",
+        "ja_jp": "<ruby><rb>魔幻炉搭載型</rb><rt>まげんろとうさいがた</rt></ruby><ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>を<ruby><rb>撃破</rb><rt>げきは</rt></ruby>すれば、\\n<ruby><rb>個体名</rb><rt>こたいめい</rt></ruby>フィニーはエクス・マキナに\\n<ruby><rb>有用</rb><rt>ゆうよう</rt></ruby>であると<ruby><rb>認識</rb><rt>にんしき</rt></ruby>を<ruby><rb>改</rb><rt>あらた</rt></ruby>めます。",
+        "zh_cn": "要是她能击毁搭载魔幻炉的\\n战斗人偶，我就重新判定她\\n是对机械神兵有用的机体。",
+        "zh_tw": "只要擊毀魔幻爐搭載型戰鬥人偶，\\n就重新判斷個體名菲霓\\n為對艾克斯‧馬奇那有用的個體。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0082",
+      "book": ""
+    },
+    {
+      "icon": "120218_01",
+      "name": {
+        "en_us": "Anassa",
+        "ja_jp": "マーキナー",
+        "zh_cn": "玛琪娜",
+        "zh_tw": "瑪契娜"
+      },
+      "context": {
+        "en_us": "However, this deferment is temporary.\\nWhen the time comes, I expect you to\\nmake the correct decision.",
+        "ja_jp": "ですが、<ruby><rb>猶予</rb><rt>ゆうよ</rt></ruby>は<ruby><rb>長</rb><rt>なが</rt></ruby>くはありませんよ。\\nその<ruby><rb>時</rb><rt>とき</rt></ruby>が<ruby><rb>来</rb><rt>き</rt></ruby>たら、<ruby><rb>判断</rb><rt>はんだん</rt></ruby>を<ruby><rb>誤</rb><rt>あやま</rt></ruby>ることのない\\nよう<ruby><rb>期待</rb><rt>きたい</rt></ruby>します。",
+        "zh_cn": "但是，给她的缓期不会太长。\\n届时希望你能做出正确的判断。",
+        "zh_tw": "不過，延緩期間並不長。\\n當時候到來，\\n期待個體名艾零的判斷不會有誤。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0083",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "I understand.",
+        "ja_jp": "はい……。",
+        "zh_cn": "是……",
+        "zh_tw": "是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0084",
+      "book": ""
+    },
+    {
+      "icon": "110384_01",
+      "name": {
+        "en_us": "Eirene",
+        "ja_jp": "アイリーン",
+        "zh_cn": "艾琳",
+        "zh_tw": "艾零"
+      },
+      "context": {
+        "en_us": "(I can't let Finni be deactivated.\\nI will do anything to stop it!)",
+        "ja_jp": "（フィニーを<ruby><rb>廃棄</rb><rt>はいき</rt></ruby>なんてさせない……！\\n　そのためには――）",
+        "zh_cn": "（我不会让芬妮报废的……\\n为此……）",
+        "zh_tw": "（我不會讓菲霓被廢棄的……！\\n為了這個目的──）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22210_02_0085",
+      "book": ""
+    }
+  ]
 }

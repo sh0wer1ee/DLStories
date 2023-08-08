@@ -1,31 +1,60 @@
 {
-    "story_id": "",
-    "story_name": "情人节·甜美佳肴 追加剧情 纳杰夫",
-    "story_icon": "",
-    "outline": {
-        "title": "",
-        "content": [
-            "要跳过此剧情吗？"
-        ]
+  "title": {
+    "en_us": "Valentine's Confections Extra    Naveed",
+    "ja_jp": "バレンタイン・アラカルト エクストラ  ナジャーフ",
+    "zh_cn": "情人节·甜美佳肴 追加剧情  纳杰夫",
+    "zh_tw": "情人節‧精巧甜品　追加劇情  納杰夫"
+  },
+  "outline": {
+    "title": {
+      "en_us": "",
+      "ja_jp": "",
+      "zh_cn": "",
+      "zh_tw": ""
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110266_01"
-            ],
-            "speaker_name": "纳杰夫",
-            "context": "这就是……爱的形状吧。\\n谢谢你，我很高兴。",
-            "voice_line": "VO_CHR_EVENTSTORY_21304_01_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110266_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "收到了来自纳杰夫的回礼。",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Skip this scene?",
+      "ja_jp": "このストーリーをスキップしますか？",
+      "zh_cn": "要跳过此剧情吗？",
+      "zh_tw": "請確認是否略過劇情？"
+    }
+  },
+  "prev": "2130452",
+  "next": "2130454",
+  "content": [
+    {
+      "icon": "110266_01",
+      "name": {
+        "en_us": "Naveed",
+        "ja_jp": "ナジャーフ",
+        "zh_cn": "纳杰夫",
+        "zh_tw": "納杰夫"
+      },
+      "context": {
+        "en_us": "This...is a form of love?\\nThank you—I'm most delighted\\nto receive it.",
+        "ja_jp": "これは……<ruby><rb>愛</rb><rt>あい</rt></ruby>の<ruby><rb>形</rb><rt>かたち</rt></ruby>、ということかな。\\nありがとう、とても<ruby><rb>嬉</rb><rt>うれ</rt></ruby>しいよ。",
+        "zh_cn": "这就是……爱的形状吧。\\n谢谢你，我很高兴。",
+        "zh_tw": "這就是……愛的形式吧。\\n謝謝你，我非常高興喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21304_01_0013",
+      "book": ""
+    },
+    {
+      "icon": "110266_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "You received a thank-you gift from Naveed.",
+        "ja_jp": "ナジャーフからプレゼントのお<ruby><rb>礼</rb><rt>れい</rt></ruby>をもらった。",
+        "zh_cn": "收到了来自纳杰夫的回礼。",
+        "zh_tw": "收到了來自納杰夫的回禮。"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

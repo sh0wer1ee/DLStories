@@ -1,1020 +1,1938 @@
 {
-    "story_id": "",
-    "story_name": "艾缪尔宅邸潜入计划 宅邸惊魂！？",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "三人来到艾缪尔的房间进行调查。\\n然而通向地下的暗道中却涌出了大量幽灵。\\n一行打算用佣人秘技驱散恶灵\\n强行冲入地下室，\\n却被举止怪异的总管家拦住了去路。"
-        ]
+  "title": {
+    "en_us": "Operation: At Your Service    Panic in the Mansion",
+    "ja_jp": "潜入！エミュールハウス  混乱、お屋敷大パニック!?",
+    "zh_cn": "艾缪尔宅邸潜入计划  宅邸惊魂！？",
+    "zh_tw": "潛入！埃米爾豪宅  混亂，豪宅大恐慌！？"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [],
-            "speaker_name": "SYS",
-            "context": "之前的剧情概要！\\n三人突破佣人选拔赛的重重难关\\n并顺利被录用。\\n接到了打扫艾缪尔房间的任务，\\n调查的机会终于来了！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [],
-            "speaker_name": "SYS",
-            "context": "艾缪尔的房间内到底隐藏着什么？\\n艾缪尔又为何行为异常？\\n三人揣着紧张的心踏入现场！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "好紧张……\\n终于走到这一步了。\\n这就是艾缪尔的房间……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "先把他叫醒并帮忙更衣，\\n再把他带去食堂就行了吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "之后就可以自由地\\n调查这间屋子了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "是的。打扰了……\\n咦？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "艾缪尔……不在？\\n既不在书桌前，\\n也不在被子里，哪里都找不到人。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "咦？可今早也没听说\\n他出过这个房间啊……\\n会不会是掉床底下了？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "床下没有……\\n顺带看了罐子里面也没有。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "没有人类能钻进那么小的\\n罐子里……\\n不过看样子他是真的不在啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "不过，这样倒也正好。\\n我们就按计划行事，\\n调查这个房间吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "也对。\\n我去那边的书架看看……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "唔，书架好乱……\\n到处都是书，已经堆成山了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "完全没有下脚的地方，\\n总之先把书归位吧。嘿咻……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "咦？\\n刚才好像有什么奇怪的声音。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "这——诶诶诶诶诶！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "书、书架动了！\\n为、为什么会突然……呀！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "皮雅茜大人？您怎么了——\\n这、这是！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "书架后面竟然出现了通往地下的\\n楼梯……您是怎么找到这个的？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "我也不知道，\\n我收拾书的时候听到了\\n咔嚓一声奇怪的声响……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "可能是正好碰到了隐藏的开关吧。\\n不过皮雅茜大人，\\n您这可真是大功一件。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "艾缪尔大人消失的房间里\\n出现了神秘的地下室。\\n这不就等于说他就在这里面吗。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "身为……者……之首。\\n失之……江山……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "哎呀……地下传来了念咒语似的声音。\\n是艾缪尔大人吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "志当……明君……\\n当……荣光……\\n切勿……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "嗯，这的确是他的声音……\\n他到底在念什么……唔！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "诶？佐迪亚克，\\n你怎么了？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "糟糕。不知是不是那咒语的作用，\\n暗之魔力开始从下面涌出来了……\\n大家快逃！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜&爱德华",
-            "context": "诶！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120133_01"
-            ],
-            "speaker_name": "幽灵",
-            "context": "啊哈哈哈哈哈！朋友！\\n能一起开派对的新朋友～\\n有三个呢～",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "呀啊啊啊！幽、幽灵啊！\\n好多幽灵啊～",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120133_01"
-            ],
-            "speaker_name": "幽灵",
-            "context": "好朋友♪好朋友♪\\n强大的♪好朋友♪\\n一起来开派对吧♪",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "皮雅茜大人！\\n难道这些幽灵的目的是……\\n把我们卷入那黑暗之中！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "我不会让这些家伙得逞的。\\n以我暗龙之力——哈！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120133_01"
-            ],
-            "speaker_name": "幽灵",
-            "context": "呀！好疼啊好疼啊！\\n朋友你好吓人！\\n朋友你好粗暴！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "得、得救了……\\n这屏障好厉害。\\n这下暂且可以安心了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120133_01"
-            ],
-            "speaker_name": "幽灵",
-            "context": "好气啊！我想要朋友！\\n来人啊！帮我抓朋友！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "诶诶！？\\n屏障外面又多了好多……\\n已经挤满了幽灵啊！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120133_01"
-            ],
-            "speaker_name": "幽灵",
-            "context": "全体集合！\\n切换派对会场！\\n向大房间转移！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "向大房间……转移？\\n难道说……\\n喂！你们听见了吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "听见什么！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "准备应对冲击！\\n这些家伙——\\n打算把我们传送走！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05",
-                "110049_01"
-            ],
-            "speaker_name": "皮雅茜&爱德华",
-            "context": "诶！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "呀啊！唔……这、这里是？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "是前厅。\\n看来我们真的被传送到了这里。\\n而且……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120133_01"
-            ],
-            "speaker_name": "幽灵",
-            "context": "朋友！有朋友！\\n派对要开始了！\\n啊哈哈哈！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "地下室的那些幽灵\\n好像已经分散到整个宅邸中了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "啊，到处都是幽灵。\\n没想到宅邸地下竟然会\\n藏有这么多幽灵。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "是啊。\\n没想到真的有不祥的东西在作祟……\\n我们担心的最糟糕的事情成了现实。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "艾缪尔大人刚才有念可疑的咒语，\\n看来这些幽灵明显\\n与他有着一定的关系。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "是幽灵的力量导致他神志不清了吗？\\n还是说他自己招来了幽灵……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "无论如何，\\n为了查清真相，\\n我们必须再去一趟那个地下室……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "好的！\\n我们得打起精神加油了呢！\\n可是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120133_01"
-            ],
-            "speaker_name": "幽灵们",
-            "context": "啊哈哈哈哈！啊哈哈哈哈哈！\\n啊哈哈哈哈哈哈！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "通向艾缪尔房间的路上\\n全都是幽灵啊！\\n怎、怎么办……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "幽灵没有实体……\\n想要彻底消灭它们应该很难……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "呜呜，\\n我也不知道要怎样才能和幽灵打，\\n这可怎么办才好呀。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "不用担心。\\n我们可是佣人。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "诶？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "二位难道忘了\\n那中级的“佣人秘技”吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "你是说……\\n那个奇怪的咒语？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "没错，现在正是使用\\n“爱心满满☆萌萌光波♪”之时！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "诶！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "噢……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "你是认真的？\\n那个招式真能帮我们摆脱这困境？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "当然，这招可是\\n为了保护主人不受恶灵侵扰\\n而被创造出来的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "我先来示范一下，\\n请二位也跟着我做。\\n那我开始了——",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "爱心满满☆萌萌光波♪",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120133_01"
-            ],
-            "speaker_name": "幽灵们",
-            "context": "呀啊啊啊啊啊啊！\\n好耀眼！\\n要被净化啦啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "没想到……\\n这招真的有效。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "我不是说过很多遍了吗？\\n来吧，请二位也跟着重复吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "诶，那、那个……\\n爱心满满……萌、萌萌光波？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120133_01"
-            ],
-            "speaker_name": "幽灵",
-            "context": "完全没事！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "看来您还有所犹豫啊……\\n那就请佐迪亚克大人来试试吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "只要有效果，\\n当然没什么可犹豫的。\\n爱心满满！萌萌光波！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120133_01"
-            ],
-            "speaker_name": "幽灵",
-            "context": "呀哈哈哈哈哈♪\\n真吓人呀！真好玩呀！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "不能像那样表现出明显的敌意。\\n这招最关键的就是……\\n要饱含对主人的“爱”。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "这是有“爱”才能使用的\\n佣人秘技。明白了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "有“爱”才能使用……\\n唔……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120133_01"
-            ],
-            "speaker_name": "幽灵",
-            "context": "啊哈哈哈♪啊哈哈哈♪\\n没用的！没用的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "呀啊，这么一会儿时间，\\n幽灵就又变多了！\\n这样下去要不行啦～",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "皮雅茜，\\n现在还不用如此悲观。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "佐迪亚克？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "回想一下，\\n我们为什么要过关斩将\\n参加选拔到这里来？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "一切，不正是因为拥有一颗\\n想要拯救艾缪尔的“真心”吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "这虽然不是身为佣人的忠心。\\n但我们对他的心意……\\n与“爱”无异。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "爱……心意……没错。\\n我知道那个夸我歌声的哥哥\\n其实心地很善良。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "所以我想要救他。\\n这就是……“爱”吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "嗯……与亚罗拉斯融为一体的我，\\n如今心中\\n也满是为孩子担忧的父爱……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0089",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "所以我们一定能够掌握\\n爱德华所说的“秘技”。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0090",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "来吧，皮雅茜。\\n如今正是展现我们“爱”的时刻！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0091",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "好！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0092",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "爱心满满——萌萌光波♪",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0093",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "爱心满满☆萌萌光波♪",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0094",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "幽灵",
-            "context": "哇啊啊啊啊！？\\n好强大的萌萌波动！\\n这难道……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0095",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "幽灵",
-            "context": "这难道就是萌的究极境界……\\n啊我死了……永别了☆",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0096",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "我们……成功了吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0097",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "干得漂亮。\\n二位对艾缪尔大人的“爱”\\n果然不容小觑。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0098",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "呵呵……\\n二位已经称得上是\\n能独当一面的佣人了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0099",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "爱德华，让你费心了……\\n这下我也成为了萌萌管家……\\n可以无限发射萌萌光波了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0100",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "我们前进吧，\\n一起去救艾缪尔！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0101",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "诶……能不能独当一面\\n是要看会不会萌萌光波的吗？\\n唔，好深奥啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0102",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "呼……终于回来了。\\n不过屋里好像已经没有幽灵了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0103",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "那正好。\\n我们赶快去地下室深处看看吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0104",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "我不会让你们如愿的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0105",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "你、你是……总管家？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0106",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "前方禁止通行。\\n艾缪尔大人如今在蜕变重生，\\n我不会让你们捣乱的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0107",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "果然要来阻拦我们吗。\\n好吧，我们接受您的挑战……\\n什么！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0108",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "消灭你们。为了那位大人的夙愿，\\n我必须消灭你们。没错……\\n就算是朋友……也别想给派对捣乱！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0109",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "唔，这家伙不对劲。\\n大家做好准备……他要来了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0110",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "永远和我一起开心地参加派对吧！\\n哇啊啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_04_0111",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "When the trio goes to investigate Emile's\\nquarters, a gaggle of ghosts emerge from a\\nhidden staircase leading to the basement,\\nthrowing everyone into a panic. As they try\\nusing a servants' technique to force their way\\nthrough, the head butler suddenly stops them.",
+      "ja_jp": "エミュールの<ruby><rb>私室</rb><rt>ししつ</rt></ruby>へ<ruby><rb>調査</rb><rt>ちょうさ</rt></ruby>に<ruby><rb>来</rb><rt>き</rt></ruby>た3<ruby><rb>人</rb><rt>にん</rt></ruby>。しかし\\n<ruby><rb>地下</rb><rt>ちか</rt></ruby>へ<ruby><rb>続</rb><rt>つづ</rt></ruby>く<ruby><rb>隠</rb><rt>かく</rt></ruby>し<ruby><rb>階段</rb><rt>かいだん</rt></ruby>から<ruby><rb>大量</rb><rt>たいりょう</rt></ruby>のオバケが<ruby><rb>現</rb><rt>あらわ</rt></ruby>れ\\n<ruby><rb>大</rb><rt>だい</rt></ruby>パニックに。<ruby><rb>一行</rb><rt>いっこう</rt></ruby>は<ruby><rb>悪霊退散</rb><rt>あくりょうたいさん</rt></ruby>の<ruby><rb>使用人秘技</rb><rt>しようにんひぎ</rt></ruby>\\nを<ruby><rb>使</rb><rt>つか</rt></ruby>って<ruby><rb>地下室</rb><rt>ちかしつ</rt></ruby>までの<ruby><rb>強行突破</rb><rt>きょうこうとっぱ</rt></ruby>を<ruby><rb>目指</rb><rt>めざ</rt></ruby>すが、\\n<ruby><rb>様子</rb><rt>ようす</rt></ruby>のおかしい<ruby><rb>執事長</rb><rt>しつじちょう</rt></ruby>が<ruby><rb>現</rb><rt>あらわ</rt></ruby>れ<ruby><rb>行</rb><rt>ゆ</rt></ruby>く<ruby><rb>手</rb><rt>て</rt></ruby>を<ruby><rb>阻</rb><rt>はば</rt></ruby>む。",
+      "zh_cn": "三人来到艾缪尔的房间进行调查。\\n然而通向地下的暗道中却涌出了大量幽灵。\\n一行打算用佣人秘技驱散恶灵\\n强行冲入地下室，\\n却被举止怪异的总管家拦住了去路。",
+      "zh_tw": "琵雅雀一行開始調查埃米爾的房間，\\n卻因通往地下室的階梯湧出大量幽靈\\n而陷入混亂。他們雖試圖利用驅逐惡靈的\\n僕人秘技強行突破困境前往地下室，\\n此時卻遭到行為異常的執事長阻擋。"
+    }
+  },
+  "prev": "2290503",
+  "next": "2290505",
+  "content": [
+    {
+      "icon": "",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Despite many ups and downs, our intrepid heroes\\npassed the servant audition and were hired on at\\nEmile's manor. Now tasked with cleaning his\\npersonal quarters, their chance to launch a true\\ninvestigation has finally arrived.",
+        "ja_jp": "<ruby><rb>前回</rb><rt>ぜんかい</rt></ruby>までのあらすじ！\\n<ruby><rb>波乱含</rb><rt>はらんぶく</rt></ruby>みの<ruby><rb>使用人</rb><rt>しようにん</rt></ruby><ruby><rb>選抜</rb><rt>せんばつ</rt></ruby>オーディションを\\n<ruby><rb>突破</rb><rt>とっぱ</rt></ruby>し、<ruby><rb>無事</rb><rt>ぶじ</rt></ruby><ruby><rb>採用</rb><rt>さいよう</rt></ruby>された3<ruby><rb>人</rb><rt>にん</rt></ruby>。\\nエミュールの<ruby><rb>私室</rb><rt>ししつ</rt></ruby><ruby><rb>清掃</rb><rt>せいそう</rt></ruby>を<ruby><rb>任</rb><rt>まか</rt></ruby>され、\\nついに<ruby><rb>調査</rb><rt>ちょうさ</rt></ruby>チャンス<ruby><rb>到来</rb><rt>とうらい</rt></ruby>！",
+        "zh_cn": "之前的剧情概要！\\n三人突破佣人选拔赛的重重难关\\n并顺利被录用。\\n接到了打扫艾缪尔房间的任务，\\n调查的机会终于来了！",
+        "zh_tw": "前情提要！\\n三位總算通過一波三折的僕人選拔，\\n順利被宅邸錄用。\\n他們被指派負責打掃埃米爾的房間，\\n著手調查的好機會終於來了！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "What lies hidden in Emile's private sanctum?\\nWhat could be the reason for his odd behavior?\\nTension abounds as our triumphant trio rushes\\nonto the scene!",
+        "ja_jp": "<ruby><rb>私室</rb><rt>ししつ</rt></ruby>には<ruby><rb>何</rb><rt>なに</rt></ruby>が<ruby><rb>隠</rb><rt>かく</rt></ruby>されているのか？\\nエミュールの<ruby><rb>異変</rb><rt>いへん</rt></ruby>の<ruby><rb>理由</rb><rt>りゆう</rt></ruby>とは？\\n3<ruby><rb>人</rb><rt>にん</rt></ruby>は<ruby><rb>緊張</rb><rt>きんちょう</rt></ruby>と<ruby><rb>共</rb><rt>とも</rt></ruby>に、<ruby><rb>現場</rb><rt>げんば</rt></ruby>へ<ruby><rb>突入</rb><rt>とつにゅう</rt></ruby>す――！",
+        "zh_cn": "艾缪尔的房间内到底隐藏着什么？\\n艾缪尔又为何行为异常？\\n三人揣着紧张的心踏入现场！",
+        "zh_tw": "房裡究竟藏著什麼？\\n埃米爾又為何發生異變？\\n他們懷著緊張的情緒，直擊現場──！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "We finally made it to Emile's room!\\nOooh, my heart is racing...",
+        "ja_jp": "どきどき……と、とうとう<ruby><rb>来</rb><rt>き</rt></ruby>ましたっ。\\nエミュールさんのお<ruby><rb>部屋</rb><rt>へや</rt></ruby>……！　",
+        "zh_cn": "好紧张……\\n终于走到这一步了。\\n这就是艾缪尔的房间……",
+        "zh_tw": "好緊張……終、終於到了。\\n這裡就是埃米爾先生的房間……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0003",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "We must wake him, assist him in dressing,\\nand send him to the dining room.",
+        "ja_jp": "まず<ruby><rb>起</rb><rt>お</rt></ruby>こしてやって、<ruby><rb>着替</rb><rt>きが</rt></ruby>えを<ruby><rb>手伝</rb><rt>てつだ</rt></ruby>い、\\n<ruby><rb>食堂</rb><rt>しょくどう</rt></ruby>へ<ruby><rb>送</rb><rt>おく</rt></ruby>り<ruby><rb>出</rb><rt>だ</rt></ruby>せばよいのだな。",
+        "zh_cn": "先把他叫醒并帮忙更衣，\\n再把他带去食堂就行了吧。",
+        "zh_tw": "先將其喚醒，協助更衣，\\n並送他到餐廳即可對吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0004",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Once that is complete, we can search\\nthis room for clues.",
+        "ja_jp": "さすれば、その<ruby><rb>後</rb><rt>のち</rt></ruby>は<ruby><rb>自由</rb><rt>じゆう</rt></ruby>にこの<ruby><rb>部屋</rb><rt>へや</rt></ruby>の\\n<ruby><rb>調査</rb><rt>ちょうさ</rt></ruby>ができるはずだ。",
+        "zh_cn": "之后就可以自由地\\n调查这间屋子了。",
+        "zh_tw": "如此一來，\\n之後便能隨意調查這間房。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0005",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Right! Excuse us, Emperor, but... Huh?",
+        "ja_jp": "はいっ。おじゃましまーす……\\nあれっ？",
+        "zh_cn": "是的。打扰了……\\n咦？",
+        "zh_tw": "是。抱歉打擾了～……咦？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0006",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "He's not at his desk, and he's not in bed.\\nHe's not...anywhere.",
+        "ja_jp": "エミュールさん、いない……です？\\n<ruby><rb>机</rb><rt>つくえ</rt></ruby>にも、おふとんにも、どこにも。",
+        "zh_cn": "艾缪尔……不在？\\n既不在书桌前，\\n也不在被子里，哪里都找不到人。",
+        "zh_tw": "埃米爾先生、不在……嗎？\\n書桌、床上、都沒看見呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0007",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Yet I don't believe he was seen exiting\\nthe room this morning. Perhaps he has\\nfallen to the side of the bed?",
+        "ja_jp": "おや？　<ruby><rb>今朝</rb><rt>けさ</rt></ruby>はまだ、<ruby><rb>氏</rb><rt>し</rt></ruby>がこの<ruby><rb>部屋</rb><rt>へや</rt></ruby>から\\n<ruby><rb>出</rb><rt>で</rt></ruby>たという<ruby><rb>話</rb><rt>はなし</rt></ruby>は<ruby><rb>聞</rb><rt>き</rt></ruby>いていませんが……。\\nベッドの<ruby><rb>脇</rb><rt>わき</rt></ruby>にでも<ruby><rb>落</rb><rt>お</rt></ruby>ちたのでは？",
+        "zh_cn": "咦？可今早也没听说\\n他出过这个房间啊……\\n会不会是掉床底下了？",
+        "zh_tw": "哎呀？我今早還沒聽說\\n他已經離開房間了啊……\\n會不會滾到床下了？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0008",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Nope! Not there either!\\n...Also not in this chamber pot.",
+        "ja_jp": "……ベッドの<ruby><rb>脇</rb><rt>わき</rt></ruby>にも、ついでに\\nツボの<ruby><rb>中</rb><rt>なか</rt></ruby>にもおらぬな。",
+        "zh_cn": "床下没有……\\n顺带看了罐子里面也没有。",
+        "zh_tw": "……無論是床下，\\n還是壺裡都沒有呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0009",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Don't be daft! No one could fit into such\\na small pot.",
+        "ja_jp": "そんな<ruby><rb>小</rb><rt>ちい</rt></ruby>さなツボの<ruby><rb>中</rb><rt>なか</rt></ruby>に<ruby><rb>入</rb><rt>はい</rt></ruby>れる\\n<ruby><rb>人間</rb><rt>にんげん</rt></ruby>はいません。……しかしこの\\n<ruby><rb>様子</rb><rt>ようす</rt></ruby>では<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>不在</rb><rt>ふざい</rt></ruby>のようですね。",
+        "zh_cn": "没有人类能钻进那么小的\\n罐子里……\\n不过看样子他是真的不在啊。",
+        "zh_tw": "沒有人類進得去那麼小的壺。\\n……但這麼看來，\\n他似乎真的不在房裡呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0010",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Still, perhaps this is a boon; we can\\nnow proceed with our investigation\\neven earlier than we'd hoped.",
+        "ja_jp": "まあ、それならそれで<ruby><rb>好都合</rb><rt>こうつごう</rt></ruby>。\\n<ruby><rb>予定通</rb><rt>よていどお</rt></ruby>り、<ruby><rb>私室</rb><rt>ししつ</rt></ruby>の<ruby><rb>調査</rb><rt>ちょうさ</rt></ruby>を<ruby><rb>進</rb><rt>すす</rt></ruby>めて\\nしまいましょう。",
+        "zh_cn": "不过，这样倒也正好。\\n我们就按计划行事，\\n调查这个房间吧。",
+        "zh_tw": "也好，這樣更方便我們做事。\\n按照預定，開始調查房間吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0011",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Okay! I'm gonna check the bookshelf!",
+        "ja_jp": "そうですねっ。わたし、あっちの\\n<ruby><rb>本棚</rb><rt>ほんだな</rt></ruby>をさがしてみます……！",
+        "zh_cn": "也对。\\n我去那边的书架看看……",
+        "zh_tw": "說得也對。\\n那我、去調查那邊的書櫃……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0012",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Well, this is a huge mess. All these books\\nhave overflowed onto the floor.",
+        "ja_jp": "んん、<ruby><rb>本棚</rb><rt>ほんだな</rt></ruby>、ぐちゃぐちゃ……。\\nご<ruby><rb>本</rb><rt>ほん</rt></ruby>があふれて、お<ruby><rb>山</rb><rt>やま</rt></ruby>になってる。",
+        "zh_cn": "唔，书架好乱……\\n到处都是书，已经堆成山了。",
+        "zh_tw": "嗯嗯，書櫃、亂七八糟……\\n到處都是書、堆得像山一樣。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0013",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "I'd better start by putting them back.\\nThere...and there...and theeeere...",
+        "ja_jp": "<ruby><rb>床</rb><rt>ゆか</rt></ruby>がみえないし、とりあえず<ruby><rb>棚</rb><rt>たな</rt></ruby>に\\nもどしちゃお。よいしょ、っと……",
+        "zh_cn": "完全没有下脚的地方，\\n总之先把书归位吧。嘿咻……",
+        "zh_tw": "都看不到地板了，\\n總之先把書放回書櫃吧。\\n嘿、咻……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0014",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Huh? Hey, I heard a strange noise.",
+        "ja_jp": "……あれっ？　\\n<ruby><rb>今</rb><rt>いま</rt></ruby>、なにかへんな<ruby><rb>音</rb><rt>おと</rt></ruby>がしたような。",
+        "zh_cn": "咦？\\n刚才好像有什么奇怪的声音。",
+        "zh_tw": "……咦？\\n剛才、似乎有什麼奇怪的聲音。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0015",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "EEEEEEK!",
+        "ja_jp": "って――ふえぇえええっ!?",
+        "zh_cn": "这——诶诶诶诶诶！？",
+        "zh_tw": "呃──咦咦咦咦咦咦！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0016",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "The bookshelf is moving!",
+        "ja_jp": "ほ、<ruby><rb>本棚</rb><rt>ほんだな</rt></ruby>がうごいてますっ！\\nな、なんできゅうに……きゃあっ！",
+        "zh_cn": "书、书架动了！\\n为、为什么会突然……呀！",
+        "zh_tw": "書、書櫃動了！\\n為、為什麼突然……呀啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0017",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "What's wrong, Pia? ...Oh, I say!",
+        "ja_jp": "ピアチェ<ruby><rb>様</rb><rt>さま</rt></ruby>!?　どうしたのですか――\\nッ！　こ、これは……!?",
+        "zh_cn": "皮雅茜大人？您怎么了——\\n这、这是！？",
+        "zh_tw": "琵雅雀大人！？怎麼了──唔！\\n這、這是……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0018",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "A hidden stairwell behind the bookshelf,\\nis it? By what means did you uncover this?",
+        "ja_jp": "<ruby><rb>本棚</rb><rt>ほんだな</rt></ruby>の<ruby><rb>奥</rb><rt>おく</rt></ruby>から、<ruby><rb>地下</rb><rt>ちか</rt></ruby>へ<ruby><rb>続</rb><rt>つづ</rt></ruby>く<ruby><rb>階段</rb><rt>かいだん</rt></ruby>が<ruby><rb>現</rb><rt>あらわ</rt></ruby>れる\\nとは……どうやってこれを<ruby><rb>見</rb><rt>み</rt></ruby>つけた？",
+        "zh_cn": "书架后面竟然出现了通往地下的\\n楼梯……您是怎么找到这个的？",
+        "zh_tw": "書櫃後方，\\n竟出現通往地底的階梯……\\n汝是如何察覺的？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0019",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "I dunno. I just put a book back on the\\nshelf and heard a weird click.",
+        "ja_jp": "わかんないです。ご<ruby><rb>本</rb><rt>ほん</rt></ruby>をしまって\\nたら、カチッてへんな<ruby><rb>音</rb><rt>おと</rt></ruby>がして……。",
+        "zh_cn": "我也不知道，\\n我收拾书的时候听到了\\n咔嚓一声奇怪的声响……",
+        "zh_tw": "我不曉得。我把書放回書櫃以後，\\n就聽見奇怪的「喀嚓」一聲……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0020",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "There must be a hidden button.\\nExcellent sleuthing, Pia.",
+        "ja_jp": "……<ruby><rb>丁度</rb><rt>ちょうど</rt></ruby>その<ruby><rb>位置</rb><rt>いち</rt></ruby>に、<ruby><rb>隠</rb><rt>かく</rt></ruby>しボタンでも\\nあったのかもしれません。しかしこれは\\nお<ruby><rb>手柄</rb><rt>てがら</rt></ruby>ですよ、ピアチェ<ruby><rb>様</rb><rt>さま</rt></ruby>。",
+        "zh_cn": "可能是正好碰到了隐藏的开关吧。\\n不过皮雅茜大人，\\n您这可真是大功一件。",
+        "zh_tw": "……或許那本書的位置，\\n正好有著隱藏按鈕。\\n您立下大功了呢，琵雅雀大人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0021",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Now then! Seeing as Emile is not here and\\nwas not seen leaving, I think we can safely\\nconclude he is located in this mysterious\\nhidden basement.",
+        "ja_jp": "エミュール<ruby><rb>様</rb><rt>さま</rt></ruby><ruby><rb>不在</rb><rt>ふざい</rt></ruby>の<ruby><rb>私室</rb><rt>ししつ</rt></ruby>に、<ruby><rb>謎</rb><rt>なぞ</rt></ruby>の<ruby><rb>隠</rb><rt>かく</rt></ruby>し\\n<ruby><rb>地下室</rb><rt>ちかしつ</rt></ruby>。これはもう、<ruby><rb>氏</rb><rt>し</rt></ruby>はこの<ruby><rb>向</rb><rt>む</rt></ruby>こうに\\nいると<ruby><rb>言</rb><rt>い</rt></ruby>われているも<ruby><rb>同然</rb><rt>どうぜん</rt></ruby>です。",
+        "zh_cn": "艾缪尔大人消失的房间里\\n出现了神秘的地下室。\\n这不就等于说他就在这里面吗。",
+        "zh_tw": "埃米爾大人不在的房中，\\n出現神秘的隱藏地下室。\\n這明確顯示他就在階梯的另一端。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0022",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "First...\\n...loses sight...",
+        "ja_jp": "……もの、……よりの……よ。\\nそれを……まつり……。",
+        "zh_cn": "身为……者……之首。\\n失之……江山……",
+        "zh_tw": "……身為……重要……產。\\n若忘……政……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0023",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "I hear a voice chanting something...\\nA spell, perhaps? Could it be Emile?",
+        "ja_jp": "おや……<ruby><rb>地下</rb><rt>ちか</rt></ruby>から<ruby><rb>呪文</rb><rt>じゅもん</rt></ruby>を<ruby><rb>唱</rb><rt>とな</rt></ruby>えるような\\n<ruby><rb>声</rb><rt>こえ</rt></ruby>がします。エミュール<ruby><rb>様</rb><rt>さま</rt></ruby>でしょうか？",
+        "zh_cn": "哎呀……地下传来了念咒语似的声音。\\n是艾缪尔大人吗？",
+        "zh_tw": "哎呀……\\n從地下室傳來了像在唸咒的聲音。\\n莫非是埃米爾大人？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0024",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "...Dedicate...ruler...\\nSeek...glory...",
+        "ja_jp": "……へと<ruby><rb>捧</rb><rt>ささ</rt></ruby>げよ。……<ruby><rb>王</rb><rt>おう</rt></ruby>に……\\nならば、……<ruby><rb>栄光</rb><rt>えいこう</rt></ruby>を……<ruby><rb>求</rb><rt>もと</rt></ruby>め……\\nならぬことを……。",
+        "zh_cn": "志当……明君……\\n当……荣光……\\n切勿……",
+        "zh_tw": "……奉獻吧……若欲……君王……\\n追求……榮光……\\n切記不可……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0025",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "That certainly sounds like Emile, but what\\nmanner of spell could he be... Oh no.",
+        "ja_jp": "うむ。<ruby><rb>確</rb><rt>たし</rt></ruby>かにエミュールの<ruby><rb>声</rb><rt>こえ</rt></ruby>だ……。\\nいったい<ruby><rb>何</rb><rt>なん</rt></ruby>の<ruby><rb>呪文</rb><rt>じゅもん</rt></ruby>を……むぅっ！",
+        "zh_cn": "嗯，这的确是他的声音……\\n他到底在念什么……唔！",
+        "zh_tw": "嗯。確實是埃米爾的聲音……\\n究竟是何種咒文……唔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0026",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Huh? What's wrong, Zodiark?",
+        "ja_jp": "えっ？　ゾディアークさん、\\nどうしたんですか？",
+        "zh_cn": "诶？佐迪亚克，\\n你怎么了？",
+        "zh_tw": "咦？索狄亞克先生，怎麼了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0027",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "I sense dark mana issuing from the\\nbasement—perhaps in response to\\nthe spell! Now run, both of you!",
+        "ja_jp": "まずい。<ruby><rb>呪文</rb><rt>じゅもん</rt></ruby>に<ruby><rb>呼応</rb><rt>こおう</rt></ruby>したのか、<ruby><rb>地下</rb><rt>ちか</rt></ruby>から\\n<ruby><rb>闇</rb><rt>やみ</rt></ruby>のマナがせりあがってきておる……\\n<ruby><rb>皆</rb><rt>みな</rt></ruby>、<ruby><rb>逃</rb><rt>に</rt></ruby>げよ！",
+        "zh_cn": "糟糕。不知是不是那咒语的作用，\\n暗之魔力开始从下面涌出来了……\\n大家快逃！",
+        "zh_tw": "糟糕。不知是否因呼應咒文，\\n闇之瑪納由地下室不斷湧出……\\n各位，準備逃離！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0028",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia & Edward",
+        "ja_jp": "ピアチェ＆エドワード",
+        "zh_cn": "皮雅茜&爱德华",
+        "zh_tw": "琵雅雀＆愛德華"
+      },
+      "context": {
+        "en_us": "What?!",
+        "ja_jp": "ええっ!?",
+        "zh_cn": "诶！？",
+        "zh_tw": "咦咦！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0029",
+      "book": ""
+    },
+    {
+      "icon": "120133_01",
+      "name": {
+        "en_us": "Ghost",
+        "ja_jp": "オバケ",
+        "zh_cn": "幽灵",
+        "zh_tw": "幽靈"
+      },
+      "context": {
+        "en_us": "WHEEE HEE HEE! FRIENDS! NEW FRIENDS!\\nWE CAN HAVE A PARTY WITH THREE\\nNEW FRIEEEEENDS!",
+        "ja_jp": "アハハハハハ！　オトモダチ！　\\nパーティーデキルアタラシイ\\nオトモダチ、サンニンモイル～～～！",
+        "zh_cn": "啊哈哈哈哈哈！朋友！\\n能一起开派对的新朋友～\\n有三个呢～",
+        "zh_tw": "啊哈哈哈哈哈！好朋友！\\n一起開宴會的好朋友、\\n有三個～～～！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0030",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "EEEEK! Ghosts! LOTS of ghosts!",
+        "ja_jp": "きゃあああーっ！　お、オバケさん！\\nオバケさんが、いっぱい～！",
+        "zh_cn": "呀啊啊啊！幽、幽灵啊！\\n好多幽灵啊～",
+        "zh_tw": "呀啊啊啊──！是、是幽靈！\\n幽靈、好多～！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0031",
+      "book": ""
+    },
+    {
+      "icon": "120133_01",
+      "name": {
+        "en_us": "Ghost",
+        "ja_jp": "オバケ",
+        "zh_cn": "幽灵",
+        "zh_tw": "幽靈"
+      },
+      "context": {
+        "en_us": "FRIENDS! FRIENDS! LOVELY FRIENDS! \\nLET'S HAVE A PARTY TOGETHER!",
+        "ja_jp": "オトモダチ♪　オトモダチ♪\\nツヨイコ、イイオトモダチ♪\\nイッショニパーティーシマショ♪",
+        "zh_cn": "好朋友♪好朋友♪\\n强大的♪好朋友♪\\n一起来开派对吧♪",
+        "zh_tw": "好朋友♪好朋友♪\\n很強的人、最好的朋友♪\\n大家一起開宴會吧♪"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0032",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Pia! ...Confound it, I fear these ghosts are\\nattempting to make us a part of some\\ndark assembly!",
+        "ja_jp": "ピアチェ<ruby><rb>様</rb><rt>さま</rt></ruby>！　まさか、このオバケ\\nたちの<ruby><rb>目的</rb><rt>もくてき</rt></ruby>は……<ruby><rb>我々</rb><rt>われわれ</rt></ruby>を<ruby><rb>闇</rb><rt>やみ</rt></ruby>の<ruby><rb>集会</rb><rt>しゅうかい</rt></ruby>に\\n<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>込</rb><rt>こ</rt></ruby>むこと!?",
+        "zh_cn": "皮雅茜大人！\\n难道这些幽灵的目的是……\\n把我们卷入那黑暗之中！？",
+        "zh_tw": "琵雅雀大人！\\n莫非、這些幽靈的目的……\\n是將我們捲入黑暗聚會！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0033",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Then I will force them back with my\\npowers as the Shadowwyrm! Haaah!",
+        "ja_jp": "そうはさせぬ。<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>闇竜</rb><rt>やみりゅう</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>で\\n<ruby><rb>押</rb><rt>お</rt></ruby>し<ruby><rb>返</rb><rt>かえ</rt></ruby>してやろう――はぁっ！",
+        "zh_cn": "我不会让这些家伙得逞的。\\n以我暗龙之力——哈！",
+        "zh_tw": "休想得逞。\\n看我以闇龍之力反制──喝！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0034",
+      "book": ""
+    },
+    {
+      "icon": "120133_01",
+      "name": {
+        "en_us": "Ghost",
+        "ja_jp": "オバケ",
+        "zh_cn": "幽灵",
+        "zh_tw": "幽靈"
+      },
+      "context": {
+        "en_us": "IT HURTS! SCARY FRIEND! BAD FRIEND!\\nFRIEND MAKING A MESS OF THINGS!",
+        "ja_jp": "ギャーッ！　イタイイタイ！\\nオトモダチコワイヨー！　\\nメチャクチャニナッチャウー!!",
+        "zh_cn": "呀！好疼啊好疼啊！\\n朋友你好吓人！\\n朋友你好粗暴！",
+        "zh_tw": "呀啊──！好痛好痛！\\n好朋友好可怕喔──！\\n會魂飛魄散的呀──！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0035",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Whew! That's an amazing barrier, Zodiark.\\nI think we can finally rest for a...",
+        "ja_jp": "た、<ruby><rb>助</rb><rt>たす</rt></ruby>かりましたぁ……！\\nバリア、すごいですっ。これで\\nひとまず、あんしん……",
+        "zh_cn": "得、得救了……\\n这屏障好厉害。\\n这下暂且可以安心了……",
+        "zh_tw": "得、得救了……！\\n護盾、好厲害喔。\\n這樣就能暫心、安心……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0036",
+      "book": ""
+    },
+    {
+      "icon": "120133_01",
+      "name": {
+        "en_us": "Ghost",
+        "ja_jp": "オバケ",
+        "zh_cn": "幽灵",
+        "zh_tw": "幽靈"
+      },
+      "context": {
+        "en_us": "HARUMMMPH! WE WANT FRIENDS!\\nMORE STAFF MEANS MORE FRIENDS!",
+        "ja_jp": "ムムムー！　オトモダチホシイ！\\nオトモダチテニイレル、スタッフ\\nホジュウー！",
+        "zh_cn": "好气啊！我想要朋友！\\n来人啊！帮我抓朋友！",
+        "zh_tw": "唔唔唔──！想要好朋友！\\n要得到好朋友，補充同伴──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0037",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Oh no! There's more and more ghosts on\\nthe other side of the barrier! The whole\\nplace is filling up!",
+        "ja_jp": "ってえぇ～っ!?　バリアのむこうで\\nオバケさんたちがたくさん<ruby><rb>増</rb><rt>ふ</rt></ruby>えて……\\nぱ、ぱんぱんになっちゃいます!?",
+        "zh_cn": "诶诶！？\\n屏障外面又多了好多……\\n已经挤满了幽灵啊！？",
+        "zh_tw": "唔咦～！？\\n護盾的另一邊多出好多幽靈……\\n要、要把房間塞滿了！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0038",
+      "book": ""
+    },
+    {
+      "icon": "120133_01",
+      "name": {
+        "en_us": "Ghost",
+        "ja_jp": "オバケ",
+        "zh_cn": "幽灵",
+        "zh_tw": "幽靈"
+      },
+      "context": {
+        "en_us": "ALL STAFF, ASSEMBLE! WE'RE CHANGING\\nTHE PARTY VENUE! BIGGER ROOM NOW!\\nNICE WIIIIIDE ROOM!",
+        "ja_jp": "スタッフシュウケツ！\\nパーティーカイジョウ、ヘンコウ！\\nヒロイオヘヤ、ドーン！",
+        "zh_cn": "全体集合！\\n切换派对会场！\\n向大房间转移！",
+        "zh_tw": "同伴集合！\\n宴會會場、變更！\\n寬敞的房間、咚──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0039",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Wait! Did the two of you hear that?",
+        "ja_jp": "ひろいおへや、どーん、だと……？\\nまさか！　<ruby><rb>汝</rb><rt>なんじ</rt></ruby>ら、<ruby><rb>聞</rb><rt>き</rt></ruby>こえているか！",
+        "zh_cn": "向大房间……转移？\\n难道说……\\n喂！你们听见了吗！",
+        "zh_tw": "「寬敞的房間、咚──」……？\\n莫非！汝等，是否有聽見！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0040",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "What's happening?!",
+        "ja_jp": "なんですか!?",
+        "zh_cn": "听见什么！？",
+        "zh_tw": "怎麼了！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0041",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Prepare for an impact!\\nThey mean to transport us!",
+        "ja_jp": "<ruby><rb>衝撃</rb><rt>しょうげき</rt></ruby>に<ruby><rb>備</rb><rt>そな</rt></ruby>えよ！　<ruby><rb>彼奴</rb><rt>きゃつ</rt></ruby>ら――\\n<ruby><rb>我</rb><rt>われ</rt></ruby>らを<ruby><rb>転移</rb><rt>てんい</rt></ruby>させる<ruby><rb>気</rb><rt>き</rt></ruby>だ！",
+        "zh_cn": "准备应对冲击！\\n这些家伙——\\n打算把我们传送走！",
+        "zh_tw": "準備承受衝擊！那些傢伙──\\n打算將吾等轉移！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0042",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Pia & Edward",
+        "ja_jp": "ピアチェ＆エドワード",
+        "zh_cn": "皮雅茜&爱德华",
+        "zh_tw": "琵雅雀＆愛德華"
+      },
+      "context": {
+        "en_us": "Whaaat?!",
+        "ja_jp": "えぇっ!?",
+        "zh_cn": "诶！？",
+        "zh_tw": "咦咦！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0043",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Urrrgh... Where are we?",
+        "ja_jp": "きゃあっ！　うぅ……こ、ここは？",
+        "zh_cn": "呀啊！唔……这、这里是？",
+        "zh_tw": "呀啊！\\n嗚嗚……這、這裡是？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0044",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "They seem to have relocated us to\\nthe entrance hall. And what's more...",
+        "ja_jp": "<ruby><rb>玄関</rb><rt>げんかん</rt></ruby>ホールですね。<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>転移</rb><rt>てんい</rt></ruby>\\nさせられてしまったようです。\\nしかも……。",
+        "zh_cn": "是前厅。\\n看来我们真的被传送到了这里。\\n而且……",
+        "zh_tw": "是玄關大廳呢。\\n看來我們真的被轉移了。\\n而且……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0045",
+      "book": ""
+    },
+    {
+      "icon": "120133_01",
+      "name": {
+        "en_us": "Ghost",
+        "ja_jp": "オバケ",
+        "zh_cn": "幽灵",
+        "zh_tw": "幽靈"
+      },
+      "context": {
+        "en_us": "WHEE HEE! FRIENDS! FRIENDS HERE!\\nNOW THE PARTY STARTS!",
+        "ja_jp": "オトモダチ！　オトモダチイル！\\nパーティーハジマル！　アハハハ！",
+        "zh_cn": "朋友！有朋友！\\n派对要开始了！\\n啊哈哈哈！",
+        "zh_tw": "好朋友！好朋友在這裡！\\n宴會要開始了！啊哈哈哈！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0046",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "The ghosts from the basement are now\\nscattered about the manor.",
+        "ja_jp": "<ruby><rb>地下室</rb><rt>ちかしつ</rt></ruby>の<ruby><rb>幽霊</rb><rt>ゆうれい</rt></ruby><ruby><rb>共</rb><rt>ども</rt></ruby>も、<ruby><rb>屋敷中</rb><rt>やしきじゅう</rt></ruby>に<ruby><rb>散</rb><rt>ち</rt></ruby>って\\nしまったようだ……。",
+        "zh_cn": "地下室的那些幽灵\\n好像已经分散到整个宅邸中了……",
+        "zh_tw": "地下室的幽靈們，\\n看來也已分散至整個宅邸中……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0047",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "They're EVERYWHERE! I can't believe\\nwe had this many ghosts under our\\nfeet the entire time!",
+        "ja_jp": "あうぅ、オバケさんたちだらけです。\\nまさかお<ruby><rb>屋敷</rb><rt>やしき</rt></ruby>の<ruby><rb>地下</rb><rt>ちか</rt></ruby>に、こんなに\\nいっぱいオバケさんがいたなんて。",
+        "zh_cn": "啊，到处都是幽灵。\\n没想到宅邸地下竟然会\\n藏有这么多幽灵。",
+        "zh_tw": "啊嗚嗚，到處都是幽靈。\\n沒想到宅邸的地下室，\\n竟然有這麼多的幽靈。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0048",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "It seems our fears have become reality\\nin the worst of ways. Clearly there is\\nsome malefic force at work here. ",
+        "ja_jp": "ええ。まさか<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>によからぬ<ruby><rb>力</rb><rt>ちから</rt></ruby>が<ruby><rb>働</rb><rt>はたら</rt></ruby>いて\\nいたとは……<ruby><rb>懸念</rb><rt>けねん</rt></ruby>が<ruby><rb>最悪</rb><rt>さいあく</rt></ruby>の<ruby><rb>形</rb><rt>かたち</rt></ruby>で<ruby><rb>現実</rb><rt>げんじつ</rt></ruby>に\\nなってしまいました。",
+        "zh_cn": "是啊。\\n没想到真的有不祥的东西在作祟……\\n我们担心的最糟糕的事情成了现实。",
+        "zh_tw": "是啊。沒想到真的有邪惡力量\\n在背後操控……我們擔心的事\\n以最糟的形式化為現實了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0049",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "And given that he was casting the dubious\\nspell, there must be some relation betwixt\\nEmile and these apparitions.",
+        "ja_jp": "<ruby><rb>怪</rb><rt>あや</rt></ruby>しげな<ruby><rb>呪文</rb><rt>じゅもん</rt></ruby>を<ruby><rb>唱</rb><rt>とな</rt></ruby>えていたことからして\\nこの<ruby><rb>霊</rb><rt>れい</rt></ruby>たちとエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>の<ruby><rb>間</rb><rt>あいだ</rt></ruby>に\\nなにか<ruby><rb>関係</rb><rt>かんけい</rt></ruby>があるのは<ruby><rb>明</rb><rt>あき</rt></ruby>らかです。",
+        "zh_cn": "艾缪尔大人刚才有念可疑的咒语，\\n看来这些幽灵明显\\n与他有着一定的关系。",
+        "zh_tw": "從埃米爾大人詠唱詭異咒文這點來看，\\n想必這些幽靈與他脫不了關係。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0050",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Could the power of these spirits be driving\\nEmile to his bizarre behavior? Or did he\\nactually summon them himself?",
+        "ja_jp": "<ruby><rb>霊</rb><rt>れい</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>で、エミュールが<ruby><rb>乱心</rb><rt>らんしん</rt></ruby>したか。\\nあるいはあやつが<ruby><rb>霊</rb><rt>れい</rt></ruby>を<ruby><rb>呼</rb><rt>よ</rt></ruby>んだか……。",
+        "zh_cn": "是幽灵的力量导致他神志不清了吗？\\n还是说他自己招来了幽灵……",
+        "zh_tw": "是由於靈體之力，\\n導致埃米爾發瘋了嗎。\\n抑或是其招來了靈體……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0051",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "We'll need to enter that basement again\\nif we hope to ascertain the truth.",
+        "ja_jp": "<ruby><rb>真相</rb><rt>しんそう</rt></ruby>を<ruby><rb>確</rb><rt>たし</rt></ruby>かめるためにも、<ruby><rb>再</rb><rt>ふたた</rt></ruby>び\\nあの<ruby><rb>地下室</rb><rt>ちかしつ</rt></ruby>に<ruby><rb>向</rb><rt>む</rt></ruby>かわねばならぬ……。",
+        "zh_cn": "无论如何，\\n为了查清真相，\\n我们必须再去一趟那个地下室……",
+        "zh_tw": "也為了確認真相，\\n吾等必須再次前往該地下室……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0052",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "I'm ready to go! Er, except...",
+        "ja_jp": "はいっ！　<ruby><rb>気</rb><rt>き</rt></ruby>をひきしめて、\\nがんばらないと、ですねっ！\\nでも……。",
+        "zh_cn": "好的！\\n我们得打起精神加油了呢！\\n可是……",
+        "zh_tw": "是！必須打起精神、好好加油，對吧！\\n可是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0053",
+      "book": ""
+    },
+    {
+      "icon": "120133_01",
+      "name": {
+        "en_us": "Ghosts",
+        "ja_jp": "オバケたち",
+        "zh_cn": "幽灵们",
+        "zh_tw": "幽靈們"
+      },
+      "context": {
+        "en_us": "WHEEE HEE! WHEE HEE! WHEEEE HEEEE!",
+        "ja_jp": "アハハハハ！　アハハハハハ！\\nアハハハハハハ～～！",
+        "zh_cn": "啊哈哈哈哈！啊哈哈哈哈哈！\\n啊哈哈哈哈哈哈！",
+        "zh_tw": "啊哈哈哈哈！啊哈哈哈哈哈！\\n啊哈哈哈哈哈哈～～！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0054",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "The path to Emile's room has more ghosts\\nthan a theater graveyard! How are we\\nsupposed to get past them all?",
+        "ja_jp": "エミュールさんのお<ruby><rb>部屋</rb><rt>へや</rt></ruby>への<ruby><rb>道</rb><rt>みち</rt></ruby>、\\nオバケさんたちでいっぱいです！\\nど、どうしよう……！",
+        "zh_cn": "通向艾缪尔房间的路上\\n全都是幽灵啊！\\n怎、怎么办……",
+        "zh_tw": "到埃米爾先生房間的路上，\\n有很多很多幽靈！\\n該、該怎麼辦……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0055",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Seeing as they are ghosts, combat would\\nbe a rather fruitless pursuit.",
+        "ja_jp": "<ruby><rb>相手</rb><rt>あいて</rt></ruby>は<ruby><rb>霊体</rb><rt>れいたい</rt></ruby>……<ruby><rb>真</rb><rt>しん</rt></ruby>に<ruby><rb>倒</rb><rt>たお</rt></ruby>しきることは\\n<ruby><rb>難</rb><rt>むずか</rt></ruby>しかろう……。",
+        "zh_cn": "幽灵没有实体……\\n想要彻底消灭它们应该很难……",
+        "zh_tw": "對手乃是靈體……\\n要實際擊敗應該十分困難……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0056",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Yeah, I have no idea how to fight a ghost.\\nBoy, this is a real pickle...",
+        "ja_jp": "うう。わたしも、オバケさんと<ruby><rb>戦</rb><rt>たたか</rt></ruby>う\\n<ruby><rb>方法</rb><rt>ほうほう</rt></ruby>なんてわかりません。\\n<ruby><rb>困</rb><rt>こま</rt></ruby>っちゃいました。",
+        "zh_cn": "呜呜，\\n我也不知道要怎样才能和幽灵打，\\n这可怎么办才好呀。",
+        "zh_tw": "嗚嗚。我也、不知道\\n怎麼跟幽靈戰鬥。\\n真是傷腦筋。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0057",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Do not fret! For we are...servants.",
+        "ja_jp": "<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>ですよ。\\n<ruby><rb>何故</rb><rt>なぜ</rt></ruby>なら<ruby><rb>我々</rb><rt>われわれ</rt></ruby>は、<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>なのですから。",
+        "zh_cn": "不用担心。\\n我们可是佣人。",
+        "zh_tw": "這點不必擔心。\\n不管怎麼說，我們可是僕人呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0058",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Huh?",
+        "ja_jp": "えっ？",
+        "zh_cn": "诶？",
+        "zh_tw": "咦？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0059",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Have you forgotten about servants'\\ntechniques—specifically the intermediate\\nskill I demonstrated for you?",
+        "ja_jp": "お<ruby><rb>忘</rb><rt>わす</rt></ruby>れですか？　『<ruby><rb>使用人秘技</rb><rt>しようにんひぎ</rt></ruby>』を。\\nその<ruby><rb>中級秘技</rb><rt>ちゅうきゅうひぎ</rt></ruby>である、あの<ruby><rb>技</rb><rt>わざ</rt></ruby>を。",
+        "zh_cn": "二位难道忘了\\n那中级的“佣人秘技”吗？",
+        "zh_tw": "您忘記了嗎？「僕人秘技」。\\n中級秘技當中的那招。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0060",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "That one with the strange incantation?",
+        "ja_jp": "あの<ruby><rb>技</rb><rt>わざ</rt></ruby>というと……\\nあの、<ruby><rb>面妖</rb><rt>めんよう</rt></ruby>な<ruby><rb>呪文</rb><rt>じゅもん</rt></ruby>の……？",
+        "zh_cn": "你是说……\\n那个奇怪的咒语？",
+        "zh_tw": "「那招」……\\n意指那詭異咒文的……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0061",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "I am. The time has come to unleash...\\nThe Adorbs Devotion Beam!",
+        "ja_jp": "そう。<ruby><rb>今</rb><rt>いま</rt></ruby>こそ――\\n『<ruby><rb>真心注入</rb><rt>まごころちゅうにゅう</rt></ruby>☆<ruby><rb>萌</rb><rt>も</rt></ruby>えキュンビーム♪』\\nの<ruby><rb>出番</rb><rt>でばん</rt></ruby>です。",
+        "zh_cn": "没错，现在正是使用\\n“爱心满满☆萌萌光波♪”之时！",
+        "zh_tw": "沒錯。現在正是──\\n「真心滿滿☆萌啾光波♪」的\\n使用時機。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0062",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Whoooooa!",
+        "ja_jp": "えぇっ!?",
+        "zh_cn": "诶！？",
+        "zh_tw": "咦咦！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0063",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Oh!",
+        "ja_jp": "おお……！",
+        "zh_cn": "噢……",
+        "zh_tw": "喔喔……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0064",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "You truly think that skill will aid us in our\\ncurrent predicament?",
+        "ja_jp": "<ruby><rb>汝</rb><rt>なんじ</rt></ruby>、その<ruby><rb>言葉</rb><rt>ことば</rt></ruby>は<ruby><rb>真</rb><rt>まこと</rt></ruby>か。<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>にそれで\\nこの<ruby><rb>窮地</rb><rt>きゅうち</rt></ruby>を<ruby><rb>切</rb><rt>き</rt></ruby>り<ruby><rb>抜</rb><rt>ぬ</rt></ruby>けられるのか。",
+        "zh_cn": "你是认真的？\\n那个招式真能帮我们摆脱这困境？",
+        "zh_tw": "汝所言為真？\\n真能以此招突破眼前困境嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0065",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "This technique exists for the sole purpose\\nof protecting one's master from evil spirits.",
+        "ja_jp": "<ruby><rb>当然</rb><rt>とうぜん</rt></ruby>です。なにせこの<ruby><rb>技</rb><rt>わざ</rt></ruby>は、\\n<ruby><rb>主</rb><rt>あるじ</rt></ruby>を<ruby><rb>悪霊</rb><rt>あくりょう</rt></ruby>からお<ruby><rb>守</rb><rt>まも</rt></ruby>りするために\\nあるのですから。",
+        "zh_cn": "当然，这招可是\\n为了保护主人不受恶灵侵扰\\n而被创造出来的。",
+        "zh_tw": "當然。畢竟這招，\\n本就是為了從惡靈手中\\n守護主人的招式。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0066",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "We'll begin by having you observe me,\\nthen have you mimic my actions, so that\\nyou may learn to be an adorable cutie\\nbutler. Ready?",
+        "ja_jp": "まず<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>手本</rb><rt>てほん</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>せますから、\\nおふたりも<ruby><rb>真似</rb><rt>まね</rt></ruby>してついてきて\\nください。いきますよ――",
+        "zh_cn": "我先来示范一下，\\n请二位也跟着我做。\\n那我开始了——",
+        "zh_tw": "首先由我來示範，\\n再請兩位模仿我的做法。\\n要開始囉──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0067",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "ADORBS DEVOTION BEEEEEAM!",
+        "ja_jp": "<ruby><rb>真心注入</rb><rt>まごころちゅうにゅう</rt></ruby>☆<ruby><rb>萌</rb><rt>も</rt></ruby>えキュンビーム♪",
+        "zh_cn": "爱心满满☆萌萌光波♪",
+        "zh_tw": "真心滿滿☆萌啾光波♪"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0068",
+      "book": ""
+    },
+    {
+      "icon": "120133_01",
+      "name": {
+        "en_us": "Ghosts",
+        "ja_jp": "オバケたち",
+        "zh_cn": "幽灵们",
+        "zh_tw": "幽靈們"
+      },
+      "context": {
+        "en_us": "SO BRIGHT! I'M BEING PURGED!\\nBOOO, I SAY! BOOOOOO!",
+        "ja_jp": "ギャーーーーーー！　マブシクッテ、\\nジョウカサレチャウーーーーー！",
+        "zh_cn": "呀啊啊啊啊啊啊！\\n好耀眼！\\n要被净化啦啊啊啊！",
+        "zh_tw": "呀啊──────！\\n好刺眼、要被淨化啦──────！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0069",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Amazing...\\nIt actually works.",
+        "ja_jp": "なんと……。\\n<ruby><rb>真</rb><rt>まこと</rt></ruby>に<ruby><rb>効果</rb><rt>こうか</rt></ruby>のある<ruby><rb>技</rb><rt>わざ</rt></ruby>だったか。",
+        "zh_cn": "没想到……\\n这招真的有效。",
+        "zh_tw": "竟這般驚人……\\n原來此招真的有效。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0070",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Did I not tell you it was a fine skill?\\nNow do as I did, both of you.",
+        "ja_jp": "そうだと<ruby><rb>再三</rb><rt>さいさん</rt></ruby><ruby><rb>申</rb><rt>もう</rt></ruby>し<ruby><rb>上</rb><rt>あ</rt></ruby>げたでしょう？\\nさあ、おふたりも<ruby><rb>復唱</rb><rt>ふくしょう</rt></ruby>をお<ruby><rb>願</rb><rt>ねが</rt></ruby>いします。",
+        "zh_cn": "我不是说过很多遍了吗？\\n来吧，请二位也跟着重复吧。",
+        "zh_tw": "我不是再三說過了嗎？\\n來，現在請兩位跟著我複誦。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0071",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Right! Okay. Here we go.\\nAdorbs...devotion...beeeeam...?",
+        "ja_jp": "ふぇっ。え、えぇっと……\\n<ruby><rb>真心</rb><rt>まごころ</rt></ruby>ちゅうにゅう……もえきゅん、\\nびーむ？",
+        "zh_cn": "诶，那、那个……\\n爱心满满……萌、萌萌光波？",
+        "zh_tw": "咦。呃、呃嗯……\\n真心滿滿……萌啾、光波？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0072",
+      "book": ""
+    },
+    {
+      "icon": "120133_01",
+      "name": {
+        "en_us": "Ghost",
+        "ja_jp": "オバケ",
+        "zh_cn": "幽灵",
+        "zh_tw": "幽靈"
+      },
+      "context": {
+        "en_us": "I AM TOTALLY FINE!",
+        "ja_jp": "ゼンゼン、ヘッチャラー！",
+        "zh_cn": "完全没事！",
+        "zh_tw": "完全、不可怕──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0073",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Yes, well, that's very good for a...first try.\\nLet us see what Zodiark can do.",
+        "ja_jp": "まだ<ruby><rb>戸惑</rb><rt>とまど</rt></ruby>いがあるようですね……。\\n<ruby><rb>次</rb><rt>つぎ</rt></ruby>はゾディアーク<ruby><rb>様</rb><rt>さま</rt></ruby>がお<ruby><rb>願</rb><rt>ねが</rt></ruby>いします。",
+        "zh_cn": "看来您还有所犹豫啊……\\n那就请佐迪亚克大人来试试吧。",
+        "zh_tw": "似乎還有所迷惘呢……\\n接下來請索狄亞克大人試試吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0074",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "I will try anything so long as it aids us...\\nADORBS DEVOTION BEAM, VILLAINS!",
+        "ja_jp": "<ruby><rb>効果</rb><rt>こうか</rt></ruby>があるなら、やぶさかではない。\\n<ruby><rb>真心注入</rb><rt>まごころちゅうにゅう</rt></ruby>ッ！　<ruby><rb>萌</rb><rt>も</rt></ruby>えキュンビィィム！",
+        "zh_cn": "只要有效果，\\n当然没什么可犹豫的。\\n爱心满满！萌萌光波！",
+        "zh_tw": "若真有效，則不須猶豫。\\n真心滿滿！萌啾光──波！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0075",
+      "book": ""
+    },
+    {
+      "icon": "120133_01",
+      "name": {
+        "en_us": "Ghost",
+        "ja_jp": "オバケ",
+        "zh_cn": "幽灵",
+        "zh_tw": "幽靈"
+      },
+      "context": {
+        "en_us": "HA HA HA HA! OH, NO! SO SCARY!\\nI'M SHAKING IN MY BOOOOOOTS!",
+        "ja_jp": "キャハハハハハッ♪\\nオドロオドロシクテ、タノシ～イ！",
+        "zh_cn": "呀哈哈哈哈哈♪\\n真吓人呀！真好玩呀！",
+        "zh_tw": "呀哈哈哈哈哈♪\\n看起來好嚇鬼、好有趣喔～！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0076",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "You mustn't have such open hostility\\ntowards them. This technique requires\\nlove for one's master above all.",
+        "ja_jp": "そんなに<ruby><rb>敵意</rb><rt>てきい</rt></ruby>をむき<ruby><rb>出</rb><rt>だ</rt></ruby>しにしてはいけ\\nません。この<ruby><rb>技</rb><rt>わざ</rt></ruby>に<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>なのは……\\n<ruby><rb>何</rb><rt>なに</rt></ruby>よりも<ruby><rb>主人</rb><rt>しゅじん</rt></ruby>への『<ruby><rb>愛</rb><rt>あい</rt></ruby>』。",
+        "zh_cn": "不能像那样表现出明显的敌意。\\n这招最关键的就是……\\n要饱含对主人的“爱”。",
+        "zh_tw": "不能如此毫不掩飾敵意。\\n發動這招的必要條件……\\n是飽含對主人的「愛」。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0077",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "For love is the linchpin of the servants'\\ntechniques. Do you understand?",
+        "ja_jp": "『<ruby><rb>愛</rb><rt>あい</rt></ruby>』あってこその<ruby><rb>使用人秘技</rb><rt>しようにんひぎ</rt></ruby>です。\\nよろしいですね？",
+        "zh_cn": "这是有“爱”才能使用的\\n佣人秘技。明白了吗？",
+        "zh_tw": "這招正是由「愛」而生的僕人秘技。\\n明白嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0078",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Hmm. Yes.",
+        "ja_jp": "『<ruby><rb>愛</rb><rt>あい</rt></ruby>』あってこそ……。\\n……ふむ。",
+        "zh_cn": "有“爱”才能使用……\\n唔……",
+        "zh_tw": "由「愛」而生……\\n……嗯。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0079",
+      "book": ""
+    },
+    {
+      "icon": "120133_01",
+      "name": {
+        "en_us": "Ghost",
+        "ja_jp": "オバケ",
+        "zh_cn": "幽灵",
+        "zh_tw": "幽靈"
+      },
+      "context": {
+        "en_us": "WHEEE HEE! USELESS! USELESS!",
+        "ja_jp": "アハハハ♪　アハハハ♪\\nムダ、ムダー！",
+        "zh_cn": "啊哈哈哈♪啊哈哈哈♪\\n没用的！没用的！",
+        "zh_tw": "啊哈哈哈♪啊哈哈哈♪\\n沒用的、沒用的──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0080",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Ack! While we've been doing this,\\nmore and more ghosts were showing up!\\nThey're gonna flatten us at this rate!",
+        "ja_jp": "ふえぇ、そうこうしてるあいだに、\\nオバケさん、ますます<ruby><rb>増</rb><rt>ふ</rt></ruby>えてますっ！\\nこのままじゃつぶされちゃう～！",
+        "zh_cn": "呀啊，这么一会儿时间，\\n幽灵就又变多了！\\n这样下去要不行啦～",
+        "zh_tw": "嗚哇哇，在我們講話的期間，\\n幽靈、變得越來越多了！\\n這樣下去會被壓扁的～！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0081",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "It is too soon for such pessimism.",
+        "ja_jp": "……いや。まだ<ruby><rb>悲観</rb><rt>ひかん</rt></ruby>するには<ruby><rb>早</rb><rt>はや</rt></ruby>いぞ。\\nピアチェよ。",
+        "zh_cn": "皮雅茜，\\n现在还不用如此悲观。",
+        "zh_tw": "……不。\\n要悲觀尚嫌太早，琵雅雀。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0082",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Um, it is?",
+        "ja_jp": "ゾディアークさん……？",
+        "zh_cn": "佐迪亚克？",
+        "zh_tw": "索狄亞克先生……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0083",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Remember why we came here.\\nWhy we surmounted the audition.",
+        "ja_jp": "<ruby><rb>思</rb><rt>おも</rt></ruby>い<ruby><rb>出</rb><rt>だ</rt></ruby>すのだ。<ruby><rb>我々</rb><rt>われわれ</rt></ruby>はなぜここへきた。\\nなぜオーディションを<ruby><rb>乗</rb><rt>の</rt></ruby>り<ruby><rb>越</rb><rt>こ</rt></ruby>えてきた？",
+        "zh_cn": "回想一下，\\n我们为什么要过关斩将\\n参加选拔到这里来？",
+        "zh_tw": "回想起來吧。吾等為何前來此處。\\n為何一路跨越了選拔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0084",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "It was all a result of our devotion\\nand desire to save Emile!",
+        "ja_jp": "すべて、エミュールを<ruby><rb>救</rb><rt>すく</rt></ruby>わんと<ruby><rb>思</rb><rt>おも</rt></ruby>う\\n『<ruby><rb>真心</rb><rt>まごころ</rt></ruby>』があったがゆえであろう……！",
+        "zh_cn": "一切，不正是因为拥有一颗\\n想要拯救艾缪尔的“真心”吗……",
+        "zh_tw": "一切，不正是出於\\n希望拯救埃米爾之「真心」嗎……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0085",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "While not the same devotion as a servant,\\nthat love comes from the same place.",
+        "ja_jp": "それは<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>としての<ruby><rb>忠義心</rb><rt>ちゅうぎしん</rt></ruby>ではない。\\nだが……あれを<ruby><rb>想</rb><rt>おも</rt></ruby>う<ruby><rb>心</rb><rt>こころ</rt></ruby>、『<ruby><rb>愛</rb><rt>あい</rt></ruby>』には\\n<ruby><rb>変</rb><rt>か</rt></ruby>わりあるまい。",
+        "zh_cn": "这虽然不是身为佣人的忠心。\\n但我们对他的心意……\\n与“爱”无异。",
+        "zh_tw": "那並非身為僕人的忠義之心。\\n然而……那份為其著想之心，\\n與「愛」無異。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0086",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "I suppose you're right; I've known how kind\\nEmile can be ever since he said he liked\\nour singing.",
+        "ja_jp": "<ruby><rb>愛</rb><rt>あい</rt></ruby>……おもうこころ……。そうです。　\\nわたし、お<ruby><rb>歌</rb><rt>うた</rt></ruby>をほめてくれたお<ruby><rb>兄</rb><rt>にい</rt></ruby>さんが\\nほんとうはやさしいって<ruby><rb>知</rb><rt>し</rt></ruby>ってます。",
+        "zh_cn": "爱……心意……没错。\\n我知道那个夸我歌声的哥哥\\n其实心地很善良。",
+        "zh_tw": "愛……為其著想之心……沒錯。\\n我知道、曾經稱讚我唱歌好聽的\\n那位大哥哥其實很溫柔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0087",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "That's why I wanted to help him.\\nAnd you think it's...love?",
+        "ja_jp": "だから、<ruby><rb>助</rb><rt>たす</rt></ruby>けたいっておもったんです。\\nこれが……『<ruby><rb>愛</rb><rt>あい</rt></ruby>』なんでしょうか？",
+        "zh_cn": "所以我想要救他。\\n这就是……“爱”吗？",
+        "zh_tw": "所以，我才想幫助他。\\n這個心情……就是「愛」嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0088",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "It certainly is. And for my part, being\\nmerged with Aurelius causes me to\\noverflow with a parent's love for a child.",
+        "ja_jp": "うむ……<ruby><rb>私</rb><rt>わたし</rt></ruby>もアローラスと<ruby><rb>融合</rb><rt>ゆうごう</rt></ruby>した<ruby><rb>身</rb><rt>み</rt></ruby>。\\n<ruby><rb>子</rb><rt>こ</rt></ruby>を<ruby><rb>想</rb><rt>おも</rt></ruby>う<ruby><rb>親</rb><rt>おや</rt></ruby>の<ruby><rb>愛</rb><rt>あい</rt></ruby>が、この<ruby><rb>身</rb><rt>み</rt></ruby>にはあふれて\\nおる……。",
+        "zh_cn": "嗯……与亚罗拉斯融为一体的我，\\n如今心中\\n也满是为孩子担忧的父爱……",
+        "zh_tw": "嗯……我已與安羅拉斯融合一體。\\n為子牽掛的父愛，\\n正不斷自心中湧出……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0089",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Given those facts, I'm quite certain we can\\nmaster the special skills Edward speaks of.",
+        "ja_jp": "そんな<ruby><rb>我</rb><rt>われ</rt></ruby>らならば、エドワードの\\n<ruby><rb>言</rb><rt>い</rt></ruby>う『<ruby><rb>秘技</rb><rt>ひぎ</rt></ruby>』も<ruby><rb>必</rb><rt>かなら</rt></ruby>ずや<ruby><rb>使</rb><rt>つか</rt></ruby>いこなせよう。",
+        "zh_cn": "所以我们一定能够掌握\\n爱德华所说的“秘技”。",
+        "zh_tw": "若是這樣的吾等，\\n應能習得愛德華口中之「秘技」。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0090",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "……！",
+        "zh_cn": "！",
+        "zh_tw": "……！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Now is the time for us to show our love,\\nPia! Let's go!",
+        "ja_jp": "さあ、ピアチェよ。<ruby><rb>今</rb><rt>いま</rt></ruby>こそ<ruby><rb>我</rb><rt>われ</rt></ruby>らの\\n『<ruby><rb>愛</rb><rt>あい</rt></ruby>』を<ruby><rb>示</rb><rt>しめ</rt></ruby>す<ruby><rb>時</rb><rt>とき</rt></ruby>――ゆくぞ！",
+        "zh_cn": "来吧，皮雅茜。\\n如今正是展现我们“爱”的时刻！",
+        "zh_tw": "走吧，琵雅雀。\\n此刻正是吾等展現「愛」之時──\\n要上了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0091",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Yeah!",
+        "ja_jp": "はいっ！",
+        "zh_cn": "好！",
+        "zh_tw": "是！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0092",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "ADORBS DEVOTION BEAM!",
+        "ja_jp": "<ruby><rb>真心注入</rb><rt>まごころちゅうにゅう</rt></ruby>――<ruby><rb>萌</rb><rt>も</rt></ruby>えキュンビーム♪",
+        "zh_cn": "爱心满满——萌萌光波♪",
+        "zh_tw": "真心滿滿──萌啾光波♪"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0093",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "ADORBS DEVOTION BEAM!",
+        "ja_jp": "<ruby><rb>真心</rb><rt>まごころ</rt></ruby>、<ruby><rb>注入</rb><rt>ちゅうにゅう</rt></ruby>っ☆　<ruby><rb>萌</rb><rt>も</rt></ruby>えきゅんビーム♪",
+        "zh_cn": "爱心满满☆萌萌光波♪",
+        "zh_tw": "真心、滿滿☆萌啾光波♪"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0094",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Ghost",
+        "ja_jp": "オバケ",
+        "zh_cn": "幽灵",
+        "zh_tw": "幽靈"
+      },
+      "context": {
+        "en_us": "BLAAAARGH! THE LOVE IS STRONG!\\nSO STRONG!",
+        "ja_jp": "ウワーーーーーーー!?　スッゴイ\\nモエキュンノハドウ!!　コレッテ……",
+        "zh_cn": "哇啊啊啊啊！？\\n好强大的萌萌波动！\\n这难道……",
+        "zh_tw": "嗚哇────────！？\\n好強的萌啾波動！！\\n這是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0095",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Ghost",
+        "ja_jp": "オバケ",
+        "zh_cn": "幽灵",
+        "zh_tw": "幽靈"
+      },
+      "context": {
+        "en_us": "IT'S SO PRECIOUS I CAN'T STAND IT...\\nFAREWEEEEEELL...",
+        "ja_jp": "モエモエノマリアージュ……\\nトウトスギ……サヨナラ……☆",
+        "zh_cn": "这难道就是萌的究极境界……\\n啊我死了……永别了☆",
+        "zh_tw": "萌萌的二重結合……\\n太尊貴了……昇天……☆"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0096",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Did we do it?",
+        "ja_jp": "これは……やりおおせたか!?",
+        "zh_cn": "我们……成功了吗！？",
+        "zh_tw": "此景……是成功了嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0097",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Splendid work! Truly you have shown\\nyour love for Emile this day.",
+        "ja_jp": "お<ruby><rb>見事</rb><rt>みごと</rt></ruby>です。\\nおふたりのエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>への『<ruby><rb>愛</rb><rt>あい</rt></ruby>』、\\nしかと<ruby><rb>拝見</rb><rt>はいけん</rt></ruby>いたしました。",
+        "zh_cn": "干得漂亮。\\n二位对艾缪尔大人的“爱”\\n果然不容小觑。",
+        "zh_tw": "非常了不起。\\n兩位對埃米爾大人的「愛」，\\n我確實親眼見證了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0098",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "The pair of you are already a set of\\nsplendid servants.",
+        "ja_jp": "ふふ……おふたりはもう、\\n<ruby><rb>立派</rb><rt>りっぱ</rt></ruby>な<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>でございます。",
+        "zh_cn": "呵呵……\\n二位已经称得上是\\n能独当一面的佣人了。",
+        "zh_tw": "呵呵……\\n兩位已經是獨當一面的僕人了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0099",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Your guidance is appreciated, Edward.\\nWith this, I too can be a cutie butler...\\nI feel myself overflowing with devotion...",
+        "ja_jp": "エドワードよ、<ruby><rb>世話</rb><rt>せわ</rt></ruby>になった……。\\nこれで<ruby><rb>私</rb><rt>わたし</rt></ruby>も<ruby><rb>萌</rb><rt>も</rt></ruby>えキュン<ruby><rb>執事</rb><rt>しつじ</rt></ruby>……。\\n<ruby><rb>無限</rb><rt>むげん</rt></ruby>に<ruby><rb>真心注入</rb><rt>まごころちゅうにゅう</rt></ruby>できよう。",
+        "zh_cn": "爱德华，让你费心了……\\n这下我也成为了萌萌管家……\\n可以无限发射萌萌光波了。",
+        "zh_tw": "愛德華啊，受汝多方關照了……\\n這下我也是萌啾執事……\\n能夠無限地注滿真心。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0100",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Now let us continue forth and save Emile!",
+        "ja_jp": "では、いざ<ruby><rb>進</rb><rt>すす</rt></ruby>まん。<ruby><rb>共</rb><rt>とも</rt></ruby>にエミュールを\\n<ruby><rb>救</rb><rt>すく</rt></ruby>うのだ――！",
+        "zh_cn": "我们前进吧，\\n一起去救艾缪尔！",
+        "zh_tw": "那麼，動身吧。\\n共同前去拯救埃米爾──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0101",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "So being a full-fledged servant has to do\\nwith whether or not you can be adorable?\\nWow, that's deep...",
+        "ja_jp": "えっ……いちにんまえって、\\n<ruby><rb>萌</rb><rt>も</rt></ruby>えキュンできるかどうか、なんです？\\nうぅん、おくがふかいです……！",
+        "zh_cn": "诶……能不能独当一面\\n是要看会不会萌萌光波的吗？\\n唔，好深奥啊……",
+        "zh_tw": "咦……有沒有獨當一面，\\n要看會不會使用萌啾、嗎？\\n嗯～太深奧了……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0102",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "We made it back at last, and it appears\\nthe spirits have vanished.",
+        "ja_jp": "はぁっ……やっと<ruby><rb>戻</rb><rt>もど</rt></ruby>ってきたか。\\nもう<ruby><rb>室内</rb><rt>しつない</rt></ruby>に<ruby><rb>霊</rb><rt>れい</rt></ruby>はおらぬようだな。",
+        "zh_cn": "呼……终于回来了。\\n不过屋里好像已经没有幽灵了。",
+        "zh_tw": "呼……總算回到此處了。\\n室內似乎已無靈體。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0103",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "A prime opportunity. Let us hurry deeper\\ninto the basement while we can!",
+        "ja_jp": "<ruby><rb>好都合</rb><rt>こうつごう</rt></ruby>です。<ruby><rb>一刻</rb><rt>いっこく</rt></ruby>も<ruby><rb>早</rb><rt>はや</rt></ruby>く<ruby><rb>地下室</rb><rt>ちかしつ</rt></ruby>の\\n<ruby><rb>奥</rb><rt>おく</rt></ruby>へ<ruby><rb>向</rb><rt>む</rt></ruby>かいましょう！",
+        "zh_cn": "那正好。\\n我们赶快去地下室深处看看吧！",
+        "zh_tw": "這是個好機會。\\n我們快點前往地下室深處吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0104",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "You will do no such thing!",
+        "ja_jp": "――そうはさせぬぞッ!!",
+        "zh_cn": "我不会让你们如愿的！",
+        "zh_tw": "──休想得逞！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0105",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "It's the head butler!",
+        "ja_jp": "あ、あなたは……<ruby><rb>執事長</rb><rt>しつじちょう</rt></ruby>さん？",
+        "zh_cn": "你、你是……总管家？",
+        "zh_tw": "你、你是……執事長先生？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0106",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "Emperor Emile is in the midst of being\\nreborn, and I will not permit you to\\ninterfere with that.",
+        "ja_jp": "この<ruby><rb>先</rb><rt>さき</rt></ruby>へは<ruby><rb>通</rb><rt>とお</rt></ruby>さぬ。エミュール<ruby><rb>様</rb><rt>さま</rt></ruby>は\\n<ruby><rb>今</rb><rt>いま</rt></ruby>まさに<ruby><rb>生</rb><rt>う</rt></ruby>まれ<ruby><rb>変</rb><rt>か</rt></ruby>わろうとして\\nいらっしゃるのだ。その<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>はさせぬ。",
+        "zh_cn": "前方禁止通行。\\n艾缪尔大人如今在蜕变重生，\\n我不会让你们捣乱的。",
+        "zh_tw": "我不會讓你們通過的。\\n埃米爾大人此時正打算蛻變重生，\\n你們休想妨礙。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0107",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "So you will stand in our way, then?\\nVery well, I accept your... What?!",
+        "ja_jp": "やはり、<ruby><rb>立</rb><rt>た</rt></ruby>ちはだかりますか。\\nいいでしょう、<ruby><rb>受</rb><rt>う</rt></ruby>けてたちます……\\nなっ!?",
+        "zh_cn": "果然要来阻拦我们吗。\\n好吧，我们接受您的挑战……\\n什么！？",
+        "zh_tw": "您果然，要阻止我們嗎。\\n好吧，我們願意迎戰……什麼！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0108",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "You must be eliminated for his wish to be\\nfulfilled. NOT EVEN FRIENDS WILL BE\\nALLOWED TO INTERFERE WITH THE PARTY!",
+        "ja_jp": "<ruby><rb>排除</rb><rt>はいじょ</rt></ruby>だ。あの<ruby><rb>方</rb><rt>かた</rt></ruby>の<ruby><rb>悲願</rb><rt>ひがん</rt></ruby>を<ruby><rb>叶</rb><rt>かな</rt></ruby>えるために\\n<ruby><rb>排除</rb><rt>はいじょ</rt></ruby>せねば。そう……オトモダチデモ、\\nパーティーノジャマハサセナイ……!!",
+        "zh_cn": "消灭你们。为了那位大人的夙愿，\\n我必须消灭你们。没错……\\n就算是朋友……也别想给派对捣乱！",
+        "zh_tw": "排除。為了實現那位大人的宿願，\\n必須排除。沒錯……即使是好朋友，\\n也不能妨礙宴會……！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0109",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "He has taken leave of his senses.\\nReady yourselves, both of you!",
+        "ja_jp": "……くっ、こやつ、<ruby><rb>正気</rb><rt>しょうき</rt></ruby>ではない。\\n<ruby><rb>汝</rb><rt>なんじ</rt></ruby>ら、<ruby><rb>構</rb><rt>かま</rt></ruby>えよ……<ruby><rb>来</rb><rt>く</rt></ruby>るぞ！",
+        "zh_cn": "唔，这家伙不对劲。\\n大家做好准备……他要来了！",
+        "zh_tw": "……唔，此人、已喪失理智。\\n汝等，速擺好架式……要來了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0110",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "THE FUN PARTY WILL CONTINUE FOREVER!\\nWHEEEEEE HEE HEE HEEEEE!",
+        "ja_jp": "タノシイパーティーヲズットスルンダ！\\nウガアアアアアアアア!!",
+        "zh_cn": "永远和我一起开心地参加派对吧！\\n哇啊啊啊啊啊啊啊！",
+        "zh_tw": "快樂的宴會要永遠繼續下去！\\n嗚嘎啊啊啊啊啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_04_0111",
+      "book": ""
+    }
+  ]
 }

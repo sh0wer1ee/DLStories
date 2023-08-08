@@ -1,1279 +1,2414 @@
 {
-    "story_id": "",
-    "story_name": "圣天之陨～前篇～ 交换情报",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "奈文一行人击退伪恶魔后\\n与哈尔交换了情报，并为了通报\\n新的情况而出发前往格拉姆斯。\\n另一方面，入狱后的奎茵托狱卒传话，\\n得到了与巫女奥莉加见面的机会。"
-        ]
+  "title": {
+    "en_us": "Faith Forsaken (Part One)    Exchanging Information",
+    "ja_jp": "セイクリッドロスト～前編～  情報交換",
+    "zh_cn": "圣天之陨～前篇～  交换情报",
+    "zh_tw": "失落的信仰～前篇～  情報交換"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "120091_01"
-            ],
-            "speaker_name": "恢复的男子",
-            "context": "唔……呃……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210145_01"
-            ],
-            "speaker_name": "加百列",
-            "context": "姑且算是打倒了\\n所有伪恶魔吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210132_01"
-            ],
-            "speaker_name": "拉米艾尔",
-            "context": "嗯，可是有点不对劲……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "是啊，出现在这里的伪恶魔\\n和我们至今为止交过手的那些\\n有一些不同。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "之前伪恶魔的瘴气来源于封印石。\\n这也是他们非常难对付的\\n最大原因……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "比以前更容易打倒了，\\n不是很好吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "你是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "请恕我自报家门晚了。\\n我叫哈尔，还请多多关照。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210145_01"
-            ],
-            "speaker_name": "加百列",
-            "context": "哈尔……之前尤蒂尔\\n提到过的“满脸奸笑的守卫队长”\\n好像就叫……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "这么说也太不留情面了吧……\\n不过算了，反正他说的那个人\\n是我也不完全是我。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "什么意思？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "这几年我一直都被关在异界，\\n最近才出来的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "这期间，假扮成我的冒牌货\\n似乎干了不少坏事。\\n哎呀，真让人伤脑筋。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "冒牌货……你刚才好像\\n也和法斯说过类似的话……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "哎呀，怎么了吗？\\n用这种怀疑的眼神看着我……\\n难道是不相信我说的话？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "很抱歉，的确如此。\\n根据尤蒂尔提供的情报，\\n对你有所防备也很正常。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "还真是苛刻呢。我可是还想\\n和大家再合作一些时日的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "合作……\\n你知道我们的目的吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "嗯，当然知道。\\n是阻止“撒旦”复活吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "其实我也独自进行了调查……\\n来到这个国家也是其中一环。\\n这一点，你们不也一样吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210132_01"
-            ],
-            "speaker_name": "拉米艾尔",
-            "context": "既然你说了是合作，\\n那我可以认为你手里\\n也掌握着有用的情报吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "当然了。不过，你们看起来\\n都不太信得过我……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "所以不管我提供什么有用的情报，\\n如果你们不肯相信也是浪费时间。\\n唉，真是可惜。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "唔……这个人说话\\n怎么阴阳怪气的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "好了好了。我知道了……\\n先不论你是否值得信赖，\\n我们来共享一下彼此的情报吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210145_01"
-            ],
-            "speaker_name": "加百列",
-            "context": "奈文……这么轻易就把情报\\n说出来没关系吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "站在这里的哈尔和法斯是敌对关系。\\n敌人的敌人就是朋友……\\n所以共享情报也没问题。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "（当然，敏感信息\\n还是会隐瞒的……）",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "我这边没问题。不过，\\n我们不是共享，而是交换。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "不是共享而是交换？\\n这有什么区别吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "总体来说还是一样的。\\n只是我这个不被信任的人\\n想采取合作互助的形式而已。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "（啧……这家伙，\\n嘴上说着信任和合作，\\n却完全信不过我们……）",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "（不过他这种态度反倒能证明\\n他并不是敌人……）",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "可以……\\n那我们先换个地方，\\n再开始交换情报吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "远离军事国家洛基梅亚的地区\\n某村落",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "唔，好刺眼啊……\\n已经日上三竿了啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210145_01"
-            ],
-            "speaker_name": "加百列",
-            "context": "你没事吧，小皮？要是困了\\n可以睡在妈妈的腿上哦？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "不用了我不困。\\n况且现在哪有空睡觉。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "拉米艾尔，怎么样了？\\n力量还没有恢复吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210132_01"
-            ],
-            "speaker_name": "拉米艾尔",
-            "context": "还是不行。力量非常不稳定……\\n这种状态下根本没办法\\n通过路径和圣德芬取得联系。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210132_01"
-            ],
-            "speaker_name": "拉米艾尔",
-            "context": "那就只能回到格拉姆斯\\n直接传达现在的情况了。\\n毕竟事态已经刻不容缓……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210132_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "几小时前……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "持有撒旦“碎片”的五大恶魔……\\n以及整合这些碎片、\\n成为驱动核心的“容器”……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "原来如此……\\n呵呵，这可是很有帮助的情报。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "现在轮到你了，哈尔。\\n可别让我失望。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "唔……那你们觉得\\n这种情报怎么样？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "传说复活撒旦必不可少的要素\\n就是5个碎片……这些碎片\\n应该已经被冒充我的人回收了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "什么！？消息可靠吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "等等，皮诺！？唉……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "哎呀，看来你们并不知道呢……\\n刚才那是我在追踪冒牌货途中\\n获得的可靠情报。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "不过他出发前往五大恶魔那里\\n之后的事我就不知道了……总之很高兴\\n和你们进行了有意义的情报交换。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0134",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "（我本来想假装知道这事，\\n诈出一点其它有用的情报……\\n但皮诺竟然傻到把震惊写在脸上。）",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "不过……这样看来，\\n我们似乎已经束手无策了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "呵呵呵……这可不一定哦？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "（可恶，看他一脸得意的样子……\\n除了碎片和容器还有其它东西吗？\\n不，等一等……说起来……）",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "对了，还差“魂魄”！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210145_01"
-            ],
-            "speaker_name": "加百列",
-            "context": "魂魄……附言里写着\\n需要验证的那个？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "哎呀，真让人吃惊。\\n没想到那本手记里\\n竟然连这件事都写了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "好吧，\\n再送给你们一条情报……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "想要复活撒旦，只有碎片和容器\\n是不够的。除此以外还需要……\\n异界最深处封印的撒旦魔力——魂魄。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210145_01"
-            ],
-            "speaker_name": "加百列",
-            "context": "你的意思是……\\n就算是有血有肉的躯体，\\n没有魂魄就不算是彻底复活？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "没错。这件事是我在调查\\n冒充我的那个人时知道的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "直到最近为止，冒充我的人似乎\\n一直在寻找能把撒旦的魂魄\\n从异界召唤出来的“钥匙”。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "皮诺",
-            "context": "钥匙？那究竟是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "钥匙所在的地方我进不去，\\n所以没见过实物，但据我所知，\\n是蕴含了梅塔特隆魔力的圣片。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210132_01"
-            ],
-            "speaker_name": "拉米艾尔",
-            "context": "梅塔特隆……\\n听你刚才的语气，\\n难道那圣片也已经被回收了？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "嗯，没错。不过……还有转机。\\n因为想要使用钥匙，\\n似乎需要举行大规模的仪式。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210145_01"
-            ],
-            "speaker_name": "加百列",
-            "context": "大规模的仪式……\\n具体是什么样的仪式？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "据冒充我的那个人留下的线索来看，\\n似乎是……需要献上666个人\\n作为活祭的仪式。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "666人……将那么多人\\n作为活祭供奉吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "只能说……撒旦的魂魄所蕴含的\\n力量巨大无穷，以至于要以牺牲\\n这么多人的性命为代价吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210145_01"
-            ],
-            "speaker_name": "加百列",
-            "context": "不过，怎么才能找到\\n这么多活祭啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210132_01"
-            ],
-            "speaker_name": "拉米艾尔",
-            "context": "我明白了……最近就有一个\\n正适合的活动要举办。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "“圣大祭”吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210132_01"
-            ],
-            "speaker_name": "拉米艾尔",
-            "context": "对。北大陆的教会相关人员\\n会在活动当天聚集到格拉姆斯。\\n如果打算将他们作为活祭……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "“圣大祭”的举办日期\\n可是快到了啊！？\\n得快点通知大家才行！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "喂，先别着急啊皮诺后辈。\\n一句通知说得倒是容易，\\n可你要通知谁啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "这还用说吗，当然是打算\\n前往格拉姆斯的那些人啊！\\n他们可是会被当成活祭的啊！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "考虑到祭典举办的日期，\\n大多数参加的人应该\\n都已经抵达格拉姆斯了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "要说办法，就只有阻止\\n祭典举办了……拉米艾尔，\\n你能联系上圣德芬吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210132_01"
-            ],
-            "speaker_name": "拉米艾尔",
-            "context": "联系不上。法斯对我们使用的\\n魔导具效果迟迟不退。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210145_01"
-            ],
-            "speaker_name": "加百列",
-            "context": "我这边也是。圣痕联系\\n也一直是受阻断的状态……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "（法斯那家伙看来是\\n早就料到了这种情况……那么，\\n就算我们直接行动，恐怕也会……）",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "抱歉……给我点时间考虑。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "奈文前辈……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "现在……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210132_01"
-            ],
-            "speaker_name": "拉米艾尔",
-            "context": "怎么样，有什么主意了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "嗯，我们抓紧时间赶往格拉姆斯。\\n哈尔，你也会来吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "嗯，那当然。\\n毕竟那个嘲弄我的人\\n也一定会在那里嘛，呵呵呵。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "那我们就快点出发吧。\\n大家都准备好了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "当然了！我们走吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210145_01"
-            ],
-            "speaker_name": "加百列",
-            "context": "啊，等一下小皮！\\n后脑勺的头发都翘起来了。\\n妈妈来帮你理好♪",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0089",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "呵呵……嘲弄我的这笔账，\\n一定要讨回来呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0090",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "拉米艾尔",
-            "context": "那么……我该怎么做？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0091",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "呵，你还真是很敏锐啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0092",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "拉米艾尔",
-            "context": "那还用说吗，\\n我们都认识多少年了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0093",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110365_01"
-            ],
-            "speaker_name": "奈文",
-            "context": "拉米艾尔，我有一件事……\\n想让你帮忙跑一趟。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0094",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210132_01",
-                "110365_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "圣都格拉姆斯\\n伊莉雅教会·教皇厅·特殊监狱",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210132_01",
-                "110365_01"
-            ],
-            "speaker_name": "看守牢房的教会骑士",
-            "context": "真是的，这种时候竟然摊上\\n看守牢房的活儿……本来应该\\n和老婆还有2岁的女儿团聚的……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0095",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210132_01",
-                "110365_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "圣大祭当天……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210132_01",
-                "110365_01"
-            ],
-            "speaker_name": "看守牢房的教会骑士",
-            "context": "这都是拜你们使徒所赐！\\n你们竟然杀害祭司、放火烧镇，\\n到底是怎么想的啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0096",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110381_03"
-            ],
-            "speaker_name": "里莎",
-            "context": "才、才不是呢！\\n那些不是我们做的……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0097",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "看守牢房的教会骑士",
-            "context": "哼，别狡辩了。\\n你们企图叛变一事\\n在教会里已经人尽皆知！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0098",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "看守牢房的教会骑士",
-            "context": "唉，巴赛尔大主教也真是冤枉啊。\\n没能察觉到你们的失控，\\n因监管不力而被停职了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0099",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "看守牢房的教会骑士",
-            "context": "那么稳重耿直的好人，就因为\\n你们的背叛而被别人说闲话。\\n你们的良心不会痛吗，嗯？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0100",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110381_03"
-            ],
-            "speaker_name": "里莎",
-            "context": "都说了那是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0101",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110381_03"
-            ],
-            "speaker_name": "看守牢房的教会骑士",
-            "context": "竟然还不知悔改……哼，\\n你向那小子学学不行吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0102",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110381_03"
-            ],
-            "speaker_name": "看守牢房的教会骑士",
-            "context": "他自从进来之后一直\\n一言不发地默默反省呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0103",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110382_04"
-            ],
-            "speaker_name": "里莎",
-            "context": "弗拉斯……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0104",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110395_02"
-            ],
-            "speaker_name": "奎茵",
-            "context": "喂，狱卒。帮我们通报巫女……\\n教皇陛下。我有些事要说。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0105",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110395_02"
-            ],
-            "speaker_name": "奎茵",
-            "context": "和她说“阿尔菲尔”她应该就懂了。\\n听到了吗，一定要告诉陛下！\\n要是搞砸了你可就完蛋了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0106",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "看守牢房的教会骑士",
-            "context": "哼！少吓唬我。\\n我才不会相信那种胡话。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0107",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "奎茵",
-            "context": "你要觉得是胡话随便你。\\n不过要是你的家人到时候\\n遇到什么不测可别怪我啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0108",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "看守牢房的教会骑士",
-            "context": "好吧……不过，我只负责传话，\\n别的我可不管。因为我不觉得\\n教皇陛下会听一个异端的话！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0109",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110381_03"
-            ],
-            "speaker_name": "里莎",
-            "context": "奎茵……我也不是不信你，\\n只是……教皇陛下\\n真的会听我们说话吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0110",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110395_02"
-            ],
-            "speaker_name": "奎茵",
-            "context": "不知道。但是，如果她\\n还没忘记当年的事，就一定……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0111",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110395_02"
-            ],
-            "speaker_name": "奎茵",
-            "context": "对了，里莎。\\n你和拉斐尔的圣痕联系怎么样了？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0112",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110381_03"
-            ],
-            "speaker_name": "里莎",
-            "context": "还是不行……完全感觉不到。\\n应该没法指望它自然恢复了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0113",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110395_02"
-            ],
-            "speaker_name": "奎茵",
-            "context": "原来如此，情况和我一样吗……\\n既然不能动用圣痕的力量，\\n也就没法强行越狱了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0114",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110395_02"
-            ],
-            "speaker_name": "奎茵",
-            "context": "这样一来，就只能靠弗拉斯的\\n计划了。我们被抓的时候，\\n乌列没有特别嘱咐什么吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0115",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110381_03"
-            ],
-            "speaker_name": "里莎",
-            "context": "啊，嗯……只说了一句\\n“弗拉斯合格”……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0116",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110395_02"
-            ],
-            "speaker_name": "奎茵",
-            "context": "哼，自家孩子宠得不得了呢。\\n不过……我懂了。在当时的情况下，\\n他们所能做的，恐怕也只有……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0117",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110395_02"
-            ],
-            "speaker_name": "奎茵",
-            "context": "既然如此，\\n最好能再有一手准备……\\n不，两手比较好吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0118",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110395_02"
-            ],
-            "speaker_name": "看守牢房的教会骑士",
-            "context": "喂！这到底是怎么回事！？\\n奎茵，教皇陛下叫你过去！",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0119",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110395_02"
-            ],
-            "speaker_name": "奎茵",
-            "context": "先来第一手……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0120",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110395_02"
-            ],
-            "speaker_name": "SYS",
-            "context": "圣都格拉姆斯\\n伊莉雅教会·教皇厅",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "奥莉加大人，请您三思啊！\\n她可是那些使徒的指挥官……\\n说白了就是叛变的主犯啊！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0121",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100043_01"
-            ],
-            "speaker_name": "奥莉加",
-            "context": "别让吾说第二遍，古拉特。\\n吾命令你退下。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0122",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120194_01"
-            ],
-            "speaker_name": "古拉特",
-            "context": "唔……遵命。\\n有事请随时叫我……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0123",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100043_01"
-            ],
-            "speaker_name": "奥莉加",
-            "context": "碍事的人吾已经屏退了……\\n有话就尽管讲吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0124",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110395_02"
-            ],
-            "speaker_name": "奎茵",
-            "context": "我本不想在这种情况下见你……\\n但看你过得不错我也就放心了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0125",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100043_01"
-            ],
-            "speaker_name": "奥莉加",
-            "context": "客套话就免了……\\n直接说正事。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0126",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110395_02"
-            ],
-            "speaker_name": "奎茵",
-            "context": "那我就直说了……\\n我们企图叛变一事是被诬陷的。\\n我要求你立刻放我们走。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0127",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100043_01"
-            ],
-            "speaker_name": "奥莉加",
-            "context": "吾拒绝。\\n已经做出的决定不容反悔。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0128",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110395_02"
-            ],
-            "speaker_name": "奎茵",
-            "context": "那有附加条件或者派人监视也可以。\\n为了洗清我们的罪名，\\n请你允许我们调查此次事件。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0129",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100043_01"
-            ],
-            "speaker_name": "奥莉加",
-            "context": "吾拒绝。至少在圣大祭结束之前，\\n你们都必须老老实实待在牢里。\\n你要说的话都说完了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0130",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110395_02"
-            ],
-            "speaker_name": "奎茵",
-            "context": "还没有。我还有很多话想说……\\n你不也是有同样的想法，\\n才给了我这次机会吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0131",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100043_01"
-            ],
-            "speaker_name": "奥莉加",
-            "context": "嗯，吾也……",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0132",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100043_01"
-            ],
-            "speaker_name": "奥莉加",
-            "context": "我也想在出席祭典之前\\n再和你聊一聊……奎茵姐姐。",
-            "voice_line": "VO_CHR_EVENTSTORY_20438_04_0133",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "After dispatching the demonic entities, Nevin's\\nteam pools their information with Harle, then\\nmakes for Grams to report their discoveries.\\nMeanwhile, Regina asks her guard to deliver a\\nmessage to Origa and secures an audience.",
+      "ja_jp": "<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>もどきを<ruby><rb>退</rb><rt>しりぞ</rt></ruby>けたネヴィンたちは、\\nハールと<ruby><rb>互</rb><rt>たが</rt></ruby>いに<ruby><rb>知</rb><rt>し</rt></ruby>っている<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>を<ruby><rb>交換</rb><rt>こうかん</rt></ruby>。\\n<ruby><rb>新</rb><rt>あら</rt></ruby>たな<ruby><rb>事実</rb><rt>じじつ</rt></ruby>を<ruby><rb>伝</rb><rt>つた</rt></ruby>えるためグラムスへ<ruby><rb>向</rb><rt>む</rt></ruby>かう。\\n<ruby><rb>一方</rb><rt>いっぽう</rt></ruby>、<ruby><rb>投獄</rb><rt>とうごく</rt></ruby>されていたクインは<ruby><rb>牢番</rb><rt>ろうばん</rt></ruby>に<ruby><rb>伝言</rb><rt>でんごん</rt></ruby>を\\n<ruby><rb>頼</rb><rt>たの</rt></ruby>み、<ruby><rb>巫女</rb><rt>みこ</rt></ruby>オリガと<ruby><rb>面会</rb><rt>めんかい</rt></ruby>する<ruby><rb>機会</rb><rt>きかい</rt></ruby>を<ruby><rb>得</rb><rt>え</rt></ruby>る。",
+      "zh_cn": "奈文一行人击退伪恶魔后\\n与哈尔交换了情报，并为了通报\\n新的情况而出发前往格拉姆斯。\\n另一方面，入狱后的奎茵托狱卒传话，\\n得到了与巫女奥莉加见面的机会。",
+      "zh_tw": "涅因等人擊退假惡魔後，\\n與哈魯互相交換各自的情報，\\n並決定前往葛拉姆斯傳達新得知的事實。\\n另一方面，在獄中的柯恩拜託守衛傳話，\\n因而得到了與巫女奧莉加會面的機會。"
+    }
+  },
+  "prev": "2043803",
+  "next": "2043805",
+  "content": [
+    {
+      "icon": "120091_01",
+      "name": {
+        "en_us": "Freed Man",
+        "ja_jp": "解放された男性",
+        "zh_cn": "恢复的男子",
+        "zh_tw": "被解放的男性"
+      },
+      "context": {
+        "en_us": "Nnngh...",
+        "ja_jp": "うっ……くっ……。",
+        "zh_cn": "唔……呃……",
+        "zh_tw": "唔……呃……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0001",
+      "book": ""
+    },
+    {
+      "icon": "210145_01",
+      "name": {
+        "en_us": "Gabriel",
+        "ja_jp": "ガブリエル",
+        "zh_cn": "加百列",
+        "zh_tw": "加百列"
+      },
+      "context": {
+        "en_us": "That should be the last of the\\ndemonic entities.",
+        "ja_jp": "<ruby><rb>一応</rb><rt>いちおう</rt></ruby>、<ruby><rb>今</rb><rt>いま</rt></ruby>ので<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>もどきはすべて\\n<ruby><rb>倒</rb><rt>たお</rt></ruby>せたみたいね。",
+        "zh_cn": "姑且算是打倒了\\n所有伪恶魔吧。",
+        "zh_tw": "現在姑且算是\\n把那些假惡魔都打倒了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0002",
+      "book": ""
+    },
+    {
+      "icon": "210132_01",
+      "name": {
+        "en_us": "Ramiel",
+        "ja_jp": "ラミエル",
+        "zh_cn": "拉米艾尔",
+        "zh_tw": "雷米爾"
+      },
+      "context": {
+        "en_us": "Yes, but...something's strange.",
+        "ja_jp": "ええ。ですが、<ruby><rb>妙</rb><rt>みょう</rt></ruby>ですね……。",
+        "zh_cn": "嗯，可是有点不对劲……",
+        "zh_tw": "嗯，但是很奇怪呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0003",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "You felt it too, huh? These demonic entities\\nare definitely different from the ones we\\nscrapped with before.",
+        "ja_jp": "ああ。ここに<ruby><rb>現</rb><rt>あらわ</rt></ruby>れた<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>もどきたちは、\\n<ruby><rb>今</rb><rt>いま</rt></ruby>までオレたちが<ruby><rb>戦</rb><rt>たたか</rt></ruby>った<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>もどきと\\n<ruby><rb>何</rb><rt>なに</rt></ruby>かが<ruby><rb>違</rb><rt>ちが</rt></ruby>う。",
+        "zh_cn": "是啊，出现在这里的伪恶魔\\n和我们至今为止交过手的那些\\n有一些不同。",
+        "zh_tw": "嗯，剛才出現的那些假惡魔，\\n和我們以往交戰過的有些不同。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0004",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "Until now, they were being fed a supply of\\nmiasma from the sealing stone, which is\\nwhat made 'em such a pain.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>までの<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>もどきは<ruby><rb>封印石</rb><rt>ふういんせき</rt></ruby>から<ruby><rb>瘴気</rb><rt>しょうき</rt></ruby>の\\n<ruby><rb>供給</rb><rt>きょうきゅう</rt></ruby>を<ruby><rb>受</rb><rt>う</rt></ruby>けていた。それが、ヤツらが\\n<ruby><rb>厄介</rb><rt>やっかい</rt></ruby>な<ruby><rb>一番</rb><rt>いちばん</rt></ruby>の<ruby><rb>理由</rb><rt>りゆう</rt></ruby>だったんだが……。",
+        "zh_cn": "之前伪恶魔的瘴气来源于封印石。\\n这也是他们非常难对付的\\n最大原因……",
+        "zh_tw": "以往的假惡魔，都有封印石\\n在提供他們瘴氣。那也是為什麼\\n他們會很難對付的最大原因……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0005",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "I know I'm new to this particular party,\\nbut if they're easier to deal with now,\\nisn't that a good thing?",
+        "ja_jp": "<ruby><rb>前</rb><rt>まえ</rt></ruby>よりも<ruby><rb>容易</rb><rt>ようい</rt></ruby>に<ruby><rb>倒</rb><rt>たお</rt></ruby>せた、というのなら\\nそれでよいのではないですか？",
+        "zh_cn": "比以前更容易打倒了，\\n不是很好吗？",
+        "zh_tw": "既然這次的比以前容易打倒，\\n那不就好了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0006",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Sorry, but who are you again?",
+        "ja_jp": "あなたは……。",
+        "zh_cn": "你是……",
+        "zh_tw": "你是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0007",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Ah, where ARE my manners? Harle.\\nThe pleasure is all mine.",
+        "ja_jp": "<ruby><rb>申</rb><rt>もう</rt></ruby>し<ruby><rb>遅</rb><rt>おく</rt></ruby>れました。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>名</rb><rt>な</rt></ruby>はハール。<ruby><rb>以後</rb><rt>いご</rt></ruby>お<ruby><rb>見知</rb><rt>みし</rt></ruby>りおきを。",
+        "zh_cn": "请恕我自报家门晚了。\\n我叫哈尔，还请多多关照。",
+        "zh_tw": "忘記自我介紹了。\\n我的名字是哈魯，往後請多指教。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0008",
+      "book": ""
+    },
+    {
+      "icon": "210145_01",
+      "name": {
+        "en_us": "Gabriel",
+        "ja_jp": "ガブリエル",
+        "zh_cn": "加百列",
+        "zh_tw": "加百列"
+      },
+      "context": {
+        "en_us": "Prince Euden spoke of a\\nHarle once—something about a smirking\\nchief of the Capital Guard.",
+        "ja_jp": "ハール……<ruby><rb>前</rb><rt>まえ</rt></ruby>にユーディルが\\n<ruby><rb>口</rb><rt>くち</rt></ruby>にしていた『にやけ<ruby><rb>面</rb><rt>づら</rt></ruby>の<ruby><rb>守備隊長</rb><rt>しゅびたいちょう</rt></ruby>』の\\n<ruby><rb>名前</rb><rt>なまえ</rt></ruby>がたしか……。",
+        "zh_cn": "哈尔……之前尤蒂尔\\n提到过的“满脸奸笑的守卫队长”\\n好像就叫……",
+        "zh_tw": "哈魯……我記得這名字是以前\\n尤帝爾曾說過的\\n「嘻皮笑臉的守衛隊長」……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0009",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Well, I happen to think I have a lovely\\nsmile, but that's neither here nor there.\\nWhile your friend was talking about me,\\nhe wasn't actually talking about...ME.",
+        "ja_jp": "にやけ<ruby><rb>面</rb><rt>づら</rt></ruby>とはずいぶんな<ruby><rb>言</rb><rt>い</rt></ruby>い<ruby><rb>様</rb><rt>よう</rt></ruby>ですが\\n……まあいいでしょう。どうせそれは、\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>であって<ruby><rb>私</rb><rt>わたし</rt></ruby>ではありませんから。",
+        "zh_cn": "这么说也太不留情面了吧……\\n不过算了，反正他说的那个人\\n是我也不完全是我。",
+        "zh_tw": "嘻皮笑臉這說法還真過分啊……\\n不過無所謂。\\n畢竟那說的是我，卻也不是我。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0010",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Would you like to explain that, or should\\nI just stand here and blink at you?",
+        "ja_jp": "どういう<ruby><rb>事</rb><rt>こと</rt></ruby>ですか？",
+        "zh_cn": "什么意思？",
+        "zh_tw": "這是什麼意思？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0011",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "For some years—until very recently—\\nI was trapped in another world.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>はつい<ruby><rb>最近</rb><rt>さいきん</rt></ruby>まで<ruby><rb>数年間</rb><rt>すうねんかん</rt></ruby>、<ruby><rb>異界</rb><rt>いかい</rt></ruby>に\\n<ruby><rb>閉</rb><rt>と</rt></ruby>じ<ruby><rb>込</rb><rt>こ</rt></ruby>められていましてね。",
+        "zh_cn": "这几年我一直都被关在异界，\\n最近才出来的。",
+        "zh_tw": "直到最近為止的幾年之間，\\n我都被封印在異界之中呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0012",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Worse yet, an impostor stole my face and\\ngot up to all manner of mischief in the\\nmeantime. It's all been quite the bother.",
+        "ja_jp": "その<ruby><rb>間</rb><rt>かん</rt></ruby>、<ruby><rb>私</rb><rt>わたし</rt></ruby>に<ruby><rb>成</rb><rt>な</rt></ruby>り<ruby><rb>代</rb><rt>か</rt></ruby>わったニセモノが\\nいろいろ<ruby><rb>悪</rb><rt>わる</rt></ruby>さをしていたようなのです。\\nいやはや、<ruby><rb>実</rb><rt>じつ</rt></ruby>に<ruby><rb>迷惑</rb><rt>めいわく</rt></ruby>な<ruby><rb>話</rb><rt>はなし</rt></ruby>ですよ。",
+        "zh_cn": "这期间，假扮成我的冒牌货\\n似乎干了不少坏事。\\n哎呀，真让人伤脑筋。",
+        "zh_tw": "在這段期間，似乎有個偽裝成我的\\n冒牌貨，在做著各種壞事呢。\\n哎呀，這實在讓我很困擾啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0013",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "I heard you say something about that to\\nBasileus earlier, but...",
+        "ja_jp": "……ニセモノが……たしかに、さきほど\\nヴァースともそのような<ruby><rb>事</rb><rt>こと</rt></ruby>を<ruby><rb>話</rb><rt>はな</rt></ruby>していた\\nようですが……。",
+        "zh_cn": "冒牌货……你刚才好像\\n也和法斯说过类似的话……",
+        "zh_tw": "……冒牌貨……我記得，\\n你剛才也和梵斯說過類似的話……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0014",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Mmm? Something the matter? I can't help\\nbut notice that accusatory stare of yours.\\nHeaven forfend that you doubt me!",
+        "ja_jp": "おや、いかがされました？　\\nそんな<ruby><rb>疑</rb><rt>うたが</rt></ruby>いの<ruby><rb>眼差</rb><rt>まなざ</rt></ruby>しを<ruby><rb>向</rb><rt>む</rt></ruby>けて……。\\nまさか、<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>言葉</rb><rt>ことば</rt></ruby>が<ruby><rb>信用</rb><rt>しんよう</rt></ruby>できないと？",
+        "zh_cn": "哎呀，怎么了吗？\\n用这种怀疑的眼神看着我……\\n难道是不相信我说的话？",
+        "zh_tw": "哎呀，怎麼了呢？\\n用如此懷疑的眼神看我……\\n莫非，我的話語難以信任嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0015",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Actually, I very much do—and I intend to\\nexercise extreme caution around you given\\nwhat Euden said.",
+        "ja_jp": "すみませんが、その<ruby><rb>通</rb><rt>とお</rt></ruby>りですよ。\\nユーディルから<ruby><rb>聞</rb><rt>き</rt></ruby>いている\\n<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>を<ruby><rb>考</rb><rt>かんが</rt></ruby>えれば<ruby><rb>警戒</rb><rt>けいかい</rt></ruby>するのは<ruby><rb>当然</rb><rt>とうぜん</rt></ruby>です。",
+        "zh_cn": "很抱歉，的确如此。\\n根据尤蒂尔提供的情报，\\n对你有所防备也很正常。",
+        "zh_tw": "很抱歉，就是你說的那樣。\\n考慮到來自尤帝爾的\\n情報，會警戒也是當然的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0016",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "A prudent, if not painfully stinging, rebuke.\\nAnd a shame, as I was hoping we might\\nall enjoy a lovely partnership.",
+        "ja_jp": "これは<ruby><rb>手厳</rb><rt>てきび</rt></ruby>しい。<ruby><rb>私</rb><rt>わたし</rt></ruby>としてはもう<ruby><rb>少</rb><rt>すこ</rt></ruby>し、\\n<ruby><rb>皆様</rb><rt>みなさま</rt></ruby>と<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>し<ruby><rb>合</rb><rt>あ</rt></ruby>いたいと<ruby><rb>思</rb><rt>おも</rt></ruby>っていたの\\nですがね。",
+        "zh_cn": "还真是苛刻呢。我可是还想\\n和大家再合作一些时日的。",
+        "zh_tw": "這樣我很難做事啊。\\n就我個人而言，\\n還想再繼續與各位互相合作的呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0017",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "Wait, you want to work with us? Do you\\neven know what it is we're doing?",
+        "ja_jp": "<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>……あんたはオレたちの<ruby><rb>目的</rb><rt>もくてき</rt></ruby>が\\n<ruby><rb>何</rb><rt>なん</rt></ruby>なのかわかっているのか？",
+        "zh_cn": "合作……\\n你知道我们的目的吗？",
+        "zh_tw": "合作……\\n你知道我們的目的是什麼嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0018",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Stopping Satan's revival. I mean, duh.",
+        "ja_jp": "ええ、それはもちろん。\\n『サタン』<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>の<ruby><rb>阻止</rb><rt>そし</rt></ruby>でしょう？",
+        "zh_cn": "嗯，当然知道。\\n是阻止“撒旦”复活吧？",
+        "zh_tw": "嗯，那當然了。\\n阻止「撒旦」復活對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0019",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "As it turns out, I've been conducting\\nsomething of a solo investigation and\\ncame here as part of that. It's much the\\nsame for you, I imagine?",
+        "ja_jp": "<ruby><rb>実</rb><rt>じつ</rt></ruby>は<ruby><rb>私</rb><rt>わたし</rt></ruby>も<ruby><rb>独自</rb><rt>どくじ</rt></ruby>に<ruby><rb>調査</rb><rt>ちょうさ</rt></ruby>しておりまして……\\nこの<ruby><rb>国</rb><rt>くに</rt></ruby>を<ruby><rb>訪</rb><rt>おとず</rt></ruby>れたのも、その<ruby><rb>一環</rb><rt>いっかん</rt></ruby>です。\\nそれはそちらも<ruby><rb>同様</rb><rt>どうよう</rt></ruby>なのでは？",
+        "zh_cn": "其实我也独自进行了调查……\\n来到这个国家也是其中一环。\\n这一点，你们不也一样吗？",
+        "zh_tw": "其實我也在獨自進行調查……\\n會造訪這個國家，也是調查的一環。\\n這一點不是與你們相同？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0020",
+      "book": ""
+    },
+    {
+      "icon": "210132_01",
+      "name": {
+        "en_us": "Ramiel",
+        "ja_jp": "ラミエル",
+        "zh_cn": "拉米艾尔",
+        "zh_tw": "雷米爾"
+      },
+      "context": {
+        "en_us": "People usually bring something to the\\ntable when they mean to cooperate.",
+        "ja_jp": "<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>し<ruby><rb>合</rb><rt>あ</rt></ruby>うという<ruby><rb>事</rb><rt>こと</rt></ruby>は、あなたも\\nそれなりに<ruby><rb>有用</rb><rt>ゆうよう</rt></ruby>な<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>っている\\nと<ruby><rb>考</rb><rt>かんが</rt></ruby>えて<ruby><rb>良</rb><rt>よ</rt></ruby>いのでしょうね？",
+        "zh_cn": "既然你说了是合作，\\n那我可以认为你手里\\n也掌握着有用的情报吧？",
+        "zh_tw": "既然你說要互相合作，\\n那可以當作你手中握有\\n相當程度的有用情報吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0021",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "And I have just oodles of things for you,\\nwhich is why it breaks my poor little heart\\nto hear you don't trust me.",
+        "ja_jp": "もちろんです。ですが、どうも<ruby><rb>私</rb><rt>わたし</rt></ruby>は\\n<ruby><rb>皆様</rb><rt>みなさま</rt></ruby>から<ruby><rb>信用</rb><rt>しんよう</rt></ruby>されていない<ruby><rb>様子</rb><rt>ようす</rt></ruby>……",
+        "zh_cn": "当然了。不过，你们看起来\\n都不太信得过我……",
+        "zh_tw": "那當然。\\n但是，各位似乎並不信任我……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0022",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "The most revelatory information in the\\nworld isn't worth a mound of bear dung\\nif you don't trust the source, so I suppose\\nI'll just stop wasting your time.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>がどんなに<ruby><rb>有用</rb><rt>ゆうよう</rt></ruby>な<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>を<ruby><rb>提供</rb><rt>ていきょう</rt></ruby>しても、\\n<ruby><rb>信</rb><rt>しん</rt></ruby>じていただけないのなら<ruby><rb>時間</rb><rt>じかん</rt></ruby>の<ruby><rb>無駄</rb><rt>むだ</rt></ruby>\\nでしょう。ああ、<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>残念</rb><rt>ざんねん</rt></ruby>です。",
+        "zh_cn": "所以不管我提供什么有用的情报，\\n如果你们不肯相信也是浪费时间。\\n唉，真是可惜。",
+        "zh_tw": "不論我能提供多少有用情報，\\n只要不被信任都是在浪費時間而已。\\n啊，真是十分遺憾。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0023",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "It's like he WANTS me to punch him...",
+        "ja_jp": "むぅ……この<ruby><rb>人</rb><rt>ひと</rt></ruby>、<ruby><rb>嫌</rb><rt>いや</rt></ruby>な<ruby><rb>言</rb><rt>い</rt></ruby>い<ruby><rb>方</rb><rt>かた</rt></ruby>しますね。",
+        "zh_cn": "唔……这个人说话\\n怎么阴阳怪气的。",
+        "zh_tw": "唔……這個人，\\n說話的方式真討厭耶。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0024",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "Fine, then. Let's all just pretend we trust\\neach other and pool what info we have.",
+        "ja_jp": "やれやれ。わかった……ひとまず、\\n<ruby><rb>信用</rb><rt>しんよう</rt></ruby>できるできないってのは<ruby><rb>置</rb><rt>お</rt></ruby>いといて\\n<ruby><rb>互</rb><rt>たが</rt></ruby>いの<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>を<ruby><rb>共有</rb><rt>きょうゆう</rt></ruby>しようじゃないか。",
+        "zh_cn": "好了好了。我知道了……\\n先不论你是否值得信赖，\\n我们来共享一下彼此的情报吧。",
+        "zh_tw": "唉，我明白了……總而言之，\\n先把信不信任放一邊去，\\n我們現在就來分享情報如何？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0025",
+      "book": ""
+    },
+    {
+      "icon": "210145_01",
+      "name": {
+        "en_us": "Gabriel",
+        "ja_jp": "ガブリエル",
+        "zh_cn": "加百列",
+        "zh_tw": "加百列"
+      },
+      "context": {
+        "en_us": "You're really going to hand over everything\\nwe know to this boor, Nevin?",
+        "ja_jp": "ネヴィン……こっちの<ruby><rb>知</rb><rt>し</rt></ruby>っている<ruby><rb>事</rb><rt>こと</rt></ruby>を\\nそんな<ruby><rb>簡単</rb><rt>かんたん</rt></ruby>に<ruby><rb>話</rb><rt>はな</rt></ruby>しちゃって<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>なの？",
+        "zh_cn": "奈文……这么轻易就把情报\\n说出来没关系吗？",
+        "zh_tw": "涅因……這麼輕易就把\\n我們知道的事情說出來好嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0026",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "We saw for ourselves that he and Basileus\\naren't together, so the enemy of my enemy\\nis my blah blah blah whatever. Might as\\nwell share what we know.",
+        "ja_jp": "ここにいるハールがヴァースと<ruby><rb>敵対</rb><rt>てきたい</rt></ruby>して\\nいたのは<ruby><rb>事実</rb><rt>じじつ</rt></ruby>だ。<ruby><rb>敵</rb><rt>てき</rt></ruby>の<ruby><rb>敵</rb><rt>てき</rt></ruby>は<ruby><rb>味方</rb><rt>みかた</rt></ruby>……\\nそう<ruby><rb>考</rb><rt>かんが</rt></ruby>えれば、<ruby><rb>情報共有</rb><rt>じょうほうきょうゆう</rt></ruby>に<ruby><rb>問題</rb><rt>もんだい</rt></ruby>はない。",
+        "zh_cn": "站在这里的哈尔和法斯是敌对关系。\\n敌人的敌人就是朋友……\\n所以共享情报也没问题。",
+        "zh_tw": "在這裡的哈魯確實與梵斯是敵對關係。\\n敵人的敵人就是盟友……\\n以這觀點來看，分享情報也沒問題。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0027",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "(Especially since I plan to keep the\\nsensitive bits to myself...)",
+        "ja_jp": "（もちろん、<ruby><rb>問題</rb><rt>もんだい</rt></ruby>が<ruby><rb>出</rb><rt>で</rt></ruby>そうなところは\\n　<ruby><rb>伏</rb><rt>ふ</rt></ruby>せて<ruby><rb>話</rb><rt>はな</rt></ruby>すつもりだけどな……）",
+        "zh_cn": "（当然，敏感信息\\n还是会隐瞒的……）",
+        "zh_tw": "（當然，講出來會出事的部分\\n我可沒打算說……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0028",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "I certainly have no objections on my end.\\nBut rather than pooling, I propose a trade.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>としても<ruby><rb>問題</rb><rt>もんだい</rt></ruby>ありませんよ。ですが、\\n<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>は<ruby><rb>共有</rb><rt>きょうゆう</rt></ruby>でなく<ruby><rb>交換</rb><rt>こうかん</rt></ruby>としましょう。",
+        "zh_cn": "我这边没问题。不过，\\n我们不是共享，而是交换。",
+        "zh_tw": "對我而言也是沒問題唷。\\n但是，我們要做的不是分享情報，\\n而是交換情報。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0029",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Is there a difference?",
+        "ja_jp": "<ruby><rb>共有</rb><rt>きょうゆう</rt></ruby>でなく<ruby><rb>交換</rb><rt>こうかん</rt></ruby>？\\nそれって<ruby><rb>何</rb><rt>なに</rt></ruby>が<ruby><rb>違</rb><rt>ちが</rt></ruby>うんですか？",
+        "zh_cn": "不是共享而是交换？\\n这有什么区别吗？",
+        "zh_tw": "不是分享而是交換？\\n那有什麼區別嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0030",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "The slightest of distinctions, I admit, but\\nI'm simply attempting to ensure a format\\nmost conducive to mutual aid, seeing as\\nI AM the untrusted party here.",
+        "ja_jp": "いえいえ、<ruby><rb>基本的</rb><rt>きほんてき</rt></ruby>には<ruby><rb>同</rb><rt>おな</rt></ruby>じですよ。\\n<ruby><rb>信用</rb><rt>しんよう</rt></ruby>されていない<ruby><rb>身</rb><rt>み</rt></ruby>としては<ruby><rb>相互扶助</rb><rt>ギブアンドテイク</rt></ruby>の\\n<ruby><rb>体裁</rb><rt>ていさい</rt></ruby>を<ruby><rb>取</rb><rt>と</rt></ruby>りたいというだけの<ruby><rb>事</rb><rt>こと</rt></ruby>です。",
+        "zh_cn": "总体来说还是一样的。\\n只是我这个不被信任的人\\n想采取合作互助的形式而已。",
+        "zh_tw": "沒什麼沒什麼，基本上是一樣的喔。\\n只是既然我是不被信任的人，\\n所以想採取互相幫助的做法而已罷了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0031",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "(For all his whining about trust, he clearly\\ndoesn't have faith in us either.)",
+        "ja_jp": "（チッ……こいつ、<ruby><rb>信用</rb><rt>しんよう</rt></ruby>だの<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>だの\\n　<ruby><rb>散々</rb><rt>さんざん</rt></ruby><ruby><rb>言</rb><rt>い</rt></ruby>っておいて、<ruby><rb>全然</rb><rt>ぜんぜん</rt></ruby>オレたちを\\n　<ruby><rb>信用</rb><rt>しんよう</rt></ruby>していないな……）",
+        "zh_cn": "（啧……这家伙，\\n嘴上说着信任和合作，\\n却完全信不过我们……）",
+        "zh_tw": "（嘖……這傢伙，\\n說了一堆什麼信任還是合作的，\\n結果也是完全沒信任我們啊……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0032",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "(Though I suppose that helps to solidify\\nthe fact he's not plotting something.)",
+        "ja_jp": "（だが<ruby><rb>逆</rb><rt>ぎゃく</rt></ruby>にその<ruby><rb>姿勢</rb><rt>しせい</rt></ruby>が、こいつが\\n　<ruby><rb>敵</rb><rt>てき</rt></ruby>ではない<ruby><rb>事</rb><rt>こと</rt></ruby>の<ruby><rb>証明</rb><rt>しょうめい</rt></ruby>か……）",
+        "zh_cn": "（不过他这种态度反倒能证明\\n他并不是敌人……）",
+        "zh_tw": "（但是這傢伙採取這樣的態度，\\n反而能證明自己不是敵人嗎……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0033",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "Fine, but not here. Let's head somewhere\\na bit more private, then we can trade or\\nswap or whatever to your heart's content.",
+        "ja_jp": "……いいだろう。\\nとりあえず<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>を<ruby><rb>変</rb><rt>か</rt></ruby>えて、\\n<ruby><rb>情報交換</rb><rt>じょうほうこうかん</rt></ruby>と<ruby><rb>行</rb><rt>い</rt></ruby>こうじゃないか。",
+        "zh_cn": "可以……\\n那我们先换个地方，\\n再开始交换情报吧。",
+        "zh_tw": "……那好吧。\\n總之我們先換個地方，\\n然後再來交換情報吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0034",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "A Village Outside Rozcimea",
+        "ja_jp": "<ruby><rb>軍事</rb><rt>ぐんじ</rt></ruby><ruby><rb>国家</rb><rt>こっか</rt></ruby>ロジメアから<ruby><rb>離</rb><rt>はな</rt></ruby>れた<ruby><rb>地域</rb><rt>ちいき</rt></ruby>\\nとある<ruby><rb>集落</rb><rt>しゅうらく</rt></ruby>",
+        "zh_cn": "远离军事国家洛基梅亚的地区\\n某村落",
+        "zh_tw": "距離軍政府羅吉梅亞稍遠的地域\\n某個聚落"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Ack, it's so bright! When the sun comes\\nup here, it doesn't mess around.",
+        "ja_jp": "んっ、まぶしい……\\nもう<ruby><rb>完全</rb><rt>かんぜん</rt></ruby>に<ruby><rb>日</rb><rt>ひ</rt></ruby>が<ruby><rb>昇</rb><rt>のぼ</rt></ruby>っちゃってますね。",
+        "zh_cn": "唔，好刺眼啊……\\n已经日上三竿了啊。",
+        "zh_tw": "嗯，好亮……\\n太陽已經完全昇起了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0035",
+      "book": ""
+    },
+    {
+      "icon": "210145_01",
+      "name": {
+        "en_us": "Gabriel",
+        "ja_jp": "ガブリエル",
+        "zh_cn": "加百列",
+        "zh_tw": "加百列"
+      },
+      "context": {
+        "en_us": "You okay, Pi? If you're sleepy, you can rest\\nyour head in Mama's lap.",
+        "ja_jp": "<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>、ピィちゃん？　もし<ruby><rb>眠</rb><rt>ねむ</rt></ruby>かったら\\nママが<ruby><rb>膝枕</rb><rt>ひざまくら</rt></ruby>してあげましょうか？",
+        "zh_cn": "你没事吧，小皮？要是困了\\n可以睡在妈妈的腿上哦？",
+        "zh_tw": "沒事吧，小琵琵？\\n如果想睡的話，\\n媽媽的大腿可以借妳躺唷？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0036",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "I'm quite awake, thank you. Besides,\\nthis is no time for sleeping.",
+        "ja_jp": "<ruby><rb>眠</rb><rt>ねむ</rt></ruby>くはないので<ruby><rb>結構</rb><rt>けっこう</rt></ruby>です。それに、\\n<ruby><rb>今</rb><rt>いま</rt></ruby>は<ruby><rb>寝</rb><rt>ね</rt></ruby>ている<ruby><rb>場合</rb><rt>ばあい</rt></ruby>じゃありませんよ。",
+        "zh_cn": "不用了我不困。\\n况且现在哪有空睡觉。",
+        "zh_tw": "不用了，我才不想睡。\\n而且，現在也不是睡覺的時候。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0037",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "How you feeling there, Ramiel?\\nPower coming back yet?",
+        "ja_jp": "ラミエル、どうだ。\\nまだ<ruby><rb>力</rb><rt>ちから</rt></ruby>は<ruby><rb>元</rb><rt>もと</rt></ruby>に<ruby><rb>戻</rb><rt>もど</rt></ruby>らないか？",
+        "zh_cn": "拉米艾尔，怎么样了？\\n力量还没有恢复吗？",
+        "zh_tw": "雷米爾，怎麼樣？\\n力量還沒有復原嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0038",
+      "book": ""
+    },
+    {
+      "icon": "210132_01",
+      "name": {
+        "en_us": "Ramiel",
+        "ja_jp": "ラミエル",
+        "zh_cn": "拉米艾尔",
+        "zh_tw": "雷米爾"
+      },
+      "context": {
+        "en_us": "Still not good. It's extremely unstable.\\nRight now, I can't even communicate\\nwith Sandalphon.",
+        "ja_jp": "<ruby><rb>駄目</rb><rt>だめ</rt></ruby>ですね。ひどく<ruby><rb>不安定</rb><rt>ふあんてい</rt></ruby>です……\\nこれでは<ruby><rb>径</rb><rt>パス</rt></ruby>を<ruby><rb>通</rb><rt>つう</rt></ruby>じてサンダルフォンと\\n<ruby><rb>連絡</rb><rt>れんらく</rt></ruby>を<ruby><rb>取</rb><rt>と</rt></ruby>る<ruby><rb>事</rb><rt>こと</rt></ruby>すらできません。",
+        "zh_cn": "还是不行。力量非常不稳定……\\n这种状态下根本没办法\\n通过路径和圣德芬取得联系。",
+        "zh_tw": "還是不行呢，力量非常不穩定……\\n這樣甚至無法透過平常的管道\\n與聖德芬取得聯繫。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0039",
+      "book": ""
+    },
+    {
+      "icon": "210132_01",
+      "name": {
+        "en_us": "Ramiel",
+        "ja_jp": "ラミエル",
+        "zh_cn": "拉米艾尔",
+        "zh_tw": "雷米爾"
+      },
+      "context": {
+        "en_us": "Which means we'll have to return to\\nGrams and deliver our report in person.",
+        "ja_jp": "やはり、グラムスへ<ruby><rb>戻</rb><rt>もど</rt></ruby>って<ruby><rb>直接</rb><rt>ちょくせつ</rt></ruby>\\n<ruby><rb>今</rb><rt>いま</rt></ruby>の<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>を<ruby><rb>伝</rb><rt>つた</rt></ruby>えるしかないでしょう。\\nもう<ruby><rb>一刻</rb><rt>いっこく</rt></ruby>の<ruby><rb>猶予</rb><rt>ゆうよ</rt></ruby>もないのですから……。",
+        "zh_cn": "那就只能回到格拉姆斯\\n直接传达现在的情况了。\\n毕竟事态已经刻不容缓……",
+        "zh_tw": "果然，只能直接回到葛拉姆斯\\n去傳達現狀了嗎。\\n畢竟現在分秒必爭……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0040",
+      "book": ""
+    },
+    {
+      "icon": "210132_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "A few hours earlier...",
+        "ja_jp": "<ruby><rb>数時間</rb><rt>すうじかん</rt></ruby><ruby><rb>前</rb><rt>まえ</rt></ruby>……",
+        "zh_cn": "几小时前……",
+        "zh_tw": "數小時前……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "So you learned about the fragments of\\nSatan held by the Five Archdemons,\\nas well as the vessel that binds and\\nanimates them?",
+        "ja_jp": "サタンの『<ruby><rb>断片</rb><rt>だんぺん</rt></ruby>』を<ruby><rb>持</rb><rt>も</rt></ruby>つ<ruby><rb>五大悪魔</rb><rt>ディアボロス</rt></ruby>……\\nそして、それらをまとめ<ruby><rb>駆動</rb><rt>くどう</rt></ruby>の<ruby><rb>核</rb><rt>かく</rt></ruby>となる\\n『<ruby><rb>器</rb><rt>うつわ</rt></ruby>』……ですか。",
+        "zh_cn": "持有撒旦“碎片”的五大恶魔……\\n以及整合这些碎片、\\n成为驱动核心的“容器”……",
+        "zh_tw": "擁有撒旦「斷片」的五大惡魔……\\n還有，將其統合並驅動的核心\\n「容器」……是嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0041",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Well, that IS a tasty bit of intel.",
+        "ja_jp": "なるほど……ふふ、これは<ruby><rb>良</rb><rt>よ</rt></ruby>い<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>を\\nいただきました。",
+        "zh_cn": "原来如此……\\n呵呵，这可是很有帮助的情报。",
+        "zh_tw": "原來如此……呵呵，\\n這還真是個好情報。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0042",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "Your turn now. And it better be good.",
+        "ja_jp": "<ruby><rb>今度</rb><rt>こんど</rt></ruby>はあんたの<ruby><rb>番</rb><rt>ばん</rt></ruby>だ、ハール。\\n<ruby><rb>良</rb><rt>い</rt></ruby>い<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>を<ruby><rb>期待</rb><rt>きたい</rt></ruby>している。",
+        "zh_cn": "现在轮到你了，哈尔。\\n可别让我失望。",
+        "zh_tw": "現在輪到你了，哈魯。\\n期待你能給出個好情報。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0043",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Then let's see how this little tidbit\\nstrikes you...",
+        "ja_jp": "そうですね……では、こんな<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>は\\nいかがでしょう？",
+        "zh_cn": "唔……那你们觉得\\n这种情报怎么样？",
+        "zh_tw": "是啊……\\n那麼，這樣的情報你覺得如何？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0044",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "The five fragments necessary to bring \\nSatan back are already in my impostor's\\npossession.",
+        "ja_jp": "サタンの<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>に<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>な<ruby><rb>要素</rb><rt>ようそ</rt></ruby>だという\\n5つの<ruby><rb>断片</rb><rt>だんぺん</rt></ruby>……それらは<ruby><rb>私</rb><rt>わたし</rt></ruby>のニセモノが\\nすでに<ruby><rb>回収済</rb><rt>かいしゅうず</rt></ruby>みであると<ruby><rb>思</rb><rt>おも</rt></ruby>われます。",
+        "zh_cn": "传说复活撒旦必不可少的要素\\n就是5个碎片……这些碎片\\n应该已经被冒充我的人回收了。",
+        "zh_tw": "讓撒旦復活所需要的五個斷片……\\n我的冒牌貨大概已經將它們\\n全都收齊了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0045",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Are you sure?!",
+        "ja_jp": "そんな!?　それはたしかですか！",
+        "zh_cn": "什么！？消息可靠吗！",
+        "zh_tw": "怎麼會！？你能確定嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0046",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "Pinon, don't... *sigh*",
+        "ja_jp": "ちょっ、おま!?　…………はあ。",
+        "zh_cn": "等等，皮诺！？唉……",
+        "zh_tw": "等等、妳幹嘛！？\\n…………唉。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0047",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "It seems that one was news to you!\\nAnd yes, dear miss, I am sure;\\nI confirmed it while tracking him.",
+        "ja_jp": "おや、どうやらご<ruby><rb>存知</rb><rt>ぞんじ</rt></ruby>なかったよう\\nですね……<ruby><rb>今</rb><rt>いま</rt></ruby>のはニセモノを<ruby><rb>追跡</rb><rt>ついせき</rt></ruby>して\\nいる<ruby><rb>最中</rb><rt>さいちゅう</rt></ruby>に<ruby><rb>得</rb><rt>え</rt></ruby>た、たしかな<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>ですよ。",
+        "zh_cn": "哎呀，看来你们并不知道呢……\\n刚才那是我在追踪冒牌货途中\\n获得的可靠情报。",
+        "zh_tw": "喔，看來你們還不知道呢……\\n這是我在追蹤冒牌貨時，\\n得到的可靠情報唷。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0048",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "I can't speak for what he's done since\\nleaving to join the Five Archdemons,\\nbut at least we've managed a fair trade.",
+        "ja_jp": "まあ、<ruby><rb>彼</rb><rt>かれ</rt></ruby>が<ruby><rb>五大悪魔</rb><rt>ディアボロス</rt></ruby>の<ruby><rb>下</rb><rt>もと</rt></ruby>へ<ruby><rb>出向</rb><rt>でむ</rt></ruby>いた<ruby><rb>後</rb><rt>のち</rt></ruby>の\\n<ruby><rb>事</rb><rt>こと</rt></ruby>はわかりませんが……<ruby><rb>何</rb><rt>なに</rt></ruby>にせよ<ruby><rb>良</rb><rt>よ</rt></ruby>い\\n<ruby><rb>情報交換</rb><rt>じょうほうこうかん</rt></ruby>ができたようで<ruby><rb>実</rb><rt>じつ</rt></ruby>に<ruby><rb>喜</rb><rt>よろこ</rt></ruby>ばしい。",
+        "zh_cn": "不过他出发前往五大恶魔那里\\n之后的事我就不知道了……总之很高兴\\n和你们进行了有意义的情报交换。",
+        "zh_tw": "不過，他在前往五大惡魔所在處\\n之後的事就不清楚了……\\n無論如何，很高興能交換到好情報。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0134",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "(I was gonna tell him we already knew\\nthat and press him for more intel, but\\nthanks to Pinon and her big, honest\\nmouth, that's off the table.)",
+        "ja_jp": "（<ruby><rb>知</rb><rt>し</rt></ruby>ったかぶって、また<ruby><rb>別</rb><rt>べつ</rt></ruby>の<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>を\\n　<ruby><rb>引</rb><rt>ひ</rt></ruby>き<ruby><rb>出</rb><rt>だ</rt></ruby>すつもりだったのに……\\n　ピノンめ、<ruby><rb>馬鹿正直</rb><rt>ばかしょうじき</rt></ruby>に<ruby><rb>驚</rb><rt>おどろ</rt></ruby>きやがって）",
+        "zh_cn": "（我本来想假装知道这事，\\n诈出一点其它有用的情报……\\n但皮诺竟然傻到把震惊写在脸上。）",
+        "zh_tw": "（本來想假裝知情，然後再釣出\\n其他情報的……琵儂這傢伙，\\n居然傻傻地把驚訝都寫在臉上。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0049",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "Sounds like we're really up against it here.",
+        "ja_jp": "……だが、こうなるといよいよ<ruby><rb>以</rb><rt>もっ</rt></ruby>て\\n<ruby><rb>状況的</rb><rt>じょうきょうてき</rt></ruby>には<ruby><rb>詰んでいる状態</rb><rt>チェックメイト</rt></ruby>だな。",
+        "zh_cn": "不过……这样看来，\\n我们似乎已经束手无策了。",
+        "zh_tw": "……不過，這樣看來\\n我們也差不多束手無策了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0050",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Hmm, I wonder... Heh heh.",
+        "ja_jp": "ふふふ……それはどうでしょうね？",
+        "zh_cn": "呵呵呵……这可不一定哦？",
+        "zh_tw": "呵呵呵……真的是那樣嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0051",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "(Rrrgh! I wanna slap the smug grin off this\\nguy's face! If they've got the fragments and\\nthe vessel, there's nothing... No. Wait.)",
+        "ja_jp": "（くそ、<ruby><rb>勝</rb><rt>か</rt></ruby>ち<ruby><rb>誇</rb><rt>ほこ</rt></ruby>った<ruby><rb>顔</rb><rt>かお</rt></ruby>してやがる……\\n　<ruby><rb>断片</rb><rt>だんぺん</rt></ruby>と<ruby><rb>器</rb><rt>うつわ</rt></ruby>の<ruby><rb>他</rb><rt>ほか</rt></ruby>に<ruby><rb>何</rb><rt>なに</rt></ruby>かあるのか？\\n　いや、<ruby><rb>待</rb><rt>ま</rt></ruby>てよ……そう<ruby><rb>言</rb><rt>い</rt></ruby>えば……）",
+        "zh_cn": "（可恶，看他一脸得意的样子……\\n除了碎片和容器还有其它东西吗？\\n不，等一等……说起来……）",
+        "zh_tw": "（可惡，居然一副勝利的表情……\\n除了斷片和容器之外還有什麼？\\n不，等等……這麼說來……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0052",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "They're still missing the soul!",
+        "ja_jp": "そうか。まだ『<ruby><rb>魂</rb><rt>たましい</rt></ruby>』が<ruby><rb>足</rb><rt>た</rt></ruby>りていない！",
+        "zh_cn": "对了，还差“魂魄”！",
+        "zh_tw": "對了。還要有「靈魂」才行！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0053",
+      "book": ""
+    },
+    {
+      "icon": "210145_01",
+      "name": {
+        "en_us": "Gabriel",
+        "ja_jp": "ガブリエル",
+        "zh_cn": "加百列",
+        "zh_tw": "加百列"
+      },
+      "context": {
+        "en_us": "Are you referring to that cryptic note in the\\njournal? The one about more testing being\\nrequired?",
+        "ja_jp": "<ruby><rb>魂</rb><rt>たましい</rt></ruby>って……<ruby><rb>追記</rb><rt>ついき</rt></ruby>のメモに<ruby><rb>要検証</rb><rt>ようけんしょう</rt></ruby>って\\n<ruby><rb>書</rb><rt>か</rt></ruby>かれていたあれ？",
+        "zh_cn": "魂魄……附言里写着\\n需要验证的那个？",
+        "zh_tw": "你說的靈魂……\\n是補充的筆記寫說待驗證的那個嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0054",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "The journal mentioned the soul?\\nNow that IS surprising.",
+        "ja_jp": "ほう、<ruby><rb>驚</rb><rt>おどろ</rt></ruby>きましたね。まさか<ruby><rb>件</rb><rt>くだん</rt></ruby>の<ruby><rb>手記</rb><rt>しゅき</rt></ruby>に\\nその<ruby><rb>事</rb><rt>こと</rt></ruby>まで<ruby><rb>書</rb><rt>か</rt></ruby>かれていたとは……。",
+        "zh_cn": "哎呀，真让人吃惊。\\n没想到那本手记里\\n竟然连这件事都写了……",
+        "zh_tw": "喔，這可驚人了。\\n沒想到那份手記裡還寫了那種事情……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0055",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Well, then, a little bonus tip because\\nwe're such good friends...",
+        "ja_jp": "いいでしょう。\\nこの<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>はサービスです……。",
+        "zh_cn": "好吧，\\n再送给你们一条情报……",
+        "zh_tw": "好吧。\\n這情報就當作是特別贈送……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0056",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "The fragments and vessel are insufficient\\nto revive Satan. They need his soul—his\\nmana—which is sealed away deep within\\nanother world.",
+        "ja_jp": "サタンが<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>するには<ruby><rb>断片</rb><rt>だんぺん</rt></ruby>と<ruby><rb>器</rb><rt>うつわ</rt></ruby>だけでは\\n<ruby><rb>足</rb><rt>た</rt></ruby>りません。<ruby><rb>異界</rb><rt>いかい</rt></ruby>の<ruby><rb>奥底</rb><rt>おくそこ</rt></ruby>に<ruby><rb>封</rb><rt>ふう</rt></ruby>じられた\\nサタンのマナ……<ruby><rb>魂</rb><rt>たましい</rt></ruby>が<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>なのですよ。",
+        "zh_cn": "想要复活撒旦，只有碎片和容器\\n是不够的。除此以外还需要……\\n异界最深处封印的撒旦魔力——魂魄。",
+        "zh_tw": "要讓撒旦復活，光有斷片和容器\\n是不夠的。還需要被封印在異界底端的\\n撒旦瑪納……也就是靈魂唷。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0057",
+      "book": ""
+    },
+    {
+      "icon": "210145_01",
+      "name": {
+        "en_us": "Gabriel",
+        "ja_jp": "ガブリエル",
+        "zh_cn": "加百列",
+        "zh_tw": "加百列"
+      },
+      "context": {
+        "en_us": "So even restoring his flesh and blood isn't\\na true resurrection without the soul?",
+        "ja_jp": "たとえ<ruby><rb>血</rb><rt>ち</rt></ruby>の<ruby><rb>通</rb><rt>かよ</rt></ruby>った<ruby><rb>肉体</rb><rt>にくたい</rt></ruby>があっても、\\nそこに<ruby><rb>魂</rb><rt>たましい</rt></ruby>が<ruby><rb>伴</rb><rt>ともな</rt></ruby>わなければ<ruby><rb>完全</rb><rt>かんぜん</rt></ruby>な<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>\\nとは<ruby><rb>言</rb><rt>い</rt></ruby>えない……って<ruby><rb>事</rb><rt>こと</rt></ruby>かしら？",
+        "zh_cn": "你的意思是……\\n就算是有血有肉的躯体，\\n没有魂魄就不算是彻底复活？",
+        "zh_tw": "也就是說即使擁有了血肉之軀，\\n但缺少靈魂就無法稱為完全復活……\\n是這意思吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0058",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Precisely. I also learned that while digging\\ninto my impostor's movements.",
+        "ja_jp": "その<ruby><rb>通</rb><rt>とお</rt></ruby>りです。<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>自分</rb><rt>じぶん</rt></ruby>のニセモノの\\n<ruby><rb>動向</rb><rt>どうこう</rt></ruby>を<ruby><rb>探</rb><rt>さぐ</rt></ruby>る<ruby><rb>中</rb><rt>なか</rt></ruby>でその<ruby><rb>事</rb><rt>こと</rt></ruby>を<ruby><rb>知</rb><rt>し</rt></ruby>りました。",
+        "zh_cn": "没错。这件事是我在调查\\n冒充我的那个人时知道的。",
+        "zh_tw": "就是這樣。\\n我是在探查自己的冒牌貨時\\n得知這件事的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0059",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Until very recently, he was hard at work\\nsearching for the key that would allow him\\nto retrieve that soul from the other world.",
+        "ja_jp": "ついこの<ruby><rb>間</rb><rt>あいだ</rt></ruby>まで、<ruby><rb>私</rb><rt>わたし</rt></ruby>のニセモノは\\n<ruby><rb>異界</rb><rt>いかい</rt></ruby>からサタンの<ruby><rb>魂</rb><rt>たましい</rt></ruby>を<ruby><rb>呼</rb><rt>よ</rt></ruby>び<ruby><rb>戻</rb><rt>もど</rt></ruby>すための\\n『<ruby><rb>鍵</rb><rt>かぎ</rt></ruby>』を<ruby><rb>探</rb><rt>さが</rt></ruby>していたようです。",
+        "zh_cn": "直到最近为止，冒充我的人似乎\\n一直在寻找能把撒旦的魂魄\\n从异界召唤出来的“钥匙”。",
+        "zh_tw": "直到最近為止，我的冒牌貨\\n似乎為了從異界喚回撒旦的靈魂，\\n而不斷在尋找「鑰匙」。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0060",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "What kind of key?",
+        "ja_jp": "<ruby><rb>鍵</rb><rt>かぎ</rt></ruby>？　それっていったい……？",
+        "zh_cn": "钥匙？那究竟是……",
+        "zh_tw": "鑰匙？那究竟是……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0061",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "I was unable to get inside to see it myself,\\nbut I'm given to understand it is a Sacred\\nShard infused with Metatron's mana.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>鍵</rb><rt>かぎ</rt></ruby>がある<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>には<ruby><rb>入</rb><rt>はい</rt></ruby>れなかったので\\n<ruby><rb>実物</rb><rt>じつぶつ</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>てはいませんが、<ruby><rb>聞</rb><rt>き</rt></ruby>いた<ruby><rb>話</rb><rt>はなし</rt></ruby>では\\nメタトロンのマナを<ruby><rb>含</rb><rt>ふく</rt></ruby>んだ<ruby><rb>聖片</rb><rt>せいへん</rt></ruby>だとか。",
+        "zh_cn": "钥匙所在的地方我进不去，\\n所以没见过实物，但据我所知，\\n是蕴含了梅塔特隆魔力的圣片。",
+        "zh_tw": "我因為無法進入鑰匙所在之處，\\n所以也沒見過實物，但就聽到內容來看\\n似乎是含有梅塔特隆瑪納的聖片。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0062",
+      "book": ""
+    },
+    {
+      "icon": "210132_01",
+      "name": {
+        "en_us": "Ramiel",
+        "ja_jp": "ラミエル",
+        "zh_cn": "拉米艾尔",
+        "zh_tw": "雷米爾"
+      },
+      "context": {
+        "en_us": "Interesting. And this key is in the\\npossession of your impostor?",
+        "ja_jp": "メタトロンの……。\\nさきほどの<ruby><rb>口振</rb><rt>くちぶ</rt></ruby>りだと、そちらもすでに\\n<ruby><rb>回収</rb><rt>かいしゅう</rt></ruby>されているかのようでしたが……？",
+        "zh_cn": "梅塔特隆……\\n听你刚才的语气，\\n难道那圣片也已经被回收了？",
+        "zh_tw": "梅塔特隆的……\\n從你剛才的說法看來，\\n那東西也已經被回收了是吧……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0063",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Indeed. Though it isn't quite checkmate\\njust yet, for using the key entails a rather\\nlarge-scale ritual.",
+        "ja_jp": "ええ、その<ruby><rb>通</rb><rt>とお</rt></ruby>り。ですが……まだ<ruby><rb>詰</rb><rt>つ</rt></ruby>み\\nではありません。<ruby><rb>鍵</rb><rt>かぎ</rt></ruby>を<ruby><rb>使用</rb><rt>しよう</rt></ruby>するには\\n<ruby><rb>大規模</rb><rt>だいきぼ</rt></ruby>な<ruby><rb>儀式</rb><rt>ぎしき</rt></ruby>が<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>なようですから。",
+        "zh_cn": "嗯，没错。不过……还有转机。\\n因为想要使用钥匙，\\n似乎需要举行大规模的仪式。",
+        "zh_tw": "沒錯，如你所說。但是……\\n還沒到束手無策的地步。\\n因為使用鑰匙似乎需要大規模的儀式。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0064",
+      "book": ""
+    },
+    {
+      "icon": "210145_01",
+      "name": {
+        "en_us": "Gabriel",
+        "ja_jp": "ガブリエル",
+        "zh_cn": "加百列",
+        "zh_tw": "加百列"
+      },
+      "context": {
+        "en_us": "Go on.",
+        "ja_jp": "<ruby><rb>大規模</rb><rt>だいきぼ</rt></ruby>な<ruby><rb>儀式</rb><rt>ぎしき</rt></ruby>……それって<ruby><rb>具体的</rb><rt>ぐたいてき</rt></ruby>には\\nどんな<ruby><rb>儀式</rb><rt>ぎしき</rt></ruby>なのかしら？",
+        "zh_cn": "大规模的仪式……\\n具体是什么样的仪式？",
+        "zh_tw": "大規模的儀式……\\n具體而言是什麼樣的儀式呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0065",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "If the clues left behind by my impostor are\\nto be believed, it requires a mass human\\nsacrifice with 666 victims.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>のニセモノが<ruby><rb>残</rb><rt>のこ</rt></ruby>した<ruby><rb>手</rb><rt>て</rt></ruby>がかりによると\\nそれは……666<ruby><rb>人</rb><rt>にん</rt></ruby>の<ruby><rb>生贄</rb><rt>いけにえ</rt></ruby>を<ruby><rb>捧</rb><rt>ささ</rt></ruby>げる<ruby><rb>儀式</rb><rt>ぎしき</rt></ruby>\\nだそうですよ。",
+        "zh_cn": "据冒充我的那个人留下的线索来看，\\n似乎是……需要献上666个人\\n作为活祭的仪式。",
+        "zh_tw": "從我的冒牌貨留下的線索來看……\\n那是需要獻上666名活祭品的儀式喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0066",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "They're going to butcher that many people\\nas part of some....some RITUAL?!",
+        "ja_jp": "666<ruby><rb>人</rb><rt>にん</rt></ruby>……そんな<ruby><rb>多</rb><rt>おお</rt></ruby>くの<ruby><rb>人</rb><rt>ひと</rt></ruby>たちを\\n<ruby><rb>生贄</rb><rt>いけにえ</rt></ruby>に<ruby><rb>捧</rb><rt>ささ</rt></ruby>げる……!?",
+        "zh_cn": "666人……将那么多人\\n作为活祭供奉吗！？",
+        "zh_tw": "666人……\\n要將那麼多人當作活祭品……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0067",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "The fact such extreme measures are\\nrequired is an indication of just how\\npowerful Satan's soul truly is.",
+        "ja_jp": "それほどの<ruby><rb>代償</rb><rt>だいしょう</rt></ruby>が<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>になるくらい、\\nサタンの<ruby><rb>魂</rb><rt>たましい</rt></ruby>には<ruby><rb>強</rb><rt>つよ</rt></ruby>い<ruby><rb>力</rb><rt>ちから</rt></ruby>が<ruby><rb>宿</rb><rt>やど</rt></ruby>っている……\\nという<ruby><rb>事</rb><rt>こと</rt></ruby>なのでしょうね。",
+        "zh_cn": "只能说……撒旦的魂魄所蕴含的\\n力量巨大无穷，以至于要以牺牲\\n这么多人的性命为代价吧。",
+        "zh_tw": "需要那麼龐大的代價，就代表\\n撒旦的靈魂寄宿著相當強大的力量……\\n應該能這樣理解吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0068",
+      "book": ""
+    },
+    {
+      "icon": "210145_01",
+      "name": {
+        "en_us": "Gabriel",
+        "ja_jp": "ガブリエル",
+        "zh_cn": "加百列",
+        "zh_tw": "加百列"
+      },
+      "context": {
+        "en_us": "And how do they plan on rounding up\\nthese 666 unfortunates?",
+        "ja_jp": "でも、そんな<ruby><rb>大人数</rb><rt>おおにんずう</rt></ruby>の<ruby><rb>生贄</rb><rt>いけにえ</rt></ruby>なんて\\nどうやって<ruby><rb>集</rb><rt>あつ</rt></ruby>めるのかしら？",
+        "zh_cn": "不过，怎么才能找到\\n这么多活祭啊？",
+        "zh_tw": "但是，活祭品的人數這麼多，\\n要怎樣才能湊齊？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0069",
+      "book": ""
+    },
+    {
+      "icon": "210132_01",
+      "name": {
+        "en_us": "Ramiel",
+        "ja_jp": "ラミエル",
+        "zh_cn": "拉米艾尔",
+        "zh_tw": "雷米爾"
+      },
+      "context": {
+        "en_us": "I think I know just the event...",
+        "ja_jp": "……なるほど。<ruby><rb>近々</rb><rt>ちかぢか</rt></ruby>おあつらえ<ruby><rb>向</rb><rt>む</rt></ruby>きな\\nイベントが<ruby><rb>予定</rb><rt>よてい</rt></ruby>されていますね。",
+        "zh_cn": "我明白了……最近就有一个\\n正适合的活动要举办。",
+        "zh_tw": "……原來如此。\\n近期內正好會舉辦一個\\n再適合不過的活動呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0070",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "The Auspecalia!",
+        "ja_jp": "『<ruby><rb>聖大祭</rb><rt>せいだいさい</rt></ruby>』か！",
+        "zh_cn": "“圣大祭”吗！",
+        "zh_tw": "是「聖大祭」嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0071",
+      "book": ""
+    },
+    {
+      "icon": "210132_01",
+      "name": {
+        "en_us": "Ramiel",
+        "ja_jp": "ラミエル",
+        "zh_cn": "拉米艾尔",
+        "zh_tw": "雷米爾"
+      },
+      "context": {
+        "en_us": "Grams will be flooded with people from\\nthe Northern Church—more than enough\\nto complete this grim task.",
+        "ja_jp": "ええ。<ruby><rb>当日</rb><rt>とうじつ</rt></ruby>は<ruby><rb>北大陸中</rb><rt>きたたいりくじゅう</rt></ruby>の<ruby><rb>教会関係者</rb><rt>きょうかいかんけいしゃ</rt></ruby>が\\nグラムスに<ruby><rb>集</rb><rt>あつ</rt></ruby>まります。もし<ruby><rb>彼</rb><rt>かれ</rt></ruby>らを\\n<ruby><rb>生贄</rb><rt>いけにえ</rt></ruby>にするつもりだとしたら……。",
+        "zh_cn": "对。北大陆的教会相关人员\\n会在活动当天聚集到格拉姆斯。\\n如果打算将他们作为活祭……",
+        "zh_tw": "沒錯。活動當天北大陸中的\\n教會關係人士都會聚集到葛拉姆斯。\\n如果是打算用他們當活祭品的話……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0072",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "But the Auspecalia is only days away!\\nWe have to warn them!",
+        "ja_jp": "『<ruby><rb>聖大祭</rb><rt>せいだいさい</rt></ruby>』の<ruby><rb>開催日</rb><rt>かいさいび</rt></ruby>って、\\nもうすぐですよ!?\\n<ruby><rb>早</rb><rt>はや</rt></ruby>くみんなに<ruby><rb>知</rb><rt>し</rt></ruby>らせないと！",
+        "zh_cn": "“圣大祭”的举办日期\\n可是快到了啊！？\\n得快点通知大家才行！",
+        "zh_tw": "「聖大祭」的舉辦日馬上就到了耶！？\\n得趕快通知大家才行！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0073",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "Easy there, Pinon. Think for a second.\\nWho exactly are you planning to warn?",
+        "ja_jp": "おいおい、<ruby><rb>慌</rb><rt>あわ</rt></ruby>てるなよピノン<ruby><rb>後輩</rb><rt>こうはい</rt></ruby>。\\n<ruby><rb>一口</rb><rt>ひとくち</rt></ruby>に<ruby><rb>知</rb><rt>し</rt></ruby>らせるって<ruby><rb>言</rb><rt>い</rt></ruby>っても、いったい\\nどこの<ruby><rb>誰</rb><rt>だれ</rt></ruby>に<ruby><rb>知</rb><rt>し</rt></ruby>らせるつもりだ？",
+        "zh_cn": "喂，先别着急啊皮诺后辈。\\n一句通知说得倒是容易，\\n可你要通知谁啊？",
+        "zh_tw": "喂喂，別慌啊，琵儂後輩。\\n就算妳想一口氣說出這些事情，\\n但究竟是打算去找誰說？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0074",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Everyone traveling to Grams who is\\nabout to be SLAUGHTERED, Nevin!",
+        "ja_jp": "そんなの、グラムスに<ruby><rb>行</rb><rt>い</rt></ruby>こうとしている\\n<ruby><rb>人</rb><rt>ひと</rt></ruby>たちに<ruby><rb>決</rb><rt>き</rt></ruby>まってるじゃないですか！\\n<ruby><rb>生贄</rb><rt>いけにえ</rt></ruby>にされちゃうんですよ!?",
+        "zh_cn": "这还用说吗，当然是打算\\n前往格拉姆斯的那些人啊！\\n他们可是会被当成活祭的啊！？",
+        "zh_tw": "還用說，當然是去跟\\n打算前往葛拉姆斯的那些人啊！\\n他們可是會被當成活祭品耶！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0075",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "And considering the schedule, most of\\nthem are already in Grams by now.\\nWarning them won't help—we need to\\nshut the festival down.",
+        "ja_jp": "<ruby><rb>祭典</rb><rt>さいてん</rt></ruby>の<ruby><rb>開催日</rb><rt>かいさいび</rt></ruby>を<ruby><rb>考</rb><rt>かんが</rt></ruby>えたら、ほとんどの\\n<ruby><rb>参加者</rb><rt>さんかしゃ</rt></ruby>はもうグラムスに<ruby><rb>到着</rb><rt>とうちゃく</rt></ruby>しちまって\\nいるだろうよ。",
+        "zh_cn": "考虑到祭典举办的日期，\\n大多数参加的人应该\\n都已经抵达格拉姆斯了。",
+        "zh_tw": "考慮到祭典的舉辦日期，\\n想必絕大部分的參加者都已經\\n到葛拉姆斯了啦。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0076",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "Ramiel? Any progress on reaching\\nour buddy Sandalphon?",
+        "ja_jp": "やれるとしたら、<ruby><rb>祭</rb><rt>まつ</rt></ruby>りの<ruby><rb>開催</rb><rt>かいさい</rt></ruby><ruby><rb>自体</rb><rt>じたい</rt></ruby>を<ruby><rb>阻止</rb><rt>そし</rt></ruby>\\nする<ruby><rb>事</rb><rt>こと</rt></ruby>だが……ラミエル、\\nサンダルフォンと<ruby><rb>連絡</rb><rt>れんらく</rt></ruby>はつくか？",
+        "zh_cn": "要说办法，就只有阻止\\n祭典举办了……拉米艾尔，\\n你能联系上圣德芬吗？",
+        "zh_tw": "如果要做的話，就只能阻止\\n活動舉辦下去了……雷米爾，\\n和聖德芬能聯絡上嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0077",
+      "book": ""
+    },
+    {
+      "icon": "210132_01",
+      "name": {
+        "en_us": "Ramiel",
+        "ja_jp": "ラミエル",
+        "zh_cn": "拉米艾尔",
+        "zh_tw": "雷米爾"
+      },
+      "context": {
+        "en_us": "No. The effects of Basileus's device persist.",
+        "ja_jp": "いいえ。まだヴァースに<ruby><rb>使</rb><rt>つか</rt></ruby>われた\\n<ruby><rb>魔導具</rb><rt>まどうぐ</rt></ruby>の<ruby><rb>効果</rb><rt>こうか</rt></ruby>が<ruby><rb>切</rb><rt>き</rt></ruby>れてくれません。",
+        "zh_cn": "联系不上。法斯对我们使用的\\n魔导具效果迟迟不退。",
+        "zh_tw": "不行。\\n梵斯使用的魔導具效果還沒消退。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0078",
+      "book": ""
+    },
+    {
+      "icon": "210145_01",
+      "name": {
+        "en_us": "Gabriel",
+        "ja_jp": "ガブリエル",
+        "zh_cn": "加百列",
+        "zh_tw": "加百列"
+      },
+      "context": {
+        "en_us": "It is the same with me.",
+        "ja_jp": "わたしも<ruby><rb>同</rb><rt>おな</rt></ruby>じね。<ruby><rb>聖痕</rb><rt>せいこん</rt></ruby>の<ruby><rb>繋</rb><rt>つな</rt></ruby>がりも\\n<ruby><rb>閉</rb><rt>と</rt></ruby>じられてしまったままだわ……。",
+        "zh_cn": "我这边也是。圣痕联系\\n也一直是受阻断的状态……",
+        "zh_tw": "我也一樣呢。\\n聖痕的連結依舊被封鎖著……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0079",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "(Basileus knew this would happen.\\nBut we have to do something...)",
+        "ja_jp": "（ヴァースのヤツ、こうなるのを\\n　<ruby><rb>見越</rb><rt>みこ</rt></ruby>していやがったな……なら、\\n　このまま<ruby><rb>動</rb><rt>うご</rt></ruby>いても、おそらく……）",
+        "zh_cn": "（法斯那家伙看来是\\n早就料到了这种情况……那么，\\n就算我们直接行动，恐怕也会……）",
+        "zh_tw": "（梵斯那傢伙，早就預測到\\n會發展成這樣了吧……那麼，\\n就算繼續這樣行動下去，恐怕也……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0080",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "Gimme a minute. Thinking.",
+        "ja_jp": "……<ruby><rb>悪</rb><rt>わる</rt></ruby>いが、<ruby><rb>少</rb><rt>すこ</rt></ruby>しだけ<ruby><rb>時間</rb><rt>じかん</rt></ruby>をくれ。",
+        "zh_cn": "抱歉……给我点时间考虑。",
+        "zh_tw": "……抱歉，稍微給我一點時間。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0081",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Nevin...",
+        "ja_jp": "ネヴィン<ruby><rb>先輩</rb><rt>せんぱい</rt></ruby>……。",
+        "zh_cn": "奈文前辈……",
+        "zh_tw": "涅因前輩……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0082",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0083",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "In the present...",
+        "ja_jp": "<ruby><rb>現在</rb><rt>げんざい</rt></ruby>……",
+        "zh_cn": "现在……",
+        "zh_tw": "現在……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "210132_01",
+      "name": {
+        "en_us": "Ramiel",
+        "ja_jp": "ラミエル",
+        "zh_cn": "拉米艾尔",
+        "zh_tw": "雷米爾"
+      },
+      "context": {
+        "en_us": "...Have you gathered your thoughts?",
+        "ja_jp": "――それで、<ruby><rb>考</rb><rt>かんが</rt></ruby>えはまとまりましたか？",
+        "zh_cn": "怎么样，有什么主意了吗？",
+        "zh_tw": "──所以，思緒都統整好了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0084",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "We're going to Grams. I assume you're\\ncoming with us, Harle?",
+        "ja_jp": "ああ、<ruby><rb>急</rb><rt>いそ</rt></ruby>ぎグラムスへ<ruby><rb>向</rb><rt>む</rt></ruby>かう。\\nハール、あんたも<ruby><rb>来</rb><rt>く</rt></ruby>るだろう？",
+        "zh_cn": "嗯，我们抓紧时间赶往格拉姆斯。\\n哈尔，你也会来吧？",
+        "zh_tw": "嗯，趕緊到葛拉姆斯去吧。\\n哈魯，你也會一起來吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0085",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "I wouldn't miss it for the world. After all,\\nthe ones who humiliated me will be\\nwaiting there. Heh heh heh...",
+        "ja_jp": "ええ、それはもちろん。\\nそこに<ruby><rb>必</rb><rt>かなら</rt></ruby>ず、<ruby><rb>私</rb><rt>わたし</rt></ruby>を<ruby><rb>虚仮</rb><rt>こけ</rt></ruby>にしてくれた<ruby><rb>方</rb><rt>かた</rt></ruby>が\\nいらっしゃるはずですからね、ふふふ。",
+        "zh_cn": "嗯，那当然。\\n毕竟那个嘲弄我的人\\n也一定会在那里嘛，呵呵呵。",
+        "zh_tw": "嗯，那當然。\\n在那裡，一定能遇到假扮成我的\\n那位人物才是。呵呵呵。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0086",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "Then let's move out. Everyone ready?",
+        "ja_jp": "なら、<ruby><rb>早速</rb><rt>さっそく</rt></ruby><ruby><rb>向</rb><rt>む</rt></ruby>かうとしよう。\\n<ruby><rb>皆</rb><rt>みな</rt></ruby>、<ruby><rb>準備</rb><rt>じゅんび</rt></ruby>はできてるな？",
+        "zh_cn": "那我们就快点出发吧。\\n大家都准备好了吗？",
+        "zh_tw": "那麼，我們就立刻出發吧。\\n大家，都準備好了吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0087",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Yes! Let's hurry!",
+        "ja_jp": "もちろんです！　さあ、<ruby><rb>行</rb><rt>い</rt></ruby>きますよ！",
+        "zh_cn": "当然了！我们走吧！",
+        "zh_tw": "當然好了！那麼我們走吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0088",
+      "book": ""
+    },
+    {
+      "icon": "210145_01",
+      "name": {
+        "en_us": "Gabriel",
+        "ja_jp": "ガブリエル",
+        "zh_cn": "加百列",
+        "zh_tw": "加百列"
+      },
+      "context": {
+        "en_us": "Hold up, honey bun! You've got a patch of\\nhair in the back that's standing up funny.\\nLet Mama fix that for you.",
+        "ja_jp": "ああ、<ruby><rb>待</rb><rt>ま</rt></ruby>ってピィちゃん！\\n<ruby><rb>後</rb><rt>うし</rt></ruby>ろ<ruby><rb>髪</rb><rt>がみ</rt></ruby>がぴょこって<ruby><rb>跳</rb><rt>は</rt></ruby>ねちゃってるわ。\\nママが<ruby><rb>直</rb><rt>なお</rt></ruby>してあげる～♪",
+        "zh_cn": "啊，等一下小皮！\\n后脑勺的头发都翘起来了。\\n妈妈来帮你理好♪",
+        "zh_tw": "啊，等等，小琵琵！\\n妳後面的頭髮翹起來了。\\n媽媽幫妳整理好～♪"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0089",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "I can't wait to repay the favor to those who\\ncrossed me. Oh, but they will pay...",
+        "ja_jp": "ふふ……<ruby><rb>私</rb><rt>わたし</rt></ruby>を<ruby><rb>虚仮</rb><rt>こけ</rt></ruby>にしてくれた<ruby><rb>借</rb><rt>か</rt></ruby>りは\\n<ruby><rb>必</rb><rt>かなら</rt></ruby>ず<ruby><rb>返</rb><rt>かえ</rt></ruby>させていただきますよ。",
+        "zh_cn": "呵呵……嘲弄我的这笔账，\\n一定要讨回来呢。",
+        "zh_tw": "呵呵……\\n假扮成我的這筆帳，\\n我一定會好好奉還唷。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0090",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Ramiel",
+        "ja_jp": "ラミエル",
+        "zh_cn": "拉米艾尔",
+        "zh_tw": "雷米爾"
+      },
+      "context": {
+        "en_us": "And what do you want me to do?",
+        "ja_jp": "さて……<ruby><rb>私</rb><rt>わたし</rt></ruby>はどうすればいいですか？",
+        "zh_cn": "那么……我该怎么做？",
+        "zh_tw": "那麼……我該做什麼好？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0091",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "Heh. Sharp as ever.",
+        "ja_jp": "フッ、さすがに<ruby><rb>察</rb><rt>さっ</rt></ruby>しがいいな。",
+        "zh_cn": "呵，你还真是很敏锐啊。",
+        "zh_tw": "哼，不愧是你，非常精明呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0092",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Ramiel",
+        "ja_jp": "ラミエル",
+        "zh_cn": "拉米艾尔",
+        "zh_tw": "雷米爾"
+      },
+      "context": {
+        "en_us": "We've been at this long enough for me\\nto know how you think.",
+        "ja_jp": "それはまあ、<ruby><rb>長</rb><rt>なが</rt></ruby>い<ruby><rb>付</rb><rt>つ</rt></ruby>き<ruby><rb>合</rb><rt>あ</rt></ruby>いですからね。",
+        "zh_cn": "那还用说吗，\\n我们都认识多少年了。",
+        "zh_tw": "好說好說，畢竟我們也認識久了嘛。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0093",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Nevin",
+        "ja_jp": "ネヴィン",
+        "zh_cn": "奈文",
+        "zh_tw": "涅因"
+      },
+      "context": {
+        "en_us": "I need you to run a little errand for me...",
+        "ja_jp": "ラミエル、あんたにはひとつ……\\nお<ruby><rb>遣</rb><rt>つか</rt></ruby>いを<ruby><rb>頼</rb><rt>たの</rt></ruby>みたい。",
+        "zh_cn": "拉米艾尔，我有一件事……\\n想让你帮忙跑一趟。",
+        "zh_tw": "雷米爾，\\n我有一件事……要拜託你。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0094",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Curia of the Ilian Church of Grams\\nHolding Cells",
+        "ja_jp": "<ruby><rb>聖都</rb><rt>せいと</rt></ruby>グラムス\\nイリア<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>・<ruby><rb>教皇庁</rb><rt>きょうこうちょう</rt></ruby>・<ruby><rb>特殊監獄</rb><rt>とくしゅかんごく</rt></ruby>",
+        "zh_cn": "圣都格拉姆斯\\n伊莉雅教会·教皇厅·特殊监狱",
+        "zh_tw": "聖都葛拉姆斯\\n伊利亞教會‧教廷‧特殊監獄"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Templar Guard",
+        "ja_jp": "牢番の教会騎士",
+        "zh_cn": "看守牢房的教会骑士",
+        "zh_tw": "看守牢房的教會騎士"
+      },
+      "context": {
+        "en_us": "Can't believe I'm stuck on guard duty today\\nof all days. I'm gonna miss my daughter's\\nfirst Auspecalia!",
+        "ja_jp": "まったく、こんな<ruby><rb>日</rb><rt>ひ</rt></ruby>に<ruby><rb>牢番</rb><rt>ろうばん</rt></ruby>なんてツイて\\nない……<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>なら、<ruby><rb>妻</rb><rt>つま</rt></ruby>や2<ruby><rb>歳</rb><rt>さい</rt></ruby>になる<ruby><rb>娘</rb><rt>むすめ</rt></ruby>と\\n<ruby><rb>家族</rb><rt>かぞく</rt></ruby><ruby><rb>団</rb><rt>だん</rt></ruby>らんを<ruby><rb>楽</rb><rt>たの</rt></ruby>しんでいたはずが……。",
+        "zh_cn": "真是的，这种时候竟然摊上\\n看守牢房的活儿……本来应该\\n和老婆还有2岁的女儿团聚的……",
+        "zh_tw": "真是，這種日子居然輪到我看守牢房，\\n有夠倒楣……原本還想說要和妻子\\n以及快兩歲的女兒享受天倫之樂……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0095",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "The Day of the Auspecalia Festival...",
+        "ja_jp": "<ruby><rb>聖大祭</rb><rt>せいだいさい</rt></ruby>、<ruby><rb>開催</rb><rt>かいさい</rt></ruby><ruby><rb>当日</rb><rt>とうじつ</rt></ruby>……",
+        "zh_cn": "圣大祭当天……",
+        "zh_tw": "聖大祭活動當日……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110365_01",
+      "name": {
+        "en_us": "Templar Guard",
+        "ja_jp": "牢番の教会騎士",
+        "zh_cn": "看守牢房的教会骑士",
+        "zh_tw": "看守牢房的教會騎士"
+      },
+      "context": {
+        "en_us": "This is all your fault, you know! What kind\\nof madwoman kills a priest and then sets\\nan entire town on fire, huh?",
+        "ja_jp": "それも、<ruby><rb>全部</rb><rt>ぜんぶ</rt></ruby>アンタら<ruby><rb>使徒</rb><rt>しと</rt></ruby>のせいだぞ！\\n<ruby><rb>司祭</rb><rt>しさい</rt></ruby>を<ruby><rb>殺</rb><rt>ころ</rt></ruby>して<ruby><rb>町</rb><rt>まち</rt></ruby>を<ruby><rb>火</rb><rt>ひ</rt></ruby>の<ruby><rb>海</rb><rt>うみ</rt></ruby>にするなんて、\\nいったいどういう<ruby><rb>神経</rb><rt>しんけい</rt></ruby>をしてるんだ？",
+        "zh_cn": "这都是拜你们使徒所赐！\\n你们竟然杀害祭司、放火烧镇，\\n到底是怎么想的啊？",
+        "zh_tw": "這一切，都是你們使徒害的！\\n殺了祭司還讓城鎮陷入火海，\\n到底是怎麼能做出這種事？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0096",
+      "book": ""
+    },
+    {
+      "icon": "110381_03",
+      "name": {
+        "en_us": "Ryszarda",
+        "ja_jp": "リィザ",
+        "zh_cn": "里莎",
+        "zh_tw": "理薩"
+      },
+      "context": {
+        "en_us": "It wasn't us!",
+        "ja_jp": "ち、<ruby><rb>違</rb><rt>ちが</rt></ruby>います！　それをやったのは\\nあたしたちでは……。",
+        "zh_cn": "才、才不是呢！\\n那些不是我们做的……",
+        "zh_tw": "不、不是那樣！\\n那些事情都不是我們……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0097",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Templar Guard",
+        "ja_jp": "牢番の教会騎士",
+        "zh_cn": "看守牢房的教会骑士",
+        "zh_tw": "看守牢房的教會騎士"
+      },
+      "context": {
+        "en_us": "A little late to be playing the innocent.\\nEverybody knows about your plot to\\ndestroy the Church.",
+        "ja_jp": "フン、<ruby><rb>今</rb><rt>いま</rt></ruby>さら<ruby><rb>何</rb><rt>なに</rt></ruby>を<ruby><rb>言</rb><rt>い</rt></ruby>う。アンタらが\\n<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>に<ruby><rb>謀反</rb><rt>むほん</rt></ruby>を<ruby><rb>起</rb><rt>お</rt></ruby>こそうとしていた<ruby><rb>事</rb><rt>こと</rt></ruby>は\\nすでに<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>の<ruby><rb>誰</rb><rt>だれ</rt></ruby>もが<ruby><rb>知</rb><rt>し</rt></ruby>っている！",
+        "zh_cn": "哼，别狡辩了。\\n你们企图叛变一事\\n在教会里已经人尽皆知！",
+        "zh_tw": "哼，事到如今還說這什麼話。\\n你們打算反叛教會的事，\\n現在全教會都已經知道了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0098",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Templar Guard",
+        "ja_jp": "牢番の教会騎士",
+        "zh_cn": "看守牢房的教会骑士",
+        "zh_tw": "看守牢房的教會騎士"
+      },
+      "context": {
+        "en_us": "I just feel sorry for poor Archbishop Basel.\\nHe's under house arrest because he didn't\\nsee his subordinates' betrayal coming.",
+        "ja_jp": "ああ、バーゼル<ruby><rb>大司教</rb><rt>だいしきょう</rt></ruby>も<ruby><rb>災難</rb><rt>さいなん</rt></ruby>だよな。\\nアンタらの<ruby><rb>暴走</rb><rt>ぼうそう</rt></ruby>を<ruby><rb>察知</rb><rt>さっち</rt></ruby>できなかったって\\n<ruby><rb>監督</rb><rt>かんとく</rt></ruby><ruby><rb>責任</rb><rt>せきにん</rt></ruby>を<ruby><rb>問</rb><rt>と</rt></ruby>われて<ruby><rb>謹慎</rb><rt>きんしん</rt></ruby><ruby><rb>処分</rb><rt>しょぶん</rt></ruby>だ。",
+        "zh_cn": "唉，巴赛尔大主教也真是冤枉啊。\\n没能察觉到你们的失控，\\n因监管不力而被停职了。",
+        "zh_tw": "啊啊，巴瑟爾大主教也真是不幸。\\n因為沒察覺你們的異狀，\\n所以也被究責遭到停職處分了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0099",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Templar Guard",
+        "ja_jp": "牢番の教会騎士",
+        "zh_cn": "看守牢房的教会骑士",
+        "zh_tw": "看守牢房的教會騎士"
+      },
+      "context": {
+        "en_us": "Imagine a good, honest man like him\\nbeing blamed for you traitorous curs.\\nShameless, the lot of you.",
+        "ja_jp": "あんな<ruby><rb>謹厳実直</rb><rt>きんげんじっちょく</rt></ruby>で<ruby><rb>立派</rb><rt>りっぱ</rt></ruby>な<ruby><rb>方</rb><rt>かた</rt></ruby>が、アンタら\\n<ruby><rb>反逆者</rb><rt>はんぎゃくしゃ</rt></ruby>のせいで<ruby><rb>後</rb><rt>うし</rt></ruby>ろ<ruby><rb>指</rb><rt>ゆび</rt></ruby>さされてんだぞ。\\n<ruby><rb>少</rb><rt>すこ</rt></ruby>しは<ruby><rb>良心</rb><rt>りょうしん</rt></ruby>が<ruby><rb>痛</rb><rt>いた</rt></ruby>まないのかよ、なあ？",
+        "zh_cn": "那么稳重耿直的好人，就因为\\n你们的背叛而被别人说闲话。\\n你们的良心不会痛吗，嗯？",
+        "zh_tw": "那麼嚴謹又正直的大人物，也因為\\n你們反叛者而被人在背後指手畫腳。\\n你們的良心難道一點都不痛嗎？啊？？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0100",
+      "book": ""
+    },
+    {
+      "icon": "110381_03",
+      "name": {
+        "en_us": "Ryszarda",
+        "ja_jp": "リィザ",
+        "zh_cn": "里莎",
+        "zh_tw": "理薩"
+      },
+      "context": {
+        "en_us": "I'm telling you, it wasn't—",
+        "ja_jp": "だからそれは……！",
+        "zh_cn": "都说了那是……",
+        "zh_tw": "都說了那不是我們……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0101",
+      "book": ""
+    },
+    {
+      "icon": "110381_03",
+      "name": {
+        "en_us": "Templar Guard",
+        "ja_jp": "牢番の教会騎士",
+        "zh_cn": "看守牢房的教会骑士",
+        "zh_tw": "看守牢房的教會騎士"
+      },
+      "context": {
+        "en_us": "No remorse at all, eh? You could stand to\\nlearn a thing or two from the guy we\\nbrought in with you.",
+        "ja_jp": "<ruby><rb>反省</rb><rt>はんせい</rt></ruby>の<ruby><rb>色</rb><rt>いろ</rt></ruby>なし……ハッ、<ruby><rb>少</rb><rt>すこ</rt></ruby>しは<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に\\n<ruby><rb>捕</rb><rt>つか</rt></ruby>まった<ruby><rb>坊主</rb><rt>ぼうず</rt></ruby>を<ruby><rb>見習</rb><rt>みなら</rt></ruby>ったらどうだ？",
+        "zh_cn": "竟然还不知悔改……哼，\\n你向那小子学学不行吗？",
+        "zh_tw": "毫無反省的意思……\\n哈，多少向一起被抓來的小鬼學學吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0102",
+      "book": ""
+    },
+    {
+      "icon": "110381_03",
+      "name": {
+        "en_us": "Templar Guard",
+        "ja_jp": "牢番の教会騎士",
+        "zh_cn": "看守牢房的教会骑士",
+        "zh_tw": "看守牢房的教會騎士"
+      },
+      "context": {
+        "en_us": "Hasn't said boo since he got here.\\nInstead, he's spent his time reflecting\\non his crimes.",
+        "ja_jp": "アイツはここに<ruby><rb>来</rb><rt>き</rt></ruby>てから<ruby><rb>一言</rb><rt>ひとこと</rt></ruby>も<ruby><rb>喋</rb><rt>しゃべ</rt></ruby>らずに\\nずっと<ruby><rb>押</rb><rt>お</rt></ruby>し<ruby><rb>黙</rb><rt>だま</rt></ruby>って<ruby><rb>反省</rb><rt>はんせい</rt></ruby>しているぞ？",
+        "zh_cn": "他自从进来之后一直\\n一言不发地默默反省呢。",
+        "zh_tw": "那傢伙自從被抓進來後，\\n一句話也沒說，一直都在反省喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0103",
+      "book": ""
+    },
+    {
+      "icon": "110382_04",
+      "name": {
+        "en_us": "Ryszarda",
+        "ja_jp": "リィザ",
+        "zh_cn": "里莎",
+        "zh_tw": "理薩"
+      },
+      "context": {
+        "en_us": "Faris...",
+        "ja_jp": "フワラス……。",
+        "zh_cn": "弗拉斯……",
+        "zh_tw": "法朗斯……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0104",
+      "book": ""
+    },
+    {
+      "icon": "110395_02",
+      "name": {
+        "en_us": "Regina",
+        "ja_jp": "クイン",
+        "zh_cn": "奎茵",
+        "zh_tw": "柯恩"
+      },
+      "context": {
+        "en_us": "You there. Guard. Put me through to the\\nAus...er, to Her Holiness the Pope.\\nI must speak with her about a matter.",
+        "ja_jp": "おい、<ruby><rb>牢番</rb><rt>ろうばん</rt></ruby>。<ruby><rb>巫女</rb><rt>みこ</rt></ruby>に……<ruby><rb>教皇猊下</rb><rt>きょうこうげいか</rt></ruby>に\\n<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>次</rb><rt>つ</rt></ruby>げ。<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>話</rb><rt>はな</rt></ruby>したい<ruby><rb>事</rb><rt>こと</rt></ruby>がある。",
+        "zh_cn": "喂，狱卒。帮我们通报巫女……\\n教皇陛下。我有些事要说。",
+        "zh_tw": "喂，守衛。\\n去向巫女……向教宗陛下傳話。\\n我有點事要向她說。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0105",
+      "book": ""
+    },
+    {
+      "icon": "110395_02",
+      "name": {
+        "en_us": "Regina",
+        "ja_jp": "クイン",
+        "zh_cn": "奎茵",
+        "zh_tw": "柯恩"
+      },
+      "context": {
+        "en_us": "She will listen if you give her the name\\n＂Alphir.＂ If you value your life and the lives\\nof your loved ones, you will do this thing.",
+        "ja_jp": "『アルフィル』の<ruby><rb>名</rb><rt>な</rt></ruby>を<ruby><rb>出</rb><rt>だ</rt></ruby>せば<ruby><rb>話</rb><rt>はなし</rt></ruby>は<ruby><rb>通</rb><rt>とお</rt></ruby>る\\nはずだ。いいか、<ruby><rb>必</rb><rt>かなら</rt></ruby>ず<ruby><rb>猊下</rb><rt>げいか</rt></ruby>に<ruby><rb>伝</rb><rt>つた</rt></ruby>えろ！\\n<ruby><rb>失敗</rb><rt>しっぱい</rt></ruby>すれば、お<ruby><rb>前</rb><rt>まえ</rt></ruby>に<ruby><rb>未来</rb><rt>みらい</rt></ruby>はないと<ruby><rb>思</rb><rt>おも</rt></ruby>え。",
+        "zh_cn": "和她说“阿尔菲尔”她应该就懂了。\\n听到了吗，一定要告诉陛下！\\n要是搞砸了你可就完蛋了。",
+        "zh_tw": "只要說出「阿爾菲路」這名稱就行了。\\n知道了嗎，一定要傳達給陛下！\\n要是失敗的話，你可不會有未來。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0106",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Templar Guard",
+        "ja_jp": "牢番の教会騎士",
+        "zh_cn": "看守牢房的教会骑士",
+        "zh_tw": "看守牢房的教會騎士"
+      },
+      "context": {
+        "en_us": "Pffft! You think I'm going to fall for an\\nobvious bluff like that?",
+        "ja_jp": "ふ、ふん。くだらんハッタリだな。\\n<ruby><rb>俺</rb><rt>おれ</rt></ruby>はそんな<ruby><rb>戯言</rb><rt>たわごと</rt></ruby>には<ruby><rb>騙</rb><rt>だま</rt></ruby>されん。",
+        "zh_cn": "哼！少吓唬我。\\n我才不会相信那种胡话。",
+        "zh_tw": "哼、哼。\\n真是無謂的虛張聲勢。\\n我才不會被妳那種兒戲給騙了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0107",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Regina",
+        "ja_jp": "クイン",
+        "zh_cn": "奎茵",
+        "zh_tw": "柯恩"
+      },
+      "context": {
+        "en_us": "If you think it a bluff, then by all means,\\ndo nothing. Just don't blame me when\\ntragedy befalls your household.",
+        "ja_jp": "<ruby><rb>戯言</rb><rt>たわごと</rt></ruby>だと<ruby><rb>思</rb><rt>おも</rt></ruby>うなら<ruby><rb>勝手</rb><rt>かって</rt></ruby>にするがいい。\\nだが、それでお<ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>家族</rb><rt>かぞく</rt></ruby>が<ruby><rb>不幸</rb><rt>ふこう</rt></ruby>な<ruby><rb>目</rb><rt>め</rt></ruby>に\\n<ruby><rb>遭</rb><rt>あ</rt></ruby>っても<ruby><rb>私</rb><rt>わたし</rt></ruby>のせいにするなよ？",
+        "zh_cn": "你要觉得是胡话随便你。\\n不过要是你的家人到时候\\n遇到什么不测可别怪我啊？",
+        "zh_tw": "如果覺得是兒戲，那就隨便你。\\n但是，如果因為這樣害你的家人\\n遭遇不幸，到時候可別來怪我喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0108",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Templar Guard",
+        "ja_jp": "牢番の教会騎士",
+        "zh_cn": "看守牢房的教会骑士",
+        "zh_tw": "看守牢房的教會騎士"
+      },
+      "context": {
+        "en_us": "...Fine! But just a message, and only once.\\nWaste of time anyway—there's no way\\nHer Holiness will listen to some heretic.",
+        "ja_jp": "……わかった。だが、<ruby><rb>伝</rb><rt>つた</rt></ruby>えるだけだ。\\nその<ruby><rb>後</rb><rt>あと</rt></ruby>の<ruby><rb>事</rb><rt>こと</rt></ruby>は<ruby><rb>知</rb><rt>し</rt></ruby>らんぞ。<ruby><rb>教皇猊下</rb><rt>きょうこうげいか</rt></ruby>が\\n<ruby><rb>異端者</rb><rt>いたんしゃ</rt></ruby>の<ruby><rb>話</rb><rt>はなし</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>くとは<ruby><rb>思</rb><rt>おも</rt></ruby>えんからな！",
+        "zh_cn": "好吧……不过，我只负责传话，\\n别的我可不管。因为我不觉得\\n教皇陛下会听一个异端的话！",
+        "zh_tw": "……我知道了。但我就只傳話而已。\\n那之後的事我可不管喔。畢竟我不認為\\n教宗陛下會聽異端者說的話！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0109",
+      "book": ""
+    },
+    {
+      "icon": "110381_03",
+      "name": {
+        "en_us": "Ryszarda",
+        "ja_jp": "リィザ",
+        "zh_cn": "里莎",
+        "zh_tw": "理薩"
+      },
+      "context": {
+        "en_us": "I don't mean to doubt you, Regina, but\\nwhy would Origa give us the time of day?",
+        "ja_jp": "クイン……<ruby><rb>疑</rb><rt>うたが</rt></ruby>うわけじゃないのですが、\\n……<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>教皇猊下</rb><rt>きょうこうげいか</rt></ruby>があたしたちの<ruby><rb>話</rb><rt>はなし</rt></ruby>を\\n<ruby><rb>聞</rb><rt>き</rt></ruby>いてくれるのでしょうか……？",
+        "zh_cn": "奎茵……我也不是不信你，\\n只是……教皇陛下\\n真的会听我们说话吗？",
+        "zh_tw": "柯恩……雖然我不是在懷疑妳……\\n但妳真的覺得教宗陛下\\n會聽我們說話嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0110",
+      "book": ""
+    },
+    {
+      "icon": "110395_02",
+      "name": {
+        "en_us": "Regina",
+        "ja_jp": "クイン",
+        "zh_cn": "奎茵",
+        "zh_tw": "柯恩"
+      },
+      "context": {
+        "en_us": "Because I'm betting she hasn't forgotten.",
+        "ja_jp": "さあな。だが、あの<ruby><rb>子</rb><rt>こ</rt></ruby>があの<ruby><rb>頃</rb><rt>ころ</rt></ruby>の<ruby><rb>事</rb><rt>こと</rt></ruby>を\\n<ruby><rb>忘</rb><rt>わす</rt></ruby>れていないのなら、きっと……。",
+        "zh_cn": "不知道。但是，如果她\\n还没忘记当年的事，就一定……",
+        "zh_tw": "誰知道呢。但是，\\n如果那孩子沒有忘記\\n當時的事，就一定……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0111",
+      "book": ""
+    },
+    {
+      "icon": "110395_02",
+      "name": {
+        "en_us": "Regina",
+        "ja_jp": "クイン",
+        "zh_cn": "奎茵",
+        "zh_tw": "柯恩"
+      },
+      "context": {
+        "en_us": "More importantly, Ryszarda, what of your\\nSigil connection to Rafael?",
+        "ja_jp": "それよりも、リィザ。\\nラファエルとの<ruby><rb>聖痕</rb><rt>せいこん</rt></ruby>の<ruby><rb>繋</rb><rt>つな</rt></ruby>がりはどうだ？",
+        "zh_cn": "对了，里莎。\\n你和拉斐尔的圣痕联系怎么样了？",
+        "zh_tw": "比起這個，理薩。\\n妳與拉斐爾間的聖痕連結現在如何？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0112",
+      "book": ""
+    },
+    {
+      "icon": "110381_03",
+      "name": {
+        "en_us": "Ryszarda",
+        "ja_jp": "リィザ",
+        "zh_cn": "里莎",
+        "zh_tw": "理薩"
+      },
+      "context": {
+        "en_us": "Nothing. I can't feel a thing—and I don't\\nknow if this is something that'll get better\\non its own or not.",
+        "ja_jp": "ダメです……<ruby><rb>繋</rb><rt>つな</rt></ruby>がりを<ruby><rb>全然</rb><rt>ぜんぜん</rt></ruby><ruby><rb>感</rb><rt>かん</rt></ruby>じません。\\nたぶん、<ruby><rb>自然</rb><rt>しぜん</rt></ruby><ruby><rb>回復</rb><rt>かいふく</rt></ruby>は<ruby><rb>望</rb><rt>のぞ</rt></ruby>めないかと……。",
+        "zh_cn": "还是不行……完全感觉不到。\\n应该没法指望它自然恢复了……",
+        "zh_tw": "不行……完全感受不到連結。\\n大概無法指望它能自然恢復……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0113",
+      "book": ""
+    },
+    {
+      "icon": "110395_02",
+      "name": {
+        "en_us": "Regina",
+        "ja_jp": "クイン",
+        "zh_cn": "奎茵",
+        "zh_tw": "柯恩"
+      },
+      "context": {
+        "en_us": "So you're in the same position we are.\\nSadly, we can't hope to break out of here\\nby force without the Sigil's strength.",
+        "ja_jp": "なるほど、<ruby><rb>状態</rb><rt>じょうたい</rt></ruby>は<ruby><rb>私</rb><rt>わたし</rt></ruby>たちと<ruby><rb>同</rb><rt>おな</rt></ruby>じか……。\\n<ruby><rb>聖痕</rb><rt>せいこん</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>使</rb><rt>つか</rt></ruby>えない<ruby><rb>状態</rb><rt>じょうたい</rt></ruby>では<ruby><rb>無理矢理</rb><rt>むりやり</rt></ruby>\\n<ruby><rb>牢</rb><rt>ろう</rt></ruby>をぶち<ruby><rb>破</rb><rt>やぶ</rt></ruby>るような<ruby><rb>真似</rb><rt>まね</rt></ruby>もできんな。",
+        "zh_cn": "原来如此，情况和我一样吗……\\n既然不能动用圣痕的力量，\\n也就没法强行越狱了。",
+        "zh_tw": "原來如此，和我們的狀況相同嗎……\\n在無法使用聖痕的狀態下，\\n也沒辦法硬將牢籠破壞呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0114",
+      "book": ""
+    },
+    {
+      "icon": "110395_02",
+      "name": {
+        "en_us": "Regina",
+        "ja_jp": "クイン",
+        "zh_cn": "奎茵",
+        "zh_tw": "柯恩"
+      },
+      "context": {
+        "en_us": "Which means we're left counting on Faris\\nand his plotting. Uriel didn't say anything\\nwhen you were captured, did he?",
+        "ja_jp": "そうなると、<ruby><rb>後</rb><rt>あと</rt></ruby>はフワラスの<ruby><rb>企</rb><rt>たくら</rt></ruby>みに<ruby><rb>頼</rb><rt>たよ</rt></ruby>る\\nしかなさそうだ。<ruby><rb>捕</rb><rt>つか</rt></ruby>まる<ruby><rb>時</rb><rt>とき</rt></ruby>、ウリエルは\\n<ruby><rb>特</rb><rt>とく</rt></ruby>に<ruby><rb>何</rb><rt>なに</rt></ruby>も<ruby><rb>言</rb><rt>い</rt></ruby>わなかったのだろう？",
+        "zh_cn": "这样一来，就只能靠弗拉斯的\\n计划了。我们被抓的时候，\\n乌列没有特别嘱咐什么吧？",
+        "zh_tw": "這樣一來，似乎就只能\\n仰賴法朗斯的計畫了。\\n被抓到時，烏列爾沒特別說什麼吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0115",
+      "book": ""
+    },
+    {
+      "icon": "110381_03",
+      "name": {
+        "en_us": "Ryszarda",
+        "ja_jp": "リィザ",
+        "zh_cn": "里莎",
+        "zh_tw": "理薩"
+      },
+      "context": {
+        "en_us": "No. Well, other than he was sure Faris\\nwould get passing marks.",
+        "ja_jp": "は、はい……ただ<ruby><rb>一言</rb><rt>ひとこと</rt></ruby>、\\nフワラスならば<ruby><rb>合格</rb><rt>ごうかく</rt></ruby>だ、とだけ……。",
+        "zh_cn": "啊，嗯……只说了一句\\n“弗拉斯合格”……",
+        "zh_tw": "嗯、嗯……他只說了一句，\\n法朗斯會合格的，這樣……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0116",
+      "book": ""
+    },
+    {
+      "icon": "110395_02",
+      "name": {
+        "en_us": "Regina",
+        "ja_jp": "クイン",
+        "zh_cn": "奎茵",
+        "zh_tw": "柯恩"
+      },
+      "context": {
+        "en_us": "Ever the doting father. Still, if they already\\nhad a plan in mind then, it would be to...\\nYes, of course!",
+        "ja_jp": "ふっ、<ruby><rb>相変</rb><rt>あいか</rt></ruby>わらずの<ruby><rb>親</rb><rt>おや</rt></ruby>バカだな。\\nしかし……なるほど。その<ruby><rb>時点</rb><rt>じてん</rt></ruby>で<ruby><rb>彼</rb><rt>かれ</rt></ruby>らが\\n<ruby><rb>採</rb><rt>と</rt></ruby>れる<ruby><rb>手段</rb><rt>しゅだん</rt></ruby>となると、おそらく……",
+        "zh_cn": "哼，自家孩子宠得不得了呢。\\n不过……我懂了。在当时的情况下，\\n他们所能做的，恐怕也只有……",
+        "zh_tw": "呵，依然是個寵小孩的父親呢。\\n但是……我懂了。在那時間點\\n他們會採取的手段，恐怕是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0117",
+      "book": ""
+    },
+    {
+      "icon": "110395_02",
+      "name": {
+        "en_us": "Regina",
+        "ja_jp": "クイン",
+        "zh_cn": "奎茵",
+        "zh_tw": "柯恩"
+      },
+      "context": {
+        "en_us": "But in that case, I'd want a fallback—\\nor ideally two.",
+        "ja_jp": "だが、だとすればやはり、できれば\\nもう<ruby><rb>一手</rb><rt>いって</rt></ruby>……いや、<ruby><rb>二手</rb><rt>にて</rt></ruby>は<ruby><rb>欲</rb><rt>ほ</rt></ruby>しいか。",
+        "zh_cn": "既然如此，\\n最好能再有一手准备……\\n不，两手比较好吧。",
+        "zh_tw": "但，即使是這樣，\\n果然還是希望再多一步……\\n不，是兩步棋嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0118",
+      "book": ""
+    },
+    {
+      "icon": "110395_02",
+      "name": {
+        "en_us": "Templar Guard",
+        "ja_jp": "牢番の教会騎士",
+        "zh_cn": "看守牢房的教会骑士",
+        "zh_tw": "看守牢房的教會騎士"
+      },
+      "context": {
+        "en_us": "I don't know what the hell is going on\\nhere, but...Regina, Her Holiness is asking\\nfor you!",
+        "ja_jp": "お、おい！　これはどういう<ruby><rb>事</rb><rt>こと</rt></ruby>だ!?\\nクイン、<ruby><rb>教皇猊下</rb><rt>きょうこうげいか</rt></ruby>がアンタをお<ruby><rb>呼</rb><rt>よ</rt></ruby>びだ！",
+        "zh_cn": "喂！这到底是怎么回事！？\\n奎茵，教皇陛下叫你过去！",
+        "zh_tw": "喂，喂！這是怎麼回事！？\\n柯恩，教宗陛下要召見妳！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0119",
+      "book": ""
+    },
+    {
+      "icon": "110395_02",
+      "name": {
+        "en_us": "Regina",
+        "ja_jp": "クイン",
+        "zh_cn": "奎茵",
+        "zh_tw": "柯恩"
+      },
+      "context": {
+        "en_us": "...And there's number one.",
+        "ja_jp": "……まずは<ruby><rb>一手</rb><rt>いって</rt></ruby>。",
+        "zh_cn": "先来第一手……",
+        "zh_tw": "……首先是第一步棋。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0120",
+      "book": ""
+    },
+    {
+      "icon": "110395_02",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Grams\\nCuria of the Ilian Church of Grams",
+        "ja_jp": "<ruby><rb>聖都</rb><rt>せいと</rt></ruby>グラムス\\nイリア<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>・<ruby><rb>教皇庁</rb><rt>きょうこうちょう</rt></ruby>",
+        "zh_cn": "圣都格拉姆斯\\n伊莉雅教会·教皇厅",
+        "zh_tw": "聖都葛拉姆斯\\n伊利亞教會‧教廷"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "You mustn't, Your Holiness! That woman\\ncommands the apostles, which makes her\\nchief among traitors!",
+        "ja_jp": "お<ruby><rb>待</rb><rt>ま</rt></ruby>ちください、オリガ<ruby><rb>様</rb><rt>さま</rt></ruby>！\\n<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>は<ruby><rb>使徒</rb><rt>しと</rt></ruby>どもの<ruby><rb>指揮官</rb><rt>しきかん</rt></ruby>……\\n<ruby><rb>言</rb><rt>い</rt></ruby>わば、<ruby><rb>反逆</rb><rt>はんぎゃく</rt></ruby>の<ruby><rb>主犯格</rb><rt>しゅはんかく</rt></ruby>なのですよ!?",
+        "zh_cn": "奥莉加大人，请您三思啊！\\n她可是那些使徒的指挥官……\\n说白了就是叛变的主犯啊！？",
+        "zh_tw": "請您稍等，奧莉加大人！\\n她是那群使徒的指揮官……\\n換言之，就是謀反的主犯喔！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0121",
+      "book": ""
+    },
+    {
+      "icon": "100043_01",
+      "name": {
+        "en_us": "Origa",
+        "ja_jp": "オリガ",
+        "zh_cn": "奥莉加",
+        "zh_tw": "奧莉加"
+      },
+      "context": {
+        "en_us": "I will not repeat myself, Cardinal.\\nNow stand down.",
+        "ja_jp": "<ruby><rb>同</rb><rt>おな</rt></ruby>じ<ruby><rb>事</rb><rt>こと</rt></ruby>を<ruby><rb>二度</rb><rt>にど</rt></ruby>も<ruby><rb>言</rb><rt>い</rt></ruby>わすな、グラート。\\n<ruby><rb>余</rb><rt>よ</rt></ruby>は<ruby><rb>下</rb><rt>さ</rt></ruby>がれと<ruby><rb>命</rb><rt>めい</rt></ruby>じたのだ。",
+        "zh_cn": "别让吾说第二遍，古拉特。\\n吾命令你退下。",
+        "zh_tw": "同樣的話別讓余說第二次，古拉特。\\n余已經命令你退下了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0122",
+      "book": ""
+    },
+    {
+      "icon": "120194_01",
+      "name": {
+        "en_us": "Graht",
+        "ja_jp": "グラート",
+        "zh_cn": "古拉特",
+        "zh_tw": "古拉特"
+      },
+      "context": {
+        "en_us": "...Understood, Your Holiness. But do not\\nhesitate to call for me if anything\\nuntoward happens.",
+        "ja_jp": "ぬぅ……かしこまりました。\\n<ruby><rb>何</rb><rt>なに</rt></ruby>かあればすぐにお<ruby><rb>呼</rb><rt>よ</rt></ruby>びを……。",
+        "zh_cn": "唔……遵命。\\n有事请随时叫我……",
+        "zh_tw": "咕唔……屬下遵命。\\n若發生什麼事，請立刻呼喚我……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0123",
+      "book": ""
+    },
+    {
+      "icon": "100043_01",
+      "name": {
+        "en_us": "Origa",
+        "ja_jp": "オリガ",
+        "zh_cn": "奥莉加",
+        "zh_tw": "奧莉加"
+      },
+      "context": {
+        "en_us": "That nuisance has been sent packing.\\nIf you've something to say to me,\\nnow is the time.",
+        "ja_jp": "……<ruby><rb>邪魔者</rb><rt>じゃまもの</rt></ruby>には<ruby><rb>出</rb><rt>で</rt></ruby>て<ruby><rb>行</rb><rt>い</rt></ruby>ってもらった。\\n<ruby><rb>何</rb><rt>なに</rt></ruby>か<ruby><rb>話</rb><rt>はなし</rt></ruby>があるなら<ruby><rb>聞</rb><rt>き</rt></ruby>こう。",
+        "zh_cn": "碍事的人吾已经屏退了……\\n有话就尽管讲吧。",
+        "zh_tw": "……礙事的人已經離開了，\\n有什麼話就說來聽聽吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0124",
+      "book": ""
+    },
+    {
+      "icon": "110395_02",
+      "name": {
+        "en_us": "Regina",
+        "ja_jp": "クイン",
+        "zh_cn": "奎茵",
+        "zh_tw": "柯恩"
+      },
+      "context": {
+        "en_us": "I'd hoped we could meet again under\\nbetter circumstances, but I'm glad to see\\nyou looking well regardless.",
+        "ja_jp": "<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>はこんな<ruby><rb>形</rb><rt>かたち</rt></ruby>で<ruby><rb>会</rb><rt>あ</rt></ruby>いたくはなかったん\\nだがな……<ruby><rb>元気</rb><rt>げんき</rt></ruby>そうで<ruby><rb>何</rb><rt>なに</rt></ruby>よりだ。",
+        "zh_cn": "我本不想在这种情况下见你……\\n但看你过得不错我也就放心了。",
+        "zh_tw": "說實在真不想以這種形式相見啊……\\n但看到妳很有精神就好了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0125",
+      "book": ""
+    },
+    {
+      "icon": "100043_01",
+      "name": {
+        "en_us": "Origa",
+        "ja_jp": "オリガ",
+        "zh_cn": "奥莉加",
+        "zh_tw": "奧莉加"
+      },
+      "context": {
+        "en_us": "Enough pleasantries. State your business.",
+        "ja_jp": "<ruby><rb>社交辞令</rb><rt>しゃこうじれい</rt></ruby>は<ruby><rb>無用</rb><rt>むよう</rt></ruby>だ……<ruby><rb>用件</rb><rt>ようけん</rt></ruby>を<ruby><rb>述</rb><rt>の</rt></ruby>べよ。",
+        "zh_cn": "客套话就免了……\\n直接说正事。",
+        "zh_tw": "場面話就免了……說正事吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0126",
+      "book": ""
+    },
+    {
+      "icon": "110395_02",
+      "name": {
+        "en_us": "Regina",
+        "ja_jp": "クイン",
+        "zh_cn": "奎茵",
+        "zh_tw": "柯恩"
+      },
+      "context": {
+        "en_us": "Then I'll be blunt: These accusations of\\nbetrayal are nothing but lies, and I request\\nour immediate release.",
+        "ja_jp": "では<ruby><rb>単刀直入</rb><rt>たんとうちょくにゅう</rt></ruby>に……<ruby><rb>私</rb><rt>わたし</rt></ruby>たちが<ruby><rb>反逆</rb><rt>はんぎゃく</rt></ruby>を\\n<ruby><rb>企</rb><rt>くわだ</rt></ruby>てたという<ruby><rb>話</rb><rt>はなし</rt></ruby>は<ruby><rb>濡</rb><rt>ぬ</rt></ruby>れ<ruby><rb>衣</rb><rt>ぎぬ</rt></ruby>だ。<ruby><rb>一刻</rb><rt>いっこく</rt></ruby>も\\n<ruby><rb>早</rb><rt>はや</rt></ruby>い<ruby><rb>解放</rb><rt>かいほう</rt></ruby>を<ruby><rb>要求</rb><rt>ようきゅう</rt></ruby>する。",
+        "zh_cn": "那我就直说了……\\n我们企图叛变一事是被诬陷的。\\n我要求你立刻放我们走。",
+        "zh_tw": "那我就直說了……\\n我們企圖謀反的罪名是被冤枉的。\\n我要求立刻將我們釋放。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0127",
+      "book": ""
+    },
+    {
+      "icon": "100043_01",
+      "name": {
+        "en_us": "Origa",
+        "ja_jp": "オリガ",
+        "zh_cn": "奥莉加",
+        "zh_tw": "奧莉加"
+      },
+      "context": {
+        "en_us": "Denied. I won't retract an order once given.",
+        "ja_jp": "<ruby><rb>却下</rb><rt>きゃっか</rt></ruby>だ。<ruby><rb>一度</rb><rt>いちど</rt></ruby><ruby><rb>下</rb><rt>くだ</rt></ruby>した<ruby><rb>決定</rb><rt>けってい</rt></ruby>は<ruby><rb>覆</rb><rt>くつがえ</rt></ruby>さぬ。",
+        "zh_cn": "吾拒绝。\\n已经做出的决定不容反悔。",
+        "zh_tw": "拒絕。\\n余一旦下了決定就不會撤銷。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0128",
+      "book": ""
+    },
+    {
+      "icon": "110395_02",
+      "name": {
+        "en_us": "Regina",
+        "ja_jp": "クイン",
+        "zh_cn": "奎茵",
+        "zh_tw": "柯恩"
+      },
+      "context": {
+        "en_us": "Add whatever conditions you must.\\nHave us monitored if that helps.\\nI only ask that you allow us to investigate\\nthis matter and clear our names.",
+        "ja_jp": "なら<ruby><rb>条件付</rb><rt>じょうけんつ</rt></ruby>きか<ruby><rb>監視</rb><rt>かんし</rt></ruby><ruby><rb>付</rb><rt>つ</rt></ruby>きで<ruby><rb>構</rb><rt>かま</rt></ruby>わない。\\n<ruby><rb>我々</rb><rt>われわれ</rt></ruby>の<ruby><rb>濡</rb><rt>ぬ</rt></ruby>れ<ruby><rb>衣</rb><rt>ぎぬ</rt></ruby>を<ruby><rb>晴</rb><rt>は</rt></ruby>らすため、この<ruby><rb>件</rb><rt>けん</rt></ruby>に\\n<ruby><rb>関</rb><rt>かん</rt></ruby>する<ruby><rb>捜査</rb><rt>そうさ</rt></ruby>の<ruby><rb>許可</rb><rt>きょか</rt></ruby>をいただきたい。",
+        "zh_cn": "那有附加条件或者派人监视也可以。\\n为了洗清我们的罪名，\\n请你允许我们调查此次事件。",
+        "zh_tw": "那麼妳附加條件或者派人監視也無妨。\\n為了讓我們能洗清罪嫌，\\n我希望能獲得相關案件的搜查許可。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0129",
+      "book": ""
+    },
+    {
+      "icon": "100043_01",
+      "name": {
+        "en_us": "Origa",
+        "ja_jp": "オリガ",
+        "zh_cn": "奥莉加",
+        "zh_tw": "奧莉加"
+      },
+      "context": {
+        "en_us": "Denied. You can wait in your cell until the\\nAuspecalia is over. ...Was that all?",
+        "ja_jp": "<ruby><rb>却下</rb><rt>きゃっか</rt></ruby>。<ruby><rb>少</rb><rt>すく</rt></ruby>なくとも<ruby><rb>聖大祭</rb><rt>せいだいさい</rt></ruby>が<ruby><rb>終</rb><rt>お</rt></ruby>わるまでは\\n<ruby><rb>牢</rb><rt>ろう</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>で<ruby><rb>大人</rb><rt>おとな</rt></ruby>しくしていてもらう。\\n……これでそちらからの<ruby><rb>話</rb><rt>はなし</rt></ruby>は<ruby><rb>終</rb><rt>お</rt></ruby>わりか？",
+        "zh_cn": "吾拒绝。至少在圣大祭结束之前，\\n你们都必须老老实实待在牢里。\\n你要说的话都说完了吗？",
+        "zh_tw": "拒絕。至少在聖大祭結束前，\\n你們都得乖乖地待在牢裡。\\n……這樣妳要說的都說完了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0130",
+      "book": ""
+    },
+    {
+      "icon": "110395_02",
+      "name": {
+        "en_us": "Regina",
+        "ja_jp": "クイン",
+        "zh_cn": "奎茵",
+        "zh_tw": "柯恩"
+      },
+      "context": {
+        "en_us": "Nope! I have a mountain of things to talk\\nabout, and I assume you feel the same\\nsince you agreed to see me.",
+        "ja_jp": "いいや。<ruby><rb>話</rb><rt>はな</rt></ruby>したい<ruby><rb>事</rb><rt>こと</rt></ruby>ならまだ、<ruby><rb>山</rb><rt>やま</rt></ruby>ほど\\nある……<ruby><rb>君</rb><rt>きみ</rt></ruby>も<ruby><rb>同</rb><rt>おな</rt></ruby>じ<ruby><rb>想</rb><rt>おも</rt></ruby>いだから、\\nこうして<ruby><rb>話</rb><rt>はな</rt></ruby>す<ruby><rb>機会</rb><rt>きかい</rt></ruby>をくれたんだろう？",
+        "zh_cn": "还没有。我还有很多话想说……\\n你不也是有同样的想法，\\n才给了我这次机会吗？",
+        "zh_tw": "不，我要說的話還有很多……\\n妳也是有著同樣想法，\\n才會像這樣給我對話的機會吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0131",
+      "book": ""
+    },
+    {
+      "icon": "100043_01",
+      "name": {
+        "en_us": "Origa",
+        "ja_jp": "オリガ",
+        "zh_cn": "奥莉加",
+        "zh_tw": "奧莉加"
+      },
+      "context": {
+        "en_us": "Yes. I do.",
+        "ja_jp": "ああ。<ruby><rb>余</rb><rt>よ</rt></ruby>も……",
+        "zh_cn": "嗯，吾也……",
+        "zh_tw": "是啊，余也……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0132",
+      "book": ""
+    },
+    {
+      "icon": "100043_01",
+      "name": {
+        "en_us": "Origa",
+        "ja_jp": "オリガ",
+        "zh_cn": "奥莉加",
+        "zh_tw": "奧莉加"
+      },
+      "context": {
+        "en_us": "I hoped we might have a proper talk\\nbefore I attended to my duties at the\\nAuspecalia...Sister.",
+        "ja_jp": "わたしも、<ruby><rb>祭典</rb><rt>さいてん</rt></ruby>に<ruby><rb>出席</rb><rt>しゅっせき</rt></ruby>する<ruby><rb>前</rb><rt>まえ</rt></ruby>に<ruby><rb>改</rb><rt>あらた</rt></ruby>めて\\nあなたと<ruby><rb>話</rb><rt>はなし</rt></ruby>がしたいと<ruby><rb>思</rb><rt>おも</rt></ruby>っていたわ\\n……クイン<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さん。",
+        "zh_cn": "我也想在出席祭典之前\\n再和你聊一聊……奎茵姐姐。",
+        "zh_tw": "我也剛好在想，\\n出席祭典前有些話要再和妳談談……\\n柯恩姊姊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20438_04_0133",
+      "book": ""
+    }
+  ]
 }

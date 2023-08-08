@@ -1,618 +1,1173 @@
 {
-    "story_id": "",
-    "story_name": "克洛诺斯之怒 跨越时空",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "见到了玫瑰女王的一行人\\n刚得知拯救斑比的方法，\\n意图阻挠的克洛诺斯便现身，\\n围绕斑比和未来世界\\n与众人展开了决战。"
-        ]
+  "title": {
+    "en_us": "Rage of Chronos    Across the Barrier of Time",
+    "ja_jp": "レイジ・オブ・クロノス  時を越えて",
+    "zh_cn": "克洛诺斯之怒  跨越时空",
+    "zh_tw": "克羅諾斯之怒  跨越時空"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110285_01"
-            ],
-            "speaker_name": "格里姆尼尔",
-            "context": "禁断森林应该就在前方。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "是吗。就快到了，\\n再坚持一下，斑比。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110388_01"
-            ],
-            "speaker_name": "斑比",
-            "context": "哈啊……哈啊……哈啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "我说……我们有必要把斑比\\n也带来吗？让她在圣城\\n休息不是更好吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "话虽如此，但不知道\\n克洛诺斯什么时候\\n还会来袭……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110285_01"
-            ],
-            "speaker_name": "格里姆尼尔",
-            "context": "要是能得到玫瑰女王的协助，\\n我们就能藏身于禁断森林。\\n这对公主来说更加安全。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "禁断森林……乍一看也不像\\n是那么危险的地方啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "咦？怎么回事……\\n有一股香味。是玫瑰花？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110285_01"
-            ],
-            "speaker_name": "格里姆尼尔",
-            "context": "玫瑰吗……\\n也许我们已经进入\\n女王的地盘了，不能大意。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110285_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "速速离开此地。\\n这里不是你们该来的地方。\\n避开荆棘才是明智之举。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "全员",
-            "context": "！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "你就是玫瑰女王？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210152_01"
-            ],
-            "speaker_name": "玫瑰女王",
-            "context": "是，也有人这么称呼我。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210152_01"
-            ],
-            "speaker_name": "玫瑰女王",
-            "context": "你们人类来我这荆棘园有何贵干？\\n可别说你们是被玫瑰的\\n诱人芳香吸引来的啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "听说你一直保护着吸血鬼。\\n我们现在无比需要\\n你的帮助，所以才来的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210152_01"
-            ],
-            "speaker_name": "玫瑰女王",
-            "context": "虽然不知道你们是从哪听来的，\\n但我只是允许了吸血鬼们\\n居住在森林深处而已。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210152_01"
-            ],
-            "speaker_name": "玫瑰女王",
-            "context": "我并没有保护吸血鬼的打算。\\n这一点对那边\\n那位小公主也不例外。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这、这……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210152_01"
-            ],
-            "speaker_name": "玫瑰女王",
-            "context": "但是，我也不想刻意剥夺他人性命。\\n眼睁睁地看着花蕾尚未绽放\\n就要枯萎真是于心不忍。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210152_01"
-            ],
-            "speaker_name": "玫瑰女王",
-            "context": "说来听听吧。\\n只要不玷污美丽静谧的森林，\\n倒也不是不能帮助你们。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "嗯，好！谢谢你，\\n玫瑰女王！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210152_01"
-            ],
-            "speaker_name": "玫瑰女王",
-            "context": "原来如此……真是讽刺啊。\\n竟然企图让吸血鬼吸食鲜血\\n来掐灭她的生命之火。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "都怪我上了克洛诺斯的当……\\n玫瑰女王，你知道有什么方法\\n能够救斑比吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210152_01"
-            ],
-            "speaker_name": "玫瑰女王",
-            "context": "知道倒是知道。\\n因为事情很简单……不过，\\n就算说出来或许也没有意义。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "没有意义……是什么意思？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210152_01"
-            ],
-            "speaker_name": "玫瑰女王",
-            "context": "她自己的血正和你的血\\n在她的体内进行对抗，\\n而且她的血即将不敌……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210152_01"
-            ],
-            "speaker_name": "玫瑰女王",
-            "context": "所以，要是能加强她体内\\n吸血鬼的血，她就能得救。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "要怎么才能\\n加强吸血鬼的血……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210152_01"
-            ],
-            "speaker_name": "玫瑰女王",
-            "context": "比如说，\\n让她喝自己的血之类的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "把斑比的血给她自己喝？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "那不就是放出斑比的血之后\\n让斑比喝下去吗？\\n这样就可以了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210152_01"
-            ],
-            "speaker_name": "玫瑰女王",
-            "context": "你们不要误会。\\n靠她现在的血是没有意义的。\\n必须是她饱含健康力量的血才行。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "诶？就是说必须要喝\\n健康的斑比的血才可以？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "这要怎么办到啊！？\\n难道要我们穿越时空，\\n去见健康的斑比不成？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210152_01"
-            ],
-            "speaker_name": "玫瑰女王",
-            "context": "嗯，如果能做到，\\n那是最好不过了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "真的假的……\\n虽然我倒是知道\\n能够办到这件事的家伙……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "没想到我们现在最需要的，\\n竟然是敌人的力量……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110285_01"
-            ],
-            "speaker_name": "格里姆尼尔",
-            "context": "呵，我说你们，\\n是不是忘了还有一位\\n能穿梭于因果间的高人啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "诶？格里姆尼尔，难道！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110285_01"
-            ],
-            "speaker_name": "格里姆尼尔",
-            "context": "吾风乃跨越因果之羽翼。\\n就让吾化身穿越光阴之长枪，\\n为吸血鬼公主大显身手吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "呃……你的意思是，\\n你能救斑比对吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110285_01"
-            ],
-            "speaker_name": "格里姆尼尔",
-            "context": "嗯。虽然不能带你们同行，\\n但是我可以穿越时空\\n去见吸血鬼公主。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110285_01"
-            ],
-            "speaker_name": "格里姆尼尔",
-            "context": "毕竟吸血鬼公主就这么死了的话，\\n因果会被打乱。\\n矫正因果也是我的使命啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "太好了～",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "原来如此……\\n竟然还有这种手段啊。\\n真没白监视你们的动向。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这个声音是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "克洛诺斯！\\n可恶，原来我们一直\\n被他跟踪了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "克洛诺斯",
-            "context": "我本打算见机抹杀\\n吸血鬼公主……\\n但是现在情况有变。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "克洛诺斯",
-            "context": "先从你下手吧，\\n因果调律者。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110285_01"
-            ],
-            "speaker_name": "格里姆尼尔",
-            "context": "呵，军神之力凌驾于因果之上。\\n为你胆敢挡在骤风之刃前的\\n愚蠢行为后悔吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "等一下，格里姆尼尔！\\n这里就交给我们吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我们还不清楚斑比的状况，\\n所以希望能够尽快\\n拿到健康的斑比的血。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我们会竭尽全力\\n牵制住克洛诺斯！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "克洛诺斯",
-            "context": "区区容器，别妄自尊大了。\\n不靠调律者帮忙就想与我对抗，\\n真是小瞧了我呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "你才是，\\n可不要小瞧了我们。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "说得对。你以为我们\\n连拖住你这点事都做不到吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "事情就是这样。\\n那就靠你啦，格里姆尼尔。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "拜托你了，格里姆尼尔！\\n我们现在只能仰仗你了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110285_01"
-            ],
-            "speaker_name": "格里姆尼尔",
-            "context": "哦，好……多么热血的走向啊……\\n不错！这种剧情也不错呢！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "我说你！认真一点啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110285_01"
-            ],
-            "speaker_name": "格里姆尼尔",
-            "context": "不必忧虑，精灵少女。\\n吾乃军神！穿梭于战场之风！\\n其速之疾无人能及！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110285_01"
-            ],
-            "speaker_name": "格里姆尼尔",
-            "context": "看我转眼间就完成任务！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "克洛诺斯",
-            "context": "唔……\\n调律者，你休想得逞。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这是我们要说的，克洛诺斯！\\n我们会粉碎你的阴谋！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "克洛诺斯",
-            "context": "愚蠢……你们依然冥顽不灵，\\n企图妨碍王吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "克洛诺斯",
-            "context": "我本看在你是容器的份上，\\n一直犹豫是否该让你从因果中消失……\\n但如今我不会再迟疑。",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210100_01"
-            ],
-            "speaker_name": "克洛诺斯",
-            "context": "我要让你消失在因果的彼端！",
-            "voice_line": "VO_CHR_EVENTSTORY_20433_07_0067",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "The Rose Queen reveals a way to save Vania,\\nbut before the prince can act, Chronos appears,\\nintent on stopping him. The two sides clash—\\nover Vania's fate, and that of their worlds.",
+      "ja_jp": "<ruby><rb>薔薇</rb><rt>ばら</rt></ruby>の<ruby><rb>女王</rb><rt>じょおう</rt></ruby>ローズクイーンと<ruby><rb>会</rb><rt>あ</rt></ruby>い、\\nヴァンピィを<ruby><rb>救</rb><rt>すく</rt></ruby>う<ruby><rb>方法</rb><rt>ほうほう</rt></ruby>を<ruby><rb>知</rb><rt>し</rt></ruby>ったのも\\n<ruby><rb>束</rb><rt>つか</rt></ruby>の<ruby><rb>間</rb><rt>ま</rt></ruby>、それを<ruby><rb>阻止</rb><rt>そし</rt></ruby>せんとクロノスが\\n<ruby><rb>現</rb><rt>あらわ</rt></ruby>れ、ヴァンピィと<ruby><rb>未来</rb><rt>みらい</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>を\\n<ruby><rb>巡</rb><rt>めぐ</rt></ruby>る<ruby><rb>決戦</rb><rt>けっせん</rt></ruby>が<ruby><rb>始</rb><rt>はじ</rt></ruby>まる。",
+      "zh_cn": "见到了玫瑰女王的一行人\\n刚得知拯救斑比的方法，\\n意图阻挠的克洛诺斯便现身，\\n围绕斑比和未来世界\\n与众人展开了决战。",
+      "zh_tw": "與薔薇女王──玫瑰女皇見面後，\\n眾人得知了拯救班比的方法。\\n然而下個瞬間，克羅諾斯便現身阻撓，\\n賭上班比性命與世界未來的決戰就此展開。"
+    }
+  },
+  "prev": "2043306",
+  "next": "2043308",
+  "content": [
+    {
+      "icon": "110285_01",
+      "name": {
+        "en_us": "Grimnir",
+        "ja_jp": "グリームニル",
+        "zh_cn": "格里姆尼尔",
+        "zh_tw": "格里姆尼爾"
+      },
+      "context": {
+        "en_us": "The forbidden wood lies ahead.",
+        "ja_jp": "<ruby><rb>禁断</rb><rt>きんだん</rt></ruby>の<ruby><rb>森</rb><rt>もり</rt></ruby>は、<ruby><rb>確</rb><rt>たし</rt></ruby>かこの<ruby><rb>先</rb><rt>さき</rt></ruby>のはずだ。",
+        "zh_cn": "禁断森林应该就在前方。",
+        "zh_tw": "禁斷森林，應該就在這前面了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0001",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Good. Hang on, Vania... Just a bit longer.",
+        "ja_jp": "そうか。\\n……もう<ruby><rb>少</rb><rt>すこ</rt></ruby>しだ、<ruby><rb>頑張</rb><rt>がんば</rt></ruby>れヴァンピィ。",
+        "zh_cn": "是吗。就快到了，\\n再坚持一下，斑比。",
+        "zh_tw": "是嗎。\\n……就快到了，再忍耐一下，班比。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0002",
+      "book": ""
+    },
+    {
+      "icon": "110388_01",
+      "name": {
+        "en_us": "Vania",
+        "ja_jp": "ヴァンピィ",
+        "zh_cn": "斑比",
+        "zh_tw": "班比"
+      },
+      "context": {
+        "en_us": "*pant* *shudder*",
+        "ja_jp": "はあ……はあ……はあ……。",
+        "zh_cn": "哈啊……哈啊……哈啊……",
+        "zh_tw": "呼……呼……呼……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0003",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Did we really need to bring her with us?\\nI can't help but think she'd be more\\ncomfortable resting back at the Halidom.",
+        "ja_jp": "……なあ、ヴァンピィを<ruby><rb>連</rb><rt>つ</rt></ruby>れてくる\\n<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>はあったのか？　<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>で<ruby><rb>休</rb><rt>やす</rt></ruby>ませて\\nいたほうがよかったんじゃないか？",
+        "zh_cn": "我说……我们有必要把斑比\\n也带来吗？让她在圣城\\n休息不是更好吗？",
+        "zh_tw": "……是說，有必要把班比也帶來這嗎？\\n讓她在聖城裡休息不是比較好？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0004",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "I agree, but we've no way of knowing\\nwhen or where Chronos might strike.",
+        "ja_jp": "それはそうだが、いつクロノスが\\n<ruby><rb>襲</rb><rt>おそ</rt></ruby>ってくるかわからないからな……。",
+        "zh_cn": "话虽如此，但不知道\\n克洛诺斯什么时候\\n还会来袭……",
+        "zh_tw": "雖然是那樣沒錯，\\n但是不知道克羅諾斯\\n會什麼時候發動偷襲……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0005",
+      "book": ""
+    },
+    {
+      "icon": "110285_01",
+      "name": {
+        "en_us": "Grimnir",
+        "ja_jp": "グリームニル",
+        "zh_cn": "格里姆尼尔",
+        "zh_tw": "格里姆尼爾"
+      },
+      "context": {
+        "en_us": "And if the Rose Queen will allow it, we\\nmay be able to shelter Vania within the\\nwood. That would be safer still.",
+        "ja_jp": "<ruby><rb>薔薇</rb><rt>ばら</rt></ruby>の<ruby><rb>女王</rb><rt>じょおう</rt></ruby>の<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>が<ruby><rb>得</rb><rt>え</rt></ruby>られれば、\\n<ruby><rb>禁断</rb><rt>きんだん</rt></ruby>の<ruby><rb>森</rb><rt>もり</rt></ruby>で<ruby><rb>匿</rb><rt>かくま</rt></ruby>ってもらうこともできる。\\n<ruby><rb>姫</rb><rt>ひめ</rt></ruby>にとってはそのほうが<ruby><rb>安全</rb><rt>あんぜん</rt></ruby>だ。",
+        "zh_cn": "要是能得到玫瑰女王的协助，\\n我们就能藏身于禁断森林。\\n这对公主来说更加安全。",
+        "zh_tw": "如果能得到薔薇女王的幫助，\\n就能讓班比躲進禁斷森林中。\\n對公主而言那樣也比較安全。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0006",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "For all the ＂forbidden＂ talk,\\nthe place ain't all that scary so far...",
+        "ja_jp": "<ruby><rb>禁断</rb><rt>きんだん</rt></ruby>の<ruby><rb>森</rb><rt>もり</rt></ruby>か……<ruby><rb>見</rb><rt>み</rt></ruby>たところ、そんな\\n<ruby><rb>危険</rb><rt>きけん</rt></ruby>な<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>には<ruby><rb>見</rb><rt>み</rt></ruby>えないが……。",
+        "zh_cn": "禁断森林……乍一看也不像\\n是那么危险的地方啊……",
+        "zh_tw": "禁斷森林嗎……就我看來，\\n並不是那麼危險的地方啊……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0007",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Hey, what's that sweet smell?\\nIs that...flowers?",
+        "ja_jp": "……？　あれ？　なんだろう……\\nなにかいい<ruby><rb>香</rb><rt>かお</rt></ruby>りがしてきた。\\n<ruby><rb>薔薇</rb><rt>ばら</rt></ruby>の<ruby><rb>花</rb><rt>はな</rt></ruby>……？",
+        "zh_cn": "咦？怎么回事……\\n有一股香味。是玫瑰花？",
+        "zh_tw": "……？咦？怎麼好像……\\n飄來一股很香的味道。\\n是薔薇嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0008",
+      "book": ""
+    },
+    {
+      "icon": "110285_01",
+      "name": {
+        "en_us": "Grimnir",
+        "ja_jp": "グリームニル",
+        "zh_cn": "格里姆尼尔",
+        "zh_tw": "格里姆尼爾"
+      },
+      "context": {
+        "en_us": "We have entered the Queen's domain.\\nBe on guard, my fellows.",
+        "ja_jp": "<ruby><rb>薔薇</rb><rt>ばら</rt></ruby>か……<ruby><rb>女王</rb><rt>じょおう</rt></ruby>のテリトリーに<ruby><rb>入</rb><rt>はい</rt></ruby>った\\nかもしれないな。<ruby><rb>油断</rb><rt>ゆだん</rt></ruby>するなよ。",
+        "zh_cn": "玫瑰吗……\\n也许我们已经进入\\n女王的地盘了，不能大意。",
+        "zh_tw": "薔薇嗎……\\n我們可能已經進入女王的地盤了，\\n不要大意喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0009",
+      "book": ""
+    },
+    {
+      "icon": "110285_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Leave at once. This place is not for you to\\ntread. Even the basest of creatures knows\\nto keep well clear of thorns.",
+        "ja_jp": "<ruby><rb>立</rb><rt>た</rt></ruby>ち<ruby><rb>去</rb><rt>さ</rt></ruby>りなさい。ここは<ruby><rb>貴方</rb><rt>あなた</rt></ruby>たちの\\n<ruby><rb>来</rb><rt>く</rt></ruby>るべき<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>ではないわ。<ruby><rb>茨</rb><rt>いばら</rt></ruby>を<ruby><rb>避</rb><rt>さ</rt></ruby>ける\\n<ruby><rb>賢明</rb><rt>けんめい</rt></ruby>さは<ruby><rb>持</rb><rt>も</rt></ruby>ち<ruby><rb>合</rb><rt>あ</rt></ruby>わせるべきよ。",
+        "zh_cn": "速速离开此地。\\n这里不是你们该来的地方。\\n避开荆棘才是明智之举。",
+        "zh_tw": "立刻離去。\\n這裡不是你們該來的地方。\\n你們應該懂得要避開荊棘之刺才對吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0010",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "全員",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "――！",
+        "zh_cn": "！",
+        "zh_tw": "──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0011",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Are you the Rose Queen?",
+        "ja_jp": "あなたがローズクイーン……？",
+        "zh_cn": "你就是玫瑰女王？",
+        "zh_tw": "妳就是玫瑰女皇……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0012",
+      "book": ""
+    },
+    {
+      "icon": "210152_01",
+      "name": {
+        "en_us": "Rose Queen",
+        "ja_jp": "ローズクイーン",
+        "zh_cn": "玫瑰女王",
+        "zh_tw": "玫瑰女皇"
+      },
+      "context": {
+        "en_us": "Some do call me by that name.",
+        "ja_jp": "ええ、そういう<ruby><rb>名</rb><rt>な</rt></ruby>で<ruby><rb>呼</rb><rt>よ</rt></ruby>ばれることも\\nあるわ。",
+        "zh_cn": "是，也有人这么称呼我。",
+        "zh_tw": "沒錯，\\n確實有人那樣稱呼我。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0013",
+      "book": ""
+    },
+    {
+      "icon": "210152_01",
+      "name": {
+        "en_us": "Rose Queen",
+        "ja_jp": "ローズクイーン",
+        "zh_cn": "玫瑰女王",
+        "zh_tw": "玫瑰女皇"
+      },
+      "context": {
+        "en_us": "What purpose brings humans to my garden\\nof briars? I trust it was not the honeyed\\nscent of roses that led you here?",
+        "ja_jp": "<ruby><rb>茨</rb><rt>いばら</rt></ruby>の<ruby><rb>園</rb><rt>その</rt></ruby>に<ruby><rb>一体</rb><rt>いったい</rt></ruby><ruby><rb>何</rb><rt>なん</rt></ruby>の<ruby><rb>用</rb><rt>よう</rt></ruby>かしら、<ruby><rb>人間</rb><rt>にんげん</rt></ruby>たち？\\nかぐわしき<ruby><rb>薔薇</rb><rt>ばら</rt></ruby>の<ruby><rb>香</rb><rt>かお</rt></ruby>りに<ruby><rb>誘</rb><rt>さそ</rt></ruby>われたわけ\\nではないようだけど？",
+        "zh_cn": "你们人类来我这荆棘园有何贵干？\\n可别说你们是被玫瑰的\\n诱人芳香吸引来的啊。",
+        "zh_tw": "到這荊棘樂園有什麼事，人類們？\\n看起來不像是\\n被薔薇的迷人芳香所引誘來的呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0014",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I heard you keep vigil over the vampires.\\nIf so, we have dire need of your aid.",
+        "ja_jp": "あなたは<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>たちを<ruby><rb>守</rb><rt>まも</rt></ruby>っていると\\n<ruby><rb>聞</rb><rt>き</rt></ruby>いた。そのあなたの<ruby><rb>助</rb><rt>たす</rt></ruby>けが、\\n<ruby><rb>今</rb><rt>いま</rt></ruby>、どうしても<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>なんだ。",
+        "zh_cn": "听说你一直保护着吸血鬼。\\n我们现在无比需要\\n你的帮助，所以才来的。",
+        "zh_tw": "我聽說妳正守護著吸血鬼們。\\n所以我們現在無論如何\\n都需要妳的幫助。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0015",
+      "book": ""
+    },
+    {
+      "icon": "210152_01",
+      "name": {
+        "en_us": "Rose Queen",
+        "ja_jp": "ローズクイーン",
+        "zh_cn": "玫瑰女王",
+        "zh_tw": "玫瑰女皇"
+      },
+      "context": {
+        "en_us": "...I do not know who told you thus, but I\\nsimply allowed their kind to reside in the\\ndepths of my woods.",
+        "ja_jp": "……<ruby><rb>誰</rb><rt>だれ</rt></ruby>から<ruby><rb>聞</rb><rt>き</rt></ruby>いたのか<ruby><rb>知</rb><rt>し</rt></ruby>らないけれど、\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>はただ、<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>たちに<ruby><rb>森</rb><rt>もり</rt></ruby>の<ruby><rb>奥</rb><rt>おく</rt></ruby>へ\\n<ruby><rb>住</rb><rt>す</rt></ruby>むことを<ruby><rb>許</rb><rt>ゆる</rt></ruby>しただけ。",
+        "zh_cn": "虽然不知道你们是从哪听来的，\\n但我只是允许了吸血鬼们\\n居住在森林深处而已。",
+        "zh_tw": "……雖然我不知道你是聽誰說的，\\n但我只不過是允許吸血鬼們\\n住在這森林的深處而已。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0016",
+      "book": ""
+    },
+    {
+      "icon": "210152_01",
+      "name": {
+        "en_us": "Rose Queen",
+        "ja_jp": "ローズクイーン",
+        "zh_cn": "玫瑰女王",
+        "zh_tw": "玫瑰女皇"
+      },
+      "context": {
+        "en_us": "I pledged them no further protection.\\nThe wee princess you bear is no exception.",
+        "ja_jp": "<ruby><rb>殊更</rb><rt>ことさら</rt></ruby>に<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>を<ruby><rb>守</rb><rt>まも</rt></ruby>るつもりはないわ。\\nそれは、そこにいる<ruby><rb>小</rb><rt>ちい</rt></ruby>さなお<ruby><rb>姫様</rb><rt>ひめさま</rt></ruby>も\\n<ruby><rb>例外</rb><rt>れいがい</rt></ruby>ではなくてよ。",
+        "zh_cn": "我并没有保护吸血鬼的打算。\\n这一点对那边\\n那位小公主也不例外。",
+        "zh_tw": "我並沒有刻意要保護吸血鬼。\\n就連那邊的小公主也不例外喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0017",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "No... Please!",
+        "ja_jp": "そ、そんな……。",
+        "zh_cn": "这、这……",
+        "zh_tw": "怎、怎麼這樣……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0018",
+      "book": ""
+    },
+    {
+      "icon": "210152_01",
+      "name": {
+        "en_us": "Rose Queen",
+        "ja_jp": "ローズクイーン",
+        "zh_cn": "玫瑰女王",
+        "zh_tw": "玫瑰女皇"
+      },
+      "context": {
+        "en_us": "But nor do I wish them any harm.\\nAnd to see a flowerbud wither ere\\nit blooms brings me no joy.",
+        "ja_jp": "でも、<ruby><rb>殊更</rb><rt>ことさら</rt></ruby>に<ruby><rb>命</rb><rt>いのち</rt></ruby>を<ruby><rb>奪</rb><rt>うば</rt></ruby>いたいわけでも\\nないわ。<ruby><rb>蕾</rb><rt>つぼみ</rt></ruby>のまま<ruby><rb>枯</rb><rt>か</rt></ruby>れゆく<ruby><rb>花</rb><rt>はな</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>るのは\\n<ruby><rb>悲</rb><rt>かな</rt></ruby>しいものだわ。",
+        "zh_cn": "但是，我也不想刻意剥夺他人性命。\\n眼睁睁地看着花蕾尚未绽放\\n就要枯萎真是于心不忍。",
+        "zh_tw": "但是我也沒有刻意想要奪取性命。\\n眼睜睜地看著含苞待放的花蕾\\n就這麼枯萎，那也太令人悲傷了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0019",
+      "book": ""
+    },
+    {
+      "icon": "210152_01",
+      "name": {
+        "en_us": "Rose Queen",
+        "ja_jp": "ローズクイーン",
+        "zh_cn": "玫瑰女王",
+        "zh_tw": "玫瑰女皇"
+      },
+      "context": {
+        "en_us": "Speak. If your intentions do not sully this\\nbeautiful place of peace, I may be moved\\nto render my aid.",
+        "ja_jp": "<ruby><rb>話</rb><rt>はな</rt></ruby>してごらんなさい。\\n<ruby><rb>美</rb><rt>うつく</rt></ruby>しく<ruby><rb>静謐</rb><rt>せいひつ</rt></ruby>な<ruby><rb>森</rb><rt>もり</rt></ruby>を<ruby><rb>汚</rb><rt>けが</rt></ruby>すのでなければ、\\n<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>してあげてもいいわ。",
+        "zh_cn": "说来听听吧。\\n只要不玷污美丽静谧的森林，\\n倒也不是不能帮助你们。",
+        "zh_tw": "把事情說給我聽吧。\\n如果不會汙染這優美靜謐的森林，\\n那要我出手幫忙也不是不行。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0020",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Of course! Thank you, Your Majesty!",
+        "ja_jp": "……！　あ、ああ！　ありがとう、\\nローズクイーン！",
+        "zh_cn": "嗯，好！谢谢你，\\n玫瑰女王！",
+        "zh_tw": "……！嗯、好！\\n謝謝妳，玫瑰女皇！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0021",
+      "book": ""
+    },
+    {
+      "icon": "210152_01",
+      "name": {
+        "en_us": "Rose Queen",
+        "ja_jp": "ローズクイーン",
+        "zh_cn": "玫瑰女王",
+        "zh_tw": "玫瑰女皇"
+      },
+      "context": {
+        "en_us": "...I see. An irony, that. For a meal of blood\\nto cause the flame of a vampire's life to\\ngutter out.",
+        "ja_jp": "……なるほど。<ruby><rb>皮肉</rb><rt>ひにく</rt></ruby>なものね。\\n<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>が<ruby><rb>血</rb><rt>ち</rt></ruby>を<ruby><rb>口</rb><rt>くち</rt></ruby>にしたことで、\\n<ruby><rb>命</rb><rt>いのち</rt></ruby>の<ruby><rb>灯</rb><rt>ともしび</rt></ruby>を<ruby><rb>消</rb><rt>け</rt></ruby>そうとしているなんて。",
+        "zh_cn": "原来如此……真是讽刺啊。\\n竟然企图让吸血鬼吸食鲜血\\n来掐灭她的生命之火。",
+        "zh_tw": "……原來如此，那還真是諷刺。\\n想不到吸血鬼會因為攝取血液\\n反而導致自己生命垂危。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0022",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "And all because I allowed myself to be\\ndeceived by Chronos... Rose Queen, do\\nyou know of any way to save her life?",
+        "ja_jp": "おれがクロノスに<ruby><rb>騙</rb><rt>だま</rt></ruby>されたばかりに……\\nローズクイーン、ヴァンピィを<ruby><rb>救</rb><rt>すく</rt></ruby>う\\n<ruby><rb>方法</rb><rt>ほうほう</rt></ruby>を<ruby><rb>知</rb><rt>し</rt></ruby>ってはいないか？",
+        "zh_cn": "都怪我上了克洛诺斯的当……\\n玫瑰女王，你知道有什么方法\\n能够救斑比吗？",
+        "zh_tw": "都怪我被克羅諾斯給騙了……\\n玫瑰女皇，\\n妳知道讓班比得救的方法嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0023",
+      "book": ""
+    },
+    {
+      "icon": "210152_01",
+      "name": {
+        "en_us": "Rose Queen",
+        "ja_jp": "ローズクイーン",
+        "zh_cn": "玫瑰女王",
+        "zh_tw": "玫瑰女皇"
+      },
+      "context": {
+        "en_us": "I do. But though it be quite simple, I fear\\nthere's little meaning in sharing it with\\nyou.",
+        "ja_jp": "<ruby><rb>知</rb><rt>し</rt></ruby>っていると<ruby><rb>言</rb><rt>い</rt></ruby>えば、<ruby><rb>知</rb><rt>し</rt></ruby>っているわね。\\n<ruby><rb>単純</rb><rt>たんじゅん</rt></ruby>なことだもの。……でも、<ruby><rb>言</rb><rt>い</rt></ruby>う\\n<ruby><rb>意味</rb><rt>いみ</rt></ruby>はないかもしれないわ。",
+        "zh_cn": "知道倒是知道。\\n因为事情很简单……不过，\\n就算说出来或许也没有意义。",
+        "zh_tw": "要說知道的話是知道，\\n畢竟這事情很單純。\\n……但是，或許說出來並沒有意義。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0024",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Little meaning? How so?",
+        "ja_jp": "<ruby><rb>意味</rb><rt>いみ</rt></ruby>はないって……どういうことだ？",
+        "zh_cn": "没有意义……是什么意思？",
+        "zh_tw": "妳說沒有意義……是什麼意思？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0025",
+      "book": ""
+    },
+    {
+      "icon": "210152_01",
+      "name": {
+        "en_us": "Rose Queen",
+        "ja_jp": "ローズクイーン",
+        "zh_cn": "玫瑰女王",
+        "zh_tw": "玫瑰女皇"
+      },
+      "context": {
+        "en_us": "Your blood is at war with hers inside her\\nbody, and hers appears on the verge of a\\nfinal defeat.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>、<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>の<ruby><rb>体</rb><rt>からだ</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>で、<ruby><rb>彼女自身</rb><rt>かのじょじしん</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>と\\nあなたの<ruby><rb>血</rb><rt>ち</rt></ruby>が<ruby><rb>戦</rb><rt>たたか</rt></ruby>っているのよ。そして、\\n<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>が<ruby><rb>負</rb><rt>ま</rt></ruby>けそうになっている……。",
+        "zh_cn": "她自己的血正和你的血\\n在她的体内进行对抗，\\n而且她的血即将不敌……",
+        "zh_tw": "現在她的體內，\\n自身的血和你的血正在交戰，\\n而她的血看來就要落敗了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0026",
+      "book": ""
+    },
+    {
+      "icon": "210152_01",
+      "name": {
+        "en_us": "Rose Queen",
+        "ja_jp": "ローズクイーン",
+        "zh_cn": "玫瑰女王",
+        "zh_tw": "玫瑰女皇"
+      },
+      "context": {
+        "en_us": "Should her blood as a vampire grow\\nstronger, however, it may yet prevail.",
+        "ja_jp": "だから、<ruby><rb>彼女自身</rb><rt>かのじょじしん</rt></ruby>の<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>としての<ruby><rb>血</rb><rt>ち</rt></ruby>を\\n<ruby><rb>強</rb><rt>つよ</rt></ruby>めることができれば、<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>を<ruby><rb>助</rb><rt>たす</rt></ruby>ける\\nことができるわ。",
+        "zh_cn": "所以，要是能加强她体内\\n吸血鬼的血，她就能得救。",
+        "zh_tw": "所以如果能增強她身為吸血鬼的血液，\\n那就能讓她得救。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0027",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "And how might one strengthen a vampire's\\nblood?",
+        "ja_jp": "<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>を<ruby><rb>強</rb><rt>つよ</rt></ruby>めるだなんて、\\nどうやって……。",
+        "zh_cn": "要怎么才能\\n加强吸血鬼的血……",
+        "zh_tw": "讓吸血鬼的血增強，\\n那要怎麼做……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0028",
+      "book": ""
+    },
+    {
+      "icon": "210152_01",
+      "name": {
+        "en_us": "Rose Queen",
+        "ja_jp": "ローズクイーン",
+        "zh_cn": "玫瑰女王",
+        "zh_tw": "玫瑰女皇"
+      },
+      "context": {
+        "en_us": "I suppose she might drink of her own\\nblood.",
+        "ja_jp": "そうね。<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>を<ruby><rb>彼女自身</rb><rt>かのじょじしん</rt></ruby>に<ruby><rb>飲</rb><rt>の</rt></ruby>ませる\\nとかかしら。",
+        "zh_cn": "比如说，\\n让她喝自己的血之类的。",
+        "zh_tw": "我想想，\\n應該是要讓她喝下她自己的血液吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0029",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "I fear I fail to see the logic.",
+        "ja_jp": "ヴァンピィの<ruby><rb>血</rb><rt>ち</rt></ruby>をヴァンピィに？",
+        "zh_cn": "把斑比的血给她自己喝？",
+        "zh_tw": "讓班比喝下班比的血？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0030",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "You mean we just draw blood from her\\nand have her drink that? That's all it takes?",
+        "ja_jp": "それって、ヴァンピィに<ruby><rb>血</rb><rt>ち</rt></ruby>を<ruby><rb>出</rb><rt>だ</rt></ruby>して\\nもらって、ヴァンピィに<ruby><rb>飲</rb><rt>の</rt></ruby>ませるって\\nこと？　そんなことでいいの？",
+        "zh_cn": "那不就是放出斑比的血之后\\n让斑比喝下去吗？\\n这样就可以了吗？",
+        "zh_tw": "所以是要從班比體內取出血液，\\n再讓班比喝下的意思嗎？\\n只要這樣就可以了？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0031",
+      "book": ""
+    },
+    {
+      "icon": "210152_01",
+      "name": {
+        "en_us": "Rose Queen",
+        "ja_jp": "ローズクイーン",
+        "zh_cn": "玫瑰女王",
+        "zh_tw": "玫瑰女皇"
+      },
+      "context": {
+        "en_us": "Do not misapprehend. Her blood as she is\\nnow would grant no relief. It must be blood\\nreplete with the strength of good health.",
+        "ja_jp": "<ruby><rb>勘違</rb><rt>かんちが</rt></ruby>いしてはダメ。<ruby><rb>今</rb><rt>いま</rt></ruby>の<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>では\\n<ruby><rb>何</rb><rt>なん</rt></ruby>の<ruby><rb>意味</rb><rt>いみ</rt></ruby>もないわ。<ruby><rb>健</rb><rt>すこ</rt></ruby>やかな<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>湛</rb><rt>たた</rt></ruby>える\\n<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>でなくては。",
+        "zh_cn": "你们不要误会。\\n靠她现在的血是没有意义的。\\n必须是她饱含健康力量的血才行。",
+        "zh_tw": "不要誤會了。\\n讓她喝下現在自己的血液並沒有意義。\\n需要的是她還精力豐沛時的血。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0032",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "So...it's got to be blood taken when\\nVania's healthy?",
+        "ja_jp": "……へ？　<ruby><rb>元気</rb><rt>げんき</rt></ruby>なヴァンピィの<ruby><rb>血</rb><rt>ち</rt></ruby>を\\n<ruby><rb>飲</rb><rt>の</rt></ruby>ませなきゃダメってことか？",
+        "zh_cn": "诶？就是说必须要喝\\n健康的斑比的血才可以？",
+        "zh_tw": "……喔？所以一定要讓班比\\n喝下她還健康時的血嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0033",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Well, how do we get THAT? Go back in\\ntime to before all this happened and ask\\nto borrow a cup like a neighbor needing\\nsugar?",
+        "ja_jp": "そんなのどうすりゃいいんだ!?\\n<ruby><rb>時間</rb><rt>じかん</rt></ruby>をさかのぼって、<ruby><rb>元気</rb><rt>げんき</rt></ruby>なヴァンピィ\\nに<ruby><rb>会</rb><rt>あ</rt></ruby>いにでも<ruby><rb>行</rb><rt>い</rt></ruby>けってのかよ？",
+        "zh_cn": "这要怎么办到啊！？\\n难道要我们穿越时空，\\n去见健康的斑比不成？",
+        "zh_tw": "所以要怎麼辦才好！？\\n是要穿越時空，\\n回去找健康時的班比嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0034",
+      "book": ""
+    },
+    {
+      "icon": "210152_01",
+      "name": {
+        "en_us": "Rose Queen",
+        "ja_jp": "ローズクイーン",
+        "zh_cn": "玫瑰女王",
+        "zh_tw": "玫瑰女皇"
+      },
+      "context": {
+        "en_us": "Yes. Were it possible, that would be the\\nideal solution.",
+        "ja_jp": "ええ。それができるのなら、\\n<ruby><rb>一番</rb><rt>いちばん</rt></ruby>いいでしょうね。",
+        "zh_cn": "嗯，如果能做到，\\n那是最好不过了。",
+        "zh_tw": "是啊，如果能辦到的話，\\n會是最好的解決辦法。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0035",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Oh, come on! I mean, technically,\\nI guess we DO know a guy, but...",
+        "ja_jp": "まじかよ……\\nそういうことができそうなヤツを\\n<ruby><rb>知</rb><rt>し</rt></ruby>ってはいるが……。",
+        "zh_cn": "真的假的……\\n虽然我倒是知道\\n能够办到这件事的家伙……",
+        "zh_tw": "真的假的啦……\\n雖然我是知道有個傢伙\\n能辦到那件事……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0036",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Another cruel irony that the one who holds\\nthe power we need most should be the foe\\nwho incited this crisis.",
+        "ja_jp": "まさか、<ruby><rb>今</rb><rt>いま</rt></ruby>、<ruby><rb>一番</rb><rt>いちばん</rt></ruby><ruby><rb>必要</rb><rt>ひつよう</rt></ruby>とする\\n<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>つのが、<ruby><rb>敵</rb><rt>てき</rt></ruby>だけだとは……。",
+        "zh_cn": "没想到我们现在最需要的，\\n竟然是敌人的力量……",
+        "zh_tw": "想不到我們現在最需要的力量，\\n居然只有敵人擁有……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0037",
+      "book": ""
+    },
+    {
+      "icon": "110285_01",
+      "name": {
+        "en_us": "Grimnir",
+        "ja_jp": "グリームニル",
+        "zh_cn": "格里姆尼尔",
+        "zh_tw": "格里姆尼爾"
+      },
+      "context": {
+        "en_us": "Oh, my slippery-minded companions! Are\\nyou perhaps forgetting that another who\\nholds the power to stride causality exists?",
+        "ja_jp": "フッ、お<ruby><rb>前</rb><rt>まえ</rt></ruby>たち。もうひとり、<ruby><rb>因果</rb><rt>いんが</rt></ruby>を\\n<ruby><rb>渡</rb><rt>わた</rt></ruby>る<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>つものを<ruby><rb>忘</rb><rt>わす</rt></ruby>れてはいないか？",
+        "zh_cn": "呵，我说你们，\\n是不是忘了还有一位\\n能穿梭于因果间的高人啊？",
+        "zh_tw": "哼，你們幾個，\\n是不是忘了還有一個人\\n擁有橫渡因果的力量了？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0038",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "...Huh? Wait, Grimnir, you—!",
+        "ja_jp": "……え？　グリームニル、まさか!?",
+        "zh_cn": "诶？格里姆尼尔，难道！？",
+        "zh_tw": "……咦？\\n格里姆尼爾，該不會！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0039",
+      "book": ""
+    },
+    {
+      "icon": "110285_01",
+      "name": {
+        "en_us": "Grimnir",
+        "ja_jp": "グリームニル",
+        "zh_cn": "格里姆尼尔",
+        "zh_tw": "格里姆尼爾"
+      },
+      "context": {
+        "en_us": "The winds I wield are wings fit to soar\\no'er the walls of time. I shall gladly,\\nuh—flap them?—for the princess's sake!",
+        "ja_jp": "<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>風</rb><rt>かぜ</rt></ruby>は、<ruby><rb>因果</rb><rt>いんが</rt></ruby>を<ruby><rb>越</rb><rt>こ</rt></ruby>える<ruby><rb>翼</rb><rt>つばさ</rt></ruby>。\\n<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>光陰</rb><rt>こういん</rt></ruby>を<ruby><rb>貫</rb><rt>つらぬ</rt></ruby>く<ruby><rb>槍</rb><rt>やり</rt></ruby>を、<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>の<ruby><rb>姫</rb><rt>ひめ</rt></ruby>の\\nため<ruby><rb>振</rb><rt>ふ</rt></ruby>るおうではないか。",
+        "zh_cn": "吾风乃跨越因果之羽翼。\\n就让吾化身穿越光阴之长枪，\\n为吸血鬼公主大显身手吧。",
+        "zh_tw": "我揚起之風，乃跨越因果之翼。\\n此刻我貫穿光陰之烈槍，\\n皆為吸血鬼公主所舞。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0040",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Sooo... That means we can help Vania?",
+        "ja_jp": "えっと……ようするに、ヴァンピィを\\n<ruby><rb>助</rb><rt>たす</rt></ruby>けられるってことだよね？",
+        "zh_cn": "呃……你的意思是，\\n你能救斑比对吧？",
+        "zh_tw": "呃嗯……你要說的就是\\n你有辦法救班比對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0041",
+      "book": ""
+    },
+    {
+      "icon": "110285_01",
+      "name": {
+        "en_us": "Grimnir",
+        "ja_jp": "グリームニル",
+        "zh_cn": "格里姆尼尔",
+        "zh_tw": "格里姆尼爾"
+      },
+      "context": {
+        "en_us": "It does indeed. Though I fear I cannot ferry\\nyou through time with me, I shall go now\\nto see her in the past.",
+        "ja_jp": "ああ。お<ruby><rb>前</rb><rt>まえ</rt></ruby>たちを<ruby><rb>連</rb><rt>つ</rt></ruby>れて<ruby><rb>行</rb><rt>い</rt></ruby>くわけには\\nいかないが、<ruby><rb>時</rb><rt>とき</rt></ruby>を<ruby><rb>越</rb><rt>こ</rt></ruby>えて<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>の<ruby><rb>姫</rb><rt>ひめ</rt></ruby>に\\n<ruby><rb>会</rb><rt>あ</rt></ruby>いに<ruby><rb>行</rb><rt>い</rt></ruby>こう。",
+        "zh_cn": "嗯。虽然不能带你们同行，\\n但是我可以穿越时空\\n去见吸血鬼公主。",
+        "zh_tw": "沒錯。雖然沒辦法帶著你們一起去，\\n但我就跨越時空，\\n去見吸血鬼公主吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0042",
+      "book": ""
+    },
+    {
+      "icon": "110285_01",
+      "name": {
+        "en_us": "Grimnir",
+        "ja_jp": "グリームニル",
+        "zh_cn": "格里姆尼尔",
+        "zh_tw": "格里姆尼爾"
+      },
+      "context": {
+        "en_us": "Her death would distort causality's flow.\\nTo right such deviations is my sworn duty.",
+        "ja_jp": "このまま<ruby><rb>姫</rb><rt>ひめ</rt></ruby>が<ruby><rb>死</rb><rt>し</rt></ruby>ねば、<ruby><rb>因果</rb><rt>いんが</rt></ruby>が<ruby><rb>乱</rb><rt>みだ</rt></ruby>れる。\\nそれを<ruby><rb>正</rb><rt>ただ</rt></ruby>すのも、<ruby><rb>俺</rb><rt>おれ</rt></ruby>の<ruby><rb>使命</rb><rt>しめい</rt></ruby>だからな。",
+        "zh_cn": "毕竟吸血鬼公主就这么死了的话，\\n因果会被打乱。\\n矫正因果也是我的使命啊。",
+        "zh_tw": "如果公主就這麼死去，\\n那因果將會錯亂。\\n而導正這一切也是我的使命。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0043",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Oh, whew! That's great!",
+        "ja_jp": "よかったぁ～！",
+        "zh_cn": "太好了～",
+        "zh_tw": "太好了～！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0044",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "So, such a method did exist. It seems\\nmy attentions were well-spent monitoring\\nyour activities.",
+        "ja_jp": "……なるほど。そのような<ruby><rb>手段</rb><rt>しゅだん</rt></ruby>が\\nありましたか。<ruby><rb>動向</rb><rt>どうこう</rt></ruby>を<ruby><rb>注視</rb><rt>ちゅうし</rt></ruby>していた\\n<ruby><rb>甲斐</rb><rt>かい</rt></ruby>がありました。",
+        "zh_cn": "原来如此……\\n竟然还有这种手段啊。\\n真没白监视你们的动向。",
+        "zh_tw": "……原來如此，還有這種手段啊。\\n好險我有關注著你們的動向。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0045",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You have to be kidding me...!",
+        "ja_jp": "――!?　この<ruby><rb>声</rb><rt>こえ</rt></ruby>は……！",
+        "zh_cn": "这个声音是……",
+        "zh_tw": "──！？這聲音是……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0046",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Chronos! Rgh, we were followed here?!",
+        "ja_jp": "クロノス……！\\nくそっ、つけられてたのかよ！",
+        "zh_cn": "克洛诺斯！\\n可恶，原来我们一直\\n被他跟踪了！",
+        "zh_tw": "克羅諾斯……！\\n可惡，我們一直都被跟蹤嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0047",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "Chronos",
+        "ja_jp": "クロノス",
+        "zh_cn": "克洛诺斯",
+        "zh_tw": "克羅諾斯"
+      },
+      "context": {
+        "en_us": "I had intended to wait for an opportune\\nmoment to strike the vampire princess\\ndown... But the situation has changed.",
+        "ja_jp": "<ruby><rb>隙</rb><rt>すき</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>て<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>の<ruby><rb>姫</rb><rt>ひめ</rt></ruby>を<ruby><rb>抹殺</rb><rt>まっさつ</rt></ruby>するつもり\\nでしたが……<ruby><rb>事情</rb><rt>じじょう</rt></ruby>が<ruby><rb>変</rb><rt>か</rt></ruby>わりました。",
+        "zh_cn": "我本打算见机抹杀\\n吸血鬼公主……\\n但是现在情况有变。",
+        "zh_tw": "雖然本是打算\\n乘隙將吸血鬼公主抹殺……\\n然而事態已有所變化。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0048",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "Chronos",
+        "ja_jp": "クロノス",
+        "zh_cn": "克洛诺斯",
+        "zh_tw": "克羅諾斯"
+      },
+      "context": {
+        "en_us": "I now see that you must be dealt with first,\\nTuner.",
+        "ja_jp": "まずは、あなたから<ruby><rb>排除</rb><rt>はいじょ</rt></ruby>させていただき\\nましょう。<ruby><rb>因果</rb><rt>いんが</rt></ruby>の<ruby><rb>調律者</rb><rt>ちょうりつしゃ</rt></ruby>よ。",
+        "zh_cn": "先从你下手吧，\\n因果调律者。",
+        "zh_tw": "首先，便容我將你先排除吧，\\n因果調律者。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0049",
+      "book": ""
+    },
+    {
+      "icon": "110285_01",
+      "name": {
+        "en_us": "Grimnir",
+        "ja_jp": "グリームニル",
+        "zh_cn": "格里姆尼尔",
+        "zh_tw": "格里姆尼爾"
+      },
+      "context": {
+        "en_us": "Hah. This war-god's might transcends time\\nitself. You will soon regret standing before\\nthe unrelenting scythe of my gales!",
+        "ja_jp": "フッ、<ruby><rb>軍神</rb><rt>ぐんしん</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>は<ruby><rb>因果</rb><rt>いんが</rt></ruby>すら<ruby><rb>超越</rb><rt>ちょうえつ</rt></ruby>する。\\n<ruby><rb>颶風</rb><rt>ぐふう</rt></ruby>の<ruby><rb>刃</rb><rt>やいば</rt></ruby>の<ruby><rb>前</rb><rt>まえ</rt></ruby>に<ruby><rb>立</rb><rt>た</rt></ruby>ちはだかりし<ruby><rb>愚行</rb><rt>ぐこう</rt></ruby>、\\n<ruby><rb>後悔</rb><rt>こうかい</rt></ruby>するがいい！",
+        "zh_cn": "呵，军神之力凌驾于因果之上。\\n为你胆敢挡在骤风之刃前的\\n愚蠢行为后悔吧！",
+        "zh_tw": "哼，軍神之力甚至可突破因果。\\n竟妄想阻擋颶風之刃，\\n此愚行將使你後悔莫及！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0050",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Wait, Grimnir! Leave this fight to us.",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>ってくれ、グリームニル！\\nここは、おれたちに<ruby><rb>任</rb><rt>まか</rt></ruby>せてくれ！",
+        "zh_cn": "等一下，格里姆尼尔！\\n这里就交给我们吧！",
+        "zh_tw": "等等，格里姆尼爾！\\n這裡就交給我們吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0051",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "We don't understand Vania's condition well\\nenough to afford any delay. Go now, and\\nget the blood she needs.",
+        "ja_jp": "ヴァンピィの<ruby><rb>状態</rb><rt>じょうたい</rt></ruby>がわからない<ruby><rb>以上</rb><rt>いじょう</rt></ruby>、\\n<ruby><rb>一刻</rb><rt>いっこく</rt></ruby>も<ruby><rb>早</rb><rt>はや</rt></ruby>く、<ruby><rb>健康</rb><rt>けんこう</rt></ruby>なヴァンピィの<ruby><rb>血</rb><rt>ち</rt></ruby>を\\n<ruby><rb>手</rb><rt>て</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>れてほしいんだ。",
+        "zh_cn": "我们还不清楚斑比的状况，\\n所以希望能够尽快\\n拿到健康的斑比的血。",
+        "zh_tw": "現在班比的狀態不明朗，\\n所以希望你能盡早\\n取得健康班比的血液。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0052",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "We'll stop Chronos here, whatever it takes!",
+        "ja_jp": "クロノスはなんとしてでも、\\nおれたちが<ruby><rb>止</rb><rt>と</rt></ruby>めてみせる！",
+        "zh_cn": "我们会竭尽全力\\n牵制住克洛诺斯！",
+        "zh_tw": "不論克羅諾斯打算怎麼做，\\n我們都會在這裡阻止他！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0053",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "Chronos",
+        "ja_jp": "クロノス",
+        "zh_cn": "克洛诺斯",
+        "zh_tw": "克羅諾斯"
+      },
+      "context": {
+        "en_us": "You truly believe that possible, vessel? It\\nseems I have been grossly underestimated,\\nfor you to face me without his aid.",
+        "ja_jp": "できるとお<ruby><rb>思</rb><rt>おも</rt></ruby>いですか、<ruby><rb>器</rb><rt>うつわ</rt></ruby>よ。\\n<ruby><rb>調律者</rb><rt>ちょうりつしゃ</rt></ruby>の<ruby><rb>助力</rb><rt>じょりょく</rt></ruby>もなく、<ruby><rb>私</rb><rt>わたし</rt></ruby>に<ruby><rb>抗</rb><rt>あらが</rt></ruby>おうとは、\\nずいぶんと<ruby><rb>見</rb><rt>み</rt></ruby>くびられたものです。",
+        "zh_cn": "区区容器，别妄自尊大了。\\n不靠调律者帮忙就想与我对抗，\\n真是小瞧了我呢。",
+        "zh_tw": "你自認為能辦到嗎，容器。\\n未借助調律者之力，便想與我抗衡，\\n還真覺得自己遭到小看了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0054",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "You would do well not to underestimate us\\nin turn, wyrm.",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>こそ<ruby><rb>私</rb><rt>わたし</rt></ruby>たちを<ruby><rb>見</rb><rt>み</rt></ruby>くびらないで\\nもらおう。",
+        "zh_cn": "你才是，\\n可不要小瞧了我们。",
+        "zh_tw": "你才不要小看我們了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0055",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Seriously. You think we can't keep you\\nbusy here while he runs a quick errand?",
+        "ja_jp": "まったくだぜ。オレたちが<ruby><rb>足止</rb><rt>あしど</rt></ruby>めくらい\\nできないとでも<ruby><rb>思</rb><rt>おも</rt></ruby>ってるのか？",
+        "zh_cn": "说得对。你以为我们\\n连拖住你这点事都做不到吗？",
+        "zh_tw": "說得一點也沒錯。\\n你覺得我們連阻止你都辦不到嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0056",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "You heard the man. Off ya go, Grimnir!",
+        "ja_jp": "ってわけだ。\\n<ruby><rb>頼</rb><rt>たの</rt></ruby>んだぜ、グリームニル！",
+        "zh_cn": "事情就是这样。\\n那就靠你啦，格里姆尼尔。",
+        "zh_tw": "就是這樣。\\n麻煩你了，格里姆尼爾！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0057",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Please, Grimnir! You're her only hope!",
+        "ja_jp": "お<ruby><rb>願</rb><rt>ねが</rt></ruby>いします、グリームニルさん！\\n<ruby><rb>今</rb><rt>いま</rt></ruby>はあなただけが<ruby><rb>頼</rb><rt>たよ</rt></ruby>りです！",
+        "zh_cn": "拜托你了，格里姆尼尔！\\n我们现在只能仰仗你了！",
+        "zh_tw": "拜託了，格里姆尼爾先生！\\n現在就只能倚賴你了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0058",
+      "book": ""
+    },
+    {
+      "icon": "110285_01",
+      "name": {
+        "en_us": "Grimnir",
+        "ja_jp": "グリームニル",
+        "zh_cn": "格里姆尼尔",
+        "zh_tw": "格里姆尼爾"
+      },
+      "context": {
+        "en_us": "Oh man... Ohhh man, this is getting so\\ngood... I LOVE STUFF LIKE THIS!",
+        "ja_jp": "お、おお……なんて<ruby><rb>熱</rb><rt>あつ</rt></ruby>い<ruby><rb>展開</rb><rt>てんかい</rt></ruby>……。\\nいいな！　こういうのも、いいよな！",
+        "zh_cn": "哦，好……多么热血的走向啊……\\n不错！这种剧情也不错呢！",
+        "zh_tw": "喔、喔喔……\\n這是何等熱血的展開……\\n真好啊！像這種的也不錯啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0059",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "PULL IT TOGETHER, NERD!",
+        "ja_jp": "ちょっとぉ！　まじめにやってよ！",
+        "zh_cn": "我说你！认真一点啊！",
+        "zh_tw": "等等！你給我認真一點！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0060",
+      "book": ""
+    },
+    {
+      "icon": "110285_01",
+      "name": {
+        "en_us": "Grimnir",
+        "ja_jp": "グリームニル",
+        "zh_cn": "格里姆尼尔",
+        "zh_tw": "格里姆尼爾"
+      },
+      "context": {
+        "en_us": "Worry not, my diminutive friend. For I am\\nthe god of war, that racing gale upon the\\nfields of battle! None can match my speed!",
+        "ja_jp": "<ruby><rb>案</rb><rt>あん</rt></ruby>ずるな、<ruby><rb>妖精</rb><rt>ようせい</rt></ruby>の<ruby><rb>少女</rb><rt>しょうじょ</rt></ruby>よ。\\n<ruby><rb>我</rb><rt>われ</rt></ruby>は<ruby><rb>軍神</rb><rt>ぐんしん</rt></ruby>！　<ruby><rb>戦場</rb><rt>せんじょう</rt></ruby>を<ruby><rb>駆</rb><rt>か</rt></ruby>け<ruby><rb>抜</rb><rt>ぬ</rt></ruby>ける<ruby><rb>風</rb><rt>かぜ</rt></ruby>！\\nその<ruby><rb>疾</rb><rt>はや</rt></ruby>さに、<ruby><rb>並</rb><rt>なら</rt></ruby>ぶものなどない。",
+        "zh_cn": "不必忧虑，精灵少女。\\n吾乃军神！穿梭于战场之风！\\n其速之疾无人能及！",
+        "zh_tw": "別擔心，妖精少女啊。\\n我乃軍神！橫越戰場之疾風！\\n此神速將無人能及。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0061",
+      "book": ""
+    },
+    {
+      "icon": "110285_01",
+      "name": {
+        "en_us": "Grimnir",
+        "ja_jp": "グリームニル",
+        "zh_cn": "格里姆尼尔",
+        "zh_tw": "格里姆尼爾"
+      },
+      "context": {
+        "en_us": "I shall see my task done in the blink of an\\neye!",
+        "ja_jp": "<ruby><rb>瞬</rb><rt>またた</rt></ruby>く<ruby><rb>間</rb><rt>ま</rt></ruby>に<ruby><rb>目的</rb><rt>もくてき</rt></ruby>を<ruby><rb>果</rb><rt>は</rt></ruby>たしてみせよう！",
+        "zh_cn": "看我转眼间就完成任务！",
+        "zh_tw": "我一瞬間就會將事情完成！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0062",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "Chronos",
+        "ja_jp": "クロノス",
+        "zh_cn": "克洛诺斯",
+        "zh_tw": "克羅諾斯"
+      },
+      "context": {
+        "en_us": "I'll not allow you to do as you please,\\nTuner.",
+        "ja_jp": "く……\\n<ruby><rb>調律者</rb><rt>ちょうりつしゃ</rt></ruby>よ、<ruby><rb>好</rb><rt>す</rt></ruby>きにはさせません。",
+        "zh_cn": "唔……\\n调律者，你休想得逞。",
+        "zh_tw": "唔……\\n調律者，休想如你所願。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0063",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "That's our line, Chronos!\\nAll your schemes unravel here!",
+        "ja_jp": "それはこちらのセリフだ、クロノス！\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>企</rb><rt>たくら</rt></ruby>みは<ruby><rb>潰</rb><rt>つい</rt></ruby>えさせてみせる！",
+        "zh_cn": "这是我们要说的，克洛诺斯！\\n我们会粉碎你的阴谋！",
+        "zh_tw": "那是我們要說的，克羅諾斯！\\n我們一定會粉碎你的企圖！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0064",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "Chronos",
+        "ja_jp": "クロノス",
+        "zh_cn": "克洛诺斯",
+        "zh_tw": "克羅諾斯"
+      },
+      "context": {
+        "en_us": "Fool... To the very end, you insist on\\nstanding in the way of my liege's works.",
+        "ja_jp": "<ruby><rb>愚</rb><rt>おろ</rt></ruby>かな……あくまでも<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>王</rb><rt>おう</rt></ruby>の\\n<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>をするつもりか。",
+        "zh_cn": "愚蠢……你们依然冥顽不灵，\\n企图妨碍王吗？",
+        "zh_tw": "愚蠢……\\n無論如何都要妨礙吾王之計畫嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0065",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "Chronos",
+        "ja_jp": "クロノス",
+        "zh_cn": "克洛诺斯",
+        "zh_tw": "克羅諾斯"
+      },
+      "context": {
+        "en_us": "As you are a suitable vessel, I had\\nhesitated to erase you from the scope\\nof time...but I now see I have no choice.",
+        "ja_jp": "<ruby><rb>器</rb><rt>うつわ</rt></ruby>と<ruby><rb>思</rb><rt>おも</rt></ruby>えばこそ、<ruby><rb>因果</rb><rt>いんが</rt></ruby>より<ruby><rb>消滅</rb><rt>しょうめつ</rt></ruby>\\nさせるのを<ruby><rb>躊躇</rb><rt>ためら</rt></ruby>っていましたが……\\nもはや<ruby><rb>猶予</rb><rt>ゆうよ</rt></ruby>はありません。",
+        "zh_cn": "我本看在你是容器的份上，\\n一直犹豫是否该让你从因果中消失……\\n但如今我不会再迟疑。",
+        "zh_tw": "正因考量到你是容器，\\n才猶豫是否將你於因果中消除……\\n但此刻已無須遲疑。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0066",
+      "book": ""
+    },
+    {
+      "icon": "210100_01",
+      "name": {
+        "en_us": "Chronos",
+        "ja_jp": "クロノス",
+        "zh_cn": "克洛诺斯",
+        "zh_tw": "克羅諾斯"
+      },
+      "context": {
+        "en_us": "Vanish forever beyond the bounds of this\\nand all realities!",
+        "ja_jp": "<ruby><rb>因果</rb><rt>いんが</rt></ruby>の<ruby><rb>彼方</rb><rt>かなた</rt></ruby>に<ruby><rb>消</rb><rt>き</rt></ruby>えていただきましょう！",
+        "zh_cn": "我要让你消失在因果的彼端！",
+        "zh_tw": "你就消失於因果之彼端吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20433_07_0067",
+      "book": ""
+    }
+  ]
 }

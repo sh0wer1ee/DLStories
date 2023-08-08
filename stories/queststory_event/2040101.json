@@ -1,825 +1,1564 @@
 {
-    "story_id": "",
-    "story_name": "忠龙之愿王之魂葬序章 邂逅骑士教官",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "王子一行人为消灭魔兽\\n来到阿克欧火山，\\n遇到了骑士教官赛丽艾拉。\\n听说火山中有巨大魔兽出没，\\n一行人决定与赛丽艾拉共同行动。"
-        ]
+  "title": {
+    "en_us": "Loyalty's Requiem  Prologue  Introducing the Armsmaster",
+    "ja_jp": "忠竜が願うは果てし王の魂葬 プロローグ 騎士教官との出会い",
+    "zh_cn": "忠龙之愿王之魂葬 序章 邂逅骑士教官",
+    "zh_tw": "忠龍祈願故王的靈魂葬禮 序章 與騎士教官的相遇"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "120050_01"
-            ],
-            "speaker_name": "阴森的魔兽",
-            "context": "嗷嗷嗷嗷嗷嗷嗷嗷嗷！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210057_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "黑暗魔力日渐浓密……\\n灾祸的轮廓正逐渐清晰。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210057_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "毁灭世界的灾祸之魔兽——熔岩巨兽。\\n这样下去它早晚会复活。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210057_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "妄图复活魔兽的“那位大人”，\\n必须阻止……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [],
-            "speaker_name": "telop",
-            "context": "\\n阿克欧火山\\n洞穴入口\\n \\n ",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "哈啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "果然没错……\\n这里到处都是魔兽。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "呜呜呜～\\n怎么这么多～没完没了啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "数量虽多，好在并不强。\\n只要冷静地保持阵形……",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120007_01",
-                "120007_01",
-                "120007_01"
-            ],
-            "speaker_name": "魔兽",
-            "context": "嘎啊啊啊啊！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "被包围了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "看来情况\\n不太妙啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "呃……",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "我来助你们一臂之力！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "什么人！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "等下再自我介绍！\\n看招！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "嘿！呀！\\n哈啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "好、好厉害！\\n每一下都致命……",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "别光顾着佩服，我们也上！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "好！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "歼灭完毕！\\n你们没受伤吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "多谢相助。\\n请问你是？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "我叫赛丽艾拉！\\n职业是骑士教官！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "骑士教官……专门教导\\n贵族子弟剑术的上等职业啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "你们为什么会来到这里？\\n这座山可不是供人消遣的地方。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我们受山脚下的村民所托，\\n来这里消灭魔兽。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "喔，原来是为了帮助村民！\\n令人敬佩！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "你又为什么会来这里？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "是来集训的！为了让大家\\n能彻底磨炼身心！彻底地！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "集训的话应该有其他伙伴吧？\\n可我只看到你一个人……",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "原本是和训练生一起来合宿的……\\n就是我教导的那些见习骑士们。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "但是因为害怕巨大的魔兽，\\n他们全都吓得跑下山了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "巨大的魔兽？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "那魔兽不仅体型庞大，\\n还令人毛骨悚然。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "突然出现在我们面前，\\n又如烟雾一般瞬间消失了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "于是那些家伙——我的训练生们\\n就都吓破了胆，逃得无影无踪。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "真是的，一群缩头乌龟！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "原来你是被他们\\n丢在这种地方了啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "嗯！？不对！\\n留在这里是我自己的选择！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "不除掉那头威胁我们的巨大魔兽，\\n我绝不下山！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "你打算除掉那头魔兽？\\n为什么？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "为了教育那些没出息的训练生啊。\\n我要拖着魔兽尸体好好教训他们。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "“你们竟然会\\n被这种东西吓破胆吗！”",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "真是个豪迈的人……",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "赛丽艾拉，\\n那你要和我们一起行动吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "和你们一起？可以吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "我同意。我们的目标\\n都是消灭火山上的魔兽。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "赛丽艾拉要找的魔兽\\n也是我们的目标……",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "并肩作战更有效率吗。\\n原来如此，有道理。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "好！\\n我接受你们的提议！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "但我也有个提议。\\n嘿！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "呜哇！\\n你乱摸什么！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "嗯。锻炼得不错，但不够匀称，\\n肌肉都集中在惯用手脚那一侧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "咦？你怎么知道的？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "只要摸一下，你的肌肉\\n就会告诉我一切。而且……",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "呀啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "呜啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "呜噢！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "嗯，我已经掌握了\\n你们身体的状态。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "是、是吗？\\n那你所说的提议是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "刚才看到你们\\n和魔兽作战时就觉得。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "“这些人可都是稍加打磨\\n就能大放异彩的钻石原石！”",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "之后我就\\n久久难以平静！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "“想亲自培养这些人才，\\n让他们成为出色的战士！”",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "看、看起来好雀跃啊。\\n这是骑士教官的职业病吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "所以同行的这段时间，\\n能不能让我锻炼你们？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "我会给你们制定可以在\\n短时间内变强的特训计划！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "保证你们在完成\\n特训后实力突飞猛进！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "我还会根据摸肌肉得到的信息，\\n为每一个人提出具体的建议哦！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "听、听起来可真诱人。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "对吧！？所以没问题吧！？\\n是吧！？是吧！？是吧！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "她真是目光炯炯……\\n尤蒂尔，你觉得呢？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "如果能变强的话求之不得。\\n赛丽艾拉，请多多指教。",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "太好啦！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "那现在起我就是你们的教官了！\\n明白了吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "全员",
-            "context": "是，教官！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "教官……嗯，听着真不错。\\n再、再喊一次！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "全员",
-            "context": "是，教官？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "唔！\\n好！诸位，听好了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "我会尽我所能，让你们从菜鸟\\n成长为独当一面的战士！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "首先要热身！\\n边跑边打倒魔兽！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "喂！都跟着我跑！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "呜……谁来……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "嗯？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "呜……谁来……救……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "纳姆，你有没有听到什么？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "嗯？我什么都没听到啊。\\n是你听错了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110255_01"
-            ],
-            "speaker_name": "赛丽艾拉",
-            "context": "喂！不准偷懒！\\n小心我踹你屁股！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "遵、遵命！",
-            "voice_line": "VO_CHR_EVENTSTORY_20401_01_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "呜……谁来……\\n救救……这个世界……",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Tales of a dangerous fiend bring the prince\\nto Mount Archeole, where he meets Celliera,\\na knight's armsmaster. She explains that\\nshe, too, seeks the same massive beast,\\nand they decide to pursue it together.",
+      "ja_jp": "<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby><ruby><rb>討伐</rb><rt>とうばつ</rt></ruby>のためアーケオル<ruby><rb>火山</rb><rt>かざん</rt></ruby>に<ruby><rb>来</rb><rt>き</rt></ruby>た\\n<ruby><rb>王子</rb><rt>おうじ</rt></ruby>たちは、<ruby><rb>騎士教官</rb><rt>きしきょうかん</rt></ruby>のセリエラと<ruby><rb>出会</rb><rt>であ</rt></ruby>う。\\n<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>によると、<ruby><rb>火山</rb><rt>かざん</rt></ruby>には<ruby><rb>巨大</rb><rt>きょだい</rt></ruby>な<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>が<ruby><rb>出現</rb><rt>しゅつげん</rt></ruby>\\nするらしい。<ruby><rb>一行</rb><rt>いっこう</rt></ruby>はセリエラと<ruby><rb>行動</rb><rt>こうどう</rt></ruby>を<ruby><rb>共</rb><rt>とも</rt></ruby>に\\nすることにする。",
+      "zh_cn": "王子一行人为消灭魔兽\\n来到阿克欧火山，\\n遇到了骑士教官赛丽艾拉。\\n听说火山中有巨大魔兽出没，\\n一行人决定与赛丽艾拉共同行动。",
+      "zh_tw": "為了討伐魔獸而來到阿克歐火山的\\n王子一行人，與騎士教官榭葉拉相遇了。\\n據她所說，火山中有巨大的魔獸出沒。\\n隨後，一行人決定與榭葉拉共同行動。"
+    }
+  },
+  "prev": "",
+  "next": "2040102",
+  "content": [
+    {
+      "icon": "120050_01",
+      "name": {
+        "en_us": "Ominous Fiend",
+        "ja_jp": "不気味な魔獣",
+        "zh_cn": "阴森的魔兽",
+        "zh_tw": "陰森的魔獸"
+      },
+      "context": {
+        "en_us": "RooOOooOOOooAAArgh!",
+        "ja_jp": "オオォォオオォォオオォォオオ……！",
+        "zh_cn": "嗷嗷嗷嗷嗷嗷嗷嗷嗷！",
+        "zh_tw": "吼噢噢噢噢噢噢噢噢噢噢……！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "210057_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "The black mana thickens... I can see his\\nimage dancing in its whorls.",
+        "ja_jp": "<ruby><rb>黒</rb><rt>くろ</rt></ruby>いマナが<ruby><rb>濃</rb><rt>こ</rt></ruby>くなっている……。\\nヤツの<ruby><rb>虚像</rb><rt>きょぞう</rt></ruby>を<ruby><rb>浮</rb><rt>う</rt></ruby>かび<ruby><rb>上</rb><rt>あ</rt></ruby>がらせるほどに。",
+        "zh_cn": "黑暗魔力日渐浓密……\\n灾祸的轮廓正逐渐清晰。",
+        "zh_tw": "黑色瑪納的濃度正在提高……\\n已經高到讓那傢伙的虛像都浮現出來了。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "210057_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Phraeganoth, the world-devourer...\\nAt this rate, it's only a matter of time\\nbefore he is reborn.",
+        "ja_jp": "<ruby><rb>世界</rb><rt>せかい</rt></ruby>を<ruby><rb>滅</rb><rt>ほろ</rt></ruby>ぼす<ruby><rb>災厄</rb><rt>さいやく</rt></ruby>の<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>、フレガノス。\\nこのままではヤツの<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>は<ruby><rb>時間</rb><rt>じかん</rt></ruby>の<ruby><rb>問題</rb><rt>もんだい</rt></ruby>。",
+        "zh_cn": "毁灭世界的灾祸之魔兽——熔岩巨兽。\\n这样下去它早晚会复活。",
+        "zh_tw": "毀滅世界的災厄之魔獸，費克洛斯。\\n這樣下去，牠復活也只是時間的問題。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "210057_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "That abomination cannot be allowed\\nto return. I must move quickly...",
+        "ja_jp": "お<ruby><rb>止</rb><rt>と</rt></ruby>めしなくては。\\nヤツの<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>を<ruby><rb>望</rb><rt>のぞ</rt></ruby>む「あの<ruby><rb>方</rb><rt>かた</rt></ruby>」を――",
+        "zh_cn": "妄图复活魔兽的“那位大人”，\\n必须阻止……",
+        "zh_tw": "必須阻止他，\\n阻止渴望魔獸復活的「那位大人」──"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "",
+      "name": {
+        "en_us": "telop",
+        "ja_jp": "telop",
+        "zh_cn": "telop",
+        "zh_tw": "telop"
+      },
+      "context": {
+        "en_us": "\\nMount Archeole\\nCavern's Mouth\\n \\n ",
+        "ja_jp": "<ruby><rb>アーケオル火山</rb><rt>　　　　　　　　　　かざん</rt></ruby>",
+        "zh_cn": "\\n阿克欧火山\\n洞穴入口\\n \\n ",
+        "zh_tw": "\\n阿克歐火山\\n洞窟入口\\n \\n "
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Hraaaah!",
+        "ja_jp": "ハアアァァァッ!! ",
+        "zh_cn": "哈啊啊啊！",
+        "zh_tw": "喝────！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0005",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'd hoped the talk of fiends here\\nwas overstated, but this place is\\noverflowing with them...",
+        "ja_jp": "……<ruby><rb>聞</rb><rt>き</rt></ruby>いた<ruby><rb>通</rb><rt>とお</rt></ruby>りだな。\\n<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>であふれ<ruby><rb>返</rb><rt>かえ</rt></ruby>ってる。",
+        "zh_cn": "果然没错……\\n这里到处都是魔兽。",
+        "zh_tw": "……跟傳聞說的一樣，\\n這裡到處充滿了魔獸。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0006",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Ugh! There's no end to them!",
+        "ja_jp": "ううう～！\\nこんなにいっぱい、キリがないよ～！",
+        "zh_cn": "呜呜呜～\\n怎么这么多～没完没了啊！",
+        "zh_tw": "嗚嗚嗚～！\\n數量這麼多，沒完沒了啊～！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0007",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "They've got numbers, but that's all.\\nStay calm. We'll be through 'em in—",
+        "ja_jp": "<ruby><rb>数</rb><rt>かず</rt></ruby>は<ruby><rb>多</rb><rt>おお</rt></ruby>いが、<ruby><rb>手強</rb><rt>てごわ</rt></ruby>い<ruby><rb>相手</rb><rt>あいて</rt></ruby>じゃない。\\n<ruby><rb>落</rb><rt>お</rt></ruby>ち<ruby><rb>着</rb><rt>つ</rt></ruby>いて<ruby><rb>陣形</rb><rt>じんけい</rt></ruby>を――",
+        "zh_cn": "数量虽多，好在并不强。\\n只要冷静地保持阵形……",
+        "zh_tw": "雖然數量是很多，但牠們並不強。\\n冷靜下來調整陣形──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0008",
+      "book": ""
+    },
+    {
+      "icon": "120007_01",
+      "name": {
+        "en_us": "Fiend",
+        "ja_jp": "魔獣",
+        "zh_cn": "魔兽",
+        "zh_tw": "魔獸"
+      },
+      "context": {
+        "en_us": "SKREEE!",
+        "ja_jp": "キシャアアァァ！",
+        "zh_cn": "嘎啊啊啊啊！",
+        "zh_tw": "嘰呀啊啊啊啊啊！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "...We're surrounded.",
+        "ja_jp": "――<ruby><rb>囲</rb><rt>かこ</rt></ruby>まれたな。",
+        "zh_cn": "被包围了……",
+        "zh_tw": "──被包圍了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0010",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Seems we're in a bit of a pickle here...",
+        "ja_jp": "これはちょっと\\nマズイかもしれませんね……。",
+        "zh_cn": "看来情况\\n不太妙啊……",
+        "zh_tw": "這個情況\\n看起來有點不太妙呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0011",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Damn...",
+        "ja_jp": "クッ……！",
+        "zh_cn": "呃……",
+        "zh_tw": "唔……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0012",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "I will lend you my blade!",
+        "ja_jp": "そこの<ruby><rb>一行</rb><rt>いっこう</rt></ruby>、<ruby><rb>助太刀</rb><rt>すけだち</rt></ruby>するぞ！",
+        "zh_cn": "我来助你们一臂之力！",
+        "zh_tw": "讓我來，助你們一臂之力吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0013",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Who are you?!",
+        "ja_jp": "<ruby><rb>何者</rb><rt>なにもの</rt></ruby>だ!?",
+        "zh_cn": "什么人！？",
+        "zh_tw": "妳是什麼人！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0014",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Formalities later! HYAH!",
+        "ja_jp": "<ruby><rb>自己紹介</rb><rt>じこしょうかい</rt></ruby>は<ruby><rb>後</rb><rt>あと</rt></ruby>だ！\\nセイヤアアッ！",
+        "zh_cn": "等下再自我介绍！\\n看招！",
+        "zh_tw": "自我介紹就先等等吧！\\n嘿呀啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0015",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "HRNH! YAH! HAAAAAH!",
+        "ja_jp": "セイッ！　ヤッ！\\nハアアアアアッ！",
+        "zh_cn": "嘿！呀！\\n哈啊啊啊！",
+        "zh_tw": "嘿！呀！\\n喝啊啊啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0016",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Her precision is astonishing...\\nEvery swing is a mortal blow!",
+        "ja_jp": "す、すごい！　\\n<ruby><rb>相手</rb><rt>あいて</rt></ruby>の<ruby><rb>急所</rb><rt>きゅうしょ</rt></ruby>を<ruby><rb>的確</rb><rt>てきかく</rt></ruby>に……！",
+        "zh_cn": "好、好厉害！\\n每一下都致命……",
+        "zh_tw": "好、好厲害！　\\n準確擊中了敵方的要害……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0017",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "We're not spectators here! Fight!",
+        "ja_jp": "<ruby><rb>感心</rb><rt>かんしん</rt></ruby>してないで、おれたちも<ruby><rb>戦</rb><rt>たたか</rt></ruby>うぞ！",
+        "zh_cn": "别光顾着佩服，我们也上！",
+        "zh_tw": "別顧著讚嘆，我們也加入戰局吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0018",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "On it!",
+        "ja_jp": "おう！",
+        "zh_cn": "好！",
+        "zh_tw": "好！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0019",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "...That was the last of them.\\nAre any of you hurt?",
+        "ja_jp": "――<ruby><rb>殲滅完了</rb><rt>せんめつかんりょう</rt></ruby>！\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>たち、ケガはないか？",
+        "zh_cn": "歼灭完毕！\\n你们没受伤吧？",
+        "zh_tw": "──全數殲滅！\\n你們幾個沒受傷吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0020",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "We're fine, thanks to you.\\nMay I ask your name?",
+        "ja_jp": "ありがとう、<ruby><rb>助</rb><rt>たす</rt></ruby>かった。\\nあなたは？",
+        "zh_cn": "多谢相助。\\n请问你是？",
+        "zh_tw": "非常感謝，多虧有妳幫忙。\\n妳是？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0021",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "Celliera! I serve as knight's armsmaster.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>名</rb><rt>な</rt></ruby>はセリエラ！\\n<ruby><rb>騎士教官</rb><rt>きしきょうかん</rt></ruby>をしている<ruby><rb>者</rb><rt>もの</rt></ruby>だ！",
+        "zh_cn": "我叫赛丽艾拉！\\n职业是骑士教官！",
+        "zh_tw": "我叫做榭葉拉！\\n是在當騎士教官的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0022",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Teachin' the sword to highborn children?\\nThat's a pretty high-rankin' position.",
+        "ja_jp": "<ruby><rb>騎士教官</rb><rt>きしきょうかん</rt></ruby>……<ruby><rb>貴族</rb><rt>きぞく</rt></ruby>の<ruby><rb>子弟</rb><rt>してい</rt></ruby>を<ruby><rb>集</rb><rt>あつ</rt></ruby>めて\\n<ruby><rb>剣術指南</rb><rt>けんじゅつしなん</rt></ruby>するお<ruby><rb>偉</rb><rt>えら</rt></ruby>い<ruby><rb>職業</rb><rt>しょくぎょう</rt></ruby>だな。",
+        "zh_cn": "骑士教官……专门教导\\n贵族子弟剑术的上等职业啊。",
+        "zh_tw": "騎士教官……是個專門為貴族子弟\\n指導劍術的崇高職業啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0023",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "Why have you come here? This mountain\\nis no place for leisure hiking.",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>たち、なにしに<ruby><rb>来</rb><rt>き</rt></ruby>たんだ？　\\nここは<ruby><rb>行楽</rb><rt>こうらく</rt></ruby>に<ruby><rb>来</rb><rt>く</rt></ruby>るような<ruby><rb>山</rb><rt>やま</rt></ruby>じゃないぞ。",
+        "zh_cn": "你们为什么会来到这里？\\n这座山可不是供人消遣的地方。",
+        "zh_tw": "你們幾個來這裡做什麼？\\n這座山可不適合郊遊喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0024",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "The villagers at the base asked our help\\nin slaying fiends.",
+        "ja_jp": "おれたちはふもとの<ruby><rb>里</rb><rt>さと</rt></ruby>に\\n<ruby><rb>魔獣退治</rb><rt>まじゅうたいじ</rt></ruby>を<ruby><rb>頼</rb><rt>たの</rt></ruby>まれたんだ。",
+        "zh_cn": "我们受山脚下的村民所托，\\n来这里消灭魔兽。",
+        "zh_tw": "是山腳下的村莊委託我們\\n來這邊擊退魔獸的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0025",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "Aid to the people! A noble cause indeed.",
+        "ja_jp": "ほう、<ruby><rb>人助</rb><rt>ひとだす</rt></ruby>けか！\\nそれは<ruby><rb>感心</rb><rt>かんしん</rt></ruby>だな！",
+        "zh_cn": "喔，原来是为了帮助村民！\\n令人敬佩！",
+        "zh_tw": "哦，原來是在熱心助人啊！\\n真是精神可嘉！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0026",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "And what brings you up here, Celliera?",
+        "ja_jp": "セリエラはどうしてここに？",
+        "zh_cn": "你又为什么会来这里？",
+        "zh_tw": "那榭葉拉為什麼會在這裡呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0027",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "A training camp—the rigors here are\\nperfect for hardening both body and mind.",
+        "ja_jp": "<ruby><rb>合宿</rb><rt>がっしゅく</rt></ruby>だ！　ここで<ruby><rb>心</rb><rt>こころ</rt></ruby>と<ruby><rb>体</rb><rt>からだ</rt></ruby>を\\nみっちり<ruby><rb>鍛</rb><rt>きた</rt></ruby>えていたんだ。みっちりと！",
+        "zh_cn": "是来集训的！为了让大家\\n能彻底磨炼身心！彻底地！",
+        "zh_tw": "為了集訓！在這裡可以徹底鍛鍊身心，\\n非常非常徹底！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0028",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "This a trainin' camp for one or somethin'?\\nI don't see anybody with ya.",
+        "ja_jp": "<ruby><rb>合宿</rb><rt>がっしゅく</rt></ruby>ってことは<ruby><rb>他</rb><rt>ほか</rt></ruby>に<ruby><rb>仲間</rb><rt>なかま</rt></ruby>がいるのか？\\n<ruby><rb>見</rb><rt>み</rt></ruby>たところ、あんたひとりのようだが？",
+        "zh_cn": "集训的话应该有其他伙伴吧？\\n可我只看到你一个人……",
+        "zh_tw": "集訓的話，就是說有其他夥伴嗎？\\n但是看起來好像只有妳一個人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0029",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "I WAS here with my students...until they\\nfled for the foothills.",
+        "ja_jp": "……<ruby><rb>訓練生</rb><rt>くんれんせい</rt></ruby>と<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に<ruby><rb>合宿</rb><rt>がっしゅく</rt></ruby>していた。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>指導</rb><rt>しどう</rt></ruby>している<ruby><rb>騎士</rb><rt>きし</rt></ruby><ruby><rb>見習</rb><rt>みなら</rt></ruby>いたちだ。",
+        "zh_cn": "原本是和训练生一起来合宿的……\\n就是我教导的那些见习骑士们。",
+        "zh_tw": "……我原本和訓練生們一起來的，\\n他們是我指導的見習騎士。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0030",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "That giant fiend had them running scared.",
+        "ja_jp": "けれど<ruby><rb>全員</rb><rt>ぜんいん</rt></ruby>、<ruby><rb>山</rb><rt>やま</rt></ruby>を<ruby><rb>下</rb><rt>お</rt></ruby>りてしまった。\\n<ruby><rb>巨大</rb><rt>きょだい</rt></ruby>な<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>に<ruby><rb>怯</rb><rt>おび</rt></ruby>えてしまってな。",
+        "zh_cn": "但是因为害怕巨大的魔兽，\\n他们全都吓得跑下山了。",
+        "zh_tw": "但結果每個人都下山去了，\\n因為他們害怕巨大的魔獸。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0031",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Just how big a fiend was it?",
+        "ja_jp": "<ruby><rb>巨大</rb><rt>きょだい</rt></ruby>な<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>？",
+        "zh_cn": "巨大的魔兽？",
+        "zh_tw": "巨大的魔獸？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0032",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "Extremely. And uncanny, besides.",
+        "ja_jp": "バカでかいだけじゃなくて\\n<ruby><rb>薄気味悪</rb><rt>うすきみわる</rt></ruby>い<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>だったよ。",
+        "zh_cn": "那魔兽不仅体型庞大，\\n还令人毛骨悚然。",
+        "zh_tw": "那魔獸不但身軀大到不像話，\\n而且令人感覺不太舒服。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0033",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "It appeared before us out of nowhere,\\nthen vanished like smoke and oakum.",
+        "ja_jp": "<ruby><rb>突然</rb><rt>とつぜん</rt></ruby>、<ruby><rb>私</rb><rt>わたし</rt></ruby>たちの<ruby><rb>前</rb><rt>まえ</rt></ruby>に<ruby><rb>現</rb><rt>あらわ</rt></ruby>れたと<ruby><rb>思</rb><rt>おも</rt></ruby>ったら\\n<ruby><rb>一瞬</rb><rt>いっしゅん</rt></ruby>で<ruby><rb>消</rb><rt>き</rt></ruby>えたんだ。<ruby><rb>煙</rb><rt>けむり</rt></ruby>みたいに。",
+        "zh_cn": "突然出现在我们面前，\\n又如烟雾一般瞬间消失了。",
+        "zh_tw": "牠突然出現在我們面前，\\n然後一瞬間就消失了。\\n就像一陣煙霧似的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0034",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "Next thing I heard was a chorus of screams\\nand a stampede of footsteps down the\\nmountainside.",
+        "ja_jp": "で、あいつら――<ruby><rb>訓練生</rb><rt>くんれんせい</rt></ruby>たちは\\n<ruby><rb>腰</rb><rt>こし</rt></ruby>を<ruby><rb>抜</rb><rt>ぬ</rt></ruby>かして<ruby><rb>逃</rb><rt>に</rt></ruby>げ<ruby><rb>出</rb><rt>だ</rt></ruby>してしまったんだ。",
+        "zh_cn": "于是那些家伙——我的训练生们\\n就都吓破了胆，逃得无影无踪。",
+        "zh_tw": "所以那些傢伙──訓練生們\\n每個都嚇得半死，逃下山去了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0035",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "These rich whelps have no spleen at all!",
+        "ja_jp": "まったく、<ruby><rb>肝</rb><rt>きも</rt></ruby>っ<ruby><rb>玉</rb><rt>たま</rt></ruby>の<ruby><rb>小</rb><rt>ちい</rt></ruby>さな<ruby><rb>連中</rb><rt>れんちゅう</rt></ruby>だ！",
+        "zh_cn": "真是的，一群缩头乌龟！",
+        "zh_tw": "真是的，膽子小得跟什麼一樣！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0036",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "And now yer stranded up here alone, yeah?",
+        "ja_jp": "それで<ruby><rb>置</rb><rt>お</rt></ruby>いてけぼりを\\nくらっちまったワケか。",
+        "zh_cn": "原来你是被他们\\n丢在这种地方了啊。",
+        "zh_tw": "於是妳就一個人\\n被丟在這座山上了是嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0037",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "I do not fancy the implication, sir!\\nI remained here quite intentionally.",
+        "ja_jp": "っ!?　<ruby><rb>違</rb><rt>ちが</rt></ruby>うぞ！\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>意志</rb><rt>いし</rt></ruby>でここに<ruby><rb>留</rb><rt>とど</rt></ruby>まっている！",
+        "zh_cn": "嗯！？不对！\\n留在这里是我自己的选择！",
+        "zh_tw": "呃！？才不是呢！\\n我是自己決定留在這裡的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0038",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "I've no mind to leave this mountain until\\nthe giant fiend is slain.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>たちを<ruby><rb>脅</rb><rt>おびや</rt></ruby>かした<ruby><rb>巨大魔獣</rb><rt>きょだいまじゅう</rt></ruby>を\\n<ruby><rb>狩</rb><rt>か</rt></ruby>るまでは、<ruby><rb>山</rb><rt>やま</rt></ruby>を<ruby><rb>下</rb><rt>お</rt></ruby>りないつもりだ！",
+        "zh_cn": "不除掉那头威胁我们的巨大魔兽，\\n我绝不下山！",
+        "zh_tw": "在打倒那隻威脅我們的巨大魔獸之前，\\n我都不打算下山！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0039",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "You're going to hunt it? Why?",
+        "ja_jp": "<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>を<ruby><rb>狩</rb><rt>か</rt></ruby>るの？\\nどうして？",
+        "zh_cn": "你打算除掉那头魔兽？\\n为什么？",
+        "zh_tw": "妳要打倒魔獸？\\n為什麼？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0040",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "As a lesson to the young ones! I'll toss\\nthe corpse at their feet and lecture the\\ndaylights out of the little cowards.",
+        "ja_jp": "あいつらの<ruby><rb>不甲斐</rb><rt>ふがい</rt></ruby>なさを<ruby><rb>叱</rb><rt>しか</rt></ruby>るためさ。\\n<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>の<ruby><rb>亡骸</rb><rt>なきがら</rt></ruby>を<ruby><rb>掲</rb><rt>かか</rt></ruby>げて<ruby><rb>説教</rb><rt>せっきょう</rt></ruby>してやるんだ。",
+        "zh_cn": "为了教育那些没出息的训练生啊。\\n我要拖着魔兽尸体好好教训他们。",
+        "zh_tw": "為了讓他們知道自己多沒出息，\\n所以要讓他們看著魔獸的屍骸，\\n好好讓我罵一頓。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0041",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "＂You turned tail and ran, from THIS?＂ Hah!\\n...They'll soon learn there's no terror more\\ndire than disappointing me.",
+        "ja_jp": "「お<ruby><rb>前</rb><rt>まえ</rt></ruby>たちは、こんなヤツにおののいて\\n<ruby><rb>尻尾</rb><rt>しっぽ</rt></ruby>を<ruby><rb>巻</rb><rt>ま</rt></ruby>いて<ruby><rb>逃</rb><rt>に</rt></ruby>げ<ruby><rb>出</rb><rt>だ</rt></ruby>したのか？」って！",
+        "zh_cn": "“你们竟然会\\n被这种东西吓破胆吗！”",
+        "zh_tw": "「你們就因為害怕這種傢伙，\\n所以夾著尾巴逃跑了嗎？」這樣！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0042",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Your teaching methods feel...intense.",
+        "ja_jp": "<ruby><rb>豪胆</rb><rt>ごうたん</rt></ruby>な<ruby><rb>人</rb><rt>ひと</rt></ruby>ですね……。",
+        "zh_cn": "真是个豪迈的人……",
+        "zh_tw": "真是膽量超大的人呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0043",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "It seems our aims align. Will you join us?",
+        "ja_jp": "セリエラ。それならおれたちと\\n<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に<ruby><rb>行動</rb><rt>こうどう</rt></ruby>しないか？",
+        "zh_cn": "赛丽艾拉，\\n那你要和我们一起行动吗？",
+        "zh_tw": "榭葉拉，既然如此，\\n妳要不要和我們一起行動？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0044",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "You wouldn't mind?",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>たちと？　いいのか？",
+        "zh_cn": "和你们一起？可以吗？",
+        "zh_tw": "跟你們一起？這樣好嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0045",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "It makes sense. We're trying to clear out\\nevery fiend here—including yours.",
+        "ja_jp": "それがいい。<ruby><rb>私</rb><rt>わたし</rt></ruby>たちの<ruby><rb>目的</rb><rt>もくてき</rt></ruby>は\\nこの<ruby><rb>火山</rb><rt>かざん</rt></ruby>に<ruby><rb>巣食</rb><rt>すく</rt></ruby>う<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>の<ruby><rb>討伐</rb><rt>とうばつ</rt></ruby>。",
+        "zh_cn": "我同意。我们的目标\\n都是消灭火山上的魔兽。",
+        "zh_tw": "我覺得這樣比較好。\\n我們的目的是打倒\\n棲息在這座火山的魔獸。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0046",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "And if we hunt the same prey—",
+        "ja_jp": "セリエラの<ruby><rb>狙</rb><rt>ねら</rt></ruby>う<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>も<ruby><rb>討伐</rb><rt>とうばつ</rt></ruby>の<ruby><rb>対象</rb><rt>たいしょう</rt></ruby>だ。\\n<ruby><rb>倒</rb><rt>たお</rt></ruby>すべき<ruby><rb>相手</rb><rt>あいて</rt></ruby>が<ruby><rb>同</rb><rt>おな</rt></ruby>じなら――",
+        "zh_cn": "赛丽艾拉要找的魔兽\\n也是我们的目标……",
+        "zh_tw": "而榭葉拉要找的魔獸也是我們的目標，\\n也就是說我們的敵人相同──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0047",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "Then it only makes sense to do it together.\\nIndeed, indeed.",
+        "ja_jp": "<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>しあったほうが<ruby><rb>効率的</rb><rt>こうりつてき</rt></ruby>という\\nわけか。なるほど。なるほど。",
+        "zh_cn": "并肩作战更有效率吗。\\n原来如此，有道理。",
+        "zh_tw": "合作會比較有效率是吧，\\n原來如此、原來如此。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0048",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "Very well. I accept your offer.",
+        "ja_jp": "わかった！\\nその<ruby><rb>提案</rb><rt>ていあん</rt></ruby>、<ruby><rb>受</rb><rt>う</rt></ruby>け<ruby><rb>入</rb><rt>い</rt></ruby>れよう！",
+        "zh_cn": "好！\\n我接受你们的提议！",
+        "zh_tw": "好！\\n我就接受你們的提議吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0049",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "Now, allow me to make you one in return!\\n*grope*",
+        "ja_jp": "だが、<ruby><rb>私</rb><rt>わたし</rt></ruby>からもお<ruby><rb>前</rb><rt>まえ</rt></ruby>たちに<ruby><rb>提案</rb><rt>ていあん</rt></ruby>がある。\\nそれ！",
+        "zh_cn": "但我也有个提议。\\n嘿！",
+        "zh_tw": "不過在這之前我也有一個提議。\\n嘿！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0050",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Gah! What are you doing, and why does\\nit involve so much touching?!",
+        "ja_jp": "うわあ!?　\\nどこを<ruby><rb>揉</rb><rt>も</rt></ruby>んでいるんだ!?",
+        "zh_cn": "呜哇！\\n你乱摸什么！？",
+        "zh_tw": "嗚哇！？\\n妳在揉哪裡啊！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0051",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "Hmm, I see. You've considerable tone,\\nbut your muscles favor your dominant\\nhand and pivot leg.",
+        "ja_jp": "――うむ。かなり<ruby><rb>鍛</rb><rt>きた</rt></ruby>えてはいるが、\\n<ruby><rb>筋量</rb><rt>きんりょう</rt></ruby>が<ruby><rb>利腕</rb><rt>ききうで</rt></ruby>、<ruby><rb>軸足側</rb><rt>じくあしがわ</rt></ruby>に<ruby><rb>偏</rb><rt>かたよ</rt></ruby>っているな。",
+        "zh_cn": "嗯。锻炼得不错，但不够匀称，\\n肌肉都集中在惯用手脚那一侧。",
+        "zh_tw": "──嗯，鍛鍊得不錯。\\n不過肌肉都偏重於慣用手跟軸心腳。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0052",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Wait, you can tell all that by touching me?",
+        "ja_jp": "え？　わかるのか？",
+        "zh_cn": "咦？你怎么知道的？",
+        "zh_tw": "咦？這都摸得出來？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0053",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "Muscles are loquacious things if you know\\nhow to listen. Now, if you'll excuse me...",
+        "ja_jp": "ああ。<ruby><rb>触</rb><rt>さわ</rt></ruby>ると<ruby><rb>筋肉</rb><rt>きんにく</rt></ruby>が<ruby><rb>教</rb><rt>おし</rt></ruby>えてくれる。\\nそれと――",
+        "zh_cn": "只要摸一下，你的肌肉\\n就会告诉我一切。而且……",
+        "zh_tw": "嗯，摸摸看肌肉就知道了。\\n還有──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0054",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Eagh!",
+        "ja_jp": "きゃあっ！",
+        "zh_cn": "呀啊！",
+        "zh_tw": "呀啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0055",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Waugh!",
+        "ja_jp": "うわあっ！",
+        "zh_cn": "呜啊！",
+        "zh_tw": "嗚哇！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0056",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Aieeeeee!",
+        "ja_jp": "おぅふ！",
+        "zh_cn": "呜噢！",
+        "zh_tw": "喔嗚！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0057",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "Mmm-hmm, mmmm-hm. Yes, well, I've a\\nfirm grasp of all of your conditions now.\\n...No pun intended.",
+        "ja_jp": "――うむうむ。\\n<ruby><rb>全員</rb><rt>ぜんいん</rt></ruby>の<ruby><rb>体</rb><rt>からだ</rt></ruby>の<ruby><rb>状態</rb><rt>じょうたい</rt></ruby>、しかと<ruby><rb>把握</rb><rt>はあく</rt></ruby>したぞ。",
+        "zh_cn": "嗯，我已经掌握了\\n你们身体的状态。",
+        "zh_tw": "──嗯嗯。\\n你們所有人的身體狀況，\\n我都明確掌握了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0058",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "And...this relates to your proposal?",
+        "ja_jp": "そ、そうか。\\nそれで<ruby><rb>提案</rb><rt>ていあん</rt></ruby>というのは？",
+        "zh_cn": "是、是吗？\\n那你所说的提议是……",
+        "zh_tw": "是、是嗎。\\n那妳說的提議是什麼？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0059",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "A thought struck me as I watched you\\ndispatch those fiends.",
+        "ja_jp": "<ruby><rb>先</rb><rt>さき</rt></ruby>ほどの<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>との<ruby><rb>戦闘</rb><rt>せんとう</rt></ruby>のとき、\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>たちを<ruby><rb>見</rb><rt>み</rt></ruby>て<ruby><rb>思</rb><rt>おも</rt></ruby>ったんだ。",
+        "zh_cn": "刚才看到你们\\n和魔兽作战时就觉得。",
+        "zh_tw": "剛剛看你們跟魔獸戰鬥時，\\n我腦中就浮現一個念頭。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0060",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "You're uncommon talents, to the last.\\nDiamonds in the rough, just begging to\\nbe dug out and polished!",
+        "ja_jp": "「こいつらは<ruby><rb>逸材</rb><rt>いつざい</rt></ruby>だ。<ruby><rb>磨</rb><rt>みが</rt></ruby>けば<ruby><rb>磨</rb><rt>みが</rt></ruby>くほど\\n<ruby><rb>光</rb><rt>ひか</rt></ruby>り<ruby><rb>輝</rb><rt>かがや</rt></ruby>くダイヤの<ruby><rb>原石</rb><rt>げんせき</rt></ruby>だ」と！",
+        "zh_cn": "“这些人可都是稍加打磨\\n就能大放异彩的钻石原石！”",
+        "zh_tw": "「這些人很有天分，簡直就是\\n　越磨光澤就越耀眼的鑽石原石」！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0061",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "My heart has been racing ever since!",
+        "ja_jp": "それからもう、\\n<ruby><rb>体中</rb><rt>からだじゅう</rt></ruby>がうずいてうずいて<ruby><rb>仕方</rb><rt>しかた</rt></ruby>ないんだ！",
+        "zh_cn": "之后我就\\n久久难以平静！",
+        "zh_tw": "一想到這點，\\n我就快要按捺不住內心的衝動了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0062",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "I want to shape you. To put chisel to\\nmarble and sculpt you into warriors fit\\nto make history!",
+        "ja_jp": "「こいつらを<ruby><rb>育</rb><rt>そだ</rt></ruby>てたいっ」と！\\n「<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>手</rb><rt>て</rt></ruby>で<ruby><rb>立派</rb><rt>りっぱ</rt></ruby>な<ruby><rb>戦士</rb><rt>せんし</rt></ruby>にしたいっ」と！",
+        "zh_cn": "“想亲自培养这些人才，\\n让他们成为出色的战士！”",
+        "zh_tw": "「我想培育這些傢伙」！\\n「我要親手讓他們成為優秀的戰士」！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0063",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Well, you're certainly enthusiastic.\\nDo you speak to all your students like this?",
+        "ja_jp": "イ、イキイキしていますね。\\n<ruby><rb>騎士教官</rb><rt>きしきょうかん</rt></ruby>の<ruby><rb>性</rb><rt>さが</rt></ruby>でしょうか……？",
+        "zh_cn": "看、看起来好雀跃啊。\\n这是骑士教官的职业病吗……",
+        "zh_tw": "她、她看起來好雀躍呢。\\n騎士教官都是這樣子的嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0064",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "Please, you must allow me to train you for\\nas long as we travel together. I insist!",
+        "ja_jp": "だから、<ruby><rb>行動</rb><rt>こうどう</rt></ruby>をともにする<ruby><rb>間</rb><rt>あいだ</rt></ruby>、<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>手</rb><rt>て</rt></ruby>で\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>たちを<ruby><rb>鍛</rb><rt>きた</rt></ruby>えさせてくれないか!?",
+        "zh_cn": "所以同行的这段时间，\\n能不能让我锻炼你们？",
+        "zh_tw": "所以我想說，當我們一起行動時\\n能讓我來鍛鍊你們嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0065",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "Say the word, and I'll put together a\\nregimen guaranteed to produce results\\nin the brief time we share.",
+        "ja_jp": "<ruby><rb>短</rb><rt>みじか</rt></ruby>い<ruby><rb>間</rb><rt>あいだ</rt></ruby>で、<ruby><rb>確実</rb><rt>かくじつ</rt></ruby>にたくましくなれる　\\n<ruby><rb>特訓</rb><rt>とっくん</rt></ruby>メニューを<ruby><rb>組</rb><rt>く</rt></ruby>んでやる！",
+        "zh_cn": "我会给你们制定可以在\\n短时间内变强的特训计划！",
+        "zh_tw": "我會想出一個能在短時間內，\\n確實讓你們變得更加強健的特訓計劃！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0066",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "I'll stake my reputation as knight's\\narmsmaster on this fact: You will leave\\nthis mountain feeling stronger than ever!",
+        "ja_jp": "メニューをこなした<ruby><rb>後</rb><rt>あと</rt></ruby>は、\\n<ruby><rb>前</rb><rt>まえ</rt></ruby>より<ruby><rb>強</rb><rt>つよ</rt></ruby>くなっていること<ruby><rb>請</rb><rt>う</rt></ruby>け<ruby><rb>合</rb><rt>あ</rt></ruby>いだ！",
+        "zh_cn": "保证你们在完成\\n特训后实力突飞猛进！",
+        "zh_tw": "你們完成特訓之後，\\n保證能比現在更強！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0067",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "And now that I'm acquainted with your\\nmuscles, I can offer each of you my own\\npersonalized advice.",
+        "ja_jp": "<ruby><rb>触</rb><rt>ふ</rt></ruby>れて<ruby><rb>得</rb><rt>え</rt></ruby>た<ruby><rb>筋肉</rb><rt>きんにく</rt></ruby>の<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>から\\n<ruby><rb>各人</rb><rt>かくじん</rt></ruby>に<ruby><rb>合</rb><rt>あ</rt></ruby>わせたアドバイスもするぞ？",
+        "zh_cn": "我还会根据摸肌肉得到的信息，\\n为每一个人提出具体的建议哦！",
+        "zh_tw": "我也會照剛剛摸出來的肌肉狀況，\\n給你們每個人各別建議喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0068",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "That's...pretty temptin', actually.",
+        "ja_jp": "そ、それは<ruby><rb>魅力的</rb><rt>みりょくてき</rt></ruby>だな。",
+        "zh_cn": "听、听起来可真诱人。",
+        "zh_tw": "這、這聽起來很吸引人耶。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0069",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "It IS, isn't it? So then, say you will.\\nPlease? Please please pleeeease?!",
+        "ja_jp": "だろ!?　だからいいだろ!?\\nな!?　な!?　な!?",
+        "zh_cn": "对吧！？所以没问题吧！？\\n是吧！？是吧！？是吧！？",
+        "zh_tw": "對吧！所以沒問題對吧！？\\n好嘛！好嘛！好嘛！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0070",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Her eyes have gone from sparkling to\\nmadwoman, Euden.",
+        "ja_jp": "すんごい<ruby><rb>目</rb><rt>め</rt></ruby>がキラキラしてる……。\\nどうする、ユーディル？",
+        "zh_cn": "她真是目光炯炯……\\n尤蒂尔，你觉得呢？",
+        "zh_tw": "她的眼神整個在閃閃發光……\\n尤帝爾，你覺得呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0071",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "If it can make us stronger, I see no reason\\nto decline.",
+        "ja_jp": "それで<ruby><rb>強</rb><rt>つよ</rt></ruby>くなるなら<ruby><rb>望</rb><rt>のぞ</rt></ruby>むところだよ。\\nよろしく<ruby><rb>頼</rb><rt>たの</rt></ruby>む、セリエラ。",
+        "zh_cn": "如果能变强的话求之不得。\\n赛丽艾拉，请多多指教。",
+        "zh_tw": "如果可以變強的話那我還求之不得呢。\\n請多指教了，榭葉拉。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0072",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "YEEEEEESSSSSS!",
+        "ja_jp": "いよっしゃあぁぁー！",
+        "zh_cn": "太好啦！",
+        "zh_tw": "太好啦啊啊啊──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0073",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "From this moment on, I am your knight's\\narmsmaster! Is that understood?!",
+        "ja_jp": "それじゃあ<ruby><rb>諸君</rb><rt>しょくん</rt></ruby>、<ruby><rb>今</rb><rt>いま</rt></ruby>から<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>教官</rb><rt>きょうかん</rt></ruby>だ！\\nわかったか!?",
+        "zh_cn": "那现在起我就是你们的教官了！\\n明白了吗！？",
+        "zh_tw": "那麼各位，從現在開始\\n我就是你們的教官了！明白嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0074",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "全員",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "Yes, Armsmaster!",
+        "ja_jp": "はい、<ruby><rb>教官</rb><rt>きょうかん</rt></ruby>！",
+        "zh_cn": "是，教官！",
+        "zh_tw": "是，教官！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0075",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "Ahh, I do love that sound. May I, uh...\\nMay I have another round?",
+        "ja_jp": "<ruby><rb>教官</rb><rt>きょうかん</rt></ruby>……うむ、やはり、いい<ruby><rb>響</rb><rt>ひび</rt></ruby>きだ。\\nも、もう<ruby><rb>一度</rb><rt>いちど</rt></ruby>、<ruby><rb>呼</rb><rt>よ</rt></ruby>んでみてくれ！",
+        "zh_cn": "教官……嗯，听着真不错。\\n再、再喊一次！",
+        "zh_tw": "教官……嗯嗯，聽起來真愉快。\\n再、再一次，再叫一次來聽聽！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0076",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "全員",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "Yes...Armsmaster?",
+        "ja_jp": "はい、<ruby><rb>教官</rb><rt>きょうかん</rt></ruby>？",
+        "zh_cn": "是，教官？",
+        "zh_tw": "是，教官？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0077",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "GOOD. All right then, listen up!",
+        "ja_jp": "～～っ!!\\nよーし！　よく<ruby><rb>聞</rb><rt>き</rt></ruby>け、<ruby><rb>諸君</rb><rt>しょくん</rt></ruby>！",
+        "zh_cn": "唔！\\n好！诸位，听好了！",
+        "zh_tw": "～～！！\\n很好！聽好了，各位！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0078",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "I'm going to make it my personal\\nresponsibility to turn every last one\\nof you little whelps into a WOLF!",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>責任</rb><rt>せきにん</rt></ruby>をもって、<ruby><rb>半人前</rb><rt>はんにんまえ</rt></ruby>のヒヨコから\\n<ruby><rb>一人前</rb><rt>いちにんまえ</rt></ruby>のニワトリに<ruby><rb>育</rb><rt>そだ</rt></ruby>ててやる！",
+        "zh_cn": "我会尽我所能，让你们从菜鸟\\n成长为独当一面的战士！",
+        "zh_tw": "我會負起責任，\\n把你們從半吊子的菜雞，\\n訓練成能獨當一面的老鳥！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0079",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "First, let's get you warmed up—I want you\\nto run to the peak and slay any fiends we\\nfind along the way.",
+        "ja_jp": "まずは<ruby><rb>体</rb><rt>からだ</rt></ruby>を<ruby><rb>温</rb><rt>あたた</rt></ruby>めるぞ！　\\n<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>を<ruby><rb>蹴散</rb><rt>けち</rt></ruby>らしながらランニングだ！",
+        "zh_cn": "首先要热身！\\n边跑边打倒魔兽！",
+        "zh_tw": "首先讓身體熱起來！　\\n毒打魔獸的同時就邊慢跑吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0080",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "FOLLOW ME!",
+        "ja_jp": "それー！　<ruby><rb>私</rb><rt>わたし</rt></ruby>のあとに<ruby><rb>続</rb><rt>つづ</rt></ruby>け―い！",
+        "zh_cn": "喂！都跟着我跑！",
+        "zh_tw": "來──！跟在我後面跑起來──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0081",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "...nngh...someone...",
+        "ja_jp": "……ゥウ……ダレカ……！",
+        "zh_cn": "呜……谁来……",
+        "zh_tw": "……嗚……誰……！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Huh?",
+        "ja_jp": "ん？　",
+        "zh_cn": "嗯？",
+        "zh_tw": "嗯？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0083",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "...anyone...nnrgh...save...",
+        "ja_jp": "……ウゥゥ……<ruby><rb>誰</rb><rt>だれ</rt></ruby>か……クッテ……！",
+        "zh_cn": "呜……谁来……救……",
+        "zh_tw": "……嗚……誰來……拯救……！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Did you hear that, Notte?",
+        "ja_jp": "ナーム、<ruby><rb>今</rb><rt>いま</rt></ruby>の<ruby><rb>聞</rb><rt>き</rt></ruby>こえたか？",
+        "zh_cn": "纳姆，你有没有听到什么？",
+        "zh_tw": "那姆，妳有聽到聲音嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0085",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Hear what? And before you answer: no.\\nYou sure it wasn't your imagination?",
+        "ja_jp": "え？　なにも<ruby><rb>聞</rb><rt>き</rt></ruby>こえなかったけど。\\n<ruby><rb>空耳</rb><rt>そらみみ</rt></ruby>じゃないかな？",
+        "zh_cn": "嗯？我什么都没听到啊。\\n是你听错了吧？",
+        "zh_tw": "咦？我什麼都沒聽到啊。\\n你是不是聽錯了？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0086",
+      "book": ""
+    },
+    {
+      "icon": "110255_01",
+      "name": {
+        "en_us": "Celliera",
+        "ja_jp": "セリエラ",
+        "zh_cn": "赛丽艾拉",
+        "zh_tw": "榭葉拉"
+      },
+      "context": {
+        "en_us": "Stow the chatter, whelps! I'll kick any\\nstragglers up this hill and back!",
+        "ja_jp": "コラー、ボサっとするなー！　\\n<ruby><rb>尻</rb><rt>しり</rt></ruby>を<ruby><rb>蹴飛</rb><rt>けと</rt></ruby>ばすぞー！",
+        "zh_cn": "喂！不准偷懒！\\n小心我踹你屁股！",
+        "zh_tw": "搞什麼鬼！給我摸魚啊──！\\n屁股欠踹是不是──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0087",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "C-coming!",
+        "ja_jp": "あ、ああ！",
+        "zh_cn": "遵、遵命！",
+        "zh_tw": "啊，啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20401_01_0088",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Nngh... Someone, please...\\nsave this...world...",
+        "ja_jp": "うぅ……！\\n<ruby><rb>誰</rb><rt>だれ</rt></ruby>か……<ruby><rb>世界</rb><rt>せかい</rt></ruby>を……<ruby><rb>救</rb><rt>すく</rt></ruby>って……！",
+        "zh_cn": "呜……谁来……\\n救救……这个世界……",
+        "zh_tw": "嗚嗚……！\\n誰來……救救……世界……！"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

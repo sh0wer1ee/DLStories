@@ -1,616 +1,1173 @@
 {
-    "story_id": "",
-    "story_name": "防卫战～天灼幻沙走秀台～ 应邀前往沙之国",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "奈法利耶应娜迪茵之邀，\\n决定赶赴祖国的子孙后代·沙之民的祭典。\\n为避免已故女王突然出现造成混乱，\\n她便借了娜迪茵的衣服进行变装。\\n就这样，二人悄然上路。"
-        ]
+  "title": {
+    "en_us": "Sands of Revelation    Invitation to the Dunes",
+    "ja_jp": "防衛戦～天炎照らす幻砂のランウェイ～  砂の国への誘い",
+    "zh_cn": "防卫战～天灼幻沙走秀台～  应邀前往沙之国",
+    "zh_tw": "防衛戰～天炎烈照幻砂伸展台～  共赴沙之國的邀約"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [],
-            "speaker_name": "SYS",
-            "context": "本剧情涉及奈法利耶\\n和娜迪茵角色剧情的\\n核心内容。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210124_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "沙之国的女王啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "你……是谁！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "等等……",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "（唔……\\n刚才那人，是谁！？）",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "（啊……意识逐渐远去……\\n原来，妾身就要死了……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "唔！哈啊……哈啊……\\n刚才那是……梦吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "（时至今日为何会做临死前的梦……\\n不对，妾身死前的瞬间\\n应该没有那个景象才对……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210124_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "那家伙是谁……\\n好像管妾身叫\\n“沙之国的女王”……",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "利耶耶，早～啊！\\n快听咱说个超劲爆的消息！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "名牌",
-            "context": "奈法利耶所在之国的后裔\\n娜迪茵",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "哦……是娜迪茵啊。\\n超劲爆……是什么意思？",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "啊，就是激动人心的消息啦！\\n听咱说听咱说！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "听说快到咱故乡的祭典了！\\n咱都忘得一干二净了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "咱祖先传下来的祭典……\\n也就是——",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "“沙之国”的祭典吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "咦！利耶耶，\\n你想起以前的事了！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "不，只想起了国名而已……\\n其它事物还没想起来。",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "是吗。\\n不过又有进步了呢！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "是啊。妾身要继续\\n一点一点寻回记忆。",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "嗯嗯！\\n咱也会帮忙的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "当然了。引爆妾身记忆\\n导火索的不就是你吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "嘿嘿……也对。所以说，\\n跟咱一起去祭典吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "先冷静一下。\\n你现在的故乡在哪里？",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "记得你之前说\\n一直辗转各处……",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "没错！咱们“沙之民”就是\\n一边旅行一边寻找居住地的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "然后，听说那些沙之民\\n现在来到南格拉斯迪亚了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "怎么样？想不想去祭典\\n见见咱以外的沙之民？",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "倒也不是……\\n没有兴趣……",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "真的！？好耶！\\n可以和利耶耶去祭典约会啦！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "话不要只听一半！\\n妾身还没说去呢……",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "为啥？你不是有兴趣吗？\\n那就只有去这个选项了吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "你想想看啊，本来死者复苏\\n这种事就是天方夜谭，\\n妾身不想吓到子民们的子孙。",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "这你就不用担心啦！\\n大伙本来就相信你会复活，\\n所以才会开始“找公主”的啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "就算是这样……",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "唔……也就是说，\\n只要不让人发现\\n你是女王殿下就没事？",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "诶？唔、嗯……\\n应该就是这样吧……",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "OK！那为了不让人\\n发现你是女王殿下，\\n咱就帮你变装打扮一番吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "变装！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "没错！你那身穿出去\\n可能马上就会被人看出来\\n是以前的衣服……",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "穿咱的衣服就能蒙混过关了！\\n就说你是咱新交的朋友！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "既然决定了就赶紧\\n去咱房里换衣服吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_01"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "哇，等等，娜迪茵！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_03"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "妈呀！利耶耶，\\n哎呦妈呀，妈呀。",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_03"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "你就没别的词了吗？\\n唉……都说了妾身不适合这种……",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "诶、不对不对！\\n这是褒义的妈呀！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "超合适的！\\n话说好萌！利耶耶好萌！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_03"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "萌？",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "就是超级无敌\\n特别可爱的意思！\\n总之让咱先拍一张？",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_03"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "不行。",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_03"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "但是……光是换件衣服\\n就真的不会暴露吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "你要是担心的话，要不要\\n试着模仿咱说话的语气？",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_03"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "什么！？\\n让妾身模仿你说话！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "没错！你现在的说话方式\\n感觉就很女王殿下啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "不光是外表，\\n连内在也改变一下\\n肯定更安全放心嘛！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_03"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "唔……确实……\\n但是妾身能做到吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "别管自己叫什么“妾身”，\\n改成更可爱点的比较好！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "对啦！“利耶耶”咋样？\\n你模仿一个试试。",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "“娜迪茵和利耶耶\\n永远好伙计”！说！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_03"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "唔……娜迪茵和，\\n利、耶耶，永远好伙计？",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "完美！完全没问题！\\n这样就不会暴露了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_03"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "真的吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "当然当然！\\n轻轻松松！那么……",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110357_01"
-            ],
-            "speaker_name": "娜迪茵",
-            "context": "咱们就出发\\n前往沙之民的聚集地吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110053_03"
-            ],
-            "speaker_name": "奈法利耶",
-            "context": "（真的没问题吗……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22204_01_0065",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Nadine invites Nefaria to accompany her to a\\nfestival held by the dunefolk, descendants of\\nthe revenant queen's subjects. Not wanting to\\ncause a scene, Nefaria borrows clothes from\\nNadine in order to hide her identity and sets off\\nwith her incognito.",
+      "ja_jp": "ネファリエはナディーンに<ruby><rb>誘</rb><rt>さそ</rt></ruby>われ、<ruby><rb>祖国</rb><rt>そこく</rt></ruby>の\\n<ruby><rb>子孫</rb><rt>しそん</rt></ruby>・<ruby><rb>砂</rb><rt>すな</rt></ruby>の<ruby><rb>民</rb><rt>たみ</rt></ruby>の<ruby><rb>祭</rb><rt>まつ</rt></ruby>りへと<ruby><rb>赴</rb><rt>おもむ</rt></ruby>くことにする。\\n<ruby><rb>死</rb><rt>し</rt></ruby>んだ<ruby><rb>女王</rb><rt>じょおう</rt></ruby>が<ruby><rb>突然現</rb><rt>とつぜんあらわ</rt></ruby>れては<ruby><rb>混乱</rb><rt>こんらん</rt></ruby>を<ruby><rb>招</rb><rt>まね</rt></ruby>くと\\n<ruby><rb>考</rb><rt>かんが</rt></ruby>えたネファリエはナディーンの<ruby><rb>服</rb><rt>ふく</rt></ruby>を<ruby><rb>借</rb><rt>か</rt></ruby>りて\\n<ruby><rb>変装</rb><rt>へんそう</rt></ruby>する。ふたりのお<ruby><rb>忍</rb><rt>しの</rt></ruby>び<ruby><rb>道中</rb><rt>どうちゅう</rt></ruby>が<ruby><rb>今</rb><rt>いま</rt></ruby><ruby><rb>始</rb><rt>はじ</rt></ruby>まる。",
+      "zh_cn": "奈法利耶应娜迪茵之邀，\\n决定赶赴祖国的子孙后代·沙之民的祭典。\\n为避免已故女王突然出现造成混乱，\\n她便借了娜迪茵的衣服进行变装。\\n就这样，二人悄然上路。",
+      "zh_tw": "涅法莉耶受娜汀邀約，\\n決定共同前往祖國後代「沙之民」的祭典。\\n涅法莉耶擔心死去的女王突然現身\\n會招致混亂，於是借用娜汀的衣服變裝。\\n兩人即將踏上私訪之旅。"
+    }
+  },
+  "prev": "",
+  "next": "2220402",
+  "content": [
+    {
+      "icon": "",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Please note that this story contains spoilers\\nfor Nefaria and Nadine's adventurer stories.",
+        "ja_jp": "<ruby><rb>本</rb><rt>ほん</rt></ruby>ストーリーには、ネファリエと\\nナディーンのキャラストーリーの\\n<ruby><rb>核心</rb><rt>かくしん</rt></ruby>に<ruby><rb>触</rb><rt>ふ</rt></ruby>れる<ruby><rb>内容</rb><rt>ないよう</rt></ruby>が<ruby><rb>含</rb><rt>ふく</rt></ruby>まれています。",
+        "zh_cn": "本剧情涉及奈法利耶\\n和娜迪茵角色剧情的\\n核心内容。",
+        "zh_tw": "本劇情涉及角色劇情\\n「涅法莉耶」與「娜汀」的\\n核心內容。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "210124_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "O, Queen of the Sandreach...",
+        "ja_jp": "<ruby><rb>砂</rb><rt>すな</rt></ruby>の<ruby><rb>国</rb><rt>くに</rt></ruby>の<ruby><rb>女王</rb><rt>じょおう</rt></ruby>よ……。",
+        "zh_cn": "沙之国的女王啊……",
+        "zh_tw": "沙之國的女王啊……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0001",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "Who speaks?! Answer!",
+        "ja_jp": "!?　おぬしは、<ruby><rb>誰</rb><rt>だれ</rt></ruby>じゃ……!?",
+        "zh_cn": "你……是谁！？",
+        "zh_tw": "唔！？你是何人……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0002",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "Fie—!",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>つのじゃ……ッ!?",
+        "zh_cn": "等等……",
+        "zh_tw": "稍等……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0003",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "(Who WAS that?!)",
+        "ja_jp": "（ッ……！\\n　<ruby><rb>今</rb><rt>いま</rt></ruby>のは、<ruby><rb>誰</rb><rt>だれ</rt></ruby>が……!?）",
+        "zh_cn": "（唔……\\n刚才那人，是谁！？）",
+        "zh_tw": "（唔……！\\n方才的，是誰……！？）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0004",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "(Ah... My consciousness fades...\\nThe end draws nigh...)",
+        "ja_jp": "（ああ……<ruby><rb>意識</rb><rt>いしき</rt></ruby>が<ruby><rb>薄</rb><rt>うす</rt></ruby>れる……。\\n　そうだ、<ruby><rb>妾</rb><rt>わらわ</rt></ruby>はこれで<ruby><rb>死</rb><rt>し</rt></ruby>んで……）",
+        "zh_cn": "（啊……意识逐渐远去……\\n原来，妾身就要死了……）",
+        "zh_tw": "（啊啊……意識逐漸遠去……\\n對了，妾身這便將死去……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0005",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "Aaah! *heave* *pant* *pant*\\n...It was a dream. No more.",
+        "ja_jp": "ッ……！　ハア……ハア……！\\n<ruby><rb>今</rb><rt>いま</rt></ruby>のは……<ruby><rb>夢</rb><rt>ゆめ</rt></ruby>か……。",
+        "zh_cn": "唔！哈啊……哈啊……\\n刚才那是……梦吗……",
+        "zh_tw": "唔……！\\n呼……呼……！\\n是……夢嗎……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0006",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "(Why would slumber visit this chimera\\nof my final moments upon me now,\\nso long hence?)",
+        "ja_jp": "（なぜ、<ruby><rb>今更</rb><rt>いまさら</rt></ruby><ruby><rb>死</rb><rt>し</rt></ruby>の<ruby><rb>間際</rb><rt>まぎわ</rt></ruby>の<ruby><rb>夢</rb><rt>ゆめ</rt></ruby>など……。\\n　<ruby><rb>否</rb><rt>いな</rt></ruby>、あれは<ruby><rb>妾</rb><rt>わらわ</rt></ruby>の<ruby><rb>死</rb><rt>し</rt></ruby>の<ruby><rb>瞬間</rb><rt>しゅんかん</rt></ruby>には\\n　いなかったはず……）",
+        "zh_cn": "（时至今日为何会做临死前的梦……\\n不对，妾身死前的瞬间\\n应该没有那个景象才对……）",
+        "zh_tw": "（為何事到如今再做臨死之夢……\\n不，妾身死前瞬間應無此人……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0007",
+      "book": ""
+    },
+    {
+      "icon": "210124_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "And yet, no such person was present at the\\nmoment of my death. Whoever it was who\\ninvaded my dreams, they named me\\nQueen of the Sandreach...",
+        "ja_jp": "あやつはなんじゃ……？　たしか、\\n<ruby><rb>妾</rb><rt>わらわ</rt></ruby>のことを『<ruby><rb>砂</rb><rt>すな</rt></ruby>の<ruby><rb>国</rb><rt>くに</rt></ruby>の<ruby><rb>女王</rb><rt>じょおう</rt></ruby>』と……ッ！",
+        "zh_cn": "那家伙是谁……\\n好像管妾身叫\\n“沙之国的女王”……",
+        "zh_tw": "那究竟為何人……？\\n方才確實，\\n喚妾身為「沙之國的女王」……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0008",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Ohmigosh, Ria! Bombshell news!\\nIt's for seriously the G.O.A.T.M.!",
+        "ja_jp": "リエリエ、おっはょ～！\\nテンアゲなニュースきーてきーて！",
+        "zh_cn": "利耶耶，早～啊！\\n快听咱说个超劲爆的消息！",
+        "zh_tw": "莉耶莉耶，早安啊～！\\n有個超嗨的消息，妳快聽我說～！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0009",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Name Tag",
+        "ja_jp": "名札",
+        "zh_cn": "名牌",
+        "zh_tw": "名牌"
+      },
+      "context": {
+        "en_us": "Descendant of Nefaria's Kingdom\\nNadine",
+        "ja_jp": "ネファリエの<ruby><rb>国</rb><rt>くに</rt></ruby>の<ruby><rb>末裔</rb><rt>まつえい</rt></ruby>\\nナディーン",
+        "zh_cn": "奈法利耶所在之国的后裔\\n娜迪茵",
+        "zh_tw": "涅法莉耶統治之國的後裔\\n娜汀"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "I give you good day, Nadine.\\nBut pray, what is...＂goat em＂?",
+        "ja_jp": "ああ……ナディーンか。\\nてんあげ……とは？",
+        "zh_cn": "哦……是娜迪茵啊。\\n超劲爆……是什么意思？",
+        "zh_tw": "啊啊……是娜汀啊。\\n超嗨……意指？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0010",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Greatest of all this morning! Duh-doy!\\nAnyway, check this...",
+        "ja_jp": "ああ、テンションあげぽよな\\nお<ruby><rb>知</rb><rt>し</rt></ruby>らせってこと！　あのねあのね！",
+        "zh_cn": "啊，就是激动人心的消息啦！\\n听咱说听咱说！",
+        "zh_tw": "喔，就是會讓人爆炸興奮的消息啦！\\n我跟妳說喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0011",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "It's almost festival time back home!\\nI, like, COMPLETELY blanked on it till now.",
+        "ja_jp": "もうすぐ、<ruby><rb>故郷</rb><rt>こきょう</rt></ruby>のお<ruby><rb>祭</rb><rt>まつ</rt></ruby>りなんだってー！\\nあーし、すっかり<ruby><rb>忘</rb><rt>わす</rt></ruby>れててさー！",
+        "zh_cn": "听说快到咱故乡的祭典了！\\n咱都忘得一干二净了！",
+        "zh_tw": "聽說故鄉的祭典日就快到了耶──！\\n我都忘得一乾二淨了──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0012",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "They've been holding this rager since\\npretty much forever and a half ago, so—",
+        "ja_jp": "あーしのご<ruby><rb>先祖様</rb><rt>せんぞさま</rt></ruby>から<ruby><rb>伝</rb><rt>つた</rt></ruby>わるお<ruby><rb>祭</rb><rt>まつ</rt></ruby>り……\\nつまり――",
+        "zh_cn": "咱祖先传下来的祭典……\\n也就是——",
+        "zh_tw": "從我的祖先開始代代相傳的祭典……\\n也就是──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0013",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "A festival of the Sandreach.",
+        "ja_jp": "『<ruby><rb>砂</rb><rt>すな</rt></ruby>の<ruby><rb>国</rb><rt>くに</rt></ruby>』の<ruby><rb>祭</rb><rt>まつ</rt></ruby>りということか？",
+        "zh_cn": "“沙之国”的祭典吗？",
+        "zh_tw": "「沙之國」之祭典？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0014",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Whaaat?! Ohmigosh, girl, did you just\\nremember your past?!",
+        "ja_jp": "!!　リエリエ、<ruby><rb>昔</rb><rt>むかし</rt></ruby>のこと、\\n<ruby><rb>思</rb><rt>おも</rt></ruby>い<ruby><rb>出</rb><rt>だ</rt></ruby>したの……!?",
+        "zh_cn": "咦！利耶耶，\\n你想起以前的事了！？",
+        "zh_tw": "咦！！莉耶莉耶，\\n妳想起過去的事了嗎……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0015",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "Naught save my kingdom's name;\\nthe rest eludes me still.",
+        "ja_jp": "いや、<ruby><rb>国</rb><rt>くに</rt></ruby>の<ruby><rb>名</rb><rt>な</rt></ruby>だけじゃ……。\\n<ruby><rb>他</rb><rt>ほか</rt></ruby>に<ruby><rb>思</rb><rt>おも</rt></ruby>い<ruby><rb>出</rb><rt>だ</rt></ruby>したことはない。",
+        "zh_cn": "不，只想起了国名而已……\\n其它事物还没想起来。",
+        "zh_tw": "不，僅國名而已……\\n妾身未憶起其他事。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0016",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Aw, boo. But still, that's progress.",
+        "ja_jp": "そっか。\\nでも、また<ruby><rb>一歩</rb><rt>いっぽ</rt></ruby><ruby><rb>進</rb><rt>すす</rt></ruby>んだね！",
+        "zh_cn": "是吗。\\n不过又有进步了呢！",
+        "zh_tw": "這樣啊。\\n不過，也算前進一步了呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0017",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "Indeed—and I shall continue to seek my\\nlost recollections, one after the next.",
+        "ja_jp": "ああ。この<ruby><rb>調子</rb><rt>ちょうし</rt></ruby>で、ひとつひとつ\\n<ruby><rb>妾</rb><rt>わらわ</rt></ruby>の<ruby><rb>記憶</rb><rt>きおく</rt></ruby>を<ruby><rb>探</rb><rt>さが</rt></ruby>していくぞ。",
+        "zh_cn": "是啊。妾身要继续\\n一点一点寻回记忆。",
+        "zh_tw": "是啊。就照如此步調，\\n逐一找回妾身記憶吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0018",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "And you KNOW I'm gonna help!",
+        "ja_jp": "うんうん！\\nあーしも<ruby><rb>手伝</rb><rt>てつだ</rt></ruby>う！",
+        "zh_cn": "嗯嗯！\\n咱也会帮忙的！",
+        "zh_tw": "嗯嗯！\\n我也會幫忙的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0019",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "I would fain accept no less; it was your\\nurging that bestirred me to undertake\\nthe matter, after all.",
+        "ja_jp": "<ruby><rb>当然</rb><rt>とうぜん</rt></ruby>じゃ。<ruby><rb>妾</rb><rt>わらわ</rt></ruby>に<ruby><rb>発破</rb><rt>はっぱ</rt></ruby>をかけたのは、\\n<ruby><rb>他</rb><rt>ほか</rt></ruby>ならぬおぬしじゃろう？",
+        "zh_cn": "当然了。引爆妾身记忆\\n导火索的不就是你吗？",
+        "zh_tw": "當然。\\n激勵妾身之人，不正是妳嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0020",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Hee hee! Guilty as charged. But yeah,\\nlet's put in an appearance at the big fest.\\nIt'll be lit!",
+        "ja_jp": "くひひ……そーでした。だからさ、\\nあーしと<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>にお<ruby><rb>祭</rb><rt>まつ</rt></ruby>り<ruby><rb>行</rb><rt>い</rt></ruby>かない？",
+        "zh_cn": "嘿嘿……也对。所以说，\\n跟咱一起去祭典吧？",
+        "zh_tw": "唔嘻嘻……說得也是。\\n所以啊，妳要不要跟我一起去祭典？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0021",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "Prithee hold a moment. Where does\\nyour homeland now stand?",
+        "ja_jp": "<ruby><rb>落</rb><rt>お</rt></ruby>ち<ruby><rb>着</rb><rt>つ</rt></ruby>け。その<ruby><rb>前</rb><rt>まえ</rt></ruby>に、<ruby><rb>今</rb><rt>いま</rt></ruby>、\\nおぬしらの<ruby><rb>故郷</rb><rt>こきょう</rt></ruby>はどこにあるのじゃ？",
+        "zh_cn": "先冷静一下。\\n你现在的故乡在哪里？",
+        "zh_tw": "少安毋躁。在此之前，\\n此刻妳故鄉究竟位於何處？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0022",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "Did you not afore say it held\\nno fixed location?",
+        "ja_jp": "たしか、いろんなところを<ruby><rb>転々</rb><rt>てんてん</rt></ruby>と\\nしていると<ruby><rb>言</rb><rt>い</rt></ruby>うておったはずだが……。",
+        "zh_cn": "记得你之前说\\n一直辗转各处……",
+        "zh_tw": "妾身猶記妳曾提及故鄉\\n經常搬遷才是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0023",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Yup! Us dunefolk rock that nomad lifestyle,\\nso we're always on the move in search of\\nthe next great spot or whatever.",
+        "ja_jp": "そのとーり！　あーしら『<ruby><rb>砂</rb><rt>すな</rt></ruby>の<ruby><rb>民</rb><rt>たみ</rt></ruby>』ゎね\\n<ruby><rb>住</rb><rt>す</rt></ruby>める<ruby><rb>土地</rb><rt>とち</rt></ruby>を<ruby><rb>探</rb><rt>さが</rt></ruby>して<ruby><rb>旅</rb><rt>たび</rt></ruby>してるの。",
+        "zh_cn": "没错！咱们“沙之民”就是\\n一边旅行一边寻找居住地的。",
+        "zh_tw": "沒～錯！我們「沙之民」啊，\\n為了尋找能居住的土地而到處旅行。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0024",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "But right now, the whole squad\\nis right in South Grastaea!",
+        "ja_jp": "で、なんと<ruby><rb>今</rb><rt>いま</rt></ruby>、その<ruby><rb>砂</rb><rt>すな</rt></ruby>の<ruby><rb>民</rb><rt>たみ</rt></ruby>ゎ\\n<ruby><rb>南</rb><rt>みなみ</rt></ruby>グラスティアに<ruby><rb>来</rb><rt>き</rt></ruby>てるんだって！",
+        "zh_cn": "然后，听说那些沙之民\\n现在来到南格拉斯迪亚了！",
+        "zh_tw": "然後很巧的是，聽說沙之民現在\\n正好來到南格拉斯迪亞囉！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0025",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "…………！",
+        "zh_cn": "！",
+        "zh_tw": "…………！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0026",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "So wanna hit the festival and meet some\\nother dunefolk? I mean, it's LITERALLY\\njust down the road. ...Okay, not literally.\\nMore like down a couple roads.",
+        "ja_jp": "どう？　お<ruby><rb>祭</rb><rt>まつ</rt></ruby>りに<ruby><rb>行</rb><rt>い</rt></ruby>って、あーし<ruby><rb>以外</rb><rt>いがい</rt></ruby>の\\n<ruby><rb>砂</rb><rt>すな</rt></ruby>の<ruby><rb>民</rb><rt>たみ</rt></ruby>に<ruby><rb>会</rb><rt>あ</rt></ruby>ってみたくない？",
+        "zh_cn": "怎么样？想不想去祭典\\n见见咱以外的沙之民？",
+        "zh_tw": "如何？妳想不想去參加祭典，\\n見見我以外的沙之民？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0027",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "The thought is not without appeal.",
+        "ja_jp": "それは……<ruby><rb>興味</rb><rt>きょうみ</rt></ruby>がないわけでは\\nないが……。",
+        "zh_cn": "倒也不是……\\n没有兴趣……",
+        "zh_tw": "這……妾身並非不感興趣，但……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0028",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Heck yeah! Who's got two thumbs and a\\nbuncha fingers and just scored a date to\\nthe festival? THIS GIRL!",
+        "ja_jp": "マジ!?　やったー！\\nリエリエとお<ruby><rb>祭</rb><rt>まつ</rt></ruby>りデート！",
+        "zh_cn": "真的！？好耶！\\n可以和利耶耶去祭典约会啦！",
+        "zh_tw": "真的嗎！？太棒啦──！\\n跟莉耶莉耶的祭典約會！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0029",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "You presume overmuch, Nadine.\\nI have not yet plighted my attendance.",
+        "ja_jp": "<ruby><rb>早合点</rb><rt>はやがてん</rt></ruby>するでない！\\n<ruby><rb>妾</rb><rt>わらわ</rt></ruby>は<ruby><rb>行</rb><rt>い</rt></ruby>くとは……！",
+        "zh_cn": "话不要只听一半！\\n妾身还没说去呢……",
+        "zh_tw": "切莫斷言！\\n妾身並未表示答應……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0030",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Whaaat? Why not? I mean, you SAID\\nyou're interested, so let's do this thing!",
+        "ja_jp": "なんで？　<ruby><rb>興味</rb><rt>きょうみ</rt></ruby>あるんでしょ？\\nだったら、<ruby><rb>行</rb><rt>い</rt></ruby>くっきゃないって！",
+        "zh_cn": "为啥？你不是有兴趣吗？\\n那就只有去这个选项了吧！",
+        "zh_tw": "為什麼？妳有興趣對吧？\\n既然如此，就只能去啦！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0031",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "Pray pore on this a moment. The dead do\\nnot rise again as a matter of course: If I\\nwere to appear anew before my subjects,\\nit would likely cause them much grief.",
+        "ja_jp": "<ruby><rb>考</rb><rt>かんが</rt></ruby>えてもみよ。<ruby><rb>死者</rb><rt>ししゃ</rt></ruby>が<ruby><rb>蘇</rb><rt>よみがえ</rt></ruby>ったなど、\\n<ruby><rb>本来</rb><rt>ほんらい</rt></ruby>ならば<ruby><rb>有</rb><rt>あ</rt></ruby>り<ruby><rb>得</rb><rt>え</rt></ruby>ぬこと。\\n<ruby><rb>妾</rb><rt>わらわ</rt></ruby>の<ruby><rb>民</rb><rt>たみ</rt></ruby>の<ruby><rb>子孫</rb><rt>しそん</rt></ruby>を<ruby><rb>怯</rb><rt>おび</rt></ruby>えさせたくはない。",
+        "zh_cn": "你想想看啊，本来死者复苏\\n这种事就是天方夜谭，\\n妾身不想吓到子民们的子孙。",
+        "zh_tw": "妳細想一番。\\n死者復甦，本是不可能之事。\\n妾身不願令子民後代感到畏懼。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0032",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Aw, they'll be fine! They wouldn't have\\nsent me looking for you if they didn't think\\nyou'd come back in the first place, right?",
+        "ja_jp": "それなら<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>だってー！　みんな、\\nリエリエが<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>するって<ruby><rb>信</rb><rt>しん</rt></ruby>じてたから\\n『<ruby><rb>姫</rb><rt>ひめ</rt></ruby><ruby><rb>捜</rb><rt>さが</rt></ruby>し』なんてしてたんだし。",
+        "zh_cn": "这你就不用担心啦！\\n大伙本来就相信你会复活，\\n所以才会开始“找公主”的啊。",
+        "zh_tw": "這妳就不用擔心啦──！\\n而且大家是因為相信莉耶莉耶會復活，\\n所以才會去「尋找公主」的嘛。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0033",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "Nevertheless...",
+        "ja_jp": "だとしても……。",
+        "zh_cn": "就算是这样……",
+        "zh_tw": "話雖如此……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0034",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Okay, so what I'm hearing is that you're\\ncool with this so long as they don't know\\nyou're the queen lady or whatever, yeah?",
+        "ja_jp": "うーん……つまりさ、リエリエが\\n<ruby><rb>女王様</rb><rt>じょおうさま</rt></ruby>だってわからなければ<ruby><rb>無問題</rb><rt>もうまんたい</rt></ruby>？",
+        "zh_cn": "唔……也就是说，\\n只要不让人发现\\n你是女王殿下就没事？",
+        "zh_tw": "唔～嗯……所以妳的意思是說，\\n只要不會發現莉耶莉耶是女王大人\\n就沒問題了吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0035",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "Aye, in as many words.",
+        "ja_jp": "え？　ま、まあ……\\nそういうことになるな……。",
+        "zh_cn": "诶？唔、嗯……\\n应该就是这样吧……",
+        "zh_tw": "咦？呃、嗯……\\n的確如此……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0036",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Well then, I'll just work my stylist magic\\nand get you the hook-up on a new steez!",
+        "ja_jp": "OK！　リエリエが<ruby><rb>女王様</rb><rt>じょおうさま</rt></ruby>だって\\nわかんないよーに<ruby><rb>変装</rb><rt>へんそう</rt></ruby>コーデすっから！",
+        "zh_cn": "OK！那为了不让人\\n发现你是女王殿下，\\n咱就帮你变装打扮一番吧！",
+        "zh_tw": "OK！那我來負責變裝搭配，\\n讓大家看不出莉耶莉耶是女王大人！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0037",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "By ＂steez,＂ you speak of a disguise?",
+        "ja_jp": "<ruby><rb>変装</rb><rt>へんそう</rt></ruby>!?",
+        "zh_cn": "变装！？",
+        "zh_tw": "變裝！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0038",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Yeah! I mean, I ADORE your look, girl,\\nbut wearing clothes from a million years\\nago is pretty much a huge spoiler.",
+        "ja_jp": "そっ！　リエリエの<ruby><rb>服</rb><rt>ふく</rt></ruby>が、\\n<ruby><rb>昔</rb><rt>むかし</rt></ruby>の<ruby><rb>服</rb><rt>ふく</rt></ruby>だと<ruby><rb>即</rb><rt>そく</rt></ruby>バレするかもだけど……",
+        "zh_cn": "没错！你那身穿出去\\n可能马上就会被人看出来\\n是以前的衣服……",
+        "zh_tw": "嗯！\\n莉耶莉耶如果穿以前的衣服\\n說不定會馬上被發現……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0039",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "So you can just wear MY clothes and I'll\\ntell everyone you're my new BFF!",
+        "ja_jp": "あーしの<ruby><rb>服</rb><rt>ふく</rt></ruby>ならごまかせるっしょ！\\nあーしの<ruby><rb>新</rb><rt>あたら</rt></ruby>しいトモダチってことでさ！",
+        "zh_cn": "穿咱的衣服就能蒙混过关了！\\n就说你是咱新交的朋友！",
+        "zh_tw": "但如果穿我的衣服應該沒問題吧！\\n就說是我的新朋友！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0040",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Next stop, Nadine's room! Choo choooo!",
+        "ja_jp": "そうと<ruby><rb>決</rb><rt>き</rt></ruby>まったら、\\nあーしの<ruby><rb>部屋</rb><rt>へや</rt></ruby>にゴーゴー！",
+        "zh_cn": "既然决定了就赶紧\\n去咱房里换衣服吧！",
+        "zh_tw": "既然決定了，\\n就立刻往我房間GOGO！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0041",
+      "book": ""
+    },
+    {
+      "icon": "110053_01",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "Waugh?! Fie, Nadine!",
+        "ja_jp": "わわっ、ちょっと、ナディーン！",
+        "zh_cn": "哇，等等，娜迪茵！",
+        "zh_tw": "哇哇、妳稍等，娜汀！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0042",
+      "book": ""
+    },
+    {
+      "icon": "110053_03",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0043",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Ria, I can't. I can't even REMOTELY.\\nI'm trying, but the struggle is so real.",
+        "ja_jp": "リエリエ、ヤバ。\\nマジヤバ。え、ヤバ。",
+        "zh_cn": "妈呀！利耶耶，\\n哎呦妈呀，妈呀。",
+        "zh_tw": "莉耶莉耶，不得了。\\n真的不得了。欸，超不得了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0044",
+      "book": ""
+    },
+    {
+      "icon": "110053_03",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "*sigh* I warned you such trappings\\nwould ill suit me.",
+        "ja_jp": "おぬし、<ruby><rb>他</rb><rt>ほか</rt></ruby>に<ruby><rb>言葉</rb><rt>ことば</rt></ruby>はないのか。\\nはあ……だから<ruby><rb>妾</rb><rt>わらわ</rt></ruby>には<ruby><rb>似合</rb><rt>にあ</rt></ruby>わぬと……。",
+        "zh_cn": "你就没别的词了吗？\\n唉……都说了妾身不适合这种……",
+        "zh_tw": "妳便無其他說辭嗎？\\n唉……早說妾身不適合如此……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0045",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "What?! No! I mean I can't in a GOOD way!",
+        "ja_jp": "え、<ruby><rb>違</rb><rt>ちが</rt></ruby>う<ruby><rb>違</rb><rt>ちが</rt></ruby>う！\\nこれゎいい<ruby><rb>意味</rb><rt>いみ</rt></ruby>のヤバい！",
+        "zh_cn": "诶、不对不对！\\n这是褒义的妈呀！",
+        "zh_tw": "咦，妳誤會了！\\n這是好方面的「不得了」！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0046",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Ria, that look is hot fire. You're serving\\nstraight-up disguise realness!",
+        "ja_jp": "めっちゃ<ruby><rb>似合</rb><rt>にあ</rt></ruby>ってるょ！\\nってか、カワ！　リエリエ、カワ！",
+        "zh_cn": "超合适的！\\n话说好萌！利耶耶好萌！",
+        "zh_tw": "超適合的喔！\\n應該說，萌爆！莉耶莉耶，萌爆！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0047",
+      "book": ""
+    },
+    {
+      "icon": "110053_03",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "I look a servant...?",
+        "ja_jp": "<ruby><rb>皮</rb><rt>かわ</rt></ruby>……？",
+        "zh_cn": "萌？",
+        "zh_tw": "萌……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0048",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "YOU LOOK ADORABLE! I gotta get a snap!\\nCan I? Pleeeease?",
+        "ja_jp": "すっごくとってもめっちゃくちゃ\\nカワイイってコト！\\nとりまパシャっていい？",
+        "zh_cn": "就是超级无敌\\n特别可爱的意思！\\n总之让咱先拍一张？",
+        "zh_tw": "就是超級無敵霹靂可愛的意思！\\n總之我能先啪嚓一張嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0049",
+      "book": ""
+    },
+    {
+      "icon": "110053_03",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "You may not.",
+        "ja_jp": "<ruby><rb>却下</rb><rt>きゃっか</rt></ruby>じゃ。",
+        "zh_cn": "不行。",
+        "zh_tw": "駁回。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0050",
+      "book": ""
+    },
+    {
+      "icon": "110053_03",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "You truly believe this simple change in\\ngarb enough to dissemble me?",
+        "ja_jp": "……しかし、<ruby><rb>服</rb><rt>ふく</rt></ruby>を<ruby><rb>変</rb><rt>か</rt></ruby>えただけで、\\n<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>にバレぬものなのか……？",
+        "zh_cn": "但是……光是换件衣服\\n就真的不会暴露吗？",
+        "zh_tw": "……然而，僅更換衣裝，\\n真能瞞過眾人嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0051",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Well, not if you talk all fancy-pants and\\nuse words like ＂dissemble＂ and ＂garb＂\\nand ＂thou art thy maiden's hedgerow＂\\nor whatever it is you say all the time.",
+        "ja_jp": "<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>ならさ、リエリエ、\\nあーしの<ruby><rb>言葉</rb><rt>ことば</rt></ruby><ruby><rb>真似</rb><rt>まね</rt></ruby>てみたら？",
+        "zh_cn": "你要是担心的话，要不要\\n试着模仿咱说话的语气？",
+        "zh_tw": "如果擔心的話，\\n莉耶莉耶要不要模仿我講話？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0052",
+      "book": ""
+    },
+    {
+      "icon": "110053_03",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "What?!",
+        "ja_jp": "なっ……!?\\n<ruby><rb>妾</rb><rt>わらわ</rt></ruby>におぬしの<ruby><rb>言葉</rb><rt>ことば</rt></ruby>を……!?",
+        "zh_cn": "什么！？\\n让妾身模仿你说话！？",
+        "zh_tw": "什……！？\\n要妾身模仿妳的言辭……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0053",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "I'm just saying the way you talk is\\nsuuuuper queen-y.",
+        "ja_jp": "そーそー！　<ruby><rb>今</rb><rt>いま</rt></ruby>のリエリエの<ruby><rb>話</rb><rt>はな</rt></ruby>し<ruby><rb>方</rb><rt>かた</rt></ruby>、\\n<ruby><rb>女王様</rb><rt>じょおうさま</rt></ruby>っぽいし！",
+        "zh_cn": "没错！你现在的说话方式\\n感觉就很女王殿下啊！",
+        "zh_tw": "對啊對啊！\\n因為莉耶莉耶現在的語氣\\n很像女王大人嘛！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0054",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Changing the outside is a solid start, \\nbut if you change the whole PACKAGE,\\nit'll be a done deal!",
+        "ja_jp": "<ruby><rb>外見</rb><rt>がいけん</rt></ruby>だけじゃなくて、<ruby><rb>中身</rb><rt>なかみ</rt></ruby>も<ruby><rb>変</rb><rt>か</rt></ruby>えた\\nほうがより<ruby><rb>安心</rb><rt>あんしん</rt></ruby><ruby><rb>安全</rb><rt>あんぜん</rt></ruby>ってモンでしょ！",
+        "zh_cn": "不光是外表，\\n连内在也改变一下\\n肯定更安全放心嘛！",
+        "zh_tw": "除了外表，連內在都一起改變\\n會更安全又安心對吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0055",
+      "book": ""
+    },
+    {
+      "icon": "110053_03",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "You speak sooth—and yet, I know not\\nwhether such a feat is even possible.",
+        "ja_jp": "む……たしかにな……。\\nだが、<ruby><rb>妾</rb><rt>わらわ</rt></ruby>にできるか……。",
+        "zh_cn": "唔……确实……\\n但是妾身能做到吗……",
+        "zh_tw": "唔……此言有理……\\n不過，妾身真能辦到嗎……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0056",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Well, for one, you can stop saying ＂sooth.＂",
+        "ja_jp": "<ruby><rb>自分</rb><rt>じぶん</rt></ruby>のことも「わらわ」じゃなくて、\\nもっとカワイイ<ruby><rb>感</rb><rt>かん</rt></ruby>じがいいと<ruby><rb>思</rb><rt>おも</rt></ruby>う！",
+        "zh_cn": "别管自己叫什么“妾身”，\\n改成更可爱点的比较好！",
+        "zh_tw": "自稱也不要用「妾身」，\\n改成更可愛的叫法會比較好喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0057",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Here, I'll totally coach you or whatever.\\nDon't worry, we'll start off easy...",
+        "ja_jp": "そーだ！　「リエリエ」ってのゎどー？\\nためしに<ruby><rb>真似</rb><rt>まね</rt></ruby>してみてょ。",
+        "zh_cn": "对啦！“利耶耶”咋样？\\n你模仿一个试试。",
+        "zh_tw": "對了！叫「莉耶莉耶」怎麼樣──？\\n試著模仿我看看吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0058",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "＂Me and you are BFFs!＂",
+        "ja_jp": "「ナディーンとリエリエゎ\\n　ズッ<ruby><rb>友</rb><rt>とも</rt></ruby>だょ」！　はい！",
+        "zh_cn": "“娜迪茵和利耶耶\\n永远好伙计”！说！",
+        "zh_tw": "「娜汀跟莉耶莉耶是永遠好麻吉喔」！\\n來！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0059",
+      "book": ""
+    },
+    {
+      "icon": "110053_03",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "M-me and you are...beefs?",
+        "ja_jp": "む…………ナディーンと、り、\\nリエリエゎズッ<ruby><rb>友</rb><rt>とも</rt></ruby>……だょ？",
+        "zh_cn": "唔……娜迪茵和，\\n利、耶耶，永远好伙计？",
+        "zh_tw": "唔…………\\n娜汀跟，莉、莉耶莉耶是\\n永遠好麻吉……喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0060",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Ohmigosh, that was PERFECT! ...Except\\nyou said ＂beefs.＂ But whatevs, we'll fix\\nthat in post. This is totally gonna work!",
+        "ja_jp": "バッチし！\\n<ruby><rb>全然</rb><rt>ぜんぜん</rt></ruby><ruby><rb>無問題</rb><rt>もうまんたい</rt></ruby>！　これならバレないって！",
+        "zh_cn": "完美！完全没问题！\\n这样就不会暴露了！",
+        "zh_tw": "完美！沒有任何問題！\\n這樣就不會被發現啦！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0061",
+      "book": ""
+    },
+    {
+      "icon": "110053_03",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "Truly...?",
+        "ja_jp": "<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>か……？",
+        "zh_cn": "真的吗……",
+        "zh_tw": "真的嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0062",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "Truly! And now that THAT'S solved...",
+        "ja_jp": "いけるいけるー！\\nよゆーっしょ！　っつーワケで……",
+        "zh_cn": "当然当然！\\n轻轻松松！那么……",
+        "zh_tw": "沒問題沒問題──！\\n超輕鬆的啦！那麼……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0063",
+      "book": ""
+    },
+    {
+      "icon": "110357_01",
+      "name": {
+        "en_us": "Nadine",
+        "ja_jp": "ナディーン",
+        "zh_cn": "娜迪茵",
+        "zh_tw": "娜汀"
+      },
+      "context": {
+        "en_us": "It's destination: dunefolk settlement, baby!",
+        "ja_jp": "<ruby><rb>砂</rb><rt>すな</rt></ruby>の<ruby><rb>民</rb><rt>たみ</rt></ruby>の<ruby><rb>逗留地</rb><rt>とうりゅうち</rt></ruby>へレッツゴー！",
+        "zh_cn": "咱们就出发\\n前往沙之民的聚集地吧！",
+        "zh_tw": "往沙之民的旅居處出發吧──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0064",
+      "book": ""
+    },
+    {
+      "icon": "110053_03",
+      "name": {
+        "en_us": "Nefaria",
+        "ja_jp": "ネファリエ",
+        "zh_cn": "奈法利耶",
+        "zh_tw": "涅法莉耶"
+      },
+      "context": {
+        "en_us": "(What madness have I loosed upon\\nmyself this day...?)",
+        "ja_jp": "（<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>なのか……？）",
+        "zh_cn": "（真的没问题吗……）",
+        "zh_tw": "（真的沒問題嗎……？）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22204_01_0065",
+      "book": ""
+    }
+  ]
 }

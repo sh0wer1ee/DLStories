@@ -1,31 +1,60 @@
 {
-    "story_id": "",
-    "story_name": "情人节·甜美佳肴 追加剧情 海因瓦尔德",
-    "story_icon": "",
-    "outline": {
-        "title": "",
-        "content": [
-            "要跳过此剧情吗？"
-        ]
+  "title": {
+    "en_us": "Valentine's Confections Extra    Heinwald",
+    "ja_jp": "バレンタイン・アラカルト エクストラ  ハインヴァルト",
+    "zh_cn": "情人节·甜美佳肴 追加剧情  海因瓦尔德",
+    "zh_tw": "情人節‧精巧甜品　追加劇情  海因沃爾德"
+  },
+  "outline": {
+    "title": {
+      "en_us": "",
+      "ja_jp": "",
+      "zh_cn": "",
+      "zh_tw": ""
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110280_01"
-            ],
-            "speaker_name": "海因瓦尔德",
-            "context": "送我的？这是想让我\\n解开这礼物之谜的挑战书吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_21304_01_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110280_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "收到了来自海因瓦尔德的回礼。",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Skip this scene?",
+      "ja_jp": "このストーリーをスキップしますか？",
+      "zh_cn": "要跳过此剧情吗？",
+      "zh_tw": "請確認是否略過劇情？"
+    }
+  },
+  "prev": "2130465",
+  "next": "2130467",
+  "content": [
+    {
+      "icon": "110280_01",
+      "name": {
+        "en_us": "Heinwald",
+        "ja_jp": "ハインヴァルト",
+        "zh_cn": "海因瓦尔德",
+        "zh_tw": "海因沃爾德"
+      },
+      "context": {
+        "en_us": "Are you challenging me to solve\\nthe mystery of that gift?",
+        "ja_jp": "<ruby><rb>僕</rb><rt>ぼく</rt></ruby>に？　その<ruby><rb>贈</rb><rt>おく</rt></ruby>り<ruby><rb>物</rb><rt>もの</rt></ruby>の<ruby><rb>謎</rb><rt>なぞ</rt></ruby>を<ruby><rb>解</rb><rt>と</rt></ruby>いてみろ\\nという<ruby><rb>挑戦状</rb><rt>ちょうせんじょう</rt></ruby>だね？",
+        "zh_cn": "送我的？这是想让我\\n解开这礼物之谜的挑战书吧？",
+        "zh_tw": "送我？想必應該是\\n名為試著解開那份禮物之謎的\\n挑戰書吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21304_01_0026",
+      "book": ""
+    },
+    {
+      "icon": "110280_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "You received a thank-you gift from Heinwald.",
+        "ja_jp": "ハインヴァルトからプレゼントのお<ruby><rb>礼</rb><rt>れい</rt></ruby>をもらった。",
+        "zh_cn": "收到了来自海因瓦尔德的回礼。",
+        "zh_tw": "收到了來自海因沃爾德的回禮。"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

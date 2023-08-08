@@ -1,717 +1,1360 @@
 {
-    "story_id": "",
-    "story_name": "阿尔贝里亚骑士道 圣都的重逢",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "利弗执行任务时遭到北部教会的偷袭。\\n他被迫与主力部队分开，来到了敌人根据地\\n格拉姆斯。危难之际，对他伸出援手的是\\n旧阿尔贝里亚王国时期同为骑士的旧识\\n赛希尔。利弗请求她帮助自己，然而……"
-        ]
+  "title": {
+    "en_us": "Knights of Alberia    Reunion in the Holy City",
+    "ja_jp": "ナイツ・オブ・アルベリア  聖都での再会",
+    "zh_cn": "阿尔贝里亚骑士道  圣都的重逢",
+    "zh_tw": "阿爾貝利亞守護騎士  於聖都再會"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "哈啊……哈啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "教会骑士的声音",
-            "context": "去找被逼上绝路的\\n白燕骑士团团长！\\n扩大搜索范围！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "教会骑士们的声音",
-            "context": "是！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "（呃……北部教会的骑士\\n也不容小觑呢。没想到\\n我竟会被逼到这步田地……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "（不知道部下们有没有\\n顺利逃走……不对，现在应该\\n先担心自己的情况……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "（无论如何我都要\\n从敌人的根据地——\\n从格拉姆斯逃出去才行！）",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "SYS",
-            "context": "与此同时——\\n圣都格拉姆斯\\n佣兵公会兼食堂",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "咔咔咔咔……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120015_01"
-            ],
-            "speaker_name": "老板娘",
-            "context": "赛希尔，我看你总啃那块石头，\\n那是什么东西啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "是魔养石……\\n听说它富含增强体魄的魔力，\\n我才啃的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120015_01"
-            ],
-            "speaker_name": "老板娘",
-            "context": "那种东西在佣兵里很流行呢。\\n不会磨损牙齿吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120043_01"
-            ],
-            "speaker_name": "佣兵",
-            "context": "一般来说是要把石头\\n敲碎冲水喝的。\\n只有这家伙才会直接啃。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120043_01"
-            ],
-            "speaker_name": "佣兵",
-            "context": "先不说什么石头了，赛希尔。\\n教会正在召集进攻\\n南大陆的士兵，你要报名吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "咔咔……\\n我没兴趣……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120043_01"
-            ],
-            "speaker_name": "佣兵",
-            "context": "诶，那也太可惜了吧！他们一定\\n很欢迎你，你作为“所向披靡的\\n干练佣兵赛希尔”可是很有名的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120043_01"
-            ],
-            "speaker_name": "佣兵",
-            "context": "而且你以前是旧阿尔贝里亚的\\n近卫骑士吧？我还听说\\n你是从精英骑士学校毕业的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "你是指军事学校？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120043_01"
-            ],
-            "speaker_name": "佣兵",
-            "context": "对！就是那个！\\n你担任过国王的护卫吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "那都是过去的事了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120043_01"
-            ],
-            "speaker_name": "佣兵",
-            "context": "多厉害啊！你还是报名吧！\\n一定会得到重用的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "都说了，我没兴趣……\\n再说我也不打算回南方……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120015_01"
-            ],
-            "speaker_name": "老板娘",
-            "context": "呵呵，随你喜欢就好。\\n在格拉姆斯应该不愁工作吧？\\n毕竟最近不怎么太平嘛。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120015_01"
-            ],
-            "speaker_name": "老板娘",
-            "context": "刚才还有教会骑士\\n在大街上喊着什么\\n“快追白燕骑士团团长”呢……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "白燕骑士……白燕骑士？\\n白燕骑士团团长……难道是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "利弗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "教会骑士1",
-            "context": "该死！那家伙跑哪去了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "（追兵变多了……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "（虽说我为了混入人群\\n而卸下了盔甲，但也难说\\n会不会被他们发现……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "（就算是趁着天黑的时候脱身，\\n我人生地不熟的，\\n也不知道会不会顺利……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "要是能有一个\\n熟悉格拉姆斯的人\\n帮我一把就好了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "教会骑士1",
-            "context": "发现目标了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "呃！不好了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "教会骑士1",
-            "context": "什么声音！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "利弗，趁现在快跑。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "什么！？\\n你是……赛希尔！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "有话一会儿再说。\\n先别出声跟我来。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "教会骑士1",
-            "context": "啊，糟了！\\n追！给我追！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "赛希尔！\\n怎么在桥上停下不走了！？\\n会被他们追上的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "我数10个数之后，\\n我们就从这里跳下去。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "跳下去！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "好了，相信我就是。\\n3、2……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "教会骑士1",
-            "context": "他在那！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "教会骑士2",
-            "context": "包围他！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "就是现在！快跳！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "知、知道了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "教会骑士1",
-            "context": "什么！？站、站住！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "教会骑士2",
-            "context": "哇哇，已经刹不住……呀啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "看来没有人追上来……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "赛希尔，这里是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "这是我住的旅馆。\\n总之甩掉了那些人就好。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "没想到竟然能跳到\\n正好驶过桥下的船上逃走……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "那艘船每天都会\\n在那个时间经过，物尽其用。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "刚才没来得及说……\\n好久不见，利弗。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "是啊……\\n上次见都是什么时候了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "自打庆祝你就任团长以后\\n就没见过了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "那之后我们都很忙，\\n没什么见面的机会。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "你还是和学生时代一样呢。\\n明明都这么久没见了，\\n我还是一眼就认出来了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "倒是你的气质\\n和以前不一样了啊。\\n一开始我都没认出来。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "看来传闻不假。\\n你已经不当骑士，\\n改行当佣兵了吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "原来你知道啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "嗯，我也是听别人说的，\\n只是当时还不太相信。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "你从军事学校时期\\n就一心追求骑士道，\\n没想到你会不当骑士……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "发生了各种变故……\\n不过，我也听说了你的事。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "说你带着整个白燕骑士团\\n从狄涅尔帝国出逃，\\n投奔了新阿尔贝里亚王国。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "那你现在为什么\\n会在北方啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "我从北大陆的同盟国返回时，\\n在格拉姆斯领地附近\\n遭到了偷袭。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "为了让主力部队逃走，\\n我单独采取行动，但被断了后路，\\n就被一路逼到了格拉姆斯这里。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "面对像你那么老练的对手，\\n切断后路瓮中捉鳖的确是不错的策略。\\n教会骑士也很聪明嘛。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "是啊。拜他们所赐，\\n我正处于不利的局面。\\n不过幸好遇到了你。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "赛希尔，我必须回到新阿尔贝里亚，\\n希望你能助我一臂之力。\\n还有——",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "你能再次作为阿尔贝里亚的骑士，\\n为了王室与我并肩战斗吗？\\n要是你能加入就再可靠不过了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "阿尔贝里亚……骑士……\\n为了王室……战斗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "赛希尔？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "这、这、这……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "这绝对不行！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "赛希尔！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_01_0077",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "When ambushed by the Northern Church during\\na mission, Leif is forced to enter the enemy\\nstronghold of Grams. But help soon arrives in\\nthe unlikely form of Cecile, a former friend and\\nally from his old Alberian days...",
+      "ja_jp": "<ruby><rb>任務中</rb><rt>にんむちゅう</rt></ruby>、<ruby><rb>北教会</rb><rt>きたきょうかい</rt></ruby>による<ruby><rb>奇襲</rb><rt>きしゅう</rt></ruby>を<ruby><rb>受</rb><rt>う</rt></ruby>けたリーフ。\\n<ruby><rb>本隊</rb><rt>ほんたい</rt></ruby>から<ruby><rb>分断</rb><rt>ぶんだん</rt></ruby>され、<ruby><rb>敵</rb><rt>てき</rt></ruby>の<ruby><rb>本拠地</rb><rt>ほんきょち</rt></ruby>グラムスへと\\n<ruby><rb>追</rb><rt>お</rt></ruby>い<ruby><rb>込</rb><rt>こ</rt></ruby>まれてしまう。その<ruby><rb>窮地</rb><rt>きゅうち</rt></ruby>を<ruby><rb>救</rb><rt>すく</rt></ruby>ったのは\\n<ruby><rb>旧</rb><rt>きゅう</rt></ruby>アルベリア<ruby><rb>王国</rb><rt>おうこく</rt></ruby><ruby><rb>時代</rb><rt>じだい</rt></ruby>の<ruby><rb>同僚</rb><rt>どうりょう</rt></ruby>にして<ruby><rb>旧友</rb><rt>きゅうゆう</rt></ruby>の\\nセシル。リーフは<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>に<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>を<ruby><rb>頼</rb><rt>たの</rt></ruby>むが……。",
+      "zh_cn": "利弗执行任务时遭到北部教会的偷袭。\\n他被迫与主力部队分开，来到了敌人根据地\\n格拉姆斯。危难之际，对他伸出援手的是\\n旧阿尔贝里亚王国时期同为骑士的旧识\\n赛希尔。利弗请求她帮助自己，然而……",
+      "zh_tw": "執行任務途中，李弗受到北方教會襲擊。\\n他與主力部隊遭到分散，並迫於無奈踏入\\n敵方大本營葛拉姆斯。而拯救他脫離困境的\\n是他在舊阿爾貝利亞王國時代的同事\\n兼老友賽席爾。李弗拜託她協助，但……"
+    }
+  },
+  "prev": "",
+  "next": "2290202",
+  "content": [
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "*pant* *gasp*",
+        "ja_jp": "ハァ……！　ハァ……！",
+        "zh_cn": "哈啊……哈啊！",
+        "zh_tw": "呼……！呼……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0001",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Templar's Voice",
+        "ja_jp": "教会騎士の声",
+        "zh_cn": "教会骑士的声音",
+        "zh_tw": "教會騎士的聲音"
+      },
+      "context": {
+        "en_us": "We have the leader of the White Sparrows\\nat bay! Expand the search and bring him\\nto me at once!!",
+        "ja_jp": "<ruby><rb>追</rb><rt>お</rt></ruby>い<ruby><rb>込</rb><rt>こ</rt></ruby>んだ<ruby><rb>白燕騎士団団長</rb><rt>はくえんきしだんだんちょう</rt></ruby>を<ruby><rb>探</rb><rt>さが</rt></ruby>せ！\\n<ruby><rb>捜索</rb><rt>そうさく</rt></ruby><ruby><rb>範囲</rb><rt>はんい</rt></ruby>を<ruby><rb>広</rb><rt>ひろ</rt></ruby>げるんだ！",
+        "zh_cn": "去找被逼上绝路的\\n白燕骑士团团长！\\n扩大搜索范围！",
+        "zh_tw": "快把白燕騎士團團長找出來！\\n擴大搜索範圍！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0002",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Templars' Voices",
+        "ja_jp": "教会騎士たちの声",
+        "zh_cn": "教会骑士们的声音",
+        "zh_tw": "教會騎士們的聲音"
+      },
+      "context": {
+        "en_us": "Yes, sir!",
+        "ja_jp": "ハッ！",
+        "zh_cn": "是！",
+        "zh_tw": "是！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0003",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "(The knights of the Northern Church are\\nmore tenacious that I gave them credit for.\\nI never thought they'd chase me so far.)",
+        "ja_jp": "（クッ……<ruby><rb>北教会</rb><rt>きたきょうかい</rt></ruby>の<ruby><rb>騎士</rb><rt>きし</rt></ruby>も<ruby><rb>侮</rb><rt>あなど</rt></ruby>れんな。\\n　まさかこんなところまで\\n　<ruby><rb>追</rb><rt>お</rt></ruby>い<ruby><rb>込</rb><rt>こ</rt></ruby>まれてしまうとは……）",
+        "zh_cn": "（呃……北部教会的骑士\\n也不容小觑呢。没想到\\n我竟会被逼到这步田地……）",
+        "zh_tw": "（唔……北方教會騎士也不可小覷呢。\\n沒想到我竟然會被他們\\n逼進這種地方……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0004",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "(I only hope it gave my troops the means\\nto escape, even though I should be\\nworrying about my own neck right now.)",
+        "ja_jp": "（<ruby><rb>部下</rb><rt>ぶか</rt></ruby>たちは<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>に<ruby><rb>逃</rb><rt>に</rt></ruby>げきれた\\n　だろうか……。いや、<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の\\n　<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>が<ruby><rb>先</rb><rt>さき</rt></ruby>だな……）",
+        "zh_cn": "（不知道部下们有没有\\n顺利逃走……不对，现在应该\\n先担心自己的情况……）",
+        "zh_tw": "（不曉得部下們有沒有成功逃脫……\\n不，現在應該先擔心自己才對……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0005",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "(I cannot be discovered here in Grams—\\nit is the heart of the Northern Church, and\\nI will never be permitted to leave it alive.)",
+        "ja_jp": "（なんとしても<ruby><rb>脱出</rb><rt>だっしゅつ</rt></ruby>せねば……。\\n　<ruby><rb>敵</rb><rt>てき</rt></ruby>の<ruby><rb>牙城</rb><rt>がじょう</rt></ruby>――このグラムスから！）",
+        "zh_cn": "（无论如何我都要\\n从敌人的根据地——\\n从格拉姆斯逃出去才行！）",
+        "zh_tw": "（必須想辦法逃離才行……\\n從敵人的根據地──葛拉姆斯離開！）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0006",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "The Holy City of Grams\\nMercenary Guild Mess Hall",
+        "ja_jp": "<ruby><rb>一方</rb><rt>いっぽう</rt></ruby>、その<ruby><rb>頃</rb><rt>ころ</rt></ruby>――\\n<ruby><rb>聖都</rb><rt>せいと</rt></ruby>グラムス\\n<ruby><rb>傭兵</rb><rt>ようへい</rt></ruby>ギルド<ruby><rb>兼食堂</rb><rt>けんしょくどう</rt></ruby>",
+        "zh_cn": "与此同时——\\n圣都格拉姆斯\\n佣兵公会兼食堂",
+        "zh_tw": "同時，另一方面──\\n聖都葛拉姆斯\\n傭兵公會兼食堂"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "*crunch* *gnaw* *crack*",
+        "ja_jp": "ガリガリガリガリ……。",
+        "zh_cn": "咔咔咔咔……",
+        "zh_tw": "喀滋喀滋喀滋喀滋……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0007",
+      "book": ""
+    },
+    {
+      "icon": "120015_01",
+      "name": {
+        "en_us": "Innkeep",
+        "ja_jp": "女将",
+        "zh_cn": "老板娘",
+        "zh_tw": "老闆娘"
+      },
+      "context": {
+        "en_us": "Goodness, dear! Slow down before you\\nswallow that fool stone whole and end\\nup choking to death on it.",
+        "ja_jp": "セシルちゃん、その<ruby><rb>石</rb><rt>いし</rt></ruby>\\nいつもかじってるけど<ruby><rb>何</rb><rt>なん</rt></ruby>なんだい？",
+        "zh_cn": "赛希尔，我看你总啃那块石头，\\n那是什么东西啊？",
+        "zh_tw": "小席爾，看妳總是在啃那顆石頭，\\n它到底是什麼啊？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0008",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "It's not a stone—it's a Manachew. They\\ncontain 100 percent of a body's daily\\nmana requirement and are a delicious\\npart of this nutritious breakfast.",
+        "ja_jp": "<ruby><rb>魔養石</rb><rt>マナリミン</rt></ruby>……。<ruby><rb>体</rb><rt>からだ</rt></ruby>を<ruby><rb>強化</rb><rt>きょうか</rt></ruby>するマナが\\n<ruby><rb>含</rb><rt>ふく</rt></ruby>まれてるって<ruby><rb>聞</rb><rt>き</rt></ruby>いて、かじってるの。",
+        "zh_cn": "是魔养石……\\n听说它富含增强体魄的魔力，\\n我才啃的。",
+        "zh_tw": "魔養石……\\n聽說裡面富含能強化肉體的瑪納，\\n所以我才在啃它。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0009",
+      "book": ""
+    },
+    {
+      "icon": "120015_01",
+      "name": {
+        "en_us": "Innkeep",
+        "ja_jp": "女将",
+        "zh_cn": "老板娘",
+        "zh_tw": "老闆娘"
+      },
+      "context": {
+        "en_us": "You mercenaries take to the strangest\\ntrends sometimes! Aren't you worried\\nyou'll chip a tooth?",
+        "ja_jp": "<ruby><rb>傭兵</rb><rt>ようへい</rt></ruby>の<ruby><rb>間</rb><rt>あいだ</rt></ruby>では、そんなものが<ruby><rb>流行</rb><rt>はや</rt></ruby>ってる\\nのね。<ruby><rb>歯</rb><rt>は</rt></ruby>、<ruby><rb>欠</rb><rt>か</rt></ruby>けたりしないの？",
+        "zh_cn": "那种东西在佣兵里很流行呢。\\n不会磨损牙齿吗？",
+        "zh_tw": "原來傭兵之間還流行著那種東西啊。\\n牙齒不會啃壞嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0010",
+      "book": ""
+    },
+    {
+      "icon": "120043_01",
+      "name": {
+        "en_us": "Mercenary",
+        "ja_jp": "傭兵",
+        "zh_cn": "佣兵",
+        "zh_tw": "傭兵"
+      },
+      "context": {
+        "en_us": "Most of us grind 'em into powder and mix\\nit into water. She's the only one daft\\nenough to call it ＂Manachew＂ and\\neat the things whole.",
+        "ja_jp": "<ruby><rb>普通</rb><rt>ふつう</rt></ruby>は<ruby><rb>砕</rb><rt>くだ</rt></ruby>いて<ruby><rb>水</rb><rt>みず</rt></ruby>に<ruby><rb>溶</rb><rt>と</rt></ruby>かして<ruby><rb>飲</rb><rt>の</rt></ruby>むんだよ。\\n<ruby><rb>直接</rb><rt>ちょくせつ</rt></ruby>かじってるのはこいつくらいだ。",
+        "zh_cn": "一般来说是要把石头\\n敲碎冲水喝的。\\n只有这家伙才会直接啃。",
+        "zh_tw": "一般都是把它磨碎後溶在水裡喝下去。\\n會直接啃的大概只有這傢伙了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0011",
+      "book": ""
+    },
+    {
+      "icon": "120043_01",
+      "name": {
+        "en_us": "Mercenary",
+        "ja_jp": "傭兵",
+        "zh_cn": "佣兵",
+        "zh_tw": "傭兵"
+      },
+      "context": {
+        "en_us": "Put the pebble down a sec there, lass.\\nYer applying for the force the church is\\nputtin' together to hit the south, yeah?",
+        "ja_jp": "そんな<ruby><rb>石</rb><rt>いし</rt></ruby>よりも、セシル。\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>、<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>からきた<ruby><rb>南大陸侵攻</rb><rt>みなみたいりくしんこう</rt></ruby>の\\n<ruby><rb>兵士</rb><rt>へいし</rt></ruby><ruby><rb>募集</rb><rt>ぼしゅう</rt></ruby>、<ruby><rb>志願</rb><rt>しがん</rt></ruby>すんのか？",
+        "zh_cn": "先不说什么石头了，赛希尔。\\n教会正在召集进攻\\n南大陆的士兵，你要报名吗？",
+        "zh_tw": "比起那種石頭，賽席爾。\\n教會在募集士兵準備侵略南大陸，\\n妳打算參加嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0012",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "*CRUUUUNCH* ...Pass.",
+        "ja_jp": "ガリガリ……。\\n<ruby><rb>興味</rb><rt>きょうみ</rt></ruby>ないわ……。",
+        "zh_cn": "咔咔……\\n我没兴趣……",
+        "zh_tw": "喀滋喀滋……\\n我沒興趣……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0013",
+      "book": ""
+    },
+    {
+      "icon": "120043_01",
+      "name": {
+        "en_us": "Mercenary",
+        "ja_jp": "傭兵",
+        "zh_cn": "佣兵",
+        "zh_tw": "傭兵"
+      },
+      "context": {
+        "en_us": "But it's such a sweet gig! Plus, ya know\\nthey'd hire ya on, what with the way the\\nwhole town's in love with ＂Cecile the\\nInvincible＂ and all.",
+        "ja_jp": "えー、もったいねぇ！　お<ruby><rb>前</rb><rt>まえ</rt></ruby>なら<ruby><rb>歓迎</rb><rt>かんげい</rt></ruby>\\nされるだろ。「<ruby><rb>負</rb><rt>ま</rt></ruby>け<ruby><rb>知</rb><rt>し</rt></ruby>らずの<ruby><rb>敏腕</rb><rt>びんわん</rt></ruby><ruby><rb>傭兵</rb><rt>ようへい</rt></ruby>\\nセシル」って<ruby><rb>巷</rb><rt>ちまた</rt></ruby>では<ruby><rb>評判</rb><rt>ひょうばん</rt></ruby>だしよ。",
+        "zh_cn": "诶，那也太可惜了吧！他们一定\\n很欢迎你，你作为“所向披靡的\\n干练佣兵赛希尔”可是很有名的。",
+        "zh_tw": "咦──太可惜了啦！如果是妳的話\\n教會應該很歡迎吧。畢竟妳可是道上\\n人稱「不敗的精銳傭兵賽席爾」耶。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0014",
+      "book": ""
+    },
+    {
+      "icon": "120043_01",
+      "name": {
+        "en_us": "Mercenary",
+        "ja_jp": "傭兵",
+        "zh_cn": "佣兵",
+        "zh_tw": "傭兵"
+      },
+      "context": {
+        "en_us": "Besides, ain't you an elite from the Old\\nAlberian Guard? I hear ya graduated from\\na posh military school and everything.",
+        "ja_jp": "それにお<ruby><rb>前</rb><rt>まえ</rt></ruby>、<ruby><rb>旧</rb><rt>きゅう</rt></ruby>アルベリアの\\n<ruby><rb>近衛騎士</rb><rt>このえきし</rt></ruby>だったんだろ？\\nエリート<ruby><rb>騎士</rb><rt>きし</rt></ruby><ruby><rb>学校</rb><rt>がっこう</rt></ruby>も<ruby><rb>卒業</rb><rt>そつぎょう</rt></ruby>したとか。",
+        "zh_cn": "而且你以前是旧阿尔贝里亚的\\n近卫骑士吧？我还听说\\n你是从精英骑士学校毕业的。",
+        "zh_tw": "而且，妳以前曾是\\n舊阿爾貝利亞的近衛騎士對吧？\\n還聽說是從菁英騎士學校畢業的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0015",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "The Officers Academy?",
+        "ja_jp": "<ruby><rb>将士学校</rb><rt>しょうしがっこう</rt></ruby>のこと？",
+        "zh_cn": "你是指军事学校？",
+        "zh_tw": "你是指軍官學校？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0016",
+      "book": ""
+    },
+    {
+      "icon": "120043_01",
+      "name": {
+        "en_us": "Mercenary",
+        "ja_jp": "傭兵",
+        "zh_cn": "佣兵",
+        "zh_tw": "傭兵"
+      },
+      "context": {
+        "en_us": "Yeah, that's the one! You made quite the\\nname for yerself there, Ms. Royal Guard.",
+        "ja_jp": "そう！　それだ！\\nで、<ruby><rb>王様</rb><rt>おうさま</rt></ruby>の<ruby><rb>護衛</rb><rt>ごえい</rt></ruby>を<ruby><rb>任</rb><rt>まか</rt></ruby>されてたんだよな？",
+        "zh_cn": "对！就是那个！\\n你担任过国王的护卫吧？",
+        "zh_tw": "對啦！就是那個！然後啊，\\n妳當時是擔任國王陛下的護衛吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0017",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Ms. Former Royal Guard.\\nThat's all in the past now.",
+        "ja_jp": "<ruby><rb>昔</rb><rt>むかし</rt></ruby>の<ruby><rb>話</rb><rt>はなし</rt></ruby>よ……。",
+        "zh_cn": "那都是过去的事了……",
+        "zh_tw": "都是過去的事了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0018",
+      "book": ""
+    },
+    {
+      "icon": "120043_01",
+      "name": {
+        "en_us": "Mercenary",
+        "ja_jp": "傭兵",
+        "zh_cn": "佣兵",
+        "zh_tw": "傭兵"
+      },
+      "context": {
+        "en_us": "Still impressive as hell, though. C'mon,\\nya gotta sign up with me! They'd be tickled\\npink what to have ya!",
+        "ja_jp": "すげーじゃねぇか！　やっぱり\\n<ruby><rb>志願</rb><rt>しがん</rt></ruby>しろよ！　<ruby><rb>重宝</rb><rt>ちょうほう</rt></ruby>されるぜ！",
+        "zh_cn": "多厉害啊！你还是报名吧！\\n一定会得到重用的！",
+        "zh_tw": "那不是很厲害嗎！妳果然應該參加啦！\\n一定能獲得重用的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0019",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Still not interested. No way in hell I'm\\never going south again.",
+        "ja_jp": "だから、<ruby><rb>興味</rb><rt>きょうみ</rt></ruby>ないって……。\\n<ruby><rb>南</rb><rt>みなみ</rt></ruby>に<ruby><rb>帰</rb><rt>かえ</rt></ruby>るつもりもないし……。",
+        "zh_cn": "都说了，我没兴趣……\\n再说我也不打算回南方……",
+        "zh_tw": "就說了，我沒興趣……\\n況且我也不打算回去南方……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0020",
+      "book": ""
+    },
+    {
+      "icon": "120015_01",
+      "name": {
+        "en_us": "Innkeep",
+        "ja_jp": "女将",
+        "zh_cn": "老板娘",
+        "zh_tw": "老闆娘"
+      },
+      "context": {
+        "en_us": "That's perfectly fine, dear. It's not like\\nyou'll ever be short of work here in Grams,\\nwhat with how rough it's gotten lately.",
+        "ja_jp": "ふふ、それでいいさ。\\nグラムスにいたら、<ruby><rb>仕事</rb><rt>しごと</rt></ruby>には<ruby><rb>困</rb><rt>こま</rt></ruby>らない\\nだろう？　<ruby><rb>最近</rb><rt>さいきん</rt></ruby><ruby><rb>物騒</rb><rt>ぶっそう</rt></ruby>だからねえ。",
+        "zh_cn": "呵呵，随你喜欢就好。\\n在格拉姆斯应该不愁工作吧？\\n毕竟最近不怎么太平嘛。",
+        "zh_tw": "呵呵，這樣很好啊。\\n待在葛拉姆斯，就不愁會沒工作吧？\\n畢竟最近很不安穩呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0021",
+      "book": ""
+    },
+    {
+      "icon": "120015_01",
+      "name": {
+        "en_us": "Innkeep",
+        "ja_jp": "女将",
+        "zh_cn": "老板娘",
+        "zh_tw": "老闆娘"
+      },
+      "context": {
+        "en_us": "Why, just now a pack of Templars came by\\nall in a tizzy about hunting down a White\\nPigeon captain or somesuch.",
+        "ja_jp": "さっきも<ruby><rb>教会騎士</rb><rt>きょうかいきし</rt></ruby>たちが<ruby><rb>通</rb><rt>とお</rt></ruby>りで<ruby><rb>騒</rb><rt>さわ</rt></ruby>いでた\\nよ。「ハクエンキシ<ruby><rb>団団長</rb><rt>だんだんちょう</rt></ruby>を<ruby><rb>追</rb><rt>お</rt></ruby>え」\\nとかなんとか<ruby><rb>叫</rb><rt>さけ</rt></ruby>んでたけど……。",
+        "zh_cn": "刚才还有教会骑士\\n在大街上喊着什么\\n“快追白燕骑士团团长”呢……",
+        "zh_tw": "剛才教會騎士們也在街上大吵大鬧。\\n好像還喊著什麼\\n「快追白燕騎士團團長」之類的……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0022",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "You mean sparrows? The White Sparrows?\\nBut their captain is... No. It can't be.",
+        "ja_jp": "ハクエンキシ……<ruby><rb>白燕騎士</rb><rt>はくえんきし</rt></ruby>？\\nその<ruby><rb>団長</rb><rt>だんちょう</rt></ruby>って……！　まさか……",
+        "zh_cn": "白燕骑士……白燕骑士？\\n白燕骑士团团长……难道是……",
+        "zh_tw": "白燕騎士……白燕騎士？\\n妳說團長……！\\n該不會是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0023",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "...Leif?",
+        "ja_jp": "リーフ……？",
+        "zh_cn": "利弗？",
+        "zh_tw": "李弗……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0024",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Templar 1",
+        "ja_jp": "教会騎士1",
+        "zh_cn": "教会骑士1",
+        "zh_tw": "教會騎士1"
+      },
+      "context": {
+        "en_us": "Where has that snake slithered off to?!",
+        "ja_jp": "クソッ！　<ruby><rb>奴</rb><rt>やつ</rt></ruby>め、\\nどこへ<ruby><rb>行</rb><rt>い</rt></ruby>きやがった！",
+        "zh_cn": "该死！那家伙跑哪去了！",
+        "zh_tw": "可惡！那個傢伙，\\n到底跑到哪裡去了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0025",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "(Their numbers keep growing.)",
+        "ja_jp": "（<ruby><rb>追</rb><rt>お</rt></ruby>っ<ruby><rb>手</rb><rt>て</rt></ruby>が<ruby><rb>増</rb><rt>ふ</rt></ruby>えている……）",
+        "zh_cn": "（追兵变多了……）",
+        "zh_tw": "（追兵不斷增加……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0026",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "(Changing into civilian clothes may have\\nbought me time, but they'll not be fooled\\nby such garb for long.)",
+        "ja_jp": "（<ruby><rb>市民</rb><rt>しみん</rt></ruby>に<ruby><rb>紛</rb><rt>まぎ</rt></ruby>れるために、<ruby><rb>鎧</rb><rt>よろい</rt></ruby>から\\n　<ruby><rb>着替</rb><rt>きが</rt></ruby>えたとはいえ、どれだけ\\n　<ruby><rb>奴</rb><rt>やつ</rt></ruby>らの<ruby><rb>目</rb><rt>め</rt></ruby>を<ruby><rb>誤魔化</rb><rt>ごまか</rt></ruby>せたものか……）",
+        "zh_cn": "（虽说我为了混入人群\\n而卸下了盔甲，但也难说\\n会不会被他们发现……）",
+        "zh_tw": "（雖然脫下了鎧甲混入市民當中，\\n但不曉得能躲過他們的搜索\\n到什麼時候……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0027",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "(My best chance is slipping out after\\nnightfall, but I don't know the area well\\nenough to plan a route.)",
+        "ja_jp": "（<ruby><rb>闇夜</rb><rt>やみよ</rt></ruby>に<ruby><rb>乗</rb><rt>じょう</rt></ruby>じて<ruby><rb>脱出</rb><rt>だっしゅつ</rt></ruby>するにしても、\\n　<ruby><rb>土地勘</rb><rt>とちかん</rt></ruby>がないままでは\\n　うまくいくかどうか……）",
+        "zh_cn": "（就算是趁着天黑的时候脱身，\\n我人生地不熟的，\\n也不知道会不会顺利……）",
+        "zh_tw": "（就算要趁夜摸黑逃離，\\n在人生地不熟的土地上，\\n也無法保證能夠順利……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0028",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "This would be a good deal easier if I had\\na local to guide me, but—",
+        "ja_jp": "せめてグラムスに<ruby><rb>詳</rb><rt>くわ</rt></ruby>しい<ruby><rb>者</rb><rt>もの</rt></ruby>を\\n<ruby><rb>味方</rb><rt>みかた</rt></ruby>につけることができれば……。",
+        "zh_cn": "要是能有一个\\n熟悉格拉姆斯的人\\n帮我一把就好了……",
+        "zh_tw": "如果至少能找到一位熟悉葛拉姆斯的人\\n來協助我的話……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0029",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Templar 1",
+        "ja_jp": "教会騎士1",
+        "zh_cn": "教会骑士1",
+        "zh_tw": "教會騎士1"
+      },
+      "context": {
+        "en_us": "There! It's him!",
+        "ja_jp": "<ruby><rb>見</rb><rt>み</rt></ruby>つけたぞ！",
+        "zh_cn": "发现目标了！",
+        "zh_tw": "找到了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0030",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Damn!",
+        "ja_jp": "クッ……！　まずい……！",
+        "zh_cn": "呃！不好了……",
+        "zh_tw": "唔……！\\n糟了……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0031",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Templar 1",
+        "ja_jp": "教会騎士1",
+        "zh_cn": "教会骑士1",
+        "zh_tw": "教會騎士1"
+      },
+      "context": {
+        "en_us": "What's that noise?!",
+        "ja_jp": "<ruby><rb>何</rb><rt>なん</rt></ruby>の<ruby><rb>音</rb><rt>おと</rt></ruby>だ……!?",
+        "zh_cn": "什么声音！？",
+        "zh_tw": "什麼聲音……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0032",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Hurry, Leif. There's no time.",
+        "ja_jp": "リーフ、<ruby><rb>今</rb><rt>いま</rt></ruby>のうちに。",
+        "zh_cn": "利弗，趁现在快跑。",
+        "zh_tw": "李弗，趁現在。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0033",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "What in the blazes? Cecile?!",
+        "ja_jp": "なっ……!?\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>は……セシル!?",
+        "zh_cn": "什么！？\\n你是……赛希尔！？",
+        "zh_tw": "什……！？\\n妳是……賽席爾！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0034",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Later. Right now, shut up and stay close.",
+        "ja_jp": "<ruby><rb>話</rb><rt>はなし</rt></ruby>はあと。\\n<ruby><rb>黙</rb><rt>だま</rt></ruby>ってついてきて。",
+        "zh_cn": "有话一会儿再说。\\n先别出声跟我来。",
+        "zh_tw": "有話待會再說。\\n現在先安靜跟我走。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0035",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Templar 1",
+        "ja_jp": "教会騎士1",
+        "zh_cn": "教会骑士1",
+        "zh_tw": "教會騎士1"
+      },
+      "context": {
+        "en_us": "Don't let that man escape!",
+        "ja_jp": "あ、しまった！\\n<ruby><rb>追</rb><rt>お</rt></ruby>え！　<ruby><rb>追</rb><rt>お</rt></ruby>えええええ！",
+        "zh_cn": "啊，糟了！\\n追！给我追！",
+        "zh_tw": "啊，糟了！\\n快追！快追啊────！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0036",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0037",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Cecile, why have we stopped in the\\nmiddle of this bridge?! The enemy will\\nbe upon us in moments!",
+        "ja_jp": "セシル！　<ruby><rb>橋</rb><rt>はし</rt></ruby>の<ruby><rb>上</rb><rt>うえ</rt></ruby>で<ruby><rb>止</rb><rt>と</rt></ruby>まって\\nどうした!?　<ruby><rb>追</rb><rt>お</rt></ruby>いつかれるぞ！",
+        "zh_cn": "赛希尔！\\n怎么在桥上停下不走了！？\\n会被他们追上的！",
+        "zh_tw": "賽席爾！為什麼要停在橋上！？\\n會被他們追上的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0038",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "On the count of ten, jump.",
+        "ja_jp": "10<ruby><rb>数</rb><rt>かぞ</rt></ruby>えた<ruby><rb>後</rb><rt>あと</rt></ruby>に\\nここから<ruby><rb>飛</rb><rt>と</rt></ruby>び<ruby><rb>降</rb><rt>お</rt></ruby>りるわよ。",
+        "zh_cn": "我数10个数之后，\\n我们就从这里跳下去。",
+        "zh_tw": "我倒數10之後，就從這裡跳下去。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0039",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "You mean OFF the bridge?!",
+        "ja_jp": "<ruby><rb>飛</rb><rt>と</rt></ruby>び<ruby><rb>降</rb><rt>お</rt></ruby>りる!?",
+        "zh_cn": "跳下去！？",
+        "zh_tw": "跳下去！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0040",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Just trust me. Three, two, one...",
+        "ja_jp": "いいから、<ruby><rb>私</rb><rt>わたし</rt></ruby>を<ruby><rb>信</rb><rt>しん</rt></ruby>じて。\\nあと3、2……",
+        "zh_cn": "好了，相信我就是。\\n3、2……",
+        "zh_tw": "別多問，相信我吧。\\n還剩3、2……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0041",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Templar 1",
+        "ja_jp": "教会騎士1",
+        "zh_cn": "教会骑士1",
+        "zh_tw": "教會騎士1"
+      },
+      "context": {
+        "en_us": "There he is! After him!",
+        "ja_jp": "いたぞおおおお！",
+        "zh_cn": "他在那！",
+        "zh_tw": "找到了────！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0042",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Templar 2",
+        "ja_jp": "教会騎士2",
+        "zh_cn": "教会骑士2",
+        "zh_tw": "教會騎士2"
+      },
+      "context": {
+        "en_us": "He's surrounded!",
+        "ja_jp": "<ruby><rb>挟</rb><rt>はさ</rt></ruby>み<ruby><rb>撃</rb><rt>う</rt></ruby>ちだ！",
+        "zh_cn": "包围他！",
+        "zh_tw": "快包抄他們！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0043",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "JUUUMP!",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>よ！　<ruby><rb>飛</rb><rt>と</rt></ruby>び<ruby><rb>降</rb><rt>お</rt></ruby>りて！",
+        "zh_cn": "就是现在！快跳！",
+        "zh_tw": "就是現在！快跳！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0044",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "FOR NEW ALBERIAAAA!",
+        "ja_jp": "わ、わかった！",
+        "zh_cn": "知、知道了！",
+        "zh_tw": "我、我知道了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0045",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Templar 1",
+        "ja_jp": "教会騎士1",
+        "zh_cn": "教会骑士1",
+        "zh_tw": "教會騎士1"
+      },
+      "context": {
+        "en_us": "What?! \\n...Wait, all of you, stop! STOP!",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>!?　……って、<ruby><rb>止</rb><rt>と</rt></ruby>まれ<ruby><rb>止</rb><rt>と</rt></ruby>まれ！",
+        "zh_cn": "什么！？站、站住！",
+        "zh_tw": "什麼！？\\n……唔，快停快停啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0046",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Templar 2",
+        "ja_jp": "教会騎士2",
+        "zh_cn": "教会骑士2",
+        "zh_tw": "教會騎士2"
+      },
+      "context": {
+        "en_us": "We're going too fast! I can't...\\nNooooooo!",
+        "ja_jp": "わわ、<ruby><rb>急</rb><rt>きゅう</rt></ruby>に<ruby><rb>止</rb><rt>と</rt></ruby>まれな……ぎゃあああ！",
+        "zh_cn": "哇哇，已经刹不住……呀啊啊啊！",
+        "zh_tw": "哇哇，太突然了停不……呀啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0047",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Looks like we lost 'em.",
+        "ja_jp": "……<ruby><rb>尾行</rb><rt>びこう</rt></ruby>はいないわね。",
+        "zh_cn": "看来没有人追上来……",
+        "zh_tw": "……應該沒有人跟蹤吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0048",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "And where are we, exactly?",
+        "ja_jp": "セシル、ここは……？",
+        "zh_cn": "赛希尔，这里是……",
+        "zh_tw": "賽席爾，這裡是……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0049",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "The guild where I'm staying.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>泊</rb><rt>とま</rt></ruby>ってる<ruby><rb>宿</rb><rt>やど</rt></ruby>。\\nとりあえず<ruby><rb>撒</rb><rt>ま</rt></ruby>けてよかった。",
+        "zh_cn": "这是我住的旅馆。\\n总之甩掉了那些人就好。",
+        "zh_tw": "是我下榻的旅館。\\n總之有成功甩掉他們就好。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0050",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "I can't believe you managed to time our\\nleap so a ship was passing below.",
+        "ja_jp": "まさか<ruby><rb>橋</rb><rt>はし</rt></ruby>の<ruby><rb>下</rb><rt>した</rt></ruby>を<ruby><rb>通過</rb><rt>つうか</rt></ruby>する<ruby><rb>船</rb><rt>ふね</rt></ruby>に<ruby><rb>乗</rb><rt>の</rt></ruby>り<ruby><rb>移</rb><rt>うつ</rt></ruby>って\\n<ruby><rb>逃</rb><rt>に</rt></ruby>げるとは<ruby><rb>思</rb><rt>おも</rt></ruby>わなかったぞ……。",
+        "zh_cn": "没想到竟然能跳到\\n正好驶过桥下的船上逃走……",
+        "zh_tw": "沒想到可以靠\\n跳到通過橋下的船來逃脫……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0051",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "That ship always passes by at that time.\\nYou gotta make use of everything you can.",
+        "ja_jp": "いつもあの<ruby><rb>時間</rb><rt>じかん</rt></ruby>に<ruby><rb>通</rb><rt>とお</rt></ruby>る<ruby><rb>船</rb><rt>ふね</rt></ruby>なの。\\n<ruby><rb>使</rb><rt>つか</rt></ruby>えるものは<ruby><rb>使</rb><rt>つか</rt></ruby>わないと。",
+        "zh_cn": "那艘船每天都会\\n在那个时间经过，物尽其用。",
+        "zh_tw": "那艘船總是固定在那個時間經過。\\n能利用的東西就得加以利用啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0052",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Oh, and...it's good to see you again.",
+        "ja_jp": "<ruby><rb>改</rb><rt>あらた</rt></ruby>めて……<ruby><rb>久</rb><rt>ひさ</rt></ruby>しぶりね、リーフ。",
+        "zh_cn": "刚才没来得及说……\\n好久不见，利弗。",
+        "zh_tw": "那麼重新……好久不見了，李弗。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0053",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "The feeling is more than mutual, Cecile.\\nHow long has it been now?",
+        "ja_jp": "ああ……いつぶりだろうか。",
+        "zh_cn": "是啊……\\n上次见都是什么时候了。",
+        "zh_tw": "是啊……有多久沒見了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0054",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Since you were made a captain, I think.",
+        "ja_jp": "あなたの<ruby><rb>団長就任</rb><rt>だんちょうしゅうにん</rt></ruby>をお<ruby><rb>祝</rb><rt>いわ</rt></ruby>い\\nしたとき<ruby><rb>以来</rb><rt>いらい</rt></ruby>じゃない？",
+        "zh_cn": "自打庆祝你就任团长以后\\n就没见过了吧？",
+        "zh_tw": "從慶祝你就任團長那時候以來吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0055",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "After that, things got busy for both of us.\\nNot much time for socializing.",
+        "ja_jp": "その<ruby><rb>後</rb><rt>あと</rt></ruby>はお<ruby><rb>互</rb><rt>たが</rt></ruby>い<ruby><rb>忙</rb><rt>いそが</rt></ruby>しくて、\\n<ruby><rb>顔</rb><rt>かお</rt></ruby>を<ruby><rb>合</rb><rt>あ</rt></ruby>わせる<ruby><rb>機会</rb><rt>きかい</rt></ruby>もろくになかったし。",
+        "zh_cn": "那之后我们都很忙，\\n没什么见面的机会。",
+        "zh_tw": "那之後彼此都變得很忙，\\n自然也沒什麼時間見面了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0056",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "And damn, you haven't changed a bit from\\nour academy days. I recognized you the\\nmoment I laid eyes.",
+        "ja_jp": "あなたは<ruby><rb>学生</rb><rt>がくせい</rt></ruby><ruby><rb>時代</rb><rt>じだい</rt></ruby>から<ruby><rb>変</rb><rt>か</rt></ruby>わって\\nいないわね。<ruby><rb>久</rb><rt>ひさ</rt></ruby>しぶりなのに、\\nすぐにわかったわ。",
+        "zh_cn": "你还是和学生时代一样呢。\\n明明都这么久没见了，\\n我还是一眼就认出来了。",
+        "zh_tw": "你跟學生時代一樣完全沒變呢。\\n明明這麼久沒見，\\n我還是馬上就認出你了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0057",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Yes, the years have been kind to me for\\nthe greater part.",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>は<ruby><rb>昔</rb><rt>むかし</rt></ruby>と<ruby><rb>雰囲気</rb><rt>ふんいき</rt></ruby>が<ruby><rb>変</rb><rt>か</rt></ruby>わったな。\\n<ruby><rb>最初</rb><rt>さいしょ</rt></ruby>は<ruby><rb>誰</rb><rt>だれ</rt></ruby>だかわからなかったぞ。",
+        "zh_cn": "倒是你的气质\\n和以前不一样了啊。\\n一开始我都没认出来。",
+        "zh_tw": "妳則是和以前相比變了很多，\\n我最初完全沒發現是誰。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0058",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Is it true what I hear about you, though?\\nThat you abandoned our order and took up\\nas a sellsword?",
+        "ja_jp": "<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>だったんだな。<ruby><rb>騎士</rb><rt>きし</rt></ruby>を<ruby><rb>辞</rb><rt>や</rt></ruby>めて\\n<ruby><rb>傭兵</rb><rt>ようへい</rt></ruby>をしているという<ruby><rb>話</rb><rt>はなし</rt></ruby>は。",
+        "zh_cn": "看来传闻不假。\\n你已经不当骑士，\\n改行当佣兵了吧。",
+        "zh_tw": "看來那件事是真的吧，\\n妳辭去騎士轉職當傭兵的事。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0059",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Heard about that, did you?",
+        "ja_jp": "<ruby><rb>知</rb><rt>し</rt></ruby>ってたのね。",
+        "zh_cn": "原来你知道啊。",
+        "zh_tw": "原來你知道啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0060",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "You know how rumors carry on the wind—\\nthough I never paid them much mind.",
+        "ja_jp": "ああ、<ruby><rb>風</rb><rt>かぜ</rt></ruby>の<ruby><rb>便</rb><rt>たよ</rt></ruby>りで<ruby><rb>聞</rb><rt>き</rt></ruby>いた。\\nにわかには<ruby><rb>信</rb><rt>しん</rt></ruby>じられなかったがな。",
+        "zh_cn": "嗯，我也是听别人说的，\\n只是当时还不太相信。",
+        "zh_tw": "嗯，我聽說過傳聞。\\n雖然之前一直覺得難以相信。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0061",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "You were always the most devoted among\\nall of us at the academy. When I heard\\nyou'd renounced it all, I... Well, I didn't\\nreally know what to think.",
+        "ja_jp": "<ruby><rb>将士学校</rb><rt>しょうしがっこう</rt></ruby><ruby><rb>時代</rb><rt>じだい</rt></ruby>から<ruby><rb>騎士道</rb><rt>きしどう</rt></ruby>に<ruby><rb>篤</rb><rt>あつ</rt></ruby>かった\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>が、まさか<ruby><rb>騎士</rb><rt>きし</rt></ruby>を<ruby><rb>辞</rb><rt>じ</rt></ruby>したなど……。",
+        "zh_cn": "你从军事学校时期\\n就一心追求骑士道，\\n没想到你会不当骑士……",
+        "zh_tw": "從軍官學校時代就堅持騎士道的妳，\\n沒想到會辭去騎士……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0062",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "A lot happened—more than you can\\nimagine. But you weren't the only one\\nwith a little bird whispering in their ear.",
+        "ja_jp": "……いろいろあったの。いろいろね。\\nそれより、<ruby><rb>噂</rb><rt>うわさ</rt></ruby>なら<ruby><rb>私</rb><rt>わたし</rt></ruby>も<ruby><rb>聞</rb><rt>き</rt></ruby>いてるわよ。",
+        "zh_cn": "发生了各种变故……\\n不过，我也听说了你的事。",
+        "zh_tw": "……因為發生了很多事。非常多。\\n話說回來，我也有聽到傳聞喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0063",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "I hear the White Sparrows cut free of\\nDyrenell and took up with New Alberia.",
+        "ja_jp": "<ruby><rb>白燕騎士団</rb><rt>はくえんきしだん</rt></ruby>ごとディアネル<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>から\\n<ruby><rb>出奔</rb><rt>しゅっぽん</rt></ruby>して、そのまま<ruby><rb>新</rb><rt>しん</rt></ruby>アルベリア<ruby><rb>王国</rb><rt>おうこく</rt></ruby>に\\nついたんだってね。",
+        "zh_cn": "说你带着整个白燕骑士团\\n从狄涅尔帝国出逃，\\n投奔了新阿尔贝里亚王国。",
+        "zh_tw": "聽說白燕騎士團全員\\n逃出狄亞內魯帝國，\\n轉而投靠了新阿爾貝利亞王國。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0064",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Makes it even stranger to find you all\\nthe way up here in the north.",
+        "ja_jp": "そんなあなたが、\\nどうして<ruby><rb>北</rb><rt>グラムス</rt></ruby>にいるの？",
+        "zh_cn": "那你现在为什么\\n会在北方啊？",
+        "zh_tw": "那樣的你，為什麼會在北方呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0065",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "We were retuning from a northern ally\\nwhen we were ambushed at the border.",
+        "ja_jp": "<ruby><rb>北大陸</rb><rt>きたたいりく</rt></ruby>にある<ruby><rb>同盟国</rb><rt>どうめいこく</rt></ruby>からの<ruby><rb>帰路</rb><rt>きろ</rt></ruby>で\\nグラムス<ruby><rb>領付近</rb><rt>りょうふきん</rt></ruby>を<ruby><rb>通</rb><rt>とお</rt></ruby>ったおり、\\n<ruby><rb>奇襲</rb><rt>きしゅう</rt></ruby>を<ruby><rb>受</rb><rt>う</rt></ruby>けてな。",
+        "zh_cn": "我从北大陆的同盟国返回时，\\n在格拉姆斯领地附近\\n遭到了偷袭。",
+        "zh_tw": "我來造訪北大陸的同盟國，\\n卻在回程途經葛拉姆斯領土附近時，\\n遭到了襲擊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0066",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "I broke away from my unit to give them\\ntime to escape, but the Church knights cut\\noff my retreat and forced me into Grams.",
+        "ja_jp": "<ruby><rb>本隊</rb><rt>ほんたい</rt></ruby>を<ruby><rb>逃</rb><rt>に</rt></ruby>がすため<ruby><rb>単独行動</rb><rt>たんどくこうどう</rt></ruby>をしたものの\\n<ruby><rb>退路</rb><rt>たいろ</rt></ruby>を<ruby><rb>断</rb><rt>た</rt></ruby>たれ、<ruby><rb>挙句</rb><rt>あげく</rt></ruby>、グラムスまで\\n<ruby><rb>誘</rb><rt>さそ</rt></ruby>いこまれてしまった。",
+        "zh_cn": "为了让主力部队逃走，\\n我单独采取行动，但被断了后路，\\n就被一路逼到了格拉姆斯这里。",
+        "zh_tw": "當時為了讓主力部隊逃脫而單獨行動，\\n卻被斷絕退路，\\n最後甚至迫不得已進入葛拉姆斯。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0067",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "It makes sense to separate you given the\\nthreat you could pose. Maybe those\\nTemplars aren't as stupid as I thought.",
+        "ja_jp": "たしかにあなたほどの<ruby><rb>手練</rb><rt>てだ</rt></ruby>れを<ruby><rb>相手</rb><rt>あいて</rt></ruby>に\\nするなら、<ruby><rb>分断</rb><rt>ぶんだん</rt></ruby>して<ruby><rb>囲</rb><rt>かこ</rt></ruby>い<ruby><rb>込</rb><rt>こ</rt></ruby>むのは\\nいい<ruby><rb>策</rb><rt>さく</rt></ruby>ね。<ruby><rb>教会騎士</rb><rt>きょうかいきし</rt></ruby>も<ruby><rb>賢</rb><rt>かしこ</rt></ruby>いじゃない。",
+        "zh_cn": "面对像你那么老练的对手，\\n切断后路瓮中捉鳖的确是不错的策略。\\n教会骑士也很聪明嘛。",
+        "zh_tw": "確實對付你這樣身經百戰的對手，\\n先讓你落單再包圍是個好方法。\\n教會騎士也滿聰明的嘛。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0068",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "They certainly have me on the back foot.\\nBut fortune has favored me with our \\nmeeting. Which leads me to a question...",
+        "ja_jp": "ああ。おかげで<ruby><rb>少々分</rb><rt>しょうしょうぶ</rt></ruby>が<ruby><rb>悪</rb><rt>わる</rt></ruby>い。\\nだが、お<ruby><rb>前</rb><rt>まえ</rt></ruby>と<ruby><rb>再会</rb><rt>さいかい</rt></ruby>できたのは<ruby><rb>僥倖</rb><rt>ぎょうこう</rt></ruby>だ。",
+        "zh_cn": "是啊。拜他们所赐，\\n我正处于不利的局面。\\n不过幸好遇到了你。",
+        "zh_tw": "是啊。因此我方目前形勢稍嫌不利。\\n不過，能與妳重逢實在是幸運。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0069",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Cecile, will you help me return home?\\nAnd what's more, as a fellow knight of\\nAlberia, will you fight at my side for the\\nroyal family once more?",
+        "ja_jp": "セシル、<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>新</rb><rt>しん</rt></ruby>アルベリアへ<ruby><rb>帰</rb><rt>かえ</rt></ruby>らねば\\nならない。その<ruby><rb>手助</rb><rt>てだす</rt></ruby>けをしてほしい。\\nそして――",
+        "zh_cn": "赛希尔，我必须回到新阿尔贝里亚，\\n希望你能助我一臂之力。\\n还有——",
+        "zh_tw": "賽席爾，我必須回到新阿爾貝利亞。\\n希望妳能幫助我。\\n還有──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0070",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Please, for the sake of our old friendship,\\nwill you do this thing? I can think of no\\none I would rather have at my side.",
+        "ja_jp": "<ruby><rb>今一度</rb><rt>いまいちど</rt></ruby>、アルベリアの<ruby><rb>騎士</rb><rt>きし</rt></ruby>として\\n<ruby><rb>王家</rb><rt>おうけ</rt></ruby>のために<ruby><rb>共</rb><rt>とも</rt></ruby>に<ruby><rb>戦</rb><rt>たたか</rt></ruby>ってはくれないか？\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>が<ruby><rb>仲間</rb><rt>なかま</rt></ruby>に<ruby><rb>加</rb><rt>くわ</rt></ruby>わるならば<ruby><rb>心強</rb><rt>こころづよ</rt></ruby>い。",
+        "zh_cn": "你能再次作为阿尔贝里亚的骑士，\\n为了王室与我并肩战斗吗？\\n要是你能加入就再可靠不过了。",
+        "zh_tw": "妳能不能再次以阿爾貝利亞騎士身分，\\n與我共同為了王家而戰？\\n如果妳願意加入，將會讓人非常安心。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0071",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "A knight of Alberia... The royal family...\\nFor the sake of...",
+        "ja_jp": "アルベリア……<ruby><rb>騎士</rb><rt>きし</rt></ruby>……\\n<ruby><rb>王家</rb><rt>おうけ</rt></ruby>のため……<ruby><rb>戦</rb><rt>たたか</rt></ruby>、う……？",
+        "zh_cn": "阿尔贝里亚……骑士……\\n为了王室……战斗？",
+        "zh_tw": "阿爾貝利亞……騎士……\\n為了王家……而、戰……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0072",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0073",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Cecile? Whatever is the matter?",
+        "ja_jp": "セシル？",
+        "zh_cn": "赛希尔？",
+        "zh_tw": "賽席爾？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0074",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Nnnnngh...",
+        "ja_jp": "む、む、む………………",
+        "zh_cn": "这、这、这……",
+        "zh_tw": "不、不、不………………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0075",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "No! No, no, no! No way in HELL!",
+        "ja_jp": "<ruby><rb>無理</rb><rt>むり</rt></ruby>ぃ～～～っ!!",
+        "zh_cn": "这绝对不行！",
+        "zh_tw": "不行～～～～！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0076",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Cecile!",
+        "ja_jp": "セシル……!?",
+        "zh_cn": "赛希尔！？",
+        "zh_tw": "賽席爾……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_01_0077",
+      "book": ""
+    }
+  ]
 }

@@ -1,643 +1,1224 @@
 {
-    "story_id": "",
-    "story_name": "动乱的王都 第14章 2-1 城墙前的攻防",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "面对哈尔军的魔导兵器，王子陷入苦战。\\n战斗人偶们以丧失自己的心为代价，\\n令一行人得以成功突破魔导兵器。\\n而马斯古拉将一切归咎于自己，\\n关闭了他的心。"
-        ]
+  "title": {
+    "en_us": "Chaos in the Capital  Ch. 14 / 2-1  The Weight of a Heart",
+    "ja_jp": "動乱の王都 14章 2-1 城壁の攻防",
+    "zh_cn": "动乱的王都 第14章 2-1 城墙前的攻防",
+    "zh_tw": "騷亂的王都 第14章 2-1 城牆攻防"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [],
-            "speaker_name": "telop",
-            "context": "\\n狄涅尔帝国 帝都\\n（旧）王都索尔·阿尔贝里亚　城墙前\\n \\n ",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "正在统计前方城墙前的帝国军。\\n人数100、200、300、400……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "终于登场了啊，\\n还摆了这么大的阵仗。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "失敬失敬，这不是新阿尔贝里亚\\n尊贵的各位吗。远道而来，\\n帝都欢迎你们。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "哈尔！\\n快撤军、打开城门！\\n我们不想伤及无辜。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "呵呵，尤蒂尔殿下。\\n看到你还是没变我就放心了。\\n哎呀？",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "没想到圣骑士大人也在场。\\n真是好久未见了呢。\\n您似乎对战斗的大义感到迷茫。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "闭嘴！我的心时刻\\n与新阿尔贝里亚同在！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "那就让我们大战一场吧！\\n我们黑鸦骑士团对于入侵者\\n可不会敞开大门。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_05"
-            ],
-            "speaker_name": "穆穆",
-            "context": "什么叫入侵者！你的说话方式\\n还是那么让人火大！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "哈尔，就算被称为入侵者，\\n我们也有无法妥协的事物。\\n我们要打败你们，打开前往王都的路！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "好吧。忠诚勇猛的帝国战士们！\\n用叛贼的血来一场狂欢吧！\\n全军，突击！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120008_01"
-            ],
-            "speaker_name": "帝国兵",
-            "context": "荣耀属于帝国！\\n噢噢噢噢！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120127_01"
-            ],
-            "speaker_name": "新阿尔贝里亚士兵1",
-            "context": "为了新时代与和平！\\n哇啊啊啊啊！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "启动。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120127_01"
-            ],
-            "speaker_name": "新阿尔贝里亚士兵1",
-            "context": "哇啊啊啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "怎、怎么了！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120127_01"
-            ],
-            "speaker_name": "新阿尔贝里亚士兵1",
-            "context": "好、好热……好热啊！\\n救命啊啊啊啊！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "究竟发生了什么……\\n所有人后退！\\n把伤员抬到后面去！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "恐怕是魔导兵器那一类的……\\n那面墙壁由强大的能量筑成，\\n碰到的人会被灼伤……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "可恶，一转眼我们就被墙壁包围，\\n成了瓮中之鳖！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_05"
-            ],
-            "speaker_name": "穆穆",
-            "context": "这种墙只要轻松一跳……\\n好像行不通呢，\\n上面也被堵住了……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "得赶快想个办法……\\n应该不会只是把我们关起来\\n这么简单……嗯！？",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120128_01"
-            ],
-            "speaker_name": "新阿尔贝里亚士兵2",
-            "context": "喂、喂！\\n墙壁逼近了……\\n快、快逃！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120127_01"
-            ],
-            "speaker_name": "新阿尔贝里亚士兵们",
-            "context": "哇、哇啊啊啊！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "大家都冷静一下！\\n尽可能聚到中央！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "呃……我们得想办法\\n从这里脱身才行！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "尤蒂尔，\\n启动装置在那里。\\n——只要解除它应该就能脱身！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "但是，那可是在墙的外部啊！？\\n现在根本出不去，没法解除……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "呃……要怎么办……\\n这样下去，大家会没命……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120151_01"
-            ],
-            "speaker_name": "战斗人偶",
-            "context": "命……麦斯特罗、难过？\\n我也……难过。\\n没……命，不……行。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "诶？",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "嗯！？战斗人偶……不行。\\n这种时候，别擅自行动！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120151_01"
-            ],
-            "speaker_name": "战斗人偶",
-            "context": "拒绝指令。\\n转换为攻击模式……转换完毕。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120151_02"
-            ],
-            "speaker_name": "战斗人偶们",
-            "context": "目标……启动装置。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "你们……难道要……\\n——穿过墙壁去解除装置吗！？",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120151_02"
-            ],
-            "speaker_name": "战斗人偶们",
-            "context": "予以肯定。开始执行。\\n和、和平……为了和平。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——不行。虽然战斗人偶的外壳\\n也许能穿过墙壁里……\\n但是，内部器官会受损严重！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——没错！等一下！\\n不行……不能去！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120151_01"
-            ],
-            "speaker_name": "战斗人偶A",
-            "context": "——能量启动装置解析完毕。\\n——损害极大。——但是、但是。\\n——开始解除。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120151_01"
-            ],
-            "speaker_name": "战斗人偶A",
-            "context": "损害极大。无法继续行动。\\n将行动移交给并行机继续……\\n我即将消失……消失——停止功能。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "莱姬希！拜托了，快让他们停下！\\n——我知道。战斗人偶队，立即后退！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120151_01"
-            ],
-            "speaker_name": "战斗人偶D",
-            "context": "拒绝指令。交接行动。\\n解除已进行50%……60%……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120151_01"
-            ],
-            "speaker_name": "战斗人偶G",
-            "context": "损伤率上升。突破危险值。\\n行动交接……完毕。功能即将停止……\\n我即将消失……害怕。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120151_01"
-            ],
-            "speaker_name": "战斗人偶K",
-            "context": "继续解除。解除已进行70%、80%……\\n损伤极大——心逐渐冷却。\\n这就是……死？不要……但是。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120151_01"
-            ],
-            "speaker_name": "战斗人偶Z",
-            "context": "90%、95%、99%……100%。\\n——解除……完毕。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120151_01"
-            ],
-            "speaker_name": "战斗人偶Z",
-            "context": "——开心吗？麦斯特罗开心、\\n我也、开心。但是、就要、\\n结束了……难过……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120151_01"
-            ],
-            "speaker_name": "战斗人偶Z",
-            "context": "——再见、麦斯特罗。\\n你要、好好的……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "墙壁，消失了……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "战斗人偶们呢！？",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "外伤还能修复……可是，内部器官\\n损伤严重。失去因异常而产生的“心”\\n无法避免……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "怎么会这样……\\n好不容易才萌生的心，\\n就这么消失了吗！？",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——都怪我。\\n直到失去心之前，\\n他们都在惧怕死亡。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "要是没有“心”，\\n他们就不会体会到\\n死亡的痛苦……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "都怪我有了一颗心……\\n进入到莱姬希的身体……\\n都怪我，他们才会……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "马斯古拉，这不是你的错！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "卢卡，谢谢你这么说。\\n不过……是我害死了他们。\\n因为我的心。都怪我……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "对不起……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "——马斯古拉？\\n——……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "喂，莱姬希，马斯古拉呢！\\n马斯古拉怎么了！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "他切断了自我回路……\\n必须要马斯古拉本人才能重启。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "马斯古拉……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "尤蒂尔……\\n现在可不是失意的时候。\\n马斯古拉的事之后再说。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "现在只能在这条他们用生命\\n开辟出来的道路上前行。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100032_01"
-            ],
-            "speaker_name": "莱姬希",
-            "context": "同意。战斗人偶的愿望……\\n就是你能前进……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "莱姬希……我知道了。\\n为了不辜负战斗人偶们的心意。\\n我要进入王都。",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120081_01"
-            ],
-            "speaker_name": "帝国兵1",
-            "context": "哈、哈尔大人！\\n新阿尔贝里亚军\\n向这里发起了突袭！",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "行吧……只要我们有城墙作掩护，\\n总会有办法的。就算他们再怎么厉害，\\n那么牢固的城墙也……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120041_01"
-            ],
-            "speaker_name": "帝国兵2",
-            "context": "报告！\\n不、不好了。城墙被……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "那是什么？原来如此……\\n看来如此盛大的一场战役，\\n需要一些觉悟才能好好享受……",
-            "voice_line": "VO_CHR_MAINSTORY_14_02_0069",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "The prince and his allies become locked in a\\nfierce struggle with Harle, who traps them with\\na magical weapon. The heroic efforts of the\\ncombat androids set them free, but it comes\\nat the loss of their hearts. Feeling responsible,\\nMascula then closes off his own heart.",
+      "ja_jp": "<ruby><rb>魔動兵器</rb><rt>まどうへいき</rt></ruby>を<ruby><rb>操</rb><rt>あやつ</rt></ruby>るハール<ruby><rb>軍</rb><rt>ぐん</rt></ruby>に、<ruby><rb>苦戦</rb><rt>くせん</rt></ruby>する<ruby><rb>王子</rb><rt>おうじ</rt></ruby>。\\n<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>たちの<ruby><rb>献身</rb><rt>けんしん</rt></ruby>により<ruby><rb>魔動兵器</rb><rt>まどうへいき</rt></ruby>を<ruby><rb>突破</rb><rt>とっぱ</rt></ruby>\\nするが、その<ruby><rb>代償</rb><rt>だいしょう</rt></ruby>として<ruby><rb>彼</rb><rt>かれ</rt></ruby>らは<ruby><rb>心</rb><rt>こころ</rt></ruby>を<ruby><rb>失</rb><rt>うしな</rt></ruby>う。\\n<ruby><rb>彼</rb><rt>かれ</rt></ruby>らの<ruby><rb>行動</rb><rt>こうどう</rt></ruby>に<ruby><rb>責任</rb><rt>せきにん</rt></ruby>を<ruby><rb>感</rb><rt>かん</rt></ruby>じたマスキュラは、\\n<ruby><rb>自</rb><rt>みずか</rt></ruby>らの<ruby><rb>心</rb><rt>こころ</rt></ruby>を<ruby><rb>閉</rb><rt>と</rt></ruby>ざしてしまうのだった。",
+      "zh_cn": "面对哈尔军的魔导兵器，王子陷入苦战。\\n战斗人偶们以丧失自己的心为代价，\\n令一行人得以成功突破魔导兵器。\\n而马斯古拉将一切归咎于自己，\\n关闭了他的心。",
+      "zh_tw": "面對哈魯軍的魔動兵器，王子陷入苦戰。\\n雖然因戰鬥人偶們的犧牲而擊破魔動兵器，\\n代價卻是喪失它們擁有的心。\\n對人偶們的行動感到自責的馬斯科拉，\\n也就此封閉了自己的心。"
+    }
+  },
+  "prev": "1001401",
+  "next": "1001403",
+  "content": [
+    {
+      "icon": "",
+      "name": {
+        "en_us": "telop",
+        "ja_jp": "telop",
+        "zh_cn": "telop",
+        "zh_tw": "telop"
+      },
+      "context": {
+        "en_us": "\\nImperial Capital\\nFormer Sol Alberia - Before the City Walls\\n \\n ",
+        "ja_jp": "<ruby><rb>ディアネル帝国 帝都</rb><rt>　　　　　　　　　　 ていこく 　ていと </rt></ruby>",
+        "zh_cn": "\\n狄涅尔帝国 帝都\\n（旧）王都索尔·阿尔贝里亚　城墙前\\n \\n ",
+        "zh_tw": "\\n狄亞內魯帝國　帝都\\n（原）王都索魯‧阿爾貝利亞　城牆前\\n \\n "
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Scanning forces defending city walls.\\nCurrent numbers: 100...200...300...400...",
+        "ja_jp": "<ruby><rb>前方</rb><rt>ぜんぽう</rt></ruby>、<ruby><rb>城壁前</rb><rt>じょうへきまえ</rt></ruby>の<ruby><rb>帝国軍</rb><rt>ていこくぐん</rt></ruby>を<ruby><rb>計測中</rb><rt>けいそくちゅう</rt></ruby>。\\n<ruby><rb>兵数</rb><rt>へいすう</rt></ruby>100、200、300、400――。",
+        "zh_cn": "正在统计前方城墙前的帝国军。\\n人数100、200、300、400……",
+        "zh_tw": "前方，城牆前帝國軍計數中。\\n兵數100、200、300、400──"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0001",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Looks like they brought out all hands\\nand the ship's cook to say hi.",
+        "ja_jp": "いよいよお<ruby><rb>出</rb><rt>で</rt></ruby>ましだな。\\nずらりと<ruby><rb>勢揃</rb><rt>せいぞろ</rt></ruby>いってわけか。",
+        "zh_cn": "终于登场了啊，\\n还摆了这么大的阵仗。",
+        "zh_tw": "終於出現啦。\\n還擺出那麼大陣仗呢。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0002",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Ah, the distinguished dignitaries of\\nNew Alberia arrive at last. Welcome!\\nYour journey must have been terribly\\nexhausting—might I make you some tea?",
+        "ja_jp": "これはこれは、<ruby><rb>新</rb><rt>しん</rt></ruby>アルべリアの\\n<ruby><rb>御歴々</rb><rt>おれきれき</rt></ruby>の<ruby><rb>皆様</rb><rt>みなさま</rt></ruby>。<ruby><rb>遠路</rb><rt>えんろ</rt></ruby>はるばる\\nようこそ<ruby><rb>帝都</rb><rt>ていと</rt></ruby>へ。<ruby><rb>歓迎</rb><rt>かんげい</rt></ruby>いたしますよ。",
+        "zh_cn": "失敬失敬，这不是新阿尔贝里亚\\n尊贵的各位吗。远道而来，\\n帝都欢迎你们。",
+        "zh_tw": "哎呀哎呀，\\n這不是新阿爾貝利亞尊貴的各位嗎。\\n特地遠道而來，帝都非常歡迎喔。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0003",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Stand down your forces and open the gate,\\nHarle! There's no need for any bloodshed!",
+        "ja_jp": "ハール！　<ruby><rb>軍</rb><rt>ぐん</rt></ruby>を<ruby><rb>退</rb><rt>ひ</rt></ruby>いて、\\n<ruby><rb>城門</rb><rt>じょうもん</rt></ruby>を<ruby><rb>開</rb><rt>あ</rt></ruby>けてくれないか。\\n<ruby><rb>無駄</rb><rt>むだ</rt></ruby>な<ruby><rb>血</rb><rt>ち</rt></ruby>を<ruby><rb>流</rb><rt>なが</rt></ruby>したくはないんだ。",
+        "zh_cn": "哈尔！\\n快撤军、打开城门！\\n我们不想伤及无辜。",
+        "zh_tw": "哈魯！\\n可以拜託你撤兵，打開城門嗎。\\n我不希望流無意義的血。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0004",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "I'm so relieved your disposition remains\\nas it ever was, dear Prince.",
+        "ja_jp": "ふふ、ユーディル<ruby><rb>殿下</rb><rt>でんか</rt></ruby>。\\n<ruby><rb>相変</rb><rt>あいか</rt></ruby>わらずのご<ruby><rb>性分</rb><rt>しょうぶん</rt></ruby>のようで\\n<ruby><rb>安心</rb><rt>あんしん</rt></ruby>いたしました。おやおや――？",
+        "zh_cn": "呵呵，尤蒂尔殿下。\\n看到你还是没变我就放心了。\\n哎呀？",
+        "zh_tw": "呵呵，尤帝爾殿下。\\n您的性格似乎還是跟以前一樣，\\n這樣我就安心了。哎呀哎呀──？"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0005",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "And hello again to you, noble Paladyn!\\nIt has been FAR too long since we chatted.\\nI get the impression you are not entirely\\nconvinced that your war is just.",
+        "ja_jp": "<ruby><rb>聖騎士様</rb><rt>せいきしさま</rt></ruby>もご<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>とは、<ruby><rb>驚</rb><rt>おどろ</rt></ruby>きです。\\n<ruby><rb>久</rb><rt>ひさ</rt></ruby>しぶりですね。<ruby><rb>戦</rb><rt>たたか</rt></ruby>いの<ruby><rb>大義</rb><rt>たいぎ</rt></ruby>に\\n<ruby><rb>迷</rb><rt>まよ</rt></ruby>っているようにお<ruby><rb>見受</rb><rt>みう</rt></ruby>けしますが。",
+        "zh_cn": "没想到圣骑士大人也在场。\\n真是好久未见了呢。\\n您似乎对战斗的大义感到迷茫。",
+        "zh_tw": "聖騎士大人竟然也在，真令我吃驚。\\n好久不見了呢。雖然妳看起來\\n對戰爭的大義抱有疑慮就是了。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0006",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Stay your tongue, dog!\\nMy heart beats ever for New Alberia!",
+        "ja_jp": "…………！\\n<ruby><rb>黙</rb><rt>だま</rt></ruby>れっ！　<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>心</rb><rt>こころ</rt></ruby>はいつも\\n<ruby><rb>新</rb><rt>しん</rt></ruby>アルべリアと<ruby><rb>共</rb><rt>とも</rt></ruby>にある！",
+        "zh_cn": "闭嘴！我的心时刻\\n与新阿尔贝里亚同在！",
+        "zh_tw": "…………！\\n閉嘴！\\n我的心永遠與新阿爾貝利亞同在！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0007",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Well then, let us begin the festivities.\\nBut be warned: We are the Black Ravens,\\nand you will find no gates open to you\\nin this place, invaders!",
+        "ja_jp": "では、<ruby><rb>決戦</rb><rt>けっせん</rt></ruby>と<ruby><rb>参</rb><rt>まい</rt></ruby>りましょう！\\n<ruby><rb>我</rb><rt>われ</rt></ruby>ら<ruby><rb>黒鴉騎士団</rb><rt>こくあきしだん</rt></ruby>。<ruby><rb>侵略者</rb><rt>しんりゃくしゃ</rt></ruby>に<ruby><rb>対</rb><rt>たい</rt></ruby>し、<ruby><rb>開</rb><rt>ひら</rt></ruby>く\\n<ruby><rb>門</rb><rt>もん</rt></ruby>は<ruby><rb>持</rb><rt>も</rt></ruby>ち<ruby><rb>合</rb><rt>あ</rt></ruby>わせておりませんので。",
+        "zh_cn": "那就让我们大战一场吧！\\n我们黑鸦骑士团对于入侵者\\n可不会敞开大门。",
+        "zh_tw": "那麼，就開始決戰吧！\\n畢竟我們黑鴉騎士團，\\n可沒有能對侵略者敞開的門。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0008",
+      "book": ""
+    },
+    {
+      "icon": "100010_05",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "How DARE you call us invaders!\\nOoo, that jerk knows JUST how to\\npush my buttons!",
+        "ja_jp": "なにが<ruby><rb>侵略者</rb><rt>しんりゃくしゃ</rt></ruby>よ！　<ruby><rb>相変</rb><rt>あいか</rt></ruby>わらず<ruby><rb>頭</rb><rt>あたま</rt></ruby>にくる\\n<ruby><rb>言</rb><rt>い</rt></ruby>い<ruby><rb>方</rb><rt>かた</rt></ruby>するやつね！",
+        "zh_cn": "什么叫入侵者！你的说话方式\\n还是那么让人火大！",
+        "zh_tw": "什麼侵略者啊！這傢伙還是一樣，\\n聽他說話很火大耶！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0009",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "If you won't stand down, Harle,\\nthen we will take the city by force.",
+        "ja_jp": "ハール。たとえ<ruby><rb>侵略者</rb><rt>しんりゃくしゃ</rt></ruby>と<ruby><rb>呼</rb><rt>よ</rt></ruby>ばれようと\\nおれたちには<ruby><rb>譲</rb><rt>ゆず</rt></ruby>れないものがある。\\nきみたちを<ruby><rb>倒</rb><rt>たお</rt></ruby>し、<ruby><rb>王都</rb><rt>おうと</rt></ruby>への<ruby><rb>道</rb><rt>みち</rt></ruby>を<ruby><rb>拓</rb><rt>ひら</rt></ruby>く！",
+        "zh_cn": "哈尔，就算被称为入侵者，\\n我们也有无法妥协的事物。\\n我们要打败你们，打开前往王都的路！",
+        "zh_tw": "哈魯。就算被稱為侵略者，\\n我們也有不能退讓的理由。\\n我們要打倒你們，開拓前往王都的路！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0010",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Oh, ENOUGH of this! ...Loyal soldiers of\\nthe Empire, give these traitorous caitiffs\\nthe hell they came for! CHAAAARGE!",
+        "ja_jp": "よろしいでしょう。さあ、<ruby><rb>忠勇</rb><rt>ちゅうゆう</rt></ruby>なる\\n<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>の<ruby><rb>戦士</rb><rt>せんし</rt></ruby>たちよ！　<ruby><rb>叛逆者</rb><rt>はんぎゃくしゃ</rt></ruby>を<ruby><rb>血祭</rb><rt>ちまつ</rt></ruby>りに\\nあげるのです！　<ruby><rb>全軍</rb><rt>ぜんぐん</rt></ruby>、<ruby><rb>突撃</rb><rt>とつげき</rt></ruby>！",
+        "zh_cn": "好吧。忠诚勇猛的帝国战士们！\\n用叛贼的血来一场狂欢吧！\\n全军，突击！",
+        "zh_tw": "好吧。各位忠勇的帝國戰士啊！\\n以背叛者之軀來場血祭吧！\\n全軍，突擊！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0011",
+      "book": ""
+    },
+    {
+      "icon": "120008_01",
+      "name": {
+        "en_us": "Imperial Soldier",
+        "ja_jp": "帝国兵",
+        "zh_cn": "帝国兵",
+        "zh_tw": "帝國兵"
+      },
+      "context": {
+        "en_us": "Glory to the Empire! Haaaaah!",
+        "ja_jp": "<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>に<ruby><rb>栄光</rb><rt>えいこう</rt></ruby>あれ！\\nうおおおお――！",
+        "zh_cn": "荣耀属于帝国！\\n噢噢噢噢！",
+        "zh_tw": "願榮耀恆與帝國同在！\\n唔喔喔喔喔──！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0012",
+      "book": ""
+    },
+    {
+      "icon": "120127_01",
+      "name": {
+        "en_us": "New Alberian Soldier 1",
+        "ja_jp": "新アルべリア兵1",
+        "zh_cn": "新阿尔贝里亚士兵1",
+        "zh_tw": "新阿爾貝利亞兵1"
+      },
+      "context": {
+        "en_us": "For the prince! Haaaaah!",
+        "ja_jp": "<ruby><rb>新</rb><rt>あたら</rt></ruby>しき<ruby><rb>時代</rb><rt>じだい</rt></ruby>と<ruby><rb>平和</rb><rt>へいわ</rt></ruby>のために！\\nわああああ――！",
+        "zh_cn": "为了新时代与和平！\\n哇啊啊啊啊！",
+        "zh_tw": "為了嶄新的時代與和平！\\n喝啊啊啊啊──！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0013",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Activate the device.",
+        "ja_jp": "…………<ruby><rb>起動</rb><rt>きどう</rt></ruby>しろ。",
+        "zh_cn": "启动。",
+        "zh_tw": "…………起動吧。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0014",
+      "book": ""
+    },
+    {
+      "icon": "120127_01",
+      "name": {
+        "en_us": "New Alberian Soldier 1",
+        "ja_jp": "新アルべリア兵1",
+        "zh_cn": "新阿尔贝里亚士兵1",
+        "zh_tw": "新阿爾貝利亞兵1"
+      },
+      "context": {
+        "en_us": "Uwaaaargh!",
+        "ja_jp": "うわああああああああ……！",
+        "zh_cn": "哇啊啊啊啊啊啊啊啊！",
+        "zh_tw": "嗚哇啊啊啊啊啊啊啊啊……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0015",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Wh-what the—?!",
+        "ja_jp": "――――っ！\\nな、なんだ……！",
+        "zh_cn": "怎、怎么了！",
+        "zh_tw": "────！\\n怎、怎麼回事……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0016",
+      "book": ""
+    },
+    {
+      "icon": "120127_01",
+      "name": {
+        "en_us": "New Alberian Soldier 1",
+        "ja_jp": "新アルべリア兵1",
+        "zh_cn": "新阿尔贝里亚士兵1",
+        "zh_tw": "新阿爾貝利亞兵1"
+      },
+      "context": {
+        "en_us": "IT BURNS! IT BUUUUURNS!",
+        "ja_jp": "あ、<ruby><rb>熱</rb><rt>あつ</rt></ruby>い……！　<ruby><rb>熱</rb><rt>あつ</rt></ruby>い！\\n<ruby><rb>助</rb><rt>たす</rt></ruby>けてくれえええ……！",
+        "zh_cn": "好、好热……好热啊！\\n救命啊啊啊啊！",
+        "zh_tw": "好、好燙……！\\n好燙啊！\\n救救我啊啊啊……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0017",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "All units, fall back! Secure the wounded\\nand get them to the rear as you go!",
+        "ja_jp": "<ruby><rb>一体</rb><rt>いったい</rt></ruby><ruby><rb>何</rb><rt>なに</rt></ruby>が……！\\n<ruby><rb>皆</rb><rt>みな</rt></ruby>の<ruby><rb>者</rb><rt>もの</rt></ruby>、<ruby><rb>退</rb><rt>ひ</rt></ruby>くのだ！　\\n<ruby><rb>怪我人</rb><rt>けがにん</rt></ruby>を<ruby><rb>後</rb><rt>うし</rt></ruby>ろへ<ruby><rb>運</rb><rt>はこ</rt></ruby>べ！",
+        "zh_cn": "究竟发生了什么……\\n所有人后退！\\n把伤员抬到后面去！",
+        "zh_tw": "到底發生了什麼……！\\n所有人，快退下！\\n把傷患搬到後方！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0018",
+      "book": ""
+    },
+    {
+      "icon": "100004_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "He's using some manner of magical\\nweapon to form a wall of energy that\\nburns all it comes into contact with.",
+        "ja_jp": "おそらく<ruby><rb>魔動兵器</rb><rt>まどうへいき</rt></ruby>の<ruby><rb>類</rb><rt>たぐい</rt></ruby>です……。\\n<ruby><rb>強力</rb><rt>きょうりょく</rt></ruby>なエネルギーでできた<ruby><rb>壁</rb><rt>かべ</rt></ruby>が、<ruby><rb>触</rb><rt>ふ</rt></ruby>れた\\n<ruby><rb>人</rb><rt>ひと</rt></ruby>を<ruby><rb>焼</rb><rt>や</rt></ruby>いてしまうのでしょう……！",
+        "zh_cn": "恐怕是魔导兵器那一类的……\\n那面墙壁由强大的能量筑成，\\n碰到的人会被灼伤……",
+        "zh_tw": "恐怕是魔動兵器之類的東西……\\n以強力能源造出的牆壁，\\n會燒灼碰觸到的人……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0019",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "They got us boxed in here like\\na bunch'a fish in a...a box!",
+        "ja_jp": "くそっ、いつの<ruby><rb>間</rb><rt>ま</rt></ruby>にか<ruby><rb>壁</rb><rt>かべ</rt></ruby>に<ruby><rb>囲</rb><rt>かこ</rt></ruby>まれて、\\n<ruby><rb>閉</rb><rt>と</rt></ruby>じ<ruby><rb>込</rb><rt>こ</rt></ruby>められてるみたいだぜ！",
+        "zh_cn": "可恶，一转眼我们就被墙壁包围，\\n成了瓮中之鳖！",
+        "zh_tw": "可惡，我們不知道什麼時候\\n已經被牆壁給包圍、困住了！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0020",
+      "book": ""
+    },
+    {
+      "icon": "100010_05",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "And I can't even fly us out—this magical\\nbarrier contains a top as well as sides.",
+        "ja_jp": "こんな<ruby><rb>壁</rb><rt>かべ</rt></ruby>、ひとっ<ruby><rb>飛</rb><rt>と</rt></ruby>び……って<ruby><rb>言</rb><rt>い</rt></ruby>いたい\\nところだけど、<ruby><rb>上</rb><rt>うえ</rt></ruby>も<ruby><rb>塞</rb><rt>ふさ</rt></ruby>がれてる\\nみたいね……。",
+        "zh_cn": "这种墙只要轻松一跳……\\n好像行不通呢，\\n上面也被堵住了……",
+        "zh_tw": "這種牆壁，只要用飛的……\\n雖然很想這麼說，\\n但上面好像也被堵住了呢……"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0021",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "I got no interest in bein' BBQed\\nby some damn magical doodad,\\nso let's think up a plan and fast!",
+        "ja_jp": "<ruby><rb>早</rb><rt>はや</rt></ruby>くなんとかしねぇと……\\n<ruby><rb>閉</rb><rt>と</rt></ruby>じ<ruby><rb>込</rb><rt>こ</rt></ruby>めただけで<ruby><rb>終</rb><rt>お</rt></ruby>わりってことはねぇ\\nだろうし……っ!?",
+        "zh_cn": "得赶快想个办法……\\n应该不会只是把我们关起来\\n这么简单……嗯！？",
+        "zh_tw": "得快點想想辦法……\\n應該不會只是把我們困住\\n那麼簡單吧……！？"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0022",
+      "book": ""
+    },
+    {
+      "icon": "120128_01",
+      "name": {
+        "en_us": "New Alberian Soldier 2",
+        "ja_jp": "新アルべリア兵2",
+        "zh_cn": "新阿尔贝里亚士兵2",
+        "zh_tw": "新阿爾貝利亞兵2"
+      },
+      "context": {
+        "en_us": "The barrier is closing in! Ruuuun!",
+        "ja_jp": "お、おい……！\\n<ruby><rb>壁</rb><rt>かべ</rt></ruby>が<ruby><rb>迫</rb><rt>せま</rt></ruby>ってくるぞ……。\\nに、<ruby><rb>逃</rb><rt>に</rt></ruby>げろ！",
+        "zh_cn": "喂、喂！\\n墙壁逼近了……\\n快、快逃！",
+        "zh_tw": "喂、喂……！\\n牆壁不斷逼近……\\n快、快逃啊！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0023",
+      "book": ""
+    },
+    {
+      "icon": "120127_01",
+      "name": {
+        "en_us": "New Alberian Soldiers",
+        "ja_jp": "新アルべリア兵たち",
+        "zh_cn": "新阿尔贝里亚士兵们",
+        "zh_tw": "新阿爾貝利亞兵們"
+      },
+      "context": {
+        "en_us": "Graaagh!",
+        "ja_jp": "う、うわああっ……！",
+        "zh_cn": "哇、哇啊啊啊！",
+        "zh_tw": "嗚、嗚哇啊啊……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0024",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Stay calm, everyone! Move surely and\\nquickly to the center of the space!",
+        "ja_jp": "<ruby><rb>皆</rb><rt>みな</rt></ruby>、<ruby><rb>落</rb><rt>お</rt></ruby>ち<ruby><rb>着</rb><rt>つ</rt></ruby>くんだ！\\nなるべく<ruby><rb>中央</rb><rt>ちゅうおう</rt></ruby>に<ruby><rb>固</rb><rt>かた</rt></ruby>まれ！",
+        "zh_cn": "大家都冷静一下！\\n尽可能聚到中央！",
+        "zh_tw": "各位，冷靜下來！\\n盡量往中央靠攏！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0025",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "We have to find some way\\nto escape from this...",
+        "ja_jp": "く……なんとかここから\\n<ruby><rb>脱出</rb><rt>だっしゅつ</rt></ruby>しないと……！",
+        "zh_cn": "呃……我们得想办法\\n从这里脱身才行！",
+        "zh_tw": "唔……\\n必須想辦法離開這裡……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0026",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "The device generating this field is\\nlocated a short distance over there.\\n▷If we can cut it off somehow,\\nwe should be able to escape!◁",
+        "ja_jp": "ユーディル。<ruby><rb>発生装置</rb><rt>はっせいそうち</rt></ruby>が\\nあそこに。――あれを<ruby><rb>解除</rb><rt>かいじょ</rt></ruby>すれば\\n<ruby><rb>脱出</rb><rt>だっしゅつ</rt></ruby>できると<ruby><rb>思</rb><rt>おも</rt></ruby>います！",
+        "zh_cn": "尤蒂尔，\\n启动装置在那里。\\n——只要解除它应该就能脱身！",
+        "zh_tw": "尤帝爾。\\n產生裝置在那裡。\\n──只要解除它，我想就能離開這裡！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0027",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "But the device is located beyond the\\nbarrier itself! We cannot reach it!",
+        "ja_jp": "だが、<ruby><rb>壁</rb><rt>かべ</rt></ruby>の<ruby><rb>外</rb><rt>そと</rt></ruby>だぞ!?　<ruby><rb>外</rb><rt>そと</rt></ruby>に<ruby><rb>出</rb><rt>で</rt></ruby>られない\\n<ruby><rb>状態</rb><rt>じょうたい</rt></ruby>では、<ruby><rb>解除</rb><rt>かいじょ</rt></ruby>しようがない……！",
+        "zh_cn": "但是，那可是在墙的外部啊！？\\n现在根本出不去，没法解除……",
+        "zh_tw": "但那在牆外喔！？\\n不能到外面的狀態下，\\n根本沒辦法解除……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0028",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "We have to do something, or else\\neveryone here is going to...",
+        "ja_jp": "くっ……どうすれば……。\\nこのままじゃ、みんなの<ruby><rb>命</rb><rt>いのち</rt></ruby>が……！",
+        "zh_cn": "呃……要怎么办……\\n这样下去，大家会没命……",
+        "zh_tw": "唔……該怎麼辦……\\n這樣下去，大家的生命就……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0029",
+      "book": ""
+    },
+    {
+      "icon": "120151_01",
+      "name": {
+        "en_us": "Combat Android",
+        "ja_jp": "戦闘人形",
+        "zh_cn": "战斗人偶",
+        "zh_tw": "戰鬥人偶"
+      },
+      "context": {
+        "en_us": "Maestro is...sad? Then I am sad.\\nLives...must not be lost.",
+        "ja_jp": "……<ruby><rb>命</rb><rt>いのち</rt></ruby>。マエストロ、<ruby><rb>悲</rb><rt>かな</rt></ruby>しい？\\nワタシも……<ruby><rb>悲</rb><rt>かな</rt></ruby>しい。\\n<ruby><rb>命</rb><rt>いのち</rt></ruby>……<ruby><rb>消</rb><rt>き</rt></ruby>えるのは、ダメ……デス。",
+        "zh_cn": "命……麦斯特罗、难过？\\n我也……难过。\\n没……命，不……行。",
+        "zh_tw": "……生命。大師、悲傷？\\n我也……悲傷。\\n生命……消失，絕對……不行。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0030",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Huh?",
+        "ja_jp": "え……？",
+        "zh_cn": "诶？",
+        "zh_tw": "咦……？"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0031",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "What?! Androids, stop! This isn't the time\\nto act on your own!",
+        "ja_jp": "――っ!?　<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>……<ruby><rb>駄目</rb><rt>だめ</rt></ruby>。\\nこんな<ruby><rb>時</rb><rt>とき</rt></ruby>に、<ruby><rb>勝手</rb><rt>かって</rt></ruby>に<ruby><rb>動</rb><rt>うご</rt></ruby>かないで！",
+        "zh_cn": "嗯！？战斗人偶……不行。\\n这种时候，别擅自行动！",
+        "zh_tw": "──！？\\n戰鬥人偶……不行。\\n這種時候，不許擅自行動！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0032",
+      "book": ""
+    },
+    {
+      "icon": "120151_01",
+      "name": {
+        "en_us": "Combat Android",
+        "ja_jp": "戦闘人形",
+        "zh_cn": "战斗人偶",
+        "zh_tw": "戰鬥人偶"
+      },
+      "context": {
+        "en_us": "Command denied.\\nSwitching to attack mode.",
+        "ja_jp": "コマンドを<ruby><rb>拒否</rb><rt>きょひ</rt></ruby>する。\\n<ruby><rb>攻撃</rb><rt>こうげき</rt></ruby>モードに<ruby><rb>移行</rb><rt>いこう</rt></ruby>。…………<ruby><rb>移行完了</rb><rt>いこうかんりょう</rt></ruby>。",
+        "zh_cn": "拒绝指令。\\n转换为攻击模式……转换完毕。",
+        "zh_tw": "指令拒絕。\\n變更為攻擊模式…………變更完畢。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0033",
+      "book": ""
+    },
+    {
+      "icon": "120151_02",
+      "name": {
+        "en_us": "Combat Androids",
+        "ja_jp": "戦闘人形たち",
+        "zh_cn": "战斗人偶们",
+        "zh_tw": "戰鬥人偶們"
+      },
+      "context": {
+        "en_us": "Target: Field-emitting device.",
+        "ja_jp": "<ruby><rb>目標</rb><rt>もくひょう</rt></ruby>……<ruby><rb>発生装置</rb><rt>はっせいそうち</rt></ruby>。",
+        "zh_cn": "目标……启动装置。",
+        "zh_tw": "目標……產生裝置。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0034",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Impossible. They mean to...\\n▷They're going to cross the barrier\\nand disable the device that makes it!◁",
+        "ja_jp": "！　まさか、アナタたち……。\\n――<ruby><rb>壁</rb><rt>かべ</rt></ruby>を<ruby><rb>越</rb><rt>こ</rt></ruby>えて、<ruby><rb>解除</rb><rt>かいじょ</rt></ruby>するつもり\\nですか……!?",
+        "zh_cn": "你们……难道要……\\n——穿过墙壁去解除装置吗！？",
+        "zh_tw": "唔！該不會、你們……\\n──打算穿過牆壁，進行解除嗎……？"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0035",
+      "book": ""
+    },
+    {
+      "icon": "120151_02",
+      "name": {
+        "en_us": "Combat Androids",
+        "ja_jp": "戦闘人形たち",
+        "zh_cn": "战斗人偶们",
+        "zh_tw": "戰鬥人偶們"
+      },
+      "context": {
+        "en_us": "Affirmative. Commencing operation.\\nPe...ace. For...peaCE...",
+        "ja_jp": "<ruby><rb>肯定</rb><rt>こうてい</rt></ruby>。<ruby><rb>動作</rb><rt>どうさ</rt></ruby><ruby><rb>実行開始</rb><rt>じっこうかいし</rt></ruby>。\\n……ヘ、イワ。<ruby><rb>平和</rb><rt>へいわ</rt></ruby>のタメニ。",
+        "zh_cn": "予以肯定。开始执行。\\n和、和平……为了和平。",
+        "zh_tw": "肯定。動作實行開始。\\n……和、平。為了和平。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0036",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Stop. Your armored exterior may let you\\npass through the barrier, but it will\\ndestroy your internal components!",
+        "ja_jp": "――<ruby><rb>駄目</rb><rt>だめ</rt></ruby>。たしかに<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>の<ruby><rb>外装</rb><rt>がいそう</rt></ruby>なら\\n<ruby><rb>壁</rb><rt>かべ</rt></ruby>は<ruby><rb>抜</rb><rt>ぬ</rt></ruby>けられるかもしれない……\\nでも、<ruby><rb>内部器官</rb><rt>ないぶきかん</rt></ruby>がただでは<ruby><rb>済</rb><rt>す</rt></ruby>まない！",
+        "zh_cn": "——不行。虽然战斗人偶的外壳\\n也许能穿过墙壁里……\\n但是，内部器官会受损严重！",
+        "zh_tw": "──不行。雖然以戰鬥人偶的外殼，\\n確實有可能穿過牆壁……\\n但是，內部器官不會毫無損傷！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0037",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷She's right! Stop! DON'T DO THIS!◁",
+        "ja_jp": "――そうです！　<ruby><rb>待</rb><rt>ま</rt></ruby>って……！　\\n<ruby><rb>駄目</rb><rt>だめ</rt></ruby>です……<ruby><rb>行</rb><rt>い</rt></ruby>っちゃ<ruby><rb>駄目</rb><rt>だめ</rt></ruby>ですっ!!!!",
+        "zh_cn": "——没错！等一下！\\n不行……不能去！",
+        "zh_tw": "──就是啊！等等……！\\n不可以……絕對不可以去！！！！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0038",
+      "book": ""
+    },
+    {
+      "icon": "120151_01",
+      "name": {
+        "en_us": "Combat Android A",
+        "ja_jp": "戦闘人形Ａ",
+        "zh_cn": "战斗人偶A",
+        "zh_tw": "戰鬥人偶A"
+      },
+      "context": {
+        "en_us": "Analysis of device complete.\\nSerious damage sustained.\\nWe must! We must!\\nCommencing deactivation.",
+        "ja_jp": "――エネルギー<ruby><rb>発生装置</rb><rt>はっせいそうち</rt></ruby>の<ruby><rb>解析</rb><rt>かいせき</rt></ruby>を<ruby><rb>完了</rb><rt>かんりょう</rt></ruby>。\\n――<ruby><rb>損害甚大</rb><rt>そんがいじんだい</rt></ruby>。――ダケド、ダケド。\\n――<ruby><rb>解除</rb><rt>かいじょ</rt></ruby>を<ruby><rb>開始</rb><rt>かいし</rt></ruby>すル。",
+        "zh_cn": "——能量启动装置解析完毕。\\n——损害极大。——但是、但是。\\n——开始解除。",
+        "zh_tw": "──能源產生裝置解析完畢。\\n──損傷過大。──但是，但是。\\n──解除開始。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0039",
+      "book": ""
+    },
+    {
+      "icon": "120151_01",
+      "name": {
+        "en_us": "Combat Android A",
+        "ja_jp": "戦闘人形Ａ",
+        "zh_cn": "战斗人偶A",
+        "zh_tw": "戰鬥人偶A"
+      },
+      "context": {
+        "en_us": "Serious damage sustained.\\nContinued operation impossible.\\nPassing operations to parallel unit.\\nI am...dying...dying...shutting down.",
+        "ja_jp": "<ruby><rb>損害甚大</rb><rt>そんがいじんだい</rt></ruby>。<ruby><rb>動作続行不能</rb><rt>どうさぞっこうふのう</rt></ruby>。<ruby><rb>動作</rb><rt>どうさ</rt></ruby>を\\n<ruby><rb>並列機</rb><rt>へいれつき</rt></ruby>に<ruby><rb>引</rb><rt>ひ</rt></ruby>き<ruby><rb>継</rb><rt>つ</rt></ruby>ぐ。……ワタシが\\n<ruby><rb>消</rb><rt>き</rt></ruby>える……<ruby><rb>消</rb><rt>き</rt></ruby>え――<ruby><rb>機能停止</rb><rt>きのうていし</rt></ruby>。",
+        "zh_cn": "损害极大。无法继续行动。\\n将行动移交给并行机继续……\\n我即将消失……消失——停止功能。",
+        "zh_tw": "損傷過大。動作持續不可。\\n動作繼承至並行機體。\\n……我將消失……消失──機能停止。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0040",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷Laxi, you have to stop them!◁\\nI know. All units, fall back!",
+        "ja_jp": "ラキシ！　お<ruby><rb>願</rb><rt>ねが</rt></ruby>いです、<ruby><rb>早</rb><rt>はや</rt></ruby>く<ruby><rb>止</rb><rt>と</rt></ruby>めて\\nください！　――わかってる。\\n<ruby><rb>戦闘人形隊</rb><rt>マリオーンたい</rt></ruby>、ただちに<ruby><rb>後退</rb><rt>こうたい</rt></ruby>！",
+        "zh_cn": "莱姬希！拜托了，快让他们停下！\\n——我知道。战斗人偶队，立即后退！",
+        "zh_tw": "拉契希！拜託，請妳快點停下他們！\\n──我知道。\\n戰鬥人偶隊，立刻後退！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0041",
+      "book": ""
+    },
+    {
+      "icon": "120151_01",
+      "name": {
+        "en_us": "Combat Android D",
+        "ja_jp": "戦闘人形Ｄ",
+        "zh_cn": "战斗人偶D",
+        "zh_tw": "戰鬥人偶D"
+      },
+      "context": {
+        "en_us": "Command denied. Passing operations.\\nDevice shutdown at 50%... 60%...",
+        "ja_jp": "コマンドを<ruby><rb>拒否</rb><rt>きょひ</rt></ruby>。<ruby><rb>動作</rb><rt>どうさ</rt></ruby>を<ruby><rb>引</rb><rt>ひ</rt></ruby>き<ruby><rb>継</rb><rt>つ</rt></ruby>ぐ。\\n<ruby><rb>解除</rb><rt>かいじょ</rt></ruby>まで50％……60％……。",
+        "zh_cn": "拒绝指令。交接行动。\\n解除已进行50%……60%……",
+        "zh_tw": "指令拒絕。動作繼承。\\n已解除50％……60％……"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0042",
+      "book": ""
+    },
+    {
+      "icon": "120151_01",
+      "name": {
+        "en_us": "Combat Android G",
+        "ja_jp": "戦闘人形Ｇ",
+        "zh_cn": "战斗人偶G",
+        "zh_tw": "戰鬥人偶G"
+      },
+      "context": {
+        "en_us": "Damage has reached critical levels.\\nPassing operations... Pass complete.\\nShutdown imminent. I am...dying...\\nI am...afraid...",
+        "ja_jp": "<ruby><rb>損傷率上昇</rb><rt>そんしょうりつじょうしょう</rt></ruby>。<ruby><rb>危険域突破</rb><rt>きけんいきとっぱ</rt></ruby>。\\n<ruby><rb>動作</rb><rt>どうさ</rt></ruby><ruby><rb>引継</rb><rt>ひきつ</rt></ruby>ぎ……<ruby><rb>完了</rb><rt>かんりょう</rt></ruby>。<ruby><rb>機能停止</rb><rt>きのうていし</rt></ruby>までアト\\n――ワタシが<ruby><rb>消</rb><rt>き</rt></ruby>える……コワイ。",
+        "zh_cn": "损伤率上升。突破危险值。\\n行动交接……完毕。功能即将停止……\\n我即将消失……害怕。",
+        "zh_tw": "損傷率上升。危險領域突破。\\n動作繼承……完畢。機能停止剩餘──\\n我將消失……好可怕。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0043",
+      "book": ""
+    },
+    {
+      "icon": "120151_01",
+      "name": {
+        "en_us": "Combat Android K",
+        "ja_jp": "戦闘人形Ｋ",
+        "zh_cn": "战斗人偶K",
+        "zh_tw": "戰鬥人偶K"
+      },
+      "context": {
+        "en_us": "Shutdown at 70%... Shutdown at 80%...\\nMy heart is...is growing colder.\\nAm I...dying? I...don't want this...\\nNo matter. It must continue.",
+        "ja_jp": "<ruby><rb>解除</rb><rt>かいじょ</rt></ruby>を<ruby><rb>継続</rb><rt>けいぞく</rt></ruby>。<ruby><rb>解除</rb><rt>かいじょ</rt></ruby>まで70％、80％……\\n<ruby><rb>損傷甚大</rb><rt>そんしょうじんだい</rt></ruby>。――ココロが、<ruby><rb>冷</rb><rt>ひ</rt></ruby>えてイク。\\nこれが……<ruby><rb>死</rb><rt>し</rt></ruby>？　いやダ……ダケド。",
+        "zh_cn": "继续解除。解除已进行70%、80%……\\n损伤极大——心逐渐冷却。\\n这就是……死？不要……但是。",
+        "zh_tw": "解除持續。已解除70％、80％……\\n損傷過大。──心，逐漸變冷。\\n這是……死？我不要……但是。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0044",
+      "book": ""
+    },
+    {
+      "icon": "120151_01",
+      "name": {
+        "en_us": "Combat Android Z",
+        "ja_jp": "戦闘人形Ｚ",
+        "zh_cn": "战斗人偶Z",
+        "zh_tw": "戰鬥人偶Z"
+      },
+      "context": {
+        "en_us": "90%... 95%... 99%... 100%.\\nField emitter shutdown...complete.",
+        "ja_jp": "90％、95％、99％……100％。\\n――<ruby><rb>解除</rb><rt>かいじょ</rt></ruby>……<ruby><rb>完了</rb><rt>かんりょう</rt></ruby>。",
+        "zh_cn": "90%、95%、99%……100%。\\n——解除……完毕。",
+        "zh_tw": "90％、95％、99％……100％。\\n──解除……完畢。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0045",
+      "book": ""
+    },
+    {
+      "icon": "120151_01",
+      "name": {
+        "en_us": "Combat Android Z",
+        "ja_jp": "戦闘人形Ｚ",
+        "zh_cn": "战斗人偶Z",
+        "zh_tw": "戰鬥人偶Z"
+      },
+      "context": {
+        "en_us": "Are you happy? If Maestro is happy,\\nI am happy. But this...is the end.\\nI am...sAaaAAaaAAAd...",
+        "ja_jp": "――<ruby><rb>嬉</rb><rt>うれ</rt></ruby>しい？　マエストロ<ruby><rb>嬉</rb><rt>うれ</rt></ruby>しいと、\\nワタシも、ウレシイ。でも、これで。\\nオワリ……<ruby><rb>悲</rb><rt>かな</rt></ruby>シ……イ……。",
+        "zh_cn": "——开心吗？麦斯特罗开心、\\n我也、开心。但是、就要、\\n结束了……难过……",
+        "zh_tw": "──高興嗎？大師高興，\\n我也、高興。可是、這樣，\\n結束……悲……傷……"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0046",
+      "book": ""
+    },
+    {
+      "icon": "120151_01",
+      "name": {
+        "en_us": "Combat Android Z",
+        "ja_jp": "戦闘人形Ｚ",
+        "zh_cn": "战斗人偶Z",
+        "zh_tw": "戰鬥人偶Z"
+      },
+      "context": {
+        "en_us": "FareWeLl...Maestro... Be WeeeeEEEeell...",
+        "ja_jp": "――サヨナラ、マエストロ。\\nゲンキ、で……。",
+        "zh_cn": "——再见、麦斯特罗。\\n你要、好好的……",
+        "zh_tw": "──再見，大師。\\n保、重……"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0047",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "The barrier is gone.",
+        "ja_jp": "<ruby><rb>壁</rb><rt>かべ</rt></ruby>が、<ruby><rb>消</rb><rt>き</rt></ruby>えた――。",
+        "zh_cn": "墙壁，消失了……",
+        "zh_tw": "牆壁，消失了──"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0048",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What about the androids?!",
+        "ja_jp": "<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>たちは!?",
+        "zh_cn": "战斗人偶们呢！？",
+        "zh_tw": "戰鬥人偶們呢！？"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0049",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Exterior wounds can be repaired, but\\ntheir internal systems are badly damaged.\\nLoss of all hearts that were produced\\nvia system malfunction confirmed.",
+        "ja_jp": "<ruby><rb>外傷</rb><rt>がいしょう</rt></ruby>は<ruby><rb>修復可能</rb><rt>しゅうふくかのう</rt></ruby>……でも、<ruby><rb>内部器官</rb><rt>ないぶきかん</rt></ruby>の\\n<ruby><rb>損傷大</rb><rt>そんしょうだい</rt></ruby>。<ruby><rb>不具合</rb><rt>ふぐあい</rt></ruby>として<ruby><rb>生</rb><rt>しょう</rt></ruby>じた<ruby><rb>心</rb><rt>こころ</rt></ruby>の\\nロストは、<ruby><rb>確実</rb><rt>かくじつ</rt></ruby>……。",
+        "zh_cn": "外伤还能修复……可是，内部器官\\n损伤严重。失去因异常而产生的“心”\\n无法避免……",
+        "zh_tw": "外傷能夠修復……\\n但是，內部器官的損傷過大。\\n因障害而產生的心，將會喪失……"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0050",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "They lost their hearts?!",
+        "ja_jp": "そんな……。せっかく<ruby><rb>芽生</rb><rt>めば</rt></ruby>えた<ruby><rb>心</rb><rt>こころ</rt></ruby>が、\\n<ruby><rb>消</rb><rt>き</rt></ruby>えてしまったっていうのか!?",
+        "zh_cn": "怎么会这样……\\n好不容易才萌生的心，\\n就这么消失了吗！？",
+        "zh_tw": "怎麼會……\\n妳是說他們好不容易才萌生的心，\\n消失了嗎！？"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0051",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷They were all so...afraid.◁",
+        "ja_jp": "――……ボクのせいです。\\nロストする<ruby><rb>直前</rb><rt>ちょくぜん</rt></ruby>、<ruby><rb>彼</rb><rt>かれ</rt></ruby>らは<ruby><rb>死</rb><rt>し</rt></ruby>を<ruby><rb>恐</rb><rt>おそ</rt></ruby>れて\\nいました。",
+        "zh_cn": "——都怪我。\\n直到失去心之前，\\n他们都在惧怕死亡。",
+        "zh_tw": "──……都是我的錯。\\n在失去心之前，他們很害怕死亡。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0052",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷This is all my fault. If they'd never\\ngained hearts, they wouldn't have\\nexperienced the pain of death.◁",
+        "ja_jp": "<ruby><rb>心</rb><rt>こころ</rt></ruby>が<ruby><rb>生</rb><rt>う</rt></ruby>まれなければ、<ruby><rb>死</rb><rt>し</rt></ruby>の<ruby><rb>苦</rb><rt>くる</rt></ruby>しみを\\n<ruby><rb>味</rb><rt>あじ</rt></ruby>わうこともなかったのに……。",
+        "zh_cn": "要是没有“心”，\\n他们就不会体会到\\n死亡的痛苦……",
+        "zh_tw": "如果沒有心，\\n他們就不會嘗到死亡的痛苦……"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0053",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷This all happened because of\\nmy heart.◁",
+        "ja_jp": "ボクが<ruby><rb>心</rb><rt>こころ</rt></ruby>なんて<ruby><rb>持</rb><rt>も</rt></ruby>っていたから……\\nラキシの<ruby><rb>中</rb><rt>なか</rt></ruby>に<ruby><rb>入</rb><rt>はい</rt></ruby>ったりしたから……。\\nボクのせいで、<ruby><rb>彼</rb><rt>かれ</rt></ruby>らは……。",
+        "zh_cn": "都怪我有了一颗心……\\n进入到莱姬希的身体……\\n都怪我，他们才会……",
+        "zh_tw": "都是因為我擁有心……\\n都是因為我將心給了拉契希……\\n是我的錯，害得他們……"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0054",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Mascula, this is NOT your fault!",
+        "ja_jp": "マスキュラ、お<ruby><rb>前</rb><rt>まえ</rt></ruby>のせいじゃない！",
+        "zh_cn": "马斯古拉，这不是你的错！",
+        "zh_tw": "馬斯科拉，不是你的錯！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0055",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷Thank you, Luca—but it is.\\nAll of it is because of me.◁",
+        "ja_jp": "リュカ、ありがとうございます。\\nでも……<ruby><rb>彼</rb><rt>かれ</rt></ruby>らを<ruby><rb>殺</rb><rt>ころ</rt></ruby>したのは、ボク。\\nボクの<ruby><rb>心</rb><rt>こころ</rt></ruby>。<ruby><rb>全部</rb><rt>ぜんぶ</rt></ruby>、<ruby><rb>全部</rb><rt>ぜんぶ</rt></ruby>、ボクの……。",
+        "zh_cn": "卢卡，谢谢你这么说。\\n不过……是我害死了他们。\\n因为我的心。都怪我……",
+        "zh_tw": "琉卡，謝謝你。\\n可是……殺了他們的，是我。\\n是我的心。全部，全部，都是我……"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0056",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "▷I'm...sorry.◁",
+        "ja_jp": "…………ごめんなさい。",
+        "zh_cn": "对不起……",
+        "zh_tw": "…………對不起。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0057",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Mascula?\\n▷......◁",
+        "ja_jp": "――マスキュラ？\\n――……………………。",
+        "zh_cn": "——马斯古拉？\\n——……",
+        "zh_tw": "──馬斯科拉？\\n──……………………"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0058",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Laxi, where'd he go?!\\nWhat happened to Mascula?!",
+        "ja_jp": "おいラキシ、マスキュラは！\\nマスキュラはどうしたんだよ！",
+        "zh_cn": "喂，莱姬希，马斯古拉呢！\\n马斯古拉怎么了！",
+        "zh_tw": "喂，拉契希，馬斯科拉呢！\\n馬斯科拉他怎麼了！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0059",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "He has shut down his ego circuit—and I\\nfear he is the only one who can retrieve it.",
+        "ja_jp": "……<ruby><rb>自我回路</rb><rt>じがかいろ</rt></ruby>をシャットダウンした。\\n<ruby><rb>再起動</rb><rt>さいきどう</rt></ruby>はマスキュラ<ruby><rb>自身</rb><rt>じしん</rt></ruby>でなければ\\n<ruby><rb>不可能</rb><rt>ふかのう</rt></ruby>。",
+        "zh_cn": "他切断了自我回路……\\n必须要马斯古拉本人才能重启。",
+        "zh_tw": "……他關閉了自我回路。\\n重新啟動只能由馬斯科拉自己進行。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0060",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Mascula...",
+        "ja_jp": "マスキュラ……。",
+        "zh_cn": "马斯古拉……",
+        "zh_tw": "馬斯科拉……"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0061",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Sorry to be blunt, boss, but Mascula\\nthere is gonna have to wait.",
+        "ja_jp": "ユーディル……\\n<ruby><rb>落</rb><rt>お</rt></ruby>ち<ruby><rb>込</rb><rt>こ</rt></ruby>んでる<ruby><rb>場合</rb><rt>ばあい</rt></ruby>じゃねえぞ。\\nマスキュラのことは<ruby><rb>後</rb><rt>あと</rt></ruby>だ。",
+        "zh_cn": "尤蒂尔……\\n现在可不是失意的时候。\\n马斯古拉的事之后再说。",
+        "zh_tw": "尤帝爾……\\n現在可不是喪氣的時候了。\\n馬斯科拉的事等一下再處理吧。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0062",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "All them androids gave their lives what\\nto save ours, and we can't let 'em throw\\nall that away 'cause we're upset.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>はあいつらが<ruby><rb>命懸</rb><rt>いのちが</rt></ruby>けで\\n<ruby><rb>切</rb><rt>き</rt></ruby>り<ruby><rb>拓</rb><rt>ひら</rt></ruby>いてくれた<ruby><rb>道</rb><rt>みち</rt></ruby>を、\\n<ruby><rb>進</rb><rt>すす</rt></ruby>むしかない。",
+        "zh_cn": "现在只能在这条他们用生命\\n开辟出来的道路上前行。",
+        "zh_tw": "那些傢伙賭命為我們開拓了道路，\\n現在能做的只有前進。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0063",
+      "book": ""
+    },
+    {
+      "icon": "100032_01",
+      "name": {
+        "en_us": "Laxi",
+        "ja_jp": "ラキシ",
+        "zh_cn": "莱姬希",
+        "zh_tw": "拉契希"
+      },
+      "context": {
+        "en_us": "Correct. The androids' final wish\\nwas for you to proceed.",
+        "ja_jp": "<ruby><rb>同意</rb><rt>どうい</rt></ruby>。アナタが<ruby><rb>前</rb><rt>まえ</rt></ruby>へ<ruby><rb>進</rb><rt>すす</rt></ruby>むこと……それが\\n<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>たちの<ruby><rb>望</rb><rt>のぞ</rt></ruby>み。",
+        "zh_cn": "同意。战斗人偶的愿望……\\n就是你能前进……",
+        "zh_tw": "同意。你往前邁進……\\n是戰鬥人偶們所期望的。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0064",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "...I understand. We move at once.",
+        "ja_jp": "ラキシ……わかったよ。\\nおれは<ruby><rb>王都</rb><rt>おうと</rt></ruby>へ<ruby><rb>進</rb><rt>すす</rt></ruby>む。<ruby><rb>戦闘人形</rb><rt>マリオーン</rt></ruby>たちの\\n<ruby><rb>心</rb><rt>こころ</rt></ruby>を、<ruby><rb>無駄</rb><rt>むだ</rt></ruby>にしないために。",
+        "zh_cn": "莱姬希……我知道了。\\n为了不辜负战斗人偶们的心意。\\n我要进入王都。",
+        "zh_tw": "拉契希……我明白了。\\n我要朝王都前進。\\n為了不讓戰鬥人偶們的心白費掉。"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0065",
+      "book": ""
+    },
+    {
+      "icon": "120081_01",
+      "name": {
+        "en_us": "Imperial Soldier 1",
+        "ja_jp": "帝国兵1",
+        "zh_cn": "帝国兵1",
+        "zh_tw": "帝國兵1"
+      },
+      "context": {
+        "en_us": "C-Captain Harle! The New Alberian\\nforces are headed this way!",
+        "ja_jp": "は、ハール<ruby><rb>様</rb><rt>さま</rt></ruby>っ！　\\n<ruby><rb>新</rb><rt>しん</rt></ruby>アルべリア<ruby><rb>軍</rb><rt>ぐん</rt></ruby>が\\nこちらへ<ruby><rb>突撃</rb><rt>とつげき</rt></ruby>してきます……！",
+        "zh_cn": "哈、哈尔大人！\\n新阿尔贝里亚军\\n向这里发起了突袭！",
+        "zh_tw": "哈、哈魯大人！\\n新阿爾貝利亞軍朝這裡攻過來了……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0066",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Let them come. The stout walls of this\\ncastle are more then enough to defend—",
+        "ja_jp": "……まあいいでしょう。<ruby><rb>城壁</rb><rt>じょうへき</rt></ruby>に<ruby><rb>拠</rb><rt>よ</rt></ruby>って\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>えば、<ruby><rb>打</rb><rt>う</rt></ruby>つ<ruby><rb>手</rb><rt>て</rt></ruby>はいくらでもあります。\\n<ruby><rb>堅固</rb><rt>けんご</rt></ruby>な<ruby><rb>城壁</rb><rt>じょうへき</rt></ruby>はいかに<ruby><rb>彼</rb><rt>かれ</rt></ruby>らといえど――",
+        "zh_cn": "行吧……只要我们有城墙作掩护，\\n总会有办法的。就算他们再怎么厉害，\\n那么牢固的城墙也……",
+        "zh_tw": "……無所謂。只要有城牆作掩護，\\n應對手段要多少有多少。\\n那麼堅固的城牆，就算是他們也──"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0067",
+      "book": ""
+    },
+    {
+      "icon": "120041_01",
+      "name": {
+        "en_us": "Imperial Soldier 2",
+        "ja_jp": "帝国兵2",
+        "zh_cn": "帝国兵2",
+        "zh_tw": "帝國兵2"
+      },
+      "context": {
+        "en_us": "S-sir, the walls! They've fallen!",
+        "ja_jp": "<ruby><rb>報告</rb><rt>ほうこく</rt></ruby>――――ッ！\\nた、<ruby><rb>大変</rb><rt>たいへん</rt></ruby>です、<ruby><rb>城壁</rb><rt>じょうへき</rt></ruby>があ――!!",
+        "zh_cn": "报告！\\n不、不好了。城墙被……",
+        "zh_tw": "報告────！\\n不、不好了，城牆被──！！"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0068",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Oh? ...I see. It would seem that to enjoy\\nthis battle fully, I shall need to invest the\\nwhole of my abilities.",
+        "ja_jp": "あれは……？\\n……なるほど。<ruby><rb>大</rb><rt>おお</rt></ruby>きな<ruby><rb>戦</rb><rt>いくさ</rt></ruby>となれば、\\n<ruby><rb>愉</rb><rt>たの</rt></ruby>しむにも<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>が<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>なようですね――",
+        "zh_cn": "那是什么？原来如此……\\n看来如此盛大的一场战役，\\n需要一些觉悟才能好好享受……",
+        "zh_tw": "那是……？\\n……原來如此。既然演變成大戰，\\n就似乎需要做好覺悟才能享受呢──"
+      },
+      "voice": "VO_CHR_MAINSTORY_14_02_0069",
+      "book": ""
+    }
+  ]
 }

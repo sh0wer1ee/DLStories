@@ -1,724 +1,1377 @@
 {
-    "story_id": "",
-    "story_name": "迎击战～优雅律师朱庇特～ 庭审风波",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "朱庇特通过收集到的证据和推论逐个击破\\n检察长的主张，开始在庭审中占据优势。\\n然而检察长却通过伪证彻底扭转局势。\\n朱庇特一行由于没有推翻伪证的手段\\n而陷入了巨大的危机。"
-        ]
+  "title": {
+    "en_us": "A Dazzling Defense    A Topsy Turvy Trial",
+    "ja_jp": "迎撃戦～優美なる弁護士ユピテル～  裁判は波乱模様",
+    "zh_cn": "迎击战～优雅律师朱庇特～  庭审风波",
+    "zh_tw": "迎擊戰～優雅律師朱庇特～  暗潮洶湧的訴訟"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [],
-            "speaker_name": "SYS",
-            "context": "庭审当天\\n罗特尔镇法院 等候室",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01"
-            ],
-            "speaker_name": "兴奋的帝国兵",
-            "context": "不要走YO♪\\n王子可以旁听，但辩护律师说好了\\n要代替他留在牢房里YO♪",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "谁跟你说好了！别纠缠不休了，\\n我早就帮他申请了旁听和取保候审，\\n接下来已经跟你们没有关系了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "你们就在那边乖乖触电吧。\\n拜拜，别再追来啦！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01"
-            ],
-            "speaker_name": "轻佻的帝国兵",
-            "context": "唉！趁乱骗他留下的计划\\n彻底失败啦！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "呼，多谢。和预想的一样，\\n一路上不停有帝国兵来干扰啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "他们也太有干劲了吧。\\n到底收了检察长多少钱啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "暂且不论内幕有多不堪，\\n单看他能把他国士兵当私人军队\\n来差遣这一点，应该是花了不少钱的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "但这荒唐事今天也要结束了。\\n走！我们去赢得胜利吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "SYS",
-            "context": "同一天\\n罗特尔镇法院 法庭",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这就是这个小镇的法庭吗……\\n如今大街小巷充斥着帝国兵，很难想象\\n同一片土地上还有这么正经的地方。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "这个法院本就由我的曾祖父所建，\\n当然是历史悠久的肃穆之地。\\n现在却有人在这里做坏事……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "加隆检察长",
-            "context": "……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120091_01"
-            ],
-            "speaker_name": "审判长",
-            "context": "各位保持肃静！\\n现在开庭。\\n请公诉方宣读起诉书。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "加隆检察长",
-            "context": "是。\\n愚昧无知的被告人和旁听啊，\\n好好倾听我权威的一字一句吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "加隆检察长",
-            "context": "被告人于三天前的傍晚\\n在商店街的小巷里\\n用匕首杀害了无辜的被害人！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "加隆检察长",
-            "context": "公诉方请求法庭传目击证人出庭。\\n证人，请上前来！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120019_01"
-            ],
-            "speaker_name": "坦拜",
-            "context": "在！我叫坦拜！\\n是案件的第一目击者！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120019_01"
-            ],
-            "speaker_name": "坦拜",
-            "context": "当天，我凑巧路过案发现场……\\n听到了女性的叫声所以赶了过去。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120019_01"
-            ],
-            "speaker_name": "坦拜",
-            "context": "我到的时候，被害人已经被\\n匕首刺中身亡……\\n匕首上刻着被告人家的家徽！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120019_01"
-            ],
-            "speaker_name": "坦拜",
-            "context": "当时巷子里没有其他人。\\n也就是说杀人犯绝对就是被告人，\\n不会有错的啦！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120091_01"
-            ],
-            "speaker_name": "审判长",
-            "context": "嗯……\\n被告人对证人的证词是否有异议？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "当然有了！\\n当我发现被害人的时候，\\n他就已经死了好吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120091_01"
-            ],
-            "speaker_name": "审判长",
-            "context": "好。辩护方对证言可有异议？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "当然有。我反对公诉方的主张。\\n证人的言辞中存在矛盾。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "首先，这起案件中最关键的道具——\\n作为凶器的匕首在案发前就已经失窃，\\n案发当时并不在被告人手中。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "这是证据。\\n教会骑士根据买卖过那把匕首的\\n古董商的证词所提出的调查资料。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "加隆检察长",
-            "context": "……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "除此之外，那个古董商\\n还在证词中描述了案发前一天\\n买走匕首之人的特征。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "“棕色头发”、“棕色眼睛”、\\n“略微驼背”、“声音洪亮”的“青年”\\n——所有特征均与这位证人一致呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120019_01"
-            ],
-            "speaker_name": "坦拜",
-            "context": "！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120091_01"
-            ],
-            "speaker_name": "审判长",
-            "context": "肃静！辩护方，这究竟是怎么回事？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "还能是怎么回事，非常简单。\\n案发当时持有匕首的人\\n并不是被告人，而是这位证人。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "而凑巧的是正如他本人所言，\\n案发现场除了他们二人以外并无他人。\\n也就是说——",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "这位证人才是这起案件的真凶。\\n这起案件不过是由所谓的第一目击者\\n为了栽赃陷害而自导自演罢了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120019_01"
-            ],
-            "speaker_name": "坦拜",
-            "context": "这、这这这这——",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "看他的反应……果然是说中了。\\n这样一来应该就……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "加隆检察长",
-            "context": "哼，无聊。\\n真是荒唐又毫无权威性的幻想。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "你说什么？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "加隆检察长",
-            "context": "我说无聊。\\n能够印证你那荒唐推论的\\n也只有古董商的话……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "加隆检察长",
-            "context": "连张嫌犯画像都没有——\\n不过是个商人的一面之词，\\n根本不值一提。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120019_01"
-            ],
-            "speaker_name": "坦拜",
-            "context": "就、就是啊！就那个\\n看起来就记性不好的老爷子，\\n说出来的话能顶什么用啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "哦？你怎么知道提供证词的\\n古董商是个老爷子呢？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "这个小镇的古董商应该\\n不止他一个吧——难不成，\\n你知道我说的是谁？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120019_01"
-            ],
-            "speaker_name": "坦拜",
-            "context": "这、这这——",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "加隆检察长",
-            "context": "啧……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "呵呵，我就知道。证人小哥\\n看起来就像个好套话的人♪\\n我说的时候可是故意省略了细节。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "这……难道你是为了\\n让证人说漏嘴才试探他的？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "哎呀，真不愧是朱庇特。\\n把检察长会进行反驳这一步\\n也事先计算在内了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "按这个趋势下去，\\n应该能够顺利赢得无罪判决呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120091_01"
-            ],
-            "speaker_name": "审判长",
-            "context": "辩护方陈述完毕。\\n公诉方是否继续有其它证据提供？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "加隆检察长",
-            "context": "有。公诉方请法庭传另一位证人出庭。\\n证人，请上前。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "什么……还有证人！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120021_01"
-            ],
-            "speaker_name": "古董商三文",
-            "context": "是。吾辈名三文，\\n是这个小镇上的古董商，\\n也是买卖过那把匕首的人。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120021_01"
-            ],
-            "speaker_name": "古董商三文",
-            "context": "吾辈想说的是……\\n要先跟教会骑士大人道个歉。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120021_01"
-            ],
-            "speaker_name": "古董商三文",
-            "context": "调查过程中，吾辈说了很多\\n关于买走那把匕首的客人的话……\\n但其实那是吾辈记错了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "哈？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120021_01"
-            ],
-            "speaker_name": "古董商三文",
-            "context": "因为那些教会骑士们突然把吾辈\\n围起来，情急之下吾辈只能胡扯一通。\\n所以请允许吾辈撤回证词。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120021_01"
-            ],
-            "speaker_name": "古董商三文",
-            "context": "买走匕首的人其实是个女性。\\n仔细回想的话，倒是感觉\\n挺像这位被告人小姐的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "你……你说什么？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "加隆检察长",
-            "context": "还不明白吗？就是说……\\n辩护方认为第一位证人\\n是真凶的主张已经无法成立了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "加隆检察长",
-            "context": "而最新的证词则是判定\\n被告人就是真凶的关键——\\n就是这样，被告人！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "什、什么！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "等……这太荒唐了！那个老爷子\\n为什么突然就换了说法呢！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "被摆了一道……他那当然是伪证。\\n一定是那个检察长\\n悄悄买通了古董商。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "他什么时候做的这些……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "应该是昨天晚上。\\n他预判了我的计划，\\n并准备了对策。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "然后再根据我们打出去的牌，\\n在合适的时机进行反击。\\n真是够阴险毒辣的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120091_01"
-            ],
-            "speaker_name": "审判长",
-            "context": "辩护方对公诉方的指控可有异议？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "有……有的吧！？\\n毕竟无论怎么看，\\n真凶肯定就是那个家伙吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "既然真相只有一个……\\n那就一定有能够证明的方法对吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "我也很想说有……\\n但要立刻证明刚才的是伪证\\n并没有那么简单。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "如检察长所说，没有嫌犯画像，\\n唯一的证人又如此颠倒黑白，\\n我们确实没有办法。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "诶、诶诶诶诶！？\\n那你要我怎么办啊你这没用的律师！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "唔，说我没用也太过分了吧！？\\n啊～别揪我领子！别摇我！\\n暂停暂停——审、审判长！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "被告人情绪激动，无法继续庭审！\\n辩护方请求暂时停止审理！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120091_01"
-            ],
-            "speaker_name": "审判长",
-            "context": "准许……被告人看起来\\n确实需要时间来平复情绪。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "加隆检察长",
-            "context": "啧……竟然还拖延时间。\\n真是无谓的挣扎……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120091_01"
-            ],
-            "speaker_name": "审判长",
-            "context": "现在休庭。\\n休庭结束后，对被告人进行宣判！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_03_0075",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Jupiter uses both evidence and reason to push\\nback against the prosecution's arguments.\\nBut just when things are going well, someone\\noffers up false testimony, leaving him in a bind.",
+      "ja_jp": "<ruby><rb>集</rb><rt>あつ</rt></ruby>めた<ruby><rb>証拠</rb><rt>しょうこ</rt></ruby>と<ruby><rb>推論</rb><rt>すいろん</rt></ruby>で<ruby><rb>検察</rb><rt>けんさつ</rt></ruby><ruby><rb>側</rb><rt>がわ</rt></ruby>の<ruby><rb>主張</rb><rt>しゅちょう</rt></ruby>を<ruby><rb>論破</rb><rt>ろんぱ</rt></ruby>し、\\n<ruby><rb>有利</rb><rt>ゆうり</rt></ruby>に<ruby><rb>裁判</rb><rt>さいばん</rt></ruby>を<ruby><rb>進</rb><rt>すす</rt></ruby>めていくユピテル。だが\\n<ruby><rb>検察</rb><rt>けんさつ</rt></ruby><ruby><rb>側</rb><rt>がわ</rt></ruby>が<ruby><rb>偽証</rb><rt>ぎしょう</rt></ruby>を<ruby><rb>行</rb><rt>おこな</rt></ruby>わせたことで<ruby><rb>流</rb><rt>なが</rt></ruby>れは<ruby><rb>一変</rb><rt>いっぺん</rt></ruby>。\\n<ruby><rb>偽証</rb><rt>ぎしょう</rt></ruby>を<ruby><rb>暴</rb><rt>あば</rt></ruby>く<ruby><rb>用意</rb><rt>ようい</rt></ruby>のないユピテルたちは\\n<ruby><rb>大</rb><rt>だい</rt></ruby>ピンチに<ruby><rb>追</rb><rt>お</rt></ruby>い<ruby><rb>込</rb><rt>こ</rt></ruby>まれてしまう。",
+      "zh_cn": "朱庇特通过收集到的证据和推论逐个击破\\n检察长的主张，开始在庭审中占据优势。\\n然而检察长却通过伪证彻底扭转局势。\\n朱庇特一行由于没有推翻伪证的手段\\n而陷入了巨大的危机。",
+      "zh_tw": "朱庇特以搜集來的證據與推論逐一破解\\n檢方的主張，並在訴訟當中取得優勢。\\n然而，卻因檢方使用偽證改變了局勢。\\n未能破解偽證的朱庇特一行\\n面臨了巨大的危機。"
+    }
+  },
+  "prev": "2221702",
+  "next": "2221704",
+  "content": [
+    {
+      "icon": "",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "The Day of the Trial\\nLittleton Courthouse Waiting Room",
+        "ja_jp": "<ruby><rb>裁判</rb><rt>さいばん</rt></ruby><ruby><rb>当日</rb><rt>とうじつ</rt></ruby>\\nロットルタウン<ruby><rb>法廷</rb><rt>ほうてい</rt></ruby>　<ruby><rb>控室</rb><rt>ひかえしつ</rt></ruby>",
+        "zh_cn": "庭审当天\\n罗特尔镇法院 等候室",
+        "zh_tw": "訴訟當天\\n洛特魯鎮法庭　休息室"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Flippant Imperial Soldier",
+        "ja_jp": "浮ついた帝国兵",
+        "zh_cn": "兴奋的帝国兵",
+        "zh_tw": "躁動的帝國兵"
+      },
+      "context": {
+        "en_us": "Hey there, Princey! I got a treat for you!\\nYou get to come to the courtroom too!\\nOh, but the lawyer? He's locked up tight.\\n'Cause that's what you all agreed to, right?",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>つんだYO♪　<ruby><rb>王子</rb><rt>おうじ</rt></ruby>の<ruby><rb>傍聴</rb><rt>ぼうちょう</rt></ruby>は\\n<ruby><rb>許</rb><rt>ゆる</rt></ruby>すけど、<ruby><rb>代</rb><rt>か</rt></ruby>わりに<ruby><rb>弁護士</rb><rt>べんごし</rt></ruby>が<ruby><rb>牢屋</rb><rt>ろうや</rt></ruby>に\\n<ruby><rb>残</rb><rt>のこ</rt></ruby>る<ruby><rb>約束</rb><rt>やくそく</rt></ruby>だYO♪",
+        "zh_cn": "不要走YO♪\\n王子可以旁听，但辩护律师说好了\\n要代替他留在牢房里YO♪",
+        "zh_tw": "給我站住YO♪雖然允許王子旁聽，\\n但律師必須代替他留在牢裡YO♪"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0001",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Don't pretend to be helping, you rascals!\\nI already got permission for a temporary\\nrelease AND for him to sit in on the\\ntrial, so you shouldn't even be here.",
+        "ja_jp": "そんな<ruby><rb>約束</rb><rt>やくそく</rt></ruby>はしてないよ！　ああもう、\\nしつこいなあ。<ruby><rb>傍聴</rb><rt>ぼうちょう</rt></ruby>と<ruby><rb>一時釈放</rb><rt>いちじしゃくほう</rt></ruby>の\\n<ruby><rb>許可</rb><rt>きょか</rt></ruby>さえ<ruby><rb>取</rb><rt>と</rt></ruby>ったら<ruby><rb>君</rb><rt>きみ</rt></ruby>らは<ruby><rb>用</rb><rt>よう</rt></ruby>なしなの！",
+        "zh_cn": "谁跟你说好了！别纠缠不休了，\\n我早就帮他申请了旁听和取保候审，\\n接下来已经跟你们没有关系了！",
+        "zh_tw": "我又沒答應！啊啊真是，你們很煩耶。\\n只要得到旁聽跟暫時釋放許可，\\n就沒事找你們了啦！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0002",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Now stay out of my way and stop trying\\nto confuse the issue!",
+        "ja_jp": "いいからそこでしびれといて。\\nじゃあね、もう<ruby><rb>追</rb><rt>お</rt></ruby>って<ruby><rb>来</rb><rt>こ</rt></ruby>ないでよ！",
+        "zh_cn": "你们就在那边乖乖触电吧。\\n拜拜，别再追来啦！",
+        "zh_tw": "你們乖乖在那裡麻痺一下吧。\\n拜拜，不要再追來了喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0003",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Irreverent Imperial Soldier",
+        "ja_jp": "不真面目な帝国兵",
+        "zh_cn": "轻佻的帝国兵",
+        "zh_tw": "不正經的帝國兵"
+      },
+      "context": {
+        "en_us": "WAAAAGH! OPERATION MAKE-HIM-\\nAGREE-TO-A-PROMISE-HE-DIDN'T-MAKE\\nIS A BUST!",
+        "ja_jp": "うえー！　どさくさに<ruby><rb>紛</rb><rt>まぎ</rt></ruby>れて<ruby><rb>勝手</rb><rt>かって</rt></ruby>な\\n<ruby><rb>約束</rb><rt>やくそく</rt></ruby>を<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>付</rb><rt>つ</rt></ruby>ける<ruby><rb>作戦</rb><rt>さくせん</rt></ruby><ruby><rb>大失敗</rb><rt>だいしっぱい</rt></ruby>だぞーい！",
+        "zh_cn": "唉！趁乱骗他留下的计划\\n彻底失败啦！",
+        "zh_tw": "嗚哇──！\\n趁亂單方面訂下約定作戰\\n徹底失敗啦──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0004",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Thanks, Jupiter. It's no surprise those\\nimperials are trying every dirty trick\\nin the book to stop us.",
+        "ja_jp": "ふう、<ruby><rb>助</rb><rt>たす</rt></ruby>かった。<ruby><rb>予想</rb><rt>よそう</rt></ruby><ruby><rb>通</rb><rt>どお</rt></ruby>り、<ruby><rb>移動中</rb><rt>いどうちゅう</rt></ruby>\\nずっと<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>が<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>してきたな。",
+        "zh_cn": "呼，多谢。和预想的一样，\\n一路上不停有帝国兵来干扰啊。",
+        "zh_tw": "呼，得救了。跟預想的一樣，\\n移動期間一直有帝國兵來妨礙呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0005",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "Yeah, but I didn't know they'd be THIS into\\nit. How much is that bloated dolt of a\\nprosecutor paying them, anyway?",
+        "ja_jp": "あいつら<ruby><rb>気合</rb><rt>きあ</rt></ruby>い<ruby><rb>入</rb><rt>はい</rt></ruby>り<ruby><rb>過</rb><rt>す</rt></ruby>ぎでしょ。\\n<ruby><rb>検事</rb><rt>けんじ</rt></ruby>からいくらもらってるのかしら。",
+        "zh_cn": "他们也太有干劲了吧。\\n到底收了检察长多少钱啊。",
+        "zh_tw": "那些傢伙也太有幹勁了吧。\\n到底收了檢察官多少錢啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0006",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "An awful lot, I'd imagine. The Empire may\\nbe in bad shape these days, but using\\nanother nation's soldiers as personal\\nlackeys can't be cheap.",
+        "ja_jp": "まあ<ruby><rb>内情</rb><rt>ないじょう</rt></ruby>がズタボロとはいえ<ruby><rb>他国</rb><rt>たこく</rt></ruby>の\\n<ruby><rb>兵</rb><rt>へい</rt></ruby>を<ruby><rb>私兵</rb><rt>しへい</rt></ruby><ruby><rb>同然</rb><rt>どうぜん</rt></ruby>に<ruby><rb>使</rb><rt>つか</rt></ruby>ってるんだから、\\n<ruby><rb>相当</rb><rt>そうとう</rt></ruby><ruby><rb>払</rb><rt>はら</rt></ruby>ってるんだろうねえ。",
+        "zh_cn": "暂且不论内幕有多不堪，\\n单看他能把他国士兵当私人军队\\n来差遣这一点，应该是花了不少钱的。",
+        "zh_tw": "暫且不論內幕有多殘破不堪，\\n檢察官能把他國士兵當作私人軍隊使用，\\n應該給了不少吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0007",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "But all that nonsense ends today.\\nNow let's win this trial!",
+        "ja_jp": "けどそんな<ruby><rb>無茶苦茶</rb><rt>むちゃくちゃ</rt></ruby>も<ruby><rb>今日</rb><rt>きょう</rt></ruby><ruby><rb>限</rb><rt>かぎ</rt></ruby>りさ。\\nさあ、<ruby><rb>勝利</rb><rt>しょうり</rt></ruby>を<ruby><rb>掴</rb><rt>つか</rt></ruby>みに<ruby><rb>行</rb><rt>い</rt></ruby>くとしようか！",
+        "zh_cn": "但这荒唐事今天也要结束了。\\n走！我们去赢得胜利吧！",
+        "zh_tw": "但這樣的胡作非為只到今天為止。\\n好，我們去贏得勝利吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0008",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "That Day\\nLittleton Courtroom",
+        "ja_jp": "<ruby><rb>同日</rb><rt>どうじつ</rt></ruby>\\nロットルタウン<ruby><rb>法廷</rb><rt>ほうてい</rt></ruby>　<ruby><rb>内部</rb><rt>ないぶ</rt></ruby>",
+        "zh_cn": "同一天\\n罗特尔镇法院 法庭",
+        "zh_tw": "同一天\\n洛特魯鎮法庭　內部"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'm surprised how calm the courtroom is,\\ngiven how many soldiers we saw hanging\\naround town.",
+        "ja_jp": "これがこの<ruby><rb>町</rb><rt>まち</rt></ruby>の<ruby><rb>法廷</rb><rt>ほうてい</rt></ruby>……。<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>が\\nたむろしている<ruby><rb>町中</rb><rt>まちなか</rt></ruby>からは<ruby><rb>想像</rb><rt>そうぞう</rt></ruby>できない\\nぐらいきちんとした<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>だ。",
+        "zh_cn": "这就是这个小镇的法庭吗……\\n如今大街小巷充斥着帝国兵，很难想象\\n同一片土地上还有这么正经的地方。",
+        "zh_tw": "這裡就是這個鎮的法庭……\\n從帝國兵群聚的鎮上來看，\\n完全無法想像會有這麼正式的場所。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0009",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "My great grandfather built this into an\\nhonorable place, which makes it all the\\nworse that it's now being used for such\\nunderhanded shenanigans!",
+        "ja_jp": "<ruby><rb>裁判所</rb><rt>さいばんしょ</rt></ruby><ruby><rb>自体</rb><rt>じたい</rt></ruby>は、うちのひいおじいさまが\\n<ruby><rb>作</rb><rt>つく</rt></ruby>った<ruby><rb>由緒</rb><rt>ゆいしょ</rt></ruby><ruby><rb>正</rb><rt>ただ</rt></ruby>しいものだから。\\nなのにそこで<ruby><rb>悪事</rb><rt>あくじ</rt></ruby>を<ruby><rb>働</rb><rt>はたら</rt></ruby>くなんて……！",
+        "zh_cn": "这个法院本就由我的曾祖父所建，\\n当然是历史悠久的肃穆之地。\\n现在却有人在这里做坏事……",
+        "zh_tw": "因為這間法院，是我曾祖父大人所建，\\n擁有悠久歷史的建築物啊。\\n但現在竟然有人在裡面做壞事……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0010",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Prosecutor Guaron",
+        "ja_jp": "ガロン検事",
+        "zh_cn": "加隆检察长",
+        "zh_tw": "加隆檢察官"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "……。",
+        "zh_cn": "……",
+        "zh_tw": "……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120091_01",
+      "name": {
+        "en_us": "Judge",
+        "ja_jp": "裁判長",
+        "zh_cn": "审判长",
+        "zh_tw": "審判長"
+      },
+      "context": {
+        "en_us": "Hear ye, hear ye! Court is now in session!\\nThe prosecution will now present\\ntheir opening statement.",
+        "ja_jp": "みなさん、<ruby><rb>静粛</rb><rt>せいしゅく</rt></ruby>に！\\nそれでは、<ruby><rb>開廷</rb><rt>かいてい</rt></ruby>します。<ruby><rb>検察</rb><rt>けんさつ</rt></ruby><ruby><rb>側</rb><rt>がわ</rt></ruby>は\\n<ruby><rb>起訴状</rb><rt>きそじょう</rt></ruby>を<ruby><rb>読</rb><rt>よ</rt></ruby>み<ruby><rb>上</rb><rt>あ</rt></ruby>げるように。",
+        "zh_cn": "各位保持肃静！\\n现在开庭。\\n请公诉方宣读起诉书。",
+        "zh_tw": "所有人，肅靜！\\n現在正式開庭。\\n檢方請宣讀起訴書。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0011",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Prosecutor Guaron",
+        "ja_jp": "ガロン検事",
+        "zh_cn": "加隆检察长",
+        "zh_tw": "加隆檢察官"
+      },
+      "context": {
+        "en_us": "Thank you, Your Honor... Hear me well,\\nyou ignorant masses and defendants!\\nI will now present to you a perfect picture\\nof absolute guilt!",
+        "ja_jp": "<ruby><rb>承知</rb><rt>しょうち</rt></ruby>した。<ruby><rb>良</rb><rt>よ</rt></ruby>いか、<ruby><rb>無知</rb><rt>むち</rt></ruby><ruby><rb>蒙昧</rb><rt>もうまい</rt></ruby>な\\n<ruby><rb>被告人</rb><rt>ひこくにん</rt></ruby>と<ruby><rb>傍聴人</rb><rt>ぼうちょうにん</rt></ruby>。<ruby><rb>今</rb><rt>いま</rt></ruby>から<ruby><rb>心</rb><rt>こころ</rt></ruby>して、\\n<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby><ruby><rb>的</rb><rt>てき</rt></ruby>な<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>言葉</rb><rt>ことば</rt></ruby>を<ruby><rb>傾聴</rb><rt>けいちょう</rt></ruby>するがよい。",
+        "zh_cn": "是。\\n愚昧无知的被告人和旁听啊，\\n好好倾听我权威的一字一句吧。",
+        "zh_tw": "是。聽好了，蒙昧無知的被告\\n以及旁聽人。從現在起專注地\\n傾聽絕對的我所說的每字每句。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0012",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Prosecutor Guaron",
+        "ja_jp": "ガロン検事",
+        "zh_cn": "加隆检察长",
+        "zh_tw": "加隆檢察官"
+      },
+      "context": {
+        "en_us": "Three days ago, the defendant you see\\nbefore you took a back road in the\\nshopping district and plunged a knife\\ninto the back of an innocent victim!",
+        "ja_jp": "3<ruby><rb>日</rb><rt>か</rt></ruby><ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>夕刻</rb><rt>ゆうこく</rt></ruby>。<ruby><rb>被告人</rb><rt>ひこくにん</rt></ruby>は<ruby><rb>商店街通</rb><rt>しょうてんがいどお</rt></ruby>りの\\n<ruby><rb>裏</rb><rt>うら</rt></ruby><ruby><rb>路地</rb><rt>ろじ</rt></ruby>にて、<ruby><rb>罪</rb><rt>つみ</rt></ruby>のない<ruby><rb>被害者</rb><rt>ひがいしゃ</rt></ruby>を\\nナイフにて<ruby><rb>刺</rb><rt>さ</rt></ruby>し<ruby><rb>殺</rb><rt>ころ</rt></ruby>した！",
+        "zh_cn": "被告人于三天前的傍晚\\n在商店街的小巷里\\n用匕首杀害了无辜的被害人！",
+        "zh_tw": "三天前的傍晚，\\n被告於商店街的小巷裡，\\n以短刀刺殺了無辜的被害人！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0013",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Prosecutor Guaron",
+        "ja_jp": "ガロン検事",
+        "zh_cn": "加隆检察长",
+        "zh_tw": "加隆檢察官"
+      },
+      "context": {
+        "en_us": "The prosecution will now call to the stand\\nan eyewitness to this crime. Sir, please\\ntell us your name and exactly what you\\nsaw on that heinous day.",
+        "ja_jp": "<ruby><rb>検察</rb><rt>けんさつ</rt></ruby><ruby><rb>側</rb><rt>がわ</rt></ruby>は、その<ruby><rb>目撃者</rb><rt>もくげきしゃ</rt></ruby>の<ruby><rb>入廷</rb><rt>にゅうてい</rt></ruby>と<ruby><rb>証言</rb><rt>しょうげん</rt></ruby>を\\n<ruby><rb>要請</rb><rt>ようせい</rt></ruby>する。……<ruby><rb>証人</rb><rt>しょうにん</rt></ruby>よ、<ruby><rb>前</rb><rt>まえ</rt></ruby>へ！",
+        "zh_cn": "公诉方请求法庭传目击证人出庭。\\n证人，请上前来！",
+        "zh_tw": "檢方要求傳喚目擊證人出庭作證。\\n……證人啊，上前！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0014",
+      "book": ""
+    },
+    {
+      "icon": "120019_01",
+      "name": {
+        "en_us": "Gassbag",
+        "ja_jp": "ゲロッタ",
+        "zh_cn": "坦拜",
+        "zh_tw": "葛羅達"
+      },
+      "context": {
+        "en_us": "My name is Gassbag, and I was the first\\nto witness this most dastardly deed!",
+        "ja_jp": "……ハイッ！　<ruby><rb>自分</rb><rt>じぶん</rt></ruby>はゲロッタって\\n<ruby><rb>言</rb><rt>い</rt></ruby>います！　<ruby><rb>事件</rb><rt>じけん</rt></ruby>の<ruby><rb>第一</rb><rt>だいいち</rt></ruby><ruby><rb>発見</rb><rt>はっけん</rt></ruby><ruby><rb>者</rb><rt>しゃ</rt></ruby>っす！",
+        "zh_cn": "在！我叫坦拜！\\n是案件的第一目击者！",
+        "zh_tw": "……是！我叫葛羅達！\\n是事件的第一目擊者！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0015",
+      "book": ""
+    },
+    {
+      "icon": "120019_01",
+      "name": {
+        "en_us": "Gassbag",
+        "ja_jp": "ゲロッタ",
+        "zh_cn": "坦拜",
+        "zh_tw": "葛羅達"
+      },
+      "context": {
+        "en_us": "That day, I happened to be wandering near\\nthe scene of the crime when I heard a\\nwoman scream! Oh, it was a terrible\\nsound, so it was. TEEEEEERRIBLE!",
+        "ja_jp": "あの<ruby><rb>日</rb><rt>ひ</rt></ruby>、<ruby><rb>自分</rb><rt>じぶん</rt></ruby>はたまたま<ruby><rb>事件</rb><rt>じけん</rt></ruby><ruby><rb>現場</rb><rt>げんば</rt></ruby>の\\n<ruby><rb>近</rb><rt>ちか</rt></ruby>くを<ruby><rb>歩</rb><rt>ある</rt></ruby>いていて……<ruby><rb>女性</rb><rt>じょせい</rt></ruby>の<ruby><rb>叫</rb><rt>さけ</rt></ruby>び<ruby><rb>声</rb><rt>ごえ</rt></ruby>を\\n<ruby><rb>聞</rb><rt>き</rt></ruby>いて<ruby><rb>現場</rb><rt>げんば</rt></ruby>へ<ruby><rb>駆</rb><rt>か</rt></ruby>けつけたっすよ。",
+        "zh_cn": "当天，我凑巧路过案发现场……\\n听到了女性的叫声所以赶了过去。",
+        "zh_tw": "那天，我剛好在案發現場附近……\\n因為聽見了女性的叫聲，\\n所以連忙跑到現場。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0016",
+      "book": ""
+    },
+    {
+      "icon": "120019_01",
+      "name": {
+        "en_us": "Gassbag",
+        "ja_jp": "ゲロッタ",
+        "zh_cn": "坦拜",
+        "zh_tw": "葛羅達"
+      },
+      "context": {
+        "en_us": "Sadly, by the time I got there, the victim\\nwas already dead—and I clearly saw that\\nthe knife sticking out of his back had the\\ndefendant's family crest upon it!",
+        "ja_jp": "その<ruby><rb>時</rb><rt>とき</rt></ruby>にはもう、<ruby><rb>被害者</rb><rt>ひがいしゃ</rt></ruby>はナイフで\\n<ruby><rb>刺</rb><rt>さ</rt></ruby>されて<ruby><rb>死</rb><rt>し</rt></ruby>んでいて……。ナイフには\\n<ruby><rb>被告人</rb><rt>ひこくにん</rt></ruby>の<ruby><rb>家</rb><rt>いえ</rt></ruby>の<ruby><rb>家紋</rb><rt>かもん</rt></ruby>が！",
+        "zh_cn": "我到的时候，被害人已经被\\n匕首刺中身亡……\\n匕首上刻着被告人家的家徽！",
+        "zh_tw": "等我趕到的時候，\\n被害人已經遭短刀刺死了……\\n刀上還有被告她家的紋章！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0017",
+      "book": ""
+    },
+    {
+      "icon": "120019_01",
+      "name": {
+        "en_us": "Gassbag",
+        "ja_jp": "ゲロッタ",
+        "zh_cn": "坦拜",
+        "zh_tw": "葛羅達"
+      },
+      "context": {
+        "en_us": "There was nobody else in that entire\\nalley, so I can say without a shadow\\nof a doubt that the defendant is guilty!\\nGUILTY! GUILTY AS SIN!",
+        "ja_jp": "<ruby><rb>路地裏</rb><rt>ろじうら</rt></ruby>には、<ruby><rb>他</rb><rt>ほか</rt></ruby>に<ruby><rb>誰</rb><rt>だれ</rt></ruby>もいなかったっす。\\nつまり<ruby><rb>殺人</rb><rt>さつじん</rt></ruby><ruby><rb>犯</rb><rt>はん</rt></ruby>は、<ruby><rb>被告人</rb><rt>ひこくにん</rt></ruby>で<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby>に\\n<ruby><rb>間違</rb><rt>まちが</rt></ruby>いないってワケっすよー！",
+        "zh_cn": "当时巷子里没有其他人。\\n也就是说杀人犯绝对就是被告人，\\n不会有错的啦！",
+        "zh_tw": "當時那條小巷裡沒有其他人。\\n所以殺人犯，\\n絕對就是被告不會錯啦──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0018",
+      "book": ""
+    },
+    {
+      "icon": "120091_01",
+      "name": {
+        "en_us": "Judge",
+        "ja_jp": "裁判長",
+        "zh_cn": "审判长",
+        "zh_tw": "審判長"
+      },
+      "context": {
+        "en_us": "Thank you, sir. Does the defendant have\\nanything to ask this witness? Are there\\nany issues you have with his testimony?",
+        "ja_jp": "……ふむ。では<ruby><rb>被告人</rb><rt>ひこくにん</rt></ruby>に<ruby><rb>尋</rb><rt>たず</rt></ruby>ねます。\\n<ruby><rb>今</rb><rt>いま</rt></ruby>の<ruby><rb>証人</rb><rt>しょうにん</rt></ruby>の<ruby><rb>発言</rb><rt>はつげん</rt></ruby>について、<ruby><rb>内容</rb><rt>ないよう</rt></ruby>に\\n<ruby><rb>相違</rb><rt>そうい</rt></ruby>はありませんか。",
+        "zh_cn": "嗯……\\n被告人对证人的证词是否有异议？",
+        "zh_tw": "……嗯。那麼請問被告。\\n關於剛才證人的發言，\\n內容是否無誤？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0019",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "Only the fact he's lying through his teeth!\\nI mean, the victim was already dead by\\nthe time I got there for heck's sake!",
+        "ja_jp": "<ruby><rb>大</rb><rt>おお</rt></ruby>ありにきまってるでしょ！　\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>被害者</rb><rt>ひがいしゃ</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>つけた<ruby><rb>時</rb><rt>とき</rt></ruby>には、\\nもう<ruby><rb>刺</rb><rt>さ</rt></ruby>されてたわ！",
+        "zh_cn": "当然有了！\\n当我发现被害人的时候，\\n他就已经死了好吗！",
+        "zh_tw": "當然有誤啊！\\n我發現被害人的時候，\\n他就已經遇害了好嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0020",
+      "book": ""
+    },
+    {
+      "icon": "120091_01",
+      "name": {
+        "en_us": "Judge",
+        "ja_jp": "裁判長",
+        "zh_cn": "审判长",
+        "zh_tw": "審判長"
+      },
+      "context": {
+        "en_us": "Noted. The defense may continue.",
+        "ja_jp": "よろしい。では、<ruby><rb>弁護人</rb><rt>べんごにん</rt></ruby>のご<ruby><rb>意見</rb><rt>いけん</rt></ruby>は\\nいかがですか。",
+        "zh_cn": "好。辩护方对证言可有异议？",
+        "zh_tw": "好。那麼，\\n辯護律師有何意見？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0021",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Naturally, we have many issues with the\\nprosecution's claims. Thankfully, I have\\nsomething that may shed light on the\\ncontradictions in our witness's testimony.",
+        "ja_jp": "もちろん、<ruby><rb>検察</rb><rt>けんさつ</rt></ruby><ruby><rb>側</rb><rt>がわ</rt></ruby>の<ruby><rb>主張</rb><rt>しゅちょう</rt></ruby>には<ruby><rb>同意</rb><rt>どうい</rt></ruby>\\nしないよ。こちらには<ruby><rb>証人</rb><rt>しょうにん</rt></ruby>の<ruby><rb>言葉</rb><rt>ことば</rt></ruby>に\\n<ruby><rb>含</rb><rt>ふく</rt></ruby>まれる<ruby><rb>矛盾</rb><rt>むじゅん</rt></ruby>を<ruby><rb>暴</rb><rt>あば</rt></ruby>く<ruby><rb>用意</rb><rt>ようい</rt></ruby>がある。",
+        "zh_cn": "当然有。我反对公诉方的主张。\\n证人的言辞中存在矛盾。",
+        "zh_tw": "當然不同意檢方的主張。\\n我方已準備好揭露證人發言當中的矛盾。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0022",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Let's take it back to the beginning, yes?\\nIn truth, the murder weapon had actually\\nbeen stolen from the defendant's house\\nsome time before the crime.",
+        "ja_jp": "まず、そもそもの<ruby><rb>話</rb><rt>はなし</rt></ruby>だけど――\\n<ruby><rb>凶器</rb><rt>きょうき</rt></ruby>のナイフは、<ruby><rb>事件</rb><rt>じけん</rt></ruby>よりずっと<ruby><rb>前</rb><rt>まえ</rt></ruby>に\\n<ruby><rb>被告人</rb><rt>ひこくにん</rt></ruby>の<ruby><rb>家</rb><rt>いえ</rt></ruby>から<ruby><rb>盗</rb><rt>ぬす</rt></ruby>まれているんだよ。",
+        "zh_cn": "首先，这起案件中最关键的道具——\\n作为凶器的匕首在案发前就已经失窃，\\n案发当时并不在被告人手中。",
+        "zh_tw": "首先，追根究柢──用來行兇的短刀，\\n在案發很久之前就於被告家中遭竊了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0023",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "As evidence, we present an investigative\\nreport drawn up by the Templars based on the\\ntestimony of the secondhand shopkeeper who\\nacquired the item.",
+        "ja_jp": "これがその<ruby><rb>証拠</rb><rt>しょうこ</rt></ruby>だ。くだんのナイフを\\n<ruby><rb>売買</rb><rt>ばいばい</rt></ruby>した<ruby><rb>古物商</rb><rt>こぶつしょう</rt></ruby>の<ruby><rb>証言</rb><rt>しょうげん</rt></ruby>をもとに、\\n<ruby><rb>教会騎士</rb><rt>きょうかいきし</rt></ruby>が<ruby><rb>作成</rb><rt>さくせい</rt></ruby>した<ruby><rb>調査</rb><rt>ちょうさ</rt></ruby><ruby><rb>資料</rb><rt>しりょう</rt></ruby>だよ。",
+        "zh_cn": "这是证据。\\n教会骑士根据买卖过那把匕首的\\n古董商的证词所提出的调查资料。",
+        "zh_tw": "請看證據。這是以曾買賣過\\n上述短刀的古董商證言為基礎，\\n再由教會騎士統整的調查資料。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0024",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Prosecutor Guaron",
+        "ja_jp": "ガロン検事",
+        "zh_cn": "加隆检察长",
+        "zh_tw": "加隆檢察官"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "……。",
+        "zh_cn": "……",
+        "zh_tw": "……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "This same dealer also gave us a detailed\\ndescription of the person who bought the\\nknife in question.",
+        "ja_jp": "さらに。その<ruby><rb>古物商</rb><rt>こぶつしょう</rt></ruby>は、<ruby><rb>事件</rb><rt>じけん</rt></ruby><ruby><rb>前日</rb><rt>ぜんじつ</rt></ruby>に\\n<ruby><rb>問題</rb><rt>もんだい</rt></ruby>のナイフを<ruby><rb>売</rb><rt>う</rt></ruby>り<ruby><rb>飛</rb><rt>と</rt></ruby>ばした<ruby><rb>相手</rb><rt>あいて</rt></ruby>の\\n<ruby><rb>特徴</rb><rt>とくちょう</rt></ruby>についても<ruby><rb>証言</rb><rt>しょうげん</rt></ruby>を<ruby><rb>残</rb><rt>のこ</rt></ruby>している。",
+        "zh_cn": "除此之外，那个古董商\\n还在证词中描述了案发前一天\\n买走匕首之人的特征。",
+        "zh_tw": "此外，那位古董商，\\n證言中也描述了事件前一天\\n購入那把短刀的買家特徵。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0025",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "He was ＂a young man with brown hair,\\nbrown eyes, a slouch, and a loud voice.＂\\nAnd my stars, but that is a PERFECT\\ndescription of our witness here today!",
+        "ja_jp": "『<ruby><rb>年</rb><rt>とし</rt></ruby><ruby><rb>若</rb><rt>わか</rt></ruby>い<ruby><rb>茶髪</rb><rt>ちゃぱつ</rt></ruby>の<ruby><rb>男</rb><rt>おとこ</rt></ruby>』『<ruby><rb>瞳</rb><rt>ひとみ</rt></ruby>も<ruby><rb>茶色</rb><rt>ちゃいろ</rt></ruby>い』\\n『やや<ruby><rb>猫背</rb><rt>ねこぜ</rt></ruby>で、<ruby><rb>声</rb><rt>こえ</rt></ruby>が<ruby><rb>大</rb><rt>おお</rt></ruby>きい』――\\nすべて、<ruby><rb>証人</rb><rt>しょうにん</rt></ruby>の<ruby><rb>特徴</rb><rt>とくちょう</rt></ruby>と<ruby><rb>一致</rb><rt>いっち</rt></ruby>するよね。",
+        "zh_cn": "“棕色头发”、“棕色眼睛”、\\n“略微驼背”、“声音洪亮”的“青年”\\n——所有特征均与这位证人一致呢。",
+        "zh_tw": "「褐髮年輕男性」、「褐色雙眼」、\\n「有些駝背，嗓門很大」──\\n全部，都和證人的特徵一致對吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0026",
+      "book": ""
+    },
+    {
+      "icon": "120019_01",
+      "name": {
+        "en_us": "Gassbag",
+        "ja_jp": "ゲロッタ",
+        "zh_cn": "坦拜",
+        "zh_tw": "葛羅達"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "……！",
+        "zh_cn": "！",
+        "zh_tw": "……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0027",
+      "book": ""
+    },
+    {
+      "icon": "120091_01",
+      "name": {
+        "en_us": "Judge",
+        "ja_jp": "裁判長",
+        "zh_cn": "审判长",
+        "zh_tw": "審判長"
+      },
+      "context": {
+        "en_us": "Order! Order! That is a very inflammatory\\nstatement, Mr. Defense Attorney.\\nWhat exactly do you mean by it?",
+        "ja_jp": "……<ruby><rb>静粛</rb><rt>せいしゅく</rt></ruby>に！　<ruby><rb>弁護人</rb><rt>べんごにん</rt></ruby>、これは\\nいったいどういうことでしょう？",
+        "zh_cn": "肃静！辩护方，这究竟是怎么回事？",
+        "zh_tw": "……肅靜！辯護律師，\\n這究竟是怎麼回事？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0028",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Only this, Your Honor: At the time of the\\ncrime, the person who was in possession\\nof the murder weapon was not my client,\\nbut the witness himself!",
+        "ja_jp": "どうって、すごく<ruby><rb>簡単</rb><rt>かんたん</rt></ruby>なことさ。\\n<ruby><rb>事件</rb><rt>じけん</rt></ruby><ruby><rb>当時</rb><rt>とうじ</rt></ruby>ナイフを<ruby><rb>持</rb><rt>も</rt></ruby>っていたのは、\\n<ruby><rb>実</rb><rt>じつ</rt></ruby>は<ruby><rb>被告人</rb><rt>ひこくにん</rt></ruby>ではなく<ruby><rb>証人</rb><rt>しょうにん</rt></ruby>だった。",
+        "zh_cn": "还能是怎么回事，非常简单。\\n案发当时持有匕首的人\\n并不是被告人，而是这位证人。",
+        "zh_tw": "什麼怎麼回事，非常簡單啊。\\n其實案發當時手上持有短刀的，\\n並非被告，而是證人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0029",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "And as Mr. Gassbag so kindly admitted,\\nthe only people at the scene of the crime\\nwere my client and himself, which means\\nwe can only draw one conclusion...",
+        "ja_jp": "そしていみじくも<ruby><rb>証人本人</rb><rt>しょうにんほんにん</rt></ruby>が<ruby><rb>証言</rb><rt>しょうげん</rt></ruby>した\\n<ruby><rb>通</rb><rt>とお</rt></ruby>り、<ruby><rb>事件</rb><rt>じけん</rt></ruby><ruby><rb>現場</rb><rt>げんば</rt></ruby>にいた<ruby><rb>人間</rb><rt>にんげん</rt></ruby>はふたりを\\nおいて<ruby><rb>他</rb><rt>ほか</rt></ruby>にいない。つまり――",
+        "zh_cn": "而凑巧的是正如他本人所言，\\n案发现场除了他们二人以外并无他人。\\n也就是说——",
+        "zh_tw": "湊巧的是正如證人自己所說，\\n當時待在案發現場的只有他們兩位。\\n也就是說──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0030",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Gassbag is the murderer, and my client\\nhas been set up!",
+        "ja_jp": "<ruby><rb>証人</rb><rt>しょうにん</rt></ruby>こそが、この<ruby><rb>殺人</rb><rt>さつじん</rt></ruby><ruby><rb>事件</rb><rt>じけん</rt></ruby>の<ruby><rb>真犯人</rb><rt>しんはんにん</rt></ruby>。\\nこの<ruby><rb>殺人</rb><rt>さつじん</rt></ruby><ruby><rb>容疑</rb><rt>ようぎ</rt></ruby>は、<ruby><rb>第一</rb><rt>だいいち</rt></ruby><ruby><rb>発見</rb><rt>はっけん</rt></ruby><ruby><rb>者</rb><rt>しゃ</rt></ruby>による\\n<ruby><rb>自作</rb><rt>じさく</rt></ruby><ruby><rb>自演</rb><rt>じえん</rt></ruby><ruby><rb>行為</rb><rt>こうい</rt></ruby>にすぎないのさ！",
+        "zh_cn": "这位证人才是这起案件的真凶。\\n这起案件不过是由所谓的第一目击者\\n为了栽赃陷害而自导自演罢了！",
+        "zh_tw": "這位證人，才是這起殺人事件的真兇。\\n本次被告的殺人嫌疑，\\n根本就只是第一目擊者在自導自演！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0031",
+      "book": ""
+    },
+    {
+      "icon": "120019_01",
+      "name": {
+        "en_us": "Gassbag",
+        "ja_jp": "ゲロッタ",
+        "zh_cn": "坦拜",
+        "zh_tw": "葛羅達"
+      },
+      "context": {
+        "en_us": "CRIPES!",
+        "ja_jp": "ギョ、ギョギョーーーーッ！",
+        "zh_cn": "这、这这这这——",
+        "zh_tw": "嗚、嗚噫────！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0032",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Did you see Gassbag's reaction just now?\\nJupiter's really on to something here!",
+        "ja_jp": "あの<ruby><rb>反応</rb><rt>はんのう</rt></ruby>……！　やっぱり<ruby><rb>図星</rb><rt>ずぼし</rt></ruby>なんだ。\\nこれなら、もしかして……！",
+        "zh_cn": "看他的反应……果然是说中了。\\n这样一来应该就……",
+        "zh_tw": "看他的反應……！\\n果然說中了。這樣的話，說不定……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0033",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Prosecutor Guaron",
+        "ja_jp": "ガロン検事",
+        "zh_cn": "加隆检察长",
+        "zh_tw": "加隆檢察官"
+      },
+      "context": {
+        "en_us": "Don't be absurd! This is nothing more than\\nan absolute fantasy brought on by the\\ngreatest of all fools.",
+        "ja_jp": "――ふん。くだらん。\\nあまりに<ruby><rb>馬鹿</rb><rt>ばか</rt></ruby>げた、<ruby><rb>非</rb><rt>ひ</rt></ruby><ruby><rb>絶対</rb><rt>ぜったい</rt></ruby><ruby><rb>的</rb><rt>てき</rt></ruby>な<ruby><rb>妄想</rb><rt>もうそう</rt></ruby>だ。",
+        "zh_cn": "哼，无聊。\\n真是荒唐又毫无权威性的幻想。",
+        "zh_tw": "──哼，無聊至極。\\n太過愚蠢、非絕對的妄想。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0034",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "Ex-CUSE me?",
+        "ja_jp": "なんですって？",
+        "zh_cn": "你说什么？",
+        "zh_tw": "你說什麼？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0035",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Prosecutor Guaron",
+        "ja_jp": "ガロン検事",
+        "zh_cn": "加隆检察长",
+        "zh_tw": "加隆檢察官"
+      },
+      "context": {
+        "en_us": "Is there wax in your ears, my dear?\\nThis whole absurd allegation is based on\\nnothing more than the testimony of a\\nsingle shopkeeper.",
+        "ja_jp": "くだらん、と<ruby><rb>言</rb><rt>い</rt></ruby>ったのだ。その<ruby><rb>馬鹿</rb><rt>ばか</rt></ruby>げた\\n<ruby><rb>推論</rb><rt>すいろん</rt></ruby>を<ruby><rb>証拠</rb><rt>しょうこ</rt></ruby>づけるのは<ruby><rb>古物商</rb><rt>こぶつしょう</rt></ruby>の<ruby><rb>陳述</rb><rt>ちんじゅつ</rt></ruby>、\\nそれのみ……。",
+        "zh_cn": "我说无聊。\\n能够印证你那荒唐推论的\\n也只有古董商的话……",
+        "zh_tw": "我說「無聊至極」。\\n能為那愚蠢推論佐證的，\\n只有古董商的陳述……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0036",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Prosecutor Guaron",
+        "ja_jp": "ガロン検事",
+        "zh_cn": "加隆检察长",
+        "zh_tw": "加隆檢察官"
+      },
+      "context": {
+        "en_us": "This is a baseless accusation founded on\\nthe flimsiest of personal descriptions, and\\nit absolutely will not stand.",
+        "ja_jp": "<ruby><rb>人相書</rb><rt>にんそうが</rt></ruby>きでもあるならまだしも――\\nこれではただの<ruby><rb>言</rb><rt>い</rt></ruby>いがかりだ。\\n<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby><ruby><rb>的</rb><rt>てき</rt></ruby>に<ruby><rb>話</rb><rt>はなし</rt></ruby>にならんな。",
+        "zh_cn": "连张嫌犯画像都没有——\\n不过是个商人的一面之词，\\n根本不值一提。",
+        "zh_tw": "如果有買家畫像就算了──\\n但現在不過是強詞奪理。\\n稱不上絕對的證言。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0037",
+      "book": ""
+    },
+    {
+      "icon": "120019_01",
+      "name": {
+        "en_us": "Gassbag",
+        "ja_jp": "ゲロッタ",
+        "zh_cn": "坦拜",
+        "zh_tw": "葛羅達"
+      },
+      "context": {
+        "en_us": "Yeah, what he said! How can we even trust\\nthe memory of some old coot anyway?!",
+        "ja_jp": "そっ、そうっすよー！　あんな、\\nいかにも<ruby><rb>記憶力</rb><rt>きおくりょく</rt></ruby><ruby><rb>悪</rb><rt>わる</rt></ruby>そうなじいさんの\\n<ruby><rb>言</rb><rt>い</rt></ruby>うことなんかあてにならないっす！",
+        "zh_cn": "就、就是啊！就那个\\n看起来就记性不好的老爷子，\\n说出来的话能顶什么用啊！",
+        "zh_tw": "對、對啊──！光憑那種、\\n看起來就很健忘的老頭說的話，\\n哪裡可以當作證詞啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0038",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Hmm... I don't recall saying that the\\nshopkeep in question was an old man.",
+        "ja_jp": "へえ。<ruby><rb>君</rb><rt>きみ</rt></ruby>、よく<ruby><rb>証言</rb><rt>しょうげん</rt></ruby>した<ruby><rb>古物商</rb><rt>こぶつしょう</rt></ruby>が\\nおじいさんだってわかったね。",
+        "zh_cn": "哦？你怎么知道提供证词的\\n古董商是个老爷子呢？",
+        "zh_tw": "喔～你竟然知道作證的古董商\\n是位老爺爺啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0039",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Now how in Alberia could you possibly\\nhave known that little factoid?",
+        "ja_jp": "この<ruby><rb>町</rb><rt>まち</rt></ruby>の<ruby><rb>古物商</rb><rt>こぶつしょう</rt></ruby>はひとりじゃない\\nはずなんだけど――もしかして、\\n<ruby><rb>心当</rb><rt>こころあ</rt></ruby>たりがあるのかな？",
+        "zh_cn": "这个小镇的古董商应该\\n不止他一个吧——难不成，\\n你知道我说的是谁？",
+        "zh_tw": "這個鎮上的古董商應該不只一位呢──\\n還是說，你心裡有底呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0040",
+      "book": ""
+    },
+    {
+      "icon": "120019_01",
+      "name": {
+        "en_us": "Gassbag",
+        "ja_jp": "ゲロッタ",
+        "zh_cn": "坦拜",
+        "zh_tw": "葛羅達"
+      },
+      "context": {
+        "en_us": "SWEET FANCY CRIPES!",
+        "ja_jp": "ギ、ギクゥーーッ！",
+        "zh_cn": "这、这这——",
+        "zh_tw": "嗚、嗚噫噫────！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0041",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Prosecutor Guaron",
+        "ja_jp": "ガロン検事",
+        "zh_cn": "加隆检察长",
+        "zh_tw": "加隆檢察官"
+      },
+      "context": {
+        "en_us": "Tch!",
+        "ja_jp": "………………チッ。",
+        "zh_cn": "啧……",
+        "zh_tw": "………………嘖。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0042",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Aha ha ha! You know, I figured you were\\nthe kind of loose-lipped person who would\\nincriminate himself, which is exactly why\\nI left that little detail out.",
+        "ja_jp": "ふふ。やっぱりね。<ruby><rb>証人君</rb><rt>しょうにんくん</rt></ruby>は<ruby><rb>口</rb><rt>くち</rt></ruby>が\\n<ruby><rb>軽</rb><rt>かる</rt></ruby>そうだなあと<ruby><rb>思</rb><rt>おも</rt></ruby>ってたんだ♪\\nあえて<ruby><rb>詳細</rb><rt>しょうさい</rt></ruby>な<ruby><rb>説明</rb><rt>せつめい</rt></ruby>を<ruby><rb>省</rb><rt>はぶ</rt></ruby>いてよかったよ。",
+        "zh_cn": "呵呵，我就知道。证人小哥\\n看起来就像个好套话的人♪\\n我说的时候可是故意省略了细节。",
+        "zh_tw": "呵呵。果然。\\n我一直覺得證人小弟口風不太緊呢♪\\n這下省去詳細說明的工夫，太好了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0043",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "Wait, so you were deliberately trying to\\nget under the witness's skin in order to\\nmake him slip up?",
+        "ja_jp": "……うそ。まさかあなた、<ruby><rb>証人</rb><rt>しょうにん</rt></ruby>の<ruby><rb>失言</rb><rt>しつげん</rt></ruby>を\\n<ruby><rb>狙</rb><rt>ねら</rt></ruby>って<ruby><rb>揺</rb><rt>ゆ</rt></ruby>さぶりに<ruby><rb>行</rb><rt>い</rt></ruby>ったっていうの？",
+        "zh_cn": "这……难道你是为了\\n让证人说漏嘴才试探他的？",
+        "zh_tw": "……騙人。難道你、\\n是為了讓證人失言才故意讓他動搖的？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0044",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "That's so Jupiter. He even managed to\\ntake into consideration what arguments\\nthe prosecution might make!",
+        "ja_jp": "ああ、<ruby><rb>流石</rb><rt>さすが</rt></ruby>はユピテルだ。<ruby><rb>検事</rb><rt>けんじ</rt></ruby>に\\n<ruby><rb>反論</rb><rt>はんろん</rt></ruby>されるところまで<ruby><rb>織</rb><rt>お</rt></ruby>り<ruby><rb>込</rb><rt>こ</rt></ruby>み<ruby><rb>済</rb><rt>ず</rt></ruby>み\\nだなんて。",
+        "zh_cn": "哎呀，真不愧是朱庇特。\\n把检察长会进行反驳这一步\\n也事先计算在内了。",
+        "zh_tw": "嗯，不愧是朱庇特。\\n竟然連檢察官會反駁這件事都想到了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0045",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "At this rate, we'll be found innocent\\nin no time!",
+        "ja_jp": "この<ruby><rb>調子</rb><rt>ちょうし</rt></ruby>で<ruby><rb>進</rb><rt>すす</rt></ruby>めていけば、<ruby><rb>順当</rb><rt>じゅんとう</rt></ruby>に\\n<ruby><rb>無罪</rb><rt>むざい</rt></ruby>を<ruby><rb>勝</rb><rt>か</rt></ruby>ち<ruby><rb>取</rb><rt>と</rt></ruby>れるんじゃないか？",
+        "zh_cn": "按这个趋势下去，\\n应该能够顺利赢得无罪判决呢。",
+        "zh_tw": "只要照這個樣子，\\n應該能順利勝訴獲判無罪吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0046",
+      "book": ""
+    },
+    {
+      "icon": "120091_01",
+      "name": {
+        "en_us": "Judge",
+        "ja_jp": "裁判長",
+        "zh_cn": "审判长",
+        "zh_tw": "審判長"
+      },
+      "context": {
+        "en_us": "It seems the defense has finished.\\nProsecution, would you like to\\npresent any further evidence?",
+        "ja_jp": "……<ruby><rb>弁護</rb><rt>べんご</rt></ruby><ruby><rb>側</rb><rt>がわ</rt></ruby>の<ruby><rb>主張</rb><rt>しゅちょう</rt></ruby>は<ruby><rb>以上</rb><rt>いじょう</rt></ruby>のようです。\\n<ruby><rb>検察</rb><rt>けんさつ</rt></ruby><ruby><rb>側</rb><rt>がわ</rt></ruby>、ほかに<ruby><rb>証拠</rb><rt>しょうこ</rt></ruby><ruby><rb>調</rb><rt>しら</rt></ruby>べの<ruby><rb>請求</rb><rt>せいきゅう</rt></ruby>は\\nありますか。",
+        "zh_cn": "辩护方陈述完毕。\\n公诉方是否继续有其它证据提供？",
+        "zh_tw": "……辯方的主張似乎說完了。\\n檢方，是否有其他證據提出？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0047",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Prosecutor Guaron",
+        "ja_jp": "ガロン検事",
+        "zh_cn": "加隆检察长",
+        "zh_tw": "加隆檢察官"
+      },
+      "context": {
+        "en_us": "I would, Your Honor. The prosecution\\ncalls a new witness to the stand!",
+        "ja_jp": "ある。<ruby><rb>検察</rb><rt>けんさつ</rt></ruby><ruby><rb>側</rb><rt>がわ</rt></ruby>は、<ruby><rb>新</rb><rt>あら</rt></ruby>たな<ruby><rb>証人</rb><rt>しょうにん</rt></ruby>の\\n<ruby><rb>入廷</rb><rt>にゅうてい</rt></ruby>と<ruby><rb>証言</rb><rt>しょうげん</rt></ruby>を<ruby><rb>要請</rb><rt>ようせい</rt></ruby>する。<ruby><rb>証人</rb><rt>しょうにん</rt></ruby>よ、<ruby><rb>前</rb><rt>まえ</rt></ruby>へ。",
+        "zh_cn": "有。公诉方请法庭传另一位证人出庭。\\n证人，请上前。",
+        "zh_tw": "有。檢方要求傳喚新證人出庭作證。\\n證人啊，上前。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0048",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "They have another witness?!",
+        "ja_jp": "えっ……<ruby><rb>他</rb><rt>ほか</rt></ruby>にも<ruby><rb>証人</rb><rt>しょうにん</rt></ruby>が……!?",
+        "zh_cn": "什么……还有证人！？",
+        "zh_tw": "咦……還有其他證人……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0049",
+      "book": ""
+    },
+    {
+      "icon": "120021_01",
+      "name": {
+        "en_us": "Barr Gayne",
+        "ja_jp": "古物商サンモン",
+        "zh_cn": "古董商三文",
+        "zh_tw": "古董商桑門"
+      },
+      "context": {
+        "en_us": "Muh name's Barr Gayne, and I run that\\nthere secondhand store where the murder\\nweapon was sold, a'yup.",
+        "ja_jp": "ハイ。ワガハイは、サンモン。\\nこの<ruby><rb>町</rb><rt>まち</rt></ruby>で<ruby><rb>古物商</rb><rt>こぶつしょう</rt></ruby>をやっとります。\\n<ruby><rb>証拠</rb><rt>しょうこ</rt></ruby><ruby><rb>品</rb><rt>ひん</rt></ruby>のナイフを<ruby><rb>売買</rb><rt>ばいばい</rt></ruby>した<ruby><rb>者</rb><rt>もの</rt></ruby>です。",
+        "zh_cn": "是。吾辈名三文，\\n是这个小镇上的古董商，\\n也是买卖过那把匕首的人。",
+        "zh_tw": "是。老夫名為、桑門。\\n在這個鎮上做些古董生意。\\n也是販賣證物短刀的人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0050",
+      "book": ""
+    },
+    {
+      "icon": "120021_01",
+      "name": {
+        "en_us": "Barr Gayne",
+        "ja_jp": "古物商サンモン",
+        "zh_cn": "古董商三文",
+        "zh_tw": "古董商桑門"
+      },
+      "context": {
+        "en_us": "'Fraid I gotta give muh apologies\\nto the Templars, so I does.",
+        "ja_jp": "ほんで……ワガハイが<ruby><rb>申</rb><rt>もう</rt></ruby>し<ruby><rb>上</rb><rt>あ</rt></ruby>げたいのは\\n<ruby><rb>教会騎士</rb><rt>きょうかいきし</rt></ruby>さんへの<ruby><rb>謝罪</rb><rt>しゃざい</rt></ruby>でありまして。",
+        "zh_cn": "吾辈想说的是……\\n要先跟教会骑士大人道个歉。",
+        "zh_tw": "然後……老夫這次前來，\\n是想對教會騎士先生謝罪。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0051",
+      "book": ""
+    },
+    {
+      "icon": "120021_01",
+      "name": {
+        "en_us": "Barr Gayne",
+        "ja_jp": "古物商サンモン",
+        "zh_cn": "古董商三文",
+        "zh_tw": "古董商桑門"
+      },
+      "context": {
+        "en_us": "Told 'em all 'bout the customer what\\ncame in to buy that knife, but them I\\nrealize I plumb misremembered it all!",
+        "ja_jp": "<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>調</rb><rt>しら</rt></ruby>べで、ナイフを<ruby><rb>買</rb><rt>か</rt></ruby>いなさった\\nお<ruby><rb>客</rb><rt>きゃく</rt></ruby>さんのことをいろいろ<ruby><rb>話</rb><rt>はな</rt></ruby>したと\\n<ruby><rb>思</rb><rt>おも</rt></ruby>うンですが……あれ、<ruby><rb>記憶</rb><rt>きおく</rt></ruby><ruby><rb>違</rb><rt>ちが</rt></ruby>いです。",
+        "zh_cn": "调查过程中，吾辈说了很多\\n关于买走那把匕首的客人的话……\\n但其实那是吾辈记错了。",
+        "zh_tw": "在配合調查時，\\n老夫曾說過一些關於短刀買家的事……\\n那些，是老夫記錯了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0052",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "...What.",
+        "ja_jp": "………………は？",
+        "zh_cn": "哈？",
+        "zh_tw": "………………蛤？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0053",
+      "book": ""
+    },
+    {
+      "icon": "120021_01",
+      "name": {
+        "en_us": "Barr Gayne",
+        "ja_jp": "古物商サンモン",
+        "zh_cn": "古董商三文",
+        "zh_tw": "古董商桑門"
+      },
+      "context": {
+        "en_us": "I was so startled when I saw them there\\nTemplars, I just blurted out whatever came\\ninto muh fool head. Please don't pay it\\nno nevermind, Yer Honorableness.",
+        "ja_jp": "いきなり<ruby><rb>教会騎士</rb><rt>きょうかいきし</rt></ruby>さんたちに<ruby><rb>囲</rb><rt>かこ</rt></ruby>まれて\\n<ruby><rb>動転</rb><rt>どうてん</rt></ruby>して、<ruby><rb>適当</rb><rt>てきとう</rt></ruby>なこと<ruby><rb>言</rb><rt>い</rt></ruby>いました。\\nなので、<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>下</rb><rt>さ</rt></ruby>げさせてください。",
+        "zh_cn": "因为那些教会骑士们突然把吾辈\\n围起来，情急之下吾辈只能胡扯一通。\\n所以请允许吾辈撤回证词。",
+        "zh_tw": "因為突然被一群教會騎士包圍，\\n老夫一時驚嚇，才隨口胡說。\\n所以，請讓老夫收回前言。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0054",
+      "book": ""
+    },
+    {
+      "icon": "120021_01",
+      "name": {
+        "en_us": "Barr Gayne",
+        "ja_jp": "古物商サンモン",
+        "zh_cn": "古董商三文",
+        "zh_tw": "古董商桑門"
+      },
+      "context": {
+        "en_us": "Truth is, I sold that knife to a woman.\\nLooked right like that one there,\\nso she did. A'yup.",
+        "ja_jp": "ナイフを<ruby><rb>売</rb><rt>う</rt></ruby>った<ruby><rb>相手</rb><rt>あいて</rt></ruby>は、<ruby><rb>女性</rb><rt>じょせい</rt></ruby>ですワ。\\nしかもよく<ruby><rb>思</rb><rt>おも</rt></ruby>い<ruby><rb>出</rb><rt>だ</rt></ruby>してみれば、<ruby><rb>被告人</rb><rt>ひこくにん</rt></ruby>の\\nお<ruby><rb>嬢</rb><rt>じょう</rt></ruby>さんに<ruby><rb>似</rb><rt>に</rt></ruby>てたような<ruby><rb>気</rb><rt>き</rt></ruby>もしますナ。",
+        "zh_cn": "买走匕首的人其实是个女性。\\n仔细回想的话，倒是感觉\\n挺像这位被告人小姐的。",
+        "zh_tw": "短刀的買家，其實是位女性。\\n而且老夫仔細回想之後，\\n似乎和被告小姐十分相似。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0055",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What?!",
+        "ja_jp": "な……なんだって……？",
+        "zh_cn": "你……你说什么？",
+        "zh_tw": "你……你說什麼……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0056",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Prosecutor Guaron",
+        "ja_jp": "ガロン検事",
+        "zh_cn": "加隆检察长",
+        "zh_tw": "加隆檢察官"
+      },
+      "context": {
+        "en_us": "You all seem very confused over there,\\nso permit me to explain. The defense's\\nabsurd theory that poor Mr. Gassbag was\\nsomehow at fault has fallen apart.",
+        "ja_jp": "わからぬか。つまり……ひとりめの\\n<ruby><rb>証人</rb><rt>しょうにん</rt></ruby>を<ruby><rb>真犯人</rb><rt>しんはんにん</rt></ruby>だとする<ruby><rb>弁護</rb><rt>べんご</rt></ruby><ruby><rb>側</rb><rt>がわ</rt></ruby>の<ruby><rb>主張</rb><rt>しゅちょう</rt></ruby>は\\n<ruby><rb>成立</rb><rt>せいりつ</rt></ruby>しなくなったということだ。",
+        "zh_cn": "还不明白吗？就是说……\\n辩护方认为第一位证人\\n是真凶的主张已经无法成立了。",
+        "zh_tw": "還不明白嗎。意思是說……\\n第一位證人是真兇的辯方主張，\\n已經無法成立了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0057",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Prosecutor Guaron",
+        "ja_jp": "ガロン検事",
+        "zh_cn": "加隆检察长",
+        "zh_tw": "加隆檢察官"
+      },
+      "context": {
+        "en_us": "With this new testimony, we can now say\\nwith absolute certainty that the actual\\nculprit is the defendant! Isn't that right,\\ndear girl?!",
+        "ja_jp": "そして<ruby><rb>新</rb><rt>あら</rt></ruby>たな<ruby><rb>証言</rb><rt>しょうげん</rt></ruby>は、<ruby><rb>被告人</rb><rt>ひこくにん</rt></ruby>が<ruby><rb>真犯人</rb><rt>しんはんにん</rt></ruby>\\nであることを<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby><ruby><rb>的</rb><rt>てき</rt></ruby>に<ruby><rb>決定</rb><rt>けってい</rt></ruby>づけるもの。\\n――そういうことだ、<ruby><rb>被告人</rb><rt>ひこくにん</rt></ruby>よ！",
+        "zh_cn": "而最新的证词则是判定\\n被告人就是真凶的关键——\\n就是这样，被告人！",
+        "zh_tw": "同時新的證言，\\n便是被告即為真兇的絕對關鍵。\\n──就是這麼回事，被告！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0058",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "You have GOT to be KIDDING ME!",
+        "ja_jp": "な、なんですってー!?",
+        "zh_cn": "什、什么！？",
+        "zh_tw": "你、你說什麼──！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0059",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "I can't believe this! Why the heck did that\\nold fart suddenly change his tune?!",
+        "ja_jp": "ちょっ……ありえないわよ！　なんで\\nあのおじいさん、いきなり<ruby><rb>意見</rb><rt>いけん</rt></ruby>を\\n<ruby><rb>変</rb><rt>か</rt></ruby>えちゃったの!?",
+        "zh_cn": "等……这太荒唐了！那个老爷子\\n为什么突然就换了说法呢！？",
+        "zh_tw": "等……怎麼可能啊！\\n為什麼那位老爺爺，\\n會突然改變說法！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0060",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "That's perjury if I've ever heard it.\\nI'm guessing the prosecutor went behind\\nour backs and paid that shopkeep off.",
+        "ja_jp": "……やられた。あれ、<ruby><rb>偽証</rb><rt>ぎしょう</rt></ruby>だよ。\\n<ruby><rb>検事</rb><rt>けんじ</rt></ruby>のヤツ、こっそり<ruby><rb>裏</rb><rt>うら</rt></ruby>で<ruby><rb>手</rb><rt>て</rt></ruby>を\\n<ruby><rb>回</rb><rt>まわ</rt></ruby>して<ruby><rb>古物商</rb><rt>こぶつしょう</rt></ruby>を<ruby><rb>買収</rb><rt>ばいしゅう</rt></ruby>してたんだ。",
+        "zh_cn": "被摆了一道……他那当然是伪证。\\n一定是那个检察长\\n悄悄买通了古董商。",
+        "zh_tw": "……被擺了一道。那是偽證。\\n檢察官那傢伙，\\n偷偷在私下收買了古董商。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0061",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "But when?",
+        "ja_jp": "いつの<ruby><rb>間</rb><rt>ま</rt></ruby>にそんな……。",
+        "zh_cn": "他什么时候做的这些……",
+        "zh_tw": "他是什麼時候……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0062",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Last night, most likely. I assume he saw\\nhow my brilliant defense would shred his\\ncase like a catapult through a tissue and\\ncame up with a countermeasure.",
+        "ja_jp": "<ruby><rb>多分</rb><rt>たぶん</rt></ruby>、<ruby><rb>昨日</rb><rt>きのう</rt></ruby>の<ruby><rb>夜</rb><rt>よる</rt></ruby>のうちに。<ruby><rb>僕</rb><rt>ぼく</rt></ruby>の<ruby><rb>勝</rb><rt>か</rt></ruby>ち<ruby><rb>筋</rb><rt>すじ</rt></ruby>を\\n<ruby><rb>読</rb><rt>よ</rt></ruby>んで、<ruby><rb>対抗</rb><rt>たいこう</rt></ruby><ruby><rb>策</rb><rt>さく</rt></ruby>を<ruby><rb>用意</rb><rt>ようい</rt></ruby>したんだね。",
+        "zh_cn": "应该是昨天晚上。\\n他预判了我的计划，\\n并准备了对策。",
+        "zh_tw": "大概是昨天晚上吧。\\n他看穿我打算如何取勝，\\n所以搬出這個策略來對抗。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0063",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Once he saw our hand, he deployed his\\nlittle ace in the hole. Oh, but he's a\\nsneaky snake, make no mistake!",
+        "ja_jp": "そしてこちらの<ruby><rb>出方</rb><rt>でかた</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>てから、<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>に\\n<ruby><rb>応</rb><rt>おう</rt></ruby>じて<ruby><rb>投入</rb><rt>とうにゅう</rt></ruby>した。こすっからい<ruby><rb>真似</rb><rt>まね</rt></ruby>\\nしてくれるじゃないか、まったく……！",
+        "zh_cn": "然后再根据我们打出去的牌，\\n在合适的时机进行反击。\\n真是够阴险毒辣的！",
+        "zh_tw": "然後他先觀察我們怎麼出招，\\n再根據狀況做出應對。\\n手法挺陰險的嘛，實在是……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0064",
+      "book": ""
+    },
+    {
+      "icon": "120091_01",
+      "name": {
+        "en_us": "Judge",
+        "ja_jp": "裁判長",
+        "zh_cn": "审判长",
+        "zh_tw": "審判長"
+      },
+      "context": {
+        "en_us": "Defense, do you have a rebuttal\\nfor the prosecution's argument?",
+        "ja_jp": "<ruby><rb>弁護</rb><rt>べんご</rt></ruby><ruby><rb>側</rb><rt>がわ</rt></ruby>、いかがですか。<ruby><rb>検察</rb><rt>けんさつ</rt></ruby><ruby><rb>側</rb><rt>がわ</rt></ruby>の\\n<ruby><rb>主張</rb><rt>しゅちょう</rt></ruby>について、<ruby><rb>反論</rb><rt>はんろん</rt></ruby>はありますか。",
+        "zh_cn": "辩护方对公诉方的指控可有异议？",
+        "zh_tw": "辯方，你覺得如何？\\n對於檢方的主張，是否有異議？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0065",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "We sure do: He's a big fat lying liar\\nwho LIES ALL THE TIME!",
+        "ja_jp": "あ……あるわよね!?　だって<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>から\\n<ruby><rb>言</rb><rt>い</rt></ruby>って、<ruby><rb>犯人</rb><rt>はんにん</rt></ruby>はあの<ruby><rb>男</rb><rt>おとこ</rt></ruby>しかあり<ruby><rb>得</rb><rt>え</rt></ruby>ない。",
+        "zh_cn": "有……有的吧！？\\n毕竟无论怎么看，\\n真凶肯定就是那个家伙吧。",
+        "zh_tw": "應……應該有吧！？照這情況看來，\\n犯人只有可能是那個男的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0066",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "Look, there's no choice here, guys:\\nWe have to find a way to prove the truth.",
+        "ja_jp": "<ruby><rb>真実</rb><rt>しんじつ</rt></ruby>がひとつなら、その<ruby><rb>証明方法</rb><rt>しょうめいほうほう</rt></ruby>は\\n<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby>にあるわよね……？",
+        "zh_cn": "既然真相只有一个……\\n那就一定有能够证明的方法对吧？",
+        "zh_tw": "如果真相只有一個，\\n絕對會有方法能證明吧……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0067",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Agreed, but it won't be easy to prove\\nperjury in so little time.",
+        "ja_jp": "ある……と<ruby><rb>言</rb><rt>い</rt></ruby>いたいところだけど……。\\nふってわいた<ruby><rb>偽証</rb><rt>ぎしょう</rt></ruby>を<ruby><rb>証明</rb><rt>しょうめい</rt></ruby>する<ruby><rb>方法</rb><rt>ほうほう</rt></ruby>なんて\\nそう<ruby><rb>簡単</rb><rt>かんたん</rt></ruby>には<ruby><rb>用意</rb><rt>ようい</rt></ruby>できないよ。",
+        "zh_cn": "我也很想说有……\\n但要立刻证明刚才的是伪证\\n并没有那么简单。",
+        "zh_tw": "有……雖然我很想這麼說……\\n但沒那麼簡單就能準備好方法\\n去證明憑空出現的偽證。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0068",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "That shopkeep was the only one who saw\\nthe purchaser of the knife, so if he sticks\\nto this cockamamie story, there isn't a\\nwhole lot we can do.",
+        "ja_jp": "<ruby><rb>検事</rb><rt>けんじ</rt></ruby>の<ruby><rb>言</rb><rt>い</rt></ruby>う<ruby><rb>通</rb><rt>とお</rt></ruby>り、<ruby><rb>人相書</rb><rt>にんそうが</rt></ruby>きのひとつも\\nないからね。<ruby><rb>唯一</rb><rt>ゆいいつ</rt></ruby>の<ruby><rb>証人</rb><rt>しょうにん</rt></ruby>に<ruby><rb>黒</rb><rt>くろ</rt></ruby>を<ruby><rb>白</rb><rt>しろ</rt></ruby>と\\n<ruby><rb>言</rb><rt>い</rt></ruby>い<ruby><rb>換</rb><rt>か</rt></ruby>えられたら<ruby><rb>打</rb><rt>う</rt></ruby>つ<ruby><rb>手</rb><rt>て</rt></ruby>がない。",
+        "zh_cn": "如检察长所说，没有嫌犯画像，\\n唯一的证人又如此颠倒黑白，\\n我们确实没有办法。",
+        "zh_tw": "畢竟正如檢察官所說，現在連張買家的\\n畫像都沒有。要是被唯一的證人\\n更換證詞的話就束手無策了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0069",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "YOU ARE THE WORST LAWYER EVER!",
+        "ja_jp": "え、ええーーーーっ!?\\nどうしてくれるのよこのヤブ<ruby><rb>弁護士</rb><rt>べんごし</rt></ruby>～！",
+        "zh_cn": "诶、诶诶诶诶！？\\n那你要我怎么办啊你这没用的律师！",
+        "zh_tw": "咦、咦咦────！？\\n你要怎麼賠我啊你這三流律師～！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0070",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Augh! Stop shaking my collar like that!\\nGood heavens! Your Honor, please!\\nA quick recess, Your Honor?!",
+        "ja_jp": "ぐう、ヤブは<ruby><rb>酷</rb><rt>ひど</rt></ruby>くないかな、ヤブは!?\\nあー、<ruby><rb>襟</rb><rt>えり</rt></ruby><ruby><rb>掴</rb><rt>つか</rt></ruby>まないで！　<ruby><rb>揺</rb><rt>ゆ</rt></ruby>らさないで！\\nちょっタンマ――さ、<ruby><rb>裁判長</rb><rt>さいばんちょう</rt></ruby>！",
+        "zh_cn": "唔，说我没用也太过分了吧！？\\n啊～别揪我领子！别摇我！\\n暂停暂停——审、审判长！",
+        "zh_tw": "呃嗚，說我三流有點太過份了吧！？\\n啊──不要扯我的領子！不要晃我！\\n暫停一下──審、審判長！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0071",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "The defendant is clearly not in the right\\nstate of mind to continue the trial!",
+        "ja_jp": "<ruby><rb>被告人</rb><rt>ひこくにん</rt></ruby>が<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>乱</rb><rt>みだ</rt></ruby>して<ruby><rb>審理</rb><rt>しんり</rt></ruby>を<ruby><rb>続行</rb><rt>ぞっこう</rt></ruby>できる\\n<ruby><rb>状態</rb><rt>じょうたい</rt></ruby>じゃない！　<ruby><rb>弁護</rb><rt>べんご</rt></ruby><ruby><rb>側</rb><rt>がわ</rt></ruby>は、<ruby><rb>本</rb><rt>ほん</rt></ruby><ruby><rb>法廷</rb><rt>ほうてい</rt></ruby>の\\n<ruby><rb>小休止</rb><rt>しょうきゅうし</rt></ruby>を<ruby><rb>要請</rb><rt>ようせい</rt></ruby>する!!",
+        "zh_cn": "被告人情绪激动，无法继续庭审！\\n辩护方请求暂时停止审理！",
+        "zh_tw": "被告陷入混亂，無法繼續接受審理！\\n辯方請求暫時休庭！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0072",
+      "book": ""
+    },
+    {
+      "icon": "120091_01",
+      "name": {
+        "en_us": "Judge",
+        "ja_jp": "裁判長",
+        "zh_cn": "审判长",
+        "zh_tw": "審判長"
+      },
+      "context": {
+        "en_us": "That much is certainly clear.",
+        "ja_jp": "……よろしい。<ruby><rb>確</rb><rt>たし</rt></ruby>かに、<ruby><rb>被告人</rb><rt>ひこくにん</rt></ruby>には\\n<ruby><rb>落</rb><rt>お</rt></ruby>ち<ruby><rb>着</rb><rt>つ</rt></ruby>くための<ruby><rb>時間</rb><rt>じかん</rt></ruby>が<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>なようです。",
+        "zh_cn": "准许……被告人看起来\\n确实需要时间来平复情绪。",
+        "zh_tw": "……好吧。的確，\\n被告似乎需要一些時間冷靜。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0073",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Prosecutor Guaron",
+        "ja_jp": "ガロン検事",
+        "zh_cn": "加隆检察长",
+        "zh_tw": "加隆檢察官"
+      },
+      "context": {
+        "en_us": "Stalling for time, are we? Ha!\\nThe last refuge of the damned.",
+        "ja_jp": "……チッ、<ruby><rb>時</rb><rt>とき</rt></ruby>を<ruby><rb>稼</rb><rt>かせ</rt></ruby>いだか。\\n<ruby><rb>無駄</rb><rt>むだ</rt></ruby>な<ruby><rb>足搔</rb><rt>あが</rt></ruby>きを……。",
+        "zh_cn": "啧……竟然还拖延时间。\\n真是无谓的挣扎……",
+        "zh_tw": "……嘖，成功拖延時間了嗎。\\n就會無用的掙扎……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0074",
+      "book": ""
+    },
+    {
+      "icon": "120091_01",
+      "name": {
+        "en_us": "Judge",
+        "ja_jp": "裁判長",
+        "zh_cn": "审判长",
+        "zh_tw": "審判長"
+      },
+      "context": {
+        "en_us": "The court will now take a brief recess.\\nWhen we return, we will make our final\\njudgment on the defendant!",
+        "ja_jp": "これより<ruby><rb>本</rb><rt>ほん</rt></ruby><ruby><rb>法廷</rb><rt>ほうてい</rt></ruby>は<ruby><rb>休憩</rb><rt>きゅうけい</rt></ruby><ruby><rb>時間</rb><rt>じかん</rt></ruby>に<ruby><rb>入</rb><rt>はい</rt></ruby>ります。\\n<ruby><rb>休廷</rb><rt>きゅうてい</rt></ruby>が<ruby><rb>明</rb><rt>あ</rt></ruby>け<ruby><rb>次第</rb><rt>しだい</rt></ruby>、<ruby><rb>被告人</rb><rt>ひこくにん</rt></ruby>に<ruby><rb>最終判決</rb><rt>さいしゅうはんけつ</rt></ruby>を\\n<ruby><rb>言</rb><rt>い</rt></ruby>い<ruby><rb>渡</rb><rt>わた</rt></ruby>すものとします……！",
+        "zh_cn": "现在休庭。\\n休庭结束后，对被告人进行宣判！",
+        "zh_tw": "宣布暫時休庭。待重新開庭後，\\n我將宣布被告的最終判決……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_03_0075",
+      "book": ""
+    }
+  ]
 }

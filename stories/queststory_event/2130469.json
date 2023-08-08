@@ -1,31 +1,60 @@
 {
-    "story_id": "",
-    "story_name": "情人节·甜美佳肴 追加剧情 杜拉尔德",
-    "story_icon": "",
-    "outline": {
-        "title": "",
-        "content": [
-            "要跳过此剧情吗？"
-        ]
+  "title": {
+    "en_us": "Valentine's Confections Extra    Durant",
+    "ja_jp": "バレンタイン・アラカルト エクストラ  デュラルド",
+    "zh_cn": "情人节·甜美佳肴 追加剧情  杜拉尔德",
+    "zh_tw": "情人節‧精巧甜品　追加劇情  德拉魯德"
+  },
+  "outline": {
+    "title": {
+      "en_us": "",
+      "ja_jp": "",
+      "zh_cn": "",
+      "zh_tw": ""
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110343_01"
-            ],
-            "speaker_name": "杜拉尔德",
-            "context": "搞什么啊……\\n有东西给我的话就动作快点。",
-            "voice_line": "VO_CHR_EVENTSTORY_21304_01_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110343_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "收到了来自杜拉尔德的回礼。",
-            "voice_line": "",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Skip this scene?",
+      "ja_jp": "このストーリーをスキップしますか？",
+      "zh_cn": "要跳过此剧情吗？",
+      "zh_tw": "請確認是否略過劇情？"
+    }
+  },
+  "prev": "2130468",
+  "next": "2130470",
+  "content": [
+    {
+      "icon": "110343_01",
+      "name": {
+        "en_us": "Durant",
+        "ja_jp": "デュラルド",
+        "zh_cn": "杜拉尔德",
+        "zh_tw": "德拉魯德"
+      },
+      "context": {
+        "en_us": "If ya got somethin' for me,\\njust hand it over and get lost.",
+        "ja_jp": "……なんだよ。<ruby><rb>渡</rb><rt>わた</rt></ruby>したいモンあんなら、\\nさっさとしろっつの。",
+        "zh_cn": "搞什么啊……\\n有东西给我的话就动作快点。",
+        "zh_tw": "……幹嘛。\\n有東西想給的話就快點。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_21304_01_0029",
+      "book": ""
+    },
+    {
+      "icon": "110343_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "You received a thank-you gift from Durant.",
+        "ja_jp": "デュラルドからプレゼントのお<ruby><rb>礼</rb><rt>れい</rt></ruby>をもらった。",
+        "zh_cn": "收到了来自杜拉尔德的回礼。",
+        "zh_tw": "收到了來自德拉魯德的回禮。"
+      },
+      "voice": "",
+      "book": ""
+    }
+  ]
 }

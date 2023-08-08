@@ -1,690 +1,1309 @@
 {
-    "story_id": "",
-    "story_name": "荒岛求生 海边寻物",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "确保了水和食物的王子发现\\n谢斯倒在岸边并对其施以救助。\\n他替虚弱的谢斯寻找漂流物，可惜一无所获。\\n之后经过二人不懈的搜索，\\n终于找到并拿回了漂流物。"
-        ]
+  "title": {
+    "en_us": "Stranded Scions    Found on the Shore",
+    "ja_jp": "サバイブ・アイランド  海辺の拾い物",
+    "zh_cn": "荒岛求生  海边寻物",
+    "zh_tw": "野外求生‧島嶼驚魂  海邊的漂流物"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好，水和食物已经有好多了。\\n这下就……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "嗯？那是，谢斯姐姐吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "谢斯姐姐！？你没事吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "哈啊……哈啊……唔……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "你流了好多汗啊，\\n而且还发着高烧！\\n得去阴凉的地方才行。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "哈啊……哈啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "这里是，哪儿……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "太好了，你恢复意识了啊？\\n身体好点了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "尤蒂尔……\\n唔，头还是有些昏昏沉沉的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "你应该是中暑了。\\n喝点这个吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "看来你已经找到水了……\\n那我就不客气了。\\n呼……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "得救了……\\n这下就又能……唔！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "谢斯姐姐！？\\n你哪里受伤了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "也不算是受伤，\\n只是搜索途中被魔兽追，\\n不小心扭到了脚。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "虽然姑且是脱身了，\\n但没想到会在那种地方倒下……\\n真是人生的污点。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "在赤手空拳的情况下\\n被魔兽追也难免会这样。\\n应该庆幸没有什么大碍才对。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "剩下的就交给我。\\n你待在这里静养吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "嗯……\\n那你能帮我找找有没有\\n被冲到岸边的漂流物吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "漂流物？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "我带上船的行李\\n没准会漂到这座岛上。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "要是能找到行李，也许会有一些\\n有助于野外求生的东西……\\n可惜我还没找到。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "你都找过哪些地方了？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "从刚才我倒下的地方\\n到东南方向的岸边，\\n我大致都已经找过了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "那我从姐姐还没找过的西边\\n开始找就可以了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "嗯，麻烦你了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好，我知道了。\\n那我去去就来！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "SYS",
-            "context": "几十分钟后……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "有光从上面照下来……\\n拂过的风好惬意……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "不过……他怎么还不回来。\\n在这里干等着\\n多少有些无聊呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "SYS",
-            "context": "几小时后……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "这也太慢了吧……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "真是的，\\n那小子连跑腿都不会吗？\\n看来需要我去看看情况呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "唉……这一带也没有吗。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "原来你连这种地方\\n都来找了啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "谢斯姐姐！？\\n你已经可以走动了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "这点路不成问题。\\n不过看你的样子，\\n似乎没找到漂流物呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "对不起。西边差不多都找过了，\\n北边因为悬崖峭壁错综复杂，\\n还没能全部搜索完。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "这也没办法……\\n天就快黑了，\\n先放弃找漂流物吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "放弃？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "我的行李有没有漂到\\n这座岛上都是个未知数呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "继续找下去也只是\\n白白消耗体力……\\n这可不是一个明智的选择。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "毕竟现在没有多余的精力\\n去做这些徒劳的事。\\n既然无济于事，就要及时止损。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这样……真的好吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "你想说什么？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "谢斯姐姐不惜把寻找水\\n和粮食的事交给别人办，\\n也要优先去寻找漂流物吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "既然行李里有那么重要的东西，\\n就应该相信行李漂到了这里，\\n然后继续找下去。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "如果是有助于生存的物资，\\n还是尽早找到为好。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "话虽如此，我可看不得\\n勉强去找结果徒劳无功。\\n只要改天再找就好了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这附近有很多魔兽。\\n考虑到行李可能会遭到魔兽破坏，\\n漂流物还是越早找到越好吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "现在只剩下北边还没找。\\n距离太阳落山还有一些时间，\\n我们再找找吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "要是你身体还没恢复，\\n就由我来代劳。\\n我们可是姐弟，要齐心协力啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "真拿你没办法……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "好吧。既然你都这么说了，\\n我就把你当成拉车的马，\\n好好使唤你！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "诶！？不，也不用那么……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "不是说姐弟要齐心协力吗？\\n那不用我说\\n你也明白自己该做什么吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "我们先去确认海流的变化吧！\\n把行李有可能漂到的地方\\n一个不漏地找一遍！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "唉……真是没辙。\\n不过这也算是齐心协力吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "快点，你磨蹭什么呢？\\n我们要在日落之前搞定！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好，我这就来！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "SYS",
-            "context": "再次展开搜索后不久……\\n北边的海岸",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "哈啊……哈啊……哈啊……\\n总算甩掉了魔兽。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "呼……没想到我真的\\n像马一样被使唤得够呛……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "辛苦你了。诱饵当得不错。\\n不愧是我的马！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "先、先不提小时候的事，\\n漂来的行李拿回来了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "嗯。多亏你吸引了魔兽的注意，\\n我顺利拿回了\\n差点被魔兽夺走的行李！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "太好了。要是再晚一步，\\n行李就要被魔兽\\n蹂躏得不成样子了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "还好我们当时\\n没有放弃寻找行李。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "那么，行李里有什么\\n能派上用场的东西吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "当然有了。\\n有干粮、毛毯、打火石，\\n甚至还有狩猎用的刀。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "那、那倒是帮大忙了……\\n不过你为什么会带着那种东西？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "就是所谓的以防万一嘛。\\n为了能应对任何状况，\\n做好充分的准备才是淑女的修养。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "从这一点上来说，\\n这个行李里最重要的……\\n就是“这个”了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "那究竟是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "哦呵呵……“这个”可是\\n我们活着回去的希望！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_03_0072",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "The prince, having secured a source of food and\\nwater, discovers Chelle collapsed on the beach.\\nAfter moving her to safety, he searches for\\nuseful detritus from the shipwreck, and after a\\nstring of failures, finally strikes figurative gold.",
+      "ja_jp": "<ruby><rb>水</rb><rt>みず</rt></ruby>と<ruby><rb>食料</rb><rt>しょくりょう</rt></ruby>を<ruby><rb>確保</rb><rt>かくほ</rt></ruby>した<ruby><rb>王子</rb><rt>おうじ</rt></ruby>は、<ruby><rb>浜辺</rb><rt>はまべ</rt></ruby>で<ruby><rb>倒</rb><rt>たお</rt></ruby>れる\\nシェスを<ruby><rb>発見</rb><rt>はっけん</rt></ruby>し<ruby><rb>介抱</rb><rt>かいほう</rt></ruby>する。<ruby><rb>弱</rb><rt>よわ</rt></ruby>ったシェスに\\n<ruby><rb>代</rb><rt>か</rt></ruby>わり<ruby><rb>漂着物</rb><rt>ひょうちゃくぶつ</rt></ruby>の<ruby><rb>探索</rb><rt>たんさく</rt></ruby>を<ruby><rb>行</rb><rt>おこな</rt></ruby>うが<ruby><rb>成果</rb><rt>せいか</rt></ruby>は<ruby><rb>出</rb><rt>で</rt></ruby>ず。\\nだが<ruby><rb>諦</rb><rt>あきら</rt></ruby>めずに<ruby><rb>探索</rb><rt>たんさく</rt></ruby>を<ruby><rb>続行</rb><rt>ぞっこう</rt></ruby>した<ruby><rb>結果</rb><rt>けっか</rt></ruby>、なんとか\\n<ruby><rb>漂着物</rb><rt>ひょうちゃくぶつ</rt></ruby>を<ruby><rb>発見</rb><rt>はっけん</rt></ruby>し、<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>戻</rb><rt>もど</rt></ruby>すことができた。",
+      "zh_cn": "确保了水和食物的王子发现\\n谢斯倒在岸边并对其施以救助。\\n他替虚弱的谢斯寻找漂流物，可惜一无所获。\\n之后经过二人不懈的搜索，\\n终于找到并拿回了漂流物。",
+      "zh_tw": "確保水與糧食的王子，在海岸邊\\n發現倒下的謝斯，於是給予照料。\\n接著他便代替虛弱的謝斯找尋漂流的行李，\\n卻毫無成果。然而在不放棄繼續探索後，\\n總算發現並成功取回了漂流上岸的行李。"
+    }
+  },
+  "prev": "2043502",
+  "next": "2043504",
+  "content": [
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Perfect. This should be enough food and\\nclean water for all of us.",
+        "ja_jp": "よし、<ruby><rb>水</rb><rt>みず</rt></ruby>と<ruby><rb>食料</rb><rt>しょくりょう</rt></ruby>はだいぶ<ruby><rb>確保</rb><rt>かくほ</rt></ruby>できた。\\nこれなら……。",
+        "zh_cn": "好，水和食物已经有好多了。\\n这下就……",
+        "zh_tw": "好，水和糧食都已經確保了。\\n這樣一來……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0001",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "...Huh? Is that Chelle?",
+        "ja_jp": "……ん？　あれは、シェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さん？",
+        "zh_cn": "嗯？那是，谢斯姐姐吗？",
+        "zh_tw": "……嗯？那是謝斯姊姊？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0002",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Chelle! Are you okay?!",
+        "ja_jp": "シェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さん!?　<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>か！",
+        "zh_cn": "谢斯姐姐！？你没事吧！",
+        "zh_tw": "謝斯姊姊！？還好嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0003",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Ngh...",
+        "ja_jp": "ハァ……ハァ……うぅ……。",
+        "zh_cn": "哈啊……哈啊……唔……",
+        "zh_tw": "呼……呼……唔……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0004",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You're sweating profusely! And you've\\ngot a terrible fever. I need to move you\\nsomeplace where you can cool off.",
+        "ja_jp": "すごい<ruby><rb>汗</rb><rt>あせ</rt></ruby>だ、<ruby><rb>熱</rb><rt>ねつ</rt></ruby>も<ruby><rb>高</rb><rt>たか</rt></ruby>い……！\\nどこか<ruby><rb>涼</rb><rt>りょう</rt></ruby>がとれる<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>に<ruby><rb>移動</rb><rt>いどう</rt></ruby>しないと。",
+        "zh_cn": "你流了好多汗啊，\\n而且还发着高烧！\\n得去阴凉的地方才行。",
+        "zh_tw": "流好多汗，而且好燙……\\n要快點移動到陰涼的地方才行。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0005",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "*huff* *huff*",
+        "ja_jp": "ハァ……ハァ……。",
+        "zh_cn": "哈啊……哈啊……",
+        "zh_tw": "呼……呼……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0006",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Where...am I?",
+        "ja_jp": "……ここは、どこですの……？",
+        "zh_cn": "这里是，哪儿……",
+        "zh_tw": "……這裡，是什麼地方……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0007",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You've come to! What a relief.\\nHow are you feeling?",
+        "ja_jp": "よかった、<ruby><rb>気</rb><rt>き</rt></ruby>がついたんだね？\\n<ruby><rb>身体</rb><rt>からだ</rt></ruby>の<ruby><rb>調子</rb><rt>ちょうし</rt></ruby>はどうだい？",
+        "zh_cn": "太好了，你恢复意识了啊？\\n身体好点了吗？",
+        "zh_tw": "太好了，妳醒來了嗎？\\n身體的狀況如何？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0008",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Euden...\\nMy head still feels fuzzy...",
+        "ja_jp": "ユーディル……\\nうっ、まだ<ruby><rb>頭</rb><rt>あたま</rt></ruby>が<ruby><rb>朦朧</rb><rt>もうろう</rt></ruby>としますわ。",
+        "zh_cn": "尤蒂尔……\\n唔，头还是有些昏昏沉沉的。",
+        "zh_tw": "尤帝爾……\\n唔，意識還是有點朦朧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0009",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I think you're just overheated.\\nHere, drink this.",
+        "ja_jp": "たぶん<ruby><rb>熱中症</rb><rt>ねっちゅうしょう</rt></ruby>だと<ruby><rb>思</rb><rt>おも</rt></ruby>う。\\nこれを<ruby><rb>飲</rb><rt>の</rt></ruby>んで。",
+        "zh_cn": "你应该是中暑了。\\n喝点这个吧。",
+        "zh_tw": "我想大概是中暑了。\\n把這個喝了吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0010",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Looks as though you found some water.\\nI'll go ahead and partake, then.\\n......Ahhh.",
+        "ja_jp": "<ruby><rb>水</rb><rt>みず</rt></ruby>は<ruby><rb>確保</rb><rt>かくほ</rt></ruby>できたようですわね……。\\nなら、<ruby><rb>遠慮</rb><rt>えんりょ</rt></ruby>なくいただきますわ。\\n…………ふぅ。",
+        "zh_cn": "看来你已经找到水了……\\n那我就不客气了。\\n呼……",
+        "zh_tw": "看來你已經確保飲水了呢……\\n那麼，我就不客氣地喝了。\\n…………呼。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0011",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Thank you. I should be fine in no—hrk?!",
+        "ja_jp": "……<ruby><rb>助</rb><rt>たす</rt></ruby>かりましたわ。\\nこれでまた<ruby><rb>問題</rb><rt>もんだい</rt></ruby>なく――くっ!?",
+        "zh_cn": "得救了……\\n这下就又能……唔！？",
+        "zh_tw": "……真是幫大忙了。\\n這樣子就沒有問題──唔！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0012",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What is it?! Are you hurt?",
+        "ja_jp": "シェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さん!?\\nどこか<ruby><rb>怪我</rb><rt>けが</rt></ruby>をしているのか？",
+        "zh_cn": "谢斯姐姐！？\\n你哪里受伤了吗？",
+        "zh_tw": "謝斯姊姊！？\\n妳哪裡受傷了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0013",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "It's nothing I'd go so far as to call an\\ninjury. I was attacked by a fiend while\\nexploring and I twisted my ankle.",
+        "ja_jp": "<ruby><rb>怪我</rb><rt>けが</rt></ruby>というほどのことでは\\nありませんわ。<ruby><rb>探索中</rb><rt>たんさくちゅう</rt></ruby>に<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>から\\n<ruby><rb>追</rb><rt>お</rt></ruby>われて<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>足</rb><rt>あし</rt></ruby>を<ruby><rb>挫</rb><rt>くじ</rt></ruby>いただけでしてよ。",
+        "zh_cn": "也不算是受伤，\\n只是搜索途中被魔兽追，\\n不小心扭到了脚。",
+        "zh_tw": "還不到說是受傷的程度。\\n只不過是在探索時被魔獸追趕，\\n稍微扭到腳而已。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0014",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "I somehow managed to escape,\\nonly to collapse out in the open.\\nHow tremendously shameful.",
+        "ja_jp": "なんとか<ruby><rb>逃</rb><rt>に</rt></ruby>げ<ruby><rb>切</rb><rt>き</rt></ruby>ることはできたよう\\nですけど、まさかあんなところで<ruby><rb>倒</rb><rt>たお</rt></ruby>れる\\nなんて……<ruby><rb>一生</rb><rt>いっしょう</rt></ruby>の<ruby><rb>不覚</rb><rt>ふかく</rt></ruby>ですわ。",
+        "zh_cn": "虽然姑且是脱身了，\\n但没想到会在那种地方倒下……\\n真是人生的污点。",
+        "zh_tw": "雖然是順利逃走了，\\n但沒想到居然會在那種地方跌倒……\\n真是人生的汙點啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0015",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "It's not as if you had gear or supplies to\\nhelp you fend it off. Be kind to yourself.\\nFrankly, I'm relieved it wasn't worse.",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>も<ruby><rb>備</rb><rt>そな</rt></ruby>えがない<ruby><rb>状態</rb><rt>じょうたい</rt></ruby>で<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>に<ruby><rb>追</rb><rt>お</rt></ruby>われたら\\n<ruby><rb>仕方</rb><rt>しかた</rt></ruby>ないよ。むしろ、その<ruby><rb>程度</rb><rt>ていど</rt></ruby>で<ruby><rb>済</rb><rt>す</rt></ruby>んで\\nよかった。",
+        "zh_cn": "在赤手空拳的情况下\\n被魔兽追也难免会这样。\\n应该庆幸没有什么大碍才对。",
+        "zh_tw": "畢竟在什麼裝備都沒有的狀態下\\n被魔獸追趕，那也是沒辦法的。\\n倒不如該慶幸只受了這點傷。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0016",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Look. You need to accept my help.\\nThis is not up for debate. I need you to\\nstay here and rest for the time being.",
+        "ja_jp": "ここからはおれが<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さんを<ruby><rb>手伝</rb><rt>てつだ</rt></ruby>う。\\nだから<ruby><rb>今</rb><rt>いま</rt></ruby>は、ここでこのまま<ruby><rb>安静</rb><rt>あんせい</rt></ruby>に\\nしててくれ。",
+        "zh_cn": "剩下的就交给我。\\n你待在这里静养吧。",
+        "zh_tw": "接下來我會幫忙姊姊的。\\n所以現在妳就在這好好休息吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0017",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "...Yes, I suppose that's for the best. \\nWould you go and search the beach for\\nanything that might have drifted ashore?",
+        "ja_jp": "……そうですわね。なら、わたくしの\\n<ruby><rb>代</rb><rt>か</rt></ruby>わりに<ruby><rb>浜辺</rb><rt>はまべ</rt></ruby>で<ruby><rb>漂着物</rb><rt>ひょうちゃくぶつ</rt></ruby>を<ruby><rb>探</rb><rt>さが</rt></ruby>しておいて\\nくださる？",
+        "zh_cn": "嗯……\\n那你能帮我找找有没有\\n被冲到岸边的漂流物吗？",
+        "zh_tw": "……說得也是呢。\\n那麼，你能代替我去海岸邊\\n尋找漂流物嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0018",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Such as?",
+        "ja_jp": "<ruby><rb>漂着物</rb><rt>ひょうちゃくぶつ</rt></ruby>？",
+        "zh_cn": "漂流物？",
+        "zh_tw": "漂流物？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0019",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "My luggage, for starters.",
+        "ja_jp": "もしかしたら、<ruby><rb>船</rb><rt>ふね</rt></ruby>に<ruby><rb>持</rb><rt>も</rt></ruby>ち<ruby><rb>込</rb><rt>こ</rt></ruby>んだ\\n<ruby><rb>荷物</rb><rt>にもつ</rt></ruby>がこの<ruby><rb>島</rb><rt>しま</rt></ruby>まで<ruby><rb>漂着</rb><rt>ひょうちゃく</rt></ruby>している\\nかもしれませんわ。",
+        "zh_cn": "我带上船的行李\\n没准会漂到这座岛上。",
+        "zh_tw": "說不定，帶到船上的行李\\n也漂流至這座島上了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0020",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "We might be able to raid the contents for\\nsomething to help us survive this. That's\\nwhat I was hoping to do earlier, at least.",
+        "ja_jp": "もし<ruby><rb>荷物</rb><rt>にもつ</rt></ruby>が<ruby><rb>見</rb><rt>み</rt></ruby>つかれば、サバイバルに\\n<ruby><rb>役立</rb><rt>やくだ</rt></ruby>つ<ruby><rb>物</rb><rt>もの</rt></ruby>が<ruby><rb>入</rb><rt>はい</rt></ruby>っているかも……。\\n<ruby><rb>生憎</rb><rt>あいにく</rt></ruby>、まだ<ruby><rb>見</rb><rt>み</rt></ruby>つけられていませんけど。",
+        "zh_cn": "要是能找到行李，也许会有一些\\n有助于野外求生的东西……\\n可惜我还没找到。",
+        "zh_tw": "如果找得到行李的話，或許會有\\n能助於野外求生的東西……\\n但很不巧的，我還沒有找到。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0021",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Which areas have you covered so far?",
+        "ja_jp": "<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さんはどの<ruby><rb>辺</rb><rt>あた</rt></ruby>りを<ruby><rb>探</rb><rt>さが</rt></ruby>してたんだ？",
+        "zh_cn": "你都找过哪些地方了？",
+        "zh_tw": "姊姊找過哪些區域了？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0022",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "I combed nearly all of the beach to the\\nsoutheast of where I collapsed earlier.",
+        "ja_jp": "<ruby><rb>先</rb><rt>さき</rt></ruby>ほどわたくしが<ruby><rb>倒</rb><rt>たお</rt></ruby>れた<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>から\\n<ruby><rb>南東</rb><rt>なんとう</rt></ruby>の<ruby><rb>浜辺</rb><rt>はまべ</rt></ruby>はあらかた<ruby><rb>探索</rb><rt>たんさく</rt></ruby><ruby><rb>済</rb><rt>ず</rt></ruby>みですわ。",
+        "zh_cn": "从刚才我倒下的地方\\n到东南方向的岸边，\\n我大致都已经找过了。",
+        "zh_tw": "從我剛才倒下的地方\\n往東南方去的海邊\\n已經都大致搜索過了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0023",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Got it. I'll head to the west side and\\nstart my search around there, then.",
+        "ja_jp": "じゃあおれは、<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さんが<ruby><rb>探索</rb><rt>たんさく</rt></ruby>してない\\n<ruby><rb>西側</rb><rt>にしがわ</rt></ruby>から<ruby><rb>探索</rb><rt>たんさく</rt></ruby>していけばいいのかな？",
+        "zh_cn": "那我从姐姐还没找过的西边\\n开始找就可以了吧？",
+        "zh_tw": "那我就從姊姊還沒找過的\\n西側開始搜索就行了吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0024",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "I would be most grateful.",
+        "ja_jp": "ええ、それでお<ruby><rb>願</rb><rt>ねが</rt></ruby>いいたしますわ……。",
+        "zh_cn": "嗯，麻烦你了……",
+        "zh_tw": "嗯，就麻煩你那麼做了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0025",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Glad to help. Be back in a bit!",
+        "ja_jp": "……ああ、わかった。\\nいってくるよ！",
+        "zh_cn": "好，我知道了。\\n那我去去就来！",
+        "zh_tw": "……嗯，我知道了。\\n這就去看一下。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0026",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0027",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "A short while later...",
+        "ja_jp": "<ruby><rb>数十分後</rb><rt>すうじゅっぷんご</rt></ruby>……",
+        "zh_cn": "几十分钟后……",
+        "zh_tw": "數十分鐘後……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "The light is shining down from above here,\\nand the breeze passing through feels nice.",
+        "ja_jp": "……ここ、<ruby><rb>上</rb><rt>うえ</rt></ruby>から<ruby><rb>光</rb><rt>ひかり</rt></ruby>が<ruby><rb>差</rb><rt>さ</rt></ruby>してますのね。\\n<ruby><rb>抜</rb><rt>ぬ</rt></ruby>けていく<ruby><rb>風</rb><rt>かぜ</rt></ruby>が<ruby><rb>心地</rb><rt>ここち</rt></ruby>いいですわ……。",
+        "zh_cn": "有光从上面照下来……\\n拂过的风好惬意……",
+        "zh_tw": "……這裡有光線從上方照下來呢。\\n吹拂而來的風很舒服……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0028",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Still, he's been gone for some time.\\nSitting on the sidelines like this is\\nmind-numbingly boring.",
+        "ja_jp": "……それにしても、なかなか<ruby><rb>戻</rb><rt>もど</rt></ruby>って\\nきませんわね。ただひたすら<ruby><rb>待</rb><rt>ま</rt></ruby>って\\nいるだけというのは<ruby><rb>少々退屈</rb><rt>しょうしょうたいくつ</rt></ruby>ですわ。",
+        "zh_cn": "不过……他怎么还不回来。\\n在这里干等着\\n多少有些无聊呢。",
+        "zh_tw": "……話說回來，他還沒有回來呢。\\n單純地在這裡等待還真是有點無聊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0029",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "A few hours later...",
+        "ja_jp": "<ruby><rb>数時間後</rb><rt>すうじかんご</rt></ruby>……",
+        "zh_cn": "几小时后……",
+        "zh_tw": "數小時後……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "He's officially past due to return.",
+        "ja_jp": "…………<ruby><rb>遅</rb><rt>おそ</rt></ruby>すぎでしてよ。",
+        "zh_cn": "这也太慢了吧……",
+        "zh_tw": "…………實在是太慢了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0030",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Honestly, can the boy not even handle a\\nsimple errand? I'd better go check on him.",
+        "ja_jp": "まったく、あの<ruby><rb>子</rb><rt>こ</rt></ruby>はおつかいのひとつも\\nまともにできませんの？　……これは\\n<ruby><rb>様子</rb><rt>ようす</rt></ruby>を<ruby><rb>確認</rb><rt>かくにん</rt></ruby>しに<ruby><rb>行</rb><rt>い</rt></ruby>くべきですわね。",
+        "zh_cn": "真是的，\\n那小子连跑腿都不会吗？\\n看来需要我去看看情况呢。",
+        "zh_tw": "真是的，\\n那孩子連辦件事都辦不好嗎？\\n……看來我該去確認一下情況了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0031",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Darn it all. Nothing here, either.",
+        "ja_jp": "……はあ、この<ruby><rb>辺</rb><rt>あた</rt></ruby>りにもないか。",
+        "zh_cn": "唉……这一带也没有吗。",
+        "zh_tw": "……呼，這附近也沒有嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0032",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "You've covered quite a bit of ground, I see.",
+        "ja_jp": "こんな<ruby><rb>所</rb><rt>ところ</rt></ruby>まで<ruby><rb>探</rb><rt>さが</rt></ruby>しに<ruby><rb>来</rb><rt>き</rt></ruby>てましたのね。",
+        "zh_cn": "原来你连这种地方\\n都来找了啊。",
+        "zh_tw": "你連這裡都已經找過了呀。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0033",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Chelle?! Are you sure you're good to be\\nmoving around already?",
+        "ja_jp": "シェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さん!?\\nもう<ruby><rb>動</rb><rt>うご</rt></ruby>いても<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>なのか？",
+        "zh_cn": "谢斯姐姐！？\\n你已经可以走动了吗？",
+        "zh_tw": "謝斯姊姊！？\\n妳已經可以活動了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0034",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "You needn't fuss over me so.\\nMore to the point, I'm assuming\\nyou've yet to find anything?",
+        "ja_jp": "このくらいなら<ruby><rb>問題</rb><rt>もんだい</rt></ruby>はありませんわ。\\nそれより、その<ruby><rb>様子</rb><rt>ようす</rt></ruby>では<ruby><rb>漂着物</rb><rt>ひょうちゃくぶつ</rt></ruby>は\\n<ruby><rb>見</rb><rt>み</rt></ruby>つからなかったようですわね。",
+        "zh_cn": "这点路不成问题。\\n不过看你的样子，\\n似乎没找到漂流物呢。",
+        "zh_tw": "這點程度的話沒有什麼問題。\\n比起那個，看你這樣子\\n是還沒找到漂流物吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0035",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Correct. I searched by and large out to the\\nwest. There were steep cliffs that made it\\ntough to get around to the north side, so I\\ncouldn't be especially thorough there.",
+        "ja_jp": "ごめん。<ruby><rb>西側</rb><rt>にしがわ</rt></ruby>はおおむね<ruby><rb>探</rb><rt>さが</rt></ruby>したんだけど\\n<ruby><rb>北側</rb><rt>きたがわ</rt></ruby>は<ruby><rb>切</rb><rt>き</rt></ruby>り<ruby><rb>立</rb><rt>た</rt></ruby>った<ruby><rb>崖</rb><rt>がけ</rt></ruby>が<ruby><rb>複雑</rb><rt>ふくざつ</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>り<ruby><rb>組</rb><rt>く</rt></ruby>んで\\nいるせいで<ruby><rb>探索</rb><rt>たんさく</rt></ruby>し<ruby><rb>切</rb><rt>き</rt></ruby>れていないんだ。",
+        "zh_cn": "对不起。西边差不多都找过了，\\n北边因为悬崖峭壁错综复杂，\\n还没能全部搜索完。",
+        "zh_tw": "抱歉。西側我已經都大致找過了，\\n但北側有許多險峻的峭壁，\\n所以還沒有每個地方都探索到。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0036",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Noted. The sun will be setting imminently,\\nso I think it may be about time to give up\\nthe search.",
+        "ja_jp": "……<ruby><rb>仕方</rb><rt>しかた</rt></ruby>ありませんわ。\\nじきに<ruby><rb>日</rb><rt>ひ</rt></ruby>も<ruby><rb>暮</rb><rt>く</rt></ruby>れますし、もう<ruby><rb>漂着物</rb><rt>ひょうちゃくぶつ</rt></ruby>を\\n<ruby><rb>見</rb><rt>み</rt></ruby>つけるのは<ruby><rb>諦</rb><rt>あきら</rt></ruby>めましょう。",
+        "zh_cn": "这也没办法……\\n天就快黑了，\\n先放弃找漂流物吧。",
+        "zh_tw": "……真沒辦法呢。\\n天也快黑了，\\n我們就放棄尋找漂流物吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0037",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "But why?",
+        "ja_jp": "<ruby><rb>諦</rb><rt>あきら</rt></ruby>める……？",
+        "zh_cn": "放弃？",
+        "zh_tw": "放棄……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0038",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "We can't even be certain that any of my\\nluggage has washed ashore to begin with.",
+        "ja_jp": "そもそも、わたくしの<ruby><rb>荷物</rb><rt>にもつ</rt></ruby>がこの<ruby><rb>島</rb><rt>しま</rt></ruby>に\\n<ruby><rb>漂着</rb><rt>ひょうちゃく</rt></ruby>しているかどうかすらも<ruby><rb>定</rb><rt>さだ</rt></ruby>かでは\\nありませんのよ？",
+        "zh_cn": "我的行李有没有漂到\\n这座岛上都是个未知数呢。",
+        "zh_tw": "說到底，就連我的行李到底有沒有\\n漂流到這島上也都是未知數喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0039",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Searching any longer would only be a\\nwaste of energy.",
+        "ja_jp": "これ<ruby><rb>以上</rb><rt>いじょう</rt></ruby>、<ruby><rb>探索</rb><rt>たんさく</rt></ruby>を<ruby><rb>続</rb><rt>つづ</rt></ruby>けても<ruby><rb>体力</rb><rt>たいりょく</rt></ruby>を<ruby><rb>無駄</rb><rt>むだ</rt></ruby>に\\n<ruby><rb>消耗</rb><rt>しょうもう</rt></ruby>するだけ……それは<ruby><rb>賢</rb><rt>かしこ</rt></ruby>い<ruby><rb>選択</rb><rt>せんたく</rt></ruby>とは\\n<ruby><rb>言</rb><rt>い</rt></ruby>えませんわ。",
+        "zh_cn": "继续找下去也只是\\n白白消耗体力……\\n这可不是一个明智的选择。",
+        "zh_tw": "再繼續找下去也只是\\n平白耗費體力而已……\\n那可算不上是明智的選擇。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0040",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "And energy is a resource we need to\\nconserve right now. I think it wisest to\\ncut our losses and try something else.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>は<ruby><rb>無駄</rb><rt>むだ</rt></ruby>なことに<ruby><rb>労力</rb><rt>ろうりょく</rt></ruby>を<ruby><rb>割</rb><rt>さ</rt></ruby>いてる<ruby><rb>余裕</rb><rt>よゆう</rt></ruby>は\\nありませんもの。どうしようもないなら\\n<ruby><rb>早々</rb><rt>そうそう</rt></ruby>に<ruby><rb>見切</rb><rt>みき</rt></ruby>りをつけるべきでしてよ。",
+        "zh_cn": "毕竟现在没有多余的精力\\n去做这些徒劳的事。\\n既然无济于事，就要及时止损。",
+        "zh_tw": "我們現在沒有餘力為徒勞之事\\n去花費體力了。既然已無對策，\\n那就應該要早點決斷才是。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0041",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Are you really sure about that?",
+        "ja_jp": "……<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に、それでいいのかい？",
+        "zh_cn": "这样……真的好吗？",
+        "zh_tw": "……真的，那樣就行了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0042",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "What are you trying to say?",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>が<ruby><rb>言</rb><rt>い</rt></ruby>いたいんですの？",
+        "zh_cn": "你想说什么？",
+        "zh_tw": "你想要說什麼？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0043",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You left the securing of food and water up\\nto me, so that must mean you regarded\\nfinding the wreckage as a top priority.",
+        "ja_jp": "シェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さんは、<ruby><rb>水</rb><rt>みず</rt></ruby>や<ruby><rb>食料</rb><rt>しょくりょう</rt></ruby>の<ruby><rb>確保</rb><rt>かくほ</rt></ruby>を\\n<ruby><rb>人任</rb><rt>ひとまか</rt></ruby>せにしてでも、<ruby><rb>漂着物</rb><rt>ひょうちゃくぶつ</rt></ruby>の<ruby><rb>発見</rb><rt>はっけん</rt></ruby>を\\n<ruby><rb>最</rb><rt>さい</rt></ruby><ruby><rb>優先</rb><rt>ゆうせん</rt></ruby>に<ruby><rb>考</rb><rt>かんが</rt></ruby>えたんだろう？",
+        "zh_cn": "谢斯姐姐不惜把寻找水\\n和粮食的事交给别人办，\\n也要优先去寻找漂流物吧？",
+        "zh_tw": "謝斯姊姊的判斷是即使將\\n確保飲水和食物的工作交給他人，\\n也要以找到漂流物為最優先對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0044",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "And given your mind for these sorts of\\nthings, I say we hold out hope that it's\\naround here somewhere and keep looking.",
+        "ja_jp": "<ruby><rb>荷物</rb><rt>にもつ</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>にそれほど<ruby><rb>重要</rb><rt>じゅうよう</rt></ruby>な<ruby><rb>物</rb><rt>もの</rt></ruby>が<ruby><rb>入</rb><rt>はい</rt></ruby>って\\nいるのなら、<ruby><rb>荷物</rb><rt>にもつ</rt></ruby>が<ruby><rb>漂着</rb><rt>ひょうちゃく</rt></ruby>していることを\\n<ruby><rb>信</rb><rt>しん</rt></ruby>じてもう<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>探索</rb><rt>たんさく</rt></ruby>を<ruby><rb>続</rb><rt>つづ</rt></ruby>けるべきだ。",
+        "zh_cn": "既然行李里有那么重要的东西，\\n就应该相信行李漂到了这里，\\n然后继续找下去。",
+        "zh_tw": "如果妳的行李中有那麼重要的東西，\\n那我覺得應該要相信行李有\\n漂流到這，再找看看才對。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0045",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "If whatever's inside could give us a\\nfighting chance at survival, then it couldn't\\nhurt to try and secure it in good time.",
+        "ja_jp": "それが<ruby><rb>生</rb><rt>い</rt></ruby>き<ruby><rb>残</rb><rt>のこ</rt></ruby>るために<ruby><rb>使</rb><rt>つか</rt></ruby>える<ruby><rb>物</rb><rt>もの</rt></ruby>なら\\n<ruby><rb>早</rb><rt>はや</rt></ruby>めに<ruby><rb>確保</rb><rt>かくほ</rt></ruby>しておいて<ruby><rb>損</rb><rt>そん</rt></ruby>はない。",
+        "zh_cn": "如果是有助于生存的物资，\\n还是尽早找到为好。",
+        "zh_tw": "如果那是能幫助我們生存下來的東西，\\n那早點找到它是不會有損失的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0046",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "That may well be, but as I literally just\\nexplained, we're working off a gamble at\\nbest. We should call it a day on this.",
+        "ja_jp": "だからと<ruby><rb>言</rb><rt>い</rt></ruby>って、<ruby><rb>無理</rb><rt>むり</rt></ruby>をして<ruby><rb>徒労</rb><rt>とろう</rt></ruby>に\\n<ruby><rb>終</rb><rt>お</rt></ruby>わったのでは<ruby><rb>目</rb><rt>め</rt></ruby>も<ruby><rb>当</rb><rt>あ</rt></ruby>てられませんわ。\\n<ruby><rb>探索</rb><rt>たんさく</rt></ruby>も<ruby><rb>日</rb><rt>ひ</rt></ruby>を<ruby><rb>改</rb><rt>あらた</rt></ruby>めればいいだけでしてよ。",
+        "zh_cn": "话虽如此，我可看不得\\n勉强去找结果徒劳无功。\\n只要改天再找就好了。",
+        "zh_tw": "雖然你這麼說，但勉強去找\\n最後徒勞無功可就太悽慘了。\\n探索也改天再進行吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0047",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "And if the fiends around here end\\nup finding it first and damaging it?\\nWhat then?",
+        "ja_jp": "このあたりは<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>が<ruby><rb>多</rb><rt>おお</rt></ruby>い。<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>に<ruby><rb>荒</rb><rt>あ</rt></ruby>ら\\nされる<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>を<ruby><rb>考</rb><rt>かんが</rt></ruby>えると、<ruby><rb>漂着物</rb><rt>ひょうちゃくぶつ</rt></ruby>の\\n<ruby><rb>発見</rb><rt>はっけん</rt></ruby>は<ruby><rb>早</rb><rt>はや</rt></ruby>いに<ruby><rb>越</rb><rt>こ</rt></ruby>したことはないだろう？",
+        "zh_cn": "这附近有很多魔兽。\\n考虑到行李可能会遭到魔兽破坏，\\n漂流物还是越早找到越好吧？",
+        "zh_tw": "這附近的魔獸很多。\\n如果考慮到行李被魔獸破壞的可能性，\\n應該是要早點找到漂流物才對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0048",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "The only place I haven't searched is to\\nthe north. There's still some time before\\nsundown, so maybe we can search just a\\nlittle while longer?",
+        "ja_jp": "あと<ruby><rb>探</rb><rt>さが</rt></ruby>せていないのは<ruby><rb>北側</rb><rt>きたがわ</rt></ruby>だけだ。\\nまだ<ruby><rb>日</rb><rt>ひ</rt></ruby>が<ruby><rb>暮</rb><rt>く</rt></ruby>れるまで<ruby><rb>時間</rb><rt>じかん</rt></ruby>はある。だから\\nもう<ruby><rb>少</rb><rt>すこ</rt></ruby>しだけ<ruby><rb>探索</rb><rt>たんさく</rt></ruby>を<ruby><rb>続</rb><rt>つづ</rt></ruby>けないか？",
+        "zh_cn": "现在只剩下北边还没找。\\n距离太阳落山还有一些时间，\\n我们再找找吧？",
+        "zh_tw": "還沒找的就剩北側而已了。\\n到天黑之前還有時間，\\n所以我們再稍微找看看吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0049",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "If you're still not feeling fighting fit, then\\nI'll cover for you there. Let's cooperate on\\nthis, Chelle. As brother and sister.",
+        "ja_jp": "もし、まだ<ruby><rb>身体</rb><rt>からだ</rt></ruby>の<ruby><rb>調子</rb><rt>ちょうし</rt></ruby>が<ruby><rb>戻</rb><rt>もど</rt></ruby>ってないなら\\nおれがその<ruby><rb>分</rb><rt>ぶん</rt></ruby>を<ruby><rb>補</rb><rt>おぎな</rt></ruby>うよ。<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>し<ruby><rb>合</rb><rt>あ</rt></ruby>おう。\\nおれたちは<ruby><rb>姉弟</rb><rt>きょうだい</rt></ruby>なんだから。",
+        "zh_cn": "要是你身体还没恢复，\\n就由我来代劳。\\n我们可是姐弟，要齐心协力啊。",
+        "zh_tw": "如果妳的身體狀況還沒恢復，\\n就由我來彌補不足的地方。\\n互相合作吧，畢竟我們是姊弟。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0050",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "...My goodness. Talk about stubborn.",
+        "ja_jp": "……まったく、やれやれですわね。",
+        "zh_cn": "真拿你没办法……",
+        "zh_tw": "……真是，服了你呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0051",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Very well. If you absolutely insist,\\nI relent. Buckle up, because I'm about\\nto run you ragged, my little workhorse!",
+        "ja_jp": "いいでしょう。そこまで<ruby><rb>言</rb><rt>い</rt></ruby>うなら\\nあなたを<ruby><rb>馬車馬</rb><rt>ばしゃうま</rt></ruby>の<ruby><rb>如</rb><rt>ごと</rt></ruby>くめいっぱい\\nこき<ruby><rb>使</rb><rt>つか</rt></ruby>ってさしあげますわ！",
+        "zh_cn": "好吧。既然你都这么说了，\\n我就把你当成拉车的马，\\n好好使唤你！",
+        "zh_tw": "好吧。你都說到這種地步了，\\n那我就讓你做牛做馬，\\n好好地物盡其用吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0052",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Er, that's not exactly what I intended...",
+        "ja_jp": "ええ!?　いや、そこまでは……。",
+        "zh_cn": "诶！？不，也不用那么……",
+        "zh_tw": "咦咦！？不，我沒說到那種地步……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0053",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "You're the one who invoked our\\nfamilial bonds, dear brother!",
+        "ja_jp": "<ruby><rb>姉弟</rb><rt>きょうだい</rt></ruby>で<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>し<ruby><rb>合</rb><rt>あ</rt></ruby>うのでしょう？\\nならば、<ruby><rb>自</rb><rt>おの</rt></ruby>ずと<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>役割</rb><rt>やくわり</rt></ruby>というものも\\nわかりますわよね？",
+        "zh_cn": "不是说姐弟要齐心协力吗？\\n那不用我说\\n你也明白自己该做什么吧？",
+        "zh_tw": "姊弟間要互相合作不是嗎？那麼，\\n你應該知道自己的職責是什麼吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0054",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Now, our first order of business will be to\\ncheck if the tide has shifted. We'll run a\\nfine-toothed comb over every possible\\nplace the luggage could've come ashore!",
+        "ja_jp": "まずは<ruby><rb>潮流</rb><rt>ちょうりゅう</rt></ruby>の<ruby><rb>変化</rb><rt>へんか</rt></ruby>を<ruby><rb>確認</rb><rt>かくにん</rt></ruby>しに<ruby><rb>行</rb><rt>い</rt></ruby>きます\\nわよ！　<ruby><rb>荷物</rb><rt>にもつ</rt></ruby>が<ruby><rb>漂着</rb><rt>ひょうちゃく</rt></ruby>する<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>がある\\n<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>はすべて<ruby><rb>虱潰</rb><rt>しらみつぶ</rt></ruby>しですわ！",
+        "zh_cn": "我们先去确认海流的变化吧！\\n把行李有可能漂到的地方\\n一个不漏地找一遍！",
+        "zh_tw": "首先要去確認海潮流向的變化！\\n所有行李可能被打上岸的地方\\n要一個不漏地仔細確認！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0055",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "*sigh* I suppose I brought this upon\\nmyself... Still, it's an improvement.",
+        "ja_jp": "……はあ、まいったな。\\nでも<ruby><rb>一応</rb><rt>いちおう</rt></ruby>、<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>し<ruby><rb>合</rb><rt>あ</rt></ruby>えてはいるのかな。",
+        "zh_cn": "唉……真是没辙。\\n不过这也算是齐心协力吧。",
+        "zh_tw": "……唉，真傷腦筋呢。\\n但是，這應該算得上是在互相合作吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0056",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "That's enough mumbling from you. We're\\nworking against the clock here, remember?",
+        "ja_jp": "ほら、<ruby><rb>何</rb><rt>なに</rt></ruby>をグズグズしてますの？\\n<ruby><rb>日</rb><rt>ひ</rt></ruby>が<ruby><rb>暮</rb><rt>く</rt></ruby>れる<ruby><rb>前</rb><rt>まえ</rt></ruby>に<ruby><rb>片</rb><rt>かた</rt></ruby>をつけますわよ！",
+        "zh_cn": "快点，你磨蹭什么呢？\\n我们要在日落之前搞定！",
+        "zh_tw": "哎呀，你還在那裡碎念什麼？\\n在天黑之前要解決這件事喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0057",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Right. I'm ready!",
+        "ja_jp": "ああ。<ruby><rb>今</rb><rt>いま</rt></ruby><ruby><rb>行</rb><rt>い</rt></ruby>くよ！",
+        "zh_cn": "好，我这就来！",
+        "zh_tw": "嗯，我馬上就走！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0058",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "The north beach, shortly after the prince\\nwalked face-first into indentured servitude...",
+        "ja_jp": "<ruby><rb>探索</rb><rt>たんさく</rt></ruby><ruby><rb>再開</rb><rt>さいかい</rt></ruby>から<ruby><rb>程</rb><rt>ほど</rt></ruby>なく……\\n<ruby><rb>北</rb><rt>きた</rt></ruby>の<ruby><rb>浜辺</rb><rt>はまべ</rt></ruby>",
+        "zh_cn": "再次展开搜索后不久……\\n北边的海岸",
+        "zh_tw": "重新展開探索後不久……\\n北側岸邊"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "*huff* *huff* Looks like I managed to\\nshake off the fiends.",
+        "ja_jp": "ハァ……ハァ……ハァ……\\nなんとか<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>は<ruby><rb>振</rb><rt>ふ</rt></ruby>り<ruby><rb>切</rb><rt>き</rt></ruby>れたみたいだ。",
+        "zh_cn": "哈啊……哈啊……哈啊……\\n总算甩掉了魔兽。",
+        "zh_tw": "呼……呼……呼……\\n看來終於把魔獸給甩開了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0059",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Chelle wasn't kidding about running\\nme ragged, though.",
+        "ja_jp": "ふぅ……まさか<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>馬車馬</rb><rt>ばしゃうま</rt></ruby>のように\\nこき<ruby><rb>使</rb><rt>つか</rt></ruby>われることになるなんて……。",
+        "zh_cn": "呼……没想到我真的\\n像马一样被使唤得够呛……",
+        "zh_tw": "呼……沒想到居然真的\\n像在做牛做馬一樣被拿來用……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0060",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Good work, dear brother. You made a great\\ndecoy. Just as I'd expect from my horsey!",
+        "ja_jp": "ご<ruby><rb>苦労様</rb><rt>くろうさま</rt></ruby>。いい<ruby><rb>囮</rb><rt>おとり</rt></ruby>っぷりでしたわよ。\\nさすがはわたくしのお<ruby><rb>馬</rb><rt>うま</rt></ruby>さんですわ！",
+        "zh_cn": "辛苦你了。诱饵当得不错。\\n不愧是我的马！",
+        "zh_tw": "辛苦你了。這誘餌當得不錯喔。\\n真不愧是我的小馬兒呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0061",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Um, let's leave that nickname in our\\nchildhood memories where it belongs.\\nWere you able to collect the luggage\\nthat washed ashore?",
+        "ja_jp": "ち、<ruby><rb>小</rb><rt>ちい</rt></ruby>さい<ruby><rb>頃</rb><rt>ころ</rt></ruby>のことは<ruby><rb>置</rb><rt>お</rt></ruby>いておいて、\\n<ruby><rb>漂着</rb><rt>ひょうちゃく</rt></ruby>していた<ruby><rb>荷物</rb><rt>にもつ</rt></ruby>は<ruby><rb>回収</rb><rt>かいしゅう</rt></ruby>できたのかい？",
+        "zh_cn": "先、先不提小时候的事，\\n漂来的行李拿回来了吗？",
+        "zh_tw": "先、先不說小時候的事了，\\n漂流過來的行李都回收了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0062",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Yes. I can't believe those uppity fiends had\\nthe nerve to steal it!",
+        "ja_jp": "ええ。あなたが<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>の<ruby><rb>注意</rb><rt>ちゅうい</rt></ruby>を<ruby><rb>引</rb><rt>ひ</rt></ruby>いて\\nくれたおかげで<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>、<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>に<ruby><rb>奪</rb><rt>うば</rt></ruby>われ\\nかけていた<ruby><rb>荷物</rb><rt>にもつ</rt></ruby>を<ruby><rb>回収</rb><rt>かいしゅう</rt></ruby>できましたわ！",
+        "zh_cn": "嗯。多亏你吸引了魔兽的注意，\\n我顺利拿回了\\n差点被魔兽夺走的行李！",
+        "zh_tw": "嗯，多虧你吸引了魔獸的注意力，\\n差點被魔獸奪走的行李\\n都順利回收了喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0063",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Right? If we had come any later,\\nthey would've probably ruined it.",
+        "ja_jp": "よかった。もう<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>遅</rb><rt>おそ</rt></ruby>かったら、\\n<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>に<ruby><rb>荷物</rb><rt>にもつ</rt></ruby>を<ruby><rb>荒</rb><rt>あ</rt></ruby>らされてしまう\\nところだったからね。",
+        "zh_cn": "太好了。要是再晚一步，\\n行李就要被魔兽\\n蹂躏得不成样子了。",
+        "zh_tw": "那就好。如果再慢一步，\\n東西就要被魔獸給毀了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0064",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'm glad I convinced you to keep searching.",
+        "ja_jp": "あそこで<ruby><rb>諦</rb><rt>あきら</rt></ruby>めずに<ruby><rb>探索</rb><rt>たんさく</rt></ruby>を<ruby><rb>続行</rb><rt>ぞっこう</rt></ruby>しておいて\\nよかったよ。",
+        "zh_cn": "还好我们当时\\n没有放弃寻找行李。",
+        "zh_tw": "當時沒有放棄，\\n繼續到這探索真是太好了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0065",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "So, was there anything in the luggage that\\nwe could use?",
+        "ja_jp": "それで、<ruby><rb>荷物</rb><rt>にもつ</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>に<ruby><rb>使</rb><rt>つか</rt></ruby>えそうな<ruby><rb>物</rb><rt>もの</rt></ruby>は\\n<ruby><rb>入</rb><rt>はい</rt></ruby>っていたのかい？",
+        "zh_cn": "那么，行李里有什么\\n能派上用场的东西吗？",
+        "zh_tw": "所以，行李中有放什麼\\n用得上的東西嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0066",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Indeed. Namely, preserved food, blankets,\\nflint, and even a hunting knife.",
+        "ja_jp": "ええ、もちろんでしてよ。\\n<ruby><rb>保存食</rb><rt>ほぞんしょく</rt></ruby>にブランケット、<ruby><rb>火打石</rb><rt>ひうちいし</rt></ruby>、\\n<ruby><rb>狩猟用</rb><rt>ハンティングよう</rt></ruby>のナイフまで<ruby><rb>入</rb><rt>はい</rt></ruby>っていますわ。",
+        "zh_cn": "当然有了。\\n有干粮、毛毯、打火石，\\n甚至还有狩猎用的刀。",
+        "zh_tw": "嗯，當然有了。\\n緊急糧食和毯子、打火石、\\n狩獵用的刀子也都備齊了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0067",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Wow. That couldn't be more perfect. But\\nwhy did you pack that in the first place?",
+        "ja_jp": "そ、それはとても<ruby><rb>助</rb><rt>たす</rt></ruby>かるけど……\\nそもそもどうしてそんな<ruby><rb>物</rb><rt>もの</rt></ruby>を……？",
+        "zh_cn": "那、那倒是帮大忙了……\\n不过你为什么会带着那种东西？",
+        "zh_tw": "那、那真是幫上大忙了……\\n但為什麼妳會帶著這些東西……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0068",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Oh, just in case something of this nature\\nhappened. A proper lady always makes\\ndoubly sure she is ready for any situation.",
+        "ja_jp": "こんなこともあろうかと、というやつ\\nですわ。どんな<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>にも<ruby><rb>対応</rb><rt>たいおう</rt></ruby>できるよう\\n<ruby><rb>万全</rb><rt>ばんぜん</rt></ruby>を<ruby><rb>期</rb><rt>き</rt></ruby>すのが<ruby><rb>淑女</rb><rt>レディ</rt></ruby>の<ruby><rb>嗜</rb><rt>たしな</rt></ruby>みでしてよ。",
+        "zh_cn": "就是所谓的以防万一嘛。\\n为了能应对任何状况，\\n做好充分的准备才是淑女的修养。",
+        "zh_tw": "就是所謂的「未雨綢繆」囉。\\n為了能對應任何狀況而事先準備萬全\\n可是淑女的嗜好。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0069",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "And in that sense, the most important\\nthing in the bag...was THIS!",
+        "ja_jp": "そういう<ruby><rb>意味</rb><rt>いみ</rt></ruby>で<ruby><rb>言</rb><rt>い</rt></ruby>えば、この<ruby><rb>荷物</rb><rt>にもつ</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>で\\n<ruby><rb>一番重要</rb><rt>いちばんじゅうよう</rt></ruby>なのは……『これ』ですわね！",
+        "zh_cn": "从这一点上来说，\\n这个行李里最重要的……\\n就是“这个”了！",
+        "zh_tw": "就這層意義上來說，\\n這行李中最重要的……\\n就是「這個」了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0070",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What in the world is that?",
+        "ja_jp": "それは、いったい……？",
+        "zh_cn": "那究竟是……",
+        "zh_tw": "那究竟是……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0071",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Eee hee hee! This, Brother dearest, is our\\nbest hope of getting home alive!",
+        "ja_jp": "うふふ……『これ』は、わたくしたちが\\n<ruby><rb>生</rb><rt>い</rt></ruby>きて<ruby><rb>帰</rb><rt>かえ</rt></ruby>るための<ruby><rb>希望</rb><rt>きぼう</rt></ruby>ですわ！",
+        "zh_cn": "哦呵呵……“这个”可是\\n我们活着回去的希望！",
+        "zh_tw": "呵呵呵……\\n「這個」可是我們生還的希望喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_03_0072",
+      "book": ""
+    }
+  ]
 }

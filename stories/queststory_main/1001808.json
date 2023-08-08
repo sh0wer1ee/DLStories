@@ -1,539 +1,1020 @@
 {
-    "story_id": "",
-    "story_name": "精灵们的森林 第18章 4-6 拦路者",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "哈尔出现在打倒白狼之龙的一行人面前。\\n负伤的龙再次起身，被操控的魔兽\\n与伊莉雅教的士兵一同袭来之际，\\n哈尔却消失了。一行人受神秘声音的指引，\\n前往洞窟找寻通向古代精灵国的路。"
-        ]
+  "title": {
+    "en_us": "The Forest of the Faeries  Ch. 18 / 4-6  Barring the Way",
+    "ja_jp": "妖精たちの森 18章 4-6 路を阻む者",
+    "zh_cn": "精灵们的森林 第18章 4-6 拦路者",
+    "zh_tw": "妖精們的森林 第18章 4-6 阻礙道路者"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100005_05"
-            ],
-            "speaker_name": "沙音",
-            "context": "好，打倒他了！",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "龙竟会变得如此狂暴，\\n到底发生了什么……",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "（纳姆啊……）",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_07"
-            ],
-            "speaker_name": "纳姆",
-            "context": "！？\\n又、又是那个声音！",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_07"
-            ],
-            "speaker_name": "？？？",
-            "context": "（门之所以没打开，\\n不是你的问题……）",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_07"
-            ],
-            "speaker_name": "纳姆",
-            "context": "是、是吗？\\n那是为什么？",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_07"
-            ],
-            "speaker_name": "？？？",
-            "context": "（是因为有人动了手脚，\\n导致湖水被瘴气所侵蚀。）",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_07"
-            ],
-            "speaker_name": "？？？",
-            "context": "（似乎是受此影响，\\n路被封住了……）",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_07"
-            ],
-            "speaker_name": "纳姆",
-            "context": "诶，怎么会这样……\\n那我们该怎么办……",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100044_01"
-            ],
-            "speaker_name": "席菈",
-            "context": "……\\n敌……人……",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100042_01"
-            ],
-            "speaker_name": "迦道夫",
-            "context": "！\\n是谁在那里！",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100042_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "呵呵……\\n被发现了呢。",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01",
-                "100004_01",
-                "100002_01"
-            ],
-            "speaker_name": "全员",
-            "context": "！",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "哈尔！？\\n刚才那是……\\n还有，你为什么会在这里……",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "好久不见了，“叛变的王子”……\\n不，应该叫您“虚假的王子”\\n才对吧……",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "你这家伙！\\n竟敢侮辱殿下！",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "还有“前”圣骑士大人，\\n您看起来还是没变呢，\\n我也就放心了。",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "无视我悄悄告诉您的真相，\\n宁可舍弃圣骑士的身份也要继续\\n效忠他的决心真令人钦佩。咦？",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "自卫团团长大人也一起吗。\\n我经常听古拉特殿下\\n提起您的英勇事迹……",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100042_01"
-            ],
-            "speaker_name": "迦道夫",
-            "context": "原来你潜形匿影，\\n一路跟踪我们至此。",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100042_01"
-            ],
-            "speaker_name": "迦道夫",
-            "context": "就丑角而言，\\n你的本领似乎过于高超了。",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "呵呵，对于我这种卑贱之徒\\n也毫不放松警惕，不愧是\\n“闪狼”迦道夫大人……",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "你这混蛋……\\n总是阴魂不散地给我们捣乱！\\n那头龙也是你搞的鬼吧？",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "你们连证据都没有就怀疑我，\\n真令人伤心。看来我有必要\\n改正自己平时的行为。",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "哈尔，你仗着新主人给你撑腰，\\n可真是话多呢。",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "呵呵，谢斯大人您可别误会。\\n我可没有那种当宠物猫\\n供人赏玩的爱好。",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "假意奉承主人，实则加以利用。\\n不管是王室，还是教会……\\n这就是我的作风。",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "总之，对我说三道四之前，\\n还是先解决掉那边的龙吧？",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "！",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "岂有此理……\\n他已经被伤得那么重了……",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100005_05"
-            ],
-            "speaker_name": "沙音",
-            "context": "这股气息……\\n不光是龙！",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "唔！是魔兽，\\n还有伊莉雅教的教会骑士……\\n这是怎么回事……",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "哥哥！这些魔兽和士兵们\\n似乎都和龙一样，\\n失去了理智……",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "哈尔，你究竟做了什么！",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "哎呀，热闹起来了呢。",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "我衷心希望\\n你们能够克服这场劫难，\\n顺利抵达精灵国。",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "那么，请恕我失陪了……",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "什么……站住，哈尔！",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "！",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100044_01"
-            ],
-            "speaker_name": "席菈",
-            "context": "……",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "席菈，谢谢你救了我！\\n呃……被彻底包围了……",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100002_01"
-            ],
-            "speaker_name": "埃尔菲莉丝",
-            "context": "到底有多少敌人啊……\\n数都数不过来……",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100042_01"
-            ],
-            "speaker_name": "迦道夫",
-            "context": "要同时对付这么多敌人，\\n看来得费点劲了……",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "谢斯",
-            "context": "是啊，简直没完没了……\\n好想快点离开这里，\\n前往精灵国啊。",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_07"
-            ],
-            "speaker_name": "纳姆",
-            "context": "那么……我就再加把劲，\\n试着开启那条路吧！",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_07"
-            ],
-            "speaker_name": "？？？",
-            "context": "（纳姆啊，那里的路\\n应该暂时没办法用。）",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_07"
-            ],
-            "speaker_name": "？？？",
-            "context": "（你们去附近的\\n一个洞窟吧——）",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_07"
-            ],
-            "speaker_name": "纳姆",
-            "context": "洞窟？\\n为什么要去那种地方……",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_07"
-            ],
-            "speaker_name": "？？？",
-            "context": "（那里有一个遗址，\\n曾经是通往精灵国的门。）",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_07"
-            ],
-            "speaker_name": "？？？",
-            "context": "（虽然已经被废置许久，\\n但是你们走那条路，\\n应该就能来到这边……）",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "纳姆，又有人\\n跟你说话了吗？",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_07"
-            ],
-            "speaker_name": "纳姆",
-            "context": "嗯、嗯……说是有一扇\\n能通往精灵国的门！\\n似乎是在洞窟里面……",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_01"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "尤蒂尔，怎么办？\\n我们要不要试着相信\\n向纳姆传话的那个人？",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "……\\n就算我们继续留在这里\\n也只会被逼入绝境。",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "如果真的有其它途径，\\n我想赌一次试试……\\n纳姆，你认得路吗？",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_07"
-            ],
-            "speaker_name": "纳姆",
-            "context": "唔、嗯，应该没问题！",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好，那我们就前往那个洞窟吧。\\n各位，突破敌人的包围！",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_06"
-            ],
-            "speaker_name": "全员",
-            "context": "好！",
-            "voice_line": "VO_CHR_MAINSTORY_18_08_0058",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "After defeating the white-wolf dragon, the party\\nis confronted by Harle. But when the injured\\ndragon rises to fight again—along with fiends\\nand a host of Church soldiers—he scurries\\naway. Notte then hears of a mysterious cave,\\nand the party decides to make a break for it.",
+      "ja_jp": "<ruby><rb>白狼</rb><rt>はくろう</rt></ruby>のドラゴンを<ruby><rb>倒</rb><rt>たお</rt></ruby>した<ruby><rb>一行</rb><rt>いっこう</rt></ruby>の<ruby><rb>前</rb><rt>まえ</rt></ruby>にハールが\\n<ruby><rb>姿</rb><rt>すがた</rt></ruby>を<ruby><rb>現</rb><rt>あらわ</rt></ruby>す。<ruby><rb>傷</rb><rt>きず</rt></ruby>を<ruby><rb>負</rb><rt>お</rt></ruby>ったドラゴンが<ruby><rb>起</rb><rt>お</rt></ruby>き<ruby><rb>上</rb><rt>あ</rt></ruby>がり\\n<ruby><rb>操</rb><rt>あやつ</rt></ruby>られた<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>とイリア<ruby><rb>教兵士</rb><rt>きょうへいし</rt></ruby>が<ruby><rb>迫</rb><rt>せま</rt></ruby>るなか、\\nハールは<ruby><rb>姿</rb><rt>すがた</rt></ruby>を<ruby><rb>消</rb><rt>け</rt></ruby>す。<ruby><rb>一行</rb><rt>いっこう</rt></ruby>は<ruby><rb>謎</rb><rt>なぞ</rt></ruby>の<ruby><rb>声</rb><rt>こえ</rt></ruby>に<ruby><rb>導</rb><rt>みちび</rt></ruby>かれ\\n<ruby><rb>古</rb><rt>いにしえ</rt></ruby>の<ruby><rb>妖精国</rb><rt>ようせいこく</rt></ruby>の<ruby><rb>路</rb><rt>みち</rt></ruby>を<ruby><rb>目指</rb><rt>めざ</rt></ruby>し、<ruby><rb>洞窟</rb><rt>どうくつ</rt></ruby>へと<ruby><rb>向</rb><rt>む</rt></ruby>かう。",
+      "zh_cn": "哈尔出现在打倒白狼之龙的一行人面前。\\n负伤的龙再次起身，被操控的魔兽\\n与伊莉雅教的士兵一同袭来之际，\\n哈尔却消失了。一行人受神秘声音的指引，\\n前往洞窟找寻通向古代精灵国的路。",
+      "zh_tw": "眾人打倒白狼龍族後，哈魯突然現身，\\n並在負傷龍族再次起身、被操控的魔獸與\\n伊利亞教士兵進逼之際，再次消失蹤影。\\n一行人在神秘聲音的指引下，\\n朝著過去能通往妖精國之路的洞窟前進。"
+    }
+  },
+  "prev": "1001807",
+  "next": "1001809",
+  "content": [
+    {
+      "icon": "100005_05",
+      "name": {
+        "en_us": "Alex",
+        "ja_jp": "シャノン",
+        "zh_cn": "沙音",
+        "zh_tw": "夏儂"
+      },
+      "context": {
+        "en_us": "It's finished!",
+        "ja_jp": "よし、<ruby><rb>仕留</rb><rt>しと</rt></ruby>めたぞ……！",
+        "zh_cn": "好，打倒他了！",
+        "zh_tw": "好，解決他了……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0001",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Whatever could have caused a dragon\\nto rage as this one did?",
+        "ja_jp": "ドラゴンがこれほどまでに\\n<ruby><rb>暴</rb><rt>あば</rt></ruby>れ<ruby><rb>狂</rb><rt>くる</rt></ruby>うとは、いったい<ruby><rb>何</rb><rt>なに</rt></ruby>が\\nあったのだ……。",
+        "zh_cn": "龙竟会变得如此狂暴，\\n到底发生了什么……",
+        "zh_tw": "龍族竟然會變得如此狂暴，\\n到底發生了什麼事……"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0002",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "(Notte...)",
+        "ja_jp": "（ナームよ――）",
+        "zh_cn": "（纳姆啊……）",
+        "zh_tw": "（那姆──）"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0003",
+      "book": ""
+    },
+    {
+      "icon": "100007_07",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Gah! It's that voice again!",
+        "ja_jp": "……!?\\nま、またあの<ruby><rb>声</rb><rt>こえ</rt></ruby>が……！",
+        "zh_cn": "！？\\n又、又是那个声音！",
+        "zh_tw": "……！？\\n又、又是那個聲音……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0004",
+      "book": ""
+    },
+    {
+      "icon": "100007_07",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "(It is not your fault the way did not open.)",
+        "ja_jp": "（<ruby><rb>扉</rb><rt>とびら</rt></ruby>が<ruby><rb>開</rb><rt>ひら</rt></ruby>かなかったのは\\n　お<ruby><rb>前</rb><rt>まえ</rt></ruby>のせいではない――）",
+        "zh_cn": "（门之所以没打开，\\n不是你的问题……）",
+        "zh_tw": "（門之所以沒敞開，\\n並非妳的錯──）"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0005",
+      "book": ""
+    },
+    {
+      "icon": "100007_07",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Really? But then why...?",
+        "ja_jp": "そ、そうなの……？\\nでも、どうして……？",
+        "zh_cn": "是、是吗？\\n那是为什么？",
+        "zh_tw": "是、是嗎……？\\n可是，為什麼……？"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0006",
+      "book": ""
+    },
+    {
+      "icon": "100007_07",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "(Someone—though I know not who—has\\ncorrupted the lake's waters with miasma.)",
+        "ja_jp": "（<ruby><rb>何者</rb><rt>なにもの</rt></ruby>かの<ruby><rb>仕業</rb><rt>しわざ</rt></ruby>によって、\\n　<ruby><rb>湖</rb><rt>みずうみ</rt></ruby>の<ruby><rb>水</rb><rt>みず</rt></ruby>が<ruby><rb>瘴気</rb><rt>しょうき</rt></ruby>に<ruby><rb>侵</rb><rt>おか</rt></ruby>されている）",
+        "zh_cn": "（是因为有人动了手脚，\\n导致湖水被瘴气所侵蚀。）",
+        "zh_tw": "（是由於某人所為，\\n導致湖水遭到瘴氣侵蝕。）"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0007",
+      "book": ""
+    },
+    {
+      "icon": "100007_07",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "(This has blocked the way.)",
+        "ja_jp": "（その<ruby><rb>影響</rb><rt>えいきょう</rt></ruby>により、<ruby><rb>路</rb><rt>みち</rt></ruby>が\\n　<ruby><rb>閉</rb><rt>と</rt></ruby>ざされてしまったようだ――）",
+        "zh_cn": "（似乎是受此影响，\\n路被封住了……）",
+        "zh_tw": "（似乎是因為如此，\\n才使得道路封閉──）"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0008",
+      "book": ""
+    },
+    {
+      "icon": "100007_07",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Well, that's SUPER unhelpful.\\nSo what do I do?",
+        "ja_jp": "ええっ、そんな……。\\nじゃあ、どうすればいいの……。",
+        "zh_cn": "诶，怎么会这样……\\n那我们该怎么办……",
+        "zh_tw": "咦咦，怎麼會……\\n那麼，要怎麼辦才好啊……"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0009",
+      "book": ""
+    },
+    {
+      "icon": "100044_01",
+      "name": {
+        "en_us": "Sheila",
+        "ja_jp": "シーラ",
+        "zh_cn": "席菈",
+        "zh_tw": "希拉"
+      },
+      "context": {
+        "en_us": "Ene...my...",
+        "ja_jp": "…………。\\nて……き……。",
+        "zh_cn": "……\\n敌……人……",
+        "zh_tw": "…………\\n敵……人……"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0010",
+      "book": ""
+    },
+    {
+      "icon": "100042_01",
+      "name": {
+        "en_us": "Gatov",
+        "ja_jp": "ガトフ",
+        "zh_cn": "迦道夫",
+        "zh_tw": "葛托夫"
+      },
+      "context": {
+        "en_us": "Who goes there?!",
+        "ja_jp": "――――！　\\nそこにいるのは<ruby><rb>何者</rb><rt>なにもの</rt></ruby>だ！",
+        "zh_cn": "！\\n是谁在那里！",
+        "zh_tw": "────！\\n誰在那裡！"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0011",
+      "book": ""
+    },
+    {
+      "icon": "100042_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Oh, what a shame! I am undone.",
+        "ja_jp": "ふふ……。\\n<ruby><rb>見破</rb><rt>みやぶ</rt></ruby>られてしまいましたか。",
+        "zh_cn": "呵呵……\\n被发现了呢。",
+        "zh_tw": "呵呵……\\n被發現了啊。"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0012",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "全員",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "…………！",
+        "zh_cn": "！",
+        "zh_tw": "…………！"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0013",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Harle! What WAS that?\\nAnd what are you even doing here?!",
+        "ja_jp": "ハール……!?\\n<ruby><rb>今</rb><rt>いま</rt></ruby>のはいったい……。\\nそれに、どうしてここへ……。",
+        "zh_cn": "哈尔！？\\n刚才那是……\\n还有，你为什么会在这里……",
+        "zh_tw": "哈魯……！？\\n剛才那到底是……\\n還有，你怎麼會來這裡……"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0014",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Well, well! If it isn't the traitor prince!\\nOr I suppose I should just call you\\nthe false prince now, hmm?",
+        "ja_jp": "これはこれは、『<ruby><rb>叛逆の王子</rb><rt>リベリアスプリンス</rt></ruby>』――\\nいや、『<ruby><rb>虚偽の王子</rb><rt>スプリアスプリンス</rt></ruby>』とでも\\nお<ruby><rb>呼</rb><rt>よ</rt></ruby>びすべきでしょうか――。",
+        "zh_cn": "好久不见了，“叛变的王子”……\\n不，应该叫您“虚假的王子”\\n才对吧……",
+        "zh_tw": "哎呀哎呀，原來是「叛逆王子」──\\n不，或許該稱你「虛偽王子」吧──"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0015",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "I will brook no insult to His Highness!",
+        "ja_jp": "……<ruby><rb>貴様</rb><rt>きさま</rt></ruby>！\\n<ruby><rb>殿下</rb><rt>でんか</rt></ruby>を<ruby><rb>侮辱</rb><rt>ぶじょく</rt></ruby>するつもりか！",
+        "zh_cn": "你这家伙！\\n竟敢侮辱殿下！",
+        "zh_tw": "……你這傢伙！\\n是想侮辱殿下嗎！"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0016",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Ah, and the former Paladyn, as well.\\nHow it warms the cockles of the heart\\nto see you alive and kicking!",
+        "ja_jp": "『<ruby><rb>元</rb><rt>もと</rt></ruby>』<ruby><rb>聖騎士殿</rb><rt>せいきしどの</rt></ruby>も、\\nお<ruby><rb>変</rb><rt>か</rt></ruby>わりないようで<ruby><rb>何</rb><rt>なに</rt></ruby>よりです。",
+        "zh_cn": "还有“前”圣骑士大人，\\n您看起来还是没变呢，\\n我也就放心了。",
+        "zh_tw": "「前」聖騎士閣下也在，\\n看到妳還是老樣子實在太好了。"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0017",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "I entrusted you—and you alone—with the\\ntruth, yet not only do you continue to\\nserve the prince, you actually RESIGNED\\nas Grand Paladyn! Ha ha! How utterly\\ndelightful!",
+        "ja_jp": "<ruby><rb>貴女</rb><rt>あなた</rt></ruby>だけに<ruby><rb>真実</rb><rt>しんじつ</rt></ruby>を<ruby><rb>伝</rb><rt>つた</rt></ruby>えたにも<ruby><rb>関</rb><rt>かか</rt></ruby>わらず\\n<ruby><rb>聖騎士</rb><rt>せいきし</rt></ruby>を<ruby><rb>捨</rb><rt>す</rt></ruby>ててまで<ruby><rb>仕</rb><rt>つか</rt></ruby>え<ruby><rb>続</rb><rt>つづ</rt></ruby>けるとは、\\nなんとも<ruby><rb>殊勝</rb><rt>しゅしょう</rt></ruby>な<ruby><rb>心掛</rb><rt>こころが</rt></ruby>けです。おや――。",
+        "zh_cn": "无视我悄悄告诉您的真相，\\n宁可舍弃圣骑士的身份也要继续\\n效忠他的决心真令人钦佩。咦？",
+        "zh_tw": "儘管我已將真相告訴了妳一人，\\n妳卻寧願捨棄聖騎士身分也要\\n繼續侍奉，多麼令人敬佩啊。哎呀──"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0018",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "And Captain Gatov of the 12th Division\\nWatch is with you as well! I've heard much\\nand more about him from Cardinal Graht.",
+        "ja_jp": "<ruby><rb>自警団長殿</rb><rt>じけいだんちょうどの</rt></ruby>もご<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>ですか。\\n<ruby><rb>貴方</rb><rt>あなた</rt></ruby>のお<ruby><rb>噂</rb><rt>うわさ</rt></ruby>は、グラート<ruby><rb>様</rb><rt>さま</rt></ruby>より\\n<ruby><rb>常々</rb><rt>つねづね</rt></ruby><ruby><rb>聞</rb><rt>き</rt></ruby>き<ruby><rb>及</rb><rt>およ</rt></ruby>んでおりますよ――。",
+        "zh_cn": "自卫团团长大人也一起吗。\\n我经常听古拉特殿下\\n提起您的英勇事迹……",
+        "zh_tw": "自警團團長閣下也在一起啊。\\n你的傳聞，\\n我常聽古拉特大人提起喔──"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0019",
+      "book": ""
+    },
+    {
+      "icon": "100042_01",
+      "name": {
+        "en_us": "Gatov",
+        "ja_jp": "ガトフ",
+        "zh_cn": "迦道夫",
+        "zh_tw": "葛托夫"
+      },
+      "context": {
+        "en_us": "If you followed us all the way here,\\nyou are a man of no mean skill.",
+        "ja_jp": "……<ruby><rb>気配</rb><rt>けはい</rt></ruby>を<ruby><rb>完全</rb><rt>かんぜん</rt></ruby>に<ruby><rb>殺</rb><rt>ころ</rt></ruby>して\\n<ruby><rb>我々</rb><rt>われわれ</rt></ruby>を<ruby><rb>尾行</rb><rt>びこう</rt></ruby>していたか。",
+        "zh_cn": "原来你潜形匿影，\\n一路跟踪我们至此。",
+        "zh_tw": "……徹底隱藏了氣息，\\n跟蹤在我們身後嗎。"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0020",
+      "book": ""
+    },
+    {
+      "icon": "100042_01",
+      "name": {
+        "en_us": "Gatov",
+        "ja_jp": "ガトフ",
+        "zh_cn": "迦道夫",
+        "zh_tw": "葛托夫"
+      },
+      "context": {
+        "en_us": "It is beneath you to play the fool so.",
+        "ja_jp": "<ruby><rb>道化</rb><rt>どうけ</rt></ruby>を<ruby><rb>演</rb><rt>えん</rt></ruby>じるには、\\n<ruby><rb>腕</rb><rt>うで</rt></ruby>が<ruby><rb>立</rb><rt>た</rt></ruby>ちすぎるようだな。",
+        "zh_cn": "就丑角而言，\\n你的本领似乎过于高超了。",
+        "zh_tw": "以丑角而言，\\n似乎技術太優秀了點呢。"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0021",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "On your guard against a nobody like me?\\nOh, but you do not disappoint, Blazewolf.",
+        "ja_jp": "ふふ、<ruby><rb>私</rb><rt>わたし</rt></ruby>のような<ruby><rb>卑小</rb><rt>ひしょう</rt></ruby>の<ruby><rb>者</rb><rt>もの</rt></ruby>にも\\n<ruby><rb>警戒</rb><rt>けいかい</rt></ruby>を<ruby><rb>怠</rb><rt>おこた</rt></ruby>らないとは、さすがは\\n『<ruby><rb>閃狼</rb><rt>せんろう</rt></ruby>』ガトフ<ruby><rb>殿</rb><rt>どの</rt></ruby>ですね――。",
+        "zh_cn": "呵呵，对于我这种卑贱之徒\\n也毫不放松警惕，不愧是\\n“闪狼”迦道夫大人……",
+        "zh_tw": "呵呵，連面對我這般卑賤之人\\n也沒有放鬆一絲警戒，\\n不愧是「閃狼」葛托夫閣下呢──"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0022",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Ain't ya got nothing better to do than waste\\nour time, ya silver-tongued jerk?! I betcha\\nsicced that dragon on us, too!",
+        "ja_jp": "……てめえ、いつもいつも\\n<ruby><rb>俺</rb><rt>おれ</rt></ruby>たちを<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>しやがって……！\\nあのドラゴンもお<ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>仕業</rb><rt>しわざ</rt></ruby>か……！",
+        "zh_cn": "你这混蛋……\\n总是阴魂不散地给我们捣乱！\\n那头龙也是你搞的鬼吧？",
+        "zh_tw": "……你這傢伙，老是來妨礙我們……！\\n那隻龍族也是你幹的好事嗎……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0023",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Why, I am positively WOUNDED that you\\nwould suspect me—and without a shred\\nof evidence, might I add. Tsk tsk tsk.",
+        "ja_jp": "<ruby><rb>証拠</rb><rt>しょうこ</rt></ruby>もなしに<ruby><rb>疑</rb><rt>うたが</rt></ruby>われてしまうとは、\\n<ruby><rb>心外</rb><rt>しんがい</rt></ruby>ですね。<ruby><rb>私</rb><rt>わたし</rt></ruby>も<ruby><rb>日</rb><rt>ひ</rt></ruby>ごろの<ruby><rb>行</rb><rt>おこな</rt></ruby>いを\\n<ruby><rb>改</rb><rt>あらた</rt></ruby>めなければならないようです。",
+        "zh_cn": "你们连证据都没有就怀疑我，\\n真令人伤心。看来我有必要\\n改正自己平时的行为。",
+        "zh_tw": "毫無證據就懷疑我，真是令人遺憾。\\n看來我得好好反省自己平日的言行呢。"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0024",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "My, aren't we loquacious. Have you found\\na new master from whose leash you can\\nbark with borrowed authority, Harle?",
+        "ja_jp": "ハール、<ruby><rb>新</rb><rt>あたら</rt></ruby>しい<ruby><rb>飼</rb><rt>か</rt></ruby>い<ruby><rb>主</rb><rt>ぬし</rt></ruby>の<ruby><rb>威</rb><rt>い</rt></ruby>を<ruby><rb>借</rb><rt>か</rt></ruby>りて\\nずいぶんと<ruby><rb>饒舌</rb><rt>じょうぜつ</rt></ruby>ですわね。",
+        "zh_cn": "哈尔，你仗着新主人给你撑腰，\\n可真是话多呢。",
+        "zh_tw": "哈魯，你藉著新飼主的威風，\\n倒是變得挺多話的呢。"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0025",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "I fear I never developed the taste for being\\nfawned over as someone's family feline.",
+        "ja_jp": "ふふ、シェス<ruby><rb>様</rb><rt>さま</rt></ruby>、<ruby><rb>誤解</rb><rt>ごかい</rt></ruby>なさらぬよう。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>誰</rb><rt>だれ</rt></ruby>かの<ruby><rb>飼</rb><rt>か</rt></ruby>い<ruby><rb>猫</rb><rt>ねこ</rt></ruby>として<ruby><rb>愛玩</rb><rt>あいがん</rt></ruby>される\\n<ruby><rb>趣味</rb><rt>しゅみ</rt></ruby>は<ruby><rb>持</rb><rt>も</rt></ruby>ち<ruby><rb>合</rb><rt>あ</rt></ruby>わせておりませんよ。",
+        "zh_cn": "呵呵，谢斯大人您可别误会。\\n我可没有那种当宠物猫\\n供人赏玩的爱好。",
+        "zh_tw": "呵呵，謝斯大人，請妳別誤會。\\n我對於被他人當作寵物貓玩賞，\\n可沒有任何興趣。"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0026",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "On the contrary, I seek only to flatter my\\nway into a master's good graces so I might\\nuse them to my own ends—be that master\\na royal family or even a church.",
+        "ja_jp": "<ruby><rb>主</rb><rt>あるじ</rt></ruby>に<ruby><rb>阿</rb><rt>おもね</rt></ruby>るふりをして、<ruby><rb>逆</rb><rt>ぎゃく</rt></ruby>に<ruby><rb>利用</rb><rt>りよう</rt></ruby>する。\\n<ruby><rb>王家</rb><rt>おうけ</rt></ruby>も、<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>でさえも――。\\nそれが<ruby><rb>私</rb><rt>わたし</rt></ruby>のやり<ruby><rb>方</rb><rt>かた</rt></ruby>です。",
+        "zh_cn": "假意奉承主人，实则加以利用。\\n不管是王室，还是教会……\\n这就是我的作风。",
+        "zh_tw": "奉承主人，反過來加以利用。\\n無論對象是王家，甚至是教會──\\n這才是我的作風。"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0027",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "In any event, rather than slinging hurtful\\naccusations at me, you might want to\\nconsider dealing with that dragon.",
+        "ja_jp": "ともあれ、<ruby><rb>私</rb><rt>わたし</rt></ruby>に<ruby><rb>何</rb><rt>なに</rt></ruby>かを<ruby><rb>言</rb><rt>い</rt></ruby>う<ruby><rb>前</rb><rt>まえ</rt></ruby>に、\\nまずはそのドラゴンを\\nどうにかするのが<ruby><rb>先決</rb><rt>せんけつ</rt></ruby>では――？",
+        "zh_cn": "总之，对我说三道四之前，\\n还是先解决掉那边的龙吧？",
+        "zh_tw": "這些暫且不提。各位在批評我之前，\\n是不是應該先想辦法\\n解決那隻龍族呢──？"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0028",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "…………！",
+        "zh_cn": "！",
+        "zh_tw": "…………！"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0029",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "How does it still live?!",
+        "ja_jp": "そんな<ruby><rb>馬鹿</rb><rt>ばか</rt></ruby>な……。あれほど\\n<ruby><rb>手傷</rb><rt>てきず</rt></ruby>を<ruby><rb>与</rb><rt>あた</rt></ruby>えたというのに……！",
+        "zh_cn": "岂有此理……\\n他已经被伤得那么重了……",
+        "zh_tw": "怎麼可能……\\n明明已經讓他受了那麼重的傷……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0030",
+      "book": ""
+    },
+    {
+      "icon": "100005_05",
+      "name": {
+        "en_us": "Alex",
+        "ja_jp": "シャノン",
+        "zh_cn": "沙音",
+        "zh_tw": "夏儂"
+      },
+      "context": {
+        "en_us": "We've more to worry about here\\nthan a dragon!",
+        "ja_jp": "……！　この<ruby><rb>気配</rb><rt>けはい</rt></ruby>は……！\\nドラゴンだけではないぞ……！",
+        "zh_cn": "这股气息……\\n不光是龙！",
+        "zh_tw": "……！\\n這股氣息是……！\\n看來不只有龍族而已……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0031",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "Fiends! Wait, AND Church Templars?\\nWhat is going on here?!",
+        "ja_jp": "……！　\\n<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>に、イリア<ruby><rb>教</rb><rt>きょう</rt></ruby>の<ruby><rb>教会騎士</rb><rt>きょうかいきし</rt></ruby>まで……。\\nどういうことだ……。",
+        "zh_cn": "唔！是魔兽，\\n还有伊莉雅教的教会骑士……\\n这是怎么回事……",
+        "zh_tw": "……！是魔獸，\\n連伊利亞教的教會騎士都在……\\n這是怎麼回事……"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0032",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "Take care, Brother—fiends and soldiers\\nboth have taken leave of their senses.",
+        "ja_jp": "<ruby><rb>兄</rb><rt>にい</rt></ruby>さま……！　ドラゴンと<ruby><rb>同</rb><rt>おな</rt></ruby>じく、\\n<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>も<ruby><rb>兵士</rb><rt>へいし</rt></ruby>たちも、\\n<ruby><rb>正気</rb><rt>しょうき</rt></ruby>を<ruby><rb>失</rb><rt>うしな</rt></ruby>っているようです……。",
+        "zh_cn": "哥哥！这些魔兽和士兵们\\n似乎都和龙一样，\\n失去了理智……",
+        "zh_tw": "哥哥大人……！\\n魔獸和士兵們似乎和龍族一樣，\\n都失去自我了……"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0033",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Damn you, Harle! What have you done?!",
+        "ja_jp": "ハール、いったい<ruby><rb>何</rb><rt>なに</rt></ruby>をしたんだ……！",
+        "zh_cn": "哈尔，你究竟做了什么！",
+        "zh_tw": "哈魯，你到底做了什麼……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0034",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Such harsh words for a man who merely\\nwanted to liven up the party.",
+        "ja_jp": "おやおや、ずいぶんと\\n<ruby><rb>賑</rb><rt>にぎ</rt></ruby>やかになってきましたね。",
+        "zh_cn": "哎呀，热闹起来了呢。",
+        "zh_tw": "哎呀哎呀，變得相當熱鬧了呢。"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0035",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "I pray from the bottom of my heart that you\\nsurmount this hardship and arrive safe and\\nsound in the Faerie Kingdom.",
+        "ja_jp": "<ruby><rb>皆様</rb><rt>みなさま</rt></ruby>がこの<ruby><rb>苦難</rb><rt>くなん</rt></ruby>を<ruby><rb>乗</rb><rt>の</rt></ruby>り<ruby><rb>越</rb><rt>こ</rt></ruby>え、\\n<ruby><rb>妖精国</rb><rt>ようせいこく</rt></ruby>にたどり<ruby><rb>着</rb><rt>つ</rt></ruby>かれることを\\n<ruby><rb>心</rb><rt>こころ</rt></ruby>よりお<ruby><rb>祈</rb><rt>いの</rt></ruby>りしておりますよ。",
+        "zh_cn": "我衷心希望\\n你们能够克服这场劫难，\\n顺利抵达精灵国。",
+        "zh_tw": "我會誠心祈禱各位成功克服這場苦難，\\n並順利抵達妖精國的。"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0036",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "But I fear I must take my leave. Ta!",
+        "ja_jp": "それでは<ruby><rb>失礼</rb><rt>しつれい</rt></ruby>させていただきます――。",
+        "zh_cn": "那么，请恕我失陪了……",
+        "zh_tw": "那麼就恕我失陪了──"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0037",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Stop right there!",
+        "ja_jp": "なっ……<ruby><rb>待</rb><rt>ま</rt></ruby>つんだ、ハール！",
+        "zh_cn": "什么……站住，哈尔！",
+        "zh_tw": "什……等等，哈魯！"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0038",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "…………！",
+        "zh_cn": "！",
+        "zh_tw": "…………！"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0039",
+      "book": ""
+    },
+    {
+      "icon": "100044_01",
+      "name": {
+        "en_us": "Sheila",
+        "ja_jp": "シーラ",
+        "zh_cn": "席菈",
+        "zh_tw": "希拉"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0040",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Thank you, Shelia!\\n...It seems we're completely surrounded.",
+        "ja_jp": "シーラ、<ruby><rb>助</rb><rt>たす</rt></ruby>かったよ……！\\nくっ……<ruby><rb>完全</rb><rt>かんぜん</rt></ruby>に<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>囲</rb><rt>かこ</rt></ruby>まれたか……。",
+        "zh_cn": "席菈，谢谢你救了我！\\n呃……被彻底包围了……",
+        "zh_tw": "希拉，謝謝妳幫忙……！\\n唔……完全被包圍了嗎……"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0041",
+      "book": ""
+    },
+    {
+      "icon": "100002_01",
+      "name": {
+        "en_us": "Elisanne",
+        "ja_jp": "エルフィリス",
+        "zh_cn": "埃尔菲莉丝",
+        "zh_tw": "耶魯菲莉絲"
+      },
+      "context": {
+        "en_us": "So many enemies...\\nI cannot even take their measure.",
+        "ja_jp": "いったいどれほどいるのか……。\\n<ruby><rb>数</rb><rt>かぞ</rt></ruby>え<ruby><rb>切</rb><rt>き</rt></ruby>れぬほどだ……。",
+        "zh_cn": "到底有多少敌人啊……\\n数都数不过来……",
+        "zh_tw": "究竟有多少數量呢……\\n根本數不清……"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0042",
+      "book": ""
+    },
+    {
+      "icon": "100042_01",
+      "name": {
+        "en_us": "Gatov",
+        "ja_jp": "ガトフ",
+        "zh_cn": "迦道夫",
+        "zh_tw": "葛托夫"
+      },
+      "context": {
+        "en_us": "Dealing with this many foes at once\\nwill be no easy task.",
+        "ja_jp": "これほどの<ruby><rb>勢力</rb><rt>せいりょく</rt></ruby>を<ruby><rb>一度</rb><rt>いちど</rt></ruby>に\\n<ruby><rb>相手</rb><rt>あいて</rt></ruby>にするとなると\\n<ruby><rb>少々骨</rb><rt>しょうしょうほね</rt></ruby>が<ruby><rb>折</rb><rt>お</rt></ruby>れそうだな――。",
+        "zh_cn": "要同时对付这么多敌人，\\n看来得费点劲了……",
+        "zh_tw": "如果要一口氣對付這麼龐大的勢力，\\n似乎會有點費力呢──"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0043",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Then perhaps we should skip the fight and\\njust head straight for the Faerie Kingdom.",
+        "ja_jp": "ええ、<ruby><rb>付</rb><rt>つ</rt></ruby>き<ruby><rb>合</rb><rt>あ</rt></ruby>いきれませんわ……。\\n<ruby><rb>早</rb><rt>はや</rt></ruby>く<ruby><rb>退散</rb><rt>たいさん</rt></ruby>して、<ruby><rb>妖精国</rb><rt>ようせいこく</rt></ruby>へと\\n<ruby><rb>行</rb><rt>い</rt></ruby>きたいものですわ。",
+        "zh_cn": "是啊，简直没完没了……\\n好想快点离开这里，\\n前往精灵国啊。",
+        "zh_tw": "是啊，無法奉陪到底……\\n真想早點離開，前往妖精國呢。"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0044",
+      "book": ""
+    },
+    {
+      "icon": "100007_07",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Hang on, guys! I'll get it open!",
+        "ja_jp": "……なら、わたしがもういちど\\nがんばって、<ruby><rb>路</rb><rt>みち</rt></ruby>を<ruby><rb>開</rb><rt>ひら</rt></ruby>いてみせる……！",
+        "zh_cn": "那么……我就再加把劲，\\n试着开启那条路吧！",
+        "zh_tw": "……那麼，我再努力一次，\\n試著把路打開吧……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0045",
+      "book": ""
+    },
+    {
+      "icon": "100007_07",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "(I fear you will not be able to use the\\nentrance there for some time, Notte.)",
+        "ja_jp": "（ナームよ、そこにある<ruby><rb>路</rb><rt>みち</rt></ruby>は、\\n　しばらく<ruby><rb>使</rb><rt>つか</rt></ruby>えそうにない）",
+        "zh_cn": "（纳姆啊，那里的路\\n应该暂时没办法用。）",
+        "zh_tw": "（那姆，這邊的道路，\\n看來會有好一陣子無法使用。）"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0046",
+      "book": ""
+    },
+    {
+      "icon": "100007_07",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "(Make for the nearby cave instead.)",
+        "ja_jp": "（この<ruby><rb>近</rb><rt>ちか</rt></ruby>くにある<ruby><rb>洞窟</rb><rt>どうくつ</rt></ruby>へと\\n　<ruby><rb>向</rb><rt>む</rt></ruby>かうのだ――）",
+        "zh_cn": "（你们去附近的\\n一个洞窟吧——）",
+        "zh_tw": "（前往附近的洞窟吧──）"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0047",
+      "book": ""
+    },
+    {
+      "icon": "100007_07",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Wait, why are we going to a cave?",
+        "ja_jp": "<ruby><rb>洞窟</rb><rt>どうくつ</rt></ruby>……？\\nどうしてそんなところに……。",
+        "zh_cn": "洞窟？\\n为什么要去那种地方……",
+        "zh_tw": "洞窟……？\\n為什麼要去那種地方……"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0048",
+      "book": ""
+    },
+    {
+      "icon": "100007_07",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "(Therein lies the remnants of a gate\\nwhich once served as a way to the\\nFaerie Kingdom.)",
+        "ja_jp": "（かつて、<ruby><rb>妖精国</rb><rt>ようせいこく</rt></ruby>へ<ruby><rb>通</rb><rt>つう</rt></ruby>じていた\\n　<ruby><rb>扉</rb><rt>とびら</rt></ruby>の<ruby><rb>役割</rb><rt>やくわり</rt></ruby>を<ruby><rb>果</rb><rt>は</rt></ruby>たしていた\\n　<ruby><rb>遺構</rb><rt>いこう</rt></ruby>が<ruby><rb>存在</rb><rt>そんざい</rt></ruby>する）",
+        "zh_cn": "（那里有一个遗址，\\n曾经是通往精灵国的门。）",
+        "zh_tw": "（那裡存在著一座遺蹟。\\n過去作為通往妖精國之門所使用。）"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0049",
+      "book": ""
+    },
+    {
+      "icon": "100007_07",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "(It has not served such a purpose for ages\\nupon ages, but it should yet work.)",
+        "ja_jp": "（<ruby><rb>役目</rb><rt>やくめ</rt></ruby>を<ruby><rb>終</rb><rt>お</rt></ruby>えて<ruby><rb>長</rb><rt>なが</rt></ruby>らく<ruby><rb>経</rb><rt>た</rt></ruby>つが、\\n　あの<ruby><rb>路</rb><rt>みち</rt></ruby>からなら、こちらへと\\n　<ruby><rb>至</rb><rt>いた</rt></ruby>れるはずだ――）",
+        "zh_cn": "（虽然已经被废置许久，\\n但是你们走那条路，\\n应该就能来到这边……）",
+        "zh_tw": "（雖然已退役許久，\\n但若經由那條路，\\n應該能到達這邊才是──）"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0050",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "Is someone speaking to you again, Notte?",
+        "ja_jp": "ナーム、また<ruby><rb>誰</rb><rt>だれ</rt></ruby>かに\\n<ruby><rb>話</rb><rt>はな</rt></ruby>しかけられているのですか……？",
+        "zh_cn": "纳姆，又有人\\n跟你说话了吗？",
+        "zh_tw": "那姆，\\n又有誰在向妳搭話了嗎……？"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0051",
+      "book": ""
+    },
+    {
+      "icon": "100007_07",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Yeah, and they say there's a gate to the\\nFaerie Kingdom in some nearby cave?",
+        "ja_jp": "う、うん……<ruby><rb>妖精国</rb><rt>ようせいこく</rt></ruby>へ<ruby><rb>向</rb><rt>む</rt></ruby>かうための\\n<ruby><rb>扉</rb><rt>とびら</rt></ruby>があるって……！\\n<ruby><rb>洞窟</rb><rt>どうくつ</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>、らしいけど……。",
+        "zh_cn": "嗯、嗯……说是有一扇\\n能通往精灵国的门！\\n似乎是在洞窟里面……",
+        "zh_tw": "唔、嗯……\\n對方說有個通往妖精國的門……！\\n好像，是在洞窟裡面……"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0052",
+      "book": ""
+    },
+    {
+      "icon": "100003_01",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Think we oughta trust the magic voice\\nin Notte's noggin, boss?",
+        "ja_jp": "どうする、ユーディル、\\nナームに<ruby><rb>呼</rb><rt>よ</rt></ruby>びかけてる<ruby><rb>奴</rb><rt>やつ</rt></ruby>の<ruby><rb>話</rb><rt>はなし</rt></ruby>を\\n<ruby><rb>信用</rb><rt>しんよう</rt></ruby>してみるか……？",
+        "zh_cn": "尤蒂尔，怎么办？\\n我们要不要试着相信\\n向纳姆传话的那个人？",
+        "zh_tw": "怎麼辦，尤帝爾。\\n要試著相信呼喚那姆的那傢伙\\n說的話嗎……？"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0053",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'd rather trust that than stay here\\nand be overwhelmed by enemies.",
+        "ja_jp": "…………。\\nこのままここにいても\\n<ruby><rb>追</rb><rt>お</rt></ruby>いつめられるだけだ。",
+        "zh_cn": "……\\n就算我们继续留在这里\\n也只会被逼入绝境。",
+        "zh_tw": "…………\\n就算繼續待在這裡，\\n也只會被逼入困境。"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0054",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Can you get us to this cave, Notte?",
+        "ja_jp": "もし<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>別</rb><rt>べつ</rt></ruby>の<ruby><rb>行</rb><rt>い</rt></ruby>き<ruby><rb>方</rb><rt>かた</rt></ruby>があるなら、\\nその<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>に<ruby><rb>賭</rb><rt>か</rt></ruby>けてみたい――。\\nナーム、<ruby><rb>道</rb><rt>みち</rt></ruby>はわかるかい？",
+        "zh_cn": "如果真的有其它途径，\\n我想赌一次试试……\\n纳姆，你认得路吗？",
+        "zh_tw": "如果真的有其他方法能前往，\\n我想賭看看那個可能性──\\n那姆，妳知道路嗎？"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0055",
+      "book": ""
+    },
+    {
+      "icon": "100007_07",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Sure thing! I mean, um, I thiiink so?",
+        "ja_jp": "う、うん、たぶん<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>だと<ruby><rb>思</rb><rt>おも</rt></ruby>う……！",
+        "zh_cn": "唔、嗯，应该没问题！",
+        "zh_tw": "唔、嗯，應該沒問題……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0056",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Then everyone get ready—we'll hack our\\nway through the enemy front and make\\na break for the cave!",
+        "ja_jp": "よし、<ruby><rb>洞窟</rb><rt>どうくつ</rt></ruby>へと<ruby><rb>向</rb><rt>む</rt></ruby>かおう。\\nみんな、<ruby><rb>敵</rb><rt>てき</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>を<ruby><rb>突</rb><rt>つ</rt></ruby>っ<ruby><rb>切</rb><rt>き</rt></ruby>るぞ――！",
+        "zh_cn": "好，那我们就前往那个洞窟吧。\\n各位，突破敌人的包围！",
+        "zh_tw": "好，那麼往洞窟出發吧。\\n大家，從敵人中間突破吧──！"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0057",
+      "book": ""
+    },
+    {
+      "icon": "100015_06",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "全員",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "Right!",
+        "ja_jp": "はい……！",
+        "zh_cn": "好！",
+        "zh_tw": "是……！"
+      },
+      "voice": "VO_CHR_MAINSTORY_18_08_0058",
+      "book": ""
+    }
+  ]
 }

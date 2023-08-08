@@ -1,820 +1,1547 @@
 {
-    "story_id": "",
-    "story_name": "防卫战～幽囚之困·龙眸轨迹～ 被斩断的龙锁",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "法尔吉德听从阿德尔潘的建议\\n带着众人逃往圣城，途中遇到友人杰克。\\n然而，杰克实为“结社”派来的刺客。\\n阿德尔潘坠崖与其同归于尽，\\n这让法尔吉德决心和“结社”对抗！"
-        ]
+  "title": {
+    "en_us": "Shackles of the Syndicate    Broken Shackles",
+    "ja_jp": "防衛戦～幽囚は続く、竜眼の軌跡～  断ち切られた鎖",
+    "zh_cn": "防卫战～幽囚之困·龙眸轨迹～  被斩断的龙锁",
+    "zh_tw": "防衛戰～幽囚依舊‧龍瞳之軌跡～  被斬斷的鎖鏈"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "被解救的人们",
-            "context": "哈啊、哈啊、哈啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "被解救的人",
-            "context": "等、等一下……\\n不行了……让我休息一下。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "虽然很想让你们休息，\\n但为了摆脱“结社”的追踪，\\n现在还不能停下脚步……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120019_01"
-            ],
-            "speaker_name": "被解救的人",
-            "context": "可是……我的腿\\n已经不听使唤了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "既然大家都这么说了，\\n就不能稍微休息一下吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "可是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "想休息就休息吧，\\n我倒是无所谓。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "你是认真的吗，阿德尔潘？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "有这么多人的话，“结社”\\n那帮家伙也不会看不到我们吧。\\n正好可以当诱饵。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "诱、诱饵！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "“结社”要是冲着你们去了，\\n对我来说可是件好事。\\n我才不管你们会死多少人呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "你、你在说什么！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "本来我就没有义务\\n解救你们这些\\n从“结社”设施里逃出来的人。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "怎么这样……\\n不是你们说要带我们\\n去安全的地方吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "我只说过去圣城的话应该就不会\\n被“结社”袭击。可我不记得\\n有说过让你们跟着我。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "呃……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "算了，随你们便吧。\\n反正你们在这里当诱饵\\n对我来说再好不过了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "被解救的人",
-            "context": "可、可恶！我走！\\n我继续走还不行吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "前面有一个似乎能藏身的地方，\\n我们再加把劲吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "那么——我们就在这里\\n稍微休息一会儿吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "被解救的人们",
-            "context": "哈啊、哈啊、哈啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "格蕾丝，\\n我去附近巡视一番。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "嗯，麻烦你了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "……\\n那、那个……阿德尔潘……\\n刚才是我错了，对不起。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "你指什么事？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "你是为了让大家继续前进，\\n才故意唱黑脸的吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "谢谢你。\\n本来应该由我来\\n保护大家才对……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "保护大家……\\n你是叫法尔吉德吧？\\n你不恨“结社”吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "你被“结社”关起来的时候，\\n一定吃了不少苦头吧。\\n你都没想过要找“结社”报仇吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "这个嘛……我倒是想要阻止\\n他们的恶行，但似乎和憎恨\\n或报仇不是一回事……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "当然，我在“结社”遭到了\\n残酷的对待。熟人也相继去世，\\n只剩下了我一个人。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "我想如果那些人还活着，\\n一定会成为某个人的\\n保护伞或是幸福源泉。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "我想替那些人保护需要保护的人。\\n光是这样就无暇估计其它了，\\n哪还有精力去想什么报仇啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "这样啊……\\n你和我截然不同呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "我非常恨他们。被夺走家人、\\n改造身体、失去了一切——\\n这让我被报仇蒙蔽了双眼。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "现在我自以为走上了一条\\n并非报仇的道路，可是沉睡\\n在我体内深处的依然是憎恨。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "正因为有了憎恨，我才有动力\\n和“结社”作斗争。等这种憎恨\\n燃尽之后，我就会是一具空壳吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "所以你不要变成我这样。\\n我有些期待试图踏上\\n与我不同道路的你……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "阿德尔潘……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "不过你还是太嫩了。如果要和\\n“结社”作斗争，偶尔也要收起\\n你的怜悯之心。不然你会没命的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "好、好的！\\n那个……今后也请多多赐教！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "不必了。\\n我不会教别人做事。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "别这么说嘛。那个……\\n你可是“龙锁”的前辈，\\n就多教教我嘛。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "唉，你还真是个乐观的家伙……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "唔！？是谁！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "救、救命……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "诶……这个声音……\\n难道是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "！？\\n杰克！是杰克啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "法尔吉德？\\n啊啊……我这是……在做梦吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "你怎么会在这里……\\n这些日子你都去哪里了？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "“结社”的设施被人攻击，\\n我就趁乱逃了出来……\\n没想到能在这里遇到你……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "总之太好了！我们现在正要\\n带着大家去安全的地方。\\n杰克你也和我们一起——",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "等等，这太奇怪了。\\n当时设施里应该没有幸存者。\\n你真的是逃到这里来的吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "阿德尔潘？你说什么呢……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "我的意思是不能轻易相信别人。\\n毕竟我们没办法证明\\n他不是“结社”派来的奸细。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "怎么会呢！他是我的朋友！\\n在设施里的时候我们也曾经\\n为了救出大家而一起奋斗过！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "杰克，你还能走吗？\\n我们去和其他人会合吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "嗯……\\n谢谢你，法尔吉德……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "站住！\\n法尔吉德，闪开！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "诶！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "呃，唔……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "阿德尔潘！\\n杰克！？为什么……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "你果然……\\n是“结社”派来的刺客！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "抱歉了，法尔吉德……\\n我要杀了你们，\\n爬到更高的位置上去！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "怎么会……这不是真的……\\n骗人的吧……杰克！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "受死吧，Tf-997！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "啧！“龙锁”——嗯！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_01"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "呃！怎么了……怎么回事？\\n“龙锁”的力量没有启动……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "这是屏蔽你们力量的毒！\\n这样一来你们就不能用龙之力了。\\n好了，到此为止了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "呃，放开我！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "你、你要做什么……大名鼎鼎的\\nTf-997竟然要从悬崖上跳下去\\n跟我同归于尽吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "是啊……要死一起死。\\n法尔吉德……\\n剩下的就交给你了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "不要啊……快住手！\\n阿德尔潘！你可不能死啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_01",
-                "120237_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "法尔吉德……\\n过去的我没能保护好\\n任何一样珍视的事物……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110262_01",
-                "120237_02"
-            ],
-            "speaker_name": "阿德尔潘",
-            "context": "所以……\\n你一定要保护好……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "阿德尔潘！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "唔、唔噢噢噢噢噢噢！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "阿德尔潘！\\n阿德尔潘啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "法尔吉德！出什么事了！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "格、格蕾丝……\\n都……都怪我……\\n阿德尔潘他……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "诶……阿德尔潘他竟然……\\n怎、怎么会这样……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "“结社”兵",
-            "context": "哼哼哼……没想到区区\\n一只小白鼠，竟然除掉了\\nTf-997。真是干得漂亮啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02",
-                "110059_02"
-            ],
-            "speaker_name": "二人",
-            "context": "！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "竟然这么快就被“结社”追上了！\\n法尔吉德，你去保护好\\n从设施里逃出来的那些人——",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "不，格蕾丝。我也要战斗。\\n阿德尔潘告诉我……\\n要保护好自己想保护的事物。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "所以我要战斗！\\n如果战斗能保护想保护的事物，\\n我就要出手！巴比，我们上！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120223_01"
-            ],
-            "speaker_name": "巴比",
-            "context": "嗯，好！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02",
-                "120223_01"
-            ],
-            "speaker_name": "二人",
-            "context": "“龙锁装填”！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_02_0088",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "At Aldred's advisement, the group has been\\nmaking its way to the Halidom. But in the midst\\nof the journey, Farren's friend Jake appears and\\nreveals himself as a Syndicate assassin—and\\nwhen he lays Aldred low, it steels Farren's\\nresolve to fight his new enemy all the more.",
+      "ja_jp": "アデルペインの<ruby><rb>助言</rb><rt>じょげん</rt></ruby>を<ruby><rb>頼</rb><rt>たよ</rt></ruby>りに<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>へと<ruby><rb>向</rb><rt>むか</rt></ruby>う\\n<ruby><rb>途中</rb><rt>とちゅう</rt></ruby>、ファルギルトの<ruby><rb>友</rb><rt>とも</rt></ruby>ジェイクが<ruby><rb>現</rb><rt>あらわ</rt></ruby>れる。\\nしかし、ジェイクは<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>の<ruby><rb>刺客</rb><rt>しかく</rt></ruby>であり\\nアデルペインが<ruby><rb>犠牲</rb><rt>ぎせい</rt></ruby>となる。ファルギルトは\\n<ruby><rb>彼</rb><rt>かれ</rt></ruby>のためにも<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>と<ruby><rb>戦</rb><rt>たたか</rt></ruby>う<ruby><rb>決意</rb><rt>けつい</rt></ruby>をする！",
+      "zh_cn": "法尔吉德听从阿德尔潘的建议\\n带着众人逃往圣城，途中遇到友人杰克。\\n然而，杰克实为“结社”派来的刺客。\\n阿德尔潘坠崖与其同归于尽，\\n这让法尔吉德决心和“结社”对抗！",
+      "zh_tw": "一行人聽從阿戴爾潘因的提案前往聖城。\\n途中法爾杰托的朋友捷伊克出現，\\n但他已成為「結社」的刺客，阿戴爾潘因\\n因而犧牲。法爾杰托下定決心要連同\\n他的份一起與「結社」戰鬥！"
+    }
+  },
+  "prev": "2221601",
+  "next": "2221603",
+  "content": [
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Freed Prisoners",
+        "ja_jp": "囚われていた人たち",
+        "zh_cn": "被解救的人们",
+        "zh_tw": "被解救的人們"
+      },
+      "context": {
+        "en_us": "*pant* *pant*",
+        "ja_jp": "はあ、はあ、はあ……。",
+        "zh_cn": "哈啊、哈啊、哈啊……",
+        "zh_tw": "呼、呼、呼……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0001",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Freed Prisoner",
+        "ja_jp": "囚われていた人",
+        "zh_cn": "被解救的人",
+        "zh_tw": "被解救的人"
+      },
+      "context": {
+        "en_us": "Wait, please... I can't run anymore...\\nLet me rest...",
+        "ja_jp": "ちょ、ちょっと<ruby><rb>待</rb><rt>ま</rt></ruby>ってくれ……\\nもう、<ruby><rb>限界</rb><rt>げんかい</rt></ruby>だ……<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>休</rb><rt>やす</rt></ruby>ませてくれ。",
+        "zh_cn": "等、等一下……\\n不行了……让我休息一下。",
+        "zh_tw": "等、等一下……\\n我已經，到極限了……\\n讓我稍微休息一下。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0002",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "I would very much like to do that for you,\\nbut we cannot stop. We have miles yet to\\ncover if we want to escape the vigilant eye\\nof the Syndicate.",
+        "ja_jp": "そうしてあげたいのはやまやまだけど、\\nまだ<ruby><rb>足</rb><rt>あし</rt></ruby>を<ruby><rb>止</rb><rt>と</rt></ruby>めるべきじゃないわ。\\n<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>の<ruby><rb>眼</rb><rt>め</rt></ruby>から<ruby><rb>逃</rb><rt>のが</rt></ruby>れるためにも……。",
+        "zh_cn": "虽然很想让你们休息，\\n但为了摆脱“结社”的追踪，\\n现在还不能停下脚步……",
+        "zh_tw": "雖然我也很想讓你們休息，\\n但是現在還不能停下腳步。\\n為了逃離「結社」的眼線……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0003",
+      "book": ""
+    },
+    {
+      "icon": "120019_01",
+      "name": {
+        "en_us": "Freed Prisoner",
+        "ja_jp": "囚われていた人",
+        "zh_cn": "被解救的人",
+        "zh_tw": "被解救的人"
+      },
+      "context": {
+        "en_us": "I don't care! My legs won't move!",
+        "ja_jp": "そんなこと<ruby><rb>言</rb><rt>い</rt></ruby>われても……もう<ruby><rb>足</rb><rt>あし</rt></ruby>が\\n<ruby><rb>動</rb><rt>うご</rt></ruby>かないんだよ……。",
+        "zh_cn": "可是……我的腿\\n已经不听使唤了……",
+        "zh_tw": "就算妳這麼說……\\n但我的腳已經走不動了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0004",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Can't we rest, Grace? Just for a bit?\\nThese people are all in really bad shape.",
+        "ja_jp": "みんなもこう<ruby><rb>言</rb><rt>い</rt></ruby>ってるし、<ruby><rb>少</rb><rt>すこ</rt></ruby>しだけでも\\n<ruby><rb>休</rb><rt>やす</rt></ruby>むわけにはいきませんか？",
+        "zh_cn": "既然大家都这么说了，\\n就不能稍微休息一下吗？",
+        "zh_tw": "大家都這麼說了，\\n真的不能稍微停下來休息一下嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0005",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "But...",
+        "ja_jp": "でも……。",
+        "zh_cn": "可是……",
+        "zh_tw": "可是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0006",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "Let 'em rest if they want to, Grace.\\nIt doesn't matter to me.",
+        "ja_jp": "<ruby><rb>休</rb><rt>やす</rt></ruby>みたいなら<ruby><rb>休</rb><rt>やす</rt></ruby>めばいい。\\n<ruby><rb>別</rb><rt>べつ</rt></ruby>にオレは<ruby><rb>構</rb><rt>かま</rt></ruby>わん。",
+        "zh_cn": "想休息就休息吧，\\n我倒是无所谓。",
+        "zh_tw": "想休息的話就休息吧，\\n我是無所謂。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0007",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "What?",
+        "ja_jp": "<ruby><rb>本気</rb><rt>ほんき</rt></ruby>なの、アデルペイン？",
+        "zh_cn": "你是认真的吗，阿德尔潘？",
+        "zh_tw": "你是認真的嗎，阿戴爾潘因？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0008",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "There's no way a group this size is going to\\nescape the Syndicate's eye—which means\\nit's the perfect decoy.",
+        "ja_jp": "これだけの<ruby><rb>人数</rb><rt>にんずう</rt></ruby>がいれば<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>の\\n<ruby><rb>連中</rb><rt>れんちゅう</rt></ruby>も<ruby><rb>見落</rb><rt>みお</rt></ruby>としはしないだろう。\\nちょうどいい<ruby><rb>囮</rb><rt>おとり</rt></ruby>になる。",
+        "zh_cn": "有这么多人的话，“结社”\\n那帮家伙也不会看不到我们吧。\\n正好可以当诱饵。",
+        "zh_tw": "這裡有這麼多人在，\\n「結社」的傢伙們不可能會看漏吧。\\n正好可以拿來當誘餌。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0009",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Wait, what?!",
+        "ja_jp": "お、<ruby><rb>囮</rb><rt>おとり</rt></ruby>……!?",
+        "zh_cn": "诱、诱饵！？",
+        "zh_tw": "誘、誘餌……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0010",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "If the Syndicate shows up for these folks,\\nthat just makes it easier for me to kill 'em.\\nAnd if a few of you happen to die, it's no\\nskin off my nose.",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>らを<ruby><rb>狙</rb><rt>ねら</rt></ruby>って<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>が<ruby><rb>来</rb><rt>き</rt></ruby>てくれれば\\nオレにとっては<ruby><rb>好都合</rb><rt>こうつごう</rt></ruby>だ。お<ruby><rb>前</rb><rt>まえ</rt></ruby>らが<ruby><rb>何人</rb><rt>なんにん</rt></ruby>\\n<ruby><rb>死</rb><rt>し</rt></ruby>のうが<ruby><rb>知</rb><rt>し</rt></ruby>ったことではないしな。",
+        "zh_cn": "“结社”要是冲着你们去了，\\n对我来说可是件好事。\\n我才不管你们会死多少人呢。",
+        "zh_tw": "你們如果成為「結社」的追擊目標，\\n對我來說是再好不過了。\\n畢竟你們之中死多少人我都不在乎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0011",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "That's an awful thing to say!",
+        "ja_jp": "な、なんてこと<ruby><rb>言</rb><rt>い</rt></ruby>うんです！",
+        "zh_cn": "你、你在说什么！",
+        "zh_tw": "你、你說這是什麼話！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0012",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "I had no obligation to rescue you people\\nfrom that facility. I owe you nothing.",
+        "ja_jp": "そもそも<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>の<ruby><rb>施設</rb><rt>しせつ</rt></ruby>から<ruby><rb>逃</rb><rt>に</rt></ruby>げ<ruby><rb>出</rb><rt>だ</rt></ruby>した\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>らを<ruby><rb>助</rb><rt>たす</rt></ruby>ける<ruby><rb>義理</rb><rt>ぎり</rt></ruby>はオレにはない。",
+        "zh_cn": "本来我就没有义务\\n解救你们这些\\n从“结社”设施里逃出来的人。",
+        "zh_tw": "我本來就沒有義務要幫助你們這些\\n從「結社」設施逃出來的人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0013",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "But you both said you'd guide us\\nsomewhere safe!",
+        "ja_jp": "そんな……<ruby><rb>安全</rb><rt>あんぜん</rt></ruby>な<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>に<ruby><rb>案内</rb><rt>あんない</rt></ruby>してくれる\\nって<ruby><rb>言</rb><rt>い</rt></ruby>ったのはあなたたちじゃない\\nですか。",
+        "zh_cn": "怎么这样……\\n不是你们说要带我们\\n去安全的地方吗？",
+        "zh_tw": "怎麼會……\\n你們不是說會帶我們到安全的場所嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0014",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "No, I just said you'd be safe if you made it\\nto the Halidom. I didn't say anything about\\nus playing babysitter the whole way there.",
+        "ja_jp": "<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>けば<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>に<ruby><rb>襲</rb><rt>おそ</rt></ruby>われることは\\nないだろうと<ruby><rb>言</rb><rt>い</rt></ruby>っただけで、ついて<ruby><rb>来</rb><rt>こ</rt></ruby>い\\nと<ruby><rb>言</rb><rt>い</rt></ruby>った<ruby><rb>覚</rb><rt>おぼ</rt></ruby>えはないぞ。",
+        "zh_cn": "我只说过去圣城的话应该就不会\\n被“结社”袭击。可我不记得\\n有说过让你们跟着我。",
+        "zh_tw": "我只說了如果到聖城應該就不會\\n遭到「結社」襲擊，\\n可不記得有要你們跟著我們。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0015",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Urgh...",
+        "ja_jp": "う……。",
+        "zh_cn": "呃……",
+        "zh_tw": "唔……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0016",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "Look, you can do whatever you want,\\nbut I vote for the ＂wait here and serve\\nas bait option.＂",
+        "ja_jp": "まあ、<ruby><rb>好</rb><rt>す</rt></ruby>きにするんだな。\\nオレとしてはここで<ruby><rb>囮</rb><rt>おとり</rt></ruby>になってくれた\\nほうが<ruby><rb>好都合</rb><rt>こうつごう</rt></ruby>だがな。",
+        "zh_cn": "算了，随你们便吧。\\n反正你们在这里当诱饵\\n对我来说再好不过了。",
+        "zh_tw": "總之，隨你們高興吧。\\n對我來說，你們在這裡當誘餌的話\\n事情會比較好辦就是。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0017",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Freed Prisoner",
+        "ja_jp": "囚われていた人",
+        "zh_cn": "被解救的人",
+        "zh_tw": "被解救的人"
+      },
+      "context": {
+        "en_us": "Damn it, fine! I'll keep walking!",
+        "ja_jp": "く、くそっ！　<ruby><rb>歩</rb><rt>ある</rt></ruby>くよ！\\n<ruby><rb>歩</rb><rt>ある</rt></ruby>けばいいんだろう！",
+        "zh_cn": "可、可恶！我走！\\n我继续走还不行吗！",
+        "zh_tw": "可、可惡！我會走啦！\\n我走就是了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0018",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "There are a few locations ahead where we\\nshould be able to secret ourselves away.\\nTry to hold on until then.",
+        "ja_jp": "この<ruby><rb>先</rb><rt>さき</rt></ruby>に<ruby><rb>身</rb><rt>み</rt></ruby>を<ruby><rb>隠</rb><rt>かく</rt></ruby>せそうな<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>があるから\\nそこまではがんばりましょう。",
+        "zh_cn": "前面有一个似乎能藏身的地方，\\n我们再加把劲吧。",
+        "zh_tw": "在前方有能藏身的場所，\\n到那之前就再努力一下吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0019",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "Good. We can rest here.",
+        "ja_jp": "――じゃあ、ここで<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>休憩</rb><rt>きゅうけい</rt></ruby>に\\nしましょうか。",
+        "zh_cn": "那么——我们就在这里\\n稍微休息一会儿吧。",
+        "zh_tw": "──那麼，\\n就在這裡稍微休息吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0020",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Freed Prisoners",
+        "ja_jp": "囚われていた人たち",
+        "zh_cn": "被解救的人们",
+        "zh_tw": "被解救的人們"
+      },
+      "context": {
+        "en_us": "*huff* *wheeze* *pant*",
+        "ja_jp": "はあ、はあ、はあ……。",
+        "zh_cn": "哈啊、哈啊、哈啊……",
+        "zh_tw": "呼、呼、呼……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0021",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "I'm gonna make the rounds.",
+        "ja_jp": "グレース。オレは<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>周囲</rb><rt>しゅうい</rt></ruby>を\\n<ruby><rb>見回</rb><rt>みまわ</rt></ruby>ってくる。",
+        "zh_cn": "格蕾丝，\\n我去附近巡视一番。",
+        "zh_tw": "葛雷絲，\\n我去查看一下周圍的狀況。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0022",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "Thank you, Aldred.",
+        "ja_jp": "ええ、お<ruby><rb>願</rb><rt>ねが</rt></ruby>いするわ。",
+        "zh_cn": "嗯，麻烦你了。",
+        "zh_tw": "嗯，麻煩你了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0023",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Um, excuse me? Aldred? I just want to say\\nthat I'm sorry about earlier.",
+        "ja_jp": "…………。\\nあ、あの……アデルペインさん。\\nさっきはすみませんでした。",
+        "zh_cn": "……\\n那、那个……阿德尔潘……\\n刚才是我错了，对不起。",
+        "zh_tw": "…………\\n那、那個……阿戴爾潘因先生，\\n剛才真是對不起。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0024",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "The hell you talking about?",
+        "ja_jp": "……<ruby><rb>何</rb><rt>なん</rt></ruby>の<ruby><rb>話</rb><rt>はなし</rt></ruby>だ。",
+        "zh_cn": "你指什么事？",
+        "zh_tw": "……你指的是什麼？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0025",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "You aren't as cruel as you seem. You just\\nacted that way so we'd start walking again.",
+        "ja_jp": "わざと<ruby><rb>憎</rb><rt>にく</rt></ruby>まれ<ruby><rb>役</rb><rt>やく</rt></ruby>を<ruby><rb>買</rb><rt>か</rt></ruby>って<ruby><rb>出</rb><rt>で</rt></ruby>て\\nくれたんですよね？　みんなが\\n<ruby><rb>歩</rb><rt>ある</rt></ruby>き<ruby><rb>出</rb><rt>だ</rt></ruby>せるように。",
+        "zh_cn": "你是为了让大家继续前进，\\n才故意唱黑脸的吧？",
+        "zh_tw": "你其實是故意扮黑臉的對吧？\\n為了讓大家能繼續前進。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0026",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "It was my duty to protect everyone, and I'm\\nnot doing a very good job of it. So I just\\nwanted to say thank you.",
+        "ja_jp": "ありがとうございます。\\n<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>は、おれがみんなを<ruby><rb>守</rb><rt>まも</rt></ruby>らなきゃ\\nいけないのに……。",
+        "zh_cn": "谢谢你。\\n本来应该由我来\\n保护大家才对……",
+        "zh_tw": "謝謝你。\\n明明應該是要由我來守護大家的……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0027",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "It's Farren, right? Tell me something,\\nFarren: Do you hate the Syndicate?",
+        "ja_jp": "みんなを<ruby><rb>守</rb><rt>まも</rt></ruby>る……か。\\n……<ruby><rb>確</rb><rt>たし</rt></ruby>か、ファルギルトと<ruby><rb>言</rb><rt>い</rt></ruby>ったな。\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>は<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>が<ruby><rb>憎</rb><rt>にく</rt></ruby>くないのか？",
+        "zh_cn": "保护大家……\\n你是叫法尔吉德吧？\\n你不恨“结社”吗？",
+        "zh_tw": "守護大家……是嗎。\\n……確實，法爾杰托你曾這麼說過呢。\\n你不會憎恨「結社」嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0028",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "If you were a captive of the Syndicate,\\nthen you can't have had a pleasant time.\\nYou must want revenge, right?",
+        "ja_jp": "《<ruby><rb>結社</rb><rt>けっしゃ</rt></ruby>》に<ruby><rb>囚</rb><rt>とら</rt></ruby>われていれば、ろくでも\\nない<ruby><rb>状態</rb><rt>じょうたい</rt></ruby>だっただろう。その<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>に\\n<ruby><rb>復讐</rb><rt>ふくしゅう</rt></ruby>してやろうと<ruby><rb>思</rb><rt>おも</rt></ruby>わないのか？",
+        "zh_cn": "你被“结社”关起来的时候，\\n一定吃了不少苦头吧。\\n你都没想过要找“结社”报仇吗？",
+        "zh_tw": "被「結社」囚禁，想必受到了\\n很糟糕的對待吧。難道都不會想要\\n向那個「結社」復仇嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0029",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Hmm... Well, I DO want to stop the awful\\nthings they're doing, but I think that's\\ndifferent from, like, hating them or trying\\nto get revenge.",
+        "ja_jp": "うーん……<ruby><rb>確</rb><rt>たし</rt></ruby>かにやってることを\\n<ruby><rb>止</rb><rt>と</rt></ruby>めたいとは<ruby><rb>思</rb><rt>おも</rt></ruby>いますけど、<ruby><rb>憎</rb><rt>にく</rt></ruby>いとか\\n<ruby><rb>復讐</rb><rt>ふくしゅう</rt></ruby>とかとはちょっと<ruby><rb>違</rb><rt>ちが</rt></ruby>うような……。",
+        "zh_cn": "这个嘛……我倒是想要阻止\\n他们的恶行，但似乎和憎恨\\n或报仇不是一回事……",
+        "zh_tw": "唔～嗯……\\n雖然我確實是想阻止他們的作為，\\n但那和憎恨或復仇又不太一樣……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0030",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "I did have a horrible time at the Syndicate.\\nThe people I met would die one by one,\\nwith me always ending up the one to\\nsurvive somehow.",
+        "ja_jp": "そりゃあ<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>ではひどい<ruby><rb>目</rb><rt>め</rt></ruby>に<ruby><rb>遭</rb><rt>あ</rt></ruby>い\\nました。<ruby><rb>知</rb><rt>し</rt></ruby>り<ruby><rb>合</rb><rt>あ</rt></ruby>った<ruby><rb>人</rb><rt>ひと</rt></ruby>たちはどんどん\\n<ruby><rb>死</rb><rt>し</rt></ruby>んでいって、おればかりが<ruby><rb>生</rb><rt>い</rt></ruby>き<ruby><rb>残</rb><rt>のこ</rt></ruby>る。",
+        "zh_cn": "当然，我在“结社”遭到了\\n残酷的对待。熟人也相继去世，\\n只剩下了我一个人。",
+        "zh_tw": "在「結社」那邊時真的非常慘。\\n認識的人一個一個死去，\\n只剩我殘存下來。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0031",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "And I know they all had people in their\\nlives who loved them.",
+        "ja_jp": "あの<ruby><rb>人</rb><rt>ひと</rt></ruby>たちが<ruby><rb>生</rb><rt>い</rt></ruby>きていれば、<ruby><rb>誰</rb><rt>だれ</rt></ruby>かを\\n<ruby><rb>守</rb><rt>まも</rt></ruby>っただろうし、<ruby><rb>誰</rb><rt>だれ</rt></ruby>かを<ruby><rb>幸</rb><rt>しあわ</rt></ruby>せにした\\nはずです。",
+        "zh_cn": "我想如果那些人还活着，\\n一定会成为某个人的\\n保护伞或是幸福源泉。",
+        "zh_tw": "如果那些人還活著，\\n一定會守護著他人，\\n並且讓他人得到幸福才對。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0032",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "So I guess I'm fighting to help the people\\nwho are left and to honor the memory of\\nthose who are gone. Not revenge.",
+        "ja_jp": "おれは、あの<ruby><rb>人</rb><rt>ひと</rt></ruby>たちの<ruby><rb>分</rb><rt>ぶん</rt></ruby>まで、<ruby><rb>誰</rb><rt>だれ</rt></ruby>かを\\n<ruby><rb>守</rb><rt>まも</rt></ruby>りたい。それだけで<ruby><rb>精一杯</rb><rt>せいいっぱい</rt></ruby>です。\\n<ruby><rb>復讐</rb><rt>ふくしゅう</rt></ruby>まで<ruby><rb>考</rb><rt>かんが</rt></ruby>えてられませんよ。",
+        "zh_cn": "我想替那些人保护需要保护的人。\\n光是这样就无暇估计其它了，\\n哪还有精力去想什么报仇啊。",
+        "zh_tw": "所以我想要代替他們，去守護人。\\n光這樣就是我的極限了，\\n根本沒閒暇去思考復仇的事。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0033",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "Huh. That ain't like me at all.",
+        "ja_jp": "そうか……オレとは<ruby><rb>大違</rb><rt>おおちが</rt></ruby>いだな。",
+        "zh_cn": "这样啊……\\n你和我截然不同呢。",
+        "zh_tw": "是嗎……和我完全不同呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0034",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "I hate the Syndicate. Hate 'em. They stole\\nmy family, remade my body, and took\\neverything from me. The only thing I\\nwanted was revenge.",
+        "ja_jp": "オレは<ruby><rb>憎</rb><rt>にく</rt></ruby>かった。<ruby><rb>家族</rb><rt>かぞく</rt></ruby>を<ruby><rb>奪</rb><rt>うば</rt></ruby>われ、<ruby><rb>体</rb><rt>からだ</rt></ruby>を\\n<ruby><rb>造</rb><rt>つく</rt></ruby>り<ruby><rb>替</rb><rt>か</rt></ruby>えられ、すべてをなくした。\\n<ruby><rb>復讐</rb><rt>ふくしゅう</rt></ruby><ruby><rb>以外</rb><rt>いがい</rt></ruby>、<ruby><rb>何</rb><rt>なに</rt></ruby>も<ruby><rb>見</rb><rt>み</rt></ruby>えなくなった。",
+        "zh_cn": "我非常恨他们。被夺走家人、\\n改造身体、失去了一切——\\n这让我被报仇蒙蔽了双眼。",
+        "zh_tw": "我非常地憎恨他們。親人被奪走，\\n身體又被改造，讓我失去了一切。\\n除了復仇以外，我看不見任何事物。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0035",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "Now I walk a different path. Not one\\nof revenge, although that hatred still\\nburns within me.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>は<ruby><rb>復讐</rb><rt>ふくしゅう</rt></ruby>ではない<ruby><rb>道</rb><rt>みち</rt></ruby>を<ruby><rb>歩</rb><rt>ある</rt></ruby>いているつもり\\nだが、やはりオレの<ruby><rb>奥底</rb><rt>おくそこ</rt></ruby>に<ruby><rb>眠</rb><rt>ねむ</rt></ruby>るのは、\\n<ruby><rb>憎</rb><rt>にく</rt></ruby>しみだ。",
+        "zh_cn": "现在我自以为走上了一条\\n并非报仇的道路，可是沉睡\\n在我体内深处的依然是憎恨。",
+        "zh_tw": "雖然現在我已經決定走上\\n復仇以外的道路，但果然\\n沉睡在我內心深處的，還是憎恨。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0036",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "I'm able to fight the Syndicate BECAUSE of\\nmy hate. Once that burns out...there\\nprobably won't be much of me left.",
+        "ja_jp": "<ruby><rb>憎悪</rb><rt>ぞうお</rt></ruby>があってこそ、オレは《<ruby><rb>結社</rb><rt>けっしゃ</rt></ruby>》と\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>える。<ruby><rb>憎</rb><rt>にく</rt></ruby>しみを<ruby><rb>燃</rb><rt>も</rt></ruby>やし<ruby><rb>尽</rb><rt>つ</rt></ruby>くした<ruby><rb>後</rb><rt>あと</rt></ruby>、\\nオレには<ruby><rb>何</rb><rt>なに</rt></ruby>も<ruby><rb>残</rb><rt>のこ</rt></ruby>らないだろう。",
+        "zh_cn": "正因为有了憎恨，我才有动力\\n和“结社”作斗争。等这种憎恨\\n燃尽之后，我就会是一具空壳吧。",
+        "zh_tw": "正因為憎恨，我才能與「結社」戰鬥。\\n在恨意燃燒殆盡後，\\n我應該什麼都不剩吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0037",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "So don't end up like me, kid. You want to\\nwalk a different path? Good. Stay on it.",
+        "ja_jp": "だからお<ruby><rb>前</rb><rt>まえ</rt></ruby>は、オレのようにはなるな。\\nオレとは<ruby><rb>違</rb><rt>ちが</rt></ruby>う<ruby><rb>道</rb><rt>みち</rt></ruby>を<ruby><rb>歩</rb><rt>あゆ</rt></ruby>もうとするお<ruby><rb>前</rb><rt>まえ</rt></ruby>に\\n……<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>期待</rb><rt>きたい</rt></ruby>している。",
+        "zh_cn": "所以你不要变成我这样。\\n我有些期待试图踏上\\n与我不同道路的你……",
+        "zh_tw": "所以你可不要變成像我這樣。\\n看你走在不同的道路上……\\n讓我有點期待。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0038",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "I will, Aldred!",
+        "ja_jp": "アデルペインさん……。",
+        "zh_cn": "阿德尔潘……",
+        "zh_tw": "阿戴爾潘因先生……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0039",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "But you can't be too soft. If you're\\ngonna fight the Syndicate, you gotta set\\ncompassion aside from time to time\\nunless you want to end up in the dirt.",
+        "ja_jp": "だが、お<ruby><rb>前</rb><rt>まえ</rt></ruby>は<ruby><rb>甘</rb><rt>あま</rt></ruby>すぎる。<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>と\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>うのなら、<ruby><rb>時</rb><rt>とき</rt></ruby>には<ruby><rb>情</rb><rt>なさ</rt></ruby>けを<ruby><rb>捨</rb><rt>す</rt></ruby>てることも\\n<ruby><rb>考</rb><rt>かんが</rt></ruby>えろ。でなければ、<ruby><rb>死</rb><rt>し</rt></ruby>ぬぞ。",
+        "zh_cn": "不过你还是太嫩了。如果要和\\n“结社”作斗争，偶尔也要收起\\n你的怜悯之心。不然你会没命的。",
+        "zh_tw": "但你還太天真。要與「結社」戰鬥，\\n有時必須要捨棄感情。\\n如果辦不到，是會死的喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0040",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Right! In that case, just keep teaching\\nme whatever I need to know!",
+        "ja_jp": "……！　は、はい！\\nえっと……これからも、いろいろと\\n<ruby><rb>教</rb><rt>おし</rt></ruby>えてください！",
+        "zh_cn": "好、好的！\\n那个……今后也请多多赐教！",
+        "zh_tw": "……！好、好的！\\n那個……\\n往後也請你、教我各種事情！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0041",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "Pass. I ain't the teaching type.",
+        "ja_jp": "よせ。オレは<ruby><rb>誰</rb><rt>だれ</rt></ruby>かに<ruby><rb>物</rb><rt>もの</rt></ruby>を<ruby><rb>教</rb><rt>おし</rt></ruby>えるような\\n<ruby><rb>人間</rb><rt>にんげん</rt></ruby>じゃない。",
+        "zh_cn": "不必了。\\n我不会教别人做事。",
+        "zh_tw": "別這樣。\\n我不是能教誰事情的那種人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0042",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Come on, why not? You're my wyrmbinding\\nbig brother—you gotta teach me!",
+        "ja_jp": "いいじゃないですか。えっと……\\n<ruby><rb>『竜鎖』</rb><rt>ギアス</rt></ruby>？　の<ruby><rb>先輩</rb><rt>せんぱい</rt></ruby>なんですから、\\nいろいろと<ruby><rb>教</rb><rt>おし</rt></ruby>えてくださいよ。",
+        "zh_cn": "别这么说嘛。那个……\\n你可是“龙锁”的前辈，\\n就多教教我嘛。",
+        "zh_tw": "有什麼關係呢。那個……\\n是叫「龍鎖」？你是那方面的前輩，\\n所以有很多事情都要請你教我。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0043",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "I'm not even sure how to deal with this\\nkind of chipper attitude...",
+        "ja_jp": "ふっ、やれやれ。<ruby><rb>呑気</rb><rt>のんき</rt></ruby>な<ruby><rb>奴</rb><rt>やつ</rt></ruby>だな……。",
+        "zh_cn": "唉，你还真是个乐观的家伙……",
+        "zh_tw": "哼，真是服了。\\n你這傢伙可真悠哉啊……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0044",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "Huh? Who's there?!",
+        "ja_jp": "――!?　<ruby><rb>誰</rb><rt>だれ</rt></ruby>だ！",
+        "zh_cn": "唔！？是谁！",
+        "zh_tw": "──！？是誰！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0045",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Help...",
+        "ja_jp": "た、<ruby><rb>助</rb><rt>たす</rt></ruby>けて……。",
+        "zh_cn": "救、救命……",
+        "zh_tw": "救、救救我……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0046",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "I know that voice!",
+        "ja_jp": "え……？　この<ruby><rb>声</rb><rt>こえ</rt></ruby>……\\nまさか……",
+        "zh_cn": "诶……这个声音……\\n难道是……",
+        "zh_tw": "咦……？這聲音……\\n該不會……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0047",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "It's Jake!",
+        "ja_jp": "――!?\\nジェイク！　ジェイクじゃないか！",
+        "zh_cn": "！？\\n杰克！是杰克啊！",
+        "zh_tw": "──！？\\n捷伊克！是捷伊克對吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0048",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "Is that you, little duck?",
+        "ja_jp": "ファルギルト……？\\nああ……これは……<ruby><rb>夢</rb><rt>ゆめ</rt></ruby>か……？",
+        "zh_cn": "法尔吉德？\\n啊啊……我这是……在做梦吗？",
+        "zh_tw": "法爾杰托……？\\n啊啊……這是……在做夢嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0049",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "How the heck are you even here, Jake?\\nI thought the Syndicate killed you!",
+        "ja_jp": "どうしてジェイクがここに……？\\n<ruby><rb>今</rb><rt>いま</rt></ruby>までどうしていたんだ？",
+        "zh_cn": "你怎么会在这里……\\n这些日子你都去哪里了？",
+        "zh_tw": "為什麼捷伊克會在這裡……？\\n你之前都去哪了？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0050",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "Somebody attacked the Syndicate facility\\nand I managed to get away in the chaos.\\nCan't believe I ran into you again all the\\nway out here.",
+        "ja_jp": "<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>の<ruby><rb>施設</rb><rt>しせつ</rt></ruby>が<ruby><rb>誰</rb><rt>だれ</rt></ruby>かに<ruby><rb>攻撃</rb><rt>こうげき</rt></ruby>されて、\\nその<ruby><rb>混乱</rb><rt>こんらん</rt></ruby>に<ruby><rb>乗</rb><rt>じょう</rt></ruby>じて<ruby><rb>逃</rb><rt>に</rt></ruby>げ<ruby><rb>出</rb><rt>だ</rt></ruby>したんだ……\\nこんなところで<ruby><rb>会</rb><rt>あ</rt></ruby>えるなんて……。",
+        "zh_cn": "“结社”的设施被人攻击，\\n我就趁乱逃了出来……\\n没想到能在这里遇到你……",
+        "zh_tw": "「結社」的設施不知道被誰襲擊，\\n我就乘亂逃了出來……\\n想不到會在這種地方遇到你……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0051",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Well, this is great! We're all trying to get\\nsomewhere safe, so you gotta come!",
+        "ja_jp": "とにかくよかった！　<ruby><rb>今</rb><rt>いま</rt></ruby>、<ruby><rb>他</rb><rt>ほか</rt></ruby>のみんなと\\n<ruby><rb>安全</rb><rt>あんぜん</rt></ruby>な<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>へ<ruby><rb>行</rb><rt>い</rt></ruby>こうとしているところ\\nなんだ。ジェイクも<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に――。",
+        "zh_cn": "总之太好了！我们现在正要\\n带着大家去安全的地方。\\n杰克你也和我们一起——",
+        "zh_tw": "總之真是太好了！現在，\\n我正要和其他的人們一起前往\\n安全的場所。捷伊克也一起──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0052",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "Hang on. We took all the surviving\\nprisoners with us—I made sure of that.\\nSo how did you manage to slip both us\\nand the Syndicate?",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>て。どうもおかしい。あの<ruby><rb>時</rb><rt>とき</rt></ruby>、\\n<ruby><rb>施設</rb><rt>しせつ</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>に<ruby><rb>生存者</rb><rt>せいぞんしゃ</rt></ruby>はいなかったはずだ。\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>、<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>逃</rb><rt>に</rt></ruby>げてきたのか？",
+        "zh_cn": "等等，这太奇怪了。\\n当时设施里应该没有幸存者。\\n你真的是逃到这里来的吗？",
+        "zh_tw": "等等，這太奇怪了。\\n當時設施裡應該已經沒有生還者了。\\n你真的是逃出來的嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0053",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "What are you talking about, Aldred?",
+        "ja_jp": "アデルペインさん？　<ruby><rb>何</rb><rt>なに</rt></ruby>を……。",
+        "zh_cn": "阿德尔潘？你说什么呢……",
+        "zh_tw": "阿戴爾潘因先生？你在說什麼……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0054",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "Remember what I said about not being\\nsoft? Well, you can start right here.\\nI think this guy's a spy.",
+        "ja_jp": "たやすく<ruby><rb>信</rb><rt>しん</rt></ruby>じるわけにはいかないという\\nことだ。そいつが<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>のスパイで\\nない<ruby><rb>証拠</rb><rt>しょうこ</rt></ruby>はないからな。",
+        "zh_cn": "我的意思是不能轻易相信别人。\\n毕竟我们没办法证明\\n他不是“结社”派来的奸细。",
+        "zh_tw": "就是說不能太輕易相信他。\\n因為沒有證據可以證明\\n那傢伙不是「結社」派來的間諜。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0055",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "No! He's my friend! We were in that\\nfacility together and he tried to help me\\nbust everyone out!",
+        "ja_jp": "そんな！　こいつはおれの<ruby><rb>友達</rb><rt>ともだち</rt></ruby>です！\\n<ruby><rb>施設</rb><rt>しせつ</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>でだって、<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>にみんなを\\n<ruby><rb>助</rb><rt>たす</rt></ruby>けるためにがんばっていたんです！",
+        "zh_cn": "怎么会呢！他是我的朋友！\\n在设施里的时候我们也曾经\\n为了救出大家而一起奋斗过！",
+        "zh_tw": "怎麼那樣說！他是我的朋友！\\n在設施裡的時候，\\n他也為了幫助大家而努力拼命！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0056",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Come on, Jake. Let's go see the others.",
+        "ja_jp": "ジェイク、<ruby><rb>動</rb><rt>うご</rt></ruby>けるか？\\nみんなのところに<ruby><rb>行</rb><rt>い</rt></ruby>こう！",
+        "zh_cn": "杰克，你还能走吗？\\n我们去和其他人会合吧！",
+        "zh_tw": "捷伊克，你還能動嗎？\\n我們到大家那裡去吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0057",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "Thanks, little duck.",
+        "ja_jp": "ああ……。\\nありがとう、ファルギルト……。",
+        "zh_cn": "嗯……\\n谢谢你，法尔吉德……",
+        "zh_tw": "嗯……\\n謝謝你，法爾杰托……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0058",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "FARREN, GET DOWN!",
+        "ja_jp": "――!?　<ruby><rb>待</rb><rt>ま</rt></ruby>て！\\nファルギルト、どけっ！",
+        "zh_cn": "站住！\\n法尔吉德，闪开！",
+        "zh_tw": "──！？等等！\\n法爾杰托，讓開！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0059",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Huh?!",
+        "ja_jp": "えっ!?",
+        "zh_cn": "诶！？",
+        "zh_tw": "咦！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0060",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "Nnngh!",
+        "ja_jp": "ぐ、う……！",
+        "zh_cn": "呃，唔……",
+        "zh_tw": "咕、唔……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0061",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "No, Jake! What are you doing?!",
+        "ja_jp": "アデルペインさん！\\nジェイク、どうして……!?",
+        "zh_cn": "阿德尔潘！\\n杰克！？为什么……",
+        "zh_tw": "阿戴爾潘因先生！\\n捷伊克，為什麼……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0062",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "I knew it! This guy's a Syndicate assassin!",
+        "ja_jp": "やはり……<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>の<ruby><rb>刺客</rb><rt>しかく</rt></ruby>だった\\nということか……！",
+        "zh_cn": "你果然……\\n是“结社”派来的刺客！",
+        "zh_tw": "果然……\\n是「結社」派來的刺客嗎……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0063",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "Sorry about the double-cross, little duck,\\nbut I've got ranks to climb and killing that\\nneeds done to do it.",
+        "ja_jp": "<ruby><rb>悪</rb><rt>わる</rt></ruby>いな、ファルギルト……お<ruby><rb>前</rb><rt>まえ</rt></ruby>たちを\\n<ruby><rb>殺</rb><rt>ころ</rt></ruby>して、オレは<ruby><rb>上</rb><rt>うえ</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>く……！",
+        "zh_cn": "抱歉了，法尔吉德……\\n我要杀了你们，\\n爬到更高的位置上去！",
+        "zh_tw": "抱歉了，法爾杰托……\\n我要殺了你們，才能往上爬……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0064",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Jake, no! This can't be happening!",
+        "ja_jp": "そんな……<ruby><rb>嘘</rb><rt>うそ</rt></ruby>だ……\\n<ruby><rb>嘘</rb><rt>うそ</rt></ruby>だろう……ジェイク!?",
+        "zh_cn": "怎么会……这不是真的……\\n骗人的吧……杰克！？",
+        "zh_tw": "怎麼會……騙人的吧……\\n這不是真的對吧……捷伊克！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0065",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "Time to die, Tf-997!",
+        "ja_jp": "<ruby><rb>死</rb><rt>し</rt></ruby>んでもらうぞ、Tf-997……！",
+        "zh_cn": "受死吧，Tf-997！",
+        "zh_tw": "去死吧，Tf-997……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0066",
+      "book": ""
+    },
+    {
+      "icon": "110262_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "Not if I have anything to say about it.",
+        "ja_jp": "ちいっ！　<ruby><rb>『竜鎖』</rb><rt>ギアス</rt></ruby>――!?",
+        "zh_cn": "啧！“龙锁”——嗯！？",
+        "zh_tw": "嘖！「龍鎖」──！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0067",
+      "book": ""
+    },
+    {
+      "icon": "110262_01",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "Huh? The hell? My wyrmbinding power\\nwon't activate!",
+        "ja_jp": "ぐっ！　<ruby><rb>何</rb><rt>なん</rt></ruby>だ……<ruby><rb>何</rb><rt>なに</rt></ruby>が<ruby><rb>起</rb><rt>お</rt></ruby>きた……？\\n<ruby><rb>『竜鎖』</rb><rt>ギアス</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>が<ruby><rb>発動</rb><rt>はつどう</rt></ruby>しない……。",
+        "zh_cn": "呃！怎么了……怎么回事？\\n“龙锁”的力量没有启动……",
+        "zh_tw": "唔！什麼……怎麼回事……？\\n「龍鎖」的力量沒有發動……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0068",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "That's because I've poisoned you with\\na compound that stops your powers.\\nTerribly sorry, but it's time to die!",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>たちの<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>止</rb><rt>と</rt></ruby>めるための<ruby><rb>毒</rb><rt>どく</rt></ruby>だ！\\nこれで、もうドラゴンの<ruby><rb>力</rb><rt>ちから</rt></ruby>は<ruby><rb>使</rb><rt>つか</rt></ruby>えまい。\\n――さあ、<ruby><rb>終</rb><rt>お</rt></ruby>わりだ！",
+        "zh_cn": "这是屏蔽你们力量的毒！\\n这样一来你们就不能用龙之力了。\\n好了，到此为止了！",
+        "zh_tw": "這是為了抑制你們力量專用的毒！\\n有了這個，就無法使用龍族的力量。\\n──好，該結束了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0069",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "Hrk... Let go of me!",
+        "ja_jp": "くっ、<ruby><rb>離</rb><rt>はな</rt></ruby>せ！",
+        "zh_cn": "呃，放开我！",
+        "zh_tw": "唔，放開我！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0070",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "Pulling me down this cliff won't save you!\\nWe'll just die together!",
+        "ja_jp": "な、<ruby><rb>何</rb><rt>なに</rt></ruby>をする<ruby><rb>気</rb><rt>き</rt></ruby>だ……Tf-997とも\\nあろうものが、<ruby><rb>崖</rb><rt>がけ</rt></ruby>から<ruby><rb>落</rb><rt>お</rt></ruby>ちてオレと\\n<ruby><rb>心中</rb><rt>しんじゅう</rt></ruby>しようとでもいうのか？",
+        "zh_cn": "你、你要做什么……大名鼎鼎的\\nTf-997竟然要从悬崖上跳下去\\n跟我同归于尽吗？",
+        "zh_tw": "你、你要做什麼……\\n那個Tf-997居然打算拉著我一起\\n跳崖自盡嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0071",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "Yeah, I think I'm good with that...\\nTake care of those people, Farren!",
+        "ja_jp": "ああ……もろとも<ruby><rb>死</rb><rt>し</rt></ruby>んでやる。\\nファルギルト……<ruby><rb>後</rb><rt>あと</rt></ruby>は<ruby><rb>任</rb><rt>まか</rt></ruby>せるぞ。",
+        "zh_cn": "是啊……要死一起死。\\n法尔吉德……\\n剩下的就交给你了。",
+        "zh_tw": "是啊……我就陪你一起死吧。\\n法爾杰托……再來就靠你囉。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0072",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Aldred, no! We need you!",
+        "ja_jp": "そんな……やめてください！\\nアデルペインさん！　あなたが<ruby><rb>死</rb><rt>し</rt></ruby>んで\\nどうするんですか！",
+        "zh_cn": "不要啊……快住手！\\n阿德尔潘！你可不能死啊！",
+        "zh_tw": "別這樣……快住手！\\n阿戴爾潘因先生！\\n要是你死了該怎麼辦啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0073",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "You know, the person I once was couldn't\\nprotect a single damn thing...",
+        "ja_jp": "ファルギルト……\\nかつてのオレは、<ruby><rb>守</rb><rt>まも</rt></ruby>れなかった。\\n<ruby><rb>大事</rb><rt>だいじ</rt></ruby>なものを<ruby><rb>何</rb><rt>なに</rt></ruby>ひとつ……。",
+        "zh_cn": "法尔吉德……\\n过去的我没能保护好\\n任何一样珍视的事物……",
+        "zh_tw": "法爾杰托……\\n過去的我什麼都無法守護。\\n任何一項重要的事物都無法……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0074",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Aldred",
+        "ja_jp": "アデルペイン",
+        "zh_cn": "阿德尔潘",
+        "zh_tw": "阿戴爾潘因"
+      },
+      "context": {
+        "en_us": "So go be the guardian I could never be.",
+        "ja_jp": "だから……\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>は、<ruby><rb>守</rb><rt>まも</rt></ruby>ってやれ……！",
+        "zh_cn": "所以……\\n你一定要保护好……",
+        "zh_tw": "所以……\\n你要，守護好他們……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0075",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Aldred, wait!",
+        "ja_jp": "アデルペインさん！",
+        "zh_cn": "阿德尔潘！",
+        "zh_tw": "阿戴爾潘因先生！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0076",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "Gyaaaaaaaa!",
+        "ja_jp": "う、うおおおおおおおおっ!?",
+        "zh_cn": "唔、唔噢噢噢噢噢噢！？",
+        "zh_tw": "唔、唔喔喔喔喔喔喔喔喔！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0077",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "ALDREEEED!",
+        "ja_jp": "アデルペインさん！\\nアデルペインさああああん！",
+        "zh_cn": "阿德尔潘！\\n阿德尔潘啊啊啊啊啊啊！",
+        "zh_tw": "阿戴爾潘因先生！\\n阿戴爾潘因先生────！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0078",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "Farren, what happened?!",
+        "ja_jp": "ファルギルト！　<ruby><rb>何</rb><rt>なに</rt></ruby>があったの!?",
+        "zh_cn": "法尔吉德！出什么事了！？",
+        "zh_tw": "法爾杰托！發生什麼事了！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0079",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "It's Aldred! He... It's all my fault!",
+        "ja_jp": "ぐ、グレースさん……\\nおれの……おれのせいで……\\nアデルペインさんが……。",
+        "zh_cn": "格、格蕾丝……\\n都……都怪我……\\n阿德尔潘他……",
+        "zh_tw": "葛、葛雷絲小姐……\\n都……都是我的錯……\\n阿戴爾潘因先生他……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0080",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "He fell?! No...",
+        "ja_jp": "えっ……アデルペインが……!?\\nそ、そんな……。",
+        "zh_cn": "诶……阿德尔潘他竟然……\\n怎、怎么会这样……",
+        "zh_tw": "咦……阿戴爾潘因……！？\\n怎、怎麼會……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0081",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Syndicate Soldier",
+        "ja_jp": "《結社》兵",
+        "zh_cn": "“结社”兵",
+        "zh_tw": "「結社」兵"
+      },
+      "context": {
+        "en_us": "Heh heh. For a lab rat, that one performed\\nsurprisingly well in eliminating Tf-997.",
+        "ja_jp": "くくく……Tf-997を<ruby><rb>排除</rb><rt>はいじょ</rt></ruby>するとは\\n<ruby><rb>実験動物</rb><rt>じっけんどうぶつ</rt></ruby>のわりには、\\nいい<ruby><rb>仕事</rb><rt>しごと</rt></ruby>をしてくれたな。",
+        "zh_cn": "哼哼哼……没想到区区\\n一只小白鼠，竟然除掉了\\nTf-997。真是干得漂亮啊。",
+        "zh_tw": "呵呵……居然能把Tf-997排除掉，\\n作為實驗動物，\\n還真是做得相當好。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0082",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Together",
+        "ja_jp": "ふたり",
+        "zh_cn": "二人",
+        "zh_tw": "兩人"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "――！",
+        "zh_cn": "！",
+        "zh_tw": "──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0083",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "They found us... Farren, I need you to go to\\nthe others and get them out of here.",
+        "ja_jp": "もう《<ruby><rb>結社</rb><rt>けっしゃ</rt></ruby>》に<ruby><rb>追</rb><rt>お</rt></ruby>いつかれていた\\nなんて……！　ファルギルト、あなたは\\n<ruby><rb>施設</rb><rt>しせつ</rt></ruby>から<ruby><rb>逃</rb><rt>に</rt></ruby>げ<ruby><rb>出</rb><rt>だ</rt></ruby>した<ruby><rb>人</rb><rt>ひと</rt></ruby>たちを――。",
+        "zh_cn": "竟然这么快就被“结社”追上了！\\n法尔吉德，你去保护好\\n从设施里逃出来的那些人——",
+        "zh_tw": "居然已經被「結社」追上了……！\\n法爾杰托，你快帶著\\n從設施逃出來的人們──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0084",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "No! Aldred told me I needed to protect\\nthem, so I'm going to fight!",
+        "ja_jp": "いえ、グレースさん。おれが<ruby><rb>戦</rb><rt>たたか</rt></ruby>います。\\nアデルペインさんが<ruby><rb>言</rb><rt>い</rt></ruby>ったんです……\\n<ruby><rb>守</rb><rt>まも</rt></ruby>れって。",
+        "zh_cn": "不，格蕾丝。我也要战斗。\\n阿德尔潘告诉我……\\n要保护好自己想保护的事物。",
+        "zh_tw": "不，葛雷絲小姐，我要戰鬥。\\n阿戴爾潘因先生對我說了……\\n要我守護好他們。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0085",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "C'mon, Lil' Barb! Let's do this!",
+        "ja_jp": "だから、おれが<ruby><rb>戦</rb><rt>たたか</rt></ruby>います！\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>わなきゃ<ruby><rb>守</rb><rt>まも</rt></ruby>れないものがあるのなら、\\nおれが！　バルビー、<ruby><rb>行</rb><rt>い</rt></ruby>くぞ！",
+        "zh_cn": "所以我要战斗！\\n如果战斗能保护想保护的事物，\\n我就要出手！巴比，我们上！",
+        "zh_tw": "所以，我要戰鬥！\\n如果不戰鬥就無法守護的話，\\n我就在此一戰！巴爾比，要上囉！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0086",
+      "book": ""
+    },
+    {
+      "icon": "120223_01",
+      "name": {
+        "en_us": "Lil' Barb",
+        "ja_jp": "バルビー",
+        "zh_cn": "巴比",
+        "zh_tw": "巴爾比"
+      },
+      "context": {
+        "en_us": "About damn time.",
+        "ja_jp": "お、おう！",
+        "zh_cn": "嗯，好！",
+        "zh_tw": "喔、喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0087",
+      "book": ""
+    },
+    {
+      "icon": "120223_01",
+      "name": {
+        "en_us": "Together",
+        "ja_jp": "ふたり",
+        "zh_cn": "二人",
+        "zh_tw": "兩人"
+      },
+      "context": {
+        "en_us": "Wyrmbinding, activate!",
+        "ja_jp": "<ruby><rb>『竜鎖装填』</rb><rt>ギアスロード</rt></ruby>――！",
+        "zh_cn": "“龙锁装填”！",
+        "zh_tw": "「龍鎖裝填」──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_02_0088",
+      "book": ""
+    }
+  ]
 }

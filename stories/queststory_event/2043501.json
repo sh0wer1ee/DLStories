@@ -1,429 +1,816 @@
 {
-    "story_id": "",
-    "story_name": "荒岛求生 欢迎来到荒岛",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "王子一行人应邀参加最先进船舶的首航，\\n在海上享受着悠闲的时光。\\n然而，船却被突如其来的巨浪所吞噬。\\n王子醒来后发现自己漂到了一座荒岛。\\n为了收集情报，他开始探索周围。"
-        ]
+  "title": {
+    "en_us": "Stranded Scions    Stranded",
+    "ja_jp": "サバイブ・アイランド  無人島へようこそ",
+    "zh_cn": "荒岛求生  欢迎来到荒岛",
+    "zh_tw": "野外求生‧島嶼驚魂  歡迎來到無人島"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "各位请看，\\n这里就是连接南北地峡的\\n海洋都市“斯普诺普尔”！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好有活力的都市啊。\\n来往的行人看起来都很开心。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "毕竟今天是这座城市赌上威严\\n打造的最先进船舶“泰坦号”\\n首航的日子，当然热闹了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我记得谢斯姐姐\\n也协助造船了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "哦呵呵！说是协助，\\n也只是提供一点技术上\\n和资金上的支持而已。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "？？？",
-            "context": "嚯～所以你们也受邀\\n参加这次的仪式了啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这声音是……莱昂尼多哥哥！\\n为什么会在这里……\\n这身打扮怎么回事！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "有什么好惊讶的。\\n你们不也和我一样\\n穿着泳装吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "话、话是这么说没错……\\n只是没想到莱昂尼多哥哥\\n会穿成这样……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "这次受到邀请的巨额投资者\\n都会参加在船上泳池\\n举办的特别派对。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "当然，邀请函上也写了\\n要穿不怕湿的衣服来参加。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "俗话说入乡随俗……\\n要是王室长子连着装要求\\n都无法遵守，岂不是有失身份。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "先不说这些了！\\n你们对穿着泳装的我，\\n就没有什么要说的吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "诶……说什么？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "没救了……男士如果\\n看到淑女身着泳装，\\n把她夸上天才是应有的礼节。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "是、是吗……\\n下次我会注意的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "哼，没必要恭维妹妹。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "唉……无药可救。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "？？？",
-            "context": "啊？怎么吵吵闹闹的？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "什么，是尤蒂尔！？\\n还有莱昂尼多哥哥和谢斯姐姐，\\n你们为什么会在这里！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "艾缪尔还是平时那身呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "应该是只受邀来参加首航，\\n但没被邀请参加派对吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "就是说来宾也分等级。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "等、等一下！\\n这话是什么意思！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "莱昂尼多哥哥和谢斯姐姐先不提，\\n难道连尤蒂尔\\n也比我等级高吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "不，\\n是谢斯姐姐带我来的……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "区区狗皮膏药都能参加派对，\\n凭什么本大爷身为皇帝\\n却不能参加！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "言辞缺乏教养。\\n大概是因为你太粗鲁了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "呃……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "真拿你没办法……\\n要是你无论如何都想参加，\\n我可以帮你和主办方说说哦？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "诶，可以吗！？不、不对！\\n区区一个派对，\\n谁稀罕啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "不过，要是姐姐你们\\n非要我一起参加的话，\\n倒也不是不可以！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "真是个别扭的弟弟……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好啦好啦。\\n难得我们兄弟姐妹四人相聚，\\n就暂时放下恩怨好好相处嘛。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "莱昂尼多",
-            "context": "哼，无趣。我先走了。\\n你们要打要闹\\n也等上船了再说吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "之后，我们登上了\\n停靠在码头的泰坦号，\\n向着大海行进。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "在船上泳池举办的特别派对\\n顺利落下了帷幕，\\n我也久违地度过了悠闲的时光。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这次休假真是放松了身心……\\n正当我这么想的时候，突然变了天，\\n巨浪随即向船体袭来。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100013_06"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "船体严重失衡令乘客陷入混乱。\\n汹涌的波浪冲击着船身……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这是哪里？\\n我记得，船沉了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "喂～有人吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "（没反应……周围不仅没有人造物，\\n就连有人生活的痕迹也没有……\\n这里难道是……）",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "船被巨浪吞噬沉没……\\n而我则从船上跌落，\\n漂流到了一座无人岛上。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "干等着也不是个办法……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "先查看一下周围的地形\\n收集情报吧。说不定还有\\n其他人也漂流到了这里。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "希望莱昂尼多哥哥\\n和谢斯姐姐也没事……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_01_0046",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "The prince and his siblings embark upon the\\nmaiden voyage of a state-of-the-art new ship.\\nBut when a storm strikes and sinks the vessel,\\nthe prince finds himself stranded on a deserted\\nisland, putting his survival skills to the test.",
+      "ja_jp": "<ruby><rb>新鋭</rb><rt>しんえい</rt></ruby><ruby><rb>船</rb><rt>せん</rt></ruby>の<ruby><rb>処女</rb><rt>しょじょ</rt></ruby><ruby><rb>航海</rb><rt>こうかい</rt></ruby>に<ruby><rb>招待</rb><rt>しょうたい</rt></ruby>された<ruby><rb>王子</rb><rt>おうじ</rt></ruby>たちは\\n<ruby><rb>海上</rb><rt>かいじょう</rt></ruby>で<ruby><rb>平穏</rb><rt>へいおん</rt></ruby>な<ruby><rb>時間</rb><rt>じかん</rt></ruby>を<ruby><rb>満喫</rb><rt>まんきつ</rt></ruby>していた。\\nだが、<ruby><rb>突如</rb><rt>とつじょ</rt></ruby><ruby><rb>発生</rb><rt>はっせい</rt></ruby>した<ruby><rb>荒波</rb><rt>あらなみ</rt></ruby>により<ruby><rb>船</rb><rt>ふね</rt></ruby>は<ruby><rb>沈没</rb><rt>ちんぼつ</rt></ruby>。\\n<ruby><rb>王子</rb><rt>おうじ</rt></ruby>が<ruby><rb>目</rb><rt>め</rt></ruby>を<ruby><rb>覚</rb><rt>さ</rt></ruby>ますとそこは<ruby><rb>無人島</rb><rt>むじんとう</rt></ruby>だった。\\n<ruby><rb>王子</rb><rt>おうじ</rt></ruby>は<ruby><rb>情報収集</rb><rt>じょうほうしゅうしゅう</rt></ruby>のため<ruby><rb>周辺</rb><rt>しゅうへん</rt></ruby>の<ruby><rb>探索</rb><rt>たんさく</rt></ruby>に<ruby><rb>出</rb><rt>で</rt></ruby>る。",
+      "zh_cn": "王子一行人应邀参加最先进船舶的首航，\\n在海上享受着悠闲的时光。\\n然而，船却被突如其来的巨浪所吞噬。\\n王子醒来后发现自己漂到了一座荒岛。\\n为了收集情报，他开始探索周围。",
+      "zh_tw": "王子等人受邀搭上首度出航的新船，\\n並在海上享受了一段安穩的時光。\\n但船卻因突發的巨浪沉沒，\\n而王子清醒時已身在無人島上。\\n為了搜集情報，王子便開始搜索周圍區域。"
+    }
+  },
+  "prev": "",
+  "next": "2043502",
+  "content": [
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Behold the splendor of the grand city\\nof Spunopolis, located on the isthmus\\nconnecting North and South Grastaea!",
+        "ja_jp": "ご<ruby><rb>覧</rb><rt>らん</rt></ruby>あそばせ。\\nここが<ruby><rb>南北</rb><rt>なんぼく</rt></ruby>を<ruby><rb>結</rb><rt>むす</rt></ruby>ぶ<ruby><rb>地峡</rb><rt>ちきょう</rt></ruby>に<ruby><rb>位置</rb><rt>いち</rt></ruby>する\\n<ruby><rb>海洋都市</rb><rt>かいようとし</rt></ruby>『スプノプール』ですわ！",
+        "zh_cn": "各位请看，\\n这里就是连接南北地峡的\\n海洋都市“斯普诺普尔”！",
+        "zh_tw": "請看。\\n這就是位於連接南北地峽上的\\n海洋都市「斯普諾普爾」！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0001",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Just look at all the people coming and\\ngoing. The energy here is so vibrant.",
+        "ja_jp": "すごい<ruby><rb>活気</rb><rt>かっき</rt></ruby>だね。<ruby><rb>行</rb><rt>い</rt></ruby>き<ruby><rb>交</rb><rt>か</rt></ruby>う<ruby><rb>人</rb><rt>ひと</rt></ruby>たちも、\\nみんな<ruby><rb>楽</rb><rt>たの</rt></ruby>しそうだ。",
+        "zh_cn": "好有活力的都市啊。\\n来往的行人看起来都很开心。",
+        "zh_tw": "真是充滿活力啊。\\n來往的人們感覺大家都很愉快。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0002",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Indeed. May I now present to you the pride\\nof this city: the newly constructed Titan!\\nToday it departs on its maiden voyage.",
+        "ja_jp": "<ruby><rb>今日</rb><rt>きょう</rt></ruby>はこの<ruby><rb>都市</rb><rt>とし</rt></ruby>が<ruby><rb>威信</rb><rt>いしん</rt></ruby>をかけて<ruby><rb>建造</rb><rt>けんぞう</rt></ruby>\\nした<ruby><rb>新鋭</rb><rt>しんえい</rt></ruby><ruby><rb>船</rb><rt>せん</rt></ruby>『タイタン<ruby><rb>号</rb><rt>ごう</rt></ruby>』の<ruby><rb>処女</rb><rt>しょじょ</rt></ruby><ruby><rb>航海</rb><rt>こうかい</rt></ruby>\\nですもの、<ruby><rb>当然</rb><rt>とうぜん</rt></ruby>ですわ。",
+        "zh_cn": "毕竟今天是这座城市赌上威严\\n打造的最先进船舶“泰坦号”\\n首航的日子，当然热闹了。",
+        "zh_tw": "今天是賭上這都市威信所建造的\\n新船「泰坦號」處女航的日子，\\n當然會充滿活力了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0003",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You worked with the locals on the ship's\\nconstruction, right, Chelle?",
+        "ja_jp": "たしか、シェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さんも<ruby><rb>船</rb><rt>ふね</rt></ruby>の<ruby><rb>建造</rb><rt>けんぞう</rt></ruby>に\\n<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>しているんだったよね。",
+        "zh_cn": "我记得谢斯姐姐\\n也协助造船了吧？",
+        "zh_tw": "我記得謝斯姊姊也有協助\\n造船的工程對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0004",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Eee hee hee! I wouldn't go so far as to say\\nI cooperated—I merely offered a bit of\\nengineering know-how and capital to\\nsupport the project.",
+        "ja_jp": "おーっほっほっ！　<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>と<ruby><rb>言</rb><rt>い</rt></ruby>っても、\\nほんの<ruby><rb>少</rb><rt>すこ</rt></ruby>しばかり<ruby><rb>技術</rb><rt>ぎじゅつ</rt></ruby>と<ruby><rb>資金</rb><rt>しきん</rt></ruby>を<ruby><rb>提供</rb><rt>ていきょう</rt></ruby>して\\nさしあげただけでしてよ。",
+        "zh_cn": "哦呵呵！说是协助，\\n也只是提供一点技术上\\n和资金上的支持而已。",
+        "zh_tw": "喔～呵呵！說是協助，\\n也不過是提供了少許的\\n技術與資金援助而已唷。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0005",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "I see you all have been invited\\nto today's ceremony as well.",
+        "ja_jp": "ほう、それでお<ruby><rb>前</rb><rt>まえ</rt></ruby>たちも<ruby><rb>今回</rb><rt>こんかい</rt></ruby>の\\nセレモニーに<ruby><rb>招待</rb><rt>しょうたい</rt></ruby>されたというわけか。",
+        "zh_cn": "嚯～所以你们也受邀\\n参加这次的仪式了啊。",
+        "zh_tw": "喔，所以那就是你們\\n受邀參加典禮的原因嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0006",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Leondias! What are you doing here?\\nAnd...what in the world are you wearing?",
+        "ja_jp": "その<ruby><rb>声</rb><rt>こえ</rt></ruby>は、レオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さん！\\nどうしてここに……ってその<ruby><rb>格好</rb><rt>かっこう</rt></ruby>は!?",
+        "zh_cn": "这声音是……莱昂尼多哥哥！\\n为什么会在这里……\\n这身打扮怎么回事！？",
+        "zh_tw": "這聲音，是雷歐尼特哥哥！\\n為什麼你會在這……\\n還有那身服裝是！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0007",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Pick up your jaw. It's just a swimsuit.\\nAre you not all attired similarly?",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>を<ruby><rb>驚</rb><rt>おどろ</rt></ruby>いている。<ruby><rb>俺</rb><rt>おれ</rt></ruby>と<ruby><rb>同様</rb><rt>どうよう</rt></ruby>、\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>たちも<ruby><rb>水着姿</rb><rt>みずぎすがた</rt></ruby>ではないか。",
+        "zh_cn": "有什么好惊讶的。\\n你们不也和我一样\\n穿着泳装吗？",
+        "zh_tw": "有什麼好驚訝的。\\n我只是和你們一樣\\n穿著泳裝而已吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0008",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I mean, yes, but I didn't really think\\nyou...you know, did stuff like that.",
+        "ja_jp": "そ、それはそうだけど……\\nまさか、レオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さんが\\nそんな<ruby><rb>恰好</rb><rt>かっこう</rt></ruby>をするなんて……。",
+        "zh_cn": "话、话是这么说没错……\\n只是没想到莱昂尼多哥哥\\n会穿成这样……",
+        "zh_tw": "話、話是這樣沒錯……\\n但我真沒想到雷歐尼特哥哥\\n會有這種服裝……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0009",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "All of the project's biggest investors have\\nbeen invited to a special party at the ship's\\non-board pool.",
+        "ja_jp": "<ruby><rb>今回招待</rb><rt>こんかいしょうたい</rt></ruby>されている<ruby><rb>大口</rb><rt>おおくち</rt></ruby>の<ruby><rb>出資者</rb><rt>しゅっししゃ</rt></ruby>は<ruby><rb>皆</rb><rt>みな</rt></ruby>、\\n<ruby><rb>船上</rb><rt>せんじょう</rt></ruby>プールで<ruby><rb>開催</rb><rt>かいさい</rt></ruby>する<ruby><rb>特別</rb><rt>とくべつ</rt></ruby>パーティーに\\n<ruby><rb>出席</rb><rt>しゅっせき</rt></ruby>することになってますの。",
+        "zh_cn": "这次受到邀请的巨额投资者\\n都会参加在船上泳池\\n举办的特别派对。",
+        "zh_tw": "這次受邀參加的重金出資者，\\n都決定出席在船上泳池舉辦的\\n特別宴會了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0010",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "And in ＂suitable＂ fashion—heh—the\\ninvitation requested that attendees wear\\nclothes they would not mind getting wet.",
+        "ja_jp": "<ruby><rb>当然</rb><rt>とうぜん</rt></ruby>、<ruby><rb>招待状</rb><rt>しょうたいじょう</rt></ruby>にも<ruby><rb>濡</rb><rt>ぬ</rt></ruby>れていい<ruby><rb>服装</rb><rt>ふくそう</rt></ruby>で\\n<ruby><rb>参加</rb><rt>さんか</rt></ruby>するようにと<ruby><rb>書</rb><rt>か</rt></ruby>かれていましたわ。",
+        "zh_cn": "当然，邀请函上也写了\\n要穿不怕湿的衣服来参加。",
+        "zh_tw": "當然，邀請函中也寫了\\n請穿著適合戲水的服裝出席。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0011",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "As they say: when at the pool, do as the\\nswimmers do. It would be a disgrace for\\nthe eldest son of the royal family to fail\\nto adhere to a simple dress code.",
+        "ja_jp": "<ruby><rb>郷</rb><rt>ごう</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>れば<ruby><rb>郷</rb><rt>ごう</rt></ruby>に<ruby><rb>従</rb><rt>したが</rt></ruby>え……\\n<ruby><rb>王家</rb><rt>おうけ</rt></ruby>の<ruby><rb>長男</rb><rt>ちょうなん</rt></ruby>がドレスコードも<ruby><rb>守</rb><rt>まも</rt></ruby>れん\\nようでは<ruby><rb>立</rb><rt>た</rt></ruby>つ<ruby><rb>瀬</rb><rt>せ</rt></ruby>がないからな。",
+        "zh_cn": "俗话说入乡随俗……\\n要是王室长子连着装要求\\n都无法遵守，岂不是有失身份。",
+        "zh_tw": "入境隨俗……\\n王家長子若是連服裝守則都無法遵守，\\n可就有失體面了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0012",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Ahem. I've been wearing my own swimsuit\\nthis entire time, and neither of you have so\\nmuch as commented on it.",
+        "ja_jp": "そんなことより！　おふたりとも\\n<ruby><rb>水着姿</rb><rt>みずぎすがた</rt></ruby>のわたくしに<ruby><rb>対</rb><rt>たい</rt></ruby>して、<ruby><rb>何</rb><rt>なに</rt></ruby>か\\n<ruby><rb>言</rb><rt>い</rt></ruby>うことはございませんの？",
+        "zh_cn": "先不说这些了！\\n你们对穿着泳装的我，\\n就没有什么要说的吗？",
+        "zh_tw": "比起那些！你們兩個\\n對穿著泳裝的我，\\n都沒什麼話要說的嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0013",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Um... Should we have?",
+        "ja_jp": "え、<ruby><rb>何</rb><rt>なに</rt></ruby>かって……？",
+        "zh_cn": "诶……说什么？",
+        "zh_tw": "咦，什麼話……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0014",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Honestly... When a lady of some caliber\\ngraces your presence clad in resplendent\\nsummerwear, you should be bending over\\nbackwards to offer her refulgent praise!",
+        "ja_jp": "まったく……<ruby><rb>殿方</rb><rt>とのがた</rt></ruby>が<ruby><rb>淑女</rb><rt>レディ</rt></ruby>の<ruby><rb>水着姿</rb><rt>みずぎすがた</rt></ruby>を<ruby><rb>前</rb><rt>まえ</rt></ruby>に\\nしたら、これでもかというくらい\\n<ruby><rb>褒</rb><rt>ほ</rt></ruby>めちぎるのが<ruby><rb>礼儀</rb><rt>れいぎ</rt></ruby>でしてよ。",
+        "zh_cn": "没救了……男士如果\\n看到淑女身着泳装，\\n把她夸上天才是应有的礼节。",
+        "zh_tw": "真是的……男士在穿著泳裝的\\n淑女面前，就必須立刻說出\\n極為誇讚的話才符合禮儀吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0015",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I...I see. I'll remember that for next time.",
+        "ja_jp": "そ、そうなんだ……\\n<ruby><rb>次</rb><rt>つぎ</rt></ruby>からは<ruby><rb>気</rb><rt>き</rt></ruby>をつけるよ。",
+        "zh_cn": "是、是吗……\\n下次我会注意的。",
+        "zh_tw": "是、是那樣啊……\\n下次我會注意的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0016",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "Hmph. I need not waste my flattery on my\\nsister.",
+        "ja_jp": "フン、<ruby><rb>妹</rb><rt>いもうと</rt></ruby>に<ruby><rb>世辞</rb><rt>せじ</rt></ruby>を<ruby><rb>言</rb><rt>い</rt></ruby>う<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>などない。",
+        "zh_cn": "哼，没必要恭维妹妹。",
+        "zh_tw": "哼，對妹妹才沒什麼好恭維的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0017",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "*sigh* You are incorrigible.",
+        "ja_jp": "はあ……やれやれですわ。",
+        "zh_cn": "唉……无药可救。",
+        "zh_tw": "唉……真是敗給你們了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0018",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Now what's all this racket over here?",
+        "ja_jp": "あぁん？　なんだ、<ruby><rb>騒</rb><rt>さわ</rt></ruby>がしいな。",
+        "zh_cn": "啊？怎么吵吵闹闹的？",
+        "zh_tw": "啊？搞什麼，怎麼這麼吵。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0019",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "What the—Euden?! And\\nLeonidas and Chelle?! What in the blazing\\nsummer sun are YOU people doing here?",
+        "ja_jp": "なっ、ユーディル!?\\nレオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さんやシェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さんまで、\\nどうしてここに!?",
+        "zh_cn": "什么，是尤蒂尔！？\\n还有莱昂尼多哥哥和谢斯姐姐，\\n你们为什么会在这里！？",
+        "zh_tw": "什麼，尤帝爾！？\\n連雷歐尼特哥哥和謝斯姊姊也在，\\n為什麼你們會在這！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0020",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I see you're in usual form, Emile.",
+        "ja_jp": "エミュールはいつも<ruby><rb>通</rb><rt>どお</rt></ruby>りなんだね。",
+        "zh_cn": "艾缪尔还是平时那身呢。",
+        "zh_tw": "埃米爾倒是和平常穿得一樣呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0021",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "I daresay he was only invited to the\\nsend-off and NOT to the party.",
+        "ja_jp": "おそらく、<ruby><rb>処女</rb><rt>しょじょ</rt></ruby><ruby><rb>航海</rb><rt>こうかい</rt></ruby>に<ruby><rb>招待</rb><rt>しょうたい</rt></ruby>されただけで\\nパーティーには<ruby><rb>呼</rb><rt>よ</rt></ruby>ばれてないのですわ。",
+        "zh_cn": "应该是只受邀来参加首航，\\n但没被邀请参加派对吧。",
+        "zh_tw": "恐怕是只被找來參加處女航，\\n但是宴會卻沒有受到邀請吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0022",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "There is such a thing as hierarchy even\\namong distinguished guests, to be sure.",
+        "ja_jp": "<ruby><rb>賓客</rb><rt>ひんきゃく</rt></ruby>にもランクがあるということだ。",
+        "zh_cn": "就是说来宾也分等级。",
+        "zh_tw": "換言之賓客也是有分等級的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0023",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Now see here! What's THAT supposed to\\nmean?!",
+        "ja_jp": "ちょ、ちょっと<ruby><rb>待</rb><rt>ま</rt></ruby>ってくれ！\\nそれはどういうことだ!?",
+        "zh_cn": "等、等一下！\\n这话是什么意思！？",
+        "zh_tw": "給、給我等一下！\\n這是怎麼回事！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0024",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "You and Chelle are one thing, but you\\ncould not POSSIBLY be insinuating\\nthat Euden is above me!",
+        "ja_jp": "レオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さんやシェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さんは\\nともかく、ユーディルまで\\nオレよりランクが<ruby><rb>上</rb><rt>うえ</rt></ruby>だって<ruby><rb>言</rb><rt>い</rt></ruby>うのか!?",
+        "zh_cn": "莱昂尼多哥哥和谢斯姐姐先不提，\\n难道连尤蒂尔\\n也比我等级高吗！？",
+        "zh_tw": "先不論雷歐尼特哥哥和謝斯姊姊，\\n所以是連尤帝爾\\n等級都比我高的意思！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0025",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Um, I'm just here because Chelle brought\\nme along.",
+        "ja_jp": "いや、おれはただシェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さんに\\n<ruby><rb>連</rb><rt>つ</rt></ruby>れて<ruby><rb>来</rb><rt>こ</rt></ruby>られただけだから……。",
+        "zh_cn": "不，\\n是谢斯姐姐带我来的……",
+        "zh_tw": "不，我只是被謝斯姊姊\\n帶來到這而已……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0026",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Given that mere HANGERS-ON are clearly\\npermitted to attend, why should I, the\\nEMPEROR, be barred from the party?",
+        "ja_jp": "<ruby><rb>金魚</rb><rt>きんぎょ</rt></ruby>のフンはパーティーに<ruby><rb>参加</rb><rt>さんか</rt></ruby>できる\\nっていうのに、なぜ<ruby><rb>皇帝</rb><rt>こうてい</rt></ruby>であるオレ<ruby><rb>様</rb><rt>さま</rt></ruby>が\\nパーティーに<ruby><rb>参加</rb><rt>さんか</rt></ruby>できないんだ!?",
+        "zh_cn": "区区狗皮膏药都能参加派对，\\n凭什么本大爷身为皇帝\\n却不能参加！？",
+        "zh_tw": "連你這金魚屎都可以參加宴會了，\\n為什麼貴為皇帝的本大爺\\n卻不能參加！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0027",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "I suspect you might find the answer to\\nthat in your boorish bravado.",
+        "ja_jp": "<ruby><rb>言</rb><rt>い</rt></ruby>い<ruby><rb>方</rb><rt>かた</rt></ruby>がお<ruby><rb>下品</rb><rt>げひん</rt></ruby>ですわね。\\nその<ruby><rb>品</rb><rt>ひん</rt></ruby>のなさが<ruby><rb>原因</rb><rt>げんいん</rt></ruby>ではありませんの？",
+        "zh_cn": "言辞缺乏教养。\\n大概是因为你太粗鲁了吧？",
+        "zh_tw": "講話方式真是低俗呢。\\n那毫無品格的表現不正是原因嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0028",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Grrrr...",
+        "ja_jp": "ぐうぅ……。",
+        "zh_cn": "呃……",
+        "zh_tw": "唔……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0029",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "But if you absolutely insist upon it, Emile,\\nI could speak to the organizers for you.",
+        "ja_jp": "……<ruby><rb>仕方</rb><rt>しかた</rt></ruby>ありませんわね。もしあなたが\\nどうしてもとおっしゃるなら、<ruby><rb>主催者</rb><rt>しゅさいしゃ</rt></ruby>に\\n<ruby><rb>話</rb><rt>はなし</rt></ruby>を<ruby><rb>通</rb><rt>とお</rt></ruby>してあげてもよろしくてよ？",
+        "zh_cn": "真拿你没办法……\\n要是你无论如何都想参加，\\n我可以帮你和主办方说说哦？",
+        "zh_tw": "……真是沒辦法。\\n如果你無論如何都想參加的話，\\n要我和主辦人講一聲也不是不行喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0030",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "What?! Seriously?! Bwuh—I mean, at this\\npoint, I cannot say I have all that much\\nINTEREST in attending your little soiree...",
+        "ja_jp": "えっ、マジで!?　……って、いや！\\n<ruby><rb>別</rb><rt>べつ</rt></ruby>にオレは、<ruby><rb>今</rb><rt>いま</rt></ruby>さらパーティーなんか\\n<ruby><rb>参加</rb><rt>さんか</rt></ruby>したいなんて<ruby><rb>思</rb><rt>おも</rt></ruby>ってないし……？",
+        "zh_cn": "诶，可以吗！？不、不对！\\n区区一个派对，\\n谁稀罕啊……",
+        "zh_tw": "咦，真的嗎！？……呃，不對！\\n都到這時候了，我才沒有特別想要\\n去參加什麼宴會……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0031",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "But seeing as my siblings would so clearly\\nbe heartbroken without my presence, I can\\ndeign to give the idea some thought.",
+        "ja_jp": "だけど、<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さんたちが<ruby><rb>是非</rb><rt>ぜひ</rt></ruby>オレと<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に\\nパーティーに<ruby><rb>参加</rb><rt>さんか</rt></ruby>したいって<ruby><rb>言</rb><rt>い</rt></ruby>うなら、\\n<ruby><rb>特別</rb><rt>とくべつ</rt></ruby>に<ruby><rb>考</rb><rt>かんが</rt></ruby>えてやらなくもないかな！",
+        "zh_cn": "不过，要是姐姐你们\\n非要我一起参加的话，\\n倒也不是不可以！",
+        "zh_tw": "但是，如果姊姊你們無論如何\\n都想和我一起參加的話，\\n我也可以為了你們特別考慮一下啦！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0032",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "He is ever the charmer.",
+        "ja_jp": "<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>面倒臭</rb><rt>めんどうくさ</rt></ruby>い<ruby><rb>弟</rb><rt>おとうと</rt></ruby>ですわね……。",
+        "zh_cn": "真是个别扭的弟弟……",
+        "zh_tw": "真的是有夠麻煩的弟弟呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0033",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Don't let him drag you down. The four of us\\ndon't get together like this often, so let's\\ntry to get along without quarreling.",
+        "ja_jp": "まあまあ。せっかくこうして<ruby><rb>兄弟</rb><rt>きょうだい</rt></ruby>が\\n4<ruby><rb>人</rb><rt>にん</rt></ruby>も<ruby><rb>集</rb><rt>あつ</rt></ruby>まったんだし、<ruby><rb>今</rb><rt>いま</rt></ruby>くらいは\\nいがみ<ruby><rb>合</rb><rt>あ</rt></ruby>わずに<ruby><rb>仲良</rb><rt>なかよ</rt></ruby>くやろうよ。",
+        "zh_cn": "好啦好啦。\\n难得我们兄弟姐妹四人相聚，\\n就暂时放下恩怨好好相处嘛。",
+        "zh_tw": "沒事、沒事。難得和兄姊一起\\n有四個人聚集在這，\\n現在就先別互相敵視，好好相處吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0034",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Leonidas",
+        "ja_jp": "レオニード",
+        "zh_cn": "莱昂尼多",
+        "zh_tw": "雷歐尼特"
+      },
+      "context": {
+        "en_us": "I tire of this drivel. I'm leaving. If you lot\\ninsist on frolicking about, do it once our\\nvoyage is in progress.",
+        "ja_jp": "フン、くだらん。<ruby><rb>俺</rb><rt>おれ</rt></ruby>はもう<ruby><rb>行</rb><rt>い</rt></ruby>くぞ。\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>たちも、じゃれあうなら<ruby><rb>乗船</rb><rt>じょうせん</rt></ruby>\\nしてからにしろ。",
+        "zh_cn": "哼，无趣。我先走了。\\n你们要打要闹\\n也等上船了再说吧。",
+        "zh_tw": "哼，無聊透頂。我先走了。\\n你們如果要廝混在一起，\\n就等搭上船之後再說吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0035",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "With that, we clambered aboard the docked\\nTitan and waited until it set sail at last.",
+        "ja_jp": "その<ruby><rb>後</rb><rt>ご</rt></ruby>、おれたちは<ruby><rb>港</rb><rt>みなと</rt></ruby>に<ruby><rb>泊</rb><rt>と</rt></ruby>まっていた\\nタイタン<ruby><rb>号</rb><rt>ごう</rt></ruby>に<ruby><rb>乗船</rb><rt>じょうせん</rt></ruby>し、<ruby><rb>海</rb><rt>うみ</rt></ruby>へと<ruby><rb>出港</rb><rt>しゅっこう</rt></ruby>した。",
+        "zh_cn": "之后，我们登上了\\n停靠在码头的泰坦号，\\n向着大海行进。",
+        "zh_tw": "在那之後，\\n我們搭上停靠在港邊的泰坦號，\\n並向大海出發了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0036",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "The party at the ship's pool was a pleasant affair.\\nFor the first time in a long time, a few peaceful\\nhours passed me by without incident.",
+        "ja_jp": "<ruby><rb>船上</rb><rt>せんじょう</rt></ruby>プールで<ruby><rb>開</rb><rt>ひら</rt></ruby>かれた<ruby><rb>特別</rb><rt>とくべつ</rt></ruby>パーティーも\\n<ruby><rb>無事</rb><rt>ぶじ</rt></ruby><ruby><rb>平穏</rb><rt>へいおん</rt></ruby>に<ruby><rb>終了</rb><rt>しゅうりょう</rt></ruby>し、おれは<ruby><rb>久</rb><rt>ひさ</rt></ruby>し<ruby><rb>振</rb><rt>ぶ</rt></ruby>りに\\n<ruby><rb>長閑</rb><rt>のどか</rt></ruby>な<ruby><rb>時間</rb><rt>じかん</rt></ruby>を<ruby><rb>過</rb><rt>す</rt></ruby>ごすことができた。",
+        "zh_cn": "在船上泳池举办的特别派对\\n顺利落下了帷幕，\\n我也久违地度过了悠闲的时光。",
+        "zh_tw": "在船上泳池舉辦的特別宴會\\n也平安結束，而我則是久違地\\n享受了一段悠閒的時光。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0037",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "But no sooner had I silently expressed my thanks\\nfor this respite than the weather grew turbulent.",
+        "ja_jp": "いい<ruby><rb>息抜</rb><rt>いきぬ</rt></ruby>きになった……そんな<ruby><rb>風</rb><rt>ふう</rt></ruby>に\\n<ruby><rb>思</rb><rt>おも</rt></ruby>っていた<ruby><rb>矢先</rb><rt>やさき</rt></ruby>、<ruby><rb>急</rb><rt>きゅう</rt></ruby>に<ruby><rb>天候</rb><rt>てんこう</rt></ruby>が<ruby><rb>荒</rb><rt>あ</rt></ruby>れ<ruby><rb>始</rb><rt>はじ</rt></ruby>め\\n<ruby><rb>高波</rb><rt>たかなみ</rt></ruby>が<ruby><rb>船</rb><rt>ふね</rt></ruby>を<ruby><rb>襲</rb><rt>おそ</rt></ruby>った。",
+        "zh_cn": "这次休假真是放松了身心……\\n正当我这么想的时候，突然变了天，\\n巨浪随即向船体袭来。",
+        "zh_tw": "好久沒這麼放鬆了……\\n才剛那麼想時，突然天候就變得惡劣，\\n船也受到大浪的侵襲。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0038",
+      "book": ""
+    },
+    {
+      "icon": "100013_06",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Waves battered the ship, throwing the crew into\\na panic. We were at the mercy of the sea...",
+        "ja_jp": "<ruby><rb>大</rb><rt>おお</rt></ruby>きく<ruby><rb>傾</rb><rt>かたむ</rt></ruby>く<ruby><rb>船</rb><rt>ふね</rt></ruby>。パニックに<ruby><rb>陥</rb><rt>おちい</rt></ruby>る<ruby><rb>船内</rb><rt>せんない</rt></ruby>。\\n<ruby><rb>船</rb><rt>ふね</rt></ruby>は<ruby><rb>荒</rb><rt>あら</rt></ruby>ぶる<ruby><rb>波濤</rb><rt>はとう</rt></ruby>に<ruby><rb>翻弄</rb><rt>ほんろう</rt></ruby>され――",
+        "zh_cn": "船体严重失衡令乘客陷入混乱。\\n汹涌的波浪冲击着船身……",
+        "zh_tw": "船體劇烈傾斜，乘客陷入恐慌，\\n而船遭到巨浪無情地擺布──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0039",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Where...am I?\\nI remember the ship sinking...",
+        "ja_jp": "ここはどこだ……？\\nたしか、<ruby><rb>船</rb><rt>ふね</rt></ruby>が<ruby><rb>沈没</rb><rt>ちんぼつ</rt></ruby>して……。",
+        "zh_cn": "这是哪里？\\n我记得，船沉了……",
+        "zh_tw": "這裡是哪裡……？\\n我記得船好像沉沒了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0040",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Heeey! Is anyone there?",
+        "ja_jp": "おーい、<ruby><rb>誰</rb><rt>だれ</rt></ruby>かいないのか!?",
+        "zh_cn": "喂～有人吗！？",
+        "zh_tw": "喂～有沒有人在啊！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0041",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "(No response. And there's not a man-made\\nstructure in sight. In fact, there's no sign of\\nhabitation at all. Oh... Oh, no.)",
+        "ja_jp": "（……<ruby><rb>反応</rb><rt>はんのう</rt></ruby>がない。<ruby><rb>周囲</rb><rt>しゅうい</rt></ruby>に<ruby><rb>人工物</rb><rt>じんこうぶつ</rt></ruby>は\\n　ないし、それどころか<ruby><rb>人</rb><rt>ひと</rt></ruby>がいた<ruby><rb>気配</rb><rt>けはい</rt></ruby>\\n　すらない……これはまさか……）",
+        "zh_cn": "（没反应……周围不仅没有人造物，\\n就连有人生活的痕迹也没有……\\n这里难道是……）",
+        "zh_tw": "（……沒有反應。周圍也沒有人造物，\\n甚至該說是連人的氣息都沒有……\\n這該不會是……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0042",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "The ship was consumed by the raging sea, and I\\nwas thrown overboard, only to wash ashore on a\\ndeserted island.",
+        "ja_jp": "――<ruby><rb>船</rb><rt>ふね</rt></ruby>は<ruby><rb>荒波</rb><rt>あらなみ</rt></ruby>に<ruby><rb>飲</rb><rt>の</rt></ruby>まれて<ruby><rb>沈没</rb><rt>ちんぼつ</rt></ruby>……\\nそして、<ruby><rb>船</rb><rt>ふね</rt></ruby>から<ruby><rb>投</rb><rt>な</rt></ruby>げ<ruby><rb>出</rb><rt>だ</rt></ruby>されたおれは\\n<ruby><rb>無人島</rb><rt>むじんとう</rt></ruby>に<ruby><rb>漂着</rb><rt>ひょうちゃく</rt></ruby>してしまったのだった。",
+        "zh_cn": "船被巨浪吞噬沉没……\\n而我则从船上跌落，\\n漂流到了一座无人岛上。",
+        "zh_tw": "──船被海浪吞噬後沉沒……\\n而被甩出船外的我漂流到無人島上了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0043",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Well, only one thing to do now.",
+        "ja_jp": "……こうしていても<ruby><rb>仕方</rb><rt>しかた</rt></ruby>ないな。",
+        "zh_cn": "干等着也不是个办法……",
+        "zh_tw": "……這樣下去也不是辦法啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0044",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'll start by canvassing the area.\\nIt's entirely possible that other\\npeople washed ashore here, too.",
+        "ja_jp": "まずは<ruby><rb>周辺</rb><rt>しゅうへん</rt></ruby>を<ruby><rb>探索</rb><rt>たんさく</rt></ruby>して<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>を<ruby><rb>集</rb><rt>あつ</rt></ruby>めよう。\\nもしかしたら、おれの<ruby><rb>他</rb><rt>ほか</rt></ruby>にもこの<ruby><rb>近</rb><rt>ちか</rt></ruby>くに\\n<ruby><rb>漂着</rb><rt>ひょうちゃく</rt></ruby>している<ruby><rb>人</rb><rt>ひと</rt></ruby>がいるかもしれない。",
+        "zh_cn": "先查看一下周围的地形\\n收集情报吧。说不定还有\\n其他人也漂流到了这里。",
+        "zh_tw": "首先先到周圍探索並搜集情報吧。\\n搞不好除了我以外，\\n也有其他人漂流到這附近。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0045",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I really hope Leonidas and Chelle are\\nall right...",
+        "ja_jp": "レオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さんやシェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さんも\\n<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>だといいけど……。",
+        "zh_cn": "希望莱昂尼多哥哥\\n和谢斯姐姐也没事……",
+        "zh_tw": "希望雷歐尼特哥哥和謝斯姊姊\\n都平安無事……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_01_0046",
+      "book": ""
+    }
+  ]
 }

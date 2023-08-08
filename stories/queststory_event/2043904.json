@@ -1,872 +1,1649 @@
 {
-    "story_id": "",
-    "story_name": "圣天之陨～后篇～ 最佳选择",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "为了让避难的民众逃离圣都，\\n使徒和王子一行将他们转移至陆上客船。\\n这期间前往地下水道的皮诺与圣德芬重逢。\\n听说有办法能让肉体消亡的天使重生，\\n皮诺遂前往教会的实验室。"
-        ]
+  "title": {
+    "en_us": "Faith Forsaken (Part Two)    The Greatest Effort",
+    "ja_jp": "セイクリッドロスト～後編～  尽くす最善",
+    "zh_cn": "圣天之陨～后篇～  最佳选择",
+    "zh_tw": "失落的信仰～後篇～  盡己所能"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100043_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "我被送往异界，见到了\\n“起始之人”统治下的世界。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100043_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "在“起始之人”的世界里，\\n身负不幸的人不可能再次\\n通过自己的努力抓住幸福。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100043_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "我无法容忍这一点，\\n便抓住撒旦这根救命稻草不放。\\n浑然不知自己大错特错……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "洛基",
-            "context": "能从主人那里\\n感受到巫女的意念。\\n不过魂魄同化只是时间问题。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100047_01"
-            ],
-            "speaker_name": "莉莉丝",
-            "context": "撒旦大人～你为什么不动啊？\\n莉莉丝觉得好无聊呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "洛基",
-            "context": "哎呀，莉莉丝，你被使徒\\n弄出来的伤已经痊愈了？",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100047_01"
-            ],
-            "speaker_name": "莉莉丝",
-            "context": "啊？那种小伤早就好了啦。\\n之前都是小打小闹，\\n接下来可要大干一场。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100047_01"
-            ],
-            "speaker_name": "莉莉丝",
-            "context": "倒是你，打算怎么做？\\n就在这里陪着撒旦大人吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "洛基",
-            "context": "待在主人身旁就是我的职责。\\n而且我想到了一个余兴节目，\\n所以就在这里进行准备。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "洛基",
-            "context": "言归正传，请务必转告\\n其他恶魔，一定要闹得厉害些。\\n这样主人的力量就会增强。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100047_01"
-            ],
-            "speaker_name": "莉莉丝",
-            "context": "少指使人了。真是受够了你，\\n好不容易从臭天使体内被放出来，\\n都怪你臭洛基，坏我心情。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "洛基",
-            "context": "天使体内……是说假身吗。\\n说起来，你们被解放之后，\\n留下的假身怎么处理了？",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100047_01"
-            ],
-            "speaker_name": "莉莉丝",
-            "context": "诶？那种事谁知道啊～\\n话说完了？那就拜拜了～",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "洛基",
-            "context": "嗯……小心驶得万年船。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120162_01"
-            ],
-            "speaker_name": "发狂的讨伐军士兵",
-            "context": "嘎啊啊啊啊！嚯啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "洛基",
-            "context": "伪恶魔们，\\n差遣你们一事。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110003_01"
-            ],
-            "speaker_name": "乔",
-            "context": "巨舰·瑰丽号正在格拉姆斯\\n郊外待机，且已确保从避难所\\n到上船途中的安全路径。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110001_01"
-            ],
-            "speaker_name": "阿兰",
-            "context": "撤退准备一切就绪！\\n请随时下令！",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_09"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好，大伙帮忙把难民转移到\\n陆上客船去。我和使徒\\n一起去调查市内。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "陆上客船能容纳所有人，\\n大家行动时请不要慌张。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "男性的声音",
-            "context": "不是说了让你们\\n听从我们自卫团的指挥了吗。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "格拉姆斯贵族",
-            "context": "我拒绝和那么多人同住一室。\\n我的圣级很高，你们给我行方便\\n才是格拉姆斯市民该做的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "贫民窟头领",
-            "context": "圣级圣级……你们上流阶级\\n总是这样，明明什么都不干，\\n却总是仗着圣级作威作福！",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "格拉姆斯贵族",
-            "context": "你、你这家伙……\\n一介贫民竟敢如此嚣张！",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "住口！不要再吵了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "贫民窟头领",
-            "context": "使徒小姐，你别管！\\n得给这些贵族老爷\\n一点教训……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100042_01"
-            ],
-            "speaker_name": "迦道夫",
-            "context": "你们都住手。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "贫民窟头领",
-            "context": "团长……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100042_01"
-            ],
-            "speaker_name": "迦道夫",
-            "context": "生命不分贵贱。无论是自己的生命，\\n还是自己所珍视之人的生命，\\n我们都要一并去守护。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100042_01"
-            ],
-            "speaker_name": "迦道夫",
-            "context": "这位贵族，我们自卫团\\n懂得每一条生命的宝贵，\\n所以能多救一个市民是一个。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100042_01"
-            ],
-            "speaker_name": "迦道夫",
-            "context": "你也许有你的苦衷，\\n不过现在事态紧急，你就当是\\n帮我们一个忙，忍耐一下。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "格拉姆斯贵族",
-            "context": "唔……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100042_01"
-            ],
-            "speaker_name": "迦道夫",
-            "context": "你也是，现在要以大局为重，\\n放下之前的恩怨隔阂吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "贫民窟头领",
-            "context": "对不起，一时冲动就……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "格拉姆斯贵族",
-            "context": "我也要道歉……\\n因为我孙女体弱多病，\\n我就想给她准备一间单人房。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120026_01"
-            ],
-            "speaker_name": "格拉姆斯贵族",
-            "context": "能不能至少给我孙女一个\\n安静的房间？当祭司的父亲去世，\\n她大受打击，病情就……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "贫民窟头领",
-            "context": "明白了，我去给你们\\n争取一个离医务室近的船舱。\\n你陪你孙女一起待在那里就行。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "谢谢你，\\n真是帮大忙了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100042_01"
-            ],
-            "speaker_name": "迦道夫",
-            "context": "皮诺阁下，你看起来很累，\\n一直不眠不休地在工作吧。\\n这里就交给我，你去休息一下吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "这怎么行。时间有限，\\n现在要尽可能地……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100042_01"
-            ],
-            "speaker_name": "迦道夫",
-            "context": "我理解你焦急的心情，\\n但要想实现你的心愿，\\n适当地停下脚步也很重要。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "好吧……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "呼……我这样\\n也没资格说法斯呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "辛苦了。我带来了水，\\n请喝一点吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "啊，泽娜。\\n谢谢你的关心。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "那之后，法斯怎么样了？",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "他现在和王子一起去调查市区了，\\n看有没有能突破撒旦瘴气的路线。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "他说一定会告诉我们调查结果。\\n为了在自己死掉之后\\n能把奥莉加托付给其他人。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "看来你的话奏效了啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "不奏效就伤脑筋了。\\n就算他是叛徒，\\n也要有使徒该有的样子。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "我们不能浪费所剩无几的时间。\\n不然天使他们……\\n加百列就白死了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "加百列对你来说，\\n就像母亲一样吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "你虽然表现得很坚强，\\n但其实心里很难受吧？\\n失去了像母亲一样的存在……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "虽说难受……但显露于色\\n也无济于事啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "是这样吗……\\n我母亲去世的时候，\\n我就大哭了一场。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "想再和她多说说话，\\n多撒撒娇——\\n这种想法止不住地涌出。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "但是，多亏如此\\n我才慢慢接受了母亲的去世，\\n变得能向前看了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "哭泣也可以使人坚强。\\n这种时候不需要硬撑着哦？",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "谢谢你……但是，\\n我是行使正义的使徒。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "作为拯救众人的存在，\\n不能暴露自己软弱的一面……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "朱丽叶",
-            "context": "啊，请不要哭了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "朱丽叶，怎么了？",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120016_01",
-                "110042_01"
-            ],
-            "speaker_name": "朱丽叶",
-            "context": "泽娜，这孩子好像\\n跟她的猫走散了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120015_01"
-            ],
-            "speaker_name": "母亲",
-            "context": "没时间去找了。\\n得赶紧上船才行。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110042_01"
-            ],
-            "speaker_name": "少女",
-            "context": "但是，阿咪也是家人啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "家人……是啊，\\n不能丢下重要的家人不管。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "请放心，\\n我一定会找到阿咪的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110013_01"
-            ],
-            "speaker_name": "威克",
-            "context": "有人在这条地下水道的\\n入口处看到过阿咪是吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "是的……不好意思，\\n还让大家帮忙一起找。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110008_01"
-            ],
-            "speaker_name": "卡尔",
-            "context": "执行这点正义，\\n小事一桩！",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110042_01"
-            ],
-            "speaker_name": "朱丽叶",
-            "context": "阿咪，你在哪？\\n在的话就叫一声。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100009_07"
-            ],
-            "speaker_name": "泽娜",
-            "context": "找到了，特征和听说的一样。\\n阿咪，过来。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110013_01"
-            ],
-            "speaker_name": "威克",
-            "context": "顺利找到了呢。\\n那就把它带去饲主那里——",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110042_01"
-            ],
-            "speaker_name": "朱丽叶",
-            "context": "这声音是……\\n有人在地下水道里战斗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "泽娜带着猫回地上去，\\n我们去看看情况。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "那是伪恶魔！？\\n而与其战斗的是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120195_01"
-            ],
-            "speaker_name": "圣德芬",
-            "context": "伤口又裂开了吗……\\n但是，那个地方我非去不可……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_01",
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "圣德芬！\\n原来你还活着吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120195_01"
-            ],
-            "speaker_name": "圣德芬",
-            "context": "是皮诺啊。和你在一起的\\n是拉米艾尔搬来的\\n阿尔贝里亚救兵吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110042_01"
-            ],
-            "speaker_name": "朱丽叶",
-            "context": "这位是天使吗？\\n可我听说天使都阵亡了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120195_01"
-            ],
-            "speaker_name": "圣德芬",
-            "context": "我们迎击撒旦的攻击时，\\n只有我被爆炸的气浪吹飞了，\\n之后花了不少时间才能动弹。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "但奎茵说她无法通过圣痕\\n感受到你的力量啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120195_01"
-            ],
-            "speaker_name": "圣德芬",
-            "context": "如果对方命悬一线，\\n便很难感知圣痕联系。\\n所以奎茵才误以为我死了吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120195_01"
-            ],
-            "speaker_name": "圣德芬",
-            "context": "先说重点，我有事要通知你们——\\n五大天使没有死。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "什么！？可加百列他们\\n就在我们眼前消失了……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120195_01"
-            ],
-            "speaker_name": "圣德芬",
-            "context": "他们的肉体消亡了，\\n按理说魂魄回归魔力……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120195_01"
-            ],
-            "speaker_name": "圣德芬",
-            "context": "但他们的魂魄似乎\\n正拼命努力留在这个世上。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120195_01"
-            ],
-            "speaker_name": "圣德芬",
-            "context": "虽然很微弱，但是他们\\n魂魄的声音通过天使之间\\n相连的路径传到了我这里。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120195_01"
-            ],
-            "speaker_name": "圣德芬",
-            "context": "而只要他们的魂魄还在，\\n就有办法让他们重生。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0089",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "真的吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0090",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120195_01"
-            ],
-            "speaker_name": "圣德芬",
-            "context": "我正要去教会总部的地下研究室。\\n那里有一条能出入地下水道的通道\\n以备不时之需。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0091",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120195_01"
-            ],
-            "speaker_name": "圣德芬",
-            "context": "研究室里保管着天使重生\\n所需的容器，但是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0092",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110008_01"
-            ],
-            "speaker_name": "卡尔",
-            "context": "又来新的伪恶魔了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0093",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120195_01"
-            ],
-            "speaker_name": "圣德芬",
-            "context": "详情之后再说明，我需要人手，\\n希望你们也跟我来研究室。",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0094",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110366_02"
-            ],
-            "speaker_name": "皮诺",
-            "context": "好、好的！",
-            "voice_line": "VO_CHR_EVENTSTORY_20439_04_0095",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "The prince and the apostles hurry the survivors\\naboard the landship to get them clear of Grams.\\nMeanwhile, when Pinon encounters Sandalphon\\nin the sewers and learns the angels may yet be\\nrevived, she races off to a secret laboratory.",
+      "ja_jp": "<ruby><rb>聖都</rb><rt>せいと</rt></ruby>から<ruby><rb>逃</rb><rt>に</rt></ruby>がすため、<ruby><rb>避難民</rb><rt>ひなんみん</rt></ruby>を<ruby><rb>陸上客船</rb><rt>りくじょうきゃくせん</rt></ruby>に\\n<ruby><rb>移</rb><rt>うつ</rt></ruby>す<ruby><rb>使徒</rb><rt>しと</rt></ruby>と<ruby><rb>王子</rb><rt>おうじ</rt></ruby>たち。その<ruby><rb>最中</rb><rt>さなか</rt></ruby>、<ruby><rb>地下</rb><rt>ちか</rt></ruby><ruby><rb>水路</rb><rt>すいろ</rt></ruby>に\\n<ruby><rb>下</rb><rt>お</rt></ruby>りたピノンはサンダルフォンと<ruby><rb>再会</rb><rt>さいかい</rt></ruby>する。\\n<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>から<ruby><rb>消滅</rb><rt>しょうめつ</rt></ruby>した<ruby><rb>天使</rb><rt>てんし</rt></ruby>を<ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>させる<ruby><rb>方法</rb><rt>ほうほう</rt></ruby>が\\nあると<ruby><rb>聞</rb><rt>き</rt></ruby>いたピノンは<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>のラボへ<ruby><rb>向</rb><rt>む</rt></ruby>かう。",
+      "zh_cn": "为了让避难的民众逃离圣都，\\n使徒和王子一行将他们转移至陆上客船。\\n这期间前往地下水道的皮诺与圣德芬重逢。\\n听说有办法能让肉体消亡的天使重生，\\n皮诺遂前往教会的实验室。",
+      "zh_tw": "為了讓難民逃出聖都，使徒與王子等人\\n引導眾人搭上陸上客船。此時，\\n琵儂在前往地下水道後與聖德芬再會，\\n並從她口中得知有辦法讓逝去的天使重生，\\n於是琵儂動身前往教會的研究室。"
+    }
+  },
+  "prev": "2043903",
+  "next": "2043905",
+  "content": [
+    {
+      "icon": "100043_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "I was flung to another world, where I glimpsed\\nthe world overseen by the Progenitor.",
+        "ja_jp": "わたしは<ruby><rb>異界</rb><rt>いかい</rt></ruby>に<ruby><rb>飛</rb><rt>と</rt></ruby>ばされ、そして<ruby><rb>見</rb><rt>み</rt></ruby>た。\\n『はじまりの<ruby><rb>人</rb><rt>ひと</rt></ruby>』が<ruby><rb>管理</rb><rt>かんり</rt></ruby>する<ruby><rb>世界</rb><rt>せかい</rt></ruby>を。",
+        "zh_cn": "我被送往异界，见到了\\n“起始之人”统治下的世界。",
+        "zh_tw": "我被送往異界，並親眼看見了，\\n「起始之人」管理下的世界。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0001",
+      "book": ""
+    },
+    {
+      "icon": "100043_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "There, those born into misery are permitted no\\nchance to claim happiness through their efforts.\\nThe very idea of possibility does not exist.",
+        "ja_jp": "『はじまりの<ruby><rb>人</rb><rt>ひと</rt></ruby>』の<ruby><rb>世界</rb><rt>せかい</rt></ruby>では\\n<ruby><rb>不幸</rb><rt>ふこう</rt></ruby>を<ruby><rb>背負</rb><rt>せお</rt></ruby>う<ruby><rb>人</rb><rt>ひと</rt></ruby>が、<ruby><rb>自</rb><rt>みずか</rt></ruby>らの<ruby><rb>手</rb><rt>て</rt></ruby>で\\n<ruby><rb>幸</rb><rt>しあわ</rt></ruby>せを<ruby><rb>掴</rb><rt>つか</rt></ruby>む<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>を<ruby><rb>否定</rb><rt>ひてい</rt></ruby>される。",
+        "zh_cn": "在“起始之人”的世界里，\\n身负不幸的人不可能再次\\n通过自己的努力抓住幸福。",
+        "zh_tw": "「起始之人」的世界中，\\n背負不幸的人，\\n被否定親手掌握幸福的可能性。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0002",
+      "book": ""
+    },
+    {
+      "icon": "100043_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "It was a thought I could not abide, so I hung\\nmy hopes on Satan's power, never knowing\\nhow grave a mistake it was...",
+        "ja_jp": "それがわたしには<ruby><rb>許</rb><rt>ゆる</rt></ruby>せなかった。\\nだからサタンという<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>に<ruby><rb>縋</rb><rt>すが</rt></ruby>った。\\n<ruby><rb>大</rb><rt>おお</rt></ruby>きな<ruby><rb>過</rb><rt>あやま</rt></ruby>ちだと<ruby><rb>知</rb><rt>し</rt></ruby>らずに……。",
+        "zh_cn": "我无法容忍这一点，\\n便抓住撒旦这根救命稻草不放。\\n浑然不知自己大错特错……",
+        "zh_tw": "我無法容許這種事。\\n所以才執著於名為撒旦的可能性。\\n渾然不知自己大錯特錯……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0003",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Loki",
+        "ja_jp": "ロキ$ロキハール",
+        "zh_cn": "洛基",
+        "zh_tw": "洛基"
+      },
+      "context": {
+        "en_us": "I still sense the Auspex's will within the\\nDemonlord, but the dissolution of her soul\\nis only a matter of time.",
+        "ja_jp": "<ruby><rb>主</rb><rt>あるじ</rt></ruby>から<ruby><rb>巫女</rb><rt>みこ</rt></ruby>の<ruby><rb>思念</rb><rt>しねん</rt></ruby>を<ruby><rb>感</rb><rt>かん</rt></ruby>じますねぇ。\\nですが<ruby><rb>魂</rb><rt>たましい</rt></ruby>が<ruby><rb>同化</rb><rt>どうか</rt></ruby>するのも\\n<ruby><rb>時間</rb><rt>じかん</rt></ruby>の<ruby><rb>問題</rb><rt>もんだい</rt></ruby>でしょう。",
+        "zh_cn": "能从主人那里\\n感受到巫女的意念。\\n不过魂魄同化只是时间问题。",
+        "zh_tw": "從吾主身上能感受到巫女的意念呢。\\n不過靈魂同化只是時間上的問題吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0004",
+      "book": ""
+    },
+    {
+      "icon": "100047_01",
+      "name": {
+        "en_us": "Lilith",
+        "ja_jp": "リリス",
+        "zh_cn": "莉莉丝",
+        "zh_tw": "莉莉斯"
+      },
+      "context": {
+        "en_us": "Saaatan, why're you just staaanding there?\\nI'm booored!",
+        "ja_jp": "ねぇ、サタン<ruby><rb>様</rb><rt>さま</rt></ruby>～。<ruby><rb>何</rb><rt>なん</rt></ruby>で<ruby><rb>動</rb><rt>うご</rt></ruby>かないの～？\\nリリス、つまんな～～い。",
+        "zh_cn": "撒旦大人～你为什么不动啊？\\n莉莉丝觉得好无聊呢。",
+        "zh_tw": "欸，撒旦大人～您為什麼不動呢～？\\n莉莉斯，好無聊喔～～"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0005",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Loki",
+        "ja_jp": "ロキ$ロキハール",
+        "zh_cn": "洛基",
+        "zh_tw": "洛基"
+      },
+      "context": {
+        "en_us": "Ah, Lilith. Have the wounds you suffered\\nat the apostles' hands healed?",
+        "ja_jp": "おや、リリス。<ruby><rb>使徒</rb><rt>しと</rt></ruby>たちにやられた\\n<ruby><rb>傷</rb><rt>きず</rt></ruby>はもう<ruby><rb>癒</rb><rt>い</rt></ruby>えたのですか？",
+        "zh_cn": "哎呀，莉莉丝，你被使徒\\n弄出来的伤已经痊愈了？",
+        "zh_tw": "哎呀，莉莉斯。\\n使徒們造成的傷勢已經痊癒了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0006",
+      "book": ""
+    },
+    {
+      "icon": "100047_01",
+      "name": {
+        "en_us": "Lilith",
+        "ja_jp": "リリス",
+        "zh_cn": "莉莉丝",
+        "zh_tw": "莉莉斯"
+      },
+      "context": {
+        "en_us": "Excuse me, but I was better FOREVER ago.\\nAlso, all these little skirmishes suck—\\nfrom now on, I'm goin' hog wild!",
+        "ja_jp": "あぁん？　んなもんとっくに<ruby><rb>治</rb><rt>なお</rt></ruby>ってる\\nっつーの。<ruby><rb>今</rb><rt>いま</rt></ruby>までちまちま<ruby><rb>暴</rb><rt>あば</rt></ruby>れてたけど\\nこれからは<ruby><rb>派手</rb><rt>はで</rt></ruby>にやってやんよ。",
+        "zh_cn": "啊？那种小伤早就好了啦。\\n之前都是小打小闹，\\n接下来可要大干一场。",
+        "zh_tw": "蛤？那種小傷早就治好了啦。\\n雖然之前都只是小吵小鬧，\\n但接下來我會華麗地大鬧一場唷。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0007",
+      "book": ""
+    },
+    {
+      "icon": "100047_01",
+      "name": {
+        "en_us": "Lilith",
+        "ja_jp": "リリス",
+        "zh_cn": "莉莉丝",
+        "zh_tw": "莉莉斯"
+      },
+      "context": {
+        "en_us": "So what's the plan, Loki? You just gonna\\nsit here with him or what?",
+        "ja_jp": "それでロキの<ruby><rb>方</rb><rt>ほう</rt></ruby>はどうなの？　ここで\\nサタン<ruby><rb>様</rb><rt>さま</rt></ruby>に<ruby><rb>付</rb><rt>つ</rt></ruby>き<ruby><rb>添</rb><rt>そ</rt></ruby>ってるだけ？",
+        "zh_cn": "倒是你，打算怎么做？\\n就在这里陪着撒旦大人吗？",
+        "zh_tw": "是說洛基你又如何？\\n只是一直在這裡陪著撒旦大人嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0008",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Loki",
+        "ja_jp": "ロキ$ロキハール",
+        "zh_cn": "洛基",
+        "zh_tw": "洛基"
+      },
+      "context": {
+        "en_us": "My place is at my lord's side. Besides,\\nI've come up with an amusement to pass\\nthe time. I'm just getting things ready now.",
+        "ja_jp": "<ruby><rb>主</rb><rt>あるじ</rt></ruby>の<ruby><rb>側</rb><rt>そば</rt></ruby>にいるのが<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>役目</rb><rt>やくめ</rt></ruby>ですから。\\nそれに<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>余興</rb><rt>よきょう</rt></ruby>を<ruby><rb>思</rb><rt>おも</rt></ruby>いつきましてね。\\nここでその<ruby><rb>準備</rb><rt>じゅんび</rt></ruby>を<ruby><rb>進</rb><rt>すす</rt></ruby>めているのですよ。",
+        "zh_cn": "待在主人身旁就是我的职责。\\n而且我想到了一个余兴节目，\\n所以就在这里进行准备。",
+        "zh_tw": "隨侍吾主身邊是我的職責嘛。\\n況且我想到了一些餘興節目，\\n所以正在這裡進行準備喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0009",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Loki",
+        "ja_jp": "ロキ$ロキハール",
+        "zh_cn": "洛基",
+        "zh_tw": "洛基"
+      },
+      "context": {
+        "en_us": "Oh, but please invite the other demons to\\ndo their worst, for their violence feeds the\\nDemonlord's power.",
+        "ja_jp": "それよりも<ruby><rb>他</rb><rt>ほか</rt></ruby>の<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>たちにもぜひ、\\n<ruby><rb>大</rb><rt>おお</rt></ruby><ruby><rb>暴</rb><rt>あば</rt></ruby>れするよう<ruby><rb>伝</rb><rt>つた</rt></ruby>えてください。\\nそうすればより<ruby><rb>主</rb><rt>あるじ</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>が<ruby><rb>増</rb><rt>ま</rt></ruby>しますので。",
+        "zh_cn": "言归正传，请务必转告\\n其他恶魔，一定要闹得厉害些。\\n这样主人的力量就会增强。",
+        "zh_tw": "比起這個，請妳轉告其他惡魔，\\n務必鬧得盡興啊。\\n這麼一來也能增強吾主的力量。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0010",
+      "book": ""
+    },
+    {
+      "icon": "100047_01",
+      "name": {
+        "en_us": "Lilith",
+        "ja_jp": "リリス",
+        "zh_cn": "莉莉丝",
+        "zh_tw": "莉莉斯"
+      },
+      "context": {
+        "en_us": "I don't take orders from you! ...Ugh.\\nCan't believe I'm finally free of that stupid\\nangel body and stupid Loki is STILL ruining\\nmy stupid mood!",
+        "ja_jp": "<ruby><rb>指図</rb><rt>さしず</rt></ruby>すんじゃねぇよ。ったく、\\nクソ<ruby><rb>天使</rb><rt>てんし</rt></ruby>の<ruby><rb>体</rb><rt>からだ</rt></ruby>から<ruby><rb>解放</rb><rt>かいほう</rt></ruby>されたってのに\\nクソロキのせいでマジ<ruby><rb>気分</rb><rt>きぶん</rt></ruby><ruby><rb>悪</rb><rt>わり</rt></ruby>ィ。",
+        "zh_cn": "少指使人了。真是受够了你，\\n好不容易从臭天使体内被放出来，\\n都怪你臭洛基，坏我心情。",
+        "zh_tw": "就叫你少命令我。真是的，\\n好不容易才從垃圾天使的軀體解脫，\\n卻因為垃圾洛基害我心情這麼差。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0011",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Loki",
+        "ja_jp": "ロキ$ロキハール",
+        "zh_cn": "洛基",
+        "zh_tw": "洛基"
+      },
+      "context": {
+        "en_us": "Angel's body? Ah, yes. Tell me, what\\nbecame of those mimicries after all\\nof you were released?",
+        "ja_jp": "<ruby><rb>天使</rb><rt>てんし</rt></ruby>の<ruby><rb>体</rb><rt>からだ</rt></ruby>……<ruby><rb>擬体</rb><rt>ぎたい</rt></ruby>ですか。そういえば\\n<ruby><rb>貴方</rb><rt>あなた</rt></ruby>たちが<ruby><rb>解放</rb><rt>かいほう</rt></ruby>された<ruby><rb>後</rb><rt>あと</rt></ruby>、<ruby><rb>残</rb><rt>のこ</rt></ruby>された\\n<ruby><rb>擬体</rb><rt>ぎたい</rt></ruby>はどうなったのですか？",
+        "zh_cn": "天使体内……是说假身吗。\\n说起来，你们被解放之后，\\n留下的假身怎么处理了？",
+        "zh_tw": "天使的軀體……是指仿製體嗎。\\n這麼說來，你們解脫之後，\\n剩下的仿製體怎麼了呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0012",
+      "book": ""
+    },
+    {
+      "icon": "100047_01",
+      "name": {
+        "en_us": "Lilith",
+        "ja_jp": "リリス",
+        "zh_cn": "莉莉丝",
+        "zh_tw": "莉莉斯"
+      },
+      "context": {
+        "en_us": "Eh, I dunno. Are you done talking yet?\\nActually, know what? Don't care.\\nI'm out like a light, bud. Byeeee!",
+        "ja_jp": "え～？　そんなの<ruby><rb>知</rb><rt>し</rt></ruby>らな～い。\\n<ruby><rb>話</rb><rt>はなし</rt></ruby>は<ruby><rb>終</rb><rt>お</rt></ruby>わり？　それじゃあバイバ～イ。",
+        "zh_cn": "诶？那种事谁知道啊～\\n话说完了？那就拜拜了～",
+        "zh_tw": "咦～？那種事我怎麼知道～\\n話說完了嗎？那就拜拜囉～"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0013",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Loki",
+        "ja_jp": "ロキ$ロキハール",
+        "zh_cn": "洛基",
+        "zh_tw": "洛基"
+      },
+      "context": {
+        "en_us": "I suppose one can't be too careful...",
+        "ja_jp": "……ふむ。<ruby><rb>念</rb><rt>ねん</rt></ruby>には<ruby><rb>念</rb><rt>ねん</rt></ruby>を、ですね。",
+        "zh_cn": "嗯……小心驶得万年船。",
+        "zh_tw": "……嗯。看來得以防萬一，才行呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0014",
+      "book": ""
+    },
+    {
+      "icon": "120162_01",
+      "name": {
+        "en_us": "Frenzied Soldier",
+        "ja_jp": "狂暴化した討伐軍兵士",
+        "zh_cn": "发狂的讨伐军士兵",
+        "zh_tw": "狂暴化的討伐軍士兵"
+      },
+      "context": {
+        "en_us": "RAAAAAGH!",
+        "ja_jp": "ガアアアア!!　ゴアアアアアア!! ",
+        "zh_cn": "嘎啊啊啊啊！嚯啊啊啊啊啊！",
+        "zh_tw": "嘎啊啊啊啊！！吼啊啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0015",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Loki",
+        "ja_jp": "ロキ$ロキハール",
+        "zh_cn": "洛基",
+        "zh_tw": "洛基"
+      },
+      "context": {
+        "en_us": "I have a little errand for all of you\\ndemonic entities...",
+        "ja_jp": "<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>もどきたち。\\n<ruby><rb>貴方</rb><rt>あなた</rt></ruby>たちにお<ruby><rb>遣</rb><rt>つか</rt></ruby>いです。",
+        "zh_cn": "伪恶魔们，\\n差遣你们一事。",
+        "zh_tw": "各位假惡魔。\\n我要吩附你們去辦些事。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0016",
+      "book": ""
+    },
+    {
+      "icon": "110003_01",
+      "name": {
+        "en_us": "Joe",
+        "ja_jp": "ジョー",
+        "zh_cn": "乔",
+        "zh_tw": "喬"
+      },
+      "context": {
+        "en_us": "The Gran Fiore's standing by just outside\\nGrams, and we're securing a safe route\\nfrom the evacuation site as we speak.",
+        "ja_jp": "グラン・フィオラータがグラムス<ruby><rb>郊外</rb><rt>こうがい</rt></ruby>で\\n<ruby><rb>待機中</rb><rt>たいきちゅう</rt></ruby>だ。<ruby><rb>避難所</rb><rt>ひなんじょ</rt></ruby>から<ruby><rb>船</rb><rt>ふね</rt></ruby>までの<ruby><rb>安全</rb><rt>あんぜん</rt></ruby>な\\nルートも<ruby><rb>確保</rb><rt>かくほ</rt></ruby>してるぜ。",
+        "zh_cn": "巨舰·瑰丽号正在格拉姆斯\\n郊外待机，且已确保从避难所\\n到上船途中的安全路径。",
+        "zh_tw": "格蘭‧菲歐拉妲正在葛拉姆斯郊外\\n等候指令。避難所到船上的安全路徑\\n也都已經確保了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0017",
+      "book": ""
+    },
+    {
+      "icon": "110001_01",
+      "name": {
+        "en_us": "Alain",
+        "ja_jp": "アラン",
+        "zh_cn": "阿兰",
+        "zh_tw": "亞倫"
+      },
+      "context": {
+        "en_us": "Retreat preparations are complete!\\nJust give the order, Highness!",
+        "ja_jp": "<ruby><rb>退却</rb><rt>たいきゃく</rt></ruby>の<ruby><rb>準備</rb><rt>じゅんび</rt></ruby>は<ruby><rb>万端</rb><rt>ばんたん</rt></ruby>であります！　\\nいつでもご<ruby><rb>命令</rb><rt>めいれい</rt></ruby>ください！",
+        "zh_cn": "撤退准备一切就绪！\\n请随时下令！",
+        "zh_tw": "撤退的準備都完成了！\\n請隨時下令！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0018",
+      "book": ""
+    },
+    {
+      "icon": "100001_09",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "In that case, I need all of you to get those\\nrefugees on the ship. I'm going to survey\\nthe city with the apostles.",
+        "ja_jp": "よし。みんなは<ruby><rb>避難民</rb><rt>ひなんみん</rt></ruby>を<ruby><rb>陸上客船</rb><rt>りくじょうきゃくせん</rt></ruby>に\\n<ruby><rb>移</rb><rt>うつ</rt></ruby>してくれ。おれは<ruby><rb>使徒</rb><rt>しと</rt></ruby>と<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に\\n<ruby><rb>市街地</rb><rt>しがいち</rt></ruby>を<ruby><rb>調</rb><rt>しら</rt></ruby>べてくる。",
+        "zh_cn": "好，大伙帮忙把难民转移到\\n陆上客船去。我和使徒\\n一起去调查市内。",
+        "zh_tw": "好。大家帶難民移動到陸上客船吧。\\n我和使徒一起去市區調查。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0019",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "There's room on the landship for everyone,\\nso please proceed quickly and calmly.",
+        "ja_jp": "<ruby><rb>陸上客船</rb><rt>りくじょうきゃくせん</rt></ruby>には<ruby><rb>全員</rb><rt>ぜんいん</rt></ruby><ruby><rb>乗</rb><rt>の</rt></ruby>れます。みなさん\\n<ruby><rb>落</rb><rt>お</rt></ruby>ち<ruby><rb>着</rb><rt>つ</rt></ruby>いて<ruby><rb>行動</rb><rt>こうどう</rt></ruby>してください。",
+        "zh_cn": "陆上客船能容纳所有人，\\n大家行动时请不要慌张。",
+        "zh_tw": "所有人都能搭上陸上客船。\\n請大家保持冷靜行動。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0020",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Man's Voice",
+        "ja_jp": "男の声",
+        "zh_cn": "男性的声音",
+        "zh_tw": "男性的聲音"
+      },
+      "context": {
+        "en_us": "The Watch gave you clear instructions, sir.\\nNow kindly shut up and follow them.",
+        "ja_jp": "だから<ruby><rb>俺</rb><rt>おれ</rt></ruby>たち<ruby><rb>自警団</rb><rt>じけいだん</rt></ruby>の<ruby><rb>指示</rb><rt>しじ</rt></ruby>に<ruby><rb>従</rb><rt>したが</rt></ruby>えって\\n<ruby><rb>言</rb><rt>い</rt></ruby>っているだろ。",
+        "zh_cn": "不是说了让你们\\n听从我们自卫团的指挥了吗。",
+        "zh_tw": "我不是叫你聽從我們自警團的指示了嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0021",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Grams Noble",
+        "ja_jp": "グラムスの貴族",
+        "zh_cn": "格拉姆斯贵族",
+        "zh_tw": "葛拉姆斯的貴族"
+      },
+      "context": {
+        "en_us": "A crowded, shared room is unacceptable!\\nHere in Grams, one's station in the Canon\\naffords a person certain privileges.",
+        "ja_jp": "<ruby><rb>混</rb><rt>こ</rt></ruby>みあった<ruby><rb>相部屋</rb><rt>あいべや</rt></ruby>ではダメだ。ワシの\\n<ruby><rb>聖級</rb><rt>せいきゅう</rt></ruby>の<ruby><rb>高</rb><rt>たか</rt></ruby>さに<ruby><rb>免</rb><rt>めん</rt></ruby>じて、<ruby><rb>融通</rb><rt>ゆうずう</rt></ruby>を<ruby><rb>利</rb><rt>き</rt></ruby>かせる\\nのがグラムス<ruby><rb>市民</rb><rt>しみん</rt></ruby>の<ruby><rb>道理</rb><rt>どうり</rt></ruby>のはずだぞ。",
+        "zh_cn": "我拒绝和那么多人同住一室。\\n我的圣级很高，你们给我行方便\\n才是格拉姆斯市民该做的。",
+        "zh_tw": "怎麼能讓我與別人共擠一間房。\\n看在我高階聖級的份上，\\n身為葛拉姆斯市民就該通融一下才對吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0022",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Slum Leader",
+        "ja_jp": "貧民窟のリーダー",
+        "zh_cn": "贫民窟头领",
+        "zh_tw": "貧民窟首領"
+      },
+      "context": {
+        "en_us": "It's always the same with you nobles and\\nyour Canon! You don't do a damned thing,\\nthen you strut around like everybody owes\\nyou some kind of favor!",
+        "ja_jp": "<ruby><rb>聖級</rb><rt>せいきゅう</rt></ruby>、<ruby><rb>聖級</rb><rt>せいきゅう</rt></ruby>って……あんたら<ruby><rb>上流階級</rb><rt>じょうりゅうかいきゅう</rt></ruby>は\\nいつもそうだ。<ruby><rb>何</rb><rt>なに</rt></ruby>もしないくせに\\n<ruby><rb>聖級</rb><rt>せいきゅう</rt></ruby>を<ruby><rb>笠</rb><rt>かさ</rt></ruby>に<ruby><rb>威張</rb><rt>いば</rt></ruby>り<ruby><rb>散</rb><rt>ち</rt></ruby>らしやがって！",
+        "zh_cn": "圣级圣级……你们上流阶级\\n总是这样，明明什么都不干，\\n却总是仗着圣级作威作福！",
+        "zh_tw": "滿口聖級、聖級……你們這些上流階級\\n老是這樣。明明什麼都不做，\\n卻仗著聖級到處擺架子！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0023",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Grams Noble",
+        "ja_jp": "グラムスの貴族",
+        "zh_cn": "格拉姆斯贵族",
+        "zh_tw": "葛拉姆斯的貴族"
+      },
+      "context": {
+        "en_us": "Why, you impertinent wretch! How dare a\\nlowlife like yourself even speak to me?!",
+        "ja_jp": "き、<ruby><rb>貴様</rb><rt>きさま</rt></ruby>……<ruby><rb>貧民</rb><rt>ひんみん</rt></ruby>のくせに<ruby><rb>生意気</rb><rt>なまいき</rt></ruby>だぞ！",
+        "zh_cn": "你、你这家伙……\\n一介贫民竟敢如此嚣张！",
+        "zh_tw": "你、你這傢伙……\\n區區貧民竟敢這麼狂妄！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0024",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Enough! We don't have time for this!",
+        "ja_jp": "ちょっと！　<ruby><rb>争</rb><rt>あらそ</rt></ruby>いはやめてください！",
+        "zh_cn": "住口！不要再吵了！",
+        "zh_tw": "等一下！請你們不要吵架！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0025",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Slum Leader",
+        "ja_jp": "貧民窟のリーダー",
+        "zh_cn": "贫民窟头领",
+        "zh_tw": "貧民窟首領"
+      },
+      "context": {
+        "en_us": "Don't try to stop me, apostle! These noble\\ntypes will never learn unless you pound a\\nlesson into their thick skulls!",
+        "ja_jp": "<ruby><rb>止</rb><rt>と</rt></ruby>めるな、<ruby><rb>使徒</rb><rt>しと</rt></ruby>の<ruby><rb>姉</rb><rt>ねえ</rt></ruby>ちゃん！　こいつら\\n<ruby><rb>貴族</rb><rt>きぞく</rt></ruby>サマには<ruby><rb>一回</rb><rt>いっかい</rt></ruby>わからせないと……！",
+        "zh_cn": "使徒小姐，你别管！\\n得给这些贵族老爷\\n一点教训……",
+        "zh_tw": "別阻止我，使徒小姐！\\n不讓這些貴族嘗一次苦頭不行……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0026",
+      "book": ""
+    },
+    {
+      "icon": "100042_01",
+      "name": {
+        "en_us": "Gatov",
+        "ja_jp": "ガトフ",
+        "zh_cn": "迦道夫",
+        "zh_tw": "葛托夫"
+      },
+      "context": {
+        "en_us": "She said ＂enough.＂",
+        "ja_jp": "<ruby><rb>双方</rb><rt>そうほう</rt></ruby>、やめないか。",
+        "zh_cn": "你们都住手。",
+        "zh_tw": "雙方，還不住手。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0027",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Slum Leader",
+        "ja_jp": "貧民窟のリーダー",
+        "zh_cn": "贫民窟头领",
+        "zh_tw": "貧民窟首領"
+      },
+      "context": {
+        "en_us": "C-Captain!",
+        "ja_jp": "<ruby><rb>団長</rb><rt>だんちょう</rt></ruby>……。",
+        "zh_cn": "团长……",
+        "zh_tw": "團長……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0028",
+      "book": ""
+    },
+    {
+      "icon": "100042_01",
+      "name": {
+        "en_us": "Gatov",
+        "ja_jp": "ガトフ",
+        "zh_cn": "迦道夫",
+        "zh_tw": "葛托夫"
+      },
+      "context": {
+        "en_us": "Social standing means nothing when\\nweighed against the lives of both\\nourselves and those we hold dear.",
+        "ja_jp": "<ruby><rb>我々</rb><rt>われわれ</rt></ruby>は<ruby><rb>守</rb><rt>まも</rt></ruby>らなければならない。\\n<ruby><rb>自</rb><rt>みずか</rt></ruby>らの<ruby><rb>命</rb><rt>いのち</rt></ruby>と<ruby><rb>大切</rb><rt>たいせつ</rt></ruby>に<ruby><rb>想</rb><rt>おも</rt></ruby>う<ruby><rb>者</rb><rt>もの</rt></ruby>の<ruby><rb>命</rb><rt>いのち</rt></ruby>を。\\nそこに<ruby><rb>身分</rb><rt>みぶん</rt></ruby>の<ruby><rb>貴賤</rb><rt>きせん</rt></ruby>はない。",
+        "zh_cn": "生命不分贵贱。无论是自己的生命，\\n还是自己所珍视之人的生命，\\n我们都要一并去守护。",
+        "zh_tw": "我們應盡的責任，\\n是守護自身與珍視之人的性命。\\n當中沒有高低貴賤之分。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0029",
+      "book": ""
+    },
+    {
+      "icon": "100042_01",
+      "name": {
+        "en_us": "Gatov",
+        "ja_jp": "ガトフ",
+        "zh_cn": "迦道夫",
+        "zh_tw": "葛托夫"
+      },
+      "context": {
+        "en_us": "You. Nobleman. The Watch holds all lives\\nin equal esteem, and we are attempting to\\nsave as many as we can here.",
+        "ja_jp": "<ruby><rb>貴族</rb><rt>きぞく</rt></ruby>の<ruby><rb>御方</rb><rt>おかた</rt></ruby>。<ruby><rb>我々</rb><rt>われわれ</rt></ruby><ruby><rb>自警団</rb><rt>じけいだん</rt></ruby>は\\n<ruby><rb>同</rb><rt>おな</rt></ruby>じ<ruby><rb>命</rb><rt>いのち</rt></ruby>の<ruby><rb>尊</rb><rt>とうと</rt></ruby>さを<ruby><rb>知</rb><rt>し</rt></ruby>る<ruby><rb>人間</rb><rt>にんげん</rt></ruby>として、\\nひとりでも<ruby><rb>多</rb><rt>おお</rt></ruby>くの<ruby><rb>市民</rb><rt>しみん</rt></ruby>を<ruby><rb>救</rb><rt>すく</rt></ruby>いたい。",
+        "zh_cn": "这位贵族，我们自卫团\\n懂得每一条生命的宝贵，\\n所以能多救一个市民是一个。",
+        "zh_tw": "貴族先生。\\n我們自警團身為深知生命尊貴之人，\\n想要盡可能拯救更多市民。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0030",
+      "book": ""
+    },
+    {
+      "icon": "100042_01",
+      "name": {
+        "en_us": "Gatov",
+        "ja_jp": "ガトフ",
+        "zh_cn": "迦道夫",
+        "zh_tw": "葛托夫"
+      },
+      "context": {
+        "en_us": "I'm sure you have your own circumstances,\\nbut as this is an emergency, I ask your\\ncooperation in the name of decency.",
+        "ja_jp": "<ruby><rb>貴公</rb><rt>きこう</rt></ruby>にも<ruby><rb>事情</rb><rt>じじょう</rt></ruby>があるのかもしれぬが、\\n<ruby><rb>今</rb><rt>いま</rt></ruby>は<ruby><rb>火急</rb><rt>かきゅう</rt></ruby>の<ruby><rb>事態</rb><rt>じたい</rt></ruby>だ。ここは<ruby><rb>我々</rb><rt>われわれ</rt></ruby>を\\n<ruby><rb>助</rb><rt>たす</rt></ruby>けると<ruby><rb>思</rb><rt>おも</rt></ruby>ってこらえてほしい。",
+        "zh_cn": "你也许有你的苦衷，\\n不过现在事态紧急，你就当是\\n帮我们一个忙，忍耐一下。",
+        "zh_tw": "或許你也有你的理由，\\n但此刻事態緊急。\\n希望你當作是幫助我們，稍微忍耐。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0031",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Grams Noble",
+        "ja_jp": "グラムスの貴族",
+        "zh_cn": "格拉姆斯贵族",
+        "zh_tw": "葛拉姆斯的貴族"
+      },
+      "context": {
+        "en_us": "Rrrgh...",
+        "ja_jp": "うっ……。",
+        "zh_cn": "唔……",
+        "zh_tw": "唔……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0032",
+      "book": ""
+    },
+    {
+      "icon": "100042_01",
+      "name": {
+        "en_us": "Gatov",
+        "ja_jp": "ガトフ",
+        "zh_cn": "迦道夫",
+        "zh_tw": "葛托夫"
+      },
+      "context": {
+        "en_us": "And you. Take a look around. It's past time\\nto cast aside yesterday's resentments.",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>も、<ruby><rb>今</rb><rt>いま</rt></ruby>は<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>が<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>だ。\\nこれまでのしがらみは<ruby><rb>捨</rb><rt>す</rt></ruby>て<ruby><rb>置</rb><rt>お</rt></ruby>け。",
+        "zh_cn": "你也是，现在要以大局为重，\\n放下之前的恩怨隔阂吧。",
+        "zh_tw": "你也是，現在該以大局為重。\\n把過去的糾葛放下吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0033",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Slum Leader",
+        "ja_jp": "貧民窟のリーダー",
+        "zh_cn": "贫民窟头领",
+        "zh_tw": "貧民窟首領"
+      },
+      "context": {
+        "en_us": "Apologies, sir. With all that's happening,\\nI lost control there for a second.",
+        "ja_jp": "すみません、<ruby><rb>頭</rb><rt>あたま</rt></ruby>に<ruby><rb>血</rb><rt>ち</rt></ruby>が\\nのぼっていました……。",
+        "zh_cn": "对不起，一时冲动就……",
+        "zh_tw": "對不起，剛才是我一時衝動……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0034",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Grams Noble",
+        "ja_jp": "グラムスの貴族",
+        "zh_cn": "格拉姆斯贵族",
+        "zh_tw": "葛拉姆斯的貴族"
+      },
+      "context": {
+        "en_us": "And perhaps I was in the wrong as well.\\nI have a sickly granddaughter with me,\\nyou see, and I merely hoped to secure\\nher a private room.",
+        "ja_jp": "……ワシもすまなかった。<ruby><rb>病弱</rb><rt>びょうじゃく</rt></ruby>な\\n<ruby><rb>孫娘</rb><rt>まごむすめ</rt></ruby>がいて、あの<ruby><rb>子</rb><rt>こ</rt></ruby>のために<ruby><rb>個室</rb><rt>こしつ</rt></ruby>を\\n<ruby><rb>用意</rb><rt>ようい</rt></ruby>したかったのだ。",
+        "zh_cn": "我也要道歉……\\n因为我孙女体弱多病，\\n我就想给她准备一间单人房。",
+        "zh_tw": "……我也很抱歉。\\n因為我孫女身體不好，\\n所以才想為她準備單人房。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0035",
+      "book": ""
+    },
+    {
+      "icon": "120026_01",
+      "name": {
+        "en_us": "Grams Noble",
+        "ja_jp": "グラムスの貴族",
+        "zh_cn": "格拉姆斯贵族",
+        "zh_tw": "葛拉姆斯的貴族"
+      },
+      "context": {
+        "en_us": "I will take any accommodations you wish,\\nbut I ask you to put her in a quiet place.\\nShe has just lost her father, and the shock\\nof the incident has worsened her condition.",
+        "ja_jp": "せめて、<ruby><rb>孫娘</rb><rt>まごむすめ</rt></ruby>だけは<ruby><rb>静</rb><rt>しず</rt></ruby>かな<ruby><rb>部屋</rb><rt>へや</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>れて\\nもらえないか？　<ruby><rb>司祭</rb><rt>しさい</rt></ruby>の<ruby><rb>父親</rb><rt>ちちおや</rt></ruby>を<ruby><rb>失</rb><rt>な</rt></ruby>くした\\nショックであの<ruby><rb>子</rb><rt>こ</rt></ruby>の<ruby><rb>症状</rb><rt>しょうじょう</rt></ruby>は……。",
+        "zh_cn": "能不能至少给我孙女一个\\n安静的房间？当祭司的父亲去世，\\n她大受打击，病情就……",
+        "zh_tw": "能不能、請你至少為我孫女安排\\n安靜的房間呢？失去祭司父親的打擊，\\n讓那孩子的症狀……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0036",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Slum Leader",
+        "ja_jp": "貧民窟のリーダー",
+        "zh_cn": "贫民窟头领",
+        "zh_tw": "貧民窟首領"
+      },
+      "context": {
+        "en_us": "Then you should stay with her. I'll try to\\nget you in a cabin close to the sickbay.",
+        "ja_jp": "わかった。あんたたちを<ruby><rb>医務室</rb><rt>いむしつ</rt></ruby>に<ruby><rb>近</rb><rt>ちか</rt></ruby>い\\n<ruby><rb>船室</rb><rt>せんしつ</rt></ruby>に<ruby><rb>割</rb><rt>わ</rt></ruby>り<ruby><rb>当</rb><rt>あ</rt></ruby>てるよう<ruby><rb>掛</rb><rt>か</rt></ruby>け<ruby><rb>合</rb><rt>あ</rt></ruby>ってみる。\\nそこでお<ruby><rb>孫</rb><rt>まご</rt></ruby>さんについているといい。",
+        "zh_cn": "明白了，我去给你们\\n争取一个离医务室近的船舱。\\n你陪你孙女一起待在那里就行。",
+        "zh_tw": "我知道了。我去商量看看能不能\\n為你們安排醫務室附近的客艙。\\n你就陪在你孫女身邊吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0037",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Thank you for intervening.",
+        "ja_jp": "ありがとうございます。\\nおかげで<ruby><rb>助</rb><rt>たす</rt></ruby>かりました。",
+        "zh_cn": "谢谢你，\\n真是帮大忙了。",
+        "zh_tw": "謝謝你。\\n多虧有你才幫了我們大忙。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0038",
+      "book": ""
+    },
+    {
+      "icon": "100042_01",
+      "name": {
+        "en_us": "Gatov",
+        "ja_jp": "ガトフ",
+        "zh_cn": "迦道夫",
+        "zh_tw": "葛托夫"
+      },
+      "context": {
+        "en_us": "You look fatigued, Pinon, and I can only\\nassume you have been working without\\npause for some time. Please, leave the\\nrest of this to me.",
+        "ja_jp": "ピノン<ruby><rb>殿</rb><rt>どの</rt></ruby>、<ruby><rb>疲</rb><rt>つか</rt></ruby>れが<ruby><rb>見</rb><rt>み</rt></ruby>えるな。\\nこれまで<ruby><rb>休</rb><rt>やす</rt></ruby>まず<ruby><rb>働</rb><rt>はたら</rt></ruby>き<ruby><rb>続</rb><rt>つづ</rt></ruby>けたのだろう。\\nここは<ruby><rb>私</rb><rt>わたし</rt></ruby>に<ruby><rb>任</rb><rt>まか</rt></ruby>せて<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>休</rb><rt>やす</rt></ruby>むといい。",
+        "zh_cn": "皮诺阁下，你看起来很累，\\n一直不眠不休地在工作吧。\\n这里就交给我，你去休息一下吧。",
+        "zh_tw": "琵儂閣下，看起來有些疲憊呢。\\n妳一直工作都未休息吧。\\n這裡交給我來，請稍微休息一下吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0039",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "You're very kind, but I can't do that.\\nMy time is limited, so I need to—",
+        "ja_jp": "そうはいきません。<ruby><rb>時間</rb><rt>じかん</rt></ruby>は<ruby><rb>限</rb><rt>かぎ</rt></ruby>られて\\nいますから、<ruby><rb>今</rb><rt>いま</rt></ruby>は<ruby><rb>少</rb><rt>すこ</rt></ruby>しでも……。",
+        "zh_cn": "这怎么行。时间有限，\\n现在要尽可能地……",
+        "zh_tw": "我不能這麼做。\\n時間有限，現在得盡量……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0040",
+      "book": ""
+    },
+    {
+      "icon": "100042_01",
+      "name": {
+        "en_us": "Gatov",
+        "ja_jp": "ガトフ",
+        "zh_cn": "迦道夫",
+        "zh_tw": "葛托夫"
+      },
+      "context": {
+        "en_us": "Respectfully, I understand your hurry. \\nBut a moment's rest can oft permit us to\\naccomplish far more in a limited time.",
+        "ja_jp": "<ruby><rb>貴公</rb><rt>きこう</rt></ruby>が<ruby><rb>焦</rb><rt>あせ</rt></ruby>る<ruby><rb>気持</rb><rt>きも</rt></ruby>ちはわかる。だが、\\n<ruby><rb>想</rb><rt>おも</rt></ruby>いを<ruby><rb>十全</rb><rt>じゅうぜん</rt></ruby>に<ruby><rb>果</rb><rt>は</rt></ruby>たしたいならば、\\n<ruby><rb>立</rb><rt>た</rt></ruby>ち<ruby><rb>止</rb><rt>ど</rt></ruby>まる<ruby><rb>事</rb><rt>こと</rt></ruby>も<ruby><rb>大切</rb><rt>たいせつ</rt></ruby>だ。",
+        "zh_cn": "我理解你焦急的心情，\\n但要想实现你的心愿，\\n适当地停下脚步也很重要。",
+        "zh_tw": "我明白妳感到焦慮的心情。\\n但是，若妳想徹底貫徹意志，\\n停下腳步也是很重要的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0041",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "...Your point is well-taken, sir.",
+        "ja_jp": "……はい。",
+        "zh_cn": "好吧……",
+        "zh_tw": "……好的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0042",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "*sigh* I suppose I ought to take my own\\nadvice before leveling it at Basileus.",
+        "ja_jp": "……ふぅ。これではヴァースの<ruby><rb>事</rb><rt>こと</rt></ruby>を\\n<ruby><rb>言</rb><rt>い</rt></ruby>えませんね。",
+        "zh_cn": "呼……我这样\\n也没资格说法斯呢。",
+        "zh_tw": "……呼。\\n這樣子我也沒資格說梵斯呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0043",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "Thank you for all of your hard work.\\nI brought some fresh water.",
+        "ja_jp": "お<ruby><rb>疲</rb><rt>つか</rt></ruby>れ<ruby><rb>様</rb><rt>さま</rt></ruby>です。よろしければこれ、\\n<ruby><rb>差</rb><rt>さ</rt></ruby>し<ruby><rb>入</rb><rt>い</rt></ruby>れのお<ruby><rb>水</rb><rt>みず</rt></ruby>です。",
+        "zh_cn": "辛苦了。我带来了水，\\n请喝一点吧。",
+        "zh_tw": "辛苦了。如果不嫌棄的話，\\n請喝些水休息一下吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0044",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Thank you, Zena. That's very kind.",
+        "ja_jp": "ああ、ゼーナさん。\\nお<ruby><rb>気遣</rb><rt>きづか</rt></ruby>い、ありがとうございます。",
+        "zh_cn": "啊，泽娜。\\n谢谢你的关心。",
+        "zh_tw": "啊啊，潔那小姐。\\n謝謝妳的關心。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0045",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "Where is Basileus?",
+        "ja_jp": "ヴァースさんはあれからどうして\\nいますか？",
+        "zh_cn": "那之后，法斯怎么样了？",
+        "zh_tw": "梵斯先生在那之後怎麼樣了呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0046",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "With the prince. They're scouting the city\\nfor a possible route through the miasma.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>は<ruby><rb>王子</rb><rt>おうじ</rt></ruby>と<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>にサタンの<ruby><rb>瘴気</rb><rt>しょうき</rt></ruby>を\\n<ruby><rb>突破</rb><rt>とっぱ</rt></ruby>できるルートがないか<ruby><rb>市街地</rb><rt>しがいち</rt></ruby>で\\n<ruby><rb>調査中</rb><rt>ちょうさちゅう</rt></ruby>です。",
+        "zh_cn": "他现在和王子一起去调查市区了，\\n看有没有能突破撒旦瘴气的路线。",
+        "zh_tw": "他現在和王子一起去市區調查\\n有沒有能突破撒旦瘴氣的路線了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0047",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "He promised to share the results of his\\nsearch so that another might take up\\nthe fight for Origa after he dies.",
+        "ja_jp": "<ruby><rb>調査</rb><rt>ちょうさ</rt></ruby><ruby><rb>結果</rb><rt>けっか</rt></ruby>は<ruby><rb>必</rb><rt>かなら</rt></ruby>ず<ruby><rb>共有</rb><rt>きょうゆう</rt></ruby>すると<ruby><rb>言</rb><rt>い</rt></ruby>って\\nいました。<ruby><rb>自分</rb><rt>じぶん</rt></ruby>が<ruby><rb>死</rb><rt>し</rt></ruby>んだ<ruby><rb>場合</rb><rt>ばあい</rt></ruby>、\\nオリガさんを<ruby><rb>他</rb><rt>ほか</rt></ruby>の<ruby><rb>人</rb><rt>ひと</rt></ruby>たちに<ruby><rb>託</rb><rt>たく</rt></ruby>すために。",
+        "zh_cn": "他说一定会告诉我们调查结果。\\n为了在自己死掉之后\\n能把奥莉加托付给其他人。",
+        "zh_tw": "他說一定會和我們共享調查結果。\\n為了當自己死去的時候，\\n能將奧莉加小姐托付給其他人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0048",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "It seems your words got through to him.",
+        "ja_jp": "ピノンさんの<ruby><rb>言葉</rb><rt>ことば</rt></ruby>が<ruby><rb>届</rb><rt>とど</rt></ruby>いたのですね。",
+        "zh_cn": "看来你的话奏效了啊。",
+        "zh_tw": "琵儂小姐的話傳達給他了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0049",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Well, they'd better have. Traitor or no,\\nthat's how an apostle is supposed to be.",
+        "ja_jp": "そうでなくては<ruby><rb>困</rb><rt>こま</rt></ruby>ります。\\n<ruby><rb>裏切</rb><rt>うらぎ</rt></ruby>り<ruby><rb>者</rb><rt>もの</rt></ruby>とはいえ、それが<ruby><rb>使徒</rb><rt>しと</rt></ruby>の\\nあるべき<ruby><rb>姿</rb><rt>すがた</rt></ruby>ですから。",
+        "zh_cn": "不奏效就伤脑筋了。\\n就算他是叛徒，\\n也要有使徒该有的样子。",
+        "zh_tw": "如果沒傳達到就傷腦筋了。\\n儘管他是叛徒，\\n但也該有個使徒的樣子。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0050",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "If we waste what little time remains to us,\\nit means Gabriel and all the other angels\\nwill have died in vain.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>たちは<ruby><rb>残</rb><rt>のこ</rt></ruby>りわずかな<ruby><rb>時間</rb><rt>じかん</rt></ruby>を<ruby><rb>無駄</rb><rt>むだ</rt></ruby>には\\nできません。でないと<ruby><rb>天使</rb><rt>てんし</rt></ruby>たちの……\\nガブリエルの<ruby><rb>死</rb><rt>し</rt></ruby>が<ruby><rb>無駄</rb><rt>むだ</rt></ruby>になりますから。",
+        "zh_cn": "我们不能浪费所剩无几的时间。\\n不然天使他们……\\n加百列就白死了。",
+        "zh_tw": "我們不能浪費所剩不多的時間。\\n不然天使們的……\\n加百列的死也會白費。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0051",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "She was like a mother to you, wasn't she?",
+        "ja_jp": "ガブリエルさんはピノンさんの\\n<ruby><rb>母親</rb><rt>ははおや</rt></ruby><ruby><rb>代</rb><rt>が</rt></ruby>わりだったんですよね。",
+        "zh_cn": "加百列对你来说，\\n就像母亲一样吧。",
+        "zh_tw": "加百列小姐對琵儂小姐而言，\\n是類似母親一般的存在對吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0052",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "You're acting quite resolute, but I know\\nit is so painful to lose a parent.",
+        "ja_jp": "<ruby><rb>気丈</rb><rt>きじょう</rt></ruby>に<ruby><rb>振舞</rb><rt>ふるま</rt></ruby>われていますけど、\\n<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>は<ruby><rb>辛</rb><rt>つら</rt></ruby>いんじゃないですか？\\n<ruby><rb>母親</rb><rt>ははおや</rt></ruby><ruby><rb>代</rb><rt>が</rt></ruby>わりの<ruby><rb>人</rb><rt>ひと</rt></ruby>を<ruby><rb>失</rb><rt>うしな</rt></ruby>って……。",
+        "zh_cn": "你虽然表现得很坚强，\\n但其实心里很难受吧？\\n失去了像母亲一样的存在……",
+        "zh_tw": "雖然妳表現得非常堅強，\\n但內心一定很難過吧，\\n失去了如母親一般的存在……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0053",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Yes, but making a show of that pain\\nwon't change anything.",
+        "ja_jp": "……<ruby><rb>辛</rb><rt>つら</rt></ruby>いからといって、それを<ruby><rb>表</rb><rt>おもて</rt></ruby>に\\n<ruby><rb>出</rb><rt>だ</rt></ruby>したところで<ruby><rb>何</rb><rt>なに</rt></ruby>も<ruby><rb>変</rb><rt>か</rt></ruby>わりませんよ。",
+        "zh_cn": "虽说难受……但显露于色\\n也无济于事啊。",
+        "zh_tw": "……雖然很難過，\\n但就算表現出來也什麼都無法改變的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0054",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "Truly? When I lost my own mother,\\nI broke down in tears.",
+        "ja_jp": "そうでしょうか……？　\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>母</rb><rt>はは</rt></ruby>が<ruby><rb>亡</rb><rt>な</rt></ruby>くなった<ruby><rb>時</rb><rt>とき</rt></ruby>、\\n<ruby><rb>泣</rb><rt>な</rt></ruby>きじゃくりました。",
+        "zh_cn": "是这样吗……\\n我母亲去世的时候，\\n我就大哭了一场。",
+        "zh_tw": "是這樣嗎……？\\n我母親去世時，我哭得非常傷心。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0055",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "I thought of all I had left to say to her.\\nOf all the affection I would be missing.\\nAfter that, the feelings just...flooded out.",
+        "ja_jp": "もっとお<ruby><rb>話</rb><rt>はなし</rt></ruby>したかった。\\nもっと<ruby><rb>甘</rb><rt>あま</rt></ruby>えていたかった。\\nそんな<ruby><rb>思</rb><rt>おも</rt></ruby>いがとめどなくあふれました。",
+        "zh_cn": "想再和她多说说话，\\n多撒撒娇——\\n这种想法止不住地涌出。",
+        "zh_tw": "好想多跟她說說話。\\n好想多向她撒撒嬌。\\n這些想法在我心中不斷地湧出。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0056",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "But in the wake of that flood, I found peace\\nof mind and the clarity to move forward.",
+        "ja_jp": "だけど、そのおかげで<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>で\\n<ruby><rb>母</rb><rt>はは</rt></ruby>の<ruby><rb>死</rb><rt>し</rt></ruby>を<ruby><rb>整理</rb><rt>せいり</rt></ruby>して、<ruby><rb>前</rb><rt>まえ</rt></ruby>を<ruby><rb>向</rb><rt>む</rt></ruby>く<ruby><rb>事</rb><rt>こと</rt></ruby>が\\nできました。",
+        "zh_cn": "但是，多亏如此\\n我才慢慢接受了母亲的去世，\\n变得能向前看了。",
+        "zh_tw": "但是，也因此我才能在母親死後\\n好好整理自己的情緒，\\n重新振作起來。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0057",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "I believe our tears can make us stronger,\\nso why not take this brief respite to allow\\nyourself to...feel?",
+        "ja_jp": "<ruby><rb>泣</rb><rt>な</rt></ruby>いて<ruby><rb>強</rb><rt>つよ</rt></ruby>くなれる<ruby><rb>事</rb><rt>こと</rt></ruby>もあります。\\n<ruby><rb>今</rb><rt>いま</rt></ruby>だけは<ruby><rb>無理</rb><rt>むり</rt></ruby>をしなくても\\nいいんですよ？",
+        "zh_cn": "哭泣也可以使人坚强。\\n这种时候不需要硬撑着哦？",
+        "zh_tw": "哭泣有時能讓人變得堅強。\\n現在不用逞強也沒關係喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0058",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Thank you for your thoughts, but I am an\\napostle charged with dispensing justice.",
+        "ja_jp": "……ありがとうございます。だけど、\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>正義</rb><rt>せいぎ</rt></ruby>を<ruby><rb>執行</rb><rt>しっこう</rt></ruby>する<ruby><rb>使徒</rb><rt>しと</rt></ruby>です。",
+        "zh_cn": "谢谢你……但是，\\n我是行使正义的使徒。",
+        "zh_tw": "……謝謝妳。\\n但是，我是執行正義的使徒。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0059",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "As one tasked with giving others hope,\\nI cannot permit any weakness to show.",
+        "ja_jp": "<ruby><rb>人々</rb><rt>ひとびと</rt></ruby>の<ruby><rb>救</rb><rt>すく</rt></ruby>いになる<ruby><rb>者</rb><rt>もの</rt></ruby>として、<ruby><rb>弱</rb><rt>よわ</rt></ruby>い<ruby><rb>自分</rb><rt>じぶん</rt></ruby>を\\nさらけ<ruby><rb>出</rb><rt>だ</rt></ruby>す<ruby><rb>事</rb><rt>こと</rt></ruby>はできませんから……。",
+        "zh_cn": "作为拯救众人的存在，\\n不能暴露自己软弱的一面……",
+        "zh_tw": "身為拯救人們的存在，\\n我不能展現出脆弱的自己……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0060",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Julietta",
+        "ja_jp": "ジュリエッタ",
+        "zh_cn": "朱丽叶",
+        "zh_tw": "朱莉葉塔"
+      },
+      "context": {
+        "en_us": "Now, now. Please don't cry.",
+        "ja_jp": "ああ、<ruby><rb>泣</rb><rt>な</rt></ruby>かないでくださいまし。",
+        "zh_cn": "啊，请不要哭了。",
+        "zh_tw": "啊啊，請妳別再哭了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0061",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "What's wrong, Julietta?",
+        "ja_jp": "ジュリエッタさん、どうしましたか？",
+        "zh_cn": "朱丽叶，怎么了？",
+        "zh_tw": "朱莉葉塔小姐，怎麼了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0062",
+      "book": ""
+    },
+    {
+      "icon": "110042_01",
+      "name": {
+        "en_us": "Julietta",
+        "ja_jp": "ジュリエッタ",
+        "zh_cn": "朱丽叶",
+        "zh_tw": "朱莉葉塔"
+      },
+      "context": {
+        "en_us": "Ah, Zena. It seems this poor dear\\nhas lost track of her pet cat.",
+        "ja_jp": "ゼーナさん。この<ruby><rb>子</rb><rt>こ</rt></ruby>が<ruby><rb>飼</rb><rt>か</rt></ruby>い<ruby><rb>猫</rb><rt>ねこ</rt></ruby>と\\nはぐれてしまったらしくて……。",
+        "zh_cn": "泽娜，这孩子好像\\n跟她的猫走散了……",
+        "zh_tw": "潔那小姐。\\n這孩子的寵物貓好像走失了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0063",
+      "book": ""
+    },
+    {
+      "icon": "120015_01",
+      "name": {
+        "en_us": "Mother",
+        "ja_jp": "母親",
+        "zh_cn": "母亲",
+        "zh_tw": "母親"
+      },
+      "context": {
+        "en_us": "There's no time to look for her now, child.\\nWe must hurry to the ship.",
+        "ja_jp": "<ruby><rb>捜</rb><rt>さが</rt></ruby>している<ruby><rb>時間</rb><rt>じかん</rt></ruby>はないわ。\\n<ruby><rb>早</rb><rt>はや</rt></ruby>く<ruby><rb>船</rb><rt>ふね</rt></ruby>に<ruby><rb>向</rb><rt>む</rt></ruby>かわないと。",
+        "zh_cn": "没时间去找了。\\n得赶紧上船才行。",
+        "zh_tw": "現在沒時間找了。\\n得快點去搭船才行。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0064",
+      "book": ""
+    },
+    {
+      "icon": "110042_01",
+      "name": {
+        "en_us": "Girl",
+        "ja_jp": "少女",
+        "zh_cn": "少女",
+        "zh_tw": "女孩"
+      },
+      "context": {
+        "en_us": "Nooo! Mimi is family!",
+        "ja_jp": "でも、ミィちゃんも<ruby><rb>家族</rb><rt>かぞく</rt></ruby>だもん。",
+        "zh_cn": "但是，阿咪也是家人啊。",
+        "zh_tw": "可是，小咪也是家人啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0065",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Well, it wouldn't do to leave a precious\\nfamily member behind.",
+        "ja_jp": "<ruby><rb>家族</rb><rt>かぞく</rt></ruby>……そうですね。<ruby><rb>大切</rb><rt>たいせつ</rt></ruby>な<ruby><rb>家族</rb><rt>かぞく</rt></ruby>を\\n<ruby><rb>置</rb><rt>お</rt></ruby>いてはいけませんよね。",
+        "zh_cn": "家人……是啊，\\n不能丢下重要的家人不管。",
+        "zh_tw": "家人……說得也是。\\n重要的家人怎麼能丟下不管呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0066",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Don't worry. I will find Mimi.",
+        "ja_jp": "<ruby><rb>安心</rb><rt>あんしん</rt></ruby>してください。ミィちゃんは\\n<ruby><rb>必</rb><rt>かなら</rt></ruby>ず<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>見</rb><rt>み</rt></ruby>つけますから。",
+        "zh_cn": "请放心，\\n我一定会找到阿咪的。",
+        "zh_tw": "請妳放心。我一定會找到小咪的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0067",
+      "book": ""
+    },
+    {
+      "icon": "110013_01",
+      "name": {
+        "en_us": "Waike",
+        "ja_jp": "ウェイク",
+        "zh_cn": "威克",
+        "zh_tw": "威克"
+      },
+      "context": {
+        "en_us": "The cat was last seen near this sewer\\nentrance, right?",
+        "ja_jp": "そのミィちゃんの<ruby><rb>目撃</rb><rt>もくげき</rt></ruby>があったのは\\nこの<ruby><rb>地下</rb><rt>ちか</rt></ruby><ruby><rb>水路</rb><rt>すいろ</rt></ruby>の<ruby><rb>入</rb><rt>い</rt></ruby>り<ruby><rb>口</rb><rt>ぐち</rt></ruby>なんだよな。",
+        "zh_cn": "有人在这条地下水道的\\n入口处看到过阿咪是吧。",
+        "zh_tw": "那隻小咪被目擊到的地點，\\n就是這條地下水道的入口沒錯吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0068",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Yes. ...Thank you all. I'm sorry to take your\\ntime during an emergency.",
+        "ja_jp": "はい。……すみません。\\nみなさんにまで<ruby><rb>手伝</rb><rt>てつだ</rt></ruby>わせてしまって。",
+        "zh_cn": "是的……不好意思，\\n还让大家帮忙一起找。",
+        "zh_tw": "是的……抱歉，\\n還讓大家一起來幫忙。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0069",
+      "book": ""
+    },
+    {
+      "icon": "110008_01",
+      "name": {
+        "en_us": "Karl",
+        "ja_jp": "カール",
+        "zh_cn": "卡尔",
+        "zh_tw": "卡爾"
+      },
+      "context": {
+        "en_us": "There's always time for a little bonus\\njustice from the Karlsplosion!",
+        "ja_jp": "これくらいのジャスティス、\\nお<ruby><rb>安</rb><rt>やす</rt></ruby>い<ruby><rb>御用</rb><rt>ごよう</rt></ruby>だ！",
+        "zh_cn": "执行这点正义，\\n小事一桩！",
+        "zh_tw": "這點程度的正義，\\n算不了什麼啦！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0070",
+      "book": ""
+    },
+    {
+      "icon": "110042_01",
+      "name": {
+        "en_us": "Julietta",
+        "ja_jp": "ジュリエッタ",
+        "zh_cn": "朱丽叶",
+        "zh_tw": "朱莉葉塔"
+      },
+      "context": {
+        "en_us": "Miiimi! Where aaare you?\\nIf you can hear us, meow back!",
+        "ja_jp": "ミィちゃーん。どこですかー？\\nいたら<ruby><rb>返事</rb><rt>へんじ</rt></ruby>をしてくださーい。",
+        "zh_cn": "阿咪，你在哪？\\n在的话就叫一声。",
+        "zh_tw": "小咪──在哪裡──？\\n聽到的話請回答我──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0071",
+      "book": ""
+    },
+    {
+      "icon": "100009_07",
+      "name": {
+        "en_us": "Zena",
+        "ja_jp": "ゼーナ",
+        "zh_cn": "泽娜",
+        "zh_tw": "潔那"
+      },
+      "context": {
+        "en_us": "Over there! That must be her!\\nCome here, Mimi!",
+        "ja_jp": "いました。<ruby><rb>聞</rb><rt>き</rt></ruby>いてた<ruby><rb>特徴</rb><rt>とくちょう</rt></ruby>と<ruby><rb>同</rb><rt>おな</rt></ruby>じです。\\nおいで、ミィちゃん。",
+        "zh_cn": "找到了，特征和听说的一样。\\n阿咪，过来。",
+        "zh_tw": "找到了。跟聽說的特徵一致。\\n過來吧，小咪。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0072",
+      "book": ""
+    },
+    {
+      "icon": "110013_01",
+      "name": {
+        "en_us": "Waike",
+        "ja_jp": "ウェイク",
+        "zh_cn": "威克",
+        "zh_tw": "威克"
+      },
+      "context": {
+        "en_us": "Good, we've got her. Now to get back to—",
+        "ja_jp": "<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>に<ruby><rb>保護</rb><rt>ほご</rt></ruby>できたな。それなら\\n<ruby><rb>飼</rb><rt>か</rt></ruby>い<ruby><rb>主</rb><rt>ぬし</rt></ruby>の<ruby><rb>下</rb><rt>もと</rt></ruby>まで――",
+        "zh_cn": "顺利找到了呢。\\n那就把它带去饲主那里——",
+        "zh_tw": "順利確保貓咪了。\\n那麼接下來只要帶牠回飼主身邊──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0073",
+      "book": ""
+    },
+    {
+      "icon": "110042_01",
+      "name": {
+        "en_us": "Julietta",
+        "ja_jp": "ジュリエッタ",
+        "zh_cn": "朱丽叶",
+        "zh_tw": "朱莉葉塔"
+      },
+      "context": {
+        "en_us": "I hear something... Is someone fighting\\ndown here?",
+        "ja_jp": "この<ruby><rb>音</rb><rt>おと</rt></ruby>は……<ruby><rb>地下</rb><rt>ちか</rt></ruby><ruby><rb>水路</rb><rt>すいろ</rt></ruby>で<ruby><rb>誰</rb><rt>だれ</rt></ruby>かが\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>っている!?",
+        "zh_cn": "这声音是……\\n有人在地下水道里战斗！？",
+        "zh_tw": "這個聲音是……\\n有人正在地下水道戰鬥！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0074",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Zena, please return the cat to her family.\\nWe'll investigate that noise.",
+        "ja_jp": "ゼーナさんはその<ruby><rb>子</rb><rt>こ</rt></ruby>を<ruby><rb>連</rb><rt>つ</rt></ruby>れて<ruby><rb>地上</rb><rt>ちじょう</rt></ruby>に。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>たちは<ruby><rb>様子</rb><rt>ようす</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>てきます。",
+        "zh_cn": "泽娜带着猫回地上去，\\n我们去看看情况。",
+        "zh_tw": "請潔那小姐帶著那孩子回到地面上。\\n我們去看看情況。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0075",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Demonic entities? Wait, that's...",
+        "ja_jp": "あれは<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>もどき!?　\\nそれに<ruby><rb>戦</rb><rt>たたか</rt></ruby>っているのは――!!",
+        "zh_cn": "那是伪恶魔！？\\n而与其战斗的是……",
+        "zh_tw": "那是假惡魔！？\\n而且和他們戰鬥的是──！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0076",
+      "book": ""
+    },
+    {
+      "icon": "120195_01",
+      "name": {
+        "en_us": "Sandalphon",
+        "ja_jp": "サンダルフォン",
+        "zh_cn": "圣德芬",
+        "zh_tw": "聖德芬"
+      },
+      "context": {
+        "en_us": "That wound was nearly closed until the\\nlast scuffle. Still, I cannot tarry here.",
+        "ja_jp": "<ruby><rb>塞</rb><rt>ふさ</rt></ruby>がりかけた<ruby><rb>傷</rb><rt>きず</rt></ruby>が<ruby><rb>開</rb><rt>ひら</rt></ruby>いたか……。\\nしかし、<ruby><rb>私</rb><rt>わたし</rt></ruby>には<ruby><rb>行</rb><rt>い</rt></ruby>くべき<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>が……。",
+        "zh_cn": "伤口又裂开了吗……\\n但是，那个地方我非去不可……",
+        "zh_tw": "快痊癒的傷口裂開了嗎……\\n但是，我還有該去的地方……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0077",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Sandalphon! You're alive!",
+        "ja_jp": "サンダルフォン!!　\\n<ruby><rb>生</rb><rt>い</rt></ruby>きていたんですか……!?",
+        "zh_cn": "圣德芬！\\n原来你还活着吗！？",
+        "zh_tw": "聖德芬！！\\n原來妳還活著……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0078",
+      "book": ""
+    },
+    {
+      "icon": "120195_01",
+      "name": {
+        "en_us": "Sandalphon",
+        "ja_jp": "サンダルフォン",
+        "zh_cn": "圣德芬",
+        "zh_tw": "聖德芬"
+      },
+      "context": {
+        "en_us": "Hello, Pinon. And I see you have the\\nreinforcements Ramiel asked for.",
+        "ja_jp": "ピノンか。<ruby><rb>共</rb><rt>とも</rt></ruby>にいるのはラミエルが\\n<ruby><rb>要請</rb><rt>ようせい</rt></ruby>したというアルベリアの<ruby><rb>応援</rb><rt>おうえん</rt></ruby>だな。",
+        "zh_cn": "是皮诺啊。和你在一起的\\n是拉米艾尔搬来的\\n阿尔贝里亚救兵吧。",
+        "zh_tw": "是琵儂啊。妳身邊那幾位是雷米爾\\n向阿爾貝利亞請來支援的人們吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0079",
+      "book": ""
+    },
+    {
+      "icon": "110042_01",
+      "name": {
+        "en_us": "Julietta",
+        "ja_jp": "ジュリエッタ",
+        "zh_cn": "朱丽叶",
+        "zh_tw": "朱莉葉塔"
+      },
+      "context": {
+        "en_us": "Wait, so this is one of the angels?\\nBut I thought they all...died.",
+        "ja_jp": "この<ruby><rb>方</rb><rt>かた</rt></ruby>、<ruby><rb>天使</rb><rt>てんし</rt></ruby>ですの？　<ruby><rb>天使</rb><rt>てんし</rt></ruby>は\\n<ruby><rb>全員</rb><rt>ぜんいん</rt></ruby><ruby><rb>死</rb><rt>し</rt></ruby>んだと<ruby><rb>聞</rb><rt>き</rt></ruby>いていましたけど……。",
+        "zh_cn": "这位是天使吗？\\n可我听说天使都阵亡了……",
+        "zh_tw": "這位，就是天使嗎？\\n但我聽說天使全都死了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0080",
+      "book": ""
+    },
+    {
+      "icon": "120195_01",
+      "name": {
+        "en_us": "Sandalphon",
+        "ja_jp": "サンダルフォン",
+        "zh_cn": "圣德芬",
+        "zh_tw": "聖德芬"
+      },
+      "context": {
+        "en_us": "When we intercepted Satan's attack,\\nI alone was sent flying by the blast.\\nIt took me this long to regain mobility.",
+        "ja_jp": "サタンの<ruby><rb>攻撃</rb><rt>こうげき</rt></ruby>を<ruby><rb>迎撃</rb><rt>げいげき</rt></ruby>した<ruby><rb>際</rb><rt>さい</rt></ruby>、<ruby><rb>私</rb><rt>わたし</rt></ruby>だけが\\n<ruby><rb>爆風</rb><rt>ばくふう</rt></ruby>に<ruby><rb>飛</rb><rt>と</rt></ruby>ばされた。<ruby><rb>動</rb><rt>うご</rt></ruby>けるように\\nなるまで<ruby><rb>時間</rb><rt>じかん</rt></ruby>がかかってしまった。",
+        "zh_cn": "我们迎击撒旦的攻击时，\\n只有我被爆炸的气浪吹飞了，\\n之后花了不少时间才能动弹。",
+        "zh_tw": "迎擊撒旦攻擊的當下，\\n只有我被爆風吹飛。\\n花了不少時間才恢復行動能力。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0081",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "But Regina couldn't feel your power\\nthrough her Sigil.",
+        "ja_jp": "クインは<ruby><rb>聖痕</rb><rt>せいこん</rt></ruby>からあなたの<ruby><rb>力</rb><rt>ちから</rt></ruby>を\\n<ruby><rb>感</rb><rt>かん</rt></ruby>じ<ruby><rb>取</rb><rt>と</rt></ruby>れなかったそうですが……。",
+        "zh_cn": "但奎茵说她无法通过圣痕\\n感受到你的力量啊……",
+        "zh_tw": "可是我聽柯恩大人說無法從聖痕\\n感受到妳的力量……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0082",
+      "book": ""
+    },
+    {
+      "icon": "120195_01",
+      "name": {
+        "en_us": "Sandalphon",
+        "ja_jp": "サンダルフォン",
+        "zh_cn": "圣德芬",
+        "zh_tw": "聖德芬"
+      },
+      "context": {
+        "en_us": "The connection grows tenuous when one\\nparty is gravely injured. In failing to sense\\nit, she erroneously assumed I died.",
+        "ja_jp": "<ruby><rb>相手</rb><rt>あいて</rt></ruby>が<ruby><rb>瀕死</rb><rt>ひんし</rt></ruby>の<ruby><rb>状態</rb><rt>じょうたい</rt></ruby>だと<ruby><rb>聖痕</rb><rt>せいこん</rt></ruby>の<ruby><rb>繋</rb><rt>つな</rt></ruby>がりは\\n<ruby><rb>感知</rb><rt>かんち</rt></ruby>しづらくなる。それゆえクインは\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>死亡</rb><rt>しぼう</rt></ruby>したと<ruby><rb>誤認</rb><rt>ごにん</rt></ruby>したのだろう。",
+        "zh_cn": "如果对方命悬一线，\\n便很难感知圣痕联系。\\n所以奎茵才误以为我死了吧。",
+        "zh_tw": "當對方陷入瀕死狀態時，\\n聖痕的連結將會難以感知。\\n因此柯恩才會誤認為我死亡了吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0083",
+      "book": ""
+    },
+    {
+      "icon": "120195_01",
+      "name": {
+        "en_us": "Sandalphon",
+        "ja_jp": "サンダルフォン",
+        "zh_cn": "圣德芬",
+        "zh_tw": "聖德芬"
+      },
+      "context": {
+        "en_us": "But I bear more pressing news:\\nThe Five Archangels are not dead.",
+        "ja_jp": "それより<ruby><rb>知</rb><rt>し</rt></ruby>らせるべき<ruby><rb>事</rb><rt>こと</rt></ruby>がある。\\n――<ruby><rb>五大天使</rb><rt>ごだいてんし</rt></ruby>は<ruby><rb>死</rb><rt>し</rt></ruby>んでいない。",
+        "zh_cn": "先说重点，我有事要通知你们——\\n五大天使没有死。",
+        "zh_tw": "比起這些我有必須要通知你們的事。\\n──五大天使還沒死。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0084",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "But I watched Gabriel and the others\\nall vanish! I SAW it, Sandalphon!",
+        "ja_jp": "ウソ……!?　だってガブリエルたちは\\n<ruby><rb>目</rb><rt>め</rt></ruby>の<ruby><rb>前</rb><rt>まえ</rt></ruby>で<ruby><rb>消滅</rb><rt>しょうめつ</rt></ruby>して……。",
+        "zh_cn": "什么！？可加百列他们\\n就在我们眼前消失了……",
+        "zh_tw": "騙人……！？\\n加百列他們確實在面前消失了啊……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0085",
+      "book": ""
+    },
+    {
+      "icon": "120195_01",
+      "name": {
+        "en_us": "Sandalphon",
+        "ja_jp": "サンダルフォン",
+        "zh_cn": "圣德芬",
+        "zh_tw": "聖德芬"
+      },
+      "context": {
+        "en_us": "Their physical forms were destroyed, yes.\\nAnd the laws of nature demand their souls\\nthen return to mana.",
+        "ja_jp": "<ruby><rb>彼</rb><rt>かれ</rt></ruby>らの<ruby><rb>肉体</rb><rt>にくたい</rt></ruby>は<ruby><rb>消滅</rb><rt>しょうめつ</rt></ruby>した。その<ruby><rb>魂</rb><rt>たましい</rt></ruby>はマナに\\n<ruby><rb>還元</rb><rt>かんげん</rt></ruby>されるのが<ruby><rb>摂理</rb><rt>せつり</rt></ruby>だが……。",
+        "zh_cn": "他们的肉体消亡了，\\n按理说魂魄回归魔力……",
+        "zh_tw": "他們的肉體的確已經消滅。\\n照理來說靈魂應該回歸瑪納，\\n但……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0086",
+      "book": ""
+    },
+    {
+      "icon": "120195_01",
+      "name": {
+        "en_us": "Sandalphon",
+        "ja_jp": "サンダルフォン",
+        "zh_cn": "圣德芬",
+        "zh_tw": "聖德芬"
+      },
+      "context": {
+        "en_us": "But it appears they are desperately\\nclinging to existence.",
+        "ja_jp": "どうやら、<ruby><rb>彼</rb><rt>かれ</rt></ruby>らの<ruby><rb>魂</rb><rt>たましい</rt></ruby>は<ruby><rb>必死</rb><rt>ひっし</rt></ruby>にこの<ruby><rb>世</rb><rt>よ</rt></ruby>に\\n<ruby><rb>留</rb><rt>とど</rt></ruby>まろうとしているらしい。",
+        "zh_cn": "但他们的魂魄似乎\\n正拼命努力留在这个世上。",
+        "zh_tw": "看來，他們的靈魂還拚命地\\n試圖留在這個世上。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0087",
+      "book": ""
+    },
+    {
+      "icon": "120195_01",
+      "name": {
+        "en_us": "Sandalphon",
+        "ja_jp": "サンダルフォン",
+        "zh_cn": "圣德芬",
+        "zh_tw": "聖德芬"
+      },
+      "context": {
+        "en_us": "Though faint, I still hear the voices of their\\nsouls through the connection we share.",
+        "ja_jp": "<ruby><rb>天使</rb><rt>てんし</rt></ruby><ruby><rb>同士</rb><rt>どうし</rt></ruby>で<ruby><rb>繋</rb><rt>つな</rt></ruby>がる<ruby><rb>径</rb><rt>パス</rt></ruby>を<ruby><rb>通</rb><rt>つう</rt></ruby>じて、\\n<ruby><rb>微</rb><rt>かす</rt></ruby>かではあるが、<ruby><rb>彼</rb><rt>かれ</rt></ruby>らの<ruby><rb>魂</rb><rt>たましい</rt></ruby>の<ruby><rb>声</rb><rt>こえ</rt></ruby>が\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>に<ruby><rb>届</rb><rt>とど</rt></ruby>いている。",
+        "zh_cn": "虽然很微弱，但是他们\\n魂魄的声音通过天使之间\\n相连的路径传到了我这里。",
+        "zh_tw": "透過天使之間的聯絡途徑，\\n雖然很微弱，\\n但我能聽見來自他們靈魂的聲音。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0088",
+      "book": ""
+    },
+    {
+      "icon": "120195_01",
+      "name": {
+        "en_us": "Sandalphon",
+        "ja_jp": "サンダルフォン",
+        "zh_cn": "圣德芬",
+        "zh_tw": "聖德芬"
+      },
+      "context": {
+        "en_us": "And so long as their souls persist,\\nthere exists the possibility of revival.",
+        "ja_jp": "そして<ruby><rb>彼</rb><rt>かれ</rt></ruby>らの<ruby><rb>魂</rb><rt>たましい</rt></ruby>が<ruby><rb>留</rb><rt>とど</rt></ruby>まる<ruby><rb>限</rb><rt>かぎ</rt></ruby>り\\n<ruby><rb>再生</rb><rt>さいせい</rt></ruby>させる<ruby><rb>手立</rb><rt>てだ</rt></ruby>てはある。",
+        "zh_cn": "而只要他们的魂魄还在，\\n就有办法让他们重生。",
+        "zh_tw": "只要他們的靈魂存在，\\n就還有方法令其重生。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0089",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Really?!",
+        "ja_jp": "<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>ですか……!?",
+        "zh_cn": "真的吗！？",
+        "zh_tw": "真的嗎……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0090",
+      "book": ""
+    },
+    {
+      "icon": "120195_01",
+      "name": {
+        "en_us": "Sandalphon",
+        "ja_jp": "サンダルフォン",
+        "zh_cn": "圣德芬",
+        "zh_tw": "聖德芬"
+      },
+      "context": {
+        "en_us": "I now make for a research facility beneath\\nChurch Headquarters via an emergency\\nroute through these sewers.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>教会本部</rb><rt>きょうかいほんぶ</rt></ruby><ruby><rb>地下</rb><rt>ちか</rt></ruby>の<ruby><rb>研究室</rb><rt>けんきゅうしつ</rt></ruby>へ<ruby><rb>向</rb><rt>む</rt></ruby>かって\\nいる。<ruby><rb>有事</rb><rt>ゆうじ</rt></ruby>の<ruby><rb>際</rb><rt>さい</rt></ruby>、<ruby><rb>地下</rb><rt>ちか</rt></ruby><ruby><rb>水路</rb><rt>すいろ</rt></ruby>から<ruby><rb>出入</rb><rt>でい</rt></ruby>り\\nできる<ruby><rb>通路</rb><rt>つうろ</rt></ruby>があるのだ。",
+        "zh_cn": "我正要去教会总部的地下研究室。\\n那里有一条能出入地下水道的通道\\n以备不时之需。",
+        "zh_tw": "我正準備前往教會本部的地下研究室。\\n發生緊急情況時，\\n有條能從地下水道進出的通道。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0091",
+      "book": ""
+    },
+    {
+      "icon": "120195_01",
+      "name": {
+        "en_us": "Sandalphon",
+        "ja_jp": "サンダルフォン",
+        "zh_cn": "圣德芬",
+        "zh_tw": "聖德芬"
+      },
+      "context": {
+        "en_us": "Said facility holds the vessels required to\\nreconstitute the angels' physical form.\\nHowever—",
+        "ja_jp": "<ruby><rb>研究室</rb><rt>けんきゅうしつ</rt></ruby>には<ruby><rb>天使</rb><rt>てんし</rt></ruby><ruby><rb>再生</rb><rt>さいせい</rt></ruby>に<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>な\\n<ruby><rb>器</rb><rt>うつわ</rt></ruby>が<ruby><rb>保管</rb><rt>ほかん</rt></ruby>されている。だが……。",
+        "zh_cn": "研究室里保管着天使重生\\n所需的容器，但是……",
+        "zh_tw": "研究室裡保管著天使重生時\\n所需的容器。只是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0092",
+      "book": ""
+    },
+    {
+      "icon": "110008_01",
+      "name": {
+        "en_us": "Karl",
+        "ja_jp": "カール",
+        "zh_cn": "卡尔",
+        "zh_tw": "卡爾"
+      },
+      "context": {
+        "en_us": "Look lively! Demonic entities inbound!",
+        "ja_jp": "<ruby><rb>悪魔</rb><rt>あくま</rt></ruby>もどきの<ruby><rb>新手</rb><rt>あらて</rt></ruby>だ！",
+        "zh_cn": "又来新的伪恶魔了！",
+        "zh_tw": "是假惡魔的追兵！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0093",
+      "book": ""
+    },
+    {
+      "icon": "120195_01",
+      "name": {
+        "en_us": "Sandalphon",
+        "ja_jp": "サンダルフォン",
+        "zh_cn": "圣德芬",
+        "zh_tw": "聖德芬"
+      },
+      "context": {
+        "en_us": "A more detailed explanation will have to\\nwait. But as I require additional hands,\\nI ask you to accompany me to the lab.",
+        "ja_jp": "<ruby><rb>詳細</rb><rt>しょうさい</rt></ruby>な<ruby><rb>説明</rb><rt>せつめい</rt></ruby>は<ruby><rb>後</rb><rt>あと</rt></ruby>だ。<ruby><rb>人手</rb><rt>ひとで</rt></ruby>がいる。\\nキミたちも<ruby><rb>研究室</rb><rt>けんきゅうしつ</rt></ruby>まで<ruby><rb>来</rb><rt>き</rt></ruby>て<ruby><rb>欲</rb><rt>ほ</rt></ruby>しい。",
+        "zh_cn": "详情之后再说明，我需要人手，\\n希望你们也跟我来研究室。",
+        "zh_tw": "待會再詳細說明。我需要人手。\\n請你們跟我一起去研究室。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0094",
+      "book": ""
+    },
+    {
+      "icon": "110366_02",
+      "name": {
+        "en_us": "Pinon",
+        "ja_jp": "ピノン",
+        "zh_cn": "皮诺",
+        "zh_tw": "琵儂"
+      },
+      "context": {
+        "en_us": "Of course!",
+        "ja_jp": "は、はい……!!",
+        "zh_cn": "好、好的！",
+        "zh_tw": "好、好的……！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20439_04_0095",
+      "book": ""
+    }
+  ]
 }

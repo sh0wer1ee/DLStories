@@ -1,827 +1,1564 @@
 {
-    "story_id": "",
-    "story_name": "阿尔贝里亚骑士道 昔日的骑士道",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "试图逃离格拉姆斯的利弗和赛希尔\\n遭到哈尔阻拦并被捕成为了俘虏。\\n赛希尔的情绪不太稳定，\\n为补充魔养石而想出了越狱计划。\\n计划最终成功，二人成功越狱。"
-        ]
+  "title": {
+    "en_us": "Knights of Alberia    Chivalry of Days Past",
+    "ja_jp": "ナイツ・オブ・アルベリア  在りし日の騎士道",
+    "zh_cn": "阿尔贝里亚骑士道  昔日的骑士道",
+    "zh_tw": "阿爾貝利亞守護騎士  昔日的騎士道"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "顺利逃出城了吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "这里依然是格拉姆斯的地盘，\\n还不能掉以轻心。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "但是现在应该\\n能从那个被封锁的关卡\\n逃到其它国家。我们赶紧——",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "休想！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "城墙上的是……弓兵！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "教会骑士",
-            "context": "要是不想被射成刺猬\\n就乖乖投降吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01",
-                "100018_07"
-            ],
-            "speaker_name": "利弗&赛希尔",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "利弗，对不起……\\n都怪我选的逃跑路线\\n被他们识破了才……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "是我连累了你，该道歉的是我。\\n你不用介意。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "谢谢你。不过路线为什么\\n会被识破呢？那个关卡并没有\\n标在地图上，平时也没有警卫。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "正因如此，我才猜到\\n你一定会选择那里\\n作为逃跑的出口。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "你在军事学校期间\\n就很擅长利用地形作战吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01",
-                "100018_07"
-            ],
-            "speaker_name": "利弗&赛希尔",
-            "context": "哈尔！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "久违了，我的老朋友们。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "哈尔，你从帝国消失得无影无踪，\\n我还好奇你去了哪里，\\n没想到你投靠了北部教会吗。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "难道……偷袭白燕骑士团的\\n也是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "没错，是我提出了作战方案。\\n只要能瓦解白燕骑士团，攻略\\n新阿尔贝里亚就能轻松不少。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "你想以这件事为契机\\n侵略南大陆啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "没错。而且，以佣兵为对象\\n征集进攻军一事\\n也算是明确的线索了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "呵呵……呵呵呵！\\n不过话说回来，\\n人生还真是充满了未知呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "没想到我这辈子还能亲眼\\n看到两位同窗沦为俘虏的样子！\\n你们现在作何感想呢？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "你看起来很开心呢……哈尔。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "对……没错！我非常开心！\\n简直不能更开心了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "你们曾是光荣的近卫骑士，\\n现在却在牢房里可怜兮兮地\\n等待处刑……多么滑稽的场面啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "虽然还想和你们叙叙旧，\\n但很可惜我现在正忙于准备\\n对你们两位进行的处刑。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100019_01"
-            ],
-            "speaker_name": "哈尔",
-            "context": "虽然现在是敌对关系，但曾经\\n也是同窗……放心，至少我会\\n让你们死得干脆痛快。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "哈尔……他比之前见的时候\\n更乖僻了呢……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "学生时代的他虽然总是\\n对人冷嘲热讽，\\n但也算是忠于理想的人……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "自从失去理想以后他就变了……\\n但是……以前的他确实\\n不是这样的。没错，当时——",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "SYS",
-            "context": "几年前\\n阿尔贝里亚王国\\n王都的某公共食堂",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "明天就要从军事学校毕业了……\\n之后是就任仪式。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "这下我们也能成为\\n阿尔贝里亚的骑士了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "哈尔",
-            "context": "在我看来，\\n真是好不容易才熬出头啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "说什么呢，你和赛希尔\\n都是跳级上来的吧？\\n和其他人相比算快的了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "哈尔",
-            "context": "我身为平民，\\n哪怕节省一秒也弥足珍贵。\\n因为我有成为骑士后想做的事。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "哦？那么哈尔，\\n你想成为什么样的骑士呢？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "哈尔",
-            "context": "我想想……\\n为了理想而战的骑士，\\n暂且就这样形容吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "哈尔",
-            "context": "我想创造一个不论出身和地位，\\n人人都能获得公正评价的世界。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "哈尔",
-            "context": "明明很优秀却因为是奴隶而无法上位；\\n明明很愚蠢却因为是贵族所以能执政。\\n这种世界很不公平吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "你是为了弱者而执剑吗……\\n真是很优秀的骑士啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "哈尔",
-            "context": "多谢夸奖。那你们两个也说说，\\n想当什么样的骑士啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "我的理想是成为\\n守卫祖国和平的骑士。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "为了成为我所热爱的阿尔贝里亚\\n和王室的利剑，我自小的愿望\\n就是能当上一名近卫。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "哈尔",
-            "context": "真不愧是首席优等生，\\n说话的分量都不一样。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "少拿我打趣了，哈尔。\\n赛希尔，你想成为怎样的骑士？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "我当然是希望能够成为\\n王手里的剑那样的骑士啦。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "无论何时都坚定不移地献上忠诚。\\n不管发生什么都作为利剑辅佐王——\\n这就是我的理想……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "啊啊啊啊啊啊啊……不行……\\n别想了……我现在不能\\n想起那些光辉的往事！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "是我大意了……\\n抱歉，赛希尔。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "哈啊……哈啊……魔养石……\\n啊，被哈尔没收了……\\n气死我了，那家伙……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "唉……人生真的充满了未知呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "我背离了骑士道，\\n哈尔舍弃了骑士道……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "现在依然贯彻骑士道的人，\\n大概也只有你了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "我说……利弗。\\n为什么你能一直坚持\\n走骑士这条路呢？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "阿尔贝里亚变成狄涅尔的时候，\\n你也绝望过吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "奉献了忠诚的王室面目全非，\\n自己又无力保家卫国……\\n但你依然没有屈服。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "即使侍奉的国家和君主都变了，\\n你也依然走在骑士这条路上。\\n你是怎么做到的呢？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "因为我的心中有正义。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "正义？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "“第十戒 骑士者当行正义与善，\\n时刻和不端与恶做斗争。”",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "这是……在军事学校\\n学的骑士道十戒中\\n最后一条戒律。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "是啊，这也是十戒里\\n让我感触最深的戒律。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "我们最后的底线是“内心的正义”。\\n只要这份正义还在，不管什么情况\\n都能贯彻骑士道……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "而如今我的正义\\n与尤蒂尔殿下同在。\\n仅此而已。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "正义……虽然是我提起的话题……\\n但对于我这个急缺魔养石的人来说，\\n这个词真是感人肺腑。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "哈啊啊啊……要想办法逃出去，\\n尽快补充魔养石才行……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "嗯？\\n逃出去……怎么逃？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "利弗，你听我说。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "利弗",
-            "context": "守卫！\\n守卫在吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "警卫",
-            "context": "怎么了，大喊大叫的……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "赛希尔没有呼吸了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "警卫",
-            "context": "什么！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "赛希尔本来就有老毛病，\\n恐怕是因为病发了才……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "警卫",
-            "context": "我看看……真的没气了。\\n难怪脸色这么难看……\\n这下可难办了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "拜托你了！\\n如果你是虔诚的伊莉雅教徒，\\n能不能让我吊唁她？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "警卫",
-            "context": "区区俘虏，还提要求……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "至少给她解开绳子，\\n让她平躺下来也好啊！\\n看在女神慈悲的份上……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "还是说……\\n北部教会和南部不一样，\\n教诲里有蔑视死者这一条？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "警卫",
-            "context": "你、你太没礼貌了！\\n啧……我知道了。\\n解开绳子还是可以的……",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "警卫",
-            "context": "算了……就当是\\n省去处刑的麻烦了。\\n好了，这下——",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "警卫",
-            "context": "呃啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "谢谢你。\\n托你的福，我自由了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "赛希尔……你以前\\n就擅长这种偷袭吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "虽然我失去了正义和骑士道……\\n却学会了肮脏的手段。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110394_01"
-            ],
-            "speaker_name": "赛希尔",
-            "context": "好了，我们快跑吧。\\n我得快点弄到魔养石才行！",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100018_07"
-            ],
-            "speaker_name": "利弗",
-            "context": "呵……巾帼不让须眉\\n这一点还是老样子呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22902_03_0087",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Leif and Cecile attempt to flee Grams, but are\\nthwarted by Harle and taken captive. As Cecile's\\ncondition deteriorates, she plots a jailbreak to\\nattain more Manachew. The pair soon succeeds\\nand puts the dungeon behind them.",
+      "ja_jp": "グラムス<ruby><rb>脱出</rb><rt>だっしゅつ</rt></ruby>を<ruby><rb>試</rb><rt>こころ</rt></ruby>みるリーフとセシルの<ruby><rb>前</rb><rt>まえ</rt></ruby>に\\nハールが<ruby><rb>現</rb><rt>あらわ</rt></ruby>れる。ハールに<ruby><rb>捕縛</rb><rt>ほばく</rt></ruby>され、<ruby><rb>虜囚</rb><rt>りょしゅう</rt></ruby>と\\nなったふたり。<ruby><rb>情緒不安定</rb><rt>じょうちょふあんてい</rt></ruby>になったセシルは\\n<ruby><rb>魔養石</rb><rt>マナリミン</rt></ruby>を<ruby><rb>補給</rb><rt>ほきゅう</rt></ruby>するために<ruby><rb>脱獄計画</rb><rt>だつごくけいかく</rt></ruby>を<ruby><rb>立案</rb><rt>りつあん</rt></ruby>。\\n<ruby><rb>計画</rb><rt>けいかく</rt></ruby>は<ruby><rb>成功</rb><rt>せいこう</rt></ruby>し、ふたりは<ruby><rb>牢</rb><rt>ろう</rt></ruby>から<ruby><rb>逃</rb><rt>に</rt></ruby>げ<ruby><rb>出</rb><rt>だ</rt></ruby>す。",
+      "zh_cn": "试图逃离格拉姆斯的利弗和赛希尔\\n遭到哈尔阻拦并被捕成为了俘虏。\\n赛希尔的情绪不太稳定，\\n为补充魔养石而想出了越狱计划。\\n计划最终成功，二人成功越狱。",
+      "zh_tw": "在嘗試逃離葛拉姆斯的李弗與賽席爾面前，\\n哈魯突然現身。兩人遭到哈魯逮捕並\\n成為俘虜。情緒不穩定的賽席爾\\n為了補充魔養石而提出越獄計畫。\\n之後計畫成功，兩人順利逃出了監牢。"
+    }
+  },
+  "prev": "2290202",
+  "next": "2290204",
+  "content": [
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "We have escaped the city.",
+        "ja_jp": "<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>に<ruby><rb>都</rb><rt>みやこ</rt></ruby>は<ruby><rb>抜</rb><rt>ぬ</rt></ruby>けたか……。",
+        "zh_cn": "顺利逃出城了吗……",
+        "zh_tw": "順利逃離聖都了嗎……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0001",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Don't get too excited—we're still inside\\nGrams territory.",
+        "ja_jp": "まだグラムス<ruby><rb>領</rb><rt>りょう</rt></ruby>だから\\nまったく<ruby><rb>安心</rb><rt>あんしん</rt></ruby>はできないけどね。",
+        "zh_cn": "这里依然是格拉姆斯的地盘，\\n还不能掉以轻心。",
+        "zh_tw": "但我們仍然在葛拉姆斯領土，\\n還無法完全放心就是了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0002",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "But there's a closed checkpoint that we can\\nuse to get past the border. Let's hur—",
+        "ja_jp": "でも<ruby><rb>今</rb><rt>いま</rt></ruby>は<ruby><rb>閉鎖</rb><rt>へいさ</rt></ruby>されたあの<ruby><rb>関所</rb><rt>せきしょ</rt></ruby>からなら、\\n<ruby><rb>国外</rb><rt>こくがい</rt></ruby>へ<ruby><rb>脱出</rb><rt>だっしゅつ</rt></ruby>できる。<ruby><rb>急</rb><rt>いそ</rt></ruby>いで<ruby><rb>外</rb><rt>そと</rt></ruby>に――",
+        "zh_cn": "但是现在应该\\n能从那个被封锁的关卡\\n逃到其它国家。我们赶紧——",
+        "zh_tw": "不過現在從被關閉的那個關口，\\n就能逃到國外。我們得趕緊──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0003",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "I think not!",
+        "ja_jp": "そうはさせん！",
+        "zh_cn": "休想！",
+        "zh_tw": "休想得逞！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0004",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Huh?!",
+        "ja_jp": "ッ!?",
+        "zh_cn": "！？",
+        "zh_tw": "唔！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0005",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Look, on the wall! Archers!",
+        "ja_jp": "<ruby><rb>壁</rb><rt>かべ</rt></ruby>の<ruby><rb>上</rb><rt>うえ</rt></ruby>に……<ruby><rb>弓兵</rb><rt>きゅうへい</rt></ruby>!?",
+        "zh_cn": "城墙上的是……弓兵！？",
+        "zh_tw": "牆上有……弓兵！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0006",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Templar",
+        "ja_jp": "教会騎士",
+        "zh_cn": "教会骑士",
+        "zh_tw": "教會騎士"
+      },
+      "context": {
+        "en_us": "If you don't fancy starting new lives as\\nhedgehogs, you'll both come quietly.",
+        "ja_jp": "ハリネズミになりたくなければ\\nおとなしく<ruby><rb>投降</rb><rt>とうこう</rt></ruby>することだな。",
+        "zh_cn": "要是不想被射成刺猬\\n就乖乖投降吧。",
+        "zh_tw": "如果不想變成刺蝟，\\n就乖乖舉手投降吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0007",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif and Cecile",
+        "ja_jp": "リーフ＆セシル",
+        "zh_cn": "利弗&赛希尔",
+        "zh_tw": "李弗＆賽席爾"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0008",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Forgive me, Leif. This is my fault.\\nMy plan was too easily read.",
+        "ja_jp": "リーフ……ごめんなさい。\\n<ruby><rb>脱出経路</rb><rt>だっしゅつけいろ</rt></ruby>を<ruby><rb>読</rb><rt>よ</rt></ruby>まれた<ruby><rb>私</rb><rt>わたし</rt></ruby>のせいよ……。",
+        "zh_cn": "利弗，对不起……\\n都怪我选的逃跑路线\\n被他们识破了才……",
+        "zh_tw": "李弗……對不起。\\n逃脫路線被看穿，是我的錯……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0009",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "If either of us is to apologize, it ought to\\nbe me for dragging you into this.",
+        "ja_jp": "<ruby><rb>謝</rb><rt>あやま</rt></ruby>るのは、<ruby><rb>巻</rb><rt>ま</rt></ruby>き<ruby><rb>込</rb><rt>こ</rt></ruby>んだ<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>方</rb><rt>ほう</rt></ruby>だ。\\n<ruby><rb>気</rb><rt>き</rt></ruby>に<ruby><rb>病</rb><rt>や</rt></ruby>むな。",
+        "zh_cn": "是我连累了你，该道歉的是我。\\n你不用介意。",
+        "zh_tw": "該道歉的是將妳捲進麻煩的我。\\n別放在心上。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0010",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Still, how did they know? This checkpoint's\\nnever guarded—it isn't even on the maps!",
+        "ja_jp": "ありがと。それにしても、なぜ\\n<ruby><rb>読</rb><rt>よ</rt></ruby>まれたの？　あの<ruby><rb>関所</rb><rt>せきしょ</rt></ruby>、<ruby><rb>地図</rb><rt>ちず</rt></ruby>にも\\n<ruby><rb>載</rb><rt>の</rt></ruby>ってなくて<ruby><rb>警備</rb><rt>けいび</rt></ruby>も<ruby><rb>普段</rb><rt>ふだん</rt></ruby>はいないのに。",
+        "zh_cn": "谢谢你。不过路线为什么\\n会被识破呢？那个关卡并没有\\n标在地图上，平时也没有警卫。",
+        "zh_tw": "謝謝。但話說回來，怎麼會被看穿？\\n那個關口既沒有記載在地圖上，\\n平常也沒有任何警備的說。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0011",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Which is precisely why it was so obvious.\\nWhat other exit would you choose?",
+        "ja_jp": "だからですよ。セシルならば、<ruby><rb>脱出口</rb><rt>だっしゅつこう</rt></ruby>に\\nあの<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>を<ruby><rb>選</rb><rt>えら</rt></ruby>ぶと<ruby><rb>読</rb><rt>よ</rt></ruby>んだ<ruby><rb>結果</rb><rt>けっか</rt></ruby>です。",
+        "zh_cn": "正因如此，我才猜到\\n你一定会选择那里\\n作为逃跑的出口。",
+        "zh_tw": "正是因為這樣啊。我猜想若是賽席爾，\\n應該會選擇從那個地方逃脫。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0012",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "I was certain you remembered all of our\\nOfficers Academy lessons about using the\\nlay of the land to one's advantage.",
+        "ja_jp": "<ruby><rb>地</rb><rt>ち</rt></ruby>の<ruby><rb>利</rb><rt>り</rt></ruby>を<ruby><rb>活</rb><rt>い</rt></ruby>かした<ruby><rb>作戦</rb><rt>さくせん</rt></ruby>を、<ruby><rb>将士学校</rb><rt>しょうしがっこう</rt></ruby><ruby><rb>時代</rb><rt>じだい</rt></ruby>\\nから<ruby><rb>得意</rb><rt>とくい</rt></ruby>としていたでしょう？",
+        "zh_cn": "你在军事学校期间\\n就很擅长利用地形作战吧？",
+        "zh_tw": "活用地利之便的作戰方式，\\n妳從在軍官學校時就頗擅長不是嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0013",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif and Cecile",
+        "ja_jp": "リーフ＆セシル",
+        "zh_cn": "利弗&赛希尔",
+        "zh_tw": "李弗＆賽席爾"
+      },
+      "context": {
+        "en_us": "Harle?!",
+        "ja_jp": "ハール……!?",
+        "zh_cn": "哈尔！？",
+        "zh_tw": "哈魯……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0014",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Hello, hello, my old friends! It has been\\nquite some time.",
+        "ja_jp": "お<ruby><rb>久</rb><rt>ひさ</rt></ruby>しぶりです、<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>旧友</rb><rt>きゅうゆう</rt></ruby>たちよ。",
+        "zh_cn": "久违了，我的老朋友们。",
+        "zh_tw": "好久不見了，我的老友們。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0015",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "I'd wondered where you slunk off to after\\nleaving the Empire, Harle. I see you now\\nmake your bed with the Northern Church.",
+        "ja_jp": "ハール……<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>から<ruby><rb>姿</rb><rt>すがた</rt></ruby>を<ruby><rb>消</rb><rt>け</rt></ruby>して、\\nどこに<ruby><rb>行</rb><rt>い</rt></ruby>ったかと<ruby><rb>思</rb><rt>おも</rt></ruby>えば<ruby><rb>今度</rb><rt>こんど</rt></ruby>は\\n<ruby><rb>北教会</rb><rt>きたきょうかい</rt></ruby>にすり<ruby><rb>寄</rb><rt>よ</rt></ruby>ったというわけか。",
+        "zh_cn": "哈尔，你从帝国消失得无影无踪，\\n我还好奇你去了哪里，\\n没想到你投靠了北部教会吗。",
+        "zh_tw": "哈魯……你從帝國銷聲匿跡後，\\n我還疑惑說你去了哪裡，\\n原來這次改投靠北方教會了嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0016",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Wait! But that means the ambush of\\nthe White Sparrows...",
+        "ja_jp": "もしや……<ruby><rb>白燕騎士団</rb><rt>はくえんきしだん</rt></ruby>を\\n<ruby><rb>奇襲</rb><rt>きしゅう</rt></ruby>したのも……。",
+        "zh_cn": "难道……偷袭白燕骑士团的\\n也是……",
+        "zh_tw": "難道……襲擊白燕騎士團也是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0017",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Was set in motion by yours truly, yes!\\nNothing personal, old friend—removing\\nyour little band simply makes the war on\\nNew Alberia that much easier.",
+        "ja_jp": "ええ、<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>作戦</rb><rt>さくせん</rt></ruby>を<ruby><rb>提案</rb><rt>ていあん</rt></ruby>しました。\\n<ruby><rb>白燕騎士団</rb><rt>はくえんきしだん</rt></ruby>が<ruby><rb>瓦解</rb><rt>がかい</rt></ruby>すれば、<ruby><rb>新</rb><rt>しん</rt></ruby>アルベリア\\n<ruby><rb>攻略</rb><rt>こうりゃく</rt></ruby>が<ruby><rb>幾分</rb><rt>いくぶん</rt></ruby>か<ruby><rb>楽</rb><rt>らく</rt></ruby>になりますから。",
+        "zh_cn": "没错，是我提出了作战方案。\\n只要能瓦解白燕骑士团，攻略\\n新阿尔贝里亚就能轻松不少。",
+        "zh_tw": "沒錯，是我提議的。\\n因為只要瓦解白燕騎士團，\\n就能更輕易地攻陷新阿爾貝利亞。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0018",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "And once that's done, you can move on to\\nall of South Grastaea.",
+        "ja_jp": "そこを<ruby><rb>足掛</rb><rt>あしが</rt></ruby>かりにして、\\n<ruby><rb>南大陸</rb><rt>みなみたいりく</rt></ruby>に<ruby><rb>侵攻</rb><rt>しんこう</rt></ruby>しようってわけね。",
+        "zh_cn": "你想以这件事为契机\\n侵略南大陆啊。",
+        "zh_tw": "你是想以此作為踏板，\\n好侵略南大陸吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0019",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Very astute! Though I suppose it's not\\nmuch of a mystery, considering we issued\\na notice recruiting mercenaries for an\\ninvasion force.",
+        "ja_jp": "ご<ruby><rb>明察</rb><rt>めいさつ</rt></ruby>です。まあ、<ruby><rb>傭兵</rb><rt>ようへい</rt></ruby>たちに\\n<ruby><rb>侵攻軍</rb><rt>しんこうぐん</rt></ruby>の<ruby><rb>募集</rb><rt>ぼしゅう</rt></ruby>があれば<ruby><rb>予想</rb><rt>よそう</rt></ruby>できますか。",
+        "zh_cn": "没错。而且，以佣兵为对象\\n征集进攻军一事\\n也算是明确的线索了。",
+        "zh_tw": "妳真敏銳呢。不過，\\n既然對傭兵們發出了侵略軍的招募，\\n妳預料得到也是應該嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0020",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Life truly is an unpredictable thing!",
+        "ja_jp": "フフ……フフフ！　それにしても、\\n<ruby><rb>人生</rb><rt>じんせい</rt></ruby>とはわからないものですね？",
+        "zh_cn": "呵呵……呵呵呵！\\n不过话说回来，\\n人生还真是充满了未知呢。",
+        "zh_tw": "呵呵……呵呵呵！但話說回來，\\n人生還真是難以預料對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0021",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "To think the day would come when I would\\nplace two of my classmates in chains!\\nTell me, how does it feel from your side?",
+        "ja_jp": "まさか<ruby><rb>同期</rb><rt>どうき</rt></ruby>ふたりが<ruby><rb>虜囚</rb><rt>りょしゅう</rt></ruby>となる<ruby><rb>様</rb><rt>さま</rt></ruby>を\\n<ruby><rb>目</rb><rt>ま</rt></ruby>の<ruby><rb>当</rb><rt>あ</rt></ruby>たりにする<ruby><rb>日</rb><rt>ひ</rt></ruby>が<ruby><rb>来</rb><rt>く</rt></ruby>るとは！\\n<ruby><rb>今</rb><rt>いま</rt></ruby>のお<ruby><rb>気持</rb><rt>きも</rt></ruby>ちはいかがです？",
+        "zh_cn": "没想到我这辈子还能亲眼\\n看到两位同窗沦为俘虏的样子！\\n你们现在作何感想呢？",
+        "zh_tw": "沒想到竟然有這麼一天，\\n能親眼目睹兩位同窗成為階下囚！\\n現在的心情如何呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0022",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "You certainly seem amused, Harle.",
+        "ja_jp": "あなたは<ruby><rb>楽</rb><rt>たの</rt></ruby>しそうね……ハール。",
+        "zh_cn": "你看起来很开心呢……哈尔。",
+        "zh_tw": "你看起來很開心嘛……哈魯。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0023",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Oh, but I am! Honestly, I can't remember\\nthe last time I was quite so tickled.",
+        "ja_jp": "ええ……ええ！　それは、もう！\\n<ruby><rb>愉快</rb><rt>ゆかい</rt></ruby>なこと、この<ruby><rb>上</rb><rt>うえ</rt></ruby>ありません！",
+        "zh_cn": "对……没错！我非常开心！\\n简直不能更开心了！",
+        "zh_tw": "是啊……是啊！那當然！\\n世上沒有比這更令人愉快的事了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0024",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Two knights who reached the height of\\nhonor as royal guards are now sitting in a\\ndungeon awaiting their fates? It's farcical!",
+        "ja_jp": "<ruby><rb>騎士</rb><rt>きし</rt></ruby>の<ruby><rb>華</rb><rt>はな</rt></ruby>たる<ruby><rb>誉</rb><rt>ほま</rt></ruby>れ<ruby><rb>高</rb><rt>たか</rt></ruby>き<ruby><rb>近衛騎士</rb><rt>このえきし</rt></ruby>たちが\\n<ruby><rb>牢</rb><rt>ろう</rt></ruby>に<ruby><rb>雁首</rb><rt>がんくび</rt></ruby><ruby><rb>並</rb><rt>なら</rt></ruby>べて<ruby><rb>断罪</rb><rt>だんざい</rt></ruby>の<ruby><rb>時</rb><rt>とき</rt></ruby>を<ruby><rb>待</rb><rt>ま</rt></ruby>つ……\\nなんて<ruby><rb>滑稽</rb><rt>こっけい</rt></ruby>な<ruby><rb>光景</rb><rt>こうけい</rt></ruby>でしょう！",
+        "zh_cn": "你们曾是光荣的近卫骑士，\\n现在却在牢房里可怜兮兮地\\n等待处刑……多么滑稽的场面啊！",
+        "zh_tw": "騎士當中最受人讚譽的近衛騎士們\\n竟然齊聚牢籠等待定罪的時刻……\\n多麼滑稽的光景啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0025",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Now while I would dearly love to stay and\\ncatch up, I'm afraid I'm quite busy with the\\npreparations for your execution.",
+        "ja_jp": "<ruby><rb>昔話</rb><rt>むかしばなし</rt></ruby>に<ruby><rb>花</rb><rt>はな</rt></ruby>を<ruby><rb>咲</rb><rt>さ</rt></ruby>かせたいところですが、\\n<ruby><rb>残念</rb><rt>ざんねん</rt></ruby>ながらおふたりの<ruby><rb>処刑</rb><rt>しょけい</rt></ruby>の<ruby><rb>用意</rb><rt>ようい</rt></ruby>で\\n<ruby><rb>立</rb><rt>た</rt></ruby>て<ruby><rb>込</rb><rt>こ</rt></ruby>んでおりますので。",
+        "zh_cn": "虽然还想和你们叙叙旧，\\n但很可惜我现在正忙于准备\\n对你们两位进行的处刑。",
+        "zh_tw": "雖然我非常想與你們暢談昔日往事，\\n但很遺憾地，我還得忙著\\n替兩位的處刑做準備。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0026",
+      "book": ""
+    },
+    {
+      "icon": "100019_01",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Oh, and I know we're enemies, but seeing\\nas we share an alma mater, I'll do what I\\ncan to ensure it's...mostly painless.",
+        "ja_jp": "<ruby><rb>敵</rb><rt>てき</rt></ruby><ruby><rb>同士</rb><rt>どうし</rt></ruby>とはいえ、かつては<ruby><rb>同</rb><rt>おな</rt></ruby>じ<ruby><rb>学</rb><rt>まな</rt></ruby>び<ruby><rb>舎</rb><rt>や</rt></ruby>で\\n<ruby><rb>学</rb><rt>まな</rt></ruby>んだ<ruby><rb>友</rb><rt>とも</rt></ruby>……。せめて、<ruby><rb>楽</rb><rt>らく</rt></ruby>に<ruby><rb>死</rb><rt>し</rt></ruby>ねるよう\\n<ruby><rb>手配</rb><rt>てはい</rt></ruby>いたしましょう。",
+        "zh_cn": "虽然现在是敌对关系，但曾经\\n也是同窗……放心，至少我会\\n让你们死得干脆痛快。",
+        "zh_tw": "雖然現在身為敵人，但好歹曾是\\n在相同校舍學習的老友……\\n至少，會讓你們死得輕鬆點的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0027",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "I didn't think it was possible for Harle to\\nbe any more twisted, but here we are.",
+        "ja_jp": "ハール……<ruby><rb>前</rb><rt>まえ</rt></ruby><ruby><rb>会</rb><rt>あ</rt></ruby>った<ruby><rb>時</rb><rt>とき</rt></ruby>より、\\n<ruby><rb>輪</rb><rt>わ</rt></ruby>をかけてひねくれたわね……。",
+        "zh_cn": "哈尔……他比之前见的时候\\n更乖僻了呢……",
+        "zh_tw": "哈魯……和之前見面時相比，\\n變得更加扭曲了呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0028",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "He always had an edge as a cadet, but at\\nleast his ideals were noble and he stayed\\ntrue to them.",
+        "ja_jp": "<ruby><rb>学生</rb><rt>がくせい</rt></ruby><ruby><rb>時代</rb><rt>じだい</rt></ruby>は、ちょっと<ruby><rb>皮肉</rb><rt>ひにく</rt></ruby>っぽい\\nところはあっても<ruby><rb>理想</rb><rt>りそう</rt></ruby>に\\nまっすぐな<ruby><rb>人</rb><rt>ひと</rt></ruby>だったのに……。",
+        "zh_cn": "学生时代的他虽然总是\\n对人冷嘲热讽，\\n但也算是忠于理想的人……",
+        "zh_tw": "學生時代的他，雖然有些愛嘲諷人，\\n卻還是對理想很直率的說……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0029",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Losing such ideals will change a person.\\nBut you're right—he wasn't always this\\nway. In fact, the Harle I remember was...",
+        "ja_jp": "<ruby><rb>理想</rb><rt>りそう</rt></ruby>を<ruby><rb>失</rb><rt>うしな</rt></ruby>ってから<ruby><rb>奴</rb><rt>やつ</rt></ruby>は<ruby><rb>変</rb><rt>か</rt></ruby>わった……。\\nだが……たしかに<ruby><rb>昔</rb><rt>むかし</rt></ruby>は<ruby><rb>違</rb><rt>ちが</rt></ruby>ったな。\\nそう。あの<ruby><rb>頃</rb><rt>ころ</rt></ruby>は――",
+        "zh_cn": "自从失去理想以后他就变了……\\n但是……以前的他确实\\n不是这样的。没错，当时——",
+        "zh_tw": "自從失去理想後他就變了……\\n但確實……從前的他並不是那樣。\\n沒錯。那個時候──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0030",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Some years earlier, at a public dining hall\\nin the Alberian capital...",
+        "ja_jp": "<ruby><rb>数年</rb><rt>すうねん</rt></ruby><ruby><rb>前</rb><rt>まえ</rt></ruby>\\nアルベリア<ruby><rb>王国</rb><rt>おうこく</rt></ruby>\\n<ruby><rb>王都</rb><rt>おうと</rt></ruby>のとある<ruby><rb>大衆食堂</rb><rt>たいしゅうしょくどう</rt></ruby>",
+        "zh_cn": "几年前\\n阿尔贝里亚王国\\n王都的某公共食堂",
+        "zh_tw": "幾年前\\n阿爾貝利亞王國\\n王都的某間大眾食堂"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "I can scarce believe we'll be graduates at\\nthis time tomorrow and knighted into the\\norder soon after.",
+        "ja_jp": "いよいよ、<ruby><rb>明日</rb><rt>あす</rt></ruby>が<ruby><rb>将士学校</rb><rt>しょうしがっこう</rt></ruby>の\\n<ruby><rb>卒業</rb><rt>そつぎょう</rt></ruby>の<ruby><rb>日</rb><rt>ひ</rt></ruby>……そして<ruby><rb>叙任式</rb><rt>じょにんしき</rt></ruby>だ。",
+        "zh_cn": "明天就要从军事学校毕业了……\\n之后是就任仪式。",
+        "zh_tw": "明天終於是軍官學校畢業的日子……\\n以及冊封儀式了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0031",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "We've long dreamed of becoming the\\nblades and shields of Alberia, and now\\nit is almost reality.",
+        "ja_jp": "これで<ruby><rb>私</rb><rt>わたし</rt></ruby>たちも、\\nアルベリアの<ruby><rb>騎士</rb><rt>きし</rt></ruby>となれるのね。",
+        "zh_cn": "这下我们也能成为\\n阿尔贝里亚的骑士了。",
+        "zh_tw": "這下我們也將成為\\n阿爾貝利亞騎士了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0032",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "I find it harder to believe it took so long!",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>からしたら、やっとといった\\n<ruby><rb>感</rb><rt>かん</rt></ruby>じですがね。",
+        "zh_cn": "在我看来，\\n真是好不容易才熬出头啊。",
+        "zh_tw": "要我來說，\\n倒有種「好不容易」的感覺就是了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0033",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Are you mad? You and Cecile are both\\ngraduating a year early—you've had a\\nshorter path than any of us.",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>を<ruby><rb>言</rb><rt>い</rt></ruby>う。ハールもセシルも、\\n<ruby><rb>飛</rb><rt>と</rt></ruby>び<ruby><rb>級</rb><rt>きゅう</rt></ruby>だっただろう。\\n<ruby><rb>他</rb><rt>ほか</rt></ruby>の<ruby><rb>騎士</rb><rt>きし</rt></ruby>と<ruby><rb>比</rb><rt>くら</rt></ruby>べれば<ruby><rb>早</rb><rt>はや</rt></ruby>い<ruby><rb>方</rb><rt>ほう</rt></ruby>だぞ。",
+        "zh_cn": "说什么呢，你和赛希尔\\n都是跳级上来的吧？\\n和其他人相比算快的了。",
+        "zh_tw": "你在說什麼。\\n哈魯跟賽席爾都是跳級畢業吧。\\n相較其他騎士已經算很快了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0034",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Sadly, we commoners don't have the\\nluxury of infinite time.",
+        "ja_jp": "<ruby><rb>平民</rb><rt>へいみん</rt></ruby>の<ruby><rb>私</rb><rt>わたし</rt></ruby>には<ruby><rb>少</rb><rt>すこ</rt></ruby>しの<ruby><rb>時間</rb><rt>じかん</rt></ruby>も<ruby><rb>惜</rb><rt>お</rt></ruby>しい\\nのですよ。<ruby><rb>騎士</rb><rt>きし</rt></ruby>になって、\\n<ruby><rb>成</rb><rt>な</rt></ruby>し<ruby><rb>遂</rb><rt>と</rt></ruby>げたいことがありますから。",
+        "zh_cn": "我身为平民，\\n哪怕节省一秒也弥足珍贵。\\n因为我有成为骑士后想做的事。",
+        "zh_tw": "出身平民的我可不願意浪費一分一秒。\\n因為我還有當上騎士後想完成的事。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0035",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Then let's hear it, Harle: What sort of\\nknight do you intend to become?",
+        "ja_jp": "ふーん？　じゃあ、ハール。\\nあなたはどんな<ruby><rb>騎士</rb><rt>きし</rt></ruby>になりたいの？",
+        "zh_cn": "哦？那么哈尔，\\n你想成为什么样的骑士呢？",
+        "zh_tw": "哼～？那麼，哈魯。\\n你想成為怎樣的騎士呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0036",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Why, one who fights for his ideals,\\nof course!",
+        "ja_jp": "そうですね……<ruby><rb>理想</rb><rt>りそう</rt></ruby>のために\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>う<ruby><rb>騎士</rb><rt>きし</rt></ruby>、とでも<ruby><rb>言</rb><rt>い</rt></ruby>いましょうか。",
+        "zh_cn": "我想想……\\n为了理想而战的骑士，\\n暂且就这样形容吧。",
+        "zh_tw": "這個嘛……\\n為理想而戰的騎士──姑且這麼說吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0037",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "I seek to build a world where a person's\\nworth isn't set the moment they enter it—\\na world where even the lowborn can attain\\nthe loftiest of heights!",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>はすべての<ruby><rb>人間</rb><rt>にんげん</rt></ruby>が\\n<ruby><rb>生</rb><rt>う</rt></ruby>まれや<ruby><rb>身分</rb><rt>みぶん</rt></ruby>を<ruby><rb>問</rb><rt>と</rt></ruby>われずに<ruby><rb>平等</rb><rt>びょうどう</rt></ruby>に\\n<ruby><rb>評価</rb><rt>ひょうか</rt></ruby>される<ruby><rb>世界</rb><rt>せかい</rt></ruby>を<ruby><rb>作</rb><rt>つく</rt></ruby>りたいのです。",
+        "zh_cn": "我想创造一个不论出身和地位，\\n人人都能获得公正评价的世界。",
+        "zh_tw": "我想創造一個不問出生與身分，\\n所有人都能平等獲得評價的世界。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0038",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "The talents of the genius slave afford him\\nno opportunity, while blue-blooded fools\\ndrive entire nations to ruin. This is no\\nworld I wish to live in.",
+        "ja_jp": "<ruby><rb>優秀</rb><rt>ゆうしゅう</rt></ruby>なのに<ruby><rb>奴隷</rb><rt>どれい</rt></ruby>だから<ruby><rb>這</rb><rt>は</rt></ruby>いあがれない。\\n<ruby><rb>愚</rb><rt>おろ</rt></ruby>かなのに<ruby><rb>貴族</rb><rt>きぞく</rt></ruby>だから<ruby><rb>政治</rb><rt>せいじ</rt></ruby>を<ruby><rb>動</rb><rt>うご</rt></ruby>かせる。\\nこんな<ruby><rb>世</rb><rt>よ</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>、<ruby><rb>不公平</rb><rt>ふこうへい</rt></ruby>でしょう？",
+        "zh_cn": "明明很优秀却因为是奴隶而无法上位；\\n明明很愚蠢却因为是贵族所以能执政。\\n这种世界很不公平吧？",
+        "zh_tw": "明明優秀卻因身為奴隸而無法翻身。\\n明明愚蠢卻因身為貴族而能操弄政治。\\n這種社會，很不公平吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0039",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Spoken like a true knight! It gladdens me\\nto hear you would take up your sword for\\nthe powerless.",
+        "ja_jp": "<ruby><rb>弱者</rb><rt>じゃくしゃ</rt></ruby>のために<ruby><rb>剣</rb><rt>けん</rt></ruby>をとる……か。\\n<ruby><rb>素晴</rb><rt>すば</rt></ruby>らしい<ruby><rb>騎士</rb><rt>きし</rt></ruby>じゃないか。",
+        "zh_cn": "你是为了弱者而执剑吗……\\n真是很优秀的骑士啊。",
+        "zh_tw": "為弱者而揮劍……嗎。\\n是很了不起的騎士不是嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0040",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Always happy to impress. But I've shared\\nmy answer—let's hear yours.",
+        "ja_jp": "それはどうも。で、おふたりも<ruby><rb>理想</rb><rt>りそう</rt></ruby>の\\n<ruby><rb>騎士像</rb><rt>きしぞう</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>かせてくれるのでしょう？",
+        "zh_cn": "多谢夸奖。那你们两个也说说，\\n想当什么样的骑士啊？",
+        "zh_tw": "謝謝讚美。那麼，你們兩位\\n也願意告訴我理想的騎士之姿吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0041",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "I strive to become a knight who defends\\nthe peace of his homeland.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>理想</rb><rt>りそう</rt></ruby>とするのは、\\n<ruby><rb>祖国</rb><rt>そこく</rt></ruby>の<ruby><rb>平和</rb><rt>へいわ</rt></ruby>を<ruby><rb>守</rb><rt>まも</rt></ruby>る<ruby><rb>騎士</rb><rt>きし</rt></ruby>だ。",
+        "zh_cn": "我的理想是成为\\n守卫祖国和平的骑士。",
+        "zh_tw": "我的理想，\\n是成為守護祖國和平的騎士。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0042",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "I had my sights set on joining the royal\\nknights since I was a boy, that I might\\nfight for my king and this country I so\\ndearly love.",
+        "ja_jp": "<ruby><rb>愛</rb><rt>あい</rt></ruby>するアルベリアと<ruby><rb>王家</rb><rt>おうけ</rt></ruby>の<ruby><rb>剣</rb><rt>けん</rt></ruby>と\\nなるために、<ruby><rb>幼</rb><rt>おさな</rt></ruby>い<ruby><rb>頃</rb><rt>ころ</rt></ruby>より<ruby><rb>近衛</rb><rt>このえ</rt></ruby>を\\n<ruby><rb>志</rb><rt>こころざ</rt></ruby>してきた。",
+        "zh_cn": "为了成为我所热爱的阿尔贝里亚\\n和王室的利剑，我自小的愿望\\n就是能当上一名近卫。",
+        "zh_tw": "為了成為心愛的阿爾貝利亞\\n與王家之劍，\\n我從小就立志加入近衛隊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0043",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Harle",
+        "ja_jp": "ハール",
+        "zh_cn": "哈尔",
+        "zh_tw": "哈魯"
+      },
+      "context": {
+        "en_us": "Ha! Leave it to the valedictorian to have\\nthe perfect answer.",
+        "ja_jp": "さすが、<ruby><rb>首席</rb><rt>しゅせき</rt></ruby>の<ruby><rb>優等生様</rb><rt>ゆうとうせいさま</rt></ruby>の<ruby><rb>言葉</rb><rt>ことば</rt></ruby>は\\n<ruby><rb>重</rb><rt>おも</rt></ruby>みが<ruby><rb>違</rb><rt>ちが</rt></ruby>いますね。",
+        "zh_cn": "真不愧是首席优等生，\\n说话的分量都不一样。",
+        "zh_tw": "了不起，首席優等生大人的發言，\\n格局就是不一樣呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0044",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Silence, you churl. ...And you, Cecile?",
+        "ja_jp": "<ruby><rb>茶化</rb><rt>ちゃか</rt></ruby>すな、ハール。\\nセシルはどんな<ruby><rb>騎士</rb><rt>きし</rt></ruby>を<ruby><rb>理想</rb><rt>りそう</rt></ruby>としている？",
+        "zh_cn": "少拿我打趣了，哈尔。\\n赛希尔，你想成为怎样的骑士？",
+        "zh_tw": "別取笑我了，哈魯。\\n賽席爾的理想是怎樣的騎士？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0045",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "I seek to be the king's sword, of course.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>はもちろん、<ruby><rb>王</rb><rt>おう</rt></ruby>の<ruby><rb>剣</rb><rt>けん</rt></ruby>たる<ruby><rb>騎士</rb><rt>きし</rt></ruby>を\\n<ruby><rb>目指</rb><rt>めざ</rt></ruby>しているわ。",
+        "zh_cn": "我当然是希望能够成为\\n王手里的剑那样的骑士啦。",
+        "zh_tw": "我的目標當然是\\n能成為王之劍的騎士囉。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0046",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "To pledge my unshakable fealty and\\nsupport and protect my king no matter\\nwhat may come. This is my ideal and my—",
+        "ja_jp": "いかなる<ruby><rb>時</rb><rt>とき</rt></ruby>も<ruby><rb>揺</rb><rt>ゆ</rt></ruby>るぎない<ruby><rb>忠義</rb><rt>ちゅうぎ</rt></ruby>を<ruby><rb>尽</rb><rt>つ</rt></ruby>くす。\\n<ruby><rb>何</rb><rt>なに</rt></ruby>があろうとも、<ruby><rb>王</rb><rt>おう</rt></ruby>を<ruby><rb>支</rb><rt>ささ</rt></ruby>え、<ruby><rb>守</rb><rt>まも</rt></ruby>る<ruby><rb>剣</rb><rt>けん</rt></ruby>で\\nありたいの。それが、<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>理想</rb><rt>りそう</rt></ruby>……。",
+        "zh_cn": "无论何时都坚定不移地献上忠诚。\\n不管发生什么都作为利剑辅佐王——\\n这就是我的理想……",
+        "zh_tw": "無論何時都堅定不移地盡忠職守。\\n不管發生何事，我希望自己是支持、\\n守護王的劍。這就是，我的理想……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0047",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "GRRR! Stop it, stop it, stop it, stop it!\\nI don't want to think about the shining\\nperson I used to be...",
+        "ja_jp": "あああああああ……<ruby><rb>無理</rb><rt>むり</rt></ruby>、<ruby><rb>駄目</rb><rt>だめ</rt></ruby>……\\nもうやめて……あんな<ruby><rb>輝</rb><rt>かがや</rt></ruby>いてた<ruby><rb>頃</rb><rt>ころ</rt></ruby>の\\n<ruby><rb>思</rb><rt>おも</rt></ruby>い<ruby><rb>出話</rb><rt>でばなし</rt></ruby>なんて……！",
+        "zh_cn": "啊啊啊啊啊啊啊……不行……\\n别想了……我现在不能\\n想起那些光辉的往事！",
+        "zh_tw": "啊啊啊啊啊啊啊……不行、不要……\\n別再說下去了……\\n那段光輝時代的往事……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0048",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Ah, of course. My apologies.",
+        "ja_jp": "しまった……すまない、セシル。",
+        "zh_cn": "是我大意了……\\n抱歉，赛希尔。",
+        "zh_tw": "糟糕……抱歉，賽席爾。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0049",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "*pant* *heave* Gotta get my Manachew...\\nOh, dammit! Harle confiscated it when he\\narrested us, that little weasel!",
+        "ja_jp": "ハァ……ハァ……<ruby><rb>魔養石</rb><rt>マナリミン</rt></ruby>を……って、\\nハールに<ruby><rb>没収</rb><rt>ぼっしゅう</rt></ruby>されたんだった……\\nぐぬぬ、あいつぅ……。",
+        "zh_cn": "哈啊……哈啊……魔养石……\\n啊，被哈尔没收了……\\n气死我了，那家伙……",
+        "zh_tw": "哈……呼……得啃魔養石……\\n啊，被哈魯沒收了……\\n唔唔唔，那傢伙……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0050",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Well, he was right about one thing:\\nLife certainly is unpredictable.",
+        "ja_jp": "はぁ……<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>、わからないものね。",
+        "zh_cn": "唉……人生真的充满了未知呢。",
+        "zh_tw": "唉……真是，無法預料呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0051",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Since we last met, I turned my back on the\\norder and Harle cast all honor aside.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>騎士道</rb><rt>きしどう</rt></ruby>に<ruby><rb>背</rb><rt>せ</rt></ruby>を<ruby><rb>向</rb><rt>む</rt></ruby>け、\\nハールは<ruby><rb>騎士道</rb><rt>きしどう</rt></ruby>を<ruby><rb>捨</rb><rt>す</rt></ruby>てた……。",
+        "zh_cn": "我背离了骑士道，\\n哈尔舍弃了骑士道……",
+        "zh_tw": "我背離了騎士道，\\n而哈魯捨棄了騎士道……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0052",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "You're the only holdout left.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>となっては、あなたぐらいよ。\\n<ruby><rb>変</rb><rt>か</rt></ruby>わらず<ruby><rb>騎士道</rb><rt>きしどう</rt></ruby>を<ruby><rb>貫</rb><rt>つらぬ</rt></ruby>いているの。",
+        "zh_cn": "现在依然贯彻骑士道的人，\\n大概也只有你了。",
+        "zh_tw": "事到如今，只剩下你了，\\n現在依舊貫徹騎士道的人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0053",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0054",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "How did you do it, Leif? How did you\\nmanage to remain a knight despite\\neverything that's happened?",
+        "ja_jp": "ねえ……リーフ。どうして、\\nあなたは<ruby><rb>騎士</rb><rt>きし</rt></ruby>で<ruby><rb>在</rb><rt>あ</rt></ruby>り<ruby><rb>続</rb><rt>つづ</rt></ruby>けられるの？",
+        "zh_cn": "我说……利弗。\\n为什么你能一直坚持\\n走骑士这条路呢？",
+        "zh_tw": "欸……李弗。\\n為什麼，你能夠堅持當騎士呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0055",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "I know you felt as much despair as any of\\nus when Alberia fell to Dyrenell.",
+        "ja_jp": "アルベリアがディアネルになったとき、\\nあなただって<ruby><rb>絶望</rb><rt>ぜつぼう</rt></ruby>したでしょう？",
+        "zh_cn": "阿尔贝里亚变成狄涅尔的时候，\\n你也绝望过吧？",
+        "zh_tw": "當阿爾貝利亞變成狄亞內魯時，\\n你應該也曾感到絕望吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0056",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Seeing the king you served transformed?\\nThe shame of being powerless to stop it?\\nHow did those things not break you?",
+        "ja_jp": "<ruby><rb>剣</rb><rt>けん</rt></ruby>を<ruby><rb>捧</rb><rt>ささ</rt></ruby>げた<ruby><rb>王家</rb><rt>おうけ</rt></ruby>の<ruby><rb>変貌</rb><rt>へんぼう</rt></ruby>ぶりと、<ruby><rb>祖国</rb><rt>そこく</rt></ruby>を\\n<ruby><rb>守</rb><rt>まも</rt></ruby>れなかった<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>無力</rb><rt>むりょく</rt></ruby>さに……。\\nでもあなたは<ruby><rb>折</rb><rt>お</rt></ruby>れなかった。",
+        "zh_cn": "奉献了忠诚的王室面目全非，\\n自己又无力保家卫国……\\n但你依然没有屈服。",
+        "zh_tw": "目睹以劍效忠的王家發生那種劇變，\\n嘗盡自己未能守護祖國的無力感……\\n但你卻沒有因此受挫。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0057",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "You stayed a knight, even if it meant\\ntaking a new king and serving a new\\nkingdom. I just want to know how.",
+        "ja_jp": "あなたは<ruby><rb>仕</rb><rt>つか</rt></ruby>える<ruby><rb>国</rb><rt>くに</rt></ruby>と<ruby><rb>主君</rb><rt>しゅくん</rt></ruby>を<ruby><rb>変</rb><rt>か</rt></ruby>えてまで\\n<ruby><rb>騎士</rb><rt>きし</rt></ruby>の<ruby><rb>道</rb><rt>みち</rt></ruby>を<ruby><rb>歩</rb><rt>あゆ</rt></ruby>み<ruby><rb>続</rb><rt>つづ</rt></ruby>けてる。\\nそれができるのは、どうして？",
+        "zh_cn": "即使侍奉的国家和君主都变了，\\n你也依然走在骑士这条路上。\\n你是怎么做到的呢？",
+        "zh_tw": "你不惜改變侍奉的國家與君主，\\n也仍然堅持走在騎士的道路上。\\n為什麼，你能辦得到？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0058",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Because I carry my own justice inside me.",
+        "ja_jp": "……<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>に<ruby><rb>正義</rb><rt>せいぎ</rt></ruby>があるからな。",
+        "zh_cn": "因为我的心中有正义。",
+        "zh_tw": "……因為我心中存在正義。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0059",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "What do you mean?",
+        "ja_jp": "<ruby><rb>正義</rb><rt>せいぎ</rt></ruby>？",
+        "zh_cn": "正义？",
+        "zh_tw": "正義？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0060",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "＂Knight's Code, Article 10: A knight is a\\nconduit for justice and good. Let iniquity\\nand evil ever face your blade.＂",
+        "ja_jp": "『<ruby><rb>第十</rb><rt>だいじゅう</rt></ruby>の<ruby><rb>戒律</rb><rt>かいりつ</rt></ruby>　<ruby><rb>騎士</rb><rt>きし</rt></ruby>とは<ruby><rb>正義</rb><rt>せいぎ</rt></ruby>と<ruby><rb>善</rb><rt>ぜん</rt></ruby>を\\n　<ruby><rb>行</rb><rt>おこな</rt></ruby>う<ruby><rb>者</rb><rt>もの</rt></ruby>であれ。いついかなる<ruby><rb>時</rb><rt>とき</rt></ruby>も\\n　<ruby><rb>不正</rb><rt>ふせい</rt></ruby>と<ruby><rb>悪</rb><rt>あく</rt></ruby>に<ruby><rb>剣</rb><rt>けん</rt></ruby>を<ruby><rb>向</rb><rt>む</rt></ruby>けるべし』",
+        "zh_cn": "“第十戒 骑士者当行正义与善，\\n时刻和不端与恶做斗争。”",
+        "zh_tw": "「第十戒律，\\n　騎士即實行正義與良善者。\\n　無論何時皆應對抗不正與邪惡。」"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0061",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "That's the last of the ten articles of\\nknighthood they taught us at the academy.",
+        "ja_jp": "それ……<ruby><rb>将士学校</rb><rt>しょうしがっこう</rt></ruby>で<ruby><rb>習</rb><rt>なら</rt></ruby>う\\n<ruby><rb>騎士道</rb><rt>きしどう</rt></ruby>の<ruby><rb>十戒</rb><rt>じっかい</rt></ruby>の、<ruby><rb>最後</rb><rt>さいご</rt></ruby>の<ruby><rb>戒律</rb><rt>かいりつ</rt></ruby>……。",
+        "zh_cn": "这是……在军事学校\\n学的骑士道十戒中\\n最后一条戒律。",
+        "zh_tw": "那是……在軍官學校時\\n學到的騎士道十戒，\\n最後的戒律……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0062",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "It may be the last, but it has ever been\\nfirst in my heart.",
+        "ja_jp": "ああ。<ruby><rb>十戒</rb><rt>じっかい</rt></ruby>のなかで、\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>最</rb><rt>もっと</rt></ruby>も<ruby><rb>感銘</rb><rt>かんめい</rt></ruby>を<ruby><rb>受</rb><rt>う</rt></ruby>けた<ruby><rb>戒律</rb><rt>かいりつ</rt></ruby>だ。",
+        "zh_cn": "是啊，这也是十戒里\\n让我感触最深的戒律。",
+        "zh_tw": "嗯。是在十戒當中，\\n讓我最受啟發的戒律。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0063",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "A knight's last bastion is the justice within\\ntheir own heart. So long as that stands,\\nthey remain undefeated.",
+        "ja_jp": "<ruby><rb>我々</rb><rt>われわれ</rt></ruby>の<ruby><rb>最後</rb><rt>さいご</rt></ruby>の<ruby><rb>砦</rb><rt>とりで</rt></ruby>は『<ruby><rb>己</rb><rt>おのれ</rt></ruby>の<ruby><rb>正義</rb><rt>せいぎ</rt></ruby>』。\\n<ruby><rb>正義</rb><rt>せいぎ</rt></ruby>さえ<ruby><rb>失</rb><rt>うしな</rt></ruby>わなければいかなる<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>でも\\n<ruby><rb>騎士道</rb><rt>きしどう</rt></ruby>を<ruby><rb>貫</rb><rt>つらぬ</rt></ruby>ける……。",
+        "zh_cn": "我们最后的底线是“内心的正义”。\\n只要这份正义还在，不管什么情况\\n都能贯彻骑士道……",
+        "zh_tw": "我們最後的堡壘即是「自身的正義」。\\n只要不忘正義，無論身處何種狀況\\n都能貫徹騎士道……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0064",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "And these days, my justice lies in the\\nhands of Prince Euden.",
+        "ja_jp": "そして<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>正義</rb><rt>せいぎ</rt></ruby>は<ruby><rb>今</rb><rt>いま</rt></ruby>、\\nユーディル<ruby><rb>殿下</rb><rt>でんか</rt></ruby>と<ruby><rb>共</rb><rt>とも</rt></ruby>にある。\\nそれだけの<ruby><rb>話</rb><rt>はなし</rt></ruby>だ。",
+        "zh_cn": "而如今我的正义\\n与尤蒂尔殿下同在。\\n仅此而已。",
+        "zh_tw": "而我的正義此刻\\n與尤帝爾殿下同在。\\n僅此而已。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0065",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "This may be the lack of Manachew talking,\\nbut that ＂justice＂ word has a way of ringing\\nin a gal's head.",
+        "ja_jp": "<ruby><rb>正義</rb><rt>せいぎ</rt></ruby>……ね。<ruby><rb>自分</rb><rt>じぶん</rt></ruby>から<ruby><rb>聞</rb><rt>き</rt></ruby>いておいて\\nアレだけど……<ruby><rb>魔養石</rb><rt>マナリミン</rt></ruby><ruby><rb>切</rb><rt>ぎ</rt></ruby>れの<ruby><rb>頭</rb><rt>あたま</rt></ruby>に、\\n<ruby><rb>最高</rb><rt>さいこう</rt></ruby>に<ruby><rb>響</rb><rt>ひび</rt></ruby>く<ruby><rb>言葉</rb><rt>ことば</rt></ruby>だったわ……。",
+        "zh_cn": "正义……虽然是我提起的话题……\\n但对于我这个急缺魔养石的人来说，\\n这个词真是感人肺腑。",
+        "zh_tw": "正義……嗎。我自己提問的還這麼說\\n雖然有點怪……但對魔養石不足的\\n頭腦來說，這些話太震撼了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0066",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Speaking of Manachew, I need some bad.\\nTime to bust out of this joint.",
+        "ja_jp": "はぁああ……どうにか<ruby><rb>脱出</rb><rt>だっしゅつ</rt></ruby>して、\\n<ruby><rb>早</rb><rt>はや</rt></ruby>く<ruby><rb>魔養石</rb><rt>マナリミン</rt></ruby><ruby><rb>補給</rb><rt>ほきゅう</rt></ruby>しないと……。",
+        "zh_cn": "哈啊啊啊……要想办法逃出去，\\n尽快补充魔养石才行……",
+        "zh_tw": "唉啊啊啊……得想辦法逃離這裡，\\n早點補充魔養石……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0067",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Then you have an escape plan?",
+        "ja_jp": "む？\\n<ruby><rb>脱出</rb><rt>だっしゅつ</rt></ruby>とは……どうやって？",
+        "zh_cn": "嗯？\\n逃出去……怎么逃？",
+        "zh_tw": "唔？\\n妳說逃離……該怎麼做？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0068",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Sure do. C'mere a minute...",
+        "ja_jp": "リーフ、<ruby><rb>耳</rb><rt>みみ</rt></ruby>、<ruby><rb>貸</rb><rt>か</rt></ruby>して。",
+        "zh_cn": "利弗，你听我说。",
+        "zh_tw": "李弗，耳朵借我一下。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0069",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Guard! GUAAAARD!",
+        "ja_jp": "<ruby><rb>看守</rb><rt>かんしゅ</rt></ruby>！\\n<ruby><rb>看守</rb><rt>かんしゅ</rt></ruby>はいないのか！",
+        "zh_cn": "守卫！\\n守卫在吗！",
+        "zh_tw": "守衛！守衛不在嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0070",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Guard",
+        "ja_jp": "看守",
+        "zh_cn": "警卫",
+        "zh_tw": "守衛"
+      },
+      "context": {
+        "en_us": "Pipe down, you dog!",
+        "ja_jp": "なんだ、<ruby><rb>騒々</rb><rt>そうぞう</rt></ruby>しい……。",
+        "zh_cn": "怎么了，大喊大叫的……",
+        "zh_tw": "幹嘛啊，吵死了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0071",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Help, please! She's not breathing!",
+        "ja_jp": "セシルの<ruby><rb>息</rb><rt>いき</rt></ruby>がないんだ……！",
+        "zh_cn": "赛希尔没有呼吸了！",
+        "zh_tw": "賽席爾沒有呼吸了……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0072",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Guard",
+        "ja_jp": "看守",
+        "zh_cn": "警卫",
+        "zh_tw": "守衛"
+      },
+      "context": {
+        "en_us": "What?!",
+        "ja_jp": "なっ……!?",
+        "zh_cn": "什么！？",
+        "zh_tw": "啥……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0073",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "She's been sick for years, and I fear the\\nillness may have finally...",
+        "ja_jp": "<ruby><rb>元々</rb><rt>もともと</rt></ruby>、セシルは<ruby><rb>持病</rb><rt>じびょう</rt></ruby>を<ruby><rb>患</rb><rt>わずら</rt></ruby>っていた。\\nおそらく、それで……。",
+        "zh_cn": "赛希尔本来就有老毛病，\\n恐怕是因为病发了才……",
+        "zh_tw": "賽席爾她本來就患有宿疾。\\n恐怕，是這個原因……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0074",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Guard",
+        "ja_jp": "看守",
+        "zh_cn": "警卫",
+        "zh_tw": "守衛"
+      },
+      "context": {
+        "en_us": "Quiet, you! I'll be the judge of this...\\nHuh. She really is gone. Well, this is the\\nlast thing I needed today.",
+        "ja_jp": "どれ……<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>息</rb><rt>いき</rt></ruby>がないな。\\nずいぶんと<ruby><rb>顔色</rb><rt>かおいろ</rt></ruby>の<ruby><rb>悪</rb><rt>わる</rt></ruby>い<ruby><rb>女</rb><rt>おんな</rt></ruby>だとは\\n<ruby><rb>思</rb><rt>おも</rt></ruby>っていたが……<ruby><rb>厄介</rb><rt>やっかい</rt></ruby>な。",
+        "zh_cn": "我看看……真的没气了。\\n难怪脸色这么难看……\\n这下可难办了。",
+        "zh_tw": "我看看……真的沒呼吸了。\\n雖然之前就覺得這女的臉色很蒼白……\\n真麻煩。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0075",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Good sir guard, as one of Ilia's faithful,\\nyou must permit me to lay her to rest in\\nthe proper fashion.",
+        "ja_jp": "<ruby><rb>頼</rb><rt>たの</rt></ruby>む！　<ruby><rb>貴公</rb><rt>きこう</rt></ruby>が<ruby><rb>敬虔</rb><rt>けいけん</rt></ruby>なイリア<ruby><rb>教徒</rb><rt>きょうと</rt></ruby>である\\nならば<ruby><rb>弔</rb><rt>とむら</rt></ruby>ってはもらえないだろうか？",
+        "zh_cn": "拜托你了！\\n如果你是虔诚的伊莉雅教徒，\\n能不能让我吊唁她？",
+        "zh_tw": "拜託！若你是虔誠的伊利亞教徒，\\n能不能請你弔祭她呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0076",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Guard",
+        "ja_jp": "看守",
+        "zh_cn": "警卫",
+        "zh_tw": "守衛"
+      },
+      "context": {
+        "en_us": "Did you forget the part where you're a\\nprisoner? You don't make demands!",
+        "ja_jp": "<ruby><rb>虜囚</rb><rt>りょしゅう</rt></ruby>の<ruby><rb>分際</rb><rt>ぶんざい</rt></ruby>で<ruby><rb>何</rb><rt>なに</rt></ruby>を……！",
+        "zh_cn": "区区俘虏，还提要求……",
+        "zh_tw": "區區俘虜胡說什麼……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0077",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Even just loosing her bindings and laying\\nher flat on the floor would be a mercy, sir.\\nPlease, if you bear any love for the\\nGoddess, you must do this thing!",
+        "ja_jp": "せめて<ruby><rb>縄</rb><rt>なわ</rt></ruby>をほどき、<ruby><rb>床</rb><rt>ゆか</rt></ruby>に<ruby><rb>横</rb><rt>よこ</rt></ruby>たえる\\nだけでもいい！　<ruby><rb>女神</rb><rt>めがみ</rt></ruby>の<ruby><rb>慈悲</rb><rt>じひ</rt></ruby>を……！",
+        "zh_cn": "至少给她解开绳子，\\n让她平躺下来也好啊！\\n看在女神慈悲的份上……",
+        "zh_tw": "至少解開繩索，讓她躺在地上也行！\\n請看在女神慈悲……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0078",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "This is our way in the south...though\\nperhaps the Northern Church teaches that\\nthe dead are beneath Her gaze.",
+        "ja_jp": "それとも……<ruby><rb>北教会</rb><rt>きたきょうかい</rt></ruby>では、<ruby><rb>南</rb><rt>みなみ</rt></ruby>と<ruby><rb>異</rb><rt>こと</rt></ruby>なり\\n<ruby><rb>死者</rb><rt>ししゃ</rt></ruby>は<ruby><rb>軽</rb><rt>かろ</rt></ruby>んずるものと<ruby><rb>教</rb><rt>おし</rt></ruby>えられているの\\nだろうか？",
+        "zh_cn": "还是说……\\n北部教会和南部不一样，\\n教诲里有蔑视死者这一条？",
+        "zh_tw": "還是說……北方教會與南方不同，\\n你們的教義主張輕視死者呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0079",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Guard",
+        "ja_jp": "看守",
+        "zh_cn": "警卫",
+        "zh_tw": "守衛"
+      },
+      "context": {
+        "en_us": "Enough! Fine! I'll loosen her ropes if that'll\\nget your yap to shut.",
+        "ja_jp": "ぶ、<ruby><rb>無礼</rb><rt>ぶれい</rt></ruby>な！　チッ……わかった。\\n<ruby><rb>縄</rb><rt>なわ</rt></ruby>をほどくくらいなら……。",
+        "zh_cn": "你、你太没礼貌了！\\n啧……我知道了。\\n解开绳子还是可以的……",
+        "zh_tw": "無、無禮之徒！嘖……我知道了。\\n如果只是解開繩索的話……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0080",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Guard",
+        "ja_jp": "看守",
+        "zh_cn": "警卫",
+        "zh_tw": "守衛"
+      },
+      "context": {
+        "en_us": "Guess I should thank her for saving us the\\nhassle of an execution. Maybe you'll do us\\nthe same favor and—",
+        "ja_jp": "……まあ、<ruby><rb>処刑</rb><rt>しょけい</rt></ruby>の<ruby><rb>手間</rb><rt>てま</rt></ruby>が<ruby><rb>省</rb><rt>はぶ</rt></ruby>けたと\\n<ruby><rb>思</rb><rt>おも</rt></ruby>えばいいか。よし、これで――",
+        "zh_cn": "算了……就当是\\n省去处刑的麻烦了。\\n好了，这下——",
+        "zh_tw": "……算了，當作省去處刑的工夫吧。\\n嗯，這樣就好──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0081",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Guard",
+        "ja_jp": "看守",
+        "zh_cn": "警卫",
+        "zh_tw": "守衛"
+      },
+      "context": {
+        "en_us": "Hrrrk!",
+        "ja_jp": "グハアッ！",
+        "zh_cn": "呃啊！",
+        "zh_tw": "嗚啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0082",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Thanks for setting me free, bud.",
+        "ja_jp": "ありがと。\\nおかげで<ruby><rb>自由</rb><rt>じゆう</rt></ruby>になれたわ。",
+        "zh_cn": "谢谢你。\\n托你的福，我自由了。",
+        "zh_tw": "謝謝。托你的福才讓我重獲自由。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0083",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Were you always the sort to resort to such\\nunderhanded ploys?",
+        "ja_jp": "セシル……お<ruby><rb>前</rb><rt>まえ</rt></ruby>、こんなだまし<ruby><rb>討</rb><rt>う</rt></ruby>ちを\\nするような<ruby><rb>奴</rb><rt>やつ</rt></ruby>だったか……？",
+        "zh_cn": "赛希尔……你以前\\n就擅长这种偷袭吗？",
+        "zh_tw": "賽席爾……\\n妳以前是會耍這類小伎倆的人嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0084",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "I had a lot of room to spare after tossing\\nout justice and honor, so I picked up a few\\ndirty tricks along the way.",
+        "ja_jp": "<ruby><rb>正義</rb><rt>せいぎ</rt></ruby>も<ruby><rb>騎士道</rb><rt>きしどう</rt></ruby>も<ruby><rb>失</rb><rt>うしな</rt></ruby>ったけど……\\nその<ruby><rb>分</rb><rt>ぶん</rt></ruby>、<ruby><rb>汚</rb><rt>きたな</rt></ruby>い<ruby><rb>術</rb><rt>すべ</rt></ruby>は<ruby><rb>学</rb><rt>まな</rt></ruby>んだってこと。",
+        "zh_cn": "虽然我失去了正义和骑士道……\\n却学会了肮脏的手段。",
+        "zh_tw": "雖然我失去了正義和騎士道……\\n卻也讓我習得骯髒的手段。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0085",
+      "book": ""
+    },
+    {
+      "icon": "110394_01",
+      "name": {
+        "en_us": "Cecile",
+        "ja_jp": "セシル",
+        "zh_cn": "赛希尔",
+        "zh_tw": "賽席爾"
+      },
+      "context": {
+        "en_us": "Now, let's go. Nothing's getting between\\nme and my Manachew!",
+        "ja_jp": "さあ、<ruby><rb>逃</rb><rt>に</rt></ruby>げるわよ。\\n<ruby><rb>早</rb><rt>はや</rt></ruby>く<ruby><rb>魔養石</rb><rt>マナリミン</rt></ruby>を<ruby><rb>手</rb><rt>て</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>れないと……！",
+        "zh_cn": "好了，我们快跑吧。\\n我得快点弄到魔养石才行！",
+        "zh_tw": "好，快逃吧。\\n得快點拿到魔養石才行……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0086",
+      "book": ""
+    },
+    {
+      "icon": "100018_07",
+      "name": {
+        "en_us": "Leif",
+        "ja_jp": "リーフ",
+        "zh_cn": "利弗",
+        "zh_tw": "李弗"
+      },
+      "context": {
+        "en_us": "Heh. And yet somehow, you still remain\\nthe same one-woman army...",
+        "ja_jp": "ふっ……<ruby><rb>女傑</rb><rt>じょけつ</rt></ruby>なところは、\\n<ruby><rb>変</rb><rt>か</rt></ruby>わらないようだな。",
+        "zh_cn": "呵……巾帼不让须眉\\n这一点还是老样子呢。",
+        "zh_tw": "呵……她的女中豪傑風範，\\n看來依舊健在呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22902_03_0087",
+      "book": ""
+    }
+  ]
 }

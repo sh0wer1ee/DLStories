@@ -1,773 +1,1462 @@
 {
-    "story_id": "",
-    "story_name": "防卫战～日出之国宝藏传说！～ 偷懒鼠的黄金梦",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "光秀告诉家康编造宝藏传说\\n是为了给自己打造一片偷懒净土，\\n其实却是为了振兴贫困的村子。\\n察觉到这一切的家康却认为洞穴\\n确实与自己的先祖有关，便继续挖掘。"
-        ]
+  "title": {
+    "en_us": "The Fabled Fortune    Dreams of Gold",
+    "ja_jp": "防衛戦～ヒノモト埋蔵金伝説！～  ぐうたらネズミは黄金の夢見るか",
+    "zh_cn": "防卫战～日出之国宝藏传说！～  偷懒鼠的黄金梦",
+    "zh_tw": "防衛戰～日初之國寶藏傳說！～  懶洋洋老鼠是否見黃金之夢"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "你是说我把黄金雕像\\n埋到了洞穴里？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_04"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "不只是雕像，我们至今为止\\n挖到的碗、工具还有木片都是。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_04"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "虽然看起来很老旧，\\n实际上却都是近年的东西。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "毕竟这世上可是\\n有着能让东西看起来\\n上年代的做旧手艺啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_08"
-            ],
-            "speaker_name": "卢卡",
-            "context": "既然是做旧的，自然不太可能\\n一开始就埋在那下面吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "所以你们的意思是——",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "至今为止在洞穴里找到的\\n所有线索都是我造假的？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "这怎么可能嘛。\\n首先，我为什么要去做那些\\n造假然后埋进洞里的麻烦事？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "确实不太像是你会做的事。\\n但如果是你拜托它们去做的呢？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "昨天晚上它们\\n打算埋下新的“线索”时\\n被我逮了个正着。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "我确实和小波关系好，\\n但我可没法指挥老鼠啊～",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210156_01"
-            ],
-            "speaker_name": "摩利支天",
-            "context": "就算你不行，你的契约龙\\n大黑天不见得办不到吧。\\n毕竟我都能和小猪崽们交流。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_04"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "不然我们把能跟动物交流的\\n梅莉贝尔或者乌尔嘉叫来，\\n问问老鼠们到底是怎么回事？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "水井上的家纹也被证实\\n是最近才刻上去的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "光秀，差不多该说实话了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "哎呀……\\n我还以为会再顺利些呢～",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_08"
-            ],
-            "speaker_name": "卢卡",
-            "context": "那我们从洞穴里挖出的东西\\n果然都是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "没错，都是我为了\\n“天岩户计划”而准备好的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_04"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "“天岩户计划”？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "呵呵呵，“天岩户计划”就是——",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "为我打造一片\\n偷懒净土的计划！",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_04",
-                "100006_08",
-                "110313_04"
-            ],
-            "speaker_name": "全员",
-            "context": "啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "当初在这村附近看到那口枯井时\\n就在想“要是能一直住在井底\\n不用干活该多好”。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "要闭门不出的话，躲井里不是更好？\\n这样就不会被任何人打扰了。\\n不过，我自己又懒得去挖。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "所以我听了水金村的宝藏传说\\n就灵机一动，想起了家康氏族中\\n流传的“狐狸”的故事。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "要是能把这两个故事联系起来，\\n家康一定会为了寻找宝藏\\n而帮我在井底挖洞吧～",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210156_01"
-            ],
-            "speaker_name": "摩利支天",
-            "context": "所以才在水井上\\n刻了家康的家纹，\\n把我们叫来这里吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "不过帝国军和兰扎卜他们\\n倒是在我的预想之外。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "那些造假的线索\\n也是为了让你们\\n有挖洞的动力。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "毕竟要是什么都挖不出来，\\n在挖到合适的深度前\\n你们可能就会放弃了呢～",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_08"
-            ],
-            "speaker_name": "卢卡",
-            "context": "只是因为想躲到井里\\n而欺骗我们……\\n你是认真的吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "当然是认真的，\\n能用的手段就要用。\\n毕竟我可是——",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "只想偷懒\\n不被任何人打扰呢！",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_04"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "哈……我都已经懒得生气了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "帮我挖洞的事，\\n我会补偿你们的。\\n所以这件事可以就此打住吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_04"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "大可不必。\\n我们是为了寻求浪漫才来的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_08"
-            ],
-            "speaker_name": "卢卡",
-            "context": "从你那里拿挖洞的工钱\\n也感觉怪怪的。\\n各位，我们回去吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "没能按计划行事吗。\\n不过，算了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "光秀，我有话要跟你说。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "你们还没回去啊。\\n不是还让山茶花他们帮忙\\n做日出之国的工作吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "我觉得返回日出之国之前\\n要先从你这里问出真相。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "真相？我已经都招了啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "我不这么认为。\\n毕竟你做事一定也会为\\n自己以外之人的利益考虑。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "我可没那种闲情雅致。\\n那你又是怎么想的？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "此次风波之中受益最大的，\\n当属水金村的村民们。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "我们寻宝一事\\n让宝藏的传说迅速传开，\\n进而吸引大批游客前来。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210156_01"
-            ],
-            "speaker_name": "摩利支天",
-            "context": "而且他们也不可能\\n不知道水井的存在。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "如果你是为了帮他们振兴村子，\\n那一切便都说得通了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "所以，宝藏传说本身其实\\n也是你和村民们为了振兴村子\\n而编出来的谎言对吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "然而仅仅是传说的话，并不会\\n吸引太多人。但若是有人真的在\\n这里寻宝，那可信度便会大大提升。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "于是你便利用“狐狸”的故事\\n引诱我来这里寻找宝藏。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "之所以没向兰扎卜他们道出真相，\\n是为了不让村民们受到牵连，\\n我说的没错吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "唉……\\n竟然都被你看穿了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210156_01"
-            ],
-            "speaker_name": "摩利支天",
-            "context": "一切都如家康所说吗。\\n为什么要帮他们编造谎言？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "也算是为了报答他们\\n对我的款待。你们也看到\\n水金村那破败的景象了吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "渔业不景气，新开发的旅游业\\n也不顺利。这样下去村子迟早会荒废，\\n我不想看到这一切发生。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "啊，不过我想要一个洞\\n躲进去倒是实话。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "把你牵扯进来\\n是我一个人的主意，\\n能别怪罪村民们吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "我理解他们\\n为了生存都很拼命，\\n所以自然不会怪罪他们。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "我也不怪罪帮助他们的你。\\n不过……有些不甘就是了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "你还是那个老好人啊。\\n明明我的确是骗了你。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "可你给人添麻烦的时候\\n不也看人吗。我觉得你之所以选我，\\n正是因为你信赖我，把我视作友人。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "唉……只要跟你一起，\\n就总会被你牵着鼻子走。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "话说那宝藏传说，\\n究竟有几分真几分假？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210156_01"
-            ],
-            "speaker_name": "摩利支天",
-            "context": "嗯？不全是编出来的谎言吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "彻头彻尾的谎言\\n是很难让人信服的。\\n我觉得那传说应该有原型。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "你说得没错。\\n有孩子看到武士把黄金埋到\\n井里的故事的确是我编出来的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "但除此以外的所有内容\\n都确实在这个村子流传已久，\\n包括那首童谣。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "身披八目的武士呀，\\n卖力地挖井咿呀喂。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "若是发现了宝藏呢，\\n鬼门关也留不住……吗。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "而且你在井底发现的那个洞穴\\n也确实是很久以前就有的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "不过要是让你太顺利地发现\\n就没意思了，所以拜托\\n村长他们把入口给埋了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210156_01"
-            ],
-            "speaker_name": "摩利支天",
-            "context": "所以漂流而来的武士\\n挖了井的故事可能是真的？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "嗯。而且我认为那武士的\\n真实身份就是“狐狸”。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "不不不，那只是我为了引你来\\n而强行关联到一起的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "那么在洞穴里发现的\\n“八猪目”印笼也是你准备的吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110345_04"
-            ],
-            "speaker_name": "光秀",
-            "context": "那是什么东西？\\n我可没听说过。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "当初发现的时候因为太激动\\n就忘了告诉你。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "但是让马蒂殿下鉴定之后，\\n却发现只有那印笼的的确确\\n有100年以上的历史。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210156_01"
-            ],
-            "speaker_name": "摩利支天",
-            "context": "如果那不是\\n光秀准备的东西……",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110313_04"
-            ],
-            "speaker_name": "家康",
-            "context": "也许洞穴深处\\n真的埋藏着历史的真相。",
-            "voice_line": "VO_CHR_EVENTSTORY_22214_04_0084",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Mitsuhide confesses to inventing the legend of\\nthe buried gold in order to laze about, yet her\\ntrue aim was to revitalize the impoverished\\nvillage. Even so, Ieyasu believes the well holds\\na link to his past, and continues the excavation.",
+      "ja_jp": "<ruby><rb>自分</rb><rt>じぶん</rt></ruby>がぐうたらするために<ruby><rb>埋蔵金</rb><rt>まいぞうきん</rt></ruby><ruby><rb>伝説</rb><rt>でんせつ</rt></ruby>を<ruby><rb>捏造</rb><rt>ねつぞう</rt></ruby>\\nしたと<ruby><rb>語</rb><rt>かた</rt></ruby>るミツヒデ。だが<ruby><rb>真</rb><rt>しん</rt></ruby>の<ruby><rb>目的</rb><rt>もくてき</rt></ruby>は<ruby><rb>貧困</rb><rt>ひんこん</rt></ruby>に\\nあえぐ<ruby><rb>村</rb><rt>むら</rt></ruby>の<ruby><rb>活性化</rb><rt>かっせいか</rt></ruby>だった。すべての<ruby><rb>事情</rb><rt>じじょう</rt></ruby>を\\n<ruby><rb>聞</rb><rt>き</rt></ruby>いたイエヤスは、その<ruby><rb>上</rb><rt>うえ</rt></ruby>で<ruby><rb>洞窟</rb><rt>どうくつ</rt></ruby>には<ruby><rb>先祖</rb><rt>せんぞ</rt></ruby>に\\n<ruby><rb>関</rb><rt>かか</rt></ruby>わる<ruby><rb>何</rb><rt>なに</rt></ruby>かがあると<ruby><rb>判断</rb><rt>はんだん</rt></ruby>し、<ruby><rb>発掘</rb><rt>はっくつ</rt></ruby>に<ruby><rb>戻</rb><rt>もど</rt></ruby>る。",
+      "zh_cn": "光秀告诉家康编造宝藏传说\\n是为了给自己打造一片偷懒净土，\\n其实却是为了振兴贫困的村子。\\n察觉到这一切的家康却认为洞穴\\n确实与自己的先祖有关，便继续挖掘。",
+      "zh_tw": "光秀雖表示自己是為了發懶才捏造出\\n寶藏傳說，然而她的真實目的其實是\\n為了振興為貧困所苦的村子。\\n家康得知一切真相後，仍判斷洞窟和祖先\\n有所關連，並繼續動手挖掘。"
+    }
+  },
+  "prev": "2221403",
+  "next": "2221405",
+  "content": [
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "You think I'M the one who buried the\\ngolden statue down there?",
+        "ja_jp": "うちが<ruby><rb>黄金</rb><rt>おうごん</rt></ruby>の<ruby><rb>像</rb><rt>ぞう</rt></ruby>を<ruby><rb>洞窟</rb><rt>どうくつ</rt></ruby>に<ruby><rb>埋</rb><rt>う</rt></ruby>めたって？",
+        "zh_cn": "你是说我把黄金雕像\\n埋到了洞穴里？",
+        "zh_tw": "你說是我把黃金雕像埋進洞窟的？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0001",
+      "book": ""
+    },
+    {
+      "icon": "100003_04",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "No, we think you put EVERYTHING down\\nthere. The teacup, the tools... The works.",
+        "ja_jp": "<ruby><rb>像</rb><rt>ぞう</rt></ruby>だけじゃねえ。<ruby><rb>今</rb><rt>いま</rt></ruby>まで<ruby><rb>見</rb><rt>み</rt></ruby>つかった\\n<ruby><rb>茶碗</rb><rt>ちゃわん</rt></ruby>に<ruby><rb>道具</rb><rt>どうぐ</rt></ruby>に<ruby><rb>木片</rb><rt>もくへん</rt></ruby>。",
+        "zh_cn": "不只是雕像，我们至今为止\\n挖到的碗、工具还有木片都是。",
+        "zh_tw": "不只是雕像。\\n之前找到的碗和道具還有木片。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0002",
+      "book": ""
+    },
+    {
+      "icon": "100003_04",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "They all SEEM old, but if ya take a closer\\nlook, they were all made in the last few\\nyears.",
+        "ja_jp": "どれも<ruby><rb>古</rb><rt>ふる</rt></ruby>びちゃいるが、<ruby><rb>実際</rb><rt>じっさい</rt></ruby>はせいぜい\\n<ruby><rb>数</rb><rt>すう</rt></ruby><ruby><rb>年</rb><rt>ねん</rt></ruby><ruby><rb>程度</rb><rt>ていど</rt></ruby>のものだったらしい。",
+        "zh_cn": "虽然看起来很老旧，\\n实际上却都是近年的东西。",
+        "zh_tw": "雖然每個看起來都很老舊，\\n但其實也只是使用了數年的東西。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0003",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "I'm told that a variety of techniques exist\\nto make modern objects look older.\\n＂Antiquing,＂ it's called.",
+        "ja_jp": "<ruby><rb>世</rb><rt>よ</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>には<ruby><rb>時代</rb><rt>じだい</rt></ruby>づけといって、\\n<ruby><rb>新</rb><rt>あら</rt></ruby><ruby><rb>物</rb><rt>もの</rt></ruby>をわざと<ruby><rb>古</rb><rt>ふる</rt></ruby>く<ruby><rb>見</rb><rt>み</rt></ruby>せる<ruby><rb>技</rb><rt>わざ</rt></ruby>が\\nあるそうですね。",
+        "zh_cn": "毕竟这世上可是\\n有着能让东西看起来\\n上年代的做旧手艺啊。",
+        "zh_tw": "聽說世間有種名叫「舊化」，\\n能刻意使新物品看起來老舊的技術。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0004",
+      "book": ""
+    },
+    {
+      "icon": "100006_08",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Makes it kinda hard not to doubt that any\\nof it was really buried here in the first\\nplace.",
+        "ja_jp": "こうなると<ruby><rb>最初</rb><rt>さいしょ</rt></ruby>からあそこに\\n<ruby><rb>埋</rb><rt>う</rt></ruby>まっていたのか<ruby><rb>怪</rb><rt>あや</rt></ruby>しくなるよな。",
+        "zh_cn": "既然是做旧的，自然不太可能\\n一开始就埋在那下面吧。",
+        "zh_tw": "這麼一想，\\n連是不是原本就埋在那的也很可疑呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0005",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "So, to put a finer point on it...",
+        "ja_jp": "もしかしてお<ruby><rb>前</rb><rt>まえ</rt></ruby>たちは\\nこう<ruby><rb>言</rb><rt>い</rt></ruby>いたいわけ？",
+        "zh_cn": "所以你们的意思是——",
+        "zh_tw": "所以你們是想這麼說嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0006",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "You're saying every scrap of evidence that\\nhas turned up in that cave is a counterfeit,\\nall created and planted by me.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>まで<ruby><rb>洞窟</rb><rt>どうくつ</rt></ruby>から<ruby><rb>見</rb><rt>み</rt></ruby>つかった<ruby><rb>物証</rb><rt>ぶっしょう</rt></ruby>は\\nうちが<ruby><rb>捏造</rb><rt>ねつぞう</rt></ruby>したものだって。",
+        "zh_cn": "至今为止在洞穴里找到的\\n所有线索都是我造假的？",
+        "zh_tw": "說之前在洞窟找到的物證\\n都是我捏造的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0007",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "Please. That's absurd. Do you honestly\\nthink I'd go to that much trouble?",
+        "ja_jp": "いやいや、ありえないでしょ。<ruby><rb>第一</rb><rt>だいいち</rt></ruby>、\\nうちが<ruby><rb>捏造</rb><rt>ねつぞう</rt></ruby>した<ruby><rb>証拠</rb><rt>しょうこ</rt></ruby>を<ruby><rb>埋</rb><rt>う</rt></ruby>めるなんて\\nそんなめんどい<ruby><rb>事</rb><rt>こと</rt></ruby>すると<ruby><rb>思</rb><rt>おも</rt></ruby>う？",
+        "zh_cn": "这怎么可能嘛。\\n首先，我为什么要去做那些\\n造假然后埋进洞里的麻烦事？",
+        "zh_tw": "不不不，怎麼想都不可能吧。\\n何況，要把自己捏造的證據埋進去，\\n你們覺得我會做這麼麻煩的事嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0008",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "Not in a million years. But what if you\\nhad someone else do all the work?",
+        "ja_jp": "そうですね。ですが、<ruby><rb>彼</rb><rt>かれ</rt></ruby>らに<ruby><rb>頼</rb><rt>たの</rt></ruby>んだと\\nしたらどうでしょうか？",
+        "zh_cn": "确实不太像是你会做的事。\\n但如果是你拜托它们去做的呢？",
+        "zh_tw": "說得也是。那麼，\\n要是妳吩附牠們去做呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0009",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "Last night, I caught one of your mice on\\nhis way to bury a new bit of ＂evidence.＂",
+        "ja_jp": "<ruby><rb>昨夜</rb><rt>さくや</rt></ruby>、<ruby><rb>洞窟</rb><rt>どうくつ</rt></ruby>で<ruby><rb>新</rb><rt>あら</rt></ruby>たな『<ruby><rb>物証</rb><rt>ぶっしょう</rt></ruby>』を\\n<ruby><rb>埋</rb><rt>う</rt></ruby>めようとしたところを<ruby><rb>捕</rb><rt>とら</rt></ruby>えました。",
+        "zh_cn": "昨天晚上它们\\n打算埋下新的“线索”时\\n被我逮了个正着。",
+        "zh_tw": "昨晚，我在牠們打算往洞窟\\n埋進新「物證」時捉住牠們的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0010",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "Bonnie is a friend. I'm hardly his boss.\\nHave YOU ever tried giving orders to a\\nmouse?",
+        "ja_jp": "うちはボンさんと<ruby><rb>仲良</rb><rt>なかよ</rt></ruby>しだけど、\\nネズミに<ruby><rb>指示</rb><rt>しじ</rt></ruby>をするのは<ruby><rb>無理</rb><rt>むり</rt></ruby>かな～。",
+        "zh_cn": "我确实和小波关系好，\\n但我可没法指挥老鼠啊～",
+        "zh_tw": "雖然我和小蹦感情是很好，\\n但可沒辦法命令老鼠喔～"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0011",
+      "book": ""
+    },
+    {
+      "icon": "210156_01",
+      "name": {
+        "en_us": "Marishiten",
+        "ja_jp": "マリシテン",
+        "zh_cn": "摩利支天",
+        "zh_tw": "摩利支天"
+      },
+      "context": {
+        "en_us": "It might be hard for you, but not for your\\npactbound dragon, Daikokuten. I myself\\nhave no trouble chatting with boars.",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>には<ruby><rb>無理</rb><rt>むり</rt></ruby>でもお<ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>契</rb><rt>ちぎ</rt></ruby>り<ruby><rb>竜</rb><rt>りゅう</rt></ruby>の\\nダイコクテンならできるだろ。<ruby><rb>俺</rb><rt>おれ</rt></ruby>が\\nウリ<ruby><rb>坊</rb><rt>ぼう</rt></ruby>たちと<ruby><rb>通</rb><rt>つう</rt></ruby>じるみてぇにな。",
+        "zh_cn": "就算你不行，你的契约龙\\n大黑天不见得办不到吧。\\n毕竟我都能和小猪崽们交流。",
+        "zh_tw": "就算妳沒辦法，\\n但妳的契龍大黑天辦得到吧。\\n如同我能和小野豬們溝通一樣。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0012",
+      "book": ""
+    },
+    {
+      "icon": "100003_04",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "I could give Maribelle or Rawn a call. They\\ncan talk to animals like it's nothin'. We can\\nsee what Bonnie has to say for himself.",
+        "ja_jp": "なんなら<ruby><rb>動物</rb><rt>どうぶつ</rt></ruby>と<ruby><rb>話</rb><rt>はな</rt></ruby>せるメリィベルや\\nウルガを<ruby><rb>呼</rb><rt>よ</rt></ruby>んで、ネズミたちから\\n<ruby><rb>事情</rb><rt>じじょう</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>いても<ruby><rb>良</rb><rt>い</rt></ruby>いんだぜ？",
+        "zh_cn": "不然我们把能跟动物交流的\\n梅莉贝尔或者乌尔嘉叫来，\\n问问老鼠们到底是怎么回事？",
+        "zh_tw": "要不把能和動物說話的梅莉貝爾\\n或烏路嘉叫來，問問老鼠們\\n真相是什麼也可以喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0013",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0014",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "Even the carving of my family crest on the\\nwell turned out to be a recent addition.",
+        "ja_jp": "<ruby><rb>井戸</rb><rt>いど</rt></ruby>の<ruby><rb>家紋</rb><rt>かもん</rt></ruby>も、<ruby><rb>最近</rb><rt>さいきん</rt></ruby><ruby><rb>彫</rb><rt>ほ</rt></ruby>られたもので\\nある<ruby><rb>事</rb><rt>こと</rt></ruby>が<ruby><rb>判明</rb><rt>はんめい</rt></ruby>しました。",
+        "zh_cn": "水井上的家纹也被证实\\n是最近才刻上去的。",
+        "zh_tw": "我們還發現井上所刻的家紋，\\n也是最近才刻的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0015",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "Mitsuhide. It's time you laid the truth bare.",
+        "ja_jp": "ミツヒデ。<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>の<ruby><rb>事</rb><rt>こと</rt></ruby>を<ruby><rb>話</rb><rt>はな</rt></ruby>しては\\nいただけませんか？",
+        "zh_cn": "光秀，差不多该说实话了吧？",
+        "zh_tw": "光秀，能請妳說出實話嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0016",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "*sigh* I didn't think you'd be quite this\\neager to play junior detective.",
+        "ja_jp": "……やれやれ。もう<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>上手</rb><rt>うま</rt></ruby>くやれると\\n<ruby><rb>思</rb><rt>おも</rt></ruby>ったんだけどな～。",
+        "zh_cn": "哎呀……\\n我还以为会再顺利些呢～",
+        "zh_tw": "……傷腦筋。\\n我原本以為會進行得更順利的說～"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0017",
+      "book": ""
+    },
+    {
+      "icon": "100006_08",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "So you admit it.",
+        "ja_jp": "それじゃあやっぱり、あの<ruby><rb>洞窟</rb><rt>どうくつ</rt></ruby>で\\n<ruby><rb>見</rb><rt>み</rt></ruby>つかったものって……。",
+        "zh_cn": "那我们从洞穴里挖出的东西\\n果然都是……",
+        "zh_tw": "也就是說，\\n在那個洞窟找到的東西果然……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0018",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "Yup. It was all orchestrated by yours truly\\nas part of Project Celestial Rock Cave.",
+        "ja_jp": "そ。うちが<ruby><rb>仕込</rb><rt>しこ</rt></ruby>ませたものだよ。\\n『アマノイワト<ruby><rb>計画</rb><rt>けいかく</rt></ruby>』のためにね。",
+        "zh_cn": "没错，都是我为了\\n“天岩户计划”而准备好的。",
+        "zh_tw": "沒錯，全都是我放的。\\n為了「天岩戶計畫」。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0019",
+      "book": ""
+    },
+    {
+      "icon": "100003_04",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "And what's THAT?",
+        "ja_jp": "『アマノイワト<ruby><rb>計画</rb><rt>けいかく</rt></ruby>』だと？",
+        "zh_cn": "“天岩户计划”？",
+        "zh_tw": "「天岩戶計畫」？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0020",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "Heh heh heh... It's a top-secret operation—",
+        "ja_jp": "ふっふっふ。『アマノイワト<ruby><rb>計画</rb><rt>けいかく</rt></ruby>』。\\nそれは――",
+        "zh_cn": "呵呵呵，“天岩户计划”就是——",
+        "zh_tw": "呵、呵、呵。所謂「天岩戶計畫」，\\n就是──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0021",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "To buy me some extra time to laze about!",
+        "ja_jp": "――ウチがぐうたらするための\\n<ruby><rb>快適</rb><rt>かいてき</rt></ruby><ruby><rb>空間</rb><rt>くうかん</rt></ruby>を<ruby><rb>作</rb><rt>つく</rt></ruby>る<ruby><rb>計画</rb><rt>けいかく</rt></ruby>さ！",
+        "zh_cn": "为我打造一片\\n偷懒净土的计划！",
+        "zh_tw": "──為了創造讓我能盡情發懶的\\n舒適空間計畫啦！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0022",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "一同",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "...What?",
+        "ja_jp": "…………はい？",
+        "zh_cn": "啊？",
+        "zh_tw": "…………什麼？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0023",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "While I was staying at that village, I found\\nthe empty well by happy coincidence. It\\nwas the perfect spot to hole up and nap in.",
+        "ja_jp": "<ruby><rb>村</rb><rt>むら</rt></ruby>に<ruby><rb>滞在中</rb><rt>たいざいちゅう</rt></ruby>にあの<ruby><rb>空</rb><rt>から</rt></ruby><ruby><rb>井戸</rb><rt>いど</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>つけて\\n<ruby><rb>思</rb><rt>おも</rt></ruby>ったんだよね～。<ruby><rb>井戸</rb><rt>いど</rt></ruby>の<ruby><rb>底</rb><rt>そこ</rt></ruby>に\\n<ruby><rb>引</rb><rt>ひ</rt></ruby>きこもってぐうたらしたいって。",
+        "zh_cn": "当初在这村附近看到那口枯井时\\n就在想“要是能一直住在井底\\n不用干活该多好”。",
+        "zh_tw": "我在這座村子發現那口空井時，\\n突然有個想法～\\n「真想宅在井底盡情發懶啊～」"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0024",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "On the plus side, I knew nobody would bug\\nme there, but by the same token, I wasn't\\nabout to dig the darn thing out myself.",
+        "ja_jp": "どうせ<ruby><rb>引</rb><rt>ひ</rt></ruby>きこもるなら<ruby><rb>深</rb><rt>ふか</rt></ruby>い<ruby><rb>穴</rb><rt>あな</rt></ruby>の<ruby><rb>方</rb><rt>ほう</rt></ruby>が\\n<ruby><rb>誰</rb><rt>だれ</rt></ruby>にも<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>されないじゃん？　けど、\\nうちが<ruby><rb>掘</rb><rt>ほ</rt></ruby>るのはめんどい。",
+        "zh_cn": "要闭门不出的话，躲井里不是更好？\\n这样就不会被任何人打扰了。\\n不过，我自己又懒得去挖。",
+        "zh_tw": "反正都要宅，\\n躲在洞穴深處就不會被任何人打擾吧？\\n可是，要自己挖洞又很麻煩。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0025",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "That's when I heard the legend of the\\nburied gold. Between that and the tale\\nof your family's tanuki, inspiration struck.",
+        "ja_jp": "で、アクアギ<ruby><rb>村</rb><rt>むら</rt></ruby>の<ruby><rb>埋蔵金</rb><rt>まいぞうきん</rt></ruby><ruby><rb>伝説</rb><rt>でんせつ</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>いて\\n<ruby><rb>閃</rb><rt>ひらめ</rt></ruby>いたんだ。<ruby><rb>埋蔵金</rb><rt>まいぞうきん</rt></ruby><ruby><rb>伝説</rb><rt>でんせつ</rt></ruby>とイエヤスの\\n<ruby><rb>家</rb><rt>いえ</rt></ruby>に<ruby><rb>伝</rb><rt>つた</rt></ruby>わる『タヌキ』の<ruby><rb>話</rb><rt>はなし</rt></ruby>。",
+        "zh_cn": "所以我听了水金村的宝藏传说\\n就灵机一动，想起了家康氏族中\\n流传的“狐狸”的故事。",
+        "zh_tw": "然後，我聽到阿克亞奇村的寶藏傳說時\\n靈光一閃，想起了寶藏傳說和家康他家\\n代代相傳的「狸貓」故事。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0026",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "If I could tie the two together, you would\\ncome and do all the heavy lifting for me.",
+        "ja_jp": "このふたつを<ruby><rb>結</rb><rt>むす</rt></ruby>びつけたらイエヤスが\\n<ruby><rb>埋蔵金</rb><rt>まいぞうきん</rt></ruby>を<ruby><rb>探</rb><rt>さが</rt></ruby>すために、<ruby><rb>井戸</rb><rt>いど</rt></ruby>の<ruby><rb>底</rb><rt>そこ</rt></ruby>を<ruby><rb>掘</rb><rt>ほ</rt></ruby>って\\nくれるんじゃないかな～って。",
+        "zh_cn": "要是能把这两个故事联系起来，\\n家康一定会为了寻找宝藏\\n而帮我在井底挖洞吧～",
+        "zh_tw": "只要把這兩件事連結起來，\\n家康應該就會為了尋找寶藏，\\n幫我挖開井底吧～"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0027",
+      "book": ""
+    },
+    {
+      "icon": "210156_01",
+      "name": {
+        "en_us": "Marishiten",
+        "ja_jp": "マリシテン",
+        "zh_cn": "摩利支天",
+        "zh_tw": "摩利支天"
+      },
+      "context": {
+        "en_us": "So you carved his family crest into the well\\nand sat back to watch us do the rest.",
+        "ja_jp": "それで<ruby><rb>井戸</rb><rt>いど</rt></ruby>にイエヤスの<ruby><rb>家</rb><rt>いえ</rt></ruby>の<ruby><rb>家紋</rb><rt>かもん</rt></ruby>を\\n<ruby><rb>彫</rb><rt>ほ</rt></ruby>って、<ruby><rb>俺</rb><rt>おれ</rt></ruby>らを<ruby><rb>呼</rb><rt>よ</rt></ruby>び<ruby><rb>出</rb><rt>だ</rt></ruby>したのか？",
+        "zh_cn": "所以才在水井上\\n刻了家康的家纹，\\n把我们叫来这里吗？",
+        "zh_tw": "所以妳才在井邊刻上家康的家紋，\\n並把我們叫來嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0028",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "I'll admit that the imperial troops and\\nRanzal's crew joining the mix was...\\nunexpected.",
+        "ja_jp": "<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>やランザーヴたちまで\\n<ruby><rb>出</rb><rt>で</rt></ruby>てきたのは<ruby><rb>予想外</rb><rt>よそうがい</rt></ruby>だったけどね。",
+        "zh_cn": "不过帝国军和兰扎卜他们\\n倒是在我的预想之外。",
+        "zh_tw": "連帝國兵和蘭薩弗他們都跑來，\\n這點倒出乎我預料就是了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0029",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "Those little ＂relics＂ you found along the\\nway were supposed to keep you going.\\nA motivated minion is an effective minion,\\nafter all.",
+        "ja_jp": "<ruby><rb>捏造</rb><rt>ねつぞう</rt></ruby>した<ruby><rb>証拠</rb><rt>しょうこ</rt></ruby>を<ruby><rb>仕込</rb><rt>しこ</rt></ruby>んだのは、\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>たちが<ruby><rb>穴</rb><rt>あな</rt></ruby>を<ruby><rb>掘</rb><rt>ほ</rt></ruby>るモチベーションを\\n<ruby><rb>保</rb><rt>たも</rt></ruby>たせるためさ。",
+        "zh_cn": "那些造假的线索\\n也是为了让你们\\n有挖洞的动力。",
+        "zh_tw": "之所以放進捏造的證據，\\n則是為了讓你們保持挖洞的動機。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0030",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "I figured if I didn't reward you at all, you\\nmight give up before the job was done.",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>にも<ruby><rb>出</rb><rt>で</rt></ruby>てこなかったら、いい<ruby><rb>感</rb><rt>かん</rt></ruby>じの\\n<ruby><rb>深</rb><rt>ふか</rt></ruby>さまで<ruby><rb>掘</rb><rt>ほ</rt></ruby>る<ruby><rb>前</rb><rt>まえ</rt></ruby>にあきらめちゃうかも\\nしれないから。",
+        "zh_cn": "毕竟要是什么都挖不出来，\\n在挖到合适的深度前\\n你们可能就会放弃了呢～",
+        "zh_tw": "要是什麼都沒挖出來，\\n你們有可能會在挖到不錯的深度之前\\n就放棄嘛。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0031",
+      "book": ""
+    },
+    {
+      "icon": "100006_08",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "So you lied to all of us because you\\nwanted some kind of weird, underground\\nburrow to sleep in? Are you serious?",
+        "ja_jp": "<ruby><rb>穴</rb><rt>あな</rt></ruby>に<ruby><rb>引</rb><rt>ひ</rt></ruby>きこもりたいから<ruby><rb>騙</rb><rt>だま</rt></ruby>したって……\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>、それ、<ruby><rb>本気</rb><rt>ほんき</rt></ruby>で<ruby><rb>言</rb><rt>い</rt></ruby>ってるのかよ？",
+        "zh_cn": "只是因为想躲到井里\\n而欺骗我们……\\n你是认真的吗？",
+        "zh_tw": "只為了想宅在洞裡就欺騙我們……\\n妳那些話是認真的嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0032",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "Deadly. ＂Use every tool at your disposal.＂\\nThat's my credo.",
+        "ja_jp": "<ruby><rb>本気</rb><rt>ほんき</rt></ruby>も<ruby><rb>本気</rb><rt>ほんき</rt></ruby>。<ruby><rb>使</rb><rt>つか</rt></ruby>える<ruby><rb>手</rb><rt>て</rt></ruby>は<ruby><rb>何</rb><rt>なん</rt></ruby>でも<ruby><rb>使</rb><rt>つか</rt></ruby>うよ。\\nなぜなら、うちは――",
+        "zh_cn": "当然是认真的，\\n能用的手段就要用。\\n毕竟我可是——",
+        "zh_tw": "當然認真。我可是會不擇手段的喔。\\n要說理由的話，因為我──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0033",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "Because when I nap, I don't want ANY\\ninterruptions!",
+        "ja_jp": "<ruby><rb>誰</rb><rt>だれ</rt></ruby>にも<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>されずに\\nぐうたらしたいから！",
+        "zh_cn": "只想偷懒\\n不被任何人打扰呢！",
+        "zh_tw": "想不被任何人打擾盡情發懶！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0034",
+      "book": ""
+    },
+    {
+      "icon": "100003_04",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "*sigh* I've gone past anger clear into\\ndisbelief.",
+        "ja_jp": "……はぁ。<ruby><rb>怒</rb><rt>いか</rt></ruby>りを<ruby><rb>通</rb><rt>とお</rt></ruby>り<ruby><rb>越</rb><rt>こ</rt></ruby>して\\n<ruby><rb>呆</rb><rt>あき</rt></ruby>れてきたぜ。",
+        "zh_cn": "哈……我都已经懒得生气了。",
+        "zh_tw": "……唉。無言到我氣都消了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0035",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "I'll see that you're all compensated for\\nyour labor, so let's call it square, yeah?",
+        "ja_jp": "<ruby><rb>穴</rb><rt>あな</rt></ruby>を<ruby><rb>掘</rb><rt>ほ</rt></ruby>るのに<ruby><rb>使</rb><rt>つか</rt></ruby>った<ruby><rb>労力</rb><rt>ろうりょく</rt></ruby>の<ruby><rb>分</rb><rt>ぶん</rt></ruby>は\\n<ruby><rb>埋</rb><rt>う</rt></ruby>め<ruby><rb>合</rb><rt>あ</rt></ruby>わせするからさ。それで\\n<ruby><rb>手</rb><rt>て</rt></ruby>を<ruby><rb>打</rb><rt>う</rt></ruby>ってくれない？",
+        "zh_cn": "帮我挖洞的事，\\n我会补偿你们的。\\n所以这件事可以就此打住吗？",
+        "zh_tw": "我會好好補償你們挖洞耗費的勞力啦。\\n可以就此扯平嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0036",
+      "book": ""
+    },
+    {
+      "icon": "100003_04",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Keep your money.\\nWe came here for the adventure.",
+        "ja_jp": "そいつはいらねえ。<ruby><rb>俺</rb><rt>おれ</rt></ruby>たちはロマンを\\n<ruby><rb>求</rb><rt>もと</rt></ruby>めてここに<ruby><rb>来</rb><rt>き</rt></ruby>たんだ。",
+        "zh_cn": "大可不必。\\n我们是为了寻求浪漫才来的。",
+        "zh_tw": "那倒是不需要。\\n我們是為了追求浪漫才來的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0037",
+      "book": ""
+    },
+    {
+      "icon": "100006_08",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Getting paid for it makes the whole thing\\nfeel even sadder. C'mon, guys. Let's go.",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>から<ruby><rb>働</rb><rt>はたら</rt></ruby>いた<ruby><rb>分</rb><rt>ぶん</rt></ruby>の<ruby><rb>報酬</rb><rt>ほうしゅう</rt></ruby>をもらうのは\\n<ruby><rb>何</rb><rt>なん</rt></ruby>か<ruby><rb>違</rb><rt>ちが</rt></ruby>うからな。みんな、<ruby><rb>帰</rb><rt>かえ</rt></ruby>ろうぜ。",
+        "zh_cn": "从你那里拿挖洞的工钱\\n也感觉怪怪的。\\n各位，我们回去吧。",
+        "zh_tw": "而且向妳收勞動的報酬\\n好像哪裡怪怪的嘛。\\n大家，我們回去吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0038",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0039",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "Darn. So much for my little scheme.\\nAh, well. I guess this is deep enough.",
+        "ja_jp": "<ruby><rb>目論見</rb><rt>もくろみ</rt></ruby><ruby><rb>通</rb><rt>どお</rt></ruby>りにはいかなかったか。\\nでも、ま、これでいっか。",
+        "zh_cn": "没能按计划行事吗。\\n不过，算了。",
+        "zh_tw": "雖然沒按照預想的進行。\\n不過，算了，就這樣吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0040",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "Mitsuhide. A word, if you please.",
+        "ja_jp": "ミツヒデ。<ruby><rb>少</rb><rt>すこ</rt></ruby>しよろしいでしょうか。",
+        "zh_cn": "光秀，我有话要跟你说。",
+        "zh_tw": "光秀，可以借用一點時間嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0041",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "Oh, are you still here? Isn't Sazanka back\\nhome waiting for you under a mountain of\\npaperwork?",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>たち、まだ<ruby><rb>残</rb><rt>のこ</rt></ruby>っていたんだ。\\nサザンカたちにヒノモトの<ruby><rb>仕事</rb><rt>しごと</rt></ruby>を\\n<ruby><rb>任</rb><rt>まか</rt></ruby>せているんだろ？",
+        "zh_cn": "你们还没回去啊。\\n不是还让山茶花他们帮忙\\n做日出之国的工作吗？",
+        "zh_tw": "你們還在啊。日初之國的工作\\n都還交給山茶他們在處理吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0042",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "I thought I'd hear the truth from you before\\nmaking the return trip to Hinomoto.",
+        "ja_jp": "ヒノモトに<ruby><rb>戻</rb><rt>もど</rt></ruby>るのは、あなたから\\n<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>の<ruby><rb>話</rb><rt>はなし</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>いてからにしようかと。",
+        "zh_cn": "我觉得返回日出之国之前\\n要先从你这里问出真相。",
+        "zh_tw": "我打算聽妳說出實話之後\\n再返回日初之國。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0043",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "I already confessed everything, though.",
+        "ja_jp": "<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>の<ruby><rb>話</rb><rt>はなし</rt></ruby>？　うちは<ruby><rb>全部</rb><rt>ぜんぶ</rt></ruby><ruby><rb>話</rb><rt>はな</rt></ruby>したけど。",
+        "zh_cn": "真相？我已经都招了啊。",
+        "zh_tw": "實話？我已經說完了啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0044",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "I have my doubts. You always take care\\nto see that your schemes benefit others\\nas well.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>はそうは<ruby><rb>思</rb><rt>おも</rt></ruby>いません。あなたが\\n<ruby><rb>謀</rb><rt>たばか</rt></ruby>り<ruby><rb>事</rb><rt>ごと</rt></ruby>をする<ruby><rb>時</rb><rt>とき</rt></ruby>は、<ruby><rb>自分</rb><rt>じぶん</rt></ruby><ruby><rb>以外</rb><rt>いがい</rt></ruby>の<ruby><rb>者</rb><rt>もの</rt></ruby>にも\\n<ruby><rb>益</rb><rt>えき</rt></ruby>があるよう<ruby><rb>配慮</rb><rt>はいりょ</rt></ruby>しますから。",
+        "zh_cn": "我不这么认为。\\n毕竟你做事一定也会为\\n自己以外之人的利益考虑。",
+        "zh_tw": "我不那麼認為。\\n因為當妳有所圖謀的時候，\\n總是會記得讓他人也有所受益。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0045",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "You sure about that? But all right,\\nlet's hear your theory, junior detective.",
+        "ja_jp": "<ruby><rb>別</rb><rt>べつ</rt></ruby>にそうでもないけどね。\\nで、お<ruby><rb>前</rb><rt>まえ</rt></ruby>はどう<ruby><rb>考</rb><rt>かんが</rt></ruby>えているわけ？",
+        "zh_cn": "我可没那种闲情雅致。\\n那你又是怎么想的？",
+        "zh_tw": "沒有那回事喔。\\n所以呢，你是怎麼想的？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0046",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "Who benefited the most from this farce?\\nThe people of Aquagi.",
+        "ja_jp": "<ruby><rb>今回</rb><rt>こんかい</rt></ruby>の<ruby><rb>件</rb><rt>けん</rt></ruby>で<ruby><rb>最</rb><rt>もっと</rt></ruby>も<ruby><rb>益</rb><rt>えき</rt></ruby>があった<ruby><rb>者</rb><rt>もの</rt></ruby>。\\nそれはアクアギ<ruby><rb>村</rb><rt>むら</rt></ruby>の<ruby><rb>村民</rb><rt>そんみん</rt></ruby>たちです。",
+        "zh_cn": "此次风波之中受益最大的，\\n当属水金村的村民们。",
+        "zh_tw": "本次事件獲益最多的人，\\n就是阿克亞奇村的村民們。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0047",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "Our excavation effort spread rumors of\\nburied gold far and wide, bringing tourists\\nto their struggling village.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>たちが<ruby><rb>発掘</rb><rt>はっくつ</rt></ruby>に<ruby><rb>乗</rb><rt>の</rt></ruby>り<ruby><rb>出</rb><rt>だ</rt></ruby>した<ruby><rb>事</rb><rt>こと</rt></ruby>を<ruby><rb>契機</rb><rt>けいき</rt></ruby>に\\n<ruby><rb>埋蔵金</rb><rt>まいぞうきん</rt></ruby>の<ruby><rb>噂</rb><rt>うわさ</rt></ruby>が<ruby><rb>広</rb><rt>ひろ</rt></ruby>まり、<ruby><rb>村</rb><rt>むら</rt></ruby>に<ruby><rb>観光客</rb><rt>かんこうきゃく</rt></ruby>が\\n<ruby><rb>押</rb><rt>お</rt></ruby>し<ruby><rb>寄</rb><rt>よ</rt></ruby>せましたから。",
+        "zh_cn": "我们寻宝一事\\n让宝藏的传说迅速传开，\\n进而吸引大批游客前来。",
+        "zh_tw": "以我們動手挖掘寶藏為契機，\\n使寶藏的傳言擴散出去，\\n讓村裡湧進了眾多觀光客。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0048",
+      "book": ""
+    },
+    {
+      "icon": "210156_01",
+      "name": {
+        "en_us": "Marishiten",
+        "ja_jp": "マリシテン",
+        "zh_cn": "摩利支天",
+        "zh_tw": "摩利支天"
+      },
+      "context": {
+        "en_us": "Plus, I don't buy for a second that they\\ndidn't know about this well.",
+        "ja_jp": "それにあいつらが<ruby><rb>井戸</rb><rt>いど</rt></ruby>の<ruby><rb>存在</rb><rt>そんざい</rt></ruby>を\\n<ruby><rb>知</rb><rt>し</rt></ruby>らなかったってのは<ruby><rb>胡散臭</rb><rt>うさんくせ</rt></ruby>ぇ。",
+        "zh_cn": "而且他们也不可能\\n不知道水井的存在。",
+        "zh_tw": "而且他們說不知道那口井的存在，\\n這點實在很可疑。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0049",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "If we posit that you were assisting\\ntheir village revitalization efforts,\\neverything clicks into place.",
+        "ja_jp": "あなたが<ruby><rb>彼</rb><rt>かれ</rt></ruby>らの<ruby><rb>村</rb><rt>むら</rt></ruby>おこしに<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>したと\\n<ruby><rb>考</rb><rt>かんが</rt></ruby>えれば、<ruby><rb>辻褄</rb><rt>つじつま</rt></ruby>が<ruby><rb>合</rb><rt>あ</rt></ruby>います。",
+        "zh_cn": "如果你是为了帮他们振兴村子，\\n那一切便都说得通了。",
+        "zh_tw": "若想成妳是在協助他們復興村子，\\n就說得通了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0050",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "I suspect the tale of buried treasure was an\\ninvention of yours in the first place, to help\\nbring attention to Aquagi.",
+        "ja_jp": "<ruby><rb>埋蔵金</rb><rt>まいぞうきん</rt></ruby><ruby><rb>伝説</rb><rt>でんせつ</rt></ruby><ruby><rb>自体</rb><rt>じたい</rt></ruby>、<ruby><rb>村</rb><rt>むら</rt></ruby>おこしのために\\nあなたとアクアギ<ruby><rb>村</rb><rt>むら</rt></ruby>が<ruby><rb>仕込</rb><rt>しこ</rt></ruby>んだ\\n<ruby><rb>作</rb><rt>つく</rt></ruby>り<ruby><rb>話</rb><rt>ばなし</rt></ruby>だったのではないでしょうか。",
+        "zh_cn": "所以，宝藏传说本身其实\\n也是你和村民们为了振兴村子\\n而编出来的谎言对吧。",
+        "zh_tw": "寶藏傳說本身，\\n就是妳和村民們為了復興阿克亞奇村\\n所設計的故事不是嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0051",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0052",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "But a legend alone doesn't bring much foot\\ntraffic. You need someone to take the tale\\nseriously to add the allure of credibility.",
+        "ja_jp": "しかし<ruby><rb>伝説</rb><rt>でんせつ</rt></ruby>だけでは<ruby><rb>客寄</rb><rt>きゃくよ</rt></ruby>せの<ruby><rb>効果</rb><rt>こうか</rt></ruby>が\\n<ruby><rb>薄</rb><rt>うす</rt></ruby>い。それを<ruby><rb>本気</rb><rt>ほんき</rt></ruby>で<ruby><rb>探</rb><rt>さが</rt></ruby>す<ruby><rb>者</rb><rt>もの</rt></ruby>がいる<ruby><rb>事</rb><rt>こと</rt></ruby>で\\n<ruby><rb>伝説</rb><rt>でんせつ</rt></ruby>に<ruby><rb>現実味</rb><rt>げんじつみ</rt></ruby>と<ruby><rb>話題性</rb><rt>わだいせい</rt></ruby>が<ruby><rb>出</rb><rt>で</rt></ruby>ます。",
+        "zh_cn": "然而仅仅是传说的话，并不会\\n吸引太多人。但若是有人真的在\\n这里寻宝，那可信度便会大大提升。",
+        "zh_tw": "然而只靠傳說無法起到集客效果。\\n如果有人認真尋寶的話，\\n就能為傳說添加真實性與話題性。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0053",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "And so you used, rather callously, the story\\nof the tanuki to get me to play that role.",
+        "ja_jp": "そこであなたは『タヌキ』の<ruby><rb>話</rb><rt>はなし</rt></ruby>を\\n<ruby><rb>利用</rb><rt>りよう</rt></ruby>して、<ruby><rb>私</rb><rt>わたし</rt></ruby>に<ruby><rb>埋蔵金</rb><rt>まいぞうきん</rt></ruby>を<ruby><rb>探</rb><rt>さが</rt></ruby>させる<ruby><rb>策</rb><rt>さく</rt></ruby>を\\n<ruby><rb>思</rb><rt>おも</rt></ruby>いついた。",
+        "zh_cn": "于是你便利用“狐狸”的故事\\n引诱我来这里寻找宝藏。",
+        "zh_tw": "於是妳想出利用「狸貓」之事，\\n讓我去尋找寶藏的策略。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0054",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "You chose not to clue Ranzal and the\\nothers in on your scheme in order to\\nprotect your co-conspirators—the villagers.",
+        "ja_jp": "ランザーヴ<ruby><rb>殿</rb><rt>どの</rt></ruby>たちにその<ruby><rb>事</rb><rt>こと</rt></ruby>を\\n<ruby><rb>明</rb><rt>あ</rt></ruby>かさなかったのは、<ruby><rb>共犯</rb><rt>きょうはん</rt></ruby>である\\n<ruby><rb>村人</rb><rt>むらびと</rt></ruby>たちを<ruby><rb>庇</rb><rt>かば</rt></ruby>うため。<ruby><rb>違</rb><rt>ちが</rt></ruby>いますか？",
+        "zh_cn": "之所以没向兰扎卜他们道出真相，\\n是为了不让村民们受到牵连，\\n我说的没错吧？",
+        "zh_tw": "妳不向蘭薩弗殿下他們說出此事，\\n則是為了保護身為共犯的村民們。\\n我有說錯嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0055",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "...I give up. The way you see through me\\nis legitimately terrifying, you know that?",
+        "ja_jp": "……<ruby><rb>参</rb><rt>まい</rt></ruby>ったね。\\nそこまで<ruby><rb>見抜</rb><rt>みぬ</rt></ruby>かれていたなんて。",
+        "zh_cn": "唉……\\n竟然都被你看穿了。",
+        "zh_tw": "……傷腦筋啊。\\n沒想到這麼多事都被你看穿了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0056",
+      "book": ""
+    },
+    {
+      "icon": "210156_01",
+      "name": {
+        "en_us": "Marishiten",
+        "ja_jp": "マリシテン",
+        "zh_cn": "摩利支天",
+        "zh_tw": "摩利支天"
+      },
+      "context": {
+        "en_us": "Sounds like Ieyasu's got your number.\\nWhat was your aim in all this?",
+        "ja_jp": "イエヤスの<ruby><rb>言</rb><rt>い</rt></ruby>う<ruby><rb>通</rb><rt>とお</rt></ruby>りか。どうして<ruby><rb>伝説</rb><rt>でんせつ</rt></ruby>の\\nでっちあげに<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>したんだ？",
+        "zh_cn": "一切都如家康所说吗。\\n为什么要帮他们编造谎言？",
+        "zh_tw": "代表家康說得沒錯嗎。\\n妳為什麼要協助他們造假傳說？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0057",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "To pay them back for their frankly unreal\\nservice during my stay there, I suppose.\\nAnd you've seen the shape Aquagi is in.",
+        "ja_jp": "<ruby><rb>滞在中</rb><rt>たいざいちゅう</rt></ruby>にもてなしてくれた<ruby><rb>恩返</rb><rt>おんがえ</rt></ruby>しって\\nところかな。お<ruby><rb>前</rb><rt>まえ</rt></ruby>たちもアクアギ<ruby><rb>村</rb><rt>むら</rt></ruby>が\\nボロボロなのは<ruby><rb>見</rb><rt>み</rt></ruby>ただろ。",
+        "zh_cn": "也算是为了报答他们\\n对我的款待。你们也看到\\n水金村那破败的景象了吧。",
+        "zh_tw": "算是為了報答我留在這裡時\\n村民招待我的恩情吧。\\n你們也看到阿克亞奇村有多破舊了吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0058",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "The fishing trade's dried up. They're doing\\ntheir best to attract tourists, but failing.\\nI didn't want the place to end up a ghost\\ntown.",
+        "ja_jp": "<ruby><rb>漁業</rb><rt>ぎょぎょう</rt></ruby>は<ruby><rb>不振</rb><rt>ふしん</rt></ruby>。<ruby><rb>新</rb><rt>あたら</rt></ruby>しく<ruby><rb>始</rb><rt>はじ</rt></ruby>めた<ruby><rb>観光業</rb><rt>かんこうぎょう</rt></ruby>も\\nうまくいかなくて、いずれは<ruby><rb>廃</rb><rt>はい</rt></ruby><ruby><rb>村</rb><rt>そん</rt></ruby>。\\nそれが<ruby><rb>見</rb><rt>み</rt></ruby>ていられなくってさ。",
+        "zh_cn": "渔业不景气，新开发的旅游业\\n也不顺利。这样下去村子迟早会荒废，\\n我不想看到这一切发生。",
+        "zh_tw": "漁業不興。新展開的觀光業也不順利，\\n這樣下去遲早得廢村。\\n我實在看不下去。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0059",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "Make no mistake: I really did have every\\nintention of scoring a sweet hibernation\\ncave out of the deal.",
+        "ja_jp": "あ、でも、うちが<ruby><rb>引</rb><rt>ひ</rt></ruby>きこもるための\\n<ruby><rb>穴</rb><rt>あな</rt></ruby>を<ruby><rb>作</rb><rt>つく</rt></ruby>りたいってのは<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>だから。",
+        "zh_cn": "啊，不过我想要一个洞\\n躲进去倒是实话。",
+        "zh_tw": "啊！不過，\\n我說想挖洞宅在裡面是認真的喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0060",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "But involving you two was my idea.\\nDon't hold that against the villagers.",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>を<ruby><rb>巻</rb><rt>ま</rt></ruby>き<ruby><rb>込</rb><rt>こ</rt></ruby>んだのはうちの<ruby><rb>判断</rb><rt>はんだん</rt></ruby>。\\nだから<ruby><rb>村人</rb><rt>むらびと</rt></ruby>たちの<ruby><rb>事</rb><rt>こと</rt></ruby>は<ruby><rb>責</rb><rt>せ</rt></ruby>めないで\\nやってくれる？",
+        "zh_cn": "把你牵扯进来\\n是我一个人的主意，\\n能别怪罪村民们吗？",
+        "zh_tw": "把你捲進來是我自己的判斷。\\n所以可以拜託你不要責備村民們嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0061",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "I know well how desperately they've been\\nworking to make ends meet. I would never\\nblame them for doing what they must.",
+        "ja_jp": "<ruby><rb>彼</rb><rt>かれ</rt></ruby>らが<ruby><rb>生計</rb><rt>せいけい</rt></ruby>を<ruby><rb>立</rb><rt>た</rt></ruby>てるのに<ruby><rb>必死</rb><rt>ひっし</rt></ruby>だったのは\\n<ruby><rb>知</rb><rt>し</rt></ruby>っています。そんな<ruby><rb>人</rb><rt>ひと</rt></ruby>たちを<ruby><rb>責</rb><rt>せ</rt></ruby>める\\n<ruby><rb>気</rb><rt>き</rt></ruby>にはなりませんよ。",
+        "zh_cn": "我理解他们\\n为了生存都很拼命，\\n所以自然不会怪罪他们。",
+        "zh_tw": "我明白他們為了維持生計十分拼命。\\n我怎麼有辦法責備那樣的人們呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0062",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "Nor would I blame you for trying to aid\\nthem...though I'll admit to feeling a bit\\ndisappointed. And exasperated with you.",
+        "ja_jp": "<ruby><rb>困窮</rb><rt>こんきゅう</rt></ruby>する<ruby><rb>民</rb><rt>たみ</rt></ruby>に<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>したあなたの<ruby><rb>事</rb><rt>こと</rt></ruby>も。\\n……まあ、<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>悔</rb><rt>くや</rt></ruby>しくはありますが。",
+        "zh_cn": "我也不怪罪帮助他们的你。\\n不过……有些不甘就是了。",
+        "zh_tw": "對協助窮困之民的妳亦同。\\n……雖然有些不甘心就是。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0063",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "Soft as ever. Whatever my reasons,\\nI used you. Lied to you.",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>は<ruby><rb>相変</rb><rt>あいか</rt></ruby>わらずお<ruby><rb>人好</rb><rt>ひとよ</rt></ruby>しだね。\\nうちが<ruby><rb>騙</rb><rt>だま</rt></ruby>した<ruby><rb>事</rb><rt>こと</rt></ruby>に<ruby><rb>変</rb><rt>か</rt></ruby>わりはないのに。",
+        "zh_cn": "你还是那个老好人啊。\\n明明我的确是骗了你。",
+        "zh_tw": "你還是老樣子很爛好人呢。\\n明明我欺騙了你這件事不會改變。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0064",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "But you're discerning with your victims.\\nI'll take my involvement in your scheme\\nas a sign of affection.",
+        "ja_jp": "あなたは<ruby><rb>迷惑</rb><rt>めいわく</rt></ruby>をかける<ruby><rb>相手</rb><rt>あいて</rt></ruby>を\\n<ruby><rb>選</rb><rt>えら</rt></ruby>びますから。<ruby><rb>私</rb><rt>わたし</rt></ruby>を<ruby><rb>巻</rb><rt>ま</rt></ruby>き<ruby><rb>込</rb><rt>こ</rt></ruby>んだのは\\n<ruby><rb>親愛</rb><rt>しんあい</rt></ruby>の<ruby><rb>証</rb><rt>あかし</rt></ruby>だととらえていますよ。",
+        "zh_cn": "可你给人添麻烦的时候\\n不也看人吗。我觉得你之所以选我，\\n正是因为你信赖我，把我视作友人。",
+        "zh_tw": "因為妳會挑選添麻煩的對象，\\n將我捲入一事，\\n我就當作是彼此親密的證明吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0065",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "Ugh... I can feel my grip on sanity slipping\\nwhen I'm around you.",
+        "ja_jp": "はぁ……お<ruby><rb>前</rb><rt>まえ</rt></ruby>といると\\nどうも<ruby><rb>調子</rb><rt>ちょうし</rt></ruby>が<ruby><rb>狂</rb><rt>くる</rt></ruby>う。",
+        "zh_cn": "唉……只要跟你一起，\\n就总会被你牵着鼻子走。",
+        "zh_tw": "唉……和你在一起，\\n總覺得自己都不像自己了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0066",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "Circling back around to the legend of\\nburied treasure: just where does the\\nfiction end and fact begin?",
+        "ja_jp": "ところで<ruby><rb>埋蔵金</rb><rt>まいぞうきん</rt></ruby><ruby><rb>伝説</rb><rt>でんせつ</rt></ruby>ですが、\\nどこまでが<ruby><rb>嘘</rb><rt>うそ</rt></ruby>なのでしょうか？",
+        "zh_cn": "话说那宝藏传说，\\n究竟有几分真几分假？",
+        "zh_tw": "話說關於寶藏傳說，\\n究竟到哪裡是假的呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0067",
+      "book": ""
+    },
+    {
+      "icon": "210156_01",
+      "name": {
+        "en_us": "Marishiten",
+        "ja_jp": "マリシテン",
+        "zh_cn": "摩利支天",
+        "zh_tw": "摩利支天"
+      },
+      "context": {
+        "en_us": "Huh? It's all made up. Start to finish.",
+        "ja_jp": "ん？　そんなの<ruby><rb>全部</rb><rt>ぜんぶ</rt></ruby>でっちあげだろ？",
+        "zh_cn": "嗯？不全是编出来的谎言吗？",
+        "zh_tw": "嗯？當然全都是假的吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0068",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "I'm not convinced. It takes a lot of work to\\nmanufacture a plausible lie. I wondered if\\nit wasn't based on some other old story.",
+        "ja_jp": "ゼロから<ruby><rb>作</rb><rt>つく</rt></ruby>った<ruby><rb>嘘</rb><rt>うそ</rt></ruby>を<ruby><rb>実</rb><rt>まこと</rt></ruby>しやかに\\n<ruby><rb>吹</rb><rt>ふ</rt></ruby>き<ruby><rb>込</rb><rt>こ</rt></ruby>むのは<ruby><rb>難</rb><rt>むずか</rt></ruby>しいものです。\\nあの<ruby><rb>伝説</rb><rt>でんせつ</rt></ruby>には<ruby><rb>元</rb><rt>もと</rt></ruby>ネタがあるかと。",
+        "zh_cn": "彻头彻尾的谎言\\n是很难让人信服的。\\n我觉得那传说应该有原型。",
+        "zh_tw": "無中生有捏造事實是相當困難的。\\n我想那個傳說應該有其原型。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0069",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "Right again. We added the bit about the\\nkid seeing the samurai bury gold at the\\nbottom of the well.",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>言</rb><rt>い</rt></ruby>う<ruby><rb>通</rb><rt>とお</rt></ruby>り。<ruby><rb>侍</rb><rt>さむらい</rt></ruby>が<ruby><rb>黄金</rb><rt>おうごん</rt></ruby>を<ruby><rb>井戸</rb><rt>いど</rt></ruby>に\\n<ruby><rb>埋</rb><rt>う</rt></ruby>めるのを<ruby><rb>童</rb><rt>わらべ</rt></ruby>が<ruby><rb>見</rb><rt>み</rt></ruby>たってくだりは、\\nうちたちの<ruby><rb>創作</rb><rt>そうさく</rt></ruby>。",
+        "zh_cn": "你说得没错。\\n有孩子看到武士把黄金埋到\\n井里的故事的确是我编出来的。",
+        "zh_tw": "你說得沒錯。\\n有孩童看見武士將黃金埋在井裡這段\\n是我們編出來的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0070",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "The rest was an old tale they told in the\\nvillage. The children's song, too.",
+        "ja_jp": "それ<ruby><rb>以外</rb><rt>いがい</rt></ruby>は<ruby><rb>全部</rb><rt>ぜんぶ</rt></ruby>、この<ruby><rb>村</rb><rt>むら</rt></ruby>に<ruby><rb>古</rb><rt>ふる</rt></ruby>くから\\nある<ruby><rb>伝説</rb><rt>でんせつ</rt></ruby>だよ。<ruby><rb>侍</rb><rt>さむらい</rt></ruby>を<ruby><rb>歌</rb><rt>うた</rt></ruby>った<ruby><rb>童歌</rb><rt>わらべうた</rt></ruby>もね。",
+        "zh_cn": "但除此以外的所有内容\\n都确实在这个村子流传已久，\\n包括那首童谣。",
+        "zh_tw": "除此之外，全部都是這座村子\\n自古以來流傳的傳說喔。\\n那首跟武士有關的童謠也是。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0071",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "＂The samurai clad in eyes of eight.\\nHe dug the well, it couldn't wait.＂",
+        "ja_jp": "<ruby><rb>八</rb><rt>や</rt></ruby>つ<ruby><rb>目</rb><rt>め</rt></ruby>をまとったサムライ<ruby><rb>様</rb><rt>さま</rt></ruby>。\\n<ruby><rb>井戸</rb><rt>いど</rt></ruby><ruby><rb>掘</rb><rt>ほ</rt></ruby>り<ruby><rb>穴</rb><rt>あな</rt></ruby><ruby><rb>掘</rb><rt>ほ</rt></ruby>りエンヤコラ。",
+        "zh_cn": "身披八目的武士呀，\\n卖力地挖井咿呀喂。",
+        "zh_tw": "身著八目的武士大人，\\n挖井掘洞嘿嘿咻。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0072",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "＂But if you find his treasure well,\\nyou'll see the steaming mouth of hell...＂\\nDo I recall correctly?",
+        "ja_jp": "もしも<ruby><rb>宝</rb><rt>たから</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>つけたならば。\\n<ruby><rb>地獄</rb><rt>じごく</rt></ruby>の<ruby><rb>釜</rb><rt>かま</rt></ruby><ruby><rb>見</rb><rt>み</rt></ruby>て<ruby><rb>帰</rb><rt>かえ</rt></ruby>りゃんせ……ですか。",
+        "zh_cn": "若是发现了宝藏呢，\\n鬼门关也留不住……吗。",
+        "zh_tw": "要是找到寶藏的話，\\n看過地獄油鍋再回家……嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0073",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "Yup. The cavern you found has\\nbeen down there forever as well.",
+        "ja_jp": "それとお<ruby><rb>前</rb><rt>まえ</rt></ruby>が<ruby><rb>掘</rb><rt>ほ</rt></ruby>り<ruby><rb>当</rb><rt>あ</rt></ruby>てた<ruby><rb>井戸</rb><rt>いど</rt></ruby>の<ruby><rb>底</rb><rt>そこ</rt></ruby>の\\n<ruby><rb>洞窟</rb><rt>どうくつ</rt></ruby>、あれは<ruby><rb>昔</rb><rt>むかし</rt></ruby>からあったものらしい。",
+        "zh_cn": "而且你在井底发现的那个洞穴\\n也确实是很久以前就有的。",
+        "zh_tw": "還有你在井底挖到的洞窟，\\n那個好像從以前就有了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0074",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "But we decided it'd be no fun if you saw\\nit without breaking a sweat, so I had the\\nvillagers help seal up the entrance.",
+        "ja_jp": "そのまんま<ruby><rb>見</rb><rt>み</rt></ruby>つかってもおもしろく\\nないから、<ruby><rb>村長</rb><rt>そんちょう</rt></ruby>たちに<ruby><rb>頼</rb><rt>たの</rt></ruby>んで<ruby><rb>入</rb><rt>い</rt></ruby>り<ruby><rb>口</rb><rt>ぐち</rt></ruby>を\\n<ruby><rb>埋</rb><rt>う</rt></ruby>めてもらったんだ。",
+        "zh_cn": "不过要是让你太顺利地发现\\n就没意思了，所以拜托\\n村长他们把入口给埋了。",
+        "zh_tw": "因為如果直接發現的話太無趣了，\\n我才拜託村長他們把入口埋起來。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0075",
+      "book": ""
+    },
+    {
+      "icon": "210156_01",
+      "name": {
+        "en_us": "Marishiten",
+        "ja_jp": "マリシテン",
+        "zh_cn": "摩利支天",
+        "zh_tw": "摩利支天"
+      },
+      "context": {
+        "en_us": "So it's not totally implausible that a\\nsamurai who washed up in the village\\ndug the well after all.",
+        "ja_jp": "つまり<ruby><rb>流</rb><rt>なが</rt></ruby>れ<ruby><rb>着</rb><rt>つ</rt></ruby>いた<ruby><rb>侍</rb><rt>さむらい</rt></ruby>が<ruby><rb>井戸</rb><rt>いど</rt></ruby>を<ruby><rb>掘</rb><rt>ほ</rt></ruby>ったのは\\n<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>かもしれねぇって<ruby><rb>事</rb><rt>こと</rt></ruby>か？",
+        "zh_cn": "所以漂流而来的武士\\n挖了井的故事可能是真的？",
+        "zh_tw": "也就是說有位漂流到這裡的武士挖井，\\n這件事可能是真的？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0076",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "And if that's true, his identity may well be\\nthe tanuki we've been pursuing all along.",
+        "ja_jp": "ええ。そしてその<ruby><rb>侍</rb><rt>さむらい</rt></ruby>の<ruby><rb>正体</rb><rt>しょうたい</rt></ruby>はやはり\\n『タヌキ』ではないかと<ruby><rb>考</rb><rt>かんが</rt></ruby>えます。",
+        "zh_cn": "嗯。而且我认为那武士的\\n真实身份就是“狐狸”。",
+        "zh_tw": "是的。而我認為那名武士的真實身分\\n果然就是「狸貓」。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0077",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "Oh, come on. I just used that as an excuse\\nto drag you into this.",
+        "ja_jp": "いやいや。その<ruby><rb>話</rb><rt>はなし</rt></ruby>はお<ruby><rb>前</rb><rt>まえ</rt></ruby>を\\n<ruby><rb>巻</rb><rt>ま</rt></ruby>き<ruby><rb>込</rb><rt>こ</rt></ruby>むための<ruby><rb>方便</rb><rt>ほうべん</rt></ruby>だって。",
+        "zh_cn": "不不不，那只是我为了引你来\\n而强行关联到一起的。",
+        "zh_tw": "不不不，就跟你說那些話\\n是為了把你捲進來才編造的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0078",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "Then was the pillbox bearing the eight\\nboar's eye crest another of your plants?",
+        "ja_jp": "それでは<ruby><rb>洞窟</rb><rt>どうくつ</rt></ruby>で<ruby><rb>見</rb><rt>み</rt></ruby>つけた『<ruby><rb>八猪目</rb><rt>やついのめ</rt></ruby>』の\\n<ruby><rb>印籠</rb><rt>いんろう</rt></ruby>もあなたの<ruby><rb>仕込</rb><rt>しこ</rt></ruby>みでしょうか？",
+        "zh_cn": "那么在洞穴里发现的\\n“八猪目”印笼也是你准备的吗？",
+        "zh_tw": "那麼我在洞窟發現的「八豬目」印籠，\\n也是妳放的嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0079",
+      "book": ""
+    },
+    {
+      "icon": "110345_04",
+      "name": {
+        "en_us": "Mitsuhide",
+        "ja_jp": "ミツヒデ",
+        "zh_cn": "光秀",
+        "zh_tw": "光秀"
+      },
+      "context": {
+        "en_us": "The what, now? I don't know anything\\nabout a pillbox.",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>それ？　\\nうち、そんなの<ruby><rb>知</rb><rt>し</rt></ruby>らないけど。",
+        "zh_cn": "那是什么东西？\\n我可没听说过。",
+        "zh_tw": "那是什麼？\\n我不知道啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0080",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "I was so excited upon discovering it that I\\nmust have forgotten to mention it to you.",
+        "ja_jp": "<ruby><rb>見</rb><rt>み</rt></ruby>つけた<ruby><rb>時</rb><rt>とき</rt></ruby>の<ruby><rb>興奮</rb><rt>こうふん</rt></ruby>で、あなたに<ruby><rb>話</rb><rt>はな</rt></ruby>すのを\\nすっかり<ruby><rb>忘</rb><rt>わす</rt></ruby>れていましたからね。",
+        "zh_cn": "当初发现的时候因为太激动\\n就忘了告诉你。",
+        "zh_tw": "我發現當下過於興奮，\\n完全忘記要告訴妳了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0081",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "Among the objects I asked Marty to\\nappraise, that box alone turned out to\\nbe over a hundred years old.",
+        "ja_jp": "マーティ<ruby><rb>殿</rb><rt>どの</rt></ruby>に<ruby><rb>鑑定</rb><rt>かんてい</rt></ruby>していただいたところ\\nこれだけは100<ruby><rb>年以上昔</rb><rt>ねんいじょうむかし</rt></ruby>のもので\\nある<ruby><rb>事</rb><rt>こと</rt></ruby>がわかりました。",
+        "zh_cn": "但是让马蒂殿下鉴定之后，\\n却发现只有那印笼的的确确\\n有100年以上的历史。",
+        "zh_tw": "我請馬汀殿下協助鑑定後，\\n得知只有它是至少100年前的東西。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0082",
+      "book": ""
+    },
+    {
+      "icon": "210156_01",
+      "name": {
+        "en_us": "Marishiten",
+        "ja_jp": "マリシテン",
+        "zh_cn": "摩利支天",
+        "zh_tw": "摩利支天"
+      },
+      "context": {
+        "en_us": "Well, if Mitsuhide didn't plant it...",
+        "ja_jp": "そいつがミツヒデの<ruby><rb>仕込</rb><rt>しこ</rt></ruby>みでないって\\nなると……。",
+        "zh_cn": "如果那不是\\n光秀准备的东西……",
+        "zh_tw": "如果那不是光秀放的……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0083",
+      "book": ""
+    },
+    {
+      "icon": "110313_04",
+      "name": {
+        "en_us": "Ieyasu",
+        "ja_jp": "イエヤス",
+        "zh_cn": "家康",
+        "zh_tw": "家康"
+      },
+      "context": {
+        "en_us": "Then the truth may yet lie at the bottom of\\nthat cave.",
+        "ja_jp": "<ruby><rb>歴史</rb><rt>れきし</rt></ruby>の<ruby><rb>真実</rb><rt>しんじつ</rt></ruby>は、<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>にあの<ruby><rb>洞窟</rb><rt>どうくつ</rt></ruby>の<ruby><rb>先</rb><rt>さき</rt></ruby>に\\n<ruby><rb>眠</rb><rt>ねむ</rt></ruby>っているのかもしれません。",
+        "zh_cn": "也许洞穴深处\\n真的埋藏着历史的真相。",
+        "zh_tw": "或許歷史真相，\\n真的沉睡在那個洞窟的前方也說不定。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22214_04_0084",
+      "book": ""
+    }
+  ]
 }

@@ -1,988 +1,1870 @@
 {
-    "story_id": "",
-    "story_name": "初阳！日出决战 千奇百怪岁暮登门来",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "时值年末，王子一行怀疑前来送福的寅之龙氏\\n信玄的真假。尽管申之龙氏幸村的现身让场面\\n一度陷入混乱，所幸最终发现只是误会一场。\\n然而，亡者的到来却又让一行陷入困惑。\\n名为出云的少年则前来告知危机的降临。"
-        ]
+  "title": {
+    "en_us": "Celestial Showdown    New Year's Mysteries",
+    "ja_jp": "來光！　日ノ下決戦  年の瀬、迫るは奇々怪々",
+    "zh_cn": "初阳！日出决战  千奇百怪岁暮登门来",
+    "zh_tw": "拂曉來光！日下決戰  年關近，妖魔鬼怪登門來"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [],
-            "speaker_name": "SYS",
-            "context": "岁暮 日出之国\\n谒见天照之地\\n“高天原”",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110403_01"
-            ],
-            "speaker_name": "出云",
-            "context": "出云参见天照大人。",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110403_01"
-            ],
-            "speaker_name": "天照",
-            "context": "你来了啊，出云。\\n很抱歉突然把你叫来。",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110403_01"
-            ],
-            "speaker_name": "出云",
-            "context": "您不必在意。\\n向众生传达天照大人的圣谕\\n正是我身为“使者”的使命。",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110403_01"
-            ],
-            "speaker_name": "出云",
-            "context": "您此次紧急召见，\\n是有什么事情发生了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110403_01"
-            ],
-            "speaker_name": "天照",
-            "context": "嗯。日出之国……不，\\n这个世界将迎来一场危机。\\n其实……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120154_01"
-            ],
-            "speaker_name": "日出之国百姓",
-            "context": "喂！？快看那边！\\n天上……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120154_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "哦呵呵呵……\\n哈哈哈哈哈……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120154_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "时机——已经成熟。",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "话说……差不多要到今年十二龙氏\\n来拜访的时期了。只不过……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_09"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "是啊，这次我们可不能\\n轻易放人进圣城里来。",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120212_01"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "去年那假冒十二龙氏的\\n家伙进来之后，\\n可是让我们吃尽了苦头……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_06"
-            ],
-            "speaker_name": "穆穆",
-            "context": "啊～现在回想起来还是觉得窝火！\\n今年可得好好地调查一番，\\n看看到底是不是真正的十二龙氏！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_03"
-            ],
-            "speaker_name": "纳姆",
-            "context": "大家～有人来了，在门外等着呢！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_06"
-            ],
-            "speaker_name": "卢卡",
-            "context": "终于来了啊……\\n尤蒂尔去会会他，\\n我们趁机暗中调查！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好。走吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110401_01"
-            ],
-            "speaker_name": "信玄？",
-            "context": "老夫乃寅之龙氏信玄，\\n自日出之国前来送福。",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210169_01"
-            ],
-            "speaker_name": "不动明王？",
-            "context": "我是信玄大人的契约龙……\\n寅之龙……不动明王……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我们恭候多时了。\\n感谢你们不辞辛苦远道而来。",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_09",
-                "100010_06"
-            ],
-            "speaker_name": "穆穆",
-            "context": "就是他们吧！然后呢？\\n我们要怎么调查他们是真是假？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_06"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "唔……十二龙氏的话自然可以龙化。\\n如果能让他变成契约龙的样子\\n让我们看看倒是最为稳妥……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_06"
-            ],
-            "speaker_name": "卢卡",
-            "context": "原来如此，让他龙化就可以了是吧。\\n那就交给我好了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_03"
-            ],
-            "speaker_name": "纳姆",
-            "context": "诶！？卢卡，你去哪儿啊！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110401_01"
-            ],
-            "speaker_name": "信玄？",
-            "context": "所谓百闻不如一见，\\n这城堡可真是壮观……\\n此城之大，想必能容纳数百将士吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "诶？啊，嗯……这个嘛，\\n具体的数字我也不太清楚……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110401_01"
-            ],
-            "speaker_name": "信玄？",
-            "context": "唔……身为城主，\\n你竟不知自己有多少兵力？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "啊，不是的，那个……对了！\\n最近有很多志愿兵，所以\\n士兵的人数每天都有所变动……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110401_01"
-            ],
-            "speaker_name": "信玄？",
-            "context": "嚯……\\n自愿为国而战的百姓越多，\\n越证明全国的士气高涨，甚好！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "（唉……一直说谎也不是个办法……\\n不过一想到去年冒牌货引起的祸端，\\n又没法告诉他实情……）",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110401_01"
-            ],
-            "speaker_name": "信玄？",
-            "context": "唔？这是……烟幕？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110401_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "敌人来袭！好厉害的敌人！\\n能龙化的赶快龙化啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "卢卡！？你、你这试探\\n也太明显了吧……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110401_01"
-            ],
-            "speaker_name": "信玄？",
-            "context": "有敌人吗……\\n城主殿下，此处交给老夫便是。\\n唔噢噢噢噢！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "诶？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_06"
-            ],
-            "speaker_name": "卢卡",
-            "context": "令扇一挥就吹散了所有烟雾！？\\n这得多大的力气啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_06"
-            ],
-            "speaker_name": "不动明王？",
-            "context": "欲图加害信玄大人的\\n不轨之徒……就是你吧……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_06"
-            ],
-            "speaker_name": "不动明王？",
-            "context": "不可饶恕……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_06"
-            ],
-            "speaker_name": "卢卡",
-            "context": "这……\\n哇呀啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "卢、卢卡！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110401_01"
-            ],
-            "speaker_name": "信玄？",
-            "context": "嗯？这是不动明王的力量……\\n应该是找到袭击的主使了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "等等！唉，已经不顾上调查了。\\n得赶快阻止这场冲突才行……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "？？？",
-            "context": "大帅～",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "嗯？刚才那是……谁？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210169_01"
-            ],
-            "speaker_name": "不动明王？",
-            "context": "不可饶恕……不可饶恕……\\n不可饶恕……不可饶恕！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_06"
-            ],
-            "speaker_name": "卢卡",
-            "context": "哇！等下！我错了！\\n还是走为上计吧……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_06"
-            ],
-            "speaker_name": "？？？",
-            "context": "休想逃跑！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110402_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "呃啊啊啊啊！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110402_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "你这恶徒还不快快投降！\\n虽说不知道你是干了什么坏事！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110401_01"
-            ],
-            "speaker_name": "信玄？",
-            "context": "幸儿！？你怎么会来这里？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110402_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "当然是追着大帅您来的！\\n追寻信玄大帅的脚步\\n就是幸儿毕生的追求啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_06"
-            ],
-            "speaker_name": "卢卡",
-            "context": "呜呜……为啥我要遭这种罪……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "卢卡！你没事吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110401_01"
-            ],
-            "speaker_name": "信玄？",
-            "context": "城主殿下？那个人是敌……\\n看样子不像？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "对不起……\\n我会好好说明的……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "就是因为这样……\\n我们才会试探你们。抱歉。",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110401_01"
-            ],
-            "speaker_name": "信玄",
-            "context": "无需介怀，城主守卫城堡乃\\n天经地义。既然如此……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110401_01",
-                "210169_01"
-            ],
-            "speaker_name": "不动明王",
-            "context": "遵命……\\n妾身无论何时何地都愿与信玄大人\\n合为一体……哦呵呵呵……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210169_01",
-                "110401_01"
-            ],
-            "speaker_name": "信玄",
-            "context": "如此可否相信老夫？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "嗯，谢谢你们的配合。\\n那就请你们多多关照了，\\n信玄、不动明王，还有这位是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110401_01"
-            ],
-            "speaker_name": "信玄",
-            "context": "噢，她是老夫的徒弟。\\n原本并未打算带她前来，却不想\\n她自己跟来……幸儿，来打招呼。",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110402_01"
-            ],
-            "speaker_name": "幸村",
-            "context": "好的！我是申之龙氏幸村！\\n将要成为……寅之龙氏的人！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_03"
-            ],
-            "speaker_name": "纳姆",
-            "context": "诶？你已经是申之龙氏了，\\n还要成为寅之龙氏吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110402_01"
-            ],
-            "speaker_name": "幸村",
-            "context": "嗯。因为幸儿想要成为像大帅\\n一样的……不，是想要成为大帅！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110402_01"
-            ],
-            "speaker_name": "幸村",
-            "context": "所以幸儿也要成为寅之龙氏！\\n虽然不小心当上了申之龙氏……\\n但我两边都会好好努力的！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_09"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "不、不小心当上了？\\n这到底是什么回事啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110402_01"
-            ],
-            "speaker_name": "幸村",
-            "context": "这个嘛……说来话长呢！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120154_01"
-            ],
-            "speaker_name": "幸村",
-            "context": "有一天！幕府的人来拜托\\n幸儿去当什么什么的龙氏！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110402_01"
-            ],
-            "speaker_name": "幸村",
-            "context": "说起龙氏，那可是大帅的职位！\\n幸儿就以为能够继承大帅的衣钵！\\n可是，缔结魂契之后……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110402_01"
-            ],
-            "speaker_name": "幸村",
-            "context": "却不知为何当上了申之龙氏！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110402_01"
-            ],
-            "speaker_name": "幸村",
-            "context": "呼～好长的一段说明啊。\\n脑力劳动真的很累人呢～",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110402_01"
-            ],
-            "speaker_name": "幸村",
-            "context": "这种时候就要做俯卧撑！\\n一个、两个、三～个！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_06"
-            ],
-            "speaker_name": "穆穆",
-            "context": "所以说……听她的意思，\\n其实是还没搞清楚\\n申和寅的区别就缔结魂契了？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_06"
-            ],
-            "speaker_name": "卢卡",
-            "context": "应该是吧。\\n这可是要搭上自己性命的……\\n她怕不是个傻子吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_09"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "卢卡？就算心里觉得她是傻子，\\n也不可以当着本人的面说哦？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110402_01"
-            ],
-            "speaker_name": "幸村",
-            "context": "唔？你刚才说\\n“就算心里觉得她是傻子”？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_09"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "啊……不，是你听错了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110402_01"
-            ],
-            "speaker_name": "幸村",
-            "context": "原来是听错了啊。那就好！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_06"
-            ],
-            "speaker_name": "卢卡",
-            "context": "果然是个傻子……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110402_01"
-            ],
-            "speaker_name": "幸村",
-            "context": "总之！幸儿就是这样\\n当上的申之龙氏。\\n但是，幸儿也不会放弃成为大帅！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110402_01"
-            ],
-            "speaker_name": "幸村",
-            "context": "所以幸儿也会努力成为寅之龙氏的！\\n努力得到大帅的认可，继承他的衣钵！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110402_01"
-            ],
-            "speaker_name": "幸村",
-            "context": "幸儿的目标是，双重魂契！\\n请多指教，明明阁下！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210169_01"
-            ],
-            "speaker_name": "不动明王",
-            "context": "别用那个称呼叫我……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110401_01"
-            ],
-            "speaker_name": "信玄",
-            "context": "唉，如此吵吵闹闹，\\n送福都没法正常进行。\\n所以才没打算带上她……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好、好了好了……\\n有幸村在，今年的新年一定会\\n很欢乐。我们也很开心。",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "而且也该让我们为怀疑你们\\n这件事略表歉意吧。\\n现在就带你们逛逛圣城……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_03"
-            ],
-            "speaker_name": "纳姆",
-            "context": "大家！\\n快、快点到城墙上来！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "怎么了，纳姆。\\n这么慌张……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_03"
-            ],
-            "speaker_name": "纳姆",
-            "context": "因为……城门前又来了\\n别的客人……那个人……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "客人？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "那、那是……父王！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0089",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_06"
-            ],
-            "speaker_name": "卢卡",
-            "context": "怎么回事！？\\n为什么已故的亚罗拉斯王会……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0090",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_09"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "啊！穆穆……\\n亚罗拉斯王身边的那位，\\n难道是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0091",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100012_02"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0092",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_06"
-            ],
-            "speaker_name": "穆穆",
-            "context": "穆穆雅娜！为什么！？\\n你不是在300年前就已经死了吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0093",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "布伦希尔德……库菈乌……\\n可以把门……打开吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0094",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_09"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "穆穆雅娜……\\n我、我这就来开门……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0095",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_09"
-            ],
-            "speaker_name": "？？？",
-            "context": "万万不可！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0096",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100010_06"
-            ],
-            "speaker_name": "库菈乌&穆穆",
-            "context": "！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0097",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110403_01"
-            ],
-            "speaker_name": "出云",
-            "context": "他们是亡者！\\n企图将你们引诱至黄泉国之中。",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0098",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_03"
-            ],
-            "speaker_name": "纳姆",
-            "context": "啊？亡者？黄泉国？\\n话说……你哪位啊！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0099",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110401_01"
-            ],
-            "speaker_name": "信玄",
-            "context": "这不是出云阁下吗。\\n你竟会用上传送术来到这里……\\n看来是有相当要紧的事情吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0100",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110403_01"
-            ],
-            "speaker_name": "出云",
-            "context": "没错。\\n请二位速速返回日出之国……\\n如今早已没有送福的时间了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0101",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "伦希尔德……库菈乌……\\n快点、快点把门打开呀！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0102",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_04"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "唔！这种瘴气……我有印象……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0103",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_09"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "没、没错……\\n这和去年圣城被侵占时的瘴气一样，\\n都是死亡瘴气……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0104",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100004_09"
-            ],
-            "speaker_name": "库菈乌",
-            "context": "这是黄泉国的魔力！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0105",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110403_01"
-            ],
-            "speaker_name": "出云",
-            "context": "没错。\\n再不行动，日出之国就会……\\n不，整个世界都会……",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0106",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110403_01"
-            ],
-            "speaker_name": "出云",
-            "context": "化作死亡的世界！",
-            "voice_line": "VO_CHR_EVENTSTORY_20441_01_0107",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Shingen, leader of the Tiger Wyrmclan, is met\\nwith suspicion when he arrives to deliver yearly\\nblessings—and when the Monkey clan's leader\\nalso arrives, chaos ensues! Just when things\\nbegin to clear up, the dead appear and a boy\\nnamed Izumo issues a dire warning.",
+      "ja_jp": "<ruby><rb>年末</rb><rt>ねんまつ</rt></ruby>――<ruby><rb>福届</rb><rt>ふくとど</rt></ruby>けにきた<ruby><rb>寅</rb><rt>とら</rt></ruby>の<ruby><rb>竜氏</rb><rt>りゅうし</rt></ruby>シンゲンを\\n<ruby><rb>本物</rb><rt>ほんもの</rt></ruby>か<ruby><rb>疑</rb><rt>うたが</rt></ruby>う<ruby><rb>王子</rb><rt>おうじ</rt></ruby>たち。<ruby><rb>申</rb><rt>さる</rt></ruby>の<ruby><rb>竜氏</rb><rt>りゅうし</rt></ruby>ユキムラまで\\n<ruby><rb>現</rb><rt>あらわ</rt></ruby>れ<ruby><rb>一時</rb><rt>いちじ</rt></ruby><ruby><rb>騒然</rb><rt>そうぜん</rt></ruby>となるが、<ruby><rb>無事疑</rb><rt>ぶじうたが</rt></ruby>いは<ruby><rb>晴</rb><rt>は</rt></ruby>れる。\\nそこに<ruby><rb>死人</rb><rt>しびと</rt></ruby>が<ruby><rb>訪</rb><rt>たず</rt></ruby>ねてくる。<ruby><rb>戸惑</rb><rt>とまど</rt></ruby>う<ruby><rb>一同</rb><rt>いちどう</rt></ruby>の<ruby><rb>前</rb><rt>まえ</rt></ruby>に\\nイズモという<ruby><rb>少年</rb><rt>しょうねん</rt></ruby>が<ruby><rb>現</rb><rt>あらわ</rt></ruby>れ、<ruby><rb>危機</rb><rt>きき</rt></ruby>を<ruby><rb>告</rb><rt>つ</rt></ruby>げる。",
+      "zh_cn": "时值年末，王子一行怀疑前来送福的寅之龙氏\\n信玄的真假。尽管申之龙氏幸村的现身让场面\\n一度陷入混乱，所幸最终发现只是误会一场。\\n然而，亡者的到来却又让一行陷入困惑。\\n名为出云的少年则前来告知危机的降临。",
+      "zh_tw": "年末──面對前來送福的寅之龍氏信玄，\\n王子等人懷疑其真偽。之後連申之龍氏幸村都\\n登場而造成騷動，但總算順利解開嫌疑。\\n此時眾多死者來訪，正當眾人困惑不已時，\\n自稱出雲的少年現身警告危機逼近。"
+    }
+  },
+  "prev": "",
+  "next": "2044102",
+  "content": [
+    {
+      "icon": "",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Year's End Hinomoto\\nAmaterasu's Audience Chamber\\nTakamagahara",
+        "ja_jp": "<ruby><rb>年</rb><rt>とし</rt></ruby>の<ruby><rb>瀬</rb><rt>せ</rt></ruby>　ヒノモト\\nアマテラス<ruby><rb>謁見領域</rb><rt>えっけんりょういき</rt></ruby>\\n『タカマガハラ』",
+        "zh_cn": "岁暮 日出之国\\n谒见天照之地\\n“高天原”",
+        "zh_tw": "年末　日初之國\\n天照謁見領域\\n「高天原」"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110403_01",
+      "name": {
+        "en_us": "Izumo",
+        "ja_jp": "イズモ",
+        "zh_cn": "出云",
+        "zh_tw": "出雲"
+      },
+      "context": {
+        "en_us": "Your servant Izumo stands ready,\\nLady Amaterasu.",
+        "ja_jp": "アマテラス<ruby><rb>様</rb><rt>さま</rt></ruby>。\\nイズモ、<ruby><rb>参上</rb><rt>さんじょう</rt></ruby>いたしました。",
+        "zh_cn": "出云参见天照大人。",
+        "zh_tw": "天照大神。\\n出雲，在此拜謁。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0001",
+      "book": ""
+    },
+    {
+      "icon": "110403_01",
+      "name": {
+        "en_us": "Amaterasu",
+        "ja_jp": "アマテラス",
+        "zh_cn": "天照",
+        "zh_tw": "天照"
+      },
+      "context": {
+        "en_us": "My apologies for the sudden summons.",
+        "ja_jp": "<ruby><rb>来</rb><rt>き</rt></ruby>たか、イズモ。\\n<ruby><rb>急</rb><rt>きゅう</rt></ruby>に<ruby><rb>呼</rb><rt>よ</rt></ruby>び<ruby><rb>出</rb><rt>だ</rt></ruby>してすまぬな。",
+        "zh_cn": "你来了啊，出云。\\n很抱歉突然把你叫来。",
+        "zh_tw": "來了啊，出雲。\\n抱歉突然喚汝來。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0002",
+      "book": ""
+    },
+    {
+      "icon": "110403_01",
+      "name": {
+        "en_us": "Izumo",
+        "ja_jp": "イズモ",
+        "zh_cn": "出云",
+        "zh_tw": "出雲"
+      },
+      "context": {
+        "en_us": "Not at all. I am My Lady's emissary;\\nspreading your word to the people\\nis my sacred task and purpose.",
+        "ja_jp": "いえ。アマテラス<ruby><rb>様</rb><rt>さま</rt></ruby>の<ruby><rb>御言葉</rb><rt>おことば</rt></ruby>を\\n<ruby><rb>民</rb><rt>たみ</rt></ruby>に<ruby><rb>伝</rb><rt>つた</rt></ruby>えること。それが<ruby><rb>私</rb><rt>わたし</rt></ruby>……\\n『<ruby><rb>御使</rb><rt>みつか</rt></ruby>い』の<ruby><rb>使命</rb><rt>しめい</rt></ruby>にございますゆえ。",
+        "zh_cn": "您不必在意。\\n向众生传达天照大人的圣谕\\n正是我身为“使者”的使命。",
+        "zh_tw": "不。將天照大神之諭轉達予民，\\n正是我……身為「使者」之使命。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0003",
+      "book": ""
+    },
+    {
+      "icon": "110403_01",
+      "name": {
+        "en_us": "Izumo",
+        "ja_jp": "イズモ",
+        "zh_cn": "出云",
+        "zh_tw": "出雲"
+      },
+      "context": {
+        "en_us": "But you spoke of a pressing matter.\\nHas something happened?",
+        "ja_jp": "して、<ruby><rb>急</rb><rt>きゅう</rt></ruby>な<ruby><rb>用談</rb><rt>ようだん</rt></ruby>とは？\\n<ruby><rb>何</rb><rt>なに</rt></ruby>か<ruby><rb>変事</rb><rt>へんじ</rt></ruby>でございましょうか？",
+        "zh_cn": "您此次紧急召见，\\n是有什么事情发生了吗？",
+        "zh_tw": "那麼，您指的急事是？\\n是否有何異狀？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0004",
+      "book": ""
+    },
+    {
+      "icon": "110403_01",
+      "name": {
+        "en_us": "Amaterasu",
+        "ja_jp": "アマテラス",
+        "zh_cn": "天照",
+        "zh_tw": "天照"
+      },
+      "context": {
+        "en_us": "Indeed. Hinomoto—nay, the world!—\\nlies in the shadow of encroaching danger.\\nHear me well...",
+        "ja_jp": "うむ。ヒノモトに……<ruby><rb>否</rb><rt>いな</rt></ruby>。\\n<ruby><rb>世界</rb><rt>せかい</rt></ruby>に<ruby><rb>危機</rb><rt>きき</rt></ruby>が<ruby><rb>迫</rb><rt>せま</rt></ruby>っておる。じつはな――",
+        "zh_cn": "嗯。日出之国……不，\\n这个世界将迎来一场危机。\\n其实……",
+        "zh_tw": "嗯。日初之國……不，\\n世界正面臨危機步步逼近。\\n其實──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0005",
+      "book": ""
+    },
+    {
+      "icon": "120154_01",
+      "name": {
+        "en_us": "Hinomotoan",
+        "ja_jp": "ヒノモトの民",
+        "zh_cn": "日出之国百姓",
+        "zh_tw": "日初之國人民"
+      },
+      "context": {
+        "en_us": "Look there! In the sky!",
+        "ja_jp": "お、おい!?　あれを<ruby><rb>見</rb><rt>み</rt></ruby>ろ！\\n<ruby><rb>空</rb><rt>そら</rt></ruby>が……！",
+        "zh_cn": "喂！？快看那边！\\n天上……",
+        "zh_tw": "喂、喂！？快看啊！\\n天空……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0006",
+      "book": ""
+    },
+    {
+      "icon": "120154_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Heh heh heh.. Ooooh ho ho ho!",
+        "ja_jp": "うふふふ……\\nほほほほほ……",
+        "zh_cn": "哦呵呵呵……\\n哈哈哈哈哈……",
+        "zh_tw": "唔呼呼呼……\\n呵呵呵呵呵……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0007",
+      "book": ""
+    },
+    {
+      "icon": "120154_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "The hour...is come.",
+        "ja_jp": "<ruby><rb>時</rb><rt>とき</rt></ruby>は――<ruby><rb>来</rb><rt>き</rt></ruby>たれり。",
+        "zh_cn": "时机——已经成熟。",
+        "zh_tw": "時刻──已至。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0008",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "This is usually the time of year when the\\nWyrmclans pay their visit, but...",
+        "ja_jp": "よし……そろそろ<ruby><rb>今年</rb><rt>ことし</rt></ruby>の<ruby><rb>十二竜氏</rb><rt>じゅうにりゅうし</rt></ruby>が\\n<ruby><rb>来</rb><rt>く</rt></ruby>る<ruby><rb>頃</rb><rt>ころ</rt></ruby>だな。ただ……",
+        "zh_cn": "话说……差不多要到今年十二龙氏\\n来拜访的时期了。只不过……",
+        "zh_tw": "好……\\n今年的十二龍氏差不多快來了吧。\\n只是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0009",
+      "book": ""
+    },
+    {
+      "icon": "100004_09",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "But this year, we'll not blindly trust any\\nwho turn up claiming to be them.",
+        "ja_jp": "ええ。<ruby><rb>今回</rb><rt>こんかい</rt></ruby>はやってきた<ruby><rb>人</rb><rt>ひと</rt></ruby>を\\n<ruby><rb>簡単</rb><rt>かんたん</rt></ruby>に<ruby><rb>通</rb><rt>とお</rt></ruby>すわけにはいきません。",
+        "zh_cn": "是啊，这次我们可不能\\n轻易放人进圣城里来。",
+        "zh_tw": "是啊。這次絕不能輕易放對方進來。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0010",
+      "book": ""
+    },
+    {
+      "icon": "120212_01",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Not after blithely inviting the enemy into\\nour home last year! That was a headache\\nI'll care not to repeat, thank you.",
+        "ja_jp": "<ruby><rb>去年</rb><rt>きょねん</rt></ruby>、<ruby><rb>私</rb><rt>わたし</rt></ruby>たちは<ruby><rb>十二竜氏</rb><rt>じゅうにりゅうし</rt></ruby>を<ruby><rb>騙</rb><rt>かた</rt></ruby>った<ruby><rb>敵</rb><rt>てき</rt></ruby>を\\n<ruby><rb>城</rb><rt>しろ</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>れてしまいました。おかげで\\n<ruby><rb>大変</rb><rt>たいへん</rt></ruby>な<ruby><rb>目</rb><rt>め</rt></ruby>にあいましたから……。",
+        "zh_cn": "去年那假冒十二龙氏的\\n家伙进来之后，\\n可是让我们吃尽了苦头……",
+        "zh_tw": "去年我們不小心讓謊稱\\n十二龍氏的敵人踏進城裡。\\n還因此得到了很慘痛的教訓……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0011",
+      "book": ""
+    },
+    {
+      "icon": "100010_06",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "Just thinking back to it makes my blood\\nboil. This year, we'll make sure they're\\nlegit, no matter what it takes!",
+        "ja_jp": "あ～、<ruby><rb>今</rb><rt>いま</rt></ruby><ruby><rb>思</rb><rt>おも</rt></ruby>い<ruby><rb>出</rb><rt>だ</rt></ruby>してもムカつくわ！\\n<ruby><rb>今年</rb><rt>ことし</rt></ruby>は<ruby><rb>本物</rb><rt>ほんもの</rt></ruby>かどうか、ちゃんと<ruby><rb>調</rb><rt>しら</rt></ruby>べる\\nわよっ！",
+        "zh_cn": "啊～现在回想起来还是觉得窝火！\\n今年可得好好地调查一番，\\n看看到底是不是真正的十二龙氏！",
+        "zh_tw": "啊～現在想起來還是很火大！\\n今年一定要好好調查\\n對方是不是真貨！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0012",
+      "book": ""
+    },
+    {
+      "icon": "100007_03",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Look lively, people! We got company!",
+        "ja_jp": "みんな～！　<ruby><rb>門</rb><rt>もん</rt></ruby>の<ruby><rb>前</rb><rt>まえ</rt></ruby>に<ruby><rb>誰</rb><rt>だれ</rt></ruby>か<ruby><rb>来</rb><rt>き</rt></ruby>てるよ！",
+        "zh_cn": "大家～有人来了，在门外等着呢！",
+        "zh_tw": "大家～！門口有人來了喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0013",
+      "book": ""
+    },
+    {
+      "icon": "100006_06",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Finally here, eh? All right,\\nEuden, you go greet 'em\\nwhile we look on from the shadows.",
+        "ja_jp": "とうとう<ruby><rb>来</rb><rt>き</rt></ruby>たみたいだな……！\\nユーディルが<ruby><rb>相手</rb><rt>あいて</rt></ruby>してくれ。　\\nその<ruby><rb>隙</rb><rt>すき</rt></ruby>にオレたちが<ruby><rb>影</rb><rt>かげ</rt></ruby>から<ruby><rb>調</rb><rt>しら</rt></ruby>べる！",
+        "zh_cn": "终于来了啊……\\n尤蒂尔去会会他，\\n我们趁机暗中调查！",
+        "zh_tw": "終於來了啊……！\\n尤帝爾你去應付，\\n然後我們趁這個時候偷偷調查！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0014",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Right.",
+        "ja_jp": "わかった。<ruby><rb>行</rb><rt>い</rt></ruby>こう！",
+        "zh_cn": "好。走吧！",
+        "zh_tw": "我知道了。走吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0015",
+      "book": ""
+    },
+    {
+      "icon": "110401_01",
+      "name": {
+        "en_us": "Shingen?",
+        "ja_jp": "シンゲン？",
+        "zh_cn": "信玄？",
+        "zh_tw": "信玄？"
+      },
+      "context": {
+        "en_us": "I am Shingen of the Tiger Wyrmclan,\\nand I come from Hinomoto bearing the\\nblessings of the new year.",
+        "ja_jp": "<ruby><rb>儂</rb><rt>わし</rt></ruby>は<ruby><rb>寅</rb><rt>とら</rt></ruby>の<ruby><rb>竜氏</rb><rt>りゅうし</rt></ruby>シンゲン。\\nヒノモトより<ruby><rb>福届</rb><rt>ふくとど</rt></ruby>けに<ruby><rb>参</rb><rt>まい</rt></ruby>った。",
+        "zh_cn": "老夫乃寅之龙氏信玄，\\n自日出之国前来送福。",
+        "zh_tw": "我乃寅之龍氏信玄。\\n自日初之國前來送福。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0016",
+      "book": ""
+    },
+    {
+      "icon": "210169_01",
+      "name": {
+        "en_us": "Fudo Myo-o?",
+        "ja_jp": "フドウミョウオウ？",
+        "zh_cn": "不动明王？",
+        "zh_tw": "不動明王？"
+      },
+      "context": {
+        "en_us": "And I am his pactbound dragon,\\nFudo Myo-o.",
+        "ja_jp": "その<ruby><rb>契</rb><rt>ちぎ</rt></ruby>り<ruby><rb>竜</rb><rt>りゅう</rt></ruby>にして、<ruby><rb>寅</rb><rt>とら</rt></ruby>の<ruby><rb>竜</rb><rt>りゅう</rt></ruby>……\\nフドウミョウオウよ……。",
+        "zh_cn": "我是信玄大人的契约龙……\\n寅之龙……不动明王……",
+        "zh_tw": "其契龍，寅之龍……\\n不動明王……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0017",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "We've been waiting for you. Thank you\\nfor making the long trek to our home.",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>ってたよ。<ruby><rb>遠路</rb><rt>えんろ</rt></ruby>はるばる、\\n<ruby><rb>来</rb><rt>き</rt></ruby>てくれてありがとう。",
+        "zh_cn": "我们恭候多时了。\\n感谢你们不辞辛苦远道而来。",
+        "zh_tw": "我等你們很久了。\\n謝謝兩位遠道而來。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0018",
+      "book": ""
+    },
+    {
+      "icon": "100010_06",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "All right, so how do we test if these\\nfolks are the real deal or not?",
+        "ja_jp": "あいつらね！　それで？　<ruby><rb>本物</rb><rt>ほんもの</rt></ruby>か\\nどうか、どうやって<ruby><rb>調</rb><rt>しら</rt></ruby>べればいいの？",
+        "zh_cn": "就是他们吧！然后呢？\\n我们要怎么调查他们是真是假？",
+        "zh_tw": "就是那些傢伙吧！然後呢？\\n要怎麼調查他們是不是真貨？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0019",
+      "book": ""
+    },
+    {
+      "icon": "100010_06",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Well, since Wyrmclan leaders are known\\nfor their shapeshifting, a sure way would\\nbe to see him turn into his dragon.",
+        "ja_jp": "うーん……<ruby><rb>十二竜氏</rb><rt>じゅうにりゅうし</rt></ruby>といえば<ruby><rb>竜化</rb><rt>りゅうか</rt></ruby>です。\\n<ruby><rb>契</rb><rt>ちぎ</rt></ruby>り<ruby><rb>竜</rb><rt>りゅう</rt></ruby>になる<ruby><rb>様子</rb><rt>ようす</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>せてもらうのが\\n<ruby><rb>確実</rb><rt>かくじつ</rt></ruby>ではありますが……。",
+        "zh_cn": "唔……十二龙氏的话自然可以龙化。\\n如果能让他变成契约龙的样子\\n让我们看看倒是最为稳妥……",
+        "zh_tw": "嗯……說到十二龍氏就會想到龍化。\\n請對方讓我們看看變身成契龍的樣子\\n應該是最可靠的……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0020",
+      "book": ""
+    },
+    {
+      "icon": "100006_06",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "So we just have to make him transform?\\nEasy-peasy! Leave it to me.",
+        "ja_jp": "なるほど、<ruby><rb>竜化</rb><rt>りゅうか</rt></ruby>させりゃいいんだな。\\nそれならオレの<ruby><rb>出番</rb><rt>でばん</rt></ruby>だ！",
+        "zh_cn": "原来如此，让他龙化就可以了是吧。\\n那就交给我好了！",
+        "zh_tw": "原來如此，只要讓他們龍化就好了吧。\\n那該我出場了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0021",
+      "book": ""
+    },
+    {
+      "icon": "100007_03",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "LUCA! WAIT, YOU DOPE!",
+        "ja_jp": "え!?　リュカ、どこいくの～!?",
+        "zh_cn": "诶！？卢卡，你去哪儿啊！？",
+        "zh_tw": "咦！？琉卡，你要去哪裡呀～！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0022",
+      "book": ""
+    },
+    {
+      "icon": "110401_01",
+      "name": {
+        "en_us": "Shingen?",
+        "ja_jp": "シンゲン？",
+        "zh_cn": "信玄？",
+        "zh_tw": "信玄？"
+      },
+      "context": {
+        "en_us": "I'd heard tale of the Halidom's grandeur,\\nbut it truly is a marvel to behold. A castle\\nthis large must hold a force of hundreds!",
+        "ja_jp": "しかし<ruby><rb>噂</rb><rt>うわさ</rt></ruby>には<ruby><rb>聞</rb><rt>き</rt></ruby>いていたが、まこと\\n<ruby><rb>見事</rb><rt>みごと</rt></ruby>な<ruby><rb>城</rb><rt>しろ</rt></ruby>ですな……これほどの<ruby><rb>城</rb><rt>しろ</rt></ruby>ならば\\n<ruby><rb>兵</rb><rt>へい</rt></ruby>も<ruby><rb>何百</rb><rt>なんびゃく</rt></ruby>と<ruby><rb>留</rb><rt>と</rt></ruby>め<ruby><rb>置</rb><rt>お</rt></ruby>けるのでは？",
+        "zh_cn": "所谓百闻不如一见，\\n这城堡可真是壮观……\\n此城之大，想必能容纳数百将士吧？",
+        "zh_tw": "話說回來，雖然先前已有耳聞，\\n但確實是十分宏偉的城堡呢……\\n如此規模，應能容納數百士兵吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0023",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Yeeeah, uh, something like that.\\nI fear our exact numbers are, um...",
+        "ja_jp": "え……？　あ、ああ……そうだな。\\n<ruby><rb>具体的</rb><rt>ぐたいてき</rt></ruby>な<ruby><rb>数字</rb><rt>すうじ</rt></ruby>は、ちょっと……。",
+        "zh_cn": "诶？啊，嗯……这个嘛，\\n具体的数字我也不太清楚……",
+        "zh_tw": "咦……？啊、嗯……對啊。\\n只是具體數字，我不太清楚……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0024",
+      "book": ""
+    },
+    {
+      "icon": "110401_01",
+      "name": {
+        "en_us": "Shingen?",
+        "ja_jp": "シンゲン？",
+        "zh_cn": "信玄？",
+        "zh_tw": "信玄？"
+      },
+      "context": {
+        "en_us": "Surely the lord of this castle knows\\nthe number of his own men?",
+        "ja_jp": "む……？　<ruby><rb>城主</rb><rt>じょうしゅ</rt></ruby>でありながら、<ruby><rb>兵</rb><rt>へい</rt></ruby>の<ruby><rb>数</rb><rt>かず</rt></ruby>を\\n<ruby><rb>把握</rb><rt>はあく</rt></ruby>しておらぬのですかな？　",
+        "zh_cn": "唔……身为城主，\\n你竟不知自己有多少兵力？",
+        "zh_tw": "嗯……？明明身為城主，\\n卻未掌握兵數嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0025",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Ah! No! I only mean that...ummm...\\nwe've had a recent wave of new recruits\\nand the count's been all over the place as\\na result. Yeah, that's it...",
+        "ja_jp": "あ、いや、ええと……そう！\\n<ruby><rb>最近</rb><rt>さいきん</rt></ruby>は<ruby><rb>志願兵</rb><rt>しがんへい</rt></ruby>も<ruby><rb>多</rb><rt>おお</rt></ruby>くてね。<ruby><rb>兵</rb><rt>へい</rt></ruby>の<ruby><rb>人数</rb><rt>にんずう</rt></ruby>が\\n<ruby><rb>日</rb><rt>ひ</rt></ruby>に<ruby><rb>日</rb><rt>ひ</rt></ruby>に<ruby><rb>変動</rb><rt>へんどう</rt></ruby>するんだ……。",
+        "zh_cn": "啊，不是的，那个……对了！\\n最近有很多志愿兵，所以\\n士兵的人数每天都有所变动……",
+        "zh_tw": "啊，不是的、那個……對了！\\n因為這陣子來了很多志願兵，\\n所以士兵人數每天都會變動……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0026",
+      "book": ""
+    },
+    {
+      "icon": "110401_01",
+      "name": {
+        "en_us": "Shingen?",
+        "ja_jp": "シンゲン？",
+        "zh_cn": "信玄？",
+        "zh_tw": "信玄？"
+      },
+      "context": {
+        "en_us": "Oh ho! A glut of citizens enlisting to fight\\nis the mark of a well-loved land high in\\nmorale. This is a fine thing to see.",
+        "ja_jp": "ほほう…………。\\n<ruby><rb>戦</rb><rt>いくさ</rt></ruby>に<ruby><rb>志願</rb><rt>しがん</rt></ruby>する<ruby><rb>民</rb><rt>たみ</rt></ruby>が<ruby><rb>多</rb><rt>おお</rt></ruby>いとは、<ruby><rb>国</rb><rt>くに</rt></ruby><ruby><rb>全土</rb><rt>ぜんど</rt></ruby>の\\n<ruby><rb>士気</rb><rt>しき</rt></ruby>が<ruby><rb>高</rb><rt>たか</rt></ruby>い<ruby><rb>証拠</rb><rt>しょうこ</rt></ruby>ですな。<ruby><rb>素晴</rb><rt>すば</rt></ruby>らしい！",
+        "zh_cn": "嚯……\\n自愿为国而战的百姓越多，\\n越证明全国的士气高涨，甚好！",
+        "zh_tw": "喔喔……有諸多人民志願投身戰場，\\n正是全國士氣高昂的證明。\\n實在值得敬佩！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0027",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "(Phew! Lying is a lot harder than I gave it\\ncredit for. Still, I can't let anything slip\\nin case this guy isn't who he claims to be.)",
+        "ja_jp": "（ふう、<ruby><rb>嘘</rb><rt>うそ</rt></ruby>をつき<ruby><rb>続</rb><rt>つづ</rt></ruby>けるのも<ruby><rb>苦</rb><rt>くる</rt></ruby>しい\\n　なぁ……でも、<ruby><rb>偽物</rb><rt>にせもの</rt></ruby>だった<ruby><rb>時</rb><rt>とき</rt></ruby>のことを\\n　<ruby><rb>考</rb><rt>かんが</rt></ruby>えると<ruby><rb>教</rb><rt>おし</rt></ruby>えられないし……）",
+        "zh_cn": "（唉……一直说谎也不是个办法……\\n不过一想到去年冒牌货引起的祸端，\\n又没法告诉他实情……）",
+        "zh_tw": "（呼，要一直撒謊好難過啊……\\n可是，想到去年因為冒牌貨引發的\\n爭端，也不能告訴他實話……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0028",
+      "book": ""
+    },
+    {
+      "icon": "110401_01",
+      "name": {
+        "en_us": "Shingen?",
+        "ja_jp": "シンゲン？",
+        "zh_cn": "信玄？",
+        "zh_tw": "信玄？"
+      },
+      "context": {
+        "en_us": "Hrm? A smoke screen!",
+        "ja_jp": "む？　これは……<ruby><rb>煙幕</rb><rt>えんまく</rt></ruby>？",
+        "zh_cn": "唔？这是……烟幕？",
+        "zh_tw": "唔？這是……煙霧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0029",
+      "book": ""
+    },
+    {
+      "icon": "110401_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Alert! Alert! We're under attack!\\nAnd they're super strong, so we need all\\nshapeshifters on deck, pronto!",
+        "ja_jp": "<ruby><rb>敵襲</rb><rt>てきしゅう</rt></ruby>だー！　<ruby><rb>敵</rb><rt>てき</rt></ruby>はめちゃくちゃ<ruby><rb>強</rb><rt>つよ</rt></ruby>い！\\n<ruby><rb>竜化</rb><rt>りゅうか</rt></ruby>できる<ruby><rb>奴</rb><rt>やつ</rt></ruby>は<ruby><rb>竜化</rb><rt>りゅうか</rt></ruby>してくれーっ！",
+        "zh_cn": "敌人来袭！好厉害的敌人！\\n能龙化的赶快龙化啊！",
+        "zh_tw": "有敵襲──！敵人強得要命啊！\\n能龍化的傢伙快點龍化吧──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0030",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Pssst! Luca! Don't you think you're going\\na little overboard here?!",
+        "ja_jp": "リュカ!?　ず、<ruby><rb>随分</rb><rt>ずいぶん</rt></ruby><ruby><rb>無茶</rb><rt>むちゃ</rt></ruby>な<ruby><rb>方法</rb><rt>ほうほう</rt></ruby>で\\n<ruby><rb>調</rb><rt>しら</rt></ruby>べようとしてるな……。",
+        "zh_cn": "卢卡！？你、你这试探\\n也太明显了吧……",
+        "zh_tw": "琉卡！？\\n調、調查的方法還真強硬呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0031",
+      "book": ""
+    },
+    {
+      "icon": "110401_01",
+      "name": {
+        "en_us": "Shingen?",
+        "ja_jp": "シンゲン？",
+        "zh_cn": "信玄？",
+        "zh_tw": "信玄？"
+      },
+      "context": {
+        "en_us": "What foe dares?! Leave this to me,\\nPrince Euden. Graaagh!",
+        "ja_jp": "<ruby><rb>敵</rb><rt>てき</rt></ruby>か……！　<ruby><rb>城主殿</rb><rt>じょうしゅどの</rt></ruby>、ここはお<ruby><rb>任</rb><rt>まか</rt></ruby>せを。\\nぬううううんっ!!",
+        "zh_cn": "有敌人吗……\\n城主殿下，此处交给老夫便是。\\n唔噢噢噢噢！",
+        "zh_tw": "敵人嗎……！\\n城主殿下，這裡請交給我。\\n哼唔────！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0032",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Huh?",
+        "ja_jp": "へ……？",
+        "zh_cn": "诶？",
+        "zh_tw": "咦……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0033",
+      "book": ""
+    },
+    {
+      "icon": "100006_06",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Okay, he cleared all that smoke with one\\nwave of his fan? Just how freakishly\\nstrong IS this guy...?",
+        "ja_jp": "<ruby><rb>軍配</rb><rt>ぐんばい</rt></ruby><ruby><rb>一</rb><rt>ひと</rt></ruby><ruby><rb>振</rb><rt>ふ</rt></ruby>りで、<ruby><rb>煙</rb><rt>けむり</rt></ruby>を<ruby><rb>吹</rb><rt>ふ</rt></ruby>き<ruby><rb>飛</rb><rt>と</rt></ruby>ばしたぁ？\\nどういう<ruby><rb>腕力</rb><rt>わんりょく</rt></ruby>してんだよ……！",
+        "zh_cn": "令扇一挥就吹散了所有烟雾！？\\n这得多大的力气啊……",
+        "zh_tw": "光揮一下軍配團扇，就把煙都吹散了？\\n是要有多驚人的臂力啊……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0034",
+      "book": ""
+    },
+    {
+      "icon": "100006_06",
+      "name": {
+        "en_us": "Fudo Myo-o?",
+        "ja_jp": "フドウミョウオウ？",
+        "zh_cn": "不动明王？",
+        "zh_tw": "不動明王？"
+      },
+      "context": {
+        "en_us": "You there! Knave! You would dare\\nseek harm to Lord Shingen?",
+        "ja_jp": "あなたね……。シンゲン<ruby><rb>様</rb><rt>さま</rt></ruby>に\\n<ruby><rb>危害</rb><rt>きがい</rt></ruby>を<ruby><rb>加</rb><rt>くわ</rt></ruby>えようとする<ruby><rb>不届</rb><rt>ふとど</rt></ruby>き<ruby><rb>者</rb><rt>もの</rt></ruby>は……。",
+        "zh_cn": "欲图加害信玄大人的\\n不轨之徒……就是你吧……",
+        "zh_tw": "就是你吧……\\n試圖危害信玄大人的無禮之徒……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0035",
+      "book": ""
+    },
+    {
+      "icon": "100006_06",
+      "name": {
+        "en_us": "Fudo Myo-o?",
+        "ja_jp": "フドウミョウオウ？",
+        "zh_cn": "不动明王？",
+        "zh_tw": "不動明王？"
+      },
+      "context": {
+        "en_us": "Your crimes shall not be forgiven.",
+        "ja_jp": "<ruby><rb>許</rb><rt>ゆる</rt></ruby>さないわ……。",
+        "zh_cn": "不可饶恕……",
+        "zh_tw": "絕不原諒……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0036",
+      "book": ""
+    },
+    {
+      "icon": "100006_06",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "What the...?! NOOOOOOO!",
+        "ja_jp": "なっ……！\\nんぎゃあああああっ!!",
+        "zh_cn": "这……\\n哇呀啊啊啊啊啊！",
+        "zh_tw": "啥……！\\n嗚呀啊啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0037",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Luca!",
+        "ja_jp": "り、リュカ……!?",
+        "zh_cn": "卢、卢卡！？",
+        "zh_tw": "琉、琉卡……！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0038",
+      "book": ""
+    },
+    {
+      "icon": "110401_01",
+      "name": {
+        "en_us": "Shingen?",
+        "ja_jp": "シンゲン？",
+        "zh_cn": "信玄？",
+        "zh_tw": "信玄？"
+      },
+      "context": {
+        "en_us": "Mmm? That was Fudo Myo-o's power...\\nShe must have identified the perpetrator of\\nthis fell attack!",
+        "ja_jp": "む？　この<ruby><rb>力</rb><rt>ちから</rt></ruby>はフドウミョウオウの……\\nさては<ruby><rb>襲撃</rb><rt>しゅうげき</rt></ruby>の<ruby><rb>主犯格</rb><rt>しゅはんかく</rt></ruby>を<ruby><rb>見</rb><rt>み</rt></ruby>つけたか！",
+        "zh_cn": "嗯？这是不动明王的力量……\\n应该是找到袭击的主使了！",
+        "zh_tw": "嗯？這股力量是不動明王的……\\n看來已揪出襲擊的幕後主使了吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0039",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Wait, no! You don't understand what...\\nOkay, forget seeing if this guy is the real\\ndeal or not—I need to go stop a murder!",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>ってくれ！　ああ、もう<ruby><rb>調</rb><rt>しら</rt></ruby>べるどころ\\nじゃない。<ruby><rb>争</rb><rt>あらそ</rt></ruby>いを<ruby><rb>止</rb><rt>と</rt></ruby>めないと……",
+        "zh_cn": "等等！唉，已经不顾上调查了。\\n得赶快阻止这场冲突才行……",
+        "zh_tw": "等一下！啊啊，現在不是調查的時候。\\n得阻止這場衝突才行……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0040",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "GENERAAAAAAL!",
+        "ja_jp": "<ruby><rb>大将</rb><rt>たいしょう</rt></ruby>～～～っ!!",
+        "zh_cn": "大帅～",
+        "zh_tw": "大將～～～！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0041",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Huh? Who was that?",
+        "ja_jp": "ん？　<ruby><rb>誰</rb><rt>だれ</rt></ruby>だ、<ruby><rb>今</rb><rt>いま</rt></ruby>の……？",
+        "zh_cn": "嗯？刚才那是……谁？",
+        "zh_tw": "嗯？剛才的是誰啊……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0042",
+      "book": ""
+    },
+    {
+      "icon": "210169_01",
+      "name": {
+        "en_us": "Fudo Myo-o?",
+        "ja_jp": "フドウミョウオウ？",
+        "zh_cn": "不动明王？",
+        "zh_tw": "不動明王？"
+      },
+      "context": {
+        "en_us": "Face my judgment! Face it! Face it!\\nFAAAAACE IIIIIIT!",
+        "ja_jp": "<ruby><rb>許</rb><rt>ゆる</rt></ruby>さない……！　<ruby><rb>許</rb><rt>ゆる</rt></ruby>さない……！\\n<ruby><rb>許</rb><rt>ゆる</rt></ruby>さない……！　<ruby><rb>許</rb><rt>ゆる</rt></ruby>さない……!!",
+        "zh_cn": "不可饶恕……不可饶恕……\\n不可饶恕……不可饶恕！",
+        "zh_tw": "絕不原諒……！絕不原諒……！\\n絕不原諒……！絕不原諒……！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0043",
+      "book": ""
+    },
+    {
+      "icon": "100006_06",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "I'm sorry! I'm sorry, I'm sorry, I'm sorry,\\nI'M RUNNING AWAAAAAAAAAY!",
+        "ja_jp": "わっ！　ちょ！　<ruby><rb>悪</rb><rt>わる</rt></ruby>かったってぇ！\\nこんな<ruby><rb>時</rb><rt>とき</rt></ruby>は<ruby><rb>逃</rb><rt>に</rt></ruby>げるが<ruby><rb>勝</rb><rt>か</rt></ruby>ち……",
+        "zh_cn": "哇！等下！我错了！\\n还是走为上计吧……",
+        "zh_tw": "哇！等等！對不起啦！\\n這種時候還是走為上策……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0044",
+      "book": ""
+    },
+    {
+      "icon": "100006_06",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Ha! You'll never escape me!",
+        "ja_jp": "<ruby><rb>逃</rb><rt>に</rt></ruby>っがさーーーんっ!!",
+        "zh_cn": "休想逃跑！",
+        "zh_tw": "別想逃────！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0045",
+      "book": ""
+    },
+    {
+      "icon": "110402_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Oh come on, not anoth—BLARGH!",
+        "ja_jp": "ぐはあああ!?",
+        "zh_cn": "呃啊啊啊啊！？",
+        "zh_tw": "呃啊啊啊啊！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0046",
+      "book": ""
+    },
+    {
+      "icon": "110402_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Surrender, villain! I got no idea what you\\ndid, but I'm sure it was totally evil!",
+        "ja_jp": "どうだ、<ruby><rb>参</rb><rt>まい</rt></ruby>ったか!!　なんの<ruby><rb>悪事</rb><rt>あくじ</rt></ruby>を\\n<ruby><rb>働</rb><rt>はたら</rt></ruby>いたのかよくわかんない<ruby><rb>悪党</rb><rt>あくとう</rt></ruby>!!",
+        "zh_cn": "你这恶徒还不快快投降！\\n虽说不知道你是干了什么坏事！",
+        "zh_tw": "如何，認輸了吧！！\\n你這不曉得做了什麼壞事的大壞蛋！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0047",
+      "book": ""
+    },
+    {
+      "icon": "110401_01",
+      "name": {
+        "en_us": "Shingen?",
+        "ja_jp": "シンゲン？",
+        "zh_cn": "信玄？",
+        "zh_tw": "信玄？"
+      },
+      "context": {
+        "en_us": "Yuki?! Why are you here?!",
+        "ja_jp": "ユキ!?　なぜうぬがここに？",
+        "zh_cn": "幸儿！？你怎么会来这里？",
+        "zh_tw": "幸！？妳為何在此？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0048",
+      "book": ""
+    },
+    {
+      "icon": "110402_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Because following in your footsteps is my\\nsingular purpose, so that's exactly what\\nI did!",
+        "ja_jp": "<ruby><rb>当然</rb><rt>とうぜん</rt></ruby>!!　<ruby><rb>追</rb><rt>お</rt></ruby>いかけてきたのです!!\\nシンゲンの<ruby><rb>大将</rb><rt>たいしょう</rt></ruby>の<ruby><rb>背中</rb><rt>せなか</rt></ruby>を<ruby><rb>追</rb><rt>お</rt></ruby>うのは\\nユキの<ruby><rb>全</rb><rt>すべ</rt></ruby>てですから!!",
+        "zh_cn": "当然是追着大帅您来的！\\n追寻信玄大帅的脚步\\n就是幸儿毕生的追求啊！",
+        "zh_tw": "那還用說！！幸是追著大將來的！！\\n追隨信玄大將的背影可是幸的全部！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0049",
+      "book": ""
+    },
+    {
+      "icon": "100006_06",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Why does this always happen to meee...?",
+        "ja_jp": "うう～……なんでこんな<ruby><rb>目</rb><rt>め</rt></ruby>に～……。",
+        "zh_cn": "呜呜……为啥我要遭这种罪……",
+        "zh_tw": "嗚嗚～……\\n為什麼我會遇到這種事～……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0050",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You all right, Luca?",
+        "ja_jp": "リュカ！　<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>か？",
+        "zh_cn": "卢卡！你没事吧？",
+        "zh_tw": "琉卡！你沒事吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0051",
+      "book": ""
+    },
+    {
+      "icon": "110401_01",
+      "name": {
+        "en_us": "Shingen?",
+        "ja_jp": "シンゲン？",
+        "zh_cn": "信玄？",
+        "zh_tw": "信玄？"
+      },
+      "context": {
+        "en_us": "I believe that man yonder is your enemy,\\nPrince Euden. Er, right?",
+        "ja_jp": "<ruby><rb>城主殿</rb><rt>じょうしゅどの</rt></ruby>？　その<ruby><rb>者</rb><rt>もの</rt></ruby>は<ruby><rb>敵</rb><rt>てき</rt></ruby>……\\nではないのですかな？",
+        "zh_cn": "城主殿下？那个人是敌……\\n看样子不像？",
+        "zh_tw": "城主殿下？此人莫非……\\n並非敵人嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0052",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I think we owe you an explanation—\\nand an apology.",
+        "ja_jp": "……ごめん。\\n<ruby><rb>全部</rb><rt>ぜんぶ</rt></ruby><ruby><rb>説明</rb><rt>せつめい</rt></ruby>するよ……。",
+        "zh_cn": "对不起……\\n我会好好说明的……",
+        "zh_tw": "……抱歉。\\n我會說明一切的……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0053",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "...So that's why we wanted to verify your\\nidentities. But it all clearly went sideways,\\nso I can only ask you to forgive us.",
+        "ja_jp": "……という<ruby><rb>経緯</rb><rt>けいい</rt></ruby>で、きみたちを<ruby><rb>試</rb><rt>ため</rt></ruby>す<ruby><rb>形</rb><rt>かたち</rt></ruby>に\\nなってしまった。すまない。",
+        "zh_cn": "就是因为这样……\\n我们才会试探你们。抱歉。",
+        "zh_tw": "……因為如此，\\n所以才決定測試你們。\\n真的很抱歉。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0054",
+      "book": ""
+    },
+    {
+      "icon": "110401_01",
+      "name": {
+        "en_us": "Shingen",
+        "ja_jp": "シンゲン",
+        "zh_cn": "信玄",
+        "zh_tw": "信玄"
+      },
+      "context": {
+        "en_us": "Not at all! A lord protecting his holdfast\\nis as natural as the sun's rising. And if it\\nwill allay your fears...",
+        "ja_jp": "いえ、<ruby><rb>城主</rb><rt>じょうしゅ</rt></ruby>が<ruby><rb>城</rb><rt>しろ</rt></ruby>を<ruby><rb>守</rb><rt>まも</rt></ruby>るのは<ruby><rb>至極</rb><rt>しごく</rt></ruby><ruby><rb>当然</rb><rt>とうぜん</rt></ruby>で\\nありましょう。お<ruby><rb>頼</rb><rt>たの</rt></ruby>みとあらば……",
+        "zh_cn": "无需介怀，城主守卫城堡乃\\n天经地义。既然如此……",
+        "zh_tw": "不，城主守城乃是應當至極。\\n既然是您的請託……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0055",
+      "book": ""
+    },
+    {
+      "icon": "210169_01",
+      "name": {
+        "en_us": "Fudo Myo-o",
+        "ja_jp": "フドウミョウオウ",
+        "zh_cn": "不动明王",
+        "zh_tw": "不動明王"
+      },
+      "context": {
+        "en_us": "I shall gladly become one with Lord\\nShingen anytime and anywhere.\\nHeh heh heh...",
+        "ja_jp": "……はい。\\nいつでもどこでも、シンゲン<ruby><rb>様</rb><rt>さま</rt></ruby>と\\nひとつに……うふふふふ……。",
+        "zh_cn": "遵命……\\n妾身无论何时何地都愿与信玄大人\\n合为一体……哦呵呵呵……",
+        "zh_tw": "……請看。無論何時何地，\\n我都能與信玄大人合而為一……\\n唔呵呵呵呵……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0056",
+      "book": ""
+    },
+    {
+      "icon": "110401_01",
+      "name": {
+        "en_us": "Shingen",
+        "ja_jp": "シンゲン",
+        "zh_cn": "信玄",
+        "zh_tw": "信玄"
+      },
+      "context": {
+        "en_us": "Will this serve as proof, Your Highness?",
+        "ja_jp": "……これで<ruby><rb>信</rb><rt>しん</rt></ruby>じていただけますかな？",
+        "zh_cn": "如此可否相信老夫？",
+        "zh_tw": "……這樣是否能相信了呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0057",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Absolutely. Thank you for indulging us,\\nand allow me to welcome you once more,\\nShingen, Fudo Myo-o, and...um...\\nSorry, who are you again?",
+        "ja_jp": "ああ、ありがとう。<ruby><rb>改</rb><rt>あらた</rt></ruby>めてよろしく\\n<ruby><rb>頼</rb><rt>たの</rt></ruby>むよ。シンゲン、フドウミョウオウ。\\nそれともうひとりの<ruby><rb>子</rb><rt>こ</rt></ruby>は……",
+        "zh_cn": "嗯，谢谢你们的配合。\\n那就请你们多多关照了，\\n信玄、不动明王，还有这位是……",
+        "zh_tw": "嗯，謝謝你。再次請多指教了。\\n信玄、不動明王。\\n還有另一位是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0058",
+      "book": ""
+    },
+    {
+      "icon": "110401_01",
+      "name": {
+        "en_us": "Shingen",
+        "ja_jp": "シンゲン",
+        "zh_cn": "信玄",
+        "zh_tw": "信玄"
+      },
+      "context": {
+        "en_us": "That one is my disciple—one I THOUGHT\\nI left at home. ...Greet the people, Yuki.",
+        "ja_jp": "は。これは<ruby><rb>儂</rb><rt>わし</rt></ruby>の<ruby><rb>弟子</rb><rt>でし</rt></ruby>にござる。\\n<ruby><rb>置</rb><rt>お</rt></ruby>いてきたはずがついてきてしまった\\nようで……ユキ、<ruby><rb>挨拶</rb><rt>あいさつ</rt></ruby>を。",
+        "zh_cn": "噢，她是老夫的徒弟。\\n原本并未打算带她前来，却不想\\n她自己跟来……幸儿，来打招呼。",
+        "zh_tw": "是。這位是我的弟子。\\n本沒打算帶上她的，卻擅自跟來了……\\n幸，打聲招呼。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0059",
+      "book": ""
+    },
+    {
+      "icon": "110402_01",
+      "name": {
+        "en_us": "Yukimura",
+        "ja_jp": "ユキムラ",
+        "zh_cn": "幸村",
+        "zh_tw": "幸村"
+      },
+      "context": {
+        "en_us": "HEY THERE, PEEPS! I'm Yukimura, leader\\nof the Monkey Wyrmclan and future leader\\nof the Tiger Wyrmclan! ...Er, hopefully.",
+        "ja_jp": "はい。<ruby><rb>我</rb><rt>われ</rt></ruby>こそ<ruby><rb>申</rb><rt>さる</rt></ruby>の<ruby><rb>竜氏</rb><rt>りゅうし</rt></ruby>ユキムラ!!\\nそして<ruby><rb>寅</rb><rt>とら</rt></ruby>の<ruby><rb>竜氏</rb><rt>りゅうし</rt></ruby>……にも、なる<ruby><rb>予定</rb><rt>よてい</rt></ruby>!!",
+        "zh_cn": "好的！我是申之龙氏幸村！\\n将要成为……寅之龙氏的人！",
+        "zh_tw": "是。在下乃申之龍氏幸村！！\\n兼寅之龍氏……未來預定！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0060",
+      "book": ""
+    },
+    {
+      "icon": "100007_03",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Wait, hold on. You lead the Monkey clan,\\nbut you also want to lead the Tiger clan?",
+        "ja_jp": "え？　<ruby><rb>申</rb><rt>さる</rt></ruby>の<ruby><rb>竜氏</rb><rt>りゅうし</rt></ruby>なのに、\\n<ruby><rb>寅</rb><rt>とら</rt></ruby>の<ruby><rb>竜氏</rb><rt>りゅうし</rt></ruby>にもなるの？",
+        "zh_cn": "诶？你已经是申之龙氏了，\\n还要成为寅之龙氏吗？",
+        "zh_tw": "咦？明明是申之龍氏，\\n卻也能成為寅之龍氏嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0061",
+      "book": ""
+    },
+    {
+      "icon": "110402_01",
+      "name": {
+        "en_us": "Yukimura",
+        "ja_jp": "ユキムラ",
+        "zh_cn": "幸村",
+        "zh_tw": "幸村"
+      },
+      "context": {
+        "en_us": "Yep! I wanna be just like General Shingen.\\nOr more specifically, I want to BE him!",
+        "ja_jp": "うん。ユキはシンゲンの<ruby><rb>大将</rb><rt>たいしょう</rt></ruby>みたいに\\n……ううん、<ruby><rb>大将</rb><rt>たいしょう</rt></ruby>になりたいんだ!!",
+        "zh_cn": "嗯。因为幸儿想要成为像大帅\\n一样的……不，是想要成为大帅！",
+        "zh_tw": "嗯。因為幸想變得跟信玄大將一樣……\\n不對，是想變成大將！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0062",
+      "book": ""
+    },
+    {
+      "icon": "110402_01",
+      "name": {
+        "en_us": "Yukimura",
+        "ja_jp": "ユキムラ",
+        "zh_cn": "幸村",
+        "zh_tw": "幸村"
+      },
+      "context": {
+        "en_us": "So I'm gonna become the Tiger clan head!\\nI already sorta became the Monkey leader,\\nI guess, so, uh...I'll try to do that too!",
+        "ja_jp": "だから<ruby><rb>寅</rb><rt>とら</rt></ruby>の<ruby><rb>竜氏</rb><rt>りゅうし</rt></ruby>にもなる!!\\n<ruby><rb>申</rb><rt>さる</rt></ruby>の<ruby><rb>竜氏</rb><rt>りゅうし</rt></ruby>には……なんかなることに\\nなったから、そっちも<ruby><rb>頑張</rb><rt>がんば</rt></ruby>る!!",
+        "zh_cn": "所以幸儿也要成为寅之龙氏！\\n虽然不小心当上了申之龙氏……\\n但我两边都会好好努力的！",
+        "zh_tw": "所以幸也會成為寅之龍氏！！\\n至於申之龍氏……因為好像已經\\n當上了，所以也會努力的！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0063",
+      "book": ""
+    },
+    {
+      "icon": "100004_09",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "You ＂sorta＂ became leader of a Wyrmclan?\\nI am not following this at all.",
+        "ja_jp": "な、なんかなることになった……？\\nそれって、どういう<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>ですか？",
+        "zh_cn": "不、不小心当上了？\\n这到底是什么回事啊？",
+        "zh_tw": "好、好像已經當上了……？\\n究竟是什麼情況呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0064",
+      "book": ""
+    },
+    {
+      "icon": "110402_01",
+      "name": {
+        "en_us": "Yukimura",
+        "ja_jp": "ユキムラ",
+        "zh_cn": "幸村",
+        "zh_tw": "幸村"
+      },
+      "context": {
+        "en_us": "Okay, so that's a looooong story...\\nbut I guess we got the time!",
+        "ja_jp": "うーん……<ruby><rb>話</rb><rt>はな</rt></ruby>せば<ruby><rb>長</rb><rt>なが</rt></ruby>い!!",
+        "zh_cn": "这个嘛……说来话长呢！",
+        "zh_tw": "唔～嗯……說來話長！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0065",
+      "book": ""
+    },
+    {
+      "icon": "120154_01",
+      "name": {
+        "en_us": "Yukimura",
+        "ja_jp": "ユキムラ",
+        "zh_cn": "幸村",
+        "zh_tw": "幸村"
+      },
+      "context": {
+        "en_us": "SO! One day, some government types\\ncame around and asked me to become\\nsome kinda Wyrmclan leader dealie!",
+        "ja_jp": "ある<ruby><rb>日</rb><rt>ひ</rt></ruby>!!　ユキは<ruby><rb>幕府</rb><rt>ばくふ</rt></ruby>の<ruby><rb>人</rb><rt>ひと</rt></ruby>から\\nなんとかかんとかの<ruby><rb>竜氏</rb><rt>りゅうし</rt></ruby>になって\\nほしいって<ruby><rb>頼</rb><rt>たの</rt></ruby>まれた!!",
+        "zh_cn": "有一天！幕府的人来拜托\\n幸儿去当什么什么的龙氏！",
+        "zh_tw": "某天！！幕府派人跑來拜託幸，\\n說希望幸能成為什麼什麼的龍氏！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0066",
+      "book": ""
+    },
+    {
+      "icon": "110402_01",
+      "name": {
+        "en_us": "Yukimura",
+        "ja_jp": "ユキムラ",
+        "zh_cn": "幸村",
+        "zh_tw": "幸村"
+      },
+      "context": {
+        "en_us": "And I'm thinking, ＂Hang on, that's what the\\nGeneral is!＂ So I figure I can succeed him,\\nyeah?! But then I form the pact and...",
+        "ja_jp": "<ruby><rb>竜氏</rb><rt>りゅうし</rt></ruby>、それは<ruby><rb>大将</rb><rt>たいしょう</rt></ruby>の<ruby><rb>役職</rb><rt>やくしょく</rt></ruby>!!\\nユキは<ruby><rb>大将</rb><rt>たいしょう</rt></ruby>の<ruby><rb>後</rb><rt>あと</rt></ruby>を<ruby><rb>継</rb><rt>つ</rt></ruby>げると<ruby><rb>思</rb><rt>おも</rt></ruby>った!!\\nけど、いざ<ruby><rb>魂契</rb><rt>たまちぎ</rt></ruby>りしたら……",
+        "zh_cn": "说起龙氏，那可是大帅的职位！\\n幸儿就以为能够继承大帅的衣钵！\\n可是，缔结魂契之后……",
+        "zh_tw": "「龍氏」，那是大將的工作！！\\n所以幸原本以為可以繼承大將！！\\n但是，一締結魂契之後……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0067",
+      "book": ""
+    },
+    {
+      "icon": "110402_01",
+      "name": {
+        "en_us": "Yukimura",
+        "ja_jp": "ユキムラ",
+        "zh_cn": "幸村",
+        "zh_tw": "幸村"
+      },
+      "context": {
+        "en_us": "And suddenly I'm like the Monkey clan\\nleader or something? Weird, right?",
+        "ja_jp": "なんか<ruby><rb>申</rb><rt>さる</rt></ruby>の<ruby><rb>竜氏</rb><rt>りゅうし</rt></ruby>になってた!!!!",
+        "zh_cn": "却不知为何当上了申之龙氏！",
+        "zh_tw": "就莫名其妙地變成申之龍氏了！！！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0068",
+      "book": ""
+    },
+    {
+      "icon": "110402_01",
+      "name": {
+        "en_us": "Yukimura",
+        "ja_jp": "ユキムラ",
+        "zh_cn": "幸村",
+        "zh_tw": "幸村"
+      },
+      "context": {
+        "en_us": "Whew! That explanation took FOREVER!\\nI'm totally exhausted from all the words.",
+        "ja_jp": "ふ～……<ruby><rb>長</rb><rt>なが</rt></ruby>い<ruby><rb>説明</rb><rt>せつめい</rt></ruby>だったぁ。\\n<ruby><rb>頭使</rb><rt>あたまつか</rt></ruby>うと<ruby><rb>疲</rb><rt>つか</rt></ruby>れちゃうよね～。",
+        "zh_cn": "呼～好长的一段说明啊。\\n脑力劳动真的很累人呢～",
+        "zh_tw": "呼～……好長的說明啊。\\n動腦真的會讓人很累呢～"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0069",
+      "book": ""
+    },
+    {
+      "icon": "110402_01",
+      "name": {
+        "en_us": "Yukimura",
+        "ja_jp": "ユキムラ",
+        "zh_cn": "幸村",
+        "zh_tw": "幸村"
+      },
+      "context": {
+        "en_us": "Time for some refreshing push-ups!\\nOne! Two! Three!",
+        "ja_jp": "こんな<ruby><rb>時</rb><rt>とき</rt></ruby>は<ruby><rb>腕立</rb><rt>うでた</rt></ruby>てしよう!!\\nいち、にー、さーんっ!!",
+        "zh_cn": "这种时候就要做俯卧撑！\\n一个、两个、三～个！",
+        "zh_tw": "這種時候就來伏地挺身吧！！\\n一、二、三──！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0070",
+      "book": ""
+    },
+    {
+      "icon": "100010_06",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "So, uh, does that mean she forged a\\nsoulpact without bothering to know the\\ndifference between Monkey and Tiger?",
+        "ja_jp": "ねえ……<ruby><rb>今</rb><rt>いま</rt></ruby>のってつまり、<ruby><rb>申</rb><rt>さる</rt></ruby>と<ruby><rb>寅</rb><rt>とら</rt></ruby>の\\n<ruby><rb>区別</rb><rt>くべつ</rt></ruby>もつかないまま<ruby><rb>魂契</rb><rt>たまちぎ</rt></ruby>りしたって\\nこと？",
+        "zh_cn": "所以说……听她的意思，\\n其实是还没搞清楚\\n申和寅的区别就缔结魂契了？",
+        "zh_tw": "欸……剛才那些話，\\n意思是她沒搞清楚申跟寅的區別，\\n就締結了魂契？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0071",
+      "book": ""
+    },
+    {
+      "icon": "100006_06",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "I mean this in the nicest way possible,\\nbut is this lady a total idiot?",
+        "ja_jp": "だろうな。<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>命</rb><rt>いのち</rt></ruby>がかかってるって\\nのに……<ruby><rb>馬鹿</rb><rt>ばか</rt></ruby>なんじゃねえか？",
+        "zh_cn": "应该是吧。\\n这可是要搭上自己性命的……\\n她怕不是个傻子吧？",
+        "zh_tw": "應該是吧。\\n明明跟自己的性命有關……\\n難不成她是個笨蛋嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0072",
+      "book": ""
+    },
+    {
+      "icon": "100004_09",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "We don't call people idiots, Luca—\\neven when we believe them to be idiots\\nin our hearts.",
+        "ja_jp": "リュカ？　<ruby><rb>馬鹿</rb><rt>ばか</rt></ruby>だなあと<ruby><rb>思</rb><rt>おも</rt></ruby>っても、\\n<ruby><rb>本人</rb><rt>ほんにん</rt></ruby>の<ruby><rb>前</rb><rt>まえ</rt></ruby>で<ruby><rb>言</rb><rt>い</rt></ruby>っちゃいけませんよ？",
+        "zh_cn": "卢卡？就算心里觉得她是傻子，\\n也不可以当着本人的面说哦？",
+        "zh_tw": "琉卡？就算認為對方是笨蛋，\\n也不能在本人面前說出口喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0073",
+      "book": ""
+    },
+    {
+      "icon": "110402_01",
+      "name": {
+        "en_us": "Yukimura",
+        "ja_jp": "ユキムラ",
+        "zh_cn": "幸村",
+        "zh_tw": "幸村"
+      },
+      "context": {
+        "en_us": "HEY! WHO'S CALLIN' ME AN IDIOT?!",
+        "ja_jp": "む？　<ruby><rb>今</rb><rt>いま</rt></ruby>「<ruby><rb>馬鹿</rb><rt>ばか</rt></ruby>だなあと<ruby><rb>思</rb><rt>おも</rt></ruby>っても」って\\n<ruby><rb>言</rb><rt>い</rt></ruby>った？",
+        "zh_cn": "唔？你刚才说\\n“就算心里觉得她是傻子”？",
+        "zh_tw": "唔？妳剛才說了\\n「就算認為對方是笨蛋」嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0074",
+      "book": ""
+    },
+    {
+      "icon": "100004_09",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Hmm? You must be imagining things.",
+        "ja_jp": "あ……いえ、<ruby><rb>気</rb><rt>き</rt></ruby>のせいです。",
+        "zh_cn": "啊……不，是你听错了。",
+        "zh_tw": "啊……不，是妳聽錯了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0075",
+      "book": ""
+    },
+    {
+      "icon": "110402_01",
+      "name": {
+        "en_us": "Yukimura",
+        "ja_jp": "ユキムラ",
+        "zh_cn": "幸村",
+        "zh_tw": "幸村"
+      },
+      "context": {
+        "en_us": "Really? WHEW! That's good to know!",
+        "ja_jp": "<ruby><rb>気</rb><rt>き</rt></ruby>のせいかあ。よかったー!!",
+        "zh_cn": "原来是听错了啊。那就好！",
+        "zh_tw": "原來是我聽錯了啊。太好了──！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0076",
+      "book": ""
+    },
+    {
+      "icon": "100006_06",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Yep. Toootal idiot.",
+        "ja_jp": "やっぱ<ruby><rb>馬鹿</rb><rt>ばか</rt></ruby>だ……。",
+        "zh_cn": "果然是个傻子……",
+        "zh_tw": "果然是笨蛋……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0077",
+      "book": ""
+    },
+    {
+      "icon": "110402_01",
+      "name": {
+        "en_us": "Yukimura",
+        "ja_jp": "ユキムラ",
+        "zh_cn": "幸村",
+        "zh_tw": "幸村"
+      },
+      "context": {
+        "en_us": "AAAAANYWAY, that's how I became head\\nof the Monkey Wyrmclan—but I'm still\\ngonna be the general one day!",
+        "ja_jp": "とにかく!!　それでユキは<ruby><rb>申</rb><rt>さる</rt></ruby>の<ruby><rb>竜氏</rb><rt>りゅうし</rt></ruby>に\\nなった。けど、<ruby><rb>大将</rb><rt>たいしょう</rt></ruby>にもなる!!",
+        "zh_cn": "总之！幸儿就是这样\\n当上的申之龙氏。\\n但是，幸儿也不会放弃成为大帅！",
+        "zh_tw": "總而言之！！現在幸當上了申之龍氏。\\n不過，以後也會成為大將！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0078",
+      "book": ""
+    },
+    {
+      "icon": "110402_01",
+      "name": {
+        "en_us": "Yukimura",
+        "ja_jp": "ユキムラ",
+        "zh_cn": "幸村",
+        "zh_tw": "幸村"
+      },
+      "context": {
+        "en_us": "See, my goal is to become leader of the\\nTiger Wyrmclan, so I just gotta convince\\nhim to name me as his successor.",
+        "ja_jp": "だから<ruby><rb>寅</rb><rt>とら</rt></ruby>の<ruby><rb>竜氏</rb><rt>りゅうし</rt></ruby>も<ruby><rb>目指</rb><rt>めざ</rt></ruby>す!!\\n<ruby><rb>大将</rb><rt>たいしょう</rt></ruby>に<ruby><rb>認</rb><rt>みと</rt></ruby>められて<ruby><rb>後継者</rb><rt>こうけいしゃ</rt></ruby>になるんだ!!",
+        "zh_cn": "所以幸儿也会努力成为寅之龙氏的！\\n努力得到大帅的认可，继承他的衣钵！",
+        "zh_tw": "所以會繼續把寅之龍氏當作目標！！\\n得到大將認可並成為繼承人！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0079",
+      "book": ""
+    },
+    {
+      "icon": "110402_01",
+      "name": {
+        "en_us": "Yukimura",
+        "ja_jp": "ユキムラ",
+        "zh_cn": "幸村",
+        "zh_tw": "幸村"
+      },
+      "context": {
+        "en_us": "Then, boom! DOUBLE soulpact!\\nLook forward to working with ya, FuMyo!",
+        "ja_jp": "いざ、<ruby><rb>二重</rb><rt>にじゅう</rt></ruby><ruby><rb>魂契</rb><rt>たまちぎ</rt></ruby>り!!!!\\nよろしくお<ruby><rb>願</rb><rt>ねが</rt></ruby>いします、おフミ<ruby><rb>殿</rb><rt>どの</rt></ruby>!!",
+        "zh_cn": "幸儿的目标是，双重魂契！\\n请多指教，明明阁下！",
+        "zh_tw": "目標，二重魂契！！！！\\n請多指教了，不明殿下！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0080",
+      "book": ""
+    },
+    {
+      "icon": "210169_01",
+      "name": {
+        "en_us": "Fudo Myo-o",
+        "ja_jp": "フドウミョウオウ",
+        "zh_cn": "不动明王",
+        "zh_tw": "不動明王"
+      },
+      "context": {
+        "en_us": "Never call me that again.",
+        "ja_jp": "その<ruby><rb>呼</rb><rt>よ</rt></ruby>び<ruby><rb>方</rb><rt>かた</rt></ruby>やめて……。",
+        "zh_cn": "别用那个称呼叫我……",
+        "zh_tw": "請別那樣叫我……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0081",
+      "book": ""
+    },
+    {
+      "icon": "110401_01",
+      "name": {
+        "en_us": "Shingen",
+        "ja_jp": "シンゲン",
+        "zh_cn": "信玄",
+        "zh_tw": "信玄"
+      },
+      "context": {
+        "en_us": "This is precisely why I told you to stay\\nhome. How am I supposed to perform\\nmy duties amidst all of this chaos?",
+        "ja_jp": "まったく。こう<ruby><rb>騒</rb><rt>さわ</rt></ruby>がしくては<ruby><rb>福届</rb><rt>ふくとど</rt></ruby>けも\\nままならん。だから<ruby><rb>置</rb><rt>お</rt></ruby>いてきたと\\nいうのに……。",
+        "zh_cn": "唉，如此吵吵闹闹，\\n送福都没法正常进行。\\n所以才没打算带上她……",
+        "zh_tw": "傷腦筋。\\n如此喧鬧根本無法好好送福。\\n所以才沒帶上她的……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0082",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Well, whatever's happening here, we're\\nhappy to welcome each and all of you to\\nwhat is clearly going to be a VERY lively\\nyear-end celebration.",
+        "ja_jp": "ま、まあまあ……<ruby><rb>楽</rb><rt>たの</rt></ruby>しいお<ruby><rb>正月</rb><rt>しょうがつ</rt></ruby>が\\n<ruby><rb>過</rb><rt>す</rt></ruby>ごせそうで、こっちは<ruby><rb>嬉</rb><rt>うれ</rt></ruby>しいよ。",
+        "zh_cn": "好、好了好了……\\n有幸村在，今年的新年一定会\\n很欢乐。我们也很开心。",
+        "zh_tw": "沒、沒關係啦……\\n感覺會有個愉快的新年，\\n我們也很高興。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0083",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Now let me give you a tour of the castle\\nto help make up for our earlier—",
+        "ja_jp": "<ruby><rb>疑</rb><rt>うたが</rt></ruby>ってしまったお<ruby><rb>詫</rb><rt>わ</rt></ruby>びもさせてくれ。\\nさっそく<ruby><rb>城</rb><rt>しろ</rt></ruby>の<ruby><rb>案内</rb><rt>あんない</rt></ruby>を……",
+        "zh_cn": "而且也该让我们为怀疑你们\\n这件事略表歉意吧。\\n现在就带你们逛逛圣城……",
+        "zh_tw": "請讓我對之前懷疑你們表示歉意。\\n我馬上為各位介紹城裡……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0084",
+      "book": ""
+    },
+    {
+      "icon": "100007_03",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Everybody to the top of the castle walls!\\nYou gotta see this!",
+        "ja_jp": "みんなっ!!\\nい、<ruby><rb>急</rb><rt>いそ</rt></ruby>いで<ruby><rb>城壁</rb><rt>じょうへき</rt></ruby>の<ruby><rb>上</rb><rt>うえ</rt></ruby>まできて！",
+        "zh_cn": "大家！\\n快、快点到城墙上来！",
+        "zh_tw": "大家！！\\n快、快點到城牆上面來！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0085",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "What's wrong, Notte?",
+        "ja_jp": "どうした、ナーム。\\nそんなに<ruby><rb>慌</rb><rt>あわ</rt></ruby>てて……。",
+        "zh_cn": "怎么了，纳姆。\\n这么慌张……",
+        "zh_tw": "怎麼了，那姆。\\n這麼慌張……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0086",
+      "book": ""
+    },
+    {
+      "icon": "100007_03",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "We got more guests outside the gates,\\nand you're never gonna believe who it is!",
+        "ja_jp": "それが……<ruby><rb>城門前</rb><rt>じょうもんまえ</rt></ruby>に<ruby><rb>別</rb><rt>べつ</rt></ruby>のお<ruby><rb>客</rb><rt>きゃく</rt></ruby>さんが\\n<ruby><rb>来</rb><rt>き</rt></ruby>てるんだけど……その<ruby><rb>人</rb><rt>ひと</rt></ruby>が……！",
+        "zh_cn": "因为……城门前又来了\\n别的客人……那个人……",
+        "zh_tw": "因為……有其他客人來到城門前……\\n那些人是……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0087",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Guests?",
+        "ja_jp": "<ruby><rb>客</rb><rt>きゃく</rt></ruby>……？",
+        "zh_cn": "客人？",
+        "zh_tw": "客人……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0088",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "That's...my father.",
+        "ja_jp": "あ、あれは……<ruby><rb>父上</rb><rt>ちちうえ</rt></ruby>!?",
+        "zh_cn": "那、那是……父王！？",
+        "zh_tw": "那、那是……父王！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0089",
+      "book": ""
+    },
+    {
+      "icon": "100006_06",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Uh, but King Aurelius is dead, right?\\nSo how the heck is he here?",
+        "ja_jp": "どういうことだよ!?　なんで\\n<ruby><rb>死</rb><rt>し</rt></ruby>んだはずのアローラス<ruby><rb>王</rb><rt>おう</rt></ruby>が……！",
+        "zh_cn": "怎么回事！？\\n为什么已故的亚罗拉斯王会……",
+        "zh_tw": "怎麼回事啊！？\\n為什麼應該死掉的安羅拉斯王會……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0090",
+      "book": ""
+    },
+    {
+      "icon": "100004_09",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Mym, look there! At the king's side!",
+        "ja_jp": "！　ムム……。\\nアローラス<ruby><rb>王</rb><rt>おう</rt></ruby>の<ruby><rb>隣</rb><rt>となり</rt></ruby>にいるのって、\\nもしかして……。",
+        "zh_cn": "啊！穆穆……\\n亚罗拉斯王身边的那位，\\n难道是……",
+        "zh_tw": "唔！慕慕……\\n在安羅拉斯王旁邊的人，\\n該不會是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0091",
+      "book": ""
+    },
+    {
+      "icon": "100012_02",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0092",
+      "book": ""
+    },
+    {
+      "icon": "100010_06",
+      "name": {
+        "en_us": "Mym",
+        "ja_jp": "ムム",
+        "zh_cn": "穆穆",
+        "zh_tw": "慕慕"
+      },
+      "context": {
+        "en_us": "Myriam? But you've been dead\\nfor over 300 years!",
+        "ja_jp": "ムムジアンヌ……！　なんで!?\\nあんた、300<ruby><rb>年前</rb><rt>ねんまえ</rt></ruby>に<ruby><rb>死</rb><rt>し</rt></ruby>んだはずよ!?",
+        "zh_cn": "穆穆雅娜！为什么！？\\n你不是在300年前就已经死了吗！？",
+        "zh_tw": "慕慕潔安……！為什麼！？\\n妳應該300年前就死了啊！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0093",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "Brunhilda... Cleo...\\nLet me in...",
+        "ja_jp": "ブリュンヒルデ……クラウ……。\\nねえ、ここ……<ruby><rb>開</rb><rt>あ</rt></ruby>けて？",
+        "zh_cn": "布伦希尔德……库菈乌……\\n可以把门……打开吗？",
+        "zh_tw": "布倫希爾德……克菈兒……\\n吶，把門……打開好嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0094",
+      "book": ""
+    },
+    {
+      "icon": "100004_09",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "Of course, Myriam!\\nI'll be right there to—",
+        "ja_jp": "ムムジアンヌさん……。\\nい、<ruby><rb>今</rb><rt>いま</rt></ruby>、<ruby><rb>城門</rb><rt>じょうもん</rt></ruby>を……",
+        "zh_cn": "穆穆雅娜……\\n我、我这就来开门……",
+        "zh_tw": "慕慕潔安小姐……\\n我、我馬上、去將城門……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0095",
+      "book": ""
+    },
+    {
+      "icon": "100004_09",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "You must not open the gates!",
+        "ja_jp": "――<ruby><rb>開</rb><rt>あ</rt></ruby>けてはなりません！",
+        "zh_cn": "万万不可！",
+        "zh_tw": "──不可以打開！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0096",
+      "book": ""
+    },
+    {
+      "icon": "100010_06",
+      "name": {
+        "en_us": "Cleo and Mym",
+        "ja_jp": "クラウ＆ムム",
+        "zh_cn": "库菈乌&穆穆",
+        "zh_tw": "克菈兒＆慕慕"
+      },
+      "context": {
+        "en_us": "?!",
+        "ja_jp": "!?",
+        "zh_cn": "！？",
+        "zh_tw": "唔！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0097",
+      "book": ""
+    },
+    {
+      "icon": "110403_01",
+      "name": {
+        "en_us": "Izumo",
+        "ja_jp": "イズモ",
+        "zh_cn": "出云",
+        "zh_tw": "出雲"
+      },
+      "context": {
+        "en_us": "They are the dead returned, and they mean\\nto drag you all to the Realm of the Dead!",
+        "ja_jp": "あやつらは<ruby><rb>死人</rb><rt>しびと</rt></ruby>にございます……！\\nあなたがたをヨモツクニへ<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>込</rb><rt>こ</rt></ruby>もうと\\nしているのです。",
+        "zh_cn": "他们是亡者！\\n企图将你们引诱至黄泉国之中。",
+        "zh_tw": "那些人是死者……！\\n正打算將各位拖入黃泉國。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0098",
+      "book": ""
+    },
+    {
+      "icon": "100007_03",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "I, uh, do not understand any of that.\\nAlso, who the heck are you?!",
+        "ja_jp": "へ？　<ruby><rb>死人</rb><rt>しびと</rt></ruby>？　ヨモツクニ？\\nていうか、えと……だれ!?",
+        "zh_cn": "啊？亡者？黄泉国？\\n话说……你哪位啊！？",
+        "zh_tw": "咦？死者？黃泉國？\\n是說，那個……你是誰啊！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0099",
+      "book": ""
+    },
+    {
+      "icon": "110401_01",
+      "name": {
+        "en_us": "Shingen",
+        "ja_jp": "シンゲン",
+        "zh_cn": "信玄",
+        "zh_tw": "信玄"
+      },
+      "context": {
+        "en_us": "Welcome, Izumo. It must be quite the\\npressing task indeed if it brings you here\\nby way of emergency teleportation.",
+        "ja_jp": "これはイズモ<ruby><rb>殿</rb><rt>どの</rt></ruby>。<ruby><rb>急時</rb><rt>きゅうじ</rt></ruby>の<ruby><rb>転移術</rb><rt>てんいじゅつ</rt></ruby>で\\nおいでとは……よほどの<ruby><rb>急場</rb><rt>きゅうば</rt></ruby>ですかな？",
+        "zh_cn": "这不是出云阁下吗。\\n你竟会用上传送术来到这里……\\n看来是有相当要紧的事情吧？",
+        "zh_tw": "這不是出雲殿下嗎。\\n看您特以緊急時刻用的轉移術前來……\\n莫非發生十萬火急的情況？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0100",
+      "book": ""
+    },
+    {
+      "icon": "110403_01",
+      "name": {
+        "en_us": "Izumo",
+        "ja_jp": "イズモ",
+        "zh_cn": "出云",
+        "zh_tw": "出雲"
+      },
+      "context": {
+        "en_us": "I fear the blessing of the new year must\\nwait—the two of you are to return to\\nHinomoto at once.",
+        "ja_jp": "はい。おふたりとも、<ruby><rb>至急</rb><rt>しきゅう</rt></ruby>ヒノモトに\\nお<ruby><rb>戻</rb><rt>もど</rt></ruby>りください……<ruby><rb>今</rb><rt>いま</rt></ruby>や、<ruby><rb>福届</rb><rt>ふくとど</rt></ruby>けを\\nしている<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>ではございません。",
+        "zh_cn": "没错。\\n请二位速速返回日出之国……\\n如今早已没有送福的时间了。",
+        "zh_tw": "是的。請兩位立刻返回日初之國……\\n現在不是送福的時候了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0101",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "Hurry, Cleo... Hurry, Brunhilda...\\nHurry and let us in...",
+        "ja_jp": "ねえ……ふたりとも。\\nはやく、はやく、ここを<ruby><rb>開</rb><rt>あ</rt></ruby>けて……!!",
+        "zh_cn": "伦希尔德……库菈乌……\\n快点、快点把门打开呀！",
+        "zh_tw": "欸……妳們兩個。\\n快點、快點、把門打開……！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0102",
+      "book": ""
+    },
+    {
+      "icon": "100001_04",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I remember this miasma...",
+        "ja_jp": "！　この<ruby><rb>瘴気</rb><rt>しょうき</rt></ruby>……<ruby><rb>覚</rb><rt>おぼ</rt></ruby>えがあるぞ……。",
+        "zh_cn": "唔！这种瘴气……我有印象……",
+        "zh_tw": "唔！這股瘴氣……我有印象……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0103",
+      "book": ""
+    },
+    {
+      "icon": "100004_09",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "This is the same deathly fog from when\\nthe castle was overrun last year.",
+        "ja_jp": "は、はい……これは<ruby><rb>去年</rb><rt>きょねん</rt></ruby>、<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>が\\n<ruby><rb>乗</rb><rt>の</rt></ruby>っ<ruby><rb>取</rb><rt>と</rt></ruby>られた<ruby><rb>時</rb><rt>とき</rt></ruby>と<ruby><rb>同</rb><rt>おな</rt></ruby>じ<ruby><rb>死</rb><rt>し</rt></ruby>の<ruby><rb>瘴気</rb><rt>しょうき</rt></ruby>……",
+        "zh_cn": "没、没错……\\n这和去年圣城被侵占时的瘴气一样，\\n都是死亡瘴气……",
+        "zh_tw": "是、是的……這是跟去年，\\n聖城被占據那時相同的死亡瘴氣……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0104",
+      "book": ""
+    },
+    {
+      "icon": "100004_09",
+      "name": {
+        "en_us": "Cleo",
+        "ja_jp": "クラウ",
+        "zh_cn": "库菈乌",
+        "zh_tw": "克菈兒"
+      },
+      "context": {
+        "en_us": "It is mana from the Realm of the Dead!",
+        "ja_jp": "ヨモツクニのマナです！",
+        "zh_cn": "这是黄泉国的魔力！",
+        "zh_tw": "是黃泉國的瑪納！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0105",
+      "book": ""
+    },
+    {
+      "icon": "110403_01",
+      "name": {
+        "en_us": "Izumo",
+        "ja_jp": "イズモ",
+        "zh_cn": "出云",
+        "zh_tw": "出雲"
+      },
+      "context": {
+        "en_us": "And at this rate...",
+        "ja_jp": "その<ruby><rb>通</rb><rt>とお</rt></ruby>りです。このままでは\\nヒノモトは……いえ、<ruby><rb>世界</rb><rt>せかい</rt></ruby>は……",
+        "zh_cn": "没错。\\n再不行动，日出之国就会……\\n不，整个世界都会……",
+        "zh_tw": "沒錯。這樣下去日初之國……\\n不，世界將會……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0106",
+      "book": ""
+    },
+    {
+      "icon": "110403_01",
+      "name": {
+        "en_us": "Izumo",
+        "ja_jp": "イズモ",
+        "zh_cn": "出云",
+        "zh_tw": "出雲"
+      },
+      "context": {
+        "en_us": "Both Hinomoto and the entire world will\\nsoon become a land of death forever!",
+        "ja_jp": "<ruby><rb>死</rb><rt>し</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>となってしまいます――！",
+        "zh_cn": "化作死亡的世界！",
+        "zh_tw": "淪為死者國度──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20441_01_0107",
+      "book": ""
+    }
+  ]
 }

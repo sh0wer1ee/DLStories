@@ -1,575 +1,1088 @@
 {
-    "story_id": "",
-    "story_name": "破晓之龙约 神圣的试炼",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "阿尔贝琉斯一行人顺利抵达大圣堂。\\n伊莉雅教联合军正因帝国的猛烈\\n攻势陷入苦战。阿尔贝琉斯\\n为得到成为圣剑英雄的认可\\n而前往圣域龙所在之处接受试炼。"
-        ]
+  "title": {
+    "en_us": "Dawn of Dragalia    Sacred Trial",
+    "ja_jp": "ドラガリア・デイブレイク  聖なる試練",
+    "zh_cn": "破晓之龙约  神圣的试炼",
+    "zh_tw": "龍絆‧破曉  神聖試煉"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "这里就是大圣堂……\\n伊莉雅教在南方大陆上\\n最大的据点吗。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "是的，同时也是\\n与帝国之战中重要的据点。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "好了，我们进去吧。\\n让我向大家介绍你。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "大主教",
-            "context": "原来如此……\\n拔出圣剑的龙之血继承者，\\n看来穆穆雅娜所言非虚啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "是的。在我与帝国战斗之际\\n遇到了龙之血的继承者……\\n这一定也是女神的指引。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120040_01"
-            ],
-            "speaker_name": "领主",
-            "context": "太好了……也就是说，\\n他就是圣剑之英雄吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120037_01"
-            ],
-            "speaker_name": "领主",
-            "context": "我们在战场上\\n拼命努力维持战线，\\n女神都看在眼里！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120037_01"
-            ],
-            "speaker_name": "领主",
-            "context": "这只能说是奇迹！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120040_01"
-            ],
-            "speaker_name": "领主",
-            "context": "嗯，要告诉士兵们这桩佳话……\\n不，为了让帝国都能听到，\\n要大肆宣扬！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120040_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "……\\n诸位，请稍等。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120040_01"
-            ],
-            "speaker_name": "领主",
-            "context": "是、是兰伯特枢机主教。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120118_01"
-            ],
-            "speaker_name": "兰伯特",
-            "context": "这么做是不是过于草率了？\\n我们还不知道这个人\\n是否真的是伊莉雅选中的人。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "大主教",
-            "context": "可是，他确实拔出了圣剑。\\n这可以说就是传说中的\\n“龙之血的英雄”本人了吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120040_01"
-            ],
-            "speaker_name": "领主",
-            "context": "没错！他就是女神为了将我们\\n从困境中解救出来而派来的使者！\\n让帝国也见识一下吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120118_01"
-            ],
-            "speaker_name": "兰伯特",
-            "context": "诸位，请冷静！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "领主们",
-            "context": "！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120118_01"
-            ],
-            "speaker_name": "兰伯特",
-            "context": "为了打倒惨无人道的狄涅尔帝国，\\n我作为指挥这场圣战的统领\\n被教皇厅派遣到这里。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120118_01"
-            ],
-            "speaker_name": "兰伯特",
-            "context": "这是事关联合军未来的重要决断，\\n不能草率决定。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120118_01"
-            ],
-            "speaker_name": "兰伯特",
-            "context": "诸位能理解我的立场吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120040_01",
-                "120037_01",
-                "120063_01"
-            ],
-            "speaker_name": "领主们",
-            "context": "唔……好、好的……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120118_01"
-            ],
-            "speaker_name": "兰伯特",
-            "context": "能够拔出圣剑的，\\n的确只有龙之血的继承者。\\n但是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120118_01"
-            ],
-            "speaker_name": "兰伯特",
-            "context": "他的本性是否真的能配得上圣剑，\\n我们还不得而知。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "可、可是，父亲大人！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120118_01"
-            ],
-            "speaker_name": "兰伯特",
-            "context": "穆穆雅娜，我好像告诉过你\\n在正式场合要以名字相称。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "啊……对、对不起……\\n兰伯特枢机主教……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "只是，我想说……\\n我可以为他的人格担保，\\n他有资格使用圣剑。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120118_01"
-            ],
-            "speaker_name": "兰伯特",
-            "context": "穆穆雅娜，\\n我并没有说过“不认可”他。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120118_01"
-            ],
-            "speaker_name": "兰伯特",
-            "context": "圣剑是自古以来\\n传承至今的圣遗物，\\n决不能轻易托付于人。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120118_01"
-            ],
-            "speaker_name": "兰伯特",
-            "context": "所以……阿尔贝琉斯，\\n让我来考验你是否\\n有资格使用圣剑吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "嗯，我理解。\\n我也没指望大家\\n能一下子就认可我。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "不过，我是带着\\n坚定的决心来到这里的。\\n如果你执意要试探，我也接受。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120118_01"
-            ],
-            "speaker_name": "兰伯特",
-            "context": "如果你真的是传说中的\\n那位“龙之血的英雄”，\\n那头龙应该会回应你的呼唤。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120118_01"
-            ],
-            "speaker_name": "兰伯特",
-            "context": "伟大的圣龙——圣域龙。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "没想到，穆穆的父亲\\n竟然就是联合军的统帅……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "对、对不起。\\n我并不是有意隐瞒的……\\n只是我与父亲之间有一些疏远……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "你一定也有不得已的缘故，\\n不用道歉。话说，\\n我们真的能见到那头圣域龙吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "我也不知道……不过，\\n据说“禁域之门会回应龙之血”。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110387_01"
-            ],
-            "speaker_name": "耶梦加得",
-            "context": "禁域……\\n是指圣域龙的领域吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "是的。据说只要打开这扇门，\\n就能与圣域龙进行对话。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110386_01"
-            ],
-            "speaker_name": "穆穆雅娜",
-            "context": "而只要能得到\\n圣域龙的认可……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110387_01"
-            ],
-            "speaker_name": "耶梦加得",
-            "context": "只要能得到圣域龙的当面认可，\\n就没有人能够反驳了……\\n原来如此。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "这就是禁域之门吗……\\n好像没有门把手呢……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "怎、怎么回事！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "唔唔……发生了什么……诶？\\n这片草原是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110387_01"
-            ],
-            "speaker_name": "耶梦加得",
-            "context": "估计是圣域龙的力量\\n把我们传送到他的领域了。\\n这里就是圣龙之禁域吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110387_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "我已恭候多时……\\n龙之血的继承者，还有碧龙。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "二人",
-            "context": "！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "你……你就是……\\n传说中的圣龙……圣域龙……",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "没错……我就是圣域龙。\\n我既为秩序本身，\\n亦为掌管完美世界的圣龙。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "我感知到魔神复活的预兆，\\n继而……开始静候一种未来。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "静候沐浴了我契约石之光的\\n后裔到访此处。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110387_01"
-            ],
-            "speaker_name": "耶梦加得",
-            "context": "圣域龙，有一点我不明白。\\n以你的力量，打倒魔神又有何难。\\n为何要将此事托付于人类？",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "碧龙……我与重获新生的你\\n还是第一次相遇吧。\\n那我就回答你这个问题。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "那是出于一个\\n从我与伊莉雅那个时代\\n一直延续至今的契约。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "打倒魔神是人类被赋予的使命。\\n所以伊莉雅在人群中传播信仰，\\n并起誓将世代肩负打倒魔神的使命。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "原来是伊莉雅立下誓言\\n要打倒魔神啊……那么圣域龙，\\n我希望由你来对我进行评判。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "评判我是否配得上这把圣剑，\\n是否有足够的决心与魔神一战。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "当然。\\n我正是为此而现身的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "让我来检验你的勇气与决心……\\n还有实力吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "200001_01"
-            ],
-            "speaker_name": "圣域龙",
-            "context": "如果你的力量与精神皆无可挑剔，\\n我便将圣剑托付于你。",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "知道了，我会全力应战，\\n以剑锋传达我的意志！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100031_04"
-            ],
-            "speaker_name": "阿尔贝琉斯",
-            "context": "接招吧……圣域龙！",
-            "voice_line": "VO_CHR_EVENTSTORY_20431_04_0064",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Alberius and the others safely arrive at the\\ncathedral and meet the leader of the Ilian\\nChurch alliance. Seeking recognition as the\\nhero of the sacred sword, Alberius seeks out\\nthe Holywyrm Elysium, and a trial ensues.",
+      "ja_jp": "<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>に<ruby><rb>大聖堂</rb><rt>だいせいどう</rt></ruby>まで<ruby><rb>来</rb><rt>き</rt></ruby>たアルベリウスたち。\\nイリア<ruby><rb>教連合軍</rb><rt>きょうれんごうぐん</rt></ruby>は、<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>の<ruby><rb>苛烈</rb><rt>かれつ</rt></ruby>な<ruby><rb>侵攻</rb><rt>しんこう</rt></ruby>に<ruby><rb>苦戦</rb><rt>くせん</rt></ruby>\\nしていた。アルベリウスは<ruby><rb>聖剣</rb><rt>せいけん</rt></ruby>の<ruby><rb>英雄</rb><rt>えいゆう</rt></ruby>として\\n<ruby><rb>認</rb><rt>みと</rt></ruby>められるべく、<ruby><rb>聖竜</rb><rt>せいりゅう</rt></ruby>エリュシオンと<ruby><rb>邂逅</rb><rt>かいこう</rt></ruby>。\\n<ruby><rb>試練</rb><rt>しれん</rt></ruby>を<ruby><rb>受</rb><rt>う</rt></ruby>けることとなる。",
+      "zh_cn": "阿尔贝琉斯一行人顺利抵达大圣堂。\\n伊莉雅教联合军正因帝国的猛烈\\n攻势陷入苦战。阿尔贝琉斯\\n为得到成为圣剑英雄的认可\\n而前往圣域龙所在之处接受试炼。",
+      "zh_tw": "阿爾博流斯等人平安抵達主教座堂。\\n伊利亞教的同盟軍此時\\n正因帝國猛烈的攻勢而陷入苦戰。\\n為得到成為聖劍英雄的認可，\\n阿爾博流斯與聖龍邂逅，並接受他的試煉。"
+    }
+  },
+  "prev": "2043103",
+  "next": "2043105",
+  "content": [
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "So this is the cathedral—the seat of\\nthe Ilian Church's power in the\\nsouthern part of the continent.",
+        "ja_jp": "これが<ruby><rb>大聖堂</rb><rt>だいせいどう</rt></ruby>……。<ruby><rb>南大陸</rb><rt>みなみたいりく</rt></ruby>における\\nイリア<ruby><rb>教</rb><rt>きょう</rt></ruby>の<ruby><rb>最大拠点</rb><rt>さいだいきょてん</rt></ruby>か。",
+        "zh_cn": "这里就是大圣堂……\\n伊莉雅教在南方大陆上\\n最大的据点吗。",
+        "zh_tw": "這就是主教座堂……\\n伊利亞教在南大陸中最大的據點嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0001",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "And a critical location in the battle\\nagainst the Empire.",
+        "ja_jp": "ええ。そして<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>との<ruby><rb>戦</rb><rt>たたか</rt></ruby>いにおける\\n<ruby><rb>大事</rb><rt>だいじ</rt></ruby>な<ruby><rb>拠点</rb><rt>きょてん</rt></ruby>でもあるわ。",
+        "zh_cn": "是的，同时也是\\n与帝国之战中重要的据点。",
+        "zh_tw": "嗯。同時也是與帝國的作戰中\\n非常重要的據點。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0002",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "Come, then. Let me introduce you.",
+        "ja_jp": "さあ、<ruby><rb>行</rb><rt>い</rt></ruby>きましょう。\\nみんなにあなたを<ruby><rb>紹介</rb><rt>しょうかい</rt></ruby>させて。",
+        "zh_cn": "好了，我们进去吧。\\n让我向大家介绍你。",
+        "zh_tw": "好了，我們走吧。\\n我來介紹你給大家認識。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0003",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Archbishop",
+        "ja_jp": "大司教",
+        "zh_cn": "大主教",
+        "zh_tw": "大主教"
+      },
+      "context": {
+        "en_us": "I doubted your tale at first, Myriam,\\nbut it seems you have indeed found\\nthe legendary dragonblood hero.",
+        "ja_jp": "なるほど……<ruby><rb>聖剣</rb><rt>せいけん</rt></ruby>を<ruby><rb>抜</rb><rt>ぬ</rt></ruby>きし\\n<ruby><rb>竜</rb><rt>りゅう</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>つ<ruby><rb>者</rb><rt>もの</rt></ruby>。ムムジアンヌの<ruby><rb>話</rb><rt>はなし</rt></ruby>は\\n<ruby><rb>嘘</rb><rt>うそ</rt></ruby>ではないようですね。",
+        "zh_cn": "原来如此……\\n拔出圣剑的龙之血继承者，\\n看来穆穆雅娜所言非虚啊。",
+        "zh_tw": "原來如此……\\n這就是能拔出聖劍的龍之血繼承者。\\n看來慕慕潔安所言不假。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0004",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "Yes. In battle with the Empire did the\\nsacred sword and one of dragonblood\\ncome to meet... It must be the guidance\\nof the Goddess.",
+        "ja_jp": "はい。<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>との<ruby><rb>戦</rb><rt>たたか</rt></ruby>いに<ruby><rb>際</rb><rt>さい</rt></ruby>し<ruby><rb>聖剣</rb><rt>せいけん</rt></ruby>と\\n<ruby><rb>竜</rb><rt>りゅう</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>を<ruby><rb>継</rb><rt>つ</rt></ruby>ぐ<ruby><rb>者</rb><rt>もの</rt></ruby>が<ruby><rb>巡</rb><rt>めぐ</rt></ruby>り<ruby><rb>会</rb><rt>あ</rt></ruby>う……\\nこれも<ruby><rb>女神様</rb><rt>めがみさま</rt></ruby>のお<ruby><rb>導</rb><rt>みちび</rt></ruby>きでしょう。",
+        "zh_cn": "是的。在我与帝国战斗之际\\n遇到了龙之血的继承者……\\n这一定也是女神的指引。",
+        "zh_tw": "是的。在與帝國戰鬥之際，\\n聖劍與龍之血的繼承者相遇……\\n這一定也是女神的引導。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0005",
+      "book": ""
+    },
+    {
+      "icon": "120040_01",
+      "name": {
+        "en_us": "Lord",
+        "ja_jp": "領主",
+        "zh_cn": "领主",
+        "zh_tw": "領主"
+      },
+      "context": {
+        "en_us": "Then he truly is the hero of Dragalia!",
+        "ja_jp": "<ruby><rb>素晴</rb><rt>すば</rt></ruby>らしい……まさに<ruby><rb>彼</rb><rt>かれ</rt></ruby>は、\\n<ruby><rb>聖剣</rb><rt>せいけん</rt></ruby>の<ruby><rb>英雄</rb><rt>えいゆう</rt></ruby>ということか！",
+        "zh_cn": "太好了……也就是说，\\n他就是圣剑之英雄吗！",
+        "zh_tw": "太好了……\\n他就是聖劍的英雄嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0006",
+      "book": ""
+    },
+    {
+      "icon": "120037_01",
+      "name": {
+        "en_us": "Lord",
+        "ja_jp": "領主",
+        "zh_cn": "领主",
+        "zh_tw": "領主"
+      },
+      "context": {
+        "en_us": "Truly, the Goddess has cast her watchful\\neye upon us as we spare no effort to\\nhold the front in this war.",
+        "ja_jp": "<ruby><rb>戦線</rb><rt>せんせん</rt></ruby>を<ruby><rb>維持</rb><rt>いじ</rt></ruby>するため、あらゆる<ruby><rb>努力</rb><rt>どりょく</rt></ruby>を\\n<ruby><rb>惜</rb><rt>お</rt></ruby>しまずにいた<ruby><rb>我</rb><rt>われ</rt></ruby>らを、<ruby><rb>女神</rb><rt>めがみ</rt></ruby>は\\nご<ruby><rb>覧</rb><rt>らん</rt></ruby>になっていたのですわ！",
+        "zh_cn": "我们在战场上\\n拼命努力维持战线，\\n女神都看在眼里！",
+        "zh_tw": "為了不讓戰線崩潰，\\n我們不惜付出了一切努力。\\n這些女神一定都有看在眼裡！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0007",
+      "book": ""
+    },
+    {
+      "icon": "120037_01",
+      "name": {
+        "en_us": "Lord",
+        "ja_jp": "領主",
+        "zh_cn": "领主",
+        "zh_tw": "領主"
+      },
+      "context": {
+        "en_us": "It's a miracle, so it is!",
+        "ja_jp": "まさに<ruby><rb>奇跡</rb><rt>きせき</rt></ruby>としか<ruby><rb>言</rb><rt>い</rt></ruby>いようが\\nありません！",
+        "zh_cn": "这只能说是奇迹！",
+        "zh_tw": "除了說是奇蹟以外，\\n我想不到還能說什麼了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0008",
+      "book": ""
+    },
+    {
+      "icon": "120040_01",
+      "name": {
+        "en_us": "Lord",
+        "ja_jp": "領主",
+        "zh_cn": "领主",
+        "zh_tw": "領主"
+      },
+      "context": {
+        "en_us": "We'll spread the news far and wide\\nuntil even the imperials know of it!",
+        "ja_jp": "うむ。この<ruby><rb>逸話</rb><rt>いつわ</rt></ruby>は<ruby><rb>兵</rb><rt>へい</rt></ruby>たちに……\\n<ruby><rb>否</rb><rt>いな</rt></ruby>、<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>にまで<ruby><rb>届</rb><rt>とど</rt></ruby>くよう、<ruby><rb>大々的</rb><rt>だいだいてき</rt></ruby>に\\n<ruby><rb>流布</rb><rt>るふ</rt></ruby>いたしましょう！",
+        "zh_cn": "嗯，要告诉士兵们这桩佳话……\\n不，为了让帝国都能听到，\\n要大肆宣扬！",
+        "zh_tw": "嗯，快將這個好消息告訴士兵們……\\n不，也傳到帝國那裡去吧！\\n將這消息盛大地流傳出去！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0009",
+      "book": ""
+    },
+    {
+      "icon": "120040_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Please hold, my brothers.",
+        "ja_jp": "…………。\\n<ruby><rb>諸兄</rb><rt>しょけい</rt></ruby>よ、お<ruby><rb>待</rb><rt>ま</rt></ruby>ちくだされ。",
+        "zh_cn": "……\\n诸位，请稍等。",
+        "zh_tw": "…………\\n各位大人，請稍等。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0010",
+      "book": ""
+    },
+    {
+      "icon": "120040_01",
+      "name": {
+        "en_us": "Lord",
+        "ja_jp": "領主",
+        "zh_cn": "领主",
+        "zh_tw": "領主"
+      },
+      "context": {
+        "en_us": "Cardinal Lambert!",
+        "ja_jp": "――！　こ、これはランベルト<ruby><rb>枢機卿</rb><rt>すうききょう</rt></ruby>。",
+        "zh_cn": "是、是兰伯特枢机主教。",
+        "zh_tw": "──！\\n是、是蘭彼魯托樞機主教。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0011",
+      "book": ""
+    },
+    {
+      "icon": "120118_01",
+      "name": {
+        "en_us": "Lambert",
+        "ja_jp": "ランベルト",
+        "zh_cn": "兰伯特",
+        "zh_tw": "蘭彼魯托"
+      },
+      "context": {
+        "en_us": "Is it not rather soon for such things?\\nWe do not know if this man is suitable\\nto carry on Ilia's will, after all.",
+        "ja_jp": "いささか<ruby><rb>早計</rb><rt>そうけい</rt></ruby>ではありませぬか？\\nその<ruby><rb>者</rb><rt>もの</rt></ruby>が、<ruby><rb>真</rb><rt>しん</rt></ruby>にイリアの<ruby><rb>御心</rb><rt>みこころ</rt></ruby>にそぐう\\n<ruby><rb>者</rb><rt>もの</rt></ruby>かどうかはわかりますまい。",
+        "zh_cn": "这么做是不是过于草率了？\\n我们还不知道这个人\\n是否真的是伊莉雅选中的人。",
+        "zh_tw": "這事是否決定得太過急促了？\\n那位人士，還不知道是否\\n真是符合伊利亞旨意之人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0012",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Archbishop",
+        "ja_jp": "大司教",
+        "zh_cn": "大主教",
+        "zh_tw": "大主教"
+      },
+      "context": {
+        "en_us": "But he has drawn the sacred sword,\\nwhich means he is the dragonblood hero\\nforetold in prophecy!",
+        "ja_jp": "ですが、<ruby><rb>彼</rb><rt>かれ</rt></ruby>は<ruby><rb>確</rb><rt>たし</rt></ruby>かに<ruby><rb>聖剣</rb><rt>せいけん</rt></ruby>を<ruby><rb>抜</rb><rt>ぬ</rt></ruby>いて\\nおります。<ruby><rb>伝承</rb><rt>でんしょう</rt></ruby>に<ruby><rb>残</rb><rt>のこ</rt></ruby>る『<ruby><rb>竜</rb><rt>りゅう</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>の<ruby><rb>英雄</rb><rt>えいゆう</rt></ruby>』\\nそのものと<ruby><rb>言</rb><rt>い</rt></ruby>えましょう。",
+        "zh_cn": "可是，他确实拔出了圣剑。\\n这可以说就是传说中的\\n“龙之血的英雄”本人了吧。",
+        "zh_tw": "但是，他確實將聖劍拔出來了。\\n可以證明他就是傳承中所說的\\n「龍之血的英雄」吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0013",
+      "book": ""
+    },
+    {
+      "icon": "120040_01",
+      "name": {
+        "en_us": "Lord",
+        "ja_jp": "領主",
+        "zh_cn": "领主",
+        "zh_tw": "領主"
+      },
+      "context": {
+        "en_us": "Exactly! He's been sent by the Goddess\\nto save us from our predicament—\\nand the sooner we tell the imperials,\\nthe sooner they turn tail and run!",
+        "ja_jp": "まさに！　<ruby><rb>我</rb><rt>われ</rt></ruby>らの<ruby><rb>苦境</rb><rt>くきょう</rt></ruby>を<ruby><rb>救</rb><rt>すく</rt></ruby>うべく\\n<ruby><rb>女神</rb><rt>めがみ</rt></ruby>が<ruby><rb>遣</rb><rt>つか</rt></ruby>わしたに<ruby><rb>違</rb><rt>ちが</rt></ruby>いありません！\\n<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>どもにも<ruby><rb>知</rb><rt>し</rt></ruby>らしめてやりましょう！",
+        "zh_cn": "没错！他就是女神为了将我们\\n从困境中解救出来而派来的使者！\\n让帝国也见识一下吧！",
+        "zh_tw": "正是如此！他一定是女神派遣來\\n解救我們脫離困境的！\\n快讓這消息傳到帝國去吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0014",
+      "book": ""
+    },
+    {
+      "icon": "120118_01",
+      "name": {
+        "en_us": "Lambert",
+        "ja_jp": "ランベルト",
+        "zh_cn": "兰伯特",
+        "zh_tw": "蘭彼魯托"
+      },
+      "context": {
+        "en_us": "Calm yourselves, my brothers.",
+        "ja_jp": "<ruby><rb>落</rb><rt>お</rt></ruby>ち<ruby><rb>着</rb><rt>つ</rt></ruby>きなされよ、<ruby><rb>諸兄</rb><rt>しょけい</rt></ruby>！",
+        "zh_cn": "诸位，请冷静！",
+        "zh_tw": "請先冷靜下來，各位大人！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0016",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Lords",
+        "ja_jp": "領主たち",
+        "zh_cn": "领主们",
+        "zh_tw": "領主們"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "――っ！",
+        "zh_cn": "！",
+        "zh_tw": "──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0017",
+      "book": ""
+    },
+    {
+      "icon": "120118_01",
+      "name": {
+        "en_us": "Lambert",
+        "ja_jp": "ランベルト",
+        "zh_cn": "兰伯特",
+        "zh_tw": "蘭彼魯托"
+      },
+      "context": {
+        "en_us": "The Curia commanded me to direct this\\nholy war against the villainous Empire.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>は、<ruby><rb>非道</rb><rt>ひどう</rt></ruby>なるディアネル<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>を\\n<ruby><rb>打倒</rb><rt>だとう</rt></ruby>するための<ruby><rb>聖戦</rb><rt>せいせん</rt></ruby>を<ruby><rb>指導</rb><rt>しどう</rt></ruby>する<ruby><rb>者</rb><rt>もの</rt></ruby>として\\n<ruby><rb>教皇庁</rb><rt>きょうこうちょう</rt></ruby>より<ruby><rb>遣</rb><rt>つか</rt></ruby>わされているのです。",
+        "zh_cn": "为了打倒惨无人道的狄涅尔帝国，\\n我作为指挥这场圣战的统领\\n被教皇厅派遣到这里。",
+        "zh_tw": "我是為了打倒慘無人道的狄亞內魯帝國\\n而受教廷派遣來指揮聖戰之人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0018",
+      "book": ""
+    },
+    {
+      "icon": "120118_01",
+      "name": {
+        "en_us": "Lambert",
+        "ja_jp": "ランベルト",
+        "zh_cn": "兰伯特",
+        "zh_tw": "蘭彼魯托"
+      },
+      "context": {
+        "en_us": "I cannot so lightly make key decisions\\npertaining to the future of the alliance.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>はこの<ruby><rb>連合軍</rb><rt>れんごうぐん</rt></ruby>の<ruby><rb>未来</rb><rt>みらい</rt></ruby>に<ruby><rb>関</rb><rt>かか</rt></ruby>わる\\n<ruby><rb>重大</rb><rt>じゅうだい</rt></ruby>な<ruby><rb>判断</rb><rt>はんだん</rt></ruby>を、<ruby><rb>軽々</rb><rt>かるがる</rt></ruby>しく<ruby><rb>下</rb><rt>くだ</rt></ruby>すわけには\\nまいりません。",
+        "zh_cn": "这是事关联合军未来的重要决断，\\n不能草率决定。",
+        "zh_tw": "對於這個左右同盟軍未來的重大判斷，\\n不能決定得如此輕率。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0019",
+      "book": ""
+    },
+    {
+      "icon": "120118_01",
+      "name": {
+        "en_us": "Lambert",
+        "ja_jp": "ランベルト",
+        "zh_cn": "兰伯特",
+        "zh_tw": "蘭彼魯托"
+      },
+      "context": {
+        "en_us": "Surely you understand my position?",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>立場</rb><rt>たちば</rt></ruby>、おわかりいただけますな？",
+        "zh_cn": "诸位能理解我的立场吗？",
+        "zh_tw": "我的立場，能請各位理解嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0020",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Lords",
+        "ja_jp": "領主たち",
+        "zh_cn": "领主们",
+        "zh_tw": "領主們"
+      },
+      "context": {
+        "en_us": "Yes, I suppose...",
+        "ja_jp": "う……は、はい……。",
+        "zh_cn": "唔……好、好的……",
+        "zh_tw": "唔……是、是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0021",
+      "book": ""
+    },
+    {
+      "icon": "120118_01",
+      "name": {
+        "en_us": "Lambert",
+        "ja_jp": "ランベルト",
+        "zh_cn": "兰伯特",
+        "zh_tw": "蘭彼魯托"
+      },
+      "context": {
+        "en_us": "Now then, it is true that none but those\\nof the dragonblood can hope to wield\\nthe sacred sword.",
+        "ja_jp": "たしかに<ruby><rb>聖剣</rb><rt>せいけん</rt></ruby>を<ruby><rb>抜</rb><rt>ぬ</rt></ruby>けるのは\\n<ruby><rb>竜</rb><rt>りゅう</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>を<ruby><rb>継</rb><rt>つ</rt></ruby>ぐ<ruby><rb>者</rb><rt>もの</rt></ruby>のみ。しかし……",
+        "zh_cn": "能够拔出圣剑的，\\n的确只有龙之血的继承者。\\n但是……",
+        "zh_tw": "確實只有龍之血的繼承者\\n可以拔出聖劍。但是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0022",
+      "book": ""
+    },
+    {
+      "icon": "120118_01",
+      "name": {
+        "en_us": "Lambert",
+        "ja_jp": "ランベルト",
+        "zh_cn": "兰伯特",
+        "zh_tw": "蘭彼魯托"
+      },
+      "context": {
+        "en_us": "However, merely wielding the sword does\\nnot automatically make one WORTHY of it.",
+        "ja_jp": "その<ruby><rb>心根</rb><rt>こころね</rt></ruby>が<ruby><rb>真</rb><rt>しん</rt></ruby>に<ruby><rb>聖剣</rb><rt>せいけん</rt></ruby>にふさわしいかは\\n<ruby><rb>計</rb><rt>はか</rt></ruby>りきれておりますまい。",
+        "zh_cn": "他的本性是否真的能配得上圣剑，\\n我们还不得而知。",
+        "zh_tw": "其內心是否真的與聖劍相稱，\\n這就不得而知了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0023",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "But Father, I—",
+        "ja_jp": "！　で、でも、お<ruby><rb>父様</rb><rt>とうさま</rt></ruby>……！",
+        "zh_cn": "可、可是，父亲大人！",
+        "zh_tw": "！\\n但、但是，父親大人……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0024",
+      "book": ""
+    },
+    {
+      "icon": "120118_01",
+      "name": {
+        "en_us": "Lambert",
+        "ja_jp": "ランベルト",
+        "zh_cn": "兰伯特",
+        "zh_tw": "蘭彼魯托"
+      },
+      "context": {
+        "en_us": "I have spoken to you about using my\\nproper name in public spaces, Myriam.",
+        "ja_jp": "<ruby><rb>公</rb><rt>おおやけ</rt></ruby>の<ruby><rb>場</rb><rt>ば</rt></ruby>では<ruby><rb>名</rb><rt>な</rt></ruby>で<ruby><rb>呼</rb><rt>よ</rt></ruby>ぶよう<ruby><rb>言</rb><rt>い</rt></ruby>ったはず\\nだぞ。ムムジアンヌ。",
+        "zh_cn": "穆穆雅娜，我好像告诉过你\\n在正式场合要以名字相称。",
+        "zh_tw": "在公開場合應該要以名字稱呼我才對，\\n慕慕潔安。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0025",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "Oh! Er, forgive me, Cardinal Lambert.",
+        "ja_jp": "あ……！　も、<ruby><rb>申</rb><rt>もう</rt></ruby>し<ruby><rb>訳</rb><rt>わけ</rt></ruby>ありません……\\nランベルト<ruby><rb>枢機卿</rb><rt>すうききょう</rt></ruby>……。",
+        "zh_cn": "啊……对、对不起……\\n兰伯特枢机主教……",
+        "zh_tw": "啊……！非、非常抱歉……\\n蘭彼魯托樞機主教……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0026",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "But I can vouch for the quality of this\\nman's character—he IS worthy.",
+        "ja_jp": "ただ、その……<ruby><rb>彼</rb><rt>かれ</rt></ruby>の<ruby><rb>人間性</rb><rt>にんげんせい</rt></ruby>は<ruby><rb>私</rb><rt>わたし</rt></ruby>が\\n<ruby><rb>保証</rb><rt>ほしょう</rt></ruby>します。<ruby><rb>聖剣</rb><rt>せいけん</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>つにふさわしい\\n<ruby><rb>方</rb><rt>かた</rt></ruby>だと。",
+        "zh_cn": "只是，我想说……\\n我可以为他的人格担保，\\n他有资格使用圣剑。",
+        "zh_tw": "但是，那個……他的人品我可以保證。\\n他是個與聖劍相稱的人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0027",
+      "book": ""
+    },
+    {
+      "icon": "120118_01",
+      "name": {
+        "en_us": "Lambert",
+        "ja_jp": "ランベルト",
+        "zh_cn": "兰伯特",
+        "zh_tw": "蘭彼魯托"
+      },
+      "context": {
+        "en_us": "And I have made no indication\\nthat I would not accept him.",
+        "ja_jp": "ムムジアンヌよ。<ruby><rb>私</rb><rt>わたし</rt></ruby>はなにも、\\n『<ruby><rb>認</rb><rt>みと</rt></ruby>めぬ』と<ruby><rb>言</rb><rt>い</rt></ruby>ったわけではない。",
+        "zh_cn": "穆穆雅娜，\\n我并没有说过“不认可”他。",
+        "zh_tw": "慕慕潔安啊，\\n我也沒有說「不認同」他。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0028",
+      "book": ""
+    },
+    {
+      "icon": "120118_01",
+      "name": {
+        "en_us": "Lambert",
+        "ja_jp": "ランベルト",
+        "zh_cn": "兰伯特",
+        "zh_tw": "蘭彼魯托"
+      },
+      "context": {
+        "en_us": "Dragalia is a holy relic passed down since\\nantiquity; it is not meant to be entrusted\\nto a soul of easy resolve.",
+        "ja_jp": "<ruby><rb>聖剣</rb><rt>せいけん</rt></ruby>とは<ruby><rb>古</rb><rt>いにしえ</rt></ruby>より<ruby><rb>引</rb><rt>ひ</rt></ruby>き<ruby><rb>継</rb><rt>つ</rt></ruby>がれし<ruby><rb>聖遺物</rb><rt>せいいぶつ</rt></ruby>。\\n<ruby><rb>安易</rb><rt>あんい</rt></ruby>な<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>で<ruby><rb>託</rb><rt>たく</rt></ruby>せるものではない。",
+        "zh_cn": "圣剑是自古以来\\n传承至今的圣遗物，\\n决不能轻易托付于人。",
+        "zh_tw": "聖劍是傳承自古代的聖遺物，\\n不能因為輕率的覺悟就托付給他人。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0029",
+      "book": ""
+    },
+    {
+      "icon": "120118_01",
+      "name": {
+        "en_us": "Lambert",
+        "ja_jp": "ランベルト",
+        "zh_cn": "兰伯特",
+        "zh_tw": "蘭彼魯托"
+      },
+      "context": {
+        "en_us": "Thus, Alberius. I would put you to a test\\nand determine if you truly are worthy to\\nwield that most holy of blades.",
+        "ja_jp": "ゆえに……アルベリウスよ。そなたが\\n<ruby><rb>果</rb><rt>は</rt></ruby>たして<ruby><rb>聖剣</rb><rt>せいけん</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>つにふさわしい<ruby><rb>人物</rb><rt>じんぶつ</rt></ruby>か\\nどうか、<ruby><rb>試</rb><rt>ため</rt></ruby>させてもらおう。",
+        "zh_cn": "所以……阿尔贝琉斯，\\n让我来考验你是否\\n有资格使用圣剑吧。",
+        "zh_tw": "因此……阿爾博流斯啊。\\n你究竟是否真為與聖劍相稱之人，\\n就讓我們來測試看看吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0030",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "It was never my intention for all of you\\nto hail me as a hero merely on my say-so,\\nbut neither have I come here merely to\\nsatisfy a fleeting whim.",
+        "ja_jp": "ああ、わかっている。<ruby><rb>来</rb><rt>き</rt></ruby>て<ruby><rb>早々</rb><rt>そうそう</rt></ruby>、<ruby><rb>皆</rb><rt>みんな</rt></ruby>に\\nおれを<ruby><rb>認</rb><rt>みと</rt></ruby>めろと<ruby><rb>言</rb><rt>い</rt></ruby>うつもりはない。",
+        "zh_cn": "嗯，我理解。\\n我也没指望大家\\n能一下子就认可我。",
+        "zh_tw": "嗯，我明白。\\n我也沒打算一來到這邊\\n就要大家認可我。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0031",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "If you wish to test me, I accept your trial.",
+        "ja_jp": "だが、おれだって<ruby><rb>生半可</rb><rt>なまはんか</rt></ruby>な<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>で\\nここまで<ruby><rb>来</rb><rt>き</rt></ruby>たわけじゃない。<ruby><rb>試</rb><rt>ため</rt></ruby>したいと\\n<ruby><rb>言</rb><rt>い</rt></ruby>うのなら、<ruby><rb>受</rb><rt>う</rt></ruby>けて<ruby><rb>立</rb><rt>た</rt></ruby>つさ。",
+        "zh_cn": "不过，我是带着\\n坚定的决心来到这里的。\\n如果你执意要试探，我也接受。",
+        "zh_tw": "但是，我也不是\\n抱著半吊子的覺悟來到這的。\\n如果想要測試我，那我就欣然接受。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0032",
+      "book": ""
+    },
+    {
+      "icon": "120118_01",
+      "name": {
+        "en_us": "Lambert",
+        "ja_jp": "ランベルト",
+        "zh_cn": "兰伯特",
+        "zh_tw": "蘭彼魯托"
+      },
+      "context": {
+        "en_us": "If you truly are the hero of legend,\\na certain dragon will answer your call.",
+        "ja_jp": "<ruby><rb>真</rb><rt>しん</rt></ruby>にそなたが、<ruby><rb>伝承</rb><rt>でんしょう</rt></ruby>に<ruby><rb>残</rb><rt>のこ</rt></ruby>る\\n『<ruby><rb>竜</rb><rt>りゅう</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>の<ruby><rb>英雄</rb><rt>えいゆう</rt></ruby>』だというのならば、\\nかの<ruby><rb>竜</rb><rt>りゅう</rt></ruby>が<ruby><rb>呼</rb><rt>よ</rt></ruby>びかけに<ruby><rb>答</rb><rt>こた</rt></ruby>えてくれるはず。",
+        "zh_cn": "如果你真的是传说中的\\n那位“龙之血的英雄”，\\n那头龙应该会回应你的呼唤。",
+        "zh_tw": "如果你真是傳承中所述之\\n「龍之血的英雄」的話，\\n那麼彼龍便會回應你才對。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0033",
+      "book": ""
+    },
+    {
+      "icon": "120118_01",
+      "name": {
+        "en_us": "Lambert",
+        "ja_jp": "ランベルト",
+        "zh_cn": "兰伯特",
+        "zh_tw": "蘭彼魯托"
+      },
+      "context": {
+        "en_us": "I speak, of course, of Elysium,\\nthe Holywyrm.",
+        "ja_jp": "<ruby><rb>偉大</rb><rt>いだい</rt></ruby>なる<ruby><rb>聖竜</rb><rt>せいりゅう</rt></ruby>――エリュシオンが。",
+        "zh_cn": "伟大的圣龙——圣域龙。",
+        "zh_tw": "偉大的聖龍──伊利西恩。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0034",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "I must say, I was rather surprised to learn\\nyour father is the leader of the alliance.",
+        "ja_jp": "<ruby><rb>驚</rb><rt>おどろ</rt></ruby>いたな。まさかムムの<ruby><rb>父上</rb><rt>ちちうえ</rt></ruby>が\\n<ruby><rb>連合軍</rb><rt>れんごうぐん</rt></ruby>の<ruby><rb>指導者</rb><rt>しどうしゃ</rt></ruby>だったとは……。",
+        "zh_cn": "没想到，穆穆的父亲\\n竟然就是联合军的统帅……",
+        "zh_tw": "真是嚇了我一跳。\\n沒想到慕慕的父親\\n會是同盟軍的指揮者……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0035",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "I wasn't trying to conceal it from you.\\nI just... Well, I guess there is a bit of\\ndistance between the two of us.\\nI'm sorry if I was not forthcoming.",
+        "ja_jp": "ご、ごめんなさい。<ruby><rb>隠</rb><rt>かく</rt></ruby>してたわけじゃ\\nないのだけど……<ruby><rb>父</rb><rt>ちち</rt></ruby>とは<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>距離</rb><rt>きょり</rt></ruby>が\\nできてしまっていて……。",
+        "zh_cn": "对、对不起。\\n我并不是有意隐瞒的……\\n只是我与父亲之间有一些疏远……",
+        "zh_tw": "對、對不起。\\n我並沒有要刻意隱藏……\\n但我和父親之間稍微有點距離……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0036",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "You've nothing to apologize for. Besides,\\nthe pressing issue here is whether or not\\nI can truly meet with the Holywyrm.",
+        "ja_jp": "<ruby><rb>別</rb><rt>べつ</rt></ruby>に<ruby><rb>謝</rb><rt>あやま</rt></ruby>ることじゃない。いろんな<ruby><rb>事情</rb><rt>じじょう</rt></ruby>も\\nあるだろうしな。それよりも、<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に\\nあの<ruby><rb>聖竜</rb><rt>せいりゅう</rt></ruby>に<ruby><rb>会</rb><rt>あ</rt></ruby>えるのか？",
+        "zh_cn": "你一定也有不得已的缘故，\\n不用道歉。话说，\\n我们真的能见到那头圣域龙吗？",
+        "zh_tw": "沒什麼好道歉的。你們之間\\n也有一些過往吧。比起這個，\\n我真的能見到聖龍嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0037",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "All I can tell you is that the Gate of the\\nForbidden Dominion is said to respond\\nto the dragonblood.",
+        "ja_jp": "……わからないわ。ただ「<ruby><rb>禁域</rb><rt>きんいき</rt></ruby>の<ruby><rb>扉</rb><rt>とびら</rt></ruby>は\\n<ruby><rb>竜</rb><rt>りゅう</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>に<ruby><rb>応</rb><rt>こた</rt></ruby>える」と。",
+        "zh_cn": "我也不知道……不过，\\n据说“禁域之门会回应龙之血”。",
+        "zh_tw": "……我也不知道。\\n但聽說「禁域之扉會回應龍之血」。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0038",
+      "book": ""
+    },
+    {
+      "icon": "110387_01",
+      "name": {
+        "en_us": "Midgardsormr",
+        "ja_jp": "ミドガルズオルム",
+        "zh_cn": "耶梦加得",
+        "zh_tw": "耶夢加得"
+      },
+      "context": {
+        "en_us": "And that gate leads to Elysium's domain?",
+        "ja_jp": "<ruby><rb>禁域</rb><rt>きんいき</rt></ruby>とは……つまり、エリュシオンの\\n<ruby><rb>領域</rb><rt>りょういき</rt></ruby>ということか？",
+        "zh_cn": "禁域……\\n是指圣域龙的领域吗？",
+        "zh_tw": "所謂禁域……\\n即意指伊利西恩之領域？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0039",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "Yes. If this gate is opened, it will grant you\\nan audience with Elysium.",
+        "ja_jp": "ええ。この<ruby><rb>扉</rb><rt>とびら</rt></ruby>を<ruby><rb>開</rb><rt>ひら</rt></ruby>けば、\\nエリュシオンと<ruby><rb>対話</rb><rt>たいわ</rt></ruby>できると\\n<ruby><rb>言</rb><rt>い</rt></ruby>われているの。",
+        "zh_cn": "是的。据说只要打开这扇门，\\n就能与圣域龙进行对话。",
+        "zh_tw": "嗯，據說只要能打開那扇門，\\n就能和伊利西恩對話。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0040",
+      "book": ""
+    },
+    {
+      "icon": "110386_01",
+      "name": {
+        "en_us": "Myriam",
+        "ja_jp": "ムムジアンヌ",
+        "zh_cn": "穆穆雅娜",
+        "zh_tw": "慕慕潔安"
+      },
+      "context": {
+        "en_us": "And if you win the Holywyrm's approval...",
+        "ja_jp": "そこでエリュシオンに\\n<ruby><rb>認</rb><rt>みと</rt></ruby>められれば……。",
+        "zh_cn": "而只要能得到\\n圣域龙的认可……",
+        "zh_tw": "只要能在那裡\\n獲得伊利西恩的認可……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0041",
+      "book": ""
+    },
+    {
+      "icon": "110387_01",
+      "name": {
+        "en_us": "Midgardsormr",
+        "ja_jp": "ミドガルズオルム",
+        "zh_cn": "耶梦加得",
+        "zh_tw": "耶夢加得"
+      },
+      "context": {
+        "en_us": "Then none can hope to oppose him,\\nI take it?",
+        "ja_jp": "エリュシオンが<ruby><rb>直々</rb><rt>じきじき</rt></ruby>に<ruby><rb>認</rb><rt>みと</rt></ruby>めたならば\\nだれも<ruby><rb>盾突</rb><rt>たてつ</rt></ruby>くことはできぬ……\\nそういうわけか。",
+        "zh_cn": "只要能得到圣域龙的当面认可，\\n就没有人能够反驳了……\\n原来如此。",
+        "zh_tw": "言下之意……\\n即指若經伊利西恩親自認可，\\n則再無人可說三道四。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0042",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "This is the Gate of the Forbidden\\nDominion, but I see no way to open it.",
+        "ja_jp": "これが<ruby><rb>禁域</rb><rt>きんいき</rt></ruby>の<ruby><rb>扉</rb><rt>とびら</rt></ruby>か……\\n<ruby><rb>取</rb><rt>と</rt></ruby>っ<ruby><rb>手</rb><rt>て</rt></ruby>もないようだが……!?",
+        "zh_cn": "这就是禁域之门吗……\\n好像没有门把手呢……",
+        "zh_tw": "這就是禁域之扉嗎……\\n看起來連門把都沒有耶……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0043",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "Huh?!",
+        "ja_jp": "な、<ruby><rb>何</rb><rt>なん</rt></ruby>だ――!?",
+        "zh_cn": "怎、怎么回事！？",
+        "zh_tw": "什、什麼──！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0044",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "Nnngh... This meadow...",
+        "ja_jp": "うう……いったい<ruby><rb>何</rb><rt>なに</rt></ruby>が……えっ？\\nこの<ruby><rb>草原</rb><rt>そうげん</rt></ruby>は……。",
+        "zh_cn": "唔唔……发生了什么……诶？\\n这片草原是……",
+        "zh_tw": "唔唔……究竟是……咦？\\n這片草原是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0045",
+      "book": ""
+    },
+    {
+      "icon": "110387_01",
+      "name": {
+        "en_us": "Midgardsormr",
+        "ja_jp": "ミドガルズオルム",
+        "zh_cn": "耶梦加得",
+        "zh_tw": "耶夢加得"
+      },
+      "context": {
+        "en_us": "Likely the Holywyrm has transported us\\nto its forbidden dominion.",
+        "ja_jp": "おそらく<ruby><rb>聖竜</rb><rt>せいりゅう</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>により、かの<ruby><rb>竜</rb><rt>りゅう</rt></ruby>の\\n<ruby><rb>領域</rb><rt>りょういき</rt></ruby>へと<ruby><rb>運</rb><rt>はこ</rt></ruby>ばれたのだろう。\\nここが<ruby><rb>聖竜</rb><rt>せいりゅう</rt></ruby>の<ruby><rb>禁域</rb><rt>きんいき</rt></ruby>か……。",
+        "zh_cn": "估计是圣域龙的力量\\n把我们传送到他的领域了。\\n这里就是圣龙之禁域吗……",
+        "zh_tw": "恐怕是聖龍之力，\\n將吾等送至彼龍之領域。\\n此處即為聖龍之禁域嗎……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0046",
+      "book": ""
+    },
+    {
+      "icon": "110387_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "I have been waiting for you, dragonblood.\\nAnd you as well, Windwyrm.",
+        "ja_jp": "――<ruby><rb>待</rb><rt>ま</rt></ruby>っていました。\\n<ruby><rb>竜</rb><rt>りゅう</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>を<ruby><rb>継</rb><rt>つ</rt></ruby>ぐ<ruby><rb>者</rb><rt>もの</rt></ruby>。そして<ruby><rb>碧竜</rb><rt>へきりゅう</rt></ruby>よ。",
+        "zh_cn": "我已恭候多时……\\n龙之血的继承者，还有碧龙。",
+        "zh_tw": "──等候多時了，\\n龍之血繼承者，以及碧龍啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0047",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Together",
+        "ja_jp": "ふたり",
+        "zh_cn": "二人",
+        "zh_tw": "兩人"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "――！",
+        "zh_cn": "！",
+        "zh_tw": "──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0048",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "You are the Holywyrm of legend...",
+        "ja_jp": "……あ……あんたが……\\n<ruby><rb>伝説</rb><rt>でんせつ</rt></ruby>の<ruby><rb>聖竜</rb><rt>せいりゅう</rt></ruby>……エリュシオン……。",
+        "zh_cn": "你……你就是……\\n传说中的圣龙……圣域龙……",
+        "zh_tw": "……你……你就是……\\n傳說中的聖龍……伊利西恩……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0049",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "Yet I am also order itself, and the one\\nwho oversees the world entire.",
+        "ja_jp": "……そう。<ruby><rb>私</rb><rt>わたし</rt></ruby>こそエリュシオン。\\n<ruby><rb>秩序</rb><rt>ちつじょ</rt></ruby>そのものであり、<ruby><rb>完全</rb><rt>かんぜん</rt></ruby>なる<ruby><rb>世界</rb><rt>せかい</rt></ruby>を\\n<ruby><rb>司</rb><rt>つかさど</rt></ruby>る、<ruby><rb>聖竜</rb><rt>せいりゅう</rt></ruby>です。",
+        "zh_cn": "没错……我就是圣域龙。\\n我既为秩序本身，\\n亦为掌管完美世界的圣龙。",
+        "zh_tw": "……沒錯，我正是伊利西恩。\\n我乃秩序的化身，\\n亦為掌管完美世界的聖龍。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0050",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "I became aware of the signs of the\\nOther's return, and so did I wait.",
+        "ja_jp": "<ruby><rb>魔神</rb><rt>まじん</rt></ruby><ruby><rb>復活</rb><rt>ふっかつ</rt></ruby>の<ruby><rb>予兆</rb><rt>よちょう</rt></ruby>を<ruby><rb>知</rb><rt>し</rt></ruby>り、\\nそして――<ruby><rb>待</rb><rt>ま</rt></ruby>っていました。",
+        "zh_cn": "我感知到魔神复活的预兆，\\n继而……开始静候一种未来。",
+        "zh_tw": "因知曉魔神復活之預兆，\\n所以──等候多時了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0051",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "For I suspected that one day a descendant\\nof those who partook in the light of my\\npactstone would come before me.",
+        "ja_jp": "<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>契約石</rb><rt>けいやくせき</rt></ruby>の<ruby><rb>光</rb><rt>ひかり</rt></ruby>を<ruby><rb>受</rb><rt>う</rt></ruby>けた<ruby><rb>者</rb><rt>もの</rt></ruby>の<ruby><rb>末裔</rb><rt>まつえい</rt></ruby>が\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>下</rb><rt>もと</rt></ruby>に<ruby><rb>訪</rb><rt>おとず</rt></ruby>れるであろう<ruby><rb>未来</rb><rt>みらい</rt></ruby>を。",
+        "zh_cn": "静候沐浴了我契约石之光的\\n后裔到访此处。",
+        "zh_tw": "等候那受我契約石之光照耀者的後裔\\n前來造訪之未來。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0052",
+      "book": ""
+    },
+    {
+      "icon": "110387_01",
+      "name": {
+        "en_us": "Midgardsormr",
+        "ja_jp": "ミドガルズオルム",
+        "zh_cn": "耶梦加得",
+        "zh_tw": "耶夢加得"
+      },
+      "context": {
+        "en_us": "There is a thing I do not know, Holywyrm:\\nWith your power, the defeat of the Other\\ncould be realized, so why do you entrust\\nthat duty to mere humans?",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>ひとつわからぬな、<ruby><rb>聖竜</rb><rt>せいりゅう</rt></ruby>よ。\\n<ruby><rb>汝</rb><rt>なんじ</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>ならば、<ruby><rb>魔神</rb><rt>まじん</rt></ruby>を<ruby><rb>打倒</rb><rt>だとう</rt></ruby>することも\\n<ruby><rb>叶</rb><rt>かな</rt></ruby>おう。なぜそれを、<ruby><rb>人間</rb><rt>にんげん</rt></ruby>に<ruby><rb>託</rb><rt>たく</rt></ruby>すのだ？",
+        "zh_cn": "圣域龙，有一点我不明白。\\n以你的力量，打倒魔神又有何难。\\n为何要将此事托付于人类？",
+        "zh_tw": "吾可毫無頭緒啊，聖龍。\\n若是以汝之力，應可打倒魔神。\\n然而為何須將此事託付於人類？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0053",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "As this is our first meeting with the new\\nlife you have gained, Windwyrm, I shall\\ndeign to answer your query.",
+        "ja_jp": "<ruby><rb>碧竜</rb><rt>へきりゅう</rt></ruby>……。<ruby><rb>新</rb><rt>あら</rt></ruby>たなる<ruby><rb>生</rb><rt>せい</rt></ruby>を<ruby><rb>得</rb><rt>え</rt></ruby>た<ruby><rb>貴方</rb><rt>あなた</rt></ruby>に\\n<ruby><rb>出会</rb><rt>であ</rt></ruby>うのは、<ruby><rb>初</rb><rt>はじ</rt></ruby>めてですね。\\nならば、お<ruby><rb>答</rb><rt>こた</rt></ruby>えしましょう。",
+        "zh_cn": "碧龙……我与重获新生的你\\n还是第一次相遇吧。\\n那我就回答你这个问题。",
+        "zh_tw": "碧龍……自你重獲新生後，\\n我還是初次與你相見呢。\\n既然如此，就讓我回答你吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0054",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "It is because of the pact which continues\\nfrom the era of myself and Ilia.",
+        "ja_jp": "それは、<ruby><rb>私</rb><rt>わたし</rt></ruby>とイリアの<ruby><rb>時代</rb><rt>じだい</rt></ruby>より<ruby><rb>続</rb><rt>つづ</rt></ruby>く\\n<ruby><rb>契約</rb><rt>けいやく</rt></ruby>だからです。",
+        "zh_cn": "那是出于一个\\n从我与伊莉雅那个时代\\n一直延续至今的契约。",
+        "zh_tw": "那是遵循當時我與伊利亞締結\\n並延續至今的契約。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0055",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "People were given the mission to defeat\\nthe Other, and as such Ilia swore to spread\\nthe creed amongst them and take on the\\ntask of defeating him for all time.",
+        "ja_jp": "<ruby><rb>魔神</rb><rt>まじん</rt></ruby>を<ruby><rb>倒</rb><rt>たお</rt></ruby>すは、<ruby><rb>人</rb><rt>ひと</rt></ruby>に<ruby><rb>課</rb><rt>か</rt></ruby>された<ruby><rb>使命</rb><rt>しめい</rt></ruby>。\\nゆえにイリアは<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>間</rb><rt>あいだ</rt></ruby>に<ruby><rb>信仰</rb><rt>しんこう</rt></ruby>を<ruby><rb>布</rb><rt>し</rt></ruby>き、\\n<ruby><rb>魔神</rb><rt>まじん</rt></ruby><ruby><rb>打倒</rb><rt>だとう</rt></ruby>を<ruby><rb>末代</rb><rt>まつだい</rt></ruby>まで<ruby><rb>誓</rb><rt>ちか</rt></ruby>ったのです。",
+        "zh_cn": "打倒魔神是人类被赋予的使命。\\n所以伊莉雅在人群中传播信仰，\\n并起誓将世代肩负打倒魔神的使命。",
+        "zh_tw": "打倒魔神，即為人類被賦予的使命。\\n因此伊利亞才向人類宣揚信仰，\\n誓言直至後世打倒魔神為止。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0056",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "In that case, Holywyrm,\\nI would have you judge me:",
+        "ja_jp": "イリアが<ruby><rb>誓</rb><rt>ちか</rt></ruby>った、<ruby><rb>魔神</rb><rt>まじん</rt></ruby><ruby><rb>打倒</rb><rt>だとう</rt></ruby>か……。\\nならば、エリュシオンよ。\\nどうかおれを<ruby><rb>見</rb><rt>み</rt></ruby>きわめてほしい。",
+        "zh_cn": "原来是伊莉雅立下誓言\\n要打倒魔神啊……那么圣域龙，\\n我希望由你来对我进行评判。",
+        "zh_tw": "伊利亞誓言要打倒魔神嗎……\\n那麼伊利西恩啊，\\n就請你好好測試我吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0057",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "Am I worthy of wielding this sword?\\nDo I have resolve to face the Other?",
+        "ja_jp": "この<ruby><rb>聖剣</rb><rt>せいけん</rt></ruby>に<ruby><rb>見合</rb><rt>みあ</rt></ruby>う<ruby><rb>者</rb><rt>もの</rt></ruby>か。\\n<ruby><rb>魔神</rb><rt>まじん</rt></ruby>と<ruby><rb>戦</rb><rt>たたか</rt></ruby>うにふさわしい<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>を\\n<ruby><rb>持</rb><rt>も</rt></ruby>っているかを。",
+        "zh_cn": "评判我是否配得上这把圣剑，\\n是否有足够的决心与魔神一战。",
+        "zh_tw": "看我是否符合這把聖劍，\\n以及是否有足夠的覺悟與魔神一戰。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0059",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "Indeed I shall—else I would not have\\nmanifested before you.",
+        "ja_jp": "もちろんです。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>もそのつもりで<ruby><rb>顕現</rb><rt>けんげん</rt></ruby>しました。",
+        "zh_cn": "当然。\\n我正是为此而现身的。",
+        "zh_tw": "當然。\\n我亦是為此才顯現的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0060",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "I shall measure your courage and resolve\\nto challenge me—along with your ability.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>に<ruby><rb>挑</rb><rt>いど</rt></ruby>む<ruby><rb>勇気</rb><rt>ゆうき</rt></ruby>と<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>……<ruby><rb>腕前</rb><rt>うでまえ</rt></ruby>と<ruby><rb>共</rb><rt>とも</rt></ruby>に\\nはかりましょう。",
+        "zh_cn": "让我来检验你的勇气与决心……\\n还有实力吧。",
+        "zh_tw": "挑戰我的勇氣與覺悟……\\n連同身手一起證明給我看吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0061",
+      "book": ""
+    },
+    {
+      "icon": "200001_01",
+      "name": {
+        "en_us": "Elysium",
+        "ja_jp": "エリュシオン",
+        "zh_cn": "圣域龙",
+        "zh_tw": "伊利西恩"
+      },
+      "context": {
+        "en_us": "If your strength and spirit are found to be\\nwithout wanting, then I shall entrust you\\nwith Dragalia.",
+        "ja_jp": "<ruby><rb>貴方</rb><rt>あなた</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>と<ruby><rb>精神</rb><rt>せいしん</rt></ruby>が<ruby><rb>十全</rb><rt>じゅうぜん</rt></ruby>たるもの\\nならば、その<ruby><rb>聖剣</rb><rt>せいけん</rt></ruby>を<ruby><rb>貴方</rb><rt>あなた</rt></ruby>に<ruby><rb>託</rb><rt>たく</rt></ruby>すことと\\nします。",
+        "zh_cn": "如果你的力量与精神皆无可挑剔，\\n我便将圣剑托付于你。",
+        "zh_tw": "若你的力量與精神皆足以勝任，\\n我便將聖劍托付予你。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0062",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "Then I will face you with all that I am\\nso the conviction of my blade is doubtless!",
+        "ja_jp": "わかった。おれの<ruby><rb>決意</rb><rt>けつい</rt></ruby>の<ruby><rb>刃</rb><rt>やいば</rt></ruby>が<ruby><rb>届</rb><rt>とど</rt></ruby>くよう\\n<ruby><rb>全力</rb><rt>ぜんりょく</rt></ruby>であんたと<ruby><rb>戦</rb><rt>たたか</rt></ruby>おう！",
+        "zh_cn": "知道了，我会全力应战，\\n以剑锋传达我的意志！",
+        "zh_tw": "我明白了。\\n我會全力與你一戰，\\n將寄託於劍刃的決心傳達給你！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0063",
+      "book": ""
+    },
+    {
+      "icon": "100031_04",
+      "name": {
+        "en_us": "Alberius",
+        "ja_jp": "アルベリウス",
+        "zh_cn": "阿尔贝琉斯",
+        "zh_tw": "阿爾博流斯"
+      },
+      "context": {
+        "en_us": "Judge my worth, Elysium!",
+        "ja_jp": "いくぞ……エリュシオンッ!!",
+        "zh_cn": "接招吧……圣域龙！",
+        "zh_tw": "我要上了……伊利西恩！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20431_04_0064",
+      "book": ""
+    }
+  ]
 }

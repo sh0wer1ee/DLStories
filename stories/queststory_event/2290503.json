@@ -1,1394 +1,2635 @@
 {
-    "story_id": "",
-    "story_name": "艾缪尔宅邸潜入计划 一波三折，佣人选拔决赛！",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "一行击退了帝国兵并终于通过预赛。\\n此后，一行又通过特训习得佣人秘技\\n并最终成功通过决赛。\\n三人被分配了打扫艾缪尔房间的任务，\\n调查顺利进入下一个阶段。"
-        ]
+  "title": {
+    "en_us": "Operation: At Your Service    The Servant Audition Finals",
+    "ja_jp": "潜入！エミュールハウス  大波乱、使用人選抜本選！",
+    "zh_cn": "艾缪尔宅邸潜入计划  一波三折，佣人选拔决赛！",
+    "zh_tw": "潛入！埃米爾豪宅  一波三折，僕人正式選拔賽！"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "120008_01"
-            ],
-            "speaker_name": "帝国兵",
-            "context": "哇啊啊啊！\\n艾缪尔大人！真的十分抱歉！\\n撤退！暂时撤退～",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "对不起了，各位帝国兵。\\n这也都是为了解救艾缪尔。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "总之这样算是完成使命了。\\n之后就看总管家如何判断……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "太棒了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "呀啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "各位的英姿我亲眼所见！\\n为了艾缪尔大人而不顾\\n自身安危挑战帝国兵……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "你们简直就是佣人的榜样！\\n而且从你们率先出手攻击\\n帝国兵来看，想必也不会是间谍。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "鉴于这两点，\\n我就破例承认你们是\\n预赛的最终合格者！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "太——太好了！\\n我们成功啦，佐迪亚克！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "唔。险些就要被淘汰了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "各位通过预赛的选手请到别邸待命。\\n我将会在那里讲解下一轮评审方式。\\n各位，回头见！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "好的！谢谢你！\\n我们快去别邸看看吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "SYS",
-            "context": "片刻后\\n艾缪尔宅邸 别邸",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "恭喜各位顺利通过预赛。\\n接下来我会向大家讲解\\n明天将要展开的决赛事宜。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "决赛中需要各位参赛者\\n打扫这艾缪尔大人生活的别邸\\n来比拼实力。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "想必会比预赛更加考验\\n各位在技巧上的造诣。\\n请各位不要掉以轻心。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "那么各位，\\n决赛来临之前请在等候室好好休息——",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "喂，总管家。\\n刚才是怎么回事，\\n外边吵吵闹闹的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02",
-                "110049_01",
-                "110302_05"
-            ],
-            "speaker_name": "3人",
-            "context": "（！）",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "啊！是艾缪尔大人！\\n非常抱歉，\\n刚才有士兵袭击了宅邸……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "不过请您放心。\\n士兵已经被这几位击退，\\n现在已经安全了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "嗯，是吗。你们几个——",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "做得不错。\\n吾能拥有诸位这般智勇双全的佣人\\n实属幸事。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "哇啊啊，好耀眼啊。\\n他正在闪闪发光！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "是啊。这简直就像是……\\n亚罗拉斯一样的名君之光。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "这不可能。\\n那个我行我素的艾缪尔大人\\n怎么可能成为名君……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "虽然不清楚你们在说些什么，\\n但论功行赏是君主的职责。\\n吾期待你们今后的表现。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "带、带着那名君光环……\\n耀眼离场……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "真是直击灵魂的珠玉之言。\\n各位都听到了吗？\\n艾缪尔大人如今正在蜕变。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "艾缪尔大人正在蜕变为\\n真正的名君！\\n所以我们必须忠心辅佐才行！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "我们需要的是能为那位大人鞠躬尽瘁，\\n助他迎来重生的优秀佣人！\\n祝各位明天好运！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "又是“蜕变”又是“重生”的……\\n这用词太诡异了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "嗯。不仅艾缪尔大人很奇怪，\\n总管家似乎也隐瞒了些什么，\\n比如……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "艾缪尔大人正在被什么东西附身，\\n或是将要被掌控……之类的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "也、也就是说……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "这都只是我的推测。\\n不过要想揭开真相，就必须要\\n通过决赛。先为了明天做准备吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "好、好的！\\n今天就好好休息，\\n保存体……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "所以我为二位准备了\\n特别的训练。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "诶？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "佣人之道本不可一蹴而就。\\n但如今情况紧急，所以……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "我便传授二位一个杀手锏，\\n也就是“佣人秘技”。\\n快，跟我来。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "“佣人秘技”是为了保护主人\\n而被创造出的可以应对\\n各种“紧要关头”的技术。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "其内容涉及多个领域，\\n首先要教给二位的是这个。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "“快速打扫巨脏无比的房间\\n以保护主人不受尘螨过敏所害之秘技”。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "嚯……效果竟如此出众。\\n这就是佣人秘技吗。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "没错。这也只是初级的秘技，\\n只要掌握了要领，\\n任何人都能学会。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "还有中级和高级吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "当然了。\\n说到中级，最有名的就是——",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "“爱心满满☆萌萌光波♪”了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "诶？你、你刚才……说什么？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "我说“爱心满满☆萌萌光波♪”啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "那是什么奇怪的招式。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "听了秘技名不就能明白吗？\\n这是用爱的话语驱散恶灵的秘技。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "能从技能名联想到这功能\\n才叫奇怪吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "如果您想学习的话，\\n我倒是可以教您……要学吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "呃，那个……我们连\\n初级的秘技都还没记住呢，\\n今天就算了吧……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "这样啊……不过有道理，\\n首先从初级开始学起吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "那么请二位做好心理准备……\\n这会是比以往更加严格的特训。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "次日清晨\\n别邸 前厅",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "太阳升起来了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "哇……佐迪亚克好像很困的样子。\\n毕竟昨晚练习得比我还晚呢……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "理解人类的礼仪花了些时间……\\n倒是你很快就掌握了啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "诶嘿嘿，\\n我一直有在帮妈妈做家务，\\n所以好像比较擅长打扫！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "不过你没问题吗？\\n没睡饱就参加比赛应该很累吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "无妨。\\n这别邸之中不知为何充满了暗之魔力，\\n所以我在精力上不用发愁。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "原来是这样啊。\\n龙还真是不可思议的生物呢……啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "各位早安！\\n那么接下来将要开始\\n佣人选拔赛的决赛！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "规则很简单。将别邸内艾缪尔大人\\n所在房间以外的地方都打扫干净，\\n展示你们的实力吧！预备——开始！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "开、开始了……\\n决赛终于开始了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "嗯。考核内容也比较简单。\\n只要发挥昨晚的训练成果就没问题。\\n二位加油。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "好的！\\n那个，佐迪亚克要打扫哪个房间啊？\\n我也来帮你……咦？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "佐迪亚克不见了！\\n明明刚才还在身边的——啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "动手吧，诸位！\\n让我们一同来打扫这主厅！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "你负责擦窗户，你负责扫地，\\n你负责擦拭家具。\\n我来负责指挥和最后的检查。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "是！佐迪亚克！\\n马上就让您见到成果！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120015_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "交给我吧，阁下！\\n我们永远追随阁下！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "嗯……这暗之魔力让我状态很好。\\n这样一来佣人秘技也不在话下……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "嗯……出色的指挥能力！\\n本人的实力也十分出众。\\n简直想招来做我的助手……合格！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "噢噢噢！佐迪亚克最棒了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120015_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "阁下！我一辈子都支持您！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "这、这是怎么回事……\\n这么有条不紊地指挥着大家……\\n转眼间就合格了！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "真不愧是龙……\\n从暗之魔力中获得力量\\n并发挥了指引人类的能力。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "诶……\\n是这么一回事吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "不错不错。\\n身为真正的管家，我也不能认输啊。\\n就让大家见识一下高级秘技吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "诶诶诶！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "就让我在眨眼之间\\n将整个大厅打扫得一尘不染！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "噢！我昨天就注意到了，\\n你果然不是一般人！\\n难道你是已经出师的精英管家吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "正是。\\n没想到你竟能看出来……\\n真是厉害啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "不敢当，我也是看到你刚才的身手才敢\\n确信的。既然是受各方青睐的精英管家\\n来做事，那我也好放心……合格！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "哎、哎呀呀……\\n爱德华也已经合格了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "这、这可怎么办。\\n我可没有自信能够独自通过……\\n不过——",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120019_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "可恶，已经有两人合格了！\\n接下来就让我来露一手吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0089",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120072_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "不能再畏首畏尾了！\\n就算要把其他人全都挤下去，\\n我也要合格！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0090",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "呜呜，大家都燃起了竞争心！\\n看起来完全不会有人让我去帮忙。\\n怎么办……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0091",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120093_01"
-            ],
-            "speaker_name": "鼠鼠",
-            "context": "吱！吱吱～",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "咦？鼠鼠？怎么啦？\\n唔……你刚才去了别的房间？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0092",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120093_01"
-            ],
-            "speaker_name": "鼠鼠",
-            "context": "吱吱，吱吱吱。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "我正在找适合比赛的房间……\\n诶？要给我看一样东西？很急？\\n好、好吧。那就快带我去吧……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0093",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "那个，就是这里对吧，鼠鼠？\\n这里到底有……啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0094",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "呜呜……好痛……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0095",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "不、不好了！你的腿……\\n大姐姐你这是怎么了！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0096",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "怎么……小姑娘你也是参赛者？\\n不用你多事，\\n这个房间是我先发现的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0097",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "虽然灰尘有点多，\\n但打扫完的话一定能有好的得分。\\n我肯定不会让给你的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0098",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "现、现在不是说这些的时候啊。\\n你的腿需要马上包扎才行，\\n来不及做什么打扫了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0099",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "我去和总管家说说，\\n我们去包扎一下吧。好吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0100",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "我不要！\\n那样的话我就要被淘汰了！\\n这点小伤……我还能坚持！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0101",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "我要证明\\n即使我受了伤也能把房间打扫干净。\\n我决不会认输的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0102",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "大姐姐……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0103",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "既然这样的话，\\n至少让我也来帮你一起打扫吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0104",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "哈？你在说些什么？\\n就算你来帮忙，\\n我也不会把功劳让给你的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0105",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "嗯，没问题。\\n我会和总管家说的，\\n打扫房间的功劳都归大姐姐你。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0106",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "哈？你越说我越搞不懂。\\n那你究竟有什么目的？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0107",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "我们一起打扫的话就可以快点结束，\\n而且一起打扫也会很开心的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0108",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "然后等打扫结束了以后，\\n我们就去给你的腿包扎！好吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0109",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "真是个奇怪的孩子……\\n算了，随你的便吧。\\n你可别拖我的后腿啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0110",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "好的！包在我身上吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0111",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "哎呀～虽然很辛苦，\\n但这下终于打扫完毕了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0112",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "是啊，小姑娘你比我想象得\\n能干多了呢。总之，谢谢你了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0113",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "我一直有在做家务的！\\n而且也多亏接受了很多特训！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0114",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "好吧……不过我们一开始就说好的，\\n打扫这个房间的功劳都归我。\\n答应好的事情可不能反悔。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0115",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "我知道的。\\n然后等评审结束我就为你包扎！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0116",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "啊～好了好了～我知道了！\\n那就赶快喊总管家来评审……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0117",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "是你叫我吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0118",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "哇呀！总管家突然出现在身后！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0119",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "没错，正是总管家我！\\n那么关于房间的评审……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0120",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "每个角落都打扫得很干净。\\n做得不错。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0121",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "当然啦！\\n这可都是小姐姐努力打扫的结果呢！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0122",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "嗯。即使腿上有伤\\n也不忘为主人奉献的这份心\\n毫无疑问值得肯定。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0123",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "啊，那、那么……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0124",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "但是——\\n要想成为真正优秀的佣人，\\n你就不应该隐瞒自己的伤。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0125",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "诶……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0126",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "隐瞒健康状况\\n将使自己无法发挥真实的实力。\\n这样会导致主人为你操不必要的心。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0127",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "所以非常遗憾，\\n你被淘汰了。\\n希望你下次能以完美的状态来挑战。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0128",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "决赛参加者",
-            "context": "呜呜……我知道了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0129",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "然后则是关于你的审查。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0130",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "诶，啊，是！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0131",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "你合格了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0132",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "好的……诶、诶！？\\n为什么啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0133",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "你担心她的伤势，\\n宁愿放弃自己的机会也要帮助她。\\n这一切我都看在眼里。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0134",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "这太棒了！一个优秀的佣人\\n需要的不只是技术和领袖气质，\\n更需要有一颗懂得关心他人的温暖的心。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0135",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "方才的一切证明了你的这一点。\\n毋庸置疑你是合格的人材！\\n去吧，去合格者等候室吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0136",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "是！\\n谢……谢谢你！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0137",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "综上所述——\\n在本次选拔赛中坚持到最后的\\n胜者就是你们三位！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0138",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "接下来我需要三位立刻开始\\n着手照顾艾缪尔大人的生活起居。\\n首先就是……打扫大人的房间。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0139",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "明早叫醒艾缪尔大人之后\\n就立刻对房间进行打扫。\\n明白了吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0140",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "3人",
-            "context": "是！",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0141",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110404_02"
-            ],
-            "speaker_name": "佐迪亚克",
-            "context": "呼……虽然过程艰辛，\\n但总算离目标近了一步。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0142",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "嗯。\\n这样就能光明正大地接触艾缪尔大人\\n并调查他的房间了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0143",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110049_01"
-            ],
-            "speaker_name": "爱德华",
-            "context": "我们去调查一下\\n他那异常行径的原因吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0144",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110302_05"
-            ],
-            "speaker_name": "皮雅茜",
-            "context": "好的！\\n艾缪尔，我们很快就来帮你了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0145",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120093_01"
-            ],
-            "speaker_name": "鼠鼠",
-            "context": "吱！",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "呵……真是干劲十足的一帮人啊。\\n果然我的眼光不会出错。",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0146",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120079_01"
-            ],
-            "speaker_name": "总管家",
-            "context": "新来的优秀佣人……\\n这样一来就又能有新的“朋友”了。\\n来吧，狂欢的时刻到了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22905_03_0147",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "The party drives off the imperials and manages\\nto pass the preliminary audition. Hoping to carry\\non, they begin intensive training in the secret\\ntechniques of servants. After clearing the final\\nround, they are assigned to clean Emile's\\nquarters, putting the investigation in high gear.",
+      "ja_jp": "<ruby><rb>帝国兵</rb><rt>ていこくへい</rt></ruby>を<ruby><rb>退</rb><rt>しりぞ</rt></ruby>けなんとか<ruby><rb>予選</rb><rt>よせん</rt></ruby>を<ruby><rb>通</rb><rt>とお</rt></ruby>った<ruby><rb>一行</rb><rt>いっこう</rt></ruby>は、\\n<ruby><rb>本選</rb><rt>ほんせん</rt></ruby>に<ruby><rb>向</rb><rt>む</rt></ruby>けて<ruby><rb>使用人秘技</rb><rt>しようにんひぎ</rt></ruby><ruby><rb>習得</rb><rt>しゅうとく</rt></ruby>の<ruby><rb>特訓</rb><rt>とっくん</rt></ruby>を<ruby><rb>行</rb><rt>おこな</rt></ruby>う。\\nそうしてなんとか<ruby><rb>本選</rb><rt>ほんせん</rt></ruby>を<ruby><rb>勝</rb><rt>か</rt></ruby>ち<ruby><rb>残</rb><rt>のこ</rt></ruby>ることに<ruby><rb>成功</rb><rt>せいこう</rt></ruby>\\nした3<ruby><rb>人</rb><rt>にん</rt></ruby>。エミュールの<ruby><rb>私室</rb><rt>ししつ</rt></ruby><ruby><rb>清掃</rb><rt>せいそう</rt></ruby>を<ruby><rb>任</rb><rt>まか</rt></ruby>され、\\n<ruby><rb>調査</rb><rt>ちょうさ</rt></ruby>は<ruby><rb>次</rb><rt>つぎ</rt></ruby>の<ruby><rb>段階</rb><rt>だんかい</rt></ruby>へと<ruby><rb>進</rb><rt>すす</rt></ruby>んでいく。",
+      "zh_cn": "一行击退了帝国兵并终于通过预赛。\\n此后，一行又通过特训习得佣人秘技\\n并最终成功通过决赛。\\n三人被分配了打扫艾缪尔房间的任务，\\n调查顺利进入下一个阶段。",
+      "zh_tw": "琵雅雀一行透過擊退帝國兵總算通過預賽，\\n並為了正式選拔展開習得僕人秘技的特訓。\\n最後他們終於順利通過正式選拔，\\n被指派負責清掃埃米爾的房間。\\n調查自此進入下一個階段。"
+    }
+  },
+  "prev": "2290502",
+  "next": "2290504",
+  "content": [
+    {
+      "icon": "120008_01",
+      "name": {
+        "en_us": "Imperial Soldier",
+        "ja_jp": "帝国兵",
+        "zh_cn": "帝国兵",
+        "zh_tw": "帝國兵"
+      },
+      "context": {
+        "en_us": "WAUGH! I'm sorry, Emperor Emile!\\nRetreat, everyone! Retreeeeat!",
+        "ja_jp": "うわあああーーん！\\n<ruby><rb>申</rb><rt>もう</rt></ruby>し<ruby><rb>訳</rb><rt>わけ</rt></ruby>ありません、エミュール<ruby><rb>様</rb><rt>さま</rt></ruby>！\\n<ruby><rb>撤退</rb><rt>てったい</rt></ruby>、<ruby><rb>一時撤退</rb><rt>いちじてったい</rt></ruby>～～～～～！",
+        "zh_cn": "哇啊啊啊！\\n艾缪尔大人！真的十分抱歉！\\n撤退！暂时撤退～",
+        "zh_tw": "嗚哇啊啊啊──！\\n真的很抱歉，埃米爾大人！\\n撤退，暫時撤退～～～～～！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0001",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Oh, I'm SO sorry we had to do that,\\nimperial folks! I hope you know we're\\njust trying to help Emile too!",
+        "ja_jp": "……ごめんなさい、<ruby><rb>帝国兵</rb><rt>ていこくへい</rt></ruby>さんたちっ。\\nこれもエミュールさんをおたすけする\\nためなんですっ。",
+        "zh_cn": "对不起了，各位帝国兵。\\n这也都是为了解救艾缪尔。",
+        "zh_tw": "……對不起，各位帝國兵先生。\\n這也是為了幫助埃米爾先生。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0002",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "In any event, our mission is fulfilled.\\nAll that remains is to see what the\\nhead butler will say.",
+        "ja_jp": "ともあれこれで<ruby><rb>使命</rb><rt>しめい</rt></ruby>は<ruby><rb>果</rb><rt>は</rt></ruby>たした。\\nあとは<ruby><rb>執事長</rb><rt>しつじちょう</rt></ruby>が、どう<ruby><rb>出</rb><rt>で</rt></ruby>るか……。",
+        "zh_cn": "总之这样算是完成使命了。\\n之后就看总管家如何判断……",
+        "zh_tw": "無論如何，終歸完成了使命。\\n接著只看執事長怎麼出招……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0003",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "WONDERFUL!",
+        "ja_jp": "――<ruby><rb>素晴</rb><rt>すば</rt></ruby>らしいッ!!",
+        "zh_cn": "太棒了！",
+        "zh_tw": "──實在太棒了！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0004",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Eeep!",
+        "ja_jp": "ひゃあっ!!",
+        "zh_cn": "呀啊！",
+        "zh_tw": "噫呀！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0005",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "I bore witness to your actions just now.\\nWith thoughts of Emperor Emile in your\\nhearts, you took on the imperial soldiers\\nwithout regard for your own safety.",
+        "ja_jp": "<ruby><rb>諸君</rb><rt>しょくん</rt></ruby>らの<ruby><rb>行</rb><rt>おこな</rt></ruby>い、<ruby><rb>見</rb><rt>み</rt></ruby>せてもらったッ！\\nエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>のためを<ruby><rb>思</rb><rt>おも</rt></ruby>い、<ruby><rb>危険</rb><rt>きけん</rt></ruby>を\\n<ruby><rb>顧</rb><rt>かえり</rt></ruby>みず<ruby><rb>帝国兵</rb><rt>ていこくへい</rt></ruby>と<ruby><rb>戦</rb><rt>たたか</rt></ruby>うその<ruby><rb>姿勢</rb><rt>しせい</rt></ruby>……",
+        "zh_cn": "各位的英姿我亲眼所见！\\n为了艾缪尔大人而不顾\\n自身安危挑战帝国兵……",
+        "zh_tw": "各位的英姿，我都親眼看見了！\\n為了埃米爾大人，\\n不顧危險應戰帝國兵的表現……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0006",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "Each of you is the very model of a servant,\\nand I am utterly convinced that your\\nmotives are pure as the driven snow.",
+        "ja_jp": "まさにッ！　<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>の<ruby><rb>鑑</rb><rt>かがみ</rt></ruby>ッ！\\nそれに<ruby><rb>率先</rb><rt>そっせん</rt></ruby>して<ruby><rb>帝国兵</rb><rt>ていこくへい</rt></ruby>を<ruby><rb>倒</rb><rt>たお</rt></ruby>していた\\n<ruby><rb>以上</rb><rt>いじょう</rt></ruby>、スパイでもなかろう。",
+        "zh_cn": "你们简直就是佣人的榜样！\\n而且从你们率先出手攻击\\n帝国兵来看，想必也不会是间谍。",
+        "zh_tw": "真可謂是！僕人的表率！\\n況且你們還率先動手擊退帝國兵，\\n也能代表你們並非間諜。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0007",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "In view of the two points above, I shall\\nmake a special exception and declare\\nthe three of you the final qualifiers.",
+        "ja_jp": "<ruby><rb>以上</rb><rt>いじょう</rt></ruby>の2<ruby><rb>点</rb><rt>てん</rt></ruby>を<ruby><rb>鑑</rb><rt>かんが</rt></ruby>みて――<ruby><rb>特例</rb><rt>とくれい</rt></ruby>により、\\n<ruby><rb>諸君</rb><rt>しょくん</rt></ruby>らを<ruby><rb>予選</rb><rt>よせん</rt></ruby><ruby><rb>最後</rb><rt>さいご</rt></ruby>の<ruby><rb>合格者</rb><rt>ごうかくしゃ</rt></ruby>とするッ！",
+        "zh_cn": "鉴于这两点，\\n我就破例承认你们是\\n预赛的最终合格者！",
+        "zh_tw": "綜合上述兩點──我決定破例，\\n讓你們成為預賽最後的合格者！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0008",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Yay! We did it, Zodiark!",
+        "ja_jp": "や――やったぁ！\\nやりましたっ、ゾディアークさん！",
+        "zh_cn": "太——太好了！\\n我们成功啦，佐迪亚克！",
+        "zh_tw": "太──太好了！\\n我們成功了，索狄亞克先生！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0009",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "We did, though it was a close thing.",
+        "ja_jp": "うむ。<ruby><rb>危</rb><rt>あぶ</rt></ruby>ないところであった……。",
+        "zh_cn": "唔。险些就要被淘汰了……",
+        "zh_tw": "嗯。實在是千鈞一髮……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0010",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "All qualifiers will now move to the annex\\nand await explanation of the next audition.\\nGood luck to you all!",
+        "ja_jp": "では、<ruby><rb>予選通過者</rb><rt>よせんつうかしゃ</rt></ruby>は<ruby><rb>別館</rb><rt>べっかん</rt></ruby>に<ruby><rb>移動</rb><rt>いどう</rt></ruby>し\\n<ruby><rb>待機</rb><rt>たいき</rt></ruby>するように。<ruby><rb>次</rb><rt>つぎ</rt></ruby>なる<ruby><rb>審査</rb><rt>しんさ</rt></ruby>の<ruby><rb>説明</rb><rt>せつめい</rt></ruby>は\\nそこで<ruby><rb>行</rb><rt>おこな</rt></ruby>う。また<ruby><rb>会</rb><rt>あ</rt></ruby>おう、<ruby><rb>諸君</rb><rt>しょくん</rt></ruby>ッ！",
+        "zh_cn": "各位通过预赛的选手请到别邸待命。\\n我将会在那里讲解下一轮评审方式。\\n各位，回头见！",
+        "zh_tw": "那麼，請預賽合格者移動至別邸等待。\\n我將在那裡進行下一場審查的說明。\\n待會見了，各位！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0011",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Right then. Off to the annex!",
+        "ja_jp": "はいっ！　ありがとうございます！\\n……<ruby><rb>別館</rb><rt>べっかん</rt></ruby>、<ruby><rb>行</rb><rt>い</rt></ruby>ってみましょう！",
+        "zh_cn": "好的！谢谢你！\\n我们快去别邸看看吧！",
+        "zh_tw": "是！非常感謝！\\n……我們、去別邸看看吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0012",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Later...",
+        "ja_jp": "<ruby><rb>後刻</rb><rt>ごこく</rt></ruby>\\nエミュールの<ruby><rb>別荘</rb><rt>べっそう</rt></ruby> <ruby><rb>別館</rb><rt>べっかん</rt></ruby>",
+        "zh_cn": "片刻后\\n艾缪尔宅邸 别邸",
+        "zh_tw": "稍後\\n埃米爾的別墅　別邸"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "Congratulations to each of you on\\nsuccessfully passing the qualifying round.\\nI shall now explain the final audition,\\nwhich is to be held tomorrow.",
+        "ja_jp": "<ruby><rb>予選通過者</rb><rt>よせんつうかしゃ</rt></ruby>の<ruby><rb>諸君</rb><rt>しょくん</rt></ruby>、おめでとうッ。\\nそれではこれより、<ruby><rb>明日</rb><rt>あす</rt></ruby>に<ruby><rb>行</rb><rt>おこな</rt></ruby>う\\n<ruby><rb>本選</rb><rt>ほんせん</rt></ruby>の<ruby><rb>説明</rb><rt>せつめい</rt></ruby>を<ruby><rb>始</rb><rt>はじ</rt></ruby>める。",
+        "zh_cn": "恭喜各位顺利通过预赛。\\n接下来我会向大家讲解\\n明天将要展开的决赛事宜。",
+        "zh_tw": "在此先恭喜各位通過預賽。\\n那麼現在開始說明，\\n明天舉辦的正式選拔賽相關事項。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0013",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "Emperor Emile spends much time in this\\nannex, you see, so the trial will see each\\nparticipant pitting their skills against one\\nanother in a test of cleaning competency.",
+        "ja_jp": "<ruby><rb>本選</rb><rt>ほんせん</rt></ruby>ではエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>が<ruby><rb>過</rb><rt>す</rt></ruby>ごされるこの\\n<ruby><rb>別館</rb><rt>べっかん</rt></ruby>を<ruby><rb>参加者</rb><rt>さんかしゃ</rt></ruby>それぞれが<ruby><rb>清掃</rb><rt>せいそう</rt></ruby>することで\\nその<ruby><rb>腕</rb><rt>うで</rt></ruby>を<ruby><rb>競</rb><rt>きそ</rt></ruby>いあってもらう。",
+        "zh_cn": "决赛中需要各位参赛者\\n打扫这艾缪尔大人生活的别邸\\n来比拼实力。",
+        "zh_tw": "正式選拔賽中，參賽者們將要清掃\\n埃米爾大人平時生活的這間別邸，\\n以此較量各自的本領。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0014",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "More advanced and delicate skills will be\\nrequired than in the qualifying round—\\nso let it be done, and done carefully!",
+        "ja_jp": "<ruby><rb>予選</rb><rt>よせん</rt></ruby>よりも<ruby><rb>更</rb><rt>さら</rt></ruby>に<ruby><rb>高度</rb><rt>こうど</rt></ruby>で<ruby><rb>繊細</rb><rt>せんさい</rt></ruby>な<ruby><rb>技術</rb><rt>ぎじゅつ</rt></ruby>が\\n<ruby><rb>求</rb><rt>もと</rt></ruby>められることになるだろう。\\n<ruby><rb>心</rb><rt>こころ</rt></ruby>してかかるようにッ。",
+        "zh_cn": "想必会比预赛更加考验\\n各位在技巧上的造诣。\\n请各位不要掉以轻心。",
+        "zh_tw": "想必會比預賽更講求\\n高度而細膩的技術。\\n希望各位竭盡全力應戰。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0015",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "Until then, get your rest. You will need it.",
+        "ja_jp": "それでは<ruby><rb>諸君</rb><rt>しょくん</rt></ruby>、<ruby><rb>明日</rb><rt>あす</rt></ruby>までは<ruby><rb>控室</rb><rt>ひかえしつ</rt></ruby>で\\n<ruby><rb>身体</rb><rt>からだ</rt></ruby>を<ruby><rb>休</rb><rt>やす</rt></ruby>め――",
+        "zh_cn": "那么各位，\\n决赛来临之前请在等候室好好休息——",
+        "zh_tw": "那麼各位，\\n在明天之前請於休息室好好休息──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0016",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "I heard quite the racket outside earlier,\\nHiggins. What was it?",
+        "ja_jp": "おい、<ruby><rb>執事長</rb><rt>しつじちょう</rt></ruby>。<ruby><rb>何</rb><rt>なに</rt></ruby>やら<ruby><rb>外</rb><rt>そと</rt></ruby>が\\n<ruby><rb>騒</rb><rt>さわ</rt></ruby>がしかったが、<ruby><rb>何</rb><rt>なに</rt></ruby>かあったのか。",
+        "zh_cn": "喂，总管家。\\n刚才是怎么回事，\\n外边吵吵闹闹的。",
+        "zh_tw": "喂，執事長。剛才外面好像很吵，\\n是發生什麼事了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0017",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Together",
+        "ja_jp": "3人",
+        "zh_cn": "3人",
+        "zh_tw": "3人"
+      },
+      "context": {
+        "en_us": "!",
+        "ja_jp": "（――！）",
+        "zh_cn": "（！）",
+        "zh_tw": "（──！）"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "Why, if it isn't Emperor Emile himself!\\nPray do forgive the racket, milord;\\nsoldiers attacked some time ago.",
+        "ja_jp": "ハッ！　これはこれは、エミュール<ruby><rb>様</rb><rt>さま</rt></ruby>！\\n<ruby><rb>申</rb><rt>もう</rt></ruby>し<ruby><rb>訳</rb><rt>わけ</rt></ruby>ありません。<ruby><rb>先</rb><rt>さき</rt></ruby>ほど<ruby><rb>兵</rb><rt>へい</rt></ruby>の<ruby><rb>襲撃</rb><rt>しゅうげき</rt></ruby>が\\nありましたゆえ……！",
+        "zh_cn": "啊！是艾缪尔大人！\\n非常抱歉，\\n刚才有士兵袭击了宅邸……",
+        "zh_tw": "啊！原來是埃米爾大人！\\n真的十分抱歉。\\n剛才是因為遭到士兵來襲……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0018",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "But you may rest easy, for these brave\\nsouls here put the devils to rout.",
+        "ja_jp": "しかし、ご<ruby><rb>安心</rb><rt>あんしん</rt></ruby>くださいませ。\\nこの<ruby><rb>者</rb><rt>もの</rt></ruby>たちによって、<ruby><rb>兵</rb><rt>へい</rt></ruby>は<ruby><rb>既</rb><rt>すで</rt></ruby>に<ruby><rb>退</rb><rt>しりぞ</rt></ruby>け\\nられた<ruby><rb>後</rb><rt>あと</rt></ruby>です。<ruby><rb>危機</rb><rt>きき</rt></ruby>は<ruby><rb>去</rb><rt>さ</rt></ruby>っております。",
+        "zh_cn": "不过请您放心。\\n士兵已经被这几位击退，\\n现在已经安全了。",
+        "zh_tw": "不過，請您儘管放心。\\n多虧這幾位相助，已經順利擊退士兵。\\n危機也已解除。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0019",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "You there! You have done well.",
+        "ja_jp": "ん、そうか。お<ruby><rb>前</rb><rt>まえ</rt></ruby>たち――",
+        "zh_cn": "嗯，是吗。你们几个——",
+        "zh_tw": "嗯，是嗎。你們幾個──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0020",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "I'm proud to have servants of such caliber.\\nTruly I'm blessed to be surrounded by\\nsuch impressive people.",
+        "ja_jp": "よくやった。そのような<ruby><rb>高材疾足</rb><rt>こうざいしっそく</rt></ruby>の\\n<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>つことができて<ruby><rb>鼻</rb><rt>はな</rt></ruby>が<ruby><rb>高</rb><rt>たか</rt></ruby>い。\\n<ruby><rb>人</rb><rt>ひと</rt></ruby>に<ruby><rb>恵</rb><rt>めぐ</rt></ruby>まれるとはこのことだろうな。",
+        "zh_cn": "做得不错。\\n吾能拥有诸位这般智勇双全的佣人\\n实属幸事。",
+        "zh_tw": "表現得很好。擁有如此\\n高材疾足的僕人令我非常驕傲。\\n所謂受人眷顧便是如此吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0021",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Whooooa... He's dazzling...",
+        "ja_jp": "ふえぇっ、まぶしいですっ。\\nすっごく、<ruby><rb>光</rb><rt>ひか</rt></ruby>り<ruby><rb>輝</rb><rt>かがや</rt></ruby>いてます！",
+        "zh_cn": "哇啊啊，好耀眼啊。\\n他正在闪闪发光！",
+        "zh_tw": "嗚哇哇，好耀眼。\\n他非常地、閃閃發光呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0022",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "'Tis the light of a wise ruler,\\nmuchlike Aurelius.",
+        "ja_jp": "あぁ。これはまるで……\\nアローラスのような<ruby><rb>名君</rb><rt>めいくん</rt></ruby>の<ruby><rb>光</rb><rt>ひかり</rt></ruby>だ。",
+        "zh_cn": "是啊。这简直就像是……\\n亚罗拉斯一样的名君之光。",
+        "zh_tw": "嗯。這就宛如……\\n安羅拉斯一般的名君之光。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0023",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Impossible! A brash and arrogant young\\nman like Emperor Emile could never\\nbecome so!",
+        "ja_jp": "ありえません。あの<ruby><rb>傍若無人</rb><rt>ぼうじゃくぶじん</rt></ruby>な\\nエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>が<ruby><rb>名君</rb><rt>めいくん</rt></ruby>になるなど……。",
+        "zh_cn": "这不可能。\\n那个我行我素的艾缪尔大人\\n怎么可能成为名君……",
+        "zh_tw": "難以置信。\\n那個旁若無人的埃米爾大人\\n怎麼可能成為名君……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0024",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "I know not of which you speak, but it is the\\nduty of a ruler to acknowledge and reward\\ngood work when it is done. I expect great\\nthings from you all in the future!",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>を<ruby><rb>話</rb><rt>はな</rt></ruby>しているかは<ruby><rb>知</rb><rt>し</rt></ruby>らんが、<ruby><rb>善</rb><rt>よ</rt></ruby>き\\n<ruby><rb>行</rb><rt>おこな</rt></ruby>いを<ruby><rb>余</rb><rt>あま</rt></ruby>さず<ruby><rb>認</rb><rt>みと</rt></ruby>め<ruby><rb>褒賞</rb><rt>ほうしょう</rt></ruby>を<ruby><rb>与</rb><rt>あた</rt></ruby>えるのは\\n<ruby><rb>君主</rb><rt>くんしゅ</rt></ruby>の<ruby><rb>役目</rb><rt>やくめ</rt></ruby>だ。では、<ruby><rb>期待</rb><rt>きたい</rt></ruby>しているぞ。",
+        "zh_cn": "虽然不清楚你们在说些什么，\\n但论功行赏是君主的职责。\\n吾期待你们今后的表现。",
+        "zh_tw": "雖然不曉得你們在說什麼，\\n但論功行賞是君主應盡的職責。\\n我很期待諸位的表現。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0025",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "He left...shining all the way...",
+        "ja_jp": "め、<ruby><rb>名君</rb><rt>めいくん</rt></ruby>の<ruby><rb>光</rb><rt>ひかり</rt></ruby>を<ruby><rb>放</rb><rt>はな</rt></ruby>ったまま……\\n<ruby><rb>去</rb><rt>さ</rt></ruby>っていかれた……。",
+        "zh_cn": "带、带着那名君光环……\\n耀眼离场……",
+        "zh_tw": "散、散發著名君之光……\\n耀眼離場……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0026",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "His words are pearls that permeate the\\nvery soul. Indeed, Emperor Emile is on the\\nvery precipice of a complete rebirth!",
+        "ja_jp": "……ッ、<ruby><rb>魂</rb><rt>たましい</rt></ruby>にしみいる<ruby><rb>珠玉</rb><rt>しゅぎょく</rt></ruby>のお<ruby><rb>言葉</rb><rt>ことば</rt></ruby>。\\n<ruby><rb>諸君</rb><rt>しょくん</rt></ruby>、<ruby><rb>聞</rb><rt>き</rt></ruby>いたか。エミュール<ruby><rb>様</rb><rt>さま</rt></ruby>は<ruby><rb>今</rb><rt>いま</rt></ruby>、\\nまさに<ruby><rb>生</rb><rt>う</rt></ruby>まれ<ruby><rb>変</rb><rt>か</rt></ruby>わろうとしているッ。",
+        "zh_cn": "真是直击灵魂的珠玉之言。\\n各位都听到了吗？\\n艾缪尔大人如今正在蜕变。",
+        "zh_tw": "……唔，多麼震撼靈魂的珠玉之論。\\n各位，你們都聽見了吧。\\n埃米爾大人此刻正準備重生。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0027",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "He is experiencing a metamorphosis into\\na wise and good ruler, and thus must we\\nexhaust ourselves in supporting him.",
+        "ja_jp": "<ruby><rb>真</rb><rt>しん</rt></ruby>の<ruby><rb>名君</rb><rt>めいくん</rt></ruby>へのメタモルフォシスの\\n<ruby><rb>最中</rb><rt>さいちゅう</rt></ruby>なのだッ。ゆえにこそ<ruby><rb>我々</rb><rt>われわれ</rt></ruby>は\\nあの<ruby><rb>方</rb><rt>かた</rt></ruby>を<ruby><rb>支</rb><rt>ささ</rt></ruby>えねばならぬッ！",
+        "zh_cn": "艾缪尔大人正在蜕变为\\n真正的名君！\\n所以我们必须忠心辅佐才行！",
+        "zh_tw": "現在正是處於蛻變為真正名君的途中。\\n所以我們必須從旁支持那位大人才行！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0028",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "Having an excellent staff will be even\\nmore critical at this time. And with that,\\nI wish you all speed in tomorrow's trial.",
+        "ja_jp": "<ruby><rb>求</rb><rt>もと</rt></ruby>められるのは、あの<ruby><rb>方</rb><rt>かた</rt></ruby>がつつがなく\\n<ruby><rb>再誕</rb><rt>さいたん</rt></ruby>の<ruby><rb>時</rb><rt>とき</rt></ruby>を<ruby><rb>迎</rb><rt>むか</rt></ruby>えられるよう<ruby><rb>尽</rb><rt>つ</rt></ruby>くす<ruby><rb>優秀</rb><rt>ゆうしゅう</rt></ruby>な\\n<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>！　では<ruby><rb>明日</rb><rt>あす</rt></ruby>の<ruby><rb>健闘</rb><rt>けんとう</rt></ruby>を<ruby><rb>祈</rb><rt>いの</rt></ruby>るッ!!",
+        "zh_cn": "我们需要的是能为那位大人鞠躬尽瘁，\\n助他迎来重生的优秀佣人！\\n祝各位明天好运！",
+        "zh_tw": "我們所需要的，是可以竭盡所能\\n協助那位大人安然迎來再誕之時的\\n優秀僕人！預祝各位明天順利！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0029",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "＂Metamorphosis＂? ＂Rebirth＂? These are\\naltogether unsettling words to hear.",
+        "ja_jp": "……『メタモルフォシス』だの、\\n『<ruby><rb>再誕</rb><rt>さいたん</rt></ruby>』だのと、<ruby><rb>単語</rb><rt>たんご</rt></ruby>のことごとくが\\n<ruby><rb>不穏</rb><rt>ふおん</rt></ruby>だな。",
+        "zh_cn": "又是“蜕变”又是“重生”的……\\n这用词太诡异了。",
+        "zh_tw": "……又是「蛻變」、又是「再誕」，\\n所用詞彙皆令人不免感覺詭異呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0030",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Something is clearly amiss with Emile,\\nyet I cannot dislodge the feeling that\\nthe head butler is also hiding something.",
+        "ja_jp": "ええ。エミュール<ruby><rb>様</rb><rt>さま</rt></ruby>も<ruby><rb>異様</rb><rt>いよう</rt></ruby>ですが、\\n<ruby><rb>執事長</rb><rt>しつじちょう</rt></ruby>の<ruby><rb>方</rb><rt>ほう</rt></ruby>も、<ruby><rb>何</rb><rt>なに</rt></ruby>か<ruby><rb>隠</rb><rt>かく</rt></ruby>しているような\\n<ruby><rb>気</rb><rt>き</rt></ruby>がします。たとえば……",
+        "zh_cn": "嗯。不仅艾缪尔大人很奇怪，\\n总管家似乎也隐瞒了些什么，\\n比如……",
+        "zh_tw": "嗯。雖說埃米爾大人相當奇怪，\\n但執事長似乎也隱瞞著什麼事。\\n例如……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0031",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Perhaps he knows that Emperor Emile has\\nbeen possessed by a force that is on the\\nverge of seizing all control.",
+        "ja_jp": "エミュール<ruby><rb>様</rb><rt>さま</rt></ruby>が<ruby><rb>何</rb><rt>なに</rt></ruby>かに<ruby><rb>取</rb><rt>と</rt></ruby>りつかれ、\\n<ruby><rb>乗</rb><rt>の</rt></ruby>っ<ruby><rb>取</rb><rt>と</rt></ruby>られそうになっている……とか。",
+        "zh_cn": "艾缪尔大人正在被什么东西附身，\\n或是将要被掌控……之类的。",
+        "zh_tw": "其實埃米爾大人被什麼附身，\\n並受到操控……之類的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0032",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "That would be awful!",
+        "ja_jp": "……！　そ、それって……。",
+        "zh_cn": "也、也就是说……",
+        "zh_tw": "……！\\n意、意思是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0033",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Mere speculation at this stage. But if we're\\nto uncover the truth, we'll need to pass our\\naudition tomorrow—so let us ready\\nourselves as best we can.",
+        "ja_jp": "まだ<ruby><rb>憶測</rb><rt>おくそく</rt></ruby>の<ruby><rb>段階</rb><rt>だんかい</rt></ruby>に<ruby><rb>過</rb><rt>す</rt></ruby>ぎませんがね。\\nしかしそれを<ruby><rb>暴</rb><rt>あば</rt></ruby>くには、<ruby><rb>本選</rb><rt>ほんせん</rt></ruby>の<ruby><rb>通過</rb><rt>つうか</rt></ruby>が\\n<ruby><rb>不可欠</rb><rt>ふかけつ</rt></ruby>。まずは<ruby><rb>明日</rb><rt>あす</rt></ruby>に<ruby><rb>備</rb><rt>そな</rt></ruby>えましょう。",
+        "zh_cn": "这都只是我的推测。\\n不过要想揭开真相，就必须要\\n通过决赛。先为了明天做准备吧。",
+        "zh_tw": "現在不過是猜測的階段罷了。\\n但要想揭開真相，就必須通過\\n正式選拔。首先為明天做好準備吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0034",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Right! Let's get lots of sleep tonight and\\ncome at it bright-eyed and bushy—",
+        "ja_jp": "は、はいっ。<ruby><rb>今日</rb><rt>きょう</rt></ruby>はゆっくり\\nおやすみして、<ruby><rb>体力</rb><rt>たいりょく</rt></ruby>を……",
+        "zh_cn": "好、好的！\\n今天就好好休息，\\n保存体……",
+        "zh_tw": "好、好的。今天先好好休息，\\n儲存體力……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0035",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "And on that note, I have prepared a\\nspecial course of training for you.",
+        "ja_jp": "というわけで――<ruby><rb>特別</rb><rt>とくべつ</rt></ruby>な<ruby><rb>訓練</rb><rt>くんれん</rt></ruby>を\\nご<ruby><rb>用意</rb><rt>ようい</rt></ruby>しました。",
+        "zh_cn": "所以我为二位准备了\\n特别的训练。",
+        "zh_tw": "所以──我為兩位備好了特別訓練。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0036",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Gwuh?!",
+        "ja_jp": "えっ？",
+        "zh_cn": "诶？",
+        "zh_tw": "咦？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0037",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "A true servant is normally not built in a\\nday, but given the situation, we've not the\\nleisure of adhering to such platitudes.",
+        "ja_jp": "<ruby><rb>使用人道</rb><rt>しようにんどう</rt></ruby>は<ruby><rb>本来</rb><rt>ほんらい</rt></ruby><ruby><rb>一日</rb><rt>いちにち</rt></ruby>にしてならず。\\nしかし<ruby><rb>今回</rb><rt>こんかい</rt></ruby>ばかりはそのような<ruby><rb>悠長</rb><rt>ゆうちょう</rt></ruby>な\\nことは<ruby><rb>言</rb><rt>い</rt></ruby>っていられません。そこで……",
+        "zh_cn": "佣人之道本不可一蹴而就。\\n但如今情况紧急，所以……",
+        "zh_tw": "僕人之道原本就難以一蹴而得。\\n但這次的情況無法那麼悠哉。\\n因此……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0038",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Thus, I shall now instruct you in the ways\\nof the secret servants' techniques.",
+        "ja_jp": "あなたがたに<ruby><rb>奥</rb><rt>おく</rt></ruby>の<ruby><rb>手</rb><rt>て</rt></ruby>である\\n『<ruby><rb>使用人秘技</rb><rt>しようにんひぎ</rt></ruby>』を<ruby><rb>伝授</rb><rt>でんじゅ</rt></ruby>します。\\nさぁ、<ruby><rb>急</rb><rt>いそ</rt></ruby>ぎこちらへ。",
+        "zh_cn": "我便传授二位一个杀手锏，\\n也就是“佣人秘技”。\\n快，跟我来。",
+        "zh_tw": "我將傳授兩位\\n作為絕招的「僕人秘技」。\\n好了，請快隨我來吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0039",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "These techniques are a servant's ultimate\\nweapons: skills devised to protect one's\\nmaster in any and all manner of situations.",
+        "ja_jp": "――『<ruby><rb>使用人秘技</rb><rt>しようにんひぎ</rt></ruby>』。それは<ruby><rb>主人</rb><rt>しゅじん</rt></ruby>を\\n<ruby><rb>守</rb><rt>まも</rt></ruby>るために<ruby><rb>編</rb><rt>あ</rt></ruby>み<ruby><rb>出</rb><rt>だ</rt></ruby>された、あらゆる\\n『いざという<ruby><rb>時</rb><rt>とき</rt></ruby>』のための<ruby><rb>対処術</rb><rt>たいしょじゅつ</rt></ruby>です。",
+        "zh_cn": "“佣人秘技”是为了保护主人\\n而被创造出的可以应对\\n各种“紧要关头”的技术。",
+        "zh_tw": "──「僕人秘技」。\\n乃是為了守護主人所編創，\\n用來應對一切「緊急時刻」之術。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0040",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "We've much ground to cover here, but let\\nthis be the first lesson I teach you...",
+        "ja_jp": "その<ruby><rb>内容</rb><rt>ないよう</rt></ruby>は<ruby><rb>多岐</rb><rt>たき</rt></ruby>にわたるのですが、\\nまずお<ruby><rb>教</rb><rt>おし</rt></ruby>えするのはこちらです。",
+        "zh_cn": "其内容涉及多个领域，\\n首先要教给二位的是这个。",
+        "zh_tw": "內容涵蓋許多方面，\\n首先要教給兩位的是這個。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0041",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "The name of this technique is, and I quote,\\n＂Clean a Disastrously Filthy Room\\nASAP in Order to Protect Your Master\\nfrom Dust Allergies.＂",
+        "ja_jp": "その<ruby><rb>名</rb><rt>な</rt></ruby>も『<ruby><rb>壊滅</rb><rt>かいめつ</rt></ruby><ruby><rb>的</rb><rt>てき</rt></ruby>に<ruby><rb>汚</rb><rt>きたな</rt></ruby>い<ruby><rb>部屋</rb><rt>へや</rt></ruby>をなる<ruby><rb>早</rb><rt>はや</rt></ruby>で\\n<ruby><rb>綺麗</rb><rt>きれい</rt></ruby>にし、<ruby><rb>主人</rb><rt>しゅじん</rt></ruby>をホコリアレルギー\\nから<ruby><rb>守</rb><rt>まも</rt></ruby>る<ruby><rb>秘技</rb><rt>ひぎ</rt></ruby>』を<ruby><rb>教</rb><rt>おし</rt></ruby>えましょう。",
+        "zh_cn": "“快速打扫巨脏无比的房间\\n以保护主人不受尘螨过敏所害之秘技”。",
+        "zh_tw": "名為──\\n「毀滅性的髒亂房間要盡速清潔，\\n　自塵埃過敏中保護主人之秘技」。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0042",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "It's so clean as to be unrecognizable!\\nThese servant techniques are a powerful\\nthing indeed...",
+        "ja_jp": "ほう……<ruby><rb>見違</rb><rt>みちが</rt></ruby>えるほど<ruby><rb>片付</rb><rt>かたづ</rt></ruby>いたな。\\nこれが<ruby><rb>使用人秘技</rb><rt>しようにんひぎ</rt></ruby>か。",
+        "zh_cn": "嚯……效果竟如此出众。\\n这就是佣人秘技吗。",
+        "zh_tw": "喔……整理前後截然不同呢。\\n這便是僕人秘技嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0043",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "This is but an elementary-level skill,\\nand can be learned by anyone with\\nthe proper application of effort.",
+        "ja_jp": "ええ。これは<ruby><rb>秘技</rb><rt>ひぎ</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>でも<ruby><rb>初級</rb><rt>しょきゅう</rt></ruby>なので、\\nコツを<ruby><rb>掴</rb><rt>つか</rt></ruby>めば<ruby><rb>誰</rb><rt>だれ</rt></ruby>でも<ruby><rb>覚</rb><rt>おぼ</rt></ruby>えられますよ。",
+        "zh_cn": "没错。这也只是初级的秘技，\\n只要掌握了要领，\\n任何人都能学会。",
+        "zh_tw": "是的。這在秘技之中只是初級，\\n一旦掌握訣竅任何人都能輕易辦到。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0044",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "So, um...there are harder ones?",
+        "ja_jp": "<ruby><rb>中級</rb><rt>ちゅうきゅう</rt></ruby>や、<ruby><rb>上級</rb><rt>じょうきゅう</rt></ruby>のもあるんですか？",
+        "zh_cn": "还有中级和高级吗？",
+        "zh_tw": "還有中級、高級的嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0045",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "But of course. Among the intermediate\\nskills, there is a famous one called...",
+        "ja_jp": "<ruby><rb>無論</rb><rt>むろん</rt></ruby>です。<ruby><rb>中級</rb><rt>ちゅうきゅう</rt></ruby>ですと、<ruby><rb>有名</rb><rt>ゆうめい</rt></ruby>なのは――",
+        "zh_cn": "当然了。\\n说到中级，最有名的就是——",
+        "zh_tw": "當然。提到中級，最有名的即是──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0046",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Adorbs Devotion Beam!",
+        "ja_jp": "『<ruby><rb>真心注入</rb><rt>まごころちゅうにゅう</rt></ruby>☆<ruby><rb>萌</rb><rt>も</rt></ruby>えキュンビーム♪』\\nです。",
+        "zh_cn": "“爱心满满☆萌萌光波♪”了。",
+        "zh_tw": "「真心滿滿☆萌啾光波♪」。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0047",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "What the hooey was THAT?!",
+        "ja_jp": "ふぇっ？　い、いま……なんて？",
+        "zh_cn": "诶？你、你刚才……说什么？",
+        "zh_tw": "咦？你、你剛才……說了什麼？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0048",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "As I said, it is the Adorbs Devotion Beam.",
+        "ja_jp": "ですから、『<ruby><rb>真心注入</rb><rt>まごころちゅうにゅう</rt></ruby>☆<ruby><rb>萌</rb><rt>も</rt></ruby>えキュン\\nビーム♪』です。",
+        "zh_cn": "我说“爱心满满☆萌萌光波♪”啊。",
+        "zh_tw": "我說「真心滿滿☆萌啾光波♪」。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0049",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "And what is the purpose of said\\ntechnique, exactly?",
+        "ja_jp": "なんなのだ、その<ruby><rb>面妖</rb><rt>めんよう</rt></ruby>な<ruby><rb>技</rb><rt>わざ</rt></ruby>は。",
+        "zh_cn": "那是什么奇怪的招式。",
+        "zh_tw": "那詭異的招式，究竟是什麼？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0050",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "You can't tell? It disperses evil spirits\\nthrough means of a shout filled with\\none's utter devotion.",
+        "ja_jp": "わかりませんか？　<ruby><rb>真心</rb><rt>まごころ</rt></ruby>こめた<ruby><rb>掛</rb><rt>か</rt></ruby>け<ruby><rb>声</rb><rt>ごえ</rt></ruby>を\\n<ruby><rb>使</rb><rt>つか</rt></ruby>って<ruby><rb>悪霊</rb><rt>あくりょう</rt></ruby>を<ruby><rb>退散</rb><rt>たいさん</rt></ruby>させる<ruby><rb>秘技</rb><rt>ひぎ</rt></ruby>です。",
+        "zh_cn": "听了秘技名不就能明白吗？\\n这是用爱的话语驱散恶灵的秘技。",
+        "zh_tw": "聽不出來嗎？\\n是利用蘊含真心的詠唱，\\n來驅逐惡靈的秘技。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0051",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "I don't see how anyone could tell from a\\nname like that.",
+        "ja_jp": "いやわからん、その<ruby><rb>技名</rb><rt>わざめい</rt></ruby>では。",
+        "zh_cn": "能从技能名联想到这功能\\n才叫奇怪吧？",
+        "zh_tw": "僅憑此招式名稱，實在難以理解。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0052",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "I can teach it to you, if you like.",
+        "ja_jp": "<ruby><rb>知</rb><rt>し</rt></ruby>りたいようでしたら<ruby><rb>伝授</rb><rt>でんじゅ</rt></ruby>いたしますが\\n……いかがですか？",
+        "zh_cn": "如果您想学习的话，\\n我倒是可以教您……要学吗？",
+        "zh_tw": "有興趣的話我可以傳授給兩位……\\n意下如何呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0053",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Yeah, um, maybe we should stick with the\\nmore basic-level stuff like the dusty cleany\\none for today?",
+        "ja_jp": "え、えっと……。わたしたち、まだ、\\n<ruby><rb>初級</rb><rt>しょきゅう</rt></ruby>の<ruby><rb>秘技</rb><rt>ひぎ</rt></ruby>も<ruby><rb>覚</rb><rt>おぼ</rt></ruby>えてないので、\\n<ruby><rb>今日</rb><rt>きょう</rt></ruby>はいいかなって……。",
+        "zh_cn": "呃，那个……我们连\\n初级的秘技都还没记住呢，\\n今天就算了吧……",
+        "zh_tw": "呃、呃嗯……我們、\\n現在、連初級秘技都不會，\\n今天還是先算了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0054",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Yes, well, perhaps that is best.",
+        "ja_jp": "そうですか……。ですが<ruby><rb>確</rb><rt>たし</rt></ruby>かに、\\nまずは<ruby><rb>初級</rb><rt>しょきゅう</rt></ruby>からですね。",
+        "zh_cn": "这样啊……不过有道理，\\n首先从初级开始学起吧。",
+        "zh_tw": "是嗎……\\n不過說得也對，得先從初級開始呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0055",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Now prepare yourselves, both of you,\\nfor this training will be harder than any\\nyou've yet faced.",
+        "ja_jp": "ではおふたりとも、お<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>を……。\\n<ruby><rb>今</rb><rt>いま</rt></ruby>まで<ruby><rb>以上</rb><rt>いじょう</rt></ruby>に<ruby><rb>厳</rb><rt>きび</rt></ruby>しい<ruby><rb>特訓</rb><rt>とっくん</rt></ruby>となりますよ。",
+        "zh_cn": "那么请二位做好心理准备……\\n这会是比以往更加严格的特训。",
+        "zh_tw": "那麼請兩位做好覺悟……\\n接下來的特訓將比過去更加艱難喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0056",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "The next morning...",
+        "ja_jp": "<ruby><rb>翌朝</rb><rt>よくあさ</rt></ruby>\\n<ruby><rb>別館</rb><rt>べっかん</rt></ruby>　<ruby><rb>玄関</rb><rt>げんかん</rt></ruby>ホール",
+        "zh_cn": "次日清晨\\n别邸 前厅",
+        "zh_tw": "隔天早上\\n別邸　玄關大廳"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "The sun is rising... *yawn*",
+        "ja_jp": "……<ruby><rb>朝陽</rb><rt>あさひ</rt></ruby>が<ruby><rb>見</rb><rt>み</rt></ruby>える。",
+        "zh_cn": "太阳升起来了……",
+        "zh_tw": "……朝陽已經東升。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0057",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "You look sleepy, Zodiark. Guess you were\\nup training even later than me, huh?",
+        "ja_jp": "わ……ゾディアークさん、ねむそう。\\n<ruby><rb>修行</rb><rt>しゅぎょう</rt></ruby>、わたしより<ruby><rb>遅</rb><rt>おそ</rt></ruby>くまでがんばって\\nましたもんね……！",
+        "zh_cn": "哇……佐迪亚克好像很困的样子。\\n毕竟昨晚练习得比我还晚呢……",
+        "zh_tw": "哇……索狄亞克先生、好像很睏。\\n因為你一直努力修行到、\\n比我還要晚嘛……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0058",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "It took time for me to fully comprehend the\\nintricacies of proper human etiquette.\\nYou, however, picked it up immediately.",
+        "ja_jp": "<ruby><rb>人</rb><rt>ひと</rt></ruby>らしい<ruby><rb>作法</rb><rt>さほう</rt></ruby>の<ruby><rb>理解</rb><rt>りかい</rt></ruby>に<ruby><rb>時</rb><rt>とき</rt></ruby>を<ruby><rb>要</rb><rt>よう</rt></ruby>してな……\\n<ruby><rb>汝</rb><rt>なんじ</rt></ruby>はすぐに<ruby><rb>習得</rb><rt>しゅうとく</rt></ruby>しておったな。",
+        "zh_cn": "理解人类的礼仪花了些时间……\\n倒是你很快就掌握了啊。",
+        "zh_tw": "為理解人類禮儀而費了些時間……\\n汝倒是立刻學會了啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0059",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Hee hee! Yeah, I always helped out around\\nthe house, so I'm pretty good at cleaning.",
+        "ja_jp": "えへへ。いつもお<ruby><rb>母</rb><rt>かあ</rt></ruby>さんのお<ruby><rb>手伝</rb><rt>てつだ</rt></ruby>いを\\nしてたので、お<ruby><rb>片</rb><rt>かた</rt></ruby>づけはちょっとだけ\\nとくいみたいです！",
+        "zh_cn": "诶嘿嘿，\\n我一直有在帮妈妈做家务，\\n所以好像比较擅长打扫！",
+        "zh_tw": "耶嘿嘿。因為我經常幫媽媽的忙，\\n所以好像有點擅長打掃的樣子！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0060",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Are you sure you'll be okay though?\\nIt's gonna be hard to do the trial if you\\nhaven't had enough sleep.",
+        "ja_jp": "でも、だいじょうぶなんですか？\\nねぶそくで<ruby><rb>試験</rb><rt>しけん</rt></ruby>、つらくないですか？",
+        "zh_cn": "不过你没问题吗？\\n没睡饱就参加比赛应该很累吧？",
+        "zh_tw": "可是，真的沒關係嗎？\\n睡眠不足還要參加比賽，\\n不會很難受嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0061",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "I will be fine. Curiously, this annex is\\nreplete with dark mana, which supplies\\nall of the sustenance I need.",
+        "ja_jp": "うむ。この<ruby><rb>別館</rb><rt>べっかん</rt></ruby>には<ruby><rb>不思議</rb><rt>ふしぎ</rt></ruby>と<ruby><rb>闇</rb><rt>やみ</rt></ruby>のマナが\\n<ruby><rb>満</rb><rt>み</rt></ruby>ちておってな。<ruby><rb>栄養補給</rb><rt>えいようほきゅう</rt></ruby>には<ruby><rb>困</rb><rt>こま</rt></ruby>らぬ。",
+        "zh_cn": "无妨。\\n这别邸之中不知为何充满了暗之魔力，\\n所以我在精力上不用发愁。",
+        "zh_tw": "嗯。這間別邸不知為何充滿闇之瑪納，\\n替我免去了欠缺營養的煩惱。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0062",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Boy, you dragons sure are something!\\nI wonder if—Oh!",
+        "ja_jp": "そうなんですか。ドラゴンさんって、\\nふしぎですね……あ！",
+        "zh_cn": "原来是这样啊。\\n龙还真是不可思议的生物呢……啊！",
+        "zh_tw": "原來是這樣啊。\\n龍族、還真是不可思議呢……啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0063",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "Good morning to you all. Henceforth,\\nwe shall be conducting the final audition.",
+        "ja_jp": "――<ruby><rb>諸君</rb><rt>しょくん</rt></ruby>、おはようッ。ではこれより、\\n<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>オーディション<ruby><rb>本選</rb><rt>ほんせん</rt></ruby>を<ruby><rb>執</rb><rt>と</rt></ruby>り<ruby><rb>行</rb><rt>おこな</rt></ruby>う！",
+        "zh_cn": "各位早安！\\n那么接下来将要开始\\n佣人选拔赛的决赛！",
+        "zh_tw": "──各位，早安。那麼接下來，\\n將進行僕人選拔賽的正式選拔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0064",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "The rules are simple: excluding Emperor\\nEmile's chambers, you are to clean every\\nroom in the annex to a mirror shine.\\nAnd with that...BEGIN!",
+        "ja_jp": "ルールは<ruby><rb>明快</rb><rt>めいかい</rt></ruby>。エミュール<ruby><rb>様</rb><rt>さま</rt></ruby>のお<ruby><rb>部屋</rb><rt>へや</rt></ruby>を\\n<ruby><rb>除</rb><rt>のぞ</rt></ruby>く<ruby><rb>別館</rb><rt>べっかん</rt></ruby>の<ruby><rb>各部屋</rb><rt>かくへや</rt></ruby>を<ruby><rb>見事</rb><rt>みごと</rt></ruby>に<ruby><rb>磨</rb><rt>みが</rt></ruby>き<ruby><rb>上</rb><rt>あ</rt></ruby>げ、\\n<ruby><rb>腕前</rb><rt>うでまえ</rt></ruby>を<ruby><rb>示</rb><rt>しめ</rt></ruby>してみよ！　では――<ruby><rb>始</rb><rt>はじ</rt></ruby>めッ！",
+        "zh_cn": "规则很简单。将别邸内艾缪尔大人\\n所在房间以外的地方都打扫干净，\\n展示你们的实力吧！预备——开始！",
+        "zh_tw": "規則很簡單。除了埃米爾大人的房間，\\n請各位將別邸各個房間徹底打掃乾淨，\\n以此展現自身技術！那麼──開始！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0065",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "The final audition has started!",
+        "ja_jp": "は、<ruby><rb>始</rb><rt>はじ</rt></ruby>まっちゃいました……！\\nいよいよ<ruby><rb>本選</rb><rt>ほんせん</rt></ruby><ruby><rb>開始</rb><rt>かいし</rt></ruby>です！",
+        "zh_cn": "开、开始了……\\n决赛终于开始了！",
+        "zh_tw": "已、已經開始了……！\\n終於開始正式選拔了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0066",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "And the substance of the trial is simpler\\nthan I imagined. This should work out fine\\nso long as you make use of last evening's\\ntraining session.",
+        "ja_jp": "ええ。<ruby><rb>試験内容</rb><rt>しけんないよう</rt></ruby>は<ruby><rb>思</rb><rt>おも</rt></ruby>ったより<ruby><rb>単純</rb><rt>たんじゅん</rt></ruby>です。\\n<ruby><rb>昨晩</rb><rt>さくばん</rt></ruby>の<ruby><rb>修行</rb><rt>しゅぎょう</rt></ruby>を<ruby><rb>活</rb><rt>い</rt></ruby>かせば<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>ですから、\\n<ruby><rb>頑張</rb><rt>がんば</rt></ruby>ってくださいね。",
+        "zh_cn": "嗯。考核内容也比较简单。\\n只要发挥昨晚的训练成果就没问题。\\n二位加油。",
+        "zh_tw": "是啊。試驗內容比想像的簡單。\\n只要發揮昨晚修行的成果就沒有問題，\\n請兩位好好加油吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0067",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Um, which room are you going to clean,\\nZodiark? I can help and...",
+        "ja_jp": "はいっ！　えっと、ゾディアークさんは\\nどのお<ruby><rb>部屋</rb><rt>へや</rt></ruby>をお<ruby><rb>掃除</rb><rt>そうじ</rt></ruby>しますか？　\\nわたしもお<ruby><rb>手伝</rb><rt>てつだ</rt></ruby>いを……あれ？",
+        "zh_cn": "好的！\\n那个，佐迪亚克要打扫哪个房间啊？\\n我也来帮你……咦？",
+        "zh_tw": "好的！那個、\\n索狄亞克先生要打掃哪間房間呢？\\n我也來幫忙……咦？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0068",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Huh? Where's Zodiark?! I could have sworn\\nhe was right here with us and... Oh!",
+        "ja_jp": "ゾディアークさんがいません！\\nさっきまでとなりにいたのに――あ！",
+        "zh_cn": "佐迪亚克不见了！\\n明明刚才还在身边的——啊！",
+        "zh_tw": "索狄亞克先生不見了！\\n剛才還在旁邊的說──啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0069",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Go, all of you, so we might carry out\\nthe sanitation of the main hall.",
+        "ja_jp": "ゆくぞ、<ruby><rb>皆</rb><rt>みな</rt></ruby>の<ruby><rb>者</rb><rt>もの</rt></ruby>。これより<ruby><rb>我</rb><rt>われ</rt></ruby>らで\\nメインホールの<ruby><rb>清掃</rb><rt>せいそう</rt></ruby>を<ruby><rb>行</rb><rt>おこな</rt></ruby>う。",
+        "zh_cn": "动手吧，诸位！\\n让我们一同来打扫这主厅！",
+        "zh_tw": "要走了，各位。\\n接下來將由吾等共同進行\\n大廳清掃作業。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0070",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "You! Clean windows. You! Scrub floors.\\nAnd you! Polish and dust all furniture.\\nI will supervise and provide final aid\\nas needed.",
+        "ja_jp": "<ruby><rb>汝</rb><rt>なんじ</rt></ruby>は<ruby><rb>窓</rb><rt>まど</rt></ruby>を<ruby><rb>磨</rb><rt>みが</rt></ruby>き、<ruby><rb>汝</rb><rt>なんじ</rt></ruby>は<ruby><rb>床</rb><rt>ゆか</rt></ruby>を<ruby><rb>清掃</rb><rt>せいそう</rt></ruby>せよ。\\n<ruby><rb>汝</rb><rt>なんじ</rt></ruby>は<ruby><rb>家具</rb><rt>かぐ</rt></ruby>を<ruby><rb>清</rb><rt>きよ</rt></ruby>めるのだ。<ruby><rb>私</rb><rt>わたし</rt></ruby>はその\\n<ruby><rb>総括</rb><rt>そうかつ</rt></ruby>と<ruby><rb>最後</rb><rt>さいご</rt></ruby>の<ruby><rb>補佐</rb><rt>ほさ</rt></ruby>を<ruby><rb>行</rb><rt>おこな</rt></ruby>う。",
+        "zh_cn": "你负责擦窗户，你负责扫地，\\n你负责擦拭家具。\\n我来负责指挥和最后的检查。",
+        "zh_tw": "汝負責擦窗，汝負責掃地。\\n汝負責拭淨家具。\\n而我負責進行統籌與最終輔佐。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0071",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "Right away, Mr. Zodiark! We'll show you\\nwhat a little of our hard work can do!",
+        "ja_jp": "ハイッ！　ゾディアークさん！\\nすぐに<ruby><rb>成果</rb><rt>せいか</rt></ruby>をお<ruby><rb>見</rb><rt>み</rt></ruby>せします！",
+        "zh_cn": "是！佐迪亚克！\\n马上就让您见到成果！",
+        "zh_tw": "遵命！索狄亞克先生！\\n我會馬上展現成果給您看的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0072",
+      "book": ""
+    },
+    {
+      "icon": "120015_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "Leave it to us, Your Excellency! We'll\\nfollow you to the ends of the world!",
+        "ja_jp": "お<ruby><rb>任</rb><rt>まか</rt></ruby>せください、<ruby><rb>閣下</rb><rt>かっか</rt></ruby>！\\nどこまでも<ruby><rb>閣下</rb><rt>かっか</rt></ruby>についていきます！",
+        "zh_cn": "交给我吧，阁下！\\n我们永远追随阁下！",
+        "zh_tw": "請包在我身上，閣下！\\n我願追隨閣下到天涯海角！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0073",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "I am in good form thanks to the dark mana;\\nthe secret servant techniques should be\\na simple matter for me right now.",
+        "ja_jp": "ふむ……<ruby><rb>闇</rb><rt>やみ</rt></ruby>のマナのお<ruby><rb>陰</rb><rt>かげ</rt></ruby>で<ruby><rb>調子</rb><rt>ちょうし</rt></ruby>が<ruby><rb>良</rb><rt>よ</rt></ruby>い。\\n<ruby><rb>今</rb><rt>いま</rt></ruby>ならば<ruby><rb>使用人秘技</rb><rt>しようにんひぎ</rt></ruby>もお<ruby><rb>手</rb><rt>て</rt></ruby>の<ruby><rb>物</rb><rt>もの</rt></ruby>だ……。",
+        "zh_cn": "嗯……这暗之魔力让我状态很好。\\n这样一来佣人秘技也不在话下……",
+        "zh_tw": "嗯……多虧闇之瑪納，狀況不錯。\\n若是此刻僕人秘技亦是掌中物……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0074",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "My word, what leadership! And his own\\nskill is impressive as well, so much so that\\nI would entertain making him my right\\nhand! YOU PASS!",
+        "ja_jp": "むぅッ……なんという<ruby><rb>統率力</rb><rt>とうそつりょく</rt></ruby>！\\n<ruby><rb>本人</rb><rt>ほんにん</rt></ruby>の<ruby><rb>実力</rb><rt>じつりょく</rt></ruby>も<ruby><rb>申</rb><rt>もう</rt></ruby>し<ruby><rb>分</rb><rt>ぶん</rt></ruby>ないッ。\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>片腕</rb><rt>かたうで</rt></ruby>にしたいほどだ……<ruby><rb>合格</rb><rt>ごうかく</rt></ruby>ッ！",
+        "zh_cn": "嗯……出色的指挥能力！\\n本人的实力也十分出众。\\n简直想招来做我的助手……合格！",
+        "zh_tw": "唔……多麼驚人的統率力！\\n自身實力也完美無缺。我都想讓他\\n成為我的左右手了……合格！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0075",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "Woooo! Zodiark is the best!",
+        "ja_jp": "うおおお！　ゾディアークさん<ruby><rb>最高</rb><rt>さいこう</rt></ruby>!!",
+        "zh_cn": "噢噢噢！佐迪亚克最棒了！",
+        "zh_tw": "唔喔喔喔！索狄亞克先生是最強的！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0076",
+      "book": ""
+    },
+    {
+      "icon": "120015_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "We'll support you forever, Your Excellency!",
+        "ja_jp": "<ruby><rb>閣下</rb><rt>かっか</rt></ruby>ーッ！　<ruby><rb>生涯推</rb><rt>しょうがいお</rt></ruby>せますーッ!!",
+        "zh_cn": "阁下！我一辈子都支持您！",
+        "zh_tw": "閣下──！\\n我要追隨您一生一世──！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0077",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "He brought them together so fast, the trial\\nwas over before I even knew it started!",
+        "ja_jp": "な……なんか……すごくテキパキと\\nみんなをまとめて……あっという<ruby><rb>間</rb><rt>ま</rt></ruby>に\\n<ruby><rb>合格</rb><rt>ごうかく</rt></ruby>しちゃいましたっ……!?",
+        "zh_cn": "这、这是怎么回事……\\n这么有条不紊地指挥着大家……\\n转眼间就合格了！？",
+        "zh_tw": "感……感覺……\\n非常俐落地指揮著大家……\\n然後一瞬間就合格了……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0078",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "The dragon does impress. He gained\\nstrength from the dark mana and\\nshowcased his abilities as a leader.",
+        "ja_jp": "さすがはドラゴン……<ruby><rb>闇</rb><rt>やみ</rt></ruby>のマナから<ruby><rb>力</rb><rt>ちから</rt></ruby>を\\n<ruby><rb>得</rb><rt>え</rt></ruby>て、<ruby><rb>人</rb><rt>ひと</rt></ruby>を<ruby><rb>導</rb><rt>みちび</rt></ruby>く<ruby><rb>存在</rb><rt>そんざい</rt></ruby>としての<ruby><rb>本領</rb><rt>ほんりょう</rt></ruby>を<ruby><rb>発揮</rb><rt>はっき</rt></ruby>\\nしたようですね。",
+        "zh_cn": "真不愧是龙……\\n从暗之魔力中获得力量\\n并发挥了指引人类的能力。",
+        "zh_tw": "不愧是龍族……看來是透過\\n闇之瑪納獲得力量，以發揮\\n他身為引導人類存在的本領了呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0079",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Is that what that was...?",
+        "ja_jp": "えっ……あれ、そういうかんじ\\nなんですか。",
+        "zh_cn": "诶……\\n是这么一回事吗？",
+        "zh_tw": "咦……\\n那是、因為這個原因嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0080",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Well then! As a butler true, I cannot be\\noutshone in such a manner. Time to\\ndemonstrate the advanced-level technique!",
+        "ja_jp": "やりますね。<ruby><rb>真</rb><rt>しん</rt></ruby>の<ruby><rb>執事</rb><rt>しつじ</rt></ruby>として<ruby><rb>私</rb><rt>わたし</rt></ruby>も\\n<ruby><rb>負</rb><rt>ま</rt></ruby>けてはいられません。\\nお<ruby><rb>見</rb><rt>み</rt></ruby>せしますよ、<ruby><rb>上級秘技</rb><rt>じょうきゅうひぎ</rt></ruby>を。",
+        "zh_cn": "不错不错。\\n身为真正的管家，我也不能认输啊。\\n就让大家见识一下高级秘技吧。",
+        "zh_tw": "真有兩把刷子。\\n我身為真正的執事，怎麼能輸呢。\\n就讓我來展現高級秘技吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0081",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Whaaaat?!",
+        "ja_jp": "ふ、ふえぇっ!?",
+        "zh_cn": "诶诶诶！？",
+        "zh_tw": "唔、唔咦咦！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0082",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Spic and span the hall is cleaned!\\nSee it shine and watch it gleam!",
+        "ja_jp": "<ruby><rb>瞬</rb><rt>まばた</rt></ruby>きするより<ruby><rb>早</rb><rt>はや</rt></ruby>く、ホール<ruby><rb>全</rb><rt>すべ</rt></ruby>てを\\n<ruby><rb>磨</rb><rt>みが</rt></ruby>き<ruby><rb>上</rb><rt>あ</rt></ruby>げて<ruby><rb>見</rb><rt>み</rt></ruby>せましょう……！",
+        "zh_cn": "就让我在眨眼之间\\n将整个大厅打扫得一尘不染！",
+        "zh_tw": "看我剎那都不用，\\n便將大廳全打掃得一乾二淨……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0083",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "I suspected as much yesterday, but you are\\nclearly no ordinary man! Might you in fact\\nbe a high-ranking butler, master of all the\\nnoble arts of servitude?",
+        "ja_jp": "……！　<ruby><rb>昨日</rb><rt>きのう</rt></ruby>も<ruby><rb>思</rb><rt>おも</rt></ruby>ったが、やはり\\nただ<ruby><rb>者</rb><rt>もの</rt></ruby>ではないッ！　<ruby><rb>貴殿</rb><rt>きでん</rt></ruby>、もしや\\n<ruby><rb>使用人</rb><rt>しようにん</rt></ruby><ruby><rb>免許皆伝</rb><rt>めんきょかいでん</rt></ruby>のハイランク<ruby><rb>執事</rb><rt>しつじ</rt></ruby>か。",
+        "zh_cn": "噢！我昨天就注意到了，\\n你果然不是一般人！\\n难道你是已经出师的精英管家吗？",
+        "zh_tw": "……！雖然我昨天就這麼想了，\\n但你果然不是普通人！莫非、\\n你是僕人秘訣真傳的高階執事嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0084",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Indeed I am—and that you should be able\\nto perceive as much impresses.",
+        "ja_jp": "いかにも。それを<ruby><rb>見抜</rb><rt>みぬ</rt></ruby>くとは……\\nさすがですね。",
+        "zh_cn": "正是。\\n没想到你竟能看出来……\\n真是厉害啊。",
+        "zh_tw": "正是。竟然能看穿這點……\\n佩服佩服。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0085",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "I would be delighted for one of your poise\\nand bearing to come into my employ.\\nThis applicant is now an appliCAN! PASS!",
+        "ja_jp": "なに、<ruby><rb>今</rb><rt>いま</rt></ruby>の<ruby><rb>身</rb><rt>み</rt></ruby>のこなしで<ruby><rb>確信</rb><rt>かくしん</rt></ruby>したまで。\\n<ruby><rb>引</rb><rt>ひ</rt></ruby>く<ruby><rb>手</rb><rt>て</rt></ruby>あまたの<ruby><rb>皆伝</rb><rt>かいでん</rt></ruby><ruby><rb>執事</rb><rt>しつじ</rt></ruby>が<ruby><rb>働</rb><rt>はたら</rt></ruby>いて\\nくれるなら<ruby><rb>私</rb><rt>わたし</rt></ruby>も<ruby><rb>心強</rb><rt>こころづよ</rt></ruby>い……<ruby><rb>合格</rb><rt>ごうかく</rt></ruby>ッ!!",
+        "zh_cn": "不敢当，我也是看到你刚才的身手才敢\\n确信的。既然是受各方青睐的精英管家\\n来做事，那我也好放心……合格！",
+        "zh_tw": "過獎。只是剛才的舉止讓我確信罷了。\\n若有眾人搶破頭的秘訣真傳執事\\n願意在此就職我也很安心……合格！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0086",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Wooow... Edward passed too!",
+        "ja_jp": "あ、あわわ……。エドワードさんまで\\n<ruby><rb>合格</rb><rt>ごうかく</rt></ruby>しちゃった……！",
+        "zh_cn": "哎、哎呀呀……\\n爱德华也已经合格了……",
+        "zh_tw": "啊、啊哇哇……\\n連愛德華先生也合格了……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0087",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "So what am I gonna do? I don't have any\\nconfidence in my ability to pass this test\\non my own, but...",
+        "ja_jp": "ど、どうしよう。わたし、ひとりで\\nこの<ruby><rb>試験</rb><rt>しけん</rt></ruby>を<ruby><rb>抜</rb><rt>ぬ</rt></ruby>けられる<ruby><rb>自信</rb><rt>じしん</rt></ruby>、あんまり\\nないです！　でも――",
+        "zh_cn": "这、这可怎么办。\\n我可没有自信能够独自通过……\\n不过——",
+        "zh_tw": "怎、怎麼辦。\\n我、沒有自信能一個人、\\n通過這場比賽！可是──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0088",
+      "book": ""
+    },
+    {
+      "icon": "120019_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "Damn it all, that's two more passed!\\nTime to put myself ahead of the pack.",
+        "ja_jp": "くそ、もう<ruby><rb>合格者</rb><rt>ごうかくしゃ</rt></ruby>が2<ruby><rb>人</rb><rt>り</rt></ruby>も……！\\n<ruby><rb>次</rb><rt>つぎ</rt></ruby>は<ruby><rb>俺</rb><rt>おれ</rt></ruby>が<ruby><rb>出</rb><rt>だ</rt></ruby>し<ruby><rb>抜</rb><rt>ぬ</rt></ruby>く<ruby><rb>番</rb><rt>ばん</rt></ruby>だ！",
+        "zh_cn": "可恶，已经有两人合格了！\\n接下来就让我来露一手吧！",
+        "zh_tw": "可惡，已經有兩位合格者了……！\\n下一個該輪到我勝出了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0089",
+      "book": ""
+    },
+    {
+      "icon": "120072_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "I can't worry about honor or the way things\\nought to be done—I'm going to beat\\neveryone else here no matter what!",
+        "ja_jp": "もう<ruby><rb>形振</rb><rt>なりふ</rt></ruby>り<ruby><rb>構</rb><rt>かま</rt></ruby>ってらんない！\\n<ruby><rb>他</rb><rt>ほか</rt></ruby>のやつら<ruby><rb>全員</rb><rt>ぜんいん</rt></ruby><ruby><rb>蹴落</rb><rt>けお</rt></ruby>としてでも、\\nアタシが<ruby><rb>受</rb><rt>う</rt></ruby>かるのよ……！",
+        "zh_cn": "不能再畏首畏尾了！\\n就算要把其他人全都挤下去，\\n我也要合格！",
+        "zh_tw": "現在已經顧不上體不體面了！\\n即使得踹下其他所有人，\\n我也要合格……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0090",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Oh gee, and now it's every man and\\nwoman for themselves. There's no way\\nI'll convince anyone to pitch in now!",
+        "ja_jp": "うぅ。みんなピリピリしてます！\\nとっても、お<ruby><rb>手伝</rb><rt>てつだ</rt></ruby>いさせてもらえる\\n<ruby><rb>雰囲気</rb><rt>ふんいき</rt></ruby>じゃないです。どうしよう……。",
+        "zh_cn": "呜呜，大家都燃起了竞争心！\\n看起来完全不会有人让我去帮忙。\\n怎么办……",
+        "zh_tw": "嗚嗚。大家的神經都很緊繃！\\n完全、不像會讓我幫忙的樣子。\\n怎麼辦……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0091",
+      "book": ""
+    },
+    {
+      "icon": "120093_01",
+      "name": {
+        "en_us": "Mouse",
+        "ja_jp": "ねずみ",
+        "zh_cn": "鼠鼠",
+        "zh_tw": "老鼠"
+      },
+      "context": {
+        "en_us": "Squeak! Squeak squeak!",
+        "ja_jp": "きゅーっ！　きゅきゅ～～～っ！",
+        "zh_cn": "吱！吱吱～",
+        "zh_tw": "吱──！吱吱～～～！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Huh? What is it, Mr. Mouse?\\nDid you run off to the other room?",
+        "ja_jp": "あれ……ねずみさん？　どうしたの？\\nえっと……<ruby><rb>別</rb><rt>べつ</rt></ruby>のお<ruby><rb>部屋</rb><rt>へや</rt></ruby>に、<ruby><rb>行</rb><rt>い</rt></ruby>ってたの？",
+        "zh_cn": "咦？鼠鼠？怎么啦？\\n唔……你刚才去了别的房间？",
+        "zh_tw": "咦……老鼠先生？怎麼了？\\n嗯嗯……你到其他房間、去過了？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0092",
+      "book": ""
+    },
+    {
+      "icon": "120093_01",
+      "name": {
+        "en_us": "Mouse",
+        "ja_jp": "ねずみ",
+        "zh_cn": "鼠鼠",
+        "zh_tw": "老鼠"
+      },
+      "context": {
+        "en_us": "Squeak squeak squeak!",
+        "ja_jp": "きゅっきゅい、きゅきゅきゅ。",
+        "zh_cn": "吱吱，吱吱吱。",
+        "zh_tw": "吱吱、吱吱吱。"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "You were looking for a good place to do\\nmy test...and you have something you\\nwant me to come look at right now...?\\nGot it. Show me what you found!",
+        "ja_jp": "<ruby><rb>試験</rb><rt>しけん</rt></ruby>によさそうな<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>を<ruby><rb>探</rb><rt>さが</rt></ruby>して……\\nえ、<ruby><rb>見</rb><rt>み</rt></ruby>てほしいものがある？　<ruby><rb>急</rb><rt>いそ</rt></ruby>いで？\\nう、うん。わかった、つれてって……！",
+        "zh_cn": "我正在找适合比赛的房间……\\n诶？要给我看一样东西？很急？\\n好、好吧。那就快带我去吧……",
+        "zh_tw": "為了找適合這場比賽的地方……\\n咦，你有東西想讓我看？要我快點？\\n唔、嗯。知道了，快帶我去……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0093",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Um, is it here, Mr. Mouse? 'Cause I\\ndon't really see anyth—OH!",
+        "ja_jp": "えっと、ここかな。ねずみさん、\\nここでなにが……あっ！",
+        "zh_cn": "那个，就是这里对吧，鼠鼠？\\n这里到底有……啊！",
+        "zh_tw": "呃嗯，是這裡吧。\\n老鼠先生，這裡有什麼……啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0094",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "Urrrgh...",
+        "ja_jp": "うう……。<ruby><rb>痛</rb><rt>いた</rt></ruby>っ……。",
+        "zh_cn": "呜呜……好痛……",
+        "zh_tw": "嗚嗚……好痛……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0095",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Oh, this is terrible! Your poor foot!\\nWhat happened here, Mr. Mouse?",
+        "ja_jp": "た、たいへんです！　<ruby><rb>足</rb><rt>あし</rt></ruby>が……！\\nおねえさん、どうしたんですか!?",
+        "zh_cn": "不、不好了！你的腿……\\n大姐姐你这是怎么了！？",
+        "zh_tw": "不、不好了！妳的腳……！\\n大姐姐，妳怎麼了！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0096",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "Oh no you don't, sister! I found this room,\\nwhich makes it mine!",
+        "ja_jp": "なによ……お<ruby><rb>嬢</rb><rt>じょう</rt></ruby>ちゃんも<ruby><rb>参加者</rb><rt>さんかしゃ</rt></ruby>？\\n……ほっといて。この<ruby><rb>部屋</rb><rt>へや</rt></ruby>は、あたしが\\n<ruby><rb>見</rb><rt>み</rt></ruby>つけたのよ。",
+        "zh_cn": "怎么……小姑娘你也是参赛者？\\n不用你多事，\\n这个房间是我先发现的。",
+        "zh_tw": "誰啊……小妹妹也是參賽者？\\n……別管我。\\n這個房間，可是我找到的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0097",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "It's super dusty, and that means I'll get\\ntons of points when I finish cleaning it.\\nNow make like a carpet and beat it!",
+        "ja_jp": "ホコリっぽいけど、<ruby><rb>掃除</rb><rt>そうじ</rt></ruby>し<ruby><rb>終</rb><rt>お</rt></ruby>えたら\\n<ruby><rb>相当</rb><rt>そうとう</rt></ruby><ruby><rb>加点</rb><rt>かてん</rt></ruby>されるはずだわ。<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby><ruby><rb>渡</rb><rt>わた</rt></ruby>し\\nたりなんかしないから……！",
+        "zh_cn": "虽然灰尘有点多，\\n但打扫完的话一定能有好的得分。\\n我肯定不会让给你的！",
+        "zh_tw": "雖然積滿了灰塵，\\n但只要打掃乾淨，應該能加不少分。\\n我絕對不會讓給妳的……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0098",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "And how are you supposed to clean a room\\nwhen you can't even walk on that foot?",
+        "ja_jp": "そ、そんなこと<ruby><rb>言</rb><rt>い</rt></ruby>ってる<ruby><rb>場合</rb><rt>ばあい</rt></ruby>じゃない\\nですっ。<ruby><rb>足</rb><rt>あし</rt></ruby>、すぐに<ruby><rb>手当</rb><rt>てあ</rt></ruby>てしなきゃ。\\nこれじゃお<ruby><rb>掃除</rb><rt>そうじ</rt></ruby>どころじゃないです。",
+        "zh_cn": "现、现在不是说这些的时候啊。\\n你的腿需要马上包扎才行，\\n来不及做什么打扫了。",
+        "zh_tw": "現、現在不是說這種話的時候。\\n妳的腳、得馬上包紮才行。\\n這樣子根本沒辦法打掃。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0099",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "I'm going to talk to the head butler\\nand get you a doctor.",
+        "ja_jp": "<ruby><rb>執事長</rb><rt>しつじちょう</rt></ruby>さんに<ruby><rb>話</rb><rt>はな</rt></ruby>して、\\n<ruby><rb>手当</rb><rt>てあ</rt></ruby>て、してもらいましょう。ね……",
+        "zh_cn": "我去和总管家说说，\\n我们去包扎一下吧。好吗……",
+        "zh_tw": "我去告訴執事長先生，\\n請他、來幫妳包紮吧。好不好……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0100",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "No! They'll drop me if I need a doctor!\\nI won't let a stupid thing like a terribly\\ninjured foot stop me from cleaning!",
+        "ja_jp": "――いやよ！　それじゃ<ruby><rb>脱落</rb><rt>だつらく</rt></ruby>しちゃう！\\nこのぐらいのケガ……あたしはまだ\\nやれるわ！",
+        "zh_cn": "我不要！\\n那样的话我就要被淘汰了！\\n这点小伤……我还能坚持！",
+        "zh_tw": "──我才不要！那樣會喪失資格的！\\n只是一點小傷……我還能繼續！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0101",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "Even in this state, I'm going to tidy up this\\nroom and win my spot! I'm not giving up!",
+        "ja_jp": "この<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>からでも<ruby><rb>部屋</rb><rt>へや</rt></ruby>を<ruby><rb>綺麗</rb><rt>きれい</rt></ruby>にして、\\n<ruby><rb>認</rb><rt>みと</rt></ruby>めてもらうのよ。<ruby><rb>絶対諦</rb><rt>ぜったいあきら</rt></ruby>めない！",
+        "zh_cn": "我要证明\\n即使我受了伤也能把房间打扫干净。\\n我决不会认输的！",
+        "zh_tw": "發生這種情況還能把房間打掃乾淨，\\n一定能得到認可。我絕對不放棄！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0102",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Oh my...",
+        "ja_jp": "おねえさん……。",
+        "zh_cn": "大姐姐……",
+        "zh_tw": "大姐姐……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0103",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Um, at the very least then, please let me\\nhelp you.",
+        "ja_jp": "――あの。そしたらせめて、わたしにも\\nそのお<ruby><rb>手伝</rb><rt>てつだ</rt></ruby>い、させてください。",
+        "zh_cn": "既然这样的话，\\n至少让我也来帮你一起打扫吧。",
+        "zh_tw": "──那個。這樣的話至少、\\n請妳讓我、幫一點忙吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0104",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "What? Why? I'm not going to give you\\ncredit for it.",
+        "ja_jp": "は？　なに<ruby><rb>言</rb><rt>い</rt></ruby>ってるの。そんなこと\\nしても、あんたに<ruby><rb>手柄</rb><rt>てがら</rt></ruby>なんかあげない\\nわよ。",
+        "zh_cn": "哈？你在说些什么？\\n就算你来帮忙，\\n我也不会把功劳让给你的。",
+        "zh_tw": "蛤？妳在說什麼。\\n就算妳這麼做，\\n我也不會把功勞分給妳的喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0105",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "I know. That's fine. I'll tell the head butler\\nthat you did it all.",
+        "ja_jp": "はい、それでだいじょうぶです。\\nお<ruby><rb>部屋</rb><rt>へや</rt></ruby><ruby><rb>掃除</rb><rt>そうじ</rt></ruby>のお<ruby><rb>手柄</rb><rt>てがら</rt></ruby>は、おねえさんの\\nものだって<ruby><rb>執事長</rb><rt>しつじちょう</rt></ruby>さんに<ruby><rb>言</rb><rt>い</rt></ruby>います。",
+        "zh_cn": "嗯，没问题。\\n我会和总管家说的，\\n打扫房间的功劳都归大姐姐你。",
+        "zh_tw": "好的，那樣也沒關係。\\n我會告訴執事長先生，\\n打掃房間的功勞全都是大姐姐的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0106",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "That makes as much sense as a three-\\nrupie note. What's your game here, kid?",
+        "ja_jp": "はあ？　ますますわけわかんない。\\nじゃあいったい、なにが<ruby><rb>狙</rb><rt>ねら</rt></ruby>いなのよ。",
+        "zh_cn": "哈？你越说我越搞不懂。\\n那你究竟有什么目的？",
+        "zh_tw": "蛤？我越來越無法理解了。\\n那妳到底是為了什麼啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0107",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Well, this way the cleaning is done faster\\nAND it'll be fun.",
+        "ja_jp": "そのほうがお<ruby><rb>掃除</rb><rt>そうじ</rt></ruby>もはやく<ruby><rb>終</rb><rt>お</rt></ruby>わるし、\\nきっと<ruby><rb>楽</rb><rt>たの</rt></ruby>しいですから！",
+        "zh_cn": "我们一起打扫的话就可以快点结束，\\n而且一起打扫也会很开心的！",
+        "zh_tw": "因為那樣可以比較快打掃完，\\n而且一定會很開心的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0108",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "And once we're done, we can make sure\\nyour foot doesn't fall off!",
+        "ja_jp": "それで、お<ruby><rb>掃除</rb><rt>そうじ</rt></ruby>がさっぱり<ruby><rb>終</rb><rt>お</rt></ruby>わったら、\\n<ruby><rb>足</rb><rt>あし</rt></ruby>の<ruby><rb>手当</rb><rt>てあ</rt></ruby>て、しましょう！　ね！",
+        "zh_cn": "然后等打扫结束了以后，\\n我们就去给你的腿包扎！好吗！",
+        "zh_tw": "等我們、把房間打掃乾淨之後，\\n再包紮、妳的腳吧！好嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0109",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "You're a weird one, kid... But fine.\\nHelp if you want—just make sure you\\nstay outta my way at the end!",
+        "ja_jp": "……<ruby><rb>変</rb><rt>へん</rt></ruby>な<ruby><rb>子</rb><rt>こ</rt></ruby>。もういいわ、<ruby><rb>好</rb><rt>す</rt></ruby>きにして。\\n<ruby><rb>足</rb><rt>あし</rt></ruby>ひっぱんないでよ、いろいろとね。",
+        "zh_cn": "真是个奇怪的孩子……\\n算了，随你的便吧。\\n你可别拖我的后腿啊。",
+        "zh_tw": "……真是奇怪的孩子。\\n算了，隨便妳。\\n但妳可別處處扯我後腿喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0110",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Leave it to me!",
+        "ja_jp": "はいっ！　おまかせくださいっ！",
+        "zh_cn": "好的！包在我身上吧！",
+        "zh_tw": "是！包在我身上！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0111",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "*yawn* That was a lot of work, but it looks\\nlike we managed to finish.",
+        "ja_jp": "ふわぁ～っ……<ruby><rb>大変</rb><rt>たいへん</rt></ruby>だったけど、\\nなんとかお<ruby><rb>掃除</rb><rt>そうじ</rt></ruby>、<ruby><rb>完了</rb><rt>かんりょう</rt></ruby>しましたねっ！",
+        "zh_cn": "哎呀～虽然很辛苦，\\n但这下终于打扫完毕了！",
+        "zh_tw": "呼哇～……雖然很辛苦，\\n但總算、打掃乾淨了呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0112",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "You're better at cleaning than I thought\\nyou'd be, kid. Appreciate it.",
+        "ja_jp": "そうね。お<ruby><rb>嬢</rb><rt>じょう</rt></ruby>ちゃん、<ruby><rb>思</rb><rt>おも</rt></ruby>ったより\\n<ruby><rb>掃除</rb><rt>そうじ</rt></ruby><ruby><rb>上手</rb><rt>じょうず</rt></ruby>じゃない。まぁ、<ruby><rb>助</rb><rt>たす</rt></ruby>かったわ。",
+        "zh_cn": "是啊，小姑娘你比我想象得\\n能干多了呢。总之，谢谢你了。",
+        "zh_tw": "是啊。小妹妹，\\n妳比我想的還擅長打掃嘛。\\n總之，謝囉。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0113",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "It's 'cause I always help with cleaning!\\nOh, and all the training I got lately.",
+        "ja_jp": "いつも、お<ruby><rb>手伝</rb><rt>てつだ</rt></ruby>いしてますから！\\nそれにいろいろ<ruby><rb>特訓</rb><rt>とっくん</rt></ruby>もしてもらった\\nから、そのおかげです！",
+        "zh_cn": "我一直有在做家务的！\\n而且也多亏接受了很多特训！",
+        "zh_tw": "因為、我常常幫忙啊！\\n而且也受過許多特訓，\\n所以才很擅長打掃！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0114",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "If you say so. Just remember that you\\npromised to let me take all the credit.",
+        "ja_jp": "そ。……でもね、<ruby><rb>最初</rb><rt>さいしょ</rt></ruby>に<ruby><rb>約束</rb><rt>やくそく</rt></ruby>した<ruby><rb>通</rb><rt>とお</rt></ruby>り、\\nこの<ruby><rb>部屋</rb><rt>へや</rt></ruby>を<ruby><rb>片</rb><rt>かた</rt></ruby>づけた<ruby><rb>手柄</rb><rt>てがら</rt></ruby>はあたしの\\nものよ。<ruby><rb>約束</rb><rt>やくそく</rt></ruby>は<ruby><rb>約束</rb><rt>やくそく</rt></ruby>だから。",
+        "zh_cn": "好吧……不过我们一开始就说好的，\\n打扫这个房间的功劳都归我。\\n答应好的事情可不能反悔。",
+        "zh_tw": "是喔……不過，按照之前說好的，\\n打掃這間房間的功勞得全都歸我。\\n約定就是約定。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0115",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "And YOU promised to get your foot treated\\nonce we're done!",
+        "ja_jp": "わかってます。<ruby><rb>審査</rb><rt>しんさ</rt></ruby>が<ruby><rb>終</rb><rt>お</rt></ruby>わったら、\\nちゃんと<ruby><rb>手当</rb><rt>てあ</rt></ruby>て、しますよ！",
+        "zh_cn": "我知道的。\\n然后等评审结束我就为你包扎！",
+        "zh_tw": "我知道。等審查結束之後，\\n我再好好、幫妳包紮喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0116",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "You and this foot—you'd think it belonged\\nto you. Anyway, let's hurry up and get the\\nthe head butler in here so...",
+        "ja_jp": "あ～も～わかったってば！\\nならとっとと<ruby><rb>執事長</rb><rt>しつじちょう</rt></ruby>を<ruby><rb>呼</rb><rt>よ</rt></ruby>んで<ruby><rb>審査</rb><rt>しんさ</rt></ruby>を……",
+        "zh_cn": "啊～好了好了～我知道了！\\n那就赶快喊总管家来评审……",
+        "zh_tw": "唉～唷～我知道了啦！\\n那妳還不快去叫執事長來審查……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0117",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "I HAVE ALREADY ARRIVED!",
+        "ja_jp": "<ruby><rb>呼</rb><rt>よ</rt></ruby>んだかねッ!!",
+        "zh_cn": "是你叫我吗？",
+        "zh_tw": "有人叫我嗎！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0118",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "Eeeeek! You snuck up on us!",
+        "ja_jp": "うぎゃあ！　は、<ruby><rb>背後</rb><rt>はいご</rt></ruby>から――<ruby><rb>執事長</rb><rt>しつじちょう</rt></ruby>！",
+        "zh_cn": "哇呀！总管家突然出现在身后！",
+        "zh_tw": "嗚哇──！\\n從、從背後出現了──執事長！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0119",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "But of course, for I am the head butler!\\nNow as for the examination of this room...",
+        "ja_jp": "いかにも、<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>執事長</rb><rt>しつじちょう</rt></ruby>であるッ！\\nして、この<ruby><rb>部屋</rb><rt>へや</rt></ruby>の<ruby><rb>審査</rb><rt>しんさ</rt></ruby>だが……",
+        "zh_cn": "没错，正是总管家我！\\n那么关于房间的评审……",
+        "zh_tw": "正是，我正是執事長！\\n那麼，關於這間房間的審查……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0120",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "Every nook and cranny of the room has\\nbeen carefully cleaned and polished.\\nThis is excellent work.",
+        "ja_jp": "<ruby><rb>隅々</rb><rt>すみずみ</rt></ruby>に<ruby><rb>至</rb><rt>いた</rt></ruby>るまで<ruby><rb>丁寧</rb><rt>ていねい</rt></ruby>に<ruby><rb>磨</rb><rt>みが</rt></ruby>かれている。\\n<ruby><rb>良</rb><rt>よ</rt></ruby>い<ruby><rb>仕事</rb><rt>しごと</rt></ruby>だ。",
+        "zh_cn": "每个角落都打扫得很干净。\\n做得不错。",
+        "zh_tw": "每個角落都打掃得十分乾淨。\\n做得很好。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0121",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Yeah, she worked really hard on it!",
+        "ja_jp": "ですよね！　おねえさんが、\\nすっごく<ruby><rb>頑張</rb><rt>がんば</rt></ruby>りましたから！",
+        "zh_cn": "当然啦！\\n这可都是小姐姐努力打扫的结果呢！",
+        "zh_tw": "對吧！\\n因為大姐姐、她非常地努力啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0122",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "It takes no small amount of determination\\nto toil so diligently while one's foot is\\ninjured. This has been well and truly\\nnoted on my part.",
+        "ja_jp": "うむ。<ruby><rb>足</rb><rt>あし</rt></ruby>を<ruby><rb>挫</rb><rt>くじ</rt></ruby>きながらも<ruby><rb>主人</rb><rt>しゅじん</rt></ruby>のために\\n<ruby><rb>尽</rb><rt>つ</rt></ruby>くす<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>、<ruby><rb>生半</rb><rt>なまなか</rt></ruby>なものではない。\\nその<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>、しかと<ruby><rb>受</rb><rt>う</rt></ruby>け<ruby><rb>取</rb><rt>と</rt></ruby>った。",
+        "zh_cn": "嗯。即使腿上有伤\\n也不忘为主人奉献的这份心\\n毫无疑问值得肯定。",
+        "zh_tw": "嗯。即使扭傷腳也要為主人盡心盡力，\\n這份覺悟實屬難得。\\n妳的覺悟，我確實感受到了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0123",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "So does that mean...?",
+        "ja_jp": "あ、な、なら……！",
+        "zh_cn": "啊，那、那么……",
+        "zh_tw": "啊，那、那麼……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0124",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "However! A truly excellent member of the\\nstaff would not have hidden such an injury.",
+        "ja_jp": "しかし――<ruby><rb>真</rb><rt>しん</rt></ruby>に<ruby><rb>優秀</rb><rt>ゆうしゅう</rt></ruby>な<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>を<ruby><rb>目指</rb><rt>めざ</rt></ruby>す\\nなら、そのケガを<ruby><rb>隠</rb><rt>かく</rt></ruby>すべきでは\\nなかったな。",
+        "zh_cn": "但是——\\n要想成为真正优秀的佣人，\\n你就不应该隐瞒自己的伤。",
+        "zh_tw": "不過──\\n若有心成為真正優秀的僕人，\\n妳就不該隱瞞傷勢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0125",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "Ummmm...what?",
+        "ja_jp": "えっ……。",
+        "zh_cn": "诶……",
+        "zh_tw": "咦……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0126",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "If you lie about your physical condition,\\nyou will be unable to perform your work,\\nwhich could well end up a source of\\nunnecessary worry for your employer.",
+        "ja_jp": "<ruby><rb>体調</rb><rt>たいちょう</rt></ruby>を<ruby><rb>偽</rb><rt>いつわ</rt></ruby>ってはパフォーマンスが<ruby><rb>発揮</rb><rt>はっき</rt></ruby>\\nできぬ。それにより、<ruby><rb>主人</rb><rt>しゅじん</rt></ruby>へ<ruby><rb>要</rb><rt>い</rt></ruby>らぬ\\n<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>をかけることもあろう。",
+        "zh_cn": "隐瞒健康状况\\n将使自己无法发挥真实的实力。\\n这样会导致主人为你操不必要的心。",
+        "zh_tw": "隱瞞身體不適便無法有良好表現，\\n也可能會因此，害主人操多餘的心。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0127",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "So while it pains me to say it...YOU FAIL!\\nI hope you will make another attempt\\nonce you are restored to full health.",
+        "ja_jp": "ゆえに。<ruby><rb>誠</rb><rt>まこと</rt></ruby>に<ruby><rb>申</rb><rt>もう</rt></ruby>し<ruby><rb>訳</rb><rt>わけ</rt></ruby>ないが、<ruby><rb>貴殿</rb><rt>きでん</rt></ruby>は\\n<ruby><rb>今回</rb><rt>こんかい</rt></ruby>、<ruby><rb>本選</rb><rt>ほんせん</rt></ruby><ruby><rb>不合格</rb><rt>ふごうかく</rt></ruby>だ。また<ruby><rb>次</rb><rt>つぎ</rt></ruby>の<ruby><rb>機会</rb><rt>きかい</rt></ruby>に\\n<ruby><rb>万全</rb><rt>ばんぜん</rt></ruby>の<ruby><rb>状態</rb><rt>じょうたい</rt></ruby>で<ruby><rb>挑</rb><rt>いど</rt></ruby>んでほしい。",
+        "zh_cn": "所以非常遗憾，\\n你被淘汰了。\\n希望你下次能以完美的状态来挑战。",
+        "zh_tw": "因此，雖然非常遺憾，\\n但妳在這次正式選拔失去資格了。\\n希望下次能以萬全的狀態再次挑戰。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0128",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Finalist",
+        "ja_jp": "本選参加者",
+        "zh_cn": "决赛参加者",
+        "zh_tw": "正式選拔參加者"
+      },
+      "context": {
+        "en_us": "Urrrrgh...",
+        "ja_jp": "うう。……わかりました。",
+        "zh_cn": "呜呜……我知道了。",
+        "zh_tw": "嗚嗚……我知道了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0129",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "And now for YOUR evaluation...",
+        "ja_jp": "して、もうひとりの<ruby><rb>貴殿</rb><rt>きでん</rt></ruby>の<ruby><rb>審査</rb><rt>しんさ</rt></ruby>だが。",
+        "zh_cn": "然后则是关于你的审查。",
+        "zh_tw": "接下來，是對另一位的審查。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0130",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Y-yes, sir! I'm ready, sir!",
+        "ja_jp": "えっ、あ、はいっ！",
+        "zh_cn": "诶，啊，是！",
+        "zh_tw": "咦、啊、是的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0131",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "Pass.",
+        "ja_jp": "<ruby><rb>合格</rb><rt>ごうかく</rt></ruby>だ。",
+        "zh_cn": "你合格了。",
+        "zh_tw": "合格。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0132",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Okay, I'll try harder next... Wait, I pass?\\nBut...but why? How?",
+        "ja_jp": "はいぃっ。……って、えっ!?\\nなんでですか？",
+        "zh_cn": "好的……诶、诶！？\\n为什么啊？",
+        "zh_tw": "是……呃、咦！？\\n為什麼呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0133",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "Because I witnessed your concern for that\\nwoman's injury, and saw you offer to help\\neven at the expense of your own future.",
+        "ja_jp": "<ruby><rb>貴殿</rb><rt>きでん</rt></ruby>が<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>のケガを<ruby><rb>気</rb><rt>き</rt></ruby>にかけ、<ruby><rb>自</rb><rt>みずか</rt></ruby>らの\\n<ruby><rb>合格</rb><rt>ごうかく</rt></ruby>を<ruby><rb>棄</rb><rt>す</rt></ruby>ててでも<ruby><rb>手伝</rb><rt>てつだ</rt></ruby>いを<ruby><rb>申</rb><rt>もう</rt></ruby>し<ruby><rb>出</rb><rt>で</rt></ruby>た\\n<ruby><rb>場面</rb><rt>ばめん</rt></ruby>、<ruby><rb>見</rb><rt>み</rt></ruby>させてもらった。",
+        "zh_cn": "你担心她的伤势，\\n宁愿放弃自己的机会也要帮助她。\\n这一切我都看在眼里。",
+        "zh_tw": "妳關心她的傷勢，甚至不惜\\n放棄合格也要幫助她的場景，\\n我都看見了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0134",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "Skill and charisma alone are not all that is\\nrequired of an exceptional servant. Warm\\nand attentive care for others is also vital,\\nand you clearly have this in great quantity.",
+        "ja_jp": "<ruby><rb>素晴</rb><rt>すば</rt></ruby>らしいッ。<ruby><rb>優秀</rb><rt>ゆうしゅう</rt></ruby>な<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>に<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>な\\nものはスキルやカリスマだけではない。\\nあたたかな<ruby><rb>気配</rb><rt>きくば</rt></ruby>りもなのだ。",
+        "zh_cn": "这太棒了！一个优秀的佣人\\n需要的不只是技术和领袖气质，\\n更需要有一颗懂得关心他人的温暖的心。",
+        "zh_tw": "非常好。一名優秀的僕人，\\n需要的不只有技術與魅力。\\n更需要有關懷他人的溫暖內心。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0135",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "So as I said more quietly before...PASS!\\nNow then, all passing applicants are to\\nreport to the waiting room at once.",
+        "ja_jp": "<ruby><rb>貴殿</rb><rt>きでん</rt></ruby>はそれを<ruby><rb>文句</rb><rt>もんく</rt></ruby>なしに<ruby><rb>備</rb><rt>そな</rt></ruby>えている。\\n<ruby><rb>合格</rb><rt>ごうかく</rt></ruby>は<ruby><rb>疑</rb><rt>うたが</rt></ruby>いようはないッ!!\\nさぁ、<ruby><rb>合格者控室</rb><rt>ごうかくしゃひかえしつ</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>きたまえッ!!",
+        "zh_cn": "方才的一切证明了你的这一点。\\n毋庸置疑你是合格的人材！\\n去吧，去合格者等候室吧！",
+        "zh_tw": "而妳確確實實具備這項特點。\\n合格得無庸置疑！！\\n好了，快到合格者休息室去吧！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0136",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Right! Um...thank you, sir!",
+        "ja_jp": "……はいっ！　\\nあ……ありがとうございます！",
+        "zh_cn": "是！\\n谢……谢谢你！",
+        "zh_tw": "……是！\\n非……非常謝謝你！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0137",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "As you can see, the winners of the\\naudition are you three individuals.",
+        "ja_jp": "――というわけでッ！\\nこたびのオーディションを<ruby><rb>勝</rb><rt>か</rt></ruby>ち<ruby><rb>残</rb><rt>のこ</rt></ruby>った\\n<ruby><rb>勝者</rb><rt>しょうしゃ</rt></ruby>は<ruby><rb>諸君</rb><rt>しょくん</rt></ruby>ら3<ruby><rb>人</rb><rt>にん</rt></ruby>となったッ!!",
+        "zh_cn": "综上所述——\\n在本次选拔赛中坚持到最后的\\n胜者就是你们三位！",
+        "zh_tw": "──因為如此！\\n於本次選拔中脫穎而出的贏家，\\n就是你們三位了！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0138",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "With that, I would have you get right to\\ntaking care of Emperor Emile's personal\\nspaces. You can start by cleaning his\\nsleeping quarters.",
+        "ja_jp": "<ruby><rb>諸君</rb><rt>しょくん</rt></ruby>ら3<ruby><rb>人</rb><rt>にん</rt></ruby>には、<ruby><rb>早速</rb><rt>さっそく</rt></ruby>エミュール<ruby><rb>様</rb><rt>さま</rt></ruby>の\\n<ruby><rb>身</rb><rt>み</rt></ruby>の<ruby><rb>回</rb><rt>まわ</rt></ruby>りの<ruby><rb>世話</rb><rt>せわ</rt></ruby>を<ruby><rb>手伝</rb><rt>てつだ</rt></ruby>ってもらう。\\nまずは……<ruby><rb>私室</rb><rt>ししつ</rt></ruby>の<ruby><rb>清掃</rb><rt>せいそう</rt></ruby>からだ。",
+        "zh_cn": "接下来我需要三位立刻开始\\n着手照顾艾缪尔大人的生活起居。\\n首先就是……打扫大人的房间。",
+        "zh_tw": "你們三位就立刻負責照顧\\n埃米爾大人的生活起居吧。\\n首先……從打掃房間開始。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0139",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "You will begin after waking the emperor\\ntomorrow morning. Understood?",
+        "ja_jp": "<ruby><rb>明朝</rb><rt>みょうちょう</rt></ruby>、エミュール<ruby><rb>様</rb><rt>さま</rt></ruby>に<ruby><rb>朝</rb><rt>あさ</rt></ruby>のお<ruby><rb>目覚</rb><rt>めざ</rt></ruby>めを\\n<ruby><rb>促</rb><rt>うなが</rt></ruby>したのち、<ruby><rb>清掃</rb><rt>せいそう</rt></ruby>をこなしてほしい。\\n<ruby><rb>良</rb><rt>よ</rt></ruby>いかッ！",
+        "zh_cn": "明早叫醒艾缪尔大人之后\\n就立刻对房间进行打扫。\\n明白了吗！",
+        "zh_tw": "明早，叫醒埃米爾大人之後，\\n我要你們立刻進行清掃。\\n明白嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0140",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Together",
+        "ja_jp": "3人",
+        "zh_cn": "3人",
+        "zh_tw": "3人"
+      },
+      "context": {
+        "en_us": "Yes, sir!",
+        "ja_jp": "ハイッ！",
+        "zh_cn": "是！",
+        "zh_tw": "是！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0141",
+      "book": ""
+    },
+    {
+      "icon": "110404_02",
+      "name": {
+        "en_us": "Zodiark",
+        "ja_jp": "ゾディアーク",
+        "zh_cn": "佐迪亚克",
+        "zh_tw": "索狄亞克"
+      },
+      "context": {
+        "en_us": "Though it required much effort, we have\\ncome a step closer to our objective.",
+        "ja_jp": "ふう……。なかなか<ruby><rb>骨</rb><rt>ほね</rt></ruby>が<ruby><rb>折</rb><rt>お</rt></ruby>れたが、\\nやっと<ruby><rb>一歩</rb><rt>いっぽ</rt></ruby>、<ruby><rb>目標</rb><rt>もくひょう</rt></ruby>へ<ruby><rb>近</rb><rt>ちか</rt></ruby>づいたな。",
+        "zh_cn": "呼……虽然过程艰辛，\\n但总算离目标近了一步。",
+        "zh_tw": "呼……雖說已疲憊不堪，\\n但總算離目標接近一步了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0142",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "Indeed. Now we can communicate with\\nEmperor Emile directly, as well as\\ninvestigate his private quarters.",
+        "ja_jp": "ええ。これでエミュール<ruby><rb>様</rb><rt>さま</rt></ruby>に<ruby><rb>堂々</rb><rt>どうどう</rt></ruby>と\\n<ruby><rb>接触</rb><rt>せっしょく</rt></ruby>し、<ruby><rb>私室</rb><rt>ししつ</rt></ruby>の<ruby><rb>調査</rb><rt>ちょうさ</rt></ruby>をすることが\\nできます。",
+        "zh_cn": "嗯。\\n这样就能光明正大地接触艾缪尔大人\\n并调查他的房间了。",
+        "zh_tw": "是啊。這下就能光明正大地\\n接觸埃米爾大人，\\n並調查他的房間了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0143",
+      "book": ""
+    },
+    {
+      "icon": "110049_01",
+      "name": {
+        "en_us": "Edward",
+        "ja_jp": "エドワード",
+        "zh_cn": "爱德华",
+        "zh_tw": "愛德華"
+      },
+      "context": {
+        "en_us": "We shall assess the true nature of\\nwhatever devilry has befallen him.",
+        "ja_jp": "<ruby><rb>彼</rb><rt>かれ</rt></ruby>に<ruby><rb>起</rb><rt>お</rt></ruby>きた<ruby><rb>異変</rb><rt>いへん</rt></ruby>の<ruby><rb>正体</rb><rt>しょうたい</rt></ruby>を、\\n<ruby><rb>確</rb><rt>たし</rt></ruby>かめて<ruby><rb>参</rb><rt>まい</rt></ruby>りましょう。",
+        "zh_cn": "我们去调查一下\\n他那异常行径的原因吧。",
+        "zh_tw": "發生於他身上的異變真相，\\n讓我們來確認為何吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0144",
+      "book": ""
+    },
+    {
+      "icon": "110302_05",
+      "name": {
+        "en_us": "Pia",
+        "ja_jp": "ピアチェ",
+        "zh_cn": "皮雅茜",
+        "zh_tw": "琵雅雀"
+      },
+      "context": {
+        "en_us": "Just hang on a little longer, Emile!",
+        "ja_jp": "もちろん、です！　<ruby><rb>待</rb><rt>ま</rt></ruby>っててください、\\nエミュールさん……！",
+        "zh_cn": "好的！\\n艾缪尔，我们很快就来帮你了……",
+        "zh_tw": "當然、了！請等著我們吧，\\n埃米爾先生……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0145",
+      "book": ""
+    },
+    {
+      "icon": "120093_01",
+      "name": {
+        "en_us": "Mouse",
+        "ja_jp": "ねずみ",
+        "zh_cn": "鼠鼠",
+        "zh_tw": "老鼠"
+      },
+      "context": {
+        "en_us": "Squeak!",
+        "ja_jp": "きゅー！",
+        "zh_cn": "吱！",
+        "zh_tw": "吱──！"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "See how they overflow with enthusiasm!\\nTruly my judgment was not lacking.",
+        "ja_jp": "フッ……やる<ruby><rb>気</rb><rt>き</rt></ruby>にあふれた<ruby><rb>者</rb><rt>もの</rt></ruby>たちだ。\\nやはり<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>目</rb><rt>め</rt></ruby>に、<ruby><rb>狂</rb><rt>くる</rt></ruby>いはなかったッ。",
+        "zh_cn": "呵……真是干劲十足的一帮人啊。\\n果然我的眼光不会出错。",
+        "zh_tw": "呵……幹勁十足的人們。\\n我果然沒看錯。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0146",
+      "book": ""
+    },
+    {
+      "icon": "120079_01",
+      "name": {
+        "en_us": "Head Butler",
+        "ja_jp": "執事長",
+        "zh_cn": "总管家",
+        "zh_tw": "執事長"
+      },
+      "context": {
+        "en_us": "Ah, my excellent new servants. Now there\\nwill be more friends at last—and the party\\ncan truly booooo-gin! Aaah ha ha ha!",
+        "ja_jp": "……<ruby><rb>新</rb><rt>あたら</rt></ruby>しい<ruby><rb>優秀</rb><rt>ゆうしゅう</rt></ruby>な<ruby><rb>使用人</rb><rt>しようにん</rt></ruby>。これでやっと\\n『オトモダチ』が<ruby><rb>増</rb><rt>ふ</rt></ruby>やせる。さぁ、\\n<ruby><rb>今</rb><rt>いま</rt></ruby>こそパーティーを<ruby><rb>始</rb><rt>はじ</rt></ruby>める<ruby><rb>時</rb><rt>とき</rt></ruby>だ……！",
+        "zh_cn": "新来的优秀佣人……\\n这样一来就又能有新的“朋友”了。\\n来吧，狂欢的时刻到了……",
+        "zh_tw": "……新來的優秀僕人。\\n這下總算能增加「好朋友」了。\\n來吧，宴會即將開始……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22905_03_0147",
+      "book": ""
+    }
+  ]
 }

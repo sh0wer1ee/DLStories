@@ -1,654 +1,1241 @@
 {
-    "story_id": "",
-    "story_name": "荒岛求生 继承霸道之意志",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "艾缪尔以为莱昂尼多\\n为保护自己牺牲而郁郁寡欢。\\n受到王子的激励后，\\n他下定决心要为莱昂尼多报仇，\\n便向王子和谢斯提出合作。"
-        ]
+  "title": {
+    "en_us": "Stranded Scions    The Will to Carry On",
+    "ja_jp": "サバイブ・アイランド  覇道を継ぐ意志",
+    "zh_cn": "荒岛求生  继承霸道之意志",
+    "zh_tw": "野外求生‧島嶼驚魂  繼承霸道的意志"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "你们可真够慢的……\\n怎么不见莱昂尼多王兄，\\n出什么事了？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "其实……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "是吗，发生了这种事……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我立刻去崖下查看了，\\n但是没找到莱昂尼多哥哥。\\n希望他没事……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "哈，你在说什么呢。\\n崖下是暗礁，浪又这么猛……\\n掉下去怎么可能没事啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "真是太丢人了！\\n嘴上说着大话，\\n竟然这么轻易就挂了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "谢斯姐姐！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "呜……可恶！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "艾缪尔，等等！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "我竟然一时失控，\\n做出了有失淑女身份的事……\\n我也还不够成熟呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "尤蒂尔，\\n你能把艾缪尔带回来吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "嗯，倒是没问题……\\n不过与其让我去，\\n还是谢斯姐姐去更好吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "我去的话，就算把他带回来了，\\n也只是他不甘不愿地服从命令而已……\\n那就不叫齐心协力了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "要真正做到齐心协力，\\n就得让他凭自己的意愿\\n回来才行……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "而你这个弟弟去说的话，\\n就不算是命令了吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "是这样吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "嗯。所以尤蒂尔……\\n艾缪尔就拜托你了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好……我会想办法的。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "艾缪尔！你在哪！？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "也不在这里……\\n艾缪尔到底去哪了！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "莱昂尼多哥哥，你为什么……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "原来你在这里……\\n真是让我好找啊，艾缪尔。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "你这臭虫干什么来了……\\n是谢斯姐姐让你\\n把我带回去吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "艾缪尔，就算在这里闷闷不乐\\n也无济于事。现在只能靠我们几个\\n齐心协力想想该怎么办了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_02"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "你为什么能这么冷静啊！\\n闷闷不乐也无济于事！？\\n这叫什么话啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_02"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "莱昂尼多哥哥是因为我才死的！\\n要不是为了保护我他也不会……\\n该死，为什么会这样啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_02"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "他不是说过要为了活下去\\n而行动吗！可他却……\\n为什么要保护我啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_02"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "他应该也很清楚吧！？\\n真正应该死在那里的，\\n明明是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "艾缪尔，别那么说！\\n现在莱昂尼多哥哥\\n还不一定死了吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "而且还说什么不保护你\\n就不会……你真的觉得\\n他是那么想的吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_02"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "什么意思……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "莱昂尼多哥哥说了，\\n要想在这里活下去，\\n就需要我们齐心协力……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "他当时保护你也是因为\\n他认为需要这么做。\\n所以哥哥他一定不会后悔。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_02"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "你说的这些……\\n都是你的凭空想象而已。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "是啊……不过，我有把握。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "哥哥他绝对不是那种\\n会鲁莽行事的人……\\n这一点你不是也很清楚吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "你这个弟弟，少自以为是了。\\n不过……也许你说得对。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "我一直都很羡慕他的强大。\\n不光是战斗和统率的能力……\\n还有他那坚定的意志。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "所以，哥哥保护我的时候\\n我就在想他为什么要这么做，\\n保护我对他有什么好处。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "我不明白啊……被人保护\\n很丢人……但也有一点开心……\\n现在脑子里一片混乱。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "艾缪尔……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "尤蒂尔……\\n你回谢斯姐姐那里去吧，\\n我……再过一会儿就回去。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "知道了……\\n我们等你，艾缪尔哥哥。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "莱昂尼多哥哥……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "你可算是回来了……\\n真是的，上哪溜达去了？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "谢斯姐姐，我……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "别在那里愣着了，\\n快过来吃饭。这可是我\\n费了好大功夫做的！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "这是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "莱昂尼多王兄最爱的咖喱！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "没想到在荒岛\\n还能做咖喱……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "哦呵呵呵！\\n这也是身为淑女的修养！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "吃一吃我做的饭，\\n好好感受姐姐的温情吧。\\n来，不要客气快吃吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "不，比起吃饭，\\n我们应该先考虑今后……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "今后的打算吃完饭也能说。\\n要先为战斗养精蓄锐才行。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "你也是打算和我们并肩作战\\n才回到这里来的吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "哼……算你说对了！\\n尤蒂尔，\\n赶紧把我那份咖喱给我！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "嗯！这就给你。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "那么，我们也得计议一下\\n今后的打算了。\\n你们两位有什么想法吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "关于这个……\\n我想给莱昂尼多哥哥报仇。\\n不，是必须由我来报仇才行！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "艾缪尔……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "莱昂尼多哥哥是为了保护我\\n不受怪物袭击而死……\\n我不能让他白白牺牲。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "所以我想让你们……那个……\\n为了我能干掉那怪物……\\n把各自的力量，那个……呃……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "真是急死人……\\n想让我们帮忙的话\\n你就直说。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "呃！？知、知道啦！\\n就是那个……我只是稍微，\\n斟酌一下措辞……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100015_09"
-            ],
-            "speaker_name": "谢斯",
-            "context": "呵呵，何必费那些心思，\\n这可不像你啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "什么！？我只是……",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_13"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "没关系的，艾缪尔。\\n我们是手足，\\n所以你不说我们也懂。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "你这个弟弟少说大话……\\n不过这回我就\\n大人不记小人过了。",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "听好了！其实本大爷\\n自己也能搞定，但是这回\\n就赏你们一个机会帮忙！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100017_01"
-            ],
-            "speaker_name": "艾缪尔",
-            "context": "我们一定要手足合力，\\n给莱昂尼多哥哥报仇！",
-            "voice_line": "VO_CHR_EVENTSTORY_20435_05_0071",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Emile is despondent, believing that Leonidas\\nhas died protecting him. With his younger\\nbrother's encouragement, he resolves to get\\nrevenge for Leonidas's death, and agrees to\\ncooperate with his siblings at last.",
+      "ja_jp": "<ruby><rb>自分</rb><rt>じぶん</rt></ruby>を<ruby><rb>庇</rb><rt>かば</rt></ruby>ったせいでレオニードが<ruby><rb>死</rb><rt>し</rt></ruby>んだと\\n<ruby><rb>考</rb><rt>かんが</rt></ruby>え<ruby><rb>塞</rb><rt>ふさ</rt></ruby>ぐエミュール。<ruby><rb>王子</rb><rt>おうじ</rt></ruby>の<ruby><rb>鼓舞</rb><rt>こぶ</rt></ruby>により\\nレオニードの<ruby><rb>仇</rb><rt>かたき</rt></ruby>を<ruby><rb>討</rb><rt>う</rt></ruby>つことを<ruby><rb>決心</rb><rt>けっしん</rt></ruby>した<ruby><rb>彼</rb><rt>かれ</rt></ruby>は\\n<ruby><rb>王子</rb><rt>おうじ</rt></ruby>とシェスに<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>を<ruby><rb>求</rb><rt>もと</rt></ruby>める。",
+      "zh_cn": "艾缪尔以为莱昂尼多\\n为保护自己牺牲而郁郁寡欢。\\n受到王子的激励后，\\n他下定决心要为莱昂尼多报仇，\\n便向王子和谢斯提出合作。",
+      "zh_tw": "埃米爾認為雷歐尼特是為了保護自己而死，\\n對此十分自責。在王子的鼓勵下，\\n他下定決心要為雷歐尼特報仇，\\n並向王子與謝斯尋求協助。"
+    }
+  },
+  "prev": "2043504",
+  "next": "2043506",
+  "content": [
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "It took you long enough. And I don't\\nsee Leonidas... Where is he?",
+        "ja_jp": "<ruby><rb>随分</rb><rt>ずいぶん</rt></ruby>と<ruby><rb>遅</rb><rt>おそ</rt></ruby>かったですわね。\\n……レオニードお<ruby><rb>兄</rb><rt>にい</rt></ruby><ruby><rb>様</rb><rt>さま</rt></ruby>の<ruby><rb>姿</rb><rt>すがた</rt></ruby>がないよう\\nですけど、どうなさいましたの？",
+        "zh_cn": "你们可真够慢的……\\n怎么不见莱昂尼多王兄，\\n出什么事了？",
+        "zh_tw": "回來得還真晚呢。\\n……我沒看到雷歐尼特哥哥大人，\\n是發生什麼事了嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0001",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0002",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Well...",
+        "ja_jp": "<ruby><rb>実</rb><rt>じつ</rt></ruby>は――",
+        "zh_cn": "其实……",
+        "zh_tw": "其實──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0003",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "I...see.",
+        "ja_jp": "――そう、そんなことが……。",
+        "zh_cn": "是吗，发生了这种事……",
+        "zh_tw": "──是嗎，發生了那種事……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0004",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I went right down to check the bottom of\\nthe cliffs, but I couldn't find any sign of\\nhim. I really hope he's okay.",
+        "ja_jp": "すぐに<ruby><rb>崖</rb><rt>がけ</rt></ruby>の<ruby><rb>下</rb><rt>した</rt></ruby>を<ruby><rb>確認</rb><rt>かくにん</rt></ruby>しに<ruby><rb>行</rb><rt>い</rt></ruby>ったけど、\\nレオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さんは<ruby><rb>見</rb><rt>み</rt></ruby>つからなかった。\\n<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>だといいんだけど……。",
+        "zh_cn": "我立刻去崖下查看了，\\n但是没找到莱昂尼多哥哥。\\n希望他没事……",
+        "zh_tw": "當時我立刻就去懸崖下確認過，\\n但卻沒看到雷歐尼特哥哥。\\n希望他沒事才好……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0005",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "What sort of fantasy world are you living\\nin? It's a veritable deathtrap of rocky reefs\\nand wild waves down there!",
+        "ja_jp": "ハッ、なに<ruby><rb>言</rb><rt>い</rt></ruby>ってんだお<ruby><rb>前</rb><rt>まえ</rt></ruby>。\\n<ruby><rb>崖</rb><rt>がけ</rt></ruby>の<ruby><rb>下</rb><rt>した</rt></ruby>は<ruby><rb>岩礁</rb><rt>がんしょう</rt></ruby>で、<ruby><rb>波</rb><rt>なみ</rt></ruby>は<ruby><rb>大荒</rb><rt>おおあ</rt></ruby>れ……\\nあれで<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>なわけあるかよ！",
+        "zh_cn": "哈，你在说什么呢。\\n崖下是暗礁，浪又这么猛……\\n掉下去怎么可能没事啊！",
+        "zh_tw": "哈，你在說什麼啊。\\n懸崖下滿是礁岩，又有大浪……\\n怎麼可能會沒事！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0006",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "That FOOL... He had it coming! Going on\\nand on with his holier-than-thou attitude,\\njust to drop dead that easily?!",
+        "ja_jp": "……まったく、ざまあないぜ！\\nあんなエラそうなこと<ruby><rb>言</rb><rt>い</rt></ruby>ってたくせに、\\nこんな<ruby><rb>簡単</rb><rt>かんたん</rt></ruby>にくたばっちまうとはな！",
+        "zh_cn": "真是太丢人了！\\n嘴上说着大话，\\n竟然这么轻易就挂了！",
+        "zh_tw": "……真是的，實在有夠丟臉！\\n明明嘴巴上說得那麼囂張，\\n沒想到隨隨便便就掛了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0007",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Ah! Chelle—!",
+        "ja_jp": "シェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さん!?",
+        "zh_cn": "谢斯姐姐！？",
+        "zh_tw": "謝斯姊姊！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0008",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "...Ngh?! Damn it!",
+        "ja_jp": "……くうぅっ!?　クソッ!!",
+        "zh_cn": "呜……可恶！",
+        "zh_tw": "……唔唔嗚！？可惡！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0009",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Wait, Emile!",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>ってくれ、エミュール！",
+        "zh_cn": "艾缪尔，等等！",
+        "zh_tw": "等等，埃米爾！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0010",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Pardon that crass display. And here I call\\nmyself a paragon of ladylike decorum...",
+        "ja_jp": "……つい、<ruby><rb>淑女</rb><rt>レディ</rt></ruby>らしからぬことを\\nしてしまいましたわ。わたくしも\\nまだまだですわね。",
+        "zh_cn": "我竟然一时失控，\\n做出了有失淑女身份的事……\\n我也还不够成熟呢。",
+        "zh_tw": "……一不小心、\\n就做出了有失淑女風範的舉動。\\n我也還不夠成熟呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0011",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Euden, will you bring\\nEmile back?",
+        "ja_jp": "ユーディル、\\nエミュールさんを<ruby><rb>連</rb><rt>つ</rt></ruby>れ<ruby><rb>戻</rb><rt>もど</rt></ruby>してきて\\nくださる？",
+        "zh_cn": "尤蒂尔，\\n你能把艾缪尔带回来吗？",
+        "zh_tw": "尤帝爾，\\n你可以幫我去把埃米爾帶回來嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0012",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I could, sure, but...I think it might\\nbe better if you went, don't you?",
+        "ja_jp": "ああ、それは<ruby><rb>構</rb><rt>かま</rt></ruby>わないけど……\\nおれが<ruby><rb>行</rb><rt>い</rt></ruby>くより、シェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さんが\\n<ruby><rb>行</rb><rt>い</rt></ruby>ったほうがいいんじゃないか？",
+        "zh_cn": "嗯，倒是没问题……\\n不过与其让我去，\\n还是谢斯姐姐去更好吧？",
+        "zh_tw": "嗯，那是無所謂，不過……\\n比起我，謝斯姊姊去不是比較好嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0013",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "If I went, he'd simply end up obeying my\\ncommands as a matter of course. That\\nwould be far from securing his genuine\\ncooperation.",
+        "ja_jp": "わたくしが<ruby><rb>行</rb><rt>い</rt></ruby>ったのでは、<ruby><rb>連</rb><rt>つ</rt></ruby>れ<ruby><rb>戻</rb><rt>もど</rt></ruby>せても\\n<ruby><rb>命令</rb><rt>めいれい</rt></ruby>されて<ruby><rb>嫌々従</rb><rt>いやいやしたが</rt></ruby>っただけ……それでは\\n<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>合</rb><rt>あ</rt></ruby>わせることにはなりませんわ。",
+        "zh_cn": "我去的话，就算把他带回来了，\\n也只是他不甘不愿地服从命令而已……\\n那就不叫齐心协力了。",
+        "zh_tw": "如果我親自去，即使能將他帶回來，\\n他也只是不情不願地服從命令而已……\\n那樣無法稱得上互相合作。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0014",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "If we want him to work with us in the\\ntruest sense, he needs to come back of\\nhis own volition.",
+        "ja_jp": "<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>の<ruby><rb>意味</rb><rt>いみ</rt></ruby>で<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>合</rb><rt>あ</rt></ruby>わせるなら、\\nあの<ruby><rb>子</rb><rt>こ</rt></ruby>には<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>意志</rb><rt>いし</rt></ruby>で<ruby><rb>戻</rb><rt>もど</rt></ruby>ってきて\\nもらわなくては……。",
+        "zh_cn": "要真正做到齐心协力，\\n就得让他凭自己的意愿\\n回来才行……",
+        "zh_tw": "如果要真正的互相合作，\\n就必須讓那孩子透過自己的意願\\n回來才行……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0015",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "In that respect, I think he'd stand to benefit\\nmost from the counsel of his little brother.",
+        "ja_jp": "その<ruby><rb>点</rb><rt>てん</rt></ruby>、<ruby><rb>弟</rb><rt>おとうと</rt></ruby>であるあなたが<ruby><rb>話</rb><rt>はな</rt></ruby>す<ruby><rb>分</rb><rt>ぶん</rt></ruby>には\\n<ruby><rb>命令</rb><rt>めいれい</rt></ruby>にはならないでしょう。",
+        "zh_cn": "而你这个弟弟去说的话，\\n就不算是命令了吧。",
+        "zh_tw": "從這點來看，\\n如果由身為弟弟的你去勸說，\\n就不會變成命令對吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0016",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "You...think so?",
+        "ja_jp": "そう、かな……？",
+        "zh_cn": "是这样吗……",
+        "zh_tw": "是那樣、嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0017",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "I do. So please, go and take care of him.",
+        "ja_jp": "ええ。だからユーディル……\\nエミュールさんのこと、<ruby><rb>頼</rb><rt>たの</rt></ruby>みましてよ。",
+        "zh_cn": "嗯。所以尤蒂尔……\\n艾缪尔就拜托你了。",
+        "zh_tw": "嗯。所以尤帝爾……\\n埃米爾的事就麻煩你了唷。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0018",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "...Okay. I'll figure something out.",
+        "ja_jp": "……わかった。なんとかやってみるよ。",
+        "zh_cn": "好……我会想办法的。",
+        "zh_tw": "……知道了，\\n我會努力試試的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0019",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Emiiile! Please, I want to talk!",
+        "ja_jp": "エミュール！　いないのかー!?",
+        "zh_cn": "艾缪尔！你在哪！？",
+        "zh_tw": "埃米爾！你在這嗎──！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0020",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Not this way... Where are you, Emile?",
+        "ja_jp": "こっちのほうにもいない……。\\nどこに<ruby><rb>行</rb><rt>い</rt></ruby>ったんだ、エミュール……！",
+        "zh_cn": "也不在这里……\\n艾缪尔到底去哪了！",
+        "zh_tw": "也不在這裡……\\n到底去哪了啊，埃米爾……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0021",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Leonidas... Why...?",
+        "ja_jp": "……レオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さん、どうして……。",
+        "zh_cn": "莱昂尼多哥哥，你为什么……",
+        "zh_tw": "……雷歐尼特哥哥，為什麼……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0022",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "There you are, Brother.\\nI've been looking for you.",
+        "ja_jp": "こんなところにいたのか。\\n……<ruby><rb>探</rb><rt>さが</rt></ruby>したよ、エミュール。",
+        "zh_cn": "原来你在这里……\\n真是让我好找啊，艾缪尔。",
+        "zh_tw": "你在這裡啊。\\n……我找你好久了，埃米爾。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0023",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "What do you want, scum? Did Chelle send\\nyou here to drag me back?",
+        "ja_jp": "なにしに<ruby><rb>来</rb><rt>き</rt></ruby>やがった、クソ<ruby><rb>虫</rb><rt>むし</rt></ruby>……。\\nシェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さんにオレを<ruby><rb>連</rb><rt>つ</rt></ruby>れ<ruby><rb>戻</rb><rt>もど</rt></ruby>してこい\\nとでも<ruby><rb>言</rb><rt>い</rt></ruby>われたか。",
+        "zh_cn": "你这臭虫干什么来了……\\n是谢斯姐姐让你\\n把我带回去吗？",
+        "zh_tw": "來找我幹嘛，你這臭蟲……\\n是謝斯姊姊派你來把我帶回去的嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0024",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Please, stop. It avails you nothing to be so\\nnegative. Those of us that remain have to\\nwork together if we want out of this crisis.",
+        "ja_jp": "……エミュール、そうやって<ruby><rb>塞</rb><rt>ふさ</rt></ruby>いでても\\nしょうがない。<ruby><rb>残</rb><rt>のこ</rt></ruby>ったおれたちで<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>\\nして、<ruby><rb>今</rb><rt>いま</rt></ruby>できることを<ruby><rb>考</rb><rt>かんが</rt></ruby>えないと。",
+        "zh_cn": "艾缪尔，就算在这里闷闷不乐\\n也无济于事。现在只能靠我们几个\\n齐心协力想想该怎么办了。",
+        "zh_tw": "……埃米爾，你在這裡鑽牛角尖\\n也不是辦法。剩下的我們現在\\n必須協力合作，一起想辦法才行。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0025",
+      "book": ""
+    },
+    {
+      "icon": "100017_02",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Rrrgh... How can you be so calm?\\nWhat do YOU know about how I feel?!",
+        "ja_jp": "……ッ、なんでお<ruby><rb>前</rb><rt>まえ</rt></ruby>はそんな<ruby><rb>平然</rb><rt>へいぜん</rt></ruby>として\\nられんだよッ！　<ruby><rb>塞</rb><rt>ふさ</rt></ruby>いでても\\nしょうがない!?　なんだよそれ！",
+        "zh_cn": "你为什么能这么冷静啊！\\n闷闷不乐也无济于事！？\\n这叫什么话啊！",
+        "zh_tw": "……唔，為啥你可以這麼冷靜啊！\\n竟然說「鑽牛角尖也不是辦法」！？\\n什麼態度嘛！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0026",
+      "book": ""
+    },
+    {
+      "icon": "100017_02",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Leonidas died because of ME! If only he\\nhadn't protected me, he'd still be...\\nDamn it! Why?!",
+        "ja_jp": "レオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さんが<ruby><rb>死</rb><rt>し</rt></ruby>んだのは\\nオレのせいだ！　オレを<ruby><rb>庇</rb><rt>かば</rt></ruby>わなきゃ\\n<ruby><rb>兄</rb><rt>にい</rt></ruby>さんは……クソッ、なんでなんだ！",
+        "zh_cn": "莱昂尼多哥哥是因为我才死的！\\n要不是为了保护我他也不会……\\n该死，为什么会这样啊！",
+        "zh_tw": "雷歐尼特哥哥是被我害死的！\\n要不是為了保護我，哥哥他……\\n可惡，到底為什麼啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0027",
+      "book": ""
+    },
+    {
+      "icon": "100017_02",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "He's the one who went on and on about\\nsurviving. Why would he risk everything\\nfor my sake?",
+        "ja_jp": "<ruby><rb>自分</rb><rt>じぶん</rt></ruby>が<ruby><rb>生</rb><rt>い</rt></ruby>き<ruby><rb>残</rb><rt>のこ</rt></ruby>るために<ruby><rb>行動</rb><rt>こうどう</rt></ruby>するって、\\n<ruby><rb>言</rb><rt>い</rt></ruby>ってたじゃないか！　なのに……\\nどうしてオレを<ruby><rb>庇</rb><rt>かば</rt></ruby>ったりしたんだッ！",
+        "zh_cn": "他不是说过要为了活下去\\n而行动吗！可他却……\\n为什么要保护我啊！",
+        "zh_tw": "他不是說要為了讓自己存活而行動嗎！\\n卻為什麼……要在那時候保護我啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0028",
+      "book": ""
+    },
+    {
+      "icon": "100017_02",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "He had to have known that the one who\\nwas REALLY supposed to die there was—",
+        "ja_jp": "レオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さんだってわかっていた\\nはずだろ!?　あそこで<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>死</rb><rt>し</rt></ruby>ぬべき\\nだったのは――！",
+        "zh_cn": "他应该也很清楚吧！？\\n真正应该死在那里的，\\n明明是……",
+        "zh_tw": "雷歐尼特哥哥也很清楚才對吧！？\\n當時應該死在那裡的人是──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0029",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "That's enough, Emile! We still don't know\\nfor certain that Leonidas even died.",
+        "ja_jp": "そんな<ruby><rb>言</rb><rt>い</rt></ruby>い<ruby><rb>方</rb><rt>かた</rt></ruby>はよせ、エミュール！\\nまだ、レオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さんが<ruby><rb>死</rb><rt>し</rt></ruby>んだとは\\n<ruby><rb>限</rb><rt>かぎ</rt></ruby>らないだろう？",
+        "zh_cn": "艾缪尔，别那么说！\\n现在莱昂尼多哥哥\\n还不一定死了吧？",
+        "zh_tw": "別再說那種話了，埃米爾！\\n現在還不能確定雷歐尼特哥哥\\n已經死了吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0030",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "And do you really think Leonidas was\\nthinking of it the way you're describing?",
+        "ja_jp": "それに<ruby><rb>自分</rb><rt>じぶん</rt></ruby>を<ruby><rb>庇</rb><rt>かば</rt></ruby>わなければなんて……\\nきみは<ruby><rb>本気</rb><rt>ほんき</rt></ruby>で<ruby><rb>兄</rb><rt>にい</rt></ruby>さんがそんな<ruby><rb>風</rb><rt>ふう</rt></ruby>に\\n<ruby><rb>考</rb><rt>かんが</rt></ruby>えていたと<ruby><rb>思</rb><rt>おも</rt></ruby>っているのか？",
+        "zh_cn": "而且还说什么不保护你\\n就不会……你真的觉得\\n他是那么想的吗？",
+        "zh_tw": "還有你剛才說什麼\\n「要不是為了保護你」……\\n你是真的認為哥哥他會那麼想嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0031",
+      "book": ""
+    },
+    {
+      "icon": "100017_02",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "...What do you mean?",
+        "ja_jp": "……どういう<ruby><rb>意味</rb><rt>いみ</rt></ruby>だ。",
+        "zh_cn": "什么意思……",
+        "zh_tw": "……你是什麼意思。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0032",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "He said that in order to survive here,\\nwe had to join forces and cooperate.",
+        "ja_jp": "レオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さんは、ここで<ruby><rb>生</rb><rt>い</rt></ruby>き<ruby><rb>残</rb><rt>のこ</rt></ruby>る\\nためには<ruby><rb>共</rb><rt>とも</rt></ruby>に<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>合</rb><rt>あ</rt></ruby>わせる<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>がある\\nと<ruby><rb>言</rb><rt>い</rt></ruby>っていた……",
+        "zh_cn": "莱昂尼多哥哥说了，\\n要想在这里活下去，\\n就需要我们齐心协力……",
+        "zh_tw": "雷歐尼特哥哥之前說過，\\n為了在這裡存活下來，\\n就必須互相合作……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0033",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "When he protected you, he believed that\\nwas necessary too. I'm sure he doesn't\\nregret doing it.",
+        "ja_jp": "あの<ruby><rb>時</rb><rt>とき</rt></ruby>、<ruby><rb>兄</rb><rt>にい</rt></ruby>さんがきみを<ruby><rb>庇</rb><rt>かば</rt></ruby>ったのも\\nそれが<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>だと<ruby><rb>信</rb><rt>しん</rt></ruby>じたからだ。だったら\\nきっと、<ruby><rb>兄</rb><rt>にい</rt></ruby>さんは<ruby><rb>後悔</rb><rt>こうかい</rt></ruby>なんてしてない。",
+        "zh_cn": "他当时保护你也是因为\\n他认为需要这么做。\\n所以哥哥他一定不会后悔。",
+        "zh_tw": "當時他之所以保護你，\\n也是因為他相信有這麼做的必要。\\n那麼哥哥一定不會後悔保護了你的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0034",
+      "book": ""
+    },
+    {
+      "icon": "100017_02",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "This is all wild speculation at best.",
+        "ja_jp": "……そんなの<ruby><rb>全部</rb><rt>ぜんぶ</rt></ruby>、お<ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>妄想</rb><rt>もうそう</rt></ruby>だろ。",
+        "zh_cn": "你说的这些……\\n都是你的凭空想象而已。",
+        "zh_tw": "……這全部，都只是你的妄想吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0035",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Maybe so. But I believe.",
+        "ja_jp": "そうだね……だけど、<ruby><rb>確信</rb><rt>かくしん</rt></ruby>はある。",
+        "zh_cn": "是啊……不过，我有把握。",
+        "zh_tw": "是啊……不過，我是這麼相信的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0036",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Leonidas isn't the kind of man to rush in\\nhalf-cocked. Surely you realize that, Emile.",
+        "ja_jp": "<ruby><rb>兄</rb><rt>にい</rt></ruby>さんは<ruby><rb>決</rb><rt>けっ</rt></ruby>して<ruby><rb>考</rb><rt>かんが</rt></ruby>えなしに<ruby><rb>行動</rb><rt>こうどう</rt></ruby>する<ruby><rb>人</rb><rt>ひと</rt></ruby>\\nじゃない……それはエミュールも\\nわかっているんじゃないか？",
+        "zh_cn": "哥哥他绝对不是那种\\n会鲁莽行事的人……\\n这一点你不是也很清楚吗？",
+        "zh_tw": "哥哥他絕不是不經思考就行動的人……\\n這點埃米爾你應該也很清楚吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0037",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "You talk like you know everything,\\nLittle Brother. But...you might be right.",
+        "ja_jp": "<ruby><rb>弟</rb><rt>おとうと</rt></ruby>の<ruby><rb>分際</rb><rt>ぶんざい</rt></ruby>で、<ruby><rb>知</rb><rt>し</rt></ruby>ったような<ruby><rb>口</rb><rt>くち</rt></ruby>を。\\n……だが、お<ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>言</rb><rt>い</rt></ruby>う<ruby><rb>通</rb><rt>とお</rt></ruby>りかもな。",
+        "zh_cn": "你这个弟弟，少自以为是了。\\n不过……也许你说得对。",
+        "zh_tw": "明明只是弟弟，\\n居然說得好像很懂似的……\\n但是，或許你說得沒錯吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0038",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Ever since we were young, I've been\\njealous of our brother's strength. Not just\\nhis martial prowess or his leadership, but\\nthe strength of his will.",
+        "ja_jp": "オレは<ruby><rb>昔</rb><rt>むかし</rt></ruby>から、<ruby><rb>兄</rb><rt>にい</rt></ruby>さんの<ruby><rb>強</rb><rt>つよ</rt></ruby>さが<ruby><rb>羨</rb><rt>うらや</rt></ruby>まし\\nかった。<ruby><rb>戦闘力</rb><rt>せんとうりょく</rt></ruby>や<ruby><rb>統率力</rb><rt>とうそつりょく</rt></ruby>だけじゃない\\n……その<ruby><rb>意志</rb><rt>いし</rt></ruby>の<ruby><rb>強</rb><rt>つよ</rt></ruby>さに<ruby><rb>憧</rb><rt>あこが</rt></ruby>れていたんだ。",
+        "zh_cn": "我一直都很羡慕他的强大。\\n不光是战斗和统率的能力……\\n还有他那坚定的意志。",
+        "zh_tw": "我從以前就很羨慕哥哥的強大。\\n不只是戰鬥力或統率能力……\\n他那堅定的意志也讓我很憧憬。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0039",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "That's why I wondered WHY he came to my\\naid. Why would he take a hit for me of all\\npeople?",
+        "ja_jp": "だから、オレが<ruby><rb>兄</rb><rt>にい</rt></ruby>さんに<ruby><rb>庇</rb><rt>かば</rt></ruby>われた<ruby><rb>時</rb><rt>とき</rt></ruby>\\nどうしてこんなことを、って<ruby><rb>思</rb><rt>おも</rt></ruby>った。\\nオレなんか<ruby><rb>庇</rb><rt>かば</rt></ruby>ってどうするんだって。",
+        "zh_cn": "所以，哥哥保护我的时候\\n我就在想他为什么要这么做，\\n保护我对他有什么好处。",
+        "zh_tw": "所以，在被哥哥保護時，\\n我才無法理解為什麼他會這麼做。\\n覺得他保護了我這種人又能怎麼樣。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0040",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "I just don't know. My head has been a\\nmess of emotions ever since. I feel so\\npathetic for being protected, but also\\nso happy...",
+        "ja_jp": "わかんねえんだよ……<ruby><rb>庇</rb><rt>かば</rt></ruby>われたことが\\n<ruby><rb>情</rb><rt>なさ</rt></ruby>けなくて……だけど、<ruby><rb>嬉</rb><rt>うれ</rt></ruby>しくもあって\\n……<ruby><rb>頭</rb><rt>あたま</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>が、ずっとぐちゃぐちゃだ。",
+        "zh_cn": "我不明白啊……被人保护\\n很丢人……但也有一点开心……\\n现在脑子里一片混乱。",
+        "zh_tw": "我搞不懂啊……被他保護讓我\\n無地自容……但是、又有點高興……\\n腦子裡、一直非常混亂。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0041",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Emile...",
+        "ja_jp": "エミュール……。",
+        "zh_cn": "艾缪尔……",
+        "zh_tw": "埃米爾……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0042",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Go back to Chelle,\\nEuden. I...\\nI'll come back shortly.",
+        "ja_jp": "……ユーディル、\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>はシェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さんのところに<ruby><rb>戻</rb><rt>もど</rt></ruby>れ。\\nオレも……もう<ruby><rb>少</rb><rt>すこ</rt></ruby>ししたら<ruby><rb>戻</rb><rt>もど</rt></ruby>る。",
+        "zh_cn": "尤蒂尔……\\n你回谢斯姐姐那里去吧，\\n我……再过一会儿就回去。",
+        "zh_tw": "……尤帝爾，\\n你回到謝斯姊姊那裡去吧。\\n我……再過一下也會回去的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0043",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "...Okay. We'll be waiting for you, Brother.",
+        "ja_jp": "……わかった。\\n<ruby><rb>待</rb><rt>ま</rt></ruby>ってるよ、エミュール<ruby><rb>兄</rb><rt>にい</rt></ruby>さん。",
+        "zh_cn": "知道了……\\n我们等你，艾缪尔哥哥。",
+        "zh_tw": "……我知道了。\\n我會等著你的，埃米爾哥哥。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0044",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Oh, Leonidas...",
+        "ja_jp": "…………レオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さん…………。",
+        "zh_cn": "莱昂尼多哥哥……",
+        "zh_tw": "…………雷歐尼特哥哥…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0045",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "You're finally back. Honestly, did you\\nstop and smell every rose on the way?",
+        "ja_jp": "……ようやく<ruby><rb>戻</rb><rt>もど</rt></ruby>ってきましたのね。\\nまったく、どこをほっつき<ruby><rb>歩</rb><rt>ある</rt></ruby>いて\\nいましたの？",
+        "zh_cn": "你可算是回来了……\\n真是的，上哪溜达去了？",
+        "zh_tw": "……你終於回來了呀。\\n真是的，你究竟閒晃到哪裡去了？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0046",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Chelle... I...",
+        "ja_jp": "……シェス<ruby><rb>姉</rb><rt>ねえ</rt></ruby>さん、オレ……。",
+        "zh_cn": "谢斯姐姐，我……",
+        "zh_tw": "……謝斯姊姊，我……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0047",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Don't just stand there slack-jawed. Come\\nhere and eat. I must say, I outdid myself\\nwith this dish!",
+        "ja_jp": "そんなところで<ruby><rb>呆</rb><rt>ほう</rt></ruby>けてないで、こちらで\\n<ruby><rb>食事</rb><rt>しょくじ</rt></ruby>をおとりなさいな。わたくしが<ruby><rb>腕</rb><rt>うで</rt></ruby>に\\nよりをかけて<ruby><rb>作</rb><rt>つく</rt></ruby>った<ruby><rb>一品</rb><rt>いっぴん</rt></ruby>でしてよ！",
+        "zh_cn": "别在那里愣着了，\\n快过来吃饭。这可是我\\n费了好大功夫做的！",
+        "zh_tw": "別在那裡發呆，快過來這裡用餐吧。\\n這可是我費心做出來的料理喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0048",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Why, this is—!",
+        "ja_jp": "これは……！",
+        "zh_cn": "这是……",
+        "zh_tw": "這是……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0049",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Leonidas's favorite: curry!",
+        "ja_jp": "レオニードお<ruby><rb>兄</rb><rt>にい</rt></ruby><ruby><rb>様</rb><rt>さま</rt></ruby>の<ruby><rb>大</rb><rt>だい</rt></ruby><ruby><rb>好物</rb><rt>こうぶつ</rt></ruby>、\\nカレーですわ！",
+        "zh_cn": "莱昂尼多王兄最爱的咖喱！",
+        "zh_tw": "雷歐尼特哥哥大人的最愛──咖哩唷！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0050",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "How in the world did you manage to\\nmake CURRY on a deserted island?",
+        "ja_jp": "まさか<ruby><rb>無人島</rb><rt>むじんとう</rt></ruby>でカレーを<ruby><rb>作</rb><rt>つく</rt></ruby>っちゃう\\nとはね……。",
+        "zh_cn": "没想到在荒岛\\n还能做咖喱……",
+        "zh_tw": "想不到在無人島上能做出咖哩呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0051",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Eee hee hee! A true lady has her ways.",
+        "ja_jp": "おーっほっほっほ！\\nこれも<ruby><rb>淑女</rb><rt>レディ</rt></ruby>の<ruby><rb>嗜</rb><rt>たしな</rt></ruby>みでしてよ！",
+        "zh_cn": "哦呵呵呵！\\n这也是身为淑女的修养！",
+        "zh_tw": "喔──呵、呵、呵！\\n這也是淑女的嗜好呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0052",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Reflect well upon your sister's kindness\\nthrough this meal. Now, eat up, boys!",
+        "ja_jp": "わたくしの<ruby><rb>料理</rb><rt>りょうり</rt></ruby>で、<ruby><rb>姉</rb><rt>あね</rt></ruby>の<ruby><rb>優</rb><rt>やさ</rt></ruby>しさを\\n<ruby><rb>噛</rb><rt>か</rt></ruby>みしめるとよいですわ。\\nさあ、<ruby><rb>遠慮</rb><rt>えんりょ</rt></ruby>せずにおあがりなさい！",
+        "zh_cn": "吃一吃我做的饭，\\n好好感受姐姐的温情吧。\\n来，不要客气快吃吧！",
+        "zh_tw": "你就透過我的料理，\\n細細品嘗姊姊的溫柔吧。\\n來，不必顧慮盡情享用吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0053",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Er, shouldn't we be thinking about our\\nnext move instead?",
+        "ja_jp": "いや、そんなことより\\nこれからのことを……",
+        "zh_cn": "不，比起吃饭，\\n我们应该先考虑今后……",
+        "zh_tw": "不，比起這個，\\n關於接下來的事情……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0054",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "We can talk about that after we eat. First\\nwe must cultivate the strength to fight.",
+        "ja_jp": "これからどうするかについては、\\n<ruby><rb>食事</rb><rt>しょくじ</rt></ruby>をした<ruby><rb>後</rb><rt>あと</rt></ruby>でも<ruby><rb>話</rb><rt>はな</rt></ruby>せますわ。\\nまずは<ruby><rb>戦</rb><rt>たたか</rt></ruby>うための<ruby><rb>英気</rb><rt>えいき</rt></ruby>を<ruby><rb>養</rb><rt>やしな</rt></ruby>わねば。",
+        "zh_cn": "今后的打算吃完饭也能说。\\n要先为战斗养精蓄锐才行。",
+        "zh_tw": "接下來該怎麼做，\\n用餐之後也可以談。\\n總之得先養精蓄銳才好作戰啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0055",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "...You DID come back to fight together\\nwith us, yes?",
+        "ja_jp": "あなたも、わたくしたちと<ruby><rb>共</rb><rt>とも</rt></ruby>に<ruby><rb>戦</rb><rt>たたか</rt></ruby>う\\nつもりでここに<ruby><rb>戻</rb><rt>もど</rt></ruby>って<ruby><rb>来</rb><rt>き</rt></ruby>たのでしょう？",
+        "zh_cn": "你也是打算和我们并肩作战\\n才回到这里来的吧？",
+        "zh_tw": "你也是為了要和我們並肩奮戰，\\n才回到這裡的對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0056",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "...Hmph. Just so! Euden,\\nhand me my curry. And make it snappy!",
+        "ja_jp": "……ふん、その<ruby><rb>通</rb><rt>とお</rt></ruby>りだ！\\nユーディル、さっさと\\nオレのぶんのカレーをよこしやがれ！",
+        "zh_cn": "哼……算你说对了！\\n尤蒂尔，\\n赶紧把我那份咖喱给我！",
+        "zh_tw": "……哼，說得沒錯！\\n尤帝爾，\\n快把我的咖哩拿過來！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0057",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Coming right up!",
+        "ja_jp": "ああ！　すぐによそうよ。",
+        "zh_cn": "嗯！这就给你。",
+        "zh_tw": "嗯！我馬上盛給你。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0058",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Now, then. It's time for us to discuss what\\ncomes next. What are your thoughts?",
+        "ja_jp": "さて、そろそろ<ruby><rb>今後</rb><rt>こんご</rt></ruby>のことについて\\n<ruby><rb>話</rb><rt>はな</rt></ruby>さなくてはいけませんわね。\\nふたりには、<ruby><rb>何</rb><rt>なに</rt></ruby>か<ruby><rb>考</rb><rt>かんが</rt></ruby>えはありますの？",
+        "zh_cn": "那么，我们也得计议一下\\n今后的打算了。\\n你们两位有什么想法吗？",
+        "zh_tw": "那麼，\\n差不多該來討論接下來的事情了。\\n你們兩位有沒有什麼想法呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0059",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "I...want to avenge Leonidas.\\nNo—I MUST avenge him!",
+        "ja_jp": "それについてだが……オレは、\\nレオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さんの<ruby><rb>仇</rb><rt>かたき</rt></ruby>を<ruby><rb>討</rb><rt>う</rt></ruby>ちたい。\\nいや、オレが<ruby><rb>討</rb><rt>う</rt></ruby>たなきゃいけないんだ！",
+        "zh_cn": "关于这个……\\n我想给莱昂尼多哥哥报仇。\\n不，是必须由我来报仇才行！",
+        "zh_tw": "關於這一點……\\n我想要為雷歐尼特哥哥報仇。\\n不對，是必須由我親自報仇不可！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0060",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Brother...",
+        "ja_jp": "エミュール……。",
+        "zh_cn": "艾缪尔……",
+        "zh_tw": "埃米爾……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0061",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Leonidas died protecting me from that\\nfiend. I can't let his sacrifice be in vain.",
+        "ja_jp": "レオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さんはバケモノの<ruby><rb>攻撃</rb><rt>こうげき</rt></ruby>から\\nオレを<ruby><rb>庇</rb><rt>かば</rt></ruby>って<ruby><rb>死</rb><rt>し</rt></ruby>んだ……<ruby><rb>兄</rb><rt>にい</rt></ruby>さんの<ruby><rb>死</rb><rt>し</rt></ruby>を\\n<ruby><rb>無駄</rb><rt>むだ</rt></ruby>にはできない。",
+        "zh_cn": "莱昂尼多哥哥是为了保护我\\n不受怪物袭击而死……\\n我不能让他白白牺牲。",
+        "zh_tw": "雷歐尼特哥哥是為了保護我\\n不被怪物攻擊才死的……\\n我不能讓哥哥就這樣白白死去。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0062",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "That's why I, um... T-to beat that monster,\\nI...want to us to co—*cough* Co...oper...",
+        "ja_jp": "だから、お<ruby><rb>前</rb><rt>まえ</rt></ruby>らには……えっと……\\nオレがあのバケモノを<ruby><rb>倒</rb><rt>たお</rt></ruby>すために……\\n<ruby><rb>互</rb><rt>たが</rt></ruby>いの<ruby><rb>力</rb><rt>ちから</rt></ruby>を、だな……その……。",
+        "zh_cn": "所以我想让你们……那个……\\n为了我能干掉那怪物……\\n把各自的力量，那个……呃……",
+        "zh_tw": "所以，希望你們……就是……\\n為了讓我能打倒那個怪物……\\n我們可以、互相……那個……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0063",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "For the love of—! If you want us to\\ncooperate with you, just say so.",
+        "ja_jp": "……まったく、じれったいですわね。\\nわたくしたちに<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>してほしいのなら\\nはっきりそうおっしゃいなさいな。",
+        "zh_cn": "真是急死人……\\n想让我们帮忙的话\\n你就直说。",
+        "zh_tw": "……唉，還真是令人焦躁呢。\\n如果希望我們幫忙的話，\\n那就請你直接了當一些。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0064",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Ack! L-listen, you! I was trying\\nto figure out how to phrase it.",
+        "ja_jp": "うぐっ!?　……わ、わかってんだよ！\\nなんだその……ちょっと、どう<ruby><rb>言</rb><rt>い</rt></ruby>うか\\n<ruby><rb>言葉</rb><rt>ことば</rt></ruby>を<ruby><rb>選</rb><rt>えら</rt></ruby>んでたっていうか……。",
+        "zh_cn": "呃！？知、知道啦！\\n就是那个……我只是稍微，\\n斟酌一下措辞……",
+        "zh_tw": "唔呃！？\\n……我、我知道啦！只是那個……\\n我在想，要用什麼話來講……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0065",
+      "book": ""
+    },
+    {
+      "icon": "100015_09",
+      "name": {
+        "en_us": "Chelle",
+        "ja_jp": "シェス",
+        "zh_cn": "谢斯",
+        "zh_tw": "謝斯"
+      },
+      "context": {
+        "en_us": "Hee hee. I forget how fun it is to watch\\nyou squirm.",
+        "ja_jp": "ふふっ、そんなあなたらしくない\\n<ruby><rb>気遣</rb><rt>きづか</rt></ruby>いは<ruby><rb>不要</rb><rt>ふよう</rt></ruby>でしてよ。",
+        "zh_cn": "呵呵，何必费那些心思，\\n这可不像你啊。",
+        "zh_tw": "呵呵，何必去考慮那種\\n不像你會說的話語呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0066",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "What?! Who says I was—",
+        "ja_jp": "なっ!?　オレはただ――",
+        "zh_cn": "什么！？我只是……",
+        "zh_tw": "蛤！？我只是──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0067",
+      "book": ""
+    },
+    {
+      "icon": "100001_13",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "It's okay, Emile. We're siblings. We know\\nwhat you want to say, even without the\\nwords.",
+        "ja_jp": "<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>だよ、エミュール。\\nおれたちは<ruby><rb>兄弟</rb><rt>きょうだい</rt></ruby>だ。だから、<ruby><rb>言葉</rb><rt>ことば</rt></ruby>なんて\\nなくても<ruby><rb>言</rb><rt>い</rt></ruby>いたいことは<ruby><rb>伝</rb><rt>つた</rt></ruby>わっている。",
+        "zh_cn": "没关系的，艾缪尔。\\n我们是手足，\\n所以你不说我们也懂。",
+        "zh_tw": "別擔心，埃米爾。我們是手足。\\n所以，就算不用言語，\\n我們也都明白你想說的話。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0068",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "And now I'm being lectured by my younger\\nbrother. The impudence of it all! *sigh*\\nI suppose...I will overlook it just this once.",
+        "ja_jp": "……<ruby><rb>弟</rb><rt>おとうと</rt></ruby>のくせに<ruby><rb>生意気</rb><rt>なまいき</rt></ruby>な。\\nだが、<ruby><rb>今</rb><rt>いま</rt></ruby>だけは<ruby><rb>不問</rb><rt>ふもん</rt></ruby>にしといてやる。",
+        "zh_cn": "你这个弟弟少说大话……\\n不过这回我就\\n大人不记小人过了。",
+        "zh_tw": "……明明是弟弟還這麼囂張。\\n不過，這次我就不跟你追究了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0069",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "Okay, listen up! I COULD have done this\\nmyself, honestly. But I am going to grace\\nyou with the opportunity to help me.",
+        "ja_jp": "いいか、よく<ruby><rb>聞</rb><rt>き</rt></ruby>け！　<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>はオレ<ruby><rb>様</rb><rt>さま</rt></ruby>が\\nひとりでやったっていいんだ。だが、\\n<ruby><rb>今回</rb><rt>こんかい</rt></ruby>は<ruby><rb>特別</rb><rt>とくべつ</rt></ruby>に<ruby><rb>手伝</rb><rt>てつだ</rt></ruby>う<ruby><rb>機会</rb><rt>きかい</rt></ruby>をくれてやる！",
+        "zh_cn": "听好了！其实本大爷\\n自己也能搞定，但是这回\\n就赏你们一个机会帮忙！",
+        "zh_tw": "聽好了！其實本大爺自己去做\\n也是可以啦。不過，\\n這次就特別給你們一個幫忙我的機會！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0070",
+      "book": ""
+    },
+    {
+      "icon": "100017_01",
+      "name": {
+        "en_us": "Emile",
+        "ja_jp": "エミュール",
+        "zh_cn": "艾缪尔",
+        "zh_tw": "埃米爾"
+      },
+      "context": {
+        "en_us": "We siblings shall band together and avenge\\nour brother Leonidas!",
+        "ja_jp": "オレたち<ruby><rb>兄弟</rb><rt>きょうだい</rt></ruby>で<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>合</rb><rt>あ</rt></ruby>わせて、\\n<ruby><rb>必</rb><rt>かなら</rt></ruby>ずレオニード<ruby><rb>兄</rb><rt>にい</rt></ruby>さんの<ruby><rb>仇</rb><rt>かたき</rt></ruby>を<ruby><rb>討</rb><rt>う</rt></ruby>つんだ！",
+        "zh_cn": "我们一定要手足合力，\\n给莱昂尼多哥哥报仇！",
+        "zh_tw": "讓我們姊弟互相合作，\\n絕對要幫雷歐尼特哥哥報仇！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_20435_05_0071",
+      "book": ""
+    }
+  ]
 }

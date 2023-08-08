@@ -1,843 +1,1598 @@
 {
-    "story_id": "",
-    "story_name": "迎击战～优雅律师朱庇特～ 律师朱庇特登场！？",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "神秘的信件将朱庇特一行带去了\\n帝国兵横行霸道的小镇。\\n为了帮助少女埃琳赢得\\n“绝对无法胜诉的官司”，\\n朱庇特将以律师身为她辩护。"
-        ]
+  "title": {
+    "en_us": "A Dazzling Defense    The Dashing Defender",
+    "ja_jp": "迎撃戦～優美なる弁護士ユピテル～  弁護士ユピテル誕生!?",
+    "zh_cn": "迎击战～优雅律师朱庇特～  律师朱庇特登场！？",
+    "zh_tw": "迎擊戰～優雅律師朱庇特～  律師朱庇特誕生！？"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [],
-            "speaker_name": "add_book_text",
-            "context": "尊敬的尤蒂尔王子殿下。\\n素闻您宅心仁厚、爱民如子，\\n现有一事斗胆相求，\\n恳请您能为我主持公道。\\n罗特尔镇居民敬上。",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "我收到了这样一封信……\\n大家怎么看？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "你不觉得有点蹊跷吗？\\n如果真的需要帮助，\\n应该会把具体的事写出来吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "确实呀～\\n难道这是谁的恶作剧吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "嗯……你也这么认为吗……\\n不过如果这个人真的需要帮助，\\n我们也不能坐视不管啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "而且这个叫“罗特尔镇”的地方\\n我从来都没听说过，\\n到底是个什么样的地方啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "神秘美男子的声音",
-            "context": "那是一个靠近北部边境的小镇。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "神秘美男子",
-            "context": "由于地处国境附近，所以伊莉雅教\\n色彩很浓重……不过也正因如此，\\n那里治安很好，也很和平。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "神秘美男子",
-            "context": "顺便提一嘴，\\n那里用玉米做的菜很好吃。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100006_01"
-            ],
-            "speaker_name": "卢卡",
-            "context": "你……你谁啊！？\\n哪来的这自带闪光的美男子！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "这迷之闪光快要把我闪瞎啦！\\n你是谁呀！怎么这么亮啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "你们可真过分。\\n都把我辉龙朱庇特\\n给忘了吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "诶……朱庇特！？\\n你怎么变成……人类的样子了？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "那当然是因为听到了\\n罗特尔镇的名字啦。\\n去那里的话可要精心打扮一下！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "我和那小镇稍微有一点渊源。\\n既然书信是从那里寄来的，\\n我当然不能不管啦。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100007_01"
-            ],
-            "speaker_name": "纳姆",
-            "context": "啊？你打算接受求助？\\n你不觉得这封信蹊跷到不行吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "嗯。是真是假实际去看一看就行。\\n真的有困难的话就去帮一把，\\n假的话就游玩一番再回来呗。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "那是个非常宁静的小镇，\\n是放松的好去处。怎么样？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "好吧……既然熟悉那个\\n小镇的你都这么说了。\\n我们就去一探究竟吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "数日后\\n罗特尔镇 主街",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01"
-            ],
-            "speaker_name": "轻佻的帝国兵",
-            "context": "耶！这里太棒了！\\n可以随心所欲开派对的好地方啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这是怎么回事……\\n到处都是开派对的帝国兵……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "不对啊……我记得这里\\n并没有这么吵闹的啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "这里应该是有着一望无际的\\n玉米田的宁静小镇才对啊。\\n而且为什么这里会有帝国兵？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "不知道。正常来看，\\n越靠近边境的地方，\\n帝国的影响应该也越弱才对……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01"
-            ],
-            "speaker_name": "兴奋的帝国兵",
-            "context": "YO！这声音是圣城的第七王子！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "唔哇，好像被认出来了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01"
-            ],
-            "speaker_name": "轻佻的帝国兵",
-            "context": "竟然真的被那封可疑的信引来了！\\n真是名不虚传的圣人君子哦！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01"
-            ],
-            "speaker_name": "兴奋的帝国兵",
-            "context": "那就感激涕零地带走吧YO♪\\n立刻逮捕目标人物♪",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01"
-            ],
-            "speaker_name": "帝国兵们",
-            "context": "耶！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "这就被包围了！？\\n朱庇特！来助我一臂之力！\\n赶快从这里逃……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01"
-            ],
-            "speaker_name": "轻佻的帝国兵",
-            "context": "休想逃跑！抓住王子就能一夜暴富！\\n为了梦想奔跑起来奔跑起来～",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01",
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "哇啊啊！？救～命～啊～",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "噢～这水平还真不错。\\n唔……我要不要救人啊？\\n不过我家主人那么厉害……应该没问题。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "不管他了，我得先查查这个\\n小镇为什么变得如此古怪。\\n好嘞，去一探究竟！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "在镇上转了一圈下来……\\n放眼望去都是奇怪的帝国兵啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "要是能找这小镇的居民们\\n打听打听的话……噢？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120015_01"
-            ],
-            "speaker_name": "不安的女子",
-            "context": "这下怎么办……\\n大小姐她还是没能逃过\\n那检察长的魔掌……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "失落的男子",
-            "context": "这下这个镇子算是完蛋了。\\n连帝国兵都给他撑腰，\\n没有人能赢得过那检察长的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "那是……大家好像都在\\n看公告栏上的布告。\\n帝国兵给检察长撑腰又是怎么回事……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "打扰一下，这张布告是怎么回事啊？\\n这和镇上那些帝国兵有什么关联吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "失落的男子",
-            "context": "你是外面来的吗？\\n这镇子变成这样已经有段时间了。\\n镇上的检察长用金钱收买了帝国兵。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "一个检察长有那么大权力吗？\\n你们的镇长在干什么？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120015_01"
-            ],
-            "speaker_name": "不安的女子",
-            "context": "那检察长就是现在的镇长。\\n虽然大家都不承认，\\n但没人敢在明面上反抗。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "失落的男子",
-            "context": "毕竟万一被盯上然后带上法庭的话，\\n肯定会被扣上莫须有的罪名。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120015_01"
-            ],
-            "speaker_name": "不安的女子",
-            "context": "之前有不少人反对那检察长的行径，\\n但都在法庭上被扣上了罪名处决了。\\n他就是个不折不扣的恶棍！可是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120015_01"
-            ],
-            "speaker_name": "不安的女子",
-            "context": "那家伙的大宅戒备森严，\\n连守护小镇的教会骑士\\n都没法抓住他作恶的证据。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "这可不得了。既然是这样，\\n有一两个与检察长作斗争的人\\n出现应该也不算稀奇吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "难不成，你们刚才提到的\\n那位大小姐就是和他对着干的人？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "失落的男子",
-            "context": "是啊。但现在连那位大小姐\\n也被帝国兵抓起来关进拘留所了。\\n真是太可怜了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "嚯……\\n那你说的那个拘留所在哪？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120015_01"
-            ],
-            "speaker_name": "不安的女子",
-            "context": "从这往北走不远就能看到了。\\n话说你问这个干嘛？\\n那里也有帝国兵层层把守——",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "干什么还用问吗？当然是拜托他们\\n走个神，让我光明正大地溜进去。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "失落的男子",
-            "context": "诶？你说什么？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120014_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "同一天\\n罗特尔镇 拘留所",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120080_01"
-            ],
-            "speaker_name": "帝国兵",
-            "context": "嗷～呜！触电般的感觉～",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "不错不错，大家都很乖啊～\\n那么那位大小姐在哪里呢……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "女子的声音",
-            "context": "真是令人难以置信！\\n为什么你会被抓到这里！？\\n这下我可真是要完蛋啦！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "男子的声音",
-            "context": "先、先冷静一下……我也是因为\\n事出突然，现在还没有搞清楚情况。\\n不过被抓的事确实对不住你……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "嗯，应该是在那边。\\n不过刚才的声音……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "果然，王子你也在这里啊。\\n喂——你们两个……\\n都不是一个牢房的，吼什么呢？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "朱庇特！？你来救我了吗！\\n呃，事情是这样的。隔壁的女士……\\n埃琳是前任镇长的女儿。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "她因为与现任镇长的那位检察长\\n处处对立而遭到陷害，\\n所以会被关在这里。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "没错。我被诬陷杀了人。\\n因为我把钥匙带在身上寸步不离，\\n那家伙才终于开始采取强硬手段。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "他企图给我套上罪名好没收我的钥匙，\\n这样就能铲除异己并获得“圣龛”里的\\n东西。真是太贪心了，我要告死他！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "现在你才是被告的那个吧。\\n嗯，所以……你就是镇上\\n居民们所说的大小姐对吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "深得信赖的前任镇长之女……\\n没有比你更麻烦的麻烦了啊。\\n难怪检察长要除掉你。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "不过他为什么不对前任镇长下手，\\n而是选中了你呢……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "我父亲已经去世了。\\n他死于狱中。正因如此，\\n我才必须要保护好这把钥匙。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "啊……抱歉。\\n那我们先不提这件事。\\n那把钥匙和圣龛又是怎么回事？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "据说……是放有建国之王\\n阿尔贝琉斯圣遗物的盒子和其钥匙。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "阿尔贝琉斯的？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "没错！货真价实！\\n相传能带给持有者强大的力量和荣华，\\n是我家代代相传的传家宝呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "然而那个检察长迫害了父亲后\\n就把圣龛一并夺走了。\\n不过，他到现在都没能打开它。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "毕竟他没有钥匙。\\n而且就算拿到钥匙也没有用。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "因为只有王族身上的龙之血\\n才能激活圣遗物！\\n前几天我就是这么呛他的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "唉，我大概明白这是怎么回事了。\\n所以才会有那封寄去圣城的信啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "没错。\\n看来那检察长无论如何都想要\\n获得神秘圣遗物的力量啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "唔……也就是说……\\n这样下去你也很有可能\\n会被扣上莫须有的罪名吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "比如什么扰乱派对罪之类的。\\n然后在那检察长负责的法庭上\\n被判有罪，就此结束你的人生？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "也许吧……虽然听起来非常荒唐，\\n但这里似乎就是这么荒唐的地方。\\n所以也几乎没有律师……",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "也是，毕竟没人愿意帮忙打一场\\n不公平的必败官司啊。\\n这么说来……你也还没找到律师？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "这、这个嘛……确实……\\n但这有什么关系！就算没有律师，\\n我也不会输给那家伙的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "本来家里进了小偷就已经让我\\n够沮丧了，现在又被人污蔑成\\n杀人犯！我决饶不了他！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "事已至此，我一定要\\n靠自我辩护胜诉给他看！\\n然后反过来告死那个检察长！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "嚯，这样啊。我明白了……\\n看来你即使受尽委屈\\n也不愿意轻易败给他吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110399_801"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "有意思，很有意思！\\n既然这样，我也不是不可以帮你哦？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "埃琳",
-            "context": "诶？什么意思？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_01"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "当然是——字面意思！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "就由我朱庇特！\\n来担任你的辩护律师！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110398_02"
-            ],
-            "speaker_name": "朱庇特",
-            "context": "看我华丽地赢下官司，\\n再一举揭露检察长的不法行径，\\n为你们二人洗刷冤屈并夺回圣遗物！",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01",
-                "120018_01"
-            ],
-            "speaker_name": "二人",
-            "context": "嗯……诶诶诶诶！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22217_01_0089",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Drawn by a mysterious letter, Jupiter and the\\nparty come to a town overrun with imperial\\nsoldiers and find Eryn, a girl who's been forced\\ninto a court case that seems impossible to win.\\nUnable to stand such a travesty of justice,\\nJupiter decides to become her lawyer.",
+      "ja_jp": "<ruby><rb>謎</rb><rt>なぞ</rt></ruby>の<ruby><rb>手紙</rb><rt>てがみ</rt></ruby>に<ruby><rb>導</rb><rt>みちび</rt></ruby>かれ、<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>たちが<ruby><rb>跋扈</rb><rt>ばっこ</rt></ruby>する\\n<ruby><rb>町</rb><rt>まち</rt></ruby>を<ruby><rb>訪</rb><rt>おとず</rt></ruby>れたユピテルたち。そこで<ruby><rb>出会</rb><rt>であ</rt></ruby>った\\n<ruby><rb>少女</rb><rt>しょうじょ</rt></ruby>エリンは、『<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby>に<ruby><rb>勝</rb><rt>か</rt></ruby>てない<ruby><rb>裁判</rb><rt>さいばん</rt></ruby>』に\\n<ruby><rb>掛</rb><rt>か</rt></ruby>けられようとしていた。ユピテルは<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>を\\n<ruby><rb>勝訴</rb><rt>しょうそ</rt></ruby>させるため、<ruby><rb>弁護士</rb><rt>べんごし</rt></ruby>になると<ruby><rb>宣言</rb><rt>せんげん</rt></ruby>する。",
+      "zh_cn": "神秘的信件将朱庇特一行带去了\\n帝国兵横行霸道的小镇。\\n为了帮助少女埃琳赢得\\n“绝对无法胜诉的官司”，\\n朱庇特将以律师身为她辩护。",
+      "zh_tw": "隨著神秘來信的指引，朱庇特一行\\n造訪了帝國兵四處猖狂的城鎮。\\n他們在當地邂逅了少女艾琳，\\n她打算挑戰「絕對無法獲勝的訴訟」。\\n朱庇特為助她勝訴，表示要成為辯護律師。"
+    }
+  },
+  "prev": "",
+  "next": "2221702",
+  "content": [
+    {
+      "icon": "",
+      "name": {
+        "en_us": "add_book_text",
+        "ja_jp": "add_book_text",
+        "zh_cn": "add_book_text",
+        "zh_tw": "add_book_text"
+      },
+      "context": {
+        "en_us": "Dear Prince Euden,\\nI place the last of my hopes with you.\\nPlease, come rescue me!\\n\\n—A citizen of Littleton",
+        "ja_jp": "<ruby><rb>親愛</rb><rt>しんあい</rt></ruby>なるユーディル<ruby><rb>王子</rb><rt>おうじ</rt></ruby>へ\\n<ruby><rb>親切</rb><rt>しんせつ</rt></ruby>なあなたの<ruby><rb>御心</rb><rt>おこころ</rt></ruby>を<ruby><rb>見込</rb><rt>みこ</rt></ruby>んで\\nお<ruby><rb>願</rb><rt>ねが</rt></ruby>いがあります。\\nどうか<ruby><rb>私</rb><rt>わたし</rt></ruby>をお<ruby><rb>助</rb><rt>たす</rt></ruby>けください。\\nロットルタウンの<ruby><rb>住民</rb><rt>じゅうみん</rt></ruby>より――",
+        "zh_cn": "尊敬的尤蒂尔王子殿下。\\n素闻您宅心仁厚、爱民如子，\\n现有一事斗胆相求，\\n恳请您能为我主持公道。\\n罗特尔镇居民敬上。",
+        "zh_tw": "致親愛的尤帝爾王子\\n我有個請求\\n想拜託親民的殿下。\\n懇請您幫助我。\\n洛特魯鎮的居民敬上──"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "This is the letter we received earlier.\\nThoughts, anyone?",
+        "ja_jp": "……という<ruby><rb>書簡</rb><rt>しょかん</rt></ruby>が<ruby><rb>届</rb><rt>とど</rt></ruby>いたんだけど、\\nみんなはどう<ruby><rb>思</rb><rt>おも</rt></ruby>う？",
+        "zh_cn": "我收到了这样一封信……\\n大家怎么看？",
+        "zh_tw": "……我收到了這樣一封信，\\n大家怎麼想？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0001",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "That thing's fishier than a cat's breakfast.\\nIf they really want our help, maybe they\\nshould tell us what the heck's going on!",
+        "ja_jp": "なんか<ruby><rb>怪</rb><rt>あや</rt></ruby>しくないか？\\n<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>助</rb><rt>たす</rt></ruby>けてほしいなら、<ruby><rb>何</rb><rt>なに</rt></ruby>に\\n<ruby><rb>困</rb><rt>こま</rt></ruby>ってるかくらい<ruby><rb>書</rb><rt>か</rt></ruby>くだろ。",
+        "zh_cn": "你不觉得有点蹊跷吗？\\n如果真的需要帮助，\\n应该会把具体的事写出来吧。",
+        "zh_tw": "不覺得怪怪的嗎？\\n如果真的希望別人幫忙，\\n至少會寫出有什麼困擾吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0002",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "You think it's a prank?",
+        "ja_jp": "たしかに～。もしかしたら、\\nイタズラの<ruby><rb>手紙</rb><rt>てがみ</rt></ruby>なのかも……？",
+        "zh_cn": "确实呀～\\n难道这是谁的恶作剧吗？",
+        "zh_tw": "就是說啊～說不定，\\n這封信只是在惡作劇……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0003",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I suppose it could be. But on the other\\nhand, what if someone DOES need help?\\nIt would be wrong to abandon them just\\nbecause we're suspicious.",
+        "ja_jp": "うーん、やっぱりそう<ruby><rb>思</rb><rt>おも</rt></ruby>うか……。\\nでも、<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>困</rb><rt>こま</rt></ruby>ってるとしたら、\\n<ruby><rb>見過</rb><rt>みす</rt></ruby>ごせないしな……。",
+        "zh_cn": "嗯……你也这么认为吗……\\n不过如果这个人真的需要帮助，\\n我们也不能坐视不管啊……",
+        "zh_tw": "唔～嗯，果然這麼覺得嗎……\\n不過，要是真的有人遇到困難，\\n又無法坐視不管……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0004",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "But that being said, I've never even heard\\nof ＂Littleton.＂ Are we sure the place exists?",
+        "ja_jp": "そもそもこの『ロットルタウン』って\\n<ruby><rb>名前</rb><rt>なまえ</rt></ruby>も<ruby><rb>聞</rb><rt>き</rt></ruby>いたことがないんだけど、\\nいったいどんなところなんだろう？",
+        "zh_cn": "而且这个叫“罗特尔镇”的地方\\n我从来都没听说过，\\n到底是个什么样的地方啊？",
+        "zh_tw": "話說回來這個「洛特魯鎮」\\n我從來沒聽過，\\n究竟是怎樣的地方呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0005",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Handsome Stranger's Voice",
+        "ja_jp": "謎のイケメンの声",
+        "zh_cn": "神秘美男子的声音",
+        "zh_tw": "神秘帥哥的聲音"
+      },
+      "context": {
+        "en_us": "Littleton is a small town on the\\nnorthern border.",
+        "ja_jp": "<ruby><rb>北</rb><rt>きた</rt></ruby>との<ruby><rb>国境付近</rb><rt>こっきょうふきん</rt></ruby>にある、<ruby><rb>小</rb><rt>ちい</rt></ruby>さな<ruby><rb>町</rb><rt>まち</rt></ruby>だよ。",
+        "zh_cn": "那是一个靠近北部边境的小镇。",
+        "zh_tw": "是位在北方國境附近的一座小鎮喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0006",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Handsome Stranger",
+        "ja_jp": "謎のイケメン",
+        "zh_cn": "神秘美男子",
+        "zh_tw": "神秘帥哥"
+      },
+      "context": {
+        "en_us": "Being on the border, it's tied quite closely\\nto the Ilian Church—which likely explains\\nwhy it's such a peaceful, sleepy burg.",
+        "ja_jp": "<ruby><rb>国境付近</rb><rt>こっきょうふきん</rt></ruby>にあるから、イリア<ruby><rb>教色</rb><rt>きょうしょく</rt></ruby>が\\n<ruby><rb>強</rb><rt>つよ</rt></ruby>いんだけど……その<ruby><rb>分</rb><rt>ぶん</rt></ruby><ruby><rb>治安</rb><rt>ちあん</rt></ruby>も<ruby><rb>良</rb><rt>よ</rt></ruby>くて\\nのどかで<ruby><rb>平和</rb><rt>へいわ</rt></ruby>なところなんだ。",
+        "zh_cn": "由于地处国境附近，所以伊莉雅教\\n色彩很浓重……不过也正因如此，\\n那里治安很好，也很和平。",
+        "zh_tw": "由於靠近國境，所以伊利亞教\\n色彩濃厚……但也因此治安良好，\\n是個悠哉和平的地方喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0007",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Handsome Stranger",
+        "ja_jp": "謎のイケメン",
+        "zh_cn": "神秘美男子",
+        "zh_tw": "神秘帥哥"
+      },
+      "context": {
+        "en_us": "Oh, and I HIGHLY recommend the corn.\\nIt's their specialty.",
+        "ja_jp": "ちなみにおススメは、<ruby><rb>特産</rb><rt>とくさん</rt></ruby><ruby><rb>品</rb><rt>ひん</rt></ruby>の\\nコーン<ruby><rb>料理</rb><rt>りょうり</rt></ruby>。",
+        "zh_cn": "顺便提一嘴，\\n那里用玉米做的菜很好吃。",
+        "zh_tw": "順帶一提我最推薦的是\\n當地特產的玉米料理。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0008",
+      "book": ""
+    },
+    {
+      "icon": "100006_01",
+      "name": {
+        "en_us": "Luca",
+        "ja_jp": "リュカ",
+        "zh_cn": "卢卡",
+        "zh_tw": "琉卡"
+      },
+      "context": {
+        "en_us": "Okay, who is this guy, and why is he\\nso freakin' SHINY?!",
+        "ja_jp": "だ……<ruby><rb>誰</rb><rt>だれ</rt></ruby>だ!?\\nこの<ruby><rb>無駄</rb><rt>むだ</rt></ruby>にキラキラしたイケメン!!",
+        "zh_cn": "你……你谁啊！？\\n哪来的这自带闪光的美男子！",
+        "zh_tw": "誰……誰啊！？\\n這個莫名其妙四射光芒的大帥哥！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0009",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "So dazzling... I can't look away!",
+        "ja_jp": "<ruby><rb>謎</rb><rt>なぞ</rt></ruby>のキラキラで<ruby><rb>目</rb><rt>め</rt></ruby>がつぶれそうだよー！\\nちょっと<ruby><rb>誰</rb><rt>だれ</rt></ruby>!?　こんなまぶしくして！",
+        "zh_cn": "这迷之闪光快要把我闪瞎啦！\\n你是谁呀！怎么这么亮啊！",
+        "zh_tw": "謎之光芒讓我眼睛都要瞎掉了啦～！\\n到底是誰！？為什麼這麼刺眼！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0010",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "You don't recognize this adorable face?\\nIt's me! Jupiter! ...The Lightwyrm?",
+        "ja_jp": "なんだい、ひっどいなぁ。みんなして\\n<ruby><rb>僕</rb><rt>ぼく</rt></ruby>のことを<ruby><rb>忘</rb><rt>わす</rt></ruby>れちゃったのかい？\\nこの、<ruby><rb>輝竜</rb><rt>きりゅう</rt></ruby>ユピテルのことを！",
+        "zh_cn": "你们可真过分。\\n都把我辉龙朱庇特\\n给忘了吗！？",
+        "zh_tw": "怎麼，你們好過份喔。\\n難道大家都忘記我了嗎？\\n忘記我──輝龍朱庇特！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0011",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Jupiter?! When did you take human form?!",
+        "ja_jp": "えっ……ユピテル!?　\\nどうして<ruby><rb>人間</rb><rt>にんげん</rt></ruby>の<ruby><rb>姿</rb><rt>すがた</rt></ruby>に……？",
+        "zh_cn": "诶……朱庇特！？\\n你怎么变成……人类的样子了？",
+        "zh_tw": "咦……朱庇特！？\\n你怎麼變成人類的樣子……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0012",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Oh, I slipped into this little number the\\nmoment I heard the name Littleton.\\nA dragon's got to get nice and gussied up\\nif he wants to visit there!",
+        "ja_jp": "そりゃあ、ロットルタウンの<ruby><rb>名前</rb><rt>なまえ</rt></ruby>が\\n<ruby><rb>聞</rb><rt>き</rt></ruby>こえたからに<ruby><rb>決</rb><rt>き</rt></ruby>まってるさ。\\nあそこに<ruby><rb>行</rb><rt>い</rt></ruby>くならオシャレしないと！",
+        "zh_cn": "那当然是因为听到了\\n罗特尔镇的名字啦。\\n去那里的话可要精心打扮一下！",
+        "zh_tw": "那當然是因為我聽見了\\n「洛特魯鎮」這個名字囉。\\n如果要去的話就得好好打扮一番嘛！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0013",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Turns out there's a certain something that\\nties me to that place, which means I have\\nno intention of ignoring that letter.",
+        "ja_jp": "<ruby><rb>僕</rb><rt>ぼく</rt></ruby>、あそこにはちょっとした<ruby><rb>縁</rb><rt>えん</rt></ruby>が\\nあってね。そこから<ruby><rb>依頼</rb><rt>いらい</rt></ruby>の<ruby><rb>書簡</rb><rt>しょかん</rt></ruby>と\\nなれば、<ruby><rb>放</rb><rt>ほう</rt></ruby>ってはおけないよ。",
+        "zh_cn": "我和那小镇稍微有一点渊源。\\n既然书信是从那里寄来的，\\n我当然不能不管啦。",
+        "zh_tw": "其實我啊，跟那裡有點緣份呢。\\n既然聽說從那裡寄來了委託信，\\n就不能放著不管啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0014",
+      "book": ""
+    },
+    {
+      "icon": "100007_01",
+      "name": {
+        "en_us": "Notte",
+        "ja_jp": "ナーム",
+        "zh_cn": "纳姆",
+        "zh_tw": "那姆"
+      },
+      "context": {
+        "en_us": "Dude. I mean, hang on. Just...\\nThat letter is LOADED with red flags!",
+        "ja_jp": "え。ユピテルは<ruby><rb>受</rb><rt>う</rt></ruby>けるつもりなの？\\nこの<ruby><rb>怪</rb><rt>あや</rt></ruby>しさ<ruby><rb>満点</rb><rt>まんてん</rt></ruby>の<ruby><rb>依頼</rb><rt>いらい</rt></ruby>を？",
+        "zh_cn": "啊？你打算接受求助？\\n你不觉得这封信蹊跷到不行吗？",
+        "zh_tw": "咦，朱庇特打算接受\\n這個可疑到極點的委託嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0015",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Very much aware, but not concerned.\\nIf we get there and it's real, we help. \\nIf we get there and it's fake, we do a bit\\nof sightseeing and skedaddle on home.",
+        "ja_jp": "うん。<ruby><rb>真偽</rb><rt>しんぎ</rt></ruby>のほどは<ruby><rb>現地</rb><rt>げんち</rt></ruby>へ<ruby><rb>行</rb><rt>い</rt></ruby>って\\n<ruby><rb>確</rb><rt>たし</rt></ruby>かめればいいし。<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>困</rb><rt>こま</rt></ruby>ってるなら\\n<ruby><rb>助</rb><rt>たす</rt></ruby>けて、<ruby><rb>嘘</rb><rt>うそ</rt></ruby>なら<ruby><rb>観光</rb><rt>かんこう</rt></ruby>して<ruby><rb>帰</rb><rt>かえ</rt></ruby>るだけさ。",
+        "zh_cn": "嗯。是真是假实际去看一看就行。\\n真的有困难的话就去帮一把，\\n假的话就游玩一番再回来呗。",
+        "zh_tw": "嗯。是真是假只要去當地確認\\n就知道了。如果真的有人遇到困難\\n就幫忙，沒有也可以當作觀光囉。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0016",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Sleepy little Littleton is the perfect place\\nfor some R&R—and if I may be so bold,\\nwe could all use it. So what do you say?",
+        "ja_jp": "あそこは<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>にのどかなところだから、\\nいい<ruby><rb>息抜</rb><rt>いきぬ</rt></ruby>きになると<ruby><rb>思</rb><rt>おも</rt></ruby>うんだ。どう？",
+        "zh_cn": "那是个非常宁静的小镇，\\n是放松的好去处。怎么样？",
+        "zh_tw": "那裡真的非常悠閒，我想應該可以\\n好好轉換心情呢。如何？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0017",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Well, if Jupiter knows this place and wants\\nto check it out, I see no reason not to.",
+        "ja_jp": "……わかった。<ruby><rb>町</rb><rt>まち</rt></ruby>を<ruby><rb>知</rb><rt>し</rt></ruby>っている\\nユピテルがそう<ruby><rb>言</rb><rt>い</rt></ruby>うなら、\\n<ruby><rb>行</rb><rt>い</rt></ruby>くだけ<ruby><rb>行</rb><rt>い</rt></ruby>ってみてみようか。",
+        "zh_cn": "好吧……既然熟悉那个\\n小镇的你都这么说了。\\n我们就去一探究竟吧。",
+        "zh_tw": "……好吧。\\n既然知道那座小鎮的朱庇特\\n都這麼說了，就去看看吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0018",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "A Few Days Later\\nLittleton's Main Street",
+        "ja_jp": "<ruby><rb>数日後</rb><rt>すうじつご</rt></ruby>\\nロットルタウン　<ruby><rb>大通</rb><rt>おおどお</rt></ruby>り",
+        "zh_cn": "数日后\\n罗特尔镇 主街",
+        "zh_tw": "幾天後\\n洛特魯鎮　大街上"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Irreverent Imperial Soldier",
+        "ja_jp": "不真面目な帝国兵",
+        "zh_cn": "轻佻的帝国兵",
+        "zh_tw": "不正經的帝國兵"
+      },
+      "context": {
+        "en_us": "WOOOOO! This town is the BEST!\\nWe can do whatever the hell we want,\\nso I say we par-tay doooooown!",
+        "ja_jp": "イェーーーーイ！　この<ruby><rb>町</rb><rt>まち</rt></ruby>は<ruby><rb>最高</rb><rt>さいこう</rt></ruby>！\\n<ruby><rb>好</rb><rt>す</rt></ruby>き<ruby><rb>勝手</rb><rt>かって</rt></ruby>できるパーティー<ruby><rb>会場</rb><rt>かいじょう</rt></ruby>だぜい！",
+        "zh_cn": "耶！这里太棒了！\\n可以随心所欲开派对的好地方啊！",
+        "zh_tw": "耶──────！這個鎮最棒啦！\\n是可以讓我們為所欲為的宴會會場！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0019",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Those imperial soldiers certainly seem to\\nbe having a good time. Which is, uh...\\nI mean, that's strange, right?",
+        "ja_jp": "なんだこれ……。<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>がそこら\\nじゅうでパーティーしてる……。",
+        "zh_cn": "这是怎么回事……\\n到处都是开派对的帝国兵……",
+        "zh_tw": "這是怎麼回事……\\n四處都有帝國兵在舉辦宴會……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0020",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Strange. Weird. Weirdly strange. All of it.\\nThis is a quiet and gentle little town,\\nnot some vulgar den of villainy.",
+        "ja_jp": "おっかしいなあ……こんな<ruby><rb>騒</rb><rt>さわ</rt></ruby>がしい\\n<ruby><rb>町</rb><rt>まち</rt></ruby>じゃなかったはずなんだけど。",
+        "zh_cn": "不对啊……我记得这里\\n并没有这么吵闹的啊。",
+        "zh_tw": "好奇怪喔……\\n原本應該不是這麼吵鬧的城鎮才對啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0021",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "This used to be a peaceful paradise where\\nfields of corn swayed in the gentle breeze.\\n...And now that I think of it, what are\\nimperial soldiers even DOING here?",
+        "ja_jp": "コーン<ruby><rb>畑</rb><rt>ばたけ</rt></ruby>が<ruby><rb>並</rb><rt>なら</rt></ruby>んでたりもっと<ruby><rb>平和</rb><rt>へいわ</rt></ruby>な\\n<ruby><rb>感</rb><rt>かん</rt></ruby>じだったんだよ。<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に。というか\\nなんで<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>がいるんだい？",
+        "zh_cn": "这里应该是有着一望无际的\\n玉米田的宁静小镇才对啊。\\n而且为什么这里会有帝国兵？",
+        "zh_tw": "以前放眼望去都是玉米田，\\n氣氛更加和平喔。我說真的。\\n說到底，為什麼會有帝國兵啊？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0022",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'm not sure. Normally the Empire's\\ninfluence weakens as you get closer\\nto the border.",
+        "ja_jp": "わからない。<ruby><rb>普通</rb><rt>ふつう</rt></ruby>なら、<ruby><rb>国境付近</rb><rt>こっきょうふきん</rt></ruby>に\\nなるほど<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>の<ruby><rb>影響力</rb><rt>えいきょうりょく</rt></ruby>は<ruby><rb>弱</rb><rt>よわ</rt></ruby>まっていく\\nはずなんだけど――",
+        "zh_cn": "不知道。正常来看，\\n越靠近边境的地方，\\n帝国的影响应该也越弱才对……",
+        "zh_tw": "不曉得。正常來說，越靠近國境\\n帝國的影響力就會越弱才對──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0023",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Flippant Imperial Soldier",
+        "ja_jp": "浮ついた帝国兵",
+        "zh_cn": "兴奋的帝国兵",
+        "zh_tw": "躁動的帝國兵"
+      },
+      "context": {
+        "en_us": "Yo yo yo! I smell me a traitor!\\nA nasty traitor prince!\\nAnd even looking at his face\\njust makes me want to wince!",
+        "ja_jp": "FU！　その<ruby><rb>声</rb><rt>こえ</rt></ruby>は<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>の<ruby><rb>第七位王子</rb><rt>だいなないおうじ</rt></ruby>!?",
+        "zh_cn": "YO！这声音是圣城的第七王子！？",
+        "zh_tw": "FU！這個聲音是聖城的第七王子！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0024",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "They've spotted us! And, uh...\\nI think they're trying to rap?",
+        "ja_jp": "うわっ、なんかこっちに<ruby><rb>気</rb><rt>き</rt></ruby>づいたぞ……",
+        "zh_cn": "唔哇，好像被认出来了……",
+        "zh_tw": "嗚哇，他們好像發現我們了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0025",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Irreverent Imperial Soldier",
+        "ja_jp": "不真面目な帝国兵",
+        "zh_cn": "轻佻的帝国兵",
+        "zh_tw": "不正經的帝國兵"
+      },
+      "context": {
+        "en_us": "Someone sent a letter!\\nIt might have been hot air!\\nBut he came runnin' just to help\\nbecause he's such a square!",
+        "ja_jp": "マジにあの<ruby><rb>怪</rb><rt>あや</rt></ruby>しい<ruby><rb>手紙</rb><rt>てがみ</rt></ruby>で<ruby><rb>来</rb><rt>き</rt></ruby>てくれ\\nたんだぜい！　<ruby><rb>噂通</rb><rt>うわさどお</rt></ruby>りの<ruby><rb>聖人</rb><rt>せいじん</rt></ruby><ruby><rb>君子</rb><rt>くんし</rt></ruby>ィ！",
+        "zh_cn": "竟然真的被那封可疑的信引来了！\\n真是名不虚传的圣人君子哦！",
+        "zh_tw": "竟然真的因為那封可疑的信跑來咧！\\n跟傳言一樣，是個聖人君子～！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0026",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Flippant Imperial Soldier",
+        "ja_jp": "浮ついた帝国兵",
+        "zh_cn": "兴奋的帝国兵",
+        "zh_tw": "躁動的帝國兵"
+      },
+      "context": {
+        "en_us": "Thank you, princely sir!\\nYou really made our day!\\nNow get your booty over here\\nand we'll lock it away!",
+        "ja_jp": "ありがた<ruby><rb>涙</rb><rt>なみだ</rt></ruby>で<ruby><rb>頂戴</rb><rt>ちょうだい</rt></ruby>するYO♪\\n<ruby><rb>依頼</rb><rt>いらい</rt></ruby>の<ruby><rb>人物</rb><rt>じんぶつ</rt></ruby>、<ruby><rb>即刻</rb><rt>そっこく</rt></ruby><ruby><rb>確保</rb><rt>かくほ</rt></ruby>♪",
+        "zh_cn": "那就感激涕零地带走吧YO♪\\n立刻逮捕目标人物♪",
+        "zh_tw": "我就感激涕零地帶走YO♪\\n目標人物，立刻捉住♪"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0027",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Imperial Soldiers",
+        "ja_jp": "帝国兵たち",
+        "zh_cn": "帝国兵们",
+        "zh_tw": "帝國兵們"
+      },
+      "context": {
+        "en_us": "WOOOOORD UP!",
+        "ja_jp": "ウェーーーーーーーーーーイ!!",
+        "zh_cn": "耶！",
+        "zh_tw": "耶────────────咿！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0028",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Gya! They've surrounded us! Jupiter,\\nlend me your strength and we'll cut\\na path out of—",
+        "ja_jp": "ってもう<ruby><rb>囲</rb><rt>かこ</rt></ruby>まれた!?\\n<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>貸</rb><rt>か</rt></ruby>してくれ、ユピテル！\\nここから<ruby><rb>逃</rb><rt>に</rt></ruby>げ……",
+        "zh_cn": "这就被包围了！？\\n朱庇特！来助我一臂之力！\\n赶快从这里逃……",
+        "zh_tw": "咦，被包圍了！？\\n幫個忙，朱庇特！\\n我們要從這裡逃……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0029",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Irreverent Imperial Soldier",
+        "ja_jp": "不真面目な帝国兵",
+        "zh_cn": "轻佻的帝国兵",
+        "zh_tw": "不正經的帝國兵"
+      },
+      "context": {
+        "en_us": "Now where you think you're going?\\nYou can't just run away!\\nYou're worth a million shiny rupees,\\nand someone's gonna PAY!",
+        "ja_jp": "させるか～い！　<ruby><rb>王子</rb><rt>おうじ</rt></ruby>を<ruby><rb>捕</rb><rt>と</rt></ruby>らえて\\n<ruby><rb>一攫千金</rb><rt>いっかくせんきん</rt></ruby>！　その<ruby><rb>夢</rb><rt>ゆめ</rt></ruby><ruby><rb>叶</rb><rt>かな</rt></ruby>えるため、\\n<ruby><rb>脱兎</rb><rt>だっと</rt></ruby><ruby><rb>脱兎</rb><rt>だっと</rt></ruby>～っしょい！",
+        "zh_cn": "休想逃跑！抓住王子就能一夜暴富！\\n为了梦想奔跑起来奔跑起来～",
+        "zh_tw": "休想得逞～！\\n捉住王子一攫千金！為了實現夢想，\\n就要動如脫兔脫兔～！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0030",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "SOMEBODY HELP MEEEEE!",
+        "ja_jp": "うわああっ!?　た～す～け～て～！",
+        "zh_cn": "哇啊啊！？救～命～啊～",
+        "zh_tw": "嗚哇啊啊！？救～救～我～啊～！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0031",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "My, my. Quite the show of skill there.\\nI suppose I should go save him, buuut...\\nOh, he'll be fine.",
+        "ja_jp": "おお～、なかなかに<ruby><rb>鮮</rb><rt>あざ</rt></ruby>やかな<ruby><rb>手並</rb><rt>てな</rt></ruby>み。\\nうーん、これ<ruby><rb>助</rb><rt>たす</rt></ruby>けた<ruby><rb>方</rb><rt>ほう</rt></ruby>がいいのかなあ？\\n……まぁうちのご<ruby><rb>主人</rb><rt>しゅじん</rt></ruby>なら<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>か。",
+        "zh_cn": "噢～这水平还真不错。\\n唔……我要不要救人啊？\\n不过我家主人那么厉害……应该没问题。",
+        "zh_tw": "喔喔～手法還真是精湛。\\n嗯～這種情況要去救他比較好嗎？\\n……算了，我家主人應該不會有事吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0032",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "I have more important things to do—\\nsuch as figuring out why this town\\nhas suddenly gone bananas!",
+        "ja_jp": "それより、この<ruby><rb>町</rb><rt>まち</rt></ruby>がおかしくなった\\n<ruby><rb>理由</rb><rt>りゆう</rt></ruby>を<ruby><rb>探</rb><rt>さぐ</rt></ruby>りたいな。\\nさてさて、<ruby><rb>行</rb><rt>い</rt></ruby>ってみるとしようか！",
+        "zh_cn": "不管他了，我得先查查这个\\n小镇为什么变得如此古怪。\\n好嘞，去一探究竟！",
+        "zh_tw": "比起那些，我更想查一查\\n這個鎮變得這麼奇怪的理由呢。\\n好啦，我就去看看吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0033",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Well, I thought I'd discover something,\\nbut all found on my little walkabout\\nwere those weird imperial soldiers.",
+        "ja_jp": "……と<ruby><rb>思</rb><rt>おも</rt></ruby>って<ruby><rb>町中歩</rb><rt>まちじゅうある</rt></ruby>いてみたものの、\\n<ruby><rb>見渡</rb><rt>みわた</rt></ruby>す<ruby><rb>限</rb><rt>かぎ</rt></ruby>り<ruby><rb>変</rb><rt>へん</rt></ruby>な<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>ばかりだな。",
+        "zh_cn": "在镇上转了一圈下来……\\n放眼望去都是奇怪的帝国兵啊。",
+        "zh_tw": "……雖然在鎮上繞了繞，\\n但放眼望去都是奇怪的帝國兵呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0034",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "I'd love to talk to some actual residents,\\nbut... Hmm? I say, what have we here?",
+        "ja_jp": "できたらこの<ruby><rb>町</rb><rt>まち</rt></ruby>の<ruby><rb>元々</rb><rt>もともと</rt></ruby>の<ruby><rb>住民</rb><rt>じゅうみん</rt></ruby>に\\n<ruby><rb>話</rb><rt>はなし</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>きたいんだけど……おや？",
+        "zh_cn": "要是能找这小镇的居民们\\n打听打听的话……噢？",
+        "zh_tw": "可以的話我想聽聽原本就住在\\n這座鎮上的居民怎麼說……喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0035",
+      "book": ""
+    },
+    {
+      "icon": "120015_01",
+      "name": {
+        "en_us": "Worried Woman",
+        "ja_jp": "不安そうな女性",
+        "zh_cn": "不安的女子",
+        "zh_tw": "看似不安的女性"
+      },
+      "context": {
+        "en_us": "Oh, this can't be happening! Now SHE'S\\na victim of that terrible prosecutor?!",
+        "ja_jp": "そんな……お<ruby><rb>嬢様</rb><rt>じょうさま</rt></ruby>がとうとう\\n<ruby><rb>検事</rb><rt>けんじ</rt></ruby>の<ruby><rb>餌食</rb><rt>えじき</rt></ruby>に……。",
+        "zh_cn": "这下怎么办……\\n大小姐她还是没能逃过\\n那检察长的魔掌……",
+        "zh_tw": "怎麼會……\\n大小姐還是落入了檢察官手中……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0036",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Depressed Man",
+        "ja_jp": "落ち込んでいる男性",
+        "zh_cn": "失落的男子",
+        "zh_tw": "失落的男性"
+      },
+      "context": {
+        "en_us": "This spells the end of the village. Nobody\\ncan beat that prosecutor—especially since\\nhe has the support of the imperial soldiers.",
+        "ja_jp": "これでもう、この<ruby><rb>町</rb><rt>まち</rt></ruby>はおしまいだ。\\n<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>さえ<ruby><rb>味方</rb><rt>みかた</rt></ruby>につけたあの<ruby><rb>検事</rb><rt>けんじ</rt></ruby>には、\\n<ruby><rb>誰</rb><rt>だれ</rt></ruby>も<ruby><rb>勝</rb><rt>か</rt></ruby>てやしないんだ。",
+        "zh_cn": "这下这个镇子算是完蛋了。\\n连帝国兵都给他撑腰，\\n没有人能赢得过那检察长的。",
+        "zh_tw": "這下子，這個鎮真的完蛋了。\\n那位檢察官能讓帝國兵也站在他那邊，\\n沒有任何人可以贏得了的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0037",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "What's this about a prosecutor and some\\nsoldiers, and why is everyone looking so\\nforlornly at that bulletin board posting?",
+        "ja_jp": "あれは……。みんな<ruby><rb>掲示板</rb><rt>けいじばん</rt></ruby>の<ruby><rb>貼</rb><rt>は</rt></ruby>り<ruby><rb>紙</rb><rt>がみ</rt></ruby>を\\n<ruby><rb>見</rb><rt>み</rt></ruby>ているみたいだけど、<ruby><rb>検事</rb><rt>けんじ</rt></ruby>が<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>を\\n<ruby><rb>味方</rb><rt>みかた</rt></ruby>につけたっていったい……。",
+        "zh_cn": "那是……大家好像都在\\n看公告栏上的布告。\\n帝国兵给检察长撑腰又是怎么回事……",
+        "zh_tw": "那是……\\n大家似乎都在看布告欄上張貼的紙，\\n檢察官讓帝國兵站在他那邊是指……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0038",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Sorry to intrude, but do your current\\nmournful looks have something to do\\nwith the imperials posted about town?",
+        "ja_jp": "ちょっとごめんね。この<ruby><rb>貼</rb><rt>は</rt></ruby>り<ruby><rb>紙</rb><rt>がみ</rt></ruby>は、\\nいったいなんだい？　もしかして<ruby><rb>町中</rb><rt>まちじゅう</rt></ruby>に\\n<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>がいるのと、<ruby><rb>関係</rb><rt>かんけい</rt></ruby>ある？",
+        "zh_cn": "打扰一下，这张布告是怎么回事啊？\\n这和镇上那些帝国兵有什么关联吗？",
+        "zh_tw": "打擾一下喔。\\n這張告示是什麼啊？\\n莫非和鎮上的帝國兵，有關係？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0039",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Depressed Man",
+        "ja_jp": "落ち込んでいる男性",
+        "zh_cn": "失落的男子",
+        "zh_tw": "失落的男性"
+      },
+      "context": {
+        "en_us": "You must be new, traveler—our town's\\nbeen like this for some time now. Sadly,\\nthe town prosecutor bought off all of\\nthose imperial scoundrels.",
+        "ja_jp": "あんた、<ruby><rb>旅</rb><rt>たび</rt></ruby>の<ruby><rb>人</rb><rt>ひと</rt></ruby>かい？　この<ruby><rb>町</rb><rt>まち</rt></ruby>はもう\\nずっとこんな<ruby><rb>感</rb><rt>かん</rt></ruby>じさ。<ruby><rb>町</rb><rt>まち</rt></ruby>で<ruby><rb>唯一</rb><rt>ゆいいつ</rt></ruby>の\\n<ruby><rb>検事</rb><rt>けんじ</rt></ruby>が、<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>を<ruby><rb>金</rb><rt>かね</rt></ruby>で<ruby><rb>囲</rb><rt>かこ</rt></ruby>ってんだ。",
+        "zh_cn": "你是外面来的吗？\\n这镇子变成这样已经有段时间了。\\n镇上的检察长用金钱收买了帝国兵。",
+        "zh_tw": "你是旅人嗎？這個鎮現在一直是這樣。\\n因為鎮上唯一的檢察官，\\n用錢收買了帝國兵。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0040",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "That would seem to exceed his purview.\\nWhy doesn't your mayor step in?",
+        "ja_jp": "<ruby><rb>検事</rb><rt>けんじ</rt></ruby>ごときにそんな<ruby><rb>力</rb><rt>ちから</rt></ruby>があるの？\\n<ruby><rb>町長</rb><rt>ちょうちょう</rt></ruby>は<ruby><rb>何</rb><rt>なに</rt></ruby>をしているんだい。",
+        "zh_cn": "一个检察长有那么大权力吗？\\n你们的镇长在干什么？",
+        "zh_tw": "區區檢察官有這麼大的權力嗎？\\n鎮長究竟在做什麼。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0041",
+      "book": ""
+    },
+    {
+      "icon": "120015_01",
+      "name": {
+        "en_us": "Worried Woman",
+        "ja_jp": "不安そうな女性",
+        "zh_cn": "不安的女子",
+        "zh_tw": "看似不安的女性"
+      },
+      "context": {
+        "en_us": "The prosecutor IS the mayor now.\\nNobody wanted it, but we can't oppose\\nhim unless we want to get trampled\\nunder his boot.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>は<ruby><rb>検事</rb><rt>けんじ</rt></ruby>が<ruby><rb>町長</rb><rt>ちょうちょう</rt></ruby>なのよ。\\nみんな<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>は<ruby><rb>認</rb><rt>みと</rt></ruby>めてないけど、\\n<ruby><rb>表立</rb><rt>おもてだ</rt></ruby>っては<ruby><rb>逆</rb><rt>さか</rt></ruby>らえないわ。",
+        "zh_cn": "那检察长就是现在的镇长。\\n虽然大家都不承认，\\n但没人敢在明面上反抗。",
+        "zh_tw": "現在檢察官就是鎮長啊。\\n雖然大家心裡都不承認，\\n但表面上卻無法違抗。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0042",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Depressed Man",
+        "ja_jp": "落ち込んでいる男性",
+        "zh_cn": "失落的男子",
+        "zh_tw": "失落的男性"
+      },
+      "context": {
+        "en_us": "If you so much as blink the wrong way,\\nhe'll drag you to court and make sure\\nyou lose the shirt off your back and the\\npants off your behind.",
+        "ja_jp": "もし<ruby><rb>目</rb><rt>め</rt></ruby>をつけられて<ruby><rb>裁判所</rb><rt>さいばんしょ</rt></ruby>に<ruby><rb>引</rb><rt>ひ</rt></ruby>きずり\\n<ruby><rb>出</rb><rt>だ</rt></ruby>されたら、<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby>に<ruby><rb>勝</rb><rt>か</rt></ruby>てんからな。",
+        "zh_cn": "毕竟万一被盯上然后带上法庭的话，\\n肯定会被扣上莫须有的罪名。",
+        "zh_tw": "因為如果被盯上而被告上法院，\\n是絕對贏不了的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0043",
+      "book": ""
+    },
+    {
+      "icon": "120015_01",
+      "name": {
+        "en_us": "Worried Woman",
+        "ja_jp": "不安そうな女性",
+        "zh_cn": "不安的女子",
+        "zh_tw": "看似不安的女性"
+      },
+      "context": {
+        "en_us": "A few people raised their voices against\\nhis violent ways, but the moment they lost\\nin court, we never saw 'em again.\\nHe's evil, I tells ya! Evil to the core!",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>まで<ruby><rb>何人</rb><rt>なんにん</rt></ruby>も、<ruby><rb>横暴</rb><rt>おうぼう</rt></ruby>に<ruby><rb>異</rb><rt>い</rt></ruby>を<ruby><rb>唱</rb><rt>とな</rt></ruby>えた<ruby><rb>人</rb><rt>ひと</rt></ruby>が\\n<ruby><rb>裁判</rb><rt>さいばん</rt></ruby>で<ruby><rb>負</rb><rt>ま</rt></ruby>けて<ruby><rb>消</rb><rt>け</rt></ruby>されていったの。\\n<ruby><rb>検事</rb><rt>けんじ</rt></ruby>は<ruby><rb>間違</rb><rt>まちが</rt></ruby>いなく<ruby><rb>悪人</rb><rt>あくにん</rt></ruby>よ！　でも……",
+        "zh_cn": "之前有不少人反对那检察长的行径，\\n但都在法庭上被扣上了罪名处决了。\\n他就是个不折不扣的恶棍！可是……",
+        "zh_tw": "到目前為止雖然有不少人反對暴舉，\\n卻因為敗訴而被消失了。\\n那檢察官毫無疑問是壞人！可是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0044",
+      "book": ""
+    },
+    {
+      "icon": "120015_01",
+      "name": {
+        "en_us": "Worried Woman",
+        "ja_jp": "不安そうな女性",
+        "zh_cn": "不安的女子",
+        "zh_tw": "看似不安的女性"
+      },
+      "context": {
+        "en_us": "And his mansion is so closely guarded,\\neven the Templars tasked with protecting\\nour fair city can't pin any crimes on him.",
+        "ja_jp": "<ruby><rb>屋敷</rb><rt>やしき</rt></ruby>の<ruby><rb>守</rb><rt>まも</rt></ruby>りが<ruby><rb>厳重過</rb><rt>げんじゅうす</rt></ruby>ぎて、この<ruby><rb>町</rb><rt>まち</rt></ruby>の\\n<ruby><rb>治安</rb><rt>ちあん</rt></ruby>を<ruby><rb>守</rb><rt>まも</rt></ruby>ってくれている<ruby><rb>教会騎士</rb><rt>きょうかいきし</rt></ruby>\\nでも<ruby><rb>悪事</rb><rt>あくじ</rt></ruby>の<ruby><rb>尻尾</rb><rt>しっぽ</rt></ruby>が<ruby><rb>掴</rb><rt>つか</rt></ruby>めないのよ。",
+        "zh_cn": "那家伙的大宅戒备森严，\\n连守护小镇的教会骑士\\n都没法抓住他作恶的证据。",
+        "zh_tw": "因為他宅邸的守衛太過森嚴，\\n就連守護鎮上治安的教會騎士，\\n都無法捉住他的狐狸尾巴。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0045",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "That sounds simply terrible. You'd think\\nit would spark the fire of rebellion in at\\nleast someone.",
+        "ja_jp": "そりゃあ<ruby><rb>大変</rb><rt>たいへん</rt></ruby>だ。そんなだと、\\n<ruby><rb>誰</rb><rt>だれ</rt></ruby>かしら<ruby><rb>検事</rb><rt>けんじ</rt></ruby>に<ruby><rb>盾突</rb><rt>たてつ</rt></ruby>く<ruby><rb>奴</rb><rt>やつ</rt></ruby>が<ruby><rb>出</rb><rt>で</rt></ruby>てきて\\nいてもおかしくなさそうだけど。",
+        "zh_cn": "这可不得了。既然是这样，\\n有一两个与检察长作斗争的人\\n出现应该也不算稀奇吧。",
+        "zh_tw": "那真是糟糕啊。不過這樣的話，\\n即使有人出面反抗檢察官\\n也不奇怪才對。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0046",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Is that what happened with the woman\\nyou were discussing earlier?",
+        "ja_jp": "もしや、さっき<ruby><rb>話</rb><rt>はな</rt></ruby>してたお<ruby><rb>嬢様</rb><rt>じょうさま</rt></ruby>って\\nいうのがそうなのかな？",
+        "zh_cn": "难不成，你们刚才提到的\\n那位大小姐就是和他对着干的人？",
+        "zh_tw": "該不會，\\n就是你們剛才提到的「大小姐」？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0047",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Depressed Man",
+        "ja_jp": "落ち込んでいる男性",
+        "zh_cn": "失落的男子",
+        "zh_tw": "失落的男性"
+      },
+      "context": {
+        "en_us": "Aye, she tried to resist the prosecutor,\\nbut now she's been arrested by the\\nimperials and dragged off to prison \\nlike all the rest. Poor child...",
+        "ja_jp": "ああ。だがそのお<ruby><rb>嬢様</rb><rt>じょうさま</rt></ruby>も、とうとう\\n<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>に<ruby><rb>捕</rb><rt>つか</rt></ruby>まって<ruby><rb>拘置所</rb><rt>こうちしょ</rt></ruby>に<ruby><rb>送</rb><rt>おく</rt></ruby>られて\\nしまったみたいだ。お<ruby><rb>労</rb><rt>いたわ</rt></ruby>しや……。",
+        "zh_cn": "是啊。但现在连那位大小姐\\n也被帝国兵抓起来关进拘留所了。\\n真是太可怜了……",
+        "zh_tw": "嗯。但那位大小姐，最後好像\\n也被帝國兵捉住並送進看守所了。\\n實在太可憐了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0048",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Yes, poor child indeed. Off topic,\\nbut where is this prison located?",
+        "ja_jp": "へえ……。\\nちなみに、その<ruby><rb>拘置所</rb><rt>こうちしょ</rt></ruby>ってどこ？",
+        "zh_cn": "嚯……\\n那你说的那个拘留所在哪？",
+        "zh_tw": "喔……\\n話說回來，那間看守所在哪裡？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0049",
+      "book": ""
+    },
+    {
+      "icon": "120015_01",
+      "name": {
+        "en_us": "Worried Woman",
+        "ja_jp": "不安そうな女性",
+        "zh_cn": "不安的女子",
+        "zh_tw": "看似不安的女性"
+      },
+      "context": {
+        "en_us": "It's a building just a ways north of here,\\nbut why would you ask such a thing,\\nstranger? It's locked up tight as a drum,\\nand no good will come of your being there.",
+        "ja_jp": "ここから<ruby><rb>北</rb><rt>きた</rt></ruby>にしばらく<ruby><rb>歩</rb><rt>ある</rt></ruby>いた<ruby><rb>建物</rb><rt>たてもの</rt></ruby>よ。\\nでもそんなの<ruby><rb>聞</rb><rt>き</rt></ruby>いてどうするの？\\nあそこも<ruby><rb>帝国</rb><rt>ていこく</rt></ruby><ruby><rb>兵</rb><rt>へい</rt></ruby>が<ruby><rb>厳</rb><rt>きび</rt></ruby>しく<ruby><rb>守</rb><rt>まも</rt></ruby>ってて――",
+        "zh_cn": "从这往北走不远就能看到了。\\n话说你问这个干嘛？\\n那里也有帝国兵层层把守——",
+        "zh_tw": "從這裡往北走一段路就會看到了。\\n是說你問這個要做什麼？\\n那裡也有帝國兵負責嚴加守衛──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0050",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Why else? I'm going to ask them to look\\nthe other way while I stroll right in.",
+        "ja_jp": "<ruby><rb>決</rb><rt>き</rt></ruby>まってるさ。よそ<ruby><rb>見</rb><rt>み</rt></ruby>をしてくれって\\nお<ruby><rb>願</rb><rt>ねが</rt></ruby>いして、<ruby><rb>堂々</rb><rt>どうどう</rt></ruby>と<ruby><rb>忍</rb><rt>しの</rt></ruby>び<ruby><rb>込</rb><rt>こ</rt></ruby>むんだよ。",
+        "zh_cn": "干什么还用问吗？当然是拜托他们\\n走个神，让我光明正大地溜进去。",
+        "zh_tw": "那還用說。當然是拜託他們裝沒看見，\\n讓我光明正大地偷闖進去囉。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0051",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "Depressed Man",
+        "ja_jp": "落ち込んでいる男性",
+        "zh_cn": "失落的男子",
+        "zh_tw": "失落的男性"
+      },
+      "context": {
+        "en_us": "...Wait. What?",
+        "ja_jp": "……え？　なんだって？",
+        "zh_cn": "诶？你说什么？",
+        "zh_tw": "……咦？他說什麼？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0052",
+      "book": ""
+    },
+    {
+      "icon": "120014_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Same Day\\nLittleton Prison",
+        "ja_jp": "<ruby><rb>同日</rb><rt>どうじつ</rt></ruby>\\nロットルタウン　<ruby><rb>拘置所</rb><rt>こうちしょ</rt></ruby>",
+        "zh_cn": "同一天\\n罗特尔镇 拘留所",
+        "zh_tw": "同一天\\n洛特魯鎮　看守所"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120080_01",
+      "name": {
+        "en_us": "Imperial Soldier",
+        "ja_jp": "帝国兵",
+        "zh_cn": "帝国兵",
+        "zh_tw": "帝國兵"
+      },
+      "context": {
+        "en_us": "YEAAAAAAAH! I can't feel my anything!",
+        "ja_jp": "ギャース！　しびれるるるぅ。",
+        "zh_cn": "嗷～呜！触电般的感觉～",
+        "zh_tw": "噫呀──！好麻啊啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0053",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "There there. There's a good boy.\\nNow then, where is that young miss?",
+        "ja_jp": "よしよし、みんないい<ruby><rb>子</rb><rt>こ</rt></ruby>だねー。\\nさて、お<ruby><rb>嬢様</rb><rt>じょうさま</rt></ruby>はどこかなーっと……",
+        "zh_cn": "不错不错，大家都很乖啊～\\n那么那位大小姐在哪里呢……",
+        "zh_tw": "好乖好乖，大家都是乖寶寶呢～\\n接下來，大小姐在哪裡呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0054",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Woman's Voice",
+        "ja_jp": "女性の声",
+        "zh_cn": "女子的声音",
+        "zh_tw": "女性的聲音"
+      },
+      "context": {
+        "en_us": "I can't believe this! How could you let\\nyourself get arrested?! Now it's all over!",
+        "ja_jp": "――<ruby><rb>信</rb><rt>しん</rt></ruby>っじらんない！　どーして\\n<ruby><rb>捕</rb><rt>つか</rt></ruby>まっちゃったの!?　これでいよいよ\\nおしまいよ～～～～～っ！",
+        "zh_cn": "真是令人难以置信！\\n为什么你会被抓到这里！？\\n这下我可真是要完蛋啦！",
+        "zh_tw": "──難以置信！為什麼會被捉住啊！？\\n這樣就真的全都完蛋了啦～～～～～！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0055",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Man's Voice",
+        "ja_jp": "男性の声",
+        "zh_cn": "男子的声音",
+        "zh_tw": "男性的聲音"
+      },
+      "context": {
+        "en_us": "Er, please try to remain calm! This town\\nhas been a lot to take in, and I'm still a\\nlittle confused. Uh, I'm sorry for getting\\ncaptured...",
+        "ja_jp": "お、<ruby><rb>落</rb><rt>お</rt></ruby>ち<ruby><rb>着</rb><rt>つ</rt></ruby>いて……。おれも<ruby><rb>突然</rb><rt>とつぜん</rt></ruby>の\\nことが<ruby><rb>続</rb><rt>つづ</rt></ruby>いて、まだ<ruby><rb>混乱</rb><rt>こんらん</rt></ruby>してるんだ。\\n<ruby><rb>捕</rb><rt>つか</rt></ruby>まったのは<ruby><rb>悪</rb><rt>わる</rt></ruby>かったけれど……。",
+        "zh_cn": "先、先冷静一下……我也是因为\\n事出突然，现在还没有搞清楚情况。\\n不过被抓的事确实对不住你……",
+        "zh_tw": "妳、妳冷靜點……我也因為\\n突然發生很多事，還有點混亂。\\n雖說被捉住是我不好……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0056",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Sounds like she's just down that way.\\nBut who is that other voice, mmm?",
+        "ja_jp": "うん、あの<ruby><rb>奥</rb><rt>おく</rt></ruby>だな。にしても、\\n<ruby><rb>今</rb><rt>いま</rt></ruby>の<ruby><rb>声</rb><rt>こえ</rt></ruby>の<ruby><rb>片方</rb><rt>かたほう</rt></ruby>って……",
+        "zh_cn": "嗯，应该是在那边。\\n不过刚才的声音……",
+        "zh_tw": "嗯，在那邊吧。是說，\\n剛才傳來的另一個聲音……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0057",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Ah-ha! I knew it. The Prince is here.\\nTsk tsk, you two! No talking among\\nprisoners! Keep to your own cells!",
+        "ja_jp": "やっぱり。<ruby><rb>王子</rb><rt>おうじ</rt></ruby>もここにいたのか。\\nおーい、おふたりさん……\\n<ruby><rb>牢屋</rb><rt>ろうや</rt></ruby>も<ruby><rb>違</rb><rt>ちが</rt></ruby>うのに<ruby><rb>何</rb><rt>なに</rt></ruby>を<ruby><rb>大声</rb><rt>おおごえ</rt></ruby>で<ruby><rb>話</rb><rt>はな</rt></ruby>してるの？",
+        "zh_cn": "果然，王子你也在这里啊。\\n喂——你们两个……\\n都不是一个牢房的，吼什么呢？",
+        "zh_tw": "果然。王子你也在這裡啊。\\n喂──兩位……你們牢房又不同間，\\n幹嘛要特地大聲交談啊？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0058",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Jupiter?! Oh, I am SO glad to see you!\\nListen, the woman in the cell next to me\\nis named Eryn, and she's apparently the\\nformer mayor's daughter.",
+        "ja_jp": "ユピテル!?　<ruby><rb>助</rb><rt>たす</rt></ruby>けに<ruby><rb>来</rb><rt>き</rt></ruby>てくれたのか！\\nええと、じつはね。<ruby><rb>隣</rb><rt>となり</rt></ruby>の<ruby><rb>房</rb><rt>ぼう</rt></ruby>の<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>……\\nエリンは<ruby><rb>前町長</rb><rt>ぜんちょうちょう</rt></ruby>のご<ruby><rb>息女</rb><rt>そくじょ</rt></ruby>らしいんだ。",
+        "zh_cn": "朱庇特！？你来救我了吗！\\n呃，事情是这样的。隔壁的女士……\\n埃琳是前任镇长的女儿。",
+        "zh_tw": "朱庇特！？你來救我了嗎！\\n呃嗯，其實，隔壁牢房的這位……\\n艾琳她似乎是前任鎮長的女兒。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0059",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "She was about to take a stand against the\\ncurrent mayor, so he set her up and had\\nher locked away.",
+        "ja_jp": "それで、<ruby><rb>現町長</rb><rt>げんちょうちょう</rt></ruby>の<ruby><rb>検事</rb><rt>けんじ</rt></ruby>と<ruby><rb>何</rb><rt>なに</rt></ruby>かと<ruby><rb>対立</rb><rt>たいりつ</rt></ruby>\\nしていたところ、とうとう<ruby><rb>嵌</rb><rt>は</rt></ruby>められて\\nここに<ruby><rb>入</rb><rt>い</rt></ruby>れられてしまったんだって。",
+        "zh_cn": "她因为与现任镇长的那位检察长\\n处处对立而遭到陷害，\\n所以会被关在这里。",
+        "zh_tw": "因為她和身為現任鎮長的檢察官\\n在許多方面互相對立，\\n結果後來就遭到對方陷害而被拘留了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0060",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "He's trying to frame me for MURDER,\\nthe cad! He knows I have a key I won't\\nlet out of my sight, so now he's taking\\ndrastic measures to acquire it.",
+        "ja_jp": "そ。<ruby><rb>殺人</rb><rt>さつじん</rt></ruby>の<ruby><rb>濡</rb><rt>ぬ</rt></ruby>れ<ruby><rb>衣</rb><rt>ぎぬ</rt></ruby>を<ruby><rb>着</rb><rt>き</rt></ruby>せられたのよ。\\nあの<ruby><rb>検事</rb><rt>けんじ</rt></ruby>、<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>肌身</rb><rt>はだみ</rt></ruby><ruby><rb>離</rb><rt>はな</rt></ruby>さず<ruby><rb>鍵</rb><rt>かぎ</rt></ruby>を<ruby><rb>守</rb><rt>まも</rt></ruby>ってる\\nからって、いよいよ<ruby><rb>強硬策</rb><rt>きょうこうさく</rt></ruby>に<ruby><rb>出</rb><rt>で</rt></ruby>たのよ。",
+        "zh_cn": "没错。我被诬陷杀了人。\\n因为我把钥匙带在身上寸步不离，\\n那家伙才终于开始采取强硬手段。",
+        "zh_tw": "沒錯。我被他陷害背上殺人的黑鍋。\\n那位檢察官，是看到我為了保護鑰匙\\n而從不離身，所以才採取了強硬手段。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0061",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "If he has me found guilty, the key is his—\\nand then he'll try to open the sacred\\ntreasure! Ooo, I can't WAIT to take that\\nbig jerk to court!",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>を<ruby><rb>有罪</rb><rt>ゆうざい</rt></ruby>にして<ruby><rb>鍵</rb><rt>かぎ</rt></ruby>を<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>上</rb><rt>あ</rt></ruby>げ、<ruby><rb>邪魔者</rb><rt>じゃまもの</rt></ruby>を\\n<ruby><rb>消</rb><rt>け</rt></ruby>し『<ruby><rb>聖櫃</rb><rt>せいひつ</rt></ruby>』の<ruby><rb>中身</rb><rt>なかみ</rt></ruby>も<ruby><rb>手</rb><rt>て</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>れようって\\n<ruby><rb>腹</rb><rt>はら</rt></ruby>よ。<ruby><rb>強欲</rb><rt>ごうよく</rt></ruby>すぎるわ、<ruby><rb>訴</rb><rt>うった</rt></ruby>えてやる！",
+        "zh_cn": "他企图给我套上罪名好没收我的钥匙，\\n这样就能铲除异己并获得“圣龛”里的\\n东西。真是太贪心了，我要告死他！",
+        "zh_tw": "他打算先讓我背上罪名再拿走鑰匙，\\n除掉礙事者順便得到「聖櫃」裡的東西。\\n太貪心了，我要告死他！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0062",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "A bit late for that, seeing as he's already\\ntaking you there.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>、<ruby><rb>訴</rb><rt>うった</rt></ruby>えられてるのは<ruby><rb>君</rb><rt>きみ</rt></ruby>だろ。\\nあぁ、そうか……<ruby><rb>町</rb><rt>まち</rt></ruby>の<ruby><rb>人</rb><rt>ひと</rt></ruby>たちが\\n<ruby><rb>噂</rb><rt>うわさ</rt></ruby>してたお<ruby><rb>嬢様</rb><rt>じょうさま</rt></ruby>って、<ruby><rb>君</rb><rt>きみ</rt></ruby>のこと。",
+        "zh_cn": "现在你才是被告的那个吧。\\n嗯，所以……你就是镇上\\n居民们所说的大小姐对吧。",
+        "zh_tw": "現在被告的人是妳吧。\\n啊啊，原來如此……\\n鎮上居民口中的大小姐，就是妳啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0063",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Still, you're clearly who the townsfolk were\\nspeaking of. The daughter of the former\\nmayor? One beloved by all? There can't be\\na bigger target for a crooked prosecutor.",
+        "ja_jp": "<ruby><rb>民</rb><rt>たみ</rt></ruby>から<ruby><rb>信頼</rb><rt>しんらい</rt></ruby>されてる<ruby><rb>前町長</rb><rt>ぜんちょうちょう</rt></ruby>の<ruby><rb>娘</rb><rt>むすめ</rt></ruby>……\\nなんて、<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>なことこの<ruby><rb>上</rb><rt>うえ</rt></ruby>ないもんね。\\nそりゃあ<ruby><rb>検事</rb><rt>けんじ</rt></ruby>も<ruby><rb>消</rb><rt>け</rt></ruby>したがるさ。",
+        "zh_cn": "深得信赖的前任镇长之女……\\n没有比你更麻烦的麻烦了啊。\\n难怪检察长要除掉你。",
+        "zh_tw": "深受人民信賴的前任鎮長之女……\\n沒有比這更礙事的存在了呢。\\n難怪檢察官會想除掉妳。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0064",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Though normally, I'd expect him to target\\nthe former mayor and not his daughter.",
+        "ja_jp": "でもそれなら、<ruby><rb>君</rb><rt>きみ</rt></ruby>よりも<ruby><rb>前町長本人</rb><rt>ぜんちょうちょうほんにん</rt></ruby>が\\n<ruby><rb>標的</rb><rt>ひょうてき</rt></ruby>になりそうなものだけど……",
+        "zh_cn": "不过他为什么不对前任镇长下手，\\n而是选中了你呢……",
+        "zh_tw": "不過這樣的話，前任鎮長本人\\n應該比妳更有可能成為目標才對……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0065",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "My father died in prison—which is why I\\nhave to protect this key with my life!",
+        "ja_jp": "お<ruby><rb>父様</rb><rt>とうさま</rt></ruby>は、もう<ruby><rb>亡</rb><rt>な</rt></ruby>くなったわ。\\n<ruby><rb>獄中死</rb><rt>ごくちゅうし</rt></ruby>よ。だからこそ、<ruby><rb>私</rb><rt>わたし</rt></ruby>はこの<ruby><rb>鍵</rb><rt>かぎ</rt></ruby>を\\n<ruby><rb>守</rb><rt>まも</rt></ruby>らなくちゃいけないの。",
+        "zh_cn": "我父亲已经去世了。\\n他死于狱中。正因如此，\\n我才必须要保护好这把钥匙。",
+        "zh_tw": "父親大人，已經去世了。\\n他是死在牢裡的。\\n正因如此，我才必須保護這把鑰匙。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0066",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Oh dear. My apologies. Perhaps we'd best\\nchange topics: What key are we talking\\nabout, and what is this sacred treasure\\nyou so cryptically mentioned?",
+        "ja_jp": "おっと……ごめんね。なら<ruby><rb>話</rb><rt>はなし</rt></ruby>を\\n<ruby><rb>変</rb><rt>か</rt></ruby>えよう。その<ruby><rb>鍵</rb><rt>かぎ</rt></ruby>とか<ruby><rb>聖櫃</rb><rt>せいひつ</rt></ruby>とやらは、\\nいったいなんなんだい？",
+        "zh_cn": "啊……抱歉。\\n那我们先不提这件事。\\n那把钥匙和圣龛又是怎么回事？",
+        "zh_tw": "喔……抱歉啊。那我們改變話題吧。\\n那把鑰匙和什麼聖櫃的，\\n又是指什麼呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0067",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "It's apparently a box filled with relics from\\nKing Alberius, and she has the only key.",
+        "ja_jp": "それが……<ruby><rb>建国王</rb><rt>けんこくおう</rt></ruby>アルベリウスの\\n<ruby><rb>聖遺物</rb><rt>せいいぶつ</rt></ruby>を<ruby><rb>納</rb><rt>おさ</rt></ruby>めた<ruby><rb>箱</rb><rt>はこ</rt></ruby>と、その<ruby><rb>鍵</rb><rt>かぎ</rt></ruby>らしい。",
+        "zh_cn": "据说……是放有建国之王\\n阿尔贝琉斯圣遗物的盒子和其钥匙。",
+        "zh_tw": "那些……聽說是用來保管\\n建國君王阿爾博流斯聖遺物的箱子，\\n以及其鑰匙。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0068",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Relics from King Alberius, eh?",
+        "ja_jp": "……アルベリウスの？",
+        "zh_cn": "阿尔贝琉斯的？",
+        "zh_tw": "……阿爾博流斯的？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0069",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "The one and only! It's a family heirloom\\npassed down from generation to\\ngeneration. He gave it to us personally and\\nsaid it would grant power and prosperity.",
+        "ja_jp": "そうよ。<ruby><rb>本物</rb><rt>ほんもの</rt></ruby>！　<ruby><rb>所有者</rb><rt>しょゆうしゃ</rt></ruby>に<ruby><rb>強大</rb><rt>きょうだい</rt></ruby>な<ruby><rb>力</rb><rt>ちから</rt></ruby>と\\n<ruby><rb>繁栄</rb><rt>はんえい</rt></ruby>を<ruby><rb>約束</rb><rt>やくそく</rt></ruby>するっていう、<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>家</rb><rt>や</rt></ruby>で\\n<ruby><rb>代々</rb><rt>だいだい</rt></ruby><ruby><rb>受</rb><rt>う</rt></ruby>け<ruby><rb>継</rb><rt>つ</rt></ruby>がれてきた<ruby><rb>家宝</rb><rt>かほう</rt></ruby>なの。",
+        "zh_cn": "没错！货真价实！\\n相传能带给持有者强大的力量和荣华，\\n是我家代代相传的传家宝呢。",
+        "zh_tw": "沒錯，貨真價實！是傳說中\\n會給予持有者強大力量與繁榮，\\n我們家代代相傳的傳家寶。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0070",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "That jerk of a prosecutor stole it from us\\nwhen he took my father out of power.",
+        "ja_jp": "それをあの<ruby><rb>検事</rb><rt>けんじ</rt></ruby>は、<ruby><rb>父</rb><rt>ちち</rt></ruby>を<ruby><rb>失脚</rb><rt>しっきゃく</rt></ruby>させたとき\\n<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に<ruby><rb>奪</rb><rt>うば</rt></ruby>っていったのよ。でも、\\nやつは<ruby><rb>未</rb><rt>いま</rt></ruby>だに<ruby><rb>聖櫃</rb><rt>せいひつ</rt></ruby>を<ruby><rb>開</rb><rt>あ</rt></ruby>けられていない。",
+        "zh_cn": "然而那个检察长迫害了父亲后\\n就把圣龛一并夺走了。\\n不过，他到现在都没能打开它。",
+        "zh_tw": "那個檢察官害我父親大人下台的同時\\n就把箱子也奪走了。不過，\\n他到現在還沒成功打開聖櫃。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0071",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "But he still can't open it without the key—\\nand even if he DID get the key,\\nthat still wouldn't be enough.",
+        "ja_jp": "<ruby><rb>鍵</rb><rt>かぎ</rt></ruby>を<ruby><rb>手</rb><rt>て</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>れられてないからね。\\nそれに、<ruby><rb>仮</rb><rt>かり</rt></ruby>に<ruby><rb>鍵</rb><rt>かぎ</rt></ruby>だけ<ruby><rb>手</rb><rt>て</rt></ruby>に<ruby><rb>入</rb><rt>い</rt></ruby>れたと\\nしても<ruby><rb>無駄</rb><rt>むだ</rt></ruby>なのよ。",
+        "zh_cn": "毕竟他没有钥匙。\\n而且就算拿到钥匙也没有用。",
+        "zh_tw": "因為他還沒得到鑰匙。\\n而且，就算他得到鑰匙也沒用。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0072",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "In order to open it, you have to have\\ndragonblood, which is something only\\nroyals have. Oh, you should have seen his\\nface get all pouty when I told him that!",
+        "ja_jp": "<ruby><rb>聖遺物</rb><rt>せいいぶつ</rt></ruby>の<ruby><rb>起動</rb><rt>きどう</rt></ruby>には、<ruby><rb>王族</rb><rt>おうぞく</rt></ruby>しか<ruby><rb>持</rb><rt>も</rt></ruby>ってない\\n<ruby><rb>竜</rb><rt>りゅう</rt></ruby>の<ruby><rb>血</rb><rt>ち</rt></ruby>が<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>だもの！　この<ruby><rb>前</rb><rt>まえ</rt></ruby>、そう\\n<ruby><rb>啖呵</rb><rt>たんか</rt></ruby>を<ruby><rb>切</rb><rt>き</rt></ruby>ってやったのよ！",
+        "zh_cn": "因为只有王族身上的龙之血\\n才能激活圣遗物！\\n前几天我就是这么呛他的！",
+        "zh_tw": "要想啟動聖遺物，\\n必須使用王族才擁有的龍之血！\\n我之前就這樣罵給他聽！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0073",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Which explains the letter we received.\\nHeavens, this all actually WAS a trap?\\nI can't believe Luca was right.",
+        "ja_jp": "はあ、<ruby><rb>大体</rb><rt>だいたい</rt></ruby><ruby><rb>読</rb><rt>よ</rt></ruby>めてきたぞ。<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>に\\nあの<ruby><rb>書簡</rb><rt>しょかん</rt></ruby>が<ruby><rb>届</rb><rt>とど</rt></ruby>いた<ruby><rb>原因</rb><rt>げんいん</rt></ruby>はそれか……。",
+        "zh_cn": "唉，我大概明白这是怎么回事了。\\n所以才会有那封寄去圣城的信啊……",
+        "zh_tw": "喔～我大致知道是怎麼回事了。\\n所以聖城才會收到那封信嗎……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0074",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "Yes, it seems the prosecutor wants\\nthose relics no matter the cost.",
+        "ja_jp": "だろうな。どうやら<ruby><rb>検事</rb><rt>けんじ</rt></ruby>は、<ruby><rb>謎</rb><rt>なぞ</rt></ruby>の\\n<ruby><rb>聖遺物</rb><rt>せいいぶつ</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>がなんとしても<ruby><rb>欲</rb><rt>ほ</rt></ruby>しい\\nらしい。",
+        "zh_cn": "没错。\\n看来那检察长无论如何都想要\\n获得神秘圣遗物的力量啊。",
+        "zh_tw": "應該是吧。看來那位檢察官，\\n似乎無論如何都想得到\\n神秘聖遺物的力量。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0075",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "And if we do nothing, he's clearly going to\\ncharge you with some random crime.\\nTrespassing or jaywalking or spitting\\ninto the wind or what have you.",
+        "ja_jp": "ふーむ。つまり……このまま<ruby><rb>順当</rb><rt>じゅんとう</rt></ruby>に\\nいけば、<ruby><rb>君</rb><rt>きみ</rt></ruby>も<ruby><rb>適当</rb><rt>てきとう</rt></ruby>な<ruby><rb>罪</rb><rt>つみ</rt></ruby>を<ruby><rb>被</rb><rt>かぶ</rt></ruby>せられる\\n<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby><ruby><rb>大</rb><rt>だい</rt></ruby>ってことだね？",
+        "zh_cn": "唔……也就是说……\\n这样下去你也很有可能\\n会被扣上莫须有的罪名吧？",
+        "zh_tw": "唔～嗯。也就是說……\\n照這樣發展下去，\\n你也很有可能被隨便扣上某項罪名吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0076",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Then he'll railroad you into a sham guilty \\nverdict and presto! Your life is over.",
+        "ja_jp": "パーティー<ruby><rb>乱入罪</rb><rt>らんにゅうざい</rt></ruby>とかそのへんでさ。\\nあとは<ruby><rb>例</rb><rt>れい</rt></ruby>の<ruby><rb>検事</rb><rt>けんじ</rt></ruby>が<ruby><rb>仕切</rb><rt>しき</rt></ruby>る<ruby><rb>裁判</rb><rt>さいばん</rt></ruby>で<ruby><rb>無理</rb><rt>むり</rt></ruby>やり\\n<ruby><rb>有罪</rb><rt>ゆうざい</rt></ruby>にされて、<ruby><rb>人生</rb><rt>じんせい</rt></ruby>も<ruby><rb>終了</rb><rt>しゅうりょう</rt></ruby>だ。",
+        "zh_cn": "比如什么扰乱派对罪之类的。\\n然后在那检察长负责的法庭上\\n被判有罪，就此结束你的人生？",
+        "zh_tw": "比方「擅闖宴會罪」之類的。\\n接著只要那位檢察官在負責的法庭上\\n強行讓你背負罪名，你這輩子就完了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0077",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "As ridiculous as it seems, I think that's\\njust what's going on in this town now.\\nIt also explains why they have hardly any\\ndefense attorneys.",
+        "ja_jp": "<ruby><rb>多分</rb><rt>たぶん</rt></ruby>……。<ruby><rb>無茶苦茶</rb><rt>むちゃくちゃ</rt></ruby>すぎるけど、\\nどうもここはそういう<ruby><rb>町</rb><rt>まち</rt></ruby>らしい。\\nだから<ruby><rb>弁護士</rb><rt>べんごし</rt></ruby>もあまりいなくて……。",
+        "zh_cn": "也许吧……虽然听起来非常荒唐，\\n但这里似乎就是这么荒唐的地方。\\n所以也几乎没有律师……",
+        "zh_tw": "大概……雖然很不合理，\\n但這裡似乎就是這樣的城鎮。\\n所以才會沒什麼律師……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0078",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "Well, nobody wants to fight an\\nunwinnable battle. I take it this\\nmeans you still haven't attained\\nlegal representation, miss?",
+        "ja_jp": "まぁ、<ruby><rb>誰</rb><rt>だれ</rt></ruby>しも<ruby><rb>不当</rb><rt>ふとう</rt></ruby>な<ruby><rb>負</rb><rt>ま</rt></ruby>け<ruby><rb>戦</rb><rt>いくさ</rt></ruby>はしたくない\\nだろうしねえ。となると……<ruby><rb>君</rb><rt>きみ</rt></ruby>もまだ、\\n<ruby><rb>弁護士</rb><rt>べんごし</rt></ruby><ruby><rb>見</rb><rt>み</rt></ruby>つかってなかったりするの？",
+        "zh_cn": "也是，毕竟没人愿意帮忙打一场\\n不公平的必败官司啊。\\n这么说来……你也还没找到律师？",
+        "zh_tw": "也對啦，大家都不想應付\\n不正當的必敗之戰嘛。\\n這麼說來……妳也還沒找到律師嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0079",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "No, but so what? I don't need some\\npuffy-wig-wearing stuffed shirt to give\\nthat stupid prosecutor what for!",
+        "ja_jp": "そ、それは……そうだけど……。\\nだから<ruby><rb>何</rb><rt>なに</rt></ruby>よ！　<ruby><rb>弁護士</rb><rt>べんごし</rt></ruby>なんかいなくても\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>はあの<ruby><rb>検事</rb><rt>けんじ</rt></ruby>には<ruby><rb>負</rb><rt>ま</rt></ruby>けないわよ！",
+        "zh_cn": "这、这个嘛……确实……\\n但这有什么关系！就算没有律师，\\n我也不会输给那家伙的！",
+        "zh_tw": "這、這個……是沒錯……\\n那又怎樣！就算沒有什麼律師，\\n我也不會輸給那個檢察官的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0080",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "Bad enough some thief broke into my\\nplace before, but now I'm framed for\\nMURDER?! Oh, he will not get away\\nwith this. He will NOT.",
+        "ja_jp": "ただでさえこの<ruby><rb>前</rb><rt>まえ</rt></ruby><ruby><rb>泥棒</rb><rt>どろぼう</rt></ruby>に<ruby><rb>入</rb><rt>はい</rt></ruby>られて\\n<ruby><rb>気</rb><rt>き</rt></ruby>が<ruby><rb>滅入</rb><rt>めい</rt></ruby>ってたのに、<ruby><rb>今度</rb><rt>こんど</rt></ruby>は<ruby><rb>殺人</rb><rt>さつじん</rt></ruby><ruby><rb>犯</rb><rt>はん</rt></ruby>\\n<ruby><rb>扱</rb><rt>あつか</rt></ruby>いなんて！　<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby><ruby><rb>許</rb><rt>ゆる</rt></ruby>さない！",
+        "zh_cn": "本来家里进了小偷就已经让我\\n够沮丧了，现在又被人污蔑成\\n杀人犯！我决饶不了他！",
+        "zh_tw": "光是之前家裡遭小偷就夠讓人沮喪了，\\n這次竟然還說我是殺人犯！\\n我絕不原諒他！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0081",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "So I'm gonna represent myself,\\nget acquitted, and then SUE THE HECK\\nOUTTA THAT SCUMBAG RATFINK!",
+        "ja_jp": "こうなったら<ruby><rb>自己</rb><rt>じこ</rt></ruby><ruby><rb>弁護</rb><rt>べんご</rt></ruby>で<ruby><rb>無罪</rb><rt>むざい</rt></ruby><ruby><rb>勝利</rb><rt>しょうり</rt></ruby>して\\nみせるわ。それで<ruby><rb>逆</rb><rt>ぎゃく</rt></ruby>に<ruby><rb>検事</rb><rt>けんじ</rt></ruby>を<ruby><rb>訴</rb><rt>うった</rt></ruby>え\\n<ruby><rb>返</rb><rt>かえ</rt></ruby>してやるのよ～～～～！",
+        "zh_cn": "事已至此，我一定要\\n靠自我辩护胜诉给他看！\\n然后反过来告死那个检察长！",
+        "zh_tw": "既然如此我一定要靠自我辯護成功勝訴\\n無罪給他看。接著再反過來\\n告死那個檢察官～～～～！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0082",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "So even if it hurts, you still don't want to\\ngo down without a fight?",
+        "ja_jp": "ふーん、そうか。なるほどね……\\n<ruby><rb>傷</rb><rt>きず</rt></ruby>ついても、ただで<ruby><rb>負</rb><rt>ま</rt></ruby>けてやる\\nつもりはないわけだ。",
+        "zh_cn": "嚯，这样啊。我明白了……\\n看来你即使受尽委屈\\n也不愿意轻易败给他吧。",
+        "zh_tw": "哼～是嗎。原來如此……\\n所以妳即使受傷，\\n也不打算就這樣輸給對方吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0083",
+      "book": ""
+    },
+    {
+      "icon": "110399_801",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "In that case, you have my help.",
+        "ja_jp": "いいね、<ruby><rb>面白</rb><rt>おもしろ</rt></ruby>い！　それなら、<ruby><rb>僕</rb><rt>ぼく</rt></ruby>が\\n<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>貸</rb><rt>か</rt></ruby>してあげないこともないよ？",
+        "zh_cn": "有意思，很有意思！\\n既然这样，我也不是不可以帮你哦？",
+        "zh_tw": "好耶，很有趣！既然如此，\\n要我幫妳一把也可以喔？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0084",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Eryn",
+        "ja_jp": "エリン",
+        "zh_cn": "埃琳",
+        "zh_tw": "艾琳"
+      },
+      "context": {
+        "en_us": "What do you mean?",
+        "ja_jp": "え？　どういうこと？",
+        "zh_cn": "诶？什么意思？",
+        "zh_tw": "咦？什麼意思？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0085",
+      "book": ""
+    },
+    {
+      "icon": "110398_01",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "What I mean is simple!",
+        "ja_jp": "つまり――こういうことさ！",
+        "zh_cn": "当然是——字面意思！",
+        "zh_tw": "就是──這個意思！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0086",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "I, Jupiter, will be your defense attorney!",
+        "ja_jp": "この<ruby><rb>僕</rb><rt>ぼく</rt></ruby>、ユピテルが！\\n<ruby><rb>君</rb><rt>きみ</rt></ruby>の<ruby><rb>担当</rb><rt>たんとう</rt></ruby><ruby><rb>弁護士</rb><rt>べんごし</rt></ruby>になってあげよう！",
+        "zh_cn": "就由我朱庇特！\\n来担任你的辩护律师！",
+        "zh_tw": "就由我──朱庇特！\\n來當妳的辯護律師吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0087",
+      "book": ""
+    },
+    {
+      "icon": "110398_02",
+      "name": {
+        "en_us": "Jupiter",
+        "ja_jp": "ユピテル",
+        "zh_cn": "朱庇特",
+        "zh_tw": "朱庇特"
+      },
+      "context": {
+        "en_us": "I'll glamorously win that court case,\\nexpose the scummy prosecutor for who\\nhe is, and get you two AND your prized\\npossession back in one fell swoop!",
+        "ja_jp": "<ruby><rb>華麗</rb><rt>かれい</rt></ruby>に<ruby><rb>裁判</rb><rt>さいばん</rt></ruby>に<ruby><rb>勝利</rb><rt>しょうり</rt></ruby>し、ついでに<ruby><rb>検事</rb><rt>けんじ</rt></ruby>の\\n<ruby><rb>不正</rb><rt>ふせい</rt></ruby>も<ruby><rb>暴</rb><rt>あば</rt></ruby>き、きみたちふたりと<ruby><rb>遺品</rb><rt>いひん</rt></ruby>を\\nいっぺんに<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>戻</rb><rt>もど</rt></ruby>してあげちゃうよ！",
+        "zh_cn": "看我华丽地赢下官司，\\n再一举揭露检察长的不法行径，\\n为你们二人洗刷冤屈并夺回圣遗物！",
+        "zh_tw": "看我華麗地贏下訴訟，\\n再順便一舉揭露檢察官的不法行為，\\n取回你們兩位跟遺物吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0088",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Together",
+        "ja_jp": "ふたり",
+        "zh_cn": "二人",
+        "zh_tw": "兩人"
+      },
+      "context": {
+        "en_us": "WHAAAAAT?!",
+        "ja_jp": "……え。ええーーーーーーっ!?",
+        "zh_cn": "嗯……诶诶诶诶！？",
+        "zh_tw": "……呃。\\n咦咦──────！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22217_01_0089",
+      "book": ""
+    }
+  ]
 }

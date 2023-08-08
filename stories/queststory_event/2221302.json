@@ -1,825 +1,1564 @@
 {
-    "story_id": "",
-    "story_name": "迎击战～祝福之羽翼～ 不为人知的传说",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "德莱茨听妮诺讲述关于祖先伊莉雅的真相后\\n带她离开了村子，躲在炼狱派祭司所在的镇上，\\n却没想到祭司也对妮诺另有所图。\\n正当他们走投无路之际，圣都格拉姆斯的\\n使徒里莎等人救了他们。"
-        ]
+  "title": {
+    "en_us": "Blessed Bloodline    Sacred Legends",
+    "ja_jp": "迎撃戦～ブレス・ウィズ・ウイング～  秘められた伝承",
+    "zh_cn": "迎击战～祝福之羽翼～  不为人知的传说",
+    "zh_tw": "迎擊戰～神佑之翼～  秘密的傳承"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "120232_01"
-            ],
-            "speaker_name": "圣骑士戈马",
-            "context": "呃！所有人，暂时撤退！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_04"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "妮诺，你没事吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "嗯……没想到宝珠竟然变成盔甲了。\\n这就是传说中的单翼吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "传说？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "我们一族有句代代相传的古话……\\n“清廉之人现身之时，\\n宝珠闪烁，授其单翼”。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "这身盔甲的原形宝珠，\\n是1000年我的祖先留下的护身符。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "1000年前你的祖先……\\n如果宝珠是圣遗物，\\n那这身盔甲就是女神御制……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "我说……你是什么都不知道\\n就来到这里的吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "你听说我是女神的后代之后，\\n心里是怎么想的？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "说实话……我很困惑，\\n但我不会像戈马他们\\n那样谴责你。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "我相信的不是历史，\\n而是女神期盼幸福的意愿。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "你的目光很坚定呢……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "不说这个了。其实我是遵照\\n索尼埃尔的遗言来保护你的。\\n但在问出详情之前他就……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "所以我希望你能告诉我，\\n你被盯上的原因……\\n还有你的祖先和一族的事。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "毕竟是那么久以前的祖先，\\n真实情况我也不知道。\\n不过我们一族有一种说法——",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "1000年前，名为伊莉雅的少女\\n为了从灾难中拯救世界，\\n团结了一直彼此争斗的人与龙。\\n她为了终结灾难，\\n不惜以自己为活祭，投身异界。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "如果她消失一事传了出去，\\n人与龙难免再起争端。\\n于是身为她养母的精灵折断羽翼，\\n自称“伊莉雅”，并为了\\n人龙的和谐而四处奔走游说。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "这就是伊莉雅教的起源。\\n而折断羽翼的那位原精灵\\n才是为外界所知的女神——",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "据说也是我的祖先……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "你是精灵吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "我姑且算是人类。\\n好像是因为祖先折断了翅膀，\\n所以失去了精灵之力。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "言归正传，我的祖先去世之后，\\n教会内掀起了一场\\n争夺继承之位的风波。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "教徒分裂成了主张由伊莉雅\\n直系后代统治的世袭派\\n和主张另立新主的派系。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "结果世袭派败下阵来，他们怕\\n遭到肃清，就用大规模的魔法\\n将伊莉雅的后代藏进了这隐世之村。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "藏……难不成，索尼埃尔\\n和世袭派有什么关系吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "是的，包括他在内的世袭派的\\n子孙们组成的组织就是“宗室会”。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "他们代代避着教皇藏匿我们一族，\\n从外界支援我们的生活。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "教会也抹去了争夺继承权一事。\\n听说我们一族已经被世人\\n彻底遗忘了。可是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "戈马他们却来到了这里抓你。\\n他们似乎也有魔法铃铛。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "我不清楚他们为什么\\n会知道我们一族的事。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "不过铃铛好像是从“宗室会”\\n某成员手上夺来的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "原来如此。索尼埃尔\\n察觉到了他们的动向，\\n为了先发制人就找我……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "你觉得那些骑士还会再来吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "他们应该不会善罢甘休。\\n妮诺，我们一起离开村子吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "诶？离开村子？\\n我真的可以出去吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "待在这里太危险了。\\n我带你去安全的地方。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "SYS",
-            "context": "炼狱镇\\n炼狱派祭司管辖区",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "和保守派发生了冲突吗。\\n我明白了，你们暂时\\n就藏在这镇上吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "谢谢你，\\n格雷尼祭司。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "毕竟是志同道合的德莱茨的请求嘛。\\n不过，那位小姐是？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "我是他妹妹。对吧，哥哥？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "哥、哥哥？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "哥哥，我走累了，\\n我们赶紧去住处吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "妮诺，等等……\\n我们先告辞了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "没想到对方竟然主动送上门……\\n这是女神在朝我微笑呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "为什么要谎称\\n我是你哥哥啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "那个祭司能不能接受\\n我们一族的事还是未知数。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "格雷尼祭司为教会的腐败而忧心，\\n他和我一样，是期盼炼狱文书的登场\\n能够引起改革的同路人。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "他不拘泥于陈规旧俗，\\n应该不会否定你的存在。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "说起来，你是炼狱派\\n那个派系的吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "我听索尼埃尔说了，\\n教会现在围绕炼狱文书\\n分裂成了两股势力，互相争斗。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "你为什么会站在炼狱派那边？\\n因为你相信炼狱文书的内容吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "我成为圣骑士后的第一个任务\\n是镇压某个教区的内乱，\\n而其起因是教会的失控。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "信仰如果沦为了残害\\n无辜生命的工具，\\n那它就成了应该抛弃的遗物。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "所以我很期待炼狱文书的出现\\n能带来新的气象，\\n让更多生命得到拯救。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "但是，那个炼狱文书\\n好像又造成了新的牺牲吧？\\n你觉得这样就好吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "我曾认为牺牲是在所难免的。\\n但是现在……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "我觉得与其期待某些东西，\\n不如看清自己能做的事\\n并付诸行动。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "你这个人……\\n和我所认识的教会里的人\\n不一样呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "话说回来，等风头过去了，\\n我打算带你去圣城，\\n那有我的熟人。在那里的话……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "？？？",
-            "context": "（快逃！）",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "刚才的声音是？唔！\\n有烟从门缝里进来了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "咳咳！身体感觉好沉……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "这烟是……毒气？\\n得离开这里才行！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "妮诺，抓紧我！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "诶？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "我们从窗户出去！\\n动作会有些粗暴，你忍一忍！\\n哈啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "妮诺，你没事吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "嗯、嗯……我没事……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "本想等你们麻痹之后再抓人的，\\n没想到竟然逃出来了啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "格雷尼祭司！？\\n难道那毒气是你……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "没错，你和那个小姑娘形影不离。\\n为了让你们分开，\\n我觉得这是最好的方法。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "你的目标是妮诺……\\n为什么要抓她！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "我已经查明\\n那丫头是“宗室会”\\n藏起来的女神后代。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "你也认为我是\\n招摇撞骗的异端吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "我和那些保守派的死脑筋不一样。\\n不管什么真相都能接受，\\n这才是真正的信徒。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "那你为什么要干这种\\n背后捅刀子的事？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "我的愿望是所有信徒的和谐与安宁，\\n所以她的存在有些棘手。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "更重要的是，用她手上的\\n钥匙弄清一切真相\\n才是最快最好的办法。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "难道你……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "你在说什么啊？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "你没必要知道。\\n乖乖交出那个小姑娘，\\n不然的话就让他们……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "（呃……是因为吸入了毒气吗，\\n身体发沉。不知能不能闯出去……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "？？？",
-            "context": "哎呀，我怎么能让你\\n把他们带走呢。看招！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "什么人！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210154_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "碰巧路过的正义之士而已。\\n这两个人就交给我们了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210154_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "里莎！放烟雾弹！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110381_01"
-            ],
-            "speaker_name": "里莎",
-            "context": "是、是！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "咳咳……人不见了！\\n被他们跑了吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "果然不该把抓人的任务\\n交给镇上的卫兵，\\n还是交给“他们”比较好。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_02_0089",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "After Tobias hears the truth about Nino's\\nancestor, the Goddess Ilia, they flee the hidden\\nvillage toward a town with a perditionist priest.\\nBut his betrayal leaves them cornered until the\\napostle Ryszarda comes to their rescue.",
+      "ja_jp": "ニーノから<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>の<ruby><rb>先祖</rb><rt>せんぞ</rt></ruby>である<ruby><rb>女神</rb><rt>めがみ</rt></ruby>イリアの\\n<ruby><rb>真実</rb><rt>しんじつ</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>かされたトライツ。<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>を<ruby><rb>里</rb><rt>さと</rt></ruby>の<ruby><rb>外</rb><rt>そと</rt></ruby>に\\n<ruby><rb>連</rb><rt>つ</rt></ruby>れ<ruby><rb>出</rb><rt>だ</rt></ruby>し、<ruby><rb>煉獄派</rb><rt>れんごくは</rt></ruby>の<ruby><rb>司祭</rb><rt>しさい</rt></ruby>がいる<ruby><rb>町</rb><rt>まち</rt></ruby>に<ruby><rb>匿</rb><rt>かくま</rt></ruby>うが、\\n<ruby><rb>司祭</rb><rt>しさい</rt></ruby>もニーノを<ruby><rb>狙</rb><rt>ねら</rt></ruby>う。<ruby><rb>窮地</rb><rt>きゅうち</rt></ruby>に<ruby><rb>陥</rb><rt>おちい</rt></ruby>った<ruby><rb>時</rb><rt>とき</rt></ruby>、<ruby><rb>聖都</rb><rt>せいと</rt></ruby>\\nグラムスの<ruby><rb>使徒</rb><rt>しと</rt></ruby>リィザたちがふたりを<ruby><rb>救</rb><rt>すく</rt></ruby>う。",
+      "zh_cn": "德莱茨听妮诺讲述关于祖先伊莉雅的真相后\\n带她离开了村子，躲在炼狱派祭司所在的镇上，\\n却没想到祭司也对妮诺另有所图。\\n正当他们走投无路之际，圣都格拉姆斯的\\n使徒里莎等人救了他们。",
+      "zh_tw": "特萊茲從尼諾口中得知關於她的祖先──\\n女神伊利亞的真相。特萊茲將她帶離村落，\\n並藏匿於煉獄派祭司所在的城鎮，卻沒想到\\n祭司也盯上了尼諾。正當他們陷入困境，\\n聖都葛拉姆斯的理薩與拉斐爾及時相救。"
+    }
+  },
+  "prev": "2221301",
+  "next": "2221303",
+  "content": [
+    {
+      "icon": "120232_01",
+      "name": {
+        "en_us": "Paladyn Goma",
+        "ja_jp": "聖騎士ゴーマ",
+        "zh_cn": "圣骑士戈马",
+        "zh_tw": "聖騎士戈曼"
+      },
+      "context": {
+        "en_us": "Rgh... Fall back, men!",
+        "ja_jp": "くっ……！　<ruby><rb>総員</rb><rt>そういん</rt></ruby>、ここは<ruby><rb>退</rb><rt>ひ</rt></ruby>くぞ！",
+        "zh_cn": "呃！所有人，暂时撤退！",
+        "zh_tw": "唔……！\\n所有人，從這裡撤退！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0001",
+      "book": ""
+    },
+    {
+      "icon": "110352_04",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Are you all right, Nino?",
+        "ja_jp": "<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>か、ニーノ？",
+        "zh_cn": "妮诺，你没事吧？",
+        "zh_tw": "妳沒事吧，尼諾？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0002",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Yes. I...had no idea my charm held such\\npower. Is this what that rhyme meant?",
+        "ja_jp": "ええ。……<ruby><rb>宝玉</rb><rt>ほうぎょく</rt></ruby>が<ruby><rb>鎧</rb><rt>よろい</rt></ruby>に<ruby><rb>変</rb><rt>か</rt></ruby>わるなんて。\\nこれが<ruby><rb>伝承</rb><rt>でんしょう</rt></ruby>にあった<ruby><rb>片羽</rb><rt>かたは</rt></ruby>なの？",
+        "zh_cn": "嗯……没想到宝珠竟然变成盔甲了。\\n这就是传说中的单翼吗？",
+        "zh_tw": "嗯。\\n……沒想到寶玉竟然會變成鎧甲，\\n這就是傳說中的片翼嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0003",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Rhyme?",
+        "ja_jp": "<ruby><rb>伝承</rb><rt>でんしょう</rt></ruby>？",
+        "zh_cn": "传说？",
+        "zh_tw": "傳說？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0004",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Old words, passed down in my family.\\n＂When there shall come a soul of light,\\nthy gem shall shine and grant thee flight.＂",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>一族</rb><rt>いちぞく</rt></ruby>に<ruby><rb>代々</rb><rt>だいだい</rt></ruby><ruby><rb>伝</rb><rt>つた</rt></ruby>わる<ruby><rb>伝承</rb><rt>でんしょう</rt></ruby>……。\\n「<ruby><rb>清廉</rb><rt>せいれん</rt></ruby>なる<ruby><rb>者</rb><rt>もの</rt></ruby>が<ruby><rb>現</rb><rt>あらわ</rt></ruby>れし<ruby><rb>時</rb><rt>とき</rt></ruby>、\\n　<ruby><rb>宝玉</rb><rt>ほうぎょく</rt></ruby>は<ruby><rb>瞬</rb><rt>またた</rt></ruby>き、<ruby><rb>片羽</rb><rt>かたは</rt></ruby>を<ruby><rb>授</rb><rt>さず</rt></ruby>けん」。",
+        "zh_cn": "我们一族有句代代相传的古话……\\n“清廉之人现身之时，\\n宝珠闪烁，授其单翼”。",
+        "zh_tw": "是我們一族代代相傳的傳說……\\n「當清廉之人現身時，\\n　寶玉將閃爍光輝，授其片翼。」"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0005",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "The gem that became your armor is a\\nprotective charm my ancestor left behind\\na thousand years ago.",
+        "ja_jp": "その<ruby><rb>鎧</rb><rt>よろい</rt></ruby>の<ruby><rb>元</rb><rt>もと</rt></ruby>になった<ruby><rb>宝玉</rb><rt>ほうぎょく</rt></ruby>は、1000<ruby><rb>年</rb><rt>ねん</rt></ruby><ruby><rb>前</rb><rt>まえ</rt></ruby>に\\nご<ruby><rb>先祖様</rb><rt>せんぞさま</rt></ruby>が<ruby><rb>残</rb><rt>のこ</rt></ruby>したお<ruby><rb>守</rb><rt>まも</rt></ruby>りなの。",
+        "zh_cn": "这身盔甲的原形宝珠，\\n是1000年我的祖先留下的护身符。",
+        "zh_tw": "變成那身鎧甲的寶玉，\\n是祖先在1000年前留下來的護身符。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0006",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Then that would make it a holy relic...\\nMeaning this armor is the work of the\\nGoddess Herself.",
+        "ja_jp": "1000<ruby><rb>年</rb><rt>ねん</rt></ruby><ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>君</rb><rt>きみ</rt></ruby>の<ruby><rb>先祖</rb><rt>せんぞ</rt></ruby>……<ruby><rb>宝玉</rb><rt>ほうぎょく</rt></ruby>が\\n<ruby><rb>聖遺物</rb><rt>せいいぶつ</rt></ruby>なら、この<ruby><rb>鎧</rb><rt>よろい</rt></ruby>は<ruby><rb>女神</rb><rt>めがみ</rt></ruby>の<ruby><rb>御業</rb><rt>みわざ</rt></ruby>……。",
+        "zh_cn": "1000年前你的祖先……\\n如果宝珠是圣遗物，\\n那这身盔甲就是女神御制……",
+        "zh_tw": "1000年前的妳的祖先……\\n如果寶玉真是聖遺物，\\n那這身鎧甲就是女神的神蹟……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0007",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Hey. You came here without knowing\\nanything, right?",
+        "ja_jp": "……ねえ。アンタは<ruby><rb>何</rb><rt>なに</rt></ruby>も<ruby><rb>知</rb><rt>し</rt></ruby>らないで\\nここに<ruby><rb>来</rb><rt>き</rt></ruby>たのよね？",
+        "zh_cn": "我说……你是什么都不知道\\n就来到这里的吧？",
+        "zh_tw": "……吶，\\n你是什麼都不曉得就來到這裡的吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0008",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "What do you believe? About me being a\\ndescendant of Ilia, I mean.",
+        "ja_jp": "アンタはどう<ruby><rb>思</rb><rt>おも</rt></ruby>ってるの？　\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>女神</rb><rt>めがみ</rt></ruby>の<ruby><rb>子孫</rb><rt>しそん</rt></ruby>だって<ruby><rb>聞</rb><rt>き</rt></ruby>いて。",
+        "zh_cn": "你听说我是女神的后代之后，\\n心里是怎么想的？",
+        "zh_tw": "那你怎麼想呢？\\n關於我是女神子孫這件事。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0009",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Honestly? I'm not sure. But I certainly\\ndon't see that as a reason to attack you\\nas Goma did.",
+        "ja_jp": "<ruby><rb>正直</rb><rt>しょうじき</rt></ruby>に<ruby><rb>言</rb><rt>い</rt></ruby>うと……<ruby><rb>戸惑</rb><rt>とまど</rt></ruby>っている。\\nだからといってゴーマたちのように\\n<ruby><rb>君</rb><rt>きみ</rt></ruby>を<ruby><rb>糾弾</rb><rt>きゅうだん</rt></ruby>したりなどしない。",
+        "zh_cn": "说实话……我很困惑，\\n但我不会像戈马他们\\n那样谴责你。",
+        "zh_tw": "說實話……我很困惑。\\n但雖說如此，\\n我也絕不會像戈曼他們那樣批評妳。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0010",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "My faith lies not in history, but in the will\\nof the Goddess that all life shall find\\npeace.",
+        "ja_jp": "<ruby><rb>僕</rb><rt>ぼく</rt></ruby>が<ruby><rb>信</rb><rt>しん</rt></ruby>じるのは<ruby><rb>歴史</rb><rt>れきし</rt></ruby>ではなく、\\n<ruby><rb>幸福</rb><rt>こうふく</rt></ruby>を<ruby><rb>願</rb><rt>ねが</rt></ruby>う<ruby><rb>女神</rb><rt>めがみ</rt></ruby>の<ruby><rb>御心</rb><rt>みこころ</rt></ruby>だから。",
+        "zh_cn": "我相信的不是历史，\\n而是女神期盼幸福的意愿。",
+        "zh_tw": "因為我信仰的並非歷史，\\n而是女神那祈願幸福的心。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0011",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "...I believe you. I can tell from the look\\nin your eyes that you're a sincere guy.",
+        "ja_jp": "……アンタ、まっすぐな<ruby><rb>目</rb><rt>め</rt></ruby>を\\nしてるのね。",
+        "zh_cn": "你的目光很坚定呢……",
+        "zh_tw": "……你有雙非常直率的眼神呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0012",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Sonniere's dying wish was that I come\\nhere and protect you. Regrettably, he...\\npassed on before I could ask more.",
+        "ja_jp": "それより<ruby><rb>僕</rb><rt>ぼく</rt></ruby>はソニエールの<ruby><rb>遺言</rb><rt>ゆいごん</rt></ruby>を\\n<ruby><rb>受</rb><rt>う</rt></ruby>けて、<ruby><rb>君</rb><rt>きみ</rt></ruby>を<ruby><rb>守</rb><rt>まも</rt></ruby>りに<ruby><rb>来</rb><rt>き</rt></ruby>た。だが、\\n<ruby><rb>詳</rb><rt>くわ</rt></ruby>しい<ruby><rb>事情</rb><rt>じじょう</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>く<ruby><rb>前</rb><rt>まえ</rt></ruby>に<ruby><rb>彼</rb><rt>かれ</rt></ruby>は……。",
+        "zh_cn": "不说这个了。其实我是遵照\\n索尼埃尔的遗言来保护你的。\\n但在问出详情之前他就……",
+        "zh_tw": "更何況我是為了完成索尼艾魯的遺言，\\n才前來守護妳的。\\n只是，他在說明詳情之前就……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0013",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "So please, tell me. About your family.\\nWhy is the conservative sect after you?",
+        "ja_jp": "だから<ruby><rb>教</rb><rt>おし</rt></ruby>えてほしい。<ruby><rb>君</rb><rt>きみ</rt></ruby>が<ruby><rb>狙</rb><rt>ねら</rt></ruby>われる\\n<ruby><rb>理由</rb><rt>りゆう</rt></ruby>……<ruby><rb>君</rb><rt>きみ</rt></ruby>の<ruby><rb>先祖</rb><rt>せんぞ</rt></ruby>と<ruby><rb>一族</rb><rt>いちぞく</rt></ruby>について。",
+        "zh_cn": "所以我希望你能告诉我，\\n你被盯上的原因……\\n还有你的祖先和一族的事。",
+        "zh_tw": "所以我希望妳能告訴我。\\n關於妳被盯上的理由……\\n還有妳的祖先與一族的事。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0014",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "It's so many generations back that there's\\nno way of knowing for sure, but...here's\\nhow my people have always told it.",
+        "ja_jp": "……<ruby><rb>遠</rb><rt>とお</rt></ruby>いご<ruby><rb>先祖様</rb><rt>せんぞさま</rt></ruby>の<ruby><rb>事</rb><rt>こと</rt></ruby>だから、\\n<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>のところはわからないわ。\\nでも、<ruby><rb>一族</rb><rt>いちぞく</rt></ruby>にはこんな<ruby><rb>謂</rb><rt>いわ</rt></ruby>れがあるの。",
+        "zh_cn": "毕竟是那么久以前的祖先，\\n真实情况我也不知道。\\n不过我们一族有一种说法——",
+        "zh_tw": "……因為是很久遠之前祖先的事，\\n所以我也不清楚是不是真的。\\n不過，一族中流傳著這樣的故事。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0015",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "A thousand years ago, a girl named Ilia saved the\\nworld from calamity, ending the war between man\\nand dragonkind by uniting them under a common\\nbanner. In the end, she gave her life to stop the\\nthreat by throwing herself into the Otherworld.",
+        "ja_jp": "1000<ruby><rb>年</rb><rt>ねん</rt></ruby><ruby><rb>前</rb><rt>まえ</rt></ruby>、イリアという<ruby><rb>名</rb><rt>な</rt></ruby>の<ruby><rb>少女</rb><rt>しょうじょ</rt></ruby>が\\n<ruby><rb>厄災</rb><rt>やくさい</rt></ruby>から<ruby><rb>世界</rb><rt>せかい</rt></ruby>を<ruby><rb>救</rb><rt>すく</rt></ruby>うため、それまで\\n<ruby><rb>争</rb><rt>あらそ</rt></ruby>っていた<ruby><rb>人</rb><rt>ひと</rt></ruby>とドラゴンを<ruby><rb>束</rb><rt>たば</rt></ruby>ねた。\\n<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>は<ruby><rb>厄災</rb><rt>やくさい</rt></ruby>に<ruby><rb>終止符</rb><rt>しゅうしふ</rt></ruby>を<ruby><rb>打</rb><rt>う</rt></ruby>つべく、<ruby><rb>自</rb><rt>みずか</rt></ruby>ら\\n<ruby><rb>人柱</rb><rt>ひとばしら</rt></ruby>となり、その<ruby><rb>身</rb><rt>み</rt></ruby>を<ruby><rb>異界</rb><rt>いかい</rt></ruby>に<ruby><rb>投</rb><rt>とう</rt></ruby>じた。",
+        "zh_cn": "1000年前，名为伊莉雅的少女\\n为了从灾难中拯救世界，\\n团结了一直彼此争斗的人与龙。\\n她为了终结灾难，\\n不惜以自己为活祭，投身异界。",
+        "zh_tw": "1000年前，名為伊利亞的少女\\n為了拯救世界免於災厄，\\n便團結了一直處於對立的人類與龍族。\\n並且為了替災厄畫下休止符，\\n自願犧牲自己，投身異界。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0016",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "But the faerie who raised her feared news of Ilia's\\ndeath could see the nascent alliance between man\\nand dragon unravel, so she tore off her own wings\\nand took Ilia's name, traveling the land in human\\nguise to preach peace between the races.",
+        "ja_jp": "<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>がいなくなった<ruby><rb>事</rb><rt>こと</rt></ruby>が<ruby><rb>広</rb><rt>ひろ</rt></ruby>まれば\\n<ruby><rb>人</rb><rt>ひと</rt></ruby>とドラゴンが<ruby><rb>再</rb><rt>ふたた</rt></ruby>び<ruby><rb>争</rb><rt>あらそ</rt></ruby>うかもしれない。\\nそこで<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>の<ruby><rb>育</rb><rt>そだ</rt></ruby>ての<ruby><rb>親</rb><rt>おや</rt></ruby>だった<ruby><rb>妖精</rb><rt>ようせい</rt></ruby>が\\n<ruby><rb>羽</rb><rt>はね</rt></ruby>を<ruby><rb>折</rb><rt>お</rt></ruby>り、『イリア』を<ruby><rb>名乗</rb><rt>なの</rt></ruby>って\\n<ruby><rb>人</rb><rt>ひと</rt></ruby>とドラゴンの<ruby><rb>融和</rb><rt>ゆうわ</rt></ruby>を<ruby><rb>説</rb><rt>と</rt></ruby>いて<ruby><rb>回</rb><rt>まわ</rt></ruby>った。",
+        "zh_cn": "如果她消失一事传了出去，\\n人与龙难免再起争端。\\n于是身为她养母的精灵折断羽翼，\\n自称“伊莉雅”，并为了\\n人龙的和谐而四处奔走游说。",
+        "zh_tw": "若她消失一事傳開，\\n人類與龍族有可能會再次對立。\\n於是身為少女養育者的妖精\\n便折斷翅膀，並自稱「伊利亞」，\\n四處提倡人類與龍族的和諧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0017",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "And so the Ilian Church was born. The Goddess\\nknown to the outside world is in fact that wingless\\nfaerie—",
+        "ja_jp": "それがイリア<ruby><rb>教</rb><rt>きょう</rt></ruby>の<ruby><rb>始</rb><rt>はじ</rt></ruby>まり。\\n<ruby><rb>羽</rb><rt>はね</rt></ruby>を<ruby><rb>折</rb><rt>お</rt></ruby>った<ruby><rb>元妖精</rb><rt>もとようせい</rt></ruby>が<ruby><rb>外</rb><rt>そと</rt></ruby>の<ruby><rb>世界</rb><rt>せかい</rt></ruby>で\\n<ruby><rb>知</rb><rt>し</rt></ruby>られている<ruby><rb>女神</rb><rt>めがみ</rt></ruby>であり――",
+        "zh_cn": "这就是伊莉雅教的起源。\\n而折断羽翼的那位原精灵\\n才是为外界所知的女神——",
+        "zh_tw": "那正是伊利亞教的起源。\\n而折斷翅膀的妖精\\n則是外面世界所認知的女神──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0018",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "—and my distant ancestor,\\nif the tales are true.",
+        "ja_jp": "――<ruby><rb>私</rb><rt>わたし</rt></ruby>のご<ruby><rb>先祖様</rb><rt>せんぞさま</rt></ruby>だって<ruby><rb>言</rb><rt>い</rt></ruby>われている。",
+        "zh_cn": "据说也是我的祖先……",
+        "zh_tw": "──也就是我的祖先。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0019",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "You're a faerie?",
+        "ja_jp": "<ruby><rb>君</rb><rt>きみ</rt></ruby>は<ruby><rb>妖精</rb><rt>ようせい</rt></ruby>なのか？",
+        "zh_cn": "你是精灵吗？",
+        "zh_tw": "妳是妖精嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0020",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Human, as far as I know. The moment she\\nlost her wings, my ancestor lost her faerie\\npowers, or so the story goes.",
+        "ja_jp": "<ruby><rb>一応</rb><rt>いちおう</rt></ruby>、ヒューマンよ。ご<ruby><rb>先祖様</rb><rt>せんぞさま</rt></ruby>が\\n<ruby><rb>羽</rb><rt>はね</rt></ruby>を<ruby><rb>折</rb><rt>お</rt></ruby>ったせいで、<ruby><rb>妖精</rb><rt>ようせい</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>が\\nなくなったんだって。",
+        "zh_cn": "我姑且算是人类。\\n好像是因为祖先折断了翅膀，\\n所以失去了精灵之力。",
+        "zh_tw": "我算是人類喔。\\n聽說因為祖先折斷翅膀，\\n所以失去了妖精的力量。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0021",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "And when that ancestor died, there was a\\nbig fight over who would lead the Church\\nnext.",
+        "ja_jp": "それで<ruby><rb>話</rb><rt>はなし</rt></ruby>を<ruby><rb>戻</rb><rt>もど</rt></ruby>すと、ご<ruby><rb>先祖様</rb><rt>せんぞさま</rt></ruby>が\\n<ruby><rb>亡</rb><rt>な</rt></ruby>くなった<ruby><rb>後</rb><rt>あと</rt></ruby>、<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>は<ruby><rb>誰</rb><rt>だれ</rt></ruby>が<ruby><rb>治</rb><rt>おさ</rt></ruby>めるかで\\n<ruby><rb>荒</rb><rt>あ</rt></ruby>れたの。",
+        "zh_cn": "言归正传，我的祖先去世之后，\\n教会内掀起了一场\\n争夺继承之位的风波。",
+        "zh_tw": "回歸正題，在我祖先去世之後，\\n教會因為要由誰治理而起了爭執。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0022",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "They were divided between those who\\nwanted a blood heir to inherit the position\\nand those who wanted someone new.",
+        "ja_jp": "イリアの<ruby><rb>直系</rb><rt>ちょっけい</rt></ruby>の<ruby><rb>子孫</rb><rt>しそん</rt></ruby>が<ruby><rb>治</rb><rt>おさ</rt></ruby>めるべきだと\\nする<ruby><rb>世襲派</rb><rt>せしゅうは</rt></ruby>と、<ruby><rb>別</rb><rt>べつ</rt></ruby>の<ruby><rb>人物</rb><rt>じんぶつ</rt></ruby>を<ruby><rb>立</rb><rt>た</rt></ruby>てる<ruby><rb>派閥</rb><rt>はばつ</rt></ruby>に\\n<ruby><rb>分</rb><rt>わ</rt></ruby>かれて。",
+        "zh_cn": "教徒分裂成了主张由伊莉雅\\n直系后代统治的世袭派\\n和主张另立新主的派系。",
+        "zh_tw": "當中分成認為該由伊利亞直系子孫\\n負責治理的世襲派，\\n以及想推舉其他人物的派系。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0023",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "In the end, the hereditary faction lost.\\nFearing a purge, they cast a massive-scale\\nspell to hide those blood heirs here.",
+        "ja_jp": "<ruby><rb>結果</rb><rt>けっか</rt></ruby>、<ruby><rb>世襲派</rb><rt>せしゅうは</rt></ruby>は<ruby><rb>争</rb><rt>あらそ</rt></ruby>いに<ruby><rb>敗</rb><rt>やぶ</rt></ruby>れた。<ruby><rb>粛清</rb><rt>しゅくせい</rt></ruby>を\\n<ruby><rb>恐</rb><rt>おそ</rt></ruby>れた<ruby><rb>世襲派</rb><rt>せしゅうは</rt></ruby>は<ruby><rb>大掛</rb><rt>おおが</rt></ruby>かりな<ruby><rb>魔法</rb><rt>まほう</rt></ruby>を<ruby><rb>使</rb><rt>つか</rt></ruby>って\\n<ruby><rb>子孫</rb><rt>しそん</rt></ruby>をこの<ruby><rb>隠</rb><rt>かく</rt></ruby>れ<ruby><rb>里</rb><rt>ざと</rt></ruby>に<ruby><rb>匿</rb><rt>かくま</rt></ruby>った。",
+        "zh_cn": "结果世袭派败下阵来，他们怕\\n遭到肃清，就用大规模的魔法\\n将伊莉雅的后代藏进了这隐世之村。",
+        "zh_tw": "結果，世襲派在爭鬥中落敗。\\n害怕遭到肅清的世襲派於是使用了\\n大規模魔法，將子孫藏匿於隱世村落。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0024",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "So... Sonniere was involved with that\\nhereditary faction?",
+        "ja_jp": "<ruby><rb>匿</rb><rt>かくま</rt></ruby>う……もしかして、ソニエールは\\n<ruby><rb>世襲派</rb><rt>せしゅうは</rt></ruby>に<ruby><rb>関係</rb><rt>かんけい</rt></ruby>しているのか？",
+        "zh_cn": "藏……难不成，索尼埃尔\\n和世袭派有什么关系吗？",
+        "zh_tw": "藏匿……難不成，\\n索尼艾魯和世襲派有關嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0025",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Yes, he's one of their descendants.\\nThey call their organization the Lineage\\nCouncil.",
+        "ja_jp": "ええ。<ruby><rb>彼</rb><rt>かれ</rt></ruby>を<ruby><rb>含</rb><rt>ふく</rt></ruby>む<ruby><rb>世襲派</rb><rt>せしゅうは</rt></ruby>の<ruby><rb>子孫</rb><rt>しそん</rt></ruby>たちで\\n<ruby><rb>構成</rb><rt>こうせい</rt></ruby>された<ruby><rb>組織</rb><rt>そしき</rt></ruby>が『リニイッジ<ruby><rb>会</rb><rt>かい</rt></ruby>』。",
+        "zh_cn": "是的，包括他在内的世袭派的\\n子孙们组成的组织就是“宗室会”。",
+        "zh_tw": "嗯。由包含他在內的世襲派子孫們\\n組成的組織就是「護血會」。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0026",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "They've hidden our family line here ever\\nsince, even from the Pope, and support us\\nfrom the outside world.",
+        "ja_jp": "<ruby><rb>彼</rb><rt>かれ</rt></ruby>らは<ruby><rb>代々</rb><rt>だいだい</rt></ruby>、<ruby><rb>教皇</rb><rt>きょうこう</rt></ruby>からも<ruby><rb>一族</rb><rt>いちぞく</rt></ruby>を<ruby><rb>隠</rb><rt>かく</rt></ruby>し、\\n<ruby><rb>外</rb><rt>そと</rt></ruby>から<ruby><rb>一族</rb><rt>いちぞく</rt></ruby>の<ruby><rb>生活</rb><rt>せいかつ</rt></ruby>を<ruby><rb>支</rb><rt>ささ</rt></ruby>えていたの。",
+        "zh_cn": "他们代代避着教皇藏匿我们一族，\\n从外界支援我们的生活。",
+        "zh_tw": "他們代代都藏匿著一族不被教宗發現，\\n並由外部支撐著一族的生活。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0027",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "For its part, the Church buried any record\\nof a battle for succession. I'd been told the\\noutside world forgot that we exist. But...",
+        "ja_jp": "<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>も<ruby><rb>後継者争</rb><rt>こうけいしゃあらそ</rt></ruby>いをなかった<ruby><rb>事</rb><rt>こと</rt></ruby>にして、\\n<ruby><rb>一族</rb><rt>いちぞく</rt></ruby>の<ruby><rb>存在</rb><rt>そんざい</rt></ruby>は<ruby><rb>世間</rb><rt>せけん</rt></ruby>から<ruby><rb>忘</rb><rt>わす</rt></ruby>れ<ruby><rb>去</rb><rt>さ</rt></ruby>られたって\\n<ruby><rb>聞</rb><rt>き</rt></ruby>いてるわ。でも……。",
+        "zh_cn": "教会也抹去了争夺继承权一事。\\n听说我们一族已经被世人\\n彻底遗忘了。可是……",
+        "zh_tw": "我聽說教會也將繼承者之爭當作\\n從沒發生過，一族的存在\\n也已被世間所遺忘。不過……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0028",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "But Goma and his knights came for you.\\nAnd with a chime in their possession.",
+        "ja_jp": "ゴーマたちが<ruby><rb>君</rb><rt>きみ</rt></ruby>を<ruby><rb>捕</rb><rt>とら</rt></ruby>えにここに<ruby><rb>来</rb><rt>き</rt></ruby>た。\\n<ruby><rb>彼</rb><rt>かれ</rt></ruby>らも<ruby><rb>魔法</rb><rt>まほう</rt></ruby>の<ruby><rb>鈴</rb><rt>すず</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>っていたようだが。",
+        "zh_cn": "戈马他们却来到了这里抓你。\\n他们似乎也有魔法铃铛。",
+        "zh_tw": "戈曼等人為了逮捕妳而來到這裡。\\n而且對方似乎也知道魔法鈴鐺的事。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0029",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "I have no idea how they learned about us.",
+        "ja_jp": "アイツらがどうして<ruby><rb>一族</rb><rt>いちぞく</rt></ruby>の<ruby><rb>事</rb><rt>こと</rt></ruby>を\\n<ruby><rb>知</rb><rt>し</rt></ruby>ったのかはわからないわ。",
+        "zh_cn": "我不清楚他们为什么\\n会知道我们一族的事。",
+        "zh_tw": "那些傢伙為什麼會知道一族的事，\\n我並不清楚。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0030",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Or how they managed to steal the chime\\noff a member of the Lineage Council.",
+        "ja_jp": "けど、<ruby><rb>鈴</rb><rt>すず</rt></ruby>は『リニイッジ<ruby><rb>会</rb><rt>かい</rt></ruby>』の\\nひとりから<ruby><rb>奪</rb><rt>うば</rt></ruby>ったみたい。",
+        "zh_cn": "不过铃铛好像是从“宗室会”\\n某成员手上夺来的。",
+        "zh_tw": "但是，他們似乎是從「護血會」的\\n某人身上奪走了鈴鐺的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0031",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "I see. Sonniere must have noticed they\\nwere on the move and called for me...",
+        "ja_jp": "そうか。<ruby><rb>彼</rb><rt>かれ</rt></ruby>らの<ruby><rb>動</rb><rt>うご</rt></ruby>きを<ruby><rb>察</rb><rt>さっ</rt></ruby>した\\nソニエールは<ruby><rb>先手</rb><rt>せんて</rt></ruby>を<ruby><rb>打</rb><rt>う</rt></ruby>つために\\n<ruby><rb>僕</rb><rt>ぼく</rt></ruby>を……。",
+        "zh_cn": "原来如此。索尼埃尔\\n察觉到了他们的动向，\\n为了先发制人就找我……",
+        "zh_tw": "原來如此。\\n察覺到他們動向的索尼艾魯，\\n才會先採取行動聯絡我……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0032",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Do you think they'll come back?\\nThose knights, I mean?",
+        "ja_jp": "あの<ruby><rb>騎士</rb><rt>きし</rt></ruby>たち、また<ruby><rb>来</rb><rt>く</rt></ruby>ると<ruby><rb>思</rb><rt>おも</rt></ruby>う？",
+        "zh_cn": "你觉得那些骑士还会再来吗？",
+        "zh_tw": "你覺得那些騎士，還會再來嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0033",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "I can't imagine they'd give up so soon.\\nNino, we need to leave the village. Now.",
+        "ja_jp": "あれであきらめてはいないはずだ。\\nニーノ、<ruby><rb>僕</rb><rt>ぼく</rt></ruby>と<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に<ruby><rb>里</rb><rt>さと</rt></ruby>を<ruby><rb>出</rb><rt>で</rt></ruby>よう。",
+        "zh_cn": "他们应该不会善罢甘休。\\n妮诺，我们一起离开村子吧。",
+        "zh_tw": "他們應該不會就此罷休。\\n尼諾，和我一起離開村落吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0034",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "What? Leave the... I can do that?",
+        "ja_jp": "え？　<ruby><rb>里</rb><rt>さと</rt></ruby>を……？\\n<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>出</rb><rt>で</rt></ruby>ても<ruby><rb>良</rb><rt>い</rt></ruby>いの？",
+        "zh_cn": "诶？离开村子？\\n我真的可以出去吗？",
+        "zh_tw": "咦？離開村落……？\\n真的可以出去嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0035",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "It isn't safe here. I will see that you make\\nit to somewhere that is.",
+        "ja_jp": "ここにいては<ruby><rb>危険</rb><rt>きけん</rt></ruby>だ。\\n<ruby><rb>僕</rb><rt>ぼく</rt></ruby>が<ruby><rb>安全</rb><rt>あんぜん</rt></ruby>なところまで<ruby><rb>案内</rb><rt>あんない</rt></ruby>する。",
+        "zh_cn": "待在这里太危险了。\\n我带你去安全的地方。",
+        "zh_tw": "待在這裡很危險。\\n我帶妳到安全的地方去。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0036",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "The Town of Purgatorum\\nPerditionist Priest's Parish",
+        "ja_jp": "プルガトルムの<ruby><rb>町</rb><rt>まち</rt></ruby>\\n<ruby><rb>煉獄派</rb><rt>れんごくは</rt></ruby>の<ruby><rb>司祭</rb><rt>しさい</rt></ruby>の<ruby><rb>管轄区</rb><rt>かんかつく</rt></ruby>",
+        "zh_cn": "炼狱镇\\n炼狱派祭司管辖区",
+        "zh_tw": "普魯葛托爾姆鎮\\n煉獄派祭司的轄區"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "And so you fought with the conservatives?\\nI see. You are welcome to take refuge in\\nour town for now.",
+        "ja_jp": "そうですか。<ruby><rb>保守派</rb><rt>ほしゅは</rt></ruby>とトラブルに。\\nわかりました。しばらくこの<ruby><rb>町</rb><rt>まち</rt></ruby>に\\n<ruby><rb>匿</rb><rt>かくま</rt></ruby>いましょう。",
+        "zh_cn": "和保守派发生了冲突吗。\\n我明白了，你们暂时\\n就藏在这镇上吧。",
+        "zh_tw": "原來如此，你和保守派發生了衝突嗎。\\n我明白了。你就暫時躲在這個鎮上吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0037",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Thank you, Father Glennie.",
+        "ja_jp": "ありがとうございます。\\nグレニー<ruby><rb>司祭</rb><rt>しさい</rt></ruby>。",
+        "zh_cn": "谢谢你，\\n格雷尼祭司。",
+        "zh_tw": "非常感謝您，古雷尼祭司。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0038",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "I could not turn a fellow in faith away,\\nTobias. And who is the young lady?",
+        "ja_jp": "<ruby><rb>他</rb><rt>ほか</rt></ruby>ならぬ<ruby><rb>同志</rb><rt>どうし</rt></ruby>トライツの<ruby><rb>頼</rb><rt>たの</rt></ruby>みですから。\\nところで、そちらのお<ruby><rb>嬢</rb><rt>じょう</rt></ruby>さんは？",
+        "zh_cn": "毕竟是志同道合的德莱茨的请求嘛。\\n不过，那位小姐是？",
+        "zh_tw": "畢竟不是別人，\\n是同志特萊茲的委託嘛。\\n話說回來，那位小姑娘是？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0039",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "His little sister. Isn't that right, Toby?",
+        "ja_jp": "<ruby><rb>妹</rb><rt>いもうと</rt></ruby>です。ね、お<ruby><rb>兄</rb><rt>にい</rt></ruby>ちゃん。",
+        "zh_cn": "我是他妹妹。对吧，哥哥？",
+        "zh_tw": "我是他妹妹。對吧，哥哥。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0040",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Toby?",
+        "ja_jp": "お、お<ruby><rb>兄</rb><rt>にい</rt></ruby>ちゃん？",
+        "zh_cn": "哥、哥哥？",
+        "zh_tw": "哥、哥哥？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0041",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "My feet are killing me, Toby.\\nLet's hurry to our lodgings.",
+        "ja_jp": "お<ruby><rb>兄</rb><rt>にい</rt></ruby>ちゃん、<ruby><rb>私</rb><rt>わたし</rt></ruby>、<ruby><rb>足</rb><rt>あし</rt></ruby>が<ruby><rb>疲</rb><rt>つか</rt></ruby>れちゃった。\\n<ruby><rb>早</rb><rt>はや</rt></ruby>く<ruby><rb>宿</rb><rt>やど</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>こ。",
+        "zh_cn": "哥哥，我走累了，\\n我们赶紧去住处吧。",
+        "zh_tw": "哥哥，我的腳走得好累。\\n我們快點回旅館吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0042",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Wait for me, Nino.\\nEr, if you'll excuse us, Father.",
+        "ja_jp": "ニーノ、<ruby><rb>待</rb><rt>ま</rt></ruby>ってくれ。\\n――<ruby><rb>失礼</rb><rt>しつれい</rt></ruby>します。",
+        "zh_cn": "妮诺，等等……\\n我们先告辞了。",
+        "zh_tw": "尼諾，等等。\\n──先告辭。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0043",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "To think she would come to me...\\nThe Goddess smiles upon me today.",
+        "ja_jp": "……まさか<ruby><rb>向</rb><rt>む</rt></ruby>こうからやって<ruby><rb>来</rb><rt>く</rt></ruby>るとは。\\n<ruby><rb>女神</rb><rt>めがみ</rt></ruby>は<ruby><rb>私</rb><rt>わたし</rt></ruby>に<ruby><rb>微笑</rb><rt>ほほえ</rt></ruby>んでいるのですね。",
+        "zh_cn": "没想到对方竟然主动送上门……\\n这是女神在朝我微笑呢。",
+        "zh_tw": "……沒想到對方竟然會親自前來。\\n看來女神正在對我微笑呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0044",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Why lie about being my sister?",
+        "ja_jp": "どうして<ruby><rb>僕</rb><rt>ぼく</rt></ruby>が<ruby><rb>兄</rb><rt>あに</rt></ruby>だなんて\\n<ruby><rb>嘘</rb><rt>うそ</rt></ruby>をついたんだ？",
+        "zh_cn": "为什么要谎称\\n我是你哥哥啊？",
+        "zh_tw": "為什麼要撒謊說我是妳哥哥？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0045",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Because there's no guarantee that priest\\nwill accept the story of my family line.",
+        "ja_jp": "あの<ruby><rb>司祭</rb><rt>しさい</rt></ruby>が<ruby><rb>一族</rb><rt>いちぞく</rt></ruby>の<ruby><rb>話</rb><rt>はなし</rt></ruby>を<ruby><rb>受</rb><rt>う</rt></ruby>け<ruby><rb>入</rb><rt>い</rt></ruby>れるか\\nわからないじゃない。",
+        "zh_cn": "那个祭司能不能接受\\n我们一族的事还是未知数。",
+        "zh_tw": "還不知道那位祭司會不會\\n接受我們一族的事吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0046",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Father Glennie is an ally in excising the\\nrot that ails the Church. He hopes that\\nthe Scrolls of Perdition will spark reform,\\nas do I.",
+        "ja_jp": "グレニー<ruby><rb>司祭</rb><rt>しさい</rt></ruby>は<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>の<ruby><rb>腐敗</rb><rt>ふはい</rt></ruby>を<ruby><rb>憂</rb><rt>うれ</rt></ruby>い、\\n<ruby><rb>煉獄文書</rb><rt>れんごくぶんしょ</rt></ruby>の<ruby><rb>登場</rb><rt>とうじょう</rt></ruby>で<ruby><rb>改革</rb><rt>かいかく</rt></ruby>が<ruby><rb>起</rb><rt>お</rt></ruby>こる<ruby><rb>事</rb><rt>こと</rt></ruby>を\\n<ruby><rb>望</rb><rt>のぞ</rt></ruby>む<ruby><rb>僕</rb><rt>ぼく</rt></ruby>の<ruby><rb>同志</rb><rt>どうし</rt></ruby>だ。",
+        "zh_cn": "格雷尼祭司为教会的腐败而忧心，\\n他和我一样，是期盼炼狱文书的登场\\n能够引起改革的同路人。",
+        "zh_tw": "古雷尼祭司他憂心教會的腐敗，\\n並期望煉獄文書的登場能帶來改革。\\n是我的同志。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0047",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "He is no slave to the old ways. I see\\nno reason for him to reject your claim.",
+        "ja_jp": "<ruby><rb>古</rb><rt>ふる</rt></ruby>い<ruby><rb>慣習</rb><rt>かんしゅう</rt></ruby>に<ruby><rb>捉</rb><rt>とら</rt></ruby>われないあの<ruby><rb>人</rb><rt>ひと</rt></ruby>なら\\n<ruby><rb>君</rb><rt>きみ</rt></ruby>の<ruby><rb>話</rb><rt>はなし</rt></ruby>を<ruby><rb>否定</rb><rt>ひてい</rt></ruby>しないはずだ。",
+        "zh_cn": "他不拘泥于陈规旧俗，\\n应该不会否定你的存在。",
+        "zh_tw": "如果是不受古老常規束縛的他，\\n應該不會否定妳的話才對。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0048",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "That's right—you're a part of that\\n＂perditionist＂ sect.",
+        "ja_jp": "そういえばアンタって\\n<ruby><rb>煉獄派</rb><rt>れんごくは</rt></ruby>って<ruby><rb>派閥</rb><rt>はばつ</rt></ruby>なのよね。",
+        "zh_cn": "说起来，你是炼狱派\\n那个派系的吧。",
+        "zh_tw": "這麼說來，\\n你是屬於煉獄派這個派系的對吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0049",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Sonniere told me about you people. That\\nthe Church is divided right now over those\\nScrolls of Perdition.",
+        "ja_jp": "ソニエールから<ruby><rb>聞</rb><rt>き</rt></ruby>いてるわ。\\n<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>は<ruby><rb>今</rb><rt>いま</rt></ruby>、<ruby><rb>煉獄文書</rb><rt>れんごくぶんしょ</rt></ruby>をめぐって\\nふたつにわかれて<ruby><rb>争</rb><rt>あらそ</rt></ruby>っているって。",
+        "zh_cn": "我听索尼埃尔说了，\\n教会现在围绕炼狱文书\\n分裂成了两股势力，互相争斗。",
+        "zh_tw": "我曾經聽索尼艾魯說過。\\n他說教會現在因為煉獄文書，\\n分裂成兩邊爭執不休。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0050",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "What led you to side the way you did?",
+        "ja_jp": "アンタはなんで<ruby><rb>煉獄派</rb><rt>れんごくは</rt></ruby>にいるの？\\n<ruby><rb>煉獄文書</rb><rt>れんごくぶんしょ</rt></ruby>の<ruby><rb>内容</rb><rt>ないよう</rt></ruby>を<ruby><rb>信</rb><rt>しん</rt></ruby>じたから？",
+        "zh_cn": "你为什么会站在炼狱派那边？\\n因为你相信炼狱文书的内容吗？",
+        "zh_tw": "你為什麼會站在煉獄派那邊呢？\\n因為你相信煉獄文書的內容？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0051",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "My first mission as a Paladyn was to\\nsubdue unrest in a particular diocese. The\\ncause was the Church's own degeneracy.",
+        "ja_jp": "……<ruby><rb>僕</rb><rt>ぼく</rt></ruby>の<ruby><rb>聖騎士</rb><rt>せいきし</rt></ruby>としての<ruby><rb>初任務</rb><rt>はつにんむ</rt></ruby>は\\nとある<ruby><rb>司教区</rb><rt>しきょうく</rt></ruby>の<ruby><rb>内乱</rb><rt>ないらん</rt></ruby><ruby><rb>鎮圧</rb><rt>ちんあつ</rt></ruby>だった。\\nその<ruby><rb>原因</rb><rt>げんいん</rt></ruby>は<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>の<ruby><rb>暴走</rb><rt>ぼうそう</rt></ruby>にあった。",
+        "zh_cn": "我成为圣骑士后的第一个任务\\n是镇压某个教区的内乱，\\n而其起因是教会的失控。",
+        "zh_tw": "……我成為聖騎士之後的初次任務，\\n是到某個教區平定內亂。\\n起因是由於教會的失控。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0052",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "If the faith has devolved into something\\nthat claims innocent lives, it is a relic best\\nburied and forgotten.",
+        "ja_jp": "<ruby><rb>信仰</rb><rt>しんこう</rt></ruby>が<ruby><rb>無辜</rb><rt>むこ</rt></ruby>の<ruby><rb>命</rb><rt>いのち</rt></ruby>を<ruby><rb>殺</rb><rt>ころ</rt></ruby>すものに\\n<ruby><rb>成</rb><rt>な</rt></ruby>り<ruby><rb>下</rb><rt>さ</rt></ruby>がっているならば、\\nもはやそれは<ruby><rb>捨</rb><rt>す</rt></ruby>て<ruby><rb>去</rb><rt>さ</rt></ruby>るべき<ruby><rb>遺物</rb><rt>いぶつ</rt></ruby>だ。",
+        "zh_cn": "信仰如果沦为了残害\\n无辜生命的工具，\\n那它就成了应该抛弃的遗物。",
+        "zh_tw": "若信仰已墮落為濫殺無辜性命的存在，\\n那便只是應遭到捨棄的遺物。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0053",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "And so the scrolls' discovery gave me\\nhope. If they'd incite the winds of change\\nto blow through the Church, then fewer\\nlives would be so needlessly lost.",
+        "ja_jp": "だから<ruby><rb>期待</rb><rt>きたい</rt></ruby>したんだ。<ruby><rb>煉獄文書</rb><rt>れんごくぶんしょ</rt></ruby>の<ruby><rb>登場</rb><rt>とうじょう</rt></ruby>で\\n<ruby><rb>新</rb><rt>あたら</rt></ruby>しい<ruby><rb>風</rb><rt>かぜ</rt></ruby>が<ruby><rb>吹</rb><rt>ふ</rt></ruby>けば、<ruby><rb>救</rb><rt>すく</rt></ruby>われる<ruby><rb>命</rb><rt>いのち</rt></ruby>が<ruby><rb>増</rb><rt>ふ</rt></ruby>える\\nのではないかと。",
+        "zh_cn": "所以我很期待炼狱文书的出现\\n能带来新的气象，\\n让更多生命得到拯救。",
+        "zh_tw": "所以我才會有所期待。\\n只要煉獄文書的登場能吹起新的風，\\n或許就有更多生命因此得救。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0054",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "And yet they've caused fresh blood to spill,\\nfrom what I've heard. You're fine with that?",
+        "ja_jp": "だけど、その<ruby><rb>煉獄文書</rb><rt>れんごくぶんしょ</rt></ruby>のせいで\\n<ruby><rb>血</rb><rt>ち</rt></ruby>が<ruby><rb>流</rb><rt>なが</rt></ruby>れているらしいじゃない。\\nアンタはそれで<ruby><rb>良</rb><rt>い</rt></ruby>いって<ruby><rb>思</rb><rt>おも</rt></ruby>ってるの？",
+        "zh_cn": "但是，那个炼狱文书\\n好像又造成了新的牺牲吧？\\n你觉得这样就好吗？",
+        "zh_tw": "但是，現在卻因為那個煉獄文書，\\n害得許多人犧牲不是嗎？\\n你覺得那樣也無所謂嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0055",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "In the past, I told myself that sacrifices\\nwere inevitable in the pursuit of progress.\\nBut now...",
+        "ja_jp": "<ruby><rb>以前</rb><rt>いぜん</rt></ruby>の<ruby><rb>僕</rb><rt>ぼく</rt></ruby>は<ruby><rb>犠牲</rb><rt>ぎせい</rt></ruby>は<ruby><rb>止</rb><rt>や</rt></ruby>むを<ruby><rb>得</rb><rt>え</rt></ruby>ないと\\n<ruby><rb>考</rb><rt>かんが</rt></ruby>えていた。だけど<ruby><rb>今</rb><rt>いま</rt></ruby>は……。",
+        "zh_cn": "我曾认为牺牲是在所难免的。\\n但是现在……",
+        "zh_tw": "以前的我曾認為犧牲是無可避免的。\\n但現在……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0056",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "I think less on hope and more on what I\\ncan be doing myself to better the lot of\\nthose around me.",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>かに<ruby><rb>期待</rb><rt>きたい</rt></ruby>するよりも、\\n<ruby><rb>自分</rb><rt>じぶん</rt></ruby>に<ruby><rb>何</rb><rt>なに</rt></ruby>ができるのかを<ruby><rb>見定</rb><rt>みさだ</rt></ruby>め、\\n<ruby><rb>行動</rb><rt>こうどう</rt></ruby>するべきだと<ruby><rb>思</rb><rt>おも</rt></ruby>う。",
+        "zh_cn": "我觉得与其期待某些东西，\\n不如看清自己能做的事\\n并付诸行动。",
+        "zh_tw": "比起對其他事物抱持期待，\\n我認為應該自己判斷該做什麼，\\n並採取行動。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0057",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "I have to say, you're not like any Church\\npeople I've met.",
+        "ja_jp": "アンタ……<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>知</rb><rt>し</rt></ruby>っている\\n<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>の<ruby><rb>人間</rb><rt>にんげん</rt></ruby>とは<ruby><rb>違</rb><rt>ちが</rt></ruby>うのね。",
+        "zh_cn": "你这个人……\\n和我所认识的教会里的人\\n不一样呢。",
+        "zh_tw": "你……和我知道的教會人士\\n都不一樣呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0058",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Looking to your future, I propose we make\\nfor the Halidom once things simmer down.\\nMy acquaintance there will—",
+        "ja_jp": "ところで<ruby><rb>今後</rb><rt>こんご</rt></ruby>の<ruby><rb>事</rb><rt>こと</rt></ruby>だが、ほとぼりが\\n<ruby><rb>冷</rb><rt>さ</rt></ruby>めたら<ruby><rb>僕</rb><rt>ぼく</rt></ruby>の<ruby><rb>知</rb><rt>し</rt></ruby>り<ruby><rb>合</rb><rt>あ</rt></ruby>いがいる<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>へ\\n<ruby><rb>向</rb><rt>む</rt></ruby>かおうと<ruby><rb>思</rb><rt>おも</rt></ruby>う。そこなら……。",
+        "zh_cn": "话说回来，等风头过去了，\\n我打算带你去圣城，\\n那有我的熟人。在那里的话……",
+        "zh_tw": "話說回來，關於今後的事，\\n我打算等風頭過去之後再到我的熟人\\n所在的聖城。那裡的話……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0059",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "(Leave this place! Hurry!)",
+        "ja_jp": "（そこから<ruby><rb>逃</rb><rt>に</rt></ruby>げて――！）",
+        "zh_cn": "（快逃！）",
+        "zh_tw": "（快點逃離那裡──！）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0060",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Who speaks?! Ah... The door!\\nThere's smoke coming in around it!",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>の<ruby><rb>声</rb><rt>こえ</rt></ruby>は……？　――っ!!\\nドアの<ruby><rb>隙間</rb><rt>すきま</rt></ruby>から<ruby><rb>煙</rb><rt>けむり</rt></ruby>が……！",
+        "zh_cn": "刚才的声音是？唔！\\n有烟从门缝里进来了……",
+        "zh_tw": "剛才的聲音是……？\\n──！！\\n從門縫裡竄進了煙……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0061",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "*cough* *cough* My body feels...heavy...",
+        "ja_jp": "けほけほっ！　<ruby><rb>体</rb><rt>からだ</rt></ruby>が<ruby><rb>重</rb><rt>おも</rt></ruby>い……。",
+        "zh_cn": "咳咳！身体感觉好沉……",
+        "zh_tw": "咳咳！身體好重……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0062",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Poison! We need to get clear of it!",
+        "ja_jp": "この<ruby><rb>煙</rb><rt>けむり</rt></ruby>……<ruby><rb>毒霧</rb><rt>どくぎり</rt></ruby>か？\\nここを<ruby><rb>離</rb><rt>はな</rt></ruby>れなければ！",
+        "zh_cn": "这烟是……毒气？\\n得离开这里才行！",
+        "zh_tw": "這股煙……是毒霧嗎？\\n得離開這裡才行！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0063",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Nino, hold on to me!",
+        "ja_jp": "ニーノ、<ruby><rb>僕</rb><rt>ぼく</rt></ruby>につかまれ！",
+        "zh_cn": "妮诺，抓紧我！",
+        "zh_tw": "尼諾，抓緊我！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0064",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Huh?",
+        "ja_jp": "え？",
+        "zh_cn": "诶？",
+        "zh_tw": "咦？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0065",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "We're leaving through the window! It's\\ngoing to be rough, so hang on tight!\\n...HaaaAAAH!",
+        "ja_jp": "<ruby><rb>窓</rb><rt>まど</rt></ruby>から<ruby><rb>出</rb><rt>で</rt></ruby>る！　<ruby><rb>少々手荒</rb><rt>しょうしょうてあら</rt></ruby>になるが\\n<ruby><rb>我慢</rb><rt>がまん</rt></ruby>してくれ！　――はあああっ！",
+        "zh_cn": "我们从窗户出去！\\n动作会有些粗暴，你忍一忍！\\n哈啊啊啊啊！",
+        "zh_tw": "我們從窗戶出去！\\n動作會有點粗暴，妳忍耐一下！\\n──喝啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0066",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Are you all right, Nino?",
+        "ja_jp": "<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>か、ニーノ？",
+        "zh_cn": "妮诺，你没事吧？",
+        "zh_tw": "妳沒事吧，尼諾？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0067",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Yeah... Fine.",
+        "ja_jp": "え、ええ……。<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>平気</rb><rt>へいき</rt></ruby>……。",
+        "zh_cn": "嗯、嗯……我没事……",
+        "zh_tw": "呃、嗯……我沒事……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0068",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "I had hoped you'd be too weary to slip\\naway. Alas...",
+        "ja_jp": "<ruby><rb>痺</rb><rt>しび</rt></ruby>れたところを<ruby><rb>捕</rb><rt>とら</rt></ruby>える<ruby><rb>予定</rb><rt>よてい</rt></ruby>でしたが、\\n<ruby><rb>脱出</rb><rt>だっしゅつ</rt></ruby>されてしまいましたか……。",
+        "zh_cn": "本想等你们麻痹之后再抓人的，\\n没想到竟然逃出来了啊……",
+        "zh_tw": "原本打算趁妳麻痺時捉住妳，\\n卻被逃出來了啊……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0069",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Glennie?! Then that smoke was... No!",
+        "ja_jp": "グレニー<ruby><rb>司祭</rb><rt>しさい</rt></ruby>……!?　\\nまさか、あなたが<ruby><rb>毒霧</rb><rt>どくぎり</rt></ruby>を……？",
+        "zh_cn": "格雷尼祭司！？\\n难道那毒气是你……",
+        "zh_tw": "古雷尼祭司……！？\\n難不成，是你把毒霧……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0070",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "Yes! Given how close you two seemed,\\nI thought this the surest way to pry her\\nfrom you.",
+        "ja_jp": "はい。あなたとその<ruby><rb>娘</rb><rt>むすめ</rt></ruby>が<ruby><rb>親</rb><rt>した</rt></ruby>しい\\n<ruby><rb>様子</rb><rt>ようす</rt></ruby>でしたので。<ruby><rb>引</rb><rt>ひ</rt></ruby>き<ruby><rb>離</rb><rt>はな</rt></ruby>すには\\nこの<ruby><rb>手</rb><rt>て</rt></ruby>が<ruby><rb>最良</rb><rt>さいりょう</rt></ruby>だと<ruby><rb>判断</rb><rt>はんだん</rt></ruby>しました。",
+        "zh_cn": "没错，你和那个小姑娘形影不离。\\n为了让你们分开，\\n我觉得这是最好的方法。",
+        "zh_tw": "是的。因為你似乎和她十分親近，\\n若要將你們分開，\\n我認為這是最好的方式。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0071",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "So it's her you're after? Why?",
+        "ja_jp": "<ruby><rb>狙</rb><rt>ねら</rt></ruby>いはニーノ……!?　なぜ、<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>を!?",
+        "zh_cn": "你的目标是妮诺……\\n为什么要抓她！？",
+        "zh_tw": "目標是尼諾……！？\\n為什麼、要捉她！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0072",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "You needn't feign ignorance. I know she's\\nthe Goddess's scion the Lineage Council's\\nkept hidden away.",
+        "ja_jp": "<ruby><rb>調</rb><rt>しら</rt></ruby>べはついているのですよ。\\nその<ruby><rb>娘</rb><rt>むすめ</rt></ruby>が『リニイッジ<ruby><rb>会</rb><rt>かい</rt></ruby>』が<ruby><rb>隠</rb><rt>かく</rt></ruby>していた\\n<ruby><rb>女神</rb><rt>めがみ</rt></ruby>の<ruby><rb>子孫</rb><rt>しそん</rt></ruby>であるという<ruby><rb>事</rb><rt>こと</rt></ruby>は。",
+        "zh_cn": "我已经查明\\n那丫头是“宗室会”\\n藏起来的女神后代。",
+        "zh_tw": "我已經調查過了。\\n那位少女就是「護血會」\\n所隱藏的女神子孫一事。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0073",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Let me guess: you think I'm a lying heretic\\ntoo.",
+        "ja_jp": "アンタも<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>嘘</rb><rt>うそ</rt></ruby>つきの<ruby><rb>異端者</rb><rt>いたんしゃ</rt></ruby>だって\\n<ruby><rb>思</rb><rt>おも</rt></ruby>ってるの？",
+        "zh_cn": "你也认为我是\\n招摇撞骗的异端吗？",
+        "zh_tw": "你也覺得我是撒謊的異端者嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0074",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "I'm not like those stubborn conservatives.\\nA true believer is able to accept all truths.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>は<ruby><rb>保守派</rb><rt>ほしゅは</rt></ruby>の<ruby><rb>堅物</rb><rt>かたぶつ</rt></ruby>とは<ruby><rb>違</rb><rt>ちが</rt></ruby>います。\\nどんな<ruby><rb>真実</rb><rt>しんじつ</rt></ruby>も<ruby><rb>受</rb><rt>う</rt></ruby>け<ruby><rb>入</rb><rt>い</rt></ruby>れてこそ、\\n<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>の<ruby><rb>信徒</rb><rt>しんと</rt></ruby>ですから。",
+        "zh_cn": "我和那些保守派的死脑筋不一样。\\n不管什么真相都能接受，\\n这才是真正的信徒。",
+        "zh_tw": "我和保守派那些老古板可不同。\\n畢竟能夠接受任何真相，\\n才稱得上真正的信徒。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0075",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Then why set your aim on taking her life?",
+        "ja_jp": "ならばなぜ、<ruby><rb>闇討</rb><rt>やみう</rt></ruby>ちのような<ruby><rb>真似</rb><rt>まね</rt></ruby>を？",
+        "zh_cn": "那你为什么要干这种\\n背后捅刀子的事？",
+        "zh_tw": "那你為何、要做出偷襲這種事？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0076",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "I pray for peace and harmony among all\\nIlia's faithful. Her existence is anathema\\nto that noble goal.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>願</rb><rt>ねが</rt></ruby>いは<ruby><rb>全信徒</rb><rt>ぜんしんと</rt></ruby>の<ruby><rb>融和</rb><rt>ゆうわ</rt></ruby>と<ruby><rb>平穏</rb><rt>へいおん</rt></ruby>。\\n<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>の<ruby><rb>存在</rb><rt>そんざい</rt></ruby>は<ruby><rb>少々都合</rb><rt>しょうしょうつごう</rt></ruby>が<ruby><rb>悪</rb><rt>わる</rt></ruby>いのです。",
+        "zh_cn": "我的愿望是所有信徒的和谐与安宁，\\n所以她的存在有些棘手。",
+        "zh_tw": "我的心願是所有信徒的和諧與平穩。\\n但她的存在卻有些麻煩。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0077",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "Using the key she holds to bring the whole\\ntruth to light is a far more efficient answer.",
+        "ja_jp": "それよりも<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>が<ruby><rb>握</rb><rt>にぎ</rt></ruby>る<ruby><rb>鍵</rb><rt>かぎ</rt></ruby>を<ruby><rb>使</rb><rt>つか</rt></ruby>い、\\n<ruby><rb>真実</rb><rt>しんじつ</rt></ruby>のすべてを<ruby><rb>明</rb><rt>あき</rt></ruby>らかにする<ruby><rb>事</rb><rt>こと</rt></ruby>が\\n<ruby><rb>最短</rb><rt>さいたん</rt></ruby>かつ<ruby><rb>最善</rb><rt>さいぜん</rt></ruby>の<ruby><rb>方策</rb><rt>ほうさく</rt></ruby>。",
+        "zh_cn": "更重要的是，用她手上的\\n钥匙弄清一切真相\\n才是最快最好的办法。",
+        "zh_tw": "相較之下，利用她握有的鑰匙，\\n將一切真相公開在眾人面前，\\n將是最快速且最好的方法。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0078",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "*gasp* So you...",
+        "ja_jp": "――っ！　アンタ、もしかして……。",
+        "zh_cn": "难道你……",
+        "zh_tw": "──！\\n你、難道……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0079",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "What are you talking about?",
+        "ja_jp": "あなたは<ruby><rb>何</rb><rt>なに</rt></ruby>を<ruby><rb>言</rb><rt>い</rt></ruby>っているのですか？",
+        "zh_cn": "你在说什么啊？",
+        "zh_tw": "你到底在說什麼？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0080",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "You needn't know. Do your sacred duty and\\nhand the girl over. Else I'll have to ask\\nthese gentlemen to take her.",
+        "ja_jp": "あなたが<ruby><rb>知</rb><rt>し</rt></ruby>る<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>はありません。\\n<ruby><rb>大人</rb><rt>おとな</rt></ruby>しくその<ruby><rb>娘</rb><rt>むすめ</rt></ruby>を<ruby><rb>渡</rb><rt>わた</rt></ruby>してください。\\nさもなくば<ruby><rb>彼</rb><rt>かれ</rt></ruby>らの<ruby><rb>手</rb><rt>て</rt></ruby>で……。",
+        "zh_cn": "你没必要知道。\\n乖乖交出那个小姑娘，\\n不然的话就让他们……",
+        "zh_tw": "你沒必要知道。\\n請乖乖將那位少女交給我。\\n否則他們將會親手……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0081",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "(Ngh... I inhaled too much of that smoke.\\nMy limbs feel heavy as lead. Can I get us\\nout of this?)",
+        "ja_jp": "（くっ……<ruby><rb>毒霧</rb><rt>どくぎり</rt></ruby>を<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>吸</rb><rt>す</rt></ruby>ったせいか、\\n　<ruby><rb>体</rb><rt>からだ</rt></ruby>が<ruby><rb>重</rb><rt>おも</rt></ruby>い。<ruby><rb>切</rb><rt>き</rt></ruby>り<ruby><rb>抜</rb><rt>ぬ</rt></ruby>けられるか……？）",
+        "zh_cn": "（呃……是因为吸入了毒气吗，\\n身体发沉。不知能不能闯出去……）",
+        "zh_tw": "（唔……因為稍微吸入了一些毒霧，\\n身體好重。能順利突破現況嗎……？）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0082",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "I'm afraid your little designs end here.\\nHraaah!",
+        "ja_jp": "おっと、そいつらを<ruby><rb>連</rb><rt>つ</rt></ruby>れて<ruby><rb>行</rb><rt>い</rt></ruby>かせる\\nわけにはいかないね。――どりゃああ！",
+        "zh_cn": "哎呀，我怎么能让你\\n把他们带走呢。看招！",
+        "zh_tw": "哎呀，我可不能讓你帶走他們呢。\\n──喝啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0083",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "Who are you?!",
+        "ja_jp": "<ruby><rb>何者</rb><rt>なにもの</rt></ruby>ですか!?",
+        "zh_cn": "什么人！？",
+        "zh_tw": "什麼人！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0084",
+      "book": ""
+    },
+    {
+      "icon": "210154_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Allies of justice, just passing through the\\nneighborhood. We'll be taking those two\\nwith us, please and thanks.",
+        "ja_jp": "<ruby><rb>通</rb><rt>とお</rt></ruby>りすがりの<ruby><rb>正義</rb><rt>せいぎ</rt></ruby>の<ruby><rb>味方</rb><rt>みかた</rt></ruby>さ。\\nこのふたりはあたしらが\\n<ruby><rb>預</rb><rt>あず</rt></ruby>からせてもらうよ。",
+        "zh_cn": "碰巧路过的正义之士而已。\\n这两个人就交给我们了。",
+        "zh_tw": "只是正好路過的正義使者。\\n這兩個人就由我們帶走囉。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0085",
+      "book": ""
+    },
+    {
+      "icon": "210154_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Ryszarda, smokescreen!",
+        "ja_jp": "リィザ！　<ruby><rb>逃走用</rb><rt>とうそうよう</rt></ruby>の<ruby><rb>煙幕</rb><rt>えんまく</rt></ruby>！",
+        "zh_cn": "里莎！放烟雾弹！",
+        "zh_tw": "理薩！逃走用的煙霧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0086",
+      "book": ""
+    },
+    {
+      "icon": "110381_01",
+      "name": {
+        "en_us": "Ryszarda",
+        "ja_jp": "リィザ",
+        "zh_cn": "里莎",
+        "zh_tw": "理薩"
+      },
+      "context": {
+        "en_us": "Right!",
+        "ja_jp": "は、はいっ！",
+        "zh_cn": "是、是！",
+        "zh_tw": "好、好的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0087",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "*cough* *cough* Rgh, they've escaped!\\nBut they can't have run far.",
+        "ja_jp": "ごほごほっ……いない！\\n<ruby><rb>逃</rb><rt>に</rt></ruby>げられましたか……！",
+        "zh_cn": "咳咳……人不见了！\\n被他们跑了吗！",
+        "zh_tw": "咳咳……不見了！\\n被他們逃走了嗎……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0088",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "Serves me right for entrusting this to the\\ntown guard, instead of the more capable\\nalternative...",
+        "ja_jp": "やはり<ruby><rb>町</rb><rt>まち</rt></ruby>の<ruby><rb>衛士</rb><rt>えいし</rt></ruby>ではなく、『<ruby><rb>彼</rb><rt>かれ</rt></ruby>ら』に\\n<ruby><rb>捕獲</rb><rt>ほかく</rt></ruby>を<ruby><rb>任</rb><rt>まか</rt></ruby>せた<ruby><rb>方</rb><rt>ほう</rt></ruby>が<ruby><rb>良</rb><rt>よ</rt></ruby>さそうですね。",
+        "zh_cn": "果然不该把抓人的任务\\n交给镇上的卫兵，\\n还是交给“他们”比较好。",
+        "zh_tw": "看來不能靠鎮上的衛兵，\\n還是拜託「他們」進行追捕比較好呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_02_0089",
+      "book": ""
+    }
+  ]
 }

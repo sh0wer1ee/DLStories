@@ -1,1068 +1,2023 @@
 {
-    "story_id": "",
-    "story_name": "迎击战～艾缪尔学院☆创校～ 校园任务",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "艾缪尔似乎在理事长室\\n藏了秘密兵器。兰扎卜、\\n洛依泽和墨丘利试图潜入其中。\\n然而，他们却因遭到\\n守卫的阻拦而陷入了危机！？"
-        ]
+  "title": {
+    "en_us": "Elementary Escapades    The Escapades Begin",
+    "ja_jp": "迎撃戦～開校☆エミュール学園～  ミッションインスクール",
+    "zh_cn": "迎击战～艾缪尔学院☆创校～  校园任务",
+    "zh_tw": "迎擊戰～創校☆埃米爾學園～  學園任務行動"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110009_01"
-            ],
-            "speaker_name": "希诺亚",
-            "context": "也不知潜入学院的\\n那三位现在怎么样了？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100001_01"
-            ],
-            "speaker_name": "尤蒂尔",
-            "context": "真让人担心……\\n希望他们已经快回来了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110009_01"
-            ],
-            "speaker_name": "希诺亚",
-            "context": "是啊，希望调查\\n进展顺利……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "呼，区区小鬼还挺能打。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120097_01"
-            ],
-            "speaker_name": "阿隆",
-            "context": "我们年纪差不多吧！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "也是。\\n你就那么喜欢洛依泽吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120097_01"
-            ],
-            "speaker_name": "阿隆",
-            "context": "没错！我想被她摸头！\\n最好还能被抱抱！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "是吗……\\n那我告诉你一个好消息。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120097_01"
-            ],
-            "speaker_name": "阿隆",
-            "context": "嗯！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "那家伙有个弟弟，\\n而且她对弟弟的保护欲\\n简直过度……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "弟弟想怎么被抱\\n就怎么被抱……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120097_01"
-            ],
-            "speaker_name": "阿隆",
-            "context": "什么！？好羡慕她弟弟啊！\\n你这知道洛依泽机密情报的家伙\\n也让人嫉妒！哇啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "你们给我适可而止！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120097_01"
-            ],
-            "speaker_name": "阿隆",
-            "context": "唉，被洛依泽训了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120097_01"
-            ],
-            "speaker_name": "阿隆",
-            "context": "但是，有点开心……\\n这种心情就是恋爱……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "这家伙越来越扭曲了。\\n长大会变成什么样啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "总之……\\n兰扎卜你过来！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120097_01"
-            ],
-            "speaker_name": "阿隆",
-            "context": "可恶……能像那样\\n被洛依泽略显粗暴地触碰，\\n简直羡慕死我了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120097_01"
-            ],
-            "speaker_name": "阿隆",
-            "context": "果然那两个人……\\n不过，我也……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "今天放学后执行计划。\\n我看你光顾着玩了，\\n真的明白了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "我明白的，而且也准备好了。\\n倒是你，别因为太来劲而搞砸了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "我、我知道啦。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "理事长室附近禁止学生入内。\\n就算是教师，没有艾缪尔的\\n许可好像也不能进入。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "那里还有看守的士兵……\\n但愿我们能顺利混进去……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "总之只能上了。\\n做好准备吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "是啊，就算是为了\\n保护这里的孩子们，\\n我们也要完成任务。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "兰扎卜，我们加油吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "SYS",
-            "context": "放学后",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "好，开始执行计划。\\n理事长室就在这前面吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "是的，学院员工是这么说的。\\n不过这前面到底埋伏着什么\\n完全是未知数。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "总之我们要小心\\n别被看守发现……走吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "快躲起来！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120087_01"
-            ],
-            "speaker_name": "胆小的守卫",
-            "context": "刚、刚才好像有人……\\n喂、喂喂！有人在吗！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "怎么办？这样下去\\n我们都会被发现的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "揍他一顿强行通过？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "计划才刚开始，\\n最好尽量避免\\n在这里引起骚动。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "我来当诱饵引开他们，\\n你们趁机进去。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "诶！？太危险了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "就说我刚来这里工作，\\n路况不熟迷路了，\\n这借口足够了吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "而且万一真被帝国兵发现，\\n你们两个人能够\\n平安无事的可能性更高。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "要深入前进的话，\\n你们的孩子模样更有利。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "原来如此……会被当成\\n是小孩子调皮，就算被骂，\\n也应该不会受到重罚。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "综合考虑一番之后，\\n这里还是由我出面更合适，\\n就交给我吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "好，那就拜托你了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120087_01"
-            ],
-            "speaker_name": "胆小的守卫",
-            "context": "噫！出现了啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "（为什么会怕成这样。\\n我还什么都没做啊……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120087_01"
-            ],
-            "speaker_name": "胆小的守卫",
-            "context": "别、别过来！我不好吃的，\\n你不要吃我啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "（吃？）",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120087_01"
-            ],
-            "speaker_name": "胆小的守卫",
-            "context": "学院七大不可思议之四——\\n闲置教室的亡灵！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120087_01"
-            ],
-            "speaker_name": "胆小的守卫",
-            "context": "啊，都怪我在图书室蹭书看\\n遭到诅咒了。啊啊啊啊啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "（原来如此，\\n他是把我当成亡灵了。\\n既然这样……）",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "（虽然我不是很了解人类的\\n亡灵长什么样，\\n不过大概就是这样吧？）",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "呵呵，我正是闲置教室的亡灵，\\n你的灵魂看起来很可口呢……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120087_01"
-            ],
-            "speaker_name": "胆小的守卫",
-            "context": "噫！别过来，不要啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "我、要、吃、掉、你♪",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120087_01"
-            ],
-            "speaker_name": "胆小的守卫",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "咦，你还好吗？\\n不用逃跑吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "啊……他就这么站着\\n失去意识了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "虽说狄涅尔帝国是敌国，\\n但看到这种士兵\\n还真叫人为它担心……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "要是被人发现守卫晕倒了，\\n肯定会引起骚动的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "没办法，把这个士兵\\n带到医务室去吧。\\n嘿咻……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "（兰扎卜，洛依泽，\\n你们一定要平安无事。）",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120167_01"
-            ],
-            "speaker_name": "热血的守卫",
-            "context": "站住站住站住！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "该死，大人和孩子的步幅\\n差太多了！再这样下去\\n我们两个都会被抓住！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "我们兵分两路吧。\\n不管谁被抓到，只要另一个\\n能顺利到达理事长室……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "是啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120167_01"
-            ],
-            "speaker_name": "热血的守卫",
-            "context": "可恶，分开跑了！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120167_01"
-            ],
-            "speaker_name": "热血的守卫",
-            "context": "这种情况下就要朝可能\\n发生热血剧情的那边跑！\\n嗯，往这边！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "哈啊、哈啊……\\n跑到这里应该就……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120167_01"
-            ],
-            "speaker_name": "热血的守卫",
-            "context": "站住站住站住！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "呃，来追我了啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "（直接逃进森林倒也行……\\n但是以小孩子的身体一个人\\n在有魔兽出没的森林里徘徊更危险。）",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "（走投无路……只能被抓了！）",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120167_01"
-            ],
-            "speaker_name": "热血的守卫",
-            "context": "好疼！谁拿石头扔我！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120097_01"
-            ],
-            "speaker_name": "阿隆",
-            "context": "洛依泽，你没受伤吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "阿隆！你怎么……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120167_01"
-            ],
-            "speaker_name": "热血的守卫",
-            "context": "你这混蛋干什么！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120097_01"
-            ],
-            "speaker_name": "阿隆",
-            "context": "我叫阿隆！是洛依泽的俘虏，\\n也是想被她摸摸抱抱的人！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120167_01"
-            ],
-            "speaker_name": "热血的守卫",
-            "context": "哦、噢！虽然不太懂，\\n不过听着很热血啊！\\n不错不错！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120097_01"
-            ],
-            "speaker_name": "阿隆",
-            "context": "洛依泽，这里就交给我，\\n你快跑吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120097_01"
-            ],
-            "speaker_name": "阿隆",
-            "context": "你不是有要去做的事吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "为什么你会知道……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120097_01"
-            ],
-            "speaker_name": "阿隆",
-            "context": "抱歉，我都听见了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "啊……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "嗯！？谁在那里！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "喂！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "学校后院那个人……\\n原来是你啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120097_01"
-            ],
-            "speaker_name": "阿隆",
-            "context": "嗯，你有要完成的任务吧，\\n洛依泽？那就快去吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "但是，我不能\\n丢下你一个人跑……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120097_01"
-            ],
-            "speaker_name": "阿隆",
-            "context": "你就让我出出风头吧，\\n我想让你看到我帅气的一面。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0089",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "阿隆……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0090",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120167_01"
-            ],
-            "speaker_name": "热血的守卫",
-            "context": "哎呀！少年，你很热血嘛！\\n真是青春年少啊！\\n不错不错！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0091",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "我知道了……阿隆，谢谢你。\\n你一定要平安无事！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0092",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120167_01"
-            ],
-            "speaker_name": "热血的守卫",
-            "context": "啊啊！等等等等！\\n小姑娘你要上哪去！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0093",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120097_01"
-            ],
-            "speaker_name": "阿隆",
-            "context": "我一定要保护好洛依泽！\\n哈啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0094",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "哈啊、哈啊……总算到了，\\n这里就是理事长室啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0095",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "先找找有关\\n这学院的资料吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0096",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "找到资料以后\\n再来找那什么秘密兵器……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0097",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0098",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "你们俩都没事啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0099",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "嗯，多亏你们干扰了守卫，\\n我很顺利就来到这里了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0100",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "是因为我们到处跑\\n把守卫的布阵打乱了吧。\\n总之结果好就一切都好。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0101",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "我之所以没事……\\n都是多亏了阿隆。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0102",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "阿隆？你是说\\n那个超级喜欢你的阿隆？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0103",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "是的，之前我们在学校后院说话\\n不是被人听到了吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0104",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "那个人就是阿隆……\\n所以他才赶来帮我。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0105",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "喔，又是要摸摸又是要抱抱的，\\n我还以为他是个软蛋。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0106",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "阿隆那家伙，\\n还算是个男子汉嘛。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0107",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "是啊，我都有点感动了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0108",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "不过，他没事吧……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0109",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "恐怕会被骂，不过他已经\\n做好心理准备了吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0110",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "就算是为了不辜负他，\\n我们也要赶紧\\n把那个东西找出来。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0111",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "是啊，我们分头找吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0112",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "嗯？是什么……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0113",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110256_02"
-            ],
-            "speaker_name": "洛依泽",
-            "context": "诶！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0114",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110385_01"
-            ],
-            "speaker_name": "墨丘利",
-            "context": "这是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0115",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100003_10"
-            ],
-            "speaker_name": "兰扎卜",
-            "context": "这、这、这是啥啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22211_04_0116",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Disturbing news of a secret weapon being held\\nin the Chairman's office spurs Ranzal, Louise,\\nand Mercury to attempt an infiltration. But when\\nthey're stopped by the guards outside Emile's\\noffice, our heroes find themselves in crisis!",
+      "ja_jp": "どうやらエミュールは<ruby><rb>理事長室</rb><rt>りじちょうしつ</rt></ruby>に<ruby><rb>秘密兵器</rb><rt>ひみつへいき</rt></ruby>を\\n<ruby><rb>隠</rb><rt>かく</rt></ruby>し<ruby><rb>持</rb><rt>も</rt></ruby>っているらしい。ランザーヴ、\\nルイーゼ、マーキュリーの3<ruby><rb>人</rb><rt>にん</rt></ruby>は<ruby><rb>理事長室</rb><rt>りじちょうしつ</rt></ruby>へ\\n<ruby><rb>潜入</rb><rt>せんにゅう</rt></ruby>を<ruby><rb>試</rb><rt>こころ</rt></ruby>みる。しかし、<ruby><rb>見張</rb><rt>みは</rt></ruby>りの<ruby><rb>兵士</rb><rt>へいし</rt></ruby>たちに\\n<ruby><rb>行</rb><rt>ゆ</rt></ruby>く<ruby><rb>手</rb><rt>て</rt></ruby>を<ruby><rb>阻</rb><rt>はば</rt></ruby>まれ、<ruby><rb>大</rb><rt>だい</rt></ruby>ピンチ!?",
+      "zh_cn": "艾缪尔似乎在理事长室\\n藏了秘密兵器。兰扎卜、\\n洛依泽和墨丘利试图潜入其中。\\n然而，他们却因遭到\\n守卫的阻拦而陷入了危机！？",
+      "zh_tw": "埃米爾似乎在理事長室裡藏著秘密武器。\\n於是蘭薩弗、路易潔、墨丘利決定\\n嘗試潛入理事長室。\\n但卻在此時被看守的士兵阻攔，\\n陷入重大危機！？"
+    }
+  },
+  "prev": "2221103",
+  "next": "2221105",
+  "content": [
+    {
+      "icon": "110009_01",
+      "name": {
+        "en_us": "Sinoa",
+        "ja_jp": "シノア",
+        "zh_cn": "希诺亚",
+        "zh_tw": "筱婭"
+      },
+      "context": {
+        "en_us": "How do you suppose our academy trio is\\nfaring?",
+        "ja_jp": "<ruby><rb>学園</rb><rt>がくえん</rt></ruby>へ<ruby><rb>行</rb><rt>い</rt></ruby>った3<ruby><rb>人</rb><rt>にん</rt></ruby>、\\n<ruby><rb>今</rb><rt>いま</rt></ruby>ごろどうしてますかね？",
+        "zh_cn": "也不知潜入学院的\\n那三位现在怎么样了？",
+        "zh_tw": "潛入學園的三位，\\n不知道現在怎麼樣了呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0001",
+      "book": ""
+    },
+    {
+      "icon": "100001_01",
+      "name": {
+        "en_us": "Euden",
+        "ja_jp": "ユーディル",
+        "zh_cn": "尤蒂尔",
+        "zh_tw": "尤帝爾"
+      },
+      "context": {
+        "en_us": "I'm worried about them, I admit.\\nI pray they'll return safely soon.",
+        "ja_jp": "<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>だな……。\\nそろそろ<ruby><rb>戻</rb><rt>もど</rt></ruby>ってくるといいけど。",
+        "zh_cn": "真让人担心……\\n希望他们已经快回来了。",
+        "zh_tw": "真令人擔心……\\n希望他們已經準備要回來了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0002",
+      "book": ""
+    },
+    {
+      "icon": "110009_01",
+      "name": {
+        "en_us": "Sinoa",
+        "ja_jp": "シノア",
+        "zh_cn": "希诺亚",
+        "zh_tw": "筱婭"
+      },
+      "context": {
+        "en_us": "Agreed. And with any luck, their\\ninvestigation will have borne fruit.",
+        "ja_jp": "そうですね。<ruby><rb>捜査</rb><rt>そうさ</rt></ruby>が<ruby><rb>順調</rb><rt>じゅんちょう</rt></ruby>に<ruby><rb>進</rb><rt>すす</rt></ruby>んで\\nいるといいのですが……。",
+        "zh_cn": "是啊，希望调查\\n进展顺利……",
+        "zh_tw": "就是啊。\\n但願搜查一切順利就好……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0003",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Heh. You're not half bad...for a kid.",
+        "ja_jp": "フッ、ガキのくせになかなかやるな。",
+        "zh_cn": "呼，区区小鬼还挺能打。",
+        "zh_tw": "呵，雖然是個小鬼，但還滿厲害的嘛。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0004",
+      "book": ""
+    },
+    {
+      "icon": "120097_01",
+      "name": {
+        "en_us": "Ryu",
+        "ja_jp": "リュウ",
+        "zh_cn": "阿隆",
+        "zh_tw": "里梧"
+      },
+      "context": {
+        "en_us": "We're the same age!",
+        "ja_jp": "<ruby><rb>年</rb><rt>とし</rt></ruby>は<ruby><rb>変</rb><rt>か</rt></ruby>わらないはずだが!?",
+        "zh_cn": "我们年纪差不多吧！？",
+        "zh_tw": "我們應該同年吧！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0005",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Oh, right. Forgot about that. So, level with\\nme, pal—you really THAT into Louise?",
+        "ja_jp": "そうだった。お<ruby><rb>前</rb><rt>まえ</rt></ruby>、そんなに\\nルイーゼのことが<ruby><rb>好</rb><rt>す</rt></ruby>きなのか？",
+        "zh_cn": "也是。\\n你就那么喜欢洛依泽吗？",
+        "zh_tw": "說得也對。我問你，\\n你就那麼喜歡路易潔嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0006",
+      "book": ""
+    },
+    {
+      "icon": "120097_01",
+      "name": {
+        "en_us": "Ryu",
+        "ja_jp": "リュウ",
+        "zh_cn": "阿隆",
+        "zh_tw": "里梧"
+      },
+      "context": {
+        "en_us": "I am! I want her head pats and, if\\npossible, a moderately tight hug!",
+        "ja_jp": "ああ！　よしよしされたい！\\nできればギュッとされたい……!!",
+        "zh_cn": "没错！我想被她摸头！\\n最好还能被抱抱！",
+        "zh_tw": "喜歡！我想被她摸摸頭！\\n可以的話還想被她抱抱……！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0007",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Okay, look. I'll clue you in on somethin'.",
+        "ja_jp": "そうか……ひとつお<ruby><rb>前</rb><rt>まえ</rt></ruby>にいいことを\\n<ruby><rb>教</rb><rt>おし</rt></ruby>えてやろう。",
+        "zh_cn": "是吗……\\n那我告诉你一个好消息。",
+        "zh_tw": "是嗎……那我告訴你一件好消息吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0008",
+      "book": ""
+    },
+    {
+      "icon": "120097_01",
+      "name": {
+        "en_us": "Ryu",
+        "ja_jp": "リュウ",
+        "zh_cn": "阿隆",
+        "zh_tw": "里梧"
+      },
+      "context": {
+        "en_us": "Mngh?!",
+        "ja_jp": "むっ……!?",
+        "zh_cn": "嗯！？",
+        "zh_tw": "唔……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0009",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "She's got a little brother, and she's like a\\nmother hen with the kid. Overprotective\\nain't the half of it.",
+        "ja_jp": "あいつには<ruby><rb>弟</rb><rt>おとうと</rt></ruby>がいる。しかも、\\nルイーゼ、<ruby><rb>弟</rb><rt>おとうと</rt></ruby>に<ruby><rb>相当</rb><rt>そうとう</rt></ruby><ruby><rb>過保護</rb><rt>かほご</rt></ruby>でな……。",
+        "zh_cn": "那家伙有个弟弟，\\n而且她对弟弟的保护欲\\n简直过度……",
+        "zh_tw": "路易潔有個弟弟。而且，\\n她對她弟還有點保護過度……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0010",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "He gets hugs on tap.\\nA veritable hug buffet.",
+        "ja_jp": "<ruby><rb>弟</rb><rt>おとうと</rt></ruby>はギュムギュムされ<ruby><rb>放題</rb><rt>ほうだい</rt></ruby>だぜ……。",
+        "zh_cn": "弟弟想怎么被抱\\n就怎么被抱……",
+        "zh_tw": "她弟可是隨時隨地都能被抱緊緊喔……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0011",
+      "book": ""
+    },
+    {
+      "icon": "120097_01",
+      "name": {
+        "en_us": "Ryu",
+        "ja_jp": "リュウ",
+        "zh_cn": "阿隆",
+        "zh_tw": "里梧"
+      },
+      "context": {
+        "en_us": "What?! I'm not too proud to confess I am\\nEXTREMELY jealous of this brother! And of\\nyou, for knowing top-secret Louise intel!",
+        "ja_jp": "なに～!?　<ruby><rb>素直</rb><rt>すなお</rt></ruby>に<ruby><rb>弟</rb><rt>おとうと</rt></ruby>がうらやましい！\\nルイーゼさんの<ruby><rb>極秘情報</rb><rt>ごくひじょうほう</rt></ruby>を<ruby><rb>知</rb><rt>し</rt></ruby>っている\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>もうらやましい!!　うわぁ～!!",
+        "zh_cn": "什么！？好羡慕她弟弟啊！\\n你这知道洛依泽机密情报的家伙\\n也让人嫉妒！哇啊！",
+        "zh_tw": "什麼～！？我好羨慕她弟弟啊！\\n知道路易潔小姐機密情報的你\\n也讓我超羨慕的！！嗚哇～！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0012",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "Would you both PLEASE knock it off\\nalready?!",
+        "ja_jp": "ちょっと！　いい<ruby><rb>加減</rb><rt>かげん</rt></ruby>にしなさい！",
+        "zh_cn": "你们给我适可而止！",
+        "zh_tw": "我說你們！給我克制一點！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0013",
+      "book": ""
+    },
+    {
+      "icon": "120097_01",
+      "name": {
+        "en_us": "Ryu",
+        "ja_jp": "リュウ",
+        "zh_cn": "阿隆",
+        "zh_tw": "里梧"
+      },
+      "context": {
+        "en_us": "Grk! I've gone and upset her...",
+        "ja_jp": "はっ、ルイーゼさんに<ruby><rb>怒</rb><rt>おこ</rt></ruby>られた……。",
+        "zh_cn": "唉，被洛依泽训了……",
+        "zh_tw": "啊，被路易潔小姐罵了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0014",
+      "book": ""
+    },
+    {
+      "icon": "120097_01",
+      "name": {
+        "en_us": "Ryu",
+        "ja_jp": "リュウ",
+        "zh_cn": "阿隆",
+        "zh_tw": "里梧"
+      },
+      "context": {
+        "en_us": "And yet, her sharp words somehow\\nmake me feel...happy? Tingly, even.\\nTruly, this must be love!",
+        "ja_jp": "なのに、ちょっとうれしい……。\\nこの<ruby><rb>気持</rb><rt>きも</rt></ruby>ちまさしく<ruby><rb>恋</rb><rt>こい</rt></ruby>……。",
+        "zh_cn": "但是，有点开心……\\n这种心情就是恋爱……",
+        "zh_tw": "可是，我卻覺得有點高興……\\n這份情感就是戀慕……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0015",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Wow, you can see the little deviant's mind\\nwarping in real time. Just what kinda man\\nis this kid gonna grow into?",
+        "ja_jp": "どんどん<ruby><rb>拗</rb><rt>こじ</rt></ruby>れていってるな、こいつ。\\nどんな<ruby><rb>大人</rb><rt>おとな</rt></ruby>になっちまうんだか……。",
+        "zh_cn": "这家伙越来越扭曲了。\\n长大会变成什么样啊……",
+        "zh_tw": "這傢伙，越來越惡化了呢。\\n不知道以後會變成怎樣的大人……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0016",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "A thought I'm trying very hard not to have.\\nRanzal! With me, NOW.",
+        "ja_jp": "とにかく……ランザーヴは\\nこっちに<ruby><rb>来</rb><rt>き</rt></ruby>て！",
+        "zh_cn": "总之……\\n兰扎卜你过来！",
+        "zh_tw": "總之……蘭薩弗你跟我來！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0017",
+      "book": ""
+    },
+    {
+      "icon": "120097_01",
+      "name": {
+        "en_us": "Ryu",
+        "ja_jp": "リュウ",
+        "zh_cn": "阿隆",
+        "zh_tw": "里梧"
+      },
+      "context": {
+        "en_us": "Rgh... I'd give anything to be manhandled\\nand dragged around by Louise like that.\\nCall me a sandwich, because I am peanut\\nbutter and JELLY over here!",
+        "ja_jp": "くっ……あんな<ruby><rb>風</rb><rt>ふう</rt></ruby>にちょっと<ruby><rb>手荒</rb><rt>てあら</rt></ruby>に\\nルイーゼさんに<ruby><rb>触</rb><rt>ふ</rt></ruby>れてもらえるなんて、\\n<ruby><rb>心底</rb><rt>しんそこ</rt></ruby>うらやましい……！",
+        "zh_cn": "可恶……能像那样\\n被洛依泽略显粗暴地触碰，\\n简直羡慕死我了！",
+        "zh_tw": "唔……竟然能被路易潔小姐\\n那麼粗魯地對待，\\n實在讓人羨慕得不得了……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0018",
+      "book": ""
+    },
+    {
+      "icon": "120097_01",
+      "name": {
+        "en_us": "Ryu",
+        "ja_jp": "リュウ",
+        "zh_cn": "阿隆",
+        "zh_tw": "里梧"
+      },
+      "context": {
+        "en_us": "Those two must really be...\\nNo. I refuse to concede!",
+        "ja_jp": "やっぱりあのふたりは……。\\nでも、<ruby><rb>僕</rb><rt>ぼく</rt></ruby>だって……。",
+        "zh_cn": "果然那两个人……\\n不过，我也……",
+        "zh_tw": "那兩個人果然……\\n可是，我也……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0019",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "We make our move today after school, but\\nyou've been goofing off all day. Do you\\nunderstand what's at stake here?",
+        "ja_jp": "<ruby><rb>作戦決行</rb><rt>さくせんけっこう</rt></ruby>は<ruby><rb>今日</rb><rt>きょう</rt></ruby>の<ruby><rb>放課後</rb><rt>ほうかご</rt></ruby>よ。\\n<ruby><rb>遊</rb><rt>あそ</rt></ruby>んでばかりだけど<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>にわかってる？",
+        "zh_cn": "今天放学后执行计划。\\n我看你光顾着玩了，\\n真的明白了吗？",
+        "zh_tw": "作戰將在今天放學後實行喔。\\n看你老是在玩，你真的明白嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0020",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Sure I do. And I'm ready for it. Don't YOU\\ngo gettin' so wound up about it you drop\\nthe ball.",
+        "ja_jp": "わかってるっての。<ruby><rb>準備</rb><rt>じゅんび</rt></ruby>もできてる。\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>こそ<ruby><rb>気張</rb><rt>きば</rt></ruby>りすぎてヘマすんなよ。",
+        "zh_cn": "我明白的，而且也准备好了。\\n倒是你，别因为太来劲而搞砸了。",
+        "zh_tw": "我很清楚啦，準備也都做好了。\\n妳才別因為太緊張而出錯啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0021",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "I won't!",
+        "ja_jp": "わ、わかってるわよ。",
+        "zh_cn": "我、我知道啦。",
+        "zh_tw": "我、我知道啦。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0022",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "The area around the chairman's office is\\noff-limits to kids. Even faculty can't get in\\nwithout Emile's say-so.",
+        "ja_jp": "<ruby><rb>理事長室</rb><rt>りじちょうしつ</rt></ruby><ruby><rb>付近</rb><rt>ふきん</rt></ruby>は<ruby><rb>生徒</rb><rt>せいと</rt></ruby>の<ruby><rb>立</rb><rt>た</rt></ruby>ち<ruby><rb>入</rb><rt>い</rt></ruby>りは\\n<ruby><rb>禁</rb><rt>きん</rt></ruby>じられてる。<ruby><rb>教師</rb><rt>きょうし</rt></ruby>もエミュールの\\n<ruby><rb>許可</rb><rt>きょか</rt></ruby>がなきゃ<ruby><rb>入</rb><rt>はい</rt></ruby>れねえそうだ。",
+        "zh_cn": "理事长室附近禁止学生入内。\\n就算是教师，没有艾缪尔的\\n许可好像也不能进入。",
+        "zh_tw": "理事長室附近禁止學生進入。\\n如果沒有埃米爾的允許，\\n聽說連教師也進不去。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0023",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "Not to mention the armed patrol out front. I\\nhope we're able to get in without incident.",
+        "ja_jp": "<ruby><rb>見張</rb><rt>みは</rt></ruby>りの<ruby><rb>兵</rb><rt>へい</rt></ruby>までいるのよね……。\\n<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>に<ruby><rb>辿</rb><rt>たど</rt></ruby>り<ruby><rb>着</rb><rt>つ</rt></ruby>けるといいけど……。",
+        "zh_cn": "那里还有看守的士兵……\\n但愿我们能顺利混进去……",
+        "zh_tw": "還有負責看守的士兵呢……\\n如果能順利抵達就好了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0024",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Incident or no, we gotta get inside,\\nso be ready for anything.",
+        "ja_jp": "とにかくやるしかねえんだ。\\n<ruby><rb>腹</rb><rt>はら</rt></ruby><ruby><rb>決</rb><rt>き</rt></ruby>めな。",
+        "zh_cn": "总之只能上了。\\n做好准备吧。",
+        "zh_tw": "總之只能行動了。\\n做好覺悟吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0025",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "Right. These children's safety hinges\\non us completing this mission.",
+        "ja_jp": "そうね。ここの<ruby><rb>子供</rb><rt>こども</rt></ruby>たちを<ruby><rb>守</rb><rt>まも</rt></ruby>る\\nためにも<ruby><rb>任務</rb><rt>にんむ</rt></ruby>を<ruby><rb>成功</rb><rt>せいこう</rt></ruby>させないと。",
+        "zh_cn": "是啊，就算是为了\\n保护这里的孩子们，\\n我们也要完成任务。",
+        "zh_tw": "是啊。也為了守護這裡的孩子們，\\n必須達成任務才行。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0026",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "Let's do all we can for them, Ranzal.",
+        "ja_jp": "<ruby><rb>頑張</rb><rt>がんば</rt></ruby>りましょう、ランザーヴ。",
+        "zh_cn": "兰扎卜，我们加油吧。",
+        "zh_tw": "加油吧，蘭薩弗。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0027",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "After School",
+        "ja_jp": "<ruby><rb>放課後</rb><rt>ほうかご</rt></ruby>",
+        "zh_cn": "放学后",
+        "zh_tw": "放學後"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "All right, it's go time.\\nThe chairman's office is up ahead, yeah?",
+        "ja_jp": "よっしゃ、<ruby><rb>作戦開始</rb><rt>さくせんかいし</rt></ruby>だ。\\n<ruby><rb>理事長室</rb><rt>りじちょうしつ</rt></ruby>はこの<ruby><rb>先</rb><rt>さき</rt></ruby>なんだな？",
+        "zh_cn": "好，开始执行计划。\\n理事长室就在这前面吧？",
+        "zh_tw": "好，作戰開始。\\n理事長室就在這前面吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0028",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "Yes, according to the other faculty.\\nThough what awaits us there is a\\ncomplete unknown.",
+        "ja_jp": "はい、<ruby><rb>職員</rb><rt>しょくいん</rt></ruby>はそのように。\\nしかし、この<ruby><rb>先</rb><rt>さき</rt></ruby>になにが<ruby><rb>待</rb><rt>ま</rt></ruby>ち<ruby><rb>受</rb><rt>う</rt></ruby>けて\\nいるのかはまったくの<ruby><rb>未知数</rb><rt>みちすう</rt></ruby>です。",
+        "zh_cn": "是的，学院员工是这么说的。\\n不过这前面到底埋伏着什么\\n完全是未知数。",
+        "zh_tw": "是的，職員是這麼被告知的。\\n不過，這前方究竟會有什麼在等著，\\n完全是未知數。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0029",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "Whatever it is, we just need to not get\\ncaught. Come, let's move!",
+        "ja_jp": "とにかく<ruby><rb>見張</rb><rt>みは</rt></ruby>りに<ruby><rb>見</rb><rt>み</rt></ruby>つからないように\\n<ruby><rb>気</rb><rt>き</rt></ruby>をつけましょう。……<ruby><rb>行</rb><rt>い</rt></ruby>くわよ！",
+        "zh_cn": "总之我们要小心\\n别被看守发现……走吧！",
+        "zh_tw": "總之小心一點別被看守的士兵發現了。\\n……走吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0030",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "Hide!",
+        "ja_jp": "<ruby><rb>隠</rb><rt>かく</rt></ruby>れて！",
+        "zh_cn": "快躲起来！",
+        "zh_tw": "快躲起來！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0031",
+      "book": ""
+    },
+    {
+      "icon": "120087_01",
+      "name": {
+        "en_us": "Cowardly Lookout",
+        "ja_jp": "ビビりな見張り番",
+        "zh_cn": "胆小的守卫",
+        "zh_tw": "看守的膽小士兵"
+      },
+      "context": {
+        "en_us": "I-I thought I heard s-s-somebody coming\\nthis way... H-heeey! I-is anybody there?!\\nI-if you are, you hafta say so!",
+        "ja_jp": "た、<ruby><rb>確</rb><rt>たし</rt></ruby>かに<ruby><rb>今</rb><rt>いま</rt></ruby>、<ruby><rb>人</rb><rt>ひと</rt></ruby>の<ruby><rb>気配</rb><rt>けはい</rt></ruby>が……。\\nおおお、おい！　<ruby><rb>誰</rb><rt>だれ</rt></ruby>かいるのかっ!?",
+        "zh_cn": "刚、刚才好像有人……\\n喂、喂喂！有人在吗！？",
+        "zh_tw": "剛、剛才確實，有人的氣息……\\n喂喂喂、喂！有誰在嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0032",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "What's our move? If we stay here,\\nwe'll be discovered!",
+        "ja_jp": "どうする？　このままじゃ<ruby><rb>全員</rb><rt>ぜんいん</rt></ruby>\\n<ruby><rb>見</rb><rt>み</rt></ruby>つかっちゃうわよ……！",
+        "zh_cn": "怎么办？这样下去\\n我们都会被发现的！",
+        "zh_tw": "怎麼辦？\\n這樣下去大家都會被發現的……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0033",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Punch him out and walk on by?",
+        "ja_jp": "ぶん<ruby><rb>殴</rb><rt>なぐ</rt></ruby>って<ruby><rb>押</rb><rt>お</rt></ruby>し<ruby><rb>通</rb><rt>とお</rt></ruby>るか？",
+        "zh_cn": "揍他一顿强行通过？",
+        "zh_tw": "要揍他一頓然後強行通過嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0034",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "The operation has only just begun. I would\\nprefer to avoid causing a scene if possible.",
+        "ja_jp": "まだ<ruby><rb>序盤</rb><rt>じょばん</rt></ruby>です。ここで<ruby><rb>騒</rb><rt>さわ</rt></ruby>ぎになるのは\\n<ruby><rb>避</rb><rt>さ</rt></ruby>けたいところですね。",
+        "zh_cn": "计划才刚开始，\\n最好尽量避免\\n在这里引起骚动。",
+        "zh_tw": "行動才剛開始。\\n可以的話想避免在這裡引起騷動呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0035",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "I'll serve as a distraction to draw him\\naway. Use that time to slip past.",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>囮</rb><rt>おとり</rt></ruby>になって<ruby><rb>彼</rb><rt>かれ</rt></ruby>を<ruby><rb>引</rb><rt>ひ</rt></ruby>きつけましょう。\\nその<ruby><rb>隙</rb><rt>すき</rt></ruby>に、おふたりは<ruby><rb>奥</rb><rt>おく</rt></ruby>へ。",
+        "zh_cn": "我来当诱饵引开他们，\\n你们趁机进去。",
+        "zh_tw": "由我來當誘餌引開他吧。\\n兩位就趁機繼續前進。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0036",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "What?! That's too dangerous!",
+        "ja_jp": "ええ!?　<ruby><rb>危険</rb><rt>きけん</rt></ruby>すぎるわ！",
+        "zh_cn": "诶！？太危险了！",
+        "zh_tw": "咦咦！？太危險了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0037",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "A new teacher freshly arrived on campus\\nfinding herself lost is hardly unthinkable.",
+        "ja_jp": "この<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>ならば、<ruby><rb>赴任</rb><rt>ふにん</rt></ruby>してきたばかりで\\n<ruby><rb>迷</rb><rt>まよ</rt></ruby>ってしまったでも<ruby><rb>十分通</rb><rt>じゅうぶんとお</rt></ruby>るでしょう。",
+        "zh_cn": "就说我刚来这里工作，\\n路况不熟迷路了，\\n这借口足够了吧。",
+        "zh_tw": "如果是這個地方，\\n說我因為剛上任所以不小心迷路，\\n應該滿合理的吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0038",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "Plus, for what comes next, if any of us \\nwere to be caught by imperial soldiers,\\nyou two are more likely to make it out\\nunscathed.",
+        "ja_jp": "それにこの<ruby><rb>先</rb><rt>さき</rt></ruby>、<ruby><rb>万一</rb><rt>まんいち</rt></ruby><ruby><rb>帝国兵</rb><rt>ていこくへい</rt></ruby>に<ruby><rb>見</rb><rt>み</rt></ruby>つかる\\nことがあっても、あなたたちなら<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>で\\nいられる<ruby><rb>可能性</rb><rt>かのうせい</rt></ruby>が<ruby><rb>高</rb><rt>たか</rt></ruby>い。",
+        "zh_cn": "而且万一真被帝国兵发现，\\n你们两个人能够\\n平安无事的可能性更高。",
+        "zh_tw": "況且之後就算你們被帝國兵發現，\\n平安脫險的可能性很高。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0039",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "A pair of mischievous children are better\\nsuited for the infiltration than a nosy adult.",
+        "ja_jp": "<ruby><rb>先</rb><rt>さき</rt></ruby>に<ruby><rb>進</rb><rt>すす</rt></ruby>むなら、<ruby><rb>子供姿</rb><rt>こどもすがた</rt></ruby>のあなたたちの\\n<ruby><rb>方</rb><rt>ほう</rt></ruby>がいいというわけです。",
+        "zh_cn": "要深入前进的话，\\n你们的孩子模样更有利。",
+        "zh_tw": "如果要繼續往前進，\\n由擁有小孩外貌的你們行動會更好。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0040",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "True 'nuff. They'd lecture the hell outta\\nus kids, but it's hard to think they'd\\ndo anything too drastic.",
+        "ja_jp": "なるほど……。<ruby><rb>子供</rb><rt>こども</rt></ruby>のイタズラって\\nことで、<ruby><rb>叱</rb><rt>しか</rt></ruby>られはするだろうが、\\n<ruby><rb>厳罰</rb><rt>げんばつ</rt></ruby>にはなりにくいかもな。",
+        "zh_cn": "原来如此……会被当成\\n是小孩子调皮，就算被骂，\\n也应该不会受到重罚。",
+        "zh_tw": "原來如此……就說是小孩子惡作劇，\\n雖然可能會挨罵，\\n但應該不會罰得太重才對。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0041",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "Factoring all of that in, I believe it's\\nmost logical for me to handle this.\\nI ask that you trust me.",
+        "ja_jp": "<ruby><rb>以上</rb><rt>いじょう</rt></ruby>のことからも、ここは<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>行</rb><rt>い</rt></ruby>くのが\\n<ruby><rb>合理的</rb><rt>ごうりてき</rt></ruby>かと。<ruby><rb>任</rb><rt>まか</rt></ruby>せてください。",
+        "zh_cn": "综合考虑一番之后，\\n这里还是由我出面更合适，\\n就交给我吧。",
+        "zh_tw": "綜合以上原因，這裡由我來比較合理。\\n請包在我身上吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0042",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "We do. Be safe, and good luck!",
+        "ja_jp": "わかったわ。じゃあ、お<ruby><rb>願</rb><rt>ねが</rt></ruby>い……！",
+        "zh_cn": "好，那就拜托你了！",
+        "zh_tw": "我知道了。那麼，拜託了……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0043",
+      "book": ""
+    },
+    {
+      "icon": "120087_01",
+      "name": {
+        "en_us": "Cowardly Lookout",
+        "ja_jp": "ビビりな見張り番",
+        "zh_cn": "胆小的守卫",
+        "zh_tw": "看守的膽小士兵"
+      },
+      "context": {
+        "en_us": "EeeEEK?! It's HER!",
+        "ja_jp": "ひ、ひいいい！　<ruby><rb>出</rb><rt>で</rt></ruby>たアアアアアア！",
+        "zh_cn": "噫！出现了啊啊啊啊！",
+        "zh_tw": "噫、噫噫噫噫！出現啦啊啊啊啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0044",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "(Why in the world is he so frightened?\\nI haven't done a thing. Yet.)",
+        "ja_jp": "（なぜこんなに<ruby><rb>怯</rb><rt>おび</rt></ruby>えているのでしょう。\\n　まだなにもしていないのに……）",
+        "zh_cn": "（为什么会怕成这样。\\n我还什么都没做啊……）",
+        "zh_tw": "（為什麼會這麼害怕呢？\\n我明明什麼都沒做啊……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0045",
+      "book": ""
+    },
+    {
+      "icon": "120087_01",
+      "name": {
+        "en_us": "Cowardly Lookout",
+        "ja_jp": "ビビりな見張り番",
+        "zh_cn": "胆小的守卫",
+        "zh_tw": "看守的膽小士兵"
+      },
+      "context": {
+        "en_us": "S-stay back! I-I-I taste terrible!\\nDon't eat meeeee!",
+        "ja_jp": "く、<ruby><rb>来</rb><rt>く</rt></ruby>るな……！　オレなんか<ruby><rb>食</rb><rt>た</rt></ruby>べても\\nおいしくないんだからな！",
+        "zh_cn": "别、别过来！我不好吃的，\\n你不要吃我啊！",
+        "zh_tw": "別、別過來……！\\n就算吃了我也不好吃啦！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0046",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "(EAT him...?)",
+        "ja_jp": "（<ruby><rb>食</rb><rt>た</rt></ruby>べる……？）",
+        "zh_cn": "（吃？）",
+        "zh_tw": "（吃……？）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0047",
+      "book": ""
+    },
+    {
+      "icon": "120087_01",
+      "name": {
+        "en_us": "Cowardly Lookout",
+        "ja_jp": "ビビりな見張り番",
+        "zh_cn": "胆小的守卫",
+        "zh_tw": "看守的膽小士兵"
+      },
+      "context": {
+        "en_us": "She really exists... The academy legend:\\nthe ghost of the empty classroom!",
+        "ja_jp": "<ruby><rb>学園</rb><rt>がくえん</rt></ruby>の<ruby><rb>七不思議</rb><rt>ななふしぎ</rt></ruby>その<ruby><rb>四</rb><rt>よん</rt></ruby>。\\n<ruby><rb>空</rb><rt>あ</rt></ruby>き<ruby><rb>教室</rb><rt>きょうしつ</rt></ruby>の<ruby><rb>亡霊</rb><rt>ぼうれい</rt></ruby>……！",
+        "zh_cn": "学院七大不可思议之四——\\n闲置教室的亡灵！",
+        "zh_tw": "學園七大不可思議之四。\\n空教室的亡靈……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0048",
+      "book": ""
+    },
+    {
+      "icon": "120087_01",
+      "name": {
+        "en_us": "Cowardly Lookout",
+        "ja_jp": "ビビりな見張り番",
+        "zh_cn": "胆小的守卫",
+        "zh_tw": "看守的膽小士兵"
+      },
+      "context": {
+        "en_us": "She must be angry 'cause I read those\\nlibrary books without properly checking\\nthem out first and now I'm gonna DIIIE!",
+        "ja_jp": "ああ、<ruby><rb>図書室</rb><rt>としょしつ</rt></ruby>で<ruby><rb>立</rb><rt>た</rt></ruby>ち<ruby><rb>読</rb><rt>よ</rt></ruby>みなんかしたから\\n<ruby><rb>呪</rb><rt>のろ</rt></ruby>われたんだ。ああああ……。",
+        "zh_cn": "啊，都怪我在图书室蹭书看\\n遭到诅咒了。啊啊啊啊啊……",
+        "zh_tw": "啊啊，都是因為我在圖書室站著看書\\n才會被詛咒啦。啊啊啊啊……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0049",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "(Ahhh. He's mistaken me for some ghost.\\nVery well, then...)",
+        "ja_jp": "（なるほど。<ruby><rb>私</rb><rt>わたし</rt></ruby>を<ruby><rb>亡霊</rb><rt>ぼうれい</rt></ruby>だと\\n　<ruby><rb>勘違</rb><rt>かんちが</rt></ruby>いしているわけですね。\\n　それならば……）",
+        "zh_cn": "（原来如此，\\n他是把我当成亡灵了。\\n既然这样……）",
+        "zh_tw": "（原來如此。他將我誤認為亡靈了吧。\\n既然這樣……）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0050",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "(I'm not entirely sure how human ghosts\\nare meant to sound, but... Something like\\nthis, perhaps?)",
+        "ja_jp": "（<ruby><rb>人間</rb><rt>にんげん</rt></ruby>の<ruby><rb>亡霊</rb><rt>ぼうれい</rt></ruby>……よくわかりませんが、\\n　こんな<ruby><rb>感</rb><rt>かん</rt></ruby>じでしょうか？）",
+        "zh_cn": "（虽然我不是很了解人类的\\n亡灵长什么样，\\n不过大概就是这样吧？）",
+        "zh_tw": "（人類的亡靈……雖然不太清楚，\\n應該是這種感覺吧？）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0051",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "Heh heh heh, yesss... I am the ghost of the\\nempty classroom, and your sssoul looks...\\nssscrumptious!",
+        "ja_jp": "ふふっ、いかにも<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>空</rb><rt>あ</rt></ruby>き<ruby><rb>教室</rb><rt>きょうしつ</rt></ruby>の<ruby><rb>亡霊</rb><rt>ぼうれい</rt></ruby>。\\nあなたの<ruby><rb>魂</rb><rt>たましい</rt></ruby>、<ruby><rb>美味</rb><rt>おい</rt></ruby>しそうね……。",
+        "zh_cn": "呵呵，我正是闲置教室的亡灵，\\n你的灵魂看起来很可口呢……",
+        "zh_tw": "呵呵，我正是空教室的亡靈。\\n你的靈魂，似乎很美味呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0052",
+      "book": ""
+    },
+    {
+      "icon": "120087_01",
+      "name": {
+        "en_us": "Cowardly Lookout",
+        "ja_jp": "ビビりな見張り番",
+        "zh_cn": "胆小的守卫",
+        "zh_tw": "看守的膽小士兵"
+      },
+      "context": {
+        "en_us": "GYAAAAH! S-stay back! STAY BACK!",
+        "ja_jp": "ひいいい、<ruby><rb>来</rb><rt>く</rt></ruby>るな、<ruby><rb>来</rb><rt>く</rt></ruby>るな――！",
+        "zh_cn": "噫！别过来，不要啊啊啊！",
+        "zh_tw": "噫噫──別過來、別過來啊──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0053",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "Time for a little...sssnack! ♪",
+        "ja_jp": "た・べ・ちゃ・う・ぞ♪",
+        "zh_cn": "我、要、吃、掉、你♪",
+        "zh_tw": "我、要、開、動、囉♪"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0054",
+      "book": ""
+    },
+    {
+      "icon": "120087_01",
+      "name": {
+        "en_us": "Cowardly Lookout",
+        "ja_jp": "ビビりな見張り番",
+        "zh_cn": "胆小的守卫",
+        "zh_tw": "看守的膽小士兵"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "……………………。",
+        "zh_cn": "……",
+        "zh_tw": "……………………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0055",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "Um, hello? Shouldn't you be running?",
+        "ja_jp": "あれ、もしもし……？\\n<ruby><rb>逃</rb><rt>に</rt></ruby>げなくていいんですか？",
+        "zh_cn": "咦，你还好吗？\\n不用逃跑吗？",
+        "zh_tw": "咦，你有聽見嗎……？\\n不趕快逃沒關係嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0056",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "...Oh. He's fainted standing up.",
+        "ja_jp": "……あ、<ruby><rb>立</rb><rt>た</rt></ruby>ったまま<ruby><rb>気絶</rb><rt>きぜつ</rt></ruby>している。",
+        "zh_cn": "啊……他就这么站着\\n失去意识了。",
+        "zh_tw": "……啊，他站著暈過去了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0057",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "They may be the enemy, but I'm beginning\\nto worry for the Dyrenell Empire.",
+        "ja_jp": "ディアネル<ruby><rb>帝国</rb><rt>ていこく</rt></ruby>、<ruby><rb>敵国</rb><rt>てきこく</rt></ruby>ながら\\n<ruby><rb>少</rb><rt>すこ</rt></ruby>し<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>になります……。",
+        "zh_cn": "虽说狄涅尔帝国是敌国，\\n但看到这种士兵\\n还真叫人为它担心……",
+        "zh_tw": "狄亞內魯帝國雖然是敵國，\\n卻不禁讓人有點擔心呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0058",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "Still, it would cause a commotion if\\na guard were found unconscious.",
+        "ja_jp": "<ruby><rb>見張</rb><rt>みは</rt></ruby>りが<ruby><rb>倒</rb><rt>たお</rt></ruby>れているのが\\n<ruby><rb>見</rb><rt>み</rt></ruby>つかったら<ruby><rb>騒</rb><rt>さわ</rt></ruby>ぎに\\nなってしまいますね。",
+        "zh_cn": "要是被人发现守卫晕倒了，\\n肯定会引起骚动的。",
+        "zh_tw": "要是有人發現負責看守的士兵暈倒了，\\n會引起騷動的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0059",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "I suppose I should deliver him\\nto the nurse's office. Up we go...",
+        "ja_jp": "<ruby><rb>仕方</rb><rt>しかた</rt></ruby>ありません。この<ruby><rb>兵</rb><rt>へい</rt></ruby>は\\n<ruby><rb>保健室</rb><rt>ほけんしつ</rt></ruby>に<ruby><rb>届</rb><rt>とど</rt></ruby>けましょう。\\nよいしょっと……。",
+        "zh_cn": "没办法，把这个士兵\\n带到医务室去吧。\\n嘿咻……",
+        "zh_tw": "沒辦法。把這位士兵搬到保健室去吧。\\n嘿、咻……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0060",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "(Ranzal, Louise... Be safe.)",
+        "ja_jp": "（ランザーヴさん、ルイーゼさん、\\n　どうかご<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>で）",
+        "zh_cn": "（兰扎卜，洛依泽，\\n你们一定要平安无事。）",
+        "zh_tw": "（蘭薩弗先生、路易潔小姐，\\n希望你們平安無事。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0061",
+      "book": ""
+    },
+    {
+      "icon": "120167_01",
+      "name": {
+        "en_us": "Hot-Blooded Lookout",
+        "ja_jp": "熱血な見張り番",
+        "zh_cn": "热血的守卫",
+        "zh_tw": "看守的熱血士兵"
+      },
+      "context": {
+        "en_us": "GET. BACK. HEEERE!",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>て<ruby><rb>待</rb><rt>ま</rt></ruby>て<ruby><rb>待</rb><rt>ま</rt></ruby>てィー!!",
+        "zh_cn": "站住站住站住！",
+        "zh_tw": "站住站住站住──！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0062",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Rrgh, it's no fair havin' to do this on stubby\\nkid legs! We can't outrun him much longer!",
+        "ja_jp": "くっそ、<ruby><rb>大人</rb><rt>おとな</rt></ruby>と<ruby><rb>子供</rb><rt>こども</rt></ruby>じゃ<ruby><rb>歩幅</rb><rt>ほはば</rt></ruby>がちげえ！\\nこのままじゃふたりとも<ruby><rb>捕</rb><rt>つか</rt></ruby>まっちまう！",
+        "zh_cn": "该死，大人和孩子的步幅\\n差太多了！再这样下去\\n我们两个都会被抓住！",
+        "zh_tw": "可惡，大人跟小孩的步伐大小差太多！\\n這樣下去兩個人都會被抓住的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0063",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "Let's split up. As long as one of us makes\\nit through safely, that's all that matters.",
+        "ja_jp": "<ruby><rb>二手</rb><rt>ふたて</rt></ruby>に<ruby><rb>分</rb><rt>わ</rt></ruby>かれましょう。どっちかが\\n<ruby><rb>捕</rb><rt>つか</rt></ruby>まっても、もうひとりが<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>に\\n<ruby><rb>辿</rb><rt>たど</rt></ruby>り<ruby><rb>着</rb><rt>つ</rt></ruby>ければ……！",
+        "zh_cn": "我们兵分两路吧。\\n不管谁被抓到，只要另一个\\n能顺利到达理事长室……",
+        "zh_tw": "我們分頭逃跑吧。\\n就算其中一個人被抓住，\\n只要另一個人能順利抵達……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0064",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Right!",
+        "ja_jp": "だな！",
+        "zh_cn": "是啊！",
+        "zh_tw": "嗯！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0065",
+      "book": ""
+    },
+    {
+      "icon": "120167_01",
+      "name": {
+        "en_us": "Hot-Blooded Lookout",
+        "ja_jp": "熱血な見張り番",
+        "zh_cn": "热血的守卫",
+        "zh_tw": "看守的熱血士兵"
+      },
+      "context": {
+        "en_us": "Nrrrgh... Run in two different directions,\\nwill you?!",
+        "ja_jp": "むむっ、<ruby><rb>分</rb><rt>わ</rt></ruby>かれた……!?",
+        "zh_cn": "可恶，分开跑了！？",
+        "zh_tw": "唔唔，竟然分頭逃跑……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0066",
+      "book": ""
+    },
+    {
+      "icon": "120167_01",
+      "name": {
+        "en_us": "Hot-Blooded Lookout",
+        "ja_jp": "熱血な見張り番",
+        "zh_cn": "热血的守卫",
+        "zh_tw": "看守的熱血士兵"
+      },
+      "context": {
+        "en_us": "Times like these, you gotta go where\\nthe real action leads you! THIS WAY!",
+        "ja_jp": "こういう<ruby><rb>時</rb><rt>とき</rt></ruby>は<ruby><rb>熱</rb><rt>あつ</rt></ruby>い<ruby><rb>展開</rb><rt>てんかい</rt></ruby>が<ruby><rb>待</rb><rt>ま</rt></ruby>っていそうな\\n<ruby><rb>方</rb><rt>ほう</rt></ruby>に<ruby><rb>進</rb><rt>すす</rt></ruby>むのだ！　うむ、こちらだッ!!",
+        "zh_cn": "这种情况下就要朝可能\\n发生热血剧情的那边跑！\\n嗯，往这边！",
+        "zh_tw": "這種時候就該往\\n可能有熱血發展的那邊前進！\\n好，是這邊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0067",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "*huff* *wheeze*\\nThis should...be far enough...",
+        "ja_jp": "はあ、はあ……！\\nここまで<ruby><rb>来</rb><rt>く</rt></ruby>れば……！",
+        "zh_cn": "哈啊、哈啊……\\n跑到这里应该就……",
+        "zh_tw": "呼、呼……！\\n只要逃到這裡的話……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0068",
+      "book": ""
+    },
+    {
+      "icon": "120167_01",
+      "name": {
+        "en_us": "Hot-Blooded Lookout",
+        "ja_jp": "熱血な見張り番",
+        "zh_cn": "热血的守卫",
+        "zh_tw": "看守的熱血士兵"
+      },
+      "context": {
+        "en_us": "GET. BACK. HEEERE!",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>て<ruby><rb>待</rb><rt>ま</rt></ruby>て<ruby><rb>待</rb><rt>ま</rt></ruby>てィー!!",
+        "zh_cn": "站住站住站住！",
+        "zh_tw": "站住站住站住──！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0069",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "Ugh, he came after ME?",
+        "ja_jp": "うっ、あたしの<ruby><rb>方</rb><rt>ほう</rt></ruby>を<ruby><rb>追</rb><rt>お</rt></ruby>って\\nきたのね……。",
+        "zh_cn": "呃，来追我了啊……",
+        "zh_tw": "唔，追著我過來了嗎……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0070",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "(I could keep running for the woods...but\\nwandering a fiend-infested forest alone in\\na child's body is far more dangerous.)",
+        "ja_jp": "（このまま<ruby><rb>森</rb><rt>もり</rt></ruby>に<ruby><rb>逃</rb><rt>に</rt></ruby>げてもいいけど……。\\n　<ruby><rb>子供</rb><rt>こども</rt></ruby>の<ruby><rb>姿</rb><rt>すがた</rt></ruby>で、<ruby><rb>魔獣</rb><rt>まじゅう</rt></ruby>の<ruby><rb>出</rb><rt>で</rt></ruby>る<ruby><rb>森</rb><rt>もり</rt></ruby>をひとりで\\n　<ruby><rb>彷徨</rb><rt>さまよ</rt></ruby>う<ruby><rb>方</rb><rt>ほう</rt></ruby>がよほど<ruby><rb>危険</rb><rt>きけん</rt></ruby>よね）",
+        "zh_cn": "（直接逃进森林倒也行……\\n但是以小孩子的身体一个人\\n在有魔兽出没的森林里徘徊更危险。）",
+        "zh_tw": "（雖然就這樣逃進森林裡也可以……\\n但以小孩的模樣，獨自徘徊在\\n有魔獸出沒的森林會更危險吧。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0071",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "(The jig is up. I'll just have to surrender.)",
+        "ja_jp": "（<ruby><rb>万事休</rb><rt>ばんじきゅう</rt></ruby>す。もう<ruby><rb>捕</rb><rt>つか</rt></ruby>まるしか……！）",
+        "zh_cn": "（走投无路……只能被抓了！）",
+        "zh_tw": "（無計可施了。只能被抓住……！）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0072",
+      "book": ""
+    },
+    {
+      "icon": "120167_01",
+      "name": {
+        "en_us": "Hot-Blooded Lookout",
+        "ja_jp": "熱血な見張り番",
+        "zh_cn": "热血的守卫",
+        "zh_tw": "看守的熱血士兵"
+      },
+      "context": {
+        "en_us": "OW! Okay, who's throwin' rocks?!",
+        "ja_jp": "イテッ！　<ruby><rb>誰</rb><rt>だれ</rt></ruby>だ、<ruby><rb>石</rb><rt>いし</rt></ruby>を<ruby><rb>投</rb><rt>な</rt></ruby>げたのは！",
+        "zh_cn": "好疼！谁拿石头扔我！",
+        "zh_tw": "好痛！誰拿石頭丟我！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0073",
+      "book": ""
+    },
+    {
+      "icon": "120097_01",
+      "name": {
+        "en_us": "Ryu",
+        "ja_jp": "リュウ",
+        "zh_cn": "阿隆",
+        "zh_tw": "里梧"
+      },
+      "context": {
+        "en_us": "I hope you're unharmed, Miss Louise.",
+        "ja_jp": "お<ruby><rb>怪我</rb><rt>けが</rt></ruby>はありませんか、ルイーゼさん。",
+        "zh_cn": "洛依泽，你没受伤吧？",
+        "zh_tw": "妳沒受傷吧，路易潔小姐。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0074",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "Ryu?! But why would—",
+        "ja_jp": "リュウ……！　どうして……!?",
+        "zh_cn": "阿隆！你怎么……",
+        "zh_tw": "里梧……！\\n為什麼……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0075",
+      "book": ""
+    },
+    {
+      "icon": "120167_01",
+      "name": {
+        "en_us": "Hot-Blooded Lookout",
+        "ja_jp": "熱血な見張り番",
+        "zh_cn": "热血的守卫",
+        "zh_tw": "看守的熱血士兵"
+      },
+      "context": {
+        "en_us": "Who the devil are YOU?!",
+        "ja_jp": "なんだ、<ruby><rb>貴様</rb><rt>きさま</rt></ruby>はァ！",
+        "zh_cn": "你这混蛋干什么！",
+        "zh_tw": "你是誰！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0076",
+      "book": ""
+    },
+    {
+      "icon": "120097_01",
+      "name": {
+        "en_us": "Ryu",
+        "ja_jp": "リュウ",
+        "zh_cn": "阿隆",
+        "zh_tw": "里梧"
+      },
+      "context": {
+        "en_us": "Ryu! Louise's prisoner of love, and a boy\\nvery eager for head pats and hair ruffles!!!",
+        "ja_jp": "<ruby><rb>僕</rb><rt>ぼく</rt></ruby>はリュウ！　ルイーゼさんの<ruby><rb>虜</rb><rt>とりこ</rt></ruby>にして\\nよしよしなでなでされたい<ruby><rb>者</rb><rt>もの</rt></ruby>だ！",
+        "zh_cn": "我叫阿隆！是洛依泽的俘虏，\\n也是想被她摸摸抱抱的人！",
+        "zh_tw": "我是里梧！是路易潔小姐的俘虜，\\n兼想被她摸摸頭的人！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0077",
+      "book": ""
+    },
+    {
+      "icon": "120167_01",
+      "name": {
+        "en_us": "Hot-Blooded Lookout",
+        "ja_jp": "熱血な見張り番",
+        "zh_cn": "热血的守卫",
+        "zh_tw": "看守的熱血士兵"
+      },
+      "context": {
+        "en_us": "Uhhh...okay? I don't really get it, but\\nI like your passion, kid! You got moxie!",
+        "ja_jp": "お、おう……！　なんか<ruby><rb>知</rb><rt>し</rt></ruby>らんが、\\n<ruby><rb>熱</rb><rt>あつ</rt></ruby>いな!!　いいぞいいぞーッ!!",
+        "zh_cn": "哦、噢！虽然不太懂，\\n不过听着很热血啊！\\n不错不错！",
+        "zh_tw": "喔、喔……！\\n雖然聽不太懂，但你還真熱血啊！！\\n很好很好──！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0078",
+      "book": ""
+    },
+    {
+      "icon": "120097_01",
+      "name": {
+        "en_us": "Ryu",
+        "ja_jp": "リュウ",
+        "zh_cn": "阿隆",
+        "zh_tw": "里梧"
+      },
+      "context": {
+        "en_us": "Go on, Miss Louise. Leave this to me.",
+        "ja_jp": "ルイーゼさん。ここは<ruby><rb>僕</rb><rt>ぼく</rt></ruby>にまかせて\\n<ruby><rb>行</rb><rt>い</rt></ruby>ってください。",
+        "zh_cn": "洛依泽，这里就交给我，\\n你快跑吧。",
+        "zh_tw": "路易潔小姐，這裡就交給我。\\n請妳快走吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0079",
+      "book": ""
+    },
+    {
+      "icon": "120097_01",
+      "name": {
+        "en_us": "Ryu",
+        "ja_jp": "リュウ",
+        "zh_cn": "阿隆",
+        "zh_tw": "里梧"
+      },
+      "context": {
+        "en_us": "You have a task to see through, don't you?",
+        "ja_jp": "あなたにはやるべきことが\\nあるんでしょう？",
+        "zh_cn": "你不是有要去做的事吗？",
+        "zh_tw": "妳還有應該做的事吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0080",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "How did you...?",
+        "ja_jp": "なんでそれを……？",
+        "zh_cn": "为什么你会知道……",
+        "zh_tw": "為什麼你會知道……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0081",
+      "book": ""
+    },
+    {
+      "icon": "120097_01",
+      "name": {
+        "en_us": "Ryu",
+        "ja_jp": "リュウ",
+        "zh_cn": "阿隆",
+        "zh_tw": "里梧"
+      },
+      "context": {
+        "en_us": "My apologies. I overheard you.",
+        "ja_jp": "すみません、<ruby><rb>聞</rb><rt>き</rt></ruby>いてしまいました。",
+        "zh_cn": "抱歉，我都听见了。",
+        "zh_tw": "抱歉，我不小心聽見了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0082",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "...Ah!",
+        "ja_jp": "あ……！",
+        "zh_cn": "啊……",
+        "zh_tw": "啊……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0083",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "Wait. Is someone there?!",
+        "ja_jp": "……!?　そこに<ruby><rb>誰</rb><rt>だれ</rt></ruby>かいるのですか!?",
+        "zh_cn": "嗯！？谁在那里！？",
+        "zh_tw": "……！？\\n有人在那裡嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0084",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "HEY!",
+        "ja_jp": "おい……！",
+        "zh_cn": "喂！",
+        "zh_tw": "喂……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0085",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "Behind the main hall—that was you?",
+        "ja_jp": "<ruby><rb>校舎</rb><rt>こうしゃ</rt></ruby><ruby><rb>裏</rb><rt>うら</rt></ruby>での……！　あなただったのね！",
+        "zh_cn": "学校后院那个人……\\n原来是你啊！",
+        "zh_tw": "那時候在校舍後方的……！\\n原來是你！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0086",
+      "book": ""
+    },
+    {
+      "icon": "120097_01",
+      "name": {
+        "en_us": "Ryu",
+        "ja_jp": "リュウ",
+        "zh_cn": "阿隆",
+        "zh_tw": "里梧"
+      },
+      "context": {
+        "en_us": "Yes. So go, and do whatever it is you must.",
+        "ja_jp": "はい。<ruby><rb>果</rb><rt>は</rt></ruby>たすべき<ruby><rb>目的</rb><rt>もくてき</rt></ruby>が\\nあるんでしょう、ルイーゼさん？\\n<ruby><rb>早</rb><rt>はや</rt></ruby>く<ruby><rb>行</rb><rt>い</rt></ruby>ってください。",
+        "zh_cn": "嗯，你有要完成的任务吧，\\n洛依泽？那就快去吧。",
+        "zh_tw": "是的。\\n妳有必須完成的目的吧，路易潔小姐？\\n請妳快點去吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0087",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "I can't just leave you here!",
+        "ja_jp": "でも、リュウをひとり<ruby><rb>残</rb><rt>のこ</rt></ruby>していく\\nなんて……！",
+        "zh_cn": "但是，我不能\\n丢下你一个人跑……",
+        "zh_tw": "可是，要我丟下里梧一個人……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0088",
+      "book": ""
+    },
+    {
+      "icon": "120097_01",
+      "name": {
+        "en_us": "Ryu",
+        "ja_jp": "リュウ",
+        "zh_cn": "阿隆",
+        "zh_tw": "里梧"
+      },
+      "context": {
+        "en_us": "Please... Allow me to play the hero today.\\nThe chance to look good in front of you is\\nworth any punishment.",
+        "ja_jp": "……<ruby><rb>格好</rb><rt>かっこう</rt></ruby>つけさせてくださいよ。\\nあなたにいいとこ<ruby><rb>見</rb><rt>み</rt></ruby>せたいんです。",
+        "zh_cn": "你就让我出出风头吧，\\n我想让你看到我帅气的一面。",
+        "zh_tw": "……請讓我耍帥一次吧。\\n我想展現活躍的樣子給妳看。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0089",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "Ryu...",
+        "ja_jp": "リュウ……。",
+        "zh_cn": "阿隆……",
+        "zh_tw": "里梧……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0090",
+      "book": ""
+    },
+    {
+      "icon": "120167_01",
+      "name": {
+        "en_us": "Hot-Blooded Lookout",
+        "ja_jp": "熱血な見張り番",
+        "zh_cn": "热血的守卫",
+        "zh_tw": "看守的熱血士兵"
+      },
+      "context": {
+        "en_us": "Aaah, this kid gets it! He GETS it! This is\\nsome peak youth drama right here! YES!",
+        "ja_jp": "クゥー!!　<ruby><rb>熱</rb><rt>あつ</rt></ruby>いな、<ruby><rb>少年</rb><rt>しょうねん</rt></ruby>！\\n<ruby><rb>青春</rb><rt>せいしゅん</rt></ruby>だなァ～!!\\nいいぞいいぞーッ!!",
+        "zh_cn": "哎呀！少年，你很热血嘛！\\n真是青春年少啊！\\n不错不错！",
+        "zh_tw": "唔嗚──！！\\n太熱血了，少年！好青春啊～！！\\n很好很好──！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0091",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "Er... Very well. Thank you, Ryu.\\nBut promise me you'll stay safe!",
+        "ja_jp": "……わかった。ありがとう、リュウ。\\n<ruby><rb>絶対</rb><rt>ぜったい</rt></ruby>に<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>でいて！",
+        "zh_cn": "我知道了……阿隆，谢谢你。\\n你一定要平安无事！",
+        "zh_tw": "……我知道了。謝謝你，里梧。\\n你絕對要平安無事喔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0092",
+      "book": ""
+    },
+    {
+      "icon": "120167_01",
+      "name": {
+        "en_us": "Hot-Blooded Lookout",
+        "ja_jp": "熱血な見張り番",
+        "zh_cn": "热血的守卫",
+        "zh_tw": "看守的熱血士兵"
+      },
+      "context": {
+        "en_us": "Hey, whoa! Waaait a second.\\nWhere's she think she's running off to?!",
+        "ja_jp": "ああー！　チョイチョイチョイー！\\n<ruby><rb>小娘</rb><rt>こむすめ</rt></ruby>どこへ<ruby><rb>行</rb><rt>い</rt></ruby>くー!?",
+        "zh_cn": "啊啊！等等等等！\\n小姑娘你要上哪去！？",
+        "zh_tw": "啊啊──！\\n等一下等一下等一下──！\\n小姑娘妳要去哪裡──！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0093",
+      "book": ""
+    },
+    {
+      "icon": "120097_01",
+      "name": {
+        "en_us": "Ryu",
+        "ja_jp": "リュウ",
+        "zh_cn": "阿隆",
+        "zh_tw": "里梧"
+      },
+      "context": {
+        "en_us": "I shall defend Miss Louise with my life!\\nDo your worst, sir... HAAAH!",
+        "ja_jp": "<ruby><rb>僕</rb><rt>ぼく</rt></ruby>だってルイーゼさんを<ruby><rb>守</rb><rt>まも</rt></ruby>ってみせる！\\nはあああああ！",
+        "zh_cn": "我一定要保护好洛依泽！\\n哈啊啊啊啊啊！",
+        "zh_tw": "我也能守護路易潔小姐！\\n喝啊啊啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0094",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "*huff* *pant* Finally made it.\\nThis has gotta be Emile's office.",
+        "ja_jp": "はあ、はあ……やっと<ruby><rb>着</rb><rt>つ</rt></ruby>いたぜ。\\nここが<ruby><rb>理事長室</rb><rt>りじちょうしつ</rt></ruby>か。",
+        "zh_cn": "哈啊、哈啊……总算到了，\\n这里就是理事长室啊。",
+        "zh_tw": "呼、呼……終於到了。\\n這裡就是理事長室嗎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0095",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Guess I'll start by diggin' up any\\ndocs I can find about the academy.",
+        "ja_jp": "まずは<ruby><rb>学園</rb><rt>がくえん</rt></ruby>のことがわかる<ruby><rb>資料</rb><rt>しりょう</rt></ruby>を\\n<ruby><rb>物色</rb><rt>ぶっしょく</rt></ruby>するとしますか。",
+        "zh_cn": "先找找有关\\n这学院的资料吧。",
+        "zh_tw": "首先來找找和學園有關的資料吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0096",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Once I've got those, I'll get to\\nlookin' for this secret weapon of...",
+        "ja_jp": "それが<ruby><rb>見</rb><rt>み</rt></ruby>つかったら\\n<ruby><rb>秘密兵器</rb><rt>ひみつへいき</rt></ruby>とやらを……。",
+        "zh_cn": "找到资料以后\\n再来找那什么秘密兵器……",
+        "zh_tw": "等找到了之後，\\n再去把那什麼秘密武器給……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0097",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Waugh?!",
+        "ja_jp": "……!?",
+        "zh_cn": "！？",
+        "zh_tw": "……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0098",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "You guys are okay!",
+        "ja_jp": "ふたりとも、<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>だったんだな！",
+        "zh_cn": "你们俩都没事啊！",
+        "zh_tw": "妳們兩個都沒事啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0099",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "Yes. Thanks to your little distraction,\\nI was able to simply walk right in.",
+        "ja_jp": "はい。おふたりが<ruby><rb>攪乱</rb><rt>かくらん</rt></ruby>してくれた\\nおかげで、ここまでもすんなりと\\n<ruby><rb>辿</rb><rt>たど</rt></ruby>り<ruby><rb>着</rb><rt>つ</rt></ruby>くことができました。",
+        "zh_cn": "嗯，多亏你们干扰了守卫，\\n我很顺利就来到这里了。",
+        "zh_tw": "是的。多虧兩位給對方造成混亂，\\n我才能順利抵達這裡。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0100",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Guess we wound up givin' 'em the run-\\naround and broke their security formation.\\nDidn't plan that, but hey, a win's a win.",
+        "ja_jp": "<ruby><rb>逃</rb><rt>に</rt></ruby>げ<ruby><rb>回</rb><rt>まわ</rt></ruby>ったことで<ruby><rb>見張</rb><rt>みは</rt></ruby>りの<ruby><rb>陣形</rb><rt>じんけい</rt></ruby>が\\n<ruby><rb>崩</rb><rt>くず</rt></ruby>れたってことか。\\nま、<ruby><rb>結果</rb><rt>けっか</rt></ruby>オーライだな。",
+        "zh_cn": "是因为我们到处跑\\n把守卫的布阵打乱了吧。\\n总之结果好就一切都好。",
+        "zh_tw": "因為我們到處逃跑，\\n導致看守的隊形崩潰了嗎。\\n總之結果好就好啦。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0101",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "I only made it here in one piece thanks to\\nRyu.",
+        "ja_jp": "あたしが<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>でいられてるのは……\\nリュウのおかげよ。",
+        "zh_cn": "我之所以没事……\\n都是多亏了阿隆。",
+        "zh_tw": "我能平安無事……都要多虧里梧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0102",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "What, that shrimp with the slightly creepy\\ncrush on you?",
+        "ja_jp": "リュウ？　リュウって、お<ruby><rb>前</rb><rt>まえ</rt></ruby>のことが\\n<ruby><rb>大好</rb><rt>だいす</rt></ruby>きなあのリュウか？",
+        "zh_cn": "阿隆？你是说\\n那个超级喜欢你的阿隆？",
+        "zh_tw": "里梧？妳說的里梧，\\n是指那個超喜歡妳的里梧嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0103",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "The same. Recall how we worried earlier\\nthat we'd been overheard behind the\\nschool building?",
+        "ja_jp": "ええ。<ruby><rb>前</rb><rt>まえ</rt></ruby>に<ruby><rb>校舎</rb><rt>こうしゃ</rt></ruby><ruby><rb>裏</rb><rt>うら</rt></ruby>で<ruby><rb>誰</rb><rt>だれ</rt></ruby>かに<ruby><rb>話</rb><rt>はなし</rt></ruby>を<ruby><rb>聞</rb><rt>き</rt></ruby>かれて\\nしまったことがあったでしょう。",
+        "zh_cn": "是的，之前我们在学校后院说话\\n不是被人听到了吗？",
+        "zh_tw": "嗯。之前在校舍後方\\n有人聽見了我們的談話對吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0104",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "Well, we were. By Ryu.\\nAnd thanks to that, he came to my aid.",
+        "ja_jp": "……あれ、リュウだったのよ。\\nそれで<ruby><rb>助</rb><rt>たす</rt></ruby>けにきてくれたみたい。",
+        "zh_cn": "那个人就是阿隆……\\n所以他才赶来帮我。",
+        "zh_tw": "……那個人，就是里梧。\\n他好像因為這樣而跑來幫我了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0105",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "No kiddin'? With all the ＂head pats and\\nhand squeezes＂ talk, I pegged him as less\\nof a doer and more of a swooner.",
+        "ja_jp": "へえ。なでなでだのよしよしだの<ruby><rb>言</rb><rt>い</rt></ruby>って\\nなよっちいやつだとばかり<ruby><rb>思</rb><rt>おも</rt></ruby>ってたが。",
+        "zh_cn": "喔，又是要摸摸又是要抱抱的，\\n我还以为他是个软蛋。",
+        "zh_tw": "喔～因為他老是說什麼摸摸抱抱，\\n我還以為只是個軟弱的小鬼。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0106",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Shows what I know.\\nKid's a man's man.",
+        "ja_jp": "いっちょ<ruby><rb>前</rb><rt>まえ</rt></ruby>に<ruby><rb>漢</rb><rt>おとこ</rt></ruby>じゃねえか、\\nリュウのやつ。",
+        "zh_cn": "阿隆那家伙，\\n还算是个男子汉嘛。",
+        "zh_tw": "原來是個十足的男子漢嘛，\\n里梧那傢伙。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0107",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "I'll admit I was a bit moved.",
+        "ja_jp": "ええ。ちょっと<ruby><rb>感動</rb><rt>かんどう</rt></ruby>しちゃった。",
+        "zh_cn": "是啊，我都有点感动了。",
+        "zh_tw": "是啊。讓我有點感動呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0108",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "But will he be all right?",
+        "ja_jp": "でも、<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>でしょうか……？",
+        "zh_cn": "不过，他没事吧……",
+        "zh_tw": "不過，沒問題嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0109",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "He'll probably get chewed out and thrown\\nin detention for a month, but I'm sure he'll\\nconsider it a badge of honor.",
+        "ja_jp": "<ruby><rb>叱</rb><rt>しか</rt></ruby>られはするだろうが、それくらいの\\n<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>はあんだろ。",
+        "zh_cn": "恐怕会被骂，不过他已经\\n做好心理准备了吧。",
+        "zh_tw": "雖然可能會挨罵，\\n但我想這點覺悟他應該有吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0110",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "Now let's make sure our little loverboy's\\nsacrifice doesn't go to waste and get our\\nrears in gear findin' this stuff.",
+        "ja_jp": "リュウの<ruby><rb>助太刀</rb><rt>すけだち</rt></ruby>を<ruby><rb>無駄</rb><rt>むだ</rt></ruby>に\\nしないためにも、とっとと\\n<ruby><rb>目的</rb><rt>もくてき</rt></ruby>のブツを<ruby><rb>見</rb><rt>み</rt></ruby>つけようぜ。",
+        "zh_cn": "就算是为了不辜负他，\\n我们也要赶紧\\n把那个东西找出来。",
+        "zh_tw": "也為了不讓里梧的幫忙白費，\\n我們快點找出目標的東西吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0111",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "Agreed. Let's split up and search.",
+        "ja_jp": "そうね。<ruby><rb>手分</rb><rt>てわ</rt></ruby>けして<ruby><rb>探</rb><rt>さが</rt></ruby>しましょう。",
+        "zh_cn": "是啊，我们分头找吧。",
+        "zh_tw": "說得也是，我們分頭找吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0112",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "Hm? What could this be?",
+        "ja_jp": "ん？　なんでしょう……？",
+        "zh_cn": "嗯？是什么……",
+        "zh_tw": "嗯？這是什麼……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0113",
+      "book": ""
+    },
+    {
+      "icon": "110256_02",
+      "name": {
+        "en_us": "Louise",
+        "ja_jp": "ルイーゼ",
+        "zh_cn": "洛依泽",
+        "zh_tw": "路易潔"
+      },
+      "context": {
+        "en_us": "...What?!",
+        "ja_jp": "え……!?",
+        "zh_cn": "诶！？",
+        "zh_tw": "咦……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0114",
+      "book": ""
+    },
+    {
+      "icon": "110385_01",
+      "name": {
+        "en_us": "Mercury",
+        "ja_jp": "マーキュリー",
+        "zh_cn": "墨丘利",
+        "zh_tw": "墨丘利"
+      },
+      "context": {
+        "en_us": "This is... It's...",
+        "ja_jp": "これは……。",
+        "zh_cn": "这是……",
+        "zh_tw": "這是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0115",
+      "book": ""
+    },
+    {
+      "icon": "100003_10",
+      "name": {
+        "en_us": "Ranzal",
+        "ja_jp": "ランザーヴ",
+        "zh_cn": "兰扎卜",
+        "zh_tw": "蘭薩弗"
+      },
+      "context": {
+        "en_us": "WHAT THE HECK AM I LOOKIN' AT?!",
+        "ja_jp": "な、な、なんだこれえええ！",
+        "zh_cn": "这、这、这是啥啊啊啊啊！",
+        "zh_tw": "這、這、這是什麼東西啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22211_04_0116",
+      "book": ""
+    }
+  ]
 }

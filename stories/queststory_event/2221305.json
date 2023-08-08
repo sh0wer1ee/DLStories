@@ -1,938 +1,1768 @@
 {
-    "story_id": "",
-    "story_name": "迎击战～祝福之羽翼～ 三方争夺战",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "德莱茨和里莎她们救出了妮诺。\\n却遭到保守派的圣骑士和炼狱派雇的\\n杀手们追杀，演变成了三方势力混战。\\n其间，决定不再放弃挣扎的妮诺觉醒了\\n体内的精灵之力，与追杀者展开正面交锋。"
-        ]
+  "title": {
+    "en_us": "Blessed Bloodline    A Three-Way Standoff",
+    "ja_jp": "迎撃戦～ブレス・ウィズ・ウイング～  三派争奪戦",
+    "zh_cn": "迎击战～祝福之羽翼～  三方争夺战",
+    "zh_tw": "迎擊戰～神佑之翼～  三方爭奪戰"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "德莱茨！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "抱歉妮诺，我来晚了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120096_01"
-            ],
-            "speaker_name": "女杀手",
-            "context": "把人掳走时我应该没留下痕迹，\\n你是怎么找到这里来的？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "是声音指引我来的。\\n那个声音和我穿上盔甲时\\n听到的一样。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "声音？你在说什么鬼话。\\n总之先给我消灭掉\\n这个来捣乱的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120096_01"
-            ],
-            "speaker_name": "女杀手",
-            "context": "好。记得加钱哦。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120096_01"
-            ],
-            "speaker_name": "女杀手",
-            "context": "帅哥，你身手还挺了得嘛。\\n那就对你试试这招吧？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "这是！？咳咳！\\n和袭击住处时用的\\n是同一种……毒气！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120096_01"
-            ],
-            "speaker_name": "女杀手",
-            "context": "猜对了♪等你动不了了，\\n我再好好欺负你。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "唔……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120096_01"
-            ],
-            "speaker_name": "女杀手",
-            "context": "登场的时候那么帅，\\n结果却被打成沙包，真惨呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "这样就好……\\n趁你们集中对付我的时候……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110381_01",
-                "210154_01"
-            ],
-            "speaker_name": "二人",
-            "context": "哈啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120096_01"
-            ],
-            "speaker_name": "女杀手",
-            "context": "糟了！这个圣骑士是诱饵！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "里莎",
-            "context": "绳索解开了！\\n妮诺已经救下！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210154_01"
-            ],
-            "speaker_name": "拉斐尔",
-            "context": "好，撤退！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "竟然又让他们跑了！\\n赶紧给我去追！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210154_01"
-            ],
-            "speaker_name": "拉斐尔",
-            "context": "真是的，竟然一个人去当诱饵，\\n亏你想得出这种鲁莽的方案。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "德莱茨，你没事吧！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "嗯，我没事……唔！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "不要逞强啊。\\n你浑身都是伤……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110381_01"
-            ],
-            "speaker_name": "里莎",
-            "context": "总之趁追兵赶到之前，\\n我们先逃吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110381_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "找到了！人在那儿！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210154_01"
-            ],
-            "speaker_name": "拉斐尔",
-            "context": "那群杀手已经追过来了吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "不对，那是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01",
-                "120166_01",
-                "120232_01"
-            ],
-            "speaker_name": "圣骑士戈马",
-            "context": "终于找到你了，德莱茨。\\n还有你这个冒充女神后代的异端。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "是戈马和教会骑士！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120232_01"
-            ],
-            "speaker_name": "圣骑士戈马",
-            "context": "看来你又带了新保镖啊，\\n不过我们不会再输了。\\n所有人，都给我上！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210154_01"
-            ],
-            "speaker_name": "拉斐尔",
-            "context": "真要命，怎么这么麻烦啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110381_01"
-            ],
-            "speaker_name": "里莎",
-            "context": "麻烦也得想办法解决这帮人，\\n不然没法逃跑！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "好不容易追上他们……\\n可这是什么情况！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120096_01"
-            ],
-            "speaker_name": "女杀手",
-            "context": "好像是保守派的骑士要抓\\n那位女神后代。怎么办？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "什么怎么办！\\n钥匙我们一定要弄到手！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120096_01"
-            ],
-            "speaker_name": "女杀手",
-            "context": "听到了吗？委托人下了命令。\\n碍事人等可以杀掉。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "保守派教会骑士",
-            "context": "戈马大人！\\n有另一方势力来袭！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120232_01"
-            ],
-            "speaker_name": "圣骑士戈马",
-            "context": "管他是什么人！\\n碍事人等格杀勿论！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110381_01"
-            ],
-            "speaker_name": "里莎",
-            "context": "保守派和炼狱派都来插手，\\n简直乱成一锅粥了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210154_01"
-            ],
-            "speaker_name": "拉斐尔",
-            "context": "总之谁扑过来我就干掉谁！\\n哈啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110381_01"
-            ],
-            "speaker_name": "里莎",
-            "context": "不会把妮诺交给你们的！\\n呀啊啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01"
-            ],
-            "speaker_name": "保守派教会骑士",
-            "context": "唔！我们利用人数优势，\\n一口气攻上去！唔噢噢噢噢！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110381_01"
-            ],
-            "speaker_name": "里莎",
-            "context": "被、被压制住了！\\n呀啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210154_01"
-            ],
-            "speaker_name": "拉斐尔",
-            "context": "里莎！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120096_01"
-            ],
-            "speaker_name": "女杀手",
-            "context": "这可是连龙都能麻痹的毒刃，\\n你一时半会儿是动不了了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210154_01"
-            ],
-            "speaker_name": "拉斐尔",
-            "context": "该死！大意了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "里莎！拉斐尔！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120232_01"
-            ],
-            "speaker_name": "圣骑士戈马",
-            "context": "你还有闲工夫管别人吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "唔！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120232_01"
-            ],
-            "speaker_name": "圣骑士戈马",
-            "context": "我才是执行女神意志的圣骑士！\\n我的剑才是行使正义的\\n神圣力量！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120232_01"
-            ],
-            "speaker_name": "圣骑士戈马",
-            "context": "我决不能输给你这个异端！\\n德莱茨，死于我剑下吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "唔啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "德莱茨！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "身体动不了！\\n怎么回事！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "你可是宝贵的祭品。\\n要是卷入战斗一命呜呼，\\n我可就头疼了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "你……你对我做了什么？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "这是缚魂魔法……\\n因为可能伤及所缚之魂，\\n我本来不太想用的。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "在我们完事之前，\\n你就老老实实待在那里吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "我怎么能老实待着，\\n德莱茨他们都受伤了啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "就算你能动，\\n身为只能受人保护的一方，\\n你又能做些什么呢？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "我……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120232_01"
-            ],
-            "speaker_name": "圣骑士戈马",
-            "context": "那个小丫头由我来处决！\\n惩处异端乃遵从正确教诲的\\n我等之义务！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120232_01"
-            ],
-            "speaker_name": "圣骑士戈马",
-            "context": "冒充女神后代罪该万死！\\n去地狱为你的愚蠢行径悔过吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "休想得逞！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120232_01"
-            ],
-            "speaker_name": "圣骑士戈马",
-            "context": "原来你还能动啊！\\n别来捣乱！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "这世上没有谁是该死的！\\n她也是应当获得幸福的生命！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "德莱茨……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "真是的，明明万物皆有女神\\n所赋予的意义和职责，\\n却没有人理解这一点。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "你的职责就是成为祭品，\\n为制成“炼狱之匙”做出贡献。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "这就是你迄今为止\\n一直受到保护的意义。\\n除了向我献上灵魂，你别无选择。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "我的选择……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "想我这种只是憧憬着\\n空中飞翔的鸟儿之人，\\n也有选择权吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "只要还没有失去那份渴望，\\n你就可以自由翱翔。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "不要擅自认定\\n我别无选择……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "什么？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "我讨厌将意见强加于我的教会，\\n讨厌没有自由的每一天。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "但是，我真正讨厌的\\n是放弃挣扎的自己……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "这是！？空气中的魔力\\n都聚集到了妮诺身上！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "我不想再放弃挣扎了，\\n不想只是一味地受人保护了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_01"
-            ],
-            "speaker_name": "妮诺",
-            "context": "我要——自由地翱翔！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0078",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "（若你想要独自展翅高飞，\\n这个世界也许过于不公。）",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0079",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "（即便如此，只要有人心系于你，\\n你们定能共同跨越困难。）",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0080",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_02"
-            ],
-            "speaker_name": "？？？",
-            "context": "（来，听从你内心的意志，\\n自由地翱翔吧——）",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0081",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "魔力化成了……翅膀！？\\n总、总之，再施一次缚魂魔法！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0082",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "魔法被反弹回来了……\\n唔呃呃呃！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0083",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_02"
-            ],
-            "speaker_name": "妮诺",
-            "context": "各位，我这就来救你们！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0084",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120232_01"
-            ],
-            "speaker_name": "圣骑士戈马",
-            "context": "那丫头怎么回事！？\\n把教会骑士和杀手\\n一个个都撂倒了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0085",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_02"
-            ],
-            "speaker_name": "妮诺",
-            "context": "离德莱茨远点！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0086",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120232_01"
-            ],
-            "speaker_name": "圣骑士戈马",
-            "context": "呃！区区小丫头\\n突然能战斗了，这不可能！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0087",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_02"
-            ],
-            "speaker_name": "妮诺",
-            "context": "并不是突然，\\n这份力量一直沉睡在我体内。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0088",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_02"
-            ],
-            "speaker_name": "妮诺",
-            "context": "因为我不再放弃挣扎，\\n才终于发现了它。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0089",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_02"
-            ],
-            "speaker_name": "妮诺",
-            "context": "发现了沉睡在我体内的\\n祖先之翼！哈啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0090",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120232_01"
-            ],
-            "speaker_name": "圣骑士戈马",
-            "context": "呃啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0091",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_02"
-            ],
-            "speaker_name": "妮诺",
-            "context": "德莱茨，振作点！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0092",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_02"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "妮诺，谢谢你。\\n你的翅膀……真美啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0093",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_02"
-            ],
-            "speaker_name": "妮诺",
-            "context": "这、这种时候你说什么呢！\\n真是的……",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0094",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120166_01",
-                "120166_01"
-            ],
-            "speaker_name": "保守派教会骑士",
-            "context": "奇迹啊……\\n那翅膀是女神大人\\n赐予后代的奇迹！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0095",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120232_01"
-            ],
-            "speaker_name": "圣骑士戈马",
-            "context": "那、那种东西是骗人的！\\n不然我怎么可能被她压制！\\n全体听令，给我处决掉那两个人！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0096",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120063_01"
-            ],
-            "speaker_name": "祭司格雷尼",
-            "context": "唔呃呃呃……可、可恶！\\n你们这群饭桶，我花大价钱\\n是雇你们来干什么的！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0097",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120096_01"
-            ],
-            "speaker_name": "女杀手",
-            "context": "我知道！\\n我们也是要脸面的！\\n不会就此罢休！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0098",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "教会骑士和杀手\\n好像要一齐上阵了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0099",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_02"
-            ],
-            "speaker_name": "妮诺",
-            "context": "德莱茨，我也来战斗。\\n你的身后由我来守护。",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0100",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110352_03"
-            ],
-            "speaker_name": "德莱茨",
-            "context": "妮诺……那就拜托你了。\\n我们上！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0101",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110392_02",
-                "110352_04"
-            ],
-            "speaker_name": "二人",
-            "context": "哈啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22213_05_0102",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Tobias, Ryszarda, and Raphael save Nino, but\\nsoon find themselves in a three-way standoff\\nwith the conservative Paladyn and perditionist\\nassassins. Amid the chaos, Nino decides to stop\\nacquiescing and awakens to her faerie powers.",
+      "ja_jp": "ニーノを<ruby><rb>奪</rb><rt>うば</rt></ruby>い<ruby><rb>返</rb><rt>かえ</rt></ruby>したトライツと<ruby><rb>使徒</rb><rt>しと</rt></ruby>たち。\\nしかし<ruby><rb>保守派</rb><rt>ほしゅは</rt></ruby>の<ruby><rb>聖騎士</rb><rt>せいきし</rt></ruby>と<ruby><rb>煉獄派</rb><rt>れんごくは</rt></ruby>の<ruby><rb>暗殺</rb><rt>あんさつ</rt></ruby><ruby><rb>者</rb><rt>しゃ</rt></ruby>に\\n<ruby><rb>追</rb><rt>お</rt></ruby>いつかれ、<ruby><rb>三</rb><rt>み</rt></ruby>つ<ruby><rb>巴</rb><rt>どもえ</rt></ruby>の<ruby><rb>争</rb><rt>あらそ</rt></ruby>いになる。その\\n<ruby><rb>最中</rb><rt>さなか</rt></ruby>、あきらめることを<ruby><rb>止</rb><rt>や</rt></ruby>めたニーノが\\n<ruby><rb>妖精</rb><rt>ようせい</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>に<ruby><rb>目覚</rb><rt>めざ</rt></ruby>め、<ruby><rb>追手</rb><rt>おって</rt></ruby>に<ruby><rb>立</rb><rt>た</rt></ruby>ち<ruby><rb>向</rb><rt>む</rt></ruby>かう。",
+      "zh_cn": "德莱茨和里莎她们救出了妮诺。\\n却遭到保守派的圣骑士和炼狱派雇的\\n杀手们追杀，演变成了三方势力混战。\\n其间，决定不再放弃挣扎的妮诺觉醒了\\n体内的精灵之力，与追杀者展开正面交锋。",
+      "zh_tw": "特萊茲和理薩與拉斐爾成功奪回了尼諾。\\n卻被保守派的聖騎士與煉獄派的暗殺者\\n給追上，陷入了三方混戰。\\n而此時，決定不再放棄自身意念的尼諾\\n妖精之力覺醒，挺身面對追兵。"
+    }
+  },
+  "prev": "2221304",
+  "next": "2221306",
+  "content": [
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Tobias!",
+        "ja_jp": "トライツ……！",
+        "zh_cn": "德莱茨！",
+        "zh_tw": "特萊茲……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0001",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Sorry I'm late, Nino.",
+        "ja_jp": "ニーノ、<ruby><rb>遅</rb><rt>おく</rt></ruby>れてすまない。",
+        "zh_cn": "抱歉妮诺，我来晚了。",
+        "zh_tw": "尼諾，抱歉來晚了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0002",
+      "book": ""
+    },
+    {
+      "icon": "120096_01",
+      "name": {
+        "en_us": "Female Assassin",
+        "ja_jp": "女暗殺者",
+        "zh_cn": "女杀手",
+        "zh_tw": "女暗殺者"
+      },
+      "context": {
+        "en_us": "I made certain to cover my tracks.\\nHow did you sniff us out?",
+        "ja_jp": "<ruby><rb>攫</rb><rt>さら</rt></ruby>った<ruby><rb>時</rb><rt>とき</rt></ruby>の<ruby><rb>痕跡</rb><rt>こんせき</rt></ruby>は<ruby><rb>残</rb><rt>のこ</rt></ruby>していないはず。\\nどうやって<ruby><rb>嗅</rb><rt>か</rt></ruby>ぎつけたの？",
+        "zh_cn": "把人掳走时我应该没留下痕迹，\\n你是怎么找到这里来的？",
+        "zh_tw": "我擄走她時應該沒有留下痕跡才對。\\n你是怎麼找到這裡的？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0003",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "A helpful voice guided me here. The same\\nas spoke to me when this armor appeared.",
+        "ja_jp": "<ruby><rb>声</rb><rt>こえ</rt></ruby>がここまで<ruby><rb>導</rb><rt>みちび</rt></ruby>いたんだ。\\n<ruby><rb>鎧</rb><rt>よろい</rt></ruby>を<ruby><rb>纏</rb><rt>まと</rt></ruby>った<ruby><rb>時</rb><rt>とき</rt></ruby>と<ruby><rb>同</rb><rt>おな</rt></ruby>じ<ruby><rb>声</rb><rt>こえ</rt></ruby>が。",
+        "zh_cn": "是声音指引我来的。\\n那个声音和我穿上盔甲时\\n听到的一样。",
+        "zh_tw": "是聲音指引我來的。\\n和我穿上鎧甲時相同的聲音。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0004",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "What inane lies are you spouting now?\\nBah, just kill him. Kill him!",
+        "ja_jp": "<ruby><rb>声</rb><rt>こえ</rt></ruby>？　<ruby><rb>何</rb><rt>なに</rt></ruby>をわけのわからないことを。\\nともかく<ruby><rb>邪魔者</rb><rt>じゃまもの</rt></ruby>は<ruby><rb>片</rb><rt>かた</rt></ruby>づけてください！",
+        "zh_cn": "声音？你在说什么鬼话。\\n总之先给我消灭掉\\n这个来捣乱的！",
+        "zh_tw": "聲音？這個人在胡說些什麼。\\n總之請快點將礙事者收拾掉！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0005",
+      "book": ""
+    },
+    {
+      "icon": "120096_01",
+      "name": {
+        "en_us": "Female Assassin",
+        "ja_jp": "女暗殺者",
+        "zh_cn": "女杀手",
+        "zh_tw": "女暗殺者"
+      },
+      "context": {
+        "en_us": "As you like. It'll cost you extra, though.",
+        "ja_jp": "<ruby><rb>了解</rb><rt>りょうかい</rt></ruby>。<ruby><rb>報酬</rb><rt>ほうしゅう</rt></ruby>は<ruby><rb>割増</rb><rt>わりまし</rt></ruby>で<ruby><rb>頼</rb><rt>たの</rt></ruby>むわね。",
+        "zh_cn": "好。记得加钱哦。",
+        "zh_tw": "了解。那報酬得請你多加一點囉。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0006",
+      "book": ""
+    },
+    {
+      "icon": "120096_01",
+      "name": {
+        "en_us": "Female Assassin",
+        "ja_jp": "女暗殺者",
+        "zh_cn": "女杀手",
+        "zh_tw": "女暗殺者"
+      },
+      "context": {
+        "en_us": "Not bad, handsome. But how about this?",
+        "ja_jp": "なかなかやるじゃない、<ruby><rb>色男</rb><rt>いろおとこ</rt></ruby>さん。\\nだったら、これはどうかしら？",
+        "zh_cn": "帅哥，你身手还挺了得嘛。\\n那就对你试试这招吧？",
+        "zh_tw": "你還挺厲害的嘛，帥哥。\\n那麼，這招如何呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0007",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "What?! *cough* *cough*\\nThe poisoned smoke from...the inn...!",
+        "ja_jp": "これは……!?　ゲホゲホッ！　\\n<ruby><rb>宿</rb><rt>やど</rt></ruby>で<ruby><rb>使</rb><rt>つか</rt></ruby>ったのと<ruby><rb>同</rb><rt>おな</rt></ruby>じ、<ruby><rb>毒霧</rb><rt>どくぎり</rt></ruby>か……！",
+        "zh_cn": "这是！？咳咳！\\n和袭击住处时用的\\n是同一种……毒气！",
+        "zh_tw": "這是……！？咳咳！\\n是跟在旅館那時一樣的、毒霧嗎……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0008",
+      "book": ""
+    },
+    {
+      "icon": "120096_01",
+      "name": {
+        "en_us": "Female Assassin",
+        "ja_jp": "女暗殺者",
+        "zh_cn": "女杀手",
+        "zh_tw": "女暗殺者"
+      },
+      "context": {
+        "en_us": "Ding ding ding! ♪ I'm going to have lots\\nof fun with you once you're immobile.",
+        "ja_jp": "<ruby><rb>当</rb><rt>あ</rt></ruby>たり♪　<ruby><rb>動</rb><rt>うご</rt></ruby>けなくなったところを\\n<ruby><rb>存分</rb><rt>ぞんぶん</rt></ruby>に<ruby><rb>虐</rb><rt>いじ</rt></ruby>めてあげる。",
+        "zh_cn": "猜对了♪等你动不了了，\\n我再好好欺负你。",
+        "zh_tw": "答對了♪等你無法動彈，\\n我就會好好地凌虐你。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0009",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Grgh...",
+        "ja_jp": "ぐっ……!!",
+        "zh_cn": "唔……",
+        "zh_tw": "唔……！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0010",
+      "book": ""
+    },
+    {
+      "icon": "120096_01",
+      "name": {
+        "en_us": "Female Assassin",
+        "ja_jp": "女暗殺者",
+        "zh_cn": "女杀手",
+        "zh_tw": "女暗殺者"
+      },
+      "context": {
+        "en_us": "A disappointing showing, after the splashy\\nentrance you made. Way to let a lady\\ndown.",
+        "ja_jp": "カッコつけて<ruby><rb>登場</rb><rt>とうじょう</rt></ruby>した<ruby><rb>割</rb><rt>わり</rt></ruby>には\\nやられっぱなしで、<ruby><rb>惨</rb><rt>みじ</rt></ruby>めよね。",
+        "zh_cn": "登场的时候那么帅，\\n结果却被打成沙包，真惨呢。",
+        "zh_tw": "明明耍帥登場，結果卻一直挨打，\\n還真是淒慘呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0011",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "I think I've played my role rather well...\\nas the distraction, that is!",
+        "ja_jp": "それでいい……。\\n<ruby><rb>君</rb><rt>きみ</rt></ruby>たちが<ruby><rb>僕</rb><rt>ぼく</rt></ruby>に<ruby><rb>集中</rb><rt>しゅうちゅう</rt></ruby>している<ruby><rb>隙</rb><rt>すき</rt></ruby>に――！",
+        "zh_cn": "这样就好……\\n趁你们集中对付我的时候……",
+        "zh_tw": "這樣就好……\\n趁你們注意力集中在我身上時──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0012",
+      "book": ""
+    },
+    {
+      "icon": "210154_01",
+      "name": {
+        "en_us": "Together",
+        "ja_jp": "ふたり",
+        "zh_cn": "二人",
+        "zh_tw": "兩人"
+      },
+      "context": {
+        "en_us": "HRAAAAAH!",
+        "ja_jp": "はあああああっ!!",
+        "zh_cn": "哈啊啊啊啊！",
+        "zh_tw": "喝啊啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0013",
+      "book": ""
+    },
+    {
+      "icon": "120096_01",
+      "name": {
+        "en_us": "Female Assassin",
+        "ja_jp": "女暗殺者",
+        "zh_cn": "女杀手",
+        "zh_tw": "女暗殺者"
+      },
+      "context": {
+        "en_us": "No... He was merely bait!",
+        "ja_jp": "しまった！　<ruby><rb>聖騎士</rb><rt>せいきし</rt></ruby>は<ruby><rb>囮</rb><rt>おとり</rt></ruby>！",
+        "zh_cn": "糟了！这个圣骑士是诱饵！",
+        "zh_tw": "糟了！聖騎士只是誘餌！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0014",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Ryszarda",
+        "ja_jp": "リィザ",
+        "zh_cn": "里莎",
+        "zh_tw": "理薩"
+      },
+      "context": {
+        "en_us": "I've untied her bonds! Nino is secured!",
+        "ja_jp": "<ruby><rb>縄</rb><rt>なわ</rt></ruby>を<ruby><rb>解</rb><rt>と</rt></ruby>きました！　\\nニーノさん、<ruby><rb>確保</rb><rt>かくほ</rt></ruby>！",
+        "zh_cn": "绳索解开了！\\n妮诺已经救下！",
+        "zh_tw": "繩子解開了！\\n尼諾小姐，救出！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0015",
+      "book": ""
+    },
+    {
+      "icon": "210154_01",
+      "name": {
+        "en_us": "Raphael",
+        "ja_jp": "ラファエル",
+        "zh_cn": "拉斐尔",
+        "zh_tw": "拉斐爾"
+      },
+      "context": {
+        "en_us": "Good. Fall back!",
+        "ja_jp": "よし、<ruby><rb>撤収</rb><rt>てっしゅう</rt></ruby>！",
+        "zh_cn": "好，撤退！",
+        "zh_tw": "好，撤退！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0016",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "Again they escape me!\\nHurry after them! GO!",
+        "ja_jp": "またしても<ruby><rb>逃</rb><rt>に</rt></ruby>げられるとは……!!　\\n<ruby><rb>急</rb><rt>いそ</rt></ruby>いで<ruby><rb>連中</rb><rt>れんちゅう</rt></ruby>を<ruby><rb>追</rb><rt>お</rt></ruby>いかけるのです!!",
+        "zh_cn": "竟然又让他们跑了！\\n赶紧给我去追！",
+        "zh_tw": "竟然又被逃掉了……！！\\n快點去追那些傢伙！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0017",
+      "book": ""
+    },
+    {
+      "icon": "210154_01",
+      "name": {
+        "en_us": "Raphael",
+        "ja_jp": "ラファエル",
+        "zh_cn": "拉斐尔",
+        "zh_tw": "拉斐爾"
+      },
+      "context": {
+        "en_us": "Risking your neck by distracting them\\nalone was an absolutely mad plan.",
+        "ja_jp": "ったく、ひとりで<ruby><rb>囮</rb><rt>おとり</rt></ruby>になるなんて\\n<ruby><rb>無茶</rb><rt>むちゃ</rt></ruby>な<ruby><rb>作戦</rb><rt>さくせん</rt></ruby><ruby><rb>立</rb><rt>た</rt></ruby>てやがる。",
+        "zh_cn": "真是的，竟然一个人去当诱饵，\\n亏你想得出这种鲁莽的方案。",
+        "zh_tw": "真是的，竟然想出這種\\n自己一個人去當誘餌的魯莽作戰。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0018",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Tobias! Are you all right?!",
+        "ja_jp": "トライツ、<ruby><rb>大丈夫</rb><rt>だいじょうぶ</rt></ruby>!?",
+        "zh_cn": "德莱茨，你没事吧！？",
+        "zh_tw": "特萊茲，你還好嗎！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0019",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Perfectly. I'm... *wince*",
+        "ja_jp": "ああ、<ruby><rb>問題</rb><rt>もんだい</rt></ruby>ない。……くっ！",
+        "zh_cn": "嗯，我没事……唔！",
+        "zh_tw": "嗯，我沒事……唔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0020",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Spare me the tough guy act.\\nYou're beaten black and blue...",
+        "ja_jp": "<ruby><rb>強</rb><rt>つよ</rt></ruby>がらないでよ。\\nボロボロじゃない……。",
+        "zh_cn": "不要逞强啊。\\n你浑身都是伤……",
+        "zh_tw": "不要逞強啦。\\n你都渾身是傷了……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0021",
+      "book": ""
+    },
+    {
+      "icon": "110381_01",
+      "name": {
+        "en_us": "Ryszarda",
+        "ja_jp": "リィザ",
+        "zh_cn": "里莎",
+        "zh_tw": "理薩"
+      },
+      "context": {
+        "en_us": "For now, we need to run.\\nThey won't be far behind us.",
+        "ja_jp": "ともかく<ruby><rb>今</rb><rt>いま</rt></ruby>は<ruby><rb>逃</rb><rt>に</rt></ruby>げましょう。\\n<ruby><rb>追手</rb><rt>おって</rt></ruby>が<ruby><rb>来</rb><rt>く</rt></ruby>る<ruby><rb>前</rb><rt>まえ</rt></ruby>に。",
+        "zh_cn": "总之趁追兵赶到之前，\\n我们先逃吧。",
+        "zh_tw": "總之現在先快逃吧。\\n趁追兵還沒追上之前。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0022",
+      "book": ""
+    },
+    {
+      "icon": "110381_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "There! I see her!",
+        "ja_jp": "いたぞ！　あそこだ！",
+        "zh_cn": "找到了！人在那儿！",
+        "zh_tw": "找到了！在那裡！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0023",
+      "book": ""
+    },
+    {
+      "icon": "210154_01",
+      "name": {
+        "en_us": "Raphael",
+        "ja_jp": "ラファエル",
+        "zh_cn": "拉斐尔",
+        "zh_tw": "拉斐爾"
+      },
+      "context": {
+        "en_us": "Already?!",
+        "ja_jp": "あの<ruby><rb>暗殺者</rb><rt>あんさつしゃ</rt></ruby>たち、もう<ruby><rb>来</rb><rt>き</rt></ruby>たのかよ！",
+        "zh_cn": "那群杀手已经追过来了吗！",
+        "zh_tw": "那些暗殺者，竟然已經追上了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0024",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "No, that's—",
+        "ja_jp": "<ruby><rb>違</rb><rt>ちが</rt></ruby>う、あれは……！",
+        "zh_cn": "不对，那是……",
+        "zh_tw": "不對，那是……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0025",
+      "book": ""
+    },
+    {
+      "icon": "120232_01",
+      "name": {
+        "en_us": "Paladyn Goma",
+        "ja_jp": "聖騎士ゴーマ",
+        "zh_cn": "圣骑士戈马",
+        "zh_tw": "聖騎士戈曼"
+      },
+      "context": {
+        "en_us": "Finally caught up to you, Tobias. And to the\\nheretic claiming the Goddess's bloodline.",
+        "ja_jp": "ようやく<ruby><rb>見</rb><rt>み</rt></ruby>つけたぞ、トライツ。\\nそれと<ruby><rb>女神</rb><rt>めがみ</rt></ruby>の<ruby><rb>子孫</rb><rt>しそん</rt></ruby>を<ruby><rb>騙</rb><rt>かた</rt></ruby>る<ruby><rb>異端者</rb><rt>いたんしゃ</rt></ruby>め。",
+        "zh_cn": "终于找到你了，德莱茨。\\n还有你这个冒充女神后代的异端。",
+        "zh_tw": "總算找到你了，特萊茲。\\n還有謊稱女神子孫的異端者。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0026",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Paladyn Goma!",
+        "ja_jp": "ゴーマと<ruby><rb>教会騎士</rb><rt>きょうかいきし</rt></ruby>たち……！",
+        "zh_cn": "是戈马和教会骑士！",
+        "zh_tw": "戈曼和教會騎士們……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0027",
+      "book": ""
+    },
+    {
+      "icon": "120232_01",
+      "name": {
+        "en_us": "Paladyn Goma",
+        "ja_jp": "聖騎士ゴーマ",
+        "zh_cn": "圣骑士戈马",
+        "zh_tw": "聖騎士戈曼"
+      },
+      "context": {
+        "en_us": "You may have hired on a few more guards,\\nbut you won't get the best of me this time.\\nForward, men!",
+        "ja_jp": "<ruby><rb>新</rb><rt>あら</rt></ruby>たな<ruby><rb>護衛</rb><rt>ごえい</rt></ruby>を<ruby><rb>連</rb><rt>つ</rt></ruby>れているようだが、<ruby><rb>先</rb><rt>さき</rt></ruby>の\\nような<ruby><rb>後</rb><rt>おく</rt></ruby>れは<ruby><rb>取</rb><rt>と</rt></ruby>らん。<ruby><rb>総員</rb><rt>そういん</rt></ruby>、かかれ！",
+        "zh_cn": "看来你又带了新保镖啊，\\n不过我们不会再输了。\\n所有人，都给我上！",
+        "zh_tw": "雖然你似乎帶著新的護衛，\\n但我不會像那時一樣輸給你。\\n所有人，給我上！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0028",
+      "book": ""
+    },
+    {
+      "icon": "210154_01",
+      "name": {
+        "en_us": "Raphael",
+        "ja_jp": "ラファエル",
+        "zh_cn": "拉斐尔",
+        "zh_tw": "拉斐爾"
+      },
+      "context": {
+        "en_us": "Ugh, I do NOT have the patience for this!",
+        "ja_jp": "ったく、めんどくさいな！　おい！",
+        "zh_cn": "真要命，怎么这么麻烦啊！",
+        "zh_tw": "傷腦筋，還真麻煩耶！喂！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0029",
+      "book": ""
+    },
+    {
+      "icon": "110381_01",
+      "name": {
+        "en_us": "Ryszarda",
+        "ja_jp": "リィザ",
+        "zh_cn": "里莎",
+        "zh_tw": "理薩"
+      },
+      "context": {
+        "en_us": "Well, we're not getting around them!",
+        "ja_jp": "それでもこの<ruby><rb>人</rb><rt>ひと</rt></ruby>たちをどうにか\\nしないと、<ruby><rb>先</rb><rt>さき</rt></ruby>に<ruby><rb>進</rb><rt>すす</rt></ruby>めません！",
+        "zh_cn": "麻烦也得想办法解决这帮人，\\n不然没法逃跑！",
+        "zh_tw": "但如果不先解決這些人，\\n就無法繼續前進！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0030",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "And just what is this strange scene we've\\ncome upon?",
+        "ja_jp": "<ruby><rb>追</rb><rt>お</rt></ruby>いついたと<ruby><rb>思</rb><rt>おも</rt></ruby>えば……\\n<ruby><rb>何</rb><rt>なん</rt></ruby>ですか、この<ruby><rb>状況</rb><rt>じょうきょう</rt></ruby>は!?",
+        "zh_cn": "好不容易追上他们……\\n可这是什么情况！？",
+        "zh_tw": "我還剛想說追上了……\\n這是什麼狀況！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0031",
+      "book": ""
+    },
+    {
+      "icon": "120096_01",
+      "name": {
+        "en_us": "Female Assassin",
+        "ja_jp": "女暗殺者",
+        "zh_cn": "女杀手",
+        "zh_tw": "女暗殺者"
+      },
+      "context": {
+        "en_us": "Looks to me like that conservative Paladyn\\nis after the girl. What's your move?",
+        "ja_jp": "<ruby><rb>保守派</rb><rt>ほしゅは</rt></ruby>の<ruby><rb>騎士</rb><rt>きし</rt></ruby>たちが<ruby><rb>女神</rb><rt>めがみ</rt></ruby>の<ruby><rb>子孫</rb><rt>しそん</rt></ruby>を\\n<ruby><rb>捕</rb><rt>とら</rt></ruby>えようとしてるみたいね。どうする？",
+        "zh_cn": "好像是保守派的骑士要抓\\n那位女神后代。怎么办？",
+        "zh_tw": "保守派的騎士們似乎正打算\\n捉住女神子孫呢。怎麼辦？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0032",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "What sort of idiotic question is that?\\nThe key must be ours!",
+        "ja_jp": "どうするではありません！\\n<ruby><rb>鍵</rb><rt>かぎ</rt></ruby>は<ruby><rb>我</rb><rt>われ</rt></ruby>らが<ruby><rb>手中</rb><rt>しゅちゅう</rt></ruby>に<ruby><rb>収</rb><rt>おさ</rt></ruby>めるのです！",
+        "zh_cn": "什么怎么办！\\n钥匙我们一定要弄到手！",
+        "zh_tw": "什麼怎麼辦！\\n鑰匙必須由我們收下！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0033",
+      "book": ""
+    },
+    {
+      "icon": "120096_01",
+      "name": {
+        "en_us": "Female Assassin",
+        "ja_jp": "女暗殺者",
+        "zh_cn": "女杀手",
+        "zh_tw": "女暗殺者"
+      },
+      "context": {
+        "en_us": "Then it sounds like we've got a repeat\\ncustomer. Take the girl; kill the rest.",
+        "ja_jp": "ってわけで、クライアントのお<ruby><rb>達</rb><rt>たっ</rt></ruby>しよ。\\n<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>なのは<ruby><rb>殺</rb><rt>ころ</rt></ruby>しちゃって<ruby><rb>構</rb><rt>かま</rt></ruby>わないわ。",
+        "zh_cn": "听到了吗？委托人下了命令。\\n碍事人等可以杀掉。",
+        "zh_tw": "聽到了吧，這是委託人的指示。\\n有人敢礙事的話就通通殺了沒關係。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0034",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Conservative Templar",
+        "ja_jp": "保守派の教会騎士",
+        "zh_cn": "保守派教会骑士",
+        "zh_tw": "保守派的教會騎士"
+      },
+      "context": {
+        "en_us": "Sir Goma, new enemies are attacking!",
+        "ja_jp": "ゴーマ<ruby><rb>殿</rb><rt>どの</rt></ruby>！　<ruby><rb>新手</rb><rt>あらて</rt></ruby>が<ruby><rb>攻</rb><rt>せ</rt></ruby>めてきました！",
+        "zh_cn": "戈马大人！\\n有另一方势力来袭！",
+        "zh_tw": "戈曼殿下！有援軍發動攻擊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0035",
+      "book": ""
+    },
+    {
+      "icon": "120232_01",
+      "name": {
+        "en_us": "Paladyn Goma",
+        "ja_jp": "聖騎士ゴーマ",
+        "zh_cn": "圣骑士戈马",
+        "zh_tw": "聖騎士戈曼"
+      },
+      "context": {
+        "en_us": "Cut down any who stand in your way!",
+        "ja_jp": "<ruby><rb>何者</rb><rt>なにもの</rt></ruby>であろうと<ruby><rb>構</rb><rt>かま</rt></ruby>わん！\\n<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>する<ruby><rb>者</rb><rt>もの</rt></ruby>はすべて<ruby><rb>切</rb><rt>き</rt></ruby>り<ruby><rb>払</rb><rt>はら</rt></ruby>え！",
+        "zh_cn": "管他是什么人！\\n碍事人等格杀勿论！",
+        "zh_tw": "對方是誰都無所謂！\\n把礙事者全都殺了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0036",
+      "book": ""
+    },
+    {
+      "icon": "110381_01",
+      "name": {
+        "en_us": "Ryszarda",
+        "ja_jp": "リィザ",
+        "zh_cn": "里莎",
+        "zh_tw": "理薩"
+      },
+      "context": {
+        "en_us": "Is EVERY faction here?\\nThis is utter chaos.",
+        "ja_jp": "<ruby><rb>保守派</rb><rt>ほしゅは</rt></ruby>と<ruby><rb>煉獄派</rb><rt>れんごくは</rt></ruby>が<ruby><rb>入</rb><rt>い</rt></ruby>り<ruby><rb>乱</rb><rt>みだ</rt></ruby>れて、\\nもうメチャクチャ……！",
+        "zh_cn": "保守派和炼狱派都来插手，\\n简直乱成一锅粥了！",
+        "zh_tw": "保守派和煉獄派全都混在一起，\\n分不清誰是誰了……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0037",
+      "book": ""
+    },
+    {
+      "icon": "210154_01",
+      "name": {
+        "en_us": "Raphael",
+        "ja_jp": "ラファエル",
+        "zh_cn": "拉斐尔",
+        "zh_tw": "拉斐爾"
+      },
+      "context": {
+        "en_us": "Then let me simplify. Take out anyone\\nwho comes at you! Nraaah!",
+        "ja_jp": "とりあえず、<ruby><rb>襲</rb><rt>おそ</rt></ruby>ってくるやつは\\n<ruby><rb>片</rb><rt>かた</rt></ruby>っ<ruby><rb>端</rb><rt>ぱし</rt></ruby>から<ruby><rb>片</rb><rt>かた</rt></ruby>づけな！　どりゃああ!!",
+        "zh_cn": "总之谁扑过来我就干掉谁！\\n哈啊！",
+        "zh_tw": "總之，把攻擊我們的傢伙\\n全都收拾掉就對了！喔啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0038",
+      "book": ""
+    },
+    {
+      "icon": "110381_01",
+      "name": {
+        "en_us": "Ryszarda",
+        "ja_jp": "リィザ",
+        "zh_cn": "里莎",
+        "zh_tw": "理薩"
+      },
+      "context": {
+        "en_us": "You won't take Nino! Yaaaaah!",
+        "ja_jp": "あなたたちにニーノさんは\\n<ruby><rb>渡</rb><rt>わた</rt></ruby>しません！　やあああああああ!!",
+        "zh_cn": "不会把妮诺交给你们的！\\n呀啊啊啊啊啊啊啊！",
+        "zh_tw": "絕不將尼諾小姐交給你們！\\n嘿啊啊啊啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0039",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Conservative Templar",
+        "ja_jp": "保守派の教会騎士",
+        "zh_cn": "保守派教会骑士",
+        "zh_tw": "保守派的教會騎士"
+      },
+      "context": {
+        "en_us": "Nrgh... We have them in numbers!\\nEveryone, attack! Roaaaaargh!",
+        "ja_jp": "ぐっ……！　<ruby><rb>数</rb><rt>かず</rt></ruby>の<ruby><rb>利</rb><rt>り</rt></ruby>を<ruby><rb>活</rb><rt>い</rt></ruby>かし、<ruby><rb>一気</rb><rt>いっき</rt></ruby>に\\n<ruby><rb>攻</rb><rt>せ</rt></ruby>めろ!!　うおおおおおおおおおっ!!",
+        "zh_cn": "唔！我们利用人数优势，\\n一口气攻上去！唔噢噢噢噢！",
+        "zh_tw": "唔……！\\n利用人數優勢，一口氣進攻！！\\n唔喔喔喔喔喔喔喔喔喔！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0040",
+      "book": ""
+    },
+    {
+      "icon": "110381_01",
+      "name": {
+        "en_us": "Ryszarda",
+        "ja_jp": "リィザ",
+        "zh_cn": "里莎",
+        "zh_tw": "理薩"
+      },
+      "context": {
+        "en_us": "Th-there're too many... Aaaaaugh!",
+        "ja_jp": "お、<ruby><rb>押</rb><rt>お</rt></ruby>し<ruby><rb>切</rb><rt>き</rt></ruby>られる……！\\nきゃあああああああっ!!!!",
+        "zh_cn": "被、被压制住了！\\n呀啊啊啊啊啊啊！",
+        "zh_tw": "要、要撐不住了……！\\n呀啊啊啊啊啊啊啊！！！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0041",
+      "book": ""
+    },
+    {
+      "icon": "210154_01",
+      "name": {
+        "en_us": "Raphael",
+        "ja_jp": "ラファエル",
+        "zh_cn": "拉斐尔",
+        "zh_tw": "拉斐爾"
+      },
+      "context": {
+        "en_us": "RYSZARDA!\\n...Ngh?!",
+        "ja_jp": "リィザ!!　――っ!?",
+        "zh_cn": "里莎！？",
+        "zh_tw": "理薩！！\\n──唔！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0042",
+      "book": ""
+    },
+    {
+      "icon": "120096_01",
+      "name": {
+        "en_us": "Female Assassin",
+        "ja_jp": "女暗殺者",
+        "zh_cn": "女杀手",
+        "zh_tw": "女暗殺者"
+      },
+      "context": {
+        "en_us": "This blade's poison is strong enough to\\nstop a dragon. You won't be moving\\nanytime soon.",
+        "ja_jp": "ドラゴンも<ruby><rb>痺</rb><rt>しび</rt></ruby>れさせる<ruby><rb>毒</rb><rt>どく</rt></ruby>の<ruby><rb>刃</rb><rt>やいば</rt></ruby>よ。\\nしばらくは<ruby><rb>動</rb><rt>うご</rt></ruby>けないわね。",
+        "zh_cn": "这可是连龙都能麻痹的毒刃，\\n你一时半会儿是动不了了。",
+        "zh_tw": "這可是連龍族也會麻痺的毒刃。\\n應該會有好一陣子動不了吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0043",
+      "book": ""
+    },
+    {
+      "icon": "210154_01",
+      "name": {
+        "en_us": "Raphael",
+        "ja_jp": "ラファエル",
+        "zh_cn": "拉斐尔",
+        "zh_tw": "拉斐爾"
+      },
+      "context": {
+        "en_us": "Damn! I was...careless...",
+        "ja_jp": "クソッ！　<ruby><rb>油断</rb><rt>ゆだん</rt></ruby>した……！",
+        "zh_cn": "该死！大意了……",
+        "zh_tw": "可惡！太大意了……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0044",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Ryszarda! Raphael!",
+        "ja_jp": "リィザ！　ラファエル！",
+        "zh_cn": "里莎！拉斐尔！",
+        "zh_tw": "理薩！拉斐爾！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0045",
+      "book": ""
+    },
+    {
+      "icon": "120232_01",
+      "name": {
+        "en_us": "Paladyn Goma",
+        "ja_jp": "聖騎士ゴーマ",
+        "zh_cn": "圣骑士戈马",
+        "zh_tw": "聖騎士戈曼"
+      },
+      "context": {
+        "en_us": "Can you afford such distraction, Tobias?",
+        "ja_jp": "よそ<ruby><rb>見</rb><rt>み</rt></ruby>するなど<ruby><rb>余裕</rb><rt>よゆう</rt></ruby>だな！",
+        "zh_cn": "你还有闲工夫管别人吗！",
+        "zh_tw": "有空看旁邊，挺悠哉的嘛！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0046",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Ngh!",
+        "ja_jp": "ぐっ……！",
+        "zh_cn": "唔！",
+        "zh_tw": "唔……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0047",
+      "book": ""
+    },
+    {
+      "icon": "120232_01",
+      "name": {
+        "en_us": "Paladyn Goma",
+        "ja_jp": "聖騎士ゴーマ",
+        "zh_cn": "圣骑士戈马",
+        "zh_tw": "聖騎士戈曼"
+      },
+      "context": {
+        "en_us": "I am the true Paladyn in service of Ilia's\\nwill. Mine is the blade that carries her\\ndivine justice!",
+        "ja_jp": "<ruby><rb>我</rb><rt>われ</rt></ruby>こそが<ruby><rb>女神</rb><rt>めがみ</rt></ruby>の<ruby><rb>御心</rb><rt>みこころ</rt></ruby>に<ruby><rb>従</rb><rt>したが</rt></ruby>う<ruby><rb>聖騎士</rb><rt>せいきし</rt></ruby>!!\\n<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>刃</rb><rt>やいば</rt></ruby>こそ<ruby><rb>正義</rb><rt>せいぎ</rt></ruby>を<ruby><rb>執行</rb><rt>しっこう</rt></ruby>する<ruby><rb>聖</rb><rt>せい</rt></ruby>なる<ruby><rb>力</rb><rt>ちから</rt></ruby>!!",
+        "zh_cn": "我才是执行女神意志的圣骑士！\\n我的剑才是行使正义的\\n神圣力量！",
+        "zh_tw": "我才是遵從女神旨意的聖騎士！！\\n我的劍正是執行正義的神聖力量！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0048",
+      "book": ""
+    },
+    {
+      "icon": "120232_01",
+      "name": {
+        "en_us": "Paladyn Goma",
+        "ja_jp": "聖騎士ゴーマ",
+        "zh_cn": "圣骑士戈马",
+        "zh_tw": "聖騎士戈曼"
+      },
+      "context": {
+        "en_us": "Did you think for a moment I would be\\nbested by a heretic?! Be purged by my\\nholy sword, TobiaaaAAAS!",
+        "ja_jp": "この<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>異端者</rb><rt>いたんしゃ</rt></ruby>の<ruby><rb>貴様</rb><rt>きさま</rt></ruby>に<ruby><rb>負</rb><rt>ま</rt></ruby>けるなど\\nあってはならぬのだ!!　<ruby><rb>我</rb><rt>わ</rt></ruby>が<ruby><rb>刃</rb><rt>やいば</rt></ruby>に\\n<ruby><rb>沈</rb><rt>しず</rt></ruby>むがいい、トライツゥゥウゥウ!!!!",
+        "zh_cn": "我决不能输给你这个异端！\\n德莱茨，死于我剑下吧！",
+        "zh_tw": "我絕對不能輸給你這異端者！！\\n臣服於我的劍下吧，\\n特萊茲──────！！！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0049",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "WAAAAUGH!",
+        "ja_jp": "うあああああああっ!!",
+        "zh_cn": "唔啊啊啊啊啊啊！",
+        "zh_tw": "嗚啊啊啊啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0050",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "TOBIAS!",
+        "ja_jp": "トライツ！",
+        "zh_cn": "德莱茨！",
+        "zh_tw": "特萊茲！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0051",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Huh?! I can't move! What's—",
+        "ja_jp": "――っ!?　<ruby><rb>体</rb><rt>からだ</rt></ruby>が<ruby><rb>動</rb><rt>うご</rt></ruby>かない！　\\n<ruby><rb>何</rb><rt>なに</rt></ruby>これ……!?",
+        "zh_cn": "身体动不了！\\n怎么回事！？",
+        "zh_tw": "──！？\\n身體動彈不得！怎麼回事……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0052",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "You are too precious a vessel, my dear.\\nI can't allow you to die here.",
+        "ja_jp": "あなたは<ruby><rb>大事</rb><rt>だいじ</rt></ruby>な<ruby><rb>人柱</rb><rt>ひとばしら</rt></ruby>です。<ruby><rb>戦</rb><rt>たたか</rt></ruby>いに\\n<ruby><rb>巻</rb><rt>ま</rt></ruby>き<ruby><rb>込</rb><rt>こ</rt></ruby>まれて<ruby><rb>死</rb><rt>し</rt></ruby>なれては<ruby><rb>困</rb><rt>こま</rt></ruby>ります。",
+        "zh_cn": "你可是宝贵的祭品。\\n要是卷入战斗一命呜呼，\\n我可就头疼了。",
+        "zh_tw": "妳可是重要的活人祭品。\\n要是受戰鬥波及而死可就傷腦筋了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0053",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "What did you do?!",
+        "ja_jp": "アンタ……！　<ruby><rb>私</rb><rt>わたし</rt></ruby>に<ruby><rb>何</rb><rt>なに</rt></ruby>をしたの？",
+        "zh_cn": "你……你对我做了什么？",
+        "zh_tw": "是你……！\\n你對我做了什麼？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0054",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "A spell of soulbinding. I'm afraid\\nthere's no guarantee your soul will\\nemerge unscathed, which is why I\\nhad hoped not to use it.",
+        "ja_jp": "<ruby><rb>魂縛</rb><rt>たましば</rt></ruby>りの<ruby><rb>魔法</rb><rt>まほう</rt></ruby>……<ruby><rb>素材</rb><rt>そざい</rt></ruby>となる<ruby><rb>魂</rb><rt>たましい</rt></ruby>を\\n<ruby><rb>傷</rb><rt>きず</rt></ruby>つけかねないので、あまり\\n<ruby><rb>使</rb><rt>つか</rt></ruby>いたくはなかったのですが。",
+        "zh_cn": "这是缚魂魔法……\\n因为可能伤及所缚之魂，\\n我本来不太想用的。",
+        "zh_tw": "魂縛魔法……\\n因為有可能傷到作為素材的靈魂，\\n所以我原本並不想使用的。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0055",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "Now be a good lamb and wait there\\npatiently for this to end.",
+        "ja_jp": "<ruby><rb>事</rb><rt>こと</rt></ruby>が<ruby><rb>終</rb><rt>お</rt></ruby>わるまで、そこで\\n<ruby><rb>大人</rb><rt>おとな</rt></ruby>しくしていてください。",
+        "zh_cn": "在我们完事之前，\\n你就老老实实待在那里吧。",
+        "zh_tw": "在事情結束之前，\\n就請妳在一旁乖乖待著吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0056",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "You think I'm going to stand here while\\nTobias is hurt?!",
+        "ja_jp": "<ruby><rb>大人</rb><rt>おとな</rt></ruby>しくなんてできない。\\nトライツたちが<ruby><rb>傷</rb><rt>きず</rt></ruby>ついているのに……！",
+        "zh_cn": "我怎么能老实待着，\\n德莱茨他们都受伤了啊！",
+        "zh_tw": "誰有辦法乖乖待著啊。\\n特萊茲他們都已經受傷了……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0057",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "Even if you could still move, what could\\nyou possibly do to protect him?",
+        "ja_jp": "<ruby><rb>動</rb><rt>うご</rt></ruby>けたとして、<ruby><rb>守</rb><rt>まも</rt></ruby>られるだけだった\\nあなたに<ruby><rb>何</rb><rt>なに</rt></ruby>ができるのですか？",
+        "zh_cn": "就算你能动，\\n身为只能受人保护的一方，\\n你又能做些什么呢？",
+        "zh_tw": "就算能夠行動，\\n總是受人保護的妳又做得了什麼呢？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0058",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "I...",
+        "ja_jp": "それは……。",
+        "zh_cn": "我……",
+        "zh_tw": "這……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0059",
+      "book": ""
+    },
+    {
+      "icon": "120232_01",
+      "name": {
+        "en_us": "Paladyn Goma",
+        "ja_jp": "聖騎士ゴーマ",
+        "zh_cn": "圣骑士戈马",
+        "zh_tw": "聖騎士戈曼"
+      },
+      "context": {
+        "en_us": "The girl's wicked life ends here, put to the\\ninquisitor's sword as all blasphemers\\nmerit!",
+        "ja_jp": "その<ruby><rb>娘</rb><rt>むすめ</rt></ruby>は<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>討</rb><rt>う</rt></ruby>つ！　<ruby><rb>異端者</rb><rt>いたんしゃ</rt></ruby>の<ruby><rb>断罪</rb><rt>だんざい</rt></ruby>は\\n<ruby><rb>正当</rb><rt>せいとう</rt></ruby>な<ruby><rb>教</rb><rt>おし</rt></ruby>えに<ruby><rb>従</rb><rt>したが</rt></ruby>う<ruby><rb>我</rb><rt>われ</rt></ruby>らの<ruby><rb>責務</rb><rt>せきむ</rt></ruby>だ！",
+        "zh_cn": "那个小丫头由我来处决！\\n惩处异端乃遵从正确教诲的\\n我等之义务！",
+        "zh_tw": "那名少女由我來收拾！\\n制裁異端者，\\n是遵從正當教誨的我們應盡之責！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0060",
+      "book": ""
+    },
+    {
+      "icon": "120232_01",
+      "name": {
+        "en_us": "Paladyn Goma",
+        "ja_jp": "聖騎士ゴーマ",
+        "zh_cn": "圣骑士戈马",
+        "zh_tw": "聖騎士戈曼"
+      },
+      "context": {
+        "en_us": "To claim the blood of the Goddess is a sin\\nthat merits death. Think upon your evils\\nand repent in the life beyond!",
+        "ja_jp": "<ruby><rb>女神</rb><rt>めがみ</rt></ruby>の<ruby><rb>子孫</rb><rt>しそん</rt></ruby>を<ruby><rb>騙</rb><rt>かた</rt></ruby>った<ruby><rb>罪</rb><rt>つみ</rt></ruby>は<ruby><rb>万死</rb><rt>ばんし</rt></ruby>に<ruby><rb>値</rb><rt>あたい</rt></ruby>する!!\\n<ruby><rb>己</rb><rt>おのれ</rt></ruby>の<ruby><rb>愚</rb><rt>おろ</rt></ruby>かさをあの<ruby><rb>世</rb><rt>よ</rt></ruby>で<ruby><rb>悔</rb><rt>く</rt></ruby>いるがいい!!",
+        "zh_cn": "冒充女神后代罪该万死！\\n去地狱为你的愚蠢行径悔过吧！",
+        "zh_tw": "竟敢謊稱女神子孫，罪該萬死！！\\n妳就到黃泉懺悔自己的愚蠢吧！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0061",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "You won't have her!",
+        "ja_jp": "させるものか!!",
+        "zh_cn": "休想得逞！",
+        "zh_tw": "休想得逞！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0062",
+      "book": ""
+    },
+    {
+      "icon": "120232_01",
+      "name": {
+        "en_us": "Paladyn Goma",
+        "ja_jp": "聖騎士ゴーマ",
+        "zh_cn": "圣骑士戈马",
+        "zh_tw": "聖騎士戈曼"
+      },
+      "context": {
+        "en_us": "You're still alive, heretical dog?!\\nI've told you to stand DOWN!",
+        "ja_jp": "<ruby><rb>貴様</rb><rt>きさま</rt></ruby>、まだ<ruby><rb>動</rb><rt>うご</rt></ruby>けたか！　\\n<ruby><rb>邪魔</rb><rt>じゃま</rt></ruby>をするなァァァァアッ!!",
+        "zh_cn": "原来你还能动啊！\\n别来捣乱！",
+        "zh_tw": "你竟然還動得了！\\n別想妨礙我──────！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0063",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "There is no life in this world that merits\\ndeath! She deserves happiness, the same\\nas any other!",
+        "ja_jp": "<ruby><rb>死</rb><rt>し</rt></ruby>ぬべき<ruby><rb>命</rb><rt>いのち</rt></ruby>などこの<ruby><rb>世</rb><rt>よ</rt></ruby>にない！\\n<ruby><rb>彼女</rb><rt>かのじょ</rt></ruby>も<ruby><rb>幸</rb><rt>しあわ</rt></ruby>せになるべき<ruby><rb>命</rb><rt>いのち</rt></ruby>だ!!",
+        "zh_cn": "这世上没有谁是该死的！\\n她也是应当获得幸福的生命！",
+        "zh_tw": "世上不存在應死的生命！\\n她也是該獲得幸福的生命！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0064",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Tobias...",
+        "ja_jp": "トライツ……。",
+        "zh_cn": "德莱茨……",
+        "zh_tw": "特萊茲……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0065",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "Now, now. The Goddess has bestowed\\nmeaning upon all living things, and a role\\nin her divine plan. You all fail to see that.",
+        "ja_jp": "やれやれ。すべてのものには<ruby><rb>女神</rb><rt>めがみ</rt></ruby>が\\n<ruby><rb>与</rb><rt>あた</rt></ruby>えた<ruby><rb>意味</rb><rt>いみ</rt></ruby>と<ruby><rb>役割</rb><rt>やくわり</rt></ruby>があるというのに。\\n<ruby><rb>誰</rb><rt>だれ</rt></ruby>もそれを<ruby><rb>理解</rb><rt>りかい</rt></ruby>していませんね。",
+        "zh_cn": "真是的，明明万物皆有女神\\n所赋予的意义和职责，\\n却没有人理解这一点。",
+        "zh_tw": "傷腦筋。世間萬物都擁有\\n女神所給予的意義與職責，\\n但卻沒有人理解這點呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0066",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "Her role is as the sacrificial lamb that will\\nreturn the key to perdition to the faithful.",
+        "ja_jp": "あなたの<ruby><rb>役割</rb><rt>やくわり</rt></ruby>は<ruby><rb>人柱</rb><rt>ひとばしら</rt></ruby>となり\\n『<ruby><rb>煉獄</rb><rt>れんごく</rt></ruby>の<ruby><rb>鍵</rb><rt>かぎ</rt></ruby>』の<ruby><rb>生成</rb><rt>せいせい</rt></ruby>に<ruby><rb>寄与</rb><rt>きよ</rt></ruby>する<ruby><rb>事</rb><rt>こと</rt></ruby>。",
+        "zh_cn": "你的职责就是成为祭品，\\n为制成“炼狱之匙”做出贡献。",
+        "zh_tw": "妳的職責便是成為活人祭品，\\n為生成「煉獄之鑰」有所貢獻。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0067",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "That is the meaning of the life you've had\\nshepherded to this moment. What choice\\nhave you but to offer up your soul to me?",
+        "ja_jp": "それが<ruby><rb>今日</rb><rt>こんにち</rt></ruby>まであなたが<ruby><rb>守</rb><rt>まも</rt></ruby>られ<ruby><rb>続</rb><rt>つづ</rt></ruby>けた\\n<ruby><rb>意味</rb><rt>いみ</rt></ruby>。<ruby><rb>私</rb><rt>わたし</rt></ruby>に<ruby><rb>魂</rb><rt>たましい</rt></ruby>を<ruby><rb>捧</rb><rt>ささ</rt></ruby>げる<ruby><rb>以外</rb><rt>いがい</rt></ruby>の<ruby><rb>選択肢</rb><rt>せんたくし</rt></ruby>など\\nありはしないのです。",
+        "zh_cn": "这就是你迄今为止\\n一直受到保护的意义。\\n除了向我献上灵魂，你别无选择。",
+        "zh_tw": "這正是妳被守護至今的意義。\\n除了將靈魂獻給我，\\n妳並不存在其他的選擇權。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0068",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>選択肢</rb><rt>せんたくし</rt></ruby>……。",
+        "zh_cn": "我的选择……",
+        "zh_tw": "我的選擇權……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0069",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Do I really get to choose? Me, a girl who\\nspent her life sending dreams out into the\\nworld on borrowed wings?",
+        "ja_jp": "……<ruby><rb>私</rb><rt>わたし</rt></ruby>に<ruby><rb>選</rb><rt>えら</rt></ruby>べるかしら。\\n<ruby><rb>空</rb><rt>そら</rt></ruby><ruby><rb>飛</rb><rt>と</rt></ruby>ぶ<ruby><rb>鳥</rb><rt>とり</rt></ruby>に<ruby><rb>憧</rb><rt>あこが</rt></ruby>れてただけの<ruby><rb>私</rb><rt>わたし</rt></ruby>に。",
+        "zh_cn": "想我这种只是憧憬着\\n空中飞翔的鸟儿之人，\\n也有选择权吗……",
+        "zh_tw": "……我也能做選擇嗎？\\n從來都只能憧憬翱翔天空鳥兒的我。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0070",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "As long as you don't give up that hope,\\nthe current will carry you just fine.",
+        "ja_jp": "<ruby><rb>君</rb><rt>きみ</rt></ruby>は<ruby><rb>自由</rb><rt>じゆう</rt></ruby>に<ruby><rb>羽</rb><rt>は</rt></ruby>ばたけるはずだ。\\n<ruby><rb>望</rb><rt>のぞ</rt></ruby>む<ruby><rb>気持</rb><rt>きも</rt></ruby>ちを<ruby><rb>失</rb><rt>うしな</rt></ruby>わなければ。",
+        "zh_cn": "只要还没有失去那份渴望，\\n你就可以自由翱翔。",
+        "zh_tw": "妳也能自由翱翔才對，\\n只要還擁有希望之心。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0071",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "...Who are you to decide my choices?",
+        "ja_jp": "……<ruby><rb>私</rb><rt>わたし</rt></ruby>に<ruby><rb>選択肢</rb><rt>せんたくし</rt></ruby>がないなんて\\n<ruby><rb>決</rb><rt>き</rt></ruby>めつけないで。",
+        "zh_cn": "不要擅自认定\\n我别无选择……",
+        "zh_tw": "……不要擅自決定我沒有選擇權。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0072",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "What?",
+        "ja_jp": "<ruby><rb>何</rb><rt>なに</rt></ruby>？",
+        "zh_cn": "什么？",
+        "zh_tw": "什麼？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0073",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "I hated the Church for dictating my\\nchoices. Hated every day I spent\\nstripped of my freedom.",
+        "ja_jp": "<ruby><rb>勝手</rb><rt>かって</rt></ruby>を<ruby><rb>押</rb><rt>お</rt></ruby>しつける<ruby><rb>教会</rb><rt>きょうかい</rt></ruby>が<ruby><rb>嫌</rb><rt>きら</rt></ruby>いだった。\\n<ruby><rb>自由</rb><rt>じゆう</rt></ruby>を<ruby><rb>許</rb><rt>ゆる</rt></ruby>されない<ruby><rb>毎日</rb><rt>まいにち</rt></ruby>が<ruby><rb>嫌</rb><rt>きら</rt></ruby>いだった。",
+        "zh_cn": "我讨厌将意见强加于我的教会，\\n讨厌没有自由的每一天。",
+        "zh_tw": "我討厭擅自將事物強加於我的教會。\\n也討厭不被允許獲得自由的每天。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0074",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "But what I hated most of all was myself,\\nfor giving up on hoping.",
+        "ja_jp": "だけど、<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>に<ruby><rb>嫌</rb><rt>きら</rt></ruby>いなのは\\nあきらめたままの<ruby><rb>自分</rb><rt>じぶん</rt></ruby>――。",
+        "zh_cn": "但是，我真正讨厌的\\n是放弃挣扎的自己……",
+        "zh_tw": "但是，我真正討厭的，\\n是從一開始就放棄的自己──"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0075",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "What...?! All the mana in the air is\\ngathering around her!",
+        "ja_jp": "これは……!?　<ruby><rb>大気中</rb><rt>たいきちゅう</rt></ruby>のマナが\\nニーノに<ruby><rb>集</rb><rt>あつ</rt></ruby>まって……!?",
+        "zh_cn": "这是！？空气中的魔力\\n都聚集到了妮诺身上！？",
+        "zh_tw": "這是……！？\\n大氣中的瑪納不斷往尼諾聚集……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0076",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "I'm through with giving up. Through with\\njust being a precious object to protect.",
+        "ja_jp": "もうあきらめたくない。\\n<ruby><rb>守</rb><rt>まも</rt></ruby>られるだけでいたくない。",
+        "zh_cn": "我不想再放弃挣扎了，\\n不想只是一味地受人保护了。",
+        "zh_tw": "我已經不想再放棄。\\n也不想一味受人守護。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0077",
+      "book": ""
+    },
+    {
+      "icon": "110392_01",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "I'm taking back my freedom—taking flight!",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>は――<ruby><rb>自由</rb><rt>じゆう</rt></ruby>に<ruby><rb>羽</rb><rt>は</rt></ruby>ばたいてみせる！",
+        "zh_cn": "我要——自由地翱翔！",
+        "zh_tw": "我──將自由地展翅翱翔！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0078",
+      "book": ""
+    },
+    {
+      "icon": "110392_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "(This world may be too cruel to soar above\\nalone.)",
+        "ja_jp": "（この<ruby><rb>世界</rb><rt>せかい</rt></ruby>はあなたがひとりで\\n　<ruby><rb>羽</rb><rt>は</rt></ruby>ばたくには<ruby><rb>不条理</rb><rt>ふじょうり</rt></ruby>かもしれない）",
+        "zh_cn": "（若你想要独自展翅高飞，\\n这个世界也许过于不公。）",
+        "zh_tw": "（對將獨自翱翔的妳而言，\\n這個世界或許有些不講理。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0079",
+      "book": ""
+    },
+    {
+      "icon": "110392_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "(But if there are those who care for you,\\nI know that together you'll overcome all\\nthe obstacles before you.)",
+        "ja_jp": "（それでもあなたを<ruby><rb>思</rb><rt>おも</rt></ruby>う<ruby><rb>人</rb><rt>ひと</rt></ruby>がいるなら、\\n　きっと<ruby><rb>共</rb><rt>とも</rt></ruby>に<ruby><rb>困難</rb><rt>こんなん</rt></ruby>を<ruby><rb>乗</rb><rt>の</rt></ruby>り<ruby><rb>越</rb><rt>こ</rt></ruby>えられる）",
+        "zh_cn": "（即便如此，只要有人心系于你，\\n你们定能共同跨越困难。）",
+        "zh_tw": "（即使如此，只要有人牽掛著妳，\\n你們就一定能共同跨越困難。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0080",
+      "book": ""
+    },
+    {
+      "icon": "110392_02",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "(Now, take wing.\\nFly wherever your spirit guides you.)",
+        "ja_jp": "（さあ、<ruby><rb>飛</rb><rt>と</rt></ruby>びなさい。\\n　あなたの<ruby><rb>意志</rb><rt>いし</rt></ruby>のままに――）",
+        "zh_cn": "（来，听从你内心的意志，\\n自由地翱翔吧——）",
+        "zh_tw": "（好了，展翅翱翔吧。\\n跟隨妳的意志──）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0081",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "A wing of mana?! Quickly,\\nthe spell of soulbinding!",
+        "ja_jp": "マナの……<ruby><rb>羽</rb><rt>はね</rt></ruby>!?　と、とにかく\\nもう<ruby><rb>一度</rb><rt>いちど</rt></ruby>、<ruby><rb>魂縛</rb><rt>たましば</rt></ruby>りの<ruby><rb>魔法</rb><rt>まほう</rt></ruby>を……!!",
+        "zh_cn": "魔力化成了……翅膀！？\\n总、总之，再施一次缚魂魔法！",
+        "zh_tw": "瑪納的……翅膀！？總、總之，\\n得再次施展魂縛魔法……！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0082",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "She reflected—GRAAAUGH?!",
+        "ja_jp": "<ruby><rb>魔法</rb><rt>まほう</rt></ruby>が<ruby><rb>跳</rb><rt>は</rt></ruby>ね<ruby><rb>返</rb><rt>かえ</rt></ruby>って……ぐううう……!?",
+        "zh_cn": "魔法被反弹回来了……\\n唔呃呃呃！？",
+        "zh_tw": "魔法被反彈……呃唔唔唔……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0083",
+      "book": ""
+    },
+    {
+      "icon": "110392_02",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "I'm coming to help you!",
+        "ja_jp": "みんな、<ruby><rb>今</rb><rt>いま</rt></ruby>、<ruby><rb>助</rb><rt>たす</rt></ruby>ける――！",
+        "zh_cn": "各位，我这就来救你们！",
+        "zh_tw": "大家，我現在就去幫忙──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0084",
+      "book": ""
+    },
+    {
+      "icon": "120232_01",
+      "name": {
+        "en_us": "Paladyn Goma",
+        "ja_jp": "聖騎士ゴーマ",
+        "zh_cn": "圣骑士戈马",
+        "zh_tw": "聖騎士戈曼"
+      },
+      "context": {
+        "en_us": "Just what IS that girl? The knights and\\nassassins are falling before her like—",
+        "ja_jp": "<ruby><rb>何</rb><rt>なん</rt></ruby>だ、あの<ruby><rb>娘</rb><rt>むすめ</rt></ruby>!?　<ruby><rb>教会騎士</rb><rt>きょうかいきし</rt></ruby>も\\n<ruby><rb>暗殺者</rb><rt>あんさつしゃ</rt></ruby>も<ruby><rb>次々</rb><rt>つぎつぎ</rt></ruby><ruby><rb>倒</rb><rt>たお</rt></ruby>して……！",
+        "zh_cn": "那丫头怎么回事！？\\n把教会骑士和杀手\\n一个个都撂倒了！",
+        "zh_tw": "那女的是怎麼回事！？\\n竟然接連打倒教會騎士和暗殺者……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0085",
+      "book": ""
+    },
+    {
+      "icon": "110392_02",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Get away from him, NOW!",
+        "ja_jp": "トライツから<ruby><rb>離</rb><rt>はな</rt></ruby>れて！",
+        "zh_cn": "离德莱茨远点！",
+        "zh_tw": "快點離開特萊茲！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0086",
+      "book": ""
+    },
+    {
+      "icon": "120232_01",
+      "name": {
+        "en_us": "Paladyn Goma",
+        "ja_jp": "聖騎士ゴーマ",
+        "zh_cn": "圣骑士戈马",
+        "zh_tw": "聖騎士戈曼"
+      },
+      "context": {
+        "en_us": "Nrgh! A simple girl, suddenly gaining\\nsuch power? Inconceivable!",
+        "ja_jp": "ぐっ……！　<ruby><rb>小娘</rb><rt>こむすめ</rt></ruby>がいきなり\\n<ruby><rb>戦</rb><rt>たたか</rt></ruby>えるようになったなど、ありえん!!",
+        "zh_cn": "呃！区区小丫头\\n突然能战斗了，这不可能！",
+        "zh_tw": "唔……！\\n區區小姑娘突然變得能夠戰鬥，\\n這不可能！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0087",
+      "book": ""
+    },
+    {
+      "icon": "110392_02",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "There's nothing sudden about it. This\\npower has always been sleeping within\\nme.",
+        "ja_jp": "いきなりなんかじゃない。\\nこの<ruby><rb>力</rb><rt>ちから</rt></ruby>はずっと<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>に<ruby><rb>眠</rb><rt>ねむ</rt></ruby>っていたの。",
+        "zh_cn": "并不是突然，\\n这份力量一直沉睡在我体内。",
+        "zh_tw": "並不是什麼突然。\\n這股力量一直沉睡在我體內。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0088",
+      "book": ""
+    },
+    {
+      "icon": "110392_02",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "I've only realized that now that I've\\nstopped blindly accepting my fate.",
+        "ja_jp": "あきらめることをやめたから、\\nようやく<ruby><rb>気</rb><rt>き</rt></ruby>づく<ruby><rb>事</rb><rt>こと</rt></ruby>ができた。",
+        "zh_cn": "因为我不再放弃挣扎，\\n才终于发现了它。",
+        "zh_tw": "因為我選擇不再放棄，\\n才終於察覺。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0089",
+      "book": ""
+    },
+    {
+      "icon": "110392_02",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "This is the strength of my ancestor!\\nHRAAAAAAH!",
+        "ja_jp": "<ruby><rb>私</rb><rt>わたし</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>にあるご<ruby><rb>先祖様</rb><rt>せんぞさま</rt></ruby>の<ruby><rb>羽</rb><rt>はね</rt></ruby>に――！\\nはああああああっ!!",
+        "zh_cn": "发现了沉睡在我体内的\\n祖先之翼！哈啊啊啊啊啊！",
+        "zh_tw": "察覺存在我體內的祖先之翼──！\\n喝啊啊啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0090",
+      "book": ""
+    },
+    {
+      "icon": "120232_01",
+      "name": {
+        "en_us": "Paladyn Goma",
+        "ja_jp": "聖騎士ゴーマ",
+        "zh_cn": "圣骑士戈马",
+        "zh_tw": "聖騎士戈曼"
+      },
+      "context": {
+        "en_us": "GWAAAUGH!",
+        "ja_jp": "ぐああああああっ!!",
+        "zh_cn": "呃啊啊啊啊啊啊！",
+        "zh_tw": "嗚啊啊啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0091",
+      "book": ""
+    },
+    {
+      "icon": "110392_02",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "Tobias! Speak to me!",
+        "ja_jp": "トライツ、しっかりして！",
+        "zh_cn": "德莱茨，振作点！",
+        "zh_tw": "特萊茲，你振作一點！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0092",
+      "book": ""
+    },
+    {
+      "icon": "110352_02",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Thank you, Nino. ...Lovely wing you have\\nthere.",
+        "ja_jp": "ありがとう、ニーノ。\\n……その<ruby><rb>羽</rb><rt>はね</rt></ruby>、きれいだな。",
+        "zh_cn": "妮诺，谢谢你。\\n你的翅膀……真美啊。",
+        "zh_tw": "謝謝妳，尼諾。\\n……那翅膀，真漂亮呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0093",
+      "book": ""
+    },
+    {
+      "icon": "110392_02",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "What... THAT's what you have to say?!",
+        "ja_jp": "こんな<ruby><rb>時</rb><rt>とき</rt></ruby>に<ruby><rb>何</rb><rt>なに</rt></ruby><ruby><rb>言</rb><rt>い</rt></ruby>ってるのよ……！\\nもう……。",
+        "zh_cn": "这、这种时候你说什么呢！\\n真是的……",
+        "zh_tw": "這種時候你還在說什麼啊……！\\n真是的……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0094",
+      "book": ""
+    },
+    {
+      "icon": "120166_01",
+      "name": {
+        "en_us": "Conservative Templar",
+        "ja_jp": "保守派の教会騎士",
+        "zh_cn": "保守派教会骑士",
+        "zh_tw": "保守派的教會騎士"
+      },
+      "context": {
+        "en_us": "Hark! The Goddess has blessed her\\ndescendant with a miracle!",
+        "ja_jp": "<ruby><rb>奇跡</rb><rt>きせき</rt></ruby>だ……。あの<ruby><rb>羽</rb><rt>はね</rt></ruby>は<ruby><rb>女神様</rb><rt>めがみさま</rt></ruby>が\\n<ruby><rb>子孫</rb><rt>しそん</rt></ruby>に<ruby><rb>与</rb><rt>あた</rt></ruby>えた<ruby><rb>奇跡</rb><rt>きせき</rt></ruby>……！",
+        "zh_cn": "奇迹啊……\\n那翅膀是女神大人\\n赐予后代的奇迹！",
+        "zh_tw": "是奇蹟……那翅膀是女神大人\\n給予子孫的奇蹟……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0095",
+      "book": ""
+    },
+    {
+      "icon": "120232_01",
+      "name": {
+        "en_us": "Paladyn Goma",
+        "ja_jp": "聖騎士ゴーマ",
+        "zh_cn": "圣骑士戈马",
+        "zh_tw": "聖騎士戈曼"
+      },
+      "context": {
+        "en_us": "It's some sort of trick! There's no way I\\ncould lose to her otherwise! Now,\\nexecute them!",
+        "ja_jp": "あ、あんなものは<ruby><rb>瞞</rb><rt>まやか</rt></ruby>しだ！　でなければ\\nこの<ruby><rb>私</rb><rt>わたし</rt></ruby>が<ruby><rb>押</rb><rt>お</rt></ruby>し<ruby><rb>負</rb><rt>ま</rt></ruby>けるなどありえんっ！\\n<ruby><rb>総員</rb><rt>そういん</rt></ruby>、あのふたりを<ruby><rb>断罪</rb><rt>だんざい</rt></ruby>しろォォオォ!!",
+        "zh_cn": "那、那种东西是骗人的！\\n不然我怎么可能被她压制！\\n全体听令，给我处决掉那两个人！",
+        "zh_tw": "那、那種東西只是唬人的！\\n不然我怎麼可能會被擊敗！\\n所有人，給我制裁那兩個人──！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0096",
+      "book": ""
+    },
+    {
+      "icon": "120063_01",
+      "name": {
+        "en_us": "Father Glennie",
+        "ja_jp": "グレニー司祭",
+        "zh_cn": "祭司格雷尼",
+        "zh_tw": "古雷尼祭司"
+      },
+      "context": {
+        "en_us": "Grrrgh, you useless maggots! Do you\\nthink I paid your overpriced fee to have\\nyou stand there slack-jawed?!",
+        "ja_jp": "ぐううう……お、おのれぇ……!\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>たち！　なんのために<ruby><rb>高</rb><rt>たか</rt></ruby>い\\n<ruby><rb>報酬</rb><rt>ほうしゅう</rt></ruby>を<ruby><rb>払</rb><rt>はら</rt></ruby>っていると<ruby><rb>思</rb><rt>おも</rt></ruby>っているのです！",
+        "zh_cn": "唔呃呃呃……可、可恶！\\n你们这群饭桶，我花大价钱\\n是雇你们来干什么的！",
+        "zh_tw": "唔唔唔唔……可、可惡啊……！\\n喂！你們以為我是為了什麼\\n給出那麼高的報酬的！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0097",
+      "book": ""
+    },
+    {
+      "icon": "120096_01",
+      "name": {
+        "en_us": "Female Assassin",
+        "ja_jp": "女暗殺者",
+        "zh_cn": "女杀手",
+        "zh_tw": "女暗殺者"
+      },
+      "context": {
+        "en_us": "We'll finish the job. Even without your\\nwhining, we've got our professional pride\\non the line here.",
+        "ja_jp": "わかってる！　こっちにだって\\n<ruby><rb>面子</rb><rt>めんつ</rt></ruby>ってもんがあるんだから！\\nこのままじゃ<ruby><rb>終</rb><rt>お</rt></ruby>われないわよ！",
+        "zh_cn": "我知道！\\n我们也是要脸面的！\\n不会就此罢休！",
+        "zh_tw": "我知道！我們也得守住自己的面子！\\n才不能就這樣結束！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0098",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "Looks like both sides are planning to rush\\nus at once.",
+        "ja_jp": "<ruby><rb>教会騎士</rb><rt>きょうかいきし</rt></ruby>も<ruby><rb>暗殺者</rb><rt>あんさつしゃ</rt></ruby>も\\n<ruby><rb>一斉</rb><rt>いっせい</rt></ruby>にかかってくる<ruby><rb>気</rb><rt>き</rt></ruby>らしい。",
+        "zh_cn": "教会骑士和杀手\\n好像要一齐上阵了。",
+        "zh_tw": "教會騎士和暗殺者\\n似乎都打算一口氣進攻。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0099",
+      "book": ""
+    },
+    {
+      "icon": "110392_02",
+      "name": {
+        "en_us": "Nino",
+        "ja_jp": "ニーノ",
+        "zh_cn": "妮诺",
+        "zh_tw": "尼諾"
+      },
+      "context": {
+        "en_us": "I'll fight alongside you, Tobias.\\nLeave your back to me.",
+        "ja_jp": "トライツ、<ruby><rb>私</rb><rt>わたし</rt></ruby>も<ruby><rb>戦</rb><rt>たたか</rt></ruby>う。\\n<ruby><rb>背中</rb><rt>せなか</rt></ruby>を<ruby><rb>預</rb><rt>あず</rt></ruby>けて。",
+        "zh_cn": "德莱茨，我也来战斗。\\n你的身后由我来守护。",
+        "zh_tw": "特萊茲，我也要戰鬥。\\n把你的背後交給我吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0100",
+      "book": ""
+    },
+    {
+      "icon": "110352_03",
+      "name": {
+        "en_us": "Tobias",
+        "ja_jp": "トライツ",
+        "zh_cn": "德莱茨",
+        "zh_tw": "特萊茲"
+      },
+      "context": {
+        "en_us": "And yours to me, Nino.\\nLet's end this!",
+        "ja_jp": "ニーノ……<ruby><rb>頼</rb><rt>たよ</rt></ruby>りにさせてもらう。\\n――<ruby><rb>行</rb><rt>い</rt></ruby>くぞ！",
+        "zh_cn": "妮诺……那就拜托你了。\\n我们上！",
+        "zh_tw": "尼諾……那就拜託妳了。\\n──我們上！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0101",
+      "book": ""
+    },
+    {
+      "icon": "110352_04",
+      "name": {
+        "en_us": "Together",
+        "ja_jp": "ふたり",
+        "zh_cn": "二人",
+        "zh_tw": "兩人"
+      },
+      "context": {
+        "en_us": "HAAAAAAAAAH!",
+        "ja_jp": "はああああああああ!!",
+        "zh_cn": "哈啊啊啊啊啊啊！",
+        "zh_tw": "喝啊啊啊啊啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22213_05_0102",
+      "book": ""
+    }
+  ]
 }

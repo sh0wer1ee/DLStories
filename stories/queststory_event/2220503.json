@@ -1,744 +1,1411 @@
 {
-    "story_id": "",
-    "story_name": "迎击战～万圣节·僵尸来袭～ 决死！僵尸作战",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "为夺下操纵僵尸的魔导书，\\n梅露莎和阿加莎从圣城出发。\\n梅露莎模仿僵尸欺人耳目，\\n而阿加莎则凭借吸血鬼装束之力隐藏气息。\\n在同伴们的帮助下，她们成功突破僵尸包围圈。"
-        ]
+  "title": {
+    "en_us": "Postmortem Panic    Operation Zombies",
+    "ja_jp": "迎撃戦～ハロウィン・ゾンビーズ～  決死のゾンビ作戦！",
+    "zh_cn": "迎击战～万圣节·僵尸来袭～  决死！僵尸作战",
+    "zh_tw": "迎擊戰～萬聖同樂‧殭屍派對～  賭命的殭屍作戰！"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [],
-            "speaker_name": "SYS",
-            "context": "圣城被僵尸包围。\\n为了打开局面，\\n梅露莎想出的妙计究竟是……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120202_01"
-            ],
-            "speaker_name": "僵尸",
-            "context": "啊啊啊啊……呜呜呜呜……",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "为什么阿加莎的房间里\\n会有僵尸！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "我把袭击希里丝大人的\\n那只僵尸抬到房间里，\\n好好调查了一番。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "我用魔法封住了它的行动，\\n所以不用担心会被咬哦。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "虽然我有很多地方想吐槽，\\n不过现在先放一放……\\n梅露莎，你确定要这样做吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_02"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "嗯。刚才就是因为我变装成僵尸，\\n所以它们才以为我是同伴，\\n没有冲上来袭击我。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_02"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "所以只要我完美地扮演好僵尸，\\n应该就能骗过僵尸们，\\n前往施法者的所在地。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_02"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "我就把这只僵尸当作模版来学习，\\n这样就能精通僵尸之道了！\\n首先是呻吟声……",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120202_01"
-            ],
-            "speaker_name": "僵尸",
-            "context": "啊啊啊啊……呜呜呜呜……",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_02"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "啊～呜～\\n怎么样？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "唔，有点可爱啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_02"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "那这样如何呢？\\n啊啊啊啊啊……呜呜呜呜呜……",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "的确多了几分魄力，\\n但还是很可爱呢。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_02"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "那么……\\n啊啊啊啊啊……呜呜呜呜呜！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120006_01"
-            ],
-            "speaker_name": "陷入狂乱的祭司",
-            "context": "亡者的呻吟没那么简单！\\n那是它们发自内心的\\n绝望呐喊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_02"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "啊啊啊啊啊啊！\\n呜呜呜呜呜呜！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "嗯，这样就完美了！\\n咦，祭司！？你怎么会在这里？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01",
-                "120019_01",
-                "120095_01"
-            ],
-            "speaker_name": "一对情侣中的女方",
-            "context": "你们的对话，\\n我们在外边都听到了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120095_01"
-            ],
-            "speaker_name": "蓬莱工匠",
-            "context": "如果有什么我们能帮上忙的，\\n请尽管开口。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120095_01"
-            ],
-            "speaker_name": "一对情侣中的男方",
-            "context": "我不想再当一个软蛋了。\\n只要有一线希望，\\n我就想拼一把。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120173_01"
-            ],
-            "speaker_name": "罗卡族徒弟",
-            "context": "况且梅露莎为了帮助我们\\n都这么拼命了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120173_01"
-            ],
-            "speaker_name": "罗卡族师父",
-            "context": "那我们也不能\\n袖手旁观啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_02"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "大家……",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "真让人安心呢，梅露莎。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_02"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "嗯！大家，\\n请助我一臂之力！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120033_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "众人群策群力进行着准备。\\n终于，夜幕降临……",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120173_01"
-            ],
-            "speaker_name": "罗卡族徒弟",
-            "context": "我们把圣城里坏掉的武器\\n修理了一下，应该能用！\\n带上它吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120171_01"
-            ],
-            "speaker_name": "罗卡族师父",
-            "context": "它的威力过于强大，\\n所以别在近身的时候用。\\n不过只能用一次。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_02"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "谢谢你们。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "其实我很想和你一起去……",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_02"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "不行。希里丝得和大家一起\\n在王子殿下他们回来之前\\n保护好圣城才行。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "嗯，我知道了。\\n梅露莎……你要平安归来啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_02"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "那么……我就出发了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "啊啊啊啊啊啊！\\n呜呜呜呜呜呜！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120202_01"
-            ],
-            "speaker_name": "僵尸们",
-            "context": "啊啊啊啊啊啊！\\n呜呜呜呜呜呜！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎&僵尸们",
-            "context": "啊啊啊啊啊啊！\\n呜呜呜呜呜呜！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "（好，没有露馅！）",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "（真不愧是梅露莎大人。\\n模仿僵尸的样子让我都看入迷了。）",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "（毕竟我在祭司的指导下，\\n拼命练习扮演僵尸……）\\n咦，阿加莎！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120202_01"
-            ],
-            "speaker_name": "僵尸",
-            "context": "啊呜？啊……啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "暴露了！该、该怎么办！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120202_01"
-            ],
-            "speaker_name": "SYS",
-            "context": "圣城　露台",
-            "voice_line": "",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "继续放仙花焰，\\n把僵尸都引过来！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120095_01"
-            ],
-            "speaker_name": "工匠&情侣",
-            "context": "好！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "（僵尸们的注意力都被\\n吸引到仙花焰那边去了呢。）",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "（呼……阿加莎，\\n你怎么在这里？）",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "（其实这身衣服是根据吸血鬼传说\\n而制作的，是一件能使用\\n吸血鬼能力的魔导衣。）",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "（传闻吸血鬼拥有化为雾气\\n隐匿于暗夜的能力。）",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "（虽然这身衣服不能让我化为雾气，\\n但能让我的气息与黑暗融为一体，\\n从而骗过对方的耳目。）",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "（所以你就跟过来了吗？）",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "（既然敌人会用魔导书操纵僵尸，\\n那肯定需要一个懂魔法的人吧。\\n好了，我们一起走吧。）",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "啊、啊啊啊……呜呜呜呜呜！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "（终于走出城门了……\\n但这里也有一大群僵尸，\\n千万不能松懈！）",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "啊啊啊啊啊……呜呜呜呜呜！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120202_01"
-            ],
-            "speaker_name": "僵尸",
-            "context": "啊啊啊啊啊……晚上、好……",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "晚上、好啊啊啊！\\n（咦，僵尸说话了！？）",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120202_01"
-            ],
-            "speaker_name": "僵尸",
-            "context": "战争……救济伙食……\\n粥……美味……",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "（哎呀，真难得。\\n居然还残留着些许理智呢。）",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120202_01"
-            ],
-            "speaker_name": "僵尸",
-            "context": "理智？啊……找到你了！\\n嗷嗷嗷嗷嗷嗷嗷嗷嗷！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120018_01"
-            ],
-            "speaker_name": "一对情侣中的女方",
-            "context": "不好了！\\n僵尸们被刚才的叫声吸引，\\n正涌向城门那边！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120095_01"
-            ],
-            "speaker_name": "蓬莱工匠",
-            "context": "仙花焰已经放完了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "怎么能放它们过去！\\n那就用箭——看招！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "100029_01"
-            ],
-            "speaker_name": "希里丝",
-            "context": "没用！阻止不了它们！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "装成僵尸不管用了！\\n嘿！呀啊！哈啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "被这么多僵尸包围的话，\\n这身衣服也没法\\n发挥其力量了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120202_01"
-            ],
-            "speaker_name": "僵尸",
-            "context": "人质……为了、家人……\\n嗷啊啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_02"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "不行了！顶不住了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "？？？",
-            "context": "休想得逞！喝啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "嗯！你、你们是！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120033_01"
-            ],
-            "speaker_name": "小混混（光头）",
-            "context": "小姑娘，\\n这下欠你的人情就还清了。\\n这儿就交给我们，你快走吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120032_01"
-            ],
-            "speaker_name": "小混混（莫西干头）",
-            "context": "嘿！僵尸们！\\n我和大哥来陪你们玩玩！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120033_01"
-            ],
-            "speaker_name": "小混混（光头）",
-            "context": "我这儿可是有高级的点心！\\n你们这群尸体！\\n想吃就放马过来吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120032_01"
-            ],
-            "speaker_name": "小混混们",
-            "context": "喝啊啊啊啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_02"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "他们被僵尸包围了！\\n得去救他们！",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "现在这情况我们也无能为力，\\n还是快点赶路吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0073",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "可是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0074",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "他们赶来帮助梅露莎大人，\\n想必是做好觉悟了吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0075",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110341_03"
-            ],
-            "speaker_name": "阿加莎",
-            "context": "要是辜负了他们的心意，\\n岂不是更残忍？",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0076",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "我明白了……",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0077",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110270_03"
-            ],
-            "speaker_name": "梅露莎",
-            "context": "二位，抱歉了……\\n还有……谢谢你们。",
-            "voice_line": "VO_CHR_EVENTSTORY_22205_03_0078",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "Using the powers granted by their costumes,\\nMelsa and Akasha leave the Halidom to track\\ndown the man controlling the undead. With the\\naid of their allies, they manage to slip past the\\nhungry zombie horde.",
+      "ja_jp": "ゾンビを<ruby><rb>操</rb><rt>あやつ</rt></ruby>る<ruby><rb>魔導書</rb><rt>まどうしょ</rt></ruby>を<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>上</rb><rt>あ</rt></ruby>げるため、<ruby><rb>城</rb><rt>しろ</rt></ruby>を\\n<ruby><rb>出</rb><rt>で</rt></ruby>たメルサとアカーシャ。メルサはゾンビの\\nふりで<ruby><rb>敵</rb><rt>てき</rt></ruby>の<ruby><rb>目</rb><rt>め</rt></ruby>を<ruby><rb>欺</rb><rt>あざむ</rt></ruby>き、アカーシャは<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>の\\n<ruby><rb>衣装</rb><rt>いしょう</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>で<ruby><rb>気配</rb><rt>けはい</rt></ruby>を<ruby><rb>消</rb><rt>け</rt></ruby>す。ふたりは<ruby><rb>仲間</rb><rt>なかま</rt></ruby>たちの\\n<ruby><rb>協力</rb><rt>きょうりょく</rt></ruby>もあり、ゾンビ<ruby><rb>包囲網</rb><rt>ほういもう</rt></ruby><ruby><rb>突破</rb><rt>とっぱ</rt></ruby>に<ruby><rb>成功</rb><rt>せいこう</rt></ruby>する。",
+      "zh_cn": "为夺下操纵僵尸的魔导书，\\n梅露莎和阿加莎从圣城出发。\\n梅露莎模仿僵尸欺人耳目，\\n而阿加莎则凭借吸血鬼装束之力隐藏气息。\\n在同伴们的帮助下，她们成功突破僵尸包围圈。",
+      "zh_tw": "為了奪走操控殭屍的魔導書，\\n梅兒莎與阿迦奢離開了聖城。\\n梅兒莎假扮成殭屍欺騙敵人耳目，\\n阿迦奢則藉吸血鬼服裝的力量消除氣息。\\n兩人在夥伴協助下，成功突破殭屍的包圍。"
+    }
+  },
+  "prev": "2220502",
+  "next": "2220504",
+  "content": [
+    {
+      "icon": "",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Zombies encircle the Halidom, but Melsa\\nhas a plan to break the sinister siege...",
+        "ja_jp": "ゾンビに<ruby><rb>囲</rb><rt>かこ</rt></ruby>まれた<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>。\\n<ruby><rb>事態</rb><rt>じたい</rt></ruby>を<ruby><rb>打破</rb><rt>だは</rt></ruby>するため、\\nメルサが<ruby><rb>思</rb><rt>おも</rt></ruby>いついた<ruby><rb>秘策</rb><rt>ひさく</rt></ruby>とは……。",
+        "zh_cn": "圣城被僵尸包围。\\n为了打开局面，\\n梅露莎想出的妙计究竟是……",
+        "zh_tw": "聖城遭到殭屍包圍。\\n為了打破現況，\\n梅兒莎想出的計畫是……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120202_01",
+      "name": {
+        "en_us": "Zombie",
+        "ja_jp": "ゾンビ",
+        "zh_cn": "僵尸",
+        "zh_tw": "殭屍"
+      },
+      "context": {
+        "en_us": "Nraaaagh... Urrrrrrgh...",
+        "ja_jp": "アァァァ……ウゥゥゥ……。",
+        "zh_cn": "啊啊啊啊……呜呜呜呜……",
+        "zh_tw": "啊啊啊啊……嗚嗚嗚嗚……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0001",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "How did a zombie get in your room,\\nAkasha?!",
+        "ja_jp": "アカーシャさんの<ruby><rb>部屋</rb><rt>へや</rt></ruby>に\\nどうしてゾンビが!?",
+        "zh_cn": "为什么阿加莎的房间里\\n会有僵尸！？",
+        "zh_tw": "為什麼阿迦奢小姐的房裡會有殭屍！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0002",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "I carried it here after it attacked Sarisse.\\nI have an extensive battery of experiments\\nI am eager to perform on it.",
+        "ja_jp": "シーリス<ruby><rb>様</rb><rt>さま</rt></ruby>を<ruby><rb>襲</rb><rt>おそ</rt></ruby>ったゾンビを\\n<ruby><rb>部屋</rb><rt>へや</rt></ruby>に<ruby><rb>運</rb><rt>はこ</rt></ruby>んで<ruby><rb>居</rb><rt>お</rt></ruby>りましたの。\\n<ruby><rb>心行</rb><rt>こころゆ</rt></ruby>くまで<ruby><rb>調</rb><rt>しら</rt></ruby>べ<ruby><rb>尽</rb><rt>つ</rt></ruby>くすために。",
+        "zh_cn": "我把袭击希里丝大人的\\n那只僵尸抬到房间里，\\n好好调查了一番。",
+        "zh_tw": "我把襲擊西莉絲大人的殭屍\\n運到房裡了。\\n為了能盡情地詳細調查。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0003",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "Oh, and I sealed its movement with magic,\\nso you needn't fear its bite.",
+        "ja_jp": "<ruby><rb>魔法</rb><rt>まほう</rt></ruby>で<ruby><rb>動</rb><rt>うご</rt></ruby>きを<ruby><rb>封</rb><rt>ふう</rt></ruby>じて<ruby><rb>居</rb><rt>お</rt></ruby>りますから、\\n<ruby><rb>噛</rb><rt>か</rt></ruby>みつかれる<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>は<ruby><rb>御座</rb><rt>ござ</rt></ruby>いませんわ。",
+        "zh_cn": "我用魔法封住了它的行动，\\n所以不用担心会被咬哦。",
+        "zh_tw": "並且用魔法控制了它的行動，\\n所以不必擔心會被咬喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0004",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Zombie bites are like the seventh scariest\\nthing about everything you just said.\\nAre you sure about all this, Melsa?",
+        "ja_jp": "いろいろツッコミたいけど、\\n<ruby><rb>今</rb><rt>いま</rt></ruby>は<ruby><rb>置</rb><rt>お</rt></ruby>いておこう……。\\nメルサ、<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>にやるんだね？",
+        "zh_cn": "虽然我有很多地方想吐槽，\\n不过现在先放一放……\\n梅露莎，你确定要这样做吗？",
+        "zh_tw": "雖然我有很多事想吐嘈，\\n不過先暫時放在一邊好了……\\n梅兒莎，妳是認真的對吧？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0005",
+      "book": ""
+    },
+    {
+      "icon": "110270_02",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Yes. They hesitated when they saw my\\ncostume—they think I'm one of them.",
+        "ja_jp": "うん。<ruby><rb>私</rb><rt>わたし</rt></ruby>がゾンビの<ruby><rb>仮装</rb><rt>かそう</rt></ruby>をしていたから\\nゾンビたちは<ruby><rb>仲間</rb><rt>なかま</rt></ruby>と<ruby><rb>勘違</rb><rt>かんちが</rt></ruby>いして、\\n<ruby><rb>襲</rb><rt>おそ</rt></ruby>うのをためらったんです。",
+        "zh_cn": "嗯。刚才就是因为我变装成僵尸，\\n所以它们才以为我是同伴，\\n没有冲上来袭击我。",
+        "zh_tw": "嗯。因為我變裝成殭屍，\\n殭屍們就誤以為我是夥伴，\\n而沒有進行攻擊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0006",
+      "book": ""
+    },
+    {
+      "icon": "110270_02",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "If I can play the part convincingly enough,\\nI should be able to slip through and get to\\nthe man who is controlling them.",
+        "ja_jp": "だから、<ruby><rb>完璧</rb><rt>かんぺき</rt></ruby>なゾンビを<ruby><rb>演</rb><rt>えん</rt></ruby>じれば、\\nゾンビたちの<ruby><rb>目</rb><rt>め</rt></ruby>を<ruby><rb>誤魔化</rb><rt>ごまか</rt></ruby>して、\\n<ruby><rb>術者</rb><rt>じゅつしゃ</rt></ruby>の<ruby><rb>下</rb><rt>もと</rt></ruby>まで<ruby><rb>辿</rb><rt>たど</rt></ruby>り<ruby><rb>着</rb><rt>つ</rt></ruby>けるはずです。",
+        "zh_cn": "所以只要我完美地扮演好僵尸，\\n应该就能骗过僵尸们，\\n前往施法者的所在地。",
+        "zh_tw": "所以，只要扮演成完美的殭屍，\\n應該就能騙過殭屍們，\\n抵達術者的所在處才對。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0007",
+      "book": ""
+    },
+    {
+      "icon": "110270_02",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "It's Zombie 101, and this poor fellow here\\nis going to be my professor! First, I need\\nto master the zombie moan...",
+        "ja_jp": "ゾンビのふりをマスターするため、\\n<ruby><rb>私</rb><rt>わたし</rt></ruby>、このゾンビから<ruby><rb>学</rb><rt>まな</rt></ruby>びます！　\\nまずは<ruby><rb>呻</rb><rt>うめ</rt></ruby>き<ruby><rb>声</rb><rt>ごえ</rt></ruby>から……。",
+        "zh_cn": "我就把这只僵尸当作模版来学习，\\n这样就能精通僵尸之道了！\\n首先是呻吟声……",
+        "zh_tw": "為了完美地偽裝成殭屍，\\n我要向這個殭屍學習！\\n首先是呻吟聲……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0008",
+      "book": ""
+    },
+    {
+      "icon": "120202_01",
+      "name": {
+        "en_us": "Zombie",
+        "ja_jp": "ゾンビ",
+        "zh_cn": "僵尸",
+        "zh_tw": "殭屍"
+      },
+      "context": {
+        "en_us": "Nraaaagh... Urrrrrrgh...",
+        "ja_jp": "アァァァ……ウゥゥゥ……！",
+        "zh_cn": "啊啊啊啊……呜呜呜呜……",
+        "zh_tw": "啊啊啊啊……嗚嗚嗚嗚……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0009",
+      "book": ""
+    },
+    {
+      "icon": "110270_02",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Rawr! Grrr! ...Well? How did I do?",
+        "ja_jp": "あ～～～～……う～～～～……。\\n……どうでしょうか？",
+        "zh_cn": "啊～呜～\\n怎么样？",
+        "zh_tw": "啊～～～～……嗚～～～～……\\n……怎麼樣？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0010",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Hmm. Kinda...cute?",
+        "ja_jp": "うーん、ちょっとかわいいかも。",
+        "zh_cn": "唔，有点可爱啊。",
+        "zh_tw": "嗯～好像有點可愛。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0011",
+      "book": ""
+    },
+    {
+      "icon": "110270_02",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Okay, how about this?\\nNraaaagh... Grrrrr...",
+        "ja_jp": "それなら、これでどうですか？\\nあああああ……ううううう……。",
+        "zh_cn": "那这样如何呢？\\n啊啊啊啊啊……呜呜呜呜呜……",
+        "zh_tw": "那這樣如何？\\n啊啊啊啊啊……嗚嗚嗚嗚嗚……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0012",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "More forceful than the last attempt, but I\\nfear a certain adorable aspect remains.",
+        "ja_jp": "<ruby><rb>先</rb><rt>さき</rt></ruby>ほどより<ruby><rb>迫力</rb><rt>はくりょく</rt></ruby>が<ruby><rb>増</rb><rt>ま</rt></ruby>しましたが、\\nまだまだお<ruby><rb>可愛</rb><rt>かわい</rt></ruby>いですわね。",
+        "zh_cn": "的确多了几分魄力，\\n但还是很可爱呢。",
+        "zh_tw": "雖然比剛才多了些迫力，\\n但仍稍嫌可愛呢。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0013",
+      "book": ""
+    },
+    {
+      "icon": "110270_02",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "This, then! Grrrrowl! Mrrrrr!",
+        "ja_jp": "だったら……！\\nあああああ……ううううう……！",
+        "zh_cn": "那么……\\n啊啊啊啊啊……呜呜呜呜呜！",
+        "zh_tw": "既然如此……！\\n啊啊啊啊啊……嗚嗚嗚嗚嗚……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0014",
+      "book": ""
+    },
+    {
+      "icon": "120006_01",
+      "name": {
+        "en_us": "Fanatical Priest",
+        "ja_jp": "マニアックな司祭",
+        "zh_cn": "陷入狂乱的祭司",
+        "zh_tw": "瘋狂的祭司"
+      },
+      "context": {
+        "en_us": "These timorous yelps make mockery of the\\nlamentations of the dead! Let the despair\\nwell up within you! Use your diaphragm!",
+        "ja_jp": "<ruby><rb>死者</rb><rt>ししゃ</rt></ruby>の<ruby><rb>呻</rb><rt>うめ</rt></ruby>きはそんなに<ruby><rb>甘</rb><rt>あま</rt></ruby>くない！\\n<ruby><rb>腹</rb><rt>はら</rt></ruby>の<ruby><rb>底</rb><rt>そこ</rt></ruby>から<ruby><rb>絶望</rb><rt>ぜつぼう</rt></ruby>を<ruby><rb>振</rb><rt>ふ</rt></ruby>り<ruby><rb>絞</rb><rt>しぼ</rt></ruby>った<ruby><rb>声</rb><rt>こえ</rt></ruby>で！",
+        "zh_cn": "亡者的呻吟没那么简单！\\n那是它们发自内心的\\n绝望呐喊！",
+        "zh_tw": "死者的呻吟沒有那麼天真！\\n那是從腹部深處用盡全力的嘶吼！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0015",
+      "book": ""
+    },
+    {
+      "icon": "110270_02",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "NrAaAaAgH...! UrRrRrGh...!",
+        "ja_jp": "アァァアァアァ……!!\\nウウゥウウゥウ……!!",
+        "zh_cn": "啊啊啊啊啊啊！\\n呜呜呜呜呜呜！",
+        "zh_tw": "啊啊啊啊啊啊啊……！！\\n嗚嗚嗚嗚嗚嗚嗚……！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0016",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Yes! Perfect! ...Wait, hang on.\\nWhen did THIS guy show up?",
+        "ja_jp": "うん、<ruby><rb>完璧</rb><rt>かんぺき</rt></ruby>！　……って、<ruby><rb>司祭</rb><rt>しさい</rt></ruby>さん!?\\nどうしてこの<ruby><rb>部屋</rb><rt>へや</rt></ruby>に？",
+        "zh_cn": "嗯，这样就完美了！\\n咦，祭司！？你怎么会在这里？",
+        "zh_tw": "嗯，完美！\\n……咦，祭司先生！？\\n你怎麼會在這個房間？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0017",
+      "book": ""
+    },
+    {
+      "icon": "120095_01",
+      "name": {
+        "en_us": "Girlfriend",
+        "ja_jp": "カップルの女",
+        "zh_cn": "一对情侣中的女方",
+        "zh_tw": "情侶‧女"
+      },
+      "context": {
+        "en_us": "We couldn't help but overhear you earlier.",
+        "ja_jp": "あなたたちの<ruby><rb>話</rb><rt>はなし</rt></ruby>、\\n<ruby><rb>立</rb><rt>た</rt></ruby>ち<ruby><rb>聞</rb><rt>ぎ</rt></ruby>きさせてもらったの。",
+        "zh_cn": "你们的对话，\\n我们在外边都听到了。",
+        "zh_tw": "我們偷聽了妳們的談話。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0018",
+      "book": ""
+    },
+    {
+      "icon": "120095_01",
+      "name": {
+        "en_us": "Peng Lai Artisan",
+        "ja_jp": "ホウライの職人",
+        "zh_cn": "蓬莱工匠",
+        "zh_tw": "蓬萊的職人"
+      },
+      "context": {
+        "en_us": "If there's any way we can help,\\nplease tell us!",
+        "ja_jp": "<ruby><rb>僕</rb><rt>ぼく</rt></ruby>たちにも<ruby><rb>手伝</rb><rt>てつだ</rt></ruby>える<ruby><rb>事</rb><rt>こと</rt></ruby>があれば、\\n<ruby><rb>何</rb><rt>なん</rt></ruby>でも<ruby><rb>言</rb><rt>い</rt></ruby>ってください。",
+        "zh_cn": "如果有什么我们能帮上忙的，\\n请尽管开口。",
+        "zh_tw": "如果有什麼我們能幫忙的，\\n請儘管說出來。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0019",
+      "book": ""
+    },
+    {
+      "icon": "120095_01",
+      "name": {
+        "en_us": "Boyfriend",
+        "ja_jp": "カップルの男",
+        "zh_cn": "一对情侣中的男方",
+        "zh_tw": "情侶‧男"
+      },
+      "context": {
+        "en_us": "I don't want to just sit here shaking in my\\nboots. If we've got a plan, I want in on it.",
+        "ja_jp": "<ruby><rb>怯</rb><rt>おび</rt></ruby>えたままなんてゴメンなんだ。\\n<ruby><rb>解決</rb><rt>かいけつ</rt></ruby><ruby><rb>策</rb><rt>さく</rt></ruby>があるなら、それに<ruby><rb>賭</rb><rt>か</rt></ruby>けたい。",
+        "zh_cn": "我不想再当一个软蛋了。\\n只要有一线希望，\\n我就想拼一把。",
+        "zh_tw": "我們不想一味地害怕。\\n如果有解決方法，我們也想賭一把。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0020",
+      "book": ""
+    },
+    {
+      "icon": "120173_01",
+      "name": {
+        "en_us": "Rokkan Student",
+        "ja_jp": "ロッカの弟子",
+        "zh_cn": "罗卡族徒弟",
+        "zh_tw": "羅卡職人的弟子"
+      },
+      "context": {
+        "en_us": "It's the least we can do after seeing Melsa\\nput her neck on the line for us.",
+        "ja_jp": "それにウチらを<ruby><rb>助</rb><rt>たす</rt></ruby>けるために\\nメルサさんが<ruby><rb>頑張</rb><rt>がんば</rt></ruby>ってるっスから。",
+        "zh_cn": "况且梅露莎为了帮助我们\\n都这么拼命了。",
+        "zh_tw": "況且梅兒莎小姐也為了幫助我們\\n這麼努力啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0021",
+      "book": ""
+    },
+    {
+      "icon": "120173_01",
+      "name": {
+        "en_us": "Rokkan Master",
+        "ja_jp": "ロッカの親方",
+        "zh_cn": "罗卡族师父",
+        "zh_tw": "羅卡職人"
+      },
+      "context": {
+        "en_us": "Yeah, we're not gonna sit around doing\\nnothing while she's fighting for our sake!",
+        "ja_jp": "だったら、<ruby><rb>俺</rb><rt>おれ</rt></ruby>らが<ruby><rb>何</rb><rt>なに</rt></ruby>もしないわけには\\nいかねえってなもんよ！",
+        "zh_cn": "那我们也不能\\n袖手旁观啊！",
+        "zh_tw": "所以我們怎麼能什麼都不做呢！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0022",
+      "book": ""
+    },
+    {
+      "icon": "110270_02",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Aw, you guys!",
+        "ja_jp": "みなさん……！",
+        "zh_cn": "大家……",
+        "zh_tw": "大家……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0023",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Looks like the cavalry's here, Melsa.",
+        "ja_jp": "<ruby><rb>心強</rb><rt>こころづよ</rt></ruby>いね、メルサ。",
+        "zh_cn": "真让人安心呢，梅露莎。",
+        "zh_tw": "真讓人安心呢，梅兒莎。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0024",
+      "book": ""
+    },
+    {
+      "icon": "110270_02",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Okay, here's how you can help...",
+        "ja_jp": "――うん！\\nみなさん、<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>貸</rb><rt>か</rt></ruby>してください！",
+        "zh_cn": "嗯！大家，\\n请助我一臂之力！",
+        "zh_tw": "──嗯！\\n大家，請把力量借給我吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0025",
+      "book": ""
+    },
+    {
+      "icon": "120033_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Thus, they joined together to prepare as the dying\\nlight of the sun gave way to darkest night.",
+        "ja_jp": "<ruby><rb>力</rb><rt>ちから</rt></ruby>を<ruby><rb>合</rb><rt>あ</rt></ruby>わせて<ruby><rb>準備</rb><rt>じゅんび</rt></ruby>を<ruby><rb>進</rb><rt>すす</rt></ruby>めるメルサたち。\\nやがて<ruby><rb>夜</rb><rt>よる</rt></ruby>の<ruby><rb>帳</rb><rt>とばり</rt></ruby>が<ruby><rb>下</rb><rt>お</rt></ruby>り……。",
+        "zh_cn": "众人群策群力进行着准备。\\n终于，夜幕降临……",
+        "zh_tw": "梅兒莎等人同心協力進行準備時，\\n天色漸暗……"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "120173_01",
+      "name": {
+        "en_us": "Rokkan Student",
+        "ja_jp": "ロッカの弟子",
+        "zh_cn": "罗卡族徒弟",
+        "zh_tw": "羅卡職人的弟子"
+      },
+      "context": {
+        "en_us": "I found a busted weapon and hammered it\\nback into working condition. Take it!",
+        "ja_jp": "<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>にあった<ruby><rb>壊</rb><rt>こわ</rt></ruby>れた<ruby><rb>武器</rb><rt>ぶき</rt></ruby>を<ruby><rb>修理</rb><rt>しゅうり</rt></ruby>して、\\n<ruby><rb>使</rb><rt>つか</rt></ruby>えるようにしたっス！\\n<ruby><rb>持</rb><rt>も</rt></ruby>ってってくださいっス！",
+        "zh_cn": "我们把圣城里坏掉的武器\\n修理了一下，应该能用！\\n带上它吧！",
+        "zh_tw": "我們修理了聖城裡壞掉的武器，\\n現在已經能用囉！請拿去吧！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0026",
+      "book": ""
+    },
+    {
+      "icon": "120171_01",
+      "name": {
+        "en_us": "Rokkan Master",
+        "ja_jp": "ロッカの親方",
+        "zh_cn": "罗卡族师父",
+        "zh_tw": "羅卡職人"
+      },
+      "context": {
+        "en_us": "It can only be used once. And avoid using\\nit at point-blank range—it's too powerful.",
+        "ja_jp": "<ruby><rb>使</rb><rt>つか</rt></ruby>えるのは1<ruby><rb>回</rb><rt>かい</rt></ruby>。<ruby><rb>威力</rb><rt>いりょく</rt></ruby>が<ruby><rb>強</rb><rt>つよ</rt></ruby>すぎるから\\n<ruby><rb>至近距離</rb><rt>しきんきょり</rt></ruby>で<ruby><rb>使</rb><rt>つか</rt></ruby>うのは<ruby><rb>避</rb><rt>さ</rt></ruby>けるんだぞ。",
+        "zh_cn": "它的威力过于强大，\\n所以别在近身的时候用。\\n不过只能用一次。",
+        "zh_tw": "但只能用一次。因為威力太強，\\n要記得避免在近距離使用喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0027",
+      "book": ""
+    },
+    {
+      "icon": "110270_02",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Thank you both.",
+        "ja_jp": "ありがとうございます。",
+        "zh_cn": "谢谢你们。",
+        "zh_tw": "謝謝你們。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0028",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "I still feel like I should go with you.",
+        "ja_jp": "<ruby><rb>本当</rb><rt>ほんとう</rt></ruby>はアタシも<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に\\n<ruby><rb>行</rb><rt>い</rt></ruby>きたいんだけど……。",
+        "zh_cn": "其实我很想和你一起去……",
+        "zh_tw": "其實我很想跟妳一起去……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0029",
+      "book": ""
+    },
+    {
+      "icon": "110270_02",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Someone has to stay here and keep\\nall these people safe, Sarisse.",
+        "ja_jp": "ダメです。シーリスはみなさんと<ruby><rb>一緒</rb><rt>いっしょ</rt></ruby>に\\nお<ruby><rb>城</rb><rt>しろ</rt></ruby>を<ruby><rb>守</rb><rt>まも</rt></ruby>ってください。<ruby><rb>王子様</rb><rt>おうじさま</rt></ruby>たちが\\n<ruby><rb>戻</rb><rt>もど</rt></ruby>ってきた<ruby><rb>時</rb><rt>とき</rt></ruby>のために。",
+        "zh_cn": "不行。希里丝得和大家一起\\n在王子殿下他们回来之前\\n保护好圣城才行。",
+        "zh_tw": "不可以。\\n西莉絲請跟大家一起守護聖城。\\n為了讓王子大人他們隨時都能回來。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0030",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Yeah, I know, but... Look, just come\\nback safe and sound, all right?",
+        "ja_jp": "うん、わかった。\\n……メルサ、<ruby><rb>無事</rb><rt>ぶじ</rt></ruby>に<ruby><rb>戻</rb><rt>もど</rt></ruby>ってきてね。",
+        "zh_cn": "嗯，我知道了。\\n梅露莎……你要平安归来啊。",
+        "zh_tw": "嗯，我知道了。\\n……梅兒莎，妳要平安回來喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0031",
+      "book": ""
+    },
+    {
+      "icon": "110270_02",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Right. I'm off!",
+        "ja_jp": "それでは……<ruby><rb>行</rb><rt>い</rt></ruby>きます！",
+        "zh_cn": "那么……我就出发了！",
+        "zh_tw": "那麼……我出發了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0032",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "NraaAaAgH...! UrRRrRgh...!",
+        "ja_jp": "アァァアァアァア……！\\nウゥウウゥウゥウ……！",
+        "zh_cn": "啊啊啊啊啊啊！\\n呜呜呜呜呜呜！",
+        "zh_tw": "啊啊啊啊啊啊啊啊……！\\n嗚嗚嗚嗚嗚嗚嗚嗚……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0033",
+      "book": ""
+    },
+    {
+      "icon": "120202_01",
+      "name": {
+        "en_us": "Zombies",
+        "ja_jp": "ゾンビたち",
+        "zh_cn": "僵尸们",
+        "zh_tw": "殭屍們"
+      },
+      "context": {
+        "en_us": "NRaAAagh...! UrrRRrGh...!",
+        "ja_jp": "ァアァアアァア……！\\nウゥウゥウウウ……！",
+        "zh_cn": "啊啊啊啊啊啊！\\n呜呜呜呜呜呜！",
+        "zh_tw": "啊啊啊啊啊啊啊……！\\n嗚嗚嗚嗚嗚嗚嗚……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0034",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa & Zombies",
+        "ja_jp": "メルサ&ゾンビたち",
+        "zh_cn": "梅露莎&僵尸们",
+        "zh_tw": "梅兒莎＆殭屍們"
+      },
+      "context": {
+        "en_us": "NrAaAagH...! UrRRrrGh...!",
+        "ja_jp": "アァァアアァア……！\\nウウウウゥウウウ……！",
+        "zh_cn": "啊啊啊啊啊啊！\\n呜呜呜呜呜呜！",
+        "zh_tw": "啊啊啊啊啊啊啊……！\\n嗚嗚嗚嗚嗚嗚嗚嗚……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0035",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "(Yes! They're buying it!)",
+        "ja_jp": "（うん、バレてない！）",
+        "zh_cn": "（好，没有露馅！）",
+        "zh_tw": "（嗯，沒被發現！）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0036",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "(An exemplary performance,\\nMelsa. I daresay I have never seen a more\\ncompelling zombie.)",
+        "ja_jp": "（<ruby><rb>流石</rb><rt>さすが</rt></ruby>はメルサ<ruby><rb>様</rb><rt>さま</rt></ruby>。\\n　<ruby><rb>惚</rb><rt>ほ</rt></ruby>れ<ruby><rb>惚</rb><rt>ぼ</rt></ruby>れするゾンビっぷりですわ）",
+        "zh_cn": "（真不愧是梅露莎大人。\\n模仿僵尸的样子让我都看入迷了。）",
+        "zh_tw": "（不愧是梅兒莎大人。\\n真是令人著迷的殭屍演技呢。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0037",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "(Yeah, that weird priest turned out to be a\\nsurprisingly good vocal coach...)\\nWHAA?! AKASHA?! Why are YOU here?!",
+        "ja_jp": "（<ruby><rb>司祭</rb><rt>しさい</rt></ruby>さんの<ruby><rb>演技指導</rb><rt>えんぎしどう</rt></ruby>を<ruby><rb>受</rb><rt>う</rt></ruby>けて、\\n　みっちり<ruby><rb>練習</rb><rt>れんしゅう</rt></ruby>しましたから……）\\nって、アカーシャさん!?",
+        "zh_cn": "（毕竟我在祭司的指导下，\\n拼命练习扮演僵尸……）\\n咦，阿加莎！？",
+        "zh_tw": "（因為在祭司先生的演技指導下，\\n我很努力地練習……）\\n咦，阿迦奢小姐！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0038",
+      "book": ""
+    },
+    {
+      "icon": "120202_01",
+      "name": {
+        "en_us": "Zombie",
+        "ja_jp": "ゾンビ",
+        "zh_cn": "僵尸",
+        "zh_tw": "殭屍"
+      },
+      "context": {
+        "en_us": "UrRgh? Nraa...RAAAAAAAGH...!",
+        "ja_jp": "アウ？　ア……アアアアアアア……！",
+        "zh_cn": "啊呜？啊……啊啊啊啊啊啊！",
+        "zh_tw": "啊嗚？啊……啊啊啊啊啊啊啊……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0039",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "They're on to us! What now?!",
+        "ja_jp": "<ruby><rb>気</rb><rt>き</rt></ruby>づかれた！　ど、どうしよう!?",
+        "zh_cn": "暴露了！该、该怎么办！？",
+        "zh_tw": "被發現了！怎、怎麼辦！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0040",
+      "book": ""
+    },
+    {
+      "icon": "120202_01",
+      "name": {
+        "en_us": "SYS",
+        "ja_jp": "SYS",
+        "zh_cn": "SYS",
+        "zh_tw": "SYS"
+      },
+      "context": {
+        "en_us": "Halidom Balcony",
+        "ja_jp": "<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>　バルコニー",
+        "zh_cn": "圣城　露台",
+        "zh_tw": "聖城　露臺"
+      },
+      "voice": "",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Keep those pyroblossoms going up!\\nWe need to keep their attention on us!",
+        "ja_jp": "どんどん<ruby><rb>仙花焔</rb><rt>せんかえん</rt></ruby>を<ruby><rb>打</rb><rt>う</rt></ruby>ち<ruby><rb>上</rb><rt>あ</rt></ruby>げて、\\nゾンビたちを<ruby><rb>引</rb><rt>ひ</rt></ruby>きつけて！",
+        "zh_cn": "继续放仙花焰，\\n把僵尸都引过来！",
+        "zh_tw": "盡量發射仙花焰，\\n吸引殭屍的注意力！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0041",
+      "book": ""
+    },
+    {
+      "icon": "120095_01",
+      "name": {
+        "en_us": "Artisan & Couple",
+        "ja_jp": "職人&カップル",
+        "zh_cn": "工匠&情侣",
+        "zh_tw": "職人＆情侶"
+      },
+      "context": {
+        "en_us": "Right!",
+        "ja_jp": "はい！",
+        "zh_cn": "好！",
+        "zh_tw": "是！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0042",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "(It appears the pyrotechnics have the\\nzombies' rapt attention.)",
+        "ja_jp": "（ゾンビたちの<ruby><rb>注意</rb><rt>ちゅうい</rt></ruby>が\\n　<ruby><rb>仙花焔</rb><rt>せんかえん</rt></ruby>に<ruby><rb>向</rb><rt>む</rt></ruby>けられましたわね）",
+        "zh_cn": "（僵尸们的注意力都被\\n吸引到仙花焰那边去了呢。）",
+        "zh_tw": "（殭屍們的注意力\\n都移到仙花焰上了呢。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0043",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "(Akasha, what are you doing here?\\nAnd HOW are you here?)",
+        "ja_jp": "（ほっ……。アカーシャさん、\\n　どうしてここに？）",
+        "zh_cn": "（呼……阿加莎，\\n你怎么在这里？）",
+        "zh_tw": "（呼……阿迦奢小姐，\\n妳怎麼會在這裡？）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0044",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "(I constructed this costume based on tales\\nof vampires and more than a little magical\\ntechnology, and it grants me their powers.)",
+        "ja_jp": "（<ruby><rb>実</rb><rt>じつ</rt></ruby>はこの<ruby><rb>衣装</rb><rt>いしょう</rt></ruby>、<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>の<ruby><rb>伝承</rb><rt>でんしょう</rt></ruby>を<ruby><rb>参考</rb><rt>さんこう</rt></ruby>に\\n　<ruby><rb>作</rb><rt>つく</rt></ruby>った、<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>の<ruby><rb>能力</rb><rt>のうりょく</rt></ruby>を<ruby><rb>行使</rb><rt>こうし</rt></ruby>できる\\n　<ruby><rb>魔導衣装</rb><rt>まどういしょう</rt></ruby>ですの）",
+        "zh_cn": "（其实这身衣服是根据吸血鬼传说\\n而制作的，是一件能使用\\n吸血鬼能力的魔导衣。）",
+        "zh_tw": "（其實這身服裝，\\n是參考了吸血鬼傳說製成，\\n能夠實際使用吸血鬼能力的魔導衣。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0045",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "(Their kind are said to take the form of\\nmist to hide their presence at night.)",
+        "ja_jp": "（<ruby><rb>吸血鬼</rb><rt>ヴァンパイア</rt></ruby>には<ruby><rb>霧</rb><rt>きり</rt></ruby>に<ruby><rb>変化</rb><rt>へんげ</rt></ruby>し、<ruby><rb>闇夜</rb><rt>やみよ</rt></ruby>に<ruby><rb>隠</rb><rt>かく</rt></ruby>れる\\n　<ruby><rb>能力</rb><rt>のうりょく</rt></ruby>があると<ruby><rb>言</rb><rt>い</rt></ruby>われて<ruby><rb>居</rb><rt>お</rt></ruby>ります）",
+        "zh_cn": "（传闻吸血鬼拥有化为雾气\\n隐匿于暗夜的能力。）",
+        "zh_tw": "（傳說吸血鬼擁有化為煙霧，\\n隱身於暗夜的能力。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0046",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "(These raiments sadly won't transmogrify\\nme into damp weather, but obscuring me\\nfrom observers was a simple matter.)",
+        "ja_jp": "（この<ruby><rb>衣装</rb><rt>いしょう</rt></ruby>では<ruby><rb>霧</rb><rt>きり</rt></ruby>に<ruby><rb>変化</rb><rt>へんげ</rt></ruby>できませんが、\\n　<ruby><rb>気配</rb><rt>けはい</rt></ruby>を<ruby><rb>暗闇</rb><rt>くらやみ</rt></ruby>に<ruby><rb>紛</rb><rt>まぎ</rt></ruby>らわせ、<ruby><rb>相手</rb><rt>あいて</rt></ruby>の<ruby><rb>目</rb><rt>め</rt></ruby>を\\n　<ruby><rb>欺</rb><rt>あざむ</rt></ruby>く<ruby><rb>事</rb><rt>こと</rt></ruby>くらいは<ruby><rb>可能</rb><rt>かのう</rt></ruby>でしてよ）",
+        "zh_cn": "（虽然这身衣服不能让我化为雾气，\\n但能让我的气息与黑暗融为一体，\\n从而骗过对方的耳目。）",
+        "zh_tw": "（雖然這身服裝無法令我化為煙霧，\\n卻能將氣息混入暗夜，\\n騙過對方的眼睛。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0047",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "(So you decided to come back me up?)",
+        "ja_jp": "（それでついて<ruby><rb>来</rb><rt>き</rt></ruby>てくれたんですか？）",
+        "zh_cn": "（所以你就跟过来了吗？）",
+        "zh_tw": "（所以妳才跟我來的嗎？）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0048",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "(Our quarry is controlling the undead with\\na grimoire, so I thought it prudent we bring\\nsomeone versed in magic. Now, onward.)",
+        "ja_jp": "（<ruby><rb>敵</rb><rt>てき</rt></ruby>が<ruby><rb>魔導書</rb><rt>まどうしょ</rt></ruby>でゾンビを<ruby><rb>操</rb><rt>あやつ</rt></ruby>るなら、\\n　<ruby><rb>魔法</rb><rt>まほう</rt></ruby>に<ruby><rb>詳</rb><rt>くわ</rt></ruby>しい<ruby><rb>者</rb><rt>もの</rt></ruby>が<ruby><rb>必要</rb><rt>ひつよう</rt></ruby>でしょうから。\\n　さあ、<ruby><rb>共</rb><rt>とも</rt></ruby>に<ruby><rb>参</rb><rt>まい</rt></ruby>りましょう）",
+        "zh_cn": "（既然敌人会用魔导书操纵僵尸，\\n那肯定需要一个懂魔法的人吧。\\n好了，我们一起走吧。）",
+        "zh_tw": "（我想既然敵人使用魔導書操控殭屍，\\n應該會需要了解魔法的人啊。\\n好了，一道前往吧。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0049",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Um... NraAAaGh...uRrrRRgH...!",
+        "ja_jp": "あ、ァァアアア……ウウウゥウ……！",
+        "zh_cn": "啊、啊啊啊……呜呜呜呜呜！",
+        "zh_tw": "啊、啊啊啊啊啊……嗚嗚嗚嗚嗚……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0050",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "(We finally made it through the castle\\ngates, but there are still a ton of zombies.\\nGotta stay focused!)",
+        "ja_jp": "（やっと<ruby><rb>城門</rb><rt>じょうもん</rt></ruby>を<ruby><rb>抜</rb><rt>ぬ</rt></ruby>けました……。\\n　でも、ここもゾンビがいっぱい。\\n　<ruby><rb>気</rb><rt>き</rt></ruby>を<ruby><rb>引</rb><rt>ひ</rt></ruby>き<ruby><rb>締</rb><rt>し</rt></ruby>めてかからないと！）",
+        "zh_cn": "（终于走出城门了……\\n但这里也有一大群僵尸，\\n千万不能松懈！）",
+        "zh_tw": "（終於穿過城門了……\\n不過這裡也有很多殭屍，\\n得保持警戒行動才行！）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0051",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "NrAaaAgH... UrrRrRGh...!",
+        "ja_jp": "アアアァア……ウウゥウウ……！",
+        "zh_cn": "啊啊啊啊啊……呜呜呜呜呜！",
+        "zh_tw": "啊啊啊啊啊……嗚嗚嗚嗚嗚……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0052",
+      "book": ""
+    },
+    {
+      "icon": "120202_01",
+      "name": {
+        "en_us": "Zombie",
+        "ja_jp": "ゾンビ",
+        "zh_cn": "僵尸",
+        "zh_tw": "殭屍"
+      },
+      "context": {
+        "en_us": "NraAAagh... Grrd...EeeEEveNiing...",
+        "ja_jp": "アアアァア……コンバン、ワ……。",
+        "zh_cn": "啊啊啊啊啊……晚上、好……",
+        "zh_tw": "啊啊啊啊啊……妳、好……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0053",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Grrd EEEeeEeveNIiiiing...!\\n(Okay, am I seriously making small talk\\nwith a zombie right now?)",
+        "ja_jp": "コンバン、ワァァア……！\\n（って、ゾンビがしゃべってる!?）",
+        "zh_cn": "晚上、好啊啊啊！\\n（咦，僵尸说话了！？）",
+        "zh_tw": "你、好啊啊啊……！\\n（呃，殭屍說話了！？）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0054",
+      "book": ""
+    },
+    {
+      "icon": "120202_01",
+      "name": {
+        "en_us": "Zombie",
+        "ja_jp": "ゾンビ",
+        "zh_cn": "僵尸",
+        "zh_tw": "殭屍"
+      },
+      "context": {
+        "en_us": "WarrRr... RAaatiOns...\\nFlaky... TaaAastyyy...",
+        "ja_jp": "<ruby><rb>戦争</rb><rt>せんそう</rt></ruby>……<ruby><rb>炊</rb><rt>た</rt></ruby>キ<ruby><rb>出</rb><rt>だ</rt></ruby>シ……<ruby><rb>粥</rb><rt>かゆ</rt></ruby>……<ruby><rb>美味</rb><rt>うま</rt></ruby>……。",
+        "zh_cn": "战争……救济伙食……\\n粥……美味……",
+        "zh_tw": "戰爭……配膳……粥……好吃……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0055",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "(How very curious. It seems this one\\nretains some small spark of intelligence.)",
+        "ja_jp": "（あら、<ruby><rb>珍</rb><rt>めずら</rt></ruby>しい。わずかながらに\\n　<ruby><rb>知性</rb><rt>ちせい</rt></ruby>が<ruby><rb>残</rb><rt>のこ</rt></ruby>っているようですわね）",
+        "zh_cn": "（哎呀，真难得。\\n居然还残留着些许理智呢。）",
+        "zh_tw": "（哎呀，真罕見。\\n看來還留有些許理智呢。）"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0056",
+      "book": ""
+    },
+    {
+      "icon": "120202_01",
+      "name": {
+        "en_us": "Zombie",
+        "ja_jp": "ゾンビ",
+        "zh_cn": "僵尸",
+        "zh_tw": "殭屍"
+      },
+      "context": {
+        "en_us": "InnteELLi...geeEnce...? HuUUmaN...!\\nGRAaAAAaaAURGH!",
+        "ja_jp": "<ruby><rb>知性</rb><rt>ちせい</rt></ruby>……？　ア……<ruby><rb>見</rb><rt>み</rt></ruby>ツケタァ……！\\n――ウボオォオオォオオオォオッ!!",
+        "zh_cn": "理智？啊……找到你了！\\n嗷嗷嗷嗷嗷嗷嗷嗷嗷！",
+        "zh_tw": "理智……？\\n啊……找到了……！\\n──嗚喔喔喔喔喔喔喔喔喔喔！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0057",
+      "book": ""
+    },
+    {
+      "icon": "120018_01",
+      "name": {
+        "en_us": "Girlfriend",
+        "ja_jp": "カップルの女",
+        "zh_cn": "一对情侣中的女方",
+        "zh_tw": "情侶‧女"
+      },
+      "context": {
+        "en_us": "Oh no! It's drawing the others' attention!\\nThey're swarming for the gates!",
+        "ja_jp": "<ruby><rb>大変</rb><rt>たいへん</rt></ruby>よ！　ゾンビたちが<ruby><rb>叫</rb><rt>さけ</rt></ruby>び<ruby><rb>声</rb><rt>ごえ</rt></ruby>に\\n<ruby><rb>反応</rb><rt>はんのう</rt></ruby>して、<ruby><rb>城門</rb><rt>じょうもん</rt></ruby>に<ruby><rb>殺到</rb><rt>さっとう</rt></ruby>してるわ！",
+        "zh_cn": "不好了！\\n僵尸们被刚才的叫声吸引，\\n正涌向城门那边！",
+        "zh_tw": "不好了！\\n殭屍們被剛剛的叫聲吸引，\\n全都湧向城門那邊了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0058",
+      "book": ""
+    },
+    {
+      "icon": "120095_01",
+      "name": {
+        "en_us": "Peng Lai Artisan",
+        "ja_jp": "ホウライの職人",
+        "zh_cn": "蓬莱工匠",
+        "zh_tw": "蓬萊的職人"
+      },
+      "context": {
+        "en_us": "And we're all out of pyroblossoms!",
+        "ja_jp": "<ruby><rb>仙花焔</rb><rt>せんかえん</rt></ruby>の<ruby><rb>玉</rb><rt>たま</rt></ruby>、もうありません！",
+        "zh_cn": "仙花焰已经放完了！",
+        "zh_tw": "已經沒有仙花焰球了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0059",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Good thing I've still got arrows! HRAAAH!",
+        "ja_jp": "<ruby><rb>行</rb><rt>い</rt></ruby>かせるものか！　\\nここから<ruby><rb>弓矢</rb><rt>ゆみや</rt></ruby>で――てやああっ!!",
+        "zh_cn": "怎么能放它们过去！\\n那就用箭——看招！",
+        "zh_tw": "才不會讓你們去呢！\\n接下來就看我的弓箭──嘿呀啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0060",
+      "book": ""
+    },
+    {
+      "icon": "100029_01",
+      "name": {
+        "en_us": "Sarisse",
+        "ja_jp": "シーリス",
+        "zh_cn": "希里丝",
+        "zh_tw": "西莉絲"
+      },
+      "context": {
+        "en_us": "Th-they're not stopping!",
+        "ja_jp": "ダメ！　<ruby><rb>動</rb><rt>うご</rt></ruby>きを<ruby><rb>止</rb><rt>と</rt></ruby>められない……！",
+        "zh_cn": "没用！阻止不了它们！",
+        "zh_tw": "不行！沒辦法阻止它們行動……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0061",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "Acting isn't going to get us through\\nthis one... Yah! Hah! Hraaah!",
+        "ja_jp": "ゾンビのふりが<ruby><rb>効</rb><rt>き</rt></ruby>かない……！\\nえいっ！　やあっ！　はあっ！",
+        "zh_cn": "装成僵尸不管用了！\\n嘿！呀啊！哈啊！",
+        "zh_tw": "裝成殭屍也沒用……！\\n嘿！呀！喝啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0062",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "This outfit's cloaking effects cannot fool\\nso many eyes at once...",
+        "ja_jp": "<ruby><rb>大勢</rb><rt>おおぜい</rt></ruby>に<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>囲</rb><rt>かこ</rt></ruby>まれてしまっては、\\nこの<ruby><rb>衣装</rb><rt>いしょう</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>は<ruby><rb>使</rb><rt>つか</rt></ruby>えませんわねぇ……。",
+        "zh_cn": "被这么多僵尸包围的话，\\n这身衣服也没法\\n发挥其力量了……",
+        "zh_tw": "被如此大量的殭屍圍堵，\\n這身服裝的力量也無法施展了呢……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0063",
+      "book": ""
+    },
+    {
+      "icon": "120202_01",
+      "name": {
+        "en_us": "Zombie",
+        "ja_jp": "ゾンビ",
+        "zh_cn": "僵尸",
+        "zh_tw": "殭屍"
+      },
+      "context": {
+        "en_us": "HooOostagesss... Foorr mYyy fAamilyy...\\nNraAAaaaAH!",
+        "ja_jp": "<ruby><rb>人質</rb><rt>ひとじち</rt></ruby>……<ruby><rb>家族</rb><rt>かぞく</rt></ruby>ノ、タメ……。\\n……ガアアアアアアアッ!!",
+        "zh_cn": "人质……为了、家人……\\n嗷啊啊啊啊啊啊啊！",
+        "zh_tw": "人質……為了、家人……\\n……嘎啊啊啊啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0064",
+      "book": ""
+    },
+    {
+      "icon": "110270_02",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "We're done for!",
+        "ja_jp": "ダメ！　やられる……！",
+        "zh_cn": "不行了！顶不住了！",
+        "zh_tw": "不行！要被攻擊了……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0065",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "No we ain't! Raaaagh!",
+        "ja_jp": "やらせるかよ！　おらああああッ!!",
+        "zh_cn": "休想得逞！喝啊！",
+        "zh_tw": "休想得逞！喔啊啊啊啊啊！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0066",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "YOU?!",
+        "ja_jp": "っ！　あ、あなたたちは……!?",
+        "zh_cn": "嗯！你、你们是！？",
+        "zh_tw": "咦！你、你們是……！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0067",
+      "book": ""
+    },
+    {
+      "icon": "120033_01",
+      "name": {
+        "en_us": "Hoodlum with a Shaved Head",
+        "ja_jp": "ヤンキー（坊主）",
+        "zh_cn": "小混混（光头）",
+        "zh_tw": "不良（光頭）"
+      },
+      "context": {
+        "en_us": "This means we're square, lady.\\nNow leave these uglies to us and go!",
+        "ja_jp": "これで<ruby><rb>貸</rb><rt>か</rt></ruby>し<ruby><rb>借</rb><rt>か</rt></ruby>りはナシだぜ、<ruby><rb>嬢</rb><rt>じょう</rt></ruby>ちゃん。\\nここは<ruby><rb>俺</rb><rt>おれ</rt></ruby><ruby><rb>様</rb><rt>さま</rt></ruby>たちに<ruby><rb>任</rb><rt>まか</rt></ruby>せて、<ruby><rb>先</rb><rt>さき</rt></ruby>に<ruby><rb>行</rb><rt>い</rt></ruby>きな。",
+        "zh_cn": "小姑娘，\\n这下欠你的人情就还清了。\\n这儿就交给我们，你快走吧。",
+        "zh_tw": "這下就扯平囉，小丫頭。\\n這裡交給我們，妳們快走吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0068",
+      "book": ""
+    },
+    {
+      "icon": "120032_01",
+      "name": {
+        "en_us": "Hoodlum with a Mohawk",
+        "ja_jp": "ヤンキー（モヒカン）",
+        "zh_cn": "小混混（莫西干头）",
+        "zh_tw": "不良（雞冠頭）"
+      },
+      "context": {
+        "en_us": "C'mon, you walkin' stick of jerky!\\nYou're dealing with me and my bro now!",
+        "ja_jp": "ヒャッハー！　ゾンビども！\\n<ruby><rb>兄</rb><rt>あに</rt></ruby>ィと<ruby><rb>俺</rb><rt>おれ</rt></ruby>が<ruby><rb>相手</rb><rt>あいて</rt></ruby>だぜ！",
+        "zh_cn": "嘿！僵尸们！\\n我和大哥来陪你们玩玩！",
+        "zh_tw": "呀、哈──！\\n殭屍們！就由老哥跟我來對付你們！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0069",
+      "book": ""
+    },
+    {
+      "icon": "120033_01",
+      "name": {
+        "en_us": "Hoodlum with a Shaved Head",
+        "ja_jp": "ヤンキー（坊主）",
+        "zh_cn": "小混混（光头）",
+        "zh_tw": "不良（光頭）"
+      },
+      "context": {
+        "en_us": "If you dead idiots are that hungry,\\nyou can all eat my FISTS!",
+        "ja_jp": "ここに<ruby><rb>特上</rb><rt>とくじょう</rt></ruby>のおやつがあるぞ！\\nどっからでも<ruby><rb>齧</rb><rt>かじ</rt></ruby>りやがれ！　<ruby><rb>死体</rb><rt>したい</rt></ruby>ども!!",
+        "zh_cn": "我这儿可是有高级的点心！\\n你们这群尸体！\\n想吃就放马过来吧！",
+        "zh_tw": "我這邊有最高級的點心喔！\\n要咬哪裡都隨便你們啦！這些屍體！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0070",
+      "book": ""
+    },
+    {
+      "icon": "120032_01",
+      "name": {
+        "en_us": "Hoodlums",
+        "ja_jp": "ヤンキーたち",
+        "zh_cn": "小混混们",
+        "zh_tw": "不良們"
+      },
+      "context": {
+        "en_us": "RAAAAAAAAAGH!",
+        "ja_jp": "うおおおおおおおおおっ!!",
+        "zh_cn": "喝啊啊啊啊啊啊啊啊啊！",
+        "zh_tw": "唔喔喔喔喔喔喔喔喔喔！！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0071",
+      "book": ""
+    },
+    {
+      "icon": "110270_02",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "They're surrounded! We have to help them!",
+        "ja_jp": "ゾンビたちに<ruby><rb>囲</rb><rt>かこ</rt></ruby>まれて……！\\nふたりを<ruby><rb>助</rb><rt>たす</rt></ruby>けないと！",
+        "zh_cn": "他们被僵尸包围了！\\n得去救他们！",
+        "zh_tw": "他們被殭屍包圍了……！\\n得去幫忙才行！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0072",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "There is little we can do for them now.\\nCome, we must make haste.",
+        "ja_jp": "あの<ruby><rb>有様</rb><rt>ありさま</rt></ruby>ではできる<ruby><rb>事</rb><rt>こと</rt></ruby>は<ruby><rb>御座</rb><rt>ござ</rt></ruby>いません。\\nそれよりも<ruby><rb>先</rb><rt>さき</rt></ruby>を<ruby><rb>急</rb><rt>いそ</rt></ruby>ぎましょう。",
+        "zh_cn": "现在这情况我们也无能为力，\\n还是快点赶路吧。",
+        "zh_tw": "那個情況我們無法幫上任何忙。\\n比起這個，還是抓緊時間趕路吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0073",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "But—!",
+        "ja_jp": "でも……！",
+        "zh_cn": "可是……",
+        "zh_tw": "可是……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0074",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "They came to your aid knowing full well\\nthe fate which awaited them.",
+        "ja_jp": "<ruby><rb>彼等</rb><rt>かれら</rt></ruby>はこうなる<ruby><rb>事</rb><rt>こと</rt></ruby>を<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>の<ruby><rb>上</rb><rt>うえ</rt></ruby>で\\nメルサ<ruby><rb>様</rb><rt>さま</rt></ruby>をお<ruby><rb>助</rb><rt>たす</rt></ruby>けしたのでしょう。",
+        "zh_cn": "他们赶来帮助梅露莎大人，\\n想必是做好觉悟了吧。",
+        "zh_tw": "他們想必是做好會演變成這樣的覺悟，\\n才決定去幫忙梅兒莎大人的吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0075",
+      "book": ""
+    },
+    {
+      "icon": "110341_03",
+      "name": {
+        "en_us": "Akasha",
+        "ja_jp": "アカーシャ",
+        "zh_cn": "阿加莎",
+        "zh_tw": "阿迦奢"
+      },
+      "context": {
+        "en_us": "Is wasting this chance and making their\\nsacrifice for naught not the crueler choice?",
+        "ja_jp": "ならば、お<ruby><rb>心遣</rb><rt>こころづか</rt></ruby>いを<ruby><rb>無駄</rb><rt>むだ</rt></ruby>にする<ruby><rb>方</rb><rt>ほう</rt></ruby>が\\n<ruby><rb>酷</rb><rt>こく</rt></ruby>というもので<ruby><rb>御座</rb><rt>ござ</rt></ruby>いましょう？",
+        "zh_cn": "要是辜负了他们的心意，\\n岂不是更残忍？",
+        "zh_tw": "既然如此，\\n將兩位的心意白白浪費不是更殘酷嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0076",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "...Fine.",
+        "ja_jp": "……っ！　…………わかりました。",
+        "zh_cn": "我明白了……",
+        "zh_tw": "……！\\n…………我知道了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0077",
+      "book": ""
+    },
+    {
+      "icon": "110270_03",
+      "name": {
+        "en_us": "Melsa",
+        "ja_jp": "メルサ",
+        "zh_cn": "梅露莎",
+        "zh_tw": "梅兒莎"
+      },
+      "context": {
+        "en_us": "I'm so sorry, you two... But thank you.",
+        "ja_jp": "ふたりとも、ごめんなさい……。\\nそして……ありがとうございます。",
+        "zh_cn": "二位，抱歉了……\\n还有……谢谢你们。",
+        "zh_tw": "兩位，對不起……\\n還有……謝謝你們。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22205_03_0078",
+      "book": ""
+    }
+  ]
 }

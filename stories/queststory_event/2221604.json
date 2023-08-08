@@ -1,674 +1,1275 @@
 {
-    "story_id": "",
-    "story_name": "防卫战～幽囚之困·龙眸轨迹～ 奉此身之价值",
-    "story_icon": "",
-    "outline": {
-        "title": [
-            "剧情概要"
-        ],
-        "content": [
-            "法尔吉德击退龙锁兵，但是杰克\\n挡住了他的去路。此时杰克竟已\\n成为了“结社”的干部候补“军士长”！\\n面对一败涂地的法尔吉德，\\n格蕾丝劝他要考虑清楚战斗的意义。"
-        ]
+  "title": {
+    "en_us": "Shackles of the Syndicate    The Value of Sacrifice",
+    "ja_jp": "防衛戦～幽囚は続く、竜眼の軌跡～  その身に捧げる価値は",
+    "zh_cn": "防卫战～幽囚之困·龙眸轨迹～  奉此身之价值",
+    "zh_tw": "防衛戰～幽囚依舊‧龍瞳之軌跡～  獻身的價值"
+  },
+  "outline": {
+    "title": {
+      "en_us": [
+        "Summary"
+      ],
+      "ja_jp": [
+        "この話のあらすじ"
+      ],
+      "zh_cn": [
+        "剧情概要"
+      ],
+      "zh_tw": [
+        "劇情概要"
+      ]
     },
-    "story_content": [
-        {
-            "speaker_id": [
-                "110393_01"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "哈啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0001",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120238_01"
-            ],
-            "speaker_name": "龙锁兵",
-            "context": "唔、唔噢噢噢噢！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0002",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120238_01"
-            ],
-            "speaker_name": "龙锁兵",
-            "context": "怎、怎么可能……\\n为什么打不赢……\\n他不是失败之作吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0003",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_01"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "哈啊、哈啊、哈啊……\\n怎么样，乖乖离开\\n这村子的话，我就停止攻击！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0004",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_01"
-            ],
-            "speaker_name": "？？？",
-            "context": "原来如此……也许与其说他\\n是失败之作，不如说是个异类。\\n难怪研究员们对他有兴趣。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0005",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_01"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "来帮手了吗！不管是谁，\\n敢伤害大家的话……诶！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0006",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "法尔吉德，好久不见啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0007",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_01"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "杰克！？是杰克吗！？\\n原来你还活着啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0008",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "嗯。看来我的运气还不差。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0009",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_01"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "是吗……\\n那阿德尔潘也没事！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0010",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "……\\n你要是想知道他的情况，\\n就答应我一个条件。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0011",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_01"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "条件？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0012",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "法尔吉德，跟我走吧。\\n“结社”现在对你异乎寻常的\\n力量很感兴趣。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0013",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "如果现在和我走，\\n他们不会把你当成叛徒，\\n而是会把你当成同志接纳你。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0014",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_01"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "你是说让我加入“结社”吗？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0015",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "没错，只要你来我们这边，\\n你也能从受人支配\\n变为支配他人的立场。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0016",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_01"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "你在说什么！我拒绝，杰克！\\n我要保护大家免受“结社”迫害。\\n我的心意已决。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0017",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "心意已决？别逗我了。\\n你什么都没决定，\\n不管是以前，还是现在……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0018",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "不过，算了。\\n要是你拒绝“结社”，\\n把你当叛徒处理了便是。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0019",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_01"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "杰克！倒是你，\\n尽早离开“结社”吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0020",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "法尔吉德，不要再用\\n那个名字叫我。我已经\\n因“结社”而重获新生了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0021",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_02"
-            ],
-            "speaker_name": "杰克",
-            "context": "来吧，巴巴托斯B组件！\\n“龙锁装填”！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0022",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_01"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "难道——",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0023",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_01"
-            ],
-            "speaker_name": "“军士长”",
-            "context": "我是统管龙锁兵的“结社”\\n干部候补——“军士长”！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0024",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_01"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "干部候补？“军士长”？\\n你吗……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0025",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_01"
-            ],
-            "speaker_name": "巴比",
-            "context": "喂，法尔吉德！\\n别愣着！他要来了！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0026",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_01"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "呃……住、住手，杰克！\\n我……不想和你对战！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0027",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_01"
-            ],
-            "speaker_name": "“军士长”",
-            "context": "法尔吉德，你还是那么天真啊。\\n所以你什么都保护不了。\\n不管是别人还是自己的命！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0028",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_01"
-            ],
-            "speaker_name": "巴比",
-            "context": "你适可而止啊，法尔吉德！\\n我可不想给你陪葬！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0029",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_01"
-            ],
-            "speaker_name": "“军士长”",
-            "context": "你的B组件似乎话还挺多。\\n莫非B组件形成自我人格\\n就是造成你异常的原因？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0030",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_01"
-            ],
-            "speaker_name": "“军士长”",
-            "context": "有趣，把那B组件带回去的话，\\n那帮研究员应该会很高兴吧。\\n可别想跑！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0031",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "他要来了！\\n快下决心，法尔吉德！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0032",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_01"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "呃……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0033",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_01"
-            ],
-            "speaker_name": "全员",
-            "context": "唔啊啊啊啊啊啊！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0034",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "唔、唔唔……好强大……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0035",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_01"
-            ],
-            "speaker_name": "“军士长”",
-            "context": "呵，看来我这个调整成\\n干部专用的“龙锁”比你这个\\n异类的力量更胜一筹啊。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0036",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_01"
-            ],
-            "speaker_name": "“军士长”",
-            "context": "好了，B组件就归我了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0037",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120223_01"
-            ],
-            "speaker_name": "巴比",
-            "context": "该、该死！\\n放开我……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0038",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "住手，杰克！\\n放开巴比！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0039",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_01",
-                "120223_01"
-            ],
-            "speaker_name": "“军士长”",
-            "context": "很遗憾，B组件已经到手，\\n你也就没用了。\\n和那个叛徒研究员一起消失吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0040",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120238_01"
-            ],
-            "speaker_name": "龙锁兵",
-            "context": "“军士长”，\\n剩下的交给我们吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0041",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_01",
-                "120223_01"
-            ],
-            "speaker_name": "“军士长”",
-            "context": "好吧，一定要干掉他们。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0042",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120238_01"
-            ],
-            "speaker_name": "龙锁兵",
-            "context": "嗯，当然。呵呵呵……\\n你们这些叛徒，受死吧。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0043",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0044",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "格、格蕾丝，\\n我来拖延时间，\\n至少得让你能逃走……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0045",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120238_01"
-            ],
-            "speaker_name": "龙锁兵",
-            "context": "蠢货，你没有了龙甲，\\n还怎么拖延时间。\\n看我立刻灭了你！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0046",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "呃……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0047",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "幽闭之怒龙，受诅之业龙，\\n挣脱禁忌之枷锁，\\n释放愤怒之咆哮吧！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0048",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120238_01"
-            ],
-            "speaker_name": "龙锁兵",
-            "context": "怎么回事！？手臂不受控制……\\n有什么东西在我体内翻腾！\\n唔、唔……唔啊啊啊啊啊！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0049",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "210083_01"
-            ],
-            "speaker_name": "龙锁兵",
-            "context": "咕嗷嗷嗷嗷嗷！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0050",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "120237_01"
-            ],
-            "speaker_name": "“军士长”",
-            "context": "呃……难道是“龙锁”失控了！？\\n我们和融合型不同，应该不会这样……\\n是那个叛徒研究员搞的鬼吗！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0051",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "抱歉……虽然不想用这招，\\n但我也是迫不得已。\\n法尔吉德，趁现在快跑！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0052",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "但、但是……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0053",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "就算你留下来也无济于事！\\n快点！",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0054",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "他们似乎没追上来……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0055",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0056",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "法尔吉德……我们就此别过吧，\\n你回圣城去。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0057",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "诶？为、为什么！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0058",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "因为我认为\\n不能让你继续战斗了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0059",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "是因为……巴比被夺走了吗？\\n的确，没有巴比的话\\n我不具备什么战斗力……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0060",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "但是，一定有什么是现在的我\\n也能做到的。就算是当\\n人肉护盾我也愿意。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0061",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "这就是我不能\\n让你参战的首要原因。\\n你太不顾惜自己了。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0062",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "这……我很抱歉\\n让你担心了……但是，\\n无论如何我都想救大家……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0063",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "不对，你不是想救人，\\n而是想通过救人牺牲自我。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0064",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "！？",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0065",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "你对自己活着感到愧疚。\\n有一种别人成为了牺牲品，\\n自己却活下来了的罪恶感。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0066",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "说白了，你就是想寻死。\\n通过替别人死\\n来洗清自己的罪恶感。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0067",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "怎么会……没那回事……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0068",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "我明白的……\\n因为，我也曾和你一样。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0069",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "诶……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0070",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "总之，我不能\\n带现在的你去敌营。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0071",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110059_02"
-            ],
-            "speaker_name": "格蕾丝",
-            "context": "如果你今后也要继续对抗“结社”，\\n就好好考虑一下你战斗的理由。\\n还有，你活着的理由。",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0072",
-            "book_image": ""
-        },
-        {
-            "speaker_id": [
-                "110393_02"
-            ],
-            "speaker_name": "法尔吉德",
-            "context": "……\\n我……战斗的理由……",
-            "voice_line": "VO_CHR_EVENTSTORY_22216_04_0073",
-            "book_image": ""
-        }
-    ]
+    "content": {
+      "en_us": "After Farren repels the wyrmbound soldiers,\\nJake suddenly appears to bar his way and\\nreveals he is now a candidate for promotion\\nwithin the Syndicate. After meeting with a\\ncrushing defeat, Grace advises Farren to think\\nabout the reasons for why he fights.",
+      "ja_jp": "<ruby><rb>竜鎖兵</rb><rt>ギアスへい</rt></ruby>を<ruby><rb>退</rb><rt>しりぞ</rt></ruby>けるファルギルトだが、その<ruby><rb>前</rb><rt>まえ</rt></ruby>に\\nジェイクが<ruby><rb>立</rb><rt>た</rt></ruby>ち<ruby><rb>塞</rb><rt>ふさ</rt></ruby>がる。なんとジェイクは、\\n<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>の<ruby><rb>幹部</rb><rt>かんぶ</rt></ruby><ruby><rb>候補</rb><rt>こうほ</rt></ruby><ruby><rb>『兵長』</rb><rt>コマンダント</rt></ruby>となっていた！\\n<ruby><rb>一敗地</rb><rt>いっぱいち</rt></ruby>に<ruby><rb>塗</rb><rt>まみ</rt></ruby>れたファルギルトは、<ruby><rb>戦</rb><rt>たたか</rt></ruby>う<ruby><rb>意味</rb><rt>いみ</rt></ruby>を\\n<ruby><rb>考</rb><rt>かんが</rt></ruby>えろとグレースから<ruby><rb>諭</rb><rt>さと</rt></ruby>されるのだった。",
+      "zh_cn": "法尔吉德击退龙锁兵，但是杰克\\n挡住了他的去路。此时杰克竟已\\n成为了“结社”的干部候补“军士长”！\\n面对一败涂地的法尔吉德，\\n格蕾丝劝他要考虑清楚战斗的意义。",
+      "zh_tw": "法爾杰托雖然擊退了龍鎖兵，但捷伊克\\n卻又阻擋在前。這時的捷伊克，\\n居然已是「結社」的幹部候補「兵長」！\\n法爾杰托在一敗塗地後，\\n被葛雷絲要求思考戰鬥的意義。"
+    }
+  },
+  "prev": "2221603",
+  "next": "2221605",
+  "content": [
+    {
+      "icon": "110393_01",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Haaah!",
+        "ja_jp": "はああああああっ！",
+        "zh_cn": "哈啊啊啊啊啊啊！",
+        "zh_tw": "喝啊啊啊啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0001",
+      "book": ""
+    },
+    {
+      "icon": "120238_01",
+      "name": {
+        "en_us": "Wyrmbound Soldier",
+        "ja_jp": "竜鎖兵",
+        "zh_cn": "龙锁兵",
+        "zh_tw": "龍鎖兵"
+      },
+      "context": {
+        "en_us": "Graaaaagh!",
+        "ja_jp": "う、うおおおおっ!?",
+        "zh_cn": "唔、唔噢噢噢噢！？",
+        "zh_tw": "唔、唔喔喔喔喔！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0002",
+      "book": ""
+    },
+    {
+      "icon": "120238_01",
+      "name": {
+        "en_us": "Wyrmbound Soldier",
+        "ja_jp": "竜鎖兵",
+        "zh_cn": "龙锁兵",
+        "zh_tw": "龍鎖兵"
+      },
+      "context": {
+        "en_us": "Madness! How could we be defeated by\\na failure like him?!",
+        "ja_jp": "ば、<ruby><rb>馬鹿</rb><rt>ばか</rt></ruby>な……なぜ、<ruby><rb>勝</rb><rt>か</rt></ruby>てない……\\nやつは<ruby><rb>失敗作</rb><rt>しっぱいさく</rt></ruby>ではなかったのか……。",
+        "zh_cn": "怎、怎么可能……\\n为什么打不赢……\\n他不是失败之作吗……",
+        "zh_tw": "豈、豈有此理……為什麼，贏不了……\\n那傢伙不是失敗作嗎……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0003",
+      "book": ""
+    },
+    {
+      "icon": "110393_01",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "*pant* *pant* How's that feel?\\nNow if you agree to get out of the village\\nand never come back, I'll let you go.",
+        "ja_jp": "はあ、はあ、はあ……どうだ、\\n<ruby><rb>大人</rb><rt>おとな</rt></ruby>しく<ruby><rb>村</rb><rt>むら</rt></ruby>から<ruby><rb>手</rb><rt>て</rt></ruby>を<ruby><rb>引</rb><rt>ひ</rt></ruby>くなら、\\nこれ<ruby><rb>以上</rb><rt>いじょう</rt></ruby>は<ruby><rb>攻撃</rb><rt>こうげき</rt></ruby>しない……！",
+        "zh_cn": "哈啊、哈啊、哈啊……\\n怎么样，乖乖离开\\n这村子的话，我就停止攻击！",
+        "zh_tw": "呼、呼、呼……怎麼樣，\\n如果你們乖乖離開村子，\\n我就不再攻擊你們……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0004",
+      "book": ""
+    },
+    {
+      "icon": "110393_01",
+      "name": {
+        "en_us": "???",
+        "ja_jp": "？？？",
+        "zh_cn": "？？？",
+        "zh_tw": "？？？"
+      },
+      "context": {
+        "en_us": "Less a failure and more an irregularity...\\nI can see why our researchers were so\\ninterested in you.",
+        "ja_jp": "なるほど……<ruby><rb>失敗作</rb><rt>しっぱいさく</rt></ruby>というより、\\nイレギュラーと<ruby><rb>言</rb><rt>い</rt></ruby>うべきか。\\n<ruby><rb>研究者</rb><rt>けんきゅうしゃ</rt></ruby>たちが<ruby><rb>興味</rb><rt>きょうみ</rt></ruby>をもつのもわかる。",
+        "zh_cn": "原来如此……也许与其说他\\n是失败之作，不如说是个异类。\\n难怪研究员们对他有兴趣。",
+        "zh_tw": "原來如此……\\n與其說是失敗作，不如說是特例嗎。\\n能理解為何那些研究者會感興趣了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0005",
+      "book": ""
+    },
+    {
+      "icon": "110393_01",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "I don't know who you are, but if you think\\nyou're gonna hurt anyone else, you can...\\nWhat?!",
+        "ja_jp": "――っ！　<ruby><rb>新手</rb><rt>あらて</rt></ruby>か！　<ruby><rb>誰</rb><rt>だれ</rt></ruby>が<ruby><rb>来</rb><rt>こ</rt></ruby>ようが\\nみんなを<ruby><rb>傷</rb><rt>きず</rt></ruby>つけるなら……えっ!?",
+        "zh_cn": "来帮手了吗！不管是谁，\\n敢伤害大家的话……诶！？",
+        "zh_tw": "──！是增援嗎！不論來的是誰，\\n只要想傷害大家……咦！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0006",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "Hey there, little duck.",
+        "ja_jp": "ひさしぶりだな、ファルギルト。",
+        "zh_cn": "法尔吉德，好久不见啊。",
+        "zh_tw": "好久不見呢，法爾杰托。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0007",
+      "book": ""
+    },
+    {
+      "icon": "110393_01",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Jake! You're alive!",
+        "ja_jp": "ジェイク!?　ジェイクなのか!?\\n<ruby><rb>生</rb><rt>い</rt></ruby>きていたのか……！",
+        "zh_cn": "杰克！？是杰克吗！？\\n原来你还活着啊！",
+        "zh_tw": "捷伊克！？是捷伊克嗎！？\\n原來你還活著……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0008",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "And kicking. Seems like Lady Luck hasn't\\ngotten tired of me just yet.",
+        "ja_jp": "ああ。どうやらオレの<ruby><rb>運</rb><rt>うん</rt></ruby>も\\n<ruby><rb>捨</rb><rt>す</rt></ruby>てたものじゃないらしい。",
+        "zh_cn": "嗯。看来我的运气还不差。",
+        "zh_tw": "是啊，看來我的運氣還算不差。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0009",
+      "book": ""
+    },
+    {
+      "icon": "110393_01",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "So what about Aldred?! Is he okay?!",
+        "ja_jp": "そうか……。\\nじゃあ、アデルペインさんも!?",
+        "zh_cn": "是吗……\\n那阿德尔潘也没事！？",
+        "zh_tw": "是嗎……\\n那麼，阿戴爾潘因先生也還活著！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0010",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "Oh, I can fill you in on all of that...\\nbut there are going to be some conditions.",
+        "ja_jp": "…………。\\nやつがどうなったのか<ruby><rb>知</rb><rt>し</rt></ruby>りたければ\\n<ruby><rb>条件</rb><rt>じょうけん</rt></ruby>がある。",
+        "zh_cn": "……\\n你要是想知道他的情况，\\n就答应我一个条件。",
+        "zh_tw": "…………\\n如果想知道那傢伙變得怎樣，\\n就接受我的條件。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0011",
+      "book": ""
+    },
+    {
+      "icon": "110393_01",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Huh?",
+        "ja_jp": "<ruby><rb>条件</rb><rt>じょうけん</rt></ruby>……？",
+        "zh_cn": "条件？",
+        "zh_tw": "條件……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0012",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "I need you to come with me, Farren.\\nThe Syndicate has a tremendous amount\\nof interest in your irregular powers.",
+        "ja_jp": "オレと<ruby><rb>共</rb><rt>とも</rt></ruby>に<ruby><rb>来</rb><rt>こ</rt></ruby>い、ファルギルト。\\n<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>は<ruby><rb>今</rb><rt>いま</rt></ruby>、お<ruby><rb>前</rb><rt>まえ</rt></ruby>のイレギュラーな\\n<ruby><rb>力</rb><rt>ちから</rt></ruby>に<ruby><rb>興味</rb><rt>きょうみ</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>っている。",
+        "zh_cn": "法尔吉德，跟我走吧。\\n“结社”现在对你异乎寻常的\\n力量很感兴趣。",
+        "zh_tw": "跟我走吧，法爾杰托。\\n「結社」現在對你那特例的力量\\n非常感興趣。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0013",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "I give you my word you won't be treated as\\na traitor, but instead welcomed back as a\\nlike-minded comrade.",
+        "ja_jp": "<ruby><rb>今</rb><rt>いま</rt></ruby>なら、<ruby><rb>裏切</rb><rt>うらぎ</rt></ruby>り<ruby><rb>者</rb><rt>もの</rt></ruby>としてではなく、\\n<ruby><rb>同志</rb><rt>どうし</rt></ruby>として<ruby><rb>迎</rb><rt>むか</rt></ruby>え<ruby><rb>入</rb><rt>い</rt></ruby>れられる。",
+        "zh_cn": "如果现在和我走，\\n他们不会把你当成叛徒，\\n而是会把你当成同志接纳你。",
+        "zh_tw": "現在的話，\\n可以不當你是背叛者，\\n而是以同志的身分迎接你。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0014",
+      "book": ""
+    },
+    {
+      "icon": "110393_01",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "So you want me to join the Syndicate?",
+        "ja_jp": "おれに<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>に<ruby><rb>入</rb><rt>はい</rt></ruby>れって<ruby><rb>言</rb><rt>い</rt></ruby>うのか？",
+        "zh_cn": "你是说让我加入“结社”吗？",
+        "zh_tw": "你是要我加入「結社」嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0015",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "That's right. C'mon, don't you want to be\\npart of the side that's in control for once?",
+        "ja_jp": "そうだ。こちら<ruby><rb>側</rb><rt>がわ</rt></ruby>に<ruby><rb>来</rb><rt>く</rt></ruby>れば、お<ruby><rb>前</rb><rt>まえ</rt></ruby>も\\n<ruby><rb>支配</rb><rt>しはい</rt></ruby>される<ruby><rb>側</rb><rt>がわ</rt></ruby>からする<ruby><rb>側</rb><rt>がわ</rt></ruby>になる\\nことができるぞ。",
+        "zh_cn": "没错，只要你来我们这边，\\n你也能从受人支配\\n变为支配他人的立场。",
+        "zh_tw": "沒錯。只要到了我們這邊，\\n你也能從被支配者轉變為支配者喔。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0016",
+      "book": ""
+    },
+    {
+      "icon": "110393_01",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "No! I've chosen to PROTECT people from\\nthe Syndicate!",
+        "ja_jp": "なんてことを……！　お<ruby><rb>断</rb><rt>ことわ</rt></ruby>りだ、\\nジェイク！　おれは<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>から\\nみんなを<ruby><rb>守</rb><rt>まも</rt></ruby>る。そう<ruby><rb>決</rb><rt>き</rt></ruby>めたんだ。",
+        "zh_cn": "你在说什么！我拒绝，杰克！\\n我要保护大家免受“结社”迫害。\\n我的心意已决。",
+        "zh_tw": "你在說什麼……！我拒絕，捷伊克！\\n我早就決定好了，\\n要從「結社」的魔掌中守護大家。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0017",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "Chose? You haven't chosen anything\\nduring this entire process, little duck.",
+        "ja_jp": "<ruby><rb>決</rb><rt>き</rt></ruby>めた……？　<ruby><rb>笑</rb><rt>わら</rt></ruby>わせるな。\\nお<ruby><rb>前</rb><rt>まえ</rt></ruby>は<ruby><rb>何</rb><rt>なに</rt></ruby>も<ruby><rb>決</rb><rt>き</rt></ruby>めちゃいない。\\n<ruby><rb>以前</rb><rt>いぜん</rt></ruby>からずっとな……。",
+        "zh_cn": "心意已决？别逗我了。\\n你什么都没决定，\\n不管是以前，还是现在……",
+        "zh_tw": "決定……？少開玩笑了。\\n你什麼都決定不了，\\n從以前就一直如此……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0018",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "Ah, well. If you're going to refuse our most\\ngenerous offer, we'll just have to treat you\\nas the traitor you are.",
+        "ja_jp": "まあ、いい。<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>を<ruby><rb>拒絶</rb><rt>きょぜつ</rt></ruby>するなら\\n<ruby><rb>裏切</rb><rt>うらぎ</rt></ruby>り<ruby><rb>者</rb><rt>もの</rt></ruby>として<ruby><rb>対処</rb><rt>たいしょ</rt></ruby>するだけのこと。",
+        "zh_cn": "不过，算了。\\n要是你拒绝“结社”，\\n把你当叛徒处理了便是。",
+        "zh_tw": "不過，算了。\\n既然你要拒絕「結社」，\\n那就把你當作背叛者來處置即可。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0019",
+      "book": ""
+    },
+    {
+      "icon": "110393_01",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Jake, stop! You don't have to do this!",
+        "ja_jp": "ジェイク！　お<ruby><rb>前</rb><rt>まえ</rt></ruby>こそ、<ruby><rb>早</rb><rt>はや</rt></ruby>く<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>\\nから<ruby><rb>離</rb><rt>はな</rt></ruby>れるんだ！",
+        "zh_cn": "杰克！倒是你，\\n尽早离开“结社”吧！",
+        "zh_tw": "捷伊克！\\n你才應該趕快離開「結社」！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0020",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "Jake? I don't even know that name\\nanymore...for I have been reborn\\nin the light of the Syndicate!",
+        "ja_jp": "ファルギルト。もうオレをその<ruby><rb>名</rb><rt>な</rt></ruby>で\\n<ruby><rb>呼</rb><rt>よ</rt></ruby>ぶのはやめろ。オレは<ruby><rb>生</rb><rt>う</rt></ruby>まれ\\n<ruby><rb>変</rb><rt>か</rt></ruby>わったんだ。<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>によってな！",
+        "zh_cn": "法尔吉德，不要再用\\n那个名字叫我。我已经\\n因“结社”而重获新生了！",
+        "zh_tw": "法爾杰托，不要再用那名字叫我了。\\n我已經重生了，\\n而這都要歸功於「結社」！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0021",
+      "book": ""
+    },
+    {
+      "icon": "120237_02",
+      "name": {
+        "en_us": "Jake",
+        "ja_jp": "ジェイク",
+        "zh_cn": "杰克",
+        "zh_tw": "捷伊克"
+      },
+      "context": {
+        "en_us": "Come, Barbatos B-Unit!\\nWyrmbinding, activate!",
+        "ja_jp": "<ruby><rb>来</rb><rt>こ</rt></ruby>い、バルバトスBユニット！\\n――<ruby><rb>『竜鎖装填』</rb><rt>ギアスロード</rt></ruby>！",
+        "zh_cn": "来吧，巴巴托斯B组件！\\n“龙锁装填”！",
+        "zh_tw": "來吧，巴爾巴托斯B個體！\\n──「龍鎖裝填」！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0022",
+      "book": ""
+    },
+    {
+      "icon": "110393_01",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "That's not possible!",
+        "ja_jp": "――っ！　まさか！",
+        "zh_cn": "难道——",
+        "zh_tw": "──呃！該不會！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0023",
+      "book": ""
+    },
+    {
+      "icon": "120237_01",
+      "name": {
+        "en_us": "The Captain",
+        "ja_jp": "『兵長』",
+        "zh_cn": "“军士长”",
+        "zh_tw": "「兵長」"
+      },
+      "context": {
+        "en_us": "I am a candidate to join the upper\\nechelons of the Syndicate, and I am he\\nwho controls the wyrmbound. From this\\npoint forth, you can call me...the Captain!",
+        "ja_jp": "オレは<ruby><rb>竜鎖兵</rb><rt>ギアスへい</rt></ruby>を<ruby><rb>束</rb><rt>たば</rt></ruby>ねる<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>の\\n<ruby><rb>幹部</rb><rt>かんぶ</rt></ruby><ruby><rb>候補</rb><rt>こうほ</rt></ruby>――<ruby><rb>『兵長』</rb><rt>コマンダント</rt></ruby>だ！",
+        "zh_cn": "我是统管龙锁兵的“结社”\\n干部候补——“军士长”！",
+        "zh_tw": "我現在是統率龍鎖兵的\\n「結社」幹部候補──「兵長」！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0024",
+      "book": ""
+    },
+    {
+      "icon": "110393_01",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "The Captain? You? But...but no...",
+        "ja_jp": "<ruby><rb>幹部</rb><rt>かんぶ</rt></ruby><ruby><rb>候補</rb><rt>こうほ</rt></ruby>……？　<ruby><rb>『兵長』</rb><rt>コマンダント</rt></ruby>……？\\nジェイクが……？",
+        "zh_cn": "干部候补？“军士长”？\\n你吗……",
+        "zh_tw": "幹部候補……？「兵長」……？\\n捷伊克嗎……？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0025",
+      "book": ""
+    },
+    {
+      "icon": "110393_01",
+      "name": {
+        "en_us": "Lil' Barb",
+        "ja_jp": "バルビー",
+        "zh_cn": "巴比",
+        "zh_tw": "巴爾比"
+      },
+      "context": {
+        "en_us": "Get your damn head out of the clouds!\\nHe's coming for us!",
+        "ja_jp": "おい、ファルギルト！\\nぼーっとしてんな！　<ruby><rb>来</rb><rt>く</rt></ruby>るぞ！",
+        "zh_cn": "喂，法尔吉德！\\n别愣着！他要来了！",
+        "zh_tw": "喂，法爾杰托！\\n不要發呆了！他要進攻了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0026",
+      "book": ""
+    },
+    {
+      "icon": "110393_01",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Hrk... S-stop this, Jake!\\nI don't want to fight you!",
+        "ja_jp": "くっ……や、やめてくれジェイク！\\nおれは……お<ruby><rb>前</rb><rt>まえ</rt></ruby>と<ruby><rb>戦</rb><rt>たたか</rt></ruby>いたくない！",
+        "zh_cn": "呃……住、住手，杰克！\\n我……不想和你对战！",
+        "zh_tw": "唔……快、快住手啊捷伊克！\\n我……不想和你戰鬥！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0027",
+      "book": ""
+    },
+    {
+      "icon": "120237_01",
+      "name": {
+        "en_us": "The Captain",
+        "ja_jp": "『兵長』",
+        "zh_cn": "“军士长”",
+        "zh_tw": "「兵長」"
+      },
+      "context": {
+        "en_us": "You're still far too soft, little duck. How are\\nyou supposed to protect anyone else's life\\nwhen you can't even protect your own?!",
+        "ja_jp": "<ruby><rb>相変</rb><rt>あいか</rt></ruby>わらず<ruby><rb>甘</rb><rt>あま</rt></ruby>いな、ファルギルト。\\nだからお<ruby><rb>前</rb><rt>まえ</rt></ruby>には<ruby><rb>何</rb><rt>なに</rt></ruby>も<ruby><rb>守</rb><rt>まも</rt></ruby>れない。\\nみなの<ruby><rb>命</rb><rt>いのち</rt></ruby>も、<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>命</rb><rt>いのち</rt></ruby>さえもな！",
+        "zh_cn": "法尔吉德，你还是那么天真啊。\\n所以你什么都保护不了。\\n不管是别人还是自己的命！",
+        "zh_tw": "你還是一樣天真啊，法爾杰托，\\n所以你才會無法守護任何東西。\\n不論是大家的性命，還是自己的性命！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0028",
+      "book": ""
+    },
+    {
+      "icon": "110393_01",
+      "name": {
+        "en_us": "Lil' Barb",
+        "ja_jp": "バルビー",
+        "zh_cn": "巴比",
+        "zh_tw": "巴爾比"
+      },
+      "context": {
+        "en_us": "Focus, Farren! I ain't lookin' to eat dirt\\ntoday just because you can't get your\\ncrap together!",
+        "ja_jp": "いい<ruby><rb>加減</rb><rt>かげん</rt></ruby>にしろ、ファルギルト！\\nオレはお<ruby><rb>前</rb><rt>まえ</rt></ruby>と<ruby><rb>心中</rb><rt>しんじゅう</rt></ruby>なんざごめんだぞ！",
+        "zh_cn": "你适可而止啊，法尔吉德！\\n我可不想给你陪葬！",
+        "zh_tw": "你別鬧了，法爾杰托！\\n我可不想陪你一起去送死！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0029",
+      "book": ""
+    },
+    {
+      "icon": "120237_01",
+      "name": {
+        "en_us": "The Captain",
+        "ja_jp": "『兵長』",
+        "zh_cn": "“军士长”",
+        "zh_tw": "「兵長」"
+      },
+      "context": {
+        "en_us": "Your B-Unit is incredibly chatty! I wonder\\nif his formation of an ego is the cause of\\nthe irregularity?",
+        "ja_jp": "お<ruby><rb>前</rb><rt>まえ</rt></ruby>のBユニットは<ruby><rb>随分</rb><rt>ずいぶん</rt></ruby>とお<ruby><rb>喋</rb><rt>しゃべ</rt></ruby>りな\\nようだな。Bユニットの<ruby><rb>自我</rb><rt>じが</rt></ruby>の<ruby><rb>形成</rb><rt>けいせい</rt></ruby>が\\nイレギュラーの<ruby><rb>原因</rb><rt>げんいん</rt></ruby>か？",
+        "zh_cn": "你的B组件似乎话还挺多。\\n莫非B组件形成自我人格\\n就是造成你异常的原因？",
+        "zh_tw": "你的B個體還真是多話呢。\\nB個體擁有自我意識，\\n就是讓你變成特例的原因嗎？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0030",
+      "book": ""
+    },
+    {
+      "icon": "120237_01",
+      "name": {
+        "en_us": "The Captain",
+        "ja_jp": "『兵長』",
+        "zh_cn": "“军士长”",
+        "zh_tw": "「兵長」"
+      },
+      "context": {
+        "en_us": "The eggheads back at HQ will be veeery\\nhappy if I bring that B-Unit back with me,\\nwhich means you need to go down!",
+        "ja_jp": "<ruby><rb>面白</rb><rt>おもしろ</rt></ruby>い。そのBユニットを<ruby><rb>持</rb><rt>も</rt></ruby>ち\\n<ruby><rb>帰</rb><rt>かえ</rt></ruby>れば、<ruby><rb>研究者連中</rb><rt>けんきゅうしゃれんちゅう</rt></ruby>が<ruby><rb>喜</rb><rt>よろこ</rt></ruby>ぶだろう。\\n――<ruby><rb>仕留</rb><rt>しと</rt></ruby>めさせてもらう！",
+        "zh_cn": "有趣，把那B组件带回去的话，\\n那帮研究员应该会很高兴吧。\\n可别想跑！",
+        "zh_tw": "有趣。要是把那個B個體帶回去，\\n那些研究者想必會很高興吧。\\n──這就是最後一擊了！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0031",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "Ready yourself, Farren!",
+        "ja_jp": "<ruby><rb>来</rb><rt>く</rt></ruby>るわ！\\n<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>を<ruby><rb>決</rb><rt>き</rt></ruby>めなさい、ファルギルト！",
+        "zh_cn": "他要来了！\\n快下决心，法尔吉德！",
+        "zh_tw": "要來了！\\n快做好覺悟，法爾杰托！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0032",
+      "book": ""
+    },
+    {
+      "icon": "110393_01",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Hrk!",
+        "ja_jp": "くっ……！",
+        "zh_cn": "呃……",
+        "zh_tw": "唔……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0033",
+      "book": ""
+    },
+    {
+      "icon": "120237_01",
+      "name": {
+        "en_us": "Everyone",
+        "ja_jp": "全員",
+        "zh_cn": "全员",
+        "zh_tw": "全員"
+      },
+      "context": {
+        "en_us": "Graaaagh!",
+        "ja_jp": "うあああああああっ！",
+        "zh_cn": "唔啊啊啊啊啊啊！",
+        "zh_tw": "嗚啊啊啊啊啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0034",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "So strong...",
+        "ja_jp": "う、うう……<ruby><rb>強</rb><rt>つよ</rt></ruby>い……！",
+        "zh_cn": "唔、唔唔……好强大……",
+        "zh_tw": "唔、唔唔……好強……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0035",
+      "book": ""
+    },
+    {
+      "icon": "120237_01",
+      "name": {
+        "en_us": "The Captain",
+        "ja_jp": "『兵長』",
+        "zh_cn": "“军士长”",
+        "zh_tw": "「兵長」"
+      },
+      "context": {
+        "en_us": "Heh. My wyrmbinding has been designed\\nfor use by the Syndicate elite, and it \\nclearly dwarfs the power of a pathetic\\nlittle irregular like you.",
+        "ja_jp": "ふっ、イレギュラーなお<ruby><rb>前</rb><rt>まえ</rt></ruby>の<ruby><rb>力</rb><rt>ちから</rt></ruby>より、\\n<ruby><rb>幹部</rb><rt>かんぶ</rt></ruby><ruby><rb>用</rb><rt>よう</rt></ruby>に<ruby><rb>調整</rb><rt>ちょうせい</rt></ruby>されたオレの<ruby><rb>『竜鎖』</rb><rt>ギアス</rt></ruby>の\\nほうが<ruby><rb>上</rb><rt>うえ</rt></ruby>のようだな。",
+        "zh_cn": "呵，看来我这个调整成\\n干部专用的“龙锁”比你这个\\n异类的力量更胜一筹啊。",
+        "zh_tw": "呵，看來比起身為特例的你，\\n還是我這個已調整為幹部專用的\\n「龍鎖」更強。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0036",
+      "book": ""
+    },
+    {
+      "icon": "120237_01",
+      "name": {
+        "en_us": "The Captain",
+        "ja_jp": "『兵長』",
+        "zh_cn": "“军士长”",
+        "zh_tw": "「兵長」"
+      },
+      "context": {
+        "en_us": "Now give me that B-Unit.",
+        "ja_jp": "さて、Bユニットを<ruby><rb>頂</rb><rt>いただ</rt></ruby>いていこうか。",
+        "zh_cn": "好了，B组件就归我了。",
+        "zh_tw": "那麼，B個體我就收下了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0037",
+      "book": ""
+    },
+    {
+      "icon": "120223_01",
+      "name": {
+        "en_us": "Lil' Barb",
+        "ja_jp": "バルビー",
+        "zh_cn": "巴比",
+        "zh_tw": "巴爾比"
+      },
+      "context": {
+        "en_us": "Get your damn hands off me, bucko!",
+        "ja_jp": "ち、ちくしょう……！\\n<ruby><rb>離</rb><rt>はな</rt></ruby>しやがれ……。",
+        "zh_cn": "该、该死！\\n放开我……",
+        "zh_tw": "可、可惡……！\\n快放開我……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0038",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "No, Jake! Let Lil' Barb go!",
+        "ja_jp": "<ruby><rb>待</rb><rt>ま</rt></ruby>て、ジェイク……！\\nバルビーを<ruby><rb>離</rb><rt>はな</rt></ruby>せ！",
+        "zh_cn": "住手，杰克！\\n放开巴比！",
+        "zh_tw": "等等，捷伊克……！\\n快放開巴爾比！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0039",
+      "book": ""
+    },
+    {
+      "icon": "120223_01",
+      "name": {
+        "en_us": "The Captain",
+        "ja_jp": "『兵長』",
+        "zh_cn": "“军士长”",
+        "zh_tw": "「兵長」"
+      },
+      "context": {
+        "en_us": "Sadly, I've no more use for you now that I\\nhave the B-Unit—so you and that faithless\\nresearcher can go ahead and die together.",
+        "ja_jp": "<ruby><rb>残念</rb><rt>ざんねん</rt></ruby>だが、Bユニットが<ruby><rb>手</rb><rt>て</rt></ruby>に<ruby><rb>入</rb><rt>はい</rt></ruby>れば\\nもうお<ruby><rb>前</rb><rt>まえ</rt></ruby>に<ruby><rb>用</rb><rt>よう</rt></ruby>はない。<ruby><rb>裏切</rb><rt>うらぎ</rt></ruby>り<ruby><rb>者</rb><rt>もの</rt></ruby>の<ruby><rb>研究者</rb><rt>けんきゅうしゃ</rt></ruby>\\n<ruby><rb>共々</rb><rt>ともども</rt></ruby>、<ruby><rb>消</rb><rt>き</rt></ruby>えてもらう。",
+        "zh_cn": "很遗憾，B组件已经到手，\\n你也就没用了。\\n和那个叛徒研究员一起消失吧。",
+        "zh_tw": "很遺憾，只要B個體到手，\\n你就沒有用處了。\\n和那個背叛我們的研究者一起消失吧。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0040",
+      "book": ""
+    },
+    {
+      "icon": "120238_01",
+      "name": {
+        "en_us": "Wyrmbound Soldier",
+        "ja_jp": "竜鎖兵",
+        "zh_cn": "龙锁兵",
+        "zh_tw": "龍鎖兵"
+      },
+      "context": {
+        "en_us": "Leave the rest to us, Captain.",
+        "ja_jp": "<ruby><rb>『兵長』</rb><rt>コマンダント</rt></ruby>。あとは<ruby><rb>俺</rb><rt>おれ</rt></ruby>たちが。",
+        "zh_cn": "“军士长”，\\n剩下的交给我们吧。",
+        "zh_tw": "「兵長」，再來就交給我們處理。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0041",
+      "book": ""
+    },
+    {
+      "icon": "120223_01",
+      "name": {
+        "en_us": "The Captain",
+        "ja_jp": "『兵長』",
+        "zh_cn": "“军士长”",
+        "zh_tw": "「兵長」"
+      },
+      "context": {
+        "en_us": "See that you finish them. No mistakes.",
+        "ja_jp": "いいだろう。<ruby><rb>確実</rb><rt>かくじつ</rt></ruby>に<ruby><rb>仕留</rb><rt>しと</rt></ruby>めろ。",
+        "zh_cn": "好吧，一定要干掉他们。",
+        "zh_tw": "好吧，要確實處理好啊。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0042",
+      "book": ""
+    },
+    {
+      "icon": "120238_01",
+      "name": {
+        "en_us": "Wyrmbound Soldier",
+        "ja_jp": "竜鎖兵",
+        "zh_cn": "龙锁兵",
+        "zh_tw": "龍鎖兵"
+      },
+      "context": {
+        "en_us": "Ready yourselves, traitors!",
+        "ja_jp": "ああ、もちろんだ。\\nくくく……さあ、<ruby><rb>覚悟</rb><rt>かくご</rt></ruby>しろ。\\n<ruby><rb>裏切</rb><rt>うらぎ</rt></ruby>り<ruby><rb>者</rb><rt>もの</rt></ruby>ども。",
+        "zh_cn": "嗯，当然。呵呵呵……\\n你们这些叛徒，受死吧。",
+        "zh_tw": "嗯，那當然。\\n呵呵呵……那麼，覺悟吧，\\n你們這些背叛者。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0043",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "……。",
+        "zh_cn": "……",
+        "zh_tw": "……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0044",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "...I'll buy you some time, Grace.\\nYou get out of here.",
+        "ja_jp": "ぐ、グレースさん。おれが<ruby><rb>時間</rb><rt>じかん</rt></ruby>を\\n<ruby><rb>稼</rb><rt>かせ</rt></ruby>ぎますから、せめてグレースさん\\nだけでも<ruby><rb>逃</rb><rt>に</rt></ruby>げてください……。",
+        "zh_cn": "格、格蕾丝，\\n我来拖延时间，\\n至少得让你能逃走……",
+        "zh_tw": "葛、葛雷絲小姐，我留下來爭取時間，\\n就算只有葛雷絲小姐也好，\\n請妳快逃吧……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0045",
+      "book": ""
+    },
+    {
+      "icon": "120238_01",
+      "name": {
+        "en_us": "Wyrmbound Soldier",
+        "ja_jp": "竜鎖兵",
+        "zh_cn": "龙锁兵",
+        "zh_tw": "龍鎖兵"
+      },
+      "context": {
+        "en_us": "Ha ha ha! How the hell are you going to\\nbuy anyone time when you don't even\\nhave your shell anymore?!",
+        "ja_jp": "<ruby><rb>馬鹿</rb><rt>ばか</rt></ruby>め。<ruby><rb>外殻</rb><rt>がいかく</rt></ruby>のない<ruby><rb>貴様</rb><rt>きさま</rt></ruby>が<ruby><rb>何</rb><rt>なに</rt></ruby>をしようと\\n<ruby><rb>時間稼</rb><rt>じかんかせ</rt></ruby>ぎになどなるか。\\n<ruby><rb>一瞬</rb><rt>いっしゅん</rt></ruby>で<ruby><rb>片</rb><rt>かた</rt></ruby>をつけてやる……！",
+        "zh_cn": "蠢货，你没有了龙甲，\\n还怎么拖延时间。\\n看我立刻灭了你！",
+        "zh_tw": "別傻了，沒了外殼的你還想怎麼\\n爭取時間？我瞬間就能收拾你……！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0046",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Hrk...",
+        "ja_jp": "くっ……。",
+        "zh_cn": "呃……",
+        "zh_tw": "唔……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0047",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "Sealed wyrms steeped in fury!\\nDragons cursed by fate!\\nBreak free of the chains that bind you\\nand unleash your wrathful cries!",
+        "ja_jp": "――<ruby><rb>閉</rb><rt>と</rt></ruby>ざされし<ruby><rb>怒竜</rb><rt>どりゅう</rt></ruby>、<ruby><rb>呪</rb><rt>のろ</rt></ruby>われし<ruby><rb>業竜</rb><rt>ごうりゅう</rt></ruby>。\\n<ruby><rb>忌</rb><rt>い</rt></ruby>まわしき<ruby><rb>鎖</rb><rt>くさり</rt></ruby>を<ruby><rb>破</rb><rt>やぶ</rt></ruby>り<ruby><rb>捨</rb><rt>す</rt></ruby>て、<ruby><rb>憤怒</rb><rt>ふんぬ</rt></ruby>の<ruby><rb>轟</rb><rt>とどろ</rt></ruby>きを\\n<ruby><rb>解</rb><rt>と</rt></ruby>き<ruby><rb>放</rb><rt>はな</rt></ruby>て！",
+        "zh_cn": "幽闭之怒龙，受诅之业龙，\\n挣脱禁忌之枷锁，\\n释放愤怒之咆哮吧！",
+        "zh_tw": "──受禁之怒龍，受詛之業龍。\\n掙脫不祥鎖鏈，解放憤怒轟鳴！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0048",
+      "book": ""
+    },
+    {
+      "icon": "120238_01",
+      "name": {
+        "en_us": "Wyrmbound Soldier",
+        "ja_jp": "竜鎖兵",
+        "zh_cn": "龙锁兵",
+        "zh_tw": "龍鎖兵"
+      },
+      "context": {
+        "en_us": "What the? My arm's movin' on its own...\\nI feel something inside me! GYAAAAAA!",
+        "ja_jp": "――!?　なんだ!?　<ruby><rb>腕</rb><rt>うで</rt></ruby>が<ruby><rb>勝手</rb><rt>かって</rt></ruby>に……\\n<ruby><rb>誰</rb><rt>だれ</rt></ruby>かが<ruby><rb>俺</rb><rt>おれ</rt></ruby>の<ruby><rb>体</rb><rt>からだ</rt></ruby>の<ruby><rb>中</rb><rt>なか</rt></ruby>で<ruby><rb>暴</rb><rt>あば</rt></ruby>れている！\\nう、うお……うあああああああ!?",
+        "zh_cn": "怎么回事！？手臂不受控制……\\n有什么东西在我体内翻腾！\\n唔、唔……唔啊啊啊啊啊！？",
+        "zh_tw": "──！？什麼！？手臂擅自就……\\n有誰在我體內騷動著！\\n嗚、嗚喔……嗚哇啊啊啊啊！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0049",
+      "book": ""
+    },
+    {
+      "icon": "210083_01",
+      "name": {
+        "en_us": "Wyrmbound Soldier",
+        "ja_jp": "竜鎖兵",
+        "zh_cn": "龙锁兵",
+        "zh_tw": "龍鎖兵"
+      },
+      "context": {
+        "en_us": "AAAAAARRRRGH!",
+        "ja_jp": "グギャアアアッ！　",
+        "zh_cn": "咕嗷嗷嗷嗷嗷！",
+        "zh_tw": "嘎呀啊啊啊啊！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0050",
+      "book": ""
+    },
+    {
+      "icon": "120237_01",
+      "name": {
+        "en_us": "The Captain",
+        "ja_jp": "『兵長』",
+        "zh_cn": "“军士长”",
+        "zh_tw": "「兵長」"
+      },
+      "context": {
+        "en_us": "The wyrmbinding has gone out of control...\\nBut that shouldn't be possible for non-\\nfusion types like us! How have you done\\nthis, you traitors?!",
+        "ja_jp": "ぐ……これはまさか<ruby><rb>『竜鎖』</rb><rt>ギアス</rt></ruby>の<ruby><rb>暴走</rb><rt>ぼうそう</rt></ruby>!?\\n<ruby><rb>融合型</rb><rt>ゆうごうがた</rt></ruby>と<ruby><rb>違</rb><rt>ちが</rt></ruby>い、<ruby><rb>我々</rb><rt>われわれ</rt></ruby>にはありえないはず\\n……あの<ruby><rb>裏切</rb><rt>うらぎ</rt></ruby>り<ruby><rb>者</rb><rt>もの</rt></ruby>の<ruby><rb>研究者</rb><rt>けんきゅうしゃ</rt></ruby>の<ruby><rb>仕業</rb><rt>しわざ</rt></ruby>か！",
+        "zh_cn": "呃……难道是“龙锁”失控了！？\\n我们和融合型不同，应该不会这样……\\n是那个叛徒研究员搞的鬼吗！",
+        "zh_tw": "唔……這難道是「龍鎖」失控了！？\\n我們與融合型不同，應該不可能發生\\n才對……是那叛徒研究者搞的鬼嗎！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0051",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "Forgive me. I did not want to resort to this,\\nbut our situation is terrifically desperate.\\nNow, Farren! Run!",
+        "ja_jp": "……<ruby><rb>悪</rb><rt>わる</rt></ruby>いわね。こんな<ruby><rb>手</rb><rt>て</rt></ruby>は<ruby><rb>使</rb><rt>つか</rt></ruby>いたくない\\nのだけど、こっちも<ruby><rb>必死</rb><rt>ひっし</rt></ruby>なの。\\n<ruby><rb>今</rb><rt>いま</rt></ruby>のうちに<ruby><rb>逃</rb><rt>に</rt></ruby>げるわよ、ファルギルト！",
+        "zh_cn": "抱歉……虽然不想用这招，\\n但我也是迫不得已。\\n法尔吉德，趁现在快跑！",
+        "zh_tw": "……真抱歉，雖然我不想使出\\n這種手段，但我們也是賭上性命的。\\n快趁現在逃吧，法爾杰托！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0052",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "But...",
+        "ja_jp": "で、でも……。",
+        "zh_cn": "但、但是……",
+        "zh_tw": "但、但是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0053",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "There's nothing you can do here\\nexcept perish. Now run!",
+        "ja_jp": "あなたがここにいても、\\nもう<ruby><rb>何</rb><rt>なに</rt></ruby>もできることはないわ！\\nさあ<ruby><rb>早</rb><rt>はや</rt></ruby>く――！",
+        "zh_cn": "就算你留下来也无济于事！\\n快点！",
+        "zh_tw": "就算你留在這裡，\\n也已經無法做任何事了！\\n快點──！"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0054",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "...It seems we have escaped.",
+        "ja_jp": "……どうやら、<ruby><rb>追手</rb><rt>おって</rt></ruby>はないようね。",
+        "zh_cn": "他们似乎没追上来……",
+        "zh_tw": "……看來是沒有追兵了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0055",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "......",
+        "ja_jp": "…………。",
+        "zh_cn": "……",
+        "zh_tw": "…………"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0056",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "This is where our ways must part, Farren.\\nReturn to the Halidom.",
+        "ja_jp": "ファルギルト……ここで<ruby><rb>別</rb><rt>わか</rt></ruby>れましょう。\\nあなたは<ruby><rb>聖城</rb><rt>せいじょう</rt></ruby>に<ruby><rb>帰</rb><rt>かえ</rt></ruby>りなさい。",
+        "zh_cn": "法尔吉德……我们就此别过吧，\\n你回圣城去。",
+        "zh_tw": "法爾杰托……\\n我們就在這分別吧。\\n你快回到聖城去。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0057",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "What? Why?!",
+        "ja_jp": "えっ？　な、なぜです!?",
+        "zh_cn": "诶？为、为什么！？",
+        "zh_tw": "咦？為、為什麼！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0058",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "Because I've realized that I can't make you\\nfight anymore.",
+        "ja_jp": "もう、あなたを<ruby><rb>戦</rb><rt>たたか</rt></ruby>わせるわけには\\nいかないと<ruby><rb>思</rb><rt>おも</rt></ruby>ったからよ。",
+        "zh_cn": "因为我认为\\n不能让你继续战斗了。",
+        "zh_tw": "因為我認為，\\n不能再讓你繼續戰鬥下去了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0059",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Why, because I lost Lil' Barb?",
+        "ja_jp": "……バルビーが<ruby><rb>奪</rb><rt>うば</rt></ruby>われたから\\nですか？　<ruby><rb>確</rb><rt>たし</rt></ruby>かにバルビーなしじゃ\\nおれに<ruby><rb>大</rb><rt>たい</rt></ruby>した<ruby><rb>力</rb><rt>ちから</rt></ruby>はないけど……。",
+        "zh_cn": "是因为……巴比被夺走了吗？\\n的确，没有巴比的话\\n我不具备什么战斗力……",
+        "zh_tw": "……是因為巴爾比被奪走的關係嗎？\\n確實少了巴爾比，\\n我就沒有多少力量……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0060",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "I know I don't have the power I used to\\nanymore, but I can still be plenty useful!\\nHeck, just use me as a shield to protect\\nsomeone else if you want!",
+        "ja_jp": "でも、<ruby><rb>今</rb><rt>いま</rt></ruby>のおれにも<ruby><rb>何</rb><rt>なに</rt></ruby>かできることが\\nあるはずです。やらせてもらえるなら\\n<ruby><rb>盾代</rb><rt>たてが</rt></ruby>わりでも<ruby><rb>何</rb><rt>なん</rt></ruby>でもします。",
+        "zh_cn": "但是，一定有什么是现在的我\\n也能做到的。就算是当\\n人肉护盾我也愿意。",
+        "zh_tw": "但是，應該有什麼事情是\\n現在的我也能辦到的。只要讓我去做，\\n就算要我充當盾牌也行。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0061",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "That mindset is exactly why I can't make\\nyou keep fighting—you aren't considerate\\nenough of your own well-being.",
+        "ja_jp": "……それがあなたを<ruby><rb>戦</rb><rt>たたか</rt></ruby>わせられない\\n<ruby><rb>一番</rb><rt>いちばん</rt></ruby>の<ruby><rb>理由</rb><rt>りゆう</rt></ruby>よ。あなたはあまりにも\\n<ruby><rb>自分</rb><rt>じぶん</rt></ruby>の<ruby><rb>身</rb><rt>み</rt></ruby>を<ruby><rb>顧</rb><rt>かえり</rt></ruby>みなさすぎる。",
+        "zh_cn": "这就是我不能\\n让你参战的首要原因。\\n你太不顾惜自己了。",
+        "zh_tw": "……那就是我不能讓你戰鬥的\\n主要原因。\\n你實在是太過無視自己的安危了。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0062",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "Look, I'm sorry if that makes you worry\\nabout me, but it's a price I'm willing to\\npay if it lets me save someone.",
+        "ja_jp": "それは……<ruby><rb>心配</rb><rt>しんぱい</rt></ruby>かけて<ruby><rb>申</rb><rt>もう</rt></ruby>し<ruby><rb>訳</rb><rt>わけ</rt></ruby>ないと\\n<ruby><rb>思</rb><rt>おも</rt></ruby>ってますけど……でも、<ruby><rb>何</rb><rt>なん</rt></ruby>としてでも\\nみんなを<ruby><rb>助</rb><rt>たす</rt></ruby>けたいと<ruby><rb>思</rb><rt>おも</rt></ruby>って……。",
+        "zh_cn": "这……我很抱歉\\n让你担心了……但是，\\n无论如何我都想救大家……",
+        "zh_tw": "那是……很抱歉讓妳擔心了……\\n但是，我無論如何都想要幫助大家……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0063",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "But you don't just want to save someone,\\nFarren—you want to sacrifice yourself\\nin the process.",
+        "ja_jp": "<ruby><rb>違</rb><rt>ちが</rt></ruby>うわ。あなたは、<ruby><rb>誰</rb><rt>だれ</rt></ruby>かを<ruby><rb>助</rb><rt>たす</rt></ruby>けたいの\\nではなくて、<ruby><rb>誰</rb><rt>だれ</rt></ruby>かを<ruby><rb>助</rb><rt>たす</rt></ruby>けるために\\n<ruby><rb>犠牲</rb><rt>ぎせい</rt></ruby>になりたいのよ。",
+        "zh_cn": "不对，你不是想救人，\\n而是想通过救人牺牲自我。",
+        "zh_tw": "不，你並不是想要幫助大家，\\n而是想要為了幫助人而自我犧牲。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0064",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "?!",
+        "ja_jp": "――!?",
+        "zh_cn": "！？",
+        "zh_tw": "──！？"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0065",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "You have survivor's guilt over the fact you\\nare alive due to the sacrifice of others.",
+        "ja_jp": "あなたには<ruby><rb>自分</rb><rt>じぶん</rt></ruby>が<ruby><rb>生</rb><rt>い</rt></ruby>きていることへの\\n<ruby><rb>負</rb><rt>お</rt></ruby>い<ruby><rb>目</rb><rt>め</rt></ruby>があるわ。<ruby><rb>誰</rb><rt>だれ</rt></ruby>かが<ruby><rb>犠牲</rb><rt>ぎせい</rt></ruby>になった\\nのに、<ruby><rb>自分</rb><rt>じぶん</rt></ruby>が<ruby><rb>助</rb><rt>たす</rt></ruby>かったことの<ruby><rb>罪悪感</rb><rt>ざいあくかん</rt></ruby>が。",
+        "zh_cn": "你对自己活着感到愧疚。\\n有一种别人成为了牺牲品，\\n自己却活下来了的罪恶感。",
+        "zh_tw": "你為自己還活著感到內疚。\\n對於明明有人犧牲了，\\n自己卻得救這件事產生罪惡感。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0066",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "So now you are looking to die in someone\\nelse's place in order to relieve that guilt.",
+        "ja_jp": "はっきりと<ruby><rb>言</rb><rt>い</rt></ruby>ってしまえば、あなたは\\n<ruby><rb>死</rb><rt>し</rt></ruby>にたがっている。<ruby><rb>誰</rb><rt>だれ</rt></ruby>かの<ruby><rb>代</rb><rt>か</rt></ruby>わりに\\n<ruby><rb>死</rb><rt>し</rt></ruby>んで、<ruby><rb>罪悪感</rb><rt>ざいあくかん</rt></ruby>を<ruby><rb>晴</rb><rt>は</rt></ruby>らしたがっている。",
+        "zh_cn": "说白了，你就是想寻死。\\n通过替别人死\\n来洗清自己的罪恶感。",
+        "zh_tw": "說得再更明確一點，你就是一心尋死。\\n想要代替其他人死去，\\n好從罪惡感中解脫出來。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0067",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "No! That's not... I'm not...",
+        "ja_jp": "そんな……そんなことは……。",
+        "zh_cn": "怎么会……没那回事……",
+        "zh_tw": "並……並不是……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0068",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "I know this because it is a feeling to which\\nI am very much attuned, for I also once\\nyearned for death.",
+        "ja_jp": "わかっちゃうのよね、そういうの。\\n……<ruby><rb>私</rb><rt>わたし</rt></ruby>も、<ruby><rb>死</rb><rt>し</rt></ruby>にたがりだったから。",
+        "zh_cn": "我明白的……\\n因为，我也曾和你一样。",
+        "zh_tw": "那些想法，我都可以理解。\\n……因為，我也曾一心尋死。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0069",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "What?",
+        "ja_jp": "えっ……。",
+        "zh_cn": "诶……",
+        "zh_tw": "咦……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0070",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "In any event, I can't take you with me into\\nthe jaws of the enemy as you are now.",
+        "ja_jp": "とにかく、<ruby><rb>今</rb><rt>いま</rt></ruby>のあなたを<ruby><rb>敵地</rb><rt>てきち</rt></ruby>に<ruby><rb>連</rb><rt>つ</rt></ruby>れて\\n<ruby><rb>行</rb><rt>い</rt></ruby>くことはできないわ。",
+        "zh_cn": "总之，我不能\\n带现在的你去敌营。",
+        "zh_tw": "總之，\\n我不能帶著現在的你到敵陣去。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0071",
+      "book": ""
+    },
+    {
+      "icon": "110059_02",
+      "name": {
+        "en_us": "Grace",
+        "ja_jp": "グレース",
+        "zh_cn": "格蕾丝",
+        "zh_tw": "葛雷絲"
+      },
+      "context": {
+        "en_us": "If you are going to continue battling the\\nSyndicate, you need to sit down and think\\nabout your true reasons for fighting—\\nand for living.",
+        "ja_jp": "この<ruby><rb>先</rb><rt>さき</rt></ruby>も<ruby><rb>《結社》</rb><rt>けっしゃ</rt></ruby>と<ruby><rb>戦</rb><rt>たたか</rt></ruby>い<ruby><rb>続</rb><rt>つづ</rt></ruby>けるのなら\\nあなたの<ruby><rb>戦</rb><rt>たたか</rt></ruby>う<ruby><rb>理由</rb><rt>りゆう</rt></ruby>、そして、<ruby><rb>生</rb><rt>い</rt></ruby>きる\\n<ruby><rb>理由</rb><rt>りゆう</rt></ruby>を、ちゃんと<ruby><rb>考</rb><rt>かんが</rt></ruby>えてちょうだい。",
+        "zh_cn": "如果你今后也要继续对抗“结社”，\\n就好好考虑一下你战斗的理由。\\n还有，你活着的理由。",
+        "zh_tw": "如果接下來你還要繼續和\\n「結社」戰鬥，就得好好思考\\n自己戰鬥的理由，以及活下去的理由。"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0072",
+      "book": ""
+    },
+    {
+      "icon": "110393_02",
+      "name": {
+        "en_us": "Farren",
+        "ja_jp": "ファルギルト",
+        "zh_cn": "法尔吉德",
+        "zh_tw": "法爾杰托"
+      },
+      "context": {
+        "en_us": "My reasons...",
+        "ja_jp": "…………。\\nおれの……<ruby><rb>戦</rb><rt>たたか</rt></ruby>う<ruby><rb>理由</rb><rt>りゆう</rt></ruby>……。",
+        "zh_cn": "……\\n我……战斗的理由……",
+        "zh_tw": "…………\\n我……戰鬥的理由……"
+      },
+      "voice": "VO_CHR_EVENTSTORY_22216_04_0073",
+      "book": ""
+    }
+  ]
 }
