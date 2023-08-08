@@ -1,83 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, maximum-scale=1.0">
-    <link rel="icon" href="./icons/favicon.png" type="image/png" sizes="128x128">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
-    <link rel="stylesheet" type="text/css" href="./css/notosanssc.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+    <link
+      rel="icon"
+      href="./icons/favicon.png"
+      type="image/png"
+      sizes="128x128"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/notosanssc.css" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F732432QLC"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-BXD1WES034"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-F732432QLC');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-BXD1WES034");
     </script>
-    <title>失落的龙约 剧情档案馆</title>
-</head>
+    <title>Dragalia Story Archive</title>
+  </head>
 
-<body>
-    <div class="container py-5">
-        <div class="p-5 bg-white rounded shadow mb-5">
-            <span id="update-time"> 最近更新: N/A </span>
-            <ul id="myTab" role="tablist" class="nav nav-tabs nav-pills flex-column flex-sm-row text-center bg-light border-0 rounded-nav">
-                <li class="nav-item flex-sm-fill">
-                    <a id="castlestory-tab" data-toggle="tab" href="#castlestory" role="tab" aria-controls="castlestory" aria-selected="true" class="nav-link border-0 text-uppercase font-weight-bold active">城堡剧情</a>
-                </li>
-                <li class="nav-item flex-sm-fill">
-                    <a id="queststory_event-tab" data-toggle="tab" href="#queststory_event" role="tab" aria-controls="queststory_event" aria-selected="false" class="nav-link border-0 text-uppercase font-weight-bold">活动剧情</a>
-                </li>
-                <li class="nav-item flex-sm-fill">
-                    <a id="queststory_main-tab" data-toggle="tab" href="#queststory_main" role="tab" aria-controls="queststory_main" aria-selected="false" class="nav-link border-0 text-uppercase font-weight-bold">主线剧情</a>
-                </li>
-                <li class="nav-item flex-sm-fill">
-                    <a id="unitstory_chara-tab" data-toggle="tab" href="#unitstory_chara" role="tab" aria-controls="unitstory_chara" aria-selected="false" class="nav-link border-0 text-uppercase font-weight-bold">角色剧情</a>
-                </li>
-                <li class="nav-item flex-sm-fill">
-                    <a id="unitstory_dragon-tab" data-toggle="tab" href="#unitstory_dragon" role="tab" aria-controls="unitstory_dragon" aria-selected="false" class="nav-link border-0 text-uppercase font-weight-bold">龙之剧情</a>
-                </li>
-            </ul>
-            <div id="myTabContent" class="tab-content">
-                <div id="castlestory" role="tabpanel" aria-labelledby="castlestory" class="tab-pane fade py-5 show active">
-                    <input class="form-control" id="cs-search" type="text" placeholder="关键字搜索">
-                    <div id="castlestory-div">
-                    </div>
-                </div>
-                <div id="queststory_event" role="tabpanel" aria-labelledby="queststory_event" class="tab-pane fade py-5">
-                    <input class="form-control" id="qs_e-search" type="text" placeholder="关键字搜索">
-                    <div id="queststory_event-div">
-                    </div>
-                </div>
-                <div id="queststory_main" role="tabpanel" aria-labelledby="queststory_main" class="tab-pane fade py-5">
-                    <input class="form-control" id="qs_m-search" type="text" placeholder="关键字搜索">
-                    <div id="queststory_main-div">
-                    </div>
-                </div>
-                <div id="unitstory_chara" role="tabpanel" aria-labelledby="unitstory_chara" class="tab-pane fade py-5">
-                    <input class="form-control" id="us_c-search" type="text" placeholder="关键字搜索">
-                    <div id="unitstory_chara-div">
-                    </div>
-                </div>
-                <div id="unitstory_dragon" role="tabpanel" aria-labelledby="unitstory_dragon" class="tab-pane fade py-5">
-                    <input class="form-control" id="us_d-search" type="text" placeholder="关键字搜索">
-                    <div id="unitstory_dragon-div">
-                    </div>
-                </div>
-            </div>
-            <!-- End rounded tabs -->
+  <body>
+    <div id="main-container" class="container py-5">
+      <div class="p-5 bg-white rounded shadow mb-5">
+        <div class="language-seletor">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Language
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="dropdown-en_us" class="dropdown-item">English (US)</a>
+            <a id="dropdown-ja_jp" class="dropdown-item">日本語</a>
+            <a id="dropdown-zh_cn" class="dropdown-item">简体中文</a>
+            <a id="dropdown-zh_tw" class="dropdown-item">繁體中文</a>
+          </div>
         </div>
+        <span id="update-time"> Recent update: N/A </span>
+        <br />
+        <span id="recommendation"></span>
+        <ul
+          id="myTab"
+          role="tablist"
+          class="nav nav-tabs nav-pills flex-column flex-sm-row text-center bg-light border-0 rounded-nav"
+        >
+          <li class="nav-item flex-sm-fill">
+            <a
+              id="castlestory-tab"
+              data-toggle="tab"
+              href="#castlestory"
+              role="tab"
+              aria-controls="castlestory"
+              aria-selected="true"
+              class="nav-link border-0 text-uppercase font-weight-bold active"
+              >castlestory</a
+            >
+          </li>
+          <li class="nav-item flex-sm-fill">
+            <a
+              id="queststory_event-tab"
+              data-toggle="tab"
+              href="#queststory_event"
+              role="tab"
+              aria-controls="queststory_event"
+              aria-selected="false"
+              class="nav-link border-0 text-uppercase font-weight-bold"
+              >queststory_event</a
+            >
+          </li>
+          <li class="nav-item flex-sm-fill">
+            <a
+              id="queststory_main-tab"
+              data-toggle="tab"
+              href="#queststory_main"
+              role="tab"
+              aria-controls="queststory_main"
+              aria-selected="false"
+              class="nav-link border-0 text-uppercase font-weight-bold"
+              >queststory_main</a
+            >
+          </li>
+          <li class="nav-item flex-sm-fill">
+            <a
+              id="unitstory_chara-tab"
+              data-toggle="tab"
+              href="#unitstory_chara"
+              role="tab"
+              aria-controls="unitstory_chara"
+              aria-selected="false"
+              class="nav-link border-0 text-uppercase font-weight-bold"
+              >unitstory_chara</a
+            >
+          </li>
+          <li class="nav-item flex-sm-fill">
+            <a
+              id="unitstory_dragon-tab"
+              data-toggle="tab"
+              href="#unitstory_dragon"
+              role="tab"
+              aria-controls="unitstory_dragon"
+              aria-selected="false"
+              class="nav-link border-0 text-uppercase font-weight-bold"
+              >unitstory_dragon</a
+            >
+          </li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+          <div
+            id="castlestory"
+            role="tabpanel"
+            aria-labelledby="castlestory"
+            class="tab-pane fade py-5 show active"
+          >
+            <input
+              class="form-control"
+              id="cs-search"
+              type="text"
+              placeholder="Search"
+            />
+            <div id="castlestory-div"></div>
+          </div>
+          <div
+            id="queststory_event"
+            role="tabpanel"
+            aria-labelledby="queststory_event"
+            class="tab-pane fade py-5"
+          >
+            <input
+              class="form-control"
+              id="qs_e-search"
+              type="text"
+              placeholder="Search"
+            />
+            <div id="queststory_event-div"></div>
+          </div>
+          <div
+            id="queststory_main"
+            role="tabpanel"
+            aria-labelledby="queststory_main"
+            class="tab-pane fade py-5"
+          >
+            <input
+              class="form-control"
+              id="qs_m-search"
+              type="text"
+              placeholder="Search"
+            />
+            <div id="queststory_main-div"></div>
+          </div>
+          <div
+            id="unitstory_chara"
+            role="tabpanel"
+            aria-labelledby="unitstory_chara"
+            class="tab-pane fade py-5"
+          >
+            <input
+              class="form-control"
+              id="us_c-search"
+              type="text"
+              placeholder="Search"
+            />
+            <div id="unitstory_chara-div"></div>
+          </div>
+          <div
+            id="unitstory_dragon"
+            role="tabpanel"
+            aria-labelledby="unitstory_dragon"
+            class="tab-pane fade py-5"
+          >
+            <input
+              class="form-control"
+              id="us_d-search"
+              type="text"
+              placeholder="Search"
+            />
+            <div id="unitstory_dragon-div"></div>
+          </div>
+        </div>
+        <!-- End rounded tabs -->
+      </div>
     </div>
-</body>
+  </body>
 
-<script src="./js/index.js" type="text/javascript"></script>
-
+  <script type="module" src="./js/index.js"></script>
 </html>

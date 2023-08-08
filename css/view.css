@@ -4,6 +4,35 @@ div {
 }
 */
 
+@font-face {
+    font-family: 'DLFont EN';
+    src: url('../fonts/itcavantgardestd-boldcn.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DLFont JP';
+    src: url('../fonts/fot-rodinntlgpro-b.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DLFont TC';
+    src: url('../fonts/arheib5.ttf') format('truetype');
+}
+
+/* https: //ponsyon.com/archives/6393 */
+/* Edge(Chromium)　*/
+_:lang(x)::-ms-,
+ruby>rt {
+    font-size: 100%;
+    zoom: 0.5;
+}
+/* Chrome　*/
+_:lang(x)::-internal-media-controls-overlay-cast-button,
+ruby>rt {
+    font-size: 100%;
+    zoom: 0.5;
+}
+
 body {
     min-width: 480px;
     width: 100%;
@@ -19,6 +48,9 @@ article {
     border-radius: 4px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     background-color: #FFFFFF;
+    /* background-image: url("../icons/mc-back-01.gif"); */
+    /* background-color: #ffe69d;
+    background-image: url("https://www.transparenttextures.com/patterns/textured-paper.png"); */
     overflow: hidden;
 }
 
@@ -40,7 +72,7 @@ https://stackoverflow.com/questions/43170563/margin-top-doesnt-work-as-intended
     grid-column: 1 / 2;
     text-align: left;
     padding: 5px;
-    font-family: 'Noto Sans SC', sans-serif;
+    /* font-family: 'Noto Sans SC', sans-serif; */
     font-weight: 700;
 }
 
@@ -49,7 +81,7 @@ https://stackoverflow.com/questions/43170563/margin-top-doesnt-work-as-intended
     grid-column: 2 / 3;
     text-align: center;
     padding: 5px;
-    font-family: 'Noto Sans SC', sans-serif;
+    /* font-family: 'Noto Sans SC', sans-serif; */
     font-weight: 700;
 }
 
@@ -58,13 +90,13 @@ https://stackoverflow.com/questions/43170563/margin-top-doesnt-work-as-intended
     grid-column: 3 / 4;
     text-align: right;
     padding: 5px;
-    font-family: 'Noto Sans SC', sans-serif;
+    /* font-family: 'Noto Sans SC', sans-serif; */
     font-weight: 700;
 }
 
 #narrator {
     text-align: center;
-    font-family: 'Noto Sans SC', sans-serif;
+    /* font-family: 'Noto Sans SC', sans-serif; */
     font-weight: 700;
 }
 
@@ -107,7 +139,7 @@ https://stackoverflow.com/questions/43170563/margin-top-doesnt-work-as-intended
     grid-row: 2 / 3;
     grid-column: 1 / 2;
     text-align: center;
-    font-family: 'Noto Sans SC', sans-serif;
+    /* font-family: 'Noto Sans SC', sans-serif; */
     font-size: 12px;
     font-weight: 600;
     margin-top: auto;
@@ -119,7 +151,7 @@ https://stackoverflow.com/questions/43170563/margin-top-doesnt-work-as-intended
     grid-column: 2 / 3;
     margin-top: auto;
     margin-bottom: auto;
-    font-family: 'Noto Sans SC', sans-serif;
+    /* font-family: 'Noto Sans SC', sans-serif; */
     font-weight: 700;
 }
 
