@@ -39,7 +39,7 @@ function setFont(language) {
       article.style.fontFamily = '"DLFont JP", sans-serif';
       break;
     case "zh_cn":
-      article.style.fontFamily = '"Noto Sans SC", sans-serif';
+      article.style.fontFamily = '"Noto Sans SC 700", sans-serif';
       break;
     case "zh_tw":
       article.style.fontFamily = '"DLFont TC", sans-serif';
@@ -64,7 +64,7 @@ function loadStory(story_path, language) {
       if (json.prev) {
         navi += `<div id="prev"><a href="../stories/view.html?type=${story_type}&id=${json.prev}&lang=${language}">${localizationText["prev_story"][language]}</a></div>`;
       }
-      navi += `<div id="index"><a href="../index.html#${story_type}">${localizationText["back_to_index"][language]}</a></div>`;
+      navi += `<div id="index"><a href="../index.html?lang=${language}#${story_type}">${localizationText["back_to_index"][language]}</a></div>`;
       if (json.next) {
         navi += `<div id="next"><a href="../stories/view.html?type=${story_type}&id=${json.next}&lang=${language}">${localizationText["next_story"][language]}</a></div>`;
       }
@@ -119,7 +119,7 @@ function rand404() {
   inner += `<div id="narrator">${localizationText["story_load_failed"][language]}~</div><br>`;
   inner += `<div id="narrator"><a href="https://store.line.me/stickershop/product/13819985">`;
   inner += `<img src="../icons/404/line${rand}.png" onerror="if (this.src != '../icons/DummyIcon.png') this.src = '../icons/DummyIcon.png';"/></a></div><br>`;
-  inner += `<div id="narrator"><a href="../index.html">${localizationText["back_to_index"][language]}</a></div>`;
+  inner += `<div id="narrator"><a href="../index.html&lang=${language}">${localizationText["back_to_index"][language]}</a></div>`;
   article.innerHTML += inner;
   console.log("failed while loading story script.");
 }

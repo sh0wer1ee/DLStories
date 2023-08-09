@@ -2,25 +2,6 @@
 https://bootstrapious.com/p/bootstrap-tabs
 */
 
-@font-face {
-    font-family: 'DLFont EN';
-    src: url('../fonts/itcavantgardestd-boldcn.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'DLFont JP';
-    src: url('../fonts/fot-rodinntlgpro-b.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'DLFont SC';
-    src: url('../fonts/hydaheis.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'DLFont TC';
-    src: url('../fonts/arheib5.ttf') format('truetype');
-}
 
 body {
     min-width: 480px;
@@ -38,19 +19,15 @@ body {
     justify-content: flex-end;
 }
 
-.book-background {
-    background-image: url("../icons/mc-back-01.gif");
-}
-
 #update-time {
     /* font-family: 'Noto Sans SC', sans-serif; */
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 10px;
     color: rgb(42, 51, 78);
 }
 #recommendation {
     /* font-family: 'Noto Sans SC', sans-serif; */
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 10px;
     color: rgb(42, 51, 78);
 }
@@ -78,7 +55,7 @@ body {
 
 .castlestory-items {
     position: relative;
-    font-weight: 600;
+    /* font-weight: 600; */
     justify-content: center;
     text-align: center;
     margin-top: 15px;
@@ -142,7 +119,7 @@ body {
     text-align: center;
     /* font-family: 'Noto Sans SC', sans-serif; */
     font-size: 12px;
-    font-weight: 600;
+    /* font-weight: 600; */
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -154,7 +131,7 @@ body {
     margin-bottom: auto;
     /* font-family: 'Noto Sans SC', sans-serif; */
     font-size: 13px;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 #story-group-unit-icon img {
