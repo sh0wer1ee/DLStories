@@ -77,16 +77,16 @@ function setFont(language) {
   var container = document.getElementById("main-container");
   switch (language) {
     case "en_us":
-      container.style.fontFamily = '"DLFont EN", sans-serif';
+      container.style.fontFamily = '"Roboto Condensed 700", sans-serif';
       break;
     case "ja_jp":
-      container.style.fontFamily = '"DLFont JP", sans-serif';
+      container.style.fontFamily = '"Noto Sans JP 700", sans-serif';
       break;
     case "zh_cn":
       container.style.fontFamily = '"Noto Sans SC 700", sans-serif';
       break;
     case "zh_tw":
-      container.style.fontFamily = '"DLFont TC", sans-serif';
+      container.style.fontFamily = '"Noto Sans TC", sans-serif';
       break;
   }
 }

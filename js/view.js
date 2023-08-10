@@ -33,16 +33,16 @@ if (story_type && story_id) {
 function setFont(language) {
   switch (language) {
     case "en_us":
-      article.style.fontFamily = '"DLFont EN", sans-serif';
+      article.style.fontFamily = '"Roboto Condensed 700", sans-serif';
       break;
     case "ja_jp":
-      article.style.fontFamily = '"DLFont JP", sans-serif';
+      article.style.fontFamily = '"Noto Sans JP 700", sans-serif';
       break;
     case "zh_cn":
       article.style.fontFamily = '"Noto Sans SC 700", sans-serif';
       break;
     case "zh_tw":
-      article.style.fontFamily = '"DLFont TC", sans-serif';
+      article.style.fontFamily = '"Noto Sans TC", sans-serif';
       break;
     default:
       console.log('lang can only be "en_us", "ja_jp", "zh_cn", "zh_tw"!');
