@@ -96,6 +96,18 @@
           <label class="btn btn-outline-primary" for="btnradio4"
             >Datrt'd Kemfaefi->English</label
           >
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="btnradio5"
+            value="5"
+            autocomplete="off"
+          />
+          <label class="btn btn-outline-primary" for="btnradio5"
+            >R.S語->日本語</label
+          >
         </div>
 
         <div class="input-group mb-2">
@@ -115,7 +127,7 @@
             class="btn btn-success mb-2"
             onclick="window.translate()"
           >
-            LfnRq！| rtemdkeri!
+            LfnRq！| rtemdkeri! | 転換D￥！
           </button>
         </div>
         <div class="input-group mb-2">
@@ -149,11 +161,15 @@
       SURTR2ZH: "2",
       EN2SURTR: "3",
       SURTR2EN: "4",
+      SURTR2JP: "5"
     };
     var eSMap = {};
     var sEMap = {};
     var wubiMapKeyWord = {};
     var wubiMapWordKey = {};
+    var youonMapRomaji = {};
+    var gojuuonMapRomaji = {};
+    var kanaMap = {};
     var status = transType.ZH2SURTR;
 
     function init() {
@@ -174,7 +190,7 @@
         status = this.value;
       });
 
-      fetch("./wubi")
+      fetch("./json/wubi.json")
         .then(function (response) {
           if (!response.ok) {
             throw Error(response.statusText);
@@ -187,8 +203,54 @@
           wubiMapWordKey = json["word-key"];
         })
         .catch(function (error) {
-          console.log("load data json failed.");
+          console.log("load wubi json failed.");
         });
+
+      fetch("./json/youon.json")
+        .then(function (response) {
+          if (!response.ok) {
+            throw Error(response.statusText);
+          }
+          return response;
+        })
+        .then((response) => response.json())
+        .then((json) => {
+          youonMapRomaji = json;
+        })
+        .catch(function (error) {
+          console.log("load youon json failed.");
+        });
+
+      fetch("./json/gojuuon.json")
+        .then(function (response) {
+          if (!response.ok) {
+            throw Error(response.statusText);
+          }
+          return response;
+        })
+        .then((response) => response.json())
+        .then((json) => {
+          gojuuonMapRomaji = json;
+        })
+        .catch(function (error) {
+          console.log("load gojuuon json failed.");
+        });
+
+      fetch("./json/kana.json")
+        .then(function (response) {
+          if (!response.ok) {
+            throw Error(response.statusText);
+          }
+          return response;
+        })
+        .then((response) => response.json())
+        .then((json) => {
+          kanaMap = json;
+        })
+        .catch(function (error) {
+          console.log("load kana json failed.");
+        });
+
     }
 
     function translate() {
@@ -204,6 +266,9 @@
           break;
         case transType.SURTR2EN:
           translateS2E();
+          break;
+        case transType.SURTR2JP:
+          translateS2J();
           break;
       }
     }
@@ -255,8 +320,25 @@
       [...input].map((char, index) => {
         output += char in eSMap ? eSMap[char] : char;
       });
-
+      
       $("#output-textarea").val(output);
+    }
+    function translateS2J() {
+      var text = $("#input-textarea").val();
+      Object.keys(youonMapRomaji).forEach(key => {
+        text = text.replaceAll(key, youonMapRomaji[key]);
+      });
+      console.log(text);
+      Object.keys(gojuuonMapRomaji).forEach(key => {
+        text = text.replaceAll(key, gojuuonMapRomaji[key]);
+      });
+      console.log(text);
+      Object.keys(kanaMap).forEach(key => {
+        text = text.replaceAll(key, kanaMap[key]);
+      });
+      console.log(text);
+
+      $("#output-textarea").val(text);
     }
 
     init();

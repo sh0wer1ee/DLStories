@@ -1,6 +1,6 @@
 # DLStories
 
-An experimental *Dragalia Lost* stories archive site. 
+An experimental *Dragalia Lost* stories archive site aka *Dragalia lost story viewer*. 
 
 Including: `Castle Story`, `Main Story`, `Event Story`, `Unit Story`, `Dragon Story`.
 
@@ -11,23 +11,23 @@ Supported Languages:
 - [x] 繁體中文
 
 Fonts Substitution (Copyrights problem):
-||In game|Substitution|result|
-|-|-|-|-|
-|English|ITC Avant Garde Std|Roboto Condensed|*SO SO*|
-|日本語|fot-rodinntlgpro-b|Noto Sans JP|Perfect|
-|简体中文|汉仪大黑S|Noto Sans SC|Perfect|
-|繁體中文|文鼎黑體_B|Noto Sans TC|*Not Good*|
+|          | In game             | Substitution     | result        |
+| -------- | ------------------- | ---------------- | ------------- |
+| English  | ITC Avant Garde Std | Roboto Condensed | * ¯\_(ツ)_/¯* |
+| 日本語   | fot-rodinntlgpro-b  | Noto Sans JP     | Perfect       |
+| 简体中文 | 汉仪大黑S           | Noto Sans SC     | Perfect       |
+| 繁體中文 | 文鼎黑體_B          | Noto Sans TC     | *Not Good*    |
 
 
 ## Demo
 
-- [gitee page](https://sh0wer1ee.gitee.io/dlstories/) **Currently down**
+- ~~[gitee page](https://sh0wer1ee.gitee.io/dlstories/) **Currently down**~~
 - [github page](https://sh0wer1ee.github.io/DLStories/) **(audio available)**
 
 ## Other Tools
 
 - [Talisman DIY](https://sh0wer1ee.github.io/DLStories/talismandiy) 
-- [Surtr Language Translator](https://sh0wer1ee.github.io/DLStories/translator) (**Only CHS and EN supported**)
+- [Surtr Language Translator](https://sh0wer1ee.github.io/DLStories/translator)
 
 ## TODO list
 
@@ -42,7 +42,7 @@ Fonts Substitution (Copyrights problem):
 - [x] Add voices (impossible in gitee but you can test ghpage)
 - [x] Adjust python scripts (like DLPortraits to deal with increment update)
 - [ ] Add event CG or event video
-- [ ] Generate portrait icons with proper emotion (impossible)
-- [ ] Sorting by release date (need help)
+- [ ] Generate portrait icons with proper emotion (nearly impossible)
+- [ ] Sorting by release date
 - [ ] Reconstruct with React
 

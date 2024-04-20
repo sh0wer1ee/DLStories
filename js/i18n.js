@@ -1,7 +1,7 @@
 export const localizationText = {
   // index.html
   title: {
-    en_us: "Dragalia Lost Story Archive",
+    en_us: "Dragalia Lost Story Viewer",
     ja_jp: "ドラガリアロスト　ストーリーアーカイブ",
     zh_cn: "失落的龙约 剧情档案馆",
     zh_tw: "失落的龍絆 劇情檔案館",

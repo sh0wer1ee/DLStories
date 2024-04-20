@@ -211,7 +211,7 @@ def parseMonoJP(tree, storyname):
                                 if firstArgs[0] not in debug_unknown[storyname]["id"]:
                                     debug_unknown[storyname]["id"].append(firstArgs[0])
 
-                            # connot genarate name
+                            # cannot genarate name
                             if firstArgs[0] == getNameByFuncIdJP(firstArgs[0]):
                                 if storyname not in debug_unknown:
                                     debug_unknown[storyname] = {"id": [], "name": []}
